@@ -46,7 +46,7 @@ jobs:
         env:
           GCP_SA_KEY_JSON: ${{ secrets.GCP_SA_KEY_JSON }}
 
-      # Step 5a: Test X posting (if requested)
+      # Step 5a: Test X posting (API connection test only)
       - name: Test X Posting
         if: ${{ github.event.inputs.test_x_posting == 'true' }}
         env:
@@ -57,7 +57,7 @@ jobs:
         run: |
           cd x && python main.py --test-x
 
-      # Step 5b: Run the main script (if not testing)
+      # Step 5b: Full workflow (fetch → generate → post)
       - name: Run X Trend Agent
         if: ${{ github.event.inputs.test_x_posting != 'true' }}
         env:
@@ -69,9 +69,9 @@ jobs:
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-          ENABLE_X_POSTING: 'false'
+          ENABLE_X_POSTING: 'true'
         run: |
-          cd x && python main.py
+          cd x && python main.py --post-to-x
 
       # Step 6: Cleanup sensitive files
       - name: Cleanup
