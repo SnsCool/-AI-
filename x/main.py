@@ -152,12 +152,123 @@ def validate_environment():
 
 
 # =============================================================================
-# Apify: Tweet Fetching
+# X API: Tweet Fetching (Primary method - no cost)
+# =============================================================================
+
+def fetch_tweets_with_x_api(username: str, max_results: int = 10) -> list[dict]:
+    """
+    Fetch tweets from a user using X API (tweepy).
+
+    Args:
+        username: Twitter username (without @)
+        max_results: Maximum number of tweets to fetch
+
+    Returns:
+        List of tweet data dictionaries
+    """
+    print(f"Fetching tweets from @{username} using X API...")
+
+    # Check if X API credentials are available
+    if not all([X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET]):
+        print("  X API credentials not available")
+        return []
+
+    try:
+        # Create tweepy client (v2 API)
+        client = tweepy.Client(
+            consumer_key=X_API_KEY,
+            consumer_secret=X_API_SECRET,
+            access_token=X_ACCESS_TOKEN,
+            access_token_secret=X_ACCESS_TOKEN_SECRET
+        )
+
+        # Get user ID from username
+        user = client.get_user(username=username)
+        if not user.data:
+            print(f"  User @{username} not found")
+            return []
+
+        user_id = user.data.id
+        print(f"  Found user ID: {user_id}")
+
+        # Fetch user's tweets
+        tweets_response = client.get_users_tweets(
+            id=user_id,
+            max_results=min(max_results, 100),  # API limit
+            tweet_fields=["created_at", "public_metrics", "attachments"],
+            expansions=["attachments.media_keys"],
+            media_fields=["type", "url", "preview_image_url", "variants"]
+        )
+
+        if not tweets_response.data:
+            print("  No tweets found")
+            return []
+
+        # Convert to list of dicts
+        tweets = []
+        media_dict = {}
+
+        # Build media lookup dict
+        if tweets_response.includes and "media" in tweets_response.includes:
+            for media in tweets_response.includes["media"]:
+                media_dict[media.media_key] = media
+
+        for tweet in tweets_response.data:
+            tweet_dict = {
+                "id": tweet.id,
+                "id_str": str(tweet.id),
+                "text": tweet.text,
+                "full_text": tweet.text,
+                "created_at": str(tweet.created_at) if tweet.created_at else None,
+                "favorite_count": tweet.public_metrics.get("like_count", 0) if tweet.public_metrics else 0,
+                "retweet_count": tweet.public_metrics.get("retweet_count", 0) if tweet.public_metrics else 0,
+            }
+
+            # Add media info if available
+            if tweet.attachments and "media_keys" in tweet.attachments:
+                media_list = []
+                for media_key in tweet.attachments["media_keys"]:
+                    if media_key in media_dict:
+                        media = media_dict[media_key]
+                        media_info = {
+                            "type": media.type,
+                            "url": getattr(media, "url", None),
+                            "preview_image_url": getattr(media, "preview_image_url", None),
+                        }
+                        # Add video variants if available
+                        if hasattr(media, "variants") and media.variants:
+                            media_info["video_info"] = {
+                                "variants": media.variants
+                            }
+                        media_list.append(media_info)
+
+                if media_list:
+                    tweet_dict["media"] = media_list
+                    tweet_dict["extended_entities"] = {"media": media_list}
+
+            tweets.append(tweet_dict)
+
+        print(f"  ✓ Fetched {len(tweets)} tweets from X API")
+        return tweets
+
+    except tweepy.errors.Forbidden as e:
+        print(f"  X API access denied (may need paid tier): {e}")
+        return []
+    except tweepy.errors.Unauthorized as e:
+        print(f"  X API unauthorized: {e}")
+        return []
+    except Exception as e:
+        print(f"  X API error: {e}")
+        return []
+
+
+# =============================================================================
+# Apify: Tweet Fetching (Fallback method)
 # =============================================================================
 
 def fetch_tweets_with_video(query: str, max_results: int = 5) -> list[dict]:
     """
-    Fetch tweets containing videos using Apify's tweet-scraper.
+    Fetch tweets - tries X API first, falls back to Apify.
 
     Args:
         query: Search query for tweets
@@ -168,33 +279,45 @@ def fetch_tweets_with_video(query: str, max_results: int = 5) -> list[dict]:
     """
     print(f"Fetching tweets with query: '{query}'")
 
-    client = ApifyClient(APIFY_TOKEN)
+    # Try X API first (free)
+    tweets = fetch_tweets_with_x_api(TARGET_X_USERNAME, max_results * 2)
 
-    # Prepare the Actor input
-    # Format compatible with web.harvester/twitter-scraper
-    run_input = {
-        "twitterHandles": [TARGET_X_USERNAME],  # Twitter handles to scrape
-        "maxTweets": max_results * 2,  # Fetch more to filter for videos
-    }
+    if tweets:
+        print(f"✓ Using X API results")
+    else:
+        # Fall back to Apify
+        print("Falling back to Apify...")
 
-    # Run the Actor and wait for it to finish
-    print(f"Using Actor: {APIFY_ACTOR_ID}", flush=True)
-    run = client.actor(APIFY_ACTOR_ID).call(run_input=run_input)
+        if not APIFY_TOKEN:
+            print("  APIFY_TOKEN not set, skipping Apify")
+            return []
 
-    # Fetch results from the run's dataset
-    tweets = []
-    for item in client.dataset(run["defaultDatasetId"]).iterate_items():
-        tweets.append(item)
+        try:
+            client = ApifyClient(APIFY_TOKEN)
 
-    print(f"✓ Fetched {len(tweets)} tweets from Apify", flush=True)
+            # Prepare the Actor input
+            run_input = {
+                "twitterHandles": [TARGET_X_USERNAME],
+                "maxTweets": max_results * 2,
+            }
 
-    # Debug: Print first tweet structure as JSON
+            print(f"  Using Actor: {APIFY_ACTOR_ID}", flush=True)
+            run = client.actor(APIFY_ACTOR_ID).call(run_input=run_input)
+
+            tweets = []
+            for item in client.dataset(run["defaultDatasetId"]).iterate_items():
+                tweets.append(item)
+
+            print(f"  ✓ Fetched {len(tweets)} tweets from Apify")
+        except Exception as e:
+            print(f"  Apify error: {e}")
+            return []
+
+    # Debug: Print first tweet structure
     if tweets:
         print(f"\n========== DEBUG: FIRST TWEET STRUCTURE ==========", flush=True)
         print(f"Keys: {list(tweets[0].keys())}", flush=True)
-        # Print full first tweet as JSON (limited)
         first_tweet_json = json.dumps(tweets[0], indent=2, default=str)
-        # Limit output to first 2000 chars
         if len(first_tweet_json) > 2000:
             first_tweet_json = first_tweet_json[:2000] + "\n... (truncated)"
         print(first_tweet_json, flush=True)
