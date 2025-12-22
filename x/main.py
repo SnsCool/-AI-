@@ -57,7 +57,9 @@ SEARCH_QUERY = f"from:{TARGET_X_USERNAME} filter:video"
 MAX_TWEETS = 5
 
 # Apify Actor ID for tweet scraping
-APIFY_ACTOR_ID = "apidojo/tweet-scraper"
+# Note: "apidojo/tweet-scraper" requires paid plan
+# Using "shanes/tweet-scraper" as free alternative
+APIFY_ACTOR_ID = "shanes/tweet-scraper"
 
 # Gemini model to use
 GEMINI_MODEL = "gemini-2.0-flash-exp"
@@ -170,14 +172,15 @@ def fetch_tweets_with_video(query: str, max_results: int = 5) -> list[dict]:
     client = ApifyClient(APIFY_TOKEN)
 
     # Prepare the Actor input
+    # Format compatible with shanes/tweet-scraper
     run_input = {
         "searchTerms": [query],
-        "maxTweets": max_results * 2,  # Fetch more to filter for videos
-        "addUserInfo": True,
-        "scrapeTweetReplies": False,
+        "tweetsDesired": max_results * 2,  # Fetch more to filter for videos
+        "includeUserInfo": True,
     }
 
     # Run the Actor and wait for it to finish
+    print(f"Using Actor: {APIFY_ACTOR_ID}", flush=True)
     run = client.actor(APIFY_ACTOR_ID).call(run_input=run_input)
 
     # Fetch results from the run's dataset
