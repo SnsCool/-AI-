@@ -16,8 +16,9 @@
 5. orchestrator.py でregisterを呼び出し
 """
 
-from .base import BaseAgent, AgentResult, AgentContext
-from .registry import AgentRegistry
+# サブフォルダ（execution/, judgment/, generation/）に配置する場合のインポート
+from ..base import BaseAgent, AgentResult, AgentContext
+from ..registry import AgentRegistry
 
 
 class NewAgent(BaseAgent):
