@@ -1,0 +1,23 @@
+# X Trend Video Fetcher & Mimic Post Generator
+# Dependencies for the AI agent system
+
+# Apify - X/Twitter data scraping
+apify-client==1.7.1
+
+# Google Gemini - Text generation
+google-generativeai==0.8.3
+
+# Google Drive API
+google-api-python-client==2.155.0
+google-auth==2.36.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1
+
+# HTTP requests for video download
+requests==2.32.3
+
+# Environment variables
+python-dotenv==1.0.1
+
+# X (Twitter) API - for posting tweets with media
+tweepy==4.14.0
