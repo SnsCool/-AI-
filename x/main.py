@@ -62,6 +62,9 @@ MAX_TWEETS_PER_ACCOUNT = 1
 # Total maximum tweets to process (for the workflow)
 MAX_TWEETS = 10
 
+# Maximum posts per day (business rule: 1日5投稿まで)
+MAX_POSTS_PER_DAY = 5
+
 # Gemini model to use
 GEMINI_MODEL = "gemini-2.0-flash-exp"
 
@@ -913,7 +916,7 @@ def test_x_posting():
 # Main Processing
 # =============================================================================
 
-def process_tweets(format_name: str = None, skip_x_post: bool = True):
+def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts: int = MAX_POSTS_PER_DAY):
     """
     Main function to process tweets and upload results.
 
@@ -928,11 +931,14 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True):
     Args:
         format_name: Optional format template name to use
         skip_x_post: Skip X posting (default True for safety)
+        max_posts: Maximum posts per day (default: MAX_POSTS_PER_DAY)
     """
     print("=" * 60)
     print("X Trend Video Fetcher & Mimic Post Generator")
     print("統合ワークフロー版")
     print("=" * 60)
+    print()
+    print(f"Business Rules: Max {max_posts} posts/day, fetching from {len(TARGET_X_USERNAMES)} accounts")
     print()
 
     # Validate environment
@@ -1075,14 +1081,20 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True):
         print("=" * 40)
 
         if not skip_x_post and ENABLE_X_POSTING and generated_posts:
-            print(f"X posting is enabled. Posting {len(generated_posts)} tweets to X...")
+            # Apply max_posts limit
+            posts_to_publish = generated_posts[:max_posts]
+            print(f"X posting is enabled. Posting {len(posts_to_publish)} tweets to X (max: {max_posts})...")
+
+            if len(generated_posts) > max_posts:
+                print(f"  ⚠ Limiting from {len(generated_posts)} to {max_posts} posts (daily limit)")
+
             try:
                 client, api = get_x_client()
                 posted_count = 0
 
-                # Post all generated content
-                for idx, post in enumerate(generated_posts):
-                    print(f"\n  [{idx + 1}/{len(generated_posts)}] Posting tweet...")
+                # Post limited content
+                for idx, post in enumerate(posts_to_publish):
+                    print(f"\n  [{idx + 1}/{len(posts_to_publish)}] Posting tweet...")
 
                     try:
                         media_id = upload_video_to_x(api, post["video_path"])
@@ -1102,12 +1114,12 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True):
                         continue
 
                     # Wait between posts to avoid rate limiting (except for last post)
-                    if idx < len(generated_posts) - 1:
+                    if idx < len(posts_to_publish) - 1:
                         import time
                         print("    Waiting 30 seconds before next post...")
                         time.sleep(30)
 
-                print(f"\n✓ Posted {posted_count}/{len(generated_posts)} tweets to X!")
+                print(f"\n✓ Posted {posted_count}/{len(posts_to_publish)} tweets to X!")
 
             except Exception as e:
                 print(f"✗ X posting failed: {e}")
@@ -1192,6 +1204,13 @@ if __name__ == "__main__":
         type=str,
         metavar="REQUEST",
         help="Request to send to Commander Agent (use with --commander)"
+    )
+    parser.add_argument(
+        "--max-posts",
+        type=int,
+        default=MAX_POSTS_PER_DAY,
+        metavar="N",
+        help=f"Maximum posts per day (default: {MAX_POSTS_PER_DAY})"
     )
 
     args = parser.parse_args()
@@ -1318,5 +1337,6 @@ if __name__ == "__main__":
         # Run main process with workflow integration
         process_tweets(
             format_name=args.format,
-            skip_x_post=not args.post_to_x
+            skip_x_post=not args.post_to_x,
+            max_posts=args.max_posts
         )

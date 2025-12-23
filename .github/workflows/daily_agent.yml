@@ -4,9 +4,9 @@
 name: Daily X Trend Agent
 
 on:
-  # Scheduled execution: Every day at 0:00 UTC (9:00 JST)
+  # Scheduled execution: Every day at 22:00 UTC (7:00 JST next day)
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 22 * * *'
 
   # Allow manual trigger
   workflow_dispatch:
@@ -26,6 +26,11 @@ on:
         required: false
         type: string
         default: 'X投稿ワークフローを実行してください'
+      max_posts:
+        description: 'Maximum posts per day (default: 5)'
+        required: false
+        type: number
+        default: 5
 
 jobs:
   fetch-and-generate:
@@ -80,7 +85,7 @@ jobs:
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           ENABLE_X_POSTING: 'true'
         run: |
-          cd x && python main.py --commander --request "${{ github.event.inputs.commander_request }}"
+          cd x && python main.py --commander --request "${{ github.event.inputs.commander_request }}" --max-posts ${{ github.event.inputs.max_posts || 5 }}
 
       # Step 5c: Full workflow (fetch → generate → post) - Fixed flow
       - name: Run X Trend Agent
@@ -95,7 +100,7 @@ jobs:
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           ENABLE_X_POSTING: 'true'
         run: |
-          cd x && python main.py --post-to-x
+          cd x && python main.py --post-to-x --max-posts ${{ github.event.inputs.max_posts || 5 }}
 
       # Step 6: Cleanup sensitive files
       - name: Cleanup
