@@ -57,7 +57,7 @@ TARGET_X_USERNAMES = [
 ]
 
 # Number of tweets to fetch per account
-MAX_TWEETS_PER_ACCOUNT = 3
+MAX_TWEETS_PER_ACCOUNT = 1
 
 # Gemini model to use
 GEMINI_MODEL = "gemini-2.0-flash-exp"
@@ -189,10 +189,10 @@ def fetch_tweets_from_accounts(usernames: list[str], max_per_account: int = 3) -
                 user_id = user.data.id
                 print(f"    Found user ID: {user_id}")
 
-                # Fetch user's tweets
+                # Fetch user's tweets (X API requires min 5, so fetch 5 and take what we need)
                 tweets_response = client.get_users_tweets(
                     id=user_id,
-                    max_results=min(max_per_account, 100),
+                    max_results=max(5, min(max_per_account, 100)),
                     tweet_fields=["created_at", "public_metrics", "attachments"],
                     expansions=["attachments.media_keys", "author_id"],
                     media_fields=["type", "url", "preview_image_url", "variants"],
@@ -209,8 +209,9 @@ def fetch_tweets_from_accounts(usernames: list[str], max_per_account: int = 3) -
                     for media in tweets_response.includes["media"]:
                         media_dict[media.media_key] = media
 
-                # Process tweets
-                for tweet in tweets_response.data:
+                # Process tweets (limit to max_per_account)
+                tweets_to_process = tweets_response.data[:max_per_account]
+                for tweet in tweets_to_process:
                     tweet_dict = {
                         "id": tweet.id,
                         "id_str": str(tweet.id),
@@ -245,7 +246,7 @@ def fetch_tweets_from_accounts(usernames: list[str], max_per_account: int = 3) -
 
                     all_tweets.append(tweet_dict)
 
-                print(f"    ✓ Fetched {len(tweets_response.data)} tweets")
+                print(f"    ✓ Using {len(tweets_to_process)} tweet(s)")
 
             except tweepy.errors.Forbidden as e:
                 print(f"    X API access denied for @{username}: {e}")
