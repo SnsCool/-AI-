@@ -4,11 +4,12 @@
 name: Daily X Trend Agent
 
 on:
-  # Scheduled execution: 7:00, 9:00, 20:00 JST
+  # Scheduled execution: 7:00, 9:00, 18:00(test), 20:00 JST
   schedule:
-    - cron: '0 22 * * *'   # JST 7:00
-    - cron: '0 0 * * *'    # JST 9:00
-    - cron: '0 11 * * *'   # JST 20:00
+    - cron: '0 22 * * *'   # JST 7:00 - Full workflow
+    - cron: '0 0 * * *'    # JST 9:00 - Full workflow
+    - cron: '35 9 * * *'   # JST 18:35 - Test posting only
+    - cron: '0 11 * * *'   # JST 20:00 - Full workflow
 
   # Allow manual trigger
   workflow_dispatch:
@@ -64,8 +65,9 @@ jobs:
           GCP_SA_KEY_JSON: ${{ secrets.GCP_SA_KEY_JSON }}
 
       # Step 5a: Test X posting (API connection test only)
+      # Runs on: manual trigger with test_x_posting=true OR scheduled at JST 18:00 (UTC 9:00)
       - name: Test X Posting
-        if: ${{ github.event.inputs.test_x_posting == 'true' }}
+        if: ${{ github.event.inputs.test_x_posting == 'true' || github.event.schedule == '35 9 * * *' }}
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
@@ -91,8 +93,9 @@ jobs:
           cd x && python main.py --commander --request "${{ github.event.inputs.commander_request }}" --max-posts ${{ github.event.inputs.max_posts || 5 }}
 
       # Step 5c: Full workflow (fetch → generate → post) - Fixed flow
+      # Skip if: test_x_posting=true, use_commander=true, or scheduled at JST 18:00 (test only)
       - name: Run X Trend Agent
-        if: ${{ github.event.inputs.use_commander != 'true' && github.event.inputs.test_x_posting != 'true' }}
+        if: ${{ github.event.inputs.use_commander != 'true' && github.event.inputs.test_x_posting != 'true' && github.event.schedule != '35 9 * * *' }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
