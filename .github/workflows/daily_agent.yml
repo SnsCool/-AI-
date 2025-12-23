@@ -16,6 +16,16 @@ on:
         required: false
         type: boolean
         default: false
+      use_commander:
+        description: 'Use Commander Agent (AI-driven task routing)'
+        required: false
+        type: boolean
+        default: false
+      commander_request:
+        description: 'Request to Commander Agent (if use_commander is true)'
+        required: false
+        type: string
+        default: 'X投稿ワークフローを実行してください'
 
 jobs:
   fetch-and-generate:
@@ -57,9 +67,24 @@ jobs:
         run: |
           cd x && python main.py --test-x
 
-      # Step 5b: Full workflow (fetch → generate → post)
+      # Step 5b: Commander mode (AI-driven task routing)
+      - name: Run Commander Agent
+        if: ${{ github.event.inputs.use_commander == 'true' && github.event.inputs.test_x_posting != 'true' }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+          GCP_SA_KEY_JSON: ${{ secrets.GCP_SA_KEY_JSON }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          ENABLE_X_POSTING: 'true'
+        run: |
+          cd x && python main.py --commander --request "${{ github.event.inputs.commander_request }}"
+
+      # Step 5c: Full workflow (fetch → generate → post) - Fixed flow
       - name: Run X Trend Agent
-        if: ${{ github.event.inputs.test_x_posting != 'true' }}
+        if: ${{ github.event.inputs.use_commander != 'true' && github.event.inputs.test_x_posting != 'true' }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}

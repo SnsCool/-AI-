@@ -59,6 +59,9 @@ TARGET_X_USERNAMES = [
 # Number of tweets to fetch per account
 MAX_TWEETS_PER_ACCOUNT = 1
 
+# Total maximum tweets to process (for the workflow)
+MAX_TWEETS = 10
+
 # Gemini model to use
 GEMINI_MODEL = "gemini-2.0-flash-exp"
 
@@ -1179,10 +1182,77 @@ if __name__ == "__main__":
         action="store_true",
         help="Enable posting to X (disabled by default)"
     )
+    parser.add_argument(
+        "--commander",
+        action="store_true",
+        help="Use Commander Agent to orchestrate tasks (AI-driven task routing)"
+    )
+    parser.add_argument(
+        "--request",
+        type=str,
+        metavar="REQUEST",
+        help="Request to send to Commander Agent (use with --commander)"
+    )
 
     args = parser.parse_args()
 
-    if args.list_formats:
+    if args.commander:
+        # Run Commander Agent orchestration mode
+        print("=" * 60)
+        print("Commander Agent Mode")
+        print("=" * 60)
+        print()
+
+        # Get request from argument or use default
+        request = args.request or "X投稿ワークフローを実行してください"
+        print(f"Request: {request}")
+        print()
+
+        try:
+            # Import and register agents
+            from agents.registry import AgentRegistry
+            from agents.commander.commander import CommanderAgent
+            from agents.execution.x_posting import XPostingAgent
+
+            # Register agents
+            print("Registering agents...")
+            AgentRegistry.register(CommanderAgent())
+            AgentRegistry.register(XPostingAgent())
+            print()
+
+            # Get commander and orchestrate
+            commander = AgentRegistry.get_commander()
+            if not commander:
+                print("✗ Commander agent not found")
+                sys.exit(1)
+
+            print(f"Starting orchestration with Commander Agent...")
+            print()
+
+            result = commander.orchestrate(request)
+
+            print()
+            print("=" * 60)
+            print("Orchestration Result")
+            print("=" * 60)
+            print(f"Success: {result.success}")
+            print(f"Message: {result.message}")
+            if result.data:
+                print(f"Data: {json.dumps(result.data, ensure_ascii=False, indent=2)}")
+            if result.error:
+                print(f"Error: {result.error}")
+
+        except ImportError as e:
+            print(f"✗ Failed to import agents: {e}")
+            print("Make sure you're running from the x/ directory")
+            sys.exit(1)
+        except Exception as e:
+            print(f"✗ Commander failed: {e}")
+            import traceback
+            traceback.print_exc()
+            sys.exit(1)
+
+    elif args.list_formats:
         # List available formats
         print("Available format templates:")
         for fmt in list_available_formats():
