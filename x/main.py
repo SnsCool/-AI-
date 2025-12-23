@@ -66,7 +66,7 @@ MAX_TWEETS = 10
 MAX_POSTS_PER_DAY = 5
 
 # Gemini model to use
-GEMINI_MODEL = "gemini-1.5-flash"
+GEMINI_MODEL = "gemini-1.5-flash-latest"
 
 # =============================================================================
 # Workflow Integration Paths

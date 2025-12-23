@@ -46,7 +46,7 @@ class CommanderAgent(BaseAgent):
         if self._gemini_api_key:
             genai.configure(api_key=self._gemini_api_key)
             self._model = genai.GenerativeModel(
-                model_name="gemini-1.5-flash",
+                model_name="gemini-1.5-flash-latest",
                 system_instruction=self._get_system_prompt()
             )
             self.log("Gemini model initialized")
