@@ -121,6 +121,7 @@ X_API_KEY = get_env("X_API_KEY")
 X_API_SECRET = get_env("X_API_SECRET")
 X_ACCESS_TOKEN = get_env("X_ACCESS_TOKEN")
 X_ACCESS_TOKEN_SECRET = get_env("X_ACCESS_TOKEN_SECRET")
+X_BEARER_TOKEN = get_env("X_BEARER_TOKEN")  # Required for fetching other users' tweets
 
 # Enable/disable X posting (set to True to actually post)
 ENABLE_X_POSTING = os.getenv("ENABLE_X_POSTING", "false").lower() == "true"
@@ -136,6 +137,7 @@ def validate_environment():
         "X_API_SECRET": X_API_SECRET,
         "X_ACCESS_TOKEN": X_ACCESS_TOKEN,
         "X_ACCESS_TOKEN_SECRET": X_ACCESS_TOKEN_SECRET,
+        "X_BEARER_TOKEN": X_BEARER_TOKEN,
     }
 
     missing = [name for name, value in required_vars.items() if not value]
@@ -166,21 +168,16 @@ def fetch_tweets_from_accounts(usernames: list[str], max_per_account: int = 3) -
     print(f"Fetching tweets from {len(usernames)} accounts using X API...")
     print(f"  Accounts: {', '.join(['@' + u for u in usernames])}")
 
-    # Check if X API credentials are available
-    if not all([X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET]):
-        print("  X API credentials not available")
+    # Check if X API credentials are available (Bearer Token required for fetching)
+    if not X_BEARER_TOKEN:
+        print("  X_BEARER_TOKEN not available - required for fetching other users' tweets")
         return []
 
     all_tweets = []
 
     try:
-        # Create tweepy client (v2 API)
-        client = tweepy.Client(
-            consumer_key=X_API_KEY,
-            consumer_secret=X_API_SECRET,
-            access_token=X_ACCESS_TOKEN,
-            access_token_secret=X_ACCESS_TOKEN_SECRET
-        )
+        # Create tweepy client with Bearer Token (required for fetching other users' tweets)
+        client = tweepy.Client(bearer_token=X_BEARER_TOKEN)
 
         for username in usernames:
             print(f"\n  Fetching from @{username}...")
