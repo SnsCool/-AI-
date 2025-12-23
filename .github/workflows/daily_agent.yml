@@ -4,9 +4,11 @@
 name: Daily X Trend Agent
 
 on:
-  # Scheduled execution: Every day at 22:00 UTC (7:00 JST next day)
+  # Scheduled execution: 7:00, 9:00, 20:00 JST
   schedule:
-    - cron: '0 22 * * *'
+    - cron: '0 22 * * *'   # JST 7:00
+    - cron: '0 0 * * *'    # JST 9:00
+    - cron: '0 11 * * *'   # JST 20:00
 
   # Allow manual trigger
   workflow_dispatch:
