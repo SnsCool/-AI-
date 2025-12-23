@@ -1017,19 +1017,17 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
             print(f"\n[Tweet {i + 1}/{len(tweets)}] ID: {tweet_id}")
             print(f"  Text preview: {full_text[:100]}...")
 
-            # Extract video URL
+            # Extract video URL (optional - text-only posts are now supported)
             video_url = extract_video_url(tweet)
+            video_path = None
 
-            if not video_url:
-                print("  ⚠ No video found in this tweet, skipping...")
-                continue
-
-            # Download video
-            video_path = download_video(video_url, tweet_id, temp_dir)
-
-            if not video_path:
-                print("  ⚠ Failed to download video, skipping...")
-                continue
+            if video_url:
+                # Download video if available
+                video_path = download_video(video_url, tweet_id, temp_dir)
+                if not video_path:
+                    print("  ⚠ Failed to download video, continuing with text-only...")
+            else:
+                print("  ℹ No video in this tweet, generating text-only post...")
 
             # Generate mimicking text with format and brain integration
             print("  Generating mimicking text with Gemini...")
@@ -1049,7 +1047,8 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
             # Upload to Google Drive
             print("  Uploading to Google Drive...")
             try:
-                upload_to_drive(drive_service, video_path, date_folder_id)
+                if video_path:
+                    upload_to_drive(drive_service, video_path, date_folder_id)
                 upload_to_drive(drive_service, text_path, date_folder_id)
                 processed_count += 1
 
@@ -1058,7 +1057,7 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
                     "tweet_id": tweet_id,
                     "original_text": full_text,
                     "generated_text": generated_text,
-                    "video_path": video_path
+                    "video_path": video_path  # Can be None for text-only posts
                 })
 
             except Exception as e:
@@ -1094,18 +1093,28 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
                     print(f"\n  [{idx + 1}/{len(posts_to_publish)}] Posting tweet...")
 
                     try:
-                        media_id = upload_video_to_x(api, post["video_path"])
+                        # Check if video exists
+                        video_path = post.get("video_path")
+                        media_id = None
+
+                        if video_path:
+                            media_id = upload_video_to_x(api, video_path)
 
                         if media_id:
                             tweet_id = post_to_x(client, post["generated_text"], media_id)
                             if tweet_id:
                                 posted_count += 1
-                                print(f"    ✓ Posted successfully!")
+                                print(f"    ✓ Posted with video!")
                         else:
-                            print("    ⚠ Video upload failed, posting text only...")
+                            # Post text only (no video or video upload failed)
+                            if video_path:
+                                print("    ⚠ Video upload failed, posting text only...")
+                            else:
+                                print("    ℹ Posting text only...")
                             tweet_id = post_to_x(client, post["generated_text"])
                             if tweet_id:
                                 posted_count += 1
+                                print(f"    ✓ Posted successfully!")
                     except Exception as e:
                         print(f"    ✗ Failed to post: {e}")
                         continue
