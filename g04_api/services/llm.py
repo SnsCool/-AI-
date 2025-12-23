@@ -1,19 +1,19 @@
 """
-LLMサービス - OpenAI GPT-4o連携
+LLMサービス - Google Gemini連携
 """
 
 import os
 from typing import Tuple
 
 try:
-    import openai
-    OPENAI_AVAILABLE = True
+    import google.generativeai as genai
+    GEMINI_AVAILABLE = True
 except ImportError:
-    OPENAI_AVAILABLE = False
+    GEMINI_AVAILABLE = False
 
 
 class LLMService:
-    """OpenAI GPT-4o サービス"""
+    """Google Gemini サービス"""
 
     SYSTEM_PROMPT = """あなたは社内ナレッジ検索アシスタントです。
 与えられたコンテキスト情報のみを使用して、ユーザーの質問に回答してください。
@@ -31,11 +31,15 @@ class LLMService:
 - 重要な情報は強調する"""
 
     def __init__(self):
-        self.client = None
-        if OPENAI_AVAILABLE:
-            api_key = os.getenv("OPENAI_API_KEY")
+        self.model = None
+        if GEMINI_AVAILABLE:
+            api_key = os.getenv("GEMINI_API_KEY")
             if api_key:
-                self.client = openai.OpenAI(api_key=api_key)
+                genai.configure(api_key=api_key)
+                self.model = genai.GenerativeModel(
+                    model_name="gemini-2.0-flash",
+                    system_instruction=self.SYSTEM_PROMPT
+                )
 
     async def generate_answer(
         self,
@@ -52,37 +56,29 @@ class LLMService:
         Returns:
             Tuple[str, float]: (回答, 信頼度スコア)
         """
-        if self.client:
-            return await self._generate_with_openai(query, context)
+        if self.model:
+            return await self._generate_with_gemini(query, context)
 
         # フォールバック: モック回答
         return self._generate_mock(query, context)
 
-    async def _generate_with_openai(
+    async def _generate_with_gemini(
         self,
         query: str,
         context: str
     ) -> Tuple[str, float]:
-        """OpenAI GPT-4oで回答を生成"""
+        """Google Geminiで回答を生成"""
         try:
-            response = self.client.chat.completions.create(
-                model="gpt-4o",
-                messages=[
-                    {"role": "system", "content": self.SYSTEM_PROMPT},
-                    {"role": "user", "content": f"""
+            prompt = f"""
 コンテキスト情報:
 {context}
 
 質問: {query}
 
 上記のコンテキスト情報のみを使用して回答してください。
-"""}
-                ],
-                temperature=0.3,
-                max_tokens=1000
-            )
-
-            answer = response.choices[0].message.content
+"""
+            response = self.model.generate_content(prompt)
+            answer = response.text
 
             # 信頼度を推定（簡易版）
             confidence = self._estimate_confidence(answer, context)
@@ -90,7 +86,7 @@ class LLMService:
             return answer, confidence
 
         except Exception as e:
-            print(f"OpenAI API エラー: {e}")
+            print(f"Gemini API エラー: {e}")
             return self._generate_mock(query, context)
 
     def _generate_mock(
