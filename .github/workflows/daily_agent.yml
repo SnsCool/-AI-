@@ -8,7 +8,7 @@ on:
   schedule:
     - cron: '0 22 * * *'   # JST 7:00 - Full workflow
     - cron: '0 0 * * *'    # JST 9:00 - Full workflow
-    - cron: '35 9 * * *'   # JST 18:35 - Test posting only
+    - cron: '45 9 * * *'   # JST 18:45 - Test posting only
     - cron: '0 11 * * *'   # JST 20:00 - Full workflow
 
   # Allow manual trigger
@@ -67,7 +67,7 @@ jobs:
       # Step 5a: Test X posting (API connection test only)
       # Runs on: manual trigger with test_x_posting=true OR scheduled at JST 18:35 (UTC 9:35)
       - name: Test X Posting
-        if: ${{ inputs.test_x_posting == true || github.event.schedule == '35 9 * * *' }}
+        if: ${{ inputs.test_x_posting == true || github.event.schedule == '45 9 * * *' }}
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
@@ -95,7 +95,7 @@ jobs:
       # Step 5c: Full workflow (fetch → generate → post) - Fixed flow
       # Skip if: test_x_posting=true, use_commander=true, or scheduled at JST 18:35 (test only)
       - name: Run X Trend Agent
-        if: ${{ inputs.use_commander != true && inputs.test_x_posting != true && github.event.schedule != '35 9 * * *' }}
+        if: ${{ inputs.use_commander != true && inputs.test_x_posting != true && github.event.schedule != '45 9 * * *' }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
