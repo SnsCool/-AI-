@@ -1,0 +1,10 @@
+# G04 ナレッジ検索 Discord Bot
+
+# Discord
+discord.py==2.3.2
+
+# HTTP Client
+aiohttp==3.10.8
+
+# Utils
+python-dotenv==1.0.1

@@ -1,0 +1,28 @@
+# G04 ナレッジ検索 API
+# FastAPI & Server
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-dotenv==1.0.1
+pydantic==2.9.2
+
+# Google Gemini
+google-generativeai==0.8.3
+
+# Vector Store
+qdrant-client==1.11.3
+
+# Notion
+notion-client==2.2.1
+
+# Google Drive
+google-api-python-client==2.155.0
+google-auth==2.36.0
+
+# Slack
+slack-sdk==3.33.1
+
+# Database (optional)
+# supabase==2.9.1
+
+# Utils
+aiohttp==3.10.8
