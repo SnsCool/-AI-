@@ -66,7 +66,7 @@ MAX_TWEETS = 10
 MAX_POSTS_PER_DAY = 5
 
 # Gemini model to use
-GEMINI_MODEL = "gemini-1.5-flash-latest"
+GEMINI_MODEL = "gemini-2.0-flash"
 
 # =============================================================================
 # Workflow Integration Paths
@@ -179,8 +179,15 @@ def fetch_tweets_from_accounts(usernames: list[str], max_per_account: int = 3) -
         # Create tweepy client with Bearer Token (required for fetching other users' tweets)
         client = tweepy.Client(bearer_token=X_BEARER_TOKEN)
 
-        for username in usernames:
+        import time as time_module
+
+        for idx, username in enumerate(usernames):
             print(f"\n  Fetching from @{username}...")
+
+            # Add delay between accounts to avoid rate limiting (except first)
+            if idx > 0:
+                print(f"    Waiting 2 seconds to avoid rate limit...")
+                time_module.sleep(2)
 
             try:
                 # Get user ID from username
@@ -192,14 +199,15 @@ def fetch_tweets_from_accounts(usernames: list[str], max_per_account: int = 3) -
                 user_id = user.data.id
                 print(f"    Found user ID: {user_id}")
 
-                # Fetch user's tweets (X API requires min 5, so fetch 5 and take what we need)
+                # Fetch user's tweets (exclude replies and retweets for better content)
                 tweets_response = client.get_users_tweets(
                     id=user_id,
-                    max_results=max(5, min(max_per_account, 100)),
+                    max_results=max(5, min(max_per_account * 3, 100)),  # Fetch more to filter
                     tweet_fields=["created_at", "public_metrics", "attachments"],
                     expansions=["attachments.media_keys", "author_id"],
                     media_fields=["type", "url", "preview_image_url", "variants"],
-                    user_fields=["username", "name"]
+                    user_fields=["username", "name"],
+                    exclude=["replies", "retweets"]  # Exclude replies and retweets
                 )
 
                 if not tweets_response.data:
@@ -212,8 +220,16 @@ def fetch_tweets_from_accounts(usernames: list[str], max_per_account: int = 3) -
                     for media in tweets_response.includes["media"]:
                         media_dict[media.media_key] = media
 
-                # Process tweets (limit to max_per_account)
-                tweets_to_process = tweets_response.data[:max_per_account]
+                # Process tweets (limit to max_per_account, skip replies starting with @)
+                tweets_to_process = []
+                for tweet in tweets_response.data:
+                    # Skip tweets that start with @ (replies/mentions)
+                    if tweet.text.startswith("@"):
+                        continue
+                    tweets_to_process.append(tweet)
+                    if len(tweets_to_process) >= max_per_account:
+                        break
+
                 for tweet in tweets_to_process:
                     tweet_dict = {
                         "id": tweet.id,
