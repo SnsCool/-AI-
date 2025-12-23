@@ -47,14 +47,18 @@ load_dotenv()
 # Configuration Constants (Edit these as needed)
 # =============================================================================
 
-# Target X account to fetch tweets from
-TARGET_X_USERNAME = "ManusAI_JP"
+# Target X accounts to fetch tweets from (multiple accounts supported)
+TARGET_X_USERNAMES = [
+    "ManusAI_JP",
+    "GeminiApp",
+    "claudeai",
+    "NotebookLM",
+    "OpenAI",
+    "dify_ai",
+]
 
-# Search query for X/Twitter (fetches from target user with video)
-SEARCH_QUERY = f"from:{TARGET_X_USERNAME} filter:video"
-
-# Number of tweets to fetch (3-5 recommended)
-MAX_TWEETS = 5
+# Number of tweets to fetch per account
+MAX_TWEETS_PER_ACCOUNT = 3
 
 # Apify Actor ID for tweet scraping
 # Using "web.harvester/twitter-scraper"
@@ -155,18 +159,19 @@ def validate_environment():
 # Apify: Tweet Fetching
 # =============================================================================
 
-def fetch_tweets_with_video(query: str, max_results: int = 5) -> list[dict]:
+def fetch_tweets_from_accounts(usernames: list[str], max_per_account: int = 3) -> list[dict]:
     """
-    Fetch tweets using Apify.
+    Fetch tweets from multiple accounts using Apify.
 
     Args:
-        query: Search query for tweets
-        max_results: Maximum number of tweets to fetch
+        usernames: List of Twitter usernames to fetch from
+        max_per_account: Maximum number of tweets per account
 
     Returns:
         List of tweet data dictionaries
     """
-    print(f"Fetching tweets with query: '{query}'")
+    print(f"Fetching tweets from {len(usernames)} accounts...")
+    print(f"  Accounts: {', '.join(['@' + u for u in usernames])}")
 
     if not APIFY_TOKEN:
         print("  APIFY_TOKEN not set")
@@ -175,10 +180,10 @@ def fetch_tweets_with_video(query: str, max_results: int = 5) -> list[dict]:
     try:
         client = ApifyClient(APIFY_TOKEN)
 
-        # Prepare the Actor input
+        # Prepare the Actor input with all usernames
         run_input = {
-            "twitterHandles": [TARGET_X_USERNAME],
-            "maxTweets": max_results * 2,
+            "twitterHandles": usernames,
+            "maxTweets": max_per_account * len(usernames),
         }
 
         print(f"  Using Actor: {APIFY_ACTOR_ID}", flush=True)
@@ -225,14 +230,15 @@ def save_tweets_to_analysis(tweets: list[dict], source: str = "video_trends") ->
     VIDEO_TRENDS_DIR.mkdir(parents=True, exist_ok=True)
 
     today = datetime.now().strftime("%Y%m%d")
-    file_name = f"{source}_{TARGET_X_USERNAME}_{today}.json"
+    accounts_str = "_".join(TARGET_X_USERNAMES[:3])  # First 3 accounts for filename
+    file_name = f"{source}_{accounts_str}_{today}.json"
     file_path = VIDEO_TRENDS_DIR / file_name
 
     # Save as JSON for later processing
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump({
             "source": source,
-            "target_account": TARGET_X_USERNAME,
+            "target_accounts": TARGET_X_USERNAMES,
             "fetch_date": datetime.now().isoformat(),
             "tweet_count": len(tweets),
             "tweets": tweets
@@ -241,9 +247,10 @@ def save_tweets_to_analysis(tweets: list[dict], source: str = "video_trends") ->
     print(f"✓ Saved tweets to: {file_path}")
 
     # Also save a human-readable summary
-    summary_file = VIDEO_TRENDS_DIR / f"{source}_{TARGET_X_USERNAME}_{today}_summary.txt"
+    summary_file = VIDEO_TRENDS_DIR / f"{source}_{accounts_str}_{today}_summary.txt"
     with open(summary_file, "w", encoding="utf-8") as f:
-        f.write(f"# Video Trend Analysis - {TARGET_X_USERNAME}\n")
+        f.write(f"# Video Trend Analysis\n")
+        f.write(f"# Accounts: {', '.join(['@' + u for u in TARGET_X_USERNAMES])}\n")
         f.write(f"# Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
         f.write(f"# Tweet Count: {len(tweets)}\n\n")
 
@@ -252,8 +259,9 @@ def save_tweets_to_analysis(tweets: list[dict], source: str = "video_trends") ->
             full_text = tweet.get("full_text") or tweet.get("text", "")
             likes = tweet.get("favorite_count") or tweet.get("likeCount", 0)
             retweets = tweet.get("retweet_count") or tweet.get("retweetCount", 0)
+            username = tweet.get("user", {}).get("screen_name", "unknown")
 
-            f.write(f"--- Tweet {i + 1} (ID: {tweet_id}) ---\n")
+            f.write(f"--- Tweet {i + 1} (ID: {tweet_id}) @{username} ---\n")
             f.write(f"Likes: {likes} | Retweets: {retweets}\n")
             f.write(f"{full_text}\n\n")
 
@@ -275,7 +283,7 @@ def load_tweets_from_analysis(date_str: str = None) -> list[dict] | None:
     if date_str is None:
         date_str = datetime.now().strftime("%Y%m%d")
 
-    pattern = str(VIDEO_TRENDS_DIR / f"*_{TARGET_X_USERNAME}_{date_str}.json")
+    pattern = str(VIDEO_TRENDS_DIR / f"*_{date_str}.json")
     files = glob_module.glob(pattern)
 
     if not files:
@@ -868,8 +876,8 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True):
     print("=" * 40)
     print("Step 1: データ収集 (Data Collection)")
     print("=" * 40)
-    print(f"Target account: @{TARGET_X_USERNAME}")
-    tweets = fetch_tweets_with_video(SEARCH_QUERY, MAX_TWEETS)
+    print(f"Target accounts: {len(TARGET_X_USERNAMES)} accounts")
+    tweets = fetch_tweets_from_accounts(TARGET_X_USERNAMES, MAX_TWEETS_PER_ACCOUNT)
     print()
 
     if not tweets:
