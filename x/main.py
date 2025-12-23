@@ -48,12 +48,8 @@ load_dotenv()
 
 # Target X accounts to fetch tweets from (multiple accounts supported)
 TARGET_X_USERNAMES = [
-    "ManusAI_JP",
-    "GeminiApp",
-    "claudeai",
-    "NotebookLM",
-    "OpenAI",
-    "dify_ai",
+    "masahirochaen",
+    "Google",
 ]
 
 # Number of tweets to fetch per account
