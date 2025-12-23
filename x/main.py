@@ -34,7 +34,6 @@ from pathlib import Path
 import requests
 import tweepy
 from dotenv import load_dotenv
-from apify_client import ApifyClient
 import google.generativeai as genai
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
@@ -47,18 +46,24 @@ load_dotenv()
 # Configuration Constants (Edit these as needed)
 # =============================================================================
 
-# Target X account to fetch tweets from
-TARGET_X_USERNAME = "ManusAI_JP"
+# Target X accounts to fetch tweets from (multiple accounts supported)
+TARGET_X_USERNAMES = [
+    "ManusAI_JP",
+    "GeminiApp",
+    "claudeai",
+    "NotebookLM",
+    "OpenAI",
+    "dify_ai",
+]
 
-# Search query for X/Twitter (fetches from target user with video)
-SEARCH_QUERY = f"from:{TARGET_X_USERNAME} filter:video"
+# Number of tweets to fetch per account
+MAX_TWEETS_PER_ACCOUNT = 1
 
-# Number of tweets to fetch (3-5 recommended)
-MAX_TWEETS = 5
+# Total maximum tweets to process (for the workflow)
+MAX_TWEETS = 10
 
-# Apify Actor ID for tweet scraping
-# Using "web.harvester/twitter-scraper"
-APIFY_ACTOR_ID = "web.harvester/twitter-scraper"
+# Maximum posts per day (business rule: 1日5投稿まで)
+MAX_POSTS_PER_DAY = 5
 
 # Gemini model to use
 GEMINI_MODEL = "gemini-2.0-flash-exp"
@@ -102,12 +107,11 @@ def get_env(name: str) -> str | None:
     # Strip whitespace
     value = value.strip()
     # For API tokens, remove any non-ASCII or control characters
-    if name in ("APIFY_TOKEN", "GEMINI_API_KEY"):
+    if name == "GEMINI_API_KEY":
         # Only keep alphanumeric, underscore, and hyphen
         value = re.sub(r'[^a-zA-Z0-9_\-]', '', value)
     return value
 
-APIFY_TOKEN = get_env("APIFY_TOKEN")
 GEMINI_API_KEY = get_env("GEMINI_API_KEY")
 GOOGLE_DRIVE_FOLDER_ID = get_env("GOOGLE_DRIVE_FOLDER_ID")
 GCP_SA_KEY_JSON = get_env("GCP_SA_KEY_JSON")
@@ -125,10 +129,13 @@ ENABLE_X_POSTING = os.getenv("ENABLE_X_POSTING", "false").lower() == "true"
 def validate_environment():
     """Validate that all required environment variables are set."""
     required_vars = {
-        "APIFY_TOKEN": APIFY_TOKEN,
         "GEMINI_API_KEY": GEMINI_API_KEY,
         "GOOGLE_DRIVE_FOLDER_ID": GOOGLE_DRIVE_FOLDER_ID,
         "GCP_SA_KEY_JSON": GCP_SA_KEY_JSON,
+        "X_API_KEY": X_API_KEY,
+        "X_API_SECRET": X_API_SECRET,
+        "X_ACCESS_TOKEN": X_ACCESS_TOKEN,
+        "X_ACCESS_TOKEN_SECRET": X_ACCESS_TOKEN_SECRET,
     }
 
     missing = [name for name, value in required_vars.items() if not value]
@@ -138,69 +145,142 @@ def validate_environment():
             f"Missing required environment variables: {', '.join(missing)}"
         )
 
-    # Debug: Print token info (not the actual token)
-    print(f"  APIFY_TOKEN length: {len(APIFY_TOKEN)}", flush=True)
-    print(f"  APIFY_TOKEN starts with 'apify_': {APIFY_TOKEN.startswith('apify_')}", flush=True)
-    print(f"  APIFY_TOKEN is alphanumeric+underscore: {APIFY_TOKEN.replace('_', '').isalnum()}", flush=True)
-
-    # Verify token format
-    if not APIFY_TOKEN.startswith('apify_'):
-        print(f"  WARNING: Token does not start with 'apify_'", flush=True)
-        print(f"  First 10 chars: {APIFY_TOKEN[:10]}", flush=True)
-
     print("✓ All environment variables validated", flush=True)
 
 
 # =============================================================================
-# Apify: Tweet Fetching
+# X API: Tweet Fetching
 # =============================================================================
 
-def fetch_tweets_with_video(query: str, max_results: int = 5) -> list[dict]:
+def fetch_tweets_from_accounts(usernames: list[str], max_per_account: int = 3) -> list[dict]:
     """
-    Fetch tweets containing videos using Apify's tweet-scraper.
+    Fetch tweets from multiple accounts using X API (tweepy).
 
     Args:
-        query: Search query for tweets
-        max_results: Maximum number of tweets to fetch
+        usernames: List of Twitter usernames to fetch from
+        max_per_account: Maximum number of tweets per account
 
     Returns:
         List of tweet data dictionaries
     """
-    print(f"Fetching tweets with query: '{query}'")
+    print(f"Fetching tweets from {len(usernames)} accounts using X API...")
+    print(f"  Accounts: {', '.join(['@' + u for u in usernames])}")
 
-    client = ApifyClient(APIFY_TOKEN)
+    # Check if X API credentials are available
+    if not all([X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET]):
+        print("  X API credentials not available")
+        return []
 
-    # Prepare the Actor input
-    # Format compatible with web.harvester/twitter-scraper
-    run_input = {
-        "twitterHandles": [TARGET_X_USERNAME],  # Twitter handles to scrape
-        "maxTweets": max_results * 2,  # Fetch more to filter for videos
-    }
+    all_tweets = []
 
-    # Run the Actor and wait for it to finish
-    print(f"Using Actor: {APIFY_ACTOR_ID}", flush=True)
-    run = client.actor(APIFY_ACTOR_ID).call(run_input=run_input)
+    try:
+        # Create tweepy client (v2 API)
+        client = tweepy.Client(
+            consumer_key=X_API_KEY,
+            consumer_secret=X_API_SECRET,
+            access_token=X_ACCESS_TOKEN,
+            access_token_secret=X_ACCESS_TOKEN_SECRET
+        )
 
-    # Fetch results from the run's dataset
-    tweets = []
-    for item in client.dataset(run["defaultDatasetId"]).iterate_items():
-        tweets.append(item)
+        for username in usernames:
+            print(f"\n  Fetching from @{username}...")
 
-    print(f"✓ Fetched {len(tweets)} tweets from Apify", flush=True)
+            try:
+                # Get user ID from username
+                user = client.get_user(username=username)
+                if not user.data:
+                    print(f"    User @{username} not found")
+                    continue
 
-    # Debug: Print first tweet structure as JSON
-    if tweets:
+                user_id = user.data.id
+                print(f"    Found user ID: {user_id}")
+
+                # Fetch user's tweets (X API requires min 5, so fetch 5 and take what we need)
+                tweets_response = client.get_users_tweets(
+                    id=user_id,
+                    max_results=max(5, min(max_per_account, 100)),
+                    tweet_fields=["created_at", "public_metrics", "attachments"],
+                    expansions=["attachments.media_keys", "author_id"],
+                    media_fields=["type", "url", "preview_image_url", "variants"],
+                    user_fields=["username", "name"]
+                )
+
+                if not tweets_response.data:
+                    print(f"    No tweets found for @{username}")
+                    continue
+
+                # Build media lookup dict
+                media_dict = {}
+                if tweets_response.includes and "media" in tweets_response.includes:
+                    for media in tweets_response.includes["media"]:
+                        media_dict[media.media_key] = media
+
+                # Process tweets (limit to max_per_account)
+                tweets_to_process = tweets_response.data[:max_per_account]
+                for tweet in tweets_to_process:
+                    tweet_dict = {
+                        "id": tweet.id,
+                        "id_str": str(tweet.id),
+                        "text": tweet.text,
+                        "full_text": tweet.text,
+                        "created_at": str(tweet.created_at) if tweet.created_at else None,
+                        "favorite_count": tweet.public_metrics.get("like_count", 0) if tweet.public_metrics else 0,
+                        "retweet_count": tweet.public_metrics.get("retweet_count", 0) if tweet.public_metrics else 0,
+                        "user": {
+                            "screen_name": username,
+                        }
+                    }
+
+                    # Add media info if available
+                    if tweet.attachments and "media_keys" in tweet.attachments:
+                        media_list = []
+                        for media_key in tweet.attachments["media_keys"]:
+                            if media_key in media_dict:
+                                media = media_dict[media_key]
+                                media_info = {
+                                    "type": media.type,
+                                    "url": getattr(media, "url", None),
+                                    "preview_image_url": getattr(media, "preview_image_url", None),
+                                }
+                                if hasattr(media, "variants") and media.variants:
+                                    media_info["video_info"] = {"variants": media.variants}
+                                media_list.append(media_info)
+
+                        if media_list:
+                            tweet_dict["media"] = media_list
+                            tweet_dict["extended_entities"] = {"media": media_list}
+
+                    all_tweets.append(tweet_dict)
+
+                print(f"    ✓ Using {len(tweets_to_process)} tweet(s)")
+
+            except tweepy.errors.Forbidden as e:
+                print(f"    X API access denied for @{username}: {e}")
+                continue
+            except tweepy.errors.Unauthorized as e:
+                print(f"    X API unauthorized for @{username}: {e}")
+                continue
+            except Exception as e:
+                print(f"    Error fetching @{username}: {e}")
+                continue
+
+        print(f"\n  ✓ Total fetched: {len(all_tweets)} tweets from {len(usernames)} accounts")
+
+    except Exception as e:
+        print(f"  X API error: {e}")
+        return []
+
+    # Debug: Print first tweet structure
+    if all_tweets:
         print(f"\n========== DEBUG: FIRST TWEET STRUCTURE ==========", flush=True)
-        print(f"Keys: {list(tweets[0].keys())}", flush=True)
-        # Print full first tweet as JSON (limited)
-        first_tweet_json = json.dumps(tweets[0], indent=2, default=str)
-        # Limit output to first 2000 chars
+        print(f"Keys: {list(all_tweets[0].keys())}", flush=True)
+        first_tweet_json = json.dumps(all_tweets[0], indent=2, default=str)
         if len(first_tweet_json) > 2000:
             first_tweet_json = first_tweet_json[:2000] + "\n... (truncated)"
         print(first_tweet_json, flush=True)
         print(f"========== END DEBUG ==========\n", flush=True)
 
-    return tweets
+    return all_tweets
 
 
 # =============================================================================
@@ -222,14 +302,15 @@ def save_tweets_to_analysis(tweets: list[dict], source: str = "video_trends") ->
     VIDEO_TRENDS_DIR.mkdir(parents=True, exist_ok=True)
 
     today = datetime.now().strftime("%Y%m%d")
-    file_name = f"{source}_{TARGET_X_USERNAME}_{today}.json"
+    accounts_str = "_".join(TARGET_X_USERNAMES[:3])  # First 3 accounts for filename
+    file_name = f"{source}_{accounts_str}_{today}.json"
     file_path = VIDEO_TRENDS_DIR / file_name
 
     # Save as JSON for later processing
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump({
             "source": source,
-            "target_account": TARGET_X_USERNAME,
+            "target_accounts": TARGET_X_USERNAMES,
             "fetch_date": datetime.now().isoformat(),
             "tweet_count": len(tweets),
             "tweets": tweets
@@ -238,9 +319,10 @@ def save_tweets_to_analysis(tweets: list[dict], source: str = "video_trends") ->
     print(f"✓ Saved tweets to: {file_path}")
 
     # Also save a human-readable summary
-    summary_file = VIDEO_TRENDS_DIR / f"{source}_{TARGET_X_USERNAME}_{today}_summary.txt"
+    summary_file = VIDEO_TRENDS_DIR / f"{source}_{accounts_str}_{today}_summary.txt"
     with open(summary_file, "w", encoding="utf-8") as f:
-        f.write(f"# Video Trend Analysis - {TARGET_X_USERNAME}\n")
+        f.write(f"# Video Trend Analysis\n")
+        f.write(f"# Accounts: {', '.join(['@' + u for u in TARGET_X_USERNAMES])}\n")
         f.write(f"# Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
         f.write(f"# Tweet Count: {len(tweets)}\n\n")
 
@@ -249,8 +331,9 @@ def save_tweets_to_analysis(tweets: list[dict], source: str = "video_trends") ->
             full_text = tweet.get("full_text") or tweet.get("text", "")
             likes = tweet.get("favorite_count") or tweet.get("likeCount", 0)
             retweets = tweet.get("retweet_count") or tweet.get("retweetCount", 0)
+            username = tweet.get("user", {}).get("screen_name", "unknown")
 
-            f.write(f"--- Tweet {i + 1} (ID: {tweet_id}) ---\n")
+            f.write(f"--- Tweet {i + 1} (ID: {tweet_id}) @{username} ---\n")
             f.write(f"Likes: {likes} | Retweets: {retweets}\n")
             f.write(f"{full_text}\n\n")
 
@@ -272,7 +355,7 @@ def load_tweets_from_analysis(date_str: str = None) -> list[dict] | None:
     if date_str is None:
         date_str = datetime.now().strftime("%Y%m%d")
 
-    pattern = str(VIDEO_TRENDS_DIR / f"*_{TARGET_X_USERNAME}_{date_str}.json")
+    pattern = str(VIDEO_TRENDS_DIR / f"*_{date_str}.json")
     files = glob_module.glob(pattern)
 
     if not files:
@@ -833,7 +916,7 @@ def test_x_posting():
 # Main Processing
 # =============================================================================
 
-def process_tweets(format_name: str = None, skip_x_post: bool = True):
+def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts: int = MAX_POSTS_PER_DAY):
     """
     Main function to process tweets and upload results.
 
@@ -848,11 +931,14 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True):
     Args:
         format_name: Optional format template name to use
         skip_x_post: Skip X posting (default True for safety)
+        max_posts: Maximum posts per day (default: MAX_POSTS_PER_DAY)
     """
     print("=" * 60)
     print("X Trend Video Fetcher & Mimic Post Generator")
     print("統合ワークフロー版")
     print("=" * 60)
+    print()
+    print(f"Business Rules: Max {max_posts} posts/day, fetching from {len(TARGET_X_USERNAMES)} accounts")
     print()
 
     # Validate environment
@@ -865,8 +951,8 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True):
     print("=" * 40)
     print("Step 1: データ収集 (Data Collection)")
     print("=" * 40)
-    print(f"Target account: @{TARGET_X_USERNAME}")
-    tweets = fetch_tweets_with_video(SEARCH_QUERY, MAX_TWEETS)
+    print(f"Target accounts: {len(TARGET_X_USERNAMES)} accounts")
+    tweets = fetch_tweets_from_accounts(TARGET_X_USERNAMES, MAX_TWEETS_PER_ACCOUNT)
     print()
 
     if not tweets:
@@ -995,21 +1081,45 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True):
         print("=" * 40)
 
         if not skip_x_post and ENABLE_X_POSTING and generated_posts:
-            print("X posting is enabled. Posting to X...")
+            # Apply max_posts limit
+            posts_to_publish = generated_posts[:max_posts]
+            print(f"X posting is enabled. Posting {len(posts_to_publish)} tweets to X (max: {max_posts})...")
+
+            if len(generated_posts) > max_posts:
+                print(f"  ⚠ Limiting from {len(generated_posts)} to {max_posts} posts (daily limit)")
+
             try:
                 client, api = get_x_client()
+                posted_count = 0
 
-                # Post the first generated content
-                post = generated_posts[0]
-                media_id = upload_video_to_x(api, post["video_path"])
+                # Post limited content
+                for idx, post in enumerate(posts_to_publish):
+                    print(f"\n  [{idx + 1}/{len(posts_to_publish)}] Posting tweet...")
 
-                if media_id:
-                    tweet_id = post_to_x(client, post["generated_text"], media_id)
-                    if tweet_id:
-                        print(f"✓ Posted to X successfully!")
-                else:
-                    print("⚠ Video upload failed, posting text only...")
-                    post_to_x(client, post["generated_text"])
+                    try:
+                        media_id = upload_video_to_x(api, post["video_path"])
+
+                        if media_id:
+                            tweet_id = post_to_x(client, post["generated_text"], media_id)
+                            if tweet_id:
+                                posted_count += 1
+                                print(f"    ✓ Posted successfully!")
+                        else:
+                            print("    ⚠ Video upload failed, posting text only...")
+                            tweet_id = post_to_x(client, post["generated_text"])
+                            if tweet_id:
+                                posted_count += 1
+                    except Exception as e:
+                        print(f"    ✗ Failed to post: {e}")
+                        continue
+
+                    # Wait between posts to avoid rate limiting (except for last post)
+                    if idx < len(posts_to_publish) - 1:
+                        import time
+                        print("    Waiting 30 seconds before next post...")
+                        time.sleep(30)
+
+                print(f"\n✓ Posted {posted_count}/{len(posts_to_publish)} tweets to X!")
 
             except Exception as e:
                 print(f"✗ X posting failed: {e}")
@@ -1084,10 +1194,84 @@ if __name__ == "__main__":
         action="store_true",
         help="Enable posting to X (disabled by default)"
     )
+    parser.add_argument(
+        "--commander",
+        action="store_true",
+        help="Use Commander Agent to orchestrate tasks (AI-driven task routing)"
+    )
+    parser.add_argument(
+        "--request",
+        type=str,
+        metavar="REQUEST",
+        help="Request to send to Commander Agent (use with --commander)"
+    )
+    parser.add_argument(
+        "--max-posts",
+        type=int,
+        default=MAX_POSTS_PER_DAY,
+        metavar="N",
+        help=f"Maximum posts per day (default: {MAX_POSTS_PER_DAY})"
+    )
 
     args = parser.parse_args()
 
-    if args.list_formats:
+    if args.commander:
+        # Run Commander Agent orchestration mode
+        print("=" * 60)
+        print("Commander Agent Mode")
+        print("=" * 60)
+        print()
+
+        # Get request from argument or use default
+        request = args.request or "X投稿ワークフローを実行してください"
+        print(f"Request: {request}")
+        print()
+
+        try:
+            # Import and register agents
+            from agents.registry import AgentRegistry
+            from agents.commander.commander import CommanderAgent
+            from agents.execution.x_posting import XPostingAgent
+
+            # Register agents
+            print("Registering agents...")
+            AgentRegistry.register(CommanderAgent())
+            AgentRegistry.register(XPostingAgent())
+            print()
+
+            # Get commander and orchestrate
+            commander = AgentRegistry.get_commander()
+            if not commander:
+                print("✗ Commander agent not found")
+                sys.exit(1)
+
+            print(f"Starting orchestration with Commander Agent...")
+            print()
+
+            result = commander.orchestrate(request)
+
+            print()
+            print("=" * 60)
+            print("Orchestration Result")
+            print("=" * 60)
+            print(f"Success: {result.success}")
+            print(f"Message: {result.message}")
+            if result.data:
+                print(f"Data: {json.dumps(result.data, ensure_ascii=False, indent=2)}")
+            if result.error:
+                print(f"Error: {result.error}")
+
+        except ImportError as e:
+            print(f"✗ Failed to import agents: {e}")
+            print("Make sure you're running from the x/ directory")
+            sys.exit(1)
+        except Exception as e:
+            print(f"✗ Commander failed: {e}")
+            import traceback
+            traceback.print_exc()
+            sys.exit(1)
+
+    elif args.list_formats:
         # List available formats
         print("Available format templates:")
         for fmt in list_available_formats():
@@ -1153,5 +1337,6 @@ if __name__ == "__main__":
         # Run main process with workflow integration
         process_tweets(
             format_name=args.format,
-            skip_x_post=not args.post_to_x
+            skip_x_post=not args.post_to_x,
+            max_posts=args.max_posts
         )
