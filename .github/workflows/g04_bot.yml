@@ -1,0 +1,44 @@
+name: G04 Discord Bot
+
+on:
+  workflow_dispatch:  # 手動実行
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360  # 6時間
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies (API)
+        run: |
+          cd g04_api
+          pip install -r requirements.txt
+
+      - name: Install dependencies (Bot)
+        run: |
+          cd g04_discord_bot
+          pip install -r requirements.txt
+
+      - name: Start API server
+        run: |
+          cd g04_api
+          python -m uvicorn main:app --host 0.0.0.0 --port 8004 &
+          sleep 5
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Run Discord Bot
+        run: |
+          cd g04_discord_bot
+          python bot.py
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          G04_API_URL: http://localhost:8004
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
