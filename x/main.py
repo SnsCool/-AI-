@@ -998,21 +998,39 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True):
         print("=" * 40)
 
         if not skip_x_post and ENABLE_X_POSTING and generated_posts:
-            print("X posting is enabled. Posting to X...")
+            print(f"X posting is enabled. Posting {len(generated_posts)} tweets to X...")
             try:
                 client, api = get_x_client()
+                posted_count = 0
 
-                # Post the first generated content
-                post = generated_posts[0]
-                media_id = upload_video_to_x(api, post["video_path"])
+                # Post all generated content
+                for idx, post in enumerate(generated_posts):
+                    print(f"\n  [{idx + 1}/{len(generated_posts)}] Posting tweet...")
 
-                if media_id:
-                    tweet_id = post_to_x(client, post["generated_text"], media_id)
-                    if tweet_id:
-                        print(f"✓ Posted to X successfully!")
-                else:
-                    print("⚠ Video upload failed, posting text only...")
-                    post_to_x(client, post["generated_text"])
+                    try:
+                        media_id = upload_video_to_x(api, post["video_path"])
+
+                        if media_id:
+                            tweet_id = post_to_x(client, post["generated_text"], media_id)
+                            if tweet_id:
+                                posted_count += 1
+                                print(f"    ✓ Posted successfully!")
+                        else:
+                            print("    ⚠ Video upload failed, posting text only...")
+                            tweet_id = post_to_x(client, post["generated_text"])
+                            if tweet_id:
+                                posted_count += 1
+                    except Exception as e:
+                        print(f"    ✗ Failed to post: {e}")
+                        continue
+
+                    # Wait between posts to avoid rate limiting (except for last post)
+                    if idx < len(generated_posts) - 1:
+                        import time
+                        print("    Waiting 30 seconds before next post...")
+                        time.sleep(30)
+
+                print(f"\n✓ Posted {posted_count}/{len(generated_posts)} tweets to X!")
 
             except Exception as e:
                 print(f"✗ X posting failed: {e}")
