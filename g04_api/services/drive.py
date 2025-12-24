@@ -91,26 +91,42 @@ class DriveService:
             return []
 
         try:
-            # 検索クエリ構築
-            q_parts = [f"fullText contains '{query}'"]
+            all_files = {}
 
+            # 1. ファイル名で検索（PDFなどはこれで見つかる）
+            name_query_parts = [f"name contains '{query}'", "trashed=false"]
             if mime_types:
-                mime_conditions = " or ".join(
-                    f"mimeType='{mt}'" for mt in mime_types
-                )
-                q_parts.append(f"({mime_conditions})")
+                mime_conditions = " or ".join(f"mimeType='{mt}'" for mt in mime_types)
+                name_query_parts.append(f"({mime_conditions})")
 
-            q_parts.append("trashed=false")
-            search_query = " and ".join(q_parts)
-
-            response = self.service.files().list(
-                q=search_query,
+            name_response = self.service.files().list(
+                q=" and ".join(name_query_parts),
                 pageSize=limit,
                 fields="files(id, name, mimeType, webViewLink, createdTime, modifiedTime)"
             ).execute()
 
+            for file in name_response.get("files", []):
+                all_files[file.get("id")] = file
+
+            # 2. 全文検索（Google Docs, テキストファイルなど）
+            fulltext_query_parts = [f"fullText contains '{query}'", "trashed=false"]
+            if mime_types:
+                fulltext_query_parts.append(f"({mime_conditions})")
+
+            try:
+                fulltext_response = self.service.files().list(
+                    q=" and ".join(fulltext_query_parts),
+                    pageSize=limit,
+                    fields="files(id, name, mimeType, webViewLink, createdTime, modifiedTime)"
+                ).execute()
+
+                for file in fulltext_response.get("files", []):
+                    all_files[file.get("id")] = file
+            except Exception:
+                pass  # 全文検索に失敗しても名前検索の結果は返す
+
             files = []
-            for file in response.get("files", []):
+            for file in list(all_files.values())[:limit]:
                 files.append({
                     "id": file.get("id"),
                     "source_type": "drive",
