@@ -850,6 +850,11 @@ def post_to_x(client: tweepy.Client, text: str, media_id: str = None) -> str | N
     try:
         print(f"  Posting to X...", flush=True)
 
+        # Remove URLs from text (t.co links cause "invalid URL" errors)
+        import re
+        text = re.sub(r'https?://\S+', '', text)
+        text = re.sub(r'\s+', ' ', text).strip()  # Clean up extra whitespace
+
         # Truncate text if too long (X limit is 280 characters)
         if len(text) > 280:
             text = text[:277] + "..."
