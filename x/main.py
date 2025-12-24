@@ -82,14 +82,15 @@ INPUT_DIR = PROJECT_ROOT / "input"
 DEFAULT_FORMAT = "05format-AI最新情報.md"
 
 # System prompt for text generation
-SYSTEM_PROMPT = """あなたはプロのSNSマーケターです。渡されたツイートの『文体』『絵文字の使い方』『改行の癖』『トーン（真面目、フランク、煽りなど）』を分析してください。その分析に基づき、全く同じ文体で、この動画を紹介する新しい日本語の投稿文を作成してください。
+SYSTEM_PROMPT = """あなたはプロのSNSマーケターです。渡されたツイートの内容を要約・整理して、読みやすい投稿文を作成してください。
 
 重要なポイント:
-- 元のツイートの文体を完全に模倣すること
-- 絵文字の使用頻度と種類を合わせること
-- 改行のパターンを維持すること
-- トーンと雰囲気を一致させること
-- 動画の内容を魅力的に紹介する新しい文章を作成すること"""
+- 元ツイートの内容・事実・情報を忠実に保つこと（勝手に情報を追加・変更しない）
+- 要約して読みやすく整理すること
+- 絵文字は控えめに使用すること
+- URLやリンクは一切含めないこと
+- 「詳細はこちら」等のリンク誘導文は含めないこと（システムが自動追加します）
+- 架空のURL、架空の情報、存在しない発表などを捏造しないこと"""
 
 # =============================================================================
 # Environment Variables (strip whitespace to avoid header errors)
@@ -607,7 +608,7 @@ def generate_mimic_text(
     )
 
     # Build user prompt with format template
-    user_prompt = f"""以下のツイートの文体を分析し、同じスタイルで新しい投稿文を作成してください。
+    user_prompt = f"""以下のツイートの内容を要約・整理して、投稿文を作成してください。
 
 元のツイート:
 ---
@@ -624,8 +625,11 @@ def generate_mimic_text(
 """
 
     user_prompt += """
-上記を参考に、元のツイートの文体を完全に模倣した新しい投稿文を作成してください。
-280文字以内で作成し、投稿文のみを出力してください。"""
+【重要な指示】
+- 元ツイートの内容を忠実に要約すること（新しい情報を追加しない）
+- URLは一切含めないこと
+- 「詳細はこちら」などのリンク誘導文は含めないこと
+- 200文字以内で作成し、投稿文のみを出力すること"""
 
     response = model.generate_content(user_prompt)
 
@@ -1075,7 +1079,15 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
             full_text = tweet.get("full_text") or tweet.get("text", "")
             source_username = tweet.get("user", {}).get("screen_name", "")
 
+            # Extract content URL from original tweet (use the FIRST t.co URL)
+            # The first URL is usually the main content (video/article), later URLs may be images
+            import re
+            all_urls = re.findall(r'https?://t\.co/\S+', full_text)
+            content_url = all_urls[0] if all_urls else None  # Get the first URL
+
             print(f"\n[Tweet {i + 1}/{len(tweets)}] ID: {tweet_id}")
+            if all_urls:
+                print(f"  Found {len(all_urls)} URL(s), using first: {content_url}")
             print(f"  Text preview: {full_text[:100]}...")
 
             # Extract video URL (optional - text-only posts are now supported)
@@ -1117,6 +1129,7 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
                 generated_posts.append({
                     "tweet_id": tweet_id,
                     "source_username": source_username,
+                    "content_url": content_url,  # URL from original tweet (e.g., https://t.co/xxx)
                     "original_text": full_text,
                     "generated_text": generated_text,
                     "video_path": video_path  # Can be None for text-only posts
@@ -1159,12 +1172,19 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
                         video_path = post.get("video_path")
                         media_id = None
 
-                        # Construct source tweet URL
+                        # Use content URL from original tweet (priority) or fall back to tweet URL
+                        content_url = post.get("content_url")
                         source_username = post.get("source_username", "")
                         source_tweet_id = post.get("tweet_id", "")
-                        source_url = None
-                        if source_username and source_tweet_id:
+
+                        if content_url:
+                            # Use the URL from original tweet content (e.g., https://t.co/xxx)
+                            source_url = content_url
+                        elif source_username and source_tweet_id:
+                            # Fall back to tweet URL
                             source_url = f"https://x.com/{source_username}/status/{source_tweet_id}"
+                        else:
+                            source_url = None
 
                         if video_path:
                             media_id = upload_video_to_x(api, video_path)
