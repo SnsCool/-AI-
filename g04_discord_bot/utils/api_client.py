@@ -125,6 +125,17 @@ class G04APIClient:
 
         return await self._request("POST", "/feedback", json=payload)
 
+    async def health_check(self) -> dict:
+        """サービス接続状態を確認"""
+        url = f"{self.base_url}/health/services"
+
+        async with aiohttp.ClientSession() as session:
+            async with session.get(
+                url,
+                timeout=aiohttp.ClientTimeout(total=10)
+            ) as response:
+                return await response.json()
+
 
 class APIError(Exception):
     """API エラー"""
