@@ -44,17 +44,22 @@ class SearchService:
         """
         ナレッジ検索を実行
 
-        1. Notionから関連ドキュメントを検索
-        2. LLMで回答を生成
-        3. ナレッジがない場合は一般知識で回答
+        1. Notion + Google Driveから関連ドキュメントを検索
+        2. PDF/画像はGeminiで解析
+        3. LLMで回答を生成
+        4. ナレッジがない場合は一般知識で回答
         """
         search_id = str(uuid.uuid4())
         documents = []
 
-        # ソースに応じて検索
+        # ソースに応じて検索（並列で実行）
         if source is None or source == "notion":
             notion_docs = await self._search_notion(query, top_k)
             documents.extend(notion_docs)
+
+        if source is None or source == "drive":
+            drive_docs = await self._search_drive(query, top_k)
+            documents.extend(drive_docs)
 
         # ドキュメントが見つかった場合：ナレッジベースで回答
         if documents:
@@ -101,12 +106,10 @@ class SearchService:
             return []
 
         try:
-            # Notionでページを検索
             pages = await self.notion.search_pages(query, limit)
 
             documents = []
             for page in pages:
-                # 各ページのコンテンツを取得
                 content = await self.notion.get_page_content(page["id"])
 
                 if content:
@@ -125,6 +128,41 @@ class SearchService:
 
         except Exception as e:
             print(f"Notion検索エラー: {e}")
+            return []
+
+    async def _search_drive(self, query: str, limit: int) -> list[dict]:
+        """Google Driveからドキュメントを検索（PDF/画像も解析）"""
+        if not self.drive.service:
+            print("Drive service not initialized")
+            return []
+
+        try:
+            files = await self.drive.search_files(query, limit)
+
+            documents = []
+            for file in files:
+                # ファイルコンテンツを取得（PDF/画像はGeminiで解析）
+                content = await self.drive.get_file_content(
+                    file["id"],
+                    file.get("mime_type")
+                )
+
+                if content:
+                    documents.append({
+                        "id": file["id"],
+                        "source_type": "drive",
+                        "title": file["title"],
+                        "url": file["url"],
+                        "content": content,
+                        "snippet": content[:200] + "..." if len(content) > 200 else content,
+                        "score": 0.80,
+                        "created_at": file.get("created_at")
+                    })
+
+            return documents
+
+        except Exception as e:
+            print(f"Drive検索エラー: {e}")
             return []
 
     def _build_context(self, documents: list) -> str:
@@ -163,12 +201,10 @@ class SearchService:
             if datetime.fromisoformat(log["timestamp"]).date() == today
         ]
 
-        # 平均信頼度
         avg_confidence = 0.0
         if total > 0:
             avg_confidence = sum(log["confidence"] for log in self._search_logs) / total
 
-        # 人気キーワード（簡易版）
         keyword_counts = {}
         for log in self._search_logs:
             kw = log["query"][:20]
