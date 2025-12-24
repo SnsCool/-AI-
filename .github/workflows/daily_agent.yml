@@ -14,6 +14,11 @@ on:
   # Allow manual trigger
   workflow_dispatch:
     inputs:
+      dry_run:
+        description: 'Dry run (generate only, no X posting)'
+        required: false
+        type: boolean
+        default: false
       test_x_posting:
         description: 'Test X posting (text only)'
         required: false
@@ -92,10 +97,27 @@ jobs:
         run: |
           cd x && python main.py --commander --request "${{ github.event.inputs.commander_request }}" --max-posts ${{ github.event.inputs.max_posts || 5 }}
 
-      # Step 5c: Full workflow (fetch → generate → post) - Fixed flow
-      # Skip if: test_x_posting=true or use_commander=true
+      # Step 5c: Dry run (generate only, no posting)
+      - name: Run X Trend Agent (Dry Run)
+        if: ${{ inputs.dry_run == true }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+          GCP_SA_KEY_JSON: ${{ secrets.GCP_SA_KEY_JSON }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          ENABLE_X_POSTING: 'false'
+        run: |
+          echo "=== DRY RUN MODE: X posting disabled ==="
+          cd x && python main.py --max-posts ${{ github.event.inputs.max_posts || 5 }}
+
+      # Step 5d: Full workflow (fetch → generate → post) - Fixed flow
+      # Skip if: test_x_posting=true, use_commander=true, or dry_run=true
       - name: Run X Trend Agent
-        if: ${{ inputs.use_commander != true && inputs.test_x_posting != true }}
+        if: ${{ inputs.use_commander != true && inputs.test_x_posting != true && inputs.dry_run != true }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
