@@ -1079,7 +1079,14 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
             full_text = tweet.get("full_text") or tweet.get("text", "")
             source_username = tweet.get("user", {}).get("screen_name", "")
 
+            # Extract content URL from original tweet (e.g., https://t.co/xxx)
+            import re
+            url_match = re.search(r'https?://t\.co/\S+', full_text)
+            content_url = url_match.group(0) if url_match else None
+
             print(f"\n[Tweet {i + 1}/{len(tweets)}] ID: {tweet_id}")
+            if content_url:
+                print(f"  Content URL: {content_url}")
             print(f"  Text preview: {full_text[:100]}...")
 
             # Extract video URL (optional - text-only posts are now supported)
@@ -1121,6 +1128,7 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
                 generated_posts.append({
                     "tweet_id": tweet_id,
                     "source_username": source_username,
+                    "content_url": content_url,  # URL from original tweet (e.g., https://t.co/xxx)
                     "original_text": full_text,
                     "generated_text": generated_text,
                     "video_path": video_path  # Can be None for text-only posts
@@ -1163,12 +1171,19 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
                         video_path = post.get("video_path")
                         media_id = None
 
-                        # Construct source tweet URL
+                        # Use content URL from original tweet (priority) or fall back to tweet URL
+                        content_url = post.get("content_url")
                         source_username = post.get("source_username", "")
                         source_tweet_id = post.get("tweet_id", "")
-                        source_url = None
-                        if source_username and source_tweet_id:
+
+                        if content_url:
+                            # Use the URL from original tweet content (e.g., https://t.co/xxx)
+                            source_url = content_url
+                        elif source_username and source_tweet_id:
+                            # Fall back to tweet URL
                             source_url = f"https://x.com/{source_username}/status/{source_tweet_id}"
+                        else:
+                            source_url = None
 
                         if video_path:
                             media_id = upload_video_to_x(api, video_path)
