@@ -970,7 +970,38 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
     print()
 
     if not tweets:
-        print("No tweets found. Exiting.")
+        print("No tweets found. Attempting fallback posting...")
+
+        # Fallback: Post a generic AI-related tweet if fetching fails
+        if not skip_x_post and ENABLE_X_POSTING:
+            print("\n========================================")
+            print("Fallback: Posting generic tweet")
+            print("========================================")
+
+            fallback_texts = [
+                "🤖 AIの進化が止まらない！今日も新しい技術やツールが登場しています。皆さんはどんなAIを活用していますか？",
+                "💡 AI時代の到来。効率化だけでなく、創造性を高めるツールとしても注目されています。",
+                "🚀 毎日進化するAI技術。キャッチアップが大変ですが、それだけ可能性が広がっているということ！",
+                "🔥 AIを使いこなす人と使わない人の差が広がっています。まずは触ってみることが大切！",
+                "✨ 今日もAIと共に。新しい発見や学びがありますように。",
+            ]
+
+            import random
+            fallback_text = random.choice(fallback_texts)
+
+            try:
+                client, api = get_x_client()
+                print(f"  Posting fallback tweet...")
+                tweet_id = post_to_x(client, fallback_text)
+                if tweet_id:
+                    print(f"  ✓ Fallback tweet posted successfully!")
+                else:
+                    print(f"  ✗ Failed to post fallback tweet")
+            except Exception as e:
+                print(f"  ✗ Fallback posting failed: {e}")
+        else:
+            print("X posting disabled, skipping fallback.")
+
         return
 
     # ==========================================================================
