@@ -1180,16 +1180,11 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
                         video_path = post.get("video_path")
                         media_id = None
 
-                        # Use content URL from original tweet (priority) or fall back to tweet URL
-                        content_url = post.get("content_url")
+                        # Use tweet URL (t.co URLs cause 403 Forbidden errors)
                         source_username = post.get("source_username", "")
                         source_tweet_id = post.get("tweet_id", "")
 
-                        if content_url:
-                            # Use the URL from original tweet content (e.g., https://t.co/xxx)
-                            source_url = content_url
-                        elif source_username and source_tweet_id:
-                            # Fall back to tweet URL
+                        if source_username and source_tweet_id:
                             source_url = f"https://x.com/{source_username}/status/{source_tweet_id}"
                         else:
                             source_url = None
