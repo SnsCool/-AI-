@@ -93,6 +93,7 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
           ENABLE_X_POSTING: 'true'
         run: |
           cd x && python main.py --commander --request "${{ github.event.inputs.commander_request }}" --max-posts ${{ github.event.inputs.max_posts || 5 }}
@@ -109,6 +110,7 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
           ENABLE_X_POSTING: 'false'
         run: |
           echo "=== DRY RUN MODE: X posting disabled ==="
@@ -127,6 +129,7 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
           ENABLE_X_POSTING: 'true'
         run: |
           cd x && python main.py --post-to-x --max-posts ${{ github.event.inputs.max_posts || 5 }}
