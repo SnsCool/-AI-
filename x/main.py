@@ -197,10 +197,11 @@ def fetch_tweets_from_accounts(usernames: list[str], max_per_account: int = 3) -
                 print(f"    Found user ID: {user_id}")
 
                 # Fetch user's tweets (exclude replies and retweets for better content)
+                # Include note_tweet for long tweets (X Premium/Blue)
                 tweets_response = client.get_users_tweets(
                     id=user_id,
                     max_results=max(5, min(max_per_account * 3, 100)),  # Fetch more to filter
-                    tweet_fields=["created_at", "public_metrics", "attachments"],
+                    tweet_fields=["created_at", "public_metrics", "attachments", "note_tweet"],
                     expansions=["attachments.media_keys", "author_id"],
                     media_fields=["type", "url", "preview_image_url", "variants"],
                     user_fields=["username", "name"],
@@ -228,11 +229,18 @@ def fetch_tweets_from_accounts(usernames: list[str], max_per_account: int = 3) -
                         break
 
                 for tweet in tweets_to_process:
+                    # Use note_tweet for long tweets (X Premium), fall back to regular text
+                    if hasattr(tweet, 'note_tweet') and tweet.note_tweet:
+                        tweet_full_text = tweet.note_tweet.get('text', tweet.text)
+                        print(f"      Long tweet detected: {len(tweet_full_text)} chars")
+                    else:
+                        tweet_full_text = tweet.text
+
                     tweet_dict = {
                         "id": tweet.id,
                         "id_str": str(tweet.id),
-                        "text": tweet.text,
-                        "full_text": tweet.text,
+                        "text": tweet_full_text,
+                        "full_text": tweet_full_text,
                         "created_at": str(tweet.created_at) if tweet.created_at else None,
                         "favorite_count": tweet.public_metrics.get("like_count", 0) if tweet.public_metrics else 0,
                         "retweet_count": tweet.public_metrics.get("retweet_count", 0) if tweet.public_metrics else 0,
