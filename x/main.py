@@ -1002,12 +1002,16 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
             print("Fallback: Posting generic tweet")
             print("========================================")
 
+            # Add timestamp to avoid duplicate content errors
+            from datetime import datetime
+            timestamp = datetime.now().strftime("%Y/%m/%d %H:%M")
+
             fallback_texts = [
-                "🤖 AIの進化が止まらない！今日も新しい技術やツールが登場しています。皆さんはどんなAIを活用していますか？",
-                "💡 AI時代の到来。効率化だけでなく、創造性を高めるツールとしても注目されています。",
-                "🚀 毎日進化するAI技術。キャッチアップが大変ですが、それだけ可能性が広がっているということ！",
-                "🔥 AIを使いこなす人と使わない人の差が広がっています。まずは触ってみることが大切！",
-                "✨ 今日もAIと共に。新しい発見や学びがありますように。",
+                f"🤖 AIの進化が止まらない！今日も新しい技術やツールが登場しています。皆さんはどんなAIを活用していますか？\n\n{timestamp}",
+                f"💡 AI時代の到来。効率化だけでなく、創造性を高めるツールとしても注目されています。\n\n{timestamp}",
+                f"🚀 毎日進化するAI技術。キャッチアップが大変ですが、それだけ可能性が広がっているということ！\n\n{timestamp}",
+                f"🔥 AIを使いこなす人と使わない人の差が広がっています。まずは触ってみることが大切！\n\n{timestamp}",
+                f"✨ 今日もAIと共に。新しい発見や学びがありますように。\n\n{timestamp}",
             ]
 
             import random
