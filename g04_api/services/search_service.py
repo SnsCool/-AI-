@@ -78,8 +78,9 @@ class SearchService:
                 for doc in documents
             ]
         else:
-            # ドキュメントが見つからない場合：一般知識で回答
-            answer, confidence = await self.llm.generate_general_answer(query)
+            # ドキュメントが見つからない場合：回答なし
+            answer = "申し訳ございません。関連するナレッジが見つかりませんでした。\n\n検索対象：Notion、Google Drive\n\n別のキーワードでお試しください。"
+            confidence = 0.0
             sources = []
 
         # 検索ログを保存
