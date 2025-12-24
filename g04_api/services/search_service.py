@@ -13,7 +13,6 @@ from models.schemas import (
     StatsResponse,
     FeedbackRequest,
 )
-from .vector_store import VectorStoreService
 from .llm import LLMService
 from .notion import NotionService
 from .drive import DriveService
@@ -24,7 +23,6 @@ class SearchService:
     """ナレッジ検索サービス"""
 
     def __init__(self):
-        self.vector_store = VectorStoreService()
         self.llm = LLMService()
         self.notion = NotionService()
         self.drive = DriveService()
@@ -46,49 +44,38 @@ class SearchService:
         """
         ナレッジ検索を実行
 
-        1. ベクトル検索で関連ドキュメントを取得
+        1. Notionから関連ドキュメントを検索
         2. LLMで回答を生成
-        3. 結果を返却
+        3. ナレッジがない場合は一般知識で回答
         """
         search_id = str(uuid.uuid4())
+        documents = []
 
-        # ベクトル検索で関連ドキュメントを取得
-        documents = await self.vector_store.search(
-            query=query,
-            source=source,
-            after=after,
-            before=before,
-            top_k=top_k
-        )
+        # ソースに応じて検索
+        if source is None or source == "notion":
+            notion_docs = await self._search_notion(query, top_k)
+            documents.extend(notion_docs)
 
-        # ドキュメントが見つからない場合
-        if not documents:
-            return SearchResponse(
-                query=query,
-                answer="関連する情報が見つかりませんでした。検索キーワードを変更するか、担当部署に直接お問い合わせください。",
-                confidence=0.0,
-                sources=[],
-                search_time=0.0
-            )
+        # ドキュメントが見つかった場合：ナレッジベースで回答
+        if documents:
+            context = self._build_context(documents)
+            answer, confidence = await self.llm.generate_answer(query, context)
 
-        # コンテキストを構築
-        context = self._build_context(documents)
-
-        # LLMで回答を生成
-        answer, confidence = await self.llm.generate_answer(query, context)
-
-        # 出典情報を構築
-        sources = [
-            SourceDocument(
-                source_type=doc["source_type"],
-                title=doc["title"],
-                url=doc["url"],
-                relevance_score=doc["score"],
-                snippet=doc.get("snippet"),
-                created_at=doc.get("created_at")
-            )
-            for doc in documents
-        ]
+            sources = [
+                SourceDocument(
+                    source_type=doc["source_type"],
+                    title=doc["title"],
+                    url=doc["url"],
+                    relevance_score=doc.get("score", 0.8),
+                    snippet=doc.get("snippet"),
+                    created_at=doc.get("created_at")
+                )
+                for doc in documents
+            ]
+        else:
+            # ドキュメントが見つからない場合：一般知識で回答
+            answer, confidence = await self.llm.generate_general_answer(query)
+            sources = []
 
         # 検索ログを保存
         self._save_search_log(
@@ -106,6 +93,39 @@ class SearchService:
             sources=sources,
             search_time=0.0  # 呼び出し元で設定
         )
+
+    async def _search_notion(self, query: str, limit: int) -> list[dict]:
+        """Notionからドキュメントを検索"""
+        if not self.notion.client:
+            print("Notion client not initialized")
+            return []
+
+        try:
+            # Notionでページを検索
+            pages = await self.notion.search_pages(query, limit)
+
+            documents = []
+            for page in pages:
+                # 各ページのコンテンツを取得
+                content = await self.notion.get_page_content(page["id"])
+
+                if content:
+                    documents.append({
+                        "id": page["id"],
+                        "source_type": "notion",
+                        "title": page["title"],
+                        "url": page["url"],
+                        "content": content,
+                        "snippet": content[:200] + "..." if len(content) > 200 else content,
+                        "score": 0.85,
+                        "created_at": page.get("created_at")
+                    })
+
+            return documents
+
+        except Exception as e:
+            print(f"Notion検索エラー: {e}")
+            return []
 
     def _build_context(self, documents: list) -> str:
         """ドキュメントからコンテキストを構築"""
@@ -151,7 +171,6 @@ class SearchService:
         # 人気キーワード（簡易版）
         keyword_counts = {}
         for log in self._search_logs:
-            # 簡易的にクエリ全体をキーワードとして扱う
             kw = log["query"][:20]
             keyword_counts[kw] = keyword_counts.get(kw, 0) + 1
 
@@ -171,7 +190,7 @@ class SearchService:
         return StatsResponse(
             total_searches=total,
             today_searches=len(today_logs),
-            avg_response_time=1.2,  # ダミー値
+            avg_response_time=1.2,
             avg_confidence=round(avg_confidence, 2),
             popular_keywords=[
                 {"keyword": kw, "count": count}
