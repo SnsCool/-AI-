@@ -835,7 +835,7 @@ def upload_video_to_x(api: tweepy.API, video_path: str) -> str | None:
         return None
 
 
-def post_to_x(client: tweepy.Client, text: str, media_id: str = None) -> str | None:
+def post_to_x(client: tweepy.Client, text: str, media_id: str = None, source_url: str = None) -> str | None:
     """
     Post a tweet to X.
 
@@ -843,6 +843,7 @@ def post_to_x(client: tweepy.Client, text: str, media_id: str = None) -> str | N
         client: tweepy.Client instance for v2 API
         text: Tweet text
         media_id: Optional media_id for video attachment
+        source_url: Optional source tweet URL to append at the end
 
     Returns:
         Tweet ID or None if failed
@@ -850,13 +851,24 @@ def post_to_x(client: tweepy.Client, text: str, media_id: str = None) -> str | N
     try:
         print(f"  Posting to X...", flush=True)
 
-        # Remove URLs from text (t.co links cause "invalid URL" errors)
+        # Remove hallucinated URLs and placeholder text from Gemini-generated text
         import re
-        text = re.sub(r'https?://\S+', '', text)
+        text = re.sub(r'https?://\S+', '', text)  # Remove actual URLs
+        text = re.sub(r'\[.*?URL.*?\]', '', text)  # Remove placeholder like [〇〇URL]
+        text = re.sub(r'詳細はこちら[:：]?\s*$', '', text)  # Remove orphaned "詳細はこちら"
         text = re.sub(r'\s+', ' ', text).strip()  # Clean up extra whitespace
 
-        # Truncate text if too long (X limit is 280 characters)
-        if len(text) > 280:
+        # Add source URL at the end if provided
+        if source_url:
+            source_suffix = f"\n\n詳細はこちら: {source_url}"
+            # Calculate max length for main text (280 - source suffix length)
+            max_main_text_len = 280 - len(source_suffix)
+            if len(text) > max_main_text_len:
+                text = text[:max_main_text_len - 3] + "..."
+            text = text + source_suffix
+            print(f"    Added source URL: {source_url}", flush=True)
+        elif len(text) > 280:
+            # Truncate text if too long (X limit is 280 characters)
             text = text[:277] + "..."
             print(f"    Text truncated to 280 chars", flush=True)
 
@@ -1061,6 +1073,7 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
         for i, tweet in enumerate(tweets):
             tweet_id = tweet.get("id_str") or tweet.get("id") or str(i)
             full_text = tweet.get("full_text") or tweet.get("text", "")
+            source_username = tweet.get("user", {}).get("screen_name", "")
 
             print(f"\n[Tweet {i + 1}/{len(tweets)}] ID: {tweet_id}")
             print(f"  Text preview: {full_text[:100]}...")
@@ -1103,6 +1116,7 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
                 # Store generated post info
                 generated_posts.append({
                     "tweet_id": tweet_id,
+                    "source_username": source_username,
                     "original_text": full_text,
                     "generated_text": generated_text,
                     "video_path": video_path  # Can be None for text-only posts
@@ -1145,11 +1159,18 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
                         video_path = post.get("video_path")
                         media_id = None
 
+                        # Construct source tweet URL
+                        source_username = post.get("source_username", "")
+                        source_tweet_id = post.get("tweet_id", "")
+                        source_url = None
+                        if source_username and source_tweet_id:
+                            source_url = f"https://x.com/{source_username}/status/{source_tweet_id}"
+
                         if video_path:
                             media_id = upload_video_to_x(api, video_path)
 
                         if media_id:
-                            tweet_id = post_to_x(client, post["generated_text"], media_id)
+                            tweet_id = post_to_x(client, post["generated_text"], media_id, source_url)
                             if tweet_id:
                                 posted_count += 1
                                 print(f"    ✓ Posted with video!")
@@ -1159,7 +1180,7 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
                                 print("    ⚠ Video upload failed, posting text only...")
                             else:
                                 print("    ℹ Posting text only...")
-                            tweet_id = post_to_x(client, post["generated_text"])
+                            tweet_id = post_to_x(client, post["generated_text"], source_url=source_url)
                             if tweet_id:
                                 posted_count += 1
                                 print(f"    ✓ Posted successfully!")
