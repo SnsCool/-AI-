@@ -184,5 +184,58 @@ class Search(commands.Cog):
             )
 
 
+    @commands.command(name="health", aliases=["status", "接続確認"])
+    async def health_command(self, ctx: commands.Context):
+        """
+        サービス接続状態を確認
+
+        使用例:
+          !health
+          !status
+          !接続確認
+        """
+        try:
+            result = await self.api.health_check()
+
+            # Embed作成
+            embed = discord.Embed(
+                title="サービス接続状態",
+                color=discord.Color.green()
+            )
+
+            services = result.get("services", {})
+
+            # Google Drive
+            drive = services.get("google_drive", {})
+            drive_status = drive.get("status", "unknown")
+            drive_icon = "✅" if drive_status == "connected" else "❌" if drive_status == "error" else "⚠️"
+            embed.add_field(
+                name=f"{drive_icon} Google Drive",
+                value=drive.get("message", "不明"),
+                inline=False
+            )
+
+            # Notion
+            notion = services.get("notion", {})
+            notion_status = notion.get("status", "unknown")
+            notion_icon = "✅" if notion_status == "connected" else "❌" if notion_status == "error" else "⚠️"
+            embed.add_field(
+                name=f"{notion_icon} Notion",
+                value=notion.get("message", "不明"),
+                inline=False
+            )
+
+            await ctx.send(embed=embed)
+
+        except Exception as e:
+            await ctx.send(
+                embed=discord.Embed(
+                    title="❌ 接続エラー",
+                    description=f"APIに接続できません\n\n```{str(e)}```",
+                    color=discord.Color.red()
+                )
+            )
+
+
 async def setup(bot: commands.Bot):
     await bot.add_cog(Search(bot))
