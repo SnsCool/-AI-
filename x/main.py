@@ -679,7 +679,8 @@ def load_buzz_posts() -> list[dict]:
     Returns:
         List of buzz post dictionaries
     """
-    buzz_file = os.path.join(PROJECT_ROOT, "x", "buzz_posts.json")
+    # PROJECT_ROOT is already the x/ directory
+    buzz_file = os.path.join(PROJECT_ROOT, "buzz_posts.json")
 
     if not os.path.exists(buzz_file):
         print(f"  ✗ Buzz posts file not found: {buzz_file}")
