@@ -851,9 +851,11 @@ def post_to_x(client: tweepy.Client, text: str, media_id: str = None, source_url
     try:
         print(f"  Posting to X...", flush=True)
 
-        # Remove hallucinated URLs from Gemini-generated text
+        # Remove hallucinated URLs and placeholder text from Gemini-generated text
         import re
-        text = re.sub(r'https?://\S+', '', text)
+        text = re.sub(r'https?://\S+', '', text)  # Remove actual URLs
+        text = re.sub(r'\[.*?URL.*?\]', '', text)  # Remove placeholder like [〇〇URL]
+        text = re.sub(r'詳細はこちら[:：]?\s*$', '', text)  # Remove orphaned "詳細はこちら"
         text = re.sub(r'\s+', ' ', text).strip()  # Clean up extra whitespace
 
         # Add source URL at the end if provided
