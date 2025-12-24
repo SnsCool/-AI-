@@ -62,7 +62,7 @@ MAX_TWEETS = 10
 MAX_POSTS_PER_DAY = 5
 
 # Gemini model to use
-GEMINI_MODEL = "gemini-2.0-flash"
+GEMINI_MODEL = "gemini-2.5-pro"
 
 # =============================================================================
 # Workflow Integration Paths
@@ -996,28 +996,34 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
     if not tweets:
         print("No tweets found. Attempting fallback posting...")
 
-        # Fallback: Post a generic AI-related tweet if fetching fails
+        # Fallback: Generate and post an AI-related tweet using Gemini
         if not skip_x_post and ENABLE_X_POSTING:
             print("\n========================================")
-            print("Fallback: Posting generic tweet")
+            print("Fallback: Generating tweet with Gemini")
             print("========================================")
 
-            # Add timestamp to avoid duplicate content errors
-            from datetime import datetime
-            timestamp = datetime.now().strftime("%Y/%m/%d %H:%M")
-
-            fallback_texts = [
-                f"🤖 AIの進化が止まらない！今日も新しい技術やツールが登場しています。皆さんはどんなAIを活用していますか？\n\n{timestamp}",
-                f"💡 AI時代の到来。効率化だけでなく、創造性を高めるツールとしても注目されています。\n\n{timestamp}",
-                f"🚀 毎日進化するAI技術。キャッチアップが大変ですが、それだけ可能性が広がっているということ！\n\n{timestamp}",
-                f"🔥 AIを使いこなす人と使わない人の差が広がっています。まずは触ってみることが大切！\n\n{timestamp}",
-                f"✨ 今日もAIと共に。新しい発見や学びがありますように。\n\n{timestamp}",
-            ]
-
-            import random
-            fallback_text = random.choice(fallback_texts)
-
             try:
+                # Generate unique fallback content using Gemini
+                genai.configure(api_key=GEMINI_API_KEY)
+                model = genai.GenerativeModel(model_name=GEMINI_MODEL)
+
+                fallback_prompt = """AI・テクノロジーに関する短いツイートを1つ生成してください。
+
+条件:
+- 200文字以内
+- 日本語で
+- AI、機械学習、テクノロジーの最新トレンドや考察について
+- 絵文字は1〜2個程度
+- URLは含めない
+- 「詳細はこちら」などのリンク誘導文は含めない
+- 毎回異なる内容になるようにユニークな視点で
+- 投稿文のみを出力（説明や前置きは不要）"""
+
+                print("  Generating with Gemini...")
+                response = model.generate_content(fallback_prompt)
+                fallback_text = response.text.strip()
+                print(f"  Generated: {fallback_text[:50]}...")
+
                 client, api = get_x_client()
                 print(f"  Posting fallback tweet...")
                 tweet_id = post_to_x(client, fallback_text)
