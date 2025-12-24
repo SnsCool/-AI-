@@ -1079,14 +1079,15 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
             full_text = tweet.get("full_text") or tweet.get("text", "")
             source_username = tweet.get("user", {}).get("screen_name", "")
 
-            # Extract content URL from original tweet (use the LAST t.co URL)
+            # Extract content URL from original tweet (use the FIRST t.co URL)
+            # The first URL is usually the main content (video/article), later URLs may be images
             import re
             all_urls = re.findall(r'https?://t\.co/\S+', full_text)
-            content_url = all_urls[-1] if all_urls else None  # Get the last URL
+            content_url = all_urls[0] if all_urls else None  # Get the first URL
 
             print(f"\n[Tweet {i + 1}/{len(tweets)}] ID: {tweet_id}")
             if all_urls:
-                print(f"  Found {len(all_urls)} URL(s), using last: {content_url}")
+                print(f"  Found {len(all_urls)} URL(s), using first: {content_url}")
             print(f"  Text preview: {full_text[:100]}...")
 
             # Extract video URL (optional - text-only posts are now supported)
