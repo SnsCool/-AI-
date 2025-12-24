@@ -64,3 +64,61 @@ async def health_check():
         "status": "healthy",
         "timestamp": time.time()
     }
+
+
+@app.get("/health/services")
+async def services_health_check():
+    """各サービスの接続状態を確認"""
+    from services.drive import DriveService
+    from services.notion import NotionService
+
+    results = {
+        "timestamp": time.time(),
+        "services": {}
+    }
+
+    # Google Drive確認
+    try:
+        drive = DriveService()
+        if drive.service:
+            # 実際にAPIを呼んで確認
+            test_response = drive.service.files().list(
+                pageSize=1,
+                fields="files(id, name)"
+            ).execute()
+            file_count = len(test_response.get("files", []))
+            results["services"]["google_drive"] = {
+                "status": "connected",
+                "message": f"接続成功（{file_count}件のファイルにアクセス可能）"
+            }
+        else:
+            results["services"]["google_drive"] = {
+                "status": "not_configured",
+                "message": "GOOGLE_CREDENTIALS_JSON が設定されていません"
+            }
+    except Exception as e:
+        results["services"]["google_drive"] = {
+            "status": "error",
+            "message": str(e)
+        }
+
+    # Notion確認
+    try:
+        notion = NotionService()
+        if notion.client:
+            results["services"]["notion"] = {
+                "status": "connected",
+                "message": "接続成功"
+            }
+        else:
+            results["services"]["notion"] = {
+                "status": "not_configured",
+                "message": "NOTION_TOKEN が設定されていません"
+            }
+    except Exception as e:
+        results["services"]["notion"] = {
+            "status": "error",
+            "message": str(e)
+        }
+
+    return results
