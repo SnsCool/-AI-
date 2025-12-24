@@ -123,6 +123,9 @@ X_BEARER_TOKEN = get_env("X_BEARER_TOKEN")  # Required for fetching other users'
 # Enable/disable X posting (set to True to actually post)
 ENABLE_X_POSTING = os.getenv("ENABLE_X_POSTING", "false").lower() == "true"
 
+# Google Spreadsheet ID for logging (optional)
+SPREADSHEET_ID = get_env("SPREADSHEET_ID")
+
 
 def validate_environment():
     """Validate that all required environment variables are set."""
@@ -666,6 +669,238 @@ def save_generated_text(text: str, tweet_id: str, output_dir: str) -> str:
 
 
 # =============================================================================
+# Buzz Post Analysis & Template Generation
+# =============================================================================
+
+def load_buzz_posts() -> list[dict]:
+    """
+    Load buzz posts from JSON file.
+
+    Returns:
+        List of buzz post dictionaries
+    """
+    buzz_file = os.path.join(PROJECT_ROOT, "x", "buzz_posts.json")
+
+    if not os.path.exists(buzz_file):
+        print(f"  ✗ Buzz posts file not found: {buzz_file}")
+        return []
+
+    with open(buzz_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    return data.get("buzz_posts", [])
+
+
+def get_random_buzz_post() -> dict | None:
+    """
+    Get a random buzz post from the collection.
+
+    Returns:
+        Random buzz post dict or None if no posts available
+    """
+    import random
+    buzz_posts = load_buzz_posts()
+
+    if not buzz_posts:
+        return None
+
+    return random.choice(buzz_posts)
+
+
+def analyze_buzz_post(buzz_content: str) -> dict:
+    """
+    Analyze a buzz post using 4-step prompt to extract structure and characteristics.
+
+    Args:
+        buzz_content: The buzz post text to analyze
+
+    Returns:
+        Dictionary containing analysis results and template prompt
+    """
+    genai.configure(api_key=GEMINI_API_KEY)
+    model = genai.GenerativeModel(model_name=GEMINI_MODEL)
+
+    analysis_prompt = f"""下記のステップに従って実行せよ
+
+ステップ1: Xのポストの構成を割り出す
+<<入力されたXのポストを一文ごとに分析し、構成要素を抽出する>>
+制約条件
+* 「。」を起点に文を分ける
+* 構成要素は10個以上出す（サボらないこと）
+出力形式
+* 構成1: ...
+* 構成2: ...
+（続く）
+
+ステップ2: Xのポストの特徴を割り出す
+<<Xのポストの特徴を分析し、以下の観点から特徴をリストアップする>>
+出力形式
+* ジャンル:
+* 文章の語調や口調:
+* 使用されている説得テクニック:
+* 訴求ポイント:
+* 文章の構成パターン:
+
+ステップ3: 構成と特徴を一般化する
+<<ステップ1と2で割り出した構成・特徴を一般化し、汎用的な構成要素と制約条件を作成する>>
+制約条件
+* 構成要素は10個以上
+出力形式
+* 構成1: [一般化した構成要素]
+* 構成2: [一般化した構成要素]
+（続く）
+
+---
+入力されたXのポスト:
+{buzz_content}
+---
+
+上記のステップ1〜3を実行し、結果を出力してください。"""
+
+    print("  Analyzing buzz post structure...")
+    response = model.generate_content(analysis_prompt)
+    analysis_result = response.text
+
+    return {
+        "buzz_content": buzz_content,
+        "analysis": analysis_result
+    }
+
+
+def generate_post_with_template(
+    analysis_result: dict,
+    source_tweet: str,
+    source_username: str = ""
+) -> str:
+    """
+    Generate a new post using the analyzed template and source tweet content.
+
+    Args:
+        analysis_result: Result from analyze_buzz_post()
+        source_tweet: The fetched tweet content to use as source material
+        source_username: Username of the source tweet author
+
+    Returns:
+        Generated post text
+    """
+    genai.configure(api_key=GEMINI_API_KEY)
+    model = genai.GenerativeModel(model_name=GEMINI_MODEL)
+
+    buzz_content = analysis_result.get("buzz_content", "")
+    analysis = analysis_result.get("analysis", "")
+
+    generation_prompt = f"""下記の命令を実行しXのポストを作成してください
+
+### 命令書
+あなたはプロのライターです。
+no talk; just do
+分析結果の特徴を把握し、制約条件と構成に沿ってXのポストを出力してください。
+必ず回答例を参考にして、同様の構成で文章を作成してください。
+
+### 分析結果（構成・特徴）:
+{analysis}
+
+### 制約条件:
+- 元の情報源の内容を忠実に反映すること
+- 新しい情報や架空の情報を追加しないこと
+- URLは一切含めないこと
+- 「詳細はこちら」などのリンク誘導文は含めないこと
+- 280文字以内で作成すること
+
+### 回答例（参考バズ投稿）:
+{buzz_content}
+
+### 情報源（この内容を元に投稿を作成）:
+{source_tweet}
+
+### 出力形式
+投稿文のみを出力してください（説明や前置きは不要）"""
+
+    print("  Generating post with template...")
+    response = model.generate_content(generation_prompt)
+
+    return response.text.strip()
+
+
+# =============================================================================
+# Google Spreadsheet: Logging
+# =============================================================================
+
+def get_sheets_service():
+    """
+    Create and return a Google Sheets API service instance.
+
+    Returns:
+        Google Sheets API service instance
+    """
+    credentials_info = json.loads(GCP_SA_KEY_JSON)
+
+    credentials = service_account.Credentials.from_service_account_info(
+        credentials_info,
+        scopes=[
+            "https://www.googleapis.com/auth/spreadsheets",
+            "https://www.googleapis.com/auth/drive"
+        ]
+    )
+
+    return build("sheets", "v4", credentials=credentials)
+
+
+def append_to_spreadsheet(
+    sheet_id: str,
+    row_data: dict
+) -> bool:
+    """
+    Append a row to the spreadsheet for logging.
+
+    Args:
+        sheet_id: Google Spreadsheet ID
+        row_data: Dictionary containing row data:
+            - datetime: 投稿日時
+            - status: 成功/失敗
+            - source_account: 取得元アカウント
+            - source_content: 取得ツイート内容
+            - generated_content: 生成投稿内容
+            - post_url: 投稿URL
+            - source_url: ソースURL
+
+    Returns:
+        True if successful, False otherwise
+    """
+    try:
+        service = get_sheets_service()
+
+        # Prepare row values
+        row = [
+            row_data.get("datetime", ""),
+            row_data.get("status", ""),
+            row_data.get("source_account", ""),
+            row_data.get("source_content", ""),
+            row_data.get("generated_content", ""),
+            row_data.get("post_url", ""),
+            row_data.get("source_url", "")
+        ]
+
+        # Append to sheet
+        body = {"values": [row]}
+
+        service.spreadsheets().values().append(
+            spreadsheetId=sheet_id,
+            range="投稿ログ!A:G",
+            valueInputOption="USER_ENTERED",
+            insertDataOption="INSERT_ROWS",
+            body=body
+        ).execute()
+
+        print(f"  ✓ Logged to spreadsheet")
+        return True
+
+    except Exception as e:
+        print(f"  ✗ Failed to log to spreadsheet: {e}")
+        return False
+
+
+# =============================================================================
 # Google Drive: Upload
 # =============================================================================
 
@@ -1067,14 +1302,33 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
     print()
 
     # ==========================================================================
-    # Workflow Step 5: 投稿作成 (Post Creation)
+    # Workflow Step 5: 投稿作成 (Post Creation) - バズ投稿テンプレート方式
     # ==========================================================================
     print("=" * 40)
     print("Step 5: 投稿作成 (Post Creation)")
     print("=" * 40)
 
+    # Select random buzz post for template analysis
+    print("Selecting random buzz post for template analysis...")
+    buzz_post = get_random_buzz_post()
+    if buzz_post:
+        print(f"  ✓ Selected buzz post: {buzz_post.get('id', 'unknown')}")
+        print(f"    Preview: {buzz_post.get('content', '')[:80]}...")
+
+        # Analyze buzz post structure (4-step prompt)
+        print("  Analyzing buzz post structure...")
+        try:
+            analysis_result = analyze_buzz_post(buzz_post.get("content", ""))
+            print(f"  ✓ Analysis complete")
+        except Exception as e:
+            print(f"  ✗ Buzz post analysis failed: {e}")
+            analysis_result = None
+    else:
+        print("  ⚠ No buzz posts available, using fallback generation")
+        analysis_result = None
+
     # Initialize Google Drive
-    print("Initializing Google Drive...")
+    print("\nInitializing Google Drive...")
     drive_service = get_drive_service()
     today = datetime.now().strftime("%Y-%m-%d")
     date_folder_id = get_or_create_date_folder(
@@ -1099,7 +1353,6 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
 
             # Extract content URL from original tweet (use the FIRST t.co URL)
             # The first URL is usually the main content (video/article), later URLs may be images
-            import re
             all_urls = re.findall(r'https?://t\.co/\S+', full_text)
             content_url = all_urls[0] if all_urls else None  # Get the first URL
 
@@ -1120,16 +1373,26 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
             else:
                 print("  ℹ No video in this tweet, generating text-only post...")
 
-            # Generate mimicking text with format and brain integration
-            print("  Generating mimicking text with Gemini...")
-            print(f"    Using format: {format_template.get('name', 'default')}")
-            print(f"    Using brain data: {'Yes' if brain_data else 'No'}")
+            # Generate post using buzz post template or fallback
+            print("  Generating post with Gemini...")
             try:
-                generated_text = generate_mimic_text(
-                    full_text,
-                    format_template=format_template,
-                    brain_data=brain_data
-                )
+                if analysis_result:
+                    # Use buzz post template-based generation
+                    print(f"    Using buzz post template: {buzz_post.get('id', 'unknown')}")
+                    generated_text = generate_post_with_template(
+                        analysis_result,
+                        full_text,
+                        source_username
+                    )
+                else:
+                    # Fallback to original generation method
+                    print(f"    Using format: {format_template.get('name', 'default')}")
+                    print(f"    Using brain data: {'Yes' if brain_data else 'No'}")
+                    generated_text = generate_mimic_text(
+                        full_text,
+                        format_template=format_template,
+                        brain_data=brain_data
+                    )
                 text_path = save_generated_text(generated_text, tweet_id, temp_dir)
             except Exception as e:
                 print(f"  ✗ Failed to generate text: {e}")
@@ -1202,10 +1465,14 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
                         if video_path:
                             media_id = upload_video_to_x(api, video_path)
 
+                        posted_tweet_id = None
+                        post_status = "失敗"
+
                         if media_id:
-                            tweet_id = post_to_x(client, post["generated_text"], media_id, source_url)
-                            if tweet_id:
+                            posted_tweet_id = post_to_x(client, post["generated_text"], media_id, source_url)
+                            if posted_tweet_id:
                                 posted_count += 1
+                                post_status = "成功"
                                 print(f"    ✓ Posted with video!")
                         else:
                             # Post text only (no video or video upload failed)
@@ -1213,12 +1480,40 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
                                 print("    ⚠ Video upload failed, posting text only...")
                             else:
                                 print("    ℹ Posting text only...")
-                            tweet_id = post_to_x(client, post["generated_text"], source_url=source_url)
-                            if tweet_id:
+                            posted_tweet_id = post_to_x(client, post["generated_text"], source_url=source_url)
+                            if posted_tweet_id:
                                 posted_count += 1
+                                post_status = "成功"
                                 print(f"    ✓ Posted successfully!")
+
+                        # Log to spreadsheet if SPREADSHEET_ID is configured
+                        if SPREADSHEET_ID:
+                            post_url = f"https://x.com/i/status/{posted_tweet_id}" if posted_tweet_id else ""
+                            log_data = {
+                                "datetime": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                                "status": post_status,
+                                "source_account": f"@{source_username}" if source_username else "",
+                                "source_content": post.get("original_text", "")[:500],  # Limit length
+                                "generated_content": post.get("generated_text", "")[:500],  # Limit length
+                                "post_url": post_url,
+                                "source_url": source_url or ""
+                            }
+                            append_to_spreadsheet(SPREADSHEET_ID, log_data)
+
                     except Exception as e:
                         print(f"    ✗ Failed to post: {e}")
+                        # Log failure to spreadsheet
+                        if SPREADSHEET_ID:
+                            log_data = {
+                                "datetime": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                                "status": "失敗",
+                                "source_account": f"@{source_username}" if source_username else "",
+                                "source_content": post.get("original_text", "")[:500],
+                                "generated_content": post.get("generated_text", "")[:500],
+                                "post_url": "",
+                                "source_url": source_url or ""
+                            }
+                            append_to_spreadsheet(SPREADSHEET_ID, log_data)
                         continue
 
                     # Wait between posts to avoid rate limiting (except for last post)

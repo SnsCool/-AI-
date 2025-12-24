@@ -24,6 +24,11 @@ on:
         required: false
         type: boolean
         default: false
+      test_spreadsheet:
+        description: 'Test Spreadsheet connection'
+        required: false
+        type: boolean
+        default: false
       use_commander:
         description: 'Use Commander Agent (AI-driven task routing)'
         required: false
@@ -81,6 +86,15 @@ jobs:
         run: |
           cd x && python main.py --test-x
 
+      # Step 5a2: Test Spreadsheet connection
+      - name: Test Spreadsheet Connection
+        if: ${{ inputs.test_spreadsheet == true }}
+        env:
+          GCP_SA_KEY_JSON: ${{ secrets.GCP_SA_KEY_JSON }}
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
+        run: |
+          cd x && python test_spreadsheet.py
+
       # Step 5b: Commander mode (AI-driven task routing)
       - name: Run Commander Agent
         if: ${{ inputs.use_commander == true && inputs.test_x_posting != true }}
@@ -93,6 +107,7 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
           ENABLE_X_POSTING: 'true'
         run: |
           cd x && python main.py --commander --request "${{ github.event.inputs.commander_request }}" --max-posts ${{ github.event.inputs.max_posts || 5 }}
@@ -109,6 +124,7 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
           ENABLE_X_POSTING: 'false'
         run: |
           echo "=== DRY RUN MODE: X posting disabled ==="
@@ -127,6 +143,7 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
           ENABLE_X_POSTING: 'true'
         run: |
           cd x && python main.py --post-to-x --max-posts ${{ github.event.inputs.max_posts || 5 }}
