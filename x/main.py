@@ -49,7 +49,7 @@ load_dotenv()
 # Target X accounts to fetch tweets from (multiple accounts supported)
 TARGET_X_USERNAMES = [
     "masahirochaen",
-    "Google",
+    "satori_sz9",
 ]
 
 # Number of tweets to fetch per account
