@@ -710,13 +710,13 @@ def get_random_buzz_post() -> dict | None:
 
 def analyze_buzz_post(buzz_content: str) -> dict:
     """
-    Analyze a buzz post using 4-step prompt to extract structure and characteristics.
+    Analyze a buzz post using 4-step prompt to extract structure and generate template.
 
     Args:
         buzz_content: The buzz post text to analyze
 
     Returns:
-        Dictionary containing analysis results and template prompt
+        Dictionary containing analysis results and generated prompt template
     """
     genai.configure(api_key=GEMINI_API_KEY)
     model = genai.GenerativeModel(model_name=GEMINI_MODEL)
@@ -726,15 +726,22 @@ def analyze_buzz_post(buzz_content: str) -> dict:
 ステップ1: Xのポストの構成を割り出す
 <<入力されたXのポストを一文ごとに分析し、構成要素を抽出する>>
 制約条件
-* 「。」を起点に文を分ける
+* 「。」を起点に文分ける
 * 構成要素は10個以上出す（サボらないこと）
 出力形式
-* 構成1: ...
-* 構成2: ...
-（続く）
+* 構成1:
+* 構成2:
+* 構成3: ・・・
+* 構成9: ・・・
+* 構成N:
 
 ステップ2: Xのポストの特徴を割り出す
 <<Xのポストの特徴を分析し、以下の観点から特徴をリストアップする>>
+* ジャンル:
+* 文章の語調や口調:
+* 使用されている説得テクニック:
+* 訴求ポイント:
+* 文章の構成パターン:
 出力形式
 * ジャンル:
 * 文章の語調や口調:
@@ -747,24 +754,67 @@ def analyze_buzz_post(buzz_content: str) -> dict:
 制約条件
 * 構成要素は10個以上
 出力形式
-* 構成1: [一般化した構成要素]
-* 構成2: [一般化した構成要素]
-（続く）
+* 構成1:
+* 構成2:
+* 構成3: ・・・
+* 構成9: ・・・
+* 構成N:
+
+ステップ4: プロンプトを作成する
+<<ステップ3で一般化した構成と特徴を元に、汎用的なプロンプトを作成し、コードブロックで出力する>>
+
+```
+下記の命令を実行しXのポストを作成してください
+
+### 命令書
+あなたはプロのライターです。
+no talk; just do
+特徴を把握し、制約条件と構成に沿って「<<Xのポストのジャンル>>」のXのポストを出力してください。
+「<<Xのポストの主題>>」はUSERに求めること
+必ず回答例を参考にして、出力形式のような表で文章を出力してください。
+
+### 制約条件:
+<<ステップ2で割り出した特徴から、文章の制約条件としてそのまま記載>>
+
+### ポスト特徴:
+<<ステップ2で割り出した特徴から、Xのポストの特徴を記載>>
+
+### 構成:
+<<ステップ1で割り出した構成要素を一般化して列挙>>
+
+### 回答例：
+<<提出したXのポスト>>を<<一般化した構成>>に当てはめ、表形式として回答例にする
+|一般化構成|提出Xのポスト|
+|---|---|
+
+### 出力形式
+- 主題
+---
+|構成|文章|
+|---|---|
+
+```
 
 ---
 入力されたXのポスト:
 {buzz_content}
 ---
 
-上記のステップ1〜3を実行し、結果を出力してください。"""
+上記のステップ1〜4を実行し、結果を出力してください。"""
 
     print("  Analyzing buzz post structure...")
     response = model.generate_content(analysis_prompt)
     analysis_result = response.text
 
+    # Extract the generated prompt from Step 4 (between ``` markers)
+    import re
+    prompt_match = re.search(r'```\n?(.*?)\n?```', analysis_result, re.DOTALL)
+    generated_prompt = prompt_match.group(1) if prompt_match else None
+
     return {
         "buzz_content": buzz_content,
-        "analysis": analysis_result
+        "analysis": analysis_result,
+        "generated_prompt": generated_prompt
     }
 
 
@@ -774,11 +824,11 @@ def generate_post_with_template(
     source_username: str = ""
 ) -> str:
     """
-    Generate a new post using the analyzed template and source tweet content.
+    Generate a new post using the prompt generated from Step 4.
 
     Args:
-        analysis_result: Result from analyze_buzz_post()
-        source_tweet: The fetched tweet content to use as source material
+        analysis_result: Result from analyze_buzz_post() containing generated_prompt
+        source_tweet: The fetched tweet content to use as 主題 (subject)
         source_username: Username of the source tweet author
 
     Returns:
@@ -787,41 +837,41 @@ def generate_post_with_template(
     genai.configure(api_key=GEMINI_API_KEY)
     model = genai.GenerativeModel(model_name=GEMINI_MODEL)
 
-    buzz_content = analysis_result.get("buzz_content", "")
-    analysis = analysis_result.get("analysis", "")
+    generated_prompt = analysis_result.get("generated_prompt", "")
 
-    generation_prompt = f"""下記の命令を実行しXのポストを作成してください
+    if not generated_prompt:
+        # Fallback if no generated prompt available
+        print("  ⚠ No generated prompt from Step 4, using fallback")
+        return None
 
-### 命令書
-あなたはプロのライターです。
-no talk; just do
-分析結果の特徴を把握し、制約条件と構成に沿ってXのポストを出力してください。
-必ず回答例を参考にして、同様の構成で文章を作成してください。
+    # Use the generated prompt from Step 4, with source tweet as the 主題
+    final_prompt = f"""{generated_prompt}
 
-### 分析結果（構成・特徴）:
-{analysis}
-
-### 制約条件:
-- 元の情報源の内容を忠実に反映すること
-- 新しい情報や架空の情報を追加しないこと
-- URLは一切含めないこと
-- 「詳細はこちら」などのリンク誘導文は含めないこと
-- 引用符（"や「」）で全体を囲まないこと
-- **200文字以内**で作成すること（ソースURL追加のため短めに）
-
-### 回答例（参考バズ投稿）:
-{buzz_content}
-
-### 情報源（この内容を元に投稿を作成）:
+### 主題（この内容を元に投稿を作成）:
 {source_tweet}
 
-### 出力形式
-投稿文のみを出力してください（説明や前置きは不要）"""
+※追加制約: 200文字以内で作成すること（X Free アカウント対応）
+※出力は投稿文のテキストのみ（表形式ではなく、テキストのみ出力）"""
 
     print("  Generating post with template...")
-    response = model.generate_content(generation_prompt)
+    response = model.generate_content(final_prompt)
 
-    return response.text.strip()
+    # Extract text content (remove table formatting if present)
+    result_text = response.text.strip()
+
+    # If result contains table format, extract the text content
+    if "|" in result_text:
+        lines = result_text.split("\n")
+        text_parts = []
+        for line in lines:
+            if "|" in line and "---" not in line and "構成" not in line:
+                parts = line.split("|")
+                if len(parts) >= 3:
+                    text_parts.append(parts[2].strip())
+        if text_parts:
+            result_text = "".join(text_parts)
+
+    return result_text
 
 
 # =============================================================================
