@@ -582,7 +582,8 @@ def download_video(url: str, tweet_id: str, output_dir: str) -> str | None:
 def generate_mimic_text(
     original_text: str,
     format_template: dict = None,
-    brain_data: str = None
+    brain_data: str = None,
+    no_char_limit: bool = False
 ) -> str:
     """
     Generate a mimicking post text using Google Gemini.
@@ -595,6 +596,7 @@ def generate_mimic_text(
         original_text: Original tweet text to mimic
         format_template: Format template dict from load_format_template()
         brain_data: Brain data string from load_brain_data()
+        no_char_limit: If True, disable 200 character limit (for scheduled execution)
 
     Returns:
         Generated mimicking text
@@ -635,12 +637,18 @@ def generate_mimic_text(
 ---
 """
 
-    user_prompt += """
+    # Build character limit instruction based on mode
+    if no_char_limit:
+        char_limit_instruction = "- 投稿文のみを出力すること"
+    else:
+        char_limit_instruction = "- 200文字以内で作成し、投稿文のみを出力すること"
+
+    user_prompt += f"""
 【重要な指示】
 - 元ツイートの内容を忠実に要約すること（新しい情報を追加しない）
 - URLは一切含めないこと
 - 「詳細はこちら」などのリンク誘導文は含めないこと
-- 200文字以内で作成し、投稿文のみを出力すること"""
+{char_limit_instruction}"""
 
     response = model.generate_content(user_prompt)
 
@@ -821,7 +829,8 @@ no talk; just do
 def generate_post_with_template(
     analysis_result: dict,
     source_tweet: str,
-    source_username: str = ""
+    source_username: str = "",
+    no_char_limit: bool = False
 ) -> str:
     """
     Generate a new post using the prompt generated from Step 4.
@@ -830,6 +839,7 @@ def generate_post_with_template(
         analysis_result: Result from analyze_buzz_post() containing generated_prompt
         source_tweet: The fetched tweet content to use as 主題 (subject)
         source_username: Username of the source tweet author
+        no_char_limit: If True, disable 200 character limit (for scheduled execution)
 
     Returns:
         Generated post text
@@ -844,13 +854,19 @@ def generate_post_with_template(
         print("  ⚠ No generated prompt from Step 4, using fallback")
         return None
 
+    # Build character limit constraint based on mode
+    if no_char_limit:
+        char_limit_note = ""
+        print("    ℹ Character limit disabled (scheduled execution mode)")
+    else:
+        char_limit_note = "\n※追加制約: 200文字以内で作成すること（X Free アカウント対応）"
+
     # Use the generated prompt from Step 4, with source tweet as the 主題
     final_prompt = f"""{generated_prompt}
 
 ### 主題（この内容を元に投稿を作成）:
 {source_tweet}
-
-※追加制約: 200文字以内で作成すること（X Free アカウント対応）
+{char_limit_note}
 ※出力は投稿文のテキストのみ（表形式ではなく、テキストのみ出力）"""
 
     print("  Generating post with template...")
@@ -1241,7 +1257,7 @@ def test_x_posting():
 # Main Processing
 # =============================================================================
 
-def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts: int = MAX_POSTS_PER_DAY):
+def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts: int = MAX_POSTS_PER_DAY, no_char_limit: bool = False):
     """
     Main function to process tweets and upload results.
 
@@ -1257,6 +1273,7 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
         format_name: Optional format template name to use
         skip_x_post: Skip X posting (default True for safety)
         max_posts: Maximum posts per day (default: MAX_POSTS_PER_DAY)
+        no_char_limit: If True, disable 200 character limit (for scheduled execution)
     """
     print("=" * 60)
     print("X Trend Video Fetcher & Mimic Post Generator")
@@ -1264,6 +1281,7 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
     print("=" * 60)
     print()
     print(f"Business Rules: Max {max_posts} posts/day, fetching from {len(TARGET_X_USERNAMES)} accounts")
+    print(f"Character Limit: {'Disabled (scheduled mode)' if no_char_limit else '200 chars (manual mode)'}")
     print()
 
     # Validate environment
@@ -1434,7 +1452,8 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
                     generated_text = generate_post_with_template(
                         analysis_result,
                         full_text,
-                        source_username
+                        source_username,
+                        no_char_limit=no_char_limit
                     )
                 else:
                     # Fallback to original generation method
@@ -1443,7 +1462,8 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
                     generated_text = generate_mimic_text(
                         full_text,
                         format_template=format_template,
-                        brain_data=brain_data
+                        brain_data=brain_data,
+                        no_char_limit=no_char_limit
                     )
                 text_path = save_generated_text(generated_text, tweet_id, temp_dir)
             except Exception as e:
@@ -1667,6 +1687,11 @@ if __name__ == "__main__":
         metavar="N",
         help=f"Maximum posts per day (default: {MAX_POSTS_PER_DAY})"
     )
+    parser.add_argument(
+        "--no-char-limit",
+        action="store_true",
+        help="Disable 200 character limit (for scheduled/triggered execution)"
+    )
 
     args = parser.parse_args()
 
@@ -1793,5 +1818,6 @@ if __name__ == "__main__":
         process_tweets(
             format_name=args.format,
             skip_x_post=not args.post_to_x,
-            max_posts=args.max_posts
+            max_posts=args.max_posts,
+            no_char_limit=args.no_char_limit
         )
