@@ -648,6 +648,7 @@ def generate_mimic_text(
 - 元ツイートの内容を忠実に要約すること（新しい情報を追加しない）
 - URLは一切含めないこと
 - 「詳細はこちら」などのリンク誘導文は含めないこと
+- 元ツイートにない見出し記号（###など）や装飾は追加しないこと
 {char_limit_instruction}"""
 
     response = model.generate_content(user_prompt)
@@ -867,7 +868,8 @@ def generate_post_with_template(
 ### 主題（この内容を元に投稿を作成）:
 {source_tweet}
 {char_limit_note}
-※出力は投稿文のテキストのみ（表形式ではなく、テキストのみ出力）"""
+※出力は投稿文のテキストのみ（表形式ではなく、テキストのみ出力）
+※元ツイートにない見出し記号（###など）や装飾は追加しないこと"""
 
     print("  Generating post with template...")
     response = model.generate_content(final_prompt)
