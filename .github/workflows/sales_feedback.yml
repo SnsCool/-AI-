@@ -1,0 +1,217 @@
+# 営業フィードバックエージェント - GitHub Actions ワークフロー
+name: Sales Feedback Agent
+
+on:
+  # 手動実行
+  workflow_dispatch:
+    inputs:
+      transcript_url:
+        description: '議事録のURL（Google Drive/Notion）'
+        required: false
+        type: string
+      transcript_text:
+        description: '議事録テキスト（直接入力）'
+        required: false
+        type: string
+      audio_url:
+        description: '音声/動画ファイルURL'
+        required: false
+        type: string
+      meeting_type:
+        description: '入力タイプ'
+        required: true
+        type: choice
+        options:
+          - text
+          - audio
+        default: 'text'
+      sales_rep:
+        description: '営業担当者名'
+        required: true
+        type: string
+      customer:
+        description: '顧客名'
+        required: true
+        type: string
+      industry:
+        description: '業種'
+        required: false
+        type: string
+        default: '未分類'
+      product:
+        description: '商材'
+        required: false
+        type: string
+        default: '未分類'
+      is_closed:
+        description: 'クロージング成功？'
+        required: false
+        type: boolean
+        default: false
+      notify_slack:
+        description: 'Slack通知を送信'
+        required: false
+        type: boolean
+        default: true
+
+  # Webhook経由（Zoom連携用）
+  repository_dispatch:
+    types: [zoom_recording_completed]
+
+env:
+  PYTHON_VERSION: '3.11'
+  TZ: 'Asia/Tokyo'
+
+jobs:
+  analyze:
+    name: 営業会議分析
+    runs-on: ubuntu-latest
+
+    steps:
+      # ========================================
+      # セットアップ
+      # ========================================
+      - name: チェックアウト
+        uses: actions/checkout@v4
+
+      - name: Python セットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+          cache-dependency-path: sales_feedback/requirements.txt
+
+      - name: 依存関係インストール
+        run: |
+          pip install -r sales_feedback/requirements.txt
+
+      # ========================================
+      # 入力データ準備
+      # ========================================
+      - name: 入力データ準備
+        id: prepare
+        env:
+          TRANSCRIPT_URL: ${{ github.event.inputs.transcript_url }}
+          TRANSCRIPT_TEXT: ${{ github.event.inputs.transcript_text }}
+          AUDIO_URL: ${{ github.event.inputs.audio_url }}
+          MEETING_TYPE: ${{ github.event.inputs.meeting_type }}
+          # Webhook経由の場合
+          WEBHOOK_PAYLOAD: ${{ toJson(github.event.client_payload) }}
+        run: |
+          echo "入力タイプ: $MEETING_TYPE"
+
+          # Webhook経由の場合はペイロードから取得
+          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            echo "Webhook経由の実行を検出"
+            echo "meeting_type=audio" >> $GITHUB_OUTPUT
+          else
+            echo "meeting_type=$MEETING_TYPE" >> $GITHUB_OUTPUT
+          fi
+
+      # ========================================
+      # 音声文字起こし（音声入力の場合）
+      # ========================================
+      - name: 音声文字起こし
+        if: steps.prepare.outputs.meeting_type == 'audio'
+        id: transcribe
+        env:
+          ASSEMBLYAI_API_KEY: ${{ secrets.ASSEMBLYAI_API_KEY }}
+          AUDIO_URL: ${{ github.event.inputs.audio_url }}
+        run: |
+          python sales_feedback/src/transcribe.py \
+            --audio-url "$AUDIO_URL" \
+            --output transcript.txt
+
+          echo "transcript_file=transcript.txt" >> $GITHUB_OUTPUT
+
+      # ========================================
+      # 営業分析実行
+      # ========================================
+      - name: 営業分析
+        id: analyze
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TRANSCRIPT_TEXT: ${{ github.event.inputs.transcript_text }}
+          TRANSCRIPT_URL: ${{ github.event.inputs.transcript_url }}
+          TRANSCRIPT_FILE: ${{ steps.transcribe.outputs.transcript_file }}
+          SALES_REP: ${{ github.event.inputs.sales_rep }}
+          CUSTOMER: ${{ github.event.inputs.customer }}
+          INDUSTRY: ${{ github.event.inputs.industry }}
+          PRODUCT: ${{ github.event.inputs.product }}
+          IS_CLOSED: ${{ github.event.inputs.is_closed }}
+        run: |
+          python sales_feedback/src/analyze.py \
+            --sales-rep "$SALES_REP" \
+            --customer "$CUSTOMER" \
+            --industry "$INDUSTRY" \
+            --product "$PRODUCT" \
+            --is-closed "$IS_CLOSED" \
+            --output feedback.json
+
+      # ========================================
+      # 結果保存
+      # ========================================
+      - name: Google Drive保存
+        env:
+          GCP_SA_KEY_JSON: ${{ secrets.GCP_SA_KEY_JSON }}
+          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.SALES_FEEDBACK_DRIVE_FOLDER_ID }}
+        run: |
+          python sales_feedback/src/save_to_drive.py \
+            --feedback-file feedback.json \
+            --folder-id "$GOOGLE_DRIVE_FOLDER_ID"
+
+      - name: Notionナレッジ保存
+        if: github.event.inputs.is_closed == 'true'
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.SALES_KNOWLEDGE_DB_ID }}
+        run: |
+          python sales_feedback/src/save_to_notion.py \
+            --feedback-file feedback.json \
+            --database-id "$NOTION_DATABASE_ID"
+
+      # ========================================
+      # 通知
+      # ========================================
+      - name: Slack通知
+        if: github.event.inputs.notify_slack == 'true'
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ secrets.SALES_FEEDBACK_CHANNEL_ID }}
+        run: |
+          python sales_feedback/src/notify_slack.py \
+            --feedback-file feedback.json \
+            --channel-id "$SLACK_CHANNEL_ID"
+
+      # ========================================
+      # サマリー出力
+      # ========================================
+      - name: 結果サマリー
+        run: |
+          echo "## 営業フィードバック完了" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| 項目 | 値 |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|-----|" >> $GITHUB_STEP_SUMMARY
+          echo "| 担当者 | ${{ github.event.inputs.sales_rep }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| 顧客 | ${{ github.event.inputs.customer }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| 業種 | ${{ github.event.inputs.industry }} |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          # フィードバック結果を表示
+          if [ -f feedback.json ]; then
+            echo "### 分析結果" >> $GITHUB_STEP_SUMMARY
+            echo '```json' >> $GITHUB_STEP_SUMMARY
+            cat feedback.json >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+
+  # ========================================
+  # 日次集計ジョブ（将来拡張用）
+  # ========================================
+  # daily_summary:
+  #   name: 日次サマリー
+  #   runs-on: ubuntu-latest
+  #   if: github.event_name == 'schedule'
+  #   steps:
+  #     - name: 日次レポート生成
+  #       run: echo "日次集計処理"

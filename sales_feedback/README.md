@@ -1,219 +1,185 @@
 # Sales Feedback Agent（営業フィードバックエージェント）
 
-RAGFlowを活用した営業会議分析・ナレッジ蓄積システム
+GitHub Actionsベースの営業会議分析・ナレッジ蓄積システム
 
-## 概要
+## ワークフロー
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                   Sales Feedback Agent                   │
-│                                                          │
-│   📄 議事録        🎥 動画        🎤 音声               │
-│      ↓               ↓              ↓                   │
-│   ┌─────────────────────────────────────────┐           │
-│   │           RAGFlow                        │           │
-│   │  ┌─────────┐  ┌─────────┐  ┌─────────┐  │           │
-│   │  │ドキュメント│  │ベクトル │  │ AI分析  │  │           │
-│   │  │  解析    │→│  検索   │→│ (Gemini)│  │           │
-│   │  └─────────┘  └─────────┘  └─────────┘  │           │
-│   └─────────────────────────────────────────┘           │
-│                        ↓                                 │
-│   ┌─────────────────────────────────────────┐           │
-│   │  📊 フィードバック  │  📚 ナレッジ蓄積  │           │
-│   └─────────────────────────────────────────┘           │
-└─────────────────────────────────────────────────────────┘
+ワークフロー1: 入力
+  │ 議事録/音声をアップロード
+  │ メタデータを入力
+  ▼
+ワークフロー2: 前処理
+  │ 音声→テキスト変換（AssemblyAI）
+  │ 話者分離
+  ▼
+ワークフロー3: 分析
+  │ Gemini で営業スキル評価
+  │ フィードバック生成
+  ▼
+ワークフロー4: 保存・通知
+  │ Drive: レポート保存
+  │ Notion: ナレッジ蓄積（成功事例）
+  │ Slack: 通知
+  ▼
+  完了
 ```
 
 ## 機能
 
-- **議事録分析**: Zoom会議の議事録をアップロードして自動分析
-- **営業スキル評価**: ヒアリング力、提案力、クロージングなど6項目で評価
+- **議事録分析**: 営業会議の議事録を自動分析
+- **音声文字起こし**: 音声/動画ファイルを話者分離付きで文字起こし
+- **営業スキル評価**: 6項目で1-5点評価
 - **フィードバック生成**: 良かった点・改善点を具体的に提示
-- **ナレッジ蓄積**: 成功事例を蓄積し、検索可能に
-- **ベストプラクティス検索**: 類似商談の成功パターンを検索
+- **ナレッジ蓄積**: 成功事例をNotionに蓄積
+- **Slack通知**: 分析結果を担当者に通知
 
-## 必要環境
+## 使い方
 
-- Docker >= 24.0.0
-- Docker Compose >= v2.26.1
-- RAM: 16GB以上推奨
-- ディスク: 50GB以上
+### 手動実行
 
-## クイックスタート
+1. GitHubリポジトリの「Actions」タブを開く
+2. 「Sales Feedback Agent」を選択
+3. 「Run workflow」をクリック
+4. 以下を入力：
+   - `transcript_text`: 議事録テキスト
+   - `sales_rep`: 営業担当者名
+   - `customer`: 顧客名
+   - `industry`: 業種
+   - `is_closed`: クロージング成功したか
+5. 「Run workflow」で実行
 
-### 1. セットアップ
+### 音声ファイルの場合
 
-```bash
-cd sales_feedback
-./setup.sh
-```
+1. 音声/動画ファイルをGoogle Driveにアップロード
+2. 共有リンクを取得
+3. `audio_url`に入力、`meeting_type`を`audio`に設定
 
-### 2. 初期設定
+## 評価項目
 
-1. **Web UIにアクセス**
-   ```
-   http://localhost:8080
-   ```
-
-2. **アカウント作成**
-   - 「Sign up」からアカウントを作成
-
-3. **LLM設定**
-   - 右上のアイコン → 「Model Providers」
-   - 「Google」を選択
-   - Gemini API キーを入力
-
-### 3. ナレッジベース作成
-
-1. 「Knowledge Base」→「+ Create Knowledge Base」
-2. 名前: `sales_knowledge`（営業ナレッジ）
-3. 設定:
-   - Embedding Model: お好みのモデル
-   - Chunk Method: `Naive`（シンプル）または `Book`（構造化）
-
-### 4. ドキュメントアップロード
-
-1. 作成したナレッジベースを選択
-2. 「+ Add Files」をクリック
-3. 議事録（PDF/Word/テキスト）をアップロード
-4. 自動で解析・インデックス化
-
-### 5. チャットで質問
-
-1. 「Chat」→「+ New Chat」
-2. 作成したナレッジベースを選択
-3. 質問例:
-   - 「IT業界への提案で成功したパターンは？」
-   - 「クロージングで効果的だったフレーズは？」
-   - 「〇〇社との商談で良かった点は？」
+| 項目 | 評価内容 |
+|------|----------|
+| ヒアリング力 | 課題・ニーズを引き出せているか |
+| 提案力 | 解決策を適切に提示できているか |
+| 異議対応 | 反論に適切に対応できているか |
+| クロージング | 次のアクションに導けているか |
+| ラポール構築 | 信頼関係を構築できているか |
+| BANT確認 | 予算/決裁者/ニーズ/時期を確認できているか |
 
 ## ディレクトリ構成
 
 ```
 sales_feedback/
-├── docker-compose.yml    # Docker構成
-├── .env.example          # 環境変数テンプレート
-├── .env                  # 環境変数（自動生成）
-├── setup.sh              # セットアップスクリプト
-├── uploads/              # アップロードファイル
-├── logs/                 # ログファイル
-└── README.md             # このファイル
+├── src/
+│   ├── analyze.py         # Gemini分析
+│   ├── transcribe.py      # 音声文字起こし
+│   ├── save_to_drive.py   # Drive保存
+│   ├── save_to_notion.py  # Notion保存
+│   └── notify_slack.py    # Slack通知
+├── requirements.txt       # Python依存関係
+├── workflow_diagram.md    # ワークフロー図
+└── README.md
+
+.github/workflows/
+└── sales_feedback.yml     # GitHub Actions
 ```
 
-## 運用コマンド
+## 必要なGitHub Secrets
+
+```
+# AI分析
+GEMINI_API_KEY              # Gemini API キー
+
+# 音声文字起こし
+ASSEMBLYAI_API_KEY          # AssemblyAI API キー
+
+# Google Drive
+GCP_SA_KEY_JSON                   # サービスアカウントJSON
+SALES_FEEDBACK_DRIVE_FOLDER_ID    # 保存先フォルダID
+
+# Notion
+NOTION_TOKEN                # Notion API トークン
+SALES_KNOWLEDGE_DB_ID       # ナレッジDBのID
+
+# Slack
+SLACK_BOT_TOKEN                  # Slack Bot トークン
+SALES_FEEDBACK_CHANNEL_ID        # 通知チャンネルID
+```
+
+## Notionデータベース設定
+
+以下のプロパティを持つデータベースを作成してください：
+
+| プロパティ名 | タイプ |
+|-------------|--------|
+| 名前 | タイトル |
+| 日付 | 日付 |
+| 担当者 | テキスト |
+| 顧客名 | テキスト |
+| 業種 | セレクト |
+| 商材 | セレクト |
+| 総合スコア | 数値 |
+| ヒアリング力 | 数値 |
+| 提案力 | 数値 |
+| クロージング | 数値 |
+| クロージング成功 | チェックボックス |
+
+## 出力例
+
+### Slack通知
+
+```
+商談フィードバック ⭐
+
+担当者: 山田太郎
+顧客: 株式会社ABC
+業種: IT
+総合スコア: 3.8/5.0
+
+各項目スコア:
+ヒアリング力:  ████░ 4/5
+提案力:        ███░░ 3/5
+異議対応:      ████░ 4/5
+クロージング:  ███░░ 3/5
+ラポール構築:  ████░ 4/5
+BANT確認:      ████░ 4/5
+
+✅ 良かった点
+• 課題のヒアリングが丁寧で、顧客の本質的なニーズを引き出せていた
+• 具体的な導入事例を交えた説明が効果的だった
+
+📈 改善ポイント
+• クロージング時の次アクション提示をより明確に
+• 予算感の確認をもう少し早い段階で行う
+
+💡 次回へのアドバイス
+1. 商談冒頭でゴール設定を共有する
+2. 競合比較資料を準備しておく
+3. 決裁フローを早めに確認する
+```
+
+## ローカル開発
 
 ```bash
-# サービス起動
-docker compose up -d
+# 依存関係インストール
+pip install -r sales_feedback/requirements.txt
 
-# サービス停止
-docker compose down
+# 環境変数設定
+export GEMINI_API_KEY=your_key
+export ASSEMBLYAI_API_KEY=your_key
 
-# ログ確認
-docker compose logs -f ragflow
-
-# サービス状態確認
-docker compose ps
-
-# 全データ削除（リセット）
-docker compose down -v
-```
-
-## ポート一覧
-
-| サービス | ポート | 用途 |
-|---------|-------|------|
-| RAGFlow | 8080 | Web UI & API |
-| MinIO Console | 9001 | ファイルストレージ管理 |
-
-## API連携
-
-### APIキー取得
-
-1. RAGFlow Web UIにログイン
-2. 右上アイコン → 「API」
-3. APIキーをコピー
-
-### サンプルリクエスト
-
-```bash
-# ドキュメントアップロード
-curl -X POST "http://localhost:8080/api/v1/datasets/{dataset_id}/documents" \
-  -H "Authorization: Bearer YOUR_API_KEY" \
-  -F "file=@meeting_notes.pdf"
-
-# チャット（質問）
-curl -X POST "http://localhost:8080/api/v1/chats/{chat_id}/completions" \
-  -H "Authorization: Bearer YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "question": "成功した商談のパターンを教えて",
-    "stream": false
-  }'
-```
-
-## 営業フィードバック用プロンプト例
-
-ナレッジベース作成時に、以下のシステムプロンプトを設定することで
-営業分析に特化した回答が得られます：
-
-```
-あなたは経験豊富な営業マネージャーです。
-アップロードされた商談議事録を分析し、以下の観点でフィードバックしてください：
-
-【評価項目】
-1. ヒアリング力（顧客の課題・ニーズを引き出せているか）
-2. 提案力（課題に対する解決策を適切に提示できているか）
-3. 異議対応（顧客の懸念・反論に適切に対応できているか）
-4. クロージング（次のアクションへ適切に導けているか）
-5. ラポール構築（信頼関係を構築できているか）
-6. BANT確認（Budget/Authority/Need/Timelineを確認できているか）
-
-【出力形式】
-- 各項目を5段階で評価
-- 良かった点を具体的な発言とともに列挙
-- 改善点を具体的な代替案とともに提示
-- 次回に活かせるアクションポイントを3つ
-```
-
-## トラブルシューティング
-
-### サービスが起動しない
-
-```bash
-# ログを確認
-docker compose logs
-
-# リソース確認
-docker system df
-
-# 再起動
-docker compose restart
-```
-
-### メモリ不足
-
-`.env`でElasticsearchのメモリを調整：
-```yaml
-# docker-compose.yml の elasticsearch サービス
-ES_JAVA_OPTS=-Xms256m -Xmx256m
-```
-
-### ポート競合
-
-`.env`でポートを変更：
-```
-RAGFLOW_PORT=8081
+# 分析実行
+python sales_feedback/src/analyze.py \
+  --transcript-text "議事録テキスト..." \
+  --sales-rep "山田太郎" \
+  --customer "株式会社ABC" \
+  --industry "IT" \
+  --output feedback.json
 ```
 
 ## 今後の拡張予定
 
-- [ ] 音声ファイルの自動文字起こし（AssemblyAI連携）
-- [ ] Zoom録画の自動取得（Zoom API連携）
-- [ ] Slack通知連携
-- [ ] 自動評価レポート生成
-
-## 参考リンク
-
-- [RAGFlow 公式ドキュメント](https://ragflow.io/docs/dev/)
-- [RAGFlow GitHub](https://github.com/infiniflow/ragflow)
+- [ ] Zoom Webhook連携（会議終了時自動トリガー）
+- [ ] 日次/週次サマリーレポート
+- [ ] チーム別・担当者別ダッシュボード
+- [ ] ナレッジ検索機能（RAG）
