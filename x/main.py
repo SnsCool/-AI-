@@ -5,21 +5,21 @@ X Trend Video Fetcher & Mimic Post Generator
 統合ワークフロー対応版
 
 This script:
-1. Fetches trending video tweets from X using Apify
+1. Fetches trending video tweets from X using Apify API
 2. Saves raw data to analysis/video_trends/ folder
 3. Downloads videos in highest quality
 4. Loads format templates from format/ folder
 5. Uses brain data for style reference
 6. Generates mimicking post text using Google Gemini
 7. Uploads results to Google Drive
-8. Posts to X (optional)
+8. Posts to X using X API (posting only)
 
 Workflow Integration:
-- データ収集 → analysis/video_trends/ に保存
+- データ収集 → Apify API経由でツイート取得 → analysis/video_trends/ に保存
 - フォーマット選択 → format/ から読み込み
 - スタイル参照 → brain/ から読み込み
 - 投稿作成 → Gemini で生成
-- 投稿完了 → X に投稿
+- 投稿完了 → X API で投稿
 """
 
 import os
@@ -46,13 +46,45 @@ load_dotenv()
 # Configuration Constants (Edit these as needed)
 # =============================================================================
 
-# Target X accounts to fetch tweets from (multiple accounts supported)
-TARGET_X_USERNAMES = [
+# Get the project root directory first
+PROJECT_ROOT = Path(__file__).parent.absolute()
+
+# Load AI search configuration from file
+def load_ai_search_config():
+    """Load AI search configuration from JSON file."""
+    config_file = PROJECT_ROOT / "ai_search_config.json"
+    if config_file.exists():
+        with open(config_file, "r", encoding="utf-8") as f:
+            return json.load(f)
+    # Return default config if file doesn't exist
+    return {
+        "ai_research_mode": True,
+        "search_keywords": ["ChatGPT", "Claude AI", "Gemini", "OpenAI", "LLM"],
+        "filters": {"min_likes": 50, "max_tweets": 20}
+    }
+
+# Load configuration
+_ai_config = load_ai_search_config()
+
+# AI Research Mode: Search for latest AI updates instead of specific accounts
+AI_RESEARCH_MODE = _ai_config.get("ai_research_mode", True)
+
+# AI-related search keywords (loaded from config file)
+AI_SEARCH_KEYWORDS = _ai_config.get("search_keywords", [
+    "ChatGPT", "Claude AI", "Gemini", "GPT-4", "OpenAI", "LLM"
+])
+
+# Search filters for AI research
+MIN_LIKES_FOR_AI_POSTS = _ai_config.get("filters", {}).get("min_likes", 50)
+MAX_AI_TWEETS_TO_FETCH = _ai_config.get("filters", {}).get("max_tweets", 20)
+
+# Target X accounts (used when AI_RESEARCH_MODE is False, or as fallback)
+TARGET_X_USERNAMES = _ai_config.get("fallback_accounts", [
     "masahirochaen",
     "satori_sz9",
-]
+])
 
-# Number of tweets to fetch per account
+# Number of tweets to fetch per account (when using specific accounts)
 MAX_TWEETS_PER_ACCOUNT = 1
 
 # Total maximum tweets to process (for the workflow)
@@ -67,9 +99,6 @@ GEMINI_MODEL = "gemini-2.5-pro"
 # =============================================================================
 # Workflow Integration Paths
 # =============================================================================
-
-# Get the project root directory
-PROJECT_ROOT = Path(__file__).parent.absolute()
 
 # Folder paths for workflow integration
 ANALYSIS_DIR = PROJECT_ROOT / "analysis"
@@ -113,12 +142,14 @@ GEMINI_API_KEY = get_env("GEMINI_API_KEY")
 GOOGLE_DRIVE_FOLDER_ID = get_env("GOOGLE_DRIVE_FOLDER_ID")
 GCP_SA_KEY_JSON = get_env("GCP_SA_KEY_JSON")
 
-# X (Twitter) API credentials
+# Apify API Token (for data collection)
+APIFY_TOKEN = get_env("APIFY_TOKEN")
+
+# X (Twitter) API credentials (for posting only)
 X_API_KEY = get_env("X_API_KEY")
 X_API_SECRET = get_env("X_API_SECRET")
 X_ACCESS_TOKEN = get_env("X_ACCESS_TOKEN")
 X_ACCESS_TOKEN_SECRET = get_env("X_ACCESS_TOKEN_SECRET")
-X_BEARER_TOKEN = get_env("X_BEARER_TOKEN")  # Required for fetching other users' tweets
 
 # Enable/disable X posting (set to True to actually post)
 ENABLE_X_POSTING = os.getenv("ENABLE_X_POSTING", "false").lower() == "true"
@@ -133,11 +164,11 @@ def validate_environment():
         "GEMINI_API_KEY": GEMINI_API_KEY,
         "GOOGLE_DRIVE_FOLDER_ID": GOOGLE_DRIVE_FOLDER_ID,
         "GCP_SA_KEY_JSON": GCP_SA_KEY_JSON,
+        "APIFY_TOKEN": APIFY_TOKEN,
         "X_API_KEY": X_API_KEY,
         "X_API_SECRET": X_API_SECRET,
         "X_ACCESS_TOKEN": X_ACCESS_TOKEN,
         "X_ACCESS_TOKEN_SECRET": X_ACCESS_TOKEN_SECRET,
-        "X_BEARER_TOKEN": X_BEARER_TOKEN,
     }
 
     missing = [name for name, value in required_vars.items() if not value]
@@ -151,12 +182,234 @@ def validate_environment():
 
 
 # =============================================================================
-# X API: Tweet Fetching
+# Apify API: Tweet Fetching
 # =============================================================================
+
+def fetch_ai_trends(keywords: list[str], min_likes: int = 50, max_results: int = 20) -> list[dict]:
+    """
+    Fetch latest AI-related tweets using keyword search via Apify API.
+
+    Enhanced with:
+    - Official accounts priority (no min likes filter)
+    - Release/announcement keyword detection
+    - Time-based filtering (latest 24 hours)
+
+    Args:
+        keywords: List of AI-related keywords to search for
+        min_likes: Minimum number of likes to filter quality content
+        max_results: Maximum number of tweets to fetch
+
+    Returns:
+        List of tweet data dictionaries
+    """
+    from apify_client import ApifyClient
+    from datetime import datetime, timedelta
+
+    # Load config for advanced features
+    config = _ai_config
+    official_accounts = config.get("official_accounts", [])
+    release_keywords = config.get("release_keywords", [])
+    priority_settings = config.get("priority_settings", {})
+    filters = config.get("filters", {})
+
+    time_range_hours = filters.get("time_range_hours", 24)
+    official_min_likes = filters.get("official_min_likes", 0)
+
+    enable_official = priority_settings.get("enable_official_priority", True)
+    enable_release = priority_settings.get("enable_release_keywords", True)
+    enable_time = priority_settings.get("enable_time_filter", True)
+
+    print(f"🔍 Searching for AI trends (Enhanced Mode)")
+    print(f"  General keywords: {len(keywords)} keywords")
+    print(f"  Official accounts: {len(official_accounts)} accounts (min {official_min_likes} likes)")
+    print(f"  Release keywords: {len(release_keywords)} keywords")
+    print(f"  Time filter: {time_range_hours}h" if enable_time else "  Time filter: Disabled")
+
+    # Check if Apify token is available
+    if not APIFY_TOKEN:
+        print("  APIFY_TOKEN not available - required for fetching tweets")
+        return []
+
+    all_tweets = []
+    seen_tweet_ids = set()
+
+    try:
+        # Initialize Apify client
+        client = ApifyClient(APIFY_TOKEN)
+
+        # === Query 1: Official Accounts (No likes filter) ===
+        if enable_official and official_accounts:
+            print(f"\n  📢 Fetching from {len(official_accounts)} official accounts...")
+
+            official_run_input = {
+                "handles": official_accounts,
+                "tweetsDesired": max(3, max_results // 2),  # Get recent tweets from each
+                "minimumFavorites": official_min_likes,  # No minimum for official accounts
+                "tweetLanguage": "en,ja",
+                "addUserInfo": True,
+                "proxyConfig": {
+                    "useApifyProxy": True
+                }
+            }
+
+            try:
+                official_run = client.actor("apify/twitter-scraper").call(run_input=official_run_input)
+
+                official_count = 0
+                for item in client.dataset(official_run["defaultDatasetId"]).iterate_items():
+                    tweet_id = item.get("id")
+                    if tweet_id and tweet_id not in seen_tweet_ids:
+                        tweet_dict = _convert_apify_item_to_tweet(item)
+                        tweet_dict["_priority"] = "official"  # Mark as official
+                        all_tweets.append(tweet_dict)
+                        seen_tweet_ids.add(tweet_id)
+                        official_count += 1
+
+                print(f"  ✓ Official accounts: {official_count} tweets")
+            except Exception as e:
+                print(f"  ⚠ Official accounts fetch failed: {e}")
+
+        # === Query 2: Release/Announcement Keywords ===
+        if enable_release and release_keywords:
+            print(f"\n  🚀 Searching for releases/announcements...")
+
+            # Combine AI keywords with release keywords for better targeting
+            release_search_terms = [f"{kw} {rk}" for kw in keywords[:5] for rk in release_keywords[:3]]
+
+            release_run_input = {
+                "searchTerms": release_search_terms[:20],  # Limit combinations
+                "maxTweets": max_results,
+                "minimumFavorites": max(10, min_likes // 2),  # Lower threshold for releases
+                "sort": "Latest",
+                "tweetLanguage": "en,ja",
+                "addUserInfo": True,
+                "proxyConfig": {
+                    "useApifyProxy": True
+                }
+            }
+
+            try:
+                release_run = client.actor("apify/twitter-scraper").call(run_input=release_run_input)
+
+                release_count = 0
+                for item in client.dataset(release_run["defaultDatasetId"]).iterate_items():
+                    tweet_id = item.get("id")
+                    if tweet_id and tweet_id not in seen_tweet_ids:
+                        tweet_dict = _convert_apify_item_to_tweet(item)
+                        tweet_dict["_priority"] = "release"  # Mark as release
+                        all_tweets.append(tweet_dict)
+                        seen_tweet_ids.add(tweet_id)
+                        release_count += 1
+
+                print(f"  ✓ Release keywords: {release_count} tweets")
+            except Exception as e:
+                print(f"  ⚠ Release keywords fetch failed: {e}")
+
+        # === Query 3: General AI Keywords ===
+        print(f"\n  🔎 General AI keyword search...")
+
+        general_run_input = {
+            "searchTerms": keywords,
+            "maxTweets": max_results,
+            "minimumFavorites": min_likes,
+            "sort": "Latest",
+            "tweetLanguage": "en,ja",
+            "addUserInfo": True,
+            "proxyConfig": {
+                "useApifyProxy": True
+            }
+        }
+
+        try:
+            general_run = client.actor("apify/twitter-scraper").call(run_input=general_run_input)
+
+            general_count = 0
+            for item in client.dataset(general_run["defaultDatasetId"]).iterate_items():
+                tweet_id = item.get("id")
+                if tweet_id and tweet_id not in seen_tweet_ids:
+                    tweet_dict = _convert_apify_item_to_tweet(item)
+                    tweet_dict["_priority"] = "general"  # Mark as general
+                    all_tweets.append(tweet_dict)
+                    seen_tweet_ids.add(tweet_id)
+                    general_count += 1
+
+            print(f"  ✓ General search: {general_count} tweets")
+        except Exception as e:
+            print(f"  ⚠ General search failed: {e}")
+
+        # === Time Filtering (if enabled) ===
+        if enable_time and all_tweets:
+            print(f"\n  ⏰ Applying {time_range_hours}h time filter...")
+            cutoff_time = datetime.now() - timedelta(hours=time_range_hours)
+
+            filtered_tweets = []
+            for tweet in all_tweets:
+                created_at_str = tweet.get("created_at")
+                if created_at_str:
+                    try:
+                        # Parse created_at (adjust format as needed)
+                        tweet_time = datetime.fromisoformat(created_at_str.replace("Z", "+00:00"))
+                        if tweet_time >= cutoff_time:
+                            filtered_tweets.append(tweet)
+                    except:
+                        # If parsing fails, keep the tweet
+                        filtered_tweets.append(tweet)
+                else:
+                    filtered_tweets.append(tweet)
+
+            before_count = len(all_tweets)
+            all_tweets = filtered_tweets
+            print(f"  ✓ Filtered: {before_count} → {len(all_tweets)} tweets (within {time_range_hours}h)")
+
+        # === Sort by priority ===
+        priority_order = {"official": 0, "release": 1, "general": 2}
+        all_tweets.sort(key=lambda t: (priority_order.get(t.get("_priority", "general"), 3), -t.get("favorite_count", 0)))
+
+        print(f"\n  ✅ Total unique tweets: {len(all_tweets)}")
+        print(f"     - Official: {sum(1 for t in all_tweets if t.get('_priority') == 'official')}")
+        print(f"     - Release: {sum(1 for t in all_tweets if t.get('_priority') == 'release')}")
+        print(f"     - General: {sum(1 for t in all_tweets if t.get('_priority') == 'general')}")
+
+    except Exception as e:
+        print(f"  Apify API error: {e}")
+        import traceback
+        traceback.print_exc()
+        return []
+
+    # Debug: Print first tweet structure
+    if all_tweets:
+        print(f"\n========== DEBUG: FIRST TWEET ==========", flush=True)
+        print(f"User: @{all_tweets[0]['user']['screen_name']}", flush=True)
+        print(f"Priority: {all_tweets[0].get('_priority', 'N/A')}", flush=True)
+        print(f"Likes: {all_tweets[0]['favorite_count']}", flush=True)
+        print(f"Text preview: {all_tweets[0]['text'][:100]}...", flush=True)
+        print(f"========== END DEBUG ==========\n", flush=True)
+
+    return all_tweets
+
+
+def _convert_apify_item_to_tweet(item: dict) -> dict:
+    """Convert Apify tweet item to standard tweet format."""
+    return {
+        "id": item.get("id"),
+        "id_str": str(item.get("id", "")),
+        "text": item.get("text", ""),
+        "full_text": item.get("full_text") or item.get("text", ""),
+        "created_at": item.get("created_at"),
+        "favorite_count": item.get("favorite_count", 0),
+        "retweet_count": item.get("retweet_count", 0),
+        "user": {
+            "screen_name": item.get("author", {}).get("userName", "unknown"),
+            "name": item.get("author", {}).get("name", ""),
+        },
+        "media": item.get("entities", {}).get("media") or item.get("extended_entities", {}).get("media"),
+        "extended_entities": {"media": item.get("extended_entities", {}).get("media", [])} if item.get("extended_entities", {}).get("media") else None
+    }
+
 
 def fetch_tweets_from_accounts(usernames: list[str], max_per_account: int = 3) -> list[dict]:
     """
-    Fetch tweets from multiple accounts using X API (tweepy).
+    Fetch tweets from multiple accounts using Apify API.
 
     Args:
         usernames: List of Twitter usernames to fetch from
@@ -165,122 +418,82 @@ def fetch_tweets_from_accounts(usernames: list[str], max_per_account: int = 3) -
     Returns:
         List of tweet data dictionaries
     """
-    print(f"Fetching tweets from {len(usernames)} accounts using X API...")
+    from apify_client import ApifyClient
+
+    print(f"Fetching tweets from {len(usernames)} accounts using Apify API...")
     print(f"  Accounts: {', '.join(['@' + u for u in usernames])}")
 
-    # Check if X API credentials are available (Bearer Token required for fetching)
-    if not X_BEARER_TOKEN:
-        print("  X_BEARER_TOKEN not available - required for fetching other users' tweets")
+    # Check if Apify token is available
+    if not APIFY_TOKEN:
+        print("  APIFY_TOKEN not available - required for fetching tweets")
         return []
 
     all_tweets = []
 
     try:
-        # Create tweepy client with Bearer Token (required for fetching other users' tweets)
-        client = tweepy.Client(bearer_token=X_BEARER_TOKEN)
+        # Initialize Apify client
+        client = ApifyClient(APIFY_TOKEN)
 
-        import time as time_module
-
+        # Run twitter-scraper for each account
         for idx, username in enumerate(usernames):
-            print(f"\n  Fetching from @{username}...")
-
-            # Add delay between accounts to avoid rate limiting (except first)
-            if idx > 0:
-                print(f"    Waiting 2 seconds to avoid rate limit...")
-                time_module.sleep(2)
+            print(f"\n  Fetching from @{username} via Apify...")
 
             try:
-                # Get user ID from username
-                user = client.get_user(username=username)
-                if not user.data:
-                    print(f"    User @{username} not found")
-                    continue
+                # Prepare input for apify/twitter-scraper
+                run_input = {
+                    "handles": [username],
+                    "tweetsDesired": max_per_account,
+                    "proxyConfig": {
+                        "useApifyProxy": True
+                    }
+                }
 
-                user_id = user.data.id
-                print(f"    Found user ID: {user_id}")
+                print(f"    Starting Apify actor run...")
 
-                # Fetch user's tweets (exclude replies and retweets for better content)
-                # Include note_tweet for long tweets (X Premium/Blue)
-                tweets_response = client.get_users_tweets(
-                    id=user_id,
-                    max_results=max(5, min(max_per_account * 3, 100)),  # Fetch more to filter
-                    tweet_fields=["created_at", "public_metrics", "attachments", "note_tweet"],
-                    expansions=["attachments.media_keys", "author_id"],
-                    media_fields=["type", "url", "preview_image_url", "variants"],
-                    user_fields=["username", "name"],
-                    exclude=["replies", "retweets"]  # Exclude replies and retweets
-                )
+                # Run the Actor and wait for it to finish
+                run = client.actor("apify/twitter-scraper").call(run_input=run_input)
 
-                if not tweets_response.data:
+                # Fetch results from the run's dataset
+                print(f"    Fetching results from dataset...")
+                items = []
+                for item in client.dataset(run["defaultDatasetId"]).iterate_items():
+                    items.append(item)
+
+                if not items:
                     print(f"    No tweets found for @{username}")
                     continue
 
-                # Build media lookup dict
-                media_dict = {}
-                if tweets_response.includes and "media" in tweets_response.includes:
-                    for media in tweets_response.includes["media"]:
-                        media_dict[media.media_key] = media
+                print(f"    ✓ Fetched {len(items)} tweet(s)")
 
-                # Process tweets (limit to max_per_account, skip replies starting with @)
-                tweets_to_process = []
-                for tweet in tweets_response.data:
-                    # Skip tweets that start with @ (replies/mentions)
-                    if tweet.text.startswith("@"):
-                        continue
-                    tweets_to_process.append(tweet)
-                    if len(tweets_to_process) >= max_per_account:
-                        break
-
-                for tweet in tweets_to_process:
-                    # Use note_tweet for long tweets (X Premium), fall back to regular text
-                    if hasattr(tweet, 'note_tweet') and tweet.note_tweet:
-                        tweet_full_text = tweet.note_tweet.get('text', tweet.text)
-                        print(f"      Long tweet detected: {len(tweet_full_text)} chars")
-                    else:
-                        tweet_full_text = tweet.text
-
+                # Convert Apify format to our standard format
+                for item in items[:max_per_account]:
+                    # Extract tweet data from Apify response
                     tweet_dict = {
-                        "id": tweet.id,
-                        "id_str": str(tweet.id),
-                        "text": tweet_full_text,
-                        "full_text": tweet_full_text,
-                        "created_at": str(tweet.created_at) if tweet.created_at else None,
-                        "favorite_count": tweet.public_metrics.get("like_count", 0) if tweet.public_metrics else 0,
-                        "retweet_count": tweet.public_metrics.get("retweet_count", 0) if tweet.public_metrics else 0,
+                        "id": item.get("id"),
+                        "id_str": str(item.get("id", "")),
+                        "text": item.get("text", ""),
+                        "full_text": item.get("full_text") or item.get("text", ""),
+                        "created_at": item.get("created_at"),
+                        "favorite_count": item.get("favorite_count", 0),
+                        "retweet_count": item.get("retweet_count", 0),
                         "user": {
                             "screen_name": username,
+                            "name": item.get("user", {}).get("name", ""),
                         }
                     }
 
                     # Add media info if available
-                    if tweet.attachments and "media_keys" in tweet.attachments:
-                        media_list = []
-                        for media_key in tweet.attachments["media_keys"]:
-                            if media_key in media_dict:
-                                media = media_dict[media_key]
-                                media_info = {
-                                    "type": media.type,
-                                    "url": getattr(media, "url", None),
-                                    "preview_image_url": getattr(media, "preview_image_url", None),
-                                }
-                                if hasattr(media, "variants") and media.variants:
-                                    media_info["video_info"] = {"variants": media.variants}
-                                media_list.append(media_info)
-
-                        if media_list:
-                            tweet_dict["media"] = media_list
-                            tweet_dict["extended_entities"] = {"media": media_list}
+                    if item.get("entities", {}).get("media"):
+                        media_list = item["entities"]["media"]
+                        tweet_dict["media"] = media_list
+                        tweet_dict["extended_entities"] = {"media": media_list}
+                    elif item.get("extended_entities", {}).get("media"):
+                        media_list = item["extended_entities"]["media"]
+                        tweet_dict["media"] = media_list
+                        tweet_dict["extended_entities"] = {"media": media_list}
 
                     all_tweets.append(tweet_dict)
 
-                print(f"    ✓ Using {len(tweets_to_process)} tweet(s)")
-
-            except tweepy.errors.Forbidden as e:
-                print(f"    X API access denied for @{username}: {e}")
-                continue
-            except tweepy.errors.Unauthorized as e:
-                print(f"    X API unauthorized for @{username}: {e}")
-                continue
             except Exception as e:
                 print(f"    Error fetching @{username}: {e}")
                 continue
@@ -288,7 +501,9 @@ def fetch_tweets_from_accounts(usernames: list[str], max_per_account: int = 3) -
         print(f"\n  ✓ Total fetched: {len(all_tweets)} tweets from {len(usernames)} accounts")
 
     except Exception as e:
-        print(f"  X API error: {e}")
+        print(f"  Apify API error: {e}")
+        import traceback
+        traceback.print_exc()
         return []
 
     # Debug: Print first tweet structure
@@ -1264,12 +1479,12 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
     Main function to process tweets and upload results.
 
     Workflow Integration:
-    1. データ収集 - Fetch tweets from X via Apify
+    1. データ収集 - Fetch tweets from X via Apify API
     2. 分析・格納 - Save to analysis/video_trends/
     3. フォーマット選択 - Load format template
     4. スタイル参照 - Load brain data
     5. 投稿作成 - Generate text with Gemini
-    6. 投稿完了 - Upload to Drive and optionally post to X
+    6. 投稿完了 - Upload to Drive and optionally post to X via X API
 
     Args:
         format_name: Optional format template name to use
@@ -1296,8 +1511,22 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
     print("=" * 40)
     print("Step 1: データ収集 (Data Collection)")
     print("=" * 40)
-    print(f"Target accounts: {len(TARGET_X_USERNAMES)} accounts")
-    tweets = fetch_tweets_from_accounts(TARGET_X_USERNAMES, MAX_TWEETS_PER_ACCOUNT)
+
+    # Choose data collection method based on AI_RESEARCH_MODE
+    if AI_RESEARCH_MODE:
+        print(f"🔍 AI Research Mode: Enabled")
+        print(f"  Searching for latest AI updates with {len(AI_SEARCH_KEYWORDS)} keywords")
+        print(f"  Min likes: {MIN_LIKES_FOR_AI_POSTS}, Max tweets: {MAX_AI_TWEETS_TO_FETCH}")
+        tweets = fetch_ai_trends(
+            keywords=AI_SEARCH_KEYWORDS,
+            min_likes=MIN_LIKES_FOR_AI_POSTS,
+            max_results=MAX_AI_TWEETS_TO_FETCH
+        )
+    else:
+        print(f"👤 Account Mode: Fetching from specific accounts")
+        print(f"  Target accounts: {len(TARGET_X_USERNAMES)} accounts")
+        tweets = fetch_tweets_from_accounts(TARGET_X_USERNAMES, MAX_TWEETS_PER_ACCOUNT)
+
     print()
 
     if not tweets:
@@ -1351,7 +1580,10 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
     print("=" * 40)
     print("Step 2: 分析・格納 (Analysis & Storage)")
     print("=" * 40)
-    save_tweets_to_analysis(tweets, source="video_trends")
+
+    # Save with appropriate source name
+    source_name = "ai_research" if AI_RESEARCH_MODE else "video_trends"
+    save_tweets_to_analysis(tweets, source=source_name)
     print()
 
     # ==========================================================================
