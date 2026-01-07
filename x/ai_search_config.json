@@ -1,0 +1,78 @@
+{
+  "ai_research_mode": true,
+  "search_keywords": [
+    "ChatGPT",
+    "Claude AI",
+    "Gemini",
+    "GPT-4",
+    "GPT-5",
+    "OpenAI",
+    "Anthropic",
+    "Google AI",
+    "LLM",
+    "AI breakthrough",
+    "AI release",
+    "AI update",
+    "AI model",
+    "Sora AI",
+    "Stable Diffusion",
+    "Midjourney",
+    "機械学習",
+    "深層学習",
+    "人工知能"
+  ],
+  "release_keywords": [
+    "released",
+    "announcing",
+    "announced",
+    "launching",
+    "launched",
+    "introducing",
+    "available now",
+    "just shipped",
+    "発表",
+    "リリース",
+    "公開",
+    "発売",
+    "ローンチ"
+  ],
+  "official_accounts": [
+    "OpenAI",
+    "AnthropicAI",
+    "GoogleAI",
+    "GoogleDeepMind",
+    "sama",
+    "gdb",
+    "karpathy",
+    "ylecun",
+    "jeffdean",
+    "demishassabis",
+    "doriandoillet",
+    "AravSrinivas",
+    "StabilityAI",
+    "huggingface",
+    "MistralAI"
+  ],
+  "filters": {
+    "min_likes": 50,
+    "max_tweets": 20,
+    "languages": ["en", "ja"],
+    "sort_by": "Latest",
+    "time_range_hours": 24,
+    "official_min_likes": 0
+  },
+  "priority_settings": {
+    "enable_official_priority": true,
+    "enable_release_keywords": true,
+    "enable_time_filter": true
+  },
+  "fallback_accounts": [
+    "OpenAI",
+    "AnthropicAI",
+    "GoogleAI",
+    "sama",
+    "gdb",
+    "karpathy"
+  ],
+  "description": "AI Research Configuration - Edit keywords and filters to customize AI trend search"
+}

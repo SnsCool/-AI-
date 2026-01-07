@@ -1,0 +1,99 @@
+# Unified Agent Scheduler
+# Single trigger for all agent tasks (X posting, Zoom analysis)
+
+name: Unified Agent Scheduler
+
+on:
+  # Scheduled execution: Every 30 minutes
+  schedule:
+    - cron: '0,30 * * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (check tasks only, no execution)'
+        required: false
+        type: boolean
+        default: false
+      test_mode:
+        description: 'Test mode (skip X posting)'
+        required: false
+        type: boolean
+        default: true
+
+jobs:
+  run-scheduler:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Setup Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # Step 3: Install dependencies (both x and zoom)
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r x/requirements.txt
+          pip install -r zoom/requirements.txt
+
+      # Step 4: Create service account key file from secret
+      - name: Setup Google Cloud credentials
+        run: |
+          echo "${{ secrets.GCP_SA_KEY_JSON }}" > service_account.json
+        env:
+          GCP_SA_KEY_JSON: ${{ secrets.GCP_SA_KEY_JSON }}
+
+      # Step 5: Run unified scheduler
+      - name: Run Unified Agent Scheduler
+        env:
+          # Gemini
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Google Cloud
+          GCP_SA_KEY_JSON: ${{ secrets.GCP_SA_KEY_JSON }}
+          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+          # Apify (for data collection)
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          # X API (for posting only)
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          # Spreadsheet
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
+          # Supabase
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          # Zoom
+          ZOOM_DRIVE_FOLDER_ID: ${{ secrets.ZOOM_DRIVE_FOLDER_ID }}
+          ZOOM_SPREADSHEET_ID: ${{ secrets.ZOOM_SPREADSHEET_ID }}
+          # Flags (disable posting in test mode)
+          ENABLE_X_POSTING: ${{ github.event.inputs.test_mode == 'false' && 'true' || 'false' }}
+        run: |
+          echo "=== Unified Agent Scheduler ==="
+          echo "Time: $(TZ=Asia/Tokyo date)"
+          echo "Test Mode: ${{ github.event.inputs.test_mode }}"
+          echo "Dry Run: ${{ github.event.inputs.dry_run }}"
+          echo "X Posting Enabled: $ENABLE_X_POSTING"
+
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            echo "DRY RUN MODE - Skipping execution"
+            echo "Would run: python -m agents.main_agent --scheduler"
+          else
+            python -m agents.main_agent --scheduler
+          fi
+
+      # Step 6: Cleanup sensitive files
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -f service_account.json
+          echo "Cleanup completed"
