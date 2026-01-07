@@ -84,6 +84,13 @@ jobs:
           echo "Dry Run: ${{ github.event.inputs.dry_run }}"
           echo "X Posting Enabled: $ENABLE_X_POSTING"
 
+          # Debug: Check if APIFY_TOKEN is set
+          if [ -z "$APIFY_TOKEN" ]; then
+            echo "ERROR: APIFY_TOKEN is not set!"
+          else
+            echo "✓ APIFY_TOKEN is set (${#APIFY_TOKEN} characters)"
+          fi
+
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             echo "DRY RUN MODE - Skipping execution"
             echo "Would run: python -m agents.main_agent --scheduler"
