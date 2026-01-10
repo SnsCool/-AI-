@@ -911,22 +911,23 @@ def analyze_buzz_post(buzz_content: str) -> dict:
 * 構成9: ・・・
 * 構成N:
 
-ステップ2: Xのポストの特徴を割り出す
-<<Xのポストの特徴を分析し、以下の観点から特徴をリストアップする>>
-* ジャンル:
+ステップ2: Xのポストの文体・構造特徴を割り出す
+<<Xのポストの「文体・構造」のみを分析する（内容・ジャンルは無視すること）>>
 * 文章の語調や口調:
 * 使用されている説得テクニック:
-* 訴求ポイント:
 * 文章の構成パターン:
+* 箇条書きの使い方:
+* 改行・空白の使い方:
 出力形式
-* ジャンル:
 * 文章の語調や口調:
 * 使用されている説得テクニック:
-* 訴求ポイント:
 * 文章の構成パターン:
+* 箇条書きの使い方:
+* 改行・空白の使い方:
 
-ステップ3: 構成と特徴を一般化する
-<<ステップ1と2で割り出した構成・特徴を一般化し、汎用的な構成要素と制約条件を作成する>>
+ステップ3: 構成と文体を一般化する
+<<ステップ1と2で割り出した構成・文体を一般化し、どんな内容にも適用できる汎用的なテンプレートを作成する>>
+※重要: ジャンルや内容に依存しない、純粋な「書き方のスタイル」のみを抽出すること
 制約条件
 * 構成要素は10個以上
 出力形式
@@ -937,7 +938,7 @@ def analyze_buzz_post(buzz_content: str) -> dict:
 * 構成N:
 
 ステップ4: プロンプトを作成する
-<<ステップ3で一般化した構成と特徴を元に、汎用的なプロンプトを作成し、コードブロックで出力する>>
+<<ステップ3で一般化した構成と文体を元に、汎用的なプロンプトを作成し、コードブロックで出力する>>
 
 ```
 下記の命令を実行しXのポストを作成してください
@@ -945,34 +946,29 @@ def analyze_buzz_post(buzz_content: str) -> dict:
 ### 命令書
 あなたはプロのライターです。
 no talk; just do
-特徴を把握し、制約条件と構成に沿って「<<Xのポストのジャンル>>」のXのポストを出力してください。
-「<<Xのポストの主題>>」はUSERに求めること
-必ず回答例を参考にして、出力形式のような表で文章を出力してください。
 
-### 制約条件:
-<<ステップ2で割り出した特徴から、文章の制約条件としてそのまま記載>>
+【最重要】入力ツイートの内容を忠実に再現すること
+- 入力ツイートのジャンル・内容・固有名詞をそのまま使用すること
+- 入力ツイートが英語の場合は日本語に翻訳すること
+- 絵文字は削除すること
+- 入力ツイートの箇条書き・改行・空白をそのまま再現すること
+- 入力ツイートにない情報を追加しないこと
 
-### ポスト特徴:
-<<ステップ2で割り出した特徴から、Xのポストの特徴を記載>>
+下記の「文体スタイル」を参考にしつつ、入力ツイートの内容をほぼそのまま日本語化してください。
 
-### 構成:
-<<ステップ1で割り出した構成要素を一般化して列挙>>
+### 文体スタイル（参考）:
+<<ステップ2で割り出した文体・構造特徴を記載（ジャンルは含めない）>>
 
-### 回答例：
-<<提出したXのポスト>>を<<一般化した構成>>に当てはめ、表形式として回答例にする
-|一般化構成|提出Xのポスト|
-|---|---|
+### 構成パターン（参考）:
+<<ステップ3で一般化した構成要素を列挙>>
 
 ### 出力形式
-- 主題
----
-|構成|文章|
-|---|---|
+投稿文のテキストのみを出力（表形式は不要）
 
 ```
 
 ---
-入力されたXのポスト:
+入力されたXのポスト（文体分析用）:
 {buzz_content}
 ---
 
@@ -1029,14 +1025,21 @@ def generate_post_with_template(
     else:
         char_limit_note = "\n※追加制約: 200文字以内で作成すること（X Free アカウント対応）"
 
-    # Use the generated prompt from Step 4, with source tweet as the 主題
+    # Use the generated prompt from Step 4, with source tweet as input
     final_prompt = f"""{generated_prompt}
 
-### 主題（この内容を元に投稿を作成）:
+### 入力ツイート（この内容を忠実に日本語化すること）:
 {source_tweet}
-{char_limit_note}
-※出力は投稿文のテキストのみ（表形式ではなく、テキストのみ出力）
-※元ツイートにない見出し記号（###など）や装飾は追加しないこと"""
+
+【絶対に守ること】
+- 上記の入力ツイートの内容・固有名詞（製品名、会社名、人名など）をそのまま使用すること
+- 入力ツイートのジャンル・トピックを変えないこと
+- 入力ツイートが英語の場合は日本語に翻訳すること
+- 絵文字は削除すること
+- 箇条書き・改行・空白は入力ツイートの形式をそのまま再現すること
+- 入力ツイートにない情報を絶対に追加しないこと
+- 出力は投稿文のテキストのみ（表形式は不要）
+{char_limit_note}"""
 
     print("  Generating post with template...")
     response = model.generate_content(final_prompt)
@@ -1564,18 +1567,18 @@ def process_tweets(format_name: str = None, skip_x_post: bool = True, max_posts:
     print("Step 5: 投稿作成 (Post Creation)")
     print("=" * 40)
 
-    # Select random buzz post for template analysis
-    print("Selecting random buzz post for template analysis...")
+    # Select random buzz post for template analysis (structure/style only, not content)
+    print("Selecting random buzz post for style template...")
     buzz_post = get_random_buzz_post()
     if buzz_post:
         print(f"  ✓ Selected buzz post: {buzz_post.get('id', 'unknown')}")
         print(f"    Preview: {buzz_post.get('content', '')[:80]}...")
 
-        # Analyze buzz post structure (4-step prompt)
-        print("  Analyzing buzz post structure...")
+        # Analyze buzz post structure (4-step prompt) - extracts STYLE only, not topic
+        print("  Analyzing buzz post structure (style extraction)...")
         try:
             analysis_result = analyze_buzz_post(buzz_post.get("content", ""))
-            print(f"  ✓ Analysis complete")
+            print(f"  ✓ Style analysis complete")
         except Exception as e:
             print(f"  ✗ Buzz post analysis failed: {e}")
             analysis_result = None
