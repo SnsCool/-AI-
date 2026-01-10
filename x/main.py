@@ -243,7 +243,7 @@ def fetch_ai_trends(keywords: list[str], min_likes: int = 50, max_results: int =
 
             official_run_input = {
                 "startUrls": [f"https://twitter.com/{acc}" for acc in official_accounts],
-                "maxItems": 100,  # Fetch up to 100 tweets total, then filter to 1 per account
+                "maxItems": 500,  # Fetch up to 500 tweets total, then filter to 1 per account
             }
 
             try:
