@@ -243,23 +243,34 @@ def fetch_ai_trends(keywords: list[str], min_likes: int = 50, max_results: int =
 
             official_run_input = {
                 "startUrls": [f"https://twitter.com/{acc}" for acc in official_accounts],
-                "maxTweets": 1,  # Get only 1 tweet per account
+                "maxItems": 100,  # Fetch up to 100 tweets total, then filter to 1 per account
             }
 
             try:
                 official_run = client.actor("apidojo/tweet-scraper").call(run_input=official_run_input)
 
-                official_count = 0
+                # Collect all tweets first
+                fetched_tweets = []
                 for item in client.dataset(official_run["defaultDatasetId"]).iterate_items():
                     tweet_id = item.get("id")
                     if tweet_id and tweet_id not in seen_tweet_ids:
                         tweet_dict = _convert_apify_item_to_tweet(item)
                         tweet_dict["_priority"] = "official"  # Mark as official
-                        all_tweets.append(tweet_dict)
+                        fetched_tweets.append(tweet_dict)
                         seen_tweet_ids.add(tweet_id)
-                        official_count += 1
 
-                print(f"  ✓ Official accounts: {official_count} tweets")
+                print(f"  ✓ Fetched {len(fetched_tweets)} tweets from API")
+
+                # Filter to get only 1 tweet per account (the first/latest one)
+                seen_accounts = set()
+                for tweet in fetched_tweets:
+                    screen_name = tweet.get("user", {}).get("screen_name", "").lower()
+                    if screen_name and screen_name not in seen_accounts:
+                        all_tweets.append(tweet)
+                        seen_accounts.add(screen_name)
+
+                print(f"  ✓ Filtered to {len(all_tweets)} tweets (1 per account)")
+                print(f"  ✓ Accounts: {', '.join(['@' + acc for acc in seen_accounts])}")
             except Exception as e:
                 print(f"  ⚠ Official accounts fetch failed: {e}")
 
