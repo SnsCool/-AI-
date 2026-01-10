@@ -44,6 +44,8 @@
     "StabilityAI",
     "huggingface",
     "MistralAI",
+    "deepseek_ai",
+    "ClaudeCodeLog",
     "mako_yukinari",
     "ctgptlb"
   ],
