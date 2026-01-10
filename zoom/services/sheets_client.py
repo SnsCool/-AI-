@@ -400,6 +400,10 @@ def find_matching_row_by_time(
         return None
 
     except Exception as e:
+        # 429エラーはリトライのために再送出
+        error_str = str(e)
+        if "429" in error_str or "Quota exceeded" in error_str:
+            raise
         print(f"   行検索エラー: {e}")
         import traceback
         traceback.print_exc()
@@ -455,6 +459,9 @@ def update_row_with_analysis(
         return True
 
     except Exception as e:
+        error_str = str(e)
+        if "429" in error_str or "Quota exceeded" in error_str:
+            raise
         print(f"   行更新エラー: {e}")
         return False
 
@@ -475,6 +482,9 @@ def get_all_assignee_sheets(spreadsheet_id: str) -> list[str]:
         spreadsheet = client.open_by_key(spreadsheet_id)
         return [ws.title for ws in spreadsheet.worksheets()]
     except Exception as e:
+        error_str = str(e)
+        if "429" in error_str or "Quota exceeded" in error_str:
+            raise
         print(f"シート一覧取得エラー: {e}")
         return []
 
@@ -507,6 +517,9 @@ def find_row_by_customer_and_assignee(
 
         return None
     except Exception as e:
+        error_str = str(e)
+        if "429" in error_str or "Quota exceeded" in error_str:
+            raise
         print(f"行検索エラー: {e}")
         return None
 
@@ -589,6 +602,9 @@ def write_meeting_data(
             return True
 
     except Exception as e:
+        error_str = str(e)
+        if "429" in error_str or "Quota exceeded" in error_str:
+            raise
         print(f"シート書き込みエラー: {e}")
         import traceback
         traceback.print_exc()
@@ -627,6 +643,9 @@ def find_existing_row_in_zoom_sheet(
 
         return None
     except Exception as e:
+        error_str = str(e)
+        if "429" in error_str or "Quota exceeded" in error_str:
+            raise
         print(f"   既存行検索エラー: {e}")
         return None
 
@@ -732,6 +751,9 @@ def write_to_zoom_sheet(
             return True
 
     except Exception as e:
+        error_str = str(e)
+        if "429" in error_str or "Quota exceeded" in error_str:
+            raise
         print(f"シート書き込みエラー: {e}")
         import traceback
         traceback.print_exc()
@@ -817,6 +839,9 @@ def write_to_data_storage_sheet(
         return True
 
     except Exception as e:
+        error_str = str(e)
+        if "429" in error_str or "Quota exceeded" in error_str:
+            raise
         print(f"データ格納シート書き込みエラー: {e}")
         import traceback
         traceback.print_exc()
@@ -929,6 +954,9 @@ def reconcile_zoom_sheet_with_customer_sheet(
         return updated_count
 
     except Exception as e:
+        error_str = str(e)
+        if "429" in error_str or "Quota exceeded" in error_str:
+            raise
         print(f"再照合処理エラー: {e}")
         import traceback
         traceback.print_exc()
@@ -1002,6 +1030,9 @@ def get_zoom_credentials_from_sheet(
         return None
 
     except Exception as e:
+        error_str = str(e)
+        if "429" in error_str or "Quota exceeded" in error_str:
+            raise
         print(f"   スプレッドシートから認証情報取得エラー: {e}")
         return None
 
@@ -1085,6 +1116,9 @@ def write_analysis_to_sheet(
         return success
 
     except Exception as e:
+        error_str = str(e)
+        if "429" in error_str or "Quota exceeded" in error_str:
+            raise
         print(f"分析結果書き込みエラー: {e}")
         import traceback
         traceback.print_exc()
