@@ -213,16 +213,17 @@ def process_single_recording(
 
         print(f"   文字数: {len(transcript)}")
 
-        # 3. Gemini分析
-        print("→ Geminiで分析中...")
-        analysis = analyze_meeting(transcript)
-
-        if not analysis:
-            print("→ エラー: 分析に失敗しました")
-            return False
-
-        closing_result = analysis.get("closing_result", "不明")
-        print(f"   クロージング結果: {closing_result}")
+        # 3. Gemini分析（一時的に無効化 - APIクォータ節約テスト）
+        # print("→ Geminiで分析中...")
+        # analysis = analyze_meeting(transcript)
+        # if not analysis:
+        #     print("→ エラー: 分析に失敗しました")
+        #     return False
+        # closing_result = analysis.get("closing_result", "不明")
+        # print(f"   クロージング結果: {closing_result}")
+        analysis = {}  # 一時的にスキップ
+        closing_result = "未分析"
+        print("→ Gemini分析スキップ（テストモード）")
 
         # 4. 詳細フィードバック生成（一時的に無効化 - APIクォータ節約）
         # print("→ 詳細フィードバック生成中...")
@@ -283,31 +284,32 @@ def process_single_recording(
             sheet_name="Zoom相談一覧 データ格納"
         )
 
-        # 8. 成約の場合はナレッジ保存
-        summary = analysis.get("summary", "")
-        if closing_result == "成約" and summary:
-            print("→ 成功ナレッジを保存中...")
-            try:
-                embedding = generate_embedding(summary)
-                talk_ratio = analysis.get("talk_ratio", {})
-                save_knowledge(
-                    client=supabase_client,
-                    meeting_date=meeting_date,
-                    assignee=assignee,
-                    customer_name=topic,
-                    closing_result=closing_result,
-                    talk_ratio_sales=talk_ratio.get("sales", 0),
-                    talk_ratio_customer=talk_ratio.get("customer", 0),
-                    issues_heard=analysis.get("issues_heard", []),
-                    proposal=analysis.get("proposal", []),
-                    good_points=analysis.get("good_points", []),
-                    improvement_points=analysis.get("improvement_points", []),
-                    success_keywords=analysis.get("success_keywords", []),
-                    summary=summary,
-                    embedding=embedding
-                )
-            except Exception as e:
-                print(f"   ナレッジ保存エラー: {e}")
+        # 8. 成約の場合はナレッジ保存（一時的に無効化 - APIクォータ節約テスト）
+        # summary = analysis.get("summary", "")
+        # if closing_result == "成約" and summary:
+        #     print("→ 成功ナレッジを保存中...")
+        #     try:
+        #         embedding = generate_embedding(summary)
+        #         talk_ratio = analysis.get("talk_ratio", {})
+        #         save_knowledge(
+        #             client=supabase_client,
+        #             meeting_date=meeting_date,
+        #             assignee=assignee,
+        #             customer_name=topic,
+        #             closing_result=closing_result,
+        #             talk_ratio_sales=talk_ratio.get("sales", 0),
+        #             talk_ratio_customer=talk_ratio.get("customer", 0),
+        #             issues_heard=analysis.get("issues_heard", []),
+        #             proposal=analysis.get("proposal", []),
+        #             good_points=analysis.get("good_points", []),
+        #             improvement_points=analysis.get("improvement_points", []),
+        #             success_keywords=analysis.get("success_keywords", []),
+        #             summary=summary,
+        #             embedding=embedding
+        #         )
+        #     except Exception as e:
+        #         print(f"   ナレッジ保存エラー: {e}")
+        print("→ ナレッジ保存スキップ（テストモード）")
 
         # 9. 処理済みマーク（ステータスに応じて）
         if should_mark_processed:
