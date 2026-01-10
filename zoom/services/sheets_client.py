@@ -5,6 +5,8 @@ Google Sheets クライアント
 
 import os
 import json
+import time
+import functools
 from datetime import datetime
 from typing import Optional
 from dotenv import load_dotenv
@@ -19,6 +21,42 @@ try:
 except ImportError:
     SHEETS_AVAILABLE = False
     print("Warning: gspread not installed. Run: pip install gspread google-auth")
+
+
+def retry_on_quota_error(max_retries: int = 5, initial_delay: float = 2.0):
+    """
+    Google Sheets APIのクォータエラー(429)時にリトライするデコレータ
+
+    Args:
+        max_retries: 最大リトライ回数
+        initial_delay: 初回待機時間（秒）、リトライごとに2倍になる
+    """
+    def decorator(func):
+        @functools.wraps(func)
+        def wrapper(*args, **kwargs):
+            delay = initial_delay
+            last_exception = None
+
+            for attempt in range(max_retries + 1):
+                try:
+                    return func(*args, **kwargs)
+                except Exception as e:
+                    error_str = str(e)
+                    # 429エラー（クォータ超過）の場合のみリトライ
+                    if "429" in error_str or "Quota exceeded" in error_str:
+                        last_exception = e
+                        if attempt < max_retries:
+                            print(f"   API制限エラー、{delay:.1f}秒後にリトライ... ({attempt + 1}/{max_retries})")
+                            time.sleep(delay)
+                            delay *= 2  # 指数バックオフ
+                        continue
+                    # その他のエラーはそのまま発生させる
+                    raise
+
+            # 全リトライ失敗
+            raise last_exception
+        return wrapper
+    return decorator
 
 
 # 新しいスプレッドシートID（セミナー管理シート）
@@ -57,6 +95,7 @@ def get_sheets_client():
     return gspread.authorize(credentials)
 
 
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
 def get_or_create_sheet(client, spreadsheet_id: str, sheet_name: str):
     """
     シートを取得（なければ作成）
@@ -230,6 +269,7 @@ def parse_datetime_flexible(date_str: str) -> Optional[datetime]:
     return None
 
 
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
 def find_matching_row_by_time(
     spreadsheet_id: str,
     assignee: str,
@@ -366,6 +406,7 @@ def find_matching_row_by_time(
         return None
 
 
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
 def update_row_with_analysis(
     spreadsheet_id: str,
     assignee: str,
@@ -418,6 +459,7 @@ def update_row_with_analysis(
         return False
 
 
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
 def get_all_assignee_sheets(spreadsheet_id: str) -> list[str]:
     """
     スプレッドシートの全シート名（担当者名）を取得
@@ -437,6 +479,7 @@ def get_all_assignee_sheets(spreadsheet_id: str) -> list[str]:
         return []
 
 
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
 def find_row_by_customer_and_assignee(
     worksheet,
     customer_name: str,
@@ -552,6 +595,7 @@ def write_meeting_data(
         return False
 
 
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
 def find_existing_row_in_zoom_sheet(
     worksheet,
     customer_name: str,
@@ -587,6 +631,7 @@ def find_existing_row_in_zoom_sheet(
         return None
 
 
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
 def write_to_zoom_sheet(
     spreadsheet_id: str,
     customer_name: str,
@@ -693,6 +738,7 @@ def write_to_zoom_sheet(
         return False
 
 
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
 def write_to_data_storage_sheet(
     spreadsheet_id: str,
     customer_name: str,
@@ -777,6 +823,7 @@ def write_to_data_storage_sheet(
         return False
 
 
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
 def reconcile_zoom_sheet_with_customer_sheet(
     zoom_spreadsheet_id: str,
     customer_spreadsheet_id: str,
@@ -888,6 +935,7 @@ def reconcile_zoom_sheet_with_customer_sheet(
         return 0
 
 
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
 def get_zoom_credentials_from_sheet(
     spreadsheet_id: str,
     assignee: str,
@@ -958,6 +1006,7 @@ def get_zoom_credentials_from_sheet(
         return None
 
 
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
 def write_analysis_to_sheet(
     spreadsheet_id: str,
     assignee: str,
