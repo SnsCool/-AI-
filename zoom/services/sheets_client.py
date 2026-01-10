@@ -269,6 +269,167 @@ def parse_datetime_flexible(date_str: str) -> Optional[datetime]:
     return None
 
 
+def load_all_customer_sheets_data(spreadsheet_id: str) -> dict:
+    """
+    顧客管理シートの全担当者シートデータを一括読み込み
+
+    Args:
+        spreadsheet_id: スプレッドシートID
+
+    Returns:
+        {担当者名: [(row_num, customer_name, scheduled_time_str, status, result_status), ...], ...}
+    """
+    from datetime import timedelta
+
+    all_data = {}
+
+    try:
+        client = get_sheets_client()
+        spreadsheet = client.open_by_key(spreadsheet_id)
+
+        # 全シート（担当者）を取得
+        worksheets = spreadsheet.worksheets()
+
+        for worksheet in worksheets:
+            assignee = worksheet.title
+
+            # システムシートはスキップ
+            if assignee in ['Zoomキー', 'マスタ', 'テンプレート']:
+                continue
+
+            try:
+                all_values = worksheet.get_all_values()
+            except Exception as e:
+                print(f"   シート '{assignee}' の読み込みエラー: {e}")
+                continue
+
+            if not all_values:
+                continue
+
+            # ヘッダー行を探す
+            header_row_idx = None
+            for i, row in enumerate(all_values[:10]):
+                if 'お名前' in row:
+                    header_row_idx = i
+                    break
+
+            if header_row_idx is None:
+                continue
+
+            # 列インデックスを特定
+            headers = all_values[header_row_idx]
+            name_col = 0  # A列: お名前
+            date_col = None
+            status_col = 6  # G列: 事前キャンセル
+            result_status_col = 7  # H列: 初回/実施後ステータス
+
+            for j, col in enumerate(headers):
+                if '初回実施日' in col or '初回' in col:
+                    date_col = j
+                    break
+
+            if date_col is None:
+                continue
+
+            # データを収集
+            rows_data = []
+            for i, row in enumerate(all_values[header_row_idx + 1:], start=header_row_idx + 2):
+                if len(row) <= max(name_col, date_col):
+                    continue
+
+                customer_name = row[name_col] if len(row) > name_col else ""
+                scheduled_time_str = row[date_col] if len(row) > date_col else ""
+                status = row[status_col].strip() if len(row) > status_col and row[status_col] else ""
+                result_status = row[result_status_col].strip() if len(row) > result_status_col and row[result_status_col] else ""
+
+                if not scheduled_time_str:
+                    continue
+
+                # 日時をパース
+                scheduled_time = parse_datetime_flexible(scheduled_time_str)
+                if scheduled_time:
+                    rows_data.append({
+                        'row_num': i,
+                        'customer_name': customer_name,
+                        'scheduled_time_str': scheduled_time_str,
+                        'scheduled_time': scheduled_time,
+                        'status': status,
+                        'result_status': result_status
+                    })
+
+            all_data[assignee] = rows_data
+
+        print(f"   顧客管理シート読み込み完了: {len(all_data)}シート")
+        return all_data
+
+    except Exception as e:
+        error_str = str(e)
+        if "429" in error_str or "Quota exceeded" in error_str:
+            raise
+        print(f"   顧客管理シート一括読み込みエラー: {e}")
+        return {}
+
+
+def find_matching_row_in_memory(
+    all_customer_data: dict,
+    assignee: str,
+    zoom_start_time: datetime,
+    tolerance_minutes: int = 45
+) -> Optional[dict]:
+    """
+    メモリ上の顧客データから時間でマッチする行を検索
+
+    Args:
+        all_customer_data: load_all_customer_sheets_dataで読み込んだデータ
+        assignee: 担当者名
+        zoom_start_time: Zoom録画の開始時間（UTC）
+        tolerance_minutes: 時間の許容誤差（分）
+
+    Returns:
+        マッチした行の情報、見つからない場合はNone
+    """
+    from datetime import timedelta
+
+    if assignee not in all_customer_data:
+        print(f"   シート '{assignee}' が見つかりません")
+        return None
+
+    rows = all_customer_data[assignee]
+
+    # Zoom時間をJSTに変換（UTCから+9時間）
+    zoom_jst = zoom_start_time + timedelta(hours=9)
+    tolerance = timedelta(minutes=tolerance_minutes)
+
+    for row_data in rows:
+        scheduled_time = row_data['scheduled_time']
+
+        # 時間がない場合は日付のみで比較
+        if scheduled_time.hour == 0 and scheduled_time.minute == 0:
+            if scheduled_time.date() == zoom_jst.date():
+                return {
+                    'row_num': row_data['row_num'],
+                    'customer_name': row_data['customer_name'],
+                    'scheduled_time': row_data['scheduled_time_str'],
+                    'match_type': 'date_only',
+                    'status': row_data['status'],
+                    'result_status': row_data['result_status']
+                }
+        else:
+            # 時間も含めて±tolerance分以内かチェック
+            time_diff = abs((zoom_jst.replace(tzinfo=None) - scheduled_time).total_seconds())
+            if time_diff <= tolerance.total_seconds():
+                return {
+                    'row_num': row_data['row_num'],
+                    'customer_name': row_data['customer_name'],
+                    'scheduled_time': row_data['scheduled_time_str'],
+                    'match_type': 'exact_time',
+                    'status': row_data['status'],
+                    'result_status': row_data['result_status']
+                }
+
+    return None
+
+
 @retry_on_quota_error(max_retries=5, initial_delay=2.0)
 def find_matching_row_by_time(
     spreadsheet_id: str,
@@ -858,10 +1019,11 @@ def reconcile_zoom_sheet_with_customer_sheet(
     Zoom相談一覧シートのE列・F列が空の行を、顧客管理シートと再照合して更新
 
     処理内容:
-    1. Zoom相談一覧シートの全行をチェック
-    2. E列（事前キャンセル）またはF列（初回/実施後ステータス）が空の行を抽出
-    3. B列（担当者）+ C列（面談日時）で顧客管理シートと照合
-    4. マッチすれば、A列（顧客名）、E列、F列を更新
+    1. 顧客管理シートの全データを一括読み込み（API呼び出し削減）
+    2. Zoom相談一覧シートの全行をチェック
+    3. E列（事前キャンセル）またはF列（初回/実施後ステータス）が空の行を抽出
+    4. B列（担当者）+ C列（面談日時）でメモリ内検索
+    5. マッチすれば、A列（顧客名）、E列、F列を更新
 
     Args:
         zoom_spreadsheet_id: Zoom相談一覧のスプレッドシートID
@@ -875,6 +1037,14 @@ def reconcile_zoom_sheet_with_customer_sheet(
 
     try:
         client = get_sheets_client()
+
+        # 顧客管理シートの全データを一括読み込み（API呼び出し削減のため）
+        print("   顧客管理シートを一括読み込み中...")
+        all_customer_data = load_all_customer_sheets_data(customer_spreadsheet_id)
+
+        if not all_customer_data:
+            print("   顧客管理シートのデータが取得できませんでした")
+            return 0
 
         # Zoom相談一覧シートを取得
         zoom_spreadsheet = client.open_by_key(zoom_spreadsheet_id)
@@ -915,9 +1085,9 @@ def reconcile_zoom_sheet_with_customer_sheet(
             if not meeting_dt:
                 continue
 
-            # 顧客管理シートと照合
-            matched_row = find_matching_row_by_time(
-                spreadsheet_id=customer_spreadsheet_id,
+            # メモリ内で顧客管理シートと照合（API呼び出しなし）
+            matched_row = find_matching_row_in_memory(
+                all_customer_data=all_customer_data,
                 assignee=assignee,
                 zoom_start_time=meeting_dt - timedelta(hours=9),  # JSTからUTCに変換
                 tolerance_minutes=45
