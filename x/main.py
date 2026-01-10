@@ -629,6 +629,10 @@ def extract_video_url(tweet: dict) -> str | None:
     Returns:
         URL of the highest bitrate MP4 video, or None if not found
     """
+    # Guard against None tweet
+    if tweet is None:
+        return None
+
     # Try multiple possible locations for media data
     media_list = []
 
