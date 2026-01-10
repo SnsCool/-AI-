@@ -75,9 +75,19 @@ def create_transcript_doc(
     # ドキュメントタイトル
     title = f"【文字起こし】{customer_name}_{assignee}_{meeting_date}"
 
-    # 空のドキュメントを作成
-    doc = docs_service.documents().create(body={'title': title}).execute()
-    doc_id = doc['documentId']
+    # Drive APIで直接フォルダ内にGoogle Docsを作成（容量問題を回避）
+    file_metadata = {
+        'name': title,
+        'mimeType': 'application/vnd.google-apps.document'
+    }
+    if folder_id:
+        file_metadata['parents'] = [folder_id]
+
+    doc_file = drive_service.files().create(
+        body=file_metadata,
+        fields='id'
+    ).execute()
+    doc_id = doc_file['id']
 
     # ドキュメントに内容を挿入
     content_text = f"""面談文字起こし
@@ -105,15 +115,6 @@ def create_transcript_doc(
         documentId=doc_id,
         body={'requests': requests}
     ).execute()
-
-    # フォルダに移動（指定された場合）
-    if folder_id:
-        drive_service.files().update(
-            fileId=doc_id,
-            addParents=folder_id,
-            removeParents='root',
-            fields='id, parents'
-        ).execute()
 
     # 共有設定（リンクを知っている人が閲覧可能）
     drive_service.permissions().create(
