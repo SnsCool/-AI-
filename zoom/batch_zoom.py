@@ -454,9 +454,10 @@ def run_batch_process(
                     total_skipped += 1
                     continue
 
-            # 録画一覧取得
-            recordings = get_zoom_recordings(access_token)
-            print(f"録画数: {len(recordings)} (認証元: {used_source})")
+            # 録画一覧取得（最新5件に制限）
+            all_recordings = get_zoom_recordings(access_token)
+            recordings = all_recordings[:5]  # 最新5件のみ処理
+            print(f"録画数: {len(recordings)}/{len(all_recordings)}件 (認証元: {used_source})")
 
             for recording in recordings:
                 if limit and total_processed >= limit:
