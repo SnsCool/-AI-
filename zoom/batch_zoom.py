@@ -238,11 +238,14 @@ def process_single_recording(
         # 5. Google Docsに文字起こしを保存
         print("→ Google Docsに保存中...")
         meeting_date = start_time[:10] if start_time else datetime.now().strftime("%Y-%m-%d")
+        # 保存先フォルダID（zoom営業ドキュメント格納フォルダ）
+        TRANSCRIPT_FOLDER_ID = "1JNBjbJgyGM5iz0xiqClDu4RHzJbxaU2q"
         transcript_doc_url = create_transcript_doc(
             transcript=transcript,
             assignee=assignee,
             customer_name=topic,
-            meeting_date=meeting_date
+            meeting_date=meeting_date,
+            folder_id=TRANSCRIPT_FOLDER_ID
         )
 
         # 6. 動画リンク（Zoom共有URLを使用、ダウンロード不要）
