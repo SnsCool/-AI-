@@ -215,20 +215,89 @@ def download_transcript(url: str, access_token: str) -> str:
     return "\n".join(text_lines)
 
 
-def get_all_accounts_recordings(supabase_client) -> list[dict]:
-    """
-    全アカウントの録画を取得
+# 新しいスプレッドシートID（Zoomキー管理用）
+ZOOM_KEYS_SPREADSHEET_ID = "1R5oMbJ7E-QfDFhHR164y8JKs6XLnkJcw8zBm2IPSn8E"
+ZOOM_KEYS_SHEET_NAME = "ZoomKeys"
 
-    Args:
-        supabase_client: Supabaseクライアント
+
+def get_all_accounts_from_sheet() -> list[dict]:
+    """
+    スプレッドシートから全Zoomアカウント情報を取得
 
     Returns:
-        [{"assignee": "担当者名", "recordings": [...]}]
+        [{"assignee": str, "account_id": str, "client_id": str, "client_secret": str}]
     """
-    # zoom_accountsからアカウント情報を取得
-    result = supabase_client.table("zoom_accounts").select("*").execute()
-    accounts = result.data if result.data else []
+    import gspread
+    from google.oauth2.service_account import Credentials
+    import json
 
+    creds_json = os.getenv("GOOGLE_CREDENTIALS_JSON") or os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON")
+    creds_file = os.getenv("GOOGLE_SERVICE_ACCOUNT_FILE")
+
+    scopes = [
+        "https://www.googleapis.com/auth/spreadsheets",
+        "https://www.googleapis.com/auth/drive",
+    ]
+
+    if creds_json:
+        creds_dict = json.loads(creds_json)
+        credentials = Credentials.from_service_account_info(creds_dict, scopes=scopes)
+    elif creds_file:
+        credentials = Credentials.from_service_account_file(creds_file, scopes=scopes)
+    else:
+        raise ValueError("Google認証情報が設定されていません")
+
+    client = gspread.authorize(credentials)
+    spreadsheet = client.open_by_key(ZOOM_KEYS_SPREADSHEET_ID)
+    worksheet = spreadsheet.worksheet(ZOOM_KEYS_SHEET_NAME)
+    values = worksheet.get_all_values()
+
+    # ヘッダー: 名前, Account ID, Client ID, Client Secret
+    accounts = []
+    for row in values[1:]:
+        if len(row) >= 4 and row[0] and row[1] and row[2] and row[3]:
+            accounts.append({
+                "assignee": row[0].strip(),
+                "account_id": row[1].strip(),
+                "client_id": row[2].strip(),
+                "client_secret": row[3].strip()
+            })
+
+    return accounts
+
+
+def get_zoom_credentials_by_assignee(assignee: str) -> Optional[dict]:
+    """
+    担当者名からZoom認証情報を取得（スプレッドシートから）
+
+    Args:
+        assignee: 担当者名
+
+    Returns:
+        {"account_id", "client_id", "client_secret"} or None
+    """
+    accounts = get_all_accounts_from_sheet()
+
+    for acc in accounts:
+        # 完全一致または部分一致
+        if acc["assignee"] == assignee or assignee in acc["assignee"] or acc["assignee"] in assignee:
+            return {
+                "account_id": acc["account_id"],
+                "client_id": acc["client_id"],
+                "client_secret": acc["client_secret"]
+            }
+
+    return None
+
+
+def get_all_accounts_recordings_from_sheet() -> list[dict]:
+    """
+    スプレッドシートから全アカウントの録画を取得
+
+    Returns:
+        [{"assignee": "担当者名", "access_token": str, "recordings": [...]}]
+    """
+    accounts = get_all_accounts_from_sheet()
     all_recordings = []
 
     for account in accounts:
@@ -255,3 +324,18 @@ def get_all_accounts_recordings(supabase_client) -> list[dict]:
             continue
 
     return all_recordings
+
+
+def get_all_accounts_recordings(supabase_client=None) -> list[dict]:
+    """
+    全アカウントの録画を取得
+    ※ スプレッドシートから取得するように変更（Supabaseは使用しない）
+
+    Args:
+        supabase_client: Supabaseクライアント（後方互換性のため残すが未使用）
+
+    Returns:
+        [{"assignee": "担当者名", "recordings": [...]}]
+    """
+    # スプレッドシートから取得
+    return get_all_accounts_recordings_from_sheet()
