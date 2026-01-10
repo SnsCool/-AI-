@@ -224,9 +224,10 @@ def process_single_recording(
         closing_result = analysis.get("closing_result", "不明")
         print(f"   クロージング結果: {closing_result}")
 
-        # 4. 詳細フィードバック生成（新プロンプト使用）
-        print("→ 詳細フィードバック生成中...")
-        feedback = generate_detailed_feedback(transcript)
+        # 4. 詳細フィードバック生成（一時的に無効化 - APIクォータ節約）
+        # print("→ 詳細フィードバック生成中...")
+        # feedback = generate_detailed_feedback(transcript)
+        feedback = ""  # 一時的にスキップ
 
         if dry_run:
             print("→ [DRY RUN] 書き込みをスキップ")
@@ -454,9 +455,9 @@ def run_batch_process(
                     total_skipped += 1
                     continue
 
-            # 録画一覧取得（最新5件に制限）
-            all_recordings = get_zoom_recordings(access_token)
-            recordings = all_recordings[:5]  # 最新5件のみ処理
+            # 録画一覧取得（最新1件に制限 - APIクォータ節約）
+            all_recordings = get_zoom_recordings(access_token, months=1)  # 1ヶ月分のみ
+            recordings = all_recordings[:1]  # 最新1件のみ処理
             print(f"録画数: {len(recordings)}/{len(all_recordings)}件 (認証元: {used_source})")
 
             for recording in recordings:

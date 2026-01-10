@@ -100,10 +100,9 @@ jobs:
           if [ "${{ github.event.inputs.no_video }}" = "true" ]; then
             FLAGS="$FLAGS --no-video"
           fi
-          # グループ指定: cron実行時は自動計算、手動実行時はinputから
-          if [ "${{ github.event_name }}" = "schedule" ]; then
-            FLAGS="$FLAGS --group ${{ steps.group.outputs.group }}"
-          elif [ -n "${{ github.event.inputs.group }}" ]; then
+          # グループ指定: 手動実行時のみ（cron実行は全アカウント処理）
+          # ※ 最新1件×全アカウントでAPIクォータ節約
+          if [ -n "${{ github.event.inputs.group }}" ]; then
             FLAGS="$FLAGS --group ${{ github.event.inputs.group }}"
           fi
           python batch_zoom.py $FLAGS
