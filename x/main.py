@@ -263,63 +263,9 @@ def fetch_ai_trends(keywords: list[str], min_likes: int = 50, max_results: int =
             except Exception as e:
                 print(f"  ⚠ Official accounts fetch failed: {e}")
 
-        # === Query 2: Release/Announcement Keywords ===
-        if enable_release and release_keywords:
-            print(f"\n  🚀 Searching for releases/announcements...")
-
-            # Combine AI keywords with release keywords for better targeting
-            release_search_terms = [f"{kw} {rk}" for kw in keywords[:5] for rk in release_keywords[:3]]
-
-            # Use search URLs for keyword search
-            release_urls = [f"https://twitter.com/search?q={term.replace(' ', '%20')}" for term in release_search_terms[:10]]
-            release_run_input = {
-                "startUrls": release_urls,
-                "maxTweets": max_results,
-            }
-
-            try:
-                release_run = client.actor("apidojo/tweet-scraper").call(run_input=release_run_input)
-
-                release_count = 0
-                for item in client.dataset(release_run["defaultDatasetId"]).iterate_items():
-                    tweet_id = item.get("id")
-                    if tweet_id and tweet_id not in seen_tweet_ids:
-                        tweet_dict = _convert_apify_item_to_tweet(item)
-                        tweet_dict["_priority"] = "release"  # Mark as release
-                        all_tweets.append(tweet_dict)
-                        seen_tweet_ids.add(tweet_id)
-                        release_count += 1
-
-                print(f"  ✓ Release keywords: {release_count} tweets")
-            except Exception as e:
-                print(f"  ⚠ Release keywords fetch failed: {e}")
-
-        # === Query 3: General AI Keywords ===
-        print(f"\n  🔎 General AI keyword search...")
-
-        # Use search URLs for general keyword search
-        general_urls = [f"https://twitter.com/search?q={kw.replace(' ', '%20')}" for kw in keywords[:10]]
-        general_run_input = {
-            "startUrls": general_urls,
-            "maxTweets": max_results,
-        }
-
-        try:
-            general_run = client.actor("apidojo/tweet-scraper").call(run_input=general_run_input)
-
-            general_count = 0
-            for item in client.dataset(general_run["defaultDatasetId"]).iterate_items():
-                tweet_id = item.get("id")
-                if tweet_id and tweet_id not in seen_tweet_ids:
-                    tweet_dict = _convert_apify_item_to_tweet(item)
-                    tweet_dict["_priority"] = "general"  # Mark as general
-                    all_tweets.append(tweet_dict)
-                    seen_tweet_ids.add(tweet_id)
-                    general_count += 1
-
-            print(f"  ✓ General search: {general_count} tweets")
-        except Exception as e:
-            print(f"  ⚠ General search failed: {e}")
+        # === Query 2 & 3: Skipped (search URLs too slow with apidojo/tweet-scraper) ===
+        # Note: apidojo/tweet-scraper works best with profile URLs, not search URLs
+        print(f"\n  ⏭ Skipping keyword search (using official accounts only for speed)")
 
         # === Time Filtering (if enabled) ===
         if enable_time and all_tweets:
