@@ -637,27 +637,30 @@ def extract_video_url(tweet: dict) -> str | None:
     media_list = []
 
     # Option 1: extendedEntities.media
-    if tweet.get("extendedEntities", {}).get("media"):
-        media_list = tweet["extendedEntities"]["media"]
+    extended_entities_camel = tweet.get("extendedEntities") or {}
+    if extended_entities_camel.get("media"):
+        media_list = extended_entities_camel["media"]
         print(f"    Found media in extendedEntities", flush=True)
 
     # Option 2: extended_entities.media (snake_case)
-    elif tweet.get("extended_entities", {}).get("media"):
-        media_list = tweet["extended_entities"]["media"]
+    extended_entities_snake = tweet.get("extended_entities") or {}
+    if not media_list and extended_entities_snake.get("media"):
+        media_list = extended_entities_snake["media"]
         print(f"    Found media in extended_entities", flush=True)
 
     # Option 3: entities.media
-    elif tweet.get("entities", {}).get("media"):
-        media_list = tweet["entities"]["media"]
+    entities = tweet.get("entities") or {}
+    if not media_list and entities.get("media"):
+        media_list = entities["media"]
         print(f"    Found media in entities", flush=True)
 
     # Option 4: Direct media array
-    elif tweet.get("media"):
+    if not media_list and tweet.get("media"):
         media_list = tweet["media"] if isinstance(tweet["media"], list) else [tweet["media"]]
         print(f"    Found media in root", flush=True)
 
     # Option 5: Check for video directly
-    elif tweet.get("video"):
+    if not media_list and tweet.get("video"):
         print(f"    Found video field directly", flush=True)
         video = tweet["video"]
         if isinstance(video, dict) and video.get("variants"):
