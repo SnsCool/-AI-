@@ -11,6 +11,18 @@ on:
   # 手動実行
   workflow_dispatch:
     inputs:
+      group:
+        description: 'グループ番号 (1-6, 空=全アカウント)'
+        required: false
+        type: choice
+        options:
+          - ''
+          - '1'
+          - '2'
+          - '3'
+          - '4'
+          - '5'
+          - '6'
       dry_run:
         description: 'Dry run (書き込みなし)'
         required: false
@@ -88,9 +100,11 @@ jobs:
           if [ "${{ github.event.inputs.no_video }}" = "true" ]; then
             FLAGS="$FLAGS --no-video"
           fi
-          # cron実行時はグループ指定、手動実行時は全アカウント処理
+          # グループ指定: cron実行時は自動計算、手動実行時はinputから
           if [ "${{ github.event_name }}" = "schedule" ]; then
             FLAGS="$FLAGS --group ${{ steps.group.outputs.group }}"
+          elif [ -n "${{ github.event.inputs.group }}" ]; then
+            FLAGS="$FLAGS --group ${{ github.event.inputs.group }}"
           fi
           python batch_zoom.py $FLAGS
 
