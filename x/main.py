@@ -261,6 +261,16 @@ def fetch_ai_trends(keywords: list[str], min_likes: int = 50, max_results: int =
 
                 print(f"  ✓ Fetched {len(fetched_tweets)} tweets from API")
 
+                # Debug: Show breakdown of tweets per account
+                account_counts = {}
+                for tweet in fetched_tweets:
+                    screen_name = tweet.get("user", {}).get("screen_name", "unknown")
+                    account_counts[screen_name] = account_counts.get(screen_name, 0) + 1
+
+                print(f"  📊 Tweet distribution (98件の内訳):")
+                for acc, count in sorted(account_counts.items(), key=lambda x: -x[1]):
+                    print(f"      @{acc}: {count}件")
+
                 # Filter to get only 1 tweet per account (the first/latest one)
                 seen_accounts = set()
                 for tweet in fetched_tweets:
