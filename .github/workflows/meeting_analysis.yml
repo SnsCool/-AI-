@@ -4,9 +4,9 @@
 name: Zoom Meeting Analysis
 
 on:
-  # 10分ごとに自動実行
+  # 1時間ごとに自動実行
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '0 * * * *'
 
   # 手動実行
   workflow_dispatch:
@@ -61,13 +61,13 @@ jobs:
       - name: Calculate group number
         id: group
         run: |
-          # 現在の分（0-59）からグループ番号（1-6）を計算
-          # cron実行: 0,10,20,30,40,50分 → 6グループ
-          # 0分 → グループ1, 10分 → グループ2, ... 50分 → グループ6
-          MINUTE=$(date +%M)
-          GROUP=$(( MINUTE / 10 + 1 ))
+          # 現在の時（0-23）からグループ番号（1-6）を計算
+          # cron実行: 毎時0分 → 6グループでローテーション
+          # 0時 → グループ1, 1時 → グループ2, ... 5時 → グループ6, 6時 → グループ1...
+          HOUR=$(date +%H)
+          GROUP=$(( HOUR % 6 + 1 ))
           echo "group=$GROUP" >> $GITHUB_OUTPUT
-          echo "Processing group $GROUP/6 (minute: $MINUTE)"
+          echo "Processing group $GROUP/6 (hour: $HOUR)"
 
       - name: Run batch analysis
         env:
