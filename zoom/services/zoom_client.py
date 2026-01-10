@@ -39,13 +39,13 @@ def get_zoom_access_token(account_id: str, client_id: str, client_secret: str) -
     return response.json()["access_token"]
 
 
-def get_zoom_recordings(
+def get_zoom_recordings_single_month(
     access_token: str,
-    from_date: Optional[str] = None,
-    to_date: Optional[str] = None
+    from_date: str,
+    to_date: str
 ) -> list[dict]:
     """
-    Zoom録画一覧を取得
+    Zoom録画一覧を取得（1ヶ月分）
 
     Args:
         access_token: Zoomアクセストークン
@@ -55,12 +55,6 @@ def get_zoom_recordings(
     Returns:
         録画データのリスト
     """
-    # デフォルト: 直近30日
-    if not from_date:
-        from_date = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
-    if not to_date:
-        to_date = datetime.now().strftime("%Y-%m-%d")
-
     url = "https://api.zoom.us/v2/users/me/recordings"
 
     headers = {
@@ -70,7 +64,7 @@ def get_zoom_recordings(
     params = {
         "from": from_date,
         "to": to_date,
-        "page_size": 100
+        "page_size": 300  # 最大300件/リクエスト
     }
 
     response = requests.get(url, headers=headers, params=params)
@@ -106,6 +100,67 @@ def get_zoom_recordings(
         })
 
     return recordings
+
+
+def get_zoom_recordings(
+    access_token: str,
+    from_date: Optional[str] = None,
+    to_date: Optional[str] = None,
+    months: int = 6
+) -> list[dict]:
+    """
+    Zoom録画一覧を取得（複数月対応）
+
+    Zoom APIは1リクエストで最大1ヶ月分しか取得できないため、
+    月ごとに分割してリクエストを行う。
+
+    Args:
+        access_token: Zoomアクセストークン
+        from_date: 開始日 (YYYY-MM-DD) - 指定時はmonthsを無視
+        to_date: 終了日 (YYYY-MM-DD)
+        months: 取得する月数（デフォルト6ヶ月、最大6ヶ月）
+
+    Returns:
+        録画データのリスト
+    """
+    all_recordings = []
+
+    # 日付が指定されている場合は従来通り（1ヶ月以内を想定）
+    if from_date and to_date:
+        return get_zoom_recordings_single_month(access_token, from_date, to_date)
+
+    # デフォルト: 過去6ヶ月を月ごとに取得
+    months = min(months, 6)  # 最大6ヶ月
+    today = datetime.now()
+
+    for i in range(months):
+        # 各月の範囲を計算
+        # 例: i=0 → 今月, i=1 → 先月, ...
+        month_end = today - timedelta(days=30 * i)
+        month_start = month_end - timedelta(days=30)
+
+        from_str = month_start.strftime("%Y-%m-%d")
+        to_str = month_end.strftime("%Y-%m-%d")
+
+        try:
+            month_recordings = get_zoom_recordings_single_month(
+                access_token, from_str, to_str
+            )
+            all_recordings.extend(month_recordings)
+        except Exception as e:
+            # 1ヶ月分の取得に失敗しても続行
+            print(f"   {from_str}〜{to_str} の取得エラー: {e}")
+            continue
+
+    # 重複を除去（meeting_idでユニーク化）
+    seen_ids = set()
+    unique_recordings = []
+    for rec in all_recordings:
+        if rec["meeting_id"] not in seen_ids:
+            seen_ids.add(rec["meeting_id"])
+            unique_recordings.append(rec)
+
+    return unique_recordings
 
 
 def download_file(url: str, access_token: str, save_path: str) -> str:
