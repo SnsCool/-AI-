@@ -40,10 +40,10 @@ on:
         type: string
         default: 'X投稿ワークフローを実行してください'
       max_posts:
-        description: 'Maximum posts per day (default: 5)'
+        description: 'Maximum posts per day (default: 100)'
         required: false
         type: number
-        default: 5
+        default: 100
 
 jobs:
   fetch-and-generate:
