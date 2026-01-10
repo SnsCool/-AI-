@@ -412,7 +412,7 @@ def run_batch_process(
                 sheet_creds = get_zoom_credentials_from_sheet(
                     spreadsheet_id=DESTINATION_SPREADSHEET_ID,
                     assignee=assignee,
-                    sheet_name="Zoomキー"
+                    sheet_name="ZoomKeys"
                 )
 
                 if sheet_creds:
