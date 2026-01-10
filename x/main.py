@@ -91,7 +91,7 @@ MAX_TWEETS_PER_ACCOUNT = 1
 MAX_TWEETS = 10
 
 # Maximum posts per day (business rule: 1日5投稿まで)
-MAX_POSTS_PER_DAY = 5
+MAX_POSTS_PER_DAY = 100  # Post all fetched tweets (1 per account)
 
 # Gemini model to use
 GEMINI_MODEL = "gemini-2.5-pro"
@@ -243,7 +243,7 @@ def fetch_ai_trends(keywords: list[str], min_likes: int = 50, max_results: int =
 
             official_run_input = {
                 "startUrls": [f"https://twitter.com/{acc}" for acc in official_accounts],
-                "maxTweets": max(3, max_results // 2),  # Get recent tweets from each
+                "maxTweets": 1,  # Get only 1 tweet per account
             }
 
             try:
@@ -372,7 +372,7 @@ def fetch_tweets_from_accounts(usernames: list[str], max_per_account: int = 3) -
                 # Prepare input for apidojo/tweet-scraper
                 run_input = {
                     "startUrls": [f"https://twitter.com/{username}"],
-                    "maxTweets": max_per_account,
+                    "maxTweets": 1,  # Get only 1 tweet per account
                 }
 
                 print(f"    Starting Apify actor run...")
