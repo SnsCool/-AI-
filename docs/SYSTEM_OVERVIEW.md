@@ -20,7 +20,7 @@
 
 ---
 
-## 2. 取得対象アカウント（9アカウント）
+## 2. 取得対象アカウント（12アカウント）
 
 ### AI企業公式アカウント
 
@@ -33,6 +33,14 @@
 | @StabilityAI | Stability AI公式（Stable Diffusion開発元） |
 | @huggingface | Hugging Face公式（AI/MLプラットフォーム） |
 | @MistralAI | Mistral AI公式 |
+| @deepseek_ai | DeepSeek AI公式 |
+
+### AI関連サービス
+
+| アカウント | 説明 |
+|-----------|------|
+| @ClaudeCodeLog | Claude Code関連情報 |
+| @NotionHQ | Notion公式（AI統合ツール） |
 
 ### 日本のAI関連アカウント
 
@@ -93,7 +101,7 @@ GitHub ActionsのWorkflow dispatchから手動実行も可能です。
 
 ### Google Spreadsheet（投稿ログ）
 
-**スプレッドシートURL**: [ここにURLを記載]
+**スプレッドシートURL**: [X自動投稿ログ](https://docs.google.com/spreadsheets/d/1acBAQfb7AfiyfB3_Ehc3Akf8QEga6Iy9Ce185YSu48Y/edit?gid=1346186600#gid=1346186600)
 
 | カラム | 内容 |
 |--------|------|
@@ -111,7 +119,7 @@ GitHub ActionsのWorkflow dispatchから手動実行も可能です。
 | 項目 | 値 |
 |------|-----|
 | 料金単価 | $0.0004/ツイート |
-| 1回あたりの取得数 | 9件（9アカウント × 1件） |
+| 1回あたりの取得数 | 12件（12アカウント × 1件） |
 | **1回あたりのコスト** | **約$0.004** |
 | 1日のコスト（4回実行） | 約$0.016 |
 | **月間コスト** | **約$0.50** |
@@ -152,6 +160,9 @@ GitHub ActionsのWorkflow dispatchから手動実行も可能です。
     "StabilityAI",
     "huggingface",
     "MistralAI",
+    "deepseek_ai",
+    "ClaudeCodeLog",
+    "NotionHQ",
     "mako_yukinari",
     "ctgptlb"
   ]
@@ -186,8 +197,9 @@ GitHub ActionsのWorkflow dispatchから手動実行も可能です。
 
 | 日付 | 変更内容 |
 |------|----------|
+| 2026-01-10 | buzz_postsプロンプト修正（文体のみ抽出、内容は取得ツイートを使用） |
+| 2026-01-10 | アカウントリスト更新（12アカウント：deepseek_ai, ClaudeCodeLog, NotionHQ追加） |
 | 2026-01-10 | プロンプト改善（固有名詞を維持、元ツイートの形式を活かす） |
-| 2026-01-10 | アカウントリスト更新（9アカウント） |
 | 2026-01-10 | 個別API呼び出しに変更（コスト97%削減） |
 | 2026-01-10 | max_postsデフォルト値を100に変更 |
 
