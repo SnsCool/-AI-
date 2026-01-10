@@ -99,6 +99,7 @@ jobs:
       - name: Run Commander Agent
         if: ${{ inputs.use_commander == true && inputs.test_x_posting != true }}
         env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
           GCP_SA_KEY_JSON: ${{ secrets.GCP_SA_KEY_JSON }}
@@ -116,6 +117,7 @@ jobs:
       - name: Run X Trend Agent (Dry Run)
         if: ${{ inputs.dry_run == true }}
         env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
           GCP_SA_KEY_JSON: ${{ secrets.GCP_SA_KEY_JSON }}
@@ -134,6 +136,7 @@ jobs:
       - name: Run X Trend Agent (Scheduled)
         if: ${{ github.event_name == 'schedule' }}
         env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
           GCP_SA_KEY_JSON: ${{ secrets.GCP_SA_KEY_JSON }}
@@ -152,6 +155,7 @@ jobs:
       - name: Run X Trend Agent (Manual)
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.use_commander != true && inputs.test_x_posting != true && inputs.dry_run != true && inputs.test_spreadsheet != true }}
         env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
           GCP_SA_KEY_JSON: ${{ secrets.GCP_SA_KEY_JSON }}
