@@ -242,18 +242,12 @@ def fetch_ai_trends(keywords: list[str], min_likes: int = 50, max_results: int =
             print(f"\n  📢 Fetching from {len(official_accounts)} official accounts...")
 
             official_run_input = {
-                "handles": official_accounts,
-                "tweetsDesired": max(3, max_results // 2),  # Get recent tweets from each
-                "minimumFavorites": official_min_likes,  # No minimum for official accounts
-                "tweetLanguage": "en,ja",
-                "addUserInfo": True,
-                "proxyConfig": {
-                    "useApifyProxy": True
-                }
+                "startUrls": [f"https://twitter.com/{acc}" for acc in official_accounts],
+                "maxTweets": max(3, max_results // 2),  # Get recent tweets from each
             }
 
             try:
-                official_run = client.actor("apify/twitter-scraper").call(run_input=official_run_input)
+                official_run = client.actor("apidojo/tweet-scraper").call(run_input=official_run_input)
 
                 official_count = 0
                 for item in client.dataset(official_run["defaultDatasetId"]).iterate_items():
@@ -276,20 +270,15 @@ def fetch_ai_trends(keywords: list[str], min_likes: int = 50, max_results: int =
             # Combine AI keywords with release keywords for better targeting
             release_search_terms = [f"{kw} {rk}" for kw in keywords[:5] for rk in release_keywords[:3]]
 
+            # Use search URLs for keyword search
+            release_urls = [f"https://twitter.com/search?q={term.replace(' ', '%20')}" for term in release_search_terms[:10]]
             release_run_input = {
-                "searchTerms": release_search_terms[:20],  # Limit combinations
+                "startUrls": release_urls,
                 "maxTweets": max_results,
-                "minimumFavorites": max(10, min_likes // 2),  # Lower threshold for releases
-                "sort": "Latest",
-                "tweetLanguage": "en,ja",
-                "addUserInfo": True,
-                "proxyConfig": {
-                    "useApifyProxy": True
-                }
             }
 
             try:
-                release_run = client.actor("apify/twitter-scraper").call(run_input=release_run_input)
+                release_run = client.actor("apidojo/tweet-scraper").call(run_input=release_run_input)
 
                 release_count = 0
                 for item in client.dataset(release_run["defaultDatasetId"]).iterate_items():
@@ -308,20 +297,15 @@ def fetch_ai_trends(keywords: list[str], min_likes: int = 50, max_results: int =
         # === Query 3: General AI Keywords ===
         print(f"\n  🔎 General AI keyword search...")
 
+        # Use search URLs for general keyword search
+        general_urls = [f"https://twitter.com/search?q={kw.replace(' ', '%20')}" for kw in keywords[:10]]
         general_run_input = {
-            "searchTerms": keywords,
+            "startUrls": general_urls,
             "maxTweets": max_results,
-            "minimumFavorites": min_likes,
-            "sort": "Latest",
-            "tweetLanguage": "en,ja",
-            "addUserInfo": True,
-            "proxyConfig": {
-                "useApifyProxy": True
-            }
         }
 
         try:
-            general_run = client.actor("apify/twitter-scraper").call(run_input=general_run_input)
+            general_run = client.actor("apidojo/tweet-scraper").call(run_input=general_run_input)
 
             general_count = 0
             for item in client.dataset(general_run["defaultDatasetId"]).iterate_items():
@@ -439,19 +423,16 @@ def fetch_tweets_from_accounts(usernames: list[str], max_per_account: int = 3) -
             print(f"\n  Fetching from @{username} via Apify...")
 
             try:
-                # Prepare input for apify/twitter-scraper
+                # Prepare input for apidojo/tweet-scraper
                 run_input = {
-                    "handles": [username],
-                    "tweetsDesired": max_per_account,
-                    "proxyConfig": {
-                        "useApifyProxy": True
-                    }
+                    "startUrls": [f"https://twitter.com/{username}"],
+                    "maxTweets": max_per_account,
                 }
 
                 print(f"    Starting Apify actor run...")
 
                 # Run the Actor and wait for it to finish
-                run = client.actor("apify/twitter-scraper").call(run_input=run_input)
+                run = client.actor("apidojo/tweet-scraper").call(run_input=run_input)
 
                 # Fetch results from the run's dataset
                 print(f"    Fetching results from dataset...")
