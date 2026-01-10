@@ -13,7 +13,6 @@ Zoom面談バッチ処理スクリプト（新版）
 import os
 import sys
 import argparse
-import tempfile
 from datetime import datetime
 from typing import Optional
 from dotenv import load_dotenv
@@ -25,14 +24,13 @@ from services.zoom_client import (
     get_zoom_access_token,
     get_zoom_recordings,
     download_transcript,
-    download_file,
 )
 from services.gemini_client import (
     analyze_meeting,
     generate_embedding,
     generate_detailed_feedback,
 )
-from services.google_drive_client import create_transcript_doc, upload_video_to_drive
+from services.google_drive_client import create_transcript_doc
 from services.sheets_client import (
     write_to_zoom_sheet,
     write_to_data_storage_sheet,
@@ -119,6 +117,7 @@ def process_single_recording(
     duration = recording.get("duration", 0)
     transcript_url = recording.get("transcript_url")
     mp4_url = recording.get("mp4_url")
+    share_url = recording.get("share_url")  # Zoom共有リンク（認証不要）
 
     print(f"\n{'='*60}")
     print(f"処理中: {topic}")
@@ -243,26 +242,10 @@ def process_single_recording(
             meeting_date=meeting_date
         )
 
-        # 6. 動画をGoogle Driveにアップロード（あれば）
-        video_drive_url = None
-        if mp4_url:
-            print("→ 動画をダウンロード・アップロード中...")
-            with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as tmp:
-                tmp_path = tmp.name
-
-            try:
-                download_file(mp4_url, access_token, tmp_path)
-                video_drive_url = upload_video_to_drive(
-                    video_path=tmp_path,
-                    assignee=assignee,
-                    customer_name=topic,
-                    meeting_date=meeting_date
-                )
-            except Exception as e:
-                print(f"   動画アップロードエラー: {e}")
-            finally:
-                if os.path.exists(tmp_path):
-                    os.remove(tmp_path)
+        # 6. 動画リンク（Zoom共有URLを使用、ダウンロード不要）
+        video_url = share_url  # Zoomの共有リンクをそのまま使用
+        if video_url:
+            print(f"→ 動画リンク: {video_url}")
 
         # 7. Zoom相談一覧シートに書き込み（更新あり版）
         print("→ Zoom相談一覧シートに書き込み中...")
@@ -275,7 +258,7 @@ def process_single_recording(
             cancel_status=cancel_status,  # E列: 顧客管理シートG列（着座/飛び/リスケ等）
             result_status=result_status,  # F列: 顧客管理シートH列（成約/失注/保留等）
             transcript_doc_url=transcript_doc_url,  # G列
-            video_drive_url=video_drive_url,        # H列
+            video_drive_url=video_url,              # H列: Zoom共有リンク
             feedback=feedback,            # I列
             sheet_name=DESTINATION_SHEET_NAME
         )
@@ -294,7 +277,7 @@ def process_single_recording(
             cancel_status=cancel_status,
             result_status=result_status,
             transcript_doc_url=transcript_doc_url,
-            video_drive_url=video_drive_url,
+            video_drive_url=video_url,  # Zoom共有リンク
             feedback=feedback,
             sheet_name="Zoom相談一覧 データ格納"
         )

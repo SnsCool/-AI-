@@ -97,6 +97,7 @@ def get_zoom_recordings_single_month(
             "mp4_url": mp4_file.get("download_url") if mp4_file else None,
             "mp4_size": mp4_file.get("file_size") if mp4_file else None,
             "transcript_url": transcript_file.get("download_url") if transcript_file else None,
+            "share_url": meeting.get("share_url"),  # 共有リンク（認証不要）
         })
 
     return recordings
