@@ -350,10 +350,17 @@ def process_single_recording(
 def run_batch_process(
     spreadsheet_id: str = None,
     dry_run: bool = False,
-    limit: int = None
+    limit: int = None,
+    group: int = None
 ):
     """
     バッチ処理を実行
+
+    Args:
+        spreadsheet_id: スプレッドシートID
+        dry_run: テスト実行（書き込みなし）
+        limit: 処理する最大件数
+        group: グループ番号（1-3）。指定時はそのグループのアカウントのみ処理
     """
     spreadsheet_id = spreadsheet_id or DEFAULT_SPREADSHEET_ID
 
@@ -365,6 +372,8 @@ def run_batch_process(
     print(f"DRY RUN: {dry_run}")
     if limit:
         print(f"処理上限: {limit}件")
+    if group:
+        print(f"グループ: {group}/3")
     print("=" * 60)
 
     # Supabaseクライアント取得
@@ -373,9 +382,21 @@ def run_batch_process(
     # 全アカウントを取得
     print("\nZoomアカウントを取得中...")
     result = supabase_client.table("zoom_accounts").select("*").execute()
-    accounts = result.data if result.data else []
+    all_accounts = result.data if result.data else []
 
-    print(f"アカウント数: {len(accounts)}")
+    # グループ指定時はアカウントをフィルタリング
+    if group and 1 <= group <= 6:
+        # アカウントを6グループに分割（1時間で全アカウント処理）
+        total = len(all_accounts)
+        group_size = (total + 5) // 6  # 切り上げ
+        start_idx = (group - 1) * group_size
+        end_idx = min(group * group_size, total)
+        accounts = all_accounts[start_idx:end_idx]
+        print(f"全アカウント数: {total}")
+        print(f"グループ{group}/6のアカウント: {start_idx+1}〜{end_idx}番目 ({len(accounts)}件)")
+    else:
+        accounts = all_accounts
+        print(f"アカウント数: {len(accounts)}")
 
     total_processed = 0
     total_success = 0
@@ -561,13 +582,20 @@ def main():
         type=int,
         help="処理する最大件数"
     )
+    parser.add_argument(
+        "--group",
+        type=int,
+        choices=[1, 2, 3, 4, 5, 6],
+        help="処理するグループ番号（1-6）。指定時はそのグループのアカウントのみ処理"
+    )
 
     args = parser.parse_args()
 
     success = run_batch_process(
         spreadsheet_id=args.spreadsheet_id,
         dry_run=args.dry_run,
-        limit=args.limit
+        limit=args.limit,
+        group=args.group
     )
 
     sys.exit(0 if success else 1)

@@ -36,7 +36,7 @@ jobs:
   batch-analyze:
     if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.run_test != 'true') }}
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
 
     defaults:
       run:
@@ -58,6 +58,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Calculate group number
+        id: group
+        run: |
+          # 現在の分（0-59）からグループ番号（1-6）を計算
+          # cron実行: 0,10,20,30,40,50分 → 6グループ
+          # 0分 → グループ1, 10分 → グループ2, ... 50分 → グループ6
+          MINUTE=$(date +%M)
+          GROUP=$(( MINUTE / 10 + 1 ))
+          echo "group=$GROUP" >> $GITHUB_OUTPUT
+          echo "Processing group $GROUP/6 (minute: $MINUTE)"
+
       - name: Run batch analysis
         env:
           # Supabase
@@ -76,6 +87,10 @@ jobs:
           fi
           if [ "${{ github.event.inputs.no_video }}" = "true" ]; then
             FLAGS="$FLAGS --no-video"
+          fi
+          # cron実行時はグループ指定、手動実行時は全アカウント処理
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            FLAGS="$FLAGS --group ${{ steps.group.outputs.group }}"
           fi
           python batch_zoom.py $FLAGS
 
