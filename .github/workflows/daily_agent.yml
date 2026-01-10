@@ -149,7 +149,7 @@ jobs:
           ENABLE_X_POSTING: 'true'
         run: |
           echo "=== SCHEDULED RUN: Character limit DISABLED ==="
-          cd x && python main.py --post-to-x --max-posts 5 --no-char-limit
+          cd x && python main.py --post-to-x --max-posts 100 --no-char-limit
 
       # Step 5e: Full workflow (fetch → generate → post) - Manual runs (with 200 char limit)
       - name: Run X Trend Agent (Manual)
@@ -168,7 +168,7 @@ jobs:
           ENABLE_X_POSTING: 'true'
         run: |
           echo "=== MANUAL RUN: 200 character limit ENABLED ==="
-          cd x && python main.py --post-to-x --max-posts ${{ github.event.inputs.max_posts || 5 }}
+          cd x && python main.py --post-to-x --max-posts ${{ github.event.inputs.max_posts || 100 }}
 
       # Step 6: Cleanup sensitive files
       - name: Cleanup
