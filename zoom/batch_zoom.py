@@ -42,6 +42,7 @@ from services.sheets_client import (
     find_matching_row_by_time,
     update_row_with_analysis,
     get_all_assignee_sheets,
+    get_zoom_credentials_from_sheet,
 )
 
 # 担当者別シートのスプレッドシートID（照合用）
@@ -381,6 +382,9 @@ def run_batch_process(
     total_failed = 0
     total_skipped = 0
 
+    # 認証エラーの担当者を記録
+    auth_errors = []
+
     for account in accounts:
         assignee = account["assignee"]
 
@@ -389,16 +393,66 @@ def run_batch_process(
         print(f"{'#'*60}")
 
         try:
-            # アクセストークン取得
-            access_token = get_zoom_access_token(
-                account["account_id"],
-                account["client_id"],
-                account["client_secret"]
-            )
+            # アクセストークン取得（Supabaseの認証情報を使用）
+            access_token = None
+            used_source = "supabase"
+
+            try:
+                access_token = get_zoom_access_token(
+                    account["account_id"],
+                    account["client_id"],
+                    account["client_secret"]
+                )
+                print(f"認証成功: Supabase")
+            except Exception as supabase_error:
+                print(f"Supabase認証エラー: {supabase_error}")
+
+                # フォールバック: スプレッドシートから認証情報を取得
+                print(f"→ フォールバック: スプレッドシートから認証情報を取得中...")
+                sheet_creds = get_zoom_credentials_from_sheet(
+                    spreadsheet_id=DESTINATION_SPREADSHEET_ID,
+                    assignee=assignee,
+                    sheet_name="Zoomキー"
+                )
+
+                if sheet_creds:
+                    print(f"   スプレッドシートに認証情報あり")
+                    try:
+                        access_token = get_zoom_access_token(
+                            sheet_creds["account_id"],
+                            sheet_creds["client_id"],
+                            sheet_creds["client_secret"]
+                        )
+                        used_source = "spreadsheet"
+                        print(f"認証成功: スプレッドシート")
+                    except Exception as sheet_error:
+                        print(f"スプレッドシート認証エラー: {sheet_error}")
+                        # 両方失敗
+                        auth_errors.append({
+                            "assignee": assignee,
+                            "supabase_error": str(supabase_error),
+                            "sheet_error": str(sheet_error),
+                            "status": "両方失敗（Zoomアプリ再設定が必要）"
+                        })
+                        print(f"★★★ {assignee}: Supabase・スプレッドシート両方失敗")
+                        print(f"    → Zoomアプリの認証情報を確認・再設定してください")
+                        total_skipped += 1
+                        continue
+                else:
+                    print(f"   スプレッドシートに認証情報なし")
+                    auth_errors.append({
+                        "assignee": assignee,
+                        "supabase_error": str(supabase_error),
+                        "sheet_error": "認証情報なし",
+                        "status": "Supabase失敗＋スプレッドシートに情報なし"
+                    })
+                    print(f"★★★ {assignee}: Supabase失敗、スプレッドシートに情報なし")
+                    total_skipped += 1
+                    continue
 
             # 録画一覧取得
             recordings = get_zoom_recordings(access_token)
-            print(f"録画数: {len(recordings)}")
+            print(f"録画数: {len(recordings)} (認証元: {used_source})")
 
             for recording in recordings:
                 if limit and total_processed >= limit:
@@ -450,6 +504,38 @@ def run_batch_process(
     print(f"スキップ: {total_skipped}")
     print(f"終了時刻: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"\nスプレッドシート: https://docs.google.com/spreadsheets/d/{spreadsheet_id}")
+
+    # 認証エラーの詳細レポート
+    if auth_errors:
+        print("\n" + "=" * 60)
+        print("★ 認証エラーレポート")
+        print("=" * 60)
+        print(f"認証エラー件数: {len(auth_errors)}名")
+        print()
+
+        # 分類して表示
+        both_failed = [e for e in auth_errors if "両方失敗" in e["status"]]
+        supabase_only = [e for e in auth_errors if "情報なし" in e["status"]]
+
+        if both_failed:
+            print("【Supabase・スプレッドシート両方失敗（Zoomアプリ再設定必要）】")
+            for e in both_failed:
+                print(f"  - {e['assignee']}")
+            print()
+
+        if supabase_only:
+            print("【Supabase失敗・スプレッドシートに情報なし】")
+            for e in supabase_only:
+                print(f"  - {e['assignee']}")
+            print()
+
+        print("対応方法:")
+        print("  1. Zoom Marketplace (https://marketplace.zoom.us/) にログイン")
+        print("  2. Server-to-Server OAuthアプリの認証情報を確認")
+        print("  3. Account ID, Client ID, Client Secret を取得")
+        print("  4. Supabase zoom_accounts テーブル または")
+        print(f"     スプレッドシート「Zoomキー」シートを更新")
+        print(f"     ({DESTINATION_SPREADSHEET_ID})")
 
     return total_failed == 0
 

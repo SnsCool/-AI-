@@ -888,6 +888,76 @@ def reconcile_zoom_sheet_with_customer_sheet(
         return 0
 
 
+def get_zoom_credentials_from_sheet(
+    spreadsheet_id: str,
+    assignee: str,
+    sheet_name: str = "Zoomキー"
+) -> Optional[dict]:
+    """
+    スプレッドシートからZoom認証情報を取得（フォールバック用）
+
+    シート構造（Zoomキーシート）:
+    - A列: 担当者名
+    - B列: Account ID
+    - C列: Client ID
+    - D列: Client Secret
+
+    Args:
+        spreadsheet_id: スプレッドシートID
+        assignee: 担当者名
+        sheet_name: シート名
+
+    Returns:
+        認証情報の辞書 {"account_id", "client_id", "client_secret"}
+        見つからない場合はNone
+    """
+    try:
+        client = get_sheets_client()
+        spreadsheet = client.open_by_key(spreadsheet_id)
+
+        try:
+            worksheet = spreadsheet.worksheet(sheet_name)
+        except:
+            print(f"   シート '{sheet_name}' が見つかりません")
+            return None
+
+        all_values = worksheet.get_all_values()
+
+        # ヘッダー行を探す（「担当者」または「名前」を含む行）
+        header_row_idx = 0
+        for i, row in enumerate(all_values[:5]):
+            row_lower = [str(c).lower() for c in row]
+            if any('担当' in c or '名前' in c or 'name' in c.lower() for c in row):
+                header_row_idx = i
+                break
+
+        # データ行を検索
+        for i, row in enumerate(all_values[header_row_idx + 1:], start=header_row_idx + 2):
+            if len(row) < 4:
+                continue
+
+            row_assignee = row[0].strip() if row[0] else ""
+
+            # 担当者名でマッチング（部分一致も許容）
+            if row_assignee == assignee or assignee in row_assignee or row_assignee in assignee:
+                account_id = row[1].strip() if len(row) > 1 and row[1] else ""
+                client_id = row[2].strip() if len(row) > 2 and row[2] else ""
+                client_secret = row[3].strip() if len(row) > 3 and row[3] else ""
+
+                if account_id and client_id and client_secret:
+                    return {
+                        "account_id": account_id,
+                        "client_id": client_id,
+                        "client_secret": client_secret
+                    }
+
+        return None
+
+    except Exception as e:
+        print(f"   スプレッドシートから認証情報取得エラー: {e}")
+        return None
+
+
 def write_analysis_to_sheet(
     spreadsheet_id: str,
     assignee: str,
