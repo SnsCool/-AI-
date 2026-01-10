@@ -237,52 +237,44 @@ def fetch_ai_trends(keywords: list[str], min_likes: int = 50, max_results: int =
         # Initialize Apify client
         client = ApifyClient(APIFY_TOKEN)
 
-        # === Query 1: Official Accounts (No likes filter) ===
+        # === Query 1: Official Accounts (Individual API calls - 1 tweet per account) ===
         if enable_official and official_accounts:
-            print(f"\n  📢 Fetching from {len(official_accounts)} official accounts...")
+            print(f"\n  📢 Fetching from {len(official_accounts)} accounts (individual API calls)...")
 
-            official_run_input = {
-                "startUrls": [f"https://twitter.com/{acc}" for acc in official_accounts],
-                "maxItems": 500,  # Fetch up to 500 tweets total, then filter to 1 per account
-            }
+            success_count = 0
+            failed_accounts = []
 
-            try:
-                official_run = client.actor("apidojo/tweet-scraper").call(run_input=official_run_input)
+            for acc in official_accounts:
+                try:
+                    run_input = {
+                        "startUrls": [f"https://twitter.com/{acc}"],
+                        "maxItems": 1,  # Get exactly 1 tweet per account
+                    }
 
-                # Collect all tweets first
-                fetched_tweets = []
-                for item in client.dataset(official_run["defaultDatasetId"]).iterate_items():
-                    tweet_id = item.get("id")
-                    if tweet_id and tweet_id not in seen_tweet_ids:
-                        tweet_dict = _convert_apify_item_to_tweet(item)
-                        tweet_dict["_priority"] = "official"  # Mark as official
-                        fetched_tweets.append(tweet_dict)
-                        seen_tweet_ids.add(tweet_id)
+                    run = client.actor("apidojo/tweet-scraper").call(run_input=run_input)
 
-                print(f"  ✓ Fetched {len(fetched_tweets)} tweets from API")
+                    # Get the first tweet from this account
+                    for item in client.dataset(run["defaultDatasetId"]).iterate_items():
+                        tweet_id = item.get("id")
+                        if tweet_id and tweet_id not in seen_tweet_ids:
+                            tweet_dict = _convert_apify_item_to_tweet(item)
+                            tweet_dict["_priority"] = "official"
+                            all_tweets.append(tweet_dict)
+                            seen_tweet_ids.add(tweet_id)
+                            success_count += 1
+                            print(f"      ✓ @{acc}: 取得成功")
+                            break  # Only take 1 tweet per account
+                    else:
+                        print(f"      ⚠ @{acc}: ツイートなし")
+                        failed_accounts.append(acc)
 
-                # Debug: Show breakdown of tweets per account
-                account_counts = {}
-                for tweet in fetched_tweets:
-                    screen_name = tweet.get("user", {}).get("screen_name", "unknown")
-                    account_counts[screen_name] = account_counts.get(screen_name, 0) + 1
+                except Exception as e:
+                    print(f"      ✗ @{acc}: 失敗 ({e})")
+                    failed_accounts.append(acc)
 
-                print(f"  📊 Tweet distribution (98件の内訳):")
-                for acc, count in sorted(account_counts.items(), key=lambda x: -x[1]):
-                    print(f"      @{acc}: {count}件")
-
-                # Filter to get only 1 tweet per account (the first/latest one)
-                seen_accounts = set()
-                for tweet in fetched_tweets:
-                    screen_name = tweet.get("user", {}).get("screen_name", "").lower()
-                    if screen_name and screen_name not in seen_accounts:
-                        all_tweets.append(tweet)
-                        seen_accounts.add(screen_name)
-
-                print(f"  ✓ Filtered to {len(all_tweets)} tweets (1 per account)")
-                print(f"  ✓ Accounts: {', '.join(['@' + acc for acc in seen_accounts])}")
-            except Exception as e:
-                print(f"  ⚠ Official accounts fetch failed: {e}")
+            print(f"\n  ✓ 取得完了: {success_count}/{len(official_accounts)} アカウント")
+            if failed_accounts:
+                print(f"  ⚠ 失敗: {', '.join(['@' + acc for acc in failed_accounts])}")
 
         # === Query 2 & 3: Skipped (search URLs too slow with apidojo/tweet-scraper) ===
         # Note: apidojo/tweet-scraper works best with profile URLs, not search URLs

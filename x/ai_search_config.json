@@ -41,17 +41,15 @@
     "AnthropicAI",
     "GoogleAI",
     "GoogleDeepMind",
-    "sama",
-    "gdb",
-    "karpathy",
     "ylecun",
     "jeffdean",
     "demishassabis",
-    "doriandoillet",
     "AravSrinivas",
     "StabilityAI",
     "huggingface",
-    "MistralAI"
+    "MistralAI",
+    "mako_yukinari",
+    "ctgptlb"
   ],
   "filters": {
     "min_likes": 50,
@@ -70,9 +68,9 @@
     "OpenAI",
     "AnthropicAI",
     "GoogleAI",
-    "sama",
-    "gdb",
-    "karpathy"
+    "GoogleDeepMind",
+    "MistralAI",
+    "huggingface"
   ],
   "description": "AI Research Configuration - Edit keywords and filters to customize AI trend search"
 }
