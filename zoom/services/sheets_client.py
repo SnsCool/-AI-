@@ -290,18 +290,33 @@ def load_all_customer_sheets_data(spreadsheet_id: str) -> dict:
         # 全シート（担当者）を取得
         worksheets = spreadsheet.worksheets()
 
-        for worksheet in worksheets:
+        for idx, worksheet in enumerate(worksheets):
             assignee = worksheet.title
 
             # システムシートはスキップ
             if assignee in ['Zoomキー', 'マスタ', 'テンプレート']:
                 continue
 
-            try:
-                all_values = worksheet.get_all_values()
-            except Exception as e:
-                print(f"   シート '{assignee}' の読み込みエラー: {e}")
-                continue
+            # レート制限対策: シート読み込み前に少し待機（最初の3シートはスキップ）
+            if idx >= 3:
+                time.sleep(0.5)
+
+            # リトライロジック付きでシートデータを取得
+            all_values = None
+            for retry in range(3):
+                try:
+                    all_values = worksheet.get_all_values()
+                    break
+                except Exception as e:
+                    error_str = str(e)
+                    if "429" in error_str or "Quota exceeded" in error_str:
+                        if retry < 2:
+                            wait_time = (retry + 1) * 2
+                            print(f"   シート '{assignee}' レート制限、{wait_time}秒待機...")
+                            time.sleep(wait_time)
+                            continue
+                    print(f"   シート '{assignee}' の読み込みエラー: {e}")
+                    break
 
             if not all_values:
                 continue
