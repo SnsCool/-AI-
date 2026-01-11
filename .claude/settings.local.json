@@ -79,7 +79,8 @@
       "Bash(do echo \"=== $branch ===\" git show \"$branch:zoom/batch_zoom.py\")",
       "Bash(done)",
       "Bash(pip show:*)",
-      "Bash(/usr/bin/python3:*)"
+      "Bash(/usr/bin/python3:*)",
+      "WebFetch(domain:x.com)"
     ]
   }
 }
