@@ -6,6 +6,8 @@ Google Drive / Docs クライアント
 import os
 import json
 import requests
+import subprocess
+import shutil
 from datetime import datetime
 from typing import Optional
 from dotenv import load_dotenv
@@ -23,6 +25,69 @@ try:
 except ImportError:
     GOOGLE_API_AVAILABLE = False
     print("Warning: google-api-python-client not installed. Run: pip install google-api-python-client")
+
+
+def compress_video(input_path: str, output_path: str = None) -> Optional[str]:
+    """
+    動画を720pに圧縮
+
+    Args:
+        input_path: 入力動画のパス
+        output_path: 出力動画のパス（省略時は入力ファイル名_compressed.mp4）
+
+    Returns:
+        圧縮後のファイルパス（失敗時はNone）
+    """
+    # ffmpegが利用可能かチェック
+    if not shutil.which("ffmpeg"):
+        print("   ffmpegが見つかりません。圧縮をスキップします。")
+        return None
+
+    if output_path is None:
+        base, ext = os.path.splitext(input_path)
+        output_path = f"{base}_compressed{ext}"
+
+    try:
+        # 720p、CRF 28（品質と圧縮率のバランス）、音声は128kbps
+        cmd = [
+            "ffmpeg",
+            "-i", input_path,
+            "-vf", "scale=-2:720",  # 720pにリサイズ（アスペクト比維持）
+            "-c:v", "libx264",
+            "-crf", "28",  # 品質（23=高品質、28=中品質、35=低品質）
+            "-preset", "fast",  # エンコード速度
+            "-c:a", "aac",
+            "-b:a", "128k",
+            "-y",  # 上書き確認なし
+            output_path
+        ]
+
+        print(f"   動画を圧縮中...")
+        result = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            timeout=600  # 10分タイムアウト
+        )
+
+        if result.returncode == 0 and os.path.exists(output_path):
+            # 圧縮結果を表示
+            original_size = os.path.getsize(input_path) / (1024 * 1024)
+            compressed_size = os.path.getsize(output_path) / (1024 * 1024)
+            ratio = (1 - compressed_size / original_size) * 100
+
+            print(f"   圧縮完了: {original_size:.1f}MB → {compressed_size:.1f}MB ({ratio:.0f}%削減)")
+            return output_path
+        else:
+            print(f"   圧縮エラー: {result.stderr[:200] if result.stderr else 'Unknown error'}")
+            return None
+
+    except subprocess.TimeoutExpired:
+        print("   圧縮タイムアウト（10分超過）")
+        return None
+    except Exception as e:
+        print(f"   圧縮エラー: {e}")
+        return None
 
 
 def get_google_credentials():

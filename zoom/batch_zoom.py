@@ -35,6 +35,7 @@ from services.google_drive_client import (
     create_transcript_doc,
     download_video_from_zoom,
     upload_video_with_copy,
+    compress_video,
 )
 from services.sheets_client import (
     write_to_zoom_sheet,
@@ -267,12 +268,14 @@ def process_single_recording(
         # 6. 動画をGoogle Driveにアップロード
         video_url = ""
         if mp4_url:
-            print("→ 動画をダウンロード・アップロード中...")
+            print("→ 動画をダウンロード・圧縮・アップロード中...")
             meeting_date = start_time[:10] if start_time else datetime.now().strftime("%Y-%m-%d")
 
             # 一時ファイルに動画をダウンロード
             with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as tmp_file:
                 temp_video_path = tmp_file.name
+
+            compressed_video_path = None
 
             try:
                 # Zoomから動画をダウンロード
@@ -283,9 +286,15 @@ def process_single_recording(
                 )
 
                 if download_success:
+                    # 動画を圧縮（720p）
+                    compressed_video_path = compress_video(temp_video_path)
+
+                    # 圧縮成功時は圧縮版を、失敗時は元動画をアップロード
+                    upload_path = compressed_video_path if compressed_video_path else temp_video_path
+
                     # Google Driveにアップロード（サービスアカウント→GASコピー→削除）
                     video_url = upload_video_with_copy(
-                        video_path=temp_video_path,
+                        video_path=upload_path,
                         assignee=assignee,
                         customer_name=customer_name,
                         meeting_date=meeting_date
@@ -303,7 +312,9 @@ def process_single_recording(
                 # 一時ファイルを削除
                 if os.path.exists(temp_video_path):
                     os.remove(temp_video_path)
-                    print("   一時ファイル削除完了")
+                if compressed_video_path and os.path.exists(compressed_video_path):
+                    os.remove(compressed_video_path)
+                print("   一時ファイル削除完了")
         elif share_url:
             # mp4_urlがない場合はZoom共有リンクを使用
             video_url = share_url

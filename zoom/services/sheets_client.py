@@ -992,8 +992,18 @@ def write_to_data_storage_sheet(
             print(f"   シート '{sheet_name}' が見つかりません")
             return False
 
-        # 常に新規行を追加（更新なし）
+        # 重複チェック（面談日時＋担当者で判定）
         all_values = worksheet.get_all_values()
+
+        # 既存データから重複をチェック（B列:担当者, C列:面談日時）
+        for row_idx, row in enumerate(all_values[1:], start=2):  # ヘッダー行をスキップ
+            if len(row) >= 3:
+                existing_assignee = row[1] if len(row) > 1 else ""
+                existing_datetime = row[2] if len(row) > 2 else ""
+                if existing_assignee == assignee and existing_datetime == meeting_datetime:
+                    print(f"   → データ格納シート 重複スキップ: {customer_name} / {assignee} / {meeting_datetime}")
+                    return True  # 既に存在するのでスキップ（成功扱い）
+
         next_row = len(all_values) + 1
 
         # 行データを作成
