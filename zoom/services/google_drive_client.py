@@ -5,11 +5,15 @@ Google Drive / Docs クライアント
 
 import os
 import json
+import requests
 from datetime import datetime
 from typing import Optional
 from dotenv import load_dotenv
 
 load_dotenv()
+
+# GAS Web App URL（Google Docs作成用）
+GAS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwtGAav_dU8QzQ6vR_KXqdFqoVxMlPjV2XhzeapvIZ6xly8bk9rrCKrUDAYRS0iO7FF/exec"
 
 try:
     from google.oauth2.service_account import Credentials
@@ -54,81 +58,47 @@ def create_transcript_doc(
     folder_id: Optional[str] = None
 ) -> str:
     """
-    文字起こしをGoogle Docsに保存
+    文字起こしをGoogle Docsに保存（GAS経由）
 
     Args:
         transcript: 文字起こしテキスト
         assignee: 担当者名
         customer_name: 顧客名
         meeting_date: 面談日
-        folder_id: 保存先フォルダID（オプション）
+        folder_id: 保存先フォルダID（未使用、GAS側で設定済み）
 
     Returns:
         Google DocsのURL
     """
-    credentials = get_google_credentials()
-
-    # Docs APIでドキュメント作成
-    docs_service = build('docs', 'v1', credentials=credentials)
-    drive_service = build('drive', 'v3', credentials=credentials)
-
-    # ドキュメントタイトル
-    title = f"【文字起こし】{customer_name}_{assignee}_{meeting_date}"
-
-    # Drive APIで直接フォルダ内にGoogle Docsを作成（容量問題を回避）
-    file_metadata = {
-        'name': title,
-        'mimeType': 'application/vnd.google-apps.document'
+    # GAS Web Appにリクエスト送信
+    payload = {
+        "transcript": transcript,
+        "assignee": assignee,
+        "customer_name": customer_name,
+        "meeting_date": meeting_date
     }
-    if folder_id:
-        file_metadata['parents'] = [folder_id]
 
-    doc_file = drive_service.files().create(
-        body=file_metadata,
-        fields='id'
-    ).execute()
-    doc_id = doc_file['id']
+    try:
+        response = requests.post(
+            GAS_WEBAPP_URL,
+            json=payload,
+            headers={"Content-Type": "application/json"},
+            timeout=120  # 2分タイムアウト（長い文字起こしに対応）
+        )
+        response.raise_for_status()
 
-    # ドキュメントに内容を挿入
-    content_text = f"""面談文字起こし
+        result = response.json()
 
-担当者: {assignee}
-顧客名: {customer_name}
-面談日: {meeting_date}
-作成日: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
+        if result.get("success"):
+            doc_url = result.get("url")
+            print(f"   文字起こしDoc作成: {doc_url}")
+            return doc_url
+        else:
+            error_msg = result.get("error", "Unknown error")
+            raise Exception(f"GAS error: {error_msg}")
 
-{"=" * 50}
-
-{transcript}
-"""
-
-    requests = [
-        {
-            'insertText': {
-                'location': {'index': 1},
-                'text': content_text
-            }
-        }
-    ]
-
-    docs_service.documents().batchUpdate(
-        documentId=doc_id,
-        body={'requests': requests}
-    ).execute()
-
-    # 共有設定（リンクを知っている人が閲覧可能）
-    drive_service.permissions().create(
-        fileId=doc_id,
-        body={
-            'type': 'anyone',
-            'role': 'reader'
-        }
-    ).execute()
-
-    doc_url = f"https://docs.google.com/document/d/{doc_id}/edit"
-    print(f"   文字起こしDoc作成: {doc_url}")
-
-    return doc_url
+    except requests.exceptions.RequestException as e:
+        raise Exception(f"GAS request failed: {str(e)}")
 
 
 def upload_video_to_drive(
