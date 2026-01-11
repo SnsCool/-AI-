@@ -74,7 +74,12 @@
       "Bash(gh pr merge:*)",
       "Bash(source .venv/bin/activate)",
       "Bash(grep:*)",
-      "Bash(gh pr list:*)"
+      "Bash(gh pr list:*)",
+      "Bash(for branch in \"feature/zoom-agent\" \"feature/zoom-agent12/30\" \"remotes/origin/claude/sales-feedback-agent-dNdXe\")",
+      "Bash(do echo \"=== $branch ===\" git show \"$branch:zoom/batch_zoom.py\")",
+      "Bash(done)",
+      "Bash(pip show:*)",
+      "Bash(/usr/bin/python3:*)"
     ]
   }
 }
