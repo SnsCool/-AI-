@@ -520,8 +520,8 @@ def run_batch_process(
                     total_skipped += 1
                     continue
 
-            # 録画一覧取得（最新1件に制限 - APIクォータ節約）
-            all_recordings = get_zoom_recordings(access_token, months=1)  # 1ヶ月分のみ
+            # 録画一覧取得（6ヶ月分から最新1件を処理）
+            all_recordings = get_zoom_recordings(access_token, months=6)  # 6ヶ月分
             recordings = all_recordings[:1]  # 最新1件のみ処理
             print(f"録画数: {len(recordings)}/{len(all_recordings)}件 (認証元: {used_source})")
 
