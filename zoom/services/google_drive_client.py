@@ -101,6 +101,185 @@ def create_transcript_doc(
         raise Exception(f"GAS request failed: {str(e)}")
 
 
+def download_video_from_zoom(mp4_url: str, access_token: str, output_path: str) -> bool:
+    """
+    Zoomから動画をダウンロード
+
+    Args:
+        mp4_url: Zoom動画のURL
+        access_token: Zoomアクセストークン
+        output_path: 保存先パス
+
+    Returns:
+        成功したかどうか
+    """
+    try:
+        headers = {"Authorization": f"Bearer {access_token}"}
+        response = requests.get(mp4_url, headers=headers, stream=True, timeout=600)
+        response.raise_for_status()
+
+        with open(output_path, 'wb') as f:
+            for chunk in response.iter_content(chunk_size=8192):
+                f.write(chunk)
+
+        print(f"   動画ダウンロード完了: {output_path}")
+        return True
+    except Exception as e:
+        print(f"   動画ダウンロードエラー: {str(e)}")
+        return False
+
+
+def upload_video_to_drive_temp(video_path: str, file_name: str) -> Optional[str]:
+    """
+    動画をサービスアカウントのDriveに一時アップロード
+
+    Args:
+        video_path: 動画ファイルのパス
+        file_name: ファイル名
+
+    Returns:
+        アップロードしたファイルのID（失敗時はNone）
+    """
+    try:
+        credentials = get_google_credentials()
+        drive_service = build('drive', 'v3', credentials=credentials)
+
+        file_metadata = {'name': file_name}
+
+        media = MediaFileUpload(
+            video_path,
+            mimetype='video/mp4',
+            resumable=True
+        )
+
+        file = drive_service.files().create(
+            body=file_metadata,
+            media_body=media,
+            fields='id'
+        ).execute()
+
+        file_id = file['id']
+
+        # GASからアクセスできるように共有設定
+        drive_service.permissions().create(
+            fileId=file_id,
+            body={
+                'type': 'anyone',
+                'role': 'reader'
+            }
+        ).execute()
+
+        print(f"   一時アップロード完了: {file_id}")
+        return file_id
+
+    except Exception as e:
+        print(f"   一時アップロードエラー: {str(e)}")
+        return None
+
+
+def copy_video_via_gas(video_file_id: str, video_title: str) -> Optional[str]:
+    """
+    GAS経由で動画をコピー（ユーザー所有になる）
+
+    Args:
+        video_file_id: サービスアカウントがアップロードした動画のファイルID
+        video_title: コピー後のファイル名
+
+    Returns:
+        コピーされた動画のURL（失敗時はNone）
+    """
+    try:
+        payload = {
+            "action": "copy_video",
+            "video_file_id": video_file_id,
+            "video_title": video_title
+        }
+
+        response = requests.post(
+            GAS_WEBAPP_URL,
+            json=payload,
+            headers={"Content-Type": "application/json"},
+            timeout=300  # 5分タイムアウト（動画コピーは時間がかかる場合あり）
+        )
+        response.raise_for_status()
+
+        result = response.json()
+
+        if result.get("success"):
+            video_url = result.get("url")
+            print(f"   GASコピー完了: {video_url}")
+            return video_url
+        else:
+            error_msg = result.get("error", "Unknown error")
+            print(f"   GASコピーエラー: {error_msg}")
+            return None
+
+    except Exception as e:
+        print(f"   GASコピーリクエストエラー: {str(e)}")
+        return None
+
+
+def delete_file_from_drive(file_id: str) -> bool:
+    """
+    サービスアカウントのDriveからファイルを削除
+
+    Args:
+        file_id: 削除するファイルのID
+
+    Returns:
+        成功したかどうか
+    """
+    try:
+        credentials = get_google_credentials()
+        drive_service = build('drive', 'v3', credentials=credentials)
+
+        drive_service.files().delete(fileId=file_id).execute()
+        print(f"   元ファイル削除完了: {file_id}")
+        return True
+
+    except Exception as e:
+        print(f"   ファイル削除エラー: {str(e)}")
+        return False
+
+
+def upload_video_with_copy(
+    video_path: str,
+    assignee: str,
+    customer_name: str,
+    meeting_date: str
+) -> Optional[str]:
+    """
+    動画をアップロードし、GAS経由でコピーして元を削除
+    （サービスアカウントの容量を消費しない）
+
+    Args:
+        video_path: 動画ファイルのパス
+        assignee: 担当者名
+        customer_name: 顧客名
+        meeting_date: 面談日
+
+    Returns:
+        コピーされた動画のURL（ユーザー所有）
+    """
+    file_name = f"【面談動画】{customer_name}_{assignee}_{meeting_date}.mp4"
+
+    # 1. サービスアカウントのDriveに一時アップロード
+    print("→ 動画を一時アップロード中...")
+    file_id = upload_video_to_drive_temp(video_path, file_name)
+    if not file_id:
+        return None
+
+    # 2. GAS経由でコピー（ユーザー所有になる）
+    print("→ GAS経由でコピー中...")
+    video_url = copy_video_via_gas(file_id, file_name)
+
+    # 3. 元ファイルを削除（コピー成功/失敗に関わらず削除して容量解放）
+    print("→ 元ファイルを削除中...")
+    delete_file_from_drive(file_id)
+
+    return video_url
+
+
 def upload_video_to_drive(
     video_path: str,
     assignee: str,
@@ -109,7 +288,7 @@ def upload_video_to_drive(
     folder_id: Optional[str] = None
 ) -> str:
     """
-    動画をGoogle Driveにアップロード
+    動画をGoogle Driveにアップロード（後方互換性のため残す）
 
     Args:
         video_path: 動画ファイルのパス
@@ -121,18 +300,20 @@ def upload_video_to_drive(
     Returns:
         Google DriveのURL
     """
+    # 新しい方式を使用
+    result = upload_video_with_copy(video_path, assignee, customer_name, meeting_date)
+    if result:
+        return result
+
+    # フォールバック: 従来の方式
     credentials = get_google_credentials()
     drive_service = build('drive', 'v3', credentials=credentials)
 
-    # ファイル名
     file_name = f"【面談動画】{customer_name}_{assignee}_{meeting_date}.mp4"
-
-    # ファイルメタデータ
     file_metadata = {'name': file_name}
     if folder_id:
         file_metadata['parents'] = [folder_id]
 
-    # アップロード
     media = MediaFileUpload(
         video_path,
         mimetype='video/mp4',
@@ -147,7 +328,6 @@ def upload_video_to_drive(
 
     file_id = file['id']
 
-    # 共有設定（リンクを知っている人が閲覧可能）
     drive_service.permissions().create(
         fileId=file_id,
         body={
@@ -156,7 +336,6 @@ def upload_video_to_drive(
         }
     ).execute()
 
-    # 共有リンクを取得
     file_info = drive_service.files().get(
         fileId=file_id,
         fields='webViewLink'

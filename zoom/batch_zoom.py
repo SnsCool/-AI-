@@ -13,6 +13,7 @@ Zoom面談バッチ処理スクリプト（新版）
 import os
 import sys
 import argparse
+import tempfile
 from datetime import datetime
 from typing import Optional
 from dotenv import load_dotenv
@@ -30,7 +31,11 @@ from services.gemini_client import (
     generate_embedding,
     generate_detailed_feedback,
 )
-from services.google_drive_client import create_transcript_doc
+from services.google_drive_client import (
+    create_transcript_doc,
+    download_video_from_zoom,
+    upload_video_with_copy,
+)
 from services.sheets_client import (
     write_to_zoom_sheet,
     write_to_data_storage_sheet,
@@ -259,29 +264,72 @@ def process_single_recording(
         else:
             print("→ 文字起こしなし: Google Docs作成スキップ")
 
-        # 6. 動画リンク（Zoom共有URLを使用、ダウンロード不要）
-        video_url = share_url  # Zoomの共有リンクをそのまま使用
-        if video_url:
-            print(f"→ 動画リンク: {video_url}")
+        # 6. 動画をGoogle Driveにアップロード
+        video_url = ""
+        if mp4_url:
+            print("→ 動画をダウンロード・アップロード中...")
+            meeting_date = start_time[:10] if start_time else datetime.now().strftime("%Y-%m-%d")
 
-        # 7. Zoom相談一覧シートに書き込み（更新あり版）
-        print("→ Zoom相談一覧シートに書き込み中...")
-        success = write_to_zoom_sheet(
-            spreadsheet_id=DESTINATION_SPREADSHEET_ID,
-            customer_name=customer_name,  # 照合シートから取得 or Zoomのtopic
-            assignee=assignee,            # Zoomアカウント/シート名から
-            meeting_datetime=meeting_datetime,  # Zoomから
-            duration_minutes=duration,    # Zoomから
-            cancel_status=cancel_status,  # E列: 顧客管理シートG列（着座/飛び/リスケ等）
-            result_status=result_status,  # F列: 顧客管理シートH列（成約/失注/保留等）
-            transcript_doc_url=transcript_doc_url,  # G列
-            video_drive_url=video_url,              # H列: Zoom共有リンク
-            feedback=feedback,            # I列
-            sheet_name=DESTINATION_SHEET_NAME
-        )
+            # 一時ファイルに動画をダウンロード
+            with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as tmp_file:
+                temp_video_path = tmp_file.name
 
-        if not success:
-            return False
+            try:
+                # Zoomから動画をダウンロード
+                download_success = download_video_from_zoom(
+                    mp4_url=mp4_url,
+                    access_token=access_token,
+                    output_path=temp_video_path
+                )
+
+                if download_success:
+                    # Google Driveにアップロード（サービスアカウント→GASコピー→削除）
+                    video_url = upload_video_with_copy(
+                        video_path=temp_video_path,
+                        assignee=assignee,
+                        customer_name=customer_name,
+                        meeting_date=meeting_date
+                    )
+
+                    if video_url:
+                        print(f"   動画URL: {video_url}")
+                    else:
+                        print("   → 動画アップロード失敗、Zoom共有リンクを使用")
+                        video_url = share_url or ""
+                else:
+                    print("   → 動画ダウンロード失敗、Zoom共有リンクを使用")
+                    video_url = share_url or ""
+            finally:
+                # 一時ファイルを削除
+                if os.path.exists(temp_video_path):
+                    os.remove(temp_video_path)
+                    print("   一時ファイル削除完了")
+        elif share_url:
+            # mp4_urlがない場合はZoom共有リンクを使用
+            video_url = share_url
+            print(f"→ 動画リンク（Zoom共有）: {video_url}")
+
+        # 7. Zoom相談一覧シートに書き込み（顧客管理シートにマッチがある場合のみ）
+        success = True
+        if matched_row:
+            print("→ Zoom相談一覧シートに書き込み中...")
+            success = write_to_zoom_sheet(
+                spreadsheet_id=DESTINATION_SPREADSHEET_ID,
+                customer_name=customer_name,  # 照合シートから取得 or Zoomのtopic
+                assignee=assignee,            # Zoomアカウント/シート名から
+                meeting_datetime=meeting_datetime,  # Zoomから
+                duration_minutes=duration,    # Zoomから
+                cancel_status=cancel_status,  # E列: 顧客管理シートG列（着座/飛び/リスケ等）
+                result_status=result_status,  # F列: 顧客管理シートH列（成約/失注/保留等）
+                transcript_doc_url=transcript_doc_url,  # G列
+                video_drive_url=video_url,              # H列: Zoom共有リンク
+                feedback=feedback,            # I列
+                sheet_name=DESTINATION_SHEET_NAME
+            )
+            if not success:
+                return False
+        else:
+            print("→ Zoom相談一覧シートスキップ: 顧客管理シートにマッチなし")
 
         # 7.5. データ格納シートに書き込み（更新なし版、履歴蓄積）
         print("→ データ格納シートに書き込み中...")
