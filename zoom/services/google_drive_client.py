@@ -12,8 +12,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# GAS Web App URL（Google Docs作成用）
-GAS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwtGAav_dU8QzQ6vR_KXqdFqoVxMlPjV2XhzeapvIZ6xly8bk9rrCKrUDAYRS0iO7FF/exec"
+# GAS Web App URL（Google Docs作成用、環境変数から取得）
+GAS_WEBAPP_URL = os.getenv("GAS_WEBAPP_URL")
 
 try:
     from google.oauth2.service_account import Credentials
