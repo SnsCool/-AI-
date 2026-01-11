@@ -132,10 +132,10 @@ def process_single_recording(
         print("→ スキップ: 処理済み")
         return True
 
-    # 文字起こしがなければスキップ
-    if not transcript_url:
-        print("→ スキップ: 文字起こしなし")
-        return True
+    # 文字起こしがない場合もフラグを立てて処理続行
+    has_transcript = bool(transcript_url)
+    if not has_transcript:
+        print("→ 文字起こしなし（録画情報のみ記録）")
 
     try:
         # 1. まず担当者シートで照合（G列ステータス確認のため先に実行）
@@ -199,20 +199,27 @@ def process_single_recording(
                 else:
                     print(f"   → ステータス空欄: 再更新対象（処理済みマークなし）")
         else:
-            # 顧客管理シートに担当者シートがない場合はスキップ
+            # 顧客管理シートに担当者シートがない場合も処理続行
             print("   → マッチなし: 顧客管理シートに担当者シートが存在しません")
-            print("→ スキップ: 顧客管理シート未登録のためスキップ")
-            return True  # スキップ扱い（エラーにしない）
+            print("   → 顧客名はZoomのtopicを使用: " + topic)
+            customer_name = topic
+            should_mark_processed = False  # 再更新対象
 
-        # 2. 文字起こしをダウンロード
-        print("→ 文字起こしをダウンロード中...")
-        transcript = download_transcript(transcript_url, access_token)
+        # 2. 文字起こしをダウンロード（ある場合のみ）
+        transcript = ""
+        if has_transcript:
+            print("→ 文字起こしをダウンロード中...")
+            transcript = download_transcript(transcript_url, access_token)
+            if transcript:
+                print(f"   文字数: {len(transcript)}")
+            else:
+                print("   → 文字起こしダウンロード失敗（録画情報のみ記録）")
+                has_transcript = False
 
-        if not transcript or len(transcript) < 100:
-            print("→ スキップ: 文字起こしが短すぎます")
-            return True
-
-        print(f"   文字数: {len(transcript)}")
+        # 文字起こしが短い場合もフラグを更新
+        if transcript and len(transcript) < 100:
+            print("   → 文字起こしが短すぎます（録画情報のみ記録）")
+            has_transcript = False
 
         # 3. Gemini分析（一時的に無効化 - APIクォータ節約テスト）
         # print("→ Geminiで分析中...")
@@ -235,18 +242,22 @@ def process_single_recording(
             print("→ [DRY RUN] 書き込みをスキップ")
             return True
 
-        # 5. Google Docsに文字起こしを保存
-        print("→ Google Docsに保存中...")
-        meeting_date = start_time[:10] if start_time else datetime.now().strftime("%Y-%m-%d")
-        # 保存先フォルダID（環境変数から取得）
-        transcript_folder_id = os.getenv("GOOGLE_DRIVE_FOLDER_ID")
-        transcript_doc_url = create_transcript_doc(
-            transcript=transcript,
-            assignee=assignee,
-            customer_name=topic,
-            meeting_date=meeting_date,
-            folder_id=transcript_folder_id
-        )
+        # 5. Google Docsに文字起こしを保存（文字起こしがある場合のみ）
+        transcript_doc_url = ""
+        if has_transcript and transcript and len(transcript) >= 100:
+            print("→ Google Docsに保存中...")
+            meeting_date = start_time[:10] if start_time else datetime.now().strftime("%Y-%m-%d")
+            # 保存先フォルダID（環境変数から取得）
+            transcript_folder_id = os.getenv("GOOGLE_DRIVE_FOLDER_ID")
+            transcript_doc_url = create_transcript_doc(
+                transcript=transcript,
+                assignee=assignee,
+                customer_name=customer_name,
+                meeting_date=meeting_date,
+                folder_id=transcript_folder_id
+            )
+        else:
+            print("→ 文字起こしなし: Google Docs作成スキップ")
 
         # 6. 動画リンク（Zoom共有URLを使用、ダウンロード不要）
         video_url = share_url  # Zoomの共有リンクをそのまま使用
