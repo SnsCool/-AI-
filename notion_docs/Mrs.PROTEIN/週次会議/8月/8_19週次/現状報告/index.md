@@ -1,0 +1,73 @@
+# 現状報告
+
+**種類**: 📄 ページ
+**階層**: 5
+**更新日時**: 2026-01-14 12:09
+
+---
+
+## コンテンツ
+
+**進行中**
+- 駒居さんがShopify構築と打ち合わせ
+→300万かかるとのことで一旦自分たちで構築する(ecforceとも打ち合わせ後に)
+- パッケージデザイン戻し待ち
+→8/18に返信。内容は下記参照。
+---
+・再度修正してるデザインがいつまでに出来上がるか教えてください。
+→お盆期間ございましたので少しお時間いただいております。
+こちら再度確認いたします。
+
+・デザイン完成からいつ頃から販売開始できそうか
+→デザイン作成後ラベルの印刷と商品製造になります。
+デザインと製造で約3～4週間ほどかかる予定です。
+
+・賞味期限はについて確認です
+→賞味期限が12カ月ですので、賞味期限内は販売いただいて問題ございません。
+ただ、賞味期限ギリギリの商品が届くとお客様からのクレームにもつながるので
+8か月程度で販売いただけると安心かと思いますが、この基準は販売者様にて設定されております。
+---
+
+**駒居さん確認事項**
+- LP依頼するにあたり
+①このまま真似てパターン
+この前もらったタンパクおとめのサイトを参考にこのままMrsプロテインverにして！
+みたいなオーダー
+⭕️②下記の２ポイントを参考にできるようなサイトいただいてそれに合わせてやるパターン
+構成：タンパクオトメ[
+](https://ec.tamachanshop.jp/lp?u=otome_2set_ffa14&cr=761388781190&kw=%E3%82%BF%E3%83%B3%E3%83%91%E3%82%AF%E3%82%AA%E3%83%88%E3%83%A1&mt=e&utm_source=google&utm_medium=cpc&gad_source=1&gad_campaignid=11763039029&gbraid=0AAAAABvqpsdnsY-zA1WiC6n102f4A19GL&gclid=Cj0KCQjwnovFBhDnARIsAO4V7mCqA9pf8v2sPlbpprpqSqwLX1663s6X9U4B13idbzxT2ktomUVy0yIaApBDEALw_wcB)デザイン：私の完全美容食
+<details>
+<summary>キャッチコピー</summary>
+1. 無添加だから、毎日つづく。
+1. 無添加で、からだにまっすぐ。
+1. 無添加、毎日を整える一杯。
+1. 自然のまま、安心のたんぱく。
+1. やさしく満たす、無添加たんぱく。
+1. 余計なものは加えず、毎日に。
+1. 手間なく、無添加の一杯。
+1. まじりけなく、日々を整える。
+1. 自然の恵みを、無添加で。
+1. からだ想いの、無添加たんぱく。
+1. 振らずに毎日、整える一杯。
+1. シェイカー入らずのプロテイン習慣
+1. ⭕️コップで作れるプロテイン
+<details>
+<summary>デザイン</summary>
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/916e1430-0622-4344-b713-73c7175a2348/%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3%E4%BF%AE%E6%AD%A3%E6%A1%88-1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Y6BID4VU%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T015943Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEkaCXVzLXdlc3QtMiJHMEUCIBYe96fnS6UtCu%2BX6CK1KvMLsuC4GDsNWyMQRXs929T9AiEA0UxcEE6JNK6QuS5ctWZcka7S3MmD8AI%2Bf2mMEy9KT3cq%2FwMIEhAAGgw2Mzc0MjMxODM4MDUiDKZ8w1PAApqWs6e32yrcAzLiX9Uk4BSGatHge8BY71ttYv3G2Jv0%2FTrvDciViEVD%2FwxSIrWYYMna9DKvXm3MmBzSkCJ8m80JES3RrNZxUvmKsfmnfFeyQz92EF200DeyPEuPvThsYNj2iC81zz32ARPt1xjMfk91aY2WGyU1HkPZTCkjdBlm5hTj2uE55I7m0IqPJsAvzmZ%2BNVN2uPX3kUTF2kDGN0SrahCa91b6Hd4Lc9gRvDdqR3ORxSQfbT7NQXmBVcwgcDEt4S%2Bk4aDdPbxQwOacJg0r%2BkksyPlZ0JNv%2BSr14%2BcU%2Bju9EMIX3lGQfG4glo5EVw6oOS41uo1Tqd3XhNZ9GVImmUFeyRG%2Fyttn2a1JarsNaEsWcfA4lvrvTOjQtj3KNT3xHE9K9m%2BxckjgjDeIDVcV7XBQ94kTSVQgLvbgzcSAZ7L4w5yaj%2F6H9QKFsu6FAjrxIcFLkrfNjxDTT6s8YcIHg1WpJJ0C8OLqAdQXonEYejgU10qmzIbFn7VsE8vTSuSNJCqAWKd3LTpXKY%2BWQXrTnE2ePv1PGfJFglHkmVoKgYgymXc7gh07zcS0rQfBMjOjdeWBLKrVCc1dHIN8doHemjYBANYEricYi2uMQB2hn%2FJ%2B5PfH08PfCfu8u8%2FEhmVUpz1fMOzOm8sGOqUB5doSRKPdemc0dtx7KLHORva7JL2eXLOHN%2FwWomlcLJIwC7udkMLfD5FtT1ABTMyRgqn4IeU6hmqijOan99K0pEFFWmHpEg6ahk9EVVPBkYE%2BHRh7j65HwUUHYSIjm3jL6%2Fuy5BGv5CUOgK4NUBV5VCS5Y8Q9f772D6Ypt6KKLRtJ2JjhX49j4eeZuEdvQfAlnyZi2JQyTGmn5Nd5vc7v6sNNLhAk&X-Amz-Signature=538e04887568aae85dcdf6668ce4fc18bb05bd67f4d6dc6e40abe3356c2f2dd2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/192fef5e-97d1-497d-b12b-60ba1f156d7f/%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3%E4%BF%AE%E6%AD%A3%E6%A1%88-2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Y6BID4VU%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T015943Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEkaCXVzLXdlc3QtMiJHMEUCIBYe96fnS6UtCu%2BX6CK1KvMLsuC4GDsNWyMQRXs929T9AiEA0UxcEE6JNK6QuS5ctWZcka7S3MmD8AI%2Bf2mMEy9KT3cq%2FwMIEhAAGgw2Mzc0MjMxODM4MDUiDKZ8w1PAApqWs6e32yrcAzLiX9Uk4BSGatHge8BY71ttYv3G2Jv0%2FTrvDciViEVD%2FwxSIrWYYMna9DKvXm3MmBzSkCJ8m80JES3RrNZxUvmKsfmnfFeyQz92EF200DeyPEuPvThsYNj2iC81zz32ARPt1xjMfk91aY2WGyU1HkPZTCkjdBlm5hTj2uE55I7m0IqPJsAvzmZ%2BNVN2uPX3kUTF2kDGN0SrahCa91b6Hd4Lc9gRvDdqR3ORxSQfbT7NQXmBVcwgcDEt4S%2Bk4aDdPbxQwOacJg0r%2BkksyPlZ0JNv%2BSr14%2BcU%2Bju9EMIX3lGQfG4glo5EVw6oOS41uo1Tqd3XhNZ9GVImmUFeyRG%2Fyttn2a1JarsNaEsWcfA4lvrvTOjQtj3KNT3xHE9K9m%2BxckjgjDeIDVcV7XBQ94kTSVQgLvbgzcSAZ7L4w5yaj%2F6H9QKFsu6FAjrxIcFLkrfNjxDTT6s8YcIHg1WpJJ0C8OLqAdQXonEYejgU10qmzIbFn7VsE8vTSuSNJCqAWKd3LTpXKY%2BWQXrTnE2ePv1PGfJFglHkmVoKgYgymXc7gh07zcS0rQfBMjOjdeWBLKrVCc1dHIN8doHemjYBANYEricYi2uMQB2hn%2FJ%2B5PfH08PfCfu8u8%2FEhmVUpz1fMOzOm8sGOqUB5doSRKPdemc0dtx7KLHORva7JL2eXLOHN%2FwWomlcLJIwC7udkMLfD5FtT1ABTMyRgqn4IeU6hmqijOan99K0pEFFWmHpEg6ahk9EVVPBkYE%2BHRh7j65HwUUHYSIjm3jL6%2Fuy5BGv5CUOgK4NUBV5VCS5Y8Q9f772D6Ypt6KKLRtJ2JjhX49j4eeZuEdvQfAlnyZi2JQyTGmn5Nd5vc7v6sNNLhAk&X-Amz-Signature=763cd3623655b406cdcc19e83921108bd7ce7b0f3b551aa98dcd8969f9f92f60&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/dadda3f0-71d5-4bc6-bef2-c2f3f85efdb8/%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3%E4%BF%AE%E6%AD%A3%E6%A1%88-1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Y6BID4VU%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T015943Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEkaCXVzLXdlc3QtMiJHMEUCIBYe96fnS6UtCu%2BX6CK1KvMLsuC4GDsNWyMQRXs929T9AiEA0UxcEE6JNK6QuS5ctWZcka7S3MmD8AI%2Bf2mMEy9KT3cq%2FwMIEhAAGgw2Mzc0MjMxODM4MDUiDKZ8w1PAApqWs6e32yrcAzLiX9Uk4BSGatHge8BY71ttYv3G2Jv0%2FTrvDciViEVD%2FwxSIrWYYMna9DKvXm3MmBzSkCJ8m80JES3RrNZxUvmKsfmnfFeyQz92EF200DeyPEuPvThsYNj2iC81zz32ARPt1xjMfk91aY2WGyU1HkPZTCkjdBlm5hTj2uE55I7m0IqPJsAvzmZ%2BNVN2uPX3kUTF2kDGN0SrahCa91b6Hd4Lc9gRvDdqR3ORxSQfbT7NQXmBVcwgcDEt4S%2Bk4aDdPbxQwOacJg0r%2BkksyPlZ0JNv%2BSr14%2BcU%2Bju9EMIX3lGQfG4glo5EVw6oOS41uo1Tqd3XhNZ9GVImmUFeyRG%2Fyttn2a1JarsNaEsWcfA4lvrvTOjQtj3KNT3xHE9K9m%2BxckjgjDeIDVcV7XBQ94kTSVQgLvbgzcSAZ7L4w5yaj%2F6H9QKFsu6FAjrxIcFLkrfNjxDTT6s8YcIHg1WpJJ0C8OLqAdQXonEYejgU10qmzIbFn7VsE8vTSuSNJCqAWKd3LTpXKY%2BWQXrTnE2ePv1PGfJFglHkmVoKgYgymXc7gh07zcS0rQfBMjOjdeWBLKrVCc1dHIN8doHemjYBANYEricYi2uMQB2hn%2FJ%2B5PfH08PfCfu8u8%2FEhmVUpz1fMOzOm8sGOqUB5doSRKPdemc0dtx7KLHORva7JL2eXLOHN%2FwWomlcLJIwC7udkMLfD5FtT1ABTMyRgqn4IeU6hmqijOan99K0pEFFWmHpEg6ahk9EVVPBkYE%2BHRh7j65HwUUHYSIjm3jL6%2Fuy5BGv5CUOgK4NUBV5VCS5Y8Q9f772D6Ypt6KKLRtJ2JjhX49j4eeZuEdvQfAlnyZi2JQyTGmn5Nd5vc7v6sNNLhAk&X-Amz-Signature=27a3a1238eb19e81c9e4a010bbb3490fa538aa6531c12cfa83c6b668694fde32&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/d26ba19d-21c1-4ee5-994a-727eb8108b85/%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3%E4%BF%AE%E6%AD%A3%E6%A1%88-2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Y6BID4VU%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T015943Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEkaCXVzLXdlc3QtMiJHMEUCIBYe96fnS6UtCu%2BX6CK1KvMLsuC4GDsNWyMQRXs929T9AiEA0UxcEE6JNK6QuS5ctWZcka7S3MmD8AI%2Bf2mMEy9KT3cq%2FwMIEhAAGgw2Mzc0MjMxODM4MDUiDKZ8w1PAApqWs6e32yrcAzLiX9Uk4BSGatHge8BY71ttYv3G2Jv0%2FTrvDciViEVD%2FwxSIrWYYMna9DKvXm3MmBzSkCJ8m80JES3RrNZxUvmKsfmnfFeyQz92EF200DeyPEuPvThsYNj2iC81zz32ARPt1xjMfk91aY2WGyU1HkPZTCkjdBlm5hTj2uE55I7m0IqPJsAvzmZ%2BNVN2uPX3kUTF2kDGN0SrahCa91b6Hd4Lc9gRvDdqR3ORxSQfbT7NQXmBVcwgcDEt4S%2Bk4aDdPbxQwOacJg0r%2BkksyPlZ0JNv%2BSr14%2BcU%2Bju9EMIX3lGQfG4glo5EVw6oOS41uo1Tqd3XhNZ9GVImmUFeyRG%2Fyttn2a1JarsNaEsWcfA4lvrvTOjQtj3KNT3xHE9K9m%2BxckjgjDeIDVcV7XBQ94kTSVQgLvbgzcSAZ7L4w5yaj%2F6H9QKFsu6FAjrxIcFLkrfNjxDTT6s8YcIHg1WpJJ0C8OLqAdQXonEYejgU10qmzIbFn7VsE8vTSuSNJCqAWKd3LTpXKY%2BWQXrTnE2ePv1PGfJFglHkmVoKgYgymXc7gh07zcS0rQfBMjOjdeWBLKrVCc1dHIN8doHemjYBANYEricYi2uMQB2hn%2FJ%2B5PfH08PfCfu8u8%2FEhmVUpz1fMOzOm8sGOqUB5doSRKPdemc0dtx7KLHORva7JL2eXLOHN%2FwWomlcLJIwC7udkMLfD5FtT1ABTMyRgqn4IeU6hmqijOan99K0pEFFWmHpEg6ahk9EVVPBkYE%2BHRh7j65HwUUHYSIjm3jL6%2Fuy5BGv5CUOgK4NUBV5VCS5Y8Q9f772D6Ypt6KKLRtJ2JjhX49j4eeZuEdvQfAlnyZi2JQyTGmn5Nd5vc7v6sNNLhAk&X-Amz-Signature=1208de582aaf058c304d05e6f93b0f2a638717a3d5a30398b246c80d61a82d8e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+**今週のタスク**
+- LPを8月中までに依頼する(訴求して欲しい内容を考える)
+- 契約書を弁護士に確認
+
+
+---
+
+## 子要素一覧
+
+(子要素なし)
+
+---
+*Generated: 2026-01-14 12:09*

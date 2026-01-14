@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notion 家系図ビュー - Levela Portal</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #09090b;
+            --bg-secondary: #18181b;
+            --bg-tertiary: #27272a;
+            --bg-elevated: rgba(39, 39, 42, 0.9);
+            --border-subtle: rgba(255, 255, 255, 0.06);
+            --border-default: rgba(255, 255, 255, 0.1);
+            --text-primary: #fafafa;
+            --text-secondary: #a1a1aa;
+            --text-muted: #71717a;
+            --accent-primary: #8b5cf6;
+            --accent-secondary: #a78bfa;
+            --accent-glow: rgba(139, 92, 246, 0.3);
+            --success: #22c55e;
+            --success-glow: rgba(34, 197, 94, 0.3);
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --info: #3b82f6;
+            --node-root: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);
+            --node-section: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
+            --node-page: linear-gradient(135deg, #1e3a5f 0%, #1e40af 100%);
+            --node-database: linear-gradient(135deg, #065f46 0%, #047857 100%);
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 16px;
+            --radius-xl: 24px;
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+            --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+            --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+            --shadow-glow: 0 0 40px var(--accent-glow);
+            --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            overflow: hidden;
+            min-height: 100vh;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background:
+                radial-gradient(ellipse at 20% 20%, rgba(139, 92, 246, 0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 80%, rgba(236, 72, 153, 0.06) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* Header */
+        .header {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 100;
+            background: rgba(9, 9, 11, 0.92);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 12px 20px;
+        }
+
+        .header-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+
+        .header-row:last-child { margin-bottom: 0; }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .brand-icon {
+            width: 32px;
+            height: 32px;
+            background: var(--node-root);
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            box-shadow: var(--shadow-glow);
+        }
+
+        .brand h1 {
+            font-size: 16px;
+            font-weight: 600;
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Controls */
+        .control-group {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--bg-secondary);
+            padding: 4px 8px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border-subtle);
+        }
+
+        .control-label {
+            font-size: 10px;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        select, input[type="text"] {
+            font-family: inherit;
+            font-size: 12px;
+            color: var(--text-primary);
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-default);
+            border-radius: var(--radius-sm);
+            padding: 6px 10px;
+            outline: none;
+            transition: all var(--transition-fast);
+        }
+
+        select {
+            cursor: pointer;
+            padding-right: 24px;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2371717a' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 6px center;
+            min-width: 120px;
+        }
+
+        select:hover, input[type="text"]:hover {
+            border-color: var(--accent-primary);
+        }
+
+        select:focus, input[type="text"]:focus {
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 2px var(--accent-glow);
+        }
+
+        select:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        input[type="text"] { width: 200px; }
+        input[type="text"]::placeholder { color: var(--text-muted); }
+
+        /* Buttons */
+        .btn {
+            font-family: inherit;
+            font-size: 12px;
+            font-weight: 500;
+            padding: 6px 12px;
+            border-radius: var(--radius-sm);
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            transition: all var(--transition-fast);
+            white-space: nowrap;
+        }
+
+        .btn-primary {
+            background: var(--accent-primary);
+            color: white;
+            box-shadow: 0 2px 8px var(--accent-glow);
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-secondary);
+            transform: translateY(-1px);
+        }
+
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+
+        .btn-success:hover {
+            filter: brightness(1.1);
+        }
+
+        .btn-ghost {
+            background: transparent;
+            color: var(--text-secondary);
+            border: 1px solid var(--border-default);
+        }
+
+        .btn-ghost:hover {
+            background: var(--bg-tertiary);
+            color: var(--text-primary);
+        }
+
+        .btn-icon {
+            width: 28px;
+            height: 28px;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .divider {
+            width: 1px;
+            height: 24px;
+            background: var(--border-default);
+            margin: 0 4px;
+        }
+
+        /* Filter Section */
+        .filter-section {
+            background: var(--bg-tertiary);
+            border-radius: var(--radius-md);
+            padding: 12px 16px;
+            border: 1px solid var(--border-subtle);
+        }
+
+        .filter-title {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--accent-secondary);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .filter-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 8px;
+        }
+
+        .filter-item {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .filter-item label {
+            font-size: 10px;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .filter-item select {
+            width: 100%;
+            min-width: unset;
+        }
+
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 11px;
+            color: var(--text-secondary);
+            margin-top: 10px;
+            padding: 8px 12px;
+            background: var(--bg-secondary);
+            border-radius: var(--radius-sm);
+            min-height: 32px;
+        }
+
+        .breadcrumb-item {
+            color: var(--accent-secondary);
+            font-weight: 500;
+        }
+
+        .breadcrumb-arrow {
+            color: var(--text-muted);
+        }
+
+        /* Container */
+        .container {
+            position: relative;
+            margin-top: 180px;
+            height: calc(100vh - 180px);
+            overflow: auto;
+            z-index: 1;
+        }
+
+        .container::-webkit-scrollbar { width: 8px; height: 8px; }
+        .container::-webkit-scrollbar-track { background: var(--bg-secondary); }
+        .container::-webkit-scrollbar-thumb {
+            background: var(--bg-tertiary);
+            border-radius: 4px;
+        }
+
+        #chart { min-width: 100%; min-height: 100%; }
+
+        /* Tree Nodes */
+        .node rect {
+            stroke-width: 0;
+            rx: 6; ry: 6;
+            cursor: pointer;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+            transition: all var(--transition-fast);
+        }
+
+        .node:hover rect {
+            filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4));
+        }
+
+        .node.root rect { fill: url(#gradient-root); }
+        .node.section rect { fill: url(#gradient-section); }
+        .node.page rect { fill: url(#gradient-page); }
+        .node.database rect { fill: url(#gradient-database); }
+
+        .node.highlighted rect {
+            stroke: var(--warning);
+            stroke-width: 3px;
+            filter: drop-shadow(0 0 16px rgba(245, 158, 11, 0.6));
+        }
+
+        .node.parent-match rect {
+            stroke: var(--success);
+            stroke-width: 3px;
+            filter: drop-shadow(0 0 16px var(--success-glow));
+        }
+
+        .node.child-match rect {
+            stroke: var(--info);
+            stroke-width: 3px;
+            filter: drop-shadow(0 0 16px rgba(59, 130, 246, 0.6));
+        }
+
+        .node text {
+            font-family: 'Inter', sans-serif;
+            font-size: 10px;
+            font-weight: 500;
+            fill: var(--text-primary);
+            pointer-events: none;
+        }
+
+        .link {
+            fill: none;
+            stroke: var(--border-default);
+            stroke-width: 1.5px;
+            opacity: 0.5;
+        }
+
+        /* Tooltip */
+        .tooltip {
+            position: absolute;
+            background: var(--bg-elevated);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--border-default);
+            padding: 14px 18px;
+            border-radius: var(--radius-lg);
+            font-size: 12px;
+            pointer-events: none;
+            z-index: 200;
+            max-width: 380px;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .tooltip strong { font-size: 13px; }
+        .tooltip .path {
+            color: var(--text-muted);
+            font-size: 10px;
+            margin-top: 8px;
+            font-family: 'JetBrains Mono', monospace;
+            padding: 6px 8px;
+            background: var(--bg-secondary);
+            border-radius: var(--radius-sm);
+        }
+
+        .tooltip .children-list {
+            margin-top: 10px;
+            font-size: 11px;
+            max-height: 150px;
+            overflow-y: auto;
+        }
+
+        .tooltip .children-list strong {
+            font-size: 10px;
+            color: var(--text-secondary);
+        }
+
+        .tooltip .children-list div {
+            padding: 3px 0;
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        /* Search Panel */
+        .search-panel {
+            position: fixed;
+            top: 190px;
+            left: 20px;
+            background: var(--bg-elevated);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--border-default);
+            border-radius: var(--radius-xl);
+            width: 400px;
+            max-height: 60vh;
+            z-index: 150;
+            display: none;
+            flex-direction: column;
+            box-shadow: var(--shadow-lg);
+            overflow: hidden;
+        }
+
+        .search-panel.visible { display: flex; }
+
+        .search-panel-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--border-subtle);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(180deg, var(--bg-tertiary) 0%, transparent 100%);
+        }
+
+        .search-panel-header h3 {
+            font-size: 14px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .search-panel-header h3::before { content: '🔍'; font-size: 13px; }
+
+        .search-panel-header .actions { display: flex; gap: 6px; }
+
+        .search-panel-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 12px;
+        }
+
+        .result-count {
+            padding: 10px 14px;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            border-radius: var(--radius-md);
+            font-size: 12px;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .result-item {
+            padding: 12px 14px;
+            margin: 4px 0;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+
+        .result-item:hover {
+            background: var(--bg-tertiary);
+            border-color: var(--accent-primary);
+            transform: translateX(4px);
+        }
+
+        .result-item .name {
+            font-weight: 600;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .result-item .meta {
+            font-size: 10px;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        .result-item .path {
+            font-size: 9px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text-muted);
+            margin-top: 6px;
+            padding: 4px 6px;
+            background: var(--bg-primary);
+            border-radius: var(--radius-sm);
+        }
+
+        /* Legend */
+        .legend {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--bg-elevated);
+            backdrop-filter: blur(20px);
+            padding: 12px 16px;
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border-default);
+            font-size: 10px;
+        }
+
+        .legend-title {
+            font-size: 9px;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 8px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 6px;
+            color: var(--text-secondary);
+        }
+
+        .legend-item:last-child { margin-bottom: 0; }
+
+        .legend-color {
+            width: 14px;
+            height: 14px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-row">
+            <div class="brand">
+                <div class="brand-icon">🏠</div>
+                <h1>Notion 家系図ビュー</h1>
+            </div>
+            <div class="divider"></div>
+            <div class="control-group">
+                <span class="control-label">表示</span>
+                <select id="sectionSelect">
+                    <option value="all">すべて</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <button class="btn btn-icon btn-ghost" onclick="zoomIn()" title="拡大">＋</button>
+                <button class="btn btn-icon btn-ghost" onclick="zoomOut()" title="縮小">−</button>
+                <button class="btn btn-ghost" onclick="resetZoom()">リセット</button>
+            </div>
+            <div class="divider"></div>
+            <div class="control-group">
+                <span class="control-label">自由検索</span>
+                <input type="text" id="freeSearch" placeholder="キーワード入力...">
+                <button class="btn btn-primary" onclick="executeFreeSearch()">検索</button>
+            </div>
+            <button class="btn btn-ghost" onclick="clearAllSearch()">クリア</button>
+            <div class="divider"></div>
+            <div class="control-group" style="background: var(--bg-tertiary);">
+                <span class="control-label">📥 エクスポート</span>
+                <button class="btn btn-ghost" onclick="downloadMarkdown()" title="Q&A用ドキュメント">MD</button>
+                <button class="btn btn-ghost" onclick="downloadJSON()" title="JSON形式">JSON</button>
+                <button class="btn btn-ghost" onclick="downloadCurrentView()" title="現在の表示">現在表示</button>
+            </div>
+        </div>
+
+        <div class="header-row">
+            <div class="filter-section" style="flex: 1;">
+                <div class="filter-title">📂 6段階絞り込み検索</div>
+                <div class="filter-grid">
+                    <div class="filter-item">
+                        <label>第1親（セクション）</label>
+                        <select id="filter1" onchange="onFilterChange(1)">
+                            <option value="">選択...</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label>第2親</label>
+                        <select id="filter2" onchange="onFilterChange(2)" disabled>
+                            <option value="">選択...</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label>第3親</label>
+                        <select id="filter3" onchange="onFilterChange(3)" disabled>
+                            <option value="">選択...</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label>第4親</label>
+                        <select id="filter4" onchange="onFilterChange(4)" disabled>
+                            <option value="">選択...</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label>第5親</label>
+                        <select id="filter5" onchange="onFilterChange(5)" disabled>
+                            <option value="">選択...</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label>第6親</label>
+                        <select id="filter6" onchange="onFilterChange(6)" disabled>
+                            <option value="">選択...</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="breadcrumb" id="breadcrumb">
+                    <span style="color: var(--text-muted);">親を選択すると階層パスが表示されます</span>
+                </div>
+            </div>
+            <button class="btn btn-success" onclick="executeFilterSearch()">絞り込み実行</button>
+        </div>
+    </div>
+
+    <div class="search-panel" id="searchPanel">
+        <div class="search-panel-header">
+            <h3 id="panelTitle">検索結果</h3>
+            <div class="actions">
+                <button class="btn btn-success" onclick="exportCSV()">📥 CSV</button>
+                <button class="btn btn-ghost" onclick="closePanel()">✕</button>
+            </div>
+        </div>
+        <div class="search-panel-content" id="panelContent"></div>
+    </div>
+
+    <div class="container" id="container">
+        <svg id="chart">
+            <defs>
+                <linearGradient id="gradient-root" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#ec4899"/>
+                    <stop offset="100%" style="stop-color:#8b5cf6"/>
+                </linearGradient>
+                <linearGradient id="gradient-section" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#8b5cf6"/>
+                    <stop offset="100%" style="stop-color:#6366f1"/>
+                </linearGradient>
+                <linearGradient id="gradient-page" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#1e3a5f"/>
+                    <stop offset="100%" style="stop-color:#1e40af"/>
+                </linearGradient>
+                <linearGradient id="gradient-database" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#065f46"/>
+                    <stop offset="100%" style="stop-color:#047857"/>
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+
+    <div class="tooltip" id="tooltip" style="display: none;"></div>
+
+    <div class="legend">
+        <div class="legend-title">凡例</div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: linear-gradient(135deg, #ec4899, #8b5cf6);"></div>
+            <span>ルート</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: linear-gradient(135deg, #8b5cf6, #6366f1);"></div>
+            <span>セクション</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: linear-gradient(135deg, #1e3a5f, #1e40af);"></div>
+            <span>ページ</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: linear-gradient(135deg, #065f46, #047857);"></div>
+            <span>データベース</span>
+        </div>
+    </div>
+
+    <script>
+        const treeData = TREE_DATA_PLACEHOLDER;
+
+        const fullData = {
+            name: "Levela Portal",
+            type: "root",
+            children: treeData
+        };
+
+        let currentZoom = 1;
+        let currentData = fullData;
+        let allNodes = [];
+        let nodeMap = new Map(); // name -> node object with children
+        let currentResults = [];
+
+        const container = document.getElementById('container');
+        const svg = d3.select('#chart');
+        const tooltip = document.getElementById('tooltip');
+        const searchPanel = document.getElementById('searchPanel');
+        const panelTitle = document.getElementById('panelTitle');
+        const panelContent = document.getElementById('panelContent');
+
+        // 全ノードをフラット化 & マップ構築
+        function buildNodeMap(node, parent = null, path = [], depth = 0) {
+            const currentPath = [...path, node.name];
+            const flatNode = {
+                name: node.name,
+                type: node.type,
+                parent: parent,
+                path: currentPath,
+                depth: depth,
+                children: node.children || [],
+                childNames: (node.children || []).map(c => c.name)
+            };
+            allNodes.push(flatNode);
+            nodeMap.set(node.name, flatNode);
+
+            if (node.children) {
+                node.children.forEach(child => buildNodeMap(child, node.name, currentPath, depth + 1));
+            }
+        }
+        buildNodeMap(fullData);
+
+        // セクションセレクタ初期化
+        const sectionSelect = document.getElementById('sectionSelect');
+        treeData.forEach((item, i) => {
+            const option = document.createElement('option');
+            option.value = i;
+            option.textContent = item.name;
+            sectionSelect.appendChild(option);
+        });
+
+        sectionSelect.addEventListener('change', (e) => {
+            if (e.target.value === 'all') {
+                currentData = fullData;
+            } else {
+                const idx = parseInt(e.target.value);
+                currentData = { name: treeData[idx].name, type: treeData[idx].type, children: treeData[idx].children || [] };
+            }
+            render();
+        });
+
+        // 第1親フィルタ初期化（セクション = treeDataの直下）
+        function initFilter1() {
+            const filter1 = document.getElementById('filter1');
+            filter1.innerHTML = '<option value="">選択...</option>';
+            treeData.forEach(section => {
+                const opt = document.createElement('option');
+                opt.value = section.name;
+                opt.textContent = `${section.name} (${(section.children || []).length}件)`;
+                filter1.appendChild(opt);
+            });
+        }
+        initFilter1();
+
+        // 元のツリーデータから部分ツリーを構築
+        function buildSubtree(nodeName) {
+            // 元データから該当ノードを探す
+            function findNode(data, name) {
+                if (data.name === name) return data;
+                if (data.children) {
+                    for (const child of data.children) {
+                        const found = findNode(child, name);
+                        if (found) return found;
+                    }
+                }
+                return null;
+            }
+            return findNode(fullData, nodeName);
+        }
+
+        // フィルタ変更時のハンドラ
+        function onFilterChange(level) {
+            // 選択されたレベル以降のフィルタをリセット
+            for (let i = level + 1; i <= 6; i++) {
+                const filter = document.getElementById(`filter${i}`);
+                filter.innerHTML = '<option value="">選択...</option>';
+                filter.disabled = true;
+            }
+
+            // 現在選択されている値を取得
+            const selectedValue = document.getElementById(`filter${level}`).value;
+            if (!selectedValue) {
+                updateBreadcrumb();
+                // フィルタがクリアされたら全体表示に戻す
+                currentData = fullData;
+                render();
+                return;
+            }
+
+            // 次のフィルタを有効化
+            if (level < 6) {
+                const selectedNode = nodeMap.get(selectedValue);
+                if (selectedNode && selectedNode.children.length > 0) {
+                    const nextFilter = document.getElementById(`filter${level + 1}`);
+                    nextFilter.innerHTML = '<option value="">選択...</option>';
+                    selectedNode.children.forEach(child => {
+                        const opt = document.createElement('option');
+                        opt.value = child.name;
+                        const childNode = nodeMap.get(child.name);
+                        const childCount = childNode ? childNode.children.length : 0;
+                        opt.textContent = childCount > 0
+                            ? `${child.name} (${childCount}件)`
+                            : child.name;
+                        nextFilter.appendChild(opt);
+                    });
+                    nextFilter.disabled = false;
+                }
+            }
+
+            updateBreadcrumb();
+
+            // ツリー表示をリアルタイム更新
+            const subtree = buildSubtree(selectedValue);
+            if (subtree) {
+                currentData = subtree;
+                render();
+
+                // 選択した親をハイライト
+                setTimeout(() => {
+                    svg.selectAll('.node').each(function(d) {
+                        if (d.data.name === selectedValue && d.depth === 0) {
+                            d3.select(this).classed('parent-match', true);
+                        }
+                    });
+                }, 100);
+            }
+        }
+
+        // パンくずリスト更新
+        function updateBreadcrumb() {
+            const breadcrumb = document.getElementById('breadcrumb');
+            const path = [];
+
+            for (let i = 1; i <= 6; i++) {
+                const filter = document.getElementById(`filter${i}`);
+                if (filter.value) {
+                    path.push(filter.value);
+                } else {
+                    break;
+                }
+            }
+
+            if (path.length === 0) {
+                breadcrumb.innerHTML = '<span style="color: var(--text-muted);">親を選択すると階層パスが表示されます</span>';
+            } else {
+                breadcrumb.innerHTML = path.map((p, i) =>
+                    `<span class="breadcrumb-item">${p}</span>${i < path.length - 1 ? '<span class="breadcrumb-arrow">→</span>' : ''}`
+                ).join('');
+            }
+        }
+
+        // 自由検索
+        function executeFreeSearch() {
+            const query = document.getElementById('freeSearch').value.toLowerCase().trim();
+            if (!query) return;
+
+            clearHighlights();
+
+            const matches = allNodes.filter(n => n.name.toLowerCase().includes(query));
+            currentResults = matches;
+
+            svg.selectAll('.node').each(function(d) {
+                if (d.data.name.toLowerCase().includes(query)) {
+                    d3.select(this).classed('highlighted', true);
+                }
+            });
+
+            showResults(`自由検索: "${query}"`, matches);
+        }
+
+        // 絞り込み検索実行
+        function executeFilterSearch() {
+            // 最後に選択されている親を取得
+            let lastSelectedParent = null;
+            let lastLevel = 0;
+
+            for (let i = 1; i <= 6; i++) {
+                const filter = document.getElementById(`filter${i}`);
+                if (filter.value) {
+                    lastSelectedParent = filter.value;
+                    lastLevel = i;
+                } else {
+                    break;
+                }
+            }
+
+            if (!lastSelectedParent) {
+                alert('少なくとも第1親を選択してください');
+                return;
+            }
+
+            clearHighlights();
+
+            const parentNode = nodeMap.get(lastSelectedParent);
+            if (!parentNode) return;
+
+            // 子孫を取得
+            function getDescendants(nodeName, descendants = []) {
+                const node = nodeMap.get(nodeName);
+                if (!node) return descendants;
+
+                node.childNames.forEach(childName => {
+                    const childNode = nodeMap.get(childName);
+                    if (childNode) {
+                        descendants.push(childNode);
+                        getDescendants(childName, descendants);
+                    }
+                });
+                return descendants;
+            }
+
+            // 直接の子と全子孫を取得
+            const directChildren = parentNode.children.map(c => nodeMap.get(c.name)).filter(Boolean);
+            const allDescendants = getDescendants(lastSelectedParent);
+
+            currentResults = allDescendants.length > 0 ? allDescendants : directChildren;
+
+            // ハイライト
+            svg.selectAll('.node').each(function(d) {
+                const node = d3.select(this);
+                if (d.data.name === lastSelectedParent) {
+                    node.classed('parent-match', true);
+                }
+                if (currentResults.some(r => r.name === d.data.name)) {
+                    node.classed('child-match', true);
+                }
+            });
+
+            // パンくずを取得
+            const path = [];
+            for (let i = 1; i <= lastLevel; i++) {
+                const filter = document.getElementById(`filter${i}`);
+                if (filter.value) path.push(filter.value);
+            }
+
+            showResults(`絞り込み結果: ${path.join(' → ')}`, currentResults);
+        }
+
+        // 結果を表示
+        function showResults(title, results) {
+            panelTitle.textContent = title;
+            panelContent.innerHTML = '';
+
+            const countDiv = document.createElement('div');
+            countDiv.className = 'result-count';
+            countDiv.textContent = `${results.length} 件の結果`;
+            panelContent.appendChild(countDiv);
+
+            results.forEach(result => {
+                const div = document.createElement('div');
+                div.className = 'result-item';
+                const icon = result.type === 'database' ? '📊' : result.type === 'section' ? '📁' : '📄';
+                div.innerHTML = `
+                    <div class="name">${icon} ${result.name}</div>
+                    <div class="meta">種類: ${result.type} | 階層: ${result.depth}</div>
+                    <div class="path">${result.path.join(' → ')}</div>
+                `;
+                div.onclick = () => focusOnNode(result.name);
+                panelContent.appendChild(div);
+            });
+
+            searchPanel.classList.add('visible');
+        }
+
+        // CSV出力
+        function exportCSV() {
+            if (currentResults.length === 0) {
+                alert('出力する結果がありません');
+                return;
+            }
+
+            const headers = ['名前', '種類', '階層', '親', 'パス'];
+            const rows = currentResults.map(r => [
+                r.name, r.type, r.depth, r.parent || '', r.path.join(' → ')
+            ]);
+
+            const csv = [headers, ...rows]
+                .map(row => row.map(cell => `"${String(cell).replace(/"/g, '""')}"`).join(','))
+                .join('\n');
+
+            const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `notion_search_${new Date().toISOString().slice(0,10)}.csv`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function closePanel() { searchPanel.classList.remove('visible'); }
+
+        function focusOnNode(name) {
+            svg.selectAll('.node').each(function(d) {
+                if (d.data.name === name) {
+                    d3.select(this).classed('highlighted', true);
+                    const transform = d3.select(this).attr('transform');
+                    const match = transform.match(/translate\(([^,]+),\s*([^)]+)\)/);
+                    if (match) {
+                        container.scrollTo({
+                            left: parseFloat(match[1]) - container.clientWidth / 2,
+                            top: parseFloat(match[2]) - container.clientHeight / 2,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        }
+
+        function clearHighlights() {
+            svg.selectAll('.node')
+                .classed('highlighted', false)
+                .classed('parent-match', false)
+                .classed('child-match', false);
+        }
+
+        function clearAllSearch() {
+            document.getElementById('freeSearch').value = '';
+            for (let i = 1; i <= 6; i++) {
+                const filter = document.getElementById(`filter${i}`);
+                filter.value = '';
+                if (i > 1) filter.disabled = true;
+            }
+            updateBreadcrumb();
+            clearHighlights();
+            closePanel();
+            currentResults = [];
+
+            // ツリー表示を全体に戻す
+            currentData = fullData;
+            render();
+        }
+
+        // Enterキー対応
+        document.getElementById('freeSearch').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') executeFreeSearch();
+        });
+
+        function zoomIn() { currentZoom *= 1.2; svg.style('transform', `scale(${currentZoom})`); }
+        function zoomOut() { currentZoom /= 1.2; svg.style('transform', `scale(${currentZoom})`); }
+        function resetZoom() { currentZoom = 1; svg.style('transform', 'scale(1)'); }
+
+        // ダウンロード機能
+        function generateMarkdownDoc() {
+            const now = new Date().toLocaleString('ja-JP');
+            let md = `# Levela Portal 階層構造ドキュメント\n\n`;
+            md += `**最終更新**: ${now}\n`;
+            md += `**総ノード数**: ${allNodes.length}\n\n`;
+            md += `---\n\n## 階層構造\n\n`;
+
+            // 深さごとにグループ化
+            const byDepth = {};
+            allNodes.forEach(n => {
+                if (!byDepth[n.depth]) byDepth[n.depth] = [];
+                byDepth[n.depth].push(n);
+            });
+
+            Object.keys(byDepth).sort((a, b) => a - b).forEach(depth => {
+                md += `### 階層 ${parseInt(depth) + 1}（${byDepth[depth].length}件）\n\n`;
+                byDepth[depth].forEach(node => {
+                    const icon = node.type === 'database' ? '📊' : '📄';
+                    md += `- ${icon} ${node.name}\n`;
+                });
+                md += '\n';
+            });
+
+            md += `---\n\n## 全ノードリスト\n\n`;
+            md += `| ノード名 | 種類 | 階層 | パス |\n`;
+            md += `|---------|------|------|------|\n`;
+            allNodes.forEach(n => {
+                md += `| ${n.name.substring(0, 30)} | ${n.type} | ${n.depth + 1} | ${n.path.join(' → ')} |\n`;
+            });
+
+            md += `\n---\n*Generated: ${now}*\n`;
+            return md;
+        }
+
+        function downloadMarkdown() {
+            const md = generateMarkdownDoc();
+            const blob = new Blob([md], { type: 'text/markdown;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `levela_structure_${new Date().toISOString().slice(0,10)}.md`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function downloadJSON() {
+            const data = {
+                generated_at: new Date().toISOString(),
+                total_nodes: allNodes.length,
+                nodes: allNodes.map(n => ({
+                    name: n.name,
+                    type: n.type,
+                    depth: n.depth,
+                    parent: n.parent,
+                    path: n.path
+                }))
+            };
+            const json = JSON.stringify(data, null, 2);
+            const blob = new Blob([json], { type: 'application/json;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `levela_structure_${new Date().toISOString().slice(0,10)}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function downloadCurrentView() {
+            // 現在表示中のツリーをMarkdownでエクスポート
+            function treeToMarkdown(node, indent = '') {
+                const icon = node.type === 'database' ? '📊' : node.type === 'section' ? '📁' : '📄';
+                let result = `${indent}${icon} ${node.name}\n`;
+                if (node.children) {
+                    node.children.forEach(child => {
+                        result += treeToMarkdown(child, indent + '  ');
+                    });
+                }
+                return result;
+            }
+
+            const now = new Date().toLocaleString('ja-JP');
+            let md = `# 現在表示中の階層構造\n\n`;
+            md += `**エクスポート日時**: ${now}\n`;
+            md += `**ルート**: ${currentData.name}\n\n`;
+            md += `---\n\n`;
+            md += treeToMarkdown(currentData);
+
+            const blob = new Blob([md], { type: 'text/markdown;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `current_view_${new Date().toISOString().slice(0,10)}.md`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function render() {
+            svg.selectAll('g').remove();
+
+            const nodeWidth = 150, nodeHeight = 30;
+            const horizontalSpacing = 180, verticalSpacing = 40;
+
+            const root = d3.hierarchy(currentData);
+            const treeLayout = d3.tree()
+                .nodeSize([verticalSpacing, horizontalSpacing])
+                .separation((a, b) => 1);
+
+            treeLayout(root);
+
+            let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+            root.each(d => {
+                minX = Math.min(minX, d.x); maxX = Math.max(maxX, d.x);
+                minY = Math.min(minY, d.y); maxY = Math.max(maxY, d.y);
+            });
+
+            const width = maxY - minY + nodeWidth + 200;
+            const height = maxX - minX + nodeHeight + 200;
+
+            svg.attr('width', width).attr('height', height);
+
+            const g = svg.append('g')
+                .attr('transform', `translate(${100 - minY}, ${100 - minX})`);
+
+            g.selectAll('.link')
+                .data(root.links())
+                .enter()
+                .append('path')
+                .attr('class', 'link')
+                .attr('d', d => `M${d.source.y + nodeWidth},${d.source.x + nodeHeight/2}
+                    C${(d.source.y + d.target.y + nodeWidth) / 2},${d.source.x + nodeHeight/2}
+                     ${(d.source.y + d.target.y + nodeWidth) / 2},${d.target.x + nodeHeight/2}
+                     ${d.target.y},${d.target.x + nodeHeight/2}`);
+
+            const nodes = g.selectAll('.node')
+                .data(root.descendants())
+                .enter()
+                .append('g')
+                .attr('class', d => `node ${d.data.type}`)
+                .attr('transform', d => `translate(${d.y}, ${d.x})`)
+                .on('click', (event, d) => {
+                    // クリックで該当フィルタを選択
+                    const clickedNode = nodeMap.get(d.data.name);
+                    if (clickedNode && clickedNode.depth > 0 && clickedNode.depth <= 6) {
+                        // パスを辿ってフィルタを設定
+                        const path = clickedNode.path.slice(1); // Levela Portalを除く
+                        clearAllSearch();
+                        path.forEach((name, i) => {
+                            if (i < 6) {
+                                const filter = document.getElementById(`filter${i + 1}`);
+                                // オプションを追加
+                                if (i === 0) {
+                                    initFilter1();
+                                }
+                                filter.value = name;
+                                onFilterChange(i + 1);
+                            }
+                        });
+                    }
+                })
+                .on('mouseover', (event, d) => {
+                    const path = [];
+                    let current = d;
+                    while (current) { path.unshift(current.data.name); current = current.parent; }
+
+                    let childrenHtml = '';
+                    if (d.data.children && d.data.children.length > 0) {
+                        const names = d.data.children.map(c => c.name).slice(0, 8);
+                        childrenHtml = `<div class="children-list"><strong>子要素 (${d.data.children.length}件)</strong>
+                            ${names.map(n => `<div>• ${n}</div>`).join('')}
+                            ${d.data.children.length > 8 ? '<div style="color: var(--text-muted);">...</div>' : ''}</div>`;
+                    }
+
+                    tooltip.innerHTML = `<strong>${d.data.name}</strong>
+                        <div class="path">${path.join(' → ')}</div>${childrenHtml}`;
+                    tooltip.style.display = 'block';
+                    tooltip.style.left = (event.pageX + 15) + 'px';
+                    tooltip.style.top = (event.pageY + 15) + 'px';
+                })
+                .on('mousemove', (event) => {
+                    tooltip.style.left = (event.pageX + 15) + 'px';
+                    tooltip.style.top = (event.pageY + 15) + 'px';
+                })
+                .on('mouseout', () => { tooltip.style.display = 'none'; });
+
+            nodes.append('rect').attr('width', nodeWidth).attr('height', nodeHeight);
+
+            nodes.append('text')
+                .attr('x', 8).attr('y', 19)
+                .text(d => {
+                    let icon = '📄 ';
+                    if (d.data.type === 'database') icon = '📊 ';
+                    else if (d.data.type === 'root') icon = '🏠 ';
+                    else if (d.data.type === 'section') icon = '📁 ';
+                    return icon + (d.data.name.length > 13 ? d.data.name.substring(0, 13) + '...' : d.data.name);
+                });
+        }
+
+        render();
+    </script>
+</body>
+</html>
