@@ -1,0 +1,282 @@
+{
+  "root": "Levela Portal",
+  "root_id": "7f19ff35-7ffc-4c78-8c71-92cb99d5204a",
+  "total_blocks": 67,
+  "type_counts": {
+    "column_list": 2,
+    "column": 6,
+    "callout": 6,
+    "child_page": 37,
+    "paragraph": 14,
+    "unsupported": 1,
+    "child_database": 1
+  },
+  "pages_and_databases": [
+    {
+      "type": "child_page",
+      "id": "f8c17a73-dd3b-4707-ab9f-dd4932dbdb8d",
+      "depth": 2,
+      "has_children": true,
+      "name": "全体会議議事録"
+    },
+    {
+      "type": "child_page",
+      "id": "826a8c73-9c84-4d56-baf3-4125bcd031b4",
+      "depth": 2,
+      "has_children": true,
+      "name": "Levelaメンバー紹介"
+    },
+    {
+      "type": "child_page",
+      "id": "2a7f3b0f-ba85-802f-92fd-df7a6aed1f10",
+      "depth": 2,
+      "has_children": true,
+      "name": "LevelaのMVV"
+    },
+    {
+      "type": "child_page",
+      "id": "2bef3b0f-ba85-81eb-8c1e-efa49f54ba9d",
+      "depth": 2,
+      "has_children": true,
+      "name": "Levelaオンライン図書館"
+    },
+    {
+      "type": "child_page",
+      "id": "1c3f3b0f-ba85-8046-b33e-dfc3c5d8050f",
+      "depth": 2,
+      "has_children": true,
+      "name": "CS部"
+    },
+    {
+      "type": "child_page",
+      "id": "1cef3b0f-ba85-8068-bf30-e2dc3a70db34",
+      "depth": 2,
+      "has_children": true,
+      "name": "マーケティング部"
+    },
+    {
+      "type": "child_page",
+      "id": "2aef3b0f-ba85-808e-a375-ce346cb863a8",
+      "depth": 2,
+      "has_children": true,
+      "name": "工事中🚧マーケティング部"
+    },
+    {
+      "type": "child_page",
+      "id": "260f3b0f-ba85-801a-955b-c21692aff7f0",
+      "depth": 2,
+      "has_children": true,
+      "name": "営業ポータル"
+    },
+    {
+      "type": "child_page",
+      "id": "289f3b0f-ba85-8021-a51e-e0c0dfe62d09",
+      "depth": 2,
+      "has_children": true,
+      "name": "社長室ポータル"
+    },
+    {
+      "type": "child_page",
+      "id": "294f3b0f-ba85-80df-927e-f5a5f42ac595",
+      "depth": 2,
+      "has_children": true,
+      "name": "クリエイティ部"
+    },
+    {
+      "type": "child_page",
+      "id": "294f3b0f-ba85-805b-b425-e83750b646d5",
+      "depth": 2,
+      "has_children": true,
+      "name": "知足ポータル"
+    },
+    {
+      "type": "child_page",
+      "id": "2a9f3b0f-ba85-8026-a2ac-efb1ca5200b0",
+      "depth": 2,
+      "has_children": true,
+      "name": "TikTok Shopマネタイズ講座ローンチ"
+    },
+    {
+      "type": "child_page",
+      "id": "2cef3b0f-ba85-8068-86be-e6dadf505385",
+      "depth": 2,
+      "has_children": true,
+      "name": "AI Brain 知識ベース"
+    },
+    {
+      "type": "child_page",
+      "id": "24df3b0f-ba85-80e1-9c41-e4fab8a626a7",
+      "depth": 2,
+      "has_children": true,
+      "name": "新規事業_Monthly会議"
+    },
+    {
+      "type": "child_page",
+      "id": "22ff3b0f-ba85-8088-af7e-fb1508627f76",
+      "depth": 2,
+      "has_children": true,
+      "name": "運用代行"
+    },
+    {
+      "type": "child_page",
+      "id": "22ff3b0f-ba85-80f4-b463-e80ba8a3c39c",
+      "depth": 2,
+      "has_children": true,
+      "name": "AI教育事業"
+    },
+    {
+      "type": "child_page",
+      "id": "24ef3b0f-ba85-804e-8261-f0e3d14353de",
+      "depth": 2,
+      "has_children": true,
+      "name": "Mrs.PROTEIN"
+    },
+    {
+      "type": "child_page",
+      "id": "236f3b0f-ba85-8038-be24-c05403ad1593",
+      "depth": 2,
+      "has_children": true,
+      "name": "ダイエット事業"
+    },
+    {
+      "type": "child_page",
+      "id": "24df3b0f-ba85-80b1-87ca-f8c053a47a60",
+      "depth": 2,
+      "has_children": true,
+      "name": "アイレポート"
+    },
+    {
+      "type": "child_page",
+      "id": "25af3b0f-ba85-8071-aa3e-cc96e9093fb7",
+      "depth": 2,
+      "has_children": true,
+      "name": "営業代行事業"
+    },
+    {
+      "type": "child_page",
+      "id": "2caf3b0f-ba85-80d2-8207-fa6397ef22e3",
+      "depth": 2,
+      "has_children": true,
+      "name": "コーチングスクール事業"
+    },
+    {
+      "type": "child_page",
+      "id": "2a9f3b0f-ba85-80d4-a7a5-e1212b30ad82",
+      "depth": 2,
+      "has_children": true,
+      "name": "TikTokライブスクール"
+    },
+    {
+      "type": "child_page",
+      "id": "293f3b0f-ba85-8029-9375-ce93515efb5e",
+      "depth": 2,
+      "has_children": true,
+      "name": "各事業計画"
+    },
+    {
+      "type": "child_page",
+      "id": "2e3f3b0f-ba85-803a-97bc-dfddf42f3ecd",
+      "depth": 2,
+      "has_children": true,
+      "name": "UGC"
+    },
+    {
+      "type": "child_page",
+      "id": "2c3f3b0f-ba85-8185-8512-c16a971b6147",
+      "depth": 2,
+      "has_children": true,
+      "name": "採用決定後のフロー (New)"
+    },
+    {
+      "type": "child_page",
+      "id": "f0bbf386-eb1d-48d3-bbc7-1b0e1ef875f0",
+      "depth": 2,
+      "has_children": true,
+      "name": "業務対応マニュアル"
+    },
+    {
+      "type": "child_page",
+      "id": "1d3f3b0f-ba85-8051-976c-ed719f7b8300",
+      "depth": 2,
+      "has_children": true,
+      "name": "ナレッジ共有"
+    },
+    {
+      "type": "child_page",
+      "id": "250f3b0f-ba85-80aa-84ed-f71a89a3adc8",
+      "depth": 2,
+      "has_children": true,
+      "name": "週次/月次入力フォーマット"
+    },
+    {
+      "type": "child_page",
+      "id": "27bf3b0f-ba85-80ae-b313-e6071cf709a8",
+      "depth": 2,
+      "has_children": true,
+      "name": "SnsClub講師紹介制度について"
+    },
+    {
+      "type": "child_page",
+      "id": "1ebf3b0f-ba85-8067-9822-f898fa828c3d",
+      "depth": 2,
+      "has_children": true,
+      "name": "教材格納庫"
+    },
+    {
+      "type": "child_page",
+      "id": "206f3b0f-ba85-804b-ac74-e86cab4a65bb",
+      "depth": 2,
+      "has_children": true,
+      "name": "AIスクール用動画"
+    },
+    {
+      "type": "child_page",
+      "id": "2bef3b0f-ba85-8014-a0c6-f0c8016991e3",
+      "depth": 2,
+      "has_children": true,
+      "name": ""
+    },
+    {
+      "type": "child_database",
+      "id": "2c1f3b0f-ba85-80fb-b7ad-ebab3f76651b",
+      "depth": 2,
+      "has_children": false,
+      "name": "AI活用事例ナレッジDB"
+    },
+    {
+      "type": "child_page",
+      "id": "2d9f3b0f-ba85-8083-b3cc-f32547458f96",
+      "depth": 2,
+      "has_children": true,
+      "name": "開発ツール"
+    },
+    {
+      "type": "child_page",
+      "id": "03dac9d7-bca6-4469-b065-38e39a055e23",
+      "depth": 2,
+      "has_children": true,
+      "name": "クライアントワークの報酬設定"
+    },
+    {
+      "type": "child_page",
+      "id": "25cf3b0f-ba85-8026-a462-c6ce61ef8e0a",
+      "depth": 2,
+      "has_children": true,
+      "name": "カウンセリングメンバー募集"
+    },
+    {
+      "type": "child_page",
+      "id": "2bcf3b0f-ba85-80ca-b5a9-ded04bf58158",
+      "depth": 2,
+      "has_children": true,
+      "name": ""
+    },
+    {
+      "type": "child_page",
+      "id": "2cef3b0f-ba85-80b1-9949-f460e1958ce7",
+      "depth": 0,
+      "has_children": true,
+      "name": "AI Brain 知識ベース"
+    }
+  ]
+}

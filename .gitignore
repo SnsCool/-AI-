@@ -32,3 +32,6 @@ npm-debug.log*
 
 # Claude
 .claude/settings.local.json
+dashboard/node_modules/
+*.mp4
+notion_docs/**/pdf_*.pdf

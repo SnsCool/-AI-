@@ -1,0 +1,137 @@
+# リンク先コンテンツ
+
+**URL**: https://www.remotion.dev/
+**タイトル**: Remotion | Make videos programmatically
+**リンクテキスト**: https://www.remotion.dev/
+**参照元**: CS部/作成フロー/index.md
+**取得日時**: 2026-01-18 08:57:21
+
+---
+
+## コンテンツ
+
+Remotion | Make videos programmatically
+Skip to main content
+Make videos programmatically.
+Create real MP4 videos with React.
+Parametrize content, render server-side and build applications.
+$ npx create-video@latest
+Watch demo
+Docs
+Discord
+GitHub
+25k
+Hello World
+Next.js
+Blank
+React Router
+Find a template
+Compose
+with code
+Use React, a powerful frontend technology, to create sophisticated videos with code.
+Learn Remotion
+Edit
+dynamically
+Parameterize your video by passing data.
+Or embed it into your app and build an interface around it.
+Remotion Studio
+Remotion Player
+Remotion Editor Starter
+Scalable
+rendering
+Render the video .mp4 or other formats.
+Locally, on the server or serverless.
+Render options
+Remotion Lambda
+Use Cases
+Music visualization
+Captions
+Screencast
+Year in review
+Banger.Show
+The all-in-one 3D visual creation tool for ambitious artists. Seamlessly craft visuals that match your sound and propel your brand forward.
+Banger.Show website
+For more examples see our
+Showcase page
+.
+Demo
+Drag and drop the cards to reorder them.
+Switch to
+dark
+mode
+and see the video adjust!
+0:00
+Export the video using
+Remotion Lambda
+.
+Pricing
+For individuals and companies of up to 3 people
+Free License
+Unlimited videos
+Commercial use allowed
+Self-hosted cloud rendering allowed
+Must upgrade when your team grows
+For collaborations and companies of 4+ people
+Company License
+Commercial use allowed
+Self-hosted cloud rendering allowed
+Prioritized Support
+$250 Mux credits
+ⓘ
+Developer Seats
+Number of developers working with Remotion
+$25
+Video renders
+Renders per month (self-hosted)
+$10
+$100
+/mo
+The minimum is $100 per month
+Buy now
+For advanced needs
+Enterprise License
+Everything in Company License
+Private Slack or Discord
+Monthly consulting session
+Custom terms, billing and pricing
+Compliance forms
+Prioritized feature requests
+Editor Starter
+included
+Contact us
+Starting at $500 per month
+See our
+FAQ
+and
+Terms and Conditions
+for more details.
+Trusted by
+Evaluate Remotion for your company
+Book a 20 minute call with us to get all your questions answered.
+Schedule a call
+Get help for your projects
+Contact our experts for help and work.
+Remotion Experts
+Never build alone
+Join a thriving community of developers.
+400k
+installs per month
+700
+pages of docs
+35
+templates & examples
+25k
+GitHub stars
+5000
+Discord members
+270
+contributors
+Build your own video editor
+Editor Starter
+A comprehensive template that includes everything you need to create custom video editing applications with React and TypeScript.
+Purchase
+Demo
+Docs
+Newsletter
+Read about new features and noteworthy updates we have made on Remotion once in a while.
+Choose an emoji

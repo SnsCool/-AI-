@@ -1,0 +1,103 @@
+# 教材格納庫
+
+**種類**: 📄 ページ
+**階層**: 3
+**更新日時**: 2026-01-14 12:09
+
+---
+
+## コンテンツ
+
+### 第一章：認知科学コーチングとは？メカニズムを知る
+[PDF: https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/e5663ce2-4c25-47fc-9905-cd414cf055c4/Transformational_Coaching_Science.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663AMJAXU3%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T024403Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLXdlc3QtMiJHMEUCIQDS5u0CflcyMBnfHgOtlGQjBFbEmHHFmgC2MxiV%2BVeNKAIgar25g%2F7C0kkCNxMdrwFmPaIwdCRz8H6vdcjGgnnB0C0q%2FwMIExAAGgw2Mzc0MjMxODM4MDUiDLNZBmWpKZPgOKdnHircA9apEP%2BRVDRUl97%2FDBecysG8Ft6yJdfNEDz5Ozxk%2FjSyQh38V1Kfn20h7cnSHiuihBNQ1SXWVdE3J8LaVljzVGHFmOIUgcyrpcuOUO9qCQiK%2FIDpIlfPZMETayDSrZx7hz%2FDu9zIQ%2FnqVtvs2SSrXZRiTNeyn0u%2BG7VraAHCBDtSqkcJ8Yh6xMHzTajtFhtZ%2FGk84S65Y2xc7%2BXy%2FcBF3t0R88EjVIcVi9Aj5tESPu8PDa3KGEYCVLYsjlylUO2896HbOA1UwjybOzhnNV%2B2sCm8LXjhV%2FMOJUgAUhS%2F5XGRh9lA77iLbwYyJ6H5d6vaBcPATdmcYbNENz8ObGWu7FY0XK1tHIX3ChbcoveN%2B1ZtIXIG1xFUNEEZ5p5Z8M870iBu%2FB2PKmroKsJpP1CPDFATiUZsk35qF4xfhd3RCbViwll2iq0zYqHrm0PcC%2Fxl3vMkwQMCWVNA%2B1MSrEytjeTXQbpf61Pw0deQ%2BiRsETKu9BxvcQagNEMZBp62RErtyC8V5VFCNU25lvPN1W1mQEHXAcYtNQ9LFQUusRal054kPTSj8o5UFR2SG0jxSkMfhVFljLEQBxifGuQb%2BnfD1%2F0fRi3eobxdMMWrdxQNCfrQBDlKiSRHhwVKIsNfMMnum8sGOqUBehJX0FxH%2BOjct616Y25T5ellnvx542u0lug4uVwiWcxbyq1oRGKW7QV70O2KPTMAGLp%2BM2KU33%2BCvgePrXY3ogD%2F1LyAsluhp5%2BWh3dW09czWZ9qfeMU2eHEF9mQ9gKhQI34yTyQyepqZHOkd7rpMpoBrEZaXUOMKMLYv6REXGp9qm1o0PfUTqjmXpXgNYxI7nvcJntqfr7uf1MDOLjx6Z6PTGnl&X-Amz-Signature=2a15f639428bc4111234941cf7c3dcc17e13850767829b997cd8d5bf98e63352&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/e5663ce2-4c25-47fc-9905-cd414cf055c4/Transformational_Coaching_Science.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663AMJAXU3%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T024403Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLXdlc3QtMiJHMEUCIQDS5u0CflcyMBnfHgOtlGQjBFbEmHHFmgC2MxiV%2BVeNKAIgar25g%2F7C0kkCNxMdrwFmPaIwdCRz8H6vdcjGgnnB0C0q%2FwMIExAAGgw2Mzc0MjMxODM4MDUiDLNZBmWpKZPgOKdnHircA9apEP%2BRVDRUl97%2FDBecysG8Ft6yJdfNEDz5Ozxk%2FjSyQh38V1Kfn20h7cnSHiuihBNQ1SXWVdE3J8LaVljzVGHFmOIUgcyrpcuOUO9qCQiK%2FIDpIlfPZMETayDSrZx7hz%2FDu9zIQ%2FnqVtvs2SSrXZRiTNeyn0u%2BG7VraAHCBDtSqkcJ8Yh6xMHzTajtFhtZ%2FGk84S65Y2xc7%2BXy%2FcBF3t0R88EjVIcVi9Aj5tESPu8PDa3KGEYCVLYsjlylUO2896HbOA1UwjybOzhnNV%2B2sCm8LXjhV%2FMOJUgAUhS%2F5XGRh9lA77iLbwYyJ6H5d6vaBcPATdmcYbNENz8ObGWu7FY0XK1tHIX3ChbcoveN%2B1ZtIXIG1xFUNEEZ5p5Z8M870iBu%2FB2PKmroKsJpP1CPDFATiUZsk35qF4xfhd3RCbViwll2iq0zYqHrm0PcC%2Fxl3vMkwQMCWVNA%2B1MSrEytjeTXQbpf61Pw0deQ%2BiRsETKu9BxvcQagNEMZBp62RErtyC8V5VFCNU25lvPN1W1mQEHXAcYtNQ9LFQUusRal054kPTSj8o5UFR2SG0jxSkMfhVFljLEQBxifGuQb%2BnfD1%2F0fRi3eobxdMMWrdxQNCfrQBDlKiSRHhwVKIsNfMMnum8sGOqUBehJX0FxH%2BOjct616Y25T5ellnvx542u0lug4uVwiWcxbyq1oRGKW7QV70O2KPTMAGLp%2BM2KU33%2BCvgePrXY3ogD%2F1LyAsluhp5%2BWh3dW09czWZ9qfeMU2eHEF9mQ9gKhQI34yTyQyepqZHOkd7rpMpoBrEZaXUOMKMLYv6REXGp9qm1o0PfUTqjmXpXgNYxI7nvcJntqfr7uf1MDOLjx6Z6PTGnl&X-Amz-Signature=2a15f639428bc4111234941cf7c3dcc17e13850767829b997cd8d5bf98e63352&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+元ファイル：
+file:///Users/fuka/01_AI/%E3%81%BE%E3%81%98AI%E6%A8%A1%E5%80%A3/%E6%95%99%E6%9D%90HTML/%E7%AC%AC1%E7%AB%A0.html
+## 第二章：具体的なステップ
+どちらかのスライドを入れる
+[PDF: https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/084d8981-ce06-4869-b017-cfbe21627232/Coaching_Blueprint_For_Transformation.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664XKRA2O7%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T024404Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLXdlc3QtMiJIMEYCIQD4ZehOg2jUZdHmdX61QCmCnlquySuV6WG272LB2YXX3QIhAPSXHcmzwTDRDf6ANGeNS%2FI%2F3%2BXYlDm2cVNIUOdMBN4BKv8DCBMQABoMNjM3NDIzMTgzODA1IgzU9ohI4EAFfVN8W1Aq3AMhus7dqXxDnylgBVBYmsvFjU1OaxEBReoSFwWb%2BHLHczf11OsJ3Q2p6viX0J1kmsSm6KpfoC7sGj5gGLe9kwi50aBqZ0RUtScLfj5bCs1Nytq59rFahu0cTxu6jzCJQynNkekhJ0KE771%2FT%2Bafk1mC2oZHp62se85Hs%2BbazP8SJ9VKAy7OnKFrQD4VhSIGIOBpEYdWkzVRf%2FqbjwEAQw3Ar8oOcENcyiUyvgfb2kCf2SLtjY43Cf%2FQWmSoW4WRFjDmOlmDbw47opj5MjjKcuKcWrETaHtcuXP6hUg0a85%2BfMbEYQ8tT9Mj72zMW9ZG%2BXm0g%2FHuRRTCF9lYh9nEgwY%2FQn55YDg8atU0gE4RyIQPtAub2yqANG1jG%2Frf8cX31Cp8t69euXsmYeQz8ooGPM%2BqOyrEXD8%2BTYta9rFKZ2tRzYP01cKt1X9uWm3dA9Z2SlaWoc9ocFbQQNNeYqJYbvKiex%2B03k3cvEO4QANnmsZDOdTAMufE%2BCu9azP2AbKdSOePzs%2FJfWl2bQzqPbcN1P2uKvUXCle03YccRvrstkPzDRBo1JciENze7qThMgH3G1UwIOeoXr0gJaNBPx5%2BYBk9XouEAZ1QLlQjoA0cGYpiFpCNXEINslQmJrw6izD77pvLBjqkAUJAID8nB5ukIQwN%2B2tRNSRqX%2Fwqpz89g9ffR%2BYuEO0XXQWzjfSFK2V19dtgFWoWiVb2M4VApYNMTdm%2Fb3WbJE1ddqX0P5H5etON1okh5K8NhQMIkERoPbaLdI8uvFWYSA%2BvHBkyYjYOyZrQY5Ykg%2BWf2dPcOYdBOBvxb%2FEuPsfEHE7My6N7ugxy3aarVCMNSQForkSByXawvXG3tUAwOomKPcaW&X-Amz-Signature=4216be69ec1be51d603438d18c30cb1b886eb44bbbc7fcd2dcf7dd72df31a056&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/084d8981-ce06-4869-b017-cfbe21627232/Coaching_Blueprint_For_Transformation.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664XKRA2O7%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T024404Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLXdlc3QtMiJIMEYCIQD4ZehOg2jUZdHmdX61QCmCnlquySuV6WG272LB2YXX3QIhAPSXHcmzwTDRDf6ANGeNS%2FI%2F3%2BXYlDm2cVNIUOdMBN4BKv8DCBMQABoMNjM3NDIzMTgzODA1IgzU9ohI4EAFfVN8W1Aq3AMhus7dqXxDnylgBVBYmsvFjU1OaxEBReoSFwWb%2BHLHczf11OsJ3Q2p6viX0J1kmsSm6KpfoC7sGj5gGLe9kwi50aBqZ0RUtScLfj5bCs1Nytq59rFahu0cTxu6jzCJQynNkekhJ0KE771%2FT%2Bafk1mC2oZHp62se85Hs%2BbazP8SJ9VKAy7OnKFrQD4VhSIGIOBpEYdWkzVRf%2FqbjwEAQw3Ar8oOcENcyiUyvgfb2kCf2SLtjY43Cf%2FQWmSoW4WRFjDmOlmDbw47opj5MjjKcuKcWrETaHtcuXP6hUg0a85%2BfMbEYQ8tT9Mj72zMW9ZG%2BXm0g%2FHuRRTCF9lYh9nEgwY%2FQn55YDg8atU0gE4RyIQPtAub2yqANG1jG%2Frf8cX31Cp8t69euXsmYeQz8ooGPM%2BqOyrEXD8%2BTYta9rFKZ2tRzYP01cKt1X9uWm3dA9Z2SlaWoc9ocFbQQNNeYqJYbvKiex%2B03k3cvEO4QANnmsZDOdTAMufE%2BCu9azP2AbKdSOePzs%2FJfWl2bQzqPbcN1P2uKvUXCle03YccRvrstkPzDRBo1JciENze7qThMgH3G1UwIOeoXr0gJaNBPx5%2BYBk9XouEAZ1QLlQjoA0cGYpiFpCNXEINslQmJrw6izD77pvLBjqkAUJAID8nB5ukIQwN%2B2tRNSRqX%2Fwqpz89g9ffR%2BYuEO0XXQWzjfSFK2V19dtgFWoWiVb2M4VApYNMTdm%2Fb3WbJE1ddqX0P5H5etON1okh5K8NhQMIkERoPbaLdI8uvFWYSA%2BvHBkyYjYOyZrQY5Ykg%2BWf2dPcOYdBOBvxb%2FEuPsfEHE7My6N7ugxy3aarVCMNSQForkSByXawvXG3tUAwOomKPcaW&X-Amz-Signature=4216be69ec1be51d603438d18c30cb1b886eb44bbbc7fcd2dcf7dd72df31a056&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[PDF: https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/a68718ef-29aa-4313-b7b5-9e3ac278bdcb/Coaching_Architecture_Blueprint.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46643MUCMN4%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T024405Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLXdlc3QtMiJIMEYCIQCH6ugUX5hcP9uYK8b525VAZ030WVFMBnvyD1yWZfOqBwIhAPuO1iletM%2F7zQ8iW%2FbMSDgokXczF%2B5G7ty85I6HEI1AKv8DCBMQABoMNjM3NDIzMTgzODA1Igw4JD9N64mpTwg4vQ0q3APtlmi%2FyejM6pib2qMkhnFI%2FtVjEFfPZdaAeiBa%2BAZ79%2BNMBdsHPHCMLZC%2Bu4dODoPel3WRlspJPCq6XdH1%2BkahxBSFqL8CnyzDgOsIZbsNPtGyDiqkU1GFliwZ9mr7oH1hMZcIXPEj3W6nxZ6m0umxg6UmHQSkNXOp6VOZObyWO23VZAOpS5ZIi3966LDUkVCnocKH7QA71%2FRS0q98GTxdgrKUGPd2Ts%2BHo6Yk76Y4F9y1Nug9tnUzpa9tzDmzll%2Bq4YW5wl6whUKs5HBE2oqrP3VC4%2Fpi6BV5d4Moi2Zzh8Dn02rxTI9eIi3RG9Q4aixVqtqHmu7QfoiAjpKa3RwSy1GymDOa4vG%2BhAmQYfvP%2FfDzU%2FG55MPNMPylH1kOpT%2FzC89fCGqdcHM9SpNCkh0Ssur3ssDTE%2FSLoRbFc6CKcK8Mn8axcAOzQUw%2Bb%2F45SBrrtqztNPoND3JLZ%2B1JickJFV6ZTr0xQwyn5r4tObkcAyBoUxHjmFpihEUry0bMINfFlz47dUkq%2FHWPmyJnUqiqZ4j%2Fe557x09x6BPdYpBg%2FI1mjktgIvb3BoD4X8NWZ4reuuwSn2kG0os6KRsrq2SMJ%2BaCMtC3h7grk7v9%2Fzum4l5iFZpWtaT6TyA0ijC475vLBjqkAXJL19gDxpOqdvrU5ioNN9SUHd9ORAhIkLH2pcTTT6Fxg8gjrtzPI8Bl%2FXC8rd8hiXotxPKKB7OprSF%2B%2FVge4ANi%2BeQDrZii7qCcznUhV9QvaOCxvO51UUuuqN34ffkZ5jtGRrLyC9TQM8b%2FK8%2FcwdQGR1flNRW9ikGntUZZmwWDKSQvqFWkXKdmbT6W3MywQfXL7uAVgn5e7G2%2B3WXGHIYSTSy4&X-Amz-Signature=52e3a3d8035646f3af5aa515636841c3a862552644e3126fd18f647619e539b0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/a68718ef-29aa-4313-b7b5-9e3ac278bdcb/Coaching_Architecture_Blueprint.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46643MUCMN4%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T024405Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLXdlc3QtMiJIMEYCIQCH6ugUX5hcP9uYK8b525VAZ030WVFMBnvyD1yWZfOqBwIhAPuO1iletM%2F7zQ8iW%2FbMSDgokXczF%2B5G7ty85I6HEI1AKv8DCBMQABoMNjM3NDIzMTgzODA1Igw4JD9N64mpTwg4vQ0q3APtlmi%2FyejM6pib2qMkhnFI%2FtVjEFfPZdaAeiBa%2BAZ79%2BNMBdsHPHCMLZC%2Bu4dODoPel3WRlspJPCq6XdH1%2BkahxBSFqL8CnyzDgOsIZbsNPtGyDiqkU1GFliwZ9mr7oH1hMZcIXPEj3W6nxZ6m0umxg6UmHQSkNXOp6VOZObyWO23VZAOpS5ZIi3966LDUkVCnocKH7QA71%2FRS0q98GTxdgrKUGPd2Ts%2BHo6Yk76Y4F9y1Nug9tnUzpa9tzDmzll%2Bq4YW5wl6whUKs5HBE2oqrP3VC4%2Fpi6BV5d4Moi2Zzh8Dn02rxTI9eIi3RG9Q4aixVqtqHmu7QfoiAjpKa3RwSy1GymDOa4vG%2BhAmQYfvP%2FfDzU%2FG55MPNMPylH1kOpT%2FzC89fCGqdcHM9SpNCkh0Ssur3ssDTE%2FSLoRbFc6CKcK8Mn8axcAOzQUw%2Bb%2F45SBrrtqztNPoND3JLZ%2B1JickJFV6ZTr0xQwyn5r4tObkcAyBoUxHjmFpihEUry0bMINfFlz47dUkq%2FHWPmyJnUqiqZ4j%2Fe557x09x6BPdYpBg%2FI1mjktgIvb3BoD4X8NWZ4reuuwSn2kG0os6KRsrq2SMJ%2BaCMtC3h7grk7v9%2Fzum4l5iFZpWtaT6TyA0ijC475vLBjqkAXJL19gDxpOqdvrU5ioNN9SUHd9ORAhIkLH2pcTTT6Fxg8gjrtzPI8Bl%2FXC8rd8hiXotxPKKB7OprSF%2B%2FVge4ANi%2BeQDrZii7qCcznUhV9QvaOCxvO51UUuuqN34ffkZ5jtGRrLyC9TQM8b%2FK8%2FcwdQGR1flNRW9ikGntUZZmwWDKSQvqFWkXKdmbT6W3MywQfXL7uAVgn5e7G2%2B3WXGHIYSTSy4&X-Amz-Signature=52e3a3d8035646f3af5aa515636841c3a862552644e3126fd18f647619e539b0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+元ファイル：file:///Users/fuka/01_AI/%E3%81%BE%E3%81%98AI%E6%A8%A1%E5%80%A3/%E6%95%99%E6%9D%90HTML/%E7%AC%AC2%E7%AB%A0.html
+
+## 第三章：コーチとしてのオペレーションシステム
+「コミュニケーションの前提」について、NLP的考え方に基づいて学ぶ
+[PDF: https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/73e6e895-00a7-4a83-8618-566bb155819d/Install_the_Coach_OS.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663AMJAXU3%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T024403Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLXdlc3QtMiJHMEUCIQDS5u0CflcyMBnfHgOtlGQjBFbEmHHFmgC2MxiV%2BVeNKAIgar25g%2F7C0kkCNxMdrwFmPaIwdCRz8H6vdcjGgnnB0C0q%2FwMIExAAGgw2Mzc0MjMxODM4MDUiDLNZBmWpKZPgOKdnHircA9apEP%2BRVDRUl97%2FDBecysG8Ft6yJdfNEDz5Ozxk%2FjSyQh38V1Kfn20h7cnSHiuihBNQ1SXWVdE3J8LaVljzVGHFmOIUgcyrpcuOUO9qCQiK%2FIDpIlfPZMETayDSrZx7hz%2FDu9zIQ%2FnqVtvs2SSrXZRiTNeyn0u%2BG7VraAHCBDtSqkcJ8Yh6xMHzTajtFhtZ%2FGk84S65Y2xc7%2BXy%2FcBF3t0R88EjVIcVi9Aj5tESPu8PDa3KGEYCVLYsjlylUO2896HbOA1UwjybOzhnNV%2B2sCm8LXjhV%2FMOJUgAUhS%2F5XGRh9lA77iLbwYyJ6H5d6vaBcPATdmcYbNENz8ObGWu7FY0XK1tHIX3ChbcoveN%2B1ZtIXIG1xFUNEEZ5p5Z8M870iBu%2FB2PKmroKsJpP1CPDFATiUZsk35qF4xfhd3RCbViwll2iq0zYqHrm0PcC%2Fxl3vMkwQMCWVNA%2B1MSrEytjeTXQbpf61Pw0deQ%2BiRsETKu9BxvcQagNEMZBp62RErtyC8V5VFCNU25lvPN1W1mQEHXAcYtNQ9LFQUusRal054kPTSj8o5UFR2SG0jxSkMfhVFljLEQBxifGuQb%2BnfD1%2F0fRi3eobxdMMWrdxQNCfrQBDlKiSRHhwVKIsNfMMnum8sGOqUBehJX0FxH%2BOjct616Y25T5ellnvx542u0lug4uVwiWcxbyq1oRGKW7QV70O2KPTMAGLp%2BM2KU33%2BCvgePrXY3ogD%2F1LyAsluhp5%2BWh3dW09czWZ9qfeMU2eHEF9mQ9gKhQI34yTyQyepqZHOkd7rpMpoBrEZaXUOMKMLYv6REXGp9qm1o0PfUTqjmXpXgNYxI7nvcJntqfr7uf1MDOLjx6Z6PTGnl&X-Amz-Signature=34612a10d4f6d461dfa42b737faccf9f269c39e4b30a66ae33764f239b2bf1c0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/73e6e895-00a7-4a83-8618-566bb155819d/Install_the_Coach_OS.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663AMJAXU3%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T024403Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLXdlc3QtMiJHMEUCIQDS5u0CflcyMBnfHgOtlGQjBFbEmHHFmgC2MxiV%2BVeNKAIgar25g%2F7C0kkCNxMdrwFmPaIwdCRz8H6vdcjGgnnB0C0q%2FwMIExAAGgw2Mzc0MjMxODM4MDUiDLNZBmWpKZPgOKdnHircA9apEP%2BRVDRUl97%2FDBecysG8Ft6yJdfNEDz5Ozxk%2FjSyQh38V1Kfn20h7cnSHiuihBNQ1SXWVdE3J8LaVljzVGHFmOIUgcyrpcuOUO9qCQiK%2FIDpIlfPZMETayDSrZx7hz%2FDu9zIQ%2FnqVtvs2SSrXZRiTNeyn0u%2BG7VraAHCBDtSqkcJ8Yh6xMHzTajtFhtZ%2FGk84S65Y2xc7%2BXy%2FcBF3t0R88EjVIcVi9Aj5tESPu8PDa3KGEYCVLYsjlylUO2896HbOA1UwjybOzhnNV%2B2sCm8LXjhV%2FMOJUgAUhS%2F5XGRh9lA77iLbwYyJ6H5d6vaBcPATdmcYbNENz8ObGWu7FY0XK1tHIX3ChbcoveN%2B1ZtIXIG1xFUNEEZ5p5Z8M870iBu%2FB2PKmroKsJpP1CPDFATiUZsk35qF4xfhd3RCbViwll2iq0zYqHrm0PcC%2Fxl3vMkwQMCWVNA%2B1MSrEytjeTXQbpf61Pw0deQ%2BiRsETKu9BxvcQagNEMZBp62RErtyC8V5VFCNU25lvPN1W1mQEHXAcYtNQ9LFQUusRal054kPTSj8o5UFR2SG0jxSkMfhVFljLEQBxifGuQb%2BnfD1%2F0fRi3eobxdMMWrdxQNCfrQBDlKiSRHhwVKIsNfMMnum8sGOqUBehJX0FxH%2BOjct616Y25T5ellnvx542u0lug4uVwiWcxbyq1oRGKW7QV70O2KPTMAGLp%2BM2KU33%2BCvgePrXY3ogD%2F1LyAsluhp5%2BWh3dW09czWZ9qfeMU2eHEF9mQ9gKhQI34yTyQyepqZHOkd7rpMpoBrEZaXUOMKMLYv6REXGp9qm1o0PfUTqjmXpXgNYxI7nvcJntqfr7uf1MDOLjx6Z6PTGnl&X-Amz-Signature=34612a10d4f6d461dfa42b737faccf9f269c39e4b30a66ae33764f239b2bf1c0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+<details>
+<summary>補足（これは後で削除）</summary>
+第3章がわかりにくいと感じるのは、ここまでの章と違って「具体的な手順」や「理論」ではなく、**「コーチ自身の心の持ちよう（あり方）」**という、少し抽象的な話を扱っているからだと思います。
+一言で言えば、第3章は**「コーチというアプリを動かすためのOS（オペレーティングシステム）」**をインストールする章です,。
+これまでの章との違いと、この章の核心を整理します。
+### 1. つまり何をする章なのか？
+第1章・第2章で学んだ「理論」や「プロセス」といったテクニックは、あくまで**アプリ（道具）**です。しかし、それを使うコーチ自身の**OS（土台となる考え方）**が古かったりバグっていたりすると、どんなに良いテクニックを使ってもセッションは機能しません。
+第3章では、コーチングがうまくいくための**「18個の思考のルール（前提）」**を自分の中にインストールし、**「コーチとして世界やクライアントをどう見るか」というレンズ（眼鏡）を矯正すること**が目的です。
+### 2. なぜこの章が必要なのか？（4層構造の話）
+資料にある「コーチングの4層構造」を見るとわかりやすいです。
+- **一番上：スキル（Doing）** ← 次の第4章で学びます（聴く・質問するなど）
+- **その下：ラポール（信頼）**
+- **その下：コーチングマインド**
+- **一番下：自己基盤（Being）** ← **★今ココ（第3章）**
+第3章は、この一番下の土台（Being）を固めるためのものです,。
+「何を言うか（スキル）」の前に、**「どんな心状態で相手と向き合っているか」**の方が、相手には伝わってしまうからです。
+### 3. 具体的にどんな「OS（ルール）」を入れるのか？
+18個の前提は多いので、大きく4つのグループに分けて理解するとスッキリします。
+1. **対人関係のOS（ラポール）：**
+- 「相手の世界を尊重する」「相手はすでに最善を尽くしている」など。
+- **つまり：** 相手を「変えるべきダメな人」として見るのではなく、「可能性を持った尊重すべき人」として見る設定に変えます,。
+1. **観察のOS（意味づけ）：**
+- 「地図（言葉）は領土（現実）ではない」「問題はチャンスである」など。
+- **つまり：** クライアントの言葉を鵜呑みにせず、その奥にある意図やチャンスを読み取る設定に変えます。
+1. **対応のOS（柔軟性）：**
+- 「失敗はない、フィードバックがあるだけ」「最も柔軟な人が場をリードする」など。
+- **つまり：** うまくいかない時に落ち込むのではなく、やり方を変えて試し続ける設定に変えます。
+1. **方向性のOS（未来志向）：**
+- 「誰かにできるなら自分にもできる」「意識を向けた所にエネルギーが流れる」など。
+- **つまり：** 不安や過去ではなく、未来と可能性に焦点を合わせ続ける設定に変えます。
+### まとめの例え
+**「最新の動画編集ソフト（第2章の技術）」を買っても、パソコン本体（あなた）のスペックやOS（第3章の前提）が古ければ、ソフトは動きません。**
+第3章は、第4章以降で学ぶ「具体的な会話スキル」をサクサク動かすために、**あなたの脳内設定を「コーチ仕様」にアップデートする章**だと思ってください。
+
+元ファイル：
+file:///Users/fuka/01_AI/%E3%81%BE%E3%81%98AI%E6%A8%A1%E5%80%A3/%E6%95%99%E6%9D%90HTML/%E7%AC%AC3%E7%AB%A0.html
+
+
+
+## 第四章：**コーチングスキル実践編**
+ちょっと資料修正
+[PDF: https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/af0143ae-6358-45b3-9991-5cb3ebd6c633/Coaching_Mastery_Architecture.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663AMJAXU3%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T024403Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLXdlc3QtMiJHMEUCIQDS5u0CflcyMBnfHgOtlGQjBFbEmHHFmgC2MxiV%2BVeNKAIgar25g%2F7C0kkCNxMdrwFmPaIwdCRz8H6vdcjGgnnB0C0q%2FwMIExAAGgw2Mzc0MjMxODM4MDUiDLNZBmWpKZPgOKdnHircA9apEP%2BRVDRUl97%2FDBecysG8Ft6yJdfNEDz5Ozxk%2FjSyQh38V1Kfn20h7cnSHiuihBNQ1SXWVdE3J8LaVljzVGHFmOIUgcyrpcuOUO9qCQiK%2FIDpIlfPZMETayDSrZx7hz%2FDu9zIQ%2FnqVtvs2SSrXZRiTNeyn0u%2BG7VraAHCBDtSqkcJ8Yh6xMHzTajtFhtZ%2FGk84S65Y2xc7%2BXy%2FcBF3t0R88EjVIcVi9Aj5tESPu8PDa3KGEYCVLYsjlylUO2896HbOA1UwjybOzhnNV%2B2sCm8LXjhV%2FMOJUgAUhS%2F5XGRh9lA77iLbwYyJ6H5d6vaBcPATdmcYbNENz8ObGWu7FY0XK1tHIX3ChbcoveN%2B1ZtIXIG1xFUNEEZ5p5Z8M870iBu%2FB2PKmroKsJpP1CPDFATiUZsk35qF4xfhd3RCbViwll2iq0zYqHrm0PcC%2Fxl3vMkwQMCWVNA%2B1MSrEytjeTXQbpf61Pw0deQ%2BiRsETKu9BxvcQagNEMZBp62RErtyC8V5VFCNU25lvPN1W1mQEHXAcYtNQ9LFQUusRal054kPTSj8o5UFR2SG0jxSkMfhVFljLEQBxifGuQb%2BnfD1%2F0fRi3eobxdMMWrdxQNCfrQBDlKiSRHhwVKIsNfMMnum8sGOqUBehJX0FxH%2BOjct616Y25T5ellnvx542u0lug4uVwiWcxbyq1oRGKW7QV70O2KPTMAGLp%2BM2KU33%2BCvgePrXY3ogD%2F1LyAsluhp5%2BWh3dW09czWZ9qfeMU2eHEF9mQ9gKhQI34yTyQyepqZHOkd7rpMpoBrEZaXUOMKMLYv6REXGp9qm1o0PfUTqjmXpXgNYxI7nvcJntqfr7uf1MDOLjx6Z6PTGnl&X-Amz-Signature=778ffb51dc4395a9b0201960391003aa2826d6dd09c2e752041ad545462885f5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/af0143ae-6358-45b3-9991-5cb3ebd6c633/Coaching_Mastery_Architecture.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663AMJAXU3%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T024403Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEoaCXVzLXdlc3QtMiJHMEUCIQDS5u0CflcyMBnfHgOtlGQjBFbEmHHFmgC2MxiV%2BVeNKAIgar25g%2F7C0kkCNxMdrwFmPaIwdCRz8H6vdcjGgnnB0C0q%2FwMIExAAGgw2Mzc0MjMxODM4MDUiDLNZBmWpKZPgOKdnHircA9apEP%2BRVDRUl97%2FDBecysG8Ft6yJdfNEDz5Ozxk%2FjSyQh38V1Kfn20h7cnSHiuihBNQ1SXWVdE3J8LaVljzVGHFmOIUgcyrpcuOUO9qCQiK%2FIDpIlfPZMETayDSrZx7hz%2FDu9zIQ%2FnqVtvs2SSrXZRiTNeyn0u%2BG7VraAHCBDtSqkcJ8Yh6xMHzTajtFhtZ%2FGk84S65Y2xc7%2BXy%2FcBF3t0R88EjVIcVi9Aj5tESPu8PDa3KGEYCVLYsjlylUO2896HbOA1UwjybOzhnNV%2B2sCm8LXjhV%2FMOJUgAUhS%2F5XGRh9lA77iLbwYyJ6H5d6vaBcPATdmcYbNENz8ObGWu7FY0XK1tHIX3ChbcoveN%2B1ZtIXIG1xFUNEEZ5p5Z8M870iBu%2FB2PKmroKsJpP1CPDFATiUZsk35qF4xfhd3RCbViwll2iq0zYqHrm0PcC%2Fxl3vMkwQMCWVNA%2B1MSrEytjeTXQbpf61Pw0deQ%2BiRsETKu9BxvcQagNEMZBp62RErtyC8V5VFCNU25lvPN1W1mQEHXAcYtNQ9LFQUusRal054kPTSj8o5UFR2SG0jxSkMfhVFljLEQBxifGuQb%2BnfD1%2F0fRi3eobxdMMWrdxQNCfrQBDlKiSRHhwVKIsNfMMnum8sGOqUBehJX0FxH%2BOjct616Y25T5ellnvx542u0lug4uVwiWcxbyq1oRGKW7QV70O2KPTMAGLp%2BM2KU33%2BCvgePrXY3ogD%2F1LyAsluhp5%2BWh3dW09czWZ9qfeMU2eHEF9mQ9gKhQI34yTyQyepqZHOkd7rpMpoBrEZaXUOMKMLYv6REXGp9qm1o0PfUTqjmXpXgNYxI7nvcJntqfr7uf1MDOLjx6Z6PTGnl&X-Amz-Signature=778ffb51dc4395a9b0201960391003aa2826d6dd09c2e752041ad545462885f5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+
+
+<details>
+<summary>⇧に今後入れていく</summary>
+## 教材イメージ（ふうかPCのみで閲覧可能）
+①第一章
+file:///Users/fuka/01_AI/%E3%81%BE%E3%81%98AI%E6%A8%A1%E5%80%A3/%E6%95%99%E6%9D%90HTML/%E7%AC%AC1%E7%AB%A0.html
+
+
+②第二章
+file:///Users/fuka/01_AI/%E3%81%BE%E3%81%98AI%E6%A8%A1%E5%80%A3/%E6%95%99%E6%9D%90HTML/%E7%AC%AC2%E7%AB%A0.html
+※挿入している図、一部修正必要なためモニターローンチまでに修正予定
+
+
+③第三章
+file:///Users/fuka/01_AI/%E3%81%BE%E3%81%98AI%E6%A8%A1%E5%80%A3/%E6%95%99%E6%9D%90HTML/%E7%AC%AC3%E7%AB%A0.html
+
+④第四章
+file:///Users/fuka/01_AI/%E3%81%BE%E3%81%98AI%E6%A8%A1%E5%80%A3/%E6%95%99%E6%9D%90HTML/%E7%AC%AC4%E7%AB%A0.html
+
+
+教材：
+印刷：もらった感、お金払った感　モニターでもやってみる
+PDFも配る
+動画：モニターはnotebookLMでOK
+- 20万円で、AI使ってんのかよ　って思われないようにする
+
+
+
+---
+
+## 子要素一覧
+
+(子要素なし)
+
+---
+*Generated: 2026-01-14 12:09*

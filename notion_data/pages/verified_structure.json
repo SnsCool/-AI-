@@ -1,0 +1,12 @@
+{
+  "root": "Levela Portal",
+  "root_id": "7f19ff35-7ffc-4c78-8c71-92cb99d5204a",
+  "children_count": 1,
+  "children": [
+    {
+      "name": "AI Brain 知識ベース",
+      "type": "page",
+      "id": "2cef3b0f-ba85-80b1-9949-f460e1958ce7"
+    }
+  ]
+}
