@@ -2,7 +2,7 @@
 
 **種類**: 📄 ページ
 **階層**: 2
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-17 22:41
 
 ---
 
@@ -10,6 +10,24 @@
 
 ## 資料
 [Bookmark: https://www.canva.com/design/DAGpbpnmCnE/tObVyk6CBZgR8XfwF3TQyQ/edit?utm_content=DAGpbpnmCnE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGpbpnmCnE/tObVyk6CBZgR8XfwF3TQyQ/edit?utm_content=DAGpbpnmCnE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+<details>
+<summary>リンク先の内容</summary>
+
+Unsupported client – Canva Please update your browser 
+It seems you are using an old or unsupported browser. To continue enjoying Canva, please update to a recent version of one of the following browsers: 
+Chrome 
+
+Firefox 
+
+Safari (macOS only) 
+
+Edge 
+
+Alternatively click here to get Canva for Android or iOS. Or click here to learn more about Canva.
+
+</details>
+
 
 ## **各事業の進捗報告**
 📄 **太一「LINEチーム」 ** (子ページ)
@@ -207,4 +225,4 @@
     - 📊 Untitled
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-17 22:41*

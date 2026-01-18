@@ -2,7 +2,7 @@
 
 **種類**: 📄 ページ
 **階層**: 2
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-17 22:41
 
 ---
 
@@ -10,6 +10,24 @@
 
 ## 資料
 [Bookmark: https://www.canva.com/design/DAGSndNITKE/e1z_L361vvZDyeM6_F8DRg/edit?utm_content=DAGSndNITKE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGSndNITKE/e1z_L361vvZDyeM6_F8DRg/edit?utm_content=DAGSndNITKE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+<details>
+<summary>リンク先の内容</summary>
+
+Unsupported client – Canva Please update your browser 
+It seems you are using an old or unsupported browser. To continue enjoying Canva, please update to a recent version of one of the following browsers: 
+Chrome 
+
+Firefox 
+
+Safari (macOS only) 
+
+Edge 
+
+Alternatively click here to get Canva for Android or iOS. Or click here to learn more about Canva.
+
+</details>
+
 [Untitled](https://www.notion.so/116f3b0fba8580acaaaee47875b89652) 
 
 # 太一
@@ -114,6 +132,26 @@ GPTsは可能性無限大！
 # 各人 目標DB
 📊 **2024年12月末まで** (データベース)
 
+### データベース: 2024年12月末まで
+
+#### プロパティ（カラム）
+
+| プロパティ名 | タイプ |
+|------------|--------|
+| 目標 | rich_text |
+| 部門 | multi_select |
+| 誰の | title |
+
+#### レコード（4件）
+
+| 誰の | 目標 | 部門 |
+|---|---|---|
+|  |  |  |
+| 風花 | **■インターン採用　12月末までに21名組織にする 副題：幹部候補2名（マネージャーorディレクタ | インターン |
+|  |  |  |
+|  |  |  |
+
+
 
 
 
@@ -136,4 +174,4 @@ GPTsは可能性無限大！
   - 📊 2024年12月末まで
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-17 22:41*

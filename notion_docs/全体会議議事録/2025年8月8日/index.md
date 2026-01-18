@@ -2,17 +2,35 @@
 
 **種類**: 📄 ページ
 **階層**: 2
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-17 22:41
 
 ---
 
 ## コンテンツ
 
 ## アーカイブ
-[Video: https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/0cb125a3-0030-4442-87e8-cc0c6bb78195/2025%E5%B9%B48%E6%9C%88%E5%85%A8%E4%BD%93%E4%BC%9A%E8%AD%B0.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666T7Q2FXO%2F20260113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260113T235457Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJHMEUCIQDmcyuQj9aplRiPOjnAOmmdL4ahFMaXvGellvl37xhWawIgRrpgOdiy8Cm1RUVDOnYBkUBaIt87ZFMrrmElKfTXmSQq%2FwMIERAAGgw2Mzc0MjMxODM4MDUiDGY2uzJZa%2FsxtTMniSrcA68UNzxeuDBOJliRxlBkjgR3fk6N3QjBixjngcJv3PDp6kHwVQVl1JuSnKokOoOH3ykt2zvgEK0DJL7RNvoyzFxSgKOMa947Mi9qwFv5E3oZQRoZoFLPupYR1qrvhgIM3da%2BpmdFAFQaJCzFf8QyL3JQhRTGa5BNSWGpFbUElqrOTFbyCL9LQY9lbbiS1S4wYyk%2FCpadLbGviJApHyoGttbpocZu7D%2FK8XTZ1El7zfLuGjDJ%2BLUh%2F%2F%2BgB%2FA482gXzwD8%2Bo0PN8pcrVAHWncF%2BJ9BWTpcBiaLW50z7lHy8Ffo9ON7haClHWzKYSG%2F5o6V7ctpK33VrwDV7VpRphGfgQnwQ%2BRKM9rOoI%2B%2B3zuolkI6RpM9s1fClO%2FDU6si%2F3PjiNOEu8Eib4dUqG%2Bw0aVMbDYYWieqgMn2fpeqv1dYebJodcx%2FP2qUjDnnBinX9Sme7XqvqmPcYQNjbs%2BKVRHm8bfHWeR3vXrO7%2FT3QLT7AAU79gO4HwIUjiCxvANgpRQhJ0aNmTtExrOHrwlwKeGAciriU3B4l5pQ7ImV7W0a6GKgvZu6nMSVmgRydtfZSHHk1s5X6W%2FsVLumNrrcsaA8nVlNwtotn6pOldxZjboibEXK1tfw3Vm7moWMyJHqMMGsm8sGOqUBRqvAb4bcsW8cCksyh0kC5l0TCG6x%2BKgjQAbWKfr5n3cnmq18QiZnwVEplLObyxVmye0H%2Fz9FkPtirgAyVNtkFncG0xE7FhLIY9owL19ohnS1%2Fi8RNdceUlcodr2aHBwwaXnwwf7fSpKijQJ6ajyYSZvHsOXmVRD2pnqkqaGve07RpI50oZqkNnK1cKRw27Zr0z%2Fdt%2FavfV9EGPHl8wOKL5wZA3uv&X-Amz-Signature=c7bf023f47be4a0d1ea766aaf6fbce6d67a507266ad60568440ec2de4288a678&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/0cb125a3-0030-4442-87e8-cc0c6bb78195/2025%E5%B9%B48%E6%9C%88%E5%85%A8%E4%BD%93%E4%BC%9A%E8%AD%B0.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666T7Q2FXO%2F20260113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260113T235457Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJHMEUCIQDmcyuQj9aplRiPOjnAOmmdL4ahFMaXvGellvl37xhWawIgRrpgOdiy8Cm1RUVDOnYBkUBaIt87ZFMrrmElKfTXmSQq%2FwMIERAAGgw2Mzc0MjMxODM4MDUiDGY2uzJZa%2FsxtTMniSrcA68UNzxeuDBOJliRxlBkjgR3fk6N3QjBixjngcJv3PDp6kHwVQVl1JuSnKokOoOH3ykt2zvgEK0DJL7RNvoyzFxSgKOMa947Mi9qwFv5E3oZQRoZoFLPupYR1qrvhgIM3da%2BpmdFAFQaJCzFf8QyL3JQhRTGa5BNSWGpFbUElqrOTFbyCL9LQY9lbbiS1S4wYyk%2FCpadLbGviJApHyoGttbpocZu7D%2FK8XTZ1El7zfLuGjDJ%2BLUh%2F%2F%2BgB%2FA482gXzwD8%2Bo0PN8pcrVAHWncF%2BJ9BWTpcBiaLW50z7lHy8Ffo9ON7haClHWzKYSG%2F5o6V7ctpK33VrwDV7VpRphGfgQnwQ%2BRKM9rOoI%2B%2B3zuolkI6RpM9s1fClO%2FDU6si%2F3PjiNOEu8Eib4dUqG%2Bw0aVMbDYYWieqgMn2fpeqv1dYebJodcx%2FP2qUjDnnBinX9Sme7XqvqmPcYQNjbs%2BKVRHm8bfHWeR3vXrO7%2FT3QLT7AAU79gO4HwIUjiCxvANgpRQhJ0aNmTtExrOHrwlwKeGAciriU3B4l5pQ7ImV7W0a6GKgvZu6nMSVmgRydtfZSHHk1s5X6W%2FsVLumNrrcsaA8nVlNwtotn6pOldxZjboibEXK1tfw3Vm7moWMyJHqMMGsm8sGOqUBRqvAb4bcsW8cCksyh0kC5l0TCG6x%2BKgjQAbWKfr5n3cnmq18QiZnwVEplLObyxVmye0H%2Fz9FkPtirgAyVNtkFncG0xE7FhLIY9owL19ohnS1%2Fi8RNdceUlcodr2aHBwwaXnwwf7fSpKijQJ6ajyYSZvHsOXmVRD2pnqkqaGve07RpI50oZqkNnK1cKRw27Zr0z%2Fdt%2FavfV9EGPHl8wOKL5wZA3uv&X-Amz-Signature=c7bf023f47be4a0d1ea766aaf6fbce6d67a507266ad60568440ec2de4288a678&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[Video: notion_media/video_88ae11d0822f.mp4](../../../notion_media/video_88ae11d0822f.mp4)
 
 ## 資料
 [Bookmark: https://www.canva.com/design/DAGvGbfsByo/wAzKhiIQ0IIKydpMe-qHcw/edit?utm_content=DAGvGbfsByo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGvGbfsByo/wAzKhiIQ0IIKydpMe-qHcw/edit?utm_content=DAGvGbfsByo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+<details>
+<summary>リンク先の内容</summary>
+
+Unsupported client – Canva Please update your browser 
+It seems you are using an old or unsupported browser. To continue enjoying Canva, please update to a recent version of one of the following browsers: 
+Chrome 
+
+Firefox 
+
+Safari (macOS only) 
+
+Edge 
+
+Alternatively click here to get Canva for Android or iOS. Or click here to learn more about Canva.
+
+</details>
+
 - 新メンバー
 - マーケ・CS
 - くぼりお：ダンスインストラクター、営業事務、WEBライター 週5出社
@@ -79,7 +97,7 @@
 - またけん
 AI：「何がしたいのか？」が一番大事
 - またけん：Levelaの曲が作りたい！！！髪型もAIに決めてもらう！
-[audio]
+[Audio: notion_media/audio_419ce05e3fcb.mp3](../../../notion_media/audio_419ce05e3fcb.mp3)
 <details>
 <summary>AI作曲　Levela</summary>
 [Intro]
@@ -205,4 +223,4 @@ Levela!　未来に向かって
   - 📄 プロテイン販売事業
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-17 22:41*

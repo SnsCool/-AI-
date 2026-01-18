@@ -2,7 +2,7 @@
 
 **種類**: 📄 ページ
 **階層**: 3
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-17 22:41
 
 ---
 
@@ -15,18 +15,19 @@
 ### 講師採用：11名
 <details>
 <summary>内訳</summary>
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| まめぼー | 4.5万人 | https://www.instagram.com/mamebo_recipe? |
+|---|---|---|
+| もぐ | 3.5万人 | https://www.instagram.com/niigata_cafeteria/ |
+| ken | 4万人 | https://www.instagram.com/qolkoujouiinkai |
+| べぇ夫婦 | 5.4万人 | https://www.instagram.com/beefufu_seisyun/ |
+| じゅんママ | 3.5万人 | https://www.instagram.com/jun_mama_gohan/ |
+| shiro | 5.1万人 | https://www.instagram.com/shiro_diet_recipe/ |
+| ルミルミ | 11.1万人 | https://www.instagram.com/rumirumidayo/ |
+| ジムのすけ | 1.8万人 | https://www.instagram.com/jimny822/ |
+| もこ （オフライン可能性あり） | 9万人 | https://www.instagram.com/moco__eiyo__soup/ |
+| あつもい | 8.6万人 | https://www.instagram.com/atsumoii_recipe/ |
+| つき | 3.9万人 | https://www.instagram.com/tuki_diet_gohan/ |
+
 ---
 ### オフライン採用：2名（内1名は見込み）
 <details>
@@ -171,4 +172,4 @@ KFFを受けて、同じ失敗を繰り返さないためにどうするべき�
 (子要素なし)
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-17 22:41*

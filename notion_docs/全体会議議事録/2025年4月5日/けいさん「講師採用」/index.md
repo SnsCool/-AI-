@@ -2,7 +2,7 @@
 
 **種類**: 📄 ページ
 **階層**: 3
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-17 22:41
 
 ---
 
@@ -17,19 +17,20 @@
 ### 講師採用：12名
 <details>
 <summary>内訳</summary>
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| ゆうた（めいりり） | 20.3万人 | https://www.instagram.com/maylily__diet/ |  |  |
+|---|---|---|---|---|
+| るな | 5.4万人 | https://www.instagram.com/runa_sustainable/ |  |  |
+| 鈴木（痩せ方の学校） | 9.0万人 | https://www.instagram.com/yasekatanogakko/ |  |  |
+| ゆう（レシピ） | 26.7万人 | https://www.instagram.com/yuu_meshi_recipe_/ |  |  |
+| つき | 21.1万人 | https://www.instagram.com/tsuki.bodymake_/ |  |  |
+| ゆり（汚部屋） | 3.5万人 | https://www.instagram.com/chance.tail30/ |  |  |
+| みく（おにぎり） | 3.5万人 | https://www.instagram.com/chance.tail30/ |  |  |
+| ゆり（知育） | 3.2万人 | https://www.instagram.com/yuri_chiiku/ |  |  |
+| たいせい（たき） | 3.9万人 | https://www.instagram.com/ta_ki_diet/ |  |  |
+| 優希 | 4.5万人 | https://www.instagram.com/chico.re09/ |  |  |
+| はんぺん | 3.0万人 | https://www.instagram.com/hanpen_kakeibo/ |  |  |
+| あんこちゃん | 7.6万人 | https://www.instagram.com/rengide_anko/ |  |  |
+
 ---
 ### オフライン採用：2名（6月から）
 <details>
@@ -144,4 +145,4 @@ KFFを受けて、同じ失敗を繰り返さないためにどうするべき�
 (子要素なし)
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-17 22:41*

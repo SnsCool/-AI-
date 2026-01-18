@@ -2,7 +2,7 @@
 
 **種類**: 📄 ページ
 **階層**: 3
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-17 22:41
 
 ---
 
@@ -38,13 +38,14 @@
 ## 視聴会の大幅パワーアップ！
 ### **LIVE vs 視聴会（どちらも夜日程）**
 ### LIVE（夜）48.5%
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| 時間 | 着席数 | 顔出し人数 | 離脱率 | 顔出し率 |
+|---|---|---|---|---|
+| 30分 | 324 | 96 | 0.0% | 29.6% |
+| 1時間 | 321 | 102 | -0.9% | 31.8% |
+| 1時間半 | 310 | 97 | -4.3% | 31.3% |
+| 2時間 | 301 | 100 | -7.1% | 33.2% |
+| 2時間半 | 275 | 82 | -15.1% | 29.8% |
+
 ### 視聴会（夜）50.1%
 
 
@@ -63,92 +64,101 @@
 ## 視聴会の大幅パワーアップ！
 ### **LIVE vs 視聴会（どちらも夜日程）**
 ### LIVE（夜）48.5%
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| 時間 | 着席数 | 顔出し人数 | 離脱率 | 顔出し率 |
+|---|---|---|---|---|
+| 30分 | 324 | 96 | 0.0% | 29.6% |
+| 1時間 | 321 | 102 | -0.9% | 31.8% |
+| 1時間半 | 310 | 97 | -4.3% | 31.3% |
+| 2時間 | 301 | 100 | -7.1% | 33.2% |
+| 2時間半 | 275 | 82 | -15.1% | 29.8% |
+
 ### 視聴会（夜）50.1%
 
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| 時間 | 着席数 | 顔出し人数 | 離脱率 | 顔出し率 |
+|---|---|---|---|---|
+| 30分 | 97 | 22 | 0.0% | 22.7% |
+| 1時間 | 92 | 23 | -5.2% | 25.5% |
+| 1時間半 | 91 | 23 | -6.2% | 25.3% |
+| 2時間 | 87 | 22 | -9.8% | 25.1% |
+| 2時間半 | 86 | 21 | -10.8% | 24.3% |
 
-
-### 朝日程 vs 夜日程（どちらも視聴会）
-### 視聴会（朝）51.6%
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-### 視聴会（夜）46.5%
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
 
 
 ### 朝日程 vs 夜日程（どちらも視聴会）
 ### 視聴会（朝）51.6%
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| 時間 | 着席数 | 顔出し人数 | 離脱率 | 顔出し率 |
+|---|---|---|---|---|
+| 30分 | 85 | 24 | 0.0% | 28.2% |
+| 1時間 | 85 | 23 | 0.0% | 27.4% |
+| 1時間半 | 85 | 24 | 0.0% | 27.9% |
+| 2時間 | 82 | 23 | -3.2% | 27.9% |
+| 2時間半 | 80 | 23 | -5.5% | 28.3% |
+
 ### 視聴会（夜）46.5%
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| 時間 | 着席数 | 顔出し人数 | 離脱率 | 顔出し率 |
+|---|---|---|---|---|
+| 30分 | 97 | 22 | 0.0% | 22.7% |
+| 1時間 | 92 | 23 | -5.2% | 25.5% |
+| 1時間半 | 91 | 23 | -6.2% | 25.3% |
+| 2時間 | 87 | 22 | -9.8% | 25.1% |
+| 2時間半 | 86 | 21 | -10.8% | 24.3% |
+
+| 時間 | 着席数 | 顔出し人数 | 離脱率 | 顔出し率 |
+|---|---|---|---|---|
+| 30分 | 97 | 22 | 0.0% | 22.7% |
+| 1時間 | 92 | 23 | -5.2% | 25.5% |
+| 1時間半 | 91 | 23 | -6.2% | 25.3% |
+| 2時間 | 87 | 22 | -9.8% | 25.1% |
+| 2時間半 | 86 | 21 | -10.8% | 24.3% |
+
+
+
+### 朝日程 vs 夜日程（どちらも視聴会）
+### 視聴会（朝）51.6%
+| 時間 | 着席数 | 顔出し人数 | 離脱率 | 顔出し率 |
+|---|---|---|---|---|
+| 30分 | 85 | 24 | 0.0% | 28.2% |
+| 1時間 | 85 | 23 | 0.0% | 27.4% |
+| 1時間半 | 85 | 24 | 0.0% | 27.9% |
+| 2時間 | 82 | 23 | -3.2% | 27.9% |
+| 2時間半 | 80 | 23 | -5.5% | 28.3% |
+
+### 視聴会（夜）46.5%
+| 時間 | 着席数 | 顔出し人数 | 離脱率 | 顔出し率 |
+|---|---|---|---|---|
+| 30分 | 97 | 22 | 0.0% | 22.7% |
+| 1時間 | 92 | 23 | -5.2% | 25.5% |
+| 1時間半 | 91 | 23 | -6.2% | 25.3% |
+| 2時間 | 87 | 22 | -9.8% | 25.1% |
+| 2時間半 | 86 | 21 | -10.8% | 24.3% |
+
 
 ## 着席率の低下
 - 開催日による着席率の変化
 - リードタイムが長くなることにより、熱量の低下、他予定とのバッティングなどが起き、着席率の低下につながっていると推測される
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| 開催日 | 平均リードタイム（日） | 着席率 |
+|---|---|---|
+| 9月20日 | 2.0 | 75.3％ |
+| 9月21日 | 2.3 | 72.9% |
+| 9月22日 | 3.5 | 73.1% |
+| 9月23日 | 3.0 | 70.5% |
+| 9月24日 | 4.3 | 64.7% |
+| 9月25日 | 4.8 | 66.5% |
+| 9月26日 | 5.4 | 56.5% |
+
+| リードタイム | 件数 | 着席率 |
+|---|---|---|
+| 0 | 217 | 77.41% |
+| 1 | 581 | 73.48% |
+| 2 | 625 | 74.47% |
+| 3 | 675 | 69.75% |
+| 4 | 542 | 71.27% |
+| 5 | 399 | 69.19% |
+| 6 | 179 | 64.56% |
+| 7 | 130 | 60.08% |
+| 8 | 106 | 49.46% |
+| 9 | 54 | 49.54% |
+
 
 ## マネタイズ講座スタート
 ### マネタイズLINE流入：78件
@@ -160,7 +170,7 @@
 # 今月の目標
 ---
 ## 10月目標：305成約
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/1cf18864-3351-454c-af52-44041f0215c7/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2025-09-04_9.21.43.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665G4RGH2F%2F20260113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260113T235806Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJIMEYCIQC%2Bc%2B9OQoYjRk4nLUObzpNEW8QLmgFjDVIsHBAYzQ8A9gIhALu77Oqbnd8ocErZUNiF3V3EaYzW%2FvBr%2BRXMrt0gMF2RKv8DCBEQABoMNjM3NDIzMTgzODA1IgwEfQCoAeZ%2BSG5BddIq3AOltkPYB2%2FhqGPaqEwZgkS8wU%2FczXBQXhj6Qlpzw393LjGwaH3Onw9UScbPm4m9nZFOGAnjFL988G07q4bnJOS0g%2FTKlo3ttln2YtTVxCwMiPy%2FFtfapQlB2LM4KjJtumj6g18vHeMaGwlL%2BYRGfLqZ1PSS6Lqs2q6YEFLhY5Iok3ksc4FTgFWuJPrP3gJudAxv1tz7mqe5573%2BK0yXtjeVg9bMJ0VtgYgxQXuni0%2BjhBwQPEv96IAccFjxx4ZIQnYlCOLDPiBtBQk8P4Jg%2FYLVXgU423cep4P4B1y46XB%2Bv7dJhUdkUOCr0YlRpnBczAHkeyD%2B5v9linVbIa5uwqryvlTgcua7gDiLFtFdF0QLTAGSfxMPR%2BU59L8Zf3I3geLXUt7D5PaGRA4q677xL349KBeCU2H1kJZt0aE9Yxdy62ThnDVurs3j9Y3%2BFoUsY2YLMYV63gvusTrnAUSgLm09R6dVgGCb9kjIYTdGRDgTIKmZCdFXdLIarSHzectZThvH5GMD0m0160ZuVWOZH%2F%2FGLhg37uDOAySiIfvvG1bysvVvhN2N%2BmhPcyxVAnXSjW1rhVvjrNVEqvvugYbZQdVN7BjiYAIon1ZUiNdsvl0ztbQgeweo6T1y6QFmZDDTrJvLBjqkATRYwZMYez9B7R0MdwbORDY035TZ9JH3C5Zcaut2qrB4GVWOsLx7u4A4DLw3YZNe6kjN07%2FQnmsp999CBqYwsRnRqtJTW%2FWDF11UxeEXRe7zcLPV2XacnoNk%2Bqpaczu%2FY8sTJyZQiw1Ku8rZiLm8njpMaGV3Gt4N2tcrLVs560ynTi0eNYcLvLzgmVTzl5uPREwTpjCoGg3ai0DyoqXjbPx3e1x6&X-Amz-Signature=fb9c2e2047971ac1c6c71e2d68ff42675ec97bd6938a286d104f871a87bce58a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](../../../notion_images/img_27fe9f05a485.png)
 クォーター成約：863成約
 8月：342成約
 9月：228着地（予測）
@@ -173,4 +183,4 @@
 (子要素なし)
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-17 22:41*

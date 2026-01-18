@@ -1,0 +1,17 @@
+# Google Drive動画 情報
+
+**動画URL**: https://drive.google.com/file/d/1lVlQwtKuntH6TjX7ZS0j-ntfdk-01WV1/view
+**元ファイル**: video_27f7f45d526a.mp4
+**記録日時**: 2026-01-18 10:15:00
+
+※ この動画はGoogle Driveにホストされています。
+※ 文字起こしを取得するには、動画を手動でダウンロードしてGemini APIで処理する必要があります。
+
+## 手動処理方法
+
+1. 上記URLから動画をダウンロード
+2. 以下のコマンドを実行:
+   ```
+   export GEMINI_API_KEY="your-api-key"
+   python3 scripts/transcribe_video_with_gemini.py "ダウンロードした動画のパス"
+   ```

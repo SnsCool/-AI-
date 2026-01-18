@@ -2,15 +2,15 @@
 
 **種類**: 📄 ページ
 **階層**: 3
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-17 22:41
 
 ---
 
 ## コンテンツ
 
 # ① 目標と結果　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/074764ce-3bd8-4d38-ba81-d4b03c766176/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665JODP7HZ%2F20260113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260113T235727Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJHMEUCIQDboZOx6KXIYn19FiZsqYNq7%2FxKIEvUCJxgyD1vn9HJvwIgYsUVHztPFkoqOQ4QnmJNn6ob%2BHpfHKglLcixF001%2FVIq%2FwMIERAAGgw2Mzc0MjMxODM4MDUiDKmY53MYlKrXrKEnWircA6ueaFk8K0UKi6DP9oXNt90IrXharvuZhPuNWo%2FulPUhy%2FAiQUaD1mFxEbZicXZaIILAhtC3zb249sXwE8ZAmAmGNwV1YEn5pgb%2FwPt4i8u4al1bq5N9e5er0Xvtyqc1mOuzKj3ENAhyFNk432OHmaq5JLn2GGpdLzcN6TwRv9TdMYPkrAyKp4QfgtxAKPG%2F4gmmRxJU3eDsZFd%2Bd48fG59D1S1o6jgWI3F6Xi6cbGqGAgrZxqI%2BLMH2QHOJG1YBVREFGh%2BgyrcZJ7ylQo4A%2Bt89KhHT5S78ZByhhb6Z3vWmL86IVj%2BgdQknTwfU%2F%2FzHgHtQIc3hQzDrJgJX%2FWdo930Hl5py4P16imD%2FvTqvKgnb47Oo8FggfN%2Faxvkluo%2FCwJ613KdRo9ssnFrrIVfcxMnjuXoUEoAsZpVoif3ddQSWOhb5aB2FFstP%2BvGvmvitwu%2FapagNjiZnINjlMJF4ZRv6j3IpGkFhz0AnCLGEKPq5yLPMl9nNzzS4qYX5Xs1rBhhL1c7Wy%2BgU6lVhrxtswxEn11%2FF9AjK0wI1c7HVJ9sUxLlxRaE4RTV%2BD%2FwBFcJJLoAW%2BqimaTp7S3P%2BYcZc%2Bz69OkpJZ90DLqoO%2BHNFHvIZaVICj1neq4cnKuBQMMqsm8sGOqUBRK0JjkvV0TzKUsoWYjIQOHJlbR3sksGPHJCv2HS3ngSFWPXdoTyQTNZ7VQjqwn5fLLYNHuEk0c4%2FtYdpbp2ifsIVIdHYL5Nd99m2iFSDt%2Fp4PhYixo5WqV94ZkxM%2BFsD1TrWPhV8C4lr2hxFP5TkVBlTue5Wsbx1tXACOlgScSKnYRRZDP7bnGHwxDILZZb4I1lmDmn2y5uhjwC1Y4u4LLB6qr3D&X-Amz-Signature=2ce1ad5e01f0659a9f61f52bef9099881447ae8dbcc3d713e0234493b64f6d6e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/4a4685f8-b46f-429e-8467-56851f832fb7/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665JODP7HZ%2F20260113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260113T235727Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJHMEUCIQDboZOx6KXIYn19FiZsqYNq7%2FxKIEvUCJxgyD1vn9HJvwIgYsUVHztPFkoqOQ4QnmJNn6ob%2BHpfHKglLcixF001%2FVIq%2FwMIERAAGgw2Mzc0MjMxODM4MDUiDKmY53MYlKrXrKEnWircA6ueaFk8K0UKi6DP9oXNt90IrXharvuZhPuNWo%2FulPUhy%2FAiQUaD1mFxEbZicXZaIILAhtC3zb249sXwE8ZAmAmGNwV1YEn5pgb%2FwPt4i8u4al1bq5N9e5er0Xvtyqc1mOuzKj3ENAhyFNk432OHmaq5JLn2GGpdLzcN6TwRv9TdMYPkrAyKp4QfgtxAKPG%2F4gmmRxJU3eDsZFd%2Bd48fG59D1S1o6jgWI3F6Xi6cbGqGAgrZxqI%2BLMH2QHOJG1YBVREFGh%2BgyrcZJ7ylQo4A%2Bt89KhHT5S78ZByhhb6Z3vWmL86IVj%2BgdQknTwfU%2F%2FzHgHtQIc3hQzDrJgJX%2FWdo930Hl5py4P16imD%2FvTqvKgnb47Oo8FggfN%2Faxvkluo%2FCwJ613KdRo9ssnFrrIVfcxMnjuXoUEoAsZpVoif3ddQSWOhb5aB2FFstP%2BvGvmvitwu%2FapagNjiZnINjlMJF4ZRv6j3IpGkFhz0AnCLGEKPq5yLPMl9nNzzS4qYX5Xs1rBhhL1c7Wy%2BgU6lVhrxtswxEn11%2FF9AjK0wI1c7HVJ9sUxLlxRaE4RTV%2BD%2FwBFcJJLoAW%2BqimaTp7S3P%2BYcZc%2Bz69OkpJZ90DLqoO%2BHNFHvIZaVICj1neq4cnKuBQMMqsm8sGOqUBRK0JjkvV0TzKUsoWYjIQOHJlbR3sksGPHJCv2HS3ngSFWPXdoTyQTNZ7VQjqwn5fLLYNHuEk0c4%2FtYdpbp2ifsIVIdHYL5Nd99m2iFSDt%2Fp4PhYixo5WqV94ZkxM%2BFsD1TrWPhV8C4lr2hxFP5TkVBlTue5Wsbx1tXACOlgScSKnYRRZDP7bnGHwxDILZZb4I1lmDmn2y5uhjwC1Y4u4LLB6qr3D&X-Amz-Signature=ea0e4391ff1cd07dd2f2d540a0554694eb921139eb01a3401460b8eefd631555&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](../../../notion_images/img_976f18eec84e.png)
+![](../../../notion_images/img_f28825cb259a.png)
 - 直近の動きと進捗
 フェーズ1（1ヶ月〜3ヶ月）
 ▫️事業計画の策定：一旦完了　
@@ -24,26 +24,27 @@
 ▫️人材の確保：進行中
 　┗オフラインのディレクターを引き続き採用
 # ② 先月のハイライト
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| 区分 | タスク名 | 担当者 | 期限 | 進捗 | 備考 |
+|---|---|---|---|---|---|
+| 自社アカウント | 採用要件定義 | 梅村・對島 | 8月 | 達成 |  |
+| 自社アカウント | ディレクターの採用 | 梅村 | 8月 | 達成 |  |
+| 自社アカウント | 企画・台本制作者の採用 | 梅村 | 8月 | 達成 |  |
+| 自社アカウント | カメラマンの採用 | 梅村 | 8月 | 達成 |  |
+| 自社アカウント | 編者者の採用 | 梅村 | 8月 | 達成 |  |
+| 自社アカウント | 株式会社ログラインの契約書 | 梅村 | 8月 | 達成 |  |
+| 自社アカウント | 株式会社ログラインと契約締結 | 梅村 | 8月 | 未達 | 先方確認中 |
+| 自社アカウント | 運用の戦略・方向性・KPIの策定 | 梅村 | 8月 | 達成 |  |
+| 自社アカウント | ターゲット・ペルソナの策定 | 梅村 | 8月 | 達成 |  |
+| 自社アカウント | 俳優の選定（キャステイング） | 梅村 | 8月 | 未達 | 20リスト確認中 |
+| 自社アカウント | 企画・台本制作 | 梅村・對島 | 8月 | 達成 | 9月中旬撮影予定 |
+| 自社アカウント | 撮影・編集 | シュビヒロ・おとパパ | 8月 | 未達 | 9月中旬編集予定 |
+| 自社アカウント | 投稿 | 梅村・對島 | 8月 | 未達 | 9月中旬編集予定 |
+| 事業全体 | マニュアルづくり | 梅村 | 10月 | 進行中 | 10月完成予定 |
+| 事業全体 | サービス資料の作成 | 梅村 | 8月 | 達成 |  |
+| 事業全体 | サービスサイトの制作 | 梅村 | 9月 | 進行中 | 9月完成予定 |
+| 事業全体 | サービスの契約書作成 | 梅村 | 8月 | 達成 |  |
+| 事業全体 | 事業計画策定 | 梅村 | 8月 | 達成 |  |
+
 # ③達成/未達 要因分析
 ## 達成
 ### ・運用代行をスタートできる状態
@@ -77,4 +78,4 @@
 (子要素なし)
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-17 22:41*

@@ -2,7 +2,7 @@
 
 **種類**: 📄 ページ
 **階層**: 2
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-17 22:41
 
 ---
 
@@ -10,6 +10,24 @@
 
 ## 資料
 [Bookmark: https://www.canva.com/design/DAGUoEC3dzk/bR-4gLGeZvzn260E0f7UnQ/edit?utm_content=DAGUoEC3dzk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGUoEC3dzk/bR-4gLGeZvzn260E0f7UnQ/edit?utm_content=DAGUoEC3dzk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+<details>
+<summary>リンク先の内容</summary>
+
+Unsupported client – Canva Please update your browser 
+It seems you are using an old or unsupported browser. To continue enjoying Canva, please update to a recent version of one of the following browsers: 
+Chrome 
+
+Firefox 
+
+Safari (macOS only) 
+
+Edge 
+
+Alternatively click here to get Canva for Android or iOS. Or click here to learn more about Canva.
+
+</details>
+
 
 ワーク用リンク
 [https://forms.gle/iy66kMTfiGDwMNZF9](https://forms.gle/iy66kMTfiGDwMNZF9)
@@ -85,7 +103,7 @@
 それぞれのチームで、各金額が動いていることを頭に入れておいてほしい
 └LINE送信とかが、セミナー着席の107,863円にかかわるんだ、、！！など
 
-![](../../../notion_images/全体会議議事録/2024年11月5日/image_001_085b8301.png)
+![](../../../notion_images/img_ab3d55581335.png)
 ## なぎ
 - 好調な滑り出し！
 - ありささん目標制約90%
@@ -235,4 +253,4 @@ SnsCoolで運営しているジム、PALESでパーソナルトレーナーと�
   - 📄 画像共有
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-17 22:41*

@@ -2,7 +2,7 @@
 
 **種類**: 📄 ページ
 **階層**: 2
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-17 22:41
 
 ---
 
@@ -10,6 +10,24 @@
 
 ## 資料
 [Bookmark: https://www.canva.com/design/DAGJ9QRMK5E/GElm77BVdqQoojURVrO4ow/edit?utm_content=DAGJ9QRMK5E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGJ9QRMK5E/GElm77BVdqQoojURVrO4ow/edit?utm_content=DAGJ9QRMK5E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+<details>
+<summary>リンク先の内容</summary>
+
+Unsupported client – Canva Please update your browser 
+It seems you are using an old or unsupported browser. To continue enjoying Canva, please update to a recent version of one of the following browsers: 
+Chrome 
+
+Firefox 
+
+Safari (macOS only) 
+
+Edge 
+
+Alternatively click here to get Canva for Android or iOS. Or click here to learn more about Canva.
+
+</details>
+
 
 ## **各事業の進捗報告**
 - 運用代行
@@ -232,7 +250,7 @@ MVBeフォームの期日に提出
 会議中にランダムの3名に感想を話す
 
 ### ⚠️議論をする時の進め方について（駒居さんより）
-![](../../../notion_images/全体会議議事録/2024年7月5日/image_001_16fc7a31.jpg)
+![](../../../notion_images/img_04d4a14f8587.jpg)
 
 
 ---
@@ -242,4 +260,4 @@ MVBeフォームの期日に提出
 (子要素なし)
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-17 22:41*

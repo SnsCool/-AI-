@@ -2,7 +2,7 @@
 
 **種類**: 📄 ページ
 **階層**: 3
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-17 22:41
 
 ---
 
@@ -17,7 +17,7 @@
 - SUNAO製薬デザイン→ランサーズのコンペに掲載
 <details>
 <summary>写真</summary>
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/9d3c0af4-8ea5-4a8c-ab11-7bb54a663195/IMG_4873.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZBHVFADD%2F20260113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260113T235904Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJIMEYCIQDKb4qX3TLBtT%2F4RV6N6fKT6sDh3IJZomiJKrv6u7lCYQIhAIh7VNihLsITDxv9oi9xgk2oWU%2FUqsLKsTVW56CF%2FIvLKv8DCBEQABoMNjM3NDIzMTgzODA1Igx9B60QjHgYyk103WUq3AM50qcf0Q8kqp534cv3DOrBhYME5b3%2F2l7XqKaMNyacEkt81OGncEJXw3RPsLVwfAWb73S6255x9pyp7I1ESBk4GhLTa%2BgJdOLCc%2FJEoMSpeBf81Jxsz%2FIyqVGZZXqGrhSmouDOR8GAX28rE5BMBvQk6FVTcdcxrWRsUn5sLiegfetIyEb%2Fsk2xMyXtyQZob5%2FXFo1auOmE12qsBK7S8jAC6Fkwew%2F0RHgMzrkBFrEIE%2F6NLWhHAtUf7JYgGWr78C3trRTBIgmCGStlPI2uP4X5ZIhDPEv4b3ZdkYUE2hUWFzmsTBtECi%2FyIBp1Vb%2Bet8h9iBs9D9g%2Ftwh%2FmaYylUimUMJweIoe0P%2FhdIiPZcevioSZWt70B60iF68%2BIO4ylhiXUM8ohxRCRgNQw9HItepV9kPPl1GIt6VMWhowmTc3wTXwM%2Fo0pTZl2FixXvdJ7FWLBO0Shcm8sOtxH7AQ3Ekhh7r6T46umpOzAKVE5aC91VBTK2hwX9UpYz4c27v9cB4osGoxln4OPPcE7WFZFtnxv%2FjKrQaAeLMB%2FgcGfHJXsOkRjWTBuNJ%2F7QYbDa%2FaZLu%2B3%2B1n9SlnyMS6TIbwi4tXYr6DV5xO7bEst8LE4lm%2FXoxb2TZVNGGCUGy4yjDzrJvLBjqkASCvGnYx5wkGHVtZvpEnh5%2BGiHLRjZ27%2F1PZLdJA%2FFSEFMogIGJ3LbCHK5nIjVMh%2B%2FLj6wqmi61hK1bmLAtUiffkJIteFnIuAbvEA2PiwYzhyveJo6aEVGDVqsM1m%2B7YL3umW7U3xOlm6A4pHGm%2F3aCBCLB%2B2%2BMU7iULg0a1uYZkHua%2BhgypQl2Rxl2absID4KMJcihQKrnEF5ScIMUvBwXi4TWL&X-Amz-Signature=22b621cdabafa36d0a4299a6fdc7889670ad1c0e9bf2a3b90d46286caaf33679&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](../../../notion_images/img_754eb9b53741.jpeg)
 - アフィ実施インフルエンサー確保（15名）
 # ③達成/未達 要因分析
 ### 達成
@@ -30,11 +30,12 @@
 ・SnsClubとエスキャンDM送付　(15件獲得/15件中)
 ・その他　 DM送付（全12件）
 ### 📈 集計サマリー
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| 指標 | 件数 | 割合 | 補足 |
+|---|---|---|---|
+| 🟢 確定実施 | 2件 | 16.7% | 成約・実施が決まった件数 |
+| 🟡 お断り | 4件 | 33.3% | 返信はあったが不成立 |
+| ⚪️ 未開封 | 6件 | 50.0% | メッセージ未読・未確認 |
+
 ### 未達
 - パッケージデザイン
 -  ecforce構築進行（受注設定まで）
@@ -70,4 +71,4 @@
 (子要素なし)
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-17 22:41*

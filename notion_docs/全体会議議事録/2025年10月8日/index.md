@@ -2,7 +2,7 @@
 
 **種類**: 📄 ページ
 **階層**: 2
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-17 22:41
 
 ---
 
@@ -12,6 +12,24 @@
 
 ### 資料
 [Bookmark: https://www.canva.com/design/DAG1G8Hwsww/OvDw-9SjisaCkObJBFYjaw/edit?utm_content=DAG1G8Hwsww&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAG1G8Hwsww/OvDw-9SjisaCkObJBFYjaw/edit?utm_content=DAG1G8Hwsww&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+<details>
+<summary>リンク先の内容</summary>
+
+Unsupported client – Canva Please update your browser 
+It seems you are using an old or unsupported browser. To continue enjoying Canva, please update to a recent version of one of the following browsers: 
+Chrome 
+
+Firefox 
+
+Safari (macOS only) 
+
+Edge 
+
+Alternatively click here to get Canva for Android or iOS. Or click here to learn more about Canva.
+
+</details>
+
 
 - 新メンバー
 ### 営業
@@ -192,4 +210,4 @@ Levelaが抱える課題と解決策：人数が増えてきて、コミュニ�
   - 📄 AI事業
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-17 22:41*

@@ -2,7 +2,7 @@
 
 **種類**: 📄 ページ
 **階層**: 3
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-17 22:41
 
 ---
 
@@ -15,10 +15,10 @@
 ## クーリングオフ率 （目標値5%）→6**月 5.2%（未達）**
 **（6月の入会者数302名のうち、クーリングオフ者17名）**
 ---
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/6efa3f72-4bec-4c09-b1d3-539f6d7f02ef/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2025-07-08_14.28.16.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UAWVWZQU%2F20260113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260113T235407Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJIMEYCIQCiOgvh0wGrG6u%2FSCkR%2Bici5QfCIwzx77qJXI2y8wuugwIhAIhuT1bVEvdap3A4R4L5Lv20LR2zbWesE7zx8h7YU0EHKv8DCBEQABoMNjM3NDIzMTgzODA1Igzdx2i73Vf17sL7U4Iq3AMnIAa%2FQog0beAFx%2BZyDXFtEL5jzzsZbpxVOVM33glZPQl9Wsm9Q3282d15EU6%2Bpc9uXJvdbwuyD7sRHvkqrvyaJQAmQZUN73U9gFy4ojibO%2Buunc5JSK%2FtUciFFU0GpybhCJEjFBRpJ%2FPWvVlvl3TScojA2BGNc1IvbXZXaXeFyw2UoVbAdcPix4NB98Ku3L3ZyJthRBIrBCdqKElEpkDCf75JCVozyHrvdFvwyTg%2BLSycE0bPnAWc%2B6rervnv0Pyc3Ynu9Ojcj0J1s9y6bi8lQJNdNmNozgm%2BHoKAKEXpzLhFzKt973ev08ZDst0Yyy9DPgpaASP316Rqss5ulyVAkVy%2BcZlEOHHQHnjGQdDtnOf2xueDISLmU1FVlR7%2FAvhMkHVPhw4pnukV2HzmtS6a2%2FuazznU3nrWeQ2ioUubGehMs3myV2c%2Bv67tRPY6N7namRZ4hhJXewpNn8fORbh7Z8yhRhEFpiB714I230xbkS8LHTuBAcxS9UnCI7niJhDekhaezUGecBBACrGaCPfunIKAuNjQPQ45RDqi4Fq0%2F%2BAbtnf5PMiOv8OYqB9%2BVKV0989S5XP5R4P8%2BFFVDoPj1G8gqbs%2BjdxeJko8YSqlbR2deEHQnzD0Dy81JDC7rJvLBjqkAeZnVou8Ak5O3%2BEP6yovyBI6koDOoCV%2BUXyChl0oe2dNLYAjmaQx2hZAYuycGybleJFbUzU4EiRysCIqh2rGmhmnymXwB%2B8w0lbiStZwfWdg74YJgnqzuVRQ%2F%2BwkxVeOfkMOpWG7Vl9Gv9aK1Ik3ef6ooLWgeL%2F%2Bf2gK1WwlqAw4cwgSoF3G8NyqtpEbHnsE32INX0CrYx8W18WaIPZgKzeXGEi%2F&X-Amz-Signature=577ab6d0fbe8615d63a0e243d308c4e6582f47a031ef9a456fa380cf6049857d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](../../../notion_images/img_8631b43cae7d.png)
 ## 初回HRからの40日以内のアカウント提出フォーム提出率（目標値100％）→6**月 32.8%（未達）
 **初回HRから40日以内の初回投稿率（目標値50％）→6**月 28.5%（未達）**
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/aec610cf-b80c-4f4a-a2df-2b6bdf45ed2e/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2025-07-08_15.58.22.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664XVX5QQO%2F20260113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260113T235408Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJGMEQCICAfcTW6nzMs39nyf0yd3MQcTYnaz1EbGG16GVu8bn9UAiAY7wAyo8F5fALpLvptEUd5AhUUbJcAnNfqhtTvNPTePCr%2FAwgREAAaDDYzNzQyMzE4MzgwNSIM3K3k%2B5FScvDK695eKtwDmmdi1Xj2GSvlSadBVaik2Rlc1HswK9jqCXdq9DOcLcfnxwk2QIHUvosnfP%2BXJg7Ilm99y%2BoMH7nRlOTOR8UMJjl%2BZMShDlkfCEm3zRGSeF%2BFMO%2B1MTBMaJavNDtzbdow0Q%2FECAd%2BlbYHsJIqrGwO3nEVNP6RJA9RrpRSVS3QjaNRCq5PEhnbb%2Fby5MR8sgZaTylpH0zOLuiwduNPJkLeI%2Bm85tq04VC38YuNVYWGZr%2BGlGfs%2FC%2BQOn06vlZ4YEp48xLTJ5CQVhbpxFAdE8TO2kl0H7A6Z5Un4CC3YqkwZk%2Bok7CzFgLTKRW5ygZhq%2Bu5banCiOUkQKxZKByIJBpj50h%2BURWZCk8O6Kyw3o2LrXE7i8PlOHr11tcDr%2BtKqJE9SHqF0%2B2wwWHBGXfbg7XeDnTmeWojw6RamdfxoqGEQl56rc1vI42JX3aactmyct1VB3zeuQ6ZE2wyofMuGi%2FLafigY1rjeIslP5u71kMrh1n%2Fv%2FUwAGzHr2S5sExina0NMIjxkKVOGCThcK1zzrftEpVU9RVE7cuAmP5WZTP6rvDOMzj8UWWzPI%2BizSeeJUUH2ls88En%2Fnlk490d0TrPFScjuaa3z7BbbchTiIuOXFn11p9eSRIY82R9S4VAwx6ybywY6pgG0aQw8PV6mNPN01AshA2hkkgebtHpbtXifbCm5ahj3Nxsg95MA4bhsBjaq9%2Fu6LxFlf6PT9dwbQbKtKMkZnLt%2FhXwiNxsCex7TzhyD2NJF2w6Fgj7jcWvTFT7RpQOOYMwZeMjsE5IEnFkxl9su0lAiQpbXmwH8zJeXZQU75fh56GGQih3B7Lo8vxTeJv6rnFRflVZZtepWg7x11%2BdLFp2vEMVwpShC&X-Amz-Signature=947f6066c3c41b68dd5ef2ae25434abb1b9f9d4dfe2e17db96e65f347268205d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](../../../notion_images/img_922774761c79.png)
 ## 
 
 ## 卒業時の返金率（目標値0％）→6月9.52%（未達）
@@ -26,37 +26,62 @@
 ---
 
 📊 **6月返金対象者** (データベース)
+
+### データベース: 6月返金対象者
+
+#### プロパティ（カラム）
+
+| プロパティ名 | タイプ |
+|------------|--------|
+| アカウント | url |
+| クラス | rich_text |
+| 対応日付 | date |
+| ジャンル | rich_text |
+| 対応 | multi_select |
+| 名前 | title |
+
+#### レコード（3件）
+
+| 名前 | アカウント | クラス | 対応日付 | ジャンル | 対応 |
+|---|---|---|---|---|---|
+| はこざきはんな | https://www.instagram.com/pann_iphone/reels/ | えりかA組 | 2025-06-27 | iPhone術 | 全額返金 |
+| かめだりな | https://www.instagram.com/intp_rika?igsh=bW9hbW5jb | kei-b組 | 2025-06-10 | MBTIのINTP特化 | 全額返金 |
+| ふくだもえ | https://www.instagram.com/gurumama.sapporo?igsh=MX | きたごはんB組 | 2025-06-11 | 北海道グルメ特化 | 全額返金 |
+
 ## 卒業生のグルコン参加率（目標値20%）→6月0**.4%（未達）**
 **（卒業生ロール582名、グルコン11回、参加者合計30名）**
 ---
 ## ◎ジャンル特化グルコン日別参加者数値（計10回）
 -  Levela運営、講師の計2名はカウントに含まない
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| 日付 | 講師名 | 総参加者数 | 現役生 | 卒業生 | 名前変更なし | 追記 |
+|---|---|---|---|---|---|---|
+| 2025_06_09 | りょうすけ講師 | 82 | 20 | 1 | 61 | 卒業生質問数：1/13 |
+| 2025_06_12 | なち講師 | 63 | 13 | 1 | 49 | 卒業生質問数：1/10 |
+| 2025_06_13 | kenta講師 | 76 | 22 | 0 | 54 | 卒業生質問数：1/8 |
+| 2025_06_17 | あみり講師 | 59 | 19 | 2 | 38 | 卒業生質問数：0/7 |
+| 2025_06_18 | ゆな講師 | 133 | 40 | 3 | 90 | 卒業生質問数：5/5 |
+| 2025_06_21 | らむちゃん講師 | 65 | 20 | 0 | 45 | 卒業生質問数：1/8 |
+| 2025_06_24 | うちこ講師 | 87 | 29 | 5 | 53 | 卒業生質問数：0/6 |
+| 2025_06_25 | ボム講師 | 65 | 20 | 4 | 41 | 卒業生質問数：4/8 |
+| 2025_06_27 | いけちゃん講師 | 75 | 24 | 0 | 51 | 卒業生質問数：1/14 |
+| 2025_06_30 | かかみ講師 | 56 | 20 | 1 | 35 | 卒業生質問数：1/8 |
+
 ※追記の卒業生質問数はチャットに送られる質問フォーマットベースで算出し、名前変更されていない方も含まれているため、卒業生参加者数と数値が一致しておりません…
 ## 6月ジャンル特化グルコン合計（全10回）
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| カテゴリ | 総計 |
+|---|---|
+| 総参加者数（運営アカウント除外後） | 761 |
+| 現役生 | 227 |
+| 卒業生 | 17 |
+| 名前変更なし | 517 |
+
 ## ◎万垢限定オフ会参加者数値（計1回）
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| カテゴリ | 総計 |
+|---|---|
+| 参加者数（運営アカウント除外後） | 24 |
+| 現役生 | 11 |
+| 卒業生 | 13 |
+
 ## CS部署の採用（目標2名）→2名（達成）
 - 中田菜々子さん：オフライン/ お問い合わせ対応 / クラス分け / 経理 / 7月15日契約書締結
 - 小林未侑さん：オフライン/ 10月末までは副業→入学式 オンラインイベントファシリ
@@ -83,18 +108,18 @@
 ## ■クーリングオフ率 
 **（6月の入会者数288名のうち、クーリングオフ者17名）**
 ---
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/6efa3f72-4bec-4c09-b1d3-539f6d7f02ef/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2025-07-08_14.28.16.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VYWTX6EB%2F20260113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260113T235419Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJGMEQCIBzojQ0ee9Dw4zSIPqevTFCaTOZTHodNv3fzVq08J23jAiAGoACEtddypdlcqZwLTZIDy7CXztESIOllZtoIZqTLBSr%2FAwgREAAaDDYzNzQyMzE4MzgwNSIMZBtMDoM218D%2BsnW4KtwDG4mhQB5nd7ogyXhaG56oB0MO7WBHfksTWlpMZjfUBkWfHalGnRPKzZRnAyxykwX1iiXgZF1iQ3j7XkiFWxe4uykhXhwEAZZBgJqLT8EBdjRCBuQoHhYIcuKWye99RgpowfvdDnAVxE4QyoQSvfcr1KMBwN1Aa9YUpjQeK%2Fb620iqsBgMG0i4xoM4zHQHl7lRFR3vvG593OTpPryzcb0vweDx6ld0ATHDBbdzmJ6g5RHe4JRMWiejQy83MHLgS8H47Ab%2FYd7gtAGKTjLKOZfj6T3wohh4hj5R3TbiapSAUnXwtPLeJmN8E95Juq%2B0FCaq3v8VDnTROP%2BvDGpAYsScpWgYFEAOTiogbEdn37IEX0TgvmWyVKjM1IUkl5%2FKlTRvRjtyGCUB4GlRxSObS2zdQUzK4VoVfIchniWPscdaWk%2B9JUDYJQShikRdpD84BIAIlBPnYXsA0fmmSdX3nJWoDpTf6A6l4vw%2BsuCVnuqDujj8siq4LoWmJg8y73d9HDv7dZKWNffLNFQfRk0kspHKoX7oMLt3L8ZyZDtv7VNIQ7FyhwnFJw6qxuzUH8x07LBl3s9vQuLaWIpMXS3mHjJThyenxmpYuLQprtlGaB4IdzALKqFzahRMgeKOMaIw8qybywY6pgE%2Ft7az0QU5pIgKakcUoMH2KaKBH5w9uOV0enxzs9PmkGSaHE1atcA5pj7OzTD0j30zCiO3zm%2FRzOQ5t1C8ysMgT1Y9B%2FmXtvsLNFFbScwongYUo%2BxdOsYYV%2FVYfQ%2B1LFdmWFPImWujR9%2BZ4GW%2BPKaLfpvYUYvwKnn%2BTliagZUjtK3epGEMIEFZGBkdWUbRpIuzwq7Xyy48sH7qr3ncvyfUqhc9rcYv&X-Amz-Signature=4ea25387e24599642ccc04f9840c960d85f26d85a37057a4dd005db76a3b95e4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](../../../notion_images/img_f48a0f24ddcb.png)
 ## 結果：目標値5%→6**月 9.38%（未達）**
 ## 要因
 **サービス内容についての理由2件**
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/ad7eb7a9-f8df-4dc9-9c19-9df6e5185e7a/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2025-07-08_14.29.58.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S3AWENBX%2F20260113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260113T235421Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJIMEYCIQCF3HHTt5mefDelIPTmklKAGz8AYx6wieSlev0Lm0SB%2BAIhAIgVnDyO5dkmYad0UkH0lu4Ml%2FTq2CjZGaODrHKhBmSTKv8DCBEQABoMNjM3NDIzMTgzODA1IgyTrsf5OTH%2FJf5oFa8q3AO5nkQN4ZIH1U4wo%2FzBAPXDHl9HNv6B4SfPMs5T7ykittGV969N2vOeiBhilUUObhxAGDBlaa78XH3vogwg1%2B4ZdQPJvV3iiGiHyg0KBjUwK7aFoOpi8KwKbSJ4BUaVc8dOhTtrUQH5xhPFjhHAXf8RVxVS7AVGQMc05oa2apdPJO69IGTUohUNSRADckvmLb%2FBee2YHMiUxgXYdH1HT%2F2%2B%2FzUv0WLQECxCgYPuEKV1SVqaHyNIjGhAbJ1buDJtOtfOARjdXsp6R09oZgU%2BfHzqewvX6rncL9BNFWsm31SMpYIY1RfTjoV77%2BBDbNRxUnPIdxxPkNg9alLYkIc1KWl3ePRXeRnYEoK%2BwiZ2pMekQ%2BAvpKey2mw6mrcqxexdSOERQzgZvKbxtIg7t8XhzC1cYft6EeMAYyr1UJC6ZqL75l4gQMGHZrLwmAAlM%2BCIJm%2BegAZHKe6rfv7dHedpp6%2FoC6zMVLHfB2n4XowV7r1ix20Kz0WJQhGuXaLtvNnWRaSJPtC2j1zfQQb6XZHIopxue3qZHhU1iLiZclKb15imIE38ODBrcunKtxQv%2FScSvXU7UesQAuHjaVsb9iwVizELp0u7EifAsmdW56kpmjH6f5CAz%2BkC2Qxm8JUuzjD%2FrJvLBjqkAYvOS4PAINnOjGk5ZlpmDd2lQEMuCb0aCD0soBRTs8cIE%2FcFCUsZdhlKdOWfkB3WMq6GBiraGf18jGbeo22HTf7DFnEdymZpCwnH6z5uhQw6%2FfDb%2F%2BsWXVoggreAJKnkGSvIJnr%2BjP665yGmYmBNkRa5NOC5ee5VuJiVwHm9YrbdbupaOJtpd1cVex4rnm%2BgZkHD0T4NW43dN5KN5QPV0lS1fzxf&X-Amz-Signature=17dd8888a031adf3202d28e86a206f7880f754ec500d45f7b807ed783e224bd4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](../../../notion_images/img_dc19bcb50fbb.png)
 - グループメンバーに初心者も多く、個々に合わせた厳しい添削が得られる環境を求めていた。
 - 現状；ヒカル流入などから、経営者や実業者の生徒が増えている。
 - LINEのつつみさんも
 
 **【再発防止AP】**
 - 上級者層向けが集まるクラス受け持てる講師を毎ローンチ1〜2打診確保する
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/a63c6725-24af-49ed-babe-f524093c73b6/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2025-07-08_14.31.06.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SA7WHEJX%2F20260113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260113T235425Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJHMEUCIFlR5fJVleRLv8GFDDBf1DcjrlvQNUiXTjtwuv0Vl5yBAiEAsa0vhRJWX%2FAQw3VWS2f6XvDbEtG4TF12t7J9qqrGfFwq%2FwMIERAAGgw2Mzc0MjMxODM4MDUiDAF00BuMS3d0JxQveSrcAz%2Fgjf9dTwaHY77NlGaS3BxdNKsnmUEcAbioSMggUBmPjK2aUTG81fpoqtqfC6ghpgPvN9BVwebj5bS6P21dCgsY3WPhtPlDN166hioMyLO8lfqVDcmJoL1hZf2f7ZaDP1zkW%2FDTJVCrcnyP0Vh1RhsHbFdNY4l%2F4f%2F38%2FCj7NrFfsYZ9Bz1%2BCRrj%2F0HWSwpSluEve7FPvmEKPc6aM6x%2B0NBsBSVQKJXAqVPhQKysPvSesHfDsSJ8boBwUVthip6%2BD4vsahPE13%2BvBXqHCr7pCETlYtG%2BYuJSJC9q1CpFBP5elFHpSkuQa1DDM38Xs4jBN9JNQ58X9SeUq7IQ%2BAoGM8G%2Fvrb840rLsBnG6SYMtyjGa8OGImG4jva8B37mC9EyOLtUx9a5bdPGzGY%2BZxsKYgUN4MgJ8x6yab2rxkNlSpzjmGwDRdvQmBlNnie0q0wGIDgvCGtto66rNoMxwXtn0uOSv2y3by9sqSJPPbcz9%2BIS3pFV4ceVKwQPg6VQD%2BmD4GCCiD14D%2BpkKY2LbvcwdL0PRfo%2F8sK%2FbjpnGEB7XrFF18mNfqy533eIAanSfX55Lj8nEKcuB4m6eBRyCQMnNTNYBbA8BtN8DGz8%2FEakocqZlKVhBnEZGWECSZ%2FMPOsm8sGOqUBuvBGao%2FXheAxTKb43UjpNcIT9Nxx3o2fwKdO0%2BP0a%2F873CxBy0QtQ13OyxbfA3Pdf1L%2B%2BeFLSvZlQDnsaRkeclzezZEHAoOv8cBJoJ%2F3x0J0N7c9xF8z19bzV1WfeP7w6l8jyGfTzdfuKLgEVMGLtNn4NN7EWOcf3hPbJ%2BMyr1PXH6K3JaFTI71lJPZ2%2Bzf5MZ0stDOt3TZTZZvdWrreB4J5PUQX&X-Amz-Signature=2a72b0ed128860dbed751324bd6cd24be02627812791d1c1c7ab0ec1554c80bd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](../../../notion_images/img_c6de35776955.png)
 - 入会後すぐに複数の案内やタスクが発生し、受講者が優先順位をつけられず混乱した。
 
 **【再発防止AP】**
@@ -115,6 +140,28 @@
 ---
 
 📊 **6月返金対象者 ** (データベース)
+
+### データベース: 6月返金対象者 
+
+#### プロパティ（カラム）
+
+| プロパティ名 | タイプ |
+|------------|--------|
+| アカウント | url |
+| クラス | rich_text |
+| 対応日付 | date |
+| ジャンル | rich_text |
+| 対応 | multi_select |
+| 名前 | title |
+
+#### レコード（3件）
+
+| 名前 | アカウント | クラス | 対応日付 | ジャンル | 対応 |
+|---|---|---|---|---|---|
+| かめだりな | https://www.instagram.com/intp_rika?igsh=bW9hbW5jb | kei-b組 | 2025-06-10 | MBTIのINTP特化 | 全額返金 |
+| はこざきはんな | https://www.instagram.com/pann_iphone/reels/ | えりかA組 | 2025-06-27 | iPhone術 | 全額返金 |
+| ふくだもえ | https://www.instagram.com/gurumama.sapporo?igsh=MX | きたごはんB組 | 2025-06-11 | 北海道グルメ特化 | 全額返金 |
+
 ## 結果：目標値0％→6月9.52%（未達）
 ## 要因
 - これまで返金保証になりうる人を追えていなかった
@@ -126,6 +173,11 @@
 （**講師月報**より算出）
 管理シート：[https://docs.google.com/spreadsheets/d/19OYgEjU6NlcRnDhyqIeN-S6dWtpYz5HXmI8cOGDd6Mo/edit?usp=sharing](https://docs.google.com/spreadsheets/d/19OYgEjU6NlcRnDhyqIeN-S6dWtpYz5HXmI8cOGDd6Mo/edit?usp=sharing)
 📊 **Untitled** (データベース)
+
+### データベース: Untitled
+
+(データベース情報を取得できませんでした)
+
 ### **🟡黄色対象者に対する動き**
 【１】講師トレーニングで黄色信号対象者を取り上げあげる（あかね今後参加）
 
@@ -135,32 +187,35 @@
 ---
 ## ◎ジャンル特化グルコン日別参加者数値（計10回）
 -  Levela運営、講師の計2名はカウントに含まない
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| 日付 | 講師名 | 総参加者数 | 現役生 | 卒業生 | 名前変更なし | 現役生質問数 | 卒業生質問数 |
+|---|---|---|---|---|---|---|---|
+| 2025_06_09 | りょうすけ講師 | 82 | 20 | 1 | 61 | 12 | 1 |
+| 2025_06_12 | なち講師 | 63 | 13 | 1 | 49 | 9 | 1 |
+| 2025_06_13 | kenta講師 | 76 | 22 | 0 | 54 | 7 | 1 |
+| 2025_06_17 | あみり講師 | 59 | 19 | 2 | 38 | 7 | 0 |
+| 2025_06_18 | ゆな講師 | 133 | 40 | 3 | 90 | 21 | 5 |
+| 2025_06_21 | らむちゃん講師 | 65 | 20 | 0 | 45 | 7 | 1 |
+| 2025_06_24 | うちこ講師 | 87 | 29 | 5 | 53 | 7 | 0 |
+| 2025_06_25 | ボム講師 | 65 | 20 | 4 | 41 | 4 | 4 |
+| 2025_06_27 | いけちゃん講師 | 75 | 24 | 0 | 51 | 13 | 1 |
+| 2025_06_30 | かかみ講師 | 56 | 20 | 1 | 35 | 7 | 1 |
+
 ※追記の卒業生質問数はチャットに送られる質問フォーマットベースで算出し、名前変更されていない方も含まれているため、卒業生参加者数と数値が一致しておりません…
 ## 6月ジャンル特化グルコン合計（全10回）
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| カテゴリ | 総計 |
+|---|---|
+| 総参加者数（運営アカウント除外後） | 761 |
+| 現役生 | 227 |
+| 卒業生 | 17 |
+| 名前変更なし | 517 |
+
 ## ◎万垢限定オン会参加者数値（計1回）
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| カテゴリ | 総計 |
+|---|---|
+| 参加者数（運営アカウント除外後） | 24 |
+| 現役生 | 11 |
+| 卒業生 | 13 |
+
 ## 結果：目標値20%→6月0**.4%（未達）**
 - **グルコンは卒業生参加がかなり低く（全体の約2％）** 
 - **万垢オン会は卒業生が過半数参加（全体の54.2％）** → 興味関心が高い 
@@ -192,7 +247,7 @@
 ## AP
 <details>
 <summary>**ジャンル特化グルコンの改善（週報での生徒様のご意見）**</summary>
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/5cef792a-96c2-468f-bebd-4ff1054aecef/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2025-07-09_0.18.41.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VXCNDQJ6%2F20260113%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260113T235444Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJGMEQCIEUjbNaea%2BiNkJX7mz1u2Q8Y2Javi9t6dMmhuxg4nPj%2BAiB%2BYjESDDEtDBkT84xqpWQbunk2wQZyjclk4qqO4ZkRbir%2FAwgREAAaDDYzNzQyMzE4MzgwNSIMym03XmWTjBXc%2FtxHKtwDGZSwi2VrfL9%2FSww1lee3aqOf3g78%2FPBoWQ7RWT2Pn42VVMvLpANtL1fEB48S%2F91JHs3QG9aTszJOnx6zd3j3Djg7I%2FtvazwJZlImVlZUSqLdK%2BUbjG5qqDn%2FRvlj5xLcrbgiSNTthVdll214nDmwhrRkVyRNYyt8eeeBJe6RZROc76cB%2FZ9muNK4OTtmUmhpH91FR9DbMojZkHLMNPTFeLQ6xuiM1CuBOM4Z%2BnlNTBeIdzcT0xDDg6l8EKWVhV6y3y23BO5H3f9S7b5xEfKTQhk1VpvnpBrsEbbKtRbifhMmmlhxBH4DOGd4gwUdqWD1GoM%2BIoOWvSNX9oXzOQMmqP6dbtqgh8MZ7rVMQqKkRQwQE51nh1uCu8rxjyYU2DOw9BG67iKkorXpWLaCp0T%2FO3znO9syDDelcyceBYf%2BFbLZcELncPCIv%2BGT6uguNk75yRtftrROxo5UlshaSXT7aPJJfFI2UuyIAmDlJSwGPvLf1Bl129GWsT2bkqc6ZR7rjycVyCU%2BJQ4pI5OW1d84LRLNbkjG5oLAooJJtCd%2BGseoJwLms64ztLsyOcrRtLBSrgycQldAR7xcOkryqfqRhT2fX4T1n4%2Bj04LgHhaH%2FK5j1vFSRf7dreWFLfMw9qybywY6pgGaqDVUwk%2Fy3oGykMNRGUNLtW14r5K3XzKJ51RnmVe9Xag%2BpXJ81pHnOr20vGSzUmcERLE850wIVou%2BR1zF7k%2Fo4cYYpMOp4T4TXDU4s75STf6QRrKg6FweGlfGGc7DN8j0o7bKjJ1tXaRRM9MNmTa0%2F6hP7mKxjpqTns1D%2B%2BkFd73Z2%2FGN9nBSnQ59%2F43AroEE4pJW9%2FxBah2INUiDiTilN3p8WE0q&X-Amz-Signature=5aa1fd20c3de64796d7f61d7a0be6261b931b8e35310ed4f2192686da6904e8a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![](../../../notion_images/img_c080b60172a7.png)
 【現状の課題と懸念点】
 - 質問をジャンルのみにする→ニッチなジャンルなどで質問できない生徒が出てくる
 - 時間制限をする→中途半端な添削に可能性がある、時間が余るグルコンもあるので、毎回時間制限すると30分ももたない
@@ -212,6 +267,35 @@
 ## **平均：初投稿から80.8日　投稿数：30.3**
 
 📊 **6月の万垢達成者（10名） ** (データベース)
+
+### データベース: 6月の万垢達成者（10名） 
+
+#### プロパティ（カラム）
+
+| プロパティ名 | タイプ |
+|------------|--------|
+| 投稿数 | rich_text |
+| 初投稿から何日目 | rich_text |
+| URL | url |
+| ジャンル | multi_select |
+| ステータス | multi_select |
+| クラス | title |
+
+#### レコード（10件）
+
+| クラス | 投稿数 | 初投稿から何日目 | URL | ジャンル | ステータス |
+|---|---|---|---|---|---|
+| やんけB組 | 32 | 47日 | https://www.instagram.com/yucha_patisserie?igsh=dn | レシピ | 現役生 |
+| けいD組 | 29 | 135日 | https://www.instagram.com/koto_koji_?igsh=MnUxdHMx | レシピ | 卒業生 |
+| ゆなD組 | 50 | 150日 | https://www.instagram.com/_yama.recipe?igsh=Mjd6a2 | レシピ | 現役生 |
+| はむF組 | 34 | 90日 | https://www.instagram.com/rumi_bodymake?igsh=YWN4Z | ダイエット | 現役生 |
+| タクB組 | 21 | 75日 | https://www.instagram.com/tera.security?utm_source | 教育 | 現役生 |
+| ゆきちA組 | 26 | 120日 | https://www.instagram.com/ayumi_housework/ | 暮らし | 卒業生 |
+| 腹ぺこビバークC組 | 11 | 45日 | https://www.instagram.com/chii.arrange/profilecard | 美容 | 現役生 |
+| フミB組 | 21 | 26日 | https://www.instagram.com/_aino_gohan?igsh=c2N0c21 | レシピ | 現役生 |
+| よだれ夫婦A組 | 31 | 30日 | https://www.instagram.com/tsubasa_recipe365?igsh=M | レシピ | 現役生 |
+| わかなA組 | 48 | 90日 | https://www.instagram.com/sacha_no_ouchi?igsh=OWpy | 暮らし | 現役生 |
+
 
 【現状の課題】
 - 既に卒業した生徒は、Discordを見ておらず、【卒業部屋】で告知したジャンル特化グルコンのリアクションは2名のみ
@@ -243,10 +327,11 @@
 
 - **１.万垢生限定のオン会・オフ会のどちらかを毎月開催**
 - 6月万垢限定オン会の開催（ジャンル、ランダム、マネタイズ別で分ける）
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
+| 参加者数（運営アカウント除外後） | 24 |
+|---|---|
+| 現役生 | 11 |
+| 卒業生 | 13 |
+
 - 7/19（土）、10/18（土）に、万垢限定オフ会in東京 を開催する
 - 9/6（土）〜9/7（日）、SnsClub合宿の開催
 - 8月、9月、11月、12月は万垢限定オン会
@@ -290,4 +375,4 @@
   - 📊 6月の万垢達成者（10名）
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-17 22:41*

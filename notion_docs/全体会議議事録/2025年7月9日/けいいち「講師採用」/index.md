@@ -2,7 +2,7 @@
 
 **種類**: 📄 ページ
 **階層**: 3
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-17 22:41
 
 ---
 
@@ -20,11 +20,11 @@
 
 ## 内訳
 **新規講師採用：****19名（内オフライン2名、専属2名）**
-![](../../../../notion_images/全体会議議事録/2025年7月9日/けいいち「講師採用」/image_001_6ffc98c6.png)
+![](../../../notion_images/img_79e2b8fcb3b7.png)
 ※オフラインが赤色、専属は紫色
 
 **既存講師からのオフライン採用：2****名**
-![](../../../../notion_images/全体会議議事録/2025年7月9日/けいいち「講師採用」/image_002_fdd8e58d.png)
+![](../../../notion_images/img_b405838ec827.png)
 <details>
 <summary>詳細</summary>
 [https://docs.google.com/spreadsheets/d/1IC45cQL4vVP7wpYVHyGG_PbRF4BptfcZ2Vpz1AyNKvI/edit?gid=1556466860#gid=1556466860](https://docs.google.com/spreadsheets/d/1IC45cQL4vVP7wpYVHyGG_PbRF4BptfcZ2Vpz1AyNKvI/edit?gid=1556466860#gid=1556466860)
@@ -55,8 +55,8 @@ DM送付数：844件
 採用数　　：10件（47.6％）
 
 ### 【カイシャイン経由】
-![](../../../../notion_images/全体会議議事録/2025年7月9日/けいいち「講師採用」/image_003_e90265c2.png)
-![](../../../../notion_images/全体会議議事録/2025年7月9日/けいいち「講師採用」/image_005_00bd56eb.png)
+![](../../../notion_images/img_6f5ce6a55722.png)
+![](../../../notion_images/img_b5ddd84e1a2c.png)
 <details>
 <summary>内訳</summary>
 やってみたいタップ数：44件
@@ -158,11 +158,11 @@ KFFを受けて、同じ失敗を繰り返さないためにどうするべき�
 
 募集ストーリー
 ↓
-![](../../../../notion_images/全体会議議事録/2025年7月9日/けいいち「講師採用」/image_005_00bd56eb.png)
+![](../../../notion_images/img_eb607ce27e55.png)
 
 送信文章
 ↓
-![](../../../../notion_images/全体会議議事録/2025年7月9日/けいいち「講師採用」/image_006_81d56c8b.png)
+![](../../../notion_images/img_6bc21370fba8.png)
 ### 要因
 - 募集ストーリーの範囲が広すぎたため、業務内容が十分に伝わらなかった
 - 「単発タスクだと思っていた」「マネタイズの支援がしたい」などサービスへの解像度が低いケースが散見した
@@ -184,7 +184,7 @@ KFFを受けて、同じ失敗を繰り返さないためにどうするべき�
 ## 目標
 ### オンライン講師：10名
 ### オフライン講師：1名
-![](../../../../notion_images/全体会議議事録/2025年7月9日/けいいち「講師採用」/image_007_e7b48f76.png)
+![](../../../notion_images/img_dfe3f447a15b.png)
 
 
 7月採用は9月ローンチ実施
@@ -246,4 +246,4 @@ KFFを受けて、同じ失敗を繰り返さないためにどうするべき�
 (子要素なし)
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-17 22:41*

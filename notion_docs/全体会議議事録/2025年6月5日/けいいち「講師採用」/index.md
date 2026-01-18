@@ -2,7 +2,7 @@
 
 **種類**: 📄 ページ
 **階層**: 3
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-17 22:41
 
 ---
 
@@ -22,24 +22,25 @@
 ### オフライン講師採用：1名
 ## 結果
 ### 講師採用：13名（内オフライン3名）→達成
-![](../../../../notion_images/全体会議議事録/2025年6月5日/けいいち「講師採用」/image_001_886120fc.png)
+![](../../../notion_images/img_3db61cdece03.png)
 ※オフラインが赤色
 <details>
 <summary>採用講師内訳</summary>
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| Minori | 10万人 | https://www.instagram.com/little_littlekitchen |
+|---|---|---|
+| たびむら | 3.7万人 | https://www.instagram.com/tabimura_kansai?igsh=MWUyb2JyNDJxeGV1bw%3D%3D&utm_source=qr |
+| 吉野周平 | 4.1万人 | https://www.instagram.com/torimune_muscle14/?hl=ja |
+| Kelly【メンディー兄貴】 | 16.2万人 | https://www.instagram.com/kelly99igwe/ |
+| たつみ | 2.7万人 | https://www.instagram.com/tatsumi_lifestory/ |
+| カナノ | 3.8万人 | https://www.instagram.com/saitama_kanano |
+| ハム | 4.6万人 | https://www.instagram.com/hamu__gohan?igsh=MWEwN3hqY2o1dDBqNA%3D%3D&utm_source=qr |
+| まっつん | 4.2万人 | https://www.instagram.com/yuki_01220/profilecard/?igsh=MWV5cXpnaml0b2tkOQ== |
+| ゆの | 2.8万人 | https://www.instagram.com/yuno_diet_bodymake?igsh=a2QydGdxYnN6bHph&utm_source=qr |
+| あおい | 2.2万人 | https://www.instagram.com/kanako_gourmet_?igsh=MWRxbjZoMWZvbTFpaA%3D%3D&utm_source=qr |
+| ジョー | 8.6万人 | https://www.instagram.com/jo_body_link?igsh=MXh6NHZ1a2pkczU2eA%3D%3D&utm_source=qr |
+| リツヤ | 4.5万人 | https://lit.link/ritsuyayuueki |
+| ひなたく（専属） | 20.2万人 | https://www.instagram.com/hinameshi_?igsh=cHJ5dW1iOG5rYmo1 |
+
 ---
 
 ### 【DM営業経由】
@@ -68,7 +69,7 @@ DM送付数：1198件
 採用数　　：10人（29％）
 
 ### 【FCチャンネル経由】
-![](../../../../notion_images/全体会議議事録/2025年6月5日/けいいち「講師採用」/image_002_a4ab8d01.png)
+![](../../../notion_images/img_f0c2f3ec48ca.png)
 [https://youtu.be/PbowAqGAZco?si=j1RrVubndTkphYfi](https://youtu.be/PbowAqGAZco?si=j1RrVubndTkphYfi)
 <details>
 <summary>内訳</summary>
@@ -140,7 +141,7 @@ KFFを受けて、同じ失敗を繰り返さないためにどうするべき�
 ---
 ## 目標
 ### 講師採用：10名
-![](../../../../notion_images/全体会議議事録/2025年6月5日/けいいち「講師採用」/image_003_52213591.png)
+![](../../../notion_images/img_fdb970d3cc69.png)
 ※各月9人新規採用で計算→予想流入数（新規）の箇所
 
 6月採用は8月ローンチ実施
@@ -175,4 +176,4 @@ KFFを受けて、同じ失敗を繰り返さないためにどうするべき�
 (子要素なし)
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-17 22:41*

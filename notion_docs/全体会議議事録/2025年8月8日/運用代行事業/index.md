@@ -2,7 +2,7 @@
 
 **種類**: 📄 ページ
 **階層**: 3
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-17 22:41
 
 ---
 
@@ -30,12 +30,13 @@
 [https://docs.google.com/presentation/d/1jV7CtVzJp-zwxgADpUowKBSe1IDQPWNL_dEu67oTFTM/edit?slide=id.g373bfc57d99_2_35#slide=id.g373bfc57d99_2_35](https://docs.google.com/presentation/d/1jV7CtVzJp-zwxgADpUowKBSe1IDQPWNL_dEu67oTFTM/edit?slide=id.g373bfc57d99_2_35#slide=id.g373bfc57d99_2_35)
 
 
-[テーブル]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
-[table_row]
+| セクション | 内容 | 伝え方のポイント |
+|---|---|---|
+| ① 先月のハイライト | 最もインパクトが大きかった成果を1～2点短いキャッチコピーで記載してください | “○○キャンペーンで売上＋18%達成”という感じ |
+| ② 目標と結果 | 先月設定した目標とその結果を記載してください | 達成は赤色、未達は青色で表現してください |
+| ③ 達成/未達 要因分析 | 目標の達成要因、未達要因をそれぞれ記載してください |  |
+| ⑤ 今月の目標とアクション | 今月のアクションについて” いつまでに・何をするか” で宣言してください |  |
+
 
 
 ---
@@ -45,4 +46,4 @@
 (子要素なし)
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-17 22:41*

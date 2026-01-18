@@ -2,7 +2,7 @@
 
 **種類**: 📄 ページ
 **階層**: 3
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-17 22:41
 
 ---
 
@@ -12,12 +12,43 @@
 ---
 
 📊 **Untitled** (データベース)
+
+### データベース: Untitled
+
+(データベース情報を取得できませんでした)
+
 # KSF・転用AP
 
 ## ◆結果
 ## **クーリングオフ率　****4.33%****　＜（1月〜4月平均：5.54%）　****達成**
 - クーリングオフ人数：**9人**　/     成約人数：**208人　（5月〜6月3日）**
 📊 **クーリングオフ要因** (データベース)
+
+### データベース: クーリングオフ要因
+
+#### プロパティ（カラム）
+
+| プロパティ名 | タイプ |
+|------------|--------|
+| 原因カテゴリ | multi_select |
+| 入学式 | multi_select |
+| タイミング | multi_select |
+| 理由 | title |
+
+#### レコード（9件）
+
+| 理由 | 原因カテゴリ | 入学式 | タイミング |
+|---|---|---|---|
+| 諸事情 | 生徒 | 未申込 | クラス案内後 |
+| 母の病気の治療へのサポートもあり、大切な時期なので半年間つぎ込むのにも厳しいタイミング | 生徒 | 参加 | スターター中 |
+| 上手くいかなかった時の金額のリスクが大きいなと思ってしまいました | 運営 | 未申込 | クラス案内後 |
+| 個々に合わせた添削をして頂けるような厳しい環境に身を置こうと思い、解約 | 運営, 講師 | 申込まで | スターター中 |
+| 入金後のスクール運営の進行がとても早く、どれが最初で最優先なのか混乱する事がありました。 | 運営 | 申込まで | スターター中 |
+| 「現状は1日1回の対応が基本」1日1投稿を目指したい」と本気で取り組んでいる中で、添削のサイクルが機 | 運営, 講師 | 未申込 | スターター中 |
+| パートナーと話し合った結果今回は諦めることにしました | 生徒 | 未申込 | 入会金まで |
+| 月々の支払いが難しくなってしまいました… | 生徒 | 未申込 | スターター中 |
+| 当初予定していた時間の確保が難しくなったため、継続が困難と判断 | 生徒 | 申込まで | クラス案内後 |
+
 ## ◆要因
 - 入学式の毎日開催を導入したこと
 - Discord入室完了後に入学式案内
@@ -27,13 +58,13 @@
 - 入学式参加による、仲間とのつながりで不安の払拭がされた（下記アンケート参照）
 <details>
 <summary>入学式の満足度（平均4.64 / 5点）</summary>
-![](../../../../notion_images/全体会議議事録/2025年6月5日/あかね「CS」/image_001_9d9f57f5.png)
+![](../../../notion_images/img_2622e95b0d19.png)
 <details>
 <summary>半年間やりきろうと思えたか　（平均4.82 / 5点）</summary>
-![](../../../../notion_images/全体会議議事録/2025年6月5日/あかね「CS」/image_002_04f39e82.png)
+![](../../../notion_images/img_554db3d9843f.png)
 <details>
 <summary>やることの全体像はつかめたか　（平均4.57 / 5点）</summary>
-![](../../../../notion_images/全体会議議事録/2025年6月5日/あかね「CS」/image_003_ff0f4570.png)
+![](../../../notion_images/img_5d3437c05681.png)
 
 
 **※入学式アンケート回答　**[**https://docs.google.com/forms/d/1eJtSNzoperKh9eQ0orJ3M3URb-hXwmdskJGkvuo5cuQ/edit#responses**](https://docs.google.com/forms/d/1eJtSNzoperKh9eQ0orJ3M3URb-hXwmdskJGkvuo5cuQ/edit#responses)
@@ -66,25 +97,67 @@
 ## **万垢率　5月****11.9%****　＞　4月14.2%　****未達**
 **5月万垢達成者　19名うち（卒業生4名 / 現役生15名）**
 📊 **万垢達成者** (データベース)
+
+### データベース: 万垢達成者
+
+#### プロパティ（カラム）
+
+| プロパティ名 | タイプ |
+|------------|--------|
+| 初回HRから何日目 | rich_text |
+| URL | url |
+| ジャンル | multi_select |
+| ステータス | multi_select |
+| 名前 | title |
+
+#### レコード（19件）
+
+| 名前 | 初回HRから何日目 | URL | ジャンル | ステータス |
+|---|---|---|---|---|
+| けーちゃんB組 | 卒業済み | https://www.instagram.com/chii_saienlife?igsh=cjkz | 暮らし | 卒業生 |
+| ノアD組 | 卒業済み | https://www.instagram.com/tsuka_iphone?igsh=MW56bD | ガジェット | 卒業生 |
+| はむF組 | 223 | https://www.instagram.com/okinawa_yunatsu | スポット | 現役生 |
+| すいA組 | 108 | https://www.instagram.com/koyuki_kitsuke_kimono?ig | ファッション | 現役生 |
+| ぶっちA組 | 77 | https://www.instagram.com/miki_gohannn/ | レシピ | 現役生 |
+| ゆなG組 | 131 | https://www.instagram.com/nao_diet_gohan | ダイエット | 現役生 |
+| いけちゃんA組 | 卒業済み | https://www.instagram.com/sana_tanosii | 子育て | 卒業生 |
+| はるB組 | 165 | https://www.instagram.com/izumi_diet_recipe?igsh=Y | レシピ | 現役生 |
+| タクA組 | 181（5月卒業） | https://www.instagram.com/reekun_otumami | レシピ | 現役生 |
+| まろB組 | 250（5月卒業） | https://www.instagram.com/mikepon113kg_tabeyase?ig | ダイエット | 現役生 |
+| ゆなE組 | 159 | https://www.instagram.com/shiga_chan_diet/ | ダイエット | 現役生 |
+| ふみやG組 | 112 | https://www.instagram.com/bakunobi_bento?igsh=NXhx | レシピ | 現役生 |
+| ゆなH組 | 129 | https://www.instagram.com/miku__recipe?igsh=dXJiMm | レシピ | 現役生 |
+| はむD組 | 223 | https://www.instagram.com/haru_bodymake_?igsh=MXZy | ダイエット | 現役生 |
+| はむB組 | 卒業済み | https://www.instagram.com/haru_bodymake_?igsh=MXZy | ダイエット | 卒業生 |
+| kentaA組 | 150 | https://www.instagram.com/fuku_iekurashi?igsh=c2py | 暮らし | 現役生 |
+| ゆなE組 | 159 | https://www.instagram.com/yui_recipe02/ | レシピ | 現役生 |
+| ゆうG組 | 161 | https://www.instagram.com/hinata_kyotolife?igsh=MW | スポット | 現役生 |
+| きたごはんA組 | 152（5月卒業） | https://www.instagram.com/chanchii_mutenka?igsh=Nz | レシピ | 現役生 |
+
 **⏰平均：165日（5.4ヶ月）**
 ## ◆要因
 - 現役生
-![](../../../../notion_images/全体会議議事録/2025年6月5日/あかね「CS」/image_004_bd22d256.png)
-![](../../../../notion_images/全体会議議事録/2025年6月5日/あかね「CS」/image_005_371b1e03.png)
+![](../../../notion_images/img_94fff9d49570.png)
+![](../../../notion_images/img_d9f8c0997d6a.png)
 **💡40日＝万垢達成者の初投稿までの平均　中央値→30**
 - 卒業時に30投稿している率の低下
 →地域別、フォロワー別部屋の作成で交流・相談・オン会機会作り
 →ジャンル特化グルコンの導入で、他講師からも質問を受けられる機会作り
 📊 **Untitled** (データベース)
 
+### データベース: Untitled
+
+(データベース情報を取得できませんでした)
+
+
 
 - 卒業生
 - 卒業後に、スクラブを活用できていない
 <details>
 <summary>卒業部屋の現状</summary>
-![](../../../../notion_images/全体会議議事録/2025年6月5日/あかね「CS」/image_006_183cabfc.png)
-![](../../../../notion_images/全体会議議事録/2025年6月5日/あかね「CS」/image_007_6435644b.png)
-![](../../../../notion_images/全体会議議事録/2025年6月5日/あかね「CS」/image_008_c9e3ac72.png)
+![](../../../notion_images/img_131501e273f5.png)
+![](../../../notion_images/img_5d84a2f003ac.png)
+![](../../../notion_images/img_c86139542ff9.png)
 
 ## ◆改善AP
 - ジャンル特化グルコンなどのスクラブオンラインイベントは、卒業部屋でも周知する
@@ -136,4 +209,4 @@
   - 📊 Untitled
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-17 22:41*

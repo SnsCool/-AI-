@@ -2,7 +2,7 @@
 
 **種類**: 📄 ページ
 **階層**: 3
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-17 22:41
 
 ---
 
@@ -23,7 +23,7 @@
 ### 勉強会申し込み率：33％
 
 ローンチ実施講師数：14人
-![](../../../../notion_images/全体会議議事録/2024年5月8日/村松「講師マネージャー」/image_001_fe0fb82e.png)
+![](../../../notion_images/img_a42316967afe.png)
 
 各講師ごとの細かい数値はこちらに記載しております↓
 [https://docs.google.com/spreadsheets/d/1Ozpi1iHwWOxx0kGBgvReKkzCy8ERMA-YJVZsDLwrDB8/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1Ozpi1iHwWOxx0kGBgvReKkzCy8ERMA-YJVZsDLwrDB8/edit?usp=sharing)
@@ -66,4 +66,4 @@ LINE流入：5645件
 (子要素なし)
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-17 22:41*
