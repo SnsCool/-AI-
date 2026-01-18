@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from 'react'
 import { useParams, useRouter } from 'next/navigation'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import Header from '@/components/Header'
 
 interface AssociatedContent {
@@ -142,8 +144,10 @@ export default function NotionDocDetailPage() {
               <h3 className="font-medium text-gray-700">メインドキュメント</h3>
             </div>
             <div className="p-4 max-h-[600px] overflow-y-auto">
-              <div className="prose prose-sm max-w-none whitespace-pre-wrap text-gray-700">
-                {doc.content}
+              <div className="prose prose-sm max-w-none text-gray-700">
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                  {doc.content}
+                </ReactMarkdown>
               </div>
             </div>
           </div>
@@ -265,8 +269,10 @@ export default function NotionDocDetailPage() {
                   {selectedContent.title && (
                     <h4 className="font-medium text-gray-800 mb-3">{selectedContent.title}</h4>
                   )}
-                  <div className="prose prose-sm max-w-none whitespace-pre-wrap text-gray-700 font-mono text-xs leading-relaxed">
-                    {selectedContent.content}
+                  <div className="prose prose-sm max-w-none text-gray-700">
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                      {selectedContent.content}
+                    </ReactMarkdown>
                   </div>
                 </div>
               ) : (
