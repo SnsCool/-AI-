@@ -81,6 +81,138 @@ def get_database_info(database_id):
     url = f"https://api.notion.com/v1/databases/{database_id}"
     return api_request(url)
 
+def query_database(database_id):
+    """データベースの全レコードを取得"""
+    all_results = []
+    has_more = True
+    start_cursor = None
+
+    while has_more:
+        url = f"https://api.notion.com/v1/databases/{database_id}/query"
+        data = {"page_size": 100}
+        if start_cursor:
+            data["start_cursor"] = start_cursor
+
+        result = api_request(url, method='POST', data=data)
+        if not result:
+            break
+
+        all_results.extend(result.get('results', []))
+        has_more = result.get('has_more', False)
+        start_cursor = result.get('next_cursor')
+
+    return all_results
+
+def database_entry_to_markdown(entry):
+    """データベースエントリをMarkdownに変換"""
+    props = entry.get('properties', {})
+    md_parts = []
+
+    # タイトルプロパティを探す
+    title = ""
+    for prop_name, prop_value in props.items():
+        prop_type = prop_value.get('type', '')
+
+        if prop_type == 'title':
+            title_array = prop_value.get('title', [])
+            title = rich_text_to_markdown(title_array) or "(無題)"
+            break
+
+    if title:
+        md_parts.append(f"### {title}")
+
+    # その他のプロパティ
+    for prop_name, prop_value in props.items():
+        prop_type = prop_value.get('type', '')
+        value = ""
+
+        if prop_type == 'title':
+            continue  # 既に処理済み
+        elif prop_type == 'rich_text':
+            value = rich_text_to_markdown(prop_value.get('rich_text', []))
+        elif prop_type == 'number':
+            value = str(prop_value.get('number', ''))
+        elif prop_type == 'select':
+            select = prop_value.get('select')
+            value = select.get('name', '') if select else ''
+        elif prop_type == 'multi_select':
+            values = [s.get('name', '') for s in prop_value.get('multi_select', [])]
+            value = ', '.join(values)
+        elif prop_type == 'date':
+            date = prop_value.get('date')
+            if date:
+                value = date.get('start', '')
+                if date.get('end'):
+                    value += f" → {date.get('end')}"
+        elif prop_type == 'checkbox':
+            value = "✅" if prop_value.get('checkbox') else "☐"
+        elif prop_type == 'url':
+            url = prop_value.get('url', '')
+            value = f"[リンク]({url})" if url else ''
+        elif prop_type == 'email':
+            value = prop_value.get('email', '')
+        elif prop_type == 'phone_number':
+            value = prop_value.get('phone_number', '')
+        elif prop_type == 'status':
+            status = prop_value.get('status')
+            value = status.get('name', '') if status else ''
+        elif prop_type == 'people':
+            people = prop_value.get('people', [])
+            names = [p.get('name', 'Unknown') for p in people]
+            value = ', '.join(names)
+        elif prop_type == 'files':
+            files = prop_value.get('files', [])
+            file_links = []
+            for f in files:
+                name = f.get('name', 'ファイル')
+                url = f.get('file', {}).get('url') or f.get('external', {}).get('url', '')
+                if url:
+                    file_links.append(f"[{name}]({url})")
+            value = ', '.join(file_links)
+        elif prop_type == 'formula':
+            formula = prop_value.get('formula', {})
+            formula_type = formula.get('type', '')
+            if formula_type == 'string':
+                value = formula.get('string', '')
+            elif formula_type == 'number':
+                value = str(formula.get('number', ''))
+            elif formula_type == 'boolean':
+                value = "✅" if formula.get('boolean') else "☐"
+        elif prop_type == 'relation':
+            relations = prop_value.get('relation', [])
+            value = f"({len(relations)}件の関連)"
+        elif prop_type == 'rollup':
+            rollup = prop_value.get('rollup', {})
+            rollup_type = rollup.get('type', '')
+            if rollup_type == 'array':
+                value = f"({len(rollup.get('array', []))}件)"
+            else:
+                value = str(rollup.get(rollup_type, ''))
+
+        if value:
+            md_parts.append(f"- **{prop_name}**: {value}")
+
+    return '\n'.join(md_parts) + '\n'
+
+def fetch_database_content(database_id, title):
+    """データベースの全内容をMarkdownで取得"""
+    entries = query_database(database_id)
+
+    if not entries:
+        return f"[データベース: {title}]\n\n(レコードなし)"
+
+    md_parts = [f"[データベース: {title}]\n"]
+    md_parts.append(f"**レコード数**: {len(entries)}件\n")
+    md_parts.append("---\n")
+
+    for i, entry in enumerate(entries, 1):
+        entry_md = database_entry_to_markdown(entry)
+        if entry_md.strip():
+            md_parts.append(entry_md)
+            md_parts.append("")  # 空行
+
+    return '\n'.join(md_parts)
+
 def rich_text_to_markdown(rich_text_array):
     """Notion rich_text を Markdown に変換"""
     if not rich_text_array:
@@ -301,12 +433,15 @@ def fetch_hierarchy_with_content(page_id, depth=0, max_depth=7, visited=None, pa
             title = block.get('child_database', {}).get('title', 'Untitled')
             print(f"{'  ' * depth}📊 {title}", flush=True)
 
+            # データベースの全レコードを取得
+            db_content = fetch_database_content(block_id, title)
+
             node = {
                 'id': block_id,
                 'name': title.strip(),
                 'type': 'database',
                 'depth': depth,
-                'content': f"[データベース: {title}]",
+                'content': db_content,
                 'path': f"{parent_path}/{sanitize_filename(title)}" if parent_path else sanitize_filename(title),
                 'children': []
             }
