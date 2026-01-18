@@ -11,5 +11,11 @@
   "note": "Loom動画の文字起こしにはLoom Developer APIが必要です",
   "ai_summary": "最近、契約書に関する質問にうまく答えられない方が多いという声を受けて、各自が返信できるようなGPT図を作成しました。この動画では、その使い方を説明しています。お客様からの質問を入力し、該当コースを選ぶことで、適切な検診文が生成されます。文章のトーンも選べるので、お客様との関係性に応じて調整してください。ぜひ、活用してみてください。",
   "transcribed_at": "2026-01-18T15:19:21.161818",
-  "transcription_method": "loom_whisper"
+  "transcription_method": "loom_whisper",
+  "notion_locations": [
+    {
+      "path": "営業ポータル/契約書について質問があった場合",
+      "context": "「GPT図」を活用することで、回答の標準化および業務効率化が可能となります。各担当者におかれましては積極的な利用をお願いします。\n【GPTs】\n[https://chatgpt.com/g/g-68440096552881919cf030b02e0a75d2-qi-yue-shu-zhi-wen-sahotagpt-snsclubyong](https://chatgpt.com/g/g-68440096552881919cf030b02e0a75d2-qi-yue-shu-zhi-wen-sahotagpt-snsclubyong)\n【説明動画】\n[https://www.loom.com/share/b1907376b5674df288f614c462b8253b?sid=2fa6bd10-7488-4c8d-9ce2-cc9617c98092](https://www.loom.com/share/b1907376b5674df288f614c462b8253b?sid=2fa6bd10-7488-4c8d-9ce2-cc9617c98092)"
+    }
+  ]
 }

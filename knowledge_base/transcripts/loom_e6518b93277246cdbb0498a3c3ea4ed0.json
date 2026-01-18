@@ -11,5 +11,11 @@
   "note": "Loom動画の文字起こしにはLoom Developer APIが必要です",
   "ai_summary": "はい、こちらのテレクション動画では、会社員の副業に関する広告動画の作成についてお話ししています。具体的には、フックの部分で「参加しないと損します」というメッセージを3種類作成してほしいとお願いしています。また、勉強会に参加した人数や成果についての具体的なデータも共有しました。特に、3万人以上が参加し、200人以上が1万人フォロワーを達成したという数字を使ってください。最後に、無料勉強会の期間限定の情報も必ず盛り込んでください。",
   "transcribed_at": "2026-01-18T15:17:08.831568",
-  "transcription_method": "loom_whisper"
+  "transcription_method": "loom_whisper",
+  "notion_locations": [
+    {
+      "path": "UGC/週次会議資料/1_13",
+      "context": "---\n[https://www.loom.com/share/a53bf03c38f24e55b11b3bf677338586](https://www.loom.com/share/a53bf03c38f24e55b11b3bf677338586)\n---\n[https://www.loom.com/share/89d83ee1c6034702bd76bf962d82e8b4](https://www.loom.com/share/89d83ee1c6034702bd76bf962d82e8b4)\n---"
+    }
+  ]
 }

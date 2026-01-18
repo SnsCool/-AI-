@@ -8,5 +8,11 @@
   ],
   "processed_at": "2026-01-18T13:49:53.302808",
   "transcript": null,
-  "note": "Loom動画の文字起こしにはLoom Developer APIが必要です"
+  "note": "Loom動画の文字起こしにはLoom Developer APIが必要です",
+  "notion_locations": [
+    {
+      "path": "CS部/📍SnsClub運営LINE対応フロー",
+      "context": "◾️手順ムービー\n[Video: https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/02bc61a9-8432-4790-8109-b6676f2412f7/ScreenRecording_09-23-2025_18-51-09_1.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z4UL7A6F%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T002223Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJIMEYCIQDD3izbjURuB2b2uuWRoCFiVIvSq2PGAGRKWKPvo4NgQgIhAPTInw"
+    }
+  ]
 }

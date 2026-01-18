@@ -11,5 +11,11 @@
   "note": "Loom動画の文字起こしにはLoom Developer APIが必要です",
   "ai_summary": "こちらの動画では、参考にしたショート動画をもとに、全体の構成や内容についてのディレクションを行いました。特に、インスタを始めて収入が上がったというテーマに沿って、Vlogのスタイルで生活を見せることが重要です。また、3種類のフックを用意することや、自分のルーティンをシェアすることを意識してください。最後に、興味がある方は勉強会に申し込むように促していますので、ぜひコメントでお知らせください。",
   "transcribed_at": "2026-01-18T15:16:58.107430",
-  "transcription_method": "loom_whisper"
+  "transcription_method": "loom_whisper",
+  "notion_locations": [
+    {
+      "path": "UGC/週次会議資料/1_13",
+      "context": "### ディレクション\n<details>\n<summary>ディレクション動画一覧</summary>\n[https://www.loom.com/share/d3981b6fa35b48d3b8ba1c1aeb476ba2](https://www.loom.com/share/d3981b6fa35b48d3b8ba1c1aeb476ba2)\n---"
+    }
+  ]
 }

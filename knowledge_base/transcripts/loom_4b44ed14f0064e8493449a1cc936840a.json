@@ -11,5 +11,11 @@
   "note": "Loom動画の文字起こしにはLoom Developer APIが必要です",
   "ai_summary": "はい、こちらの動画では2026年にSNSを活用して副業を始める方に向けて、注意点や勉強会の内容をお伝えしています。特に、SNSを教えているサービスの中には実績が伴わないものも多いので、慎重に選ぶことが重要です。この勉強会では、実際に成功している講師から学べる貴重な機会を提供しますので、ぜひ参加してみてください。具体的には、フォロワーを増やし、安定した収入を得るための方法を分かりやすくお伝えします。参加希望の方は、勉強会の日程を確認しておいてくださいね。",
   "transcribed_at": "2026-01-18T15:17:22.328907",
-  "transcription_method": "loom_whisper"
+  "transcription_method": "loom_whisper",
+  "notion_locations": [
+    {
+      "path": "UGC/週次会議資料/1_13",
+      "context": "---\n[https://www.loom.com/share/57de56d5929c413ba3925d3cedec879e](https://www.loom.com/share/57de56d5929c413ba3925d3cedec879e)\n---\n[https://www.loom.com/share/89d83ee1c6034702bd76bf962d82e8b4](https://www.loom.com/share/89d83ee1c6034702bd76bf962d82e8b4)\n---"
+    }
+  ]
 }

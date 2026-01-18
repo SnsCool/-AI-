@@ -11,5 +11,11 @@
   "note": "Loom動画の文字起こしにはLoom Developer APIが必要です",
   "ai_summary": "はい、こちらのデレクション動画では、55歳以上の方を対象にした広告動画の作成についてお話ししています。具体的には、55歳以上から40歳以上にターゲットを変更し、内容を調整することをお願いしています。また、勉強会の告知も含めて、初心者向けであることや無料であることを強調してほしいです。動画の内容を参考にしながら、素材をおしゃれに仕上げていただけると嬉しいです。最後に、興味を持った方はプロフィルからお申し込みをお願いします。",
   "transcribed_at": "2026-01-18T15:19:12.150181",
-  "transcription_method": "loom_whisper"
+  "transcription_method": "loom_whisper",
+  "notion_locations": [
+    {
+      "path": "UGC/週次会議資料/1_13",
+      "context": "<summary>ディレクション動画一覧</summary>\n[https://www.loom.com/share/d3981b6fa35b48d3b8ba1c1aeb476ba2](https://www.loom.com/share/d3981b6fa35b48d3b8ba1c1aeb476ba2)\n---\n[https://www.loom.com/share/6bebdb34983047e8993e909b73b225c3](https://www.loom.com/share/6bebdb34983047e8993e909b73b225c3)\n---"
+    }
+  ]
 }

@@ -11,5 +11,11 @@
   "note": "Loom動画の文字起こしにはLoom Developer APIが必要です",
   "ai_summary": "このデレクション動画では、国国動画の作成についての全体感や具体的な内容をお伝えします。特に、インスタグラムを活用して収入を得る方法について、私の経験を基にしたストーリーを作成してほしいと思っています。また、勉強会の内容や参加方法についても触れ、無料で期間限定の勉強会に参加することをお勧めします。最後に、本気で人生を変えたい方はぜひ申し込んでみてください。",
   "transcribed_at": "2026-01-18T15:17:04.380181",
-  "transcription_method": "loom_whisper"
+  "transcription_method": "loom_whisper",
+  "notion_locations": [
+    {
+      "path": "UGC/週次会議資料/1_13",
+      "context": "---\n[https://www.loom.com/share/89d83ee1c6034702bd76bf962d82e8b4](https://www.loom.com/share/89d83ee1c6034702bd76bf962d82e8b4)\n---\n[https://www.loom.com/share/e6518b93277246cdbb0498a3c3ea4ed0](https://www.loom.com/share/e6518b93277246cdbb0498a3c3ea4ed0)\n---"
+    }
+  ]
 }

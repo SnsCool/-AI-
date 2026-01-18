@@ -11,5 +11,15 @@
   "note": "Loom動画の文字起こしにはLoom Developer APIが必要です",
   "ai_summary": "はい、こちらのディレクション動画では、広告動画作成の全体感や冒頭のフックについてお話ししました。特に、2026年から副業を始める人に向けての重要なメッセージを伝え、今がインスタグラム副業を始めるベストタイミングであることを強調しました。また、無料勉強会の参加をお勧めし、具体的に得られるメリットを訴求しましたので、ぜひ下のリンクから参加してみてください。動画の締めくくりとして、勉強会の期間限定の申し込みを促しています。",
   "transcribed_at": "2026-01-18T15:16:55.637496",
-  "transcription_method": "loom_whisper"
+  "transcription_method": "loom_whisper",
+  "notion_locations": [
+    {
+      "path": "UGC/週次会議資料/1_13",
+      "context": "---\n[https://www.loom.com/share/6bebdb34983047e8993e909b73b225c3](https://www.loom.com/share/6bebdb34983047e8993e909b73b225c3)\n---\n[https://www.loom.com/share/a53bf03c38f24e55b11b3bf677338586](https://www.loom.com/share/a53bf03c38f24e55b11b3bf677338586)\n---"
+    },
+    {
+      "path": "UGC/週次会議資料/1_13",
+      "context": "---\n[https://www.loom.com/share/e6518b93277246cdbb0498a3c3ea4ed0](https://www.loom.com/share/e6518b93277246cdbb0498a3c3ea4ed0)\n---\n[https://www.loom.com/share/57de56d5929c413ba3925d3cedec879e](https://www.loom.com/share/57de56d5929c413ba3925d3cedec879e)\n---"
+    }
+  ]
 }

@@ -11,5 +11,11 @@
   "note": "Loom動画の文字起こしにはLoom Developer APIが必要です",
   "ai_summary": "このディレクション動画では、主にお子様を持つ主婦の方々に向けた広告動画の作成方法についてお話ししました。冒頭のフックとして、専業主婦でも先月のお小遣いが8万2500円だったという内容を3種類作成してほしいとお願いしました。また、子供の成長を見守るためにインスタを始めた理由や、在宅での仕事についても触れました。最後に、私が未経験からインスタを始めた経緯や勉強会の重要性を伝え、参加希望者にはリンクからホームページを見てほしいと締めくくりました。",
   "transcribed_at": "2026-01-18T15:16:37.847266",
-  "transcription_method": "loom_whisper"
+  "transcription_method": "loom_whisper",
+  "notion_locations": [
+    {
+      "path": "UGC/週次会議資料/1_13",
+      "context": "---\n[https://www.loom.com/share/9f8dcc1bed1b4188aea55a22613cfdf7](https://www.loom.com/share/9f8dcc1bed1b4188aea55a22613cfdf7)\n---\n[https://www.loom.com/share/5fca406f76924b369784b3706e174b18](https://www.loom.com/share/5fca406f76924b369784b3706e174b18)\n---"
+    }
+  ]
 }

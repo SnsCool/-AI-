@@ -11,5 +11,11 @@
   "note": "Loom動画の文字起こしにはLoom Developer APIが必要です",
   "ai_summary": "こちらのデレクション動画では、40代初心者がインスタグラムを1年間頑張った結果をもとに、動画作成の全体感やフックの作り方についてお伝えしました。特に、3種類のフックを作成することをお願いしています。動画は、1ヶ月目から12ヶ月目までの成長を描き、理想の未来を見せる内容になっていますので、ぜひ参考にしてください。また、最後に勉強会の参加を促す内容も含まれており、初心者向けの情報を提供していますので、参加を検討してください。",
   "transcribed_at": "2026-01-18T15:17:00.231559",
-  "transcription_method": "loom_whisper"
+  "transcription_method": "loom_whisper",
+  "notion_locations": [
+    {
+      "path": "UGC/週次会議資料/1_13",
+      "context": "---\n[https://www.loom.com/share/4b44ed14f0064e8493449a1cc936840a](https://www.loom.com/share/4b44ed14f0064e8493449a1cc936840a)\n---\n[https://www.loom.com/share/9f8dcc1bed1b4188aea55a22613cfdf7](https://www.loom.com/share/9f8dcc1bed1b4188aea55a22613cfdf7)\n---"
+    }
+  ]
 }

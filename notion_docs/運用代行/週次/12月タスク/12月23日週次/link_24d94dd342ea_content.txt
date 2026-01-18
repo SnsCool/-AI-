@@ -405,5 +405,10 @@ https://docs.google.com/document/d/1ooNxfsv2--N6A2RsI86C3nZUjNRsSEsdofttbiieXsA/
 事業計画_月次_1期目 のコピー
 事業計画_月次_1期目
 シート7 のコピー
-ブラウザのエラーが発生しました。
+ブラウザの[Google Sheets/Docs] コンテンツ取得不可
+
+> 🔒 **認証が必要なリンク**
+> このGoogle Sheets/Docsは組織内限定または非公開設定のため、内容を取得できません。
+> 閲覧にはGoogleアカウントでのログインが必要です。
+
 Shift キーを押しながら [更新] ボタンをクリックして、もう一度試してください。

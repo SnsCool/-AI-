@@ -11,5 +11,11 @@
   "note": "Loom動画の文字起こしにはLoom Developer APIが必要です",
   "ai_summary": "こちらのディレクション動画では、広告動画作成にあたっての全体感覚や具体的な構成についてお伝えします。特に、SNS副業を始めたい方に向けて、無料勉強会の参加を促す内容となっており、勉強会ではインスタグラムの最新アルゴリズムやバズ投稿の秘訣などを学べることを強調しています。また、参加しなかった場合の最悪の未来についても考えていただき、ぜひこの機会に参加してほしいとお願いしています。勉強会は期間限定で開催されるため、早めの行動をお勧めします。",
   "transcribed_at": "2026-01-18T15:18:13.476918",
-  "transcription_method": "loom_whisper"
+  "transcription_method": "loom_whisper",
+  "notion_locations": [
+    {
+      "path": "UGC/週次会議資料/1_13",
+      "context": "---\n[https://www.loom.com/share/89d83ee1c6034702bd76bf962d82e8b4](https://www.loom.com/share/89d83ee1c6034702bd76bf962d82e8b4)\n---\n[https://www.loom.com/share/4b44ed14f0064e8493449a1cc936840a](https://www.loom.com/share/4b44ed14f0064e8493449a1cc936840a)\n---"
+    }
+  ]
 }

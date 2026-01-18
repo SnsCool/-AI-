@@ -10,5 +10,15 @@
   "transcript": "この音声は音楽のみで、話し声は含まれていません。",
   "note": "字幕が利用できません",
   "transcribed_at": "2026-01-18T14:42:17.407965",
-  "transcription_method": "gemini"
+  "transcription_method": "gemini",
+  "notion_locations": [
+    {
+      "path": "CS部/【SnsClub合宿 2025】運営マニュアル/懇親会×表彰式120分のアジェンダ/表彰者情報（最新）",
+      "context": "## 🎥表彰式前の動画\n**表彰式開始**\n[audio]\n[Video: https://www.youtube.com/watch?v=kYmN06qKcSE](https://www.youtube.com/watch?v=kYmN06qKcSE)\n## **◆駒居（運営）→生徒表彰（全3名）**"
+    },
+    {
+      "path": "CS部/【SnsClub合宿 2025】運営マニュアル/懇親会×表彰式120分のアジェンダ (1)/表彰者情報",
+      "context": "## 🎥表彰式前の動画\n**表彰式開始**\n[audio]\n[Video: https://www.youtube.com/watch?v=kYmN06qKcSE](https://www.youtube.com/watch?v=kYmN06qKcSE)\n## **◆駒居（運営）→生徒表彰（全3名）**"
+    }
+  ]
 }

@@ -8,5 +8,15 @@
   ],
   "processed_at": "2026-01-18T13:50:33.830767",
   "transcript": null,
-  "note": "字幕が利用できません"
+  "note": "字幕が利用できません",
+  "notion_locations": [
+    {
+      "path": "CS部/【SnsClub合宿 2025】運営マニュアル/懇親会×表彰式120分のアジェンダ/表彰者情報（最新）",
+      "context": "[audio]\n[Video: https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/cce5467b-17ec-4343-9305-bed9d3a9a24e/IMG_7758.mov?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667RUJC2QG%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T003857Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJIMEYCIQD07gYQ%2F5pGvEj2FQXbGzXdNM5TwQPFSw4RFF%2FxHI8qsgIhAIj3cEkCZF5D%2Bk7LYWsx9zpaeZzLKE"
+    },
+    {
+      "path": "CS部/【SnsClub合宿 2025】運営マニュアル/懇親会×表彰式120分のアジェンダ (1)/表彰者情報",
+      "context": "[audio]\n[Video: https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/cce5467b-17ec-4343-9305-bed9d3a9a24e/IMG_7758.mov?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZWDQZRIM%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T003710Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJHMEUCIQDq6WQaUMotf1N9qzF1rCXR3opiLspqH%2BVYEe6BkC%2B0hQIgFSn4XyPXryM6NnQqNm4c3ExDJpWBHCq9"
+    }
+  ]
 }
