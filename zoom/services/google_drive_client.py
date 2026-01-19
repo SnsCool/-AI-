@@ -123,47 +123,76 @@ def create_transcript_doc(
     folder_id: Optional[str] = None
 ) -> str:
     """
-    文字起こしをGoogle Docsに保存（GAS経由）
+    文字起こしをGoogle Docsに保存（Google Docs API直接使用）
 
     Args:
         transcript: 文字起こしテキスト
         assignee: 担当者名
         customer_name: 顧客名
         meeting_date: 面談日
-        folder_id: 保存先フォルダID（未使用、GAS側で設定済み）
+        folder_id: 保存先フォルダID（オプション）
 
     Returns:
         Google DocsのURL
     """
-    # GAS Web Appにリクエスト送信
-    payload = {
-        "transcript": transcript,
-        "assignee": assignee,
-        "customer_name": customer_name,
-        "meeting_date": meeting_date
-    }
-
     try:
-        response = requests.post(
-            GAS_WEBAPP_URL,
-            json=payload,
-            headers={"Content-Type": "application/json"},
-            timeout=120  # 2分タイムアウト（長い文字起こしに対応）
-        )
-        response.raise_for_status()
+        credentials = get_google_credentials()
+        docs_service = build('docs', 'v1', credentials=credentials)
+        drive_service = build('drive', 'v3', credentials=credentials)
 
-        result = response.json()
+        # ドキュメントタイトル
+        title = f"【文字起こし】{customer_name}_{assignee}_{meeting_date}"
 
-        if result.get("success"):
-            doc_url = result.get("url")
-            print(f"   文字起こしDoc作成: {doc_url}")
-            return doc_url
-        else:
-            error_msg = result.get("error", "Unknown error")
-            raise Exception(f"GAS error: {error_msg}")
+        # 1. 空のドキュメントを作成
+        doc = docs_service.documents().create(body={'title': title}).execute()
+        doc_id = doc['documentId']
 
-    except requests.exceptions.RequestException as e:
-        raise Exception(f"GAS request failed: {str(e)}")
+        # 2. 文字起こし内容を挿入
+        requests_body = [
+            {
+                'insertText': {
+                    'location': {'index': 1},
+                    'text': transcript
+                }
+            }
+        ]
+        docs_service.documents().batchUpdate(
+            documentId=doc_id,
+            body={'requests': requests_body}
+        ).execute()
+
+        # 3. 権限設定（リンクを知っている全員が閲覧可能）
+        drive_service.permissions().create(
+            fileId=doc_id,
+            body={
+                'type': 'anyone',
+                'role': 'reader'
+            }
+        ).execute()
+
+        # 4. フォルダに移動（指定がある場合）
+        if folder_id:
+            # 現在の親フォルダを取得
+            file_info = drive_service.files().get(
+                fileId=doc_id,
+                fields='parents'
+            ).execute()
+            previous_parents = ",".join(file_info.get('parents', []))
+
+            # 新しいフォルダに移動
+            drive_service.files().update(
+                fileId=doc_id,
+                addParents=folder_id,
+                removeParents=previous_parents,
+                fields='id, parents'
+            ).execute()
+
+        doc_url = f"https://docs.google.com/document/d/{doc_id}/edit"
+        print(f"   文字起こしDoc作成: {doc_url}")
+        return doc_url
+
+    except Exception as e:
+        raise Exception(f"Google Docs API error: {str(e)}")
 
 
 def download_video_from_zoom(mp4_url: str, access_token: str, output_path: str) -> bool:
@@ -284,6 +313,62 @@ def copy_video_via_gas(video_file_id: str, video_title: str) -> Optional[str]:
         return None
 
 
+def extract_file_id_from_url(url: str) -> Optional[str]:
+    """
+    Google DriveのURLからファイルIDを抽出
+
+    Args:
+        url: Google DriveのURL
+
+    Returns:
+        ファイルID（抽出できない場合はNone）
+    """
+    import re
+
+    if not url:
+        return None
+
+    # https://drive.google.com/file/d/FILE_ID/view
+    match = re.search(r'/file/d/([a-zA-Z0-9_-]+)', url)
+    if match:
+        return match.group(1)
+
+    # https://drive.google.com/open?id=FILE_ID
+    match = re.search(r'[?&]id=([a-zA-Z0-9_-]+)', url)
+    if match:
+        return match.group(1)
+
+    return None
+
+
+def set_public_permission(file_id: str) -> bool:
+    """
+    ファイルを「リンクを知っている全員が閲覧可能」に設定
+
+    Args:
+        file_id: Google DriveのファイルID
+
+    Returns:
+        成功したかどうか
+    """
+    try:
+        credentials = get_google_credentials()
+        drive_service = build('drive', 'v3', credentials=credentials)
+
+        drive_service.permissions().create(
+            fileId=file_id,
+            body={
+                'type': 'anyone',
+                'role': 'reader'
+            }
+        ).execute()
+        return True
+
+    except Exception as e:
+        print(f"   権限設定エラー: {str(e)}")
+        return False
+
+
 def delete_file_from_drive(file_id: str) -> bool:
     """
     サービスアカウントのDriveからファイルを削除
@@ -338,7 +423,14 @@ def upload_video_with_copy(
     print("→ GAS経由でコピー中...")
     video_url = copy_video_via_gas(file_id, file_name)
 
-    # 3. 元ファイルを削除（コピー成功/失敗に関わらず削除して容量解放）
+    # 3. コピーされた動画を「誰でも閲覧可能」に設定
+    if video_url:
+        copied_file_id = extract_file_id_from_url(video_url)
+        if copied_file_id:
+            print("→ 公開権限を設定中...")
+            set_public_permission(copied_file_id)
+
+    # 4. 元ファイルを削除（コピー成功/失敗に関わらず削除して容量解放）
     print("→ 元ファイルを削除中...")
     delete_file_from_drive(file_id)
 
