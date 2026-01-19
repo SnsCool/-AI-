@@ -37,3 +37,5 @@ dashboard/node_modules/
 notion_docs/**/pdf_*.pdf
 .claude/settings.local.json
 scripts/*.py
+# Large video files (>100MB) - stored locally only
+*.mkv
