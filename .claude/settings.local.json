@@ -172,7 +172,12 @@
       "Bash(__NEW_LINE_a5ea307aa878ba6a__ echo \"\")",
       "Bash(# データベース/表形式の保存状況を確認 echo \"\"=== データベース形式の保存例 ===\"\" echo \"\"\"\" # index.mdの中にテーブルがあるか確認 echo \"\"【テーブル/データベースがMarkdownに含まれているか】\"\" grep -l \"\"^\\\\|\"\" /Users/hatakiyoto/-AI-egent-libvela/notion_docs/**/*.md)",
       "Bash(# 各ファイルの詳細な場所を確認 echo \"\"【1】PDF 3件 - Notionでの場所\"\" echo \"\"============================================\"\" find /Users/hatakiyoto/-AI-egent-libvela/notion_docs -name \"\"*_MISSING.txt\"\")",
-      "Bash(dirname:*)"
+      "Bash(dirname:*)",
+      "Bash(__NEW_LINE_d66cee6533ac95da__ echo \"\")",
+      "Bash(__NEW_LINE_99aab60c9974a49f__ echo \"\")",
+      "Bash(# MISSINGファイルの場所を確認 echo \"\"=== 現在のMISSINGファイル ===\"\" find /Users/hatakiyoto/-AI-egent-libvela/notion_docs -name \"\"*_MISSING.txt\"\")",
+      "Bash(# MISSINGファイルを削除 echo \"\"=== MISSINGファイルを削除 ===\"\" rm -f \"\"/Users/hatakiyoto/-AI-egent-libvela/notion_docs/TikTok Shopマネタイズ講座ローンチ/TikTok Shop Business/競合リサーチ/\"\"*_MISSING.txt rm -f \"\"/Users/hatakiyoto/-AI-egent-libvela/notion_docs/CS部/クレーム対応マニュアル/悪質クレームの最終対応/\"\"*_MISSING.txt echo \"\"✓ 削除完了\"\" echo \"\"\"\" echo \"\"=== 残りのMISSINGファイル確認 ===\"\" find /Users/hatakiyoto/-AI-egent-libvela/notion_docs -name \"\"*_MISSING.txt\"\" || echo \"\"なし\"\" echo \"\"\"\" echo \"\"=== 格納結果 ===\"\" echo \"\"TikTok Shop/競合リサーチ:\"\" ls -la \"\"/Users/hatakiyoto/-AI-egent-libvela/notion_docs/TikTok Shopマネタイズ講座ローンチ/TikTok Shop Business/競合リサーチ/\"\")",
+      "Bash(__NEW_LINE_c9befc4d8d292a9e__ echo \"\")"
     ]
   }
 }
