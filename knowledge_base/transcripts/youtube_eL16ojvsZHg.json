@@ -9,5 +9,15 @@
   "transcript": "この音声には話し言葉が含まれていません。",
   "note": "字幕が利用できません",
   "transcribed_at": "2026-01-18T14:50:44.993561",
-  "transcription_method": "gemini"
+  "transcription_method": "gemini",
+  "notion_locations": [
+    {
+      "path": "CS部/【SnsClub合宿 2025】運営マニュアル/BGMプラン (最新）",
+      "context": "## **M 06 ：懇親会中の****乾杯後ビュッフェ中・食事・歓談開始（講師紹介のスライド）**\n[Bookmark: https://www.youtube.com/watch?v=lVfIDu1GqzI&list=RDlVfIDu1GqzI&start_radio=1](https://www.youtube.com/watch?v=lVfIDu1GqzI&list=RDlVfIDu1GqzI&start_radio=1)\n## **M08 ：****受賞者**** 2位3位のおめでとうございま「す」の後に流す曲**\n[Video: https://www.youtube.com/watch?v=eL16ojvsZHg&list=RDeL16ojvsZHg&start_radio=1](https://www.youtube.com/watch?v=eL16ojvsZHg&list=RDeL16ojvsZHg&start_radio=1)\n## M09：ベスト生徒賞**のおめでとうございま「す」の後に流す曲**"
+    },
+    {
+      "path": "CS部/【SnsClub合宿 2025】運営マニュアル/BGMプラン (最新）",
+      "context": "[Bookmark: https://www.youtube.com/watch?v=r_BrGmiUGeI&list=RDr_BrGmiUGeI&start_radio=1](https://www.youtube.com/watch?v=r_BrGmiUGeI&list=RDr_BrGmiUGeI&start_radio=1)\n## **M 04 :講義でグループワーク中にBGM※うっすら**\n[Bookmark: https://www.youtube.com/watch?v=WGGfZ-5xUTo&list=RDWGGfZ-5xUTo&index=1](https://www.youtube.com/watch?v=WGGfZ-5xUTo&list=RDWGGfZ-5xUTo&index=1)\n## **M08 ：受賞者発表後に流す曲**\n[Video: https://www.youtube.com/watch?v=eL16ojvsZHg&list=RDeL16ojvsZHg&start_radio=1](https://www.youtube.com/watch?v=eL1"
+    }
+  ]
 }

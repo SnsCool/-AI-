@@ -2,15 +2,160 @@
 
 **種類**: 📄 ページ
 **階層**: 4
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-19
 
 ---
 
-## コンテンツ
+## PDFコンテンツ（テキスト抽出）
 
-📄 **文字起こし** (子ページ)
-[File: https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/5528b37e-557d-4d1f-8bd3-326dd984124a/%E4%B8%80%E7%B5%B2_%E4%BA%8B%E6%A5%AD%E6%88%A6%E7%95%A5%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%80%8C%E7%9F%A5%E8%B6%B3%E3%80%8D_%E3%83%9E%E3%83%BC%E3%82%B1%E3%82%BF%E3%83%BC%E3%81%AE%E3%83%AC%E3%83%98%E3%82%99%E3%83%AB%E5%88%A5%E3%81%AE%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2%E3%83%9E%E3%83%83%E3%83%95%E3%82%9A%E3%81%A8%E5%B8%82%E5%A0%B4%E4%BE%A1%E5%80%A4_.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UQW5IQS7%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T014117Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEkaCXVzLXdlc3QtMiJIMEYCIQC3%2B04rDa7Yehz2bQVzeaqjK4OQ7S8%2F4SkmQzzMpokQ5AIhAJL3jNql9m5bzeO7U85ASULsvVCtdDh0Ew%2FrDZxD2x8oKv8DCBIQABoMNjM3NDIzMTgzODA1IgyYQ7Y8ZMVrDbdb%2Bqoq3ANFXxScAthUWhEggEZ1jBYEO2jpr1ga0c%2BYsAm%2FMGl3iSo0wXx7NOQQDh8CKa8WYigpHXBdyu54ASUOWeefJco%2BcqiXQKJpEKgzN7PmF%2BhNf2pp9%2FUo2prcQyJQ7NtIqxKX17KmIn2Zfa4vxF%2FdZFxR9tWlxfKNiJsztyQs3UEMDEM89sO%2F0ebqFYsE9X35qbaPd7ETMHSxzm13xN3nLs9n8QvfdLAvM8NPZ4TtI3lqN2CL1DMbEzcp7wdf8IqIXG3%2FJeAkko8wqD2ww9T%2B6L1RKaDkbwp737gbtySBQfVEad%2FGom%2FePnxmp%2BapJErRnhQDd%2B3pnxU7mh5tsOdz9XOPukcZ%2ByZF3aXuqufXlIJh9jlRk1uc6JW3DsWIy7zqIZNemZZrB09%2BxDhXtNr51Ywv8visTIsDqKj9uwnvkbm6YgtDNh6gkv3b3zPiQfr6HMl3TK%2FRXUyfSi3VgS8TqBxMID3tZmbLX2COwcgIzc3Yj9ggbRLOk5vCKMQAjScSAJWBiuBW4g3cAUTsnASBcSYS1Ik%2B1XfSKCXvNLUYkB4yjJ1VbJqqyBTL65IHVgPs20nKmC7A7%2Fitlstf%2BKrtnPiaGTqICjMgW1WsypTRdGEdd9Cnut0wU6RPzD2eXzDUz5vLBjqkAVverwfMwD9A1axt0H2ncWuoH2EViyyI3TYv4eAojoGx62s18MNZyBaUZqP7NbO7fzMd8H%2BIzA2VRsnLutT1GkUVZ94IhzJxD%2F0CekZkL6qJvfUITV2kil3nBwvf4FweXZ8nt7SUUW7OmNZ6%2FV6KUXrnd%2Fc9r6aR4e7VaRiACHe436dDOP4GiybPeh0FvWjvRliLYjKuOLa6fd5huwissTez%2FYlY&X-Amz-Signature=2f7fa3f17cfb81ac0f7b1831bbe2c246bf049266ca9fae12e763eb6c608fab60&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/5528b37e-557d-4d1f-8bd3-326dd984124a/%E4%B8%80%E7%B5%B2_%E4%BA%8B%E6%A5%AD%E6%88%A6%E7%95%A5%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%80%8C%E7%9F%A5%E8%B6%B3%E3%80%8D_%E3%83%9E%E3%83%BC%E3%82%B1%E3%82%BF%E3%83%BC%E3%81%AE%E3%83%AC%E3%83%98%E3%82%99%E3%83%AB%E5%88%A5%E3%81%AE%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2%E3%83%9E%E3%83%83%E3%83%95%E3%82%9A%E3%81%A8%E5%B8%82%E5%A0%B4%E4%BE%A1%E5%80%A4_.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UQW5IQS7%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T014117Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEkaCXVzLXdlc3QtMiJIMEYCIQC3%2B04rDa7Yehz2bQVzeaqjK4OQ7S8%2F4SkmQzzMpokQ5AIhAJL3jNql9m5bzeO7U85ASULsvVCtdDh0Ew%2FrDZxD2x8oKv8DCBIQABoMNjM3NDIzMTgzODA1IgyYQ7Y8ZMVrDbdb%2Bqoq3ANFXxScAthUWhEggEZ1jBYEO2jpr1ga0c%2BYsAm%2FMGl3iSo0wXx7NOQQDh8CKa8WYigpHXBdyu54ASUOWeefJco%2BcqiXQKJpEKgzN7PmF%2BhNf2pp9%2FUo2prcQyJQ7NtIqxKX17KmIn2Zfa4vxF%2FdZFxR9tWlxfKNiJsztyQs3UEMDEM89sO%2F0ebqFYsE9X35qbaPd7ETMHSxzm13xN3nLs9n8QvfdLAvM8NPZ4TtI3lqN2CL1DMbEzcp7wdf8IqIXG3%2FJeAkko8wqD2ww9T%2B6L1RKaDkbwp737gbtySBQfVEad%2FGom%2FePnxmp%2BapJErRnhQDd%2B3pnxU7mh5tsOdz9XOPukcZ%2ByZF3aXuqufXlIJh9jlRk1uc6JW3DsWIy7zqIZNemZZrB09%2BxDhXtNr51Ywv8visTIsDqKj9uwnvkbm6YgtDNh6gkv3b3zPiQfr6HMl3TK%2FRXUyfSi3VgS8TqBxMID3tZmbLX2COwcgIzc3Yj9ggbRLOk5vCKMQAjScSAJWBiuBW4g3cAUTsnASBcSYS1Ik%2B1XfSKCXvNLUYkB4yjJ1VbJqqyBTL65IHVgPs20nKmC7A7%2Fitlstf%2BKrtnPiaGTqICjMgW1WsypTRdGEdd9Cnut0wU6RPzD2eXzDUz5vLBjqkAVverwfMwD9A1axt0H2ncWuoH2EViyyI3TYv4eAojoGx62s18MNZyBaUZqP7NbO7fzMd8H%2BIzA2VRsnLutT1GkUVZ94IhzJxD%2F0CekZkL6qJvfUITV2kil3nBwvf4FweXZ8nt7SUUW7OmNZ6%2FV6KUXrnd%2Fc9r6aR4e7VaRiACHe436dDOP4GiybPeh0FvWjvRliLYjKuOLa6fd5huwissTez%2FYlY&X-Amz-Signature=2f7fa3f17cfb81ac0f7b1831bbe2c246bf049266ca9fae12e763eb6c608fab60&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+**ファイル**: 一絲_事業戦略スクール「知足」_マーケターのレベル別のキャリアマップと市場価値_.pdf (12ページ)
 
+### ページ 1
+© 2024 Isshi Inc.
+マーケターのレベル別のキャリアマップと市場価値
+Career map and market value for marketers by level
+事業戦略スクール「知足」
+
+### ページ 2 - CONTENTS
+- SECTION 01: マーケティング人材は常に不足している
+- SECTION 02: マーケターのレベル別キャリアマップ
+- SECTION 03: マーケティング人材の年収レンジ
+- SECTION 04: マーケターが提供する5つの本質的価値
+- SECTION 05: まとめ
+
+### ページ 3 - マーケティング人材は常に不足している（SECTION 01）
+- 日本において全体の企業/従業員数が減少し、特に中小/地方企業においてマーケティング人材の不足が顕著になっています
+- 地方企業の中でも経営企画/営業部門がマーケティングを兼任している場合が多く、マーケティング活動に関する専門的人材が不足していることが分かります
+
+**労働力人口推移**
+- 日本は慢性的な人手不足から自社のマーケティング機能を担う担当者がおらず、他機能の担当者が兼任している状況
+- 地方企業は今後減少傾向
+- 後継者問題から将来的に大きく減少する見通し
+- 2015年に403万社だった企業数は、2025年に320万社になると推定されている（▲83万社）
+
+### ページ 4 - マーケターのレベル別キャリアマップ（SECTION 02）
+マーケッターのスキルはステージごとで練度が異なり、ステージ3までに10年の時間を要することも
+
+**6つのステージ**
+- **ステージ1**: マーケティング業務の見習い
+- **ステージ2**: 特定業務の担当者（ワーカー）
+- **ステージ3**: 特定領域の専門家（スペシャリスト）
+- **ステージ4**: マーケティング施策の統合社（ブランドマネージャー）
+- **ステージ5**: ブランド・マーケティング全体の責任者（CMO）
+- **ステージ6**: マーケティングに強い経営者（CEO）
+
+マーケティングのスキルは、多岐にわたる。特定の運用スキル（広告、SEOなど）を持つ人材は多くいるが、レベル3以上の俯瞰的な視点でマーケティングに取り組める人材は少ない。
+
+出所：「マーケティングの仕事と年収のリアル」山口義宏著をもとに一絲編集
+
+### ページ 5 - マーケターの年収レンジ（SECTION 03）
+労働人口の中でマーケティング人材は非常に稀有な存在であり、平均年収も増加傾向にあります。マーケティングのスキルを持っていることで、自分の市場価値を高めることができます。
+
+**役職と年収相場**
+| 役職 | 年収（万円） |
+|------|-------------|
+| メンバー（新卒含む） | 300〜400 |
+| リーダー | 400〜600 |
+| マネージャー | 600〜1,000 |
+| スペシャリスト | 600〜1,000 |
+| フリーランス | 0〜3,000（実際は青天井） |
+
+マーケッター自体が市場から見ても稀有な存在。年々需要の高まりから年収は増加傾向。
+
+### ページ 6 - CMOの年収レンジ（SECTION 03続き）
+CMOの年収は、規模や業界により800万円～3,000万円超。経営責任者としての役割が報酬に反映されています。
+
+**企業規模別の年収目安**（一絲代表・柴田のCOO経験をもとにした参考数値）
+| 企業規模 | 年収レンジ |
+|----------|-----------|
+| ベンチャー企業 | 800万円〜1,500万円 |
+| 中堅企業 | 1,200万円〜2,000万円 |
+| 大手企業 | 1,500万円〜3,000万円以上 |
+
+成果連動型の報酬体系が一般的で、会社の規模や業界によって大きな幅があります。特に、デジタルマーケティングやデータ活用スキル、経営戦略の統合能力などが報酬に影響する場合が多いです。
+
+### ページ 7 - 事業成長への直接的価値（SECTION 04）
+事業成長には収益拡大が不可欠です。マーケターは、企業の利益創出に直結する価値を提供し、売上や利益の向上、コスト最適化、顧客獲得の効率化を通じて収益基盤を強化します。
+
+**売上・利益の向上**
+- 新規顧客獲得の仕組み構築：効果的な獲得手法を確立し、安定的な顧客基盤を構築
+- クロスセル・アップセル戦略：顧客に関連商品やより高価格の商品を提案し、売上を拡大
+- 既存顧客のLTV向上施策：顧客との関係を深め、再購買や継続的な取引を促進
+
+**コスト最適化**
+- マーケティング投資効率の改善：広告や施策の効果を最大化し、投資対効果を向上
+- オペレーション効率化の実現：業務プロセスを最適化し、無駄なコストを削減
+- 顧客獲得コストの削減：効率的な獲得活動でコストを最小化
+
+### ページ 8 - 顧客価値の創造（SECTION 04続き）
+顧客価値の創造は、事業の競争優位性を維持するために重要です。顧客との長期的な信頼関係を築き、ニーズや期待に応じた価値を提供することで、競争力を強化します。
+
+**カスタマーインサイトの提供**
+- 顧客ニーズの理解：顧客の潜在的なニーズを深掘り、製品・サービスに反映させる
+- 競合分析と差別化要因の特定：競合との差別化ポイントを明確にし、独自の価値を提供
+- 市場トレンドの分析：市場の変化を把握し、競争優位を確立
+
+**カスタマーエクスペリエンスの向上**
+- 顧客接点の最適化：顧客との接点を改善し、より良い体験を提供
+- 顧客満足度向上施策：顧客の期待に応える施策を導入し、満足度を向上
+- ブランド体験の一貫性確保：ブランドメッセージや体験を統一し、顧客の信頼を高める
+
+### ページ 9 - 組織変革への貢献（SECTION 04続き）
+組織変革への貢献は、データ活用と部門間の連携強化を通じて、持続的成長を支える組織力の向上を目指します。
+
+**データドリブンな文化の醸成**
+- KPIマネジメントの確立：成果を測定するための明確な指標を設定し、達成度を評価
+- 分析基盤の構築：データを収集・分析するためのシステムやツールを整備し、組織全体で活用できる環境を提供
+- データに基づく意思決定の促進：データ分析を活用して、意思決定の精度を向上させる
+
+**クロスファンクショナルな連携強化**
+- 部門間のコミュニケーション促進：部門間で情報を円滑に共有し、連携を強化
+- 協業プロジェクトの推進：複数の部門やチームが協力して、共通の目標に向かってプロジェクトを進行
+- ナレッジシェアの仕組み構築：組織内の知識や情報を効率的に共有できる仕組みを構築
+
+### ページ 10 - イノベーションの創出（SECTION 04続き）
+イノベーションの創出は、市場の変化に適応し、新しい価値やビジネスモデルを生み出すことで競争力を高めます。
+
+**新規事業開発支援**
+- 市場機会の特定：新たな市場のニーズやチャンスを発見し、ビジネスの成長を促進
+- 新商品・サービス開発への貢献：顧客の期待に応える革新的な商品やサービスを提案・開発
+- 新技術の活用戦略：最新技術を取り入れ、競争優位性を確保
+
+**デジタルトランスフォーメーション**
+- デジタルマーケティングの高度化：デジタルチャネルを活用して、マーケティング活動を最適化
+- ビジネスモデルの革新：既存のビジネスモデルを見直し、新しい価値創造の方法を模索
+- 顧客データの戦略的活用：顧客データを分析し、パーソナライズされたサービスや製品提供を実現
+
+### ページ 11 - ブランド価値の向上（SECTION 04続き）
+ブランド価値の向上は、企業の長期的な成長に不可欠です。ブランドストーリーやメッセージを一貫させ、顧客との信頼関係を築くことで、ブランド認知や企業イメージを向上させます。
+
+**ブランドストーリーの構築**
+- ブランドビジョンの明確化：ブランドの方向性と価値観を明確にし、共感を呼び起こす
+- ステークホルダーとの関係強化：顧客、従業員、パートナーとの強固な関係を築く
+- ブランドメッセージの一貫性確保：すべてのコミュニケーションでブランドのメッセージを一貫して伝える
+
+**レピュテーションマネジメント**
+- ブランド認知度の向上：広報活動や広告でブランドの認知度を高める
+- クライシス対応力の強化：不測の事態に迅速かつ適切に対応し、ブランドの評判を守る
+- 企業イメージの向上：ブランドの信頼性と好感度を高める活動を行う
+
+### ページ 12 - まとめ（SECTION 05）
+
+**1. マーケティング人材の不足**
+中小・地方企業では、専門知識を持つマーケティング人材が不足し、他部門が兼任している状況
+
+**2. マーケターのキャリアマップ**
+スキルは6段階に分類され、ステージ3以上の俯瞰的視点を持つ人材が希少で、育成に約10年かかる
+
+**3. マーケティング人材の年収**
+希少性が高く、需要増加に伴い年収も上昇。CMOの年収は800万円～3,000万円超
+
+**4. マーケターが提供する5つの価値**
+1. 事業成長への直接的価値（収益拡大、コスト最適化）
+2. 顧客価値の創造（顧客ニーズ理解、競争力向上）
+3. 組織変革への貢献（データ活用文化、部門連携強化）
+4. イノベーションの創出（新規事業開発、新しい価値提供）
+5. ブランド価値の向上（認知度向上、企業イメージ強化）
 
 ---
 
@@ -27,4 +172,4 @@
   - 📄 文字起こし
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-19*

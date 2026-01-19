@@ -7,6 +7,14 @@
     "営業ポータル/【動画解説】決済方法基礎/index.md"
   ],
   "processed_at": "2026-01-18T13:50:08.310177",
-  "transcript": null,
-  "note": "Loom動画の文字起こしにはLoom Developer APIが必要です"
+  "transcript": "ついて特別決策の銀行振り込みと講座振り開分割について説明していきます。こちらがその紹介入会時に頭金35万円と残りの事項料を24分かってしたものの 紹介自行量分ですね 平者の銀行講座に入金していただく流れになっております 二回目から二十四回目に関しては毎月そのお客様の銀行講座から自動飛行としするんですけれどもその登録は上の方で行ってくれるので 営業満員と初回事項量のご入金確認できたら 2回法務を送りするところまでやってもらえればと思います よろしくお願いします",
+  "note": "Loom動画の文字起こしにはLoom Developer APIが必要です",
+  "transcribed_at": "2026-01-18T15:19:28.894053",
+  "transcription_method": "loom_whisper",
+  "notion_locations": [
+    {
+      "path": "営業ポータル/【動画解説】決済方法基礎",
+      "context": "- 銀行振込+カード分割（自社分割）\n[https://www.loom.com/share/d0568a36b89645ceb72d166818708cc2?sid=6bfdbd4b-9228-43df-9338-1f01e3fba704](https://www.loom.com/share/d0568a36b89645ceb72d166818708cc2?sid=6bfdbd4b-9228-43df-9338-1f01e3fba704)\n- 銀行振込+口座振替（自社分割）\n[https://www.loom.com/share/fbbf11ac4a334116a682a914ed1402c4?sid=29ae7b54-38c1-45fc-98ca-c70b5b1ba5fa](https://www.loom.com/share/fbbf11ac4a334116a682a914ed1402c4?sid=29ae7b54-38c1-45fc-98ca-c70b5b1ba5fa)\n---"
+    }
+  ]
 }

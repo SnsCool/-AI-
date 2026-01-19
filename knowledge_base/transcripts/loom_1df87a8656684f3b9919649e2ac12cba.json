@@ -7,6 +7,14 @@
     "ダイエット事業/営業関連資料 格納庫/index.md"
   ],
   "processed_at": "2026-01-18T13:49:43.967947",
-  "transcript": null,
-  "note": "Loom動画の文字起こしにはLoom Developer APIが必要です"
+  "transcript": "あ、おつかれさまです。えっと、ダイエット講座の領収書の発行のシートを作ったので、ちょっと使い方を説明します。えっと、ここに一覧があるので、まずここに、えー、日付、その人の名前、で、えー、住所はあれば大丈夫です、住所。で、これメールアドレスが、その、送信先書かれるメールのメールアドレス になるので顧客からメールアドレスをここに入れていただくように お願いします ここはダイエット講座と入れて もらえればメインサイのところ にダイエット講座と表示される のでこれを入れてもらって金額 はここに入れるというかたちで ここの送信は最初は何も入れない 状態で大丈夫なのでここが空っぽ にな ここに完了と未完了とあると思うんですけど 最初というか基本的には未完了のままにしておいていただいて 未完了の状態でこんな感じで一覧を作って 完了とやると裏側で処理が始まって自動でメールに領収書が こんな感じの領収書が金額とな 名前とかが反映されて送信される ようになります 完了ってなると送信完了した人 からここにスミってついていく のでこんな感じで例えば新しい 人追加するってなったら一旦未 完了にしてもらって こんな感じでまた 隅を外したリストを入れてもらって完了にすると 自動で領収書が送られるので これすぐに送られるわけではなくて ちょっと数分待つ必要はあるんですけど 完了にした状態で数分待ってもらえたら 自動で送られるので なので一旦これで使ってみてください 使い方わからなかったらご連絡ください よろしくお願いします",
+  "note": "Loom動画の文字起こしにはLoom Developer APIが必要です",
+  "transcribed_at": "2026-01-18T15:18:48.089560",
+  "transcription_method": "loom_whisper",
+  "notion_locations": [
+    {
+      "path": "ダイエット事業/営業関連資料 格納庫",
+      "context": "契約書\n[https://docs.google.com/document/d/1KtPTbd8_4c76I7H7MKAPJO3LAH5XLwv_3-j70lGlcsk/edit?tab=t.0](https://docs.google.com/document/d/1KtPTbd8_4c76I7H7MKAPJO3LAH5XLwv_3-j70lGlcsk/edit?tab=t.0)\n領収書\n[https://docs.google.com/spreadsheets/d/1q-QFg1MXbTFzSJR0fiMY415EGiaiXGuPYqtz6B0X3IY/edit?gid=1643841729#gid=1643841729](https://docs.google.com/spreadsheets/d/1q-QFg1MXbTFzSJR0fiMY415EGiaiXGuPYqtz6B0X3IY/edit?gid=1643841729#gid=1643841729)\n[https://www.loom.com/share/1df87a8656684f3b9919649e2ac12cba?s"
+    }
+  ]
 }

@@ -9,5 +9,11 @@
   "transcript": "SPECIAL INSTRUCTION: The user wants a Japanese transcription of the audio. I will focus on accurately transcribing the spoken Japanese words.\n\nこの音声を日本語で文字起こししてください。話者が複数いる場合は区別してください。タイムスタンプは不要です。\n[No Japanese speech detected in the audio.]",
   "note": "字幕が利用できません",
   "transcribed_at": "2026-01-18T14:55:08.313027",
-  "transcription_method": "gemini"
+  "transcription_method": "gemini",
+  "notion_locations": [
+    {
+      "path": "CS部/【SnsClub合宿 2025】運営マニュアル/BGMプラン (最新）",
+      "context": "[Bookmark: https://www.youtube.com/watch?v=WGGfZ-5xUTo&list=RDWGGfZ-5xUTo&index=1](https://www.youtube.com/watch?v=WGGfZ-5xUTo&list=RDWGGfZ-5xUTo&index=1)\n## **M 03 ：****一時退場**\n[Bookmark: https://www.youtube.com/watch?v=r_BrGmiUGeI&list=RDr_BrGmiUGeI&start_radio=1](https://www.youtube.com/watch?v=r_BrGmiUGeI&list=RDr_BrGmiUGeI&start_radio=1)\n## M 05：**退場から帰ってきて懇親会開始までのBGM**\n[Bookmark: https://www.youtube.com/watch?v=l6qiwbUUJRs&t=4s](https://www.youtube.com/watch?v=l6qiwbUUJRs&t=4s)"
+    }
+  ]
 }

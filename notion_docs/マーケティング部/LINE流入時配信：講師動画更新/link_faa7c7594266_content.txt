@@ -226,7 +226,12 @@ https://docs.google.com/spreadsheets/d/1rnkxRvMwFWB6g7jJMW2C6XU1z-Yg2-L-yBIbh9yL
 https://www.canva.com/design/DAG3nqB6CtQ/8gEKfLfIEfrRL5FzYNcxzw/edit?utm_content=DAG3nqB6CtQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 ABC
 DEFG
-7/15 長谷川対応：エラーになるため一旦こちらに添付
+7/15 長谷川対応：[Google Sheets/Docs] コンテンツ取得不可
+
+> 🔒 **認証が必要なリンク**
+> このGoogle Sheets/Docsは組織内限定または非公開設定のため、内容を取得できません。
+> 閲覧にはGoogleアカウントでのログインが必要です。
+
 https://docs.google.com/spreadsheets/d/16RaSk_iAxfV0SEMK1HK5sgo8TJrPiQ1H_tff7yJf4vE/edit?gid=278883019#gid=278883019
 12
 あつもい

@@ -8,5 +8,11 @@
   ],
   "processed_at": "2026-01-18T13:49:55.624125",
   "transcript": null,
-  "note": "Loom動画の文字起こしにはLoom Developer APIが必要です"
+  "note": "Loom動画の文字起こしにはLoom Developer APIが必要です",
+  "notion_locations": [
+    {
+      "path": "マーケティング部/（新）メディアWeekly会議/👾Aiを使ったメディア運用👽/実際のAIとのやりとり",
+      "context": "---\n## コンテンツ\n[https://www.loom.com/share/626d355114c54fc8a8773c8c7c5268c9](https://www.loom.com/share/626d355114c54fc8a8773c8c7c5268c9)\n【前提：チャットを分ける】\n![](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/a7c8dec1-8db1-4873-b4c4-44db57c49812/a55e2cc2-9350-438c-9914-07eed8b3771e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YA5T5DBB%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T004747"
+    }
+  ]
 }

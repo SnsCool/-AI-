@@ -7,6 +7,14 @@
     "営業ポータル/【動画解説】決済方法基礎/index.md"
   ],
   "processed_at": "2026-01-18T13:50:07.326834",
-  "transcript": null,
-  "note": "Loom動画の文字起こしにはLoom Developer APIが必要です"
+  "transcript": "続いて特別決策の銀行振り込みとカンド自社文化とについて説明していきます。こちらは, ehm,初回入会時に, uh, 玉金の35万円を部屋の銀行風呂に。 逆さまから振り込んでいただきます で残りの事項量を24分かとしたものを 毎月カード会社後にご請求させていただく 流れとなっております でこの特別決策の場合は おにじり 4分割で固定になっていますので 孤独にお客様に2分割回数を お聞きする必要はないです よろしくお願いします",
+  "note": "Loom動画の文字起こしにはLoom Developer APIが必要です",
+  "transcribed_at": "2026-01-18T15:17:25.286932",
+  "transcription_method": "loom_whisper",
+  "notion_locations": [
+    {
+      "path": "営業ポータル/【動画解説】決済方法基礎",
+      "context": "⚪️特別決済\n- 銀行振込+カード一括\n[https://www.loom.com/share/c604c7a56c334b7c88881ef271ac93a0?sid=3c428152-7ddc-4070-be87-f8b328162bd3](https://www.loom.com/share/c604c7a56c334b7c88881ef271ac93a0?sid=3c428152-7ddc-4070-be87-f8b328162bd3)\n- 銀行振込+カード分割（自社分割）\n[https://www.loom.com/share/d0568a36b89645ceb72d166818708cc2?sid=6bfdbd4b-9228-43df-9338-1f01e3fba704](https://www.loom.com/share/d0568a36b89645ceb72d166818708cc2?sid=6bfdbd4b-9228-43df-9338-1f01e3fba704)"
+    }
+  ]
 }
