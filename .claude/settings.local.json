@@ -137,7 +137,12 @@
       "Bash(gh pr view:*)",
       "Bash(npm run build:*)",
       "Bash(/opt/homebrew/opt/python@3.13/bin/python3.13 -m pip install:*)",
-      "Bash(chmod:*)"
+      "Bash(chmod:*)",
+      "Bash(# scriptsディレクトリのファイルも.gitignoreに追加（トークンが含まれる可能性） echo \"\"scripts/*.py\"\" # notion_docsの変更をすべて追加 git add notion_docs/ git add .gitignore git status --short)",
+      "Bash(# Check if index.md files include the OCR text echo \"\"=== 知足ポータルのindex.md確認 ===\"\" ls -la \"\"notion_docs/知足ポータル/講義動画/はじめに/\"\")",
+      "Bash(do if [ -f \"$dir/index.md\" ])",
+      "Bash(then echo \"$dir/index.md: 存在\" grep -l \"ocr\" \"$dir/index.md\")",
+      "Bash(echo \" → OCRテキスト未反映\" else echo \"$dir/index.md: なし\" fi done)"
     ]
   }
 }
