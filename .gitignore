@@ -35,3 +35,5 @@ npm-debug.log*
 dashboard/node_modules/
 *.mp4
 notion_docs/**/pdf_*.pdf
+.claude/settings.local.json
+scripts/*.py

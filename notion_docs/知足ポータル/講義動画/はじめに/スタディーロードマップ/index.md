@@ -2,16 +2,172 @@
 
 **種類**: 📄 ページ
 **階層**: 4
-**更新日時**: 2026-01-14 12:09
+**更新日時**: 2026-01-19
 
 ---
 
-## コンテンツ
+## PDFコンテンツ（テキスト抽出）
 
-📄 **文字起こし** (子ページ)
-[File: https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/6bc79594-3dfb-4a2f-b790-afdf0a123f1f/%E4%B8%80%E7%B5%B2_%E4%BA%8B%E6%A5%AD%E6%88%A6%E7%95%A5%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%80%8C%E7%9F%A5%E8%B6%B3%E3%80%8D_%E3%82%B9%E3%82%BF%E3%83%86%E3%82%99%E3%82%A3%E3%83%AD%E3%83%BC%E3%83%88%E3%82%99%E3%83%9E%E3%83%83%E3%83%95%E3%82%9A_.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666PE3ZQ3E%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T014102Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEkaCXVzLXdlc3QtMiJHMEUCIGuOQzadGlIPZzrZfdddaNXajHADGKISed4Pfjq85fqvAiEA7qH%2FQvA7AamJfgmk7mTN%2FCcAIFFe6TF6%2B7hyhNADWpwq%2FwMIEhAAGgw2Mzc0MjMxODM4MDUiDKdduPuvlw8WxxvUtircA1EHUisr0Lxqa%2FkVGjabd72uWGOkfoG%2FSoivVqfSyNsXfQ4Xig%2BAxbf%2Fn539fss6%2BXzEolieQ1FKXi%2BohirDg7DJJ8D0vP3CaODwIs5EGxjkt1VK9%2FTxjeGiwpUNuf7xWjaysLZpsMAKq2sQKENRRi7uGORZqmzywD4xZGPodCs3%2F3wPMqLW8v2QeK5wm5qiCmO3JIS%2BiYvQHT7Ad30OjmzahjAR7I2BLdeZMTfnCGDuyGOnGuO%2Fz%2BAWsNz7oorL0k4lToVLRrBLy%2BhaMviurBCi4EF5%2FDX3EPOGgMgYJTCuGryGYU9rbxt7QqShua%2Bwt3INxHyVX2fujUCKhTk0TeH2mQcOuI13BtMB7Z3kpX3XWne5VpSZgkIp0F1Z3%2FogN4JN4NRMRyZymcI4gJ%2BP0jzMJvzYtE%2FtTVOARUh%2FFKV9UvRPUTsdGj4tbCHruSZ8V43i7tx4LjLr1eVU0vL0TUr2F9ChAIXjtAssDzF40nDUncjQDeBn%2FwNTNpEOimlE1qZD9h9MH%2FpAi2nZV9kIsb2l4uT4o55Qyc6GfOLnvi7AEPlDeVu1RvUf5wQEnFcwChCcPH%2FMLFwr5v0zWeDqX5uxBQsdxmf8geSXiLSXLFgTqrK12i%2B1eZ2Rg8LzMObNm8sGOqUBkM9RVBywICsUlMz%2BG3VTKYeFUXo6ZyPJvR94b0UPbqBHN%2FFlN73Pyjw04oErfevTndD%2Fdc4822e%2Fpeg60Q5SQA9lq2w8I32d2H8XJZrCZkaIGXdtTKxiwy%2BIH15MWn3jv%2FUBPs9znl8C5kc626mbmuhosozgRGx19t6v%2BHsZRM0HT1HDHjViVHCl%2BFJWjEO6R71pjN%2Bo%2BJztw%2FHi1taVz3Zs3ZK4&X-Amz-Signature=7ddf976975bd60820a76b59d857087625a7da054e7fc1520ed9d283c06aa629b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject](https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/6bc79594-3dfb-4a2f-b790-afdf0a123f1f/%E4%B8%80%E7%B5%B2_%E4%BA%8B%E6%A5%AD%E6%88%A6%E7%95%A5%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%80%8C%E7%9F%A5%E8%B6%B3%E3%80%8D_%E3%82%B9%E3%82%BF%E3%83%86%E3%82%99%E3%82%A3%E3%83%AD%E3%83%BC%E3%83%88%E3%82%99%E3%83%9E%E3%83%83%E3%83%95%E3%82%9A_.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666PE3ZQ3E%2F20260114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260114T014102Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEkaCXVzLXdlc3QtMiJHMEUCIGuOQzadGlIPZzrZfdddaNXajHADGKISed4Pfjq85fqvAiEA7qH%2FQvA7AamJfgmk7mTN%2FCcAIFFe6TF6%2B7hyhNADWpwq%2FwMIEhAAGgw2Mzc0MjMxODM4MDUiDKdduPuvlw8WxxvUtircA1EHUisr0Lxqa%2FkVGjabd72uWGOkfoG%2FSoivVqfSyNsXfQ4Xig%2BAxbf%2Fn539fss6%2BXzEolieQ1FKXi%2BohirDg7DJJ8D0vP3CaODwIs5EGxjkt1VK9%2FTxjeGiwpUNuf7xWjaysLZpsMAKq2sQKENRRi7uGORZqmzywD4xZGPodCs3%2F3wPMqLW8v2QeK5wm5qiCmO3JIS%2BiYvQHT7Ad30OjmzahjAR7I2BLdeZMTfnCGDuyGOnGuO%2Fz%2BAWsNz7oorL0k4lToVLRrBLy%2BhaMviurBCi4EF5%2FDX3EPOGgMgYJTCuGryGYU9rbxt7QqShua%2Bwt3INxHyVX2fujUCKhTk0TeH2mQcOuI13BtMB7Z3kpX3XWne5VpSZgkIp0F1Z3%2FogN4JN4NRMRyZymcI4gJ%2BP0jzMJvzYtE%2FtTVOARUh%2FFKV9UvRPUTsdGj4tbCHruSZ8V43i7tx4LjLr1eVU0vL0TUr2F9ChAIXjtAssDzF40nDUncjQDeBn%2FwNTNpEOimlE1qZD9h9MH%2FpAi2nZV9kIsb2l4uT4o55Qyc6GfOLnvi7AEPlDeVu1RvUf5wQEnFcwChCcPH%2FMLFwr5v0zWeDqX5uxBQsdxmf8geSXiLSXLFgTqrK12i%2B1eZ2Rg8LzMObNm8sGOqUBkM9RVBywICsUlMz%2BG3VTKYeFUXo6ZyPJvR94b0UPbqBHN%2FFlN73Pyjw04oErfevTndD%2Fdc4822e%2Fpeg60Q5SQA9lq2w8I32d2H8XJZrCZkaIGXdtTKxiwy%2BIH15MWn3jv%2FUBPs9znl8C5kc626mbmuhosozgRGx19t6v%2BHsZRM0HT1HDHjViVHCl%2BFJWjEO6R71pjN%2Bo%2BJztw%2FHi1taVz3Zs3ZK4&X-Amz-Signature=7ddf976975bd60820a76b59d857087625a7da054e7fc1520ed9d283c06aa629b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+**ファイル**: 一絲_事業戦略スクール「知足」_スタディロードマップ_.pdf (9ページ)
 
+### ページ 1
+© 2024 Isshi Inc.
+スタディロードマップ
+Study Roadmap
+事業戦略スクール「知足」
 
+### ページ 2 - 目次
+- SECTION 00: 学びのスタンス
+- SECTION 01: スタディロードマップ 全体像
+- SECTION 02: マーケティング・セールス・ブランディング
+- SECTION 03: 組織・採用・ピープルマネジメント
+- SECTION 04: 財務
+- SECTION 05: コンセプチュアルスキル・ヒューマンスキル
+
+### ページ 3 - 学びのスタンス（SECTION 00）
+事業戦略スクール「知足」では、主にCOO・CMOに求められるスキルをコンテンツで提供していきますが、何より重要なのはその土台にある「マインドセット」です。
+
+はじめに、「何のために学ぶのか？」「その先にどうありたいのか？」を言語化した上で、学んでいきましょう。そして、学ぶだけでなく、日々アクションを変え、学んだことを実践で振り返りましょう。
+
+**3つの要素**
+- **Mind（マインド）**: スクールを学ぶ目的、COO/CMOのマインド醸成
+- **Skill（スキル）**:
+  - テクニカルスキル：マーケ/営業・組織/採用・財務
+  - コンセプチュアルスキル：ロジカルシンキング等
+  - ヒューマンスキル：リーダーシップ等
+- **Action（アクション）**: 学んだことを実践し、振り返る
+
+### ページ 4 - スタディロードマップ 全体像（SECTION 01）
+
+**1. マインド**
+1. スクールの目標設定
+2. マーケターのレベルマップと市場価値
+3. CMO・COOが企業の中で期待される提供価値
+4. マインドセット
+
+**2. スキル**
+- **2-1. テクニカルスキル**
+  - 2-1-1. マーケティング/営業/ブランディング
+  - 2-1-2. 組織/採用/ピープルマネジメント
+  - 2-1-3. 財務
+- **2-2. コンセプチュアルスキル**
+  - ロジカルシンキング、クリティカルシンキング、ラテラルシンキング
+- **2-3. ヒューマンスキル**
+  - ティーチングとコーチング、リーダーシップ、提案力、ヒアリング/質問力
+
+**3. その他お役立ち**
+1. 用語集
+2. フレームワーク集
+
+### ページ 5 - マーケティング・セールス・ブランディング（SECTION 02）Part 1
+
+**戦略**
+1. マーケティングとは
+2. マーケティングの基本概念
+   - a. 外部・内部環境分析
+   - b. PEST分析
+   - c. 市場規模予測 (TAM/SAM/SOM)
+   - d. SWOT・クロスSWOT
+   - e. 3C分析
+   - f. VRIO分析
+   - g. 5フォース分析
+3. STP
+4. マーケティングミックス
+   - a. 全体像
+   - b. プロダクト
+   - c. 価格設計
+   - d. 流通・販売チャネル
+   - e. プロモーション（態度変容モデル、ファネル）
+5. 事業のフェーズを見る視点
+   - a. PMF/フィットジャーニー
+   - b. イノベーター理論
+
+**計画**
+1. 顧客理解（ペルソナ設計、カスタマージャーニー設計）
+2. 競合分析（商品分析、プロモーション分析）
+3. 自社理解（受注・失注分析、意思決定要因とKBF/KSFの特定）
+4. プロジェクトマネジメント
+   - ASIS-TOBE GAP-SOLUTION
+   - 目標設計 (KGI/KPI)
+   - 計画策定、収支管理、契約締結、運営
+5. マーケティング/営業フローの策定
+6. 施策の洗い出しと優先順位付け
+
+### ページ 6 - マーケティング・セールス・ブランディング（SECTION 02）Part 2
+
+**マーケティング実行**
+1. SEO
+2. SNS
+3. コンテンツマーケ（ウェビナー運営、ホワイトペーパー、事例コンテンツ運用）
+4. 広告（リスティング、AD（SNS）広告・バナー広告、アフィリエイト）
+5. ナーチャリング
+6. WEB分析
+7. UI改善/LPO/EFO
+8. ECマーケ
+9. PR
+
+**セールス実行**
+1. SDRとBDR
+2. インサイドセールスの運用
+
+**ブランディング**
+- **戦略**: ブランドエクイティ、ブランディングサーベイ、ブランド・ダイアグラム
+- **計画**: コンセプト設計・メッセージング、トーン＆マナー
+
+### ページ 7 - 組織/採用/ピープルマネジメント（SECTION 03）
+
+**組織（戦略）**
+1. MVVの策定
+2. 行動規範・カルチャーの言語化
+3. 組織図（ロードマップ、役割と期待）
+4. 評価制度の策定
+5. 給与レンジの策定
+
+**組織（運用）**
+1. 目標設定とフィードバック
+2. 1on1（KPT）
+3. 会議体の設定
+
+**採用**
+1. 人材要件の整理
+2. 採用計画の策定
+3. 採用基準の策定
+
+**ピープルマネジメント**
+1. キャリアロードマップ
+2. 育成計画
+3. 仕事の難易度の定義とアサインメント
+
+### ページ 8 - 財務（SECTION 04）
+
+**戦略**
+1. 財務の基本概念
+   - a. 財務三表
+
+**運用**
+1. 中期事業計画（YonY）
+2. 調達計画
+   - a. 融資（デッド）
+   - b. エクイティ
+3. M＆A
+
+### ページ 9 - コンセプチュアルスキル・ヒューマンスキル（SECTION 05）
+
+**コンセプチュアルスキル**
+1. ロジカルシンキング
+   - a. So What/Why So
+   - b. MECE
+   - c. ロジックツリー（ゴールツリー、因果ツリー、要素分解ツリー）
+2. クリティカルシンキング
+   - a. 帰納法と演繹法
+3. ラテラルシンキング
+   - a. クリエイティビティとセレンディピティ
+
+**ヒューマンスキル**
+1. ティーチングとコーチング
+2. リーダーシップ（情緒と機能）
+3. 提案力
+4. ヒアリング・質問力
 
 ---
 
@@ -28,4 +184,4 @@
   - 📄 文字起こし
 
 ---
-*Generated: 2026-01-14 12:09*
+*Generated: 2026-01-19*
