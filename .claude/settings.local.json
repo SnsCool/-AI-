@@ -177,7 +177,10 @@
       "Bash(__NEW_LINE_99aab60c9974a49f__ echo \"\")",
       "Bash(# MISSINGファイルの場所を確認 echo \"\"=== 現在のMISSINGファイル ===\"\" find /Users/hatakiyoto/-AI-egent-libvela/notion_docs -name \"\"*_MISSING.txt\"\")",
       "Bash(# MISSINGファイルを削除 echo \"\"=== MISSINGファイルを削除 ===\"\" rm -f \"\"/Users/hatakiyoto/-AI-egent-libvela/notion_docs/TikTok Shopマネタイズ講座ローンチ/TikTok Shop Business/競合リサーチ/\"\"*_MISSING.txt rm -f \"\"/Users/hatakiyoto/-AI-egent-libvela/notion_docs/CS部/クレーム対応マニュアル/悪質クレームの最終対応/\"\"*_MISSING.txt echo \"\"✓ 削除完了\"\" echo \"\"\"\" echo \"\"=== 残りのMISSINGファイル確認 ===\"\" find /Users/hatakiyoto/-AI-egent-libvela/notion_docs -name \"\"*_MISSING.txt\"\" || echo \"\"なし\"\" echo \"\"\"\" echo \"\"=== 格納結果 ===\"\" echo \"\"TikTok Shop/競合リサーチ:\"\" ls -la \"\"/Users/hatakiyoto/-AI-egent-libvela/notion_docs/TikTok Shopマネタイズ講座ローンチ/TikTok Shop Business/競合リサーチ/\"\")",
-      "Bash(__NEW_LINE_c9befc4d8d292a9e__ echo \"\")"
+      "Bash(__NEW_LINE_c9befc4d8d292a9e__ echo \"\")",
+      "Bash(__NEW_LINE_a15d18f34017339f__ echo \"\")",
+      "Bash(if [ -f \"/Users/hatakiyoto/-AI-egent-libvela/notion_docs/CS部/クレーム対応マニュアル/悪質クレームの最終対応/Broken_Record_Defense.txt\" ])",
+      "Bash(else)"
     ]
   }
 }
