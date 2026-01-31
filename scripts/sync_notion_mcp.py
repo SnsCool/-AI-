@@ -20,8 +20,10 @@ sys.stdout.reconfigure(line_buffering=True)
 
 # 設定
 NOTION_API_TOKEN = os.environ.get('NOTION_API_TOKEN', '')
-NOTION_DOCS_DIR = Path('/Users/hatakiyoto/-AI-egent-libvela/notion_docs')
-SYNC_STATE_FILE = NOTION_DOCS_DIR.parent / '.notion_sync_state.json'
+SCRIPT_DIR = Path(__file__).parent.resolve()
+PROJECT_DIR = SCRIPT_DIR.parent
+NOTION_DOCS_DIR = PROJECT_DIR / 'notion_docs'
+SYNC_STATE_FILE = PROJECT_DIR / '.notion_sync_state.json'
 HEADERS = {
     'Authorization': f'Bearer {NOTION_API_TOKEN}',
     'Notion-Version': '2022-06-28',
