@@ -86,7 +86,8 @@ def process_single_recording(
     assignee: str,
     access_token: str,
     recording: dict,
-    dry_run: bool = False
+    dry_run: bool = False,
+    reprocess: bool = False
 ) -> bool:
     """
     単一の録画を処理
@@ -132,8 +133,8 @@ def process_single_recording(
     print(f"  担当: {assignee}")
     print(f"{'='*60}")
 
-    # 処理済みチェック
-    if is_recording_processed(supabase_client, meeting_id):
+    # 処理済みチェック（reprocessフラグで無視可能）
+    if not reprocess and is_recording_processed(supabase_client, meeting_id):
         print("→ スキップ: 処理済み")
         return True
 
@@ -400,7 +401,11 @@ def run_batch_process(
     spreadsheet_id: str = None,
     dry_run: bool = False,
     limit: int = None,
-    group: int = None
+    group: int = None,
+    from_date: str = None,
+    to_date: str = None,
+    process_all: bool = False,
+    reprocess: bool = False
 ):
     """
     バッチ処理を実行
@@ -410,6 +415,10 @@ def run_batch_process(
         dry_run: テスト実行（書き込みなし）
         limit: 処理する最大件数
         group: グループ番号（1-3）。指定時はそのグループのアカウントのみ処理
+        from_date: 開始日 (YYYY-MM-DD)
+        to_date: 終了日 (YYYY-MM-DD)
+        process_all: 全件処理（最新1件だけでなく）
+        reprocess: 処理済みも再処理
     """
     spreadsheet_id = spreadsheet_id or DEFAULT_SPREADSHEET_ID
 
@@ -422,7 +431,13 @@ def run_batch_process(
     if limit:
         print(f"処理上限: {limit}件")
     if group:
-        print(f"グループ: {group}/3")
+        print(f"グループ: {group}/6")
+    if from_date and to_date:
+        print(f"期間: {from_date} 〜 {to_date}")
+    if process_all:
+        print(f"全件処理: ON")
+    if reprocess:
+        print(f"再処理: ON（処理済みも対象）")
     print("=" * 60)
 
     # Supabaseクライアント取得
@@ -520,9 +535,19 @@ def run_batch_process(
                     total_skipped += 1
                     continue
 
-            # 録画一覧取得（1ヶ月分から最新1件を処理）
-            all_recordings = get_zoom_recordings(access_token, months=1)  # APIクォータ節約
-            recordings = all_recordings[:1]  # 最新1件のみ処理
+            # 録画一覧取得
+            if from_date and to_date:
+                # 日付指定時はその期間を取得
+                all_recordings = get_zoom_recordings(access_token, from_date=from_date, to_date=to_date)
+            else:
+                # デフォルトは1ヶ月分
+                all_recordings = get_zoom_recordings(access_token, months=1)
+
+            # 全件処理か最新1件のみか
+            if process_all:
+                recordings = all_recordings
+            else:
+                recordings = all_recordings[:1]  # 最新1件のみ処理
             print(f"録画数: {len(recordings)}/{len(all_recordings)}件 (認証元: {used_source})")
 
             for recording in recordings:
@@ -537,7 +562,8 @@ def run_batch_process(
                     assignee=assignee,
                     access_token=access_token,
                     recording=recording,
-                    dry_run=dry_run
+                    dry_run=dry_run,
+                    reprocess=reprocess
                 )
 
                 if success:
@@ -638,6 +664,26 @@ def main():
         choices=[1, 2, 3, 4, 5, 6],
         help="処理するグループ番号（1-6）。指定時はそのグループのアカウントのみ処理"
     )
+    parser.add_argument(
+        "--from-date",
+        type=str,
+        help="開始日 (YYYY-MM-DD形式)"
+    )
+    parser.add_argument(
+        "--to-date",
+        type=str,
+        help="終了日 (YYYY-MM-DD形式)"
+    )
+    parser.add_argument(
+        "--all",
+        action="store_true",
+        help="最新1件だけでなく全件処理"
+    )
+    parser.add_argument(
+        "--reprocess",
+        action="store_true",
+        help="処理済みの録画も再処理"
+    )
 
     args = parser.parse_args()
 
@@ -645,7 +691,11 @@ def main():
         spreadsheet_id=args.spreadsheet_id,
         dry_run=args.dry_run,
         limit=args.limit,
-        group=args.group
+        group=args.group,
+        from_date=args.from_date,
+        to_date=args.to_date,
+        process_all=args.all,
+        reprocess=args.reprocess
     )
 
     sys.exit(0 if success else 1)
