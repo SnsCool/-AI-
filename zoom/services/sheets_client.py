@@ -7,6 +7,8 @@ import os
 import json
 import time
 import functools
+import re
+import unicodedata
 from datetime import datetime
 from typing import Optional
 from dotenv import load_dotenv
@@ -787,6 +789,30 @@ def write_meeting_data(
         return False
 
 
+def normalize_text_for_match(text: str) -> str:
+    """
+    検索用に文字列を正規化
+    - 全角→半角に統一（NFKC正規化）
+    - 小文字に統一
+    - すべての空白を除去
+
+    Args:
+        text: 正規化する文字列
+
+    Returns:
+        正規化された文字列
+    """
+    if not text:
+        return ""
+    # 全角→半角、文字の正規化（NFKC）
+    text = unicodedata.normalize('NFKC', text)
+    # 小文字に統一
+    text = text.lower()
+    # すべての空白を除去（スペースの有無を無視）
+    text = re.sub(r'\s+', '', text)
+    return text
+
+
 @retry_on_quota_error(max_retries=5, initial_delay=2.0)
 def find_existing_row_in_zoom_sheet(
     worksheet,
@@ -795,6 +821,11 @@ def find_existing_row_in_zoom_sheet(
 ) -> Optional[int]:
     """
     Zoom相談一覧シートで、顧客名+担当者が一致する行を検索
+
+    マッチング条件を緩くして以下の違いを吸収:
+    - 全角/半角の違い
+    - 大文字/小文字の違い
+    - 余分な空白
 
     Args:
         worksheet: ワークシート
@@ -807,14 +838,18 @@ def find_existing_row_in_zoom_sheet(
     try:
         all_values = worksheet.get_all_values()
 
+        # 検索用に正規化
+        search_customer = normalize_text_for_match(customer_name)
+        search_assignee = normalize_text_for_match(assignee)
+
         # ヘッダー行をスキップして検索（2行目以降）
         for i, row in enumerate(all_values[1:], start=2):
             if len(row) >= 2:
-                row_customer = row[0].strip() if row[0] else ""
-                row_assignee = row[1].strip() if row[1] else ""
+                row_customer = normalize_text_for_match(row[0])
+                row_assignee = normalize_text_for_match(row[1])
 
-                # 顧客名と担当者でマッチング
-                if row_customer == customer_name.strip() and row_assignee == assignee.strip():
+                # 正規化した顧客名と担当者でマッチング
+                if row_customer == search_customer and row_assignee == search_assignee:
                     return i
 
         return None
