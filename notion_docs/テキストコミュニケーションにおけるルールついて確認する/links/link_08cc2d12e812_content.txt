@@ -1,0 +1,307 @@
+# リンク先コンテンツ
+
+**URL**: https://qiita.com/xero/items/6026ed007d5d34623a50
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: テキストコミュニケーションにおけるルールついて確認する
+**取得日時**: 2026-01-22T14:17:18.242127
+
+---
+
+## コンテンツ
+
+  - banner:
+    - link "Qiita" [ref=e1]:
+      - /url: /
+    - search "Search":
+      - searchbox "Search" [ref=e2]
+    - link "Login" [ref=e3]:
+      - /url: /login?callback_action=login_or_signup&redirect_to=%2Fxero%2Fitems%2F6026ed007d5d34623a50&realm=qiita
+    - link "Signup" [ref=e4]:
+      - /url: /signup?callback_action=login_or_signup&redirect_to=%2Fxero%2Fitems%2F6026ed007d5d34623a50&realm=qiita
+  - navigation "Global" [ref=e5]:
+      - listitem:
+        - link "Trend" [ref=e6]:
+          - /url: /
+      - listitem:
+        - link "Question" [ref=e7]:
+          - /url: /question-feed
+      - listitem:
+        - link "Stock List" [ref=e8]:
+          - /url: /stock-feed
+      - listitem:
+        - link "Official Event" [ref=e9]:
+          - /url: /official-events
+      - listitem:
+        - link "Official Column" [ref=e10]:
+          - /url: /official-columns
+      - listitem:
+        - link "Organization" [ref=e11]:
+          - /url: /organizations
+      - listitem:
+        - link "Qiita Careers" [ref=e12]:
+          - /url: https://careers.qiita.com
+      - listitem:
+        - link "AI x Dev x Team" [ref=e13]:
+          - /url: /official-campaigns/ai-dev-team
+  - heading "Why not login to Qiita and try out its useful features?" [ref=e14] [level=2]
+    - text: We'll deliver articles that match you.
+    - text: You can read useful information later.
+  - link "Login" [ref=e15] [nth=1]:
+    - /url: /login?callback_action=login_or_signup&redirect_to=%2Fxero%2Fitems%2F6026ed007d5d34623a50&realm=qiita
+  - link "Sign up" [ref=e16]:
+    - /url: /signup?callback_action=login_or_signup&redirect_to=%2Fxero%2Fitems%2F6026ed007d5d34623a50&realm=qiita
+  - button "Later" [ref=e17]
+  - main:
+    - button "Like" [ref=e18]
+    - link "411Likes" [ref=e19]:
+      - /url: /xero/items/6026ed007d5d34623a50/likers
+      - text: "411"
+    - button "Stock" [ref=e20]
+    - text: "272"
+    - button "Post" [ref=e21]:
+    - button "Share on Facebook" [ref=e22]:
+    - link "Hatena Bookmark" [ref=e23]:
+      - /url: https://b.hatena.ne.jp/entry/s/qiita.com/xero/items/6026ed007d5d34623a50
+    - button "Open options" [ref=e24]
+    - navigation "Table of contents" [ref=e25]:
+        - listitem:
+          - link "見出し" [ref=e26]:
+            - /url: "#%E8%A6%8B%E5%87%BA%E3%81%97"
+        - listitem:
+          - link "太字" [ref=e27]:
+            - /url: "#%E5%A4%AA%E5%AD%97"
+        - listitem:
+          - link "斜体" [ref=e28]:
+            - /url: "#%E6%96%9C%E4%BD%93"
+        - listitem:
+          - link "下線" [ref=e29]:
+            - /url: "#%E4%B8%8B%E7%B7%9A"
+        - listitem:
+          - link "打ち消し線" [ref=e30]:
+            - /url: "#%E6%89%93%E3%81%A1%E6%B6%88%E3%81%97%E7%B7%9A"
+        - listitem:
+          - link "リスト" [ref=e31]:
+            - /url: "#%E3%83%AA%E3%82%B9%E3%83%88"
+        - listitem:
+          - link "ネタバレ防止タグ" [ref=e32]:
+            - /url: "#%E3%83%8D%E3%82%BF%E3%83%90%E3%83%AC%E9%98%B2%E6%AD%A2%E3%82%BF%E3%82%B0"
+            - listitem:
+              - link "ネタバレ添付ファイル" [ref=e33]:
+                - /url: "#%E3%83%8D%E3%82%BF%E3%83%90%E3%83%AC%E6%B7%BB%E4%BB%98%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB"
+        - listitem:
+          - link "インラインコードブロック" [ref=e34]:
+            - /url: "#%E3%82%A4%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%89%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF"
+        - listitem:
+          - link "コードブロック" [ref=e35]:
+            - /url: "#%E3%82%B3%E3%83%BC%E3%83%89%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF"
+            - listitem:
+              - link "シンタックスハイライト" [ref=e36]:
+                - /url: "#%E3%82%B7%E3%83%B3%E3%82%BF%E3%83%83%E3%82%AF%E3%82%B9%E3%83%8F%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88"
+        - listitem:
+          - link "絵文字" [ref=e37]:
+            - /url: "#%E7%B5%B5%E6%96%87%E5%AD%97"
+        - listitem:
+          - link "引用" [ref=e38]:
+            - /url: "#%E5%BC%95%E7%94%A8"
+        - listitem:
+          - link "マスクされたリンク" [ref=e39]:
+            - /url: "#%E3%83%9E%E3%82%B9%E3%82%AF%E3%81%95%E3%82%8C%E3%81%9F%E3%83%AA%E3%83%B3%E3%82%AF"
+        - listitem:
+          - link "Markdownのエスケープ" [ref=e40]:
+            - /url: "#markdown%E3%81%AE%E3%82%A8%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%97"
+        - listitem:
+          - link "その他" [ref=e41]:
+            - /url: "#%E3%81%9D%E3%81%AE%E4%BB%96"
+            - listitem:
+              - link "組み合わせ" [ref=e42]:
+                - /url: "#%E7%B5%84%E3%81%BF%E5%90%88%E3%82%8F%E3%81%9B"
+                    - /url: "#%E4%BE%8B1-%E5%A4%AA%E5%AD%97--%E6%96%9C%E4%BD%93"
+                    - /url: "#%E4%BE%8B2-%E5%A4%AA%E5%AD%97--%E6%96%9C%E4%BD%93--%E4%B8%8B%E7%B7%9A"
+                    - /url: "#%E4%BE%8B3-%E5%A4%AA%E5%AD%97--%E6%96%9C%E4%BD%93--%E4%B8%8B%E7%B7%9A--%E6%89%93%E3%81%A1%E6%B6%88%E3%81%97%E7%B7%9A"
+            - listitem:
+              - link "インラインコードブロック内のテキストにMarkdownを適用させる" [ref=e43]:
+                - /url: "#%E3%82%A4%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%89%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E5%86%85%E3%81%AE%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%81%ABmarkdown%E3%82%92%E9%81%A9%E7%94%A8%E3%81%95%E3%81%9B%E3%82%8B"
+    - article:
+      - link "@xero (XERO)" [ref=e44]:
+        - /url: /xero
+        - text: "@xero (XERO)"
+      - heading "【Discord】テキストを装飾する方法 | Markdown記法 チートシート" [ref=e45] [level=1]
+        - listitem:
+          - link "Markdown" [ref=e46]:
+            - /url: /tags/markdown
+        - listitem:
+          - link "discord" [ref=e47]:
+            - /url: /tags/discord
+      - text: Last updated at
+      - time: 2025-03-06
+      - text: Posted at 2018-11-10
+      - paragraph:
+        - link "Discord" [ref=e48]:
+          - /url: https://discordapp.com/
+          - strong: Discord
+        - text: でのテキスト装飾に使用できる記法の一覧です。厳密には、Markdownでないものも含まれます。
+      - text: 
+      - paragraph:
+        - strong:
+          - text: Qiita記事におけるMarkdown記法に関しては、Qiita公式アカウントによる
+          - link "Markdown記法 チートシート" [ref=e49]:
+            - /url: https://qiita.com/Qiita/items/c686397e4a0f4f11683d
+          - text: を参照してください。
+      - paragraph: なお、現在のDiscordでは、テキストを選択することで表示されるポップアップメニューから簡単にテキストの装飾が行えるほか、装飾の結果をテキストボックス内でプレビューできるようになっています。
+        - text: Discord 公式による記事
+          - /url: https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-
+        - text: も合わせてご確認ください。
+      - heading "見出し" [ref=e50] [level=2]
+        - text: テキストの先頭にパウンド (ハッシュ) 記号
+        - code: "#"
+        - text: と半角スペースを挿入することで、
+        - strong: 見出し
+        - text: を作成することができます。 見出しの大きさは
+        - code: "#"
+        - text: の個数によって変わります。Discord では現状、H1 (
+        - code: "#"
+        - text: ) から H3 (
+        - code: "###"
+        - text: ) までの見出しを使用することが可能です。
+      - code: "# Header 1 ## Header 2 ### Header 3"
+      - heading "太字" [ref=e51] [level=2]
+        - text: テキストを2つのアスタリスク
+        - code: "**"
+        - text: で囲むと
+        - strong: 太字
+        - text: になります。
+        - text: "キーボードショートカット (Windows / Mac):"
+        - code: Ctrl
+        - text: +
+        - code: B
+        - text: /
+        - code: Command
+        - text: +
+        - code: B
+      - link [ref=e52]:
+        - /url: https://qiita-user-contents.imgix.net/https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F496016256818872350%2F1076473148423295116%2Fescape.png%3Fex%3D6741c3be%26is%3D6740723e%26hm%3Db5c141a1fedd5a588af99f45c7e444987e769747590060ea1fe0a2dc5c5d0d62%26%3D%26format%3Dwebp%26quality%3Dlossless?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&s=4aae43507b792d84743f0aede95a4216
+      - code: "**Bold text**"
+      - heading "斜体" [ref=e53] [level=2]
+        - text: テキストをアスタリスク
+        - code: "*"
+        - text: かアンダースコア
+        - code: _
+        - text: で囲むと
+        - strong: 斜体
+        - text: になります。
+        - text: "キーボードショートカット (Windows / Mac):"
+        - code: Ctrl
+        - text: +
+        - code: I
+        - text: /
+        - code: Command
+        - text: +
+        - code: I
+      - link [ref=e54] [nth=1]:
+        - /url: https://qiita-user-contents.imgix.net/https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F496016256818872350%2F1076473148658163803%2Fitalic.png%3Fex%3D6741c3be%26is%3D6740723e%26hm%3Db353646f8f9507f25c7fd7d6d5bbccd3ad6e99802fa6bf056e44ba3af7df923f%26%3D%26format%3Dwebp%26quality%3Dlossless?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&s=7fdccbb20ebe90b583a1b480d6acd74f
+      - code: "*Italicized text* _Italicized text_"
+      - heading "下線" [ref=e55] [level=2]
+        - text: テキストを2つのアンダースコア
+        - code: __
+        - text: で囲むと
+        - strong: 下線
+        - text: が入ります。
+        - text: "キーボードショートカット (Windows / Mac):"
+        - code: Ctrl
+        - text: +
+        - code: U
+        - text: /
+        - code: Command
+        - text: +
+        - code: U
+      - link [ref=e56] [nth=2]:
+        - /url: https://qiita-user-contents.imgix.net/https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F496016256818872350%2F1076473149492830268%2Funderline.png%3Fex%3D6741c3be%26is%3D6740723e%26hm%3D0c52a17bab13c06f861a732f59fffbe0b5ce3a968d93f71970485c87149458cc%26%3D%26format%3Dwebp%26quality%3Dlossless?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&s=ab88504b0a545fc8de4a7596e200ab04
+      - code: __Underlined text__
+      - heading "打ち消し線" [ref=e57] [level=2]
+        - text: テキストを2つのチルダ
+        - code: ~~
+        - text: で囲むと
+        - strong: 打ち消し線
+        - text: が入ります。
+      - link [ref=e58] [nth=3]:
+        - /url: https://qiita-user-contents.imgix.net/https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F496016256818872350%2F1076473149182464150%2Fstrikethrough.png%3Fex%3D6741c3be%26is%3D6740723e%26hm%3D4b85a7b4cf141f6c274c4507175fe0407eddbdafa60fab8b714db9d92609aaaa%26%3D%26format%3Dwebp%26quality%3Dlossless?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&s=00550be3fbab9925166b5b14b01febf5
+      - code: ~~Strikethrough text~~
+      - heading "リスト" [ref=e59] [level=2]
+        - text: 各行の先頭にハイフン
+        - code: "-"
+        - text: または アスタリスク
+        - code: "*"
+        - text: と半角スペースを挿入することで、箇条書きリストを作成できます。
+      - code: "- 赤 - 緑 - 青"
+        - text: また、
+        - code: "-"
+        - text: や
+        - code: "*"
+        - text: の直前に半角スペースを2つ挿入することで、リストをインデント (字下げ) して、階層を作ることもできます。
+      - code: "- 赤 - 緑 - 青 - 水色 - 紺色 - 藍色"
+      - heading "ネタバレ防止タグ" [ref=e60] [level=2]
+        - text: テキストを2つのパイプ
+        - code: "||"
+        - text: で囲むか、先頭に
+        - code: /spoiler
+        - text: を挿入することで、送信する内容を隠すことができます。 スポイラータグで隠された内容は、テキストを左クリックすることで表示できます。
+      - link [ref=e61] [nth=4]:
+        - /url: https://qiita-user-contents.imgix.net/https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F496016256818872350%2F1076477123449065552%2Fspoiler-1.gif%3Fex%3D6741c772%26is%3D674075f2%26hm%3Def0d7ad0ec8c8d1c3c70ed55c6931d0e9159350de2b03e886101732225be05db%26%3D?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&s=abf922e71f41fab19e3ec7659d64fa7f
+      - link [ref=e62] [nth=5]:
+        - /url: https://qiita-user-contents.imgix.net/https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F496016256818872350%2F1076473148947566613%2Fspoiler-2.png%3Fex%3D6741c3be%26is%3D6740723e%26hm%3Dcb939f6399db08e2330d2fb2cec6a96ac2ab986674082434de4ae7f2a0363c5e%26%3D%26format%3Dwebp%26quality%3Dlossless?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&s=dcceffae5fec358184322389bb8e56f4
+      - code: "||Spoiler Text|| /spoiler Spoiler Text"
+      - heading "ネタバレ添付ファイル" [ref=e63] [level=3]
+        - text: 画像のアップロード時に、目のアイコンの
+        - strong: ネタバレ添付ファイル
+        - text: (Spoiler Attachment) を有効にすることで、投稿画像へぼかしをかけることができます。 こちらもテキストのネタバレ防止タグと同様、投稿を左クリックすることで閲覧できます。
+      - link [ref=e64] [nth=6]:
+        - /url: https://qiita-user-contents.imgix.net/https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F496016256818872350%2F1076541103102230679%2Fspiler-3.gif%3Fex%3D67415a48%26is%3D674008c8%26hm%3Dfc07d99ebbca210ee5cf6c47af643ca9858e21e3d9092d35d2326fad72a19fcf%26%3D?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&s=4c8368b6c062c88e9ece7a97f3b2a3ae
+      - heading "インラインコードブロック" [ref=e65] [level=2]
+        - text: テキストをバッククォート
+        - code: "`"
+        - text: で囲むと
+        - strong: インラインコードブロック
+        - text: として表示されます。
+      - link [ref=e66] [nth=7]:
+        - /url: https://qiita-user-contents.imgix.net/https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F496016256818872350%2F1076473181440839690%2Fcode-inline-1.png%3Fex%3D6741c3c6%26is%3D67407246%26hm%3D7634e5904c0a6a3f771a43630fa96b039e1c796a0ca1064fbc80ac4df9fa40bf%26%3D%26format%3Dwebp%26quality%3Dlossless?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&s=4b21332dcb84a7913269ea581d7c7dea
+      - code: "`Code`"
+      - paragraph: インラインコードブロックの中でバッククォート記号を使用したい場合は、それぞれを区別するために、以下のように半角スペースを挿入します。
+      - link [ref=e67] [nth=8]:
+        - /url: https://qiita-user-contents.imgix.net/https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F496016256818872350%2F1076473181726048276%2Fcode-inline-2.png%3Fex%3D6741c3c6%26is%3D67407246%26hm%3D3d84449a989b3ce2843eafe2c0a2fbd6505a9727182460bd789f136f05c0a571%26%3D%26format%3Dwebp%26quality%3Dlossless?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&s=20daccdccdd43ee7f86cd18e057f846b
+      - code: "` `Code` ` ` ``Code`` ` ` ```Code``` `"
+      - text: 
+      - paragraph:
+        - text: その他、単にテキストとして使用したい記号が Markdown記法で使用する記号と干渉してしまう場合には、後述する
+        - link "マークダウンのエスケープ" [ref=e68]:
+          - /url: https://qiita.com/xero/items/6026ed007d5d34623a50#markdown%E3%81%AE%E3%82%A8%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%97
+          - strong: マークダウンのエスケープ
+        - text: を活用できます。
+      - heading "コードブロック" [ref=e69] [level=2]
+        - text: テキストを3つのバッククォート
+        - code: "```"
+        - text: で囲むと、
+        - strong: コードブロック
+        - text: として表示されます。
+      - paragraph: コードブロック内の入力中はエンターキー単体での改行が可能です。
+      - text: 
+        - text: ちなみに、コードブロック外での普段の入力では
+        - code: Shift
+        - text: +
+        - code: Enter
+        - text: で改行できます。
+      - link [ref=e70] [nth=9]:
+        - /url: https://qiita-user-contents.imgix.net/https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F496016256818872350%2F1076473180891385936%2Fcode-1.png%3Fex%3D6741c3c6%26is%3D67407246%26hm%3D9098eddb73b0c1ba956e33b3ceb2ccaaf547915e2302b8ddf576537b879d8708%26%3D%26format%3Dwebp%26quality%3Dlossless?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&s=bf6202a64da51d17c30c262831d9d436
+      - code: "``` Code Code ```"
+      - heading "シンタックスハイライト" [ref=e71] [level=3]
+      - paragraph: また、コードブロックの先頭に言語名を記述することで、言語に応じたシンタックスハイライトを適用できます。
+      - link [ref=e72] [nth=10]:
+        - /url: https://qiita-user-contents.imgix.net/https%3A%2F%2Fmedia.discordapp.net%2Fattachments%2F496016256818872350%2F1076473181147234336%2Fcode-2.png%3Fex%3D6741c3c6%26is%3D67407246%26hm%3D15d116d9f022ddf7fa000320a41310a611ce19cb107244ef2a683ba717ac8dcc%26%3D%26format%3Dwebp%26quality%3Dlossless?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&s=a6c04d6b234c25332b81a997a38b1e4d
+      - code: "```python print('Discord') ```"
+      - paragraph:
+        - text: "参考:"
+        - link "List of supported languages and lexers" [ref=e73]:
+          - /url: https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languag
+
+[... 以下省略 ...]

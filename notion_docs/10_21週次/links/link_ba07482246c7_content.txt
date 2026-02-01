@@ -1,0 +1,67 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/document/d/1Vv26sS-Mj31xueT-aCl9dpHa7iw-W0C-QBlYC_Bdx8Q/edit?usp=sharing
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 10_21週次
+**取得日時**: 2026-01-22T17:11:12.739654
+
+---
+
+## コンテンツ
+
+以下に、提供されたコンテンツの要約を構造化して示します。
+
+**ドキュメント情報:**
+
+*   **ドキュメント名:** 【雛形】インフルエンサーマーケティング契約書（Mrs.PROTEIN）
+*   **場所:** Googleドキュメント
+*   **URL:** [https://docs.google.com/document/?usp=docs_web](https://docs.google.com/document/?usp=docs_web) (ドキュメントホーム)
+*   **共有設定:** リンクを知っている全員がアクセス可能（ログイン不要）
+*   **ステータス:** ドライブに保存済み
+
+**メニューバー:**
+
+*   ドキュメントホームへのリンク
+*   ドキュメント名
+*   ドキュメントステータス（ドライブに保存）
+*   コメント表示ボタン
+*   共有設定ボタン（リンク共有、全員アクセス可能）
+*   クイック共有操作ボタン
+*   ログインリンク ([https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/document/d/1Vv26sS-Mj31xueT-aCl9dpHa7iw-W0C-QBlYC_Bdx8Q/edit?usp%3Dsharing&followup=https://docs.google.com/document/d/1Vv26sS-Mj31xueT-aCl9dpHa7iw-W0C-QBlYC_Bdx8Q/edit?usp%3Dsharing&ltmpl=docs&ec=GAZAGQ](https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/document/d/1Vv26sS-Mj31xueT-aCl9dpHa7iw-W0C-QBlYC_Bdx8Q/edit?usp%3Dsharing&followup=https://docs.google.com/document/d/1Vv26sS-Mj31xueT-aCl9dpHa7iw-W0C-QBlYC_Bdx8Q/edit?usp%3Dsharing&ltmpl=docs&ec=GAZAGQ))
+*   メニュー項目 (ファイル、編集、表示、挿入、書式、ツール、拡張機能、ヘルプ)
+
+**ツールバー:**
+
+*   **メニュー検索:** メニュー項目を検索可能
+*   **メインツールバー:**
+    *   元に戻す/やり直し、印刷、スペルチェック、書式コピー
+    *   ズーム (100%が選択)
+    *   スタイル (標準テキストが選択)
+    *   フォント (Noto Sans JPが選択)
+    *   フォントサイズ (12.5ptが選択)
+    *   フォントサイズ調整ボタン
+    *   太字、斜体、下線
+    *   テキスト/ハイライト色
+    *   リンク挿入、コメント追加
+    *   配置、行間隔、チェックリスト、箇条書き、番号付きリスト
+    *   その他ツールボタン（無効）
+*   **モードと表示:**
+    *   編集モード
+    *   メニュー非表示
+
+**コメント:**
+
+*   未解決のコメントが2件存在する。
+    *   1件目：竹波斉志 10月14日 13:56投稿。「２回目以降がある場合」
+    *   2件目：竹波斉志 10月12日 23:38投稿。「無期限の場合はこの一文を削除してください。」
+    *   各コメントに対して、解決済みにする、その他のオプションがある。
+
+**その他:**
+
+*   タブとアウトラインの非表示ボタン
+*   スクリーンリーダーのサポートの有効化リンク (#)
+*   スクリーンリーダーのショートカット情報 (⌘+option+Z)
+*   バナーが非表示になっている
+

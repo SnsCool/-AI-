@@ -1,0 +1,38 @@
+# リンク先コンテンツ
+
+**URL**: https://www.instagram.com/tsukinashi
+**種類**: video
+**タイトル**: 動画コンテンツ
+**リンクテキスト**: 
+**参照元**: 週報（2025年8月31日）
+**取得日時**: 2026-01-23T05:51:53.837999
+
+---
+
+## コンテンツ
+
+このスクリーンショットは、Instagramのログインページを示しています。動画コンテンツページではありません。
+
+以下は表示されているテキストの書き起こしです。
+
+**左側**
+*   Instagramのロゴ
+*   See everyday moments from
+*   your **close friends**.
+
+**右側**
+*   Log into Instagram
+*   Mobile number, username or email
+*   Password
+*   Log in
+*   Forgot password?
+*   Log in with Facebook
+*   Create new account
+*   Metaロゴ
+
+**フッター**
+*   Meta About Blog Jobs Help API Privacy Terms Locations Instagram Lite Meta AI Threads Contact Uploading & Non-Users Meta Verified
+*   English 
+*   © 2026 Instagram from Meta
+
+したがって、動画のタイトル、説明、内容については、このスクリーンショットから提供できる情報はありません。

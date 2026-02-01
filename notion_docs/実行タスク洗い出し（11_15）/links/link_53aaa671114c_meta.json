@@ -1,0 +1,8 @@
+{
+  "url": "https://docs.google.com/spreadsheets/d/16IDhDw3TmOHi5KYUHflCBBe33rNJUabaC9h9nZN_W4I/edit?gid=0#gid=0",
+  "type": "gdoc",
+  "processed_at": "2026-01-23T06:04:38.255907",
+  "content": "このコンテンツは、主にファイル削除に関するエラーメッセージと、Google ドライブの紹介という2つの部分で構成されています。\n\n---\n\n**1. ファイル削除のエラーと解決策**\n\n*   **エラーメッセージ:** リクエストされたファイルは削除されています。\n*   **確認事項:**\n    *   URLが間違っていないか。\n    *   ファイルのオーナーによって削除されていないか。\n\n**2. Google ドライブの紹介**\n\n*   **キャッチフレーズ:** 「あれもこれも Google ドライブで」\n*   **機能:** Google ドライブは、ドキュメント、スプレッドシート、プレゼンテーションなどを簡単に作成、保存し、オンラインで共有できるアプリを提供しています。\n*   **詳細情報:** [drive.google.com/start/apps](https://drive.google.com/start/apps) を参照してください。",
+  "title": "Webページ",
+  "error": null
+}

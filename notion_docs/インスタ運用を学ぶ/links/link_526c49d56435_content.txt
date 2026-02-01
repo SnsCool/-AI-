@@ -1,0 +1,53 @@
+# リンク先コンテンツ
+
+**URL**: https://www.canva.com/design/DAGReY3oKlE/TmgJkv6FOy6xbbro4uSGWQ/view?utm_content=DAGReY3oKlE&utm_campaign=designshare&utm_medium=link&utm_source=editor#48
+**種類**: image
+**タイトル**: デザインコンテンツ
+**リンクテキスト**: 
+**参照元**: インスタ運用を学ぶ
+**取得日時**: 2026-01-22T13:21:51.475698
+
+---
+
+## コンテンツ
+
+Here's a description of the image, including the text that's been extracted:
+
+**Overall Impression:**
+
+The image appears to be a screenshot of a video about social media content creation tips, specifically for Instagram.  It showcases three different content types ("Design," "Video Structure," and "Posting Ideas") using mobile phone screen recordings.
+
+**Detailed Breakdown:**
+
+*   **Header:**
+    *   "Canva" logo in the top left.
+    *   "Share" and "Create with Canva" buttons in the top right.
+    *   Large text: "参考にするべきポイント" (Reference Points/Things to Refer To).
+
+*   **Content Areas (Left to Right):**
+
+    *   **デザイン (Design):**
+        *   Instagram post of a phone screen with a custom home screen, featuring a photo of shoes and various app icons.
+        *   The overlay text reads:  "今年絶対に流行る/ 神すぎる/ ホーム画面" (This year definitely trending/ Godlike/ Homescreen). The username is koki_komai
+        *   At the bottom, there are typical Instagram interaction elements like view count, like count, comment option, and share button.
+
+    *   **動画の構成 (Video Structure):**
+        *   An Instagram Reel showing a cartoonish, moving face widget.
+        *   Text:  "あなたのリール動画" (Your Reel Video),  "19%", "ウィジェット 見つけた!" (Widget Found!). The username is koki_komai
+        *   Instagram interaction elements (likes, comments, share).
+
+    *   **投稿ネタ (Posting Ideas):**
+        *   A profile view showcasing a grid of short videos.
+        *   Video previews include titles like "年齢当てる 電卓マジック" (Guessing Age with Calculator Magic), "浮気常習犯 これやってる!?" (Cheating Habitual Offender - Are they doing this!?), "最高にチルな アラーム知ってる?" (The Chillest Alarm I Know?), "カメラ裏技たーんっ!♡カスタム" (Camera Secret Techniques! ♡ Custom).
+        *   Each video preview displays a view count number.
+
+*   **Video Player Controls:**
+
+    *   Play/Pause button.
+    *   Progress bar showing "48/58" (current time/total time).
+    *   Options for full-screen viewing and settings.
+
+**Overall:**
+
+The image provides a visual and textual overview of social media trends and content ideas that viewers might find engaging. It leverages the visual appeal of short-form video content and custom smartphone themes.
+

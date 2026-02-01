@@ -1,0 +1,17 @@
+# うらやましぞ!! Jリーグ
+
+Notion URL: https://www.notion.so/J-07f6ea5ca7894d3e90dfb4730cbd0be7
+同期日時: 2026-01-27T21:00:00+09:00
+
+---
+
+## プロパティ
+
+- **キャッチコピー**: うらやましぞ!! Jリーグ
+- **番号**: 402
+- **企業名, 商品名**: 豊島園
+- **訴求方法**: 流行
+- **参照リンク**: https://www.tcc.gr.jp/copira/id/5710/
+- **画像**: https://i.pinimg.com/564x/9a/e9/7a/9ae97ae2b042b8f9c2eecfda8ecfea1d.jpg
+- **いいね**: false
+

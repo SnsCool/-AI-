@@ -1,0 +1,8 @@
+{
+  "url": "https://discord.com/channels/1151442122361282641/1159467673361600605/1434073402397818910",
+  "type": "webpage",
+  "processed_at": "2026-01-22T13:32:04.583169",
+  "content": "## Discordアプリ検出時のアクション選択\n\nDiscordアプリでリンクを開くかどうかを尋ねるメッセージが表示されました。\n\n**選択肢:**\n\n*   **アプリを開く (Open App):** Discordアプリでリンクを開きます。\n*   **ブラウザで続行 (Continue in Browser):** 現在のブラウザでリンクを開きます。\n",
+  "title": "Webページ",
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "page_id": "245f3b0f-ba85-8050-8fce-de83b444bb77",
+  "created_time": "2025-08-04T15:04:00.000Z",
+  "last_edited_time": "2025-08-06T06:03:00.000Z",
+  "url": "https://www.notion.so/FB-245f3b0fba8580508fcede83b444bb77",
+  "properties": {
+    "着手": {"type": "multi_select", "multi_select": [{"name": "スタータープログラム"}, {"name": "連携すること"}, {"name": "リーダー"}]},
+    "ステータス": {"type": "status", "status": {"name": "完了", "color": "green"}},
+    "タスク": {"id": "title", "type": "title", "title": [{"plain_text": "ボムさんに現在のスターターのFBもらう"}]}
+  }
+}

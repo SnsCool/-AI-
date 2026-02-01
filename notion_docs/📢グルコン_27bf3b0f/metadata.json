@@ -1,0 +1,18 @@
+{
+  "page_id": "27bf3b0f-ba85-8046-babf-cd1b4789c1c5",
+  "created_time": "2025-09-27T16:36:00.000Z",
+  "last_edited_time": "2025-11-11T01:05:00.000Z",
+  "url": "https://www.notion.so/27bf3b0fba858046babfcd1b4789c1c5",
+  "properties": {
+    "開催日": {"type": "date", "date": {"start": "2025-10-11T21:00:00.000+09:00"}},
+    "ゆの": {"type": "status", "status": {"name": "×", "color": "red"}},
+    "ななこ": {"type": "status", "status": {"name": "×", "color": "red"}},
+    "ゆうか": {"type": "status", "status": {"name": "⚪︎", "color": "blue"}},
+    "りお": {"type": "status", "status": {"name": "×", "color": "red"}},
+    "みゆう": {"type": "status", "status": {"name": "⚪︎", "color": "blue"}},
+    "やえこ": {"type": "status", "status": {"name": "⚪︎", "color": "blue"}},
+    "曜日": {"type": "rich_text", "rich_text": [{"plain_text": "土"}]},
+    "担当者": {"type": "people", "people": [{"name": "小林未侑"}]},
+    "": {"id": "title", "type": "title", "title": [{"plain_text": "📢グルコン"}]}
+  }
+}

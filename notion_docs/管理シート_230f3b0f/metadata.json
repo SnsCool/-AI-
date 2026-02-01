@@ -1,0 +1,15 @@
+{
+  "page_id": "230f3b0f-ba85-8001-b3eb-fddbeba5468c",
+  "title": "管理シート",
+  "created_time": "2025-07-14T18:23:00.000Z",
+  "last_edited_time": "2025-08-11T15:21:00.000Z",
+  "url": "https://www.notion.so/230f3b0fba858001b3ebfddbeba5468c",
+  "public_url": "https://shared-beak-b34.notion.site/230f3b0fba858001b3ebfddbeba5468c",
+  "properties": {
+    "着手": {"type": "multi_select", "value": "マネタイズ講座"},
+    "完了": {"type": "formula", "value": 0},
+    "ステータス": {"type": "status", "value": "目標"},
+    "担当者": {"type": "people", "value": ""},
+    "タスク": {"type": "title", "value": "管理シート"}
+  }
+}

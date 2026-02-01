@@ -1,0 +1,24 @@
+# リンク先コンテンツ
+
+**URL**: https://line.me/ti/p/%40849voxwy
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: アイレポート（分析ツール）
+**取得日時**: 2026-01-22T15:59:38.903728
+
+---
+
+## コンテンツ
+
+  - banner:
+    - heading "LINE" [ref=e1] [level=1]:
+      - link "LINE" [ref=e2]:
+        - /url: /
+  - main:
+    - paragraph: Scan QR code to add friend
+    - paragraph: Scan this QR code on the mobile version of LINE to add this friend.
+      - listitem:
+        - link "Learn more about LINE" [ref=e3]:
+          - /url: https://line.me
+

@@ -1,0 +1,14 @@
+{
+  "page_id": "1d0f3b0f-ba85-801f-82ad-eafa282c0eb5",
+  "title": "運営スタッフ確保",
+  "created_time": "2025-04-09T14:20:00.000Z",
+  "last_edited_time": "2025-07-12T10:57:00.000Z",
+  "url": "https://www.notion.so/1d0f3b0fba85801f82adeafa282c0eb5",
+  "properties": {
+    "納期": {"type": "date"},
+    "優先度": {"type": "select", "value": "高"},
+    "ステータス": {"type": "status", "value": "未着手"},
+    "タスク名": {"type": "title", "value": "運営スタッフ確保"},
+    "タグ": {"type": "multi_select", "value": "9月SnsClub合宿"}
+  }
+}

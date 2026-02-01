@@ -1,0 +1,21 @@
+{
+  "page_id": "27ef3b0f-ba85-809c-8e03-e85a0c860d0e",
+  "title": "パレスホテル東京",
+  "created_time": "2025-09-30T02:29:00.000Z",
+  "last_edited_time": "2025-10-01T05:58:00.000Z",
+  "url": "https://www.notion.so/27ef3b0fba85809c8e03e85a0c860d0e",
+  "properties": {
+    "ホテル空き状況": {"type": "select", "value": "未確認"},
+    "エリア": {"type": "rich_text", "value": "東京"},
+    "進捗": {"type": "multi_select", "value": "空き無し"},
+    "担当者": {"type": "people", "value": "森田咲音"},
+    "個別会議室": {"type": "select", "value": "有"},
+    "予算（見積り）": {"type": "number", "value": null},
+    "付帯ホテル": {"type": "select", "value": "有"},
+    "空き日程_": {"type": "rich_text", "value": ""},
+    "使用ルーム": {"type": "rich_text", "value": ""},
+    "URL": {"type": "url", "value": "https://www.palacehoteltokyo.com/"},
+    "仮押さえ期限": {"type": "date", "value": null},
+    "会場名": {"type": "title", "value": "パレスホテル東京"}
+  }
+}

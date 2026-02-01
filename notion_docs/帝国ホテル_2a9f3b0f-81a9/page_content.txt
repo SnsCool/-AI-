@@ -1,0 +1,13 @@
+# 帝国ホテル
+
+## Properties
+- ホテル空き状況: 未確認
+- エリア: 東京
+- 進捗: 空き無し
+- 担当者: 森田咲音
+- 個別会議室: 有
+- 付帯ホテル: 有
+- URL: https://www.imperialhotel.co.jp/tokyo
+
+## Content
+

@@ -1,0 +1,14 @@
+# プレゼン資料作成
+
+Notion URL: https://www.notion.so/250f3b0fba85807a9fc1ecbf862e08a8
+同期日時: 2026-01-27T11:42:00+09:00
+
+---
+
+## プロパティ
+
+- **ローンチまでのタスク**: プレゼン資料作成
+- **ステータス**: 完了
+- **担当者**: RIKU, 與儀あんり
+- **デッドライン**: 2025-09-01
+- **メモ**: https://www.canva.com/design/DAGwbpnssQg/U5WuzstgNxIQcmL4tcRPAw/edit

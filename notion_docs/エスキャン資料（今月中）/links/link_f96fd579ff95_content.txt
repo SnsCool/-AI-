@@ -1,0 +1,81 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/document/d/1zLcZ8us3O6ETllOGwoA1DTqN5YtcXKBpT0C5k0Abpq8/edit?usp=sharing
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: エスキャン資料（今月中）
+**取得日時**: 2026-01-22T14:16:37.408672
+
+---
+
+## コンテンツ
+
+    - banner "メニューバー":
+      - dialog "このドキュメントは複数のタブにコンテンツが含まれています":
+        - text: このドキュメントは複数のタブにコンテンツが含まれています
+        - button "閉じる" [ref=e1]
+      - link "ドキュメント ホーム" [ref=e2]:
+        - /url: https://docs.google.com/document/?usp=docs_web
+      - text: かりんさん：エスキャン講義ヒアリング - 2025/12/07 14:02 JST - Gemini によるメモ
+      - 'button "ドキュメントのステータス: ドライブに保存しました."'
+      - button "すべてのコメントを表示" [ref=e3]
+      - button "共有します。リンクを知っている全員。 リンクを知っている全員がアクセスできます。ログインは不要です。" [ref=e4] [disabled]: 共有
+      - button "クイック共有操作" [ref=e5] [disabled]
+      - link "ログイン" [ref=e6]:
+        - /url: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/document/d/1zLcZ8us3O6ETllOGwoA1DTqN5YtcXKBpT0C5k0Abpq8/edit?usp%3Dsharing&followup=https://docs.google.com/document/d/1zLcZ8us3O6ETllOGwoA1DTqN5YtcXKBpT0C5k0Abpq8/edit?usp%3Dsharing&ltmpl=docs&ec=GAZAGQ
+        - menuitem "ファイル" [ref=e7]
+        - menuitem "編集" [ref=e8]
+        - menuitem "表示" [ref=e9]
+        - menuitem "挿入" [ref=e10]
+        - menuitem "表示形式" [ref=e11]
+        - menuitem "ツール" [ref=e12]
+        - menuitem "拡張機能" [ref=e13]
+        - menuitem "ヘルプ" [ref=e14]
+      - toolbar "メニューを検索 (option+/)":
+        - combobox "メニュー" [ref=e15]
+      - toolbar "メイン":
+        - button "元に戻す (⌘Z)" [ref=e16]
+        - button "やり直し (⌘Y)" [ref=e17]
+        - button "印刷 (⌘P)" [ref=e18]
+        - button "スペルと文法のチェック (⌘+option+X)" [ref=e19]
+        - button "書式を貼り付け" [ref=e20]
+        - combobox "ズーム" [ref=e21]:
+          - option "ズーム のリストで 100% を選択しています。" [ref=e22] [selected]:
+            - textbox "ズーム" [ref=e23]: 100%
+        - listbox "スタイル" [ref=e24]:
+          - option "スタイル のリストで 標準テキスト を選択しています。" [ref=e25] [selected]: 標準テキスト
+        - listbox "フォント" [ref=e26]:
+          - option "フォント のリストで Roboto を選択しています。" [ref=e27] [selected]: Roboto
+        - button "フォントサイズを縮小 (⌘+Shift+カンマ)" [ref=e28]
+        - combobox "フォント サイズ" [ref=e29]:
+          - option "フォント サイズ のリストで 12 を選択しています。" [ref=e30] [selected]:
+            - textbox "フォント サイズ" [ref=e31]: "12"
+        - button "フォントサイズを拡大 (⌘+Shift+ピリオド)" [ref=e32]
+        - button "太字 (⌘B)" [ref=e33]
+        - button "斜体 (⌘I)" [ref=e34]
+        - button "下線 (⌘U)" [ref=e35]
+        - button "テキストの色" [ref=e36]
+        - button "ハイライトの色" [ref=e37]
+        - button "リンクを挿入 (⌘K)" [ref=e38]
+        - button "コメントを追加 (⌘+option+M)" [ref=e39]
+        - button "配置とインデント" [ref=e40]
+        - button "行間隔と段落の間隔" [ref=e41]
+        - button "チェックリスト (⌘+Shift+9)" [ref=e42]
+        - button "チェックリスト メニュー" [ref=e43]
+        - button "箇条書き (⌘+Shift+8)" [ref=e44]
+        - button "箇条書きメニュー" [ref=e45]
+        - button "番号付リスト (⌘+Shift+7)" [ref=e46]
+        - button "番号付きリストメニュー" [ref=e47]
+        - button "もっと見る" [ref=e48] [disabled]
+      - toolbar "モードと表示":
+        - button "編集モード" [ref=e49]: 編集
+        - button "メニューを非表示 (Ctrl+Shift+F)" [ref=e50]
+    - button "タブとアウトラインを非表示" [ref=e51]:
+      - button "戻る" [ref=e52] [disabled]:
+        - button "戻る" [ref=e53] [nth=1] [disabled]
+    - link "スクリーン リーダーのサポートを有効にする" [ref=e54]:
+      - /url: "#"
+    - region: スクリーン リーダーのサポートを有効にするには、⌘+option+Z を押します。キーボード ショートカットの詳細については、⌘スラッシュ を押します。
+    - text: バナーを非表示にしました
+

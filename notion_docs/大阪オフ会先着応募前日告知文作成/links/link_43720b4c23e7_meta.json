@@ -1,0 +1,8 @@
+{
+  "url": "https://tiget.net/users/provider_sign_up",
+  "type": "webpage",
+  "processed_at": "2026-01-23T07:20:19.601005",
+  "content": "このコンテンツは、ユーザーが人間であることを確認するためのセキュリティチェックに関するものです。\n\n*   **見出し**: 「あなたは人間であることを確認しましょう (Let's confirm you are human)」\n*   **目的**: 続行する前にセキュリティチェックを完了することが求められています。これは、ユーザーがボットではないことを検証し、アカウントの保護とスパムの防止に役立つと説明されています。\n*   **操作**: セキュリティチェックを開始するための「Begin」（開始）ボタンが提供されています。\n*   **言語選択**: 「Select language」（言語選択）というコンボボックスがあり、デフォルトで「English」（英語）が選択されています。選択可能な言語は以下の通りです:\n    *   アラビア語 (العربية)\n    *   チェコ語 (Čeština)\n    *   デンマーク語 (Dansk)\n    *   ドイツ語 (Deutsch)\n    *   英語 (English)\n    *   スペイン語 (Español)\n    *   フランス語 (Français)\n    *   イタリア語 (Italiano)\n    *   日本語 (日本語)\n    *   オランダ語 (Nederlands)\n    *   ポーランド語 (Polski)\n    *   ポルトガル語 (Português)\n    *   スウェーデン語 (Svenska)\n    *   トルコ語 (Türkçe)\n    *   中国語 (中文)",
+  "title": "Webページ",
+  "error": null
+}

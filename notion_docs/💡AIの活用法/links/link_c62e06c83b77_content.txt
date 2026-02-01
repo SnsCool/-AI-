@@ -1,0 +1,15 @@
+# リンク先コンテンツ
+
+**URL**: https://drive.google.com/file/d/1B7hHksMTCF2qSaE79nc8k6AtFwbguf_4/view?usp=drive_link
+**種類**: gdrive
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 💡AIの活用法
+**取得日時**: 2026-01-22T14:13:57.344680
+
+---
+
+## コンテンツ
+
+    - text: AIランキング.mov を表示しています。
+

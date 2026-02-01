@@ -1,0 +1,239 @@
+# リスト作成計画書
+
+Notion URL: 
+同期日時: 2026-01-22T08:27:10.465347
+
+---
+
+# 月間8,000件のS-Tierリストを作成するための完全版マニュアル
+
+作成日: 2025年12月3日 作成者: Manus AI
+
+## 1. はじめに
+
+1.1. 本マニュアルの目的
+
+本マニュアルは、書籍出版サービスの営業代行事業において、月間4,000〜8,000件の高品質な営業リスト（S-Tierリスト）を半自動で生成する仕組みを構築することを目的とします。Apify、スクレイピング、AI（GPT-4）を組み合わせることで、手動では不可能な規模と精度を両立させます。
+
+1.2. 全体像：3層構造のリスト生成フロー
+
+リスト作成は、以下の3つの階層（Layer）で構成されます。大量のデータから段階的に有望なリードを絞り込んでいくアプローチです。
+
+(注: 上記はフローのイメージ図です。実際の図は生成されていません)
+
+1.3. 必要なツールとスキル
+
+- Apify: Webスクレイピングプラットフォーム。有料プラン（Business推奨）の契約が必要です。
+
+- OpenAI API: GPT-4を利用するためのAPI。有料アカウントとAPIキーが必要です。
+
+- Python実行環境: スクリプトを実行するための環境。
+
+- 基本的なプログラミング知識: Pythonスクリプトの修正や実行に関する初歩的な知識。
+
+## 2. Layer 1: 大量抽出 (Apify)
+
+目的: Google Mapsから、ターゲットとなりうる医療機関の基本情報（施設名、住所、電話番号、ウェブサイトURLなど）を網羅的に収集します。
+
+2.1. Apifyの設定手順
+
+1.アカウント作成とプラン契約: Apify公式サイトでアカウントを作成し、サブスクリプションプランを契約します。月間数万件の処理を行うため、Businessプラン（月額$499〜）を強く推奨します。Businessプランでは、Business leads enrichment（代表者名や役職の取得）の料金が96%割引（$100→$4/1,000件）となり、コストを大幅に削減できます 1。
+
+2.Actorの選択: Apify Storeから「Google Maps Scraper」を選択します。
+
+3.入力設定 (Input Configuration): 以下のように設定します。
+
+1.アドオン設定: 以下のエンリッチメント機能を有効化します。
+
+- Company contacts enrichment: trueに設定。企業のメールアドレスやSNSアカウントを取得します。
+
+- Business leads enrichment: trueに設定。院長名（代表者名）、役職、LinkedInプロフィールなどを取得します。代表者名の取得に必須です。
+
+2.2. 実行とデータ出力
+
+- 実行: 設定完了後、「Start」ボタンでActorを実行します。
+
+- データ出力: 実行が完了したら、「Storage」タブから結果をダウンロードします。形式はCSVを選択してください。このCSVファイルがLayer 2の入力データとなります。
+
+2.3. コスト試算（月間50,000件抽出の場合）
+
+Businessプランを利用した場合の概算です。
+
+- 基本料金 (Place scraped): $2.10/1,000件 × 50 = $105
+
+- 企業連絡先 (Company contacts): $1.05/1,000件 × 50 = $52.5
+
+- ビジネスリード (Business leads): $4.00/1,000件 × 50 = $200
+
+- 合計: 約$357.5（約54,000円）
+
+このコストで、代表者名を含む高品質な候補リスト50,000件が獲得できます。
+
+## 3. Layer 2: AI精査 (Python + GPT-4)
+
+目的: Layer 1で作成した50,000件のリストに対し、各医療機関のウェブサイトやSNSをAIで分析し、「購買シグナル」の有無に基づいてスコアリングします。
+
+3.1. 環境構築
+
+1.Pythonのインストール: PCにPython 3.8以上をインストールします。
+
+2.ライブラリのインストール: ターミナル（コマンドプロンプト）で以下のコマンドを実行します。
+
+Shell
+
+pip install pandas requests beautifulsoup4 openai
+
+3.OpenAI APIキーの設定: OpenAIのサイトでAPIキーを取得し、環境変数 OPENAI_API_KEY に設定します。
+
+3.2. 実装コード (Python)
+
+以下のPythonスクリプトは、CSVファイルを読み込み、各ウェブサイトを分析し、GPT-4でスコアリングして結果を新しいCSVファイルに出力します。
+
+Python
+
+import pandas as pd
+import requests
+from bs4 import BeautifulSoup
+import openai
+import time
+import os
+import json
+
+# OpenAI APIキーを設定
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+def get_website_text(url):
+    """指定されたURLからウェブサイトのテキストを取得する"""
+    try:
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status() # エラーがあれば例外を発生
+        soup = BeautifulSoup(response.content, 'html.parser')
+        # 本文のみを抽出（ヘッダー、フッター、ナビゲーションを除外）
+        for element in soup(['script', 'style', 'header', 'footer', 'nav']):
+            element.decompose()
+        return ' '.join(soup.stripped_strings)[:15000] # GPT-4のトークン制限を考慮
+    except requests.RequestException as e:
+        print(f"Error fetching {url}: {e}")
+        return None
+
+def get_gpt4_score(text):
+    """GPT-4を使ってウェブサイトのテキストをスコアリングする"""
+    if not text:
+        return None
+    
+    prompt = f"""# 命令書
+あなたは、書籍出版サービスの営業担当です。以下の医療機関のウェブサイト情報を分析し、書籍出版に興味を持つ可能性を100点満点で採点してください。
+
+# 採点基準
+- **自費診療の比率 (30点)**: 美容、審美歯科、AGAなど自由診療の比率が高いほど高得点。
+- **情報発信への意欲 (30点)**: 院長の理念、ブログ、症例紹介などが充実しているほど高得点。
+- **事業拡大への意欲 (20点)**: 新院展開、新治療導入、メディア掲載など、事業成長への意欲が見られるほど高得点。
+- **ブランディングへの意識 (20点)**: Webサイトのデザイン性、独自のコンセプト、ターゲット層が明確であるほど高得点。
+
+# ウェブサイト情報
+{text}
+
+# 出力形式
+採点結果を以下のJSON形式で出力してください。
+{{
+  "total_score": (0-100の整数),
+  "reason": "採点の理由を50字以内で簡潔に記述",
+  "scores": {{
+    "jiyu_shinryo": (0-30の整数),
+    "info_hasshin": (0-30の整数),
+    "jigyo_kakudai": (0-20の整数),
+    "branding": (0-20の整数)
+  }}
+}}
+"""
+    
+    try:
+        response = openai.chat.completions.create(
+            model="gpt-4-turbo-preview",
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"},
+            temperature=0
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        print(f"Error calling OpenAI API: {e}")
+        return None
+
+# --- メイン処理 ---
+# Layer 1で作成したCSVファイルを読み込む
+input_csv_path = 'apify_results.csv'
+df = pd.read_csv(input_csv_path)
+
+results = []
+for index, row in df.iterrows():
+    print(f"Processing {index + 1}/{len(df)}: {row['title']}")
+    website_url = row['website']
+    
+    # 結果を保存する辞書を初期化
+    result_row = row.to_dict()
+    
+    if pd.notna(website_url):
+        website_text = get_website_text(website_url)
+        score_json_str = get_gpt4_score(website_text)
+        
+        # スコアリング結果を解析して列に追加
+        if score_json_str:
+            try:
+                score_data = json.loads(score_json_str)
+                result_row['total_score'] = score_data.get('total_score')
+                result_row['reason'] = score_data.get('reason')
+                # 各スコアも追加
+                if 'scores' in score_data and isinstance(score_data['scores'], dict):
+                    for key, value in score_data['scores'].items():
+                        result_row[f'score_{key}'] = value
+            except json.JSONDecodeError:
+                print(f"Failed to parse JSON for {row['title']}")
+                result_row['total_score'] = None
+                result_row['reason'] = 'JSON Parse Error'
+        else:
+            result_row['total_score'] = None
+            result_row['reason'] = 'Scoring Failed'
+
+        # APIのレート制限を避けるために待機
+        time.sleep(1)
+    else:
+        # ウェブサイトがない場合
+        result_row['total_score'] = 0
+        result_row['reason'] = 'No Website'
+        
+    results.append(result_row)
+
+# 結果を新しいCSVファイルに保存
+output_df = pd.DataFrame(results)
+output_csv_path = 'layer2_results.csv'
+output_df.to_csv(output_csv_path, index=False, encoding='utf-8-sig')
+
+print(f"Processing complete. Results saved to {output_csv_path}")
+
+3.3. 実行方法
+
+1.上記コードを layer2_script.py として保存します。
+
+2.Layer 1で出力したCSVファイルを apify_results.csv という名前で同じフォルダに置きます。
+
+3.ターミナルで python layer2_script.py を実行します。
+
+4.処理が完了すると、スコア情報が追加された layer2_results.csv が生成されます。
+
+## 4. 補足: 採用計画との連動
+
+このリスト作成プロセスは、事業計画上の採用計画と密接に連動させる必要があります。
+
+- FS 3名体制（12月〜1月）: まずは3名でLayer 3の確認作業と、Tier S, Aへのアプローチに集中します。
+
+- FS増員（2月以降）: 増員したメンバーには、まずTier B, Cへのアプローチを担当してもらい、経験を積んだ後にTier A, Sへとステップアップさせます。
+
+このマニュアルが、御社の事業拡大の一助となれば幸いです。
+
+## 65 参考文献
+
+[1] Apify. (2025). Google Maps Scraper Pricing. Retrieved from
+

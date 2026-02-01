@@ -1,0 +1,5 @@
+# Lステップ：Discord流入時送信メッセージテンプレ作成
+
+[画像]
+
+https://manager.linestep.net/line/template/edit/222474597?group=853385

@@ -1,0 +1,13 @@
+# サウナとグルメ
+
+Notion URL: https://www.notion.so/b69e95b9cebd487780ea6f4fbb500de2
+同期日時: 2026-01-27T12:00:00+09:00
+
+---
+
+## プロパティ
+
+- **アカウント名**: サウナとグルメ
+- **小ジャンル**: アウトドア
+- **フォロワー（k）**: 49.8
+- **アカウントURL**: https://twitter.com/sauna_gourmet/photo

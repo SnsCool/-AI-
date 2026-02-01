@@ -1,0 +1,18 @@
+# クレーム対応過去事例スプシ
+
+Notion URL: https://www.notion.so/2f0f3b0fba858000b2fad66bd59fedd5
+同期日時: 2026-02-01T12:27:05+09:00
+
+---
+
+https://whimsical.com/generated-board-VaCbkJ4CsS1Vp8vQ8iWod9?ref=chatgpt
+🧭 クレーム対応過去事例スプレッドシート記入ワークフロー（内容要約）
+クレーム対応が完了している生徒様を確認
+Lステップを開き、GoFullPageで全ページスクリーンショットを撮る
+ChatGPTにスクリーンショットを貼り付け、要約を作成
+Lステップの個別返信履歴をすべてコピー＆ペースト
+スプレッドシートに
+  - 要約
+  - 対応履歴（返信内容）
+  を記入して保存
+完了

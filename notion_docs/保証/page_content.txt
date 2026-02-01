@@ -1,0 +1,14 @@
+# 保証
+
+Notion URL: https://www.notion.so/2ec604fbd5a24fa98a6cc7977fa5ffe3
+同期日時: 2026-01-27T00:00:00+09:00
+
+---
+
+## プロパティ
+
+- **例**: 保証
+- **大項目**: Action 行動
+- **Bookmark**: false
+- **種別**: 安心感
+- **memo**: (未設定)

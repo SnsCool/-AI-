@@ -1,0 +1,17 @@
+# PayPal決済キャンセル方法
+
+Notion URL: 
+同期日時: 2026-01-22T08:47:23.555006
+
+---
+
+PayPal
+
+ログインURL：https://www.paypal.com/jp/home
+
+メールアドレス：info@levela.co.jp
+
+パスワード：Ex19960906
+
+##  PayPalキャンセル方法解説
+

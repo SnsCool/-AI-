@@ -1,0 +1,14 @@
+# Notionを登録する
+
+Notion URL: https://www.notion.so/Notion-e33710c6db114b53a01dfff0260f5637
+同期日時: 2026-01-27T00:00:00+09:00
+
+---
+
+## プロパティ
+
+- **やること**: Notionを登録する
+- **カテゴリー**: 実行する
+- **補足**: https://www.notion.so/ja-jp
+- **優先度**: ⭐️⭐️⭐️
+

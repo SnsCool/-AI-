@@ -1,0 +1,285 @@
+# リンク先コンテンツ
+
+**URL**: https://ginza6.tokyo/shops/57898
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 📝 議事録：「ミセスプロテイン」改善点（なーみんさん意見）
+**取得日時**: 2026-01-22T15:32:27.915485
+
+---
+
+## コンテンツ
+
+  - banner:
+    - heading "GSIX" [ref=e1] [level=1]:
+      - link "GSIX" [ref=e2]:
+        - /url: https://ginza6.tokyo/
+    - link "search" [ref=e3]:
+      - /url: javascript:void(0);
+    - textbox [ref=e4]:
+      - /placeholder: キーワードを入力
+    - text: Ja
+      - listitem:
+        - link "日本語" [ref=e5]:
+          - /url: https://ginza6.tokyo/shops/57898
+      - listitem:
+        - link "English" [ref=e6]:
+          - /url: https://ginza6.tokyo.e.abf.hp.transer.com/shops/57898
+      - listitem:
+        - link "简体中文" [ref=e7]:
+          - /url: https://ginza6.tokyo.c.abf.hp.transer.com/shops/57898
+      - listitem:
+        - link "繁體中文" [ref=e8]:
+          - /url: https://ginza6.tokyo.t.abf.hp.transer.com/shops/57898
+      - listitem:
+        - link "한국어" [ref=e9]:
+          - /url: https://ginza6.tokyo.k.abf.hp.transer.com/shops/57898
+    - navigation:
+        - listitem:
+          - link "ニュース" [ref=e10]:
+            - /url: https://ginza6.tokyo/news/
+        - listitem:
+          - link "ショップガイド" [ref=e11]:
+            - /url: https://ginza6.tokyo/shops/
+        - listitem:
+          - link "アート" [ref=e12]:
+            - /url: https://ginza6.tokyo/art/
+        - listitem:
+          - link "マガジン" [ref=e13]:
+            - /url: https://ginza6.tokyo/magazine/
+        - listitem:
+          - link "サービス" [ref=e14]:
+            - /url: https://ginza6.tokyo/services/
+        - listitem:
+          - link "会員案内" [ref=e15]:
+            - /url: https://ginza6.tokyo/membership/
+        - listitem:
+          - link "施設案内" [ref=e16]:
+            - /url: https://ginza6.tokyo/facilities/
+        - listitem:
+          - link "アクセス" [ref=e17]:
+            - /url: https://ginza6.tokyo/access/
+      - link "Instagram" [ref=e18]:
+        - /url: https://www.instagram.com/ginzasix_official/
+    - link [ref=e19]:
+      - /url: javascript:void(0)
+    - navigation:
+      - link [ref=e20] [nth=1]:
+        - /url: javascript:void(0)
+        - listitem:
+          - link "home ホーム" [ref=e21]:
+            - /url: https://ginza6.tokyo/
+            - text: ホーム
+        - listitem:
+          - link "news ニュース" [ref=e22]:
+            - /url: https://ginza6.tokyo/news/
+            - text: ニュース
+        - listitem:
+          - link "ショップガイド ショップガイド" [ref=e23]:
+            - /url: https://ginza6.tokyo/shops/
+            - text: ショップガイド
+        - listitem:
+          - link "アート アート" [ref=e24]:
+            - /url: https://ginza6.tokyo/art/
+            - text: アート
+        - listitem:
+          - link "マガジン マガジン" [ref=e25]:
+            - /url: https://ginza6.tokyo/magazine/
+            - text: マガジン
+        - listitem:
+          - link "ポッドキャスト ポッドキャスト" [ref=e26]:
+            - /url: https://ginza6.tokyo/podcast/
+            - text: ポッドキャスト
+        - listitem:
+          - link "service サービス" [ref=e27]:
+            - /url: https://ginza6.tokyo/services/
+            - text: サービス
+        - listitem:
+          - link "会員案内 会員案内" [ref=e28]:
+            - /url: https://ginza6.tokyo/membership/
+            - text: 会員案内
+        - listitem:
+          - link "施設案内 施設案内" [ref=e29]:
+            - /url: https://ginza6.tokyo/facilities/
+            - text: 施設案内
+        - listitem:
+          - link "アクセス アクセス" [ref=e30]:
+            - /url: https://ginza6.tokyo/access/
+            - text: アクセス
+        - listitem:
+          - link "営業時間" [ref=e31]:
+            - /url: https://ginza6.tokyo/hours/
+        - listitem:
+          - link "お問合せ" [ref=e32]:
+            - /url: https://ginza6.tokyo/contact/
+        - listitem:
+          - link "会社概要" [ref=e33]:
+            - /url: https://ginza6.tokyo/about/
+        - listitem:
+          - link "プレスルーム" [ref=e34]:
+            - /url: https://ginza6.tokyo/pressroom/
+        - listitem:
+          - link "利用規約" [ref=e35]:
+            - /url: https://ginza6.tokyo/terms/
+        - listitem:
+          - link "サイトマップ" [ref=e36]:
+            - /url: https://ginza6.tokyo/sitemap/
+        - listitem:
+          - link "Instagram Instagram" [ref=e37]:
+            - /url: https://www.instagram.com/ginzasix_official/
+            - text: Instagram
+  - main:
+    - heading "AND THE FRIET アンド ザ フリット" [ref=e38] [level=1]
+    - paragraph: 東京・広尾で行列のできるフレンチフライ専門店「AND THE FRIET」。 世界各国から取り寄せた上質なジャガイモで作られた“サクサク食感”のプレミアムスナック「ドライフリット」や、季節限定商品などをご提供します。
+    - link "1" [ref=e39]:
+      - /url: ""
+    - link "2" [ref=e40]:
+      - /url: ""
+    - link "3" [ref=e41]:
+      - /url: ""
+    - heading "基本情報" [ref=e42] [level=4]
+    - term: フロア
+    - definition:
+      - text: B2F
+      - link "フロアマップ" [ref=e43]:
+        - /url: https://ginza6.tokyo/shops/#floorB2F
+    - term: カテゴリー
+    - definition: フーズ（フレンチフライ専門店）
+    - term: 営業時間
+    - definition: 10:30 - 20:30
+    - heading "施設サービス" [ref=e44] [level=4]
+    - term: ポイントプログラム
+    - definition: 対象
+    - term: 駐車場サービス
+    - definition: 対象
+    - term: 免税サービス
+    - definition: 1F免税カウンターにて一括対応
+    - heading "連絡先" [ref=e45] [level=4]
+    - term: 電話番号
+    - definition:
+      - link "080-3738-7834" [ref=e46]:
+        - /url: tel:080-3738-7834
+    - term: ウェブサイト
+    - definition:
+      - link "http://andthefriet.com" [ref=e47]:
+        - /url: http://andthefriet.com
+    - heading "備考" [ref=e48] [level=4]
+    - definition:
+      - text: "Instagram :"
+      - link "@andthefriet" [ref=e49]:
+        - /url: https://www.instagram.com/andthefriet
+    - heading "RELATED ARTICLES" [ref=e50] [level=2]
+      - listitem:
+        - link [ref=e51] [nth=2]:
+          - /url: https://ginza6.tokyo/news/64783
+        - heading "銀座でヨウジさんに挑む" [ref=e52] [level=4]:
+          - link "銀座でヨウジさんに挑む" [ref=e53]:
+            - /url: https://ginza6.tokyo/news/64783
+    - term: 50音から探す
+    - definition:
+      - link "50音" [ref=e54]:
+        - /url: https://ginza6.tokyo/order_by_50
+    - term: カテゴリーから探す
+    - definition:
+      - text: カテゴリー
+        - listitem:
+          - link "レディス" [ref=e55]:
+            - /url: https://ginza6.tokyo/shops/tenant_category/ladies
+          - text: (76)
+        - listitem:
+          - link "メンズ" [ref=e56]:
+            - /url: https://ginza6.tokyo/shops/tenant_category/mens
+          - text: (73)
+        - listitem:
+          - link "キッズ" [ref=e57]:
+            - /url: https://ginza6.tokyo/shops/tenant_category/kids
+          - text: (9)
+        - listitem:
+          - link "ビューティ" [ref=e58]:
+            - /url: https://ginza6.tokyo/shops/tenant_category/beauty
+          - text: (28)
+        - listitem:
+          - link "スポーツ＆アウトドア" [ref=e59]:
+            - /url: https://ginza6.tokyo/shops/tenant_category/sports_outdoor
+          - text: (13)
+        - listitem:
+          - link "ジュエリー＆ウオッチ" [ref=e60]:
+            - /url: https://ginza6.tokyo/shops/tenant_category/jewelry_watch
+          - text: (33)
+        - listitem:
+          - link "バッグ＆シューズ" [ref=e61]:
+            - /url: https://ginza6.tokyo/shops/tenant_category/bag_shoes
+          - text: (59)
+        - listitem:
+          - link "ライフスタイル" [ref=e62]:
+            - /url: https://ginza6.tokyo/shops/tenant_category/lifestyle
+          - text: (34)
+        - listitem:
+          - link "ファッショングッズ" [ref=e63]:
+            - /url: https://ginza6.tokyo/shops/tenant_category/fashion_goods
+          - text: (17)
+        - listitem:
+          - link "レストラン" [ref=e64]:
+            - /url: https://ginza6.tokyo/shops/tenant_category/restaurants
+          - text: (19)
+        - listitem:
+          - link "カフェ" [ref=e65]:
+            - /url: https://ginza6.tokyo/shops/tenant_category/cafe
+          - text: (10)
+        - listitem:
+          - link "フーズ" [ref=e66]:
+            - /url: https://ginza6.tokyo/shops/tenant_category/foods
+          - text: (40)
+        - listitem:
+          - link "バー" [ref=e67]:
+            - /url: https://ginza6.tokyo/shops/tenant_category/bar
+          - text: (6)
+        - listitem:
+          - link "サービス" [ref=e68] [nth=1]:
+            - /url: https://ginza6.tokyo/shops/tenant_category/service
+          - text: (10)
+        - listitem:
+          - link "その他" [ref=e69]:
+            - /url: https://ginza6.tokyo/shops/tenant_category/others
+          - text: (5)
+    - term: フロアから店舗を探す
+    - definition:
+      - text: フロア
+        - listitem:
+          - link "B2F" [ref=e70]:
+            - /url: https://ginza6.tokyo/b2f/
+        - listitem:
+          - link "B1F" [ref=e71]:
+            - /url: https://ginza6.tokyo/b1f/
+        - listitem:
+          - link "1F" [ref=e72]:
+            - /url: https://ginza6.tokyo/1f/
+        - listitem:
+          - link "2F" [ref=e73]:
+            - /url: https://ginza6.tokyo/2f/
+        - listitem:
+          - link "3F" [ref=e74]:
+            - /url: https://ginza6.tokyo/3f/
+        - listitem:
+          - link "4F" [ref=e75]:
+            - /url: https://ginza6.tokyo/4f/
+        - listitem:
+          - link "5F" [ref=e76]:
+            - /url: https://ginza6.tokyo/5f/
+        - listitem:
+          - link "6F" [ref=e77]:
+            - /url: https://ginza6.tokyo/6f/
+        - listitem:
+          - link "13F" [ref=e78]:
+            - /url: https://ginza6.tokyo/13f/
+    - heading "GINZA SIX カード" [ref=e79] [level=4]
+      - listitem:
+        - link "さらに詳しく" [ref=e80]:
+          - /url: https://www.jfr-card.co.jp/ginza6card/index.html
+    - heading "GINZA SIX アプリ" [ref=e81] [level=4]
+      - listitem:
+        - link "さらに詳しく" [ref=e82] [nth=1]:
+          - /url: https://ginza6.tokyo/membership/app
+  - contentinfo: © GINZA SIX
+

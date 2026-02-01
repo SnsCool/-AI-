@@ -1,0 +1,13 @@
+# アカウントのメールアドレスを作成+会社の端末を借りる
+
+Notion URL: https://www.notion.so/29bf3b0fba8581b8bbbdc6475fded47e
+同期日時: 2026-02-01T12:24:25+09:00
+
+---
+
+①会社の端末（iPhone SE）を一つ借りる（3Fの奥の靴箱の左側のバスケットの中に入ってます）
+②iPhone SE でApple アカウントを作成する
+→メールアドレスは新規取得する
+→名前、生年月日、本人確認の電話番号はプライベートのものをご使用ください。
+③上記のものを以下のスプレッドシートに記入する
+https://docs.google.com/spreadsheets/d/1qDUVUNNFYjEaKDunInD01Dn7iJyLy7CMQ7dQRhpzp_k/edit?gid=0#gid=0

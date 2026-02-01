@@ -1,0 +1,389 @@
+# リンク先コンテンツ
+
+**URL**: https://ec.tamachanshop.jp/lp?u=otome_2set_ffa10&cr=728326059321&kw=%E3%82%BF%E3%83%B3%E3%83%91%E3%82%AF%E3%82%AA%E3%83%88%E3%83%A1&mt=e&utm_source=google&utm_medium=cpc&gad_source=1&gad_campaignid=11763039029&gbraid=0AAAAABvqpsdO3e3tvVd2wMCdMRyXuQPPV&gclid=Cj0KCQjw3OjGBhDYARIsADd-uX7f7v6cdZiLmdGJkpRDsnVZFw-AZWoVwnHa-ERXT3IUSeTpap5DFb8aAh0XEALw_wcB
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 📝 議事録：「ミセスプロテイン」改善点（なーみんさん意見）
+**取得日時**: 2026-01-22T15:32:48.905774
+
+---
+
+## コンテンツ
+
+  - main:
+    - link [ref=e1]:
+      - /url: "#form"
+    - link [ref=e2] [nth=1]:
+      - /url: https://ec.tamachanshop.jp/lp?u=otome_3set
+    - link [ref=e3] [nth=2]:
+      - /url: https://tamachanshop.jp/online/201707/3167
+    - link [ref=e4] [nth=3]:
+      - /url: https://tamachanshop.jp/about_tamachan/
+    - link [ref=e5] [nth=4]:
+      - /url: "#form"
+    - link [ref=e6] [nth=5]:
+      - /url: https://ec.tamachanshop.jp/lp?u=otome_3set
+    - link [ref=e7] [nth=6]:
+      - /url: https://tamachanshop.jp/online/201707/3167
+    - link [ref=e8] [nth=7]:
+      - /url: https://tamachanshop.jp/about_tamachan/
+    - link [ref=e9] [nth=8]:
+      - /url: "#form"
+    - link [ref=e10] [nth=9]:
+      - /url: https://ec.tamachanshop.jp/lp?u=otome_3set
+    - link [ref=e11] [nth=10]:
+      - /url: https://tamachanshop.jp/online/201707/3167
+    - link [ref=e12] [nth=11]:
+      - /url: https://tamachanshop.jp/about_tamachan/
+    - link [ref=e13] [nth=12]:
+      - /url: https://tamachanshop.jp/about_tamachan/
+    - link [ref=e14] [nth=13]:
+      - /url: https://tamachanshop.jp/privacy/
+    - link [ref=e15] [nth=14]:
+      - /url: https://tamachanshop.jp/kiyaku/
+    - link [ref=e16] [nth=15]:
+      - /url: https://tamachanshop.jp/about_tamachan/
+  - text: Amazonアカウントで簡単お申込み！
+  - button "Amazon Pay - Amazonアカウントをお使いください" [ref=e17]:
+  - text: Amazonに登録しているお支払い情報、お届け先情報を使用して簡単にお申込みが可能です。
+    - strong: LINE連携で簡単ログイン！
+  - paragraph: LINEアカウントとお客様のアカウントの連携を行います。
+  - paragraph: 連携を行うと、次回からLINEボタンをクリックするだけでログインが可能になります。
+  - paragraph: ※本Webサービスでは、ログイン時の認証画面にて許可を頂いた場合のみ、あなたのLINEアカウントに登録されているメールアドレスを取得します。
+  - paragraph: ※取得したメールアドレスは、以下の目的以外では使用いたしません。また、法令に定められた場合を除き、第三者への提供はいたしません。
+    - listitem: ユーザーIDとしてアカウントの管理に利用
+    - listitem: パスワード再発行時の本人確認に利用
+  - link "LINEでログイン" [ref=e18]:
+    - /url: "#"
+  - heading "お客様情報のご入力" [ref=e19] [level=4]
+  - paragraph:
+    - checkbox "入力を省略する（当サイトで購入したことがある方）" [ref=e20]
+    - text: 入力を省略する（当サイトで購入したことがある方）
+  - paragraph: 下記お客さま情報を全てご記入いただき、お申し込みボタンをクリックしてください。
+      - row "商品名 必須 【定期】タンパクオトメ（オトクな2袋セット） 1 個 (定期専用)タンパクオトメ2個セットフレーバー 2 個 1個目 フレーバー 選択してください 2個目 フレーバー 選択してください":
+        - rowheader "商品名 必須" [ref=e21]:
+            - strong: 商品名
+            - text: 必須
+        - cell "【定期】タンパクオトメ（オトクな2袋セット） 1 個 (定期専用)タンパクオトメ2個セットフレーバー 2 個 1個目 フレーバー 選択してください 2個目 フレーバー 選択してください" [ref=e22]:
+          - paragraph: 【定期】タンパクオトメ（オトクな2袋セット）
+          - combobox [ref=e23]:
+            - option "1 個" [ref=e24] [selected]
+          - paragraph: (定期専用)タンパクオトメ2個セットフレーバー
+          - combobox [ref=e25] [nth=1]:
+            - option "2 個" [ref=e26] [selected]
+          - text: 1個目 フレーバー
+          - combobox [ref=e27] [nth=2]:
+            - option "選択してください" [ref=e28] [selected]
+            - option "すこやか朝バナナ味（260g）" [ref=e29]
+            - option "ほんのりチャイ味（260g）" [ref=e30]
+            - option "ぜいたくベリー味（260g）" [ref=e31]
+            - option "まろやかカカオ味（260g）" [ref=e32]
+            - option "ピュアプロテイン100（360g）" [ref=e33]
+            - option "やさいプロテイン100（300g）" [ref=e34]
+            - option "休息プロテイン（ミックスフルーツ味）（260g）" [ref=e35]
+            - option "休息プロテイン（夜風のココア）（260g）" [ref=e36]
+            - option "博多あまおう味（260g）" [ref=e37]
+            - option "さわやかピーチ味（260g）" [ref=e38]
+            - option "はんなり宇治抹茶味（260g）" [ref=e39]
+            - option "ざくろ＆イチジク（260g）" [ref=e40]
+            - option "ソイ黒ごま（260g）" [ref=e41]
+            - option "ソイアーモンド（260g）" [ref=e42]
+            - option "ソイショコラ（260g）" [ref=e43]
+            - option "ソイミルクティー（260g）" [ref=e44]
+          - text: 2個目 フレーバー
+          - combobox [ref=e45] [nth=3]:
+            - option "選択してください" [ref=e46] [nth=1] [selected]
+            - option "すこやか朝バナナ味（260g）" [ref=e47] [nth=1]
+            - option "ほんのりチャイ味（260g）" [ref=e48] [nth=1]
+            - option "ぜいたくベリー味（260g）" [ref=e49] [nth=1]
+            - option "まろやかカカオ味（260g）" [ref=e50] [nth=1]
+            - option "ピュアプロテイン100（360g）" [ref=e51] [nth=1]
+            - option "やさいプロテイン100（300g）" [ref=e52] [nth=1]
+            - option "休息プロテイン（ミックスフルーツ味）（260g）" [ref=e53] [nth=1]
+            - option "休息プロテイン（夜風のココア）（260g）" [ref=e54] [nth=1]
+            - option "博多あまおう味（260g）" [ref=e55] [nth=1]
+            - option "さわやかピーチ味（260g）" [ref=e56] [nth=1]
+            - option "はんなり宇治抹茶味（260g）" [ref=e57] [nth=1]
+            - option "ざくろ＆イチジク（260g）" [ref=e58] [nth=1]
+            - option "ソイ黒ごま（260g）" [ref=e59] [nth=1]
+            - option "ソイアーモンド（260g）" [ref=e60] [nth=1]
+            - option "ソイショコラ（260g）" [ref=e61] [nth=1]
+            - option "ソイミルクティー（260g）" [ref=e62] [nth=1]
+      - row "お名前 必須":
+        - rowheader "お名前 必須" [ref=e63]:
+            - strong: お名前
+            - text: 必須
+        - cell:
+          - textbox "例）山田 花子" [ref=e64]
+      - row "フリガナ 必須":
+        - rowheader "フリガナ 必須" [ref=e65]:
+            - strong: フリガナ
+            - text: 必須
+        - cell:
+          - textbox "例）ヤマダ ハナコ" [ref=e66]
+      - row "郵便番号 必須 〒":
+        - rowheader "郵便番号 必須" [ref=e67]:
+            - strong: 郵便番号
+            - text: 必須
+        - cell "〒" [ref=e68]:
+          - paragraph:
+            - text: 〒
+            - textbox "1500031" [ref=e69]
+      - row "都道府県 必須 選択してください":
+        - rowheader "都道府県 必須" [ref=e70]:
+            - strong: 都道府県
+            - text: 必須
+        - cell "選択してください" [ref=e71]:
+          - combobox [ref=e72] [nth=4]:
+            - option "選択してください" [ref=e73] [nth=2] [selected]
+            - option "北海道" [ref=e74]
+            - option "青森県" [ref=e75]
+            - option "岩手県" [ref=e76]
+            - option "宮城県" [ref=e77]
+            - option "秋田県" [ref=e78]
+            - option "山形県" [ref=e79]
+            - option "福島県" [ref=e80]
+            - option "茨城県" [ref=e81]
+            - option "栃木県" [ref=e82]
+            - option "群馬県" [ref=e83]
+            - option "埼玉県" [ref=e84]
+            - option "千葉県" [ref=e85]
+            - option "東京都" [ref=e86]
+            - option "神奈川県" [ref=e87]
+            - option "新潟県" [ref=e88]
+            - option "富山県" [ref=e89]
+            - option "石川県" [ref=e90]
+            - option "福井県" [ref=e91]
+            - option "山梨県" [ref=e92]
+            - option "長野県" [ref=e93]
+            - option "岐阜県" [ref=e94]
+            - option "静岡県" [ref=e95]
+            - option "愛知県" [ref=e96]
+            - option "三重県" [ref=e97]
+            - option "滋賀県" [ref=e98]
+            - option "京都府" [ref=e99]
+            - option "大阪府" [ref=e100]
+            - option "兵庫県" [ref=e101]
+            - option "奈良県" [ref=e102]
+            - option "和歌山県" [ref=e103]
+            - option "鳥取県" [ref=e104]
+            - option "島根県" [ref=e105]
+            - option "岡山県" [ref=e106]
+            - option "広島県" [ref=e107]
+            - option "山口県" [ref=e108]
+            - option "徳島県" [ref=e109]
+            - option "香川県" [ref=e110]
+            - option "愛媛県" [ref=e111]
+            - option "高知県" [ref=e112]
+            - option "福岡県" [ref=e113]
+            - option "佐賀県" [ref=e114]
+            - option "長崎県" [ref=e115]
+            - option "熊本県" [ref=e116]
+            - option "大分県" [ref=e117]
+            - option "宮崎県" [ref=e118]
+            - option "鹿児島県" [ref=e119]
+            - option "沖縄県" [ref=e120]
+      - row "住所1（市郡区／町・村） 必須":
+        - rowheader "住所1（市郡区／町・村） 必須" [ref=e121]:
+            - strong: 住所1（市郡区／町・村）
+            - text: 必須
+        - cell:
+          - textbox "例）○○市△△区□町" [ref=e122]
+      - row "住所2（丁目・番地・マンション名・号室） 必須":
+        - rowheader "住所2（丁目・番地・マンション名・号室） 必須" [ref=e123]:
+            - strong: 住所2（丁目・番地・マンション名・号室）
+            - text: 必須
+        - cell:
+          - textbox "例）△△ 1-4 ○○マンション101号" [ref=e124]
+      - row "住所3（建物名）":
+        - rowheader "住所3（建物名）" [ref=e125]:
+            - strong: 住所3（建物名）
+        - cell:
+          - textbox "例）○○タワー" [ref=e126]
+      - row "電話番号 必須":
+        - rowheader "電話番号 必須" [ref=e127]:
+            - strong: 電話番号
+            - text: 必須
+        - cell:
+          - textbox "例）00000000000" [ref=e128]
+      - row "メールアドレス 必須":
+        - rowheader "メールアドレス 必須" [ref=e129]:
+            - strong: メールアドレス
+            - text: 必須
+        - cell:
+          - textbox "例）○○○@example.com" [ref=e130]
+      - row "メールアドレス（確認） 必須 メールアドレスに誤りがありますとメールが届きません。今一度ご確認ください。":
+        - rowheader "メールアドレス（確認） 必須" [ref=e131]:
+            - strong: メールアドレス（確認）
+            - text: 必須
+        - cell "メールアドレスに誤りがありますとメールが届きません。今一度ご確認ください。" [ref=e132]:
+          - textbox "例）○○○@example.com" [ref=e133] [nth=1]
+          - paragraph: メールアドレスに誤りがありますとメールが届きません。今一度ご確認ください。
+      - row "パスワード 必須":
+        - rowheader "パスワード 必須" [ref=e134]:
+            - strong: パスワード
+            - text: 必須
+        - cell:
+          - textbox "半角英数字8文字以上" [ref=e135]
+      - row "性別 必須 選択してください":
+        - rowheader "性別 必須" [ref=e136]:
+            - strong: 性別
+            - text: 必須
+        - cell "選択してください" [ref=e137] [nth=1]:
+          - combobox [ref=e138] [nth=5]:
+            - option "選択してください" [ref=e139] [nth=3] [selected]
+            - option "男性" [ref=e140]
+            - option "女性" [ref=e141]
+      - row "生年月日 必須 ---- -- --":
+        - rowheader "生年月日 必須" [ref=e142]:
+            - strong: 生年月日
+            - text: 必須
+        - cell "---- -- --" [ref=e143]:
+          - combobox [ref=e144] [nth=6]:
+            - option "----" [ref=e145] [selected]
+            - option "1926 年" [ref=e146]
+            - option "1927 年" [ref=e147]
+            - option "1928 年" [ref=e148]
+            - option "1929 年" [ref=e149]
+            - option "1930 年" [ref=e150]
+            - option "1931 年" [ref=e151]
+            - option "1932 年" [ref=e152]
+            - option "1933 年" [ref=e153]
+            - option "1934 年" [ref=e154]
+            - option "1935 年" [ref=e155]
+            - option "1936 年" [ref=e156]
+            - option "1937 年" [ref=e157]
+            - option "1938 年" [ref=e158]
+            - option "1939 年" [ref=e159]
+            - option "1940 年" [ref=e160]
+            - option "1941 年" [ref=e161]
+            - option "1942 年" [ref=e162]
+            - option "1943 年" [ref=e163]
+            - option "1944 年" [ref=e164]
+            - option "1945 年" [ref=e165]
+            - option "1946 年" [ref=e166]
+            - option "1947 年" [ref=e167]
+            - option "1948 年" [ref=e168]
+            - option "1949 年" [ref=e169]
+            - option "1950 年" [ref=e170]
+            - option "1951 年" [ref=e171]
+            - option "1952 年" [ref=e172]
+            - option "1953 年" [ref=e173]
+            - option "1954 年" [ref=e174]
+            - option "1955 年" [ref=e175]
+            - option "1956 年" [ref=e176]
+            - option "1957 年" [ref=e177]
+            - option "1958 年" [ref=e178]
+            - option "1959 年" [ref=e179]
+            - option "1960 年" [ref=e180]
+            - option "1961 年" [ref=e181]
+            - option "1962 年" [ref=e182]
+            - option "1963 年" [ref=e183]
+            - option "1964 年" [ref=e184]
+            - option "1965 年" [ref=e185]
+            - option "1966 年" [ref=e186]
+            - option "1967 年" [ref=e187]
+            - option "1968 年" [ref=e188]
+            - option "1969 年" [ref=e189]
+            - option "1970 年" [ref=e190]
+            - option "1971 年" [ref=e191]
+            - option "1972 年" [ref=e192]
+            - option "1973 年" [ref=e193]
+            - option "1974 年" [ref=e194]
+            - option "1975 年" [ref=e195]
+            - option "1976 年" [ref=e196]
+            - option "1977 年" [ref=e197]
+            - option "1978 年" [ref=e198]
+            - option "1979 年" [ref=e199]
+            - option "1980 年" [ref=e200]
+            - option "1981 年" [ref=e201]
+            - option "1982 年" [ref=e202]
+            - option "1983 年" [ref=e203]
+            - option "1984 年" [ref=e204]
+            - option "1985 年" [ref=e205]
+            - option "1986 年" [ref=e206]
+            - option "1987 年" [ref=e207]
+            - option "1988 年" [ref=e208]
+            - option "1989 年" [ref=e209]
+            - option "1990 年" [ref=e210]
+            - option "1991 年" [ref=e211]
+            - option "1992 年" [ref=e212]
+            - option "1993 年" [ref=e213]
+            - option "1994 年" [ref=e214]
+            - option "1995 年" [ref=e215]
+            - option "1996 年" [ref=e216]
+            - option "1997 年" [ref=e217]
+            - option "1998 年" [ref=e218]
+            - option "1999 年" [ref=e219]
+            - option "2000 年" [ref=e220]
+            - option "2001 年" [ref=e221]
+            - option "2002 年" [ref=e222]
+            - option "2003 年" [ref=e223]
+            - option "2004 年" [ref=e224]
+            - option "2005 年" [ref=e225]
+            - option "2006 年" [ref=e226]
+            - option "2007 年" [ref=e227]
+            - option "2008 年" [ref=e228]
+            - option "2009 年" [ref=e229]
+            - option "2010 年" [ref=e230]
+            - option "2011 年" [ref=e231]
+            - option "2012 年" [ref=e232]
+            - option "2013 年" [ref=e233]
+            - option "2014 年" [ref=e234]
+            - option "2015 年" [ref=e235]
+            - option "2016 年" [ref=e236]
+            - option "2017 年" [ref=e237]
+            - option "2018 年" [ref=e238]
+            - option "2019 年" [ref=e239]
+            - option "2020 年" [ref=e240]
+            - option "2021 年" [ref=e241]
+            - option "2022 年" [ref=e242]
+            - option "2023 年" [ref=e243]
+            - option "2024 年" [ref=e244]
+            - option "2025 年" [ref=e245]
+            - option "2026 年" [ref=e246]
+          - combobox [ref=e247] [nth=7]:
+            - option "--" [ref=e248] [selected]
+            - option "1 月" [ref=e249]
+            - option "2 月" [ref=e250]
+            - option "3 月" [ref=e251]
+            - option "4 月" [ref=e252]
+            - option "5 月" [ref=e253]
+            - option "6 月" [ref=e254]
+            - option "7 月" [ref=e255]
+            - option "8 月" [ref=e256]
+            - option "9 月" [ref=e257]
+            - option "10 月" [ref=e258]
+            - option "11 月" [ref=e259]
+            - option "12 月" [ref=e260]
+          - combobox [ref=e261] [nth=8]:
+            - option "--" [ref=e262] [nth=1] [selected]
+            - option "1 日" [ref=e263]
+            - option "2 日" [ref=e264]
+            - option "3 日" [ref=e265]
+            - option "4 日" [ref=e266]
+            - option "5 日" [ref=e267]
+            - option "6 日" [ref=e268]
+            - option "7 日" [ref=e269]
+            - option "8 日" [ref=e270]
+            - option "9 日" [ref=e271]
+            - option "10 日" [ref=e272]
+            - option "11 日" [ref=e273]
+            - option "12 日" [ref=e274]
+            - option "13 日" [ref=e275]
+            - option "14 日" [ref=e276]
+            - option "15 日" [ref=e277]
+            - option "16 日" [ref=e278]
+            - option "17 日" [ref=e279]
+            - option "18 日" [ref=e280]
+            - option "19 日" [ref=e281]
+            - option "20 日" [ref=e282]
+            - option "21 日" [ref=e283]
+            - option "22 日" [ref=e284]
+            - option "23 日" [ref=e285]
+            - option "24 日" [ref=e286]
+            - option "25 日" [ref=e287]
+            -
+
+[... 以下省略 ...]

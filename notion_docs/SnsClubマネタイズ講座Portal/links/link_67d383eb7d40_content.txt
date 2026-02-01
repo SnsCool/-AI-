@@ -1,0 +1,35 @@
+# リンク先コンテンツ
+
+**URL**: https://forms.gle/nXW7KrhHTqL4GK9D9
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: SnsClubマネタイズ講座Portal
+**取得日時**: 2026-01-22T12:49:36.092754
+
+---
+
+## コンテンツ
+
+## マネタイズ講座 人材案件審査フォーム
+
+このフォームは、マネタイズ講座における人材案件への参加希望者を審査するためのものです。作業内容を保存するために、Googleアカウントへのログインが推奨されます。
+
+**必須入力項目:**
+
+*   **お名前:** 氏名
+*   **InstagramアカウントURL:** インスタグラムのアカウントURL
+*   **現在のマネタイズ実績と内訳:** 現在の収益と、その内訳
+*   **人材案件の訴求頻度:** 人材案件の紹介頻度の希望
+*   **人材領域に関する知見/エピソード/題材の有無:** 人材分野について話せる内容があるかどうか (選択肢: ある / ない)
+*   **人材案件に取り組みたい理由:** 取り組む動機
+*   **フォロワーの悩み解決:** 人材案件を通じて、フォロワーのどのような悩みを解決したいか
+
+**その他:**
+
+*   フォームの送信には[送信]ボタンを使用します。
+*   [フォームをクリア]ボタンで入力内容をリセットできます。
+*   Googleフォームの[利用規約](https://policies.google.com/terms)と[プライバシーポリシー](https://policies.google.com/privacy)が適用されます。
+*   不審なフォームの場合は[報告](https://drive.google.com/abuse?id=AKkXjoyKSsHsJyHppzhtf5cC0tqWbSl0smqGkzHzKiqn9X2VFlq2fPWyIJPOkFhM67vn3sM-HCqEuPQFnZi9sac:0&docurl=https://docs.google.com/forms/d/e/1FAIpQLScA1c5sRLMmTo2kUeM82yC329wtzibpQQw2nkN5X3d-dermfA/viewform?usp%3Dsend_form)できます。
+*  [ヘルプとフィードバック]が利用可能です。
+

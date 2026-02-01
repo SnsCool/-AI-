@@ -1,0 +1,72 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/spreadsheets/d/1mQ0O0WtUirbwRylOYA8CHwtbHMfaBw9lKeXEWbUHuCg/edit?usp=sharing
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 添削会
+**取得日時**: 2026-01-22T14:00:35.935372
+
+---
+
+## コンテンツ
+
+    - banner "メニューバー":
+      - link "スプレッドシート ホーム" [ref=e1]:
+        - /url: https://docs.google.com/spreadsheets/?usp=sheets_web
+      - text: 【SnsClub】講師用Discordメッセージテンプレ
+      - 'button "ドキュメントのステータス: ドライブに保存しました."'
+      - button "匿名ウミウ" [ref=e2]:
+      - button "匿名キリン" [ref=e3]:
+      - button "匿名ジリス" [ref=e4]:
+      - button "共有します。リンクを知っている全員。 リンクを知っている全員がアクセスできます。ログインは不要です。" [ref=e5] [disabled]: 共有
+      - button "クイック共有操作" [ref=e6] [disabled]
+      - link "ログイン" [ref=e7]:
+        - /url: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/1mQ0O0WtUirbwRylOYA8CHwtbHMfaBw9lKeXEWbUHuCg/edit?usp%3Dsharing&followup=https://docs.google.com/spreadsheets/d/1mQ0O0WtUirbwRylOYA8CHwtbHMfaBw9lKeXEWbUHuCg/edit?usp%3Dsharing&ltmpl=sheets&ec=GAZAmwI
+        - menuitem "ファイル" [ref=e8]
+        - menuitem "編集" [ref=e9]
+        - menuitem "表示" [ref=e10]
+        - menuitem "挿入" [ref=e11] [disabled]
+        - menuitem "表示形式" [ref=e12] [disabled]
+        - menuitem "データ" [ref=e13]
+        - menuitem "ツール" [ref=e14]
+        - menuitem "拡張機能" [ref=e15] [disabled]
+        - menuitem "ヘルプ" [ref=e16]
+      - toolbar "メニューを検索 (option+/)":
+        - combobox "メニュー" [ref=e17]
+      - toolbar "メイン":
+        - button "印刷 (⌘P)" [ref=e18]
+        - button "フィルタ表示" [ref=e19]
+        - combobox "ズーム" [ref=e20]:
+          - option "ズーム のリストで 100% を選択しています。" [ref=e21] [selected]:
+            - textbox "ズーム" [ref=e22]: 100%
+        - button "モード" [ref=e23]: 閲覧のみ
+      - toolbar "モードと表示":
+        - button "メニューを非表示 (Ctrl+Shift+F)" [ref=e24]
+      - textbox [ref=e25]: A1
+      - button "名前ボックスのメニューボタン。メニュー項目から 1 つを選択すると、対応する名前付き範囲に移動します。" [ref=e26]
+      - textbox [ref=e27] [nth=1]
+    - navigation "シートタブバー" [ref=e28]:
+        - button "すべてのシート" [ref=e29]
+        - button "※チャットが滞った時(編集中)" [ref=e30]
+        - button "休日等でチャット対応不可の時" [ref=e31]
+        - button "①クラスチャット作成後" [ref=e32]
+        - button "②初回ホームルームの日程設定" [ref=e33]
+        - button "③ホームルーム当日までに" [ref=e34]
+        - button "④ホームルーム当日" [ref=e35]
+        - button "⑤クラスのチーム分け" [ref=e36]
+        - button "⑥初期設計1on1" [ref=e37]
+        - button "⑦ジャンル部屋の案内" [ref=e38]
+        - button "⑧添削依頼テンプレート" [ref=e39]
+        - button "⑨第3回講義（初回添削会）の日程設定" [ref=e40]
+        - button "⑩第3回講義（添削会）以降" [ref=e41]
+        - button "⑪第12回講義後" [ref=e42]
+        - button "左へスクロール" [ref=e43] [disabled]
+        - button "右へスクロール" [ref=e44]
+    - textbox [ref=e45] [nth=2]
+    - link "スクリーン リーダーのサポートを有効にする" [ref=e46]:
+      - /url: "#"
+    - textbox [ref=e47] [nth=3]
+    - region: スクリーン リーダーのサポートを有効にするには、⌘+option+Z を押します。キーボード ショートカットの詳細については、⌘スラッシュ を押します。
+    - text: 3 人の共同編集者がこのドキュメントの編集に参加しました。
+

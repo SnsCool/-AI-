@@ -1,0 +1,15 @@
+# 晴れわたろう。
+
+Notion URL: https://www.notion.so/f35e03bb456c4299b63cf8ea68eb8f85
+同期日時: 2026-01-27T11:02:00
+
+---
+
+## プロパティ
+
+- **キャッチコピー**: 晴れわたろう。
+- **訴求方法**: 例える
+- **企業名, 商品名**: キリンレモン　KIRIN
+- **番号**: 63
+- **参照リンク**: https://www.google.com/url?sa=i&url=https%3A%2F%2Ftvcmcast.com%2Fkirinlemon2020&psig=AOvVaw3izUJvTfUxjoDPKjC2pw4U&ust=1680707526482000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLj49cvBkP4CFQAAAAAdAAAAABAH
+- **いいね**: false

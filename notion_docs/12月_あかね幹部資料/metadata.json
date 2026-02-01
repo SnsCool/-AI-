@@ -1,0 +1,106 @@
+{
+  "object": "page",
+  "id": "2def3b0f-ba85-8048-bf25-dda9a72d696e",
+  "created_time": "2026-01-04T04:18:00.000Z",
+  "last_edited_time": "2026-01-06T06:55:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "c74538f5-49a0-45c0-8a54-cf1514170800"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "c74538f5-49a0-45c0-8a54-cf1514170800"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "data_source_id",
+    "data_source_id": "2a0f3b0f-ba85-8084-9caa-000b245403f5",
+    "database_id": "2a0f3b0f-ba85-8088-9dc7-ff52b95f242e"
+  },
+  "archived": false,
+  "in_trash": false,
+  "is_locked": false,
+  "properties": {
+    "対象月": {
+      "id": "DZdL",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "21c6902f-6a78-4ed9-a82e-39f5d480532c",
+          "name": "25年12月",
+          "color": "red"
+        }
+      ]
+    },
+    "対象範囲": {
+      "id": "f}KP",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "全体",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "全体",
+          "href": null
+        }
+      ]
+    },
+    "資料作成者": {
+      "id": "krZG",
+      "type": "people",
+      "people": [
+        {
+          "object": "user",
+          "id": "c74538f5-49a0-45c0-8a54-cf1514170800",
+          "name": "akane",
+          "avatar_url": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/bb16c6fc-0f17-4f61-b963-f4b933233487/IMG_8409_2.jpg",
+          "type": "person",
+          "person": {
+            "email": "venushanane0409@gmail.com"
+          }
+        }
+      ]
+    },
+    "今月目標タスク": {
+      "id": "qDl_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "名前": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "12月_あかね幹部資料",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "12月_あかね幹部資料",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/12-_-2def3b0fba858048bf25dda9a72d696e",
+  "public_url": null
+}

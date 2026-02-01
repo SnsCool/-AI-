@@ -1,0 +1,15 @@
+# しゅう＠コスメ日記
+
+Notion URL: https://www.notion.so/154f3b0fba8581f1900fdc82dbdb8459
+同期日時: 2026-01-27T11:53:00+09:00
+
+---
+
+## プロパティ
+
+- **アカウント名**: しゅう＠コスメ日記
+- **ジャンル**: 商品紹介①
+- **小ジャンル**: コスメ
+- **フォロワー（k)**: 223.5
+- **アカウントURL**: https://www.tiktok.com/@shushu_223_?is_from_webapp=1&sender_device=pc
+- **お気に入り**: false

@@ -1,0 +1,62 @@
+# リンク先コンテンツ
+
+**URL**: https://the-kindest.com/lp/?u=KDR_mil_adwords_name_KDR_11_cp2409st_LIS&promotion_code=MANTENLIS&gad_source=1&gad_campaignid=19899188325&gbraid=0AAAAApefaMPKoaHoyjtC7225ytN8GHYEq&gclid=CjwKCAjwhuHEBhBHEiwAZrvdcvZQRNyUufccXuUGRi9kAVn31ezEEbpBAlEC5tropT2pvNjdQoQjLBoCU9EQAvD_BwE
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 2025年7月22日(火)ストーリー添削会
+**取得日時**: 2026-01-22T16:47:53.322548
+
+---
+
+## コンテンツ
+
+  - heading "超偏食、食べないお子さまに救世主！" [ref=e1] [level=1]:
+  - paragraph: プロモーションコード
+  - text: MANTENLIS
+  - button "コピー" [ref=e2]
+  - paragraph: プロモーションコードを フォームのコード欄に入力ください。
+  - paragraph: プロモーションコード
+  - text: MANTENLIS
+  - button "コピー" [ref=e3] [nth=1]
+  - paragraph: プロモーションコードを フォームのコード欄に入力ください。
+  - text: ＊個人の感想です。
+  - paragraph: プロモーションコード
+  - text: MANTENLIS
+  - button "コピー" [ref=e4] [nth=2]
+  - paragraph: プロモーションコードを フォームのコード欄に入力ください。
+  - paragraph: プロモーションコード
+  - text: MANTENLIS
+  - button "コピー" [ref=e5] [nth=3]
+  - paragraph: プロモーションコードを フォームのコード欄に入力ください。
+  - paragraph:
+    - link [ref=e6]:
+      - /url: "#"
+    - link [ref=e7] [nth=1]:
+      - /url: "#"
+  - paragraph: プロモーションコード
+  - text: MANTENLIS
+  - button "コピー" [ref=e8] [nth=4]
+  - paragraph: プロモーションコードを フォームのコード欄に入力ください。
+  - heading "コースをお選びください" [ref=e9] [level=3]
+  - radio "【2回目ｼｪｲｶｰ付定期便】まんてんバランス〈ココア味〉（初回70g/2回目以降300g×2袋）" [ref=e10]
+  - text: 【2回目ｼｪｲｶｰ付定期便】まんてんバランス〈ココア味〉（初回70g/2回目以降300g×2袋）
+  - radio "【2回目ｼｪｲｶｰ付定期便】まんてんバランス〈いちご味〉（初回70g/2回目以降300g×2袋）" [ref=e11]
+  - text: 【2回目ｼｪｲｶｰ付定期便】まんてんバランス〈いちご味〉（初回70g/2回目以降300g×2袋）
+  - radio "【2回目ｼｪｲｶｰ付定期便】まんてんバランス〈バナナ味〉（初回70g/2回目以降300g×2袋）" [ref=e12]
+  - text: 【2回目ｼｪｲｶｰ付定期便】まんてんバランス〈バナナ味〉（初回70g/2回目以降300g×2袋）
+  - paragraph:
+    - listitem:
+      - link "the kindest 公式サイトトップ" [ref=e13]:
+        - /url: https://the-kindest.com/?gclid=CjwKCAjwhuHEBhBHEiwAZrvdcvZQRNyUufccXuUGRi9kAVn31ezEEbpBAlEC5tropT2pvNjdQoQjLBoCU9EQAvD_BwE&gbraid=0AAAAApefaMPKoaHoyjtC7225ytN8GHYEq
+    - listitem:
+      - link "特定商取引に関する法律" [ref=e14]:
+        - /url: https://the-kindest.com/specified_commercial_transactions?gclid=CjwKCAjwhuHEBhBHEiwAZrvdcvZQRNyUufccXuUGRi9kAVn31ezEEbpBAlEC5tropT2pvNjdQoQjLBoCU9EQAvD_BwE&gbraid=0AAAAApefaMPKoaHoyjtC7225ytN8GHYEq
+    - listitem:
+      - link "プライバシーポリシー" [ref=e15]:
+        - /url: https://the-kindest.com/privacy?gclid=CjwKCAjwhuHEBhBHEiwAZrvdcvZQRNyUufccXuUGRi9kAVn31ezEEbpBAlEC5tropT2pvNjdQoQjLBoCU9EQAvD_BwE&gbraid=0AAAAApefaMPKoaHoyjtC7225ytN8GHYEq
+    - listitem:
+      - link "各種規約" [ref=e16]:
+        - /url: https://the-kindest.com/info/customer_term?gclid=CjwKCAjwhuHEBhBHEiwAZrvdcvZQRNyUufccXuUGRi9kAVn31ezEEbpBAlEC5tropT2pvNjdQoQjLBoCU9EQAvD_BwE&gbraid=0AAAAApefaMPKoaHoyjtC7225ytN8GHYEq
+  - text: © 2021 the kindest
+

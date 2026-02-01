@@ -1,0 +1,13 @@
+{
+  "page_id": "276f3b0f-ba85-8082-b9fd-ef9f38eb93f0",
+  "created_time": "2025-09-22T04:34:00.000Z",
+  "last_edited_time": "2025-10-02T04:07:00.000Z",
+  "url": "https://www.notion.so/LINE-276f3b0fba858082b9fdef9f38eb93f0",
+  "properties": {
+    "着手": {"type": "multi_select", "multi_select": [{"name": "四週目"}]},
+    "完了": {"type": "formula", "formula": {"type": "number", "number": 1}},
+    "ステータス": {"type": "status", "status": {"name": "完了"}},
+    "担当者": {"type": "people", "people": [{"name": "みおな"}]},
+    "タスク": {"id": "title", "type": "title", "title": [{"plain_text": "LINEグルコン参加カウント月切りかえ"}]}
+  }
+}

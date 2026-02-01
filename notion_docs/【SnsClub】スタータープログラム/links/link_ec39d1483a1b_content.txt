@@ -1,0 +1,324 @@
+# リンク先コンテンツ
+
+**URL**: https://tech-camp.in/note/technology/91310/
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 【SnsClub】スタータープログラム
+**取得日時**: 2026-01-22T13:49:01.357239
+
+---
+
+## コンテンツ
+
+  - link "はじめてのIT転職🔰なら無料相談！" [ref=e1]:
+    - /url: https://tech-camp.in/expert/briefings/blog?utm_source=tcb&utm_medium=kabu&utm_campaign=it_career&utm_content=91310
+  - banner:
+    - link "テックキャンプブログ" [ref=e2]:
+      - /url: https://tech-camp.in/note
+    - textbox "興味があるワードを検索する" [ref=e3]
+    - text: search
+      - textbox "興味があるワードを検索する" [ref=e4] [nth=1]
+      - text: search
+      - paragraph: IT情報 おすすめ人気記事
+        - listitem:
+          - link "未経験・スキルなしからフリーランスになるには" [ref=e5]:
+            - /url: https://tech-camp.in/note/note/pickup/64660/
+        - listitem:
+          - link "おすすめキャリア相談サービス10選" [ref=e6]:
+            - /url: https://tech-camp.in/note/note/careerchange/108809/
+        - listitem:
+          - link "個人（ひとり）でできる仕事22選" [ref=e7]:
+            - /url: https://tech-camp.in/note/note/careerchange/56641/
+        - listitem:
+          - link "ITエンジニアは楽しい？きつい？" [ref=e8]:
+            - /url: https://tech-camp.in/note/note/careerchange/103930/
+        - listitem:
+          - link "リモートワークできる職種11選" [ref=e9]:
+            - /url: https://tech-camp.in/note/note/pickup/100463/
+        - listitem:
+          - link "プログラミング独学の始め方" [ref=e10]:
+            - /url: https://tech-camp.in/note/note/technology/69/
+        - listitem:
+          - link "初心者向けプログラミング言語TOP10" [ref=e11]:
+            - /url: https://tech-camp.in/note/note/technology/75959/
+        - listitem:
+          - link "人とあまり関わらない仕事21選" [ref=e12]:
+            - /url: https://tech-camp.in/note/note/careerchange/64472/
+      - paragraph: カテゴリー
+      - link "転職" [ref=e13]:
+        - /url: https://tech-camp.in/note/category/careerchange/
+      - link "テクノロジー" [ref=e14]:
+        - /url: https://tech-camp.in/note/category/technology/
+      - link "インタビュー" [ref=e15]:
+        - /url: https://tech-camp.in/note/category/interviews/
+      - link "未経験からのエンジニア転職者" [ref=e16]:
+        - /url: https://tech-camp.in/note/category/interviews_ex/
+      - link "エンジニア採用（法人向け）" [ref=e17]:
+        - /url: https://tech-camp.in/note/label/recruitment/
+      - link "マネジメント" [ref=e18]:
+        - /url: https://tech-camp.in/note/category/management/
+      - link "ピックアップ" [ref=e19]:
+        - /url: https://tech-camp.in/note/category/pickup/
+  - main:
+      - listitem:
+        - link "ホーム" [ref=e20]:
+          - /url: https://tech-camp.in/note
+      - listitem:
+        - link "テクノロジー" [ref=e21] [nth=1]:
+          - /url: https://tech-camp.in/note/category/technology/
+      - listitem: 【スマホ・PC別】YouTubeアカウント作成方法を簡単解説！メリットや注意点も
+    - link [ref=e22]:
+      - /url: https://tech-camp.in/lps/skill_college?utm_source=tcb&utm_medium=headerbanner&utm_campaign=income&utm_content=91310
+    - heading "【スマホ・PC別】YouTubeアカウント作成方法を簡単解説！メリットや注意点も" [ref=e23] [level=1]
+    - paragraph: "更新: 2023.07.14"
+    - article:
+      - paragraph: YouTubeのアカウントを作成することで、さまざまな便利な機能が使えるようになるのをご存知でしょうか？
+        - text: 本記事では、
+        - strong: YouTubeのアカウント作成方法を画像付きで分かりやすく解説します。
+        - text: アカウント作成のメリットや注意点なども紹介するので、ぜひ参考にして下さい。
+      - paragraph:
+        - text: ちなみに、アカウントという用語自体については「
+        - link "アカウントとは？初心者向けに意味・例・注意点などをわかりやすく解説" [ref=e24]:
+          - /url: https://tech-camp.in/note/technology/92771/
+        - text: 」で解説しています。
+      - paragraph: ※記事内の情報は2023年7月執筆時点の内容です。最新の情報は公式サイト等でご確認ください。
+      - paragraph: この記事の目次 [閉じる]
+        - listitem:
+          - link "1 YouTubeアカウントを作成する前に" [ref=e25]:
+            - /url: "#YouTube"
+        - listitem:
+          - link "2 YouTubeアカウントの作成方法" [ref=e26]:
+            - /url: "#YouTube-2"
+            - listitem:
+              - link "2.1 スマホ（iPhone）の場合" [ref=e27]:
+                - /url: "#iPhone"
+            - listitem:
+              - link "2.2 パソコンの場合" [ref=e28]:
+                - /url: "#i"
+        - listitem:
+          - link "3 YouTubeアカウント作成のメリット" [ref=e29]:
+            - /url: "#YouTube-3"
+            - listitem:
+              - link "3.1 動画投稿ができる" [ref=e30]:
+                - /url: "#i-2"
+            - listitem:
+              - link "3.2 他人の動画にコメントや評価ができる" [ref=e31]:
+                - /url: "#i-3"
+            - listitem:
+              - link "3.3 再生リストを作成できる" [ref=e32]:
+                - /url: "#i-4"
+            - listitem:
+              - link "3.4 動画履歴を閲覧できる" [ref=e33]:
+                - /url: "#i-5"
+            - listitem:
+              - link "3.5 年齢制限のある動画が視聴できる" [ref=e34]:
+                - /url: "#i-6"
+            - listitem:
+              - link "3.6 おすすめ動画が表示される" [ref=e35]:
+                - /url: "#i-7"
+            - listitem:
+              - link "3.7 YouTubeでの性別設定とは？" [ref=e36]:
+                - /url: "#YouTube-4"
+        - listitem:
+          - link "4 YouTubeアカウント作成の注意点" [ref=e37]:
+            - /url: "#YouTube-5"
+            - listitem:
+              - link "4.1 YouTubeログインのデメリット" [ref=e38]:
+                - /url: "#YouTube-6"
+            - listitem:
+              - link "4.2 YouTubeはログインしなくても視聴可能" [ref=e39]:
+                - /url: "#YouTube-7"
+            - listitem:
+              - link "4.3 動画投稿の公開設定に注意" [ref=e40]:
+                - /url: "#i-8"
+        - listitem:
+          - link "5 YouTubeアカウントを作成して便利に使おう" [ref=e41]:
+            - /url: "#YouTube-8"
+      - link [ref=e42] [nth=1]:
+        - /url: https://tech-camp.in/expert/materials/28?utm_source=tcb&utm_medium=buntyubanner&utm_campaign=exp_ebook_itcareerchange3set&utm_content=91310
+      - heading "YouTubeアカウントを作成する前に" [ref=e43] [level=2]
+      - paragraph: YouTubeアカウントを作成する前に、事前にGoogleアカウントを用意しましょう。
+      - paragraph: なぜなら、YouTubeアカウントはGoogleアカウントと紐付くからです。Googleアカウントを作成すれば、それがそのままYouTubeアカウントとなります。
+      - paragraph: ですので「YouTubeアカウント≒Googleアカウント」といっても問題ないでしょう。
+      - paragraph: この記事もオススメ
+      - article:
+        - paragraph:
+          - link "Googleアカウントを複数作成・管理する方法！使い分けるメリットや注意点も解説" [ref=e44]:
+            - /url: https://tech-camp.in/note/technology/99927/
+      - paragraph: AIカレッジなら、月1万から生成AI×ITスキル学び放題・質問し放題
+      - paragraph:
+        - strong: 「今年こそ副業をはじめたい……」
+        - strong: という方は、
+        - strong:
+          - text: まずはAIカレッジの
+          - link "個別相談会" [ref=e45]:
+            - /url: https://tech-camp.in/lps/skill_college?utm_source=tcb&utm_medium=contentbanner&utm_campaign=income_sidejob&utm_content=91310
+          - text: へ！
+        - strong: 400以上の生成AIスキル×ITスキルから あなたに合ったスキルで個人で稼げるスキルを身につけられるよう サポートします！
+      - link [ref=e46] [nth=2]:
+        - /url: https://tech-camp.in/lps/skill_college?utm_source=tcb&utm_medium=contentbanner&utm_campaign=income_sidejob&utm_content=91310
+      - heading "YouTubeアカウントの作成方法" [ref=e47] [level=2]
+      - paragraph: ここではYouTubeアカウントの作成方法を、画像を使ってわかりやすく解説していきます。
+      - paragraph: スマホ（iPhone）でアカウントを作成する方法と、PCでアカウントを作成する方法の2パターンを解説しますので、お好きなデバイスで作成してみて下さい。
+      - heading "スマホ（iPhone）の場合" [ref=e48] [level=3]
+      - paragraph: まずはiPhoneでYouTubeアカウントを作成する方法を紹介します。
+        - listitem: YouTubeアプリのインストール
+        - listitem: 「ログイン」を選択
+        - listitem: 「アカウントを追加」を選択
+        - listitem: 「自分用」を選択
+        - listitem: 名前・生年月日・性別を入力
+        - listitem: Gmailアドレスの作成
+        - listitem: 電話番号の追加
+        - listitem: 「プライバシーポリシーと利用規約」に同意
+        - listitem: アカウント作成の完了
+      - heading "YouTubeアプリのインストール" [ref=e49] [level=4]
+      - paragraph: YouTubeのアプリをインストールし、起動して下さい。
+      - paragraph: アプリのダウンロードは、以下から行えます。
+      - link "iPhoneユーザーはこちらplaymedia" [ref=e50]:
+        - /url: https://apps.apple.com/jp/app/youtube/id544007664
+      - link "Androidユーザーはこちらplaymedia" [ref=e51]:
+        - /url: https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=ja&gl=US
+      - heading "「ログイン」を選択" [ref=e52] [level=4]
+      - paragraph: 起動したら画面右上のアイコンをタップしてログインしてください。
+      - paragraph: Googleアカウントでログイン可能です。
+      - paragraph:
+        - link [ref=e53] [nth=3]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-19.53.18.jpg
+      - paragraph: ログインボタンが出てきますので、タップするとアカウント選択画面に移ります。
+      - paragraph:
+        - link [ref=e54] [nth=4]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-19.45.26.jpg
+      - heading "「アカウントを追加」を選択" [ref=e55] [level=4]
+      - paragraph: すでにGoogleアカウントを作成している方はアカウントを選択できますが、まだ作成していない方は「アカウントを追加」をタップします。
+      - paragraph:
+        - link [ref=e56] [nth=5]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-19.45.40.jpg
+      - heading "「自分用」を選択" [ref=e57] [level=4]
+      - paragraph: 画面が変わりログイン画面が出てきますので「アカウント作成」ボタンをタップします。すると「自分用」と「ビジネスの管理用」を選択できるので「自分用」を選んで下さい。
+      - paragraph:
+        - link [ref=e58] [nth=6]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.00.00.jpg
+      - heading "名前・生年月日・性別を入力" [ref=e59] [level=4]
+      - paragraph: 次に名前を入力し「次へ」をタップします。
+      - paragraph:
+        - link [ref=e60] [nth=7]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.00.12.jpg
+      - paragraph: 生年月日と性別を入力し「次へ」をタップします。
+      - paragraph:
+        - link [ref=e61] [nth=8]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.00.21.jpg
+      - heading "Gmailアドレスの作成" [ref=e62] [level=4]
+      - paragraph: ここで、自分のGmailアドレスを作成するので、お好きなアドレスを入力して下さい。入力できたら「次へ」をタップします。
+      - paragraph:
+        - link [ref=e63] [nth=9]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.00.32.jpg
+      - paragraph: パスワードを入力し「次へ」をタップします。
+      - paragraph:
+        - link [ref=e64] [nth=10]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.00.42.jpg
+      - heading "電話番号の追加" [ref=e65] [level=4]
+      - paragraph: 「電話番号を追加しますか？」と聞かれます。電話番号を入力して確認が取れると、アカウントのパスワードを忘れた場合に Google のサポートを受けられます。
+      - paragraph:
+        - link [ref=e66] [nth=11]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.00.53.jpg
+      - paragraph: 特に必要の無い方は電話番号を入力する必要はないので、そのままスクロールして下さい。
+      - paragraph: 画面の左下に「スキップ」とあるのでタップします。
+      - paragraph:
+        - link [ref=e67] [nth=12]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.01.08.jpg
+      - heading "「プライバシーポリシーと利用規約」に同意" [ref=e68] [level=4]
+      - paragraph: アカウント情報が表示されるので「次へ」をタップします。
+      - paragraph:
+        - link [ref=e69] [nth=13]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.01.20.jpg
+      - paragraph: すると、「プライバシーポリシーと利用規約」という画面が表示されるので、一番下までスクロールして「同意する」をタップして下さい。
+      - paragraph:
+        - link [ref=e70] [nth=14]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.01.35.jpg
+      - heading "アカウント作成の完了" [ref=e71] [level=4]
+      - paragraph: すると画面が移り、YouTubeに戻ります。右上のログインボタンが自分の登録した名前になっていればYouTubeアカウント作成の完了です。
+      - paragraph:
+        - link [ref=e72] [nth=15]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-19.55.24.jpg
+      - heading "パソコンの場合" [ref=e73] [level=3]
+      - paragraph: 次にパソコンでYouTubeアカウントを作成する方法を紹介します。
+        - listitem: サイトから「ログイン」を選択
+        - listitem: 「自分用」を選択
+        - listitem: 「代わりに新しいGmailアドレスを作成する」を選択
+        - listitem: 必要項目の入力
+        - listitem: 電話番号の入力
+        - listitem: 電話番号の確認
+        - listitem: 生年月日・性別の入力
+        - listitem: 「プライバシーポリシーと利用規約」に同意
+        - listitem: アカウント作成の完了
+      - heading "サイトから「ログイン」を選択" [ref=e74] [level=4]
+      - paragraph: まず初めに、ブラウザで「YouTube」と検索し、YouTubeのサイトにアクセスして下さい。
+      - paragraph: サイトが表示されたら画面右上のログインボタンをクリックします。
+      - paragraph:
+        - link [ref=e75] [nth=16]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.20.41.jpg
+      - heading "「自分用」を選択" [ref=e76] [nth=1] [level=4]
+      - paragraph: 画面が切り替わり、Googleアカウントのログイン画面が表示されます。
+      - paragraph: Googleアカウントをまだ持っていない方は、左下にある「アカウントを作成」ボタンをクリックして下さい。
+      - paragraph: すると「自分用」と「ビジネスの管理用」を選択できます。
+      - paragraph: この場合は、「自分用」を選んで下さい。
+      - paragraph:
+        - link [ref=e77] [nth=17]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.06.21.jpg
+      - heading "「代わりに新しいGmailアドレスを作成する」を選択" [ref=e78] [level=4]
+      - paragraph: 次に「Googleアカウントの作成」という画面が出てくるので、パスワード入力欄の上にある「代わりに新しいGmailアドレスを作成する」をクリックします。
+      - paragraph:
+        - link [ref=e79] [nth=18]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.21.28.jpg
+      - heading "必要項目の入力" [ref=e80] [level=4]
+      - paragraph: すると新しくアカウントを作成できる画面になるので、必要項目を入力し「次へ」をクリックして下さい。
+      - paragraph:
+        - link [ref=e81] [nth=19]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.06.39.jpg
+      - heading "電話番号の入力" [ref=e82] [level=4]
+      - paragraph: 次に携帯の電話番号を入力して「次へ」をクリックします。
+      - paragraph:
+        - link [ref=e83] [nth=20]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.06.51.jpg
+      - heading "電話番号の確認" [ref=e84] [level=4]
+      - paragraph: 先ほど入力した電話番号に確認コードが届くので、そのコード番号を入力し、「確認」をクリックして下さい。
+      - paragraph:
+        - link [ref=e85] [nth=21]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.07.05.jpg
+      - heading "生年月日・性別の入力" [ref=e86] [level=4]
+      - paragraph: すると「Googleへようこそ」というページが表示されます。
+      - paragraph: 電話番号を入力しなくても次に進めますが、入力するとアカウントのパスワードを忘れた場合に Google のサポートを受けられます。
+      - paragraph: ここでは生年月日と性別の選択が必須となるので、入力したら「次へ」をクリック。
+      - paragraph:
+        - link [ref=e87] [nth=22]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.07.19.jpg
+      - heading "「プライバシーポリシーと利用規約」に同意" [ref=e88] [nth=1] [level=4]
+      - paragraph: 「電話番号の活用」という画面になったら「スキップ」を選んで構いません。
+      - paragraph:
+        - link [ref=e89] [nth=23]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.07.29.jpg
+      - paragraph: 最後に「プライバシーポリシーと利用規約」という画面が表示されるので、一番下までスクロールして「同意する」をクリックして下さい。
+      - paragraph:
+        - link [ref=e90] [nth=24]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.26.28.jpg
+      - heading "アカウント作成の完了" [ref=e91] [nth=1] [level=4]
+      - paragraph: するとYouTubeのホーム画面に切り替わります。
+      - paragraph: 画面右上のログインボタンをもう一度クリックしましょう。
+      - paragraph:
+        - link [ref=e92] [nth=25]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.08.06.jpg
+      - paragraph: 右上のログインボタンが自分の登録した名前になっていれば、無事にYouTubeアカウント作成の完了です。
+      - paragraph:
+        - link [ref=e93] [nth=26]:
+          - /url: https://tech-camp.in/note/wp-content/uploads/2020/07/スクリーンショット-2020-07-28-23.05.31.jpg
+      - link [ref=e94] [nth=27]:
+        - /url: https://tech-camp.in/lps/skill_college?utm_source=tcb&utm_medium=contentbanner&utm_campaign=income&utm_content=91310
+      - heading "YouTubeアカウント作成のメリット" [ref=e95] [level=2]
+      - paragraph: ここではYouTubeアカウントを作成の主なメリットを7つ紹介します。
+        - listitem: 動画投稿ができる
+        - listitem: 他人の動画にコメントや評価ができる
+        - listitem: 再生リストを作成できる
+
+
+[... 以下省略 ...]

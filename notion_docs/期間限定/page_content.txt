@@ -1,0 +1,14 @@
+# 期間限定
+
+Notion URL: https://www.notion.so/0c6a103be3df47df80b73c3499ac5f8f
+同期日時: 2026-01-27T21:00:00+09:00
+
+---
+
+## プロパティ
+
+- **例**: 期間限定
+- **大項目**: Narrow絞り込み
+- **種別**: 限定
+- **Bookmark**: false
+

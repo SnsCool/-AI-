@@ -1,0 +1,15 @@
+{
+  "page_id": "29af3b0f-ba85-809e-af6f-c6903c3edbce",
+  "created_time": "2025-10-28T06:44:00.000Z",
+  "last_edited_time": "2025-10-28T10:55:00.000Z",
+  "url": "https://www.notion.so/29af3b0fba85809eaf6fc6903c3edbce",
+  "properties": {
+    "備考": {"type": "rich_text", "rich_text": []},
+    "確認先": {"type": "rich_text", "rich_text": []},
+    "質問": {"type": "rich_text", "rich_text": []},
+    "返信例": {"type": "rich_text", "rich_text": []},
+    "回答": {"type": "rich_text", "rich_text": []},
+    "分類": {"type": "multi_select", "multi_select": []},
+    "内容": {"id": "title", "type": "title", "title": [{"plain_text": "各担当一覧があるといいかと！"}]}
+  }
+}

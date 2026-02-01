@@ -1,0 +1,37 @@
+# ロボットペイメント
+
+決済方法：メール送信・決済リンク送信
+
+メール送信の場合：ひろかに連絡（プラン名・支払い方法・メールアドレス）
+
+## 決済リンク
+
+- ベーシック98,000円　一括プラン
+https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=basic001&mailauthckey=e9483952673e47308550cb0dd7597938
+
+- ベーシック98,000円　3分割プラン
+https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=basic003&mailauthckey=e9483952673e47308550cb0dd7597938
+
+- ベーシック98,000円　6分割プラン
+https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=basic006&mailauthckey=e9483952673e47308550cb0dd7597938
+
+- プレミアム198,000円　一括プラン
+https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=premium001&mailauthckey=e9483952673e47308550cb0dd7597938
+
+- プレミアム198,000円　3分割プラン
+https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=premium003&mailauthckey=e9483952673e47308550cb0dd7597938
+
+- その他の場合
+https://credit.j-payment.co.jp/link/bankcheck?aid=132910&jb=CAPTURE&am=商品金額&tx=0&sf=0&mailauthckey=e9483952673e47308550cb0dd7597938
+
+## 補足
+
+7日後に自動決済のリトライが2回続く、その後は1ヶ月後に依頼
+
+180日以内であれば決済取り消し可能　末締めのため、月をまたぐ場合は返金できるが
+
+### 管理ページ
+(トグルブロック - 子要素あり)
+
+### 契約情報
+(トグルブロック - 子要素あり)

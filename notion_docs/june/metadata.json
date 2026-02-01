@@ -1,0 +1,85 @@
+{
+  "object": "page",
+  "id": "4d674a37-30cc-406a-92af-2a4c93473e38",
+  "created_time": "2023-05-31T03:52:00.000Z",
+  "last_edited_time": "2023-05-31T04:04:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "16276fe1-0dd7-4e84-9d4d-fccae90f4411"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "16276fe1-0dd7-4e84-9d4d-fccae90f4411"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0462d3c4-f599-46e7-802d-1b2509847a3d",
+    "database_id": "1d77ed2f-5d33-420e-aca2-3dca4db2e9fb"
+  },
+  "archived": false,
+  "in_trash": false,
+  "is_locked": false,
+  "properties": {
+    "再生数トップ①URL": {
+      "id": "C_WA",
+      "type": "url",
+      "url": null
+    },
+    "動画URL": {
+      "id": "TRP%60",
+      "type": "url",
+      "url": "https://www.youtube.com/watch?v=C-bf6yJn_Ho"
+    },
+    "サムネ": {
+      "id": "ZJWc",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "チャンネル登録者数": {
+      "id": "c%3CVo",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "画像": {
+      "id": "rwu%7D",
+      "type": "files",
+      "files": []
+    },
+    "ジャンル": {
+      "id": "sq%40_",
+      "type": "select",
+      "select": {
+        "id": "Dnlb",
+        "name": "ファッション",
+        "color": "default"
+      }
+    },
+    "チャンネル名": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "june",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "june",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/june-4d674a3730cc406a92af2a4c93473e38",
+  "public_url": "https://shared-beak-b34.notion.site/june-4d674a3730cc406a92af2a4c93473e38"
+}

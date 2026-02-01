@@ -1,0 +1,78 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/spreadsheets/d/1Mhzof4Uh-WbVoqVj3FxtWiiyh9myksVO7UQ4NFR24HI/edit?gid=1586797647#gid=1586797647
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: マーケティング部
+**取得日時**: 2026-01-22T16:15:15.326101
+
+---
+
+## コンテンツ
+
+    - banner "メニューバー":
+      - link "スプレッドシート ホーム" [ref=e1]:
+        - /url: https://docs.google.com/spreadsheets/?usp=sheets_web
+      - text: 11月メディア勤怠管理表
+      - 'button "ドキュメントのステータス: ドライブに保存しました."'
+      - button "すべてのコメントを表示" [ref=e2]
+      - button "共有します。リンクを知っている全員。 リンクを知っている全員がアクセスできます。ログインは不要です。" [ref=e3] [disabled]: 共有
+      - button "クイック共有操作" [ref=e4] [disabled]
+      - link "ログイン" [ref=e5]:
+        - /url: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/1Mhzof4Uh-WbVoqVj3FxtWiiyh9myksVO7UQ4NFR24HI/edit?gid%3D1586797647&followup=https://docs.google.com/spreadsheets/d/1Mhzof4Uh-WbVoqVj3FxtWiiyh9myksVO7UQ4NFR24HI/edit?gid%3D1586797647&ltmpl=sheets&ec=GAZAmwI
+        - menuitem "ファイル" [ref=e6]
+        - menuitem "編集" [ref=e7]
+        - menuitem "表示" [ref=e8]
+        - menuitem "挿入" [ref=e9]
+        - menuitem "表示形式" [ref=e10] [disabled]
+        - menuitem "データ" [ref=e11]
+        - menuitem "ツール" [ref=e12]
+        - menuitem "拡張機能" [ref=e13] [disabled]
+        - menuitem "ヘルプ" [ref=e14]
+      - toolbar "メニューを検索 (option+/)":
+        - combobox "メニュー" [ref=e15]
+      - toolbar "メイン":
+        - button "印刷 (⌘P)" [ref=e16]
+        - button "コメントを挿入 (⌘+option+M)" [ref=e17]
+        - button "フィルタ表示" [ref=e18]
+        - combobox "ズーム" [ref=e19]:
+          - option "ズーム のリストで 100% を選択しています。" [ref=e20] [selected]:
+            - textbox "ズーム" [ref=e21]: 100%
+        - button "モード" [ref=e22]: コメントのみ
+      - toolbar "モードと表示":
+        - button "メニューを非表示 (Ctrl+Shift+F)" [ref=e23]
+      - textbox [ref=e24]: A1
+      - button "名前ボックスのメニューボタン。メニュー項目から 1 つを選択すると、対応する名前付き範囲に移動します。" [ref=e25]
+      - textbox [ref=e26] [nth=1]
+    - navigation "シートタブバー" [ref=e27]:
+        - button "すべてのシート" [ref=e28]
+        - button "名前" [ref=e29]
+        - button "報酬" [ref=e30]
+        - button "全体" [ref=e31]
+        - button "かな" [ref=e32]
+        - button "10 ゆめか" [ref=e33]:
+          - text: 10 ゆめか
+        - button "2 りお" [ref=e34]:
+          - text: 2 りお
+        - button "くみ" [ref=e35]
+        - button "つぼ" [ref=e36]
+        - button "根本" [ref=e37]
+        - button "たつみ" [ref=e38]
+        - button "3 こうき" [ref=e39]:
+          - text: 3 こうき
+        - button "ころ" [ref=e40]
+        - button "リツヤ" [ref=e41]
+        - button "らこ" [ref=e42]
+        - button "ゆの" [ref=e43]
+        - button "りか" [ref=e44]
+        - button "しょー" [ref=e45]
+        - button "おろ/もあ" [ref=e46]
+        - button "左へスクロール" [ref=e47] [disabled]
+        - button "右へスクロール" [ref=e48]
+    - textbox [ref=e49] [nth=2]
+    - link "スクリーン リーダーのサポートを有効にする" [ref=e50]:
+      - /url: "#"
+    - textbox [ref=e51] [nth=3]
+    - region: スクリーン リーダーのサポートを有効にするには、⌘+option+Z を押します。キーボード ショートカットの詳細については、⌘スラッシュ を押します。
+

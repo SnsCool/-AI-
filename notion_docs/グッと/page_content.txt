@@ -1,0 +1,14 @@
+# グッと
+
+Notion URL: https://www.notion.so/5cc5d1a3e5d141b4ba004ea87ee78ab3
+同期日時: 2026-01-27T11:11:00
+
+---
+
+## プロパティ
+
+- **例**: グッと
+- **大項目**: Solution 解決策
+- **種別**: 期待を高める
+- **Bookmark**: false
+- **memo**: （未設定）

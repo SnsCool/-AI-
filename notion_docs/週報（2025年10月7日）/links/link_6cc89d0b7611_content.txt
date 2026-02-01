@@ -1,0 +1,52 @@
+# リンク先コンテンツ
+
+**URL**: https://www.instagram.com/mii_ouchiasobi/
+**種類**: video
+**タイトル**: 動画コンテンツ
+**リンクテキスト**: 
+**参照元**: 週報（2025年10月7日）
+**取得日時**: 2026-01-23T07:14:12.512934
+
+---
+
+## コンテンツ
+
+このスクリーンショットはInstagramのログインページです。動画の再生ページではありません。したがって、動画のタイトル、説明、内容についてはお答えできません。
+
+表示されているテキストは以下の通りです。
+
+**左側:**
+*   **ロゴ:** Instagramのロゴ
+*   **テキスト:**
+    *   See everyday moments from
+    *   your **close friends**.
+
+**右側 (ログインフォーム):**
+*   **ヘッダー:** Log into Instagram
+*   **入力フィールドのプレースホルダー:**
+    *   Mobile number, username or email
+    *   Password
+*   **ボタン:** Log in
+*   **リンク:** Forgot password?
+*   **ボタン:**
+    *   `f` Log in with Facebook
+    *   Create new account
+*   **ロゴ:** `Meta`
+
+**フッター:**
+*   Meta
+*   About
+*   Blog
+*   Jobs
+*   Help
+*   API
+*   Privacy
+*   Terms
+*   Locations
+*   Instagram Lite
+*   Meta AI
+*   Threads
+*   Contact Uploading & Non-Users
+*   Meta Verified
+*   English `v`
+*   © 2026 Instagram from Meta

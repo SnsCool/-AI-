@@ -1,0 +1,59 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/spreadsheets/d/1kka9C20eDoufbro_M0CgWsaYV-6HGuSyVxwsEbGsCyE/edit?gid=0#gid=0
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 12月_プロテイン_山﨑
+**取得日時**: 2026-01-22T17:08:46.875765
+
+---
+
+## コンテンツ
+
+## GoogleスプレッドシートのUI概要
+
+このドキュメントは、GoogleスプレッドシートのUI構造に関する情報を要約したものです。
+
+**1. メニューバー:**
+
+*   **スプレッドシート ホーム:** Googleスプレッドシートのホームページへのリンク (URL: [https://docs.google.com/spreadsheets/?usp=sheets_web](https://docs.google.com/spreadsheets/?usp=sheets_web))
+*   **ドキュメント名:** "プロテイン管理シート"
+*   **ステータス:** ドキュメントはドライブに保存済み。
+*   **共有:** ドキュメントの共有設定 (共有リンク、共有設定など) 。
+    *   リンクを知っている全員がアクセス可能（ログイン不要）。
+    *   共有操作ボタン (無効)
+*   **ログイン:** Googleアカウントへのログインリンク (URL: [https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/1kka9C20eDoufbro_M0CgWsaYV-6HGuSyVxwsEbGsCyE/edit?gid%3D0&followup=https://docs.google.com/spreadsheets/d/1kka9C20eDoufbro_M0CgWsaYV-6HGuSyVxwsEbGsCyE/edit?gid%3D0&ltmpl=sheets&ec=GAZAmwI](https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/1kka9C20eDoufbro_M0CgWsaYV-6HGuSyVxwsEbGsCyE/edit?gid%3D0&followup=https://docs.google.com/spreadsheets/d/1kka9C20eDoufbro_M0CgWsaYV-6HGuSyVxwsEbGsCyE/edit?gid%3D0&ltmpl=sheets&ec=GAZAmwI))
+*   **メニュー項目:** ファイル、編集、表示、挿入、表示形式、データ、ツール、拡張機能、ヘルプ
+
+**2. ツールバー:**
+
+*   **メニュー検索:** メニュー項目を検索する機能 (ショートカット: option+/)
+*   **メインツールバー:**
+    *   元に戻す/やり直し、印刷、書式貼り付けなどの基本操作
+    *   ズーム: 100%に設定されている
+    *   表示形式: 通貨、パーセント、小数点以下の桁数調整
+    *   フォント: デフォルト (Arial)、サイズ: 10
+    *   書式設定: 太字、斜体、取り消し線、テキスト/背景色
+    *   枠線、セルの結合（無効）、配置、テキストの折り返し/回転
+    *   その他のオプション
+
+*   **モードと表示:** メニューを非表示にする機能 (ショートカット: Ctrl+Shift+F)
+
+**3. 名前ボックス:**
+
+*   セル参照: A1
+*   名前付き範囲への移動
+
+**4. シートタブバー:**
+
+*   シートの追加
+*   全てのシート表示
+*   複数のシートタブが存在 (案件リスト、在庫管理シート、ナチュラ美住所、顧客管理、月間売り上げ、1月分、シート10)
+
+**5. その他:**
+
+*   表示行数: 42 / 32行を表示
+*   スクリーンリーダーサポートの有効化オプション
+*   キーボードショートカット情報 (⌘スラッシュ)
+

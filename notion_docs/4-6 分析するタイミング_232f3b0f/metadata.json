@@ -1,0 +1,12 @@
+{
+  "page_id": "232f3b0f-ba85-81f8-ab10-e9194d53ae39",
+  "created_time": "2025-07-16T06:39:00.000Z",
+  "last_edited_time": "2025-07-16T06:39:00.000Z",
+  "url": "https://www.notion.so/4-6-232f3b0fba8581f8ab10e9194d53ae39",
+  "properties": {
+    "スライド": {"type": "url", "url": "https://www.canva.com/design/DAF8qi3U2bI/pQctnGSurS5PLiRvJuK9eA/view"},
+    "サムネイル": {"type": "files", "files": [{"name": "68.png"}]},
+    "タグ": {"type": "multi_select", "multi_select": [{"name": "インサイト分析"}]},
+    "動画タイトル": {"id": "title", "type": "title", "title": [{"plain_text": "4-6 分析するタイミング"}]}
+  }
+}

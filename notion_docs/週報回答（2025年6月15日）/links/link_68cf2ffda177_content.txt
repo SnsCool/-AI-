@@ -1,0 +1,34 @@
+# リンク先コンテンツ
+
+**URL**: https://www.instagram.com/terako_okataduke/
+**種類**: video
+**タイトル**: 動画コンテンツ
+**リンクテキスト**: 
+**参照元**: 週報回答（2025年6月15日）
+**取得日時**: 2026-01-22T13:27:54.365253
+
+---
+
+## コンテンツ
+
+はい、承知いたしました。以下に動画ページのスクリーンショットから得られた情報をまとめます。
+
+**タイトル:** プロフィールは利用できません
+
+**説明:** リンクが壊れているか、プロフィールが削除された可能性があります。
+
+**内容:**
+
+*   Instagramのロゴ
+*   プロフィールにアクセスできないことを示すエラーメッセージ
+*   Instagramへのサインアップを促すボタン
+*   利用規約とプライバシーポリシーへの同意に関する通知
+
+**テキスト:**
+
+*   Instagram
+*   Profile isn't available
+*   The link may be broken, or the profile may have been removed.
+*   Sign up for Instagram
+*   By continuing, you agree to Instagram's Terms of Use and Privacy Policy.
+*   Log in

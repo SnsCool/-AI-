@@ -1,0 +1,92 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/forms/d/1eJtSNzoperKh9eQ0orJ3M3URb-hXwmdskJGkvuo5cuQ/edit#responses
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 全体会議議事録
+**取得日時**: 2026-01-22T16:42:05.839952
+
+---
+
+## コンテンツ
+
+  - button "編集権限をリクエスト" [ref=e1]:
+    - text: 編集権限をリクエスト
+  - heading "入学式参加者アンケート" [ref=e2] [level=1]
+  - text: 今後のサービス向上のため、アンケート回答にご協力ください。
+  - link "Google にログイン" [ref=e3]:
+    - /url: https://accounts.google.com/Login?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSeBFVcmSdUJbcs8L4KaQDWcfLK53hWccbIk7j68Jh0bE9eMVA%2Fviewform%3Ffbzx%3D7971601770690448371
+  - text: すると作業内容を保存できます。
+  - button "詳細" [ref=e4]
+    - listitem:
+      - heading "今日の内容を聞いて、「この半年間、やりきろう」と思えましたか？ 必須の質問" [ref=e5] [level=3]: 今日の内容を聞いて、「この半年間、やりきろう」と思えましたか？ *
+      - radiogroup "今日の内容を聞いて、「この半年間、やりきろう」と思えましたか？ 必須の質問":
+        - text: やりきれるか不安 1
+        - radio "1" [ref=e6]
+        - text: "2"
+        - radio "2" [ref=e7]
+        - text: "3"
+        - radio "3" [ref=e8]
+        - text: "4"
+        - radio "4" [ref=e9]
+        - text: "5"
+        - radio "5" [ref=e10]
+        - text: やりきろうと思えた
+    - listitem:
+      - heading "やりきる上で不安に感じていることがあれば教えてください（任意）" [ref=e11] [level=3]
+      - textbox "やりきる上で不安に感じていることがあれば教えてください（任意）" [ref=e12]
+    - listitem:
+      - heading "この半年間でやることの全体像はつかめましたか？ 必須の質問" [ref=e13] [level=3]: この半年間でやることの全体像はつかめましたか？ *
+      - radiogroup "この半年間でやることの全体像はつかめましたか？ 必須の質問":
+        - text: つかめなかった 1
+        - radio "1" [ref=e14] [nth=1]
+        - text: "2"
+        - radio "2" [ref=e15] [nth=1]
+        - text: "3"
+        - radio "3" [ref=e16] [nth=1]
+        - text: "4"
+        - radio "4" [ref=e17] [nth=1]
+        - text: "5"
+        - radio "5" [ref=e18] [nth=1]
+        - text: つかめた
+    - listitem:
+      - heading "もしまだつかめていない方がいれば、どの部分がわかりづらかったか教えてください（任意）" [ref=e19] [level=3]
+      - textbox "もしまだつかめていない方がいれば、どの部分がわかりづらかったか教えてください（任意）" [ref=e20]
+    - listitem:
+      - heading "ワークの中で決めた「やらないこと」を教えてください 必須の質問" [ref=e21] [level=3]: ワークの中で決めた「やらないこと」を教えてください *
+      - textbox "ワークの中で決めた「やらないこと」を教えてください 必須の質問" [ref=e22]
+    - listitem:
+      - heading "本日の入学式の満足度を教えてください 必須の質問" [ref=e23] [level=3]: 本日の入学式の満足度を教えてください *
+      - radiogroup "本日の入学式の満足度を教えてください 必須の質問":
+        - text: 満足できなかった 1
+        - radio "1" [ref=e24] [nth=2]
+        - text: "2"
+        - radio "2" [ref=e25] [nth=2]
+        - text: "3"
+        - radio "3" [ref=e26] [nth=2]
+        - text: "4"
+        - radio "4" [ref=e27] [nth=2]
+        - text: "5"
+        - radio "5" [ref=e28] [nth=2]
+        - text: 満足できた
+    - listitem:
+      - heading "上記満足度の理由を教えてください 必須の質問" [ref=e29] [level=3]: 上記満足度の理由を教えてください *
+      - textbox "上記満足度の理由を教えてください 必須の質問" [ref=e30]
+    - listitem:
+      - heading "SnsClubのサービスについて、ご意見があれば教えてください（任意）" [ref=e31] [level=3]
+      - textbox "SnsClubのサービスについて、ご意見があれば教えてください（任意）" [ref=e32]
+    - listitem:
+      - heading "ご協力ありがとうございました！ これから半年間、人生を変える期間にしていきましょう！ 本日はお疲れ様でした！" [ref=e33] [level=2]
+  - button "Submit" [ref=e34]: 送信
+  - button "フォームをクリア" [ref=e35]
+  - text: Google フォームでパスワードを送信しないでください。 このフォームは 株式会社Levela 内部で作成されました。
+  - paragraph:
+    - text: このフォームが不審だと思われる場合
+    - link "報告" [ref=e36]:
+      - /url: https://drive.google.com/abuse?id=AKkXjoypFkYBDfg6jUjHl4Qp1_FcomxfQvfRpBcMEGbuojNVADwBpiwQ6MeK9gnPoZCvX-Y8hDy_I90AS8jr8j4:0&docurl=https://docs.google.com/forms/d/1eJtSNzoperKh9eQ0orJ3M3URb-hXwmdskJGkvuo5cuQ/viewform?edit_requested%3Dtrue
+  - link "Google フォーム" [ref=e37]:
+    - /url: //www.google.com/forms/about/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms
+    - text: フォーム
+  - button "ヘルプとフィードバック" [ref=e38]
+

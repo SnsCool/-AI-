@@ -1,0 +1,36 @@
+{
+  "id": "253f3b0f-ba85-807c-a65b-dd8ea81cb57f",
+  "title": "週次会議",
+  "created_time": "2025-08-18T13:23:00.000Z",
+  "last_edited_time": "2026-01-12T01:50:00.000Z",
+  "parent": {
+    "type": "block_id",
+    "block_id": "24ef3b0f-ba85-80c6-bbdf-cea3cd7bb8d6"
+  },
+  "url": "https://www.notion.so/253f3b0fba85807ca65bdd8ea81cb57f",
+  "properties": {
+    "title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "週次会議",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "週次会議",
+          "href": null
+        }
+      ]
+    }
+  }
+}

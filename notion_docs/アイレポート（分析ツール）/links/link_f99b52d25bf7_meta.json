@@ -1,0 +1,8 @@
+{
+  "url": "https://line.me/ti/p/%40849voxwy",
+  "type": "webpage",
+  "processed_at": "2026-01-22T15:59:38.903728",
+  "content": "  - banner:\n    - heading \"LINE\" [ref=e1] [level=1]:\n      - link \"LINE\" [ref=e2]:\n        - /url: /\n  - main:\n    - paragraph: Scan QR code to add friend\n    - paragraph: Scan this QR code on the mobile version of LINE to add this friend.\n      - listitem:\n        - link \"Learn more about LINE\" [ref=e3]:\n          - /url: https://line.me\n",
+  "title": "Webページ",
+  "error": null
+}

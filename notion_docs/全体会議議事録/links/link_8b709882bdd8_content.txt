@@ -1,0 +1,173 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/forms/d/e/1FAIpQLSdbRzCVFmC2HIfGuXhIJuixpTdAglbEIxuNB7hcWoadDnLYjw/viewform?usp=dialog
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 全体会議議事録
+**取得日時**: 2026-01-22T16:43:33.173023
+
+---
+
+## コンテンツ
+
+  - heading "【駒居秘書オーディション】応募フォーム" [ref=e1] [level=1]
+  - text: 駒居代表の第2秘書をオーディション形式で選出します。 まずは書類審査を行いますので、下記フォームをご回答ください。 【締切：2025年8月17日（日）23時59分】
+  - link "Google にログイン" [ref=e2]:
+    - /url: https://accounts.google.com/Login?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSdbRzCVFmC2HIfGuXhIJuixpTdAglbEIxuNB7hcWoadDnLYjw%2Fviewform%3Ffbzx%3D532543611880760274
+  - text: すると作業内容を保存できます。
+  - button "詳細" [ref=e3]
+    - listitem:
+      - heading "氏名 必須の質問" [ref=e4] [level=3]: 氏名 *
+      - textbox "氏名 必須の質問" [ref=e5]
+    - listitem:
+      - heading "氏名（ふりがな） 必須の質問" [ref=e6] [level=3]: 氏名（ふりがな） *
+      - textbox "氏名（ふりがな） 必須の質問" [ref=e7]
+    - listitem:
+      - heading "経歴 必須の質問" [ref=e8] [level=3]: 経歴 *
+      - text: 社内外問わず、これまでの業務経歴を教えてください。
+      - textbox "経歴 必須の質問" [ref=e9]
+    - listitem:
+      - heading "志望動機 必須の質問" [ref=e10] [level=3]: 志望動機 *
+      - text: なぜ今回の秘書オーディションに応募しようと思いましたか？
+      - textbox "志望動機 必須の質問" [ref=e11]
+    - listitem:
+      - heading "自己PR 必須の質問" [ref=e12] [level=3]: 自己PR *
+      - text: ご自身の強みを踏まえて、秘書として駒居代表や会社に対して、どのように貢献できるかアピールしてください。
+      - textbox "自己PR 必須の質問" [ref=e13]
+    - listitem:
+      - heading "質問① 必須の質問" [ref=e14] [level=3]: 質問① *
+      - text: 本ポジションは「次世代の幹部育成」を目的の一つとしています。あなたはどのような幹部になりたいと考えていますか？将来的なビジョンを具体的に教えてください。
+      - textbox "質問① 必須の質問" [ref=e15]
+    - listitem:
+      - heading "質問② 必須の質問" [ref=e16] [level=3]: 質問② *
+      - text: 質問②に記載したビジョンを実現するために、駒居秘書として働く経験から何を学び取りたいですか？
+      - textbox "質問② 必須の質問" [ref=e17]
+    - listitem:
+      - heading "質問③ 必須の質問" [ref=e18] [level=3]: 質問③ *
+      - text: 自分自身の最大の弱点は何だと認識していますか？そう感じた具体的なエピソードや対処法について教えてください。
+      - textbox "質問③ 必須の質問" [ref=e19]
+    - listitem:
+      - heading "秘書適性診断" [ref=e20] [level=2]
+      - text: 以下の各項目について、ご自身の考えや行動に最も近いものを1〜5の5段階で選択してください。 秘書としての適性を測るための自己診断です。正直にお答えください。
+    - listitem:
+      - heading "先読み・自律性 必須の質問" [ref=e21] [level=3]: 先読み・自律性 *
+      - text: 指示された内容だけでなく、常に数歩先を予測し、自ら考えて行動することが得意だ。
+      - radiogroup "先読み・自律性 必須の質問":
+        - text: 全くそう思わない 1
+        - radio "1" [ref=e22]
+        - text: "2"
+        - radio "2" [ref=e23]
+        - text: "3"
+        - radio "3" [ref=e24]
+        - text: "4"
+        - radio "4" [ref=e25]
+        - text: "5"
+        - radio "5" [ref=e26]
+        - text: 非常にそう思う
+    - listitem:
+      - heading "時間へのコミットメント 必須の質問" [ref=e27] [level=3]: 時間へのコミットメント *
+      - text: 重要な目標を達成するためなら、深夜や休日を問わず、自分の時間を捧げることに抵抗はない。
+      - radiogroup "時間へのコミットメント 必須の質問":
+        - text: 全くそう思わない 1
+        - radio "1" [ref=e28] [nth=1]
+        - text: "2"
+        - radio "2" [ref=e29] [nth=1]
+        - text: "3"
+        - radio "3" [ref=e30] [nth=1]
+        - text: "4"
+        - radio "4" [ref=e31] [nth=1]
+        - text: "5"
+        - radio "5" [ref=e32] [nth=1]
+        - text: 非常にそう思う
+    - listitem:
+      - heading "マルチタスク能力 必須の質問" [ref=e33] [level=3]: マルチタスク能力 *
+      - text: 複数の緊急タスクが同時に発生しても、冷静に優先順位を立て、柔軟に処理を進めることができる。
+      - radiogroup "マルチタスク能力 必須の質問":
+        - text: 全くそう思わない 1
+        - radio "1" [ref=e34] [nth=2]
+        - text: "2"
+        - radio "2" [ref=e35] [nth=2]
+        - text: "3"
+        - radio "3" [ref=e36] [nth=2]
+        - text: "4"
+        - radio "4" [ref=e37] [nth=2]
+        - text: "5"
+        - radio "5" [ref=e38] [nth=2]
+        - text: 非常にそう思う
+    - listitem:
+      - heading "ストレス耐性・感情コントロール 必須の質問" [ref=e39] [level=3]: ストレス耐性・感情コントロール *
+      - text: 強いプレッシャーや理不尽だと感じる状況下でも、感情的にならずに冷静な判断を保つ自信がある。
+      - radiogroup "ストレス耐性・感情コントロール 必須の質問":
+        - text: 全くそう思わない 1
+        - radio "1" [ref=e40] [nth=3]
+        - text: "2"
+        - radio "2" [ref=e41] [nth=3]
+        - text: "3"
+        - radio "3" [ref=e42] [nth=3]
+        - text: "4"
+        - radio "4" [ref=e43] [nth=3]
+        - text: "5"
+        - radio "5" [ref=e44] [nth=3]
+        - text: 非常にそう思う
+    - listitem:
+      - heading "報告・連絡・相談 必須の質問" [ref=e45] [level=3]: 報告・連絡・相談 *
+      - text: 上司や関係者を不安にさせないよう、状況に応じて密な報告・連絡・相談を徹底している。
+      - radiogroup "報告・連絡・相談 必須の質問":
+        - text: 全くそう思わない 1
+        - radio "1" [ref=e46] [nth=4]
+        - text: "2"
+        - radio "2" [ref=e47] [nth=4]
+        - text: "3"
+        - radio "3" [ref=e48] [nth=4]
+        - text: "4"
+        - radio "4" [ref=e49] [nth=4]
+        - text: "5"
+        - radio "5" [ref=e50] [nth=4]
+        - text: 非常にそう思う
+    - listitem:
+      - heading "心身の頑健性 必須の質問" [ref=e51] [level=3]:
+        - paragraph: 心身の頑健性
+        - text: "*"
+      - text: 自身の健康管理に自信があり、重要な局面で体調を理由にパフォーマンスが落ちることは滅多にない。
+      - radiogroup "心身の頑健性 必須の質問":
+        - text: 全くそう思わない 1
+        - radio "1" [ref=e52] [nth=5]
+        - text: "2"
+        - radio "2" [ref=e53] [nth=5]
+        - text: "3"
+        - radio "3" [ref=e54] [nth=5]
+        - text: "4"
+        - radio "4" [ref=e55] [nth=5]
+        - text: "5"
+        - radio "5" [ref=e56] [nth=5]
+        - text: 非常にそう思う
+    - listitem:
+      - heading "理不尽さへの捉え方 必須の質問" [ref=e57] [level=3]:
+        - paragraph: 理不尽さへの捉え方
+        - text: "*"
+      - text: リーダーの厳しい要求や一見すると理不尽に思える言動も、高い目標を達成するためには必要なプロセスだと捉えることができる。
+      - radiogroup "理不尽さへの捉え方 必須の質問":
+        - text: 全くそう思わない 1
+        - radio "1" [ref=e58] [nth=6]
+        - text: "2"
+        - radio "2" [ref=e59] [nth=6]
+        - text: "3"
+        - radio "3" [ref=e60] [nth=6]
+        - text: "4"
+        - radio "4" [ref=e61] [nth=6]
+        - text: "5"
+        - radio "5" [ref=e62] [nth=6]
+        - text: 非常にそう思う
+  - button "Submit" [ref=e63]: 送信
+  - button "フォームをクリア" [ref=e64]
+  - text: Google フォームでパスワードを送信しないでください。 このフォームは 株式会社Levela 内部で作成されました。
+  - paragraph:
+    - text: このフォームが不審だと思われる場合
+    - link "報告" [ref=e65]:
+      - /url: https://drive.google.com/abuse?id=AKkXjozHU8S5_GuAPAj52DdFyNVD5D9lFQ62Xi5MBaddyWdW7BEbVklEy23dYfhojprPpC6wNEzM-mL0KfDnRzM:0&docurl=https://docs.google.com/forms/d/e/1FAIpQLSdbRzCVFmC2HIfGuXhIJuixpTdAglbEIxuNB7hcWoadDnLYjw/viewform?usp%3Ddialog
+  - link "Google フォーム" [ref=e66]:
+    - /url: //www.google.com/forms/about/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms
+    - text: フォーム
+  - button "ヘルプとフィードバック" [ref=e67]
+

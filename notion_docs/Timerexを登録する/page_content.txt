@@ -1,0 +1,13 @@
+# Timerexを登録する
+
+Notion URL: https://www.notion.so/4cab1819e30f4e2ca05dd47dd52f6e5f
+同期日時: 2026-01-27T20:00:00+09:00
+
+---
+
+## プロパティ
+
+- **やること**: Timerexを登録する
+- **カテゴリー**: 実行する
+- **優先度**: ⭐️⭐️⭐️
+- **補足**: https://timerex.net

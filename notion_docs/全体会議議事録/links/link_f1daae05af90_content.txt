@@ -1,0 +1,62 @@
+# リンク先コンテンツ
+
+**URL**: https://lit.link/ritsuyayuueki
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 全体会議議事録
+**取得日時**: 2026-01-22T16:41:45.922352
+
+---
+
+## コンテンツ
+
+  - button [ref=e1]:
+  - button [ref=e2] [nth=1]:
+  - main:
+    - link [ref=e3]:
+      - /url: https://lit.link?utm_source=lit.link_top&utm_medium=logo&utm_campaign=click
+    - heading "リツヤ" [ref=e4] [level=1]
+    - paragraph: クリエイター
+    - paragraph: ◾️有益で面白いと思った情報のみ発信📍 ◾️SNS総フォロワー30万人達成📍 . ◽️YouTube（20万人）／TikTok（7万人）達成 ◽️是非フォローよろしくです！！ ◽️リツヤのおすすめ商品も覗いてね⇩⇩
+    - button "もっと見る" [ref=e5]
+      - listitem:
+        - link "厳選オススメ商品はこちら📌" [ref=e6]:
+          - /url: https://room.rakuten.co.jp/room_18ddf71965/items?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnOZM5KZDWvkg2Q2vpJy3wevwNOSWUQ4_B4XI9qxD9kRLFeOU096RSJmANy1Q_aem_miv__vN4yHAHtXQBrMOxBQ
+          - heading "厳選オススメ商品はこちら📌" [ref=e7] [level=2]
+      - listitem:
+        - link "YouTube 登録者20万人" [ref=e8]:
+          - /url: https://www.youtube.com/@samasamachan
+          - heading "YouTube" [ref=e9] [level=2]
+          - text: 登録者20万人
+      - listitem:
+        - link "Instagram 登録者5万人" [ref=e10]:
+          - /url: https://www.instagram.com/ritsu_ya_hap/
+          - heading "Instagram" [ref=e11] [level=2]
+          - text: 登録者5万人
+      - listitem:
+        - link "TikTok 登録者7万人" [ref=e12]:
+          - /url: https://www.tiktok.com/@rjii.com
+          - heading "TikTok" [ref=e13] [level=2]
+          - text: 登録者7万人
+      - listitem:
+        - heading "メールアドレス" [ref=e14] [level=2]
+        - text: ryu_ryu19997773031@yahoo.co.jp
+        - text: YouTube
+          - listitem: トラベル
+          - listitem: 店舗/商品紹介・レビュー
+          - listitem: トレンド
+        - text: Instagram
+          - listitem: 趣味
+          - listitem: 旅行・風景
+          - listitem: インテリア・雑貨
+        - text: TikTok
+          - listitem: How to・役立ち情報
+  - contentinfo:
+    - link [ref=e15] [nth=1]:
+      - /url: https://lit.link?utm_source=lit.link&utm_medium=button&utm_campaign=lit.link_bottom_2
+    - paragraph:
+      - link "Created by lit.link" [ref=e16]:
+        - /url: https://lit.link?utm_source=lit.link&utm_medium=button&utm_campaign=lit.link_bottom_2
+    - text: ©︎lit.link All Rights Reserved
+

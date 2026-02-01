@@ -1,0 +1,14 @@
+# AをBにする方法
+
+Notion URL: https://www.notion.so/A-B-41ca725b27224ea980836acf9b20621a
+同期日時: 2026-01-27T21:00:00+09:00
+
+---
+
+## プロパティ
+
+- **例**: AをBにする方法
+- **大項目**: Solution 解決策
+- **種別**: 方法提示
+- **Bookmark**: false
+- **memo**:

@@ -1,0 +1,10 @@
+{
+  "page_id": "276f3b0f-ba85-8169-90a3-e44c94f80806",
+  "created_time": "2025-09-22T05:26:00.000Z",
+  "last_edited_time": "2025-09-22T05:26:00.000Z",
+  "url": "https://www.notion.so/LINE-276f3b0fba85816990a3e44c94f80806",
+  "properties": {
+    "頻度": {"type": "multi_select", "multi_select": [{"name": "2週"}]},
+    "タスク": {"id": "title", "type": "title", "title": [{"plain_text": "入学式LINE回答フォーム更新"}]}
+  }
+}

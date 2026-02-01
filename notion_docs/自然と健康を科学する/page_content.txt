@@ -1,0 +1,17 @@
+# 自然と健康を科学する
+
+Notion URL: https://www.notion.so/eca6f4a91a424285827d9cc3c0188f4d
+同期日時: 2026-01-27T00:00:00+09:00
+
+---
+
+## プロパティ
+
+- **キャッチコピー**: 自然と健康を科学する
+- **参照リンク**: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tsumura.co.jp%2F&psig=AOvVaw2bPiyJtRYxKCHbz_khKE9T&ust=1680707961948000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKC4i53DkP4CFQAAAAAdAAAAABAD
+- **番号**: 89
+- **memo**: (未設定)
+- **訴求方法**: 対比
+- **企業名, 商品名**: ツムラ
+- **いいね**: false
+

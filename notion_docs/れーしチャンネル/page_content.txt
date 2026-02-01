@@ -1,0 +1,16 @@
+# れーしチャンネル
+
+Notion URL: https://www.notion.so/676e648f1e5945ad956d69a9b374b5b1
+同期日時: 2026-01-27T00:00:00+09:00
+
+---
+
+## プロパティ
+
+- **チャンネル名**: れーしチャンネル
+- **再生数トップ①URL**: https://www.youtube.com/watch?v=2m7j1Zg1c6k
+- **動画URL**: https://www.youtube.com/watch?v=2m7j1Zg1c6k
+- **サムネ**: 【ゆっくり歴史解説】後ウマイヤ朝 - YouTube - れーしチャンネル
+- **チャンネル登録者数**: チャンネル登録者数 5.23万人
+- **ジャンル**: 雑学
+

@@ -1,0 +1,288 @@
+# リンク先コンテンツ
+
+**URL**: https://pladan-factory.com/case/2288/
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 🔥イベント用バックパネル（駒居さん依頼）
+**取得日時**: 2026-01-22T14:50:08.556406
+
+---
+
+## コンテンツ
+
+  - banner:
+    - link "プラスチックダンボールのオーダーメイド プラダンファクトリー通販サイト" [ref=e1]:
+      - /url: https://pladan-factory.com
+      - text: プラスチックダンボールのオーダーメイド
+      - text: 通販サイト
+    - link "tel. 0948-72-3718 受付時間 平日10：00～17：00（KYコンテナ内）" [ref=e2]:
+      - /url: tel:0948723718
+    - paragraph:
+      - link [ref=e3]:
+        - /url: "#menu"
+    - navigation:
+        - listitem:
+          - link "プラダンとは" [ref=e4]:
+            - /url: https://pladan-factory.com/pladan/
+        - listitem:
+          - link "プラダンケース" [ref=e5]:
+            - /url: https://pladan-factory.com/pladan_case/
+        - listitem:
+          - link "プラダンシート" [ref=e6]:
+            - /url: https://pladan-factory.com/pladan_seat/
+        - listitem:
+          - link "制作事例" [ref=e7]:
+            - /url: https://pladan-factory.com/case/
+        - listitem:
+          - link "コラム" [ref=e8]:
+            - /url: https://pladan-factory.com/column/
+        - listitem:
+          - link "Q&A" [ref=e9]:
+            - /url: https://pladan-factory.com/qa/
+    - listitem:
+      - link "プラダンファクトリー" [ref=e10]:
+        - /url: https://pladan-factory.com
+    - listitem: ">"
+    - listitem:
+      - link "制作事例" [ref=e11] [nth=1]:
+        - /url: https://pladan-factory.com/case/
+    - listitem: ">"
+    - listitem:
+      - link "看板・パネル" [ref=e12]:
+        - /url: https://pladan-factory.com/case/scene/%e7%9c%8b%e6%9d%bf%e3%83%bb%e3%83%91%e3%83%8d%e3%83%ab/
+    - listitem: ">"
+    - listitem: ステージ用バックパネル
+  - heading "ステージ用バックパネル" [ref=e13] [level=1]
+      - row "商品名 ステージ用バックパネル":
+        - rowheader "商品名" [ref=e14]
+        - cell "ステージ用バックパネル" [ref=e15]
+  - paragraph: 7月1日にアイランドシティフォーラムで 開催された『asobuフェス2023』の ステージ用バックパネルを製作 させていただきました。 ヒーローショーの バックパネルで、幅約10ｍの 特大パネルとなります。
+  - paragraph:
+    - link "この事例を元にお見積りする" [ref=e16]:
+      - /url: https://pladan-factory.com/estimate/form_mikanbox/?case_id=2288&case_title=ステージ用バックパネル&case_name=ステージ用バックパネル
+  - paragraph:
+    - link "この事例を元にお見積りする" [ref=e17] [nth=1]:
+      - /url: https://pladan-factory.com/estimate/form_mikanbox/?case_id=2288&case_title=ステージ用バックパネル&case_name=ステージ用バックパネル
+    - listitem:
+      - link "<" [ref=e18]:
+        - /url: https://pladan-factory.com/case/2283/
+    - listitem:
+      - link "プラダン納品事例一覧を表示" [ref=e19]:
+        - /url: https://pladan-factory.com/case/
+    - listitem:
+      - link ">" [ref=e20]:
+        - /url: https://pladan-factory.com/case/2294/
+    - text: お見積り
+  - definition:
+    - link "プラダンのお見積り" [ref=e21]:
+      - /url: https://pladan-factory.com/estimate/
+    - text: よく使われるは汎用品はこちらから！
+    - text: お問合せ
+  - definition:
+    - link "フォームからお問い合わせ" [ref=e22]:
+      - /url: /inquiry/
+    - text: 制作事例
+  - term: シーン別
+  - definition:
+    - link "通い箱（10）" [ref=e23]:
+      - /url: https://pladan-factory.com/case/scene/sn_cat01/
+  - definition:
+    - link "音響・照明機材輸送（5）" [ref=e24]:
+      - /url: https://pladan-factory.com/case/scene/sn_cat02/
+  - definition:
+    - link "基盤・電子部品輸送（2）" [ref=e25]:
+      - /url: https://pladan-factory.com/case/scene/sn_cat04/
+  - definition:
+    - link "その他（16）" [ref=e26]:
+      - /url: https://pladan-factory.com/case/scene/sn_cat99/
+  - definition:
+    - link "書類保管箱（4）" [ref=e27]:
+      - /url: https://pladan-factory.com/case/scene/%e6%9b%b8%e9%a1%9e%e4%bf%9d%e7%ae%a1%e7%ae%b1/
+  - definition:
+    - link "看板・パネル（12）" [ref=e28]:
+      - /url: https://pladan-factory.com/case/scene/%e7%9c%8b%e6%9d%bf%e3%83%bb%e3%83%91%e3%83%8d%e3%83%ab/
+  - definition:
+    - link "日常（6）" [ref=e29]:
+      - /url: https://pladan-factory.com/case/scene/%e6%97%a5%e5%b8%b8/
+  - definition:
+    - link "収納（3）" [ref=e30]:
+      - /url: https://pladan-factory.com/case/scene/%e5%8f%8e%e7%b4%8d/
+  - term: 業種別
+  - definition:
+    - link "自動車/重工業（3）" [ref=e31]:
+      - /url: https://pladan-factory.com/case/business/bn_cat01/
+  - definition:
+    - link "食品/医薬品/化粧品（9）" [ref=e32]:
+      - /url: https://pladan-factory.com/case/business/bn_cat02/
+  - definition:
+    - link "イベント/展示会（21）" [ref=e33]:
+      - /url: https://pladan-factory.com/case/business/bn_cat03/
+  - definition:
+    - link "学校/教育機関（19）" [ref=e34]:
+      - /url: https://pladan-factory.com/case/business/bn_cat05/
+  - definition:
+    - link "建設/土木（0）" [ref=e35]:
+      - /url: https://pladan-factory.com/case/business/bn_cat06/
+  - definition:
+    - link "研究機関（4）" [ref=e36]:
+      - /url: https://pladan-factory.com/case/business/bn_cat07/
+  - definition:
+    - link "医療/福祉（8）" [ref=e37]:
+      - /url: https://pladan-factory.com/case/business/bn_cat08/
+  - definition:
+    - link "情報通信/メディア（7）" [ref=e38]:
+      - /url: https://pladan-factory.com/case/business/bn_cat09/
+  - definition:
+    - link "電力/ガス/水道（0）" [ref=e39]:
+      - /url: https://pladan-factory.com/case/business/bn_cat11/
+  - definition:
+    - link "印刷（11）" [ref=e40]:
+      - /url: https://pladan-factory.com/case/business/bn_cat12/
+  - definition:
+    - link "運輸/倉庫（5）" [ref=e41]:
+      - /url: https://pladan-factory.com/case/business/bn_cat13/
+  - definition:
+    - link "レンタル（3）" [ref=e42]:
+      - /url: https://pladan-factory.com/case/business/bn_cat14/
+  - definition:
+    - link "個人（16）" [ref=e43]:
+      - /url: https://pladan-factory.com/case/business/%e5%80%8b%e4%ba%ba/
+  - definition:
+    - link "書類整理（6）" [ref=e44]:
+      - /url: https://pladan-factory.com/case/business/%e6%9b%b8%e9%a1%9e%e6%95%b4%e7%90%86/
+  - definition:
+    - link "社内使用（16）" [ref=e45]:
+      - /url: https://pladan-factory.com/case/business/%e7%a4%be%e5%86%85%e4%bd%bf%e7%94%a8/
+  - definition:
+    - link "農業用（3）" [ref=e46]:
+      - /url: https://pladan-factory.com/case/business/%e8%be%b2%e6%a5%ad%e7%94%a8/
+  - definition:
+    - link "その他（7）" [ref=e47]:
+      - /url: https://pladan-factory.com/case/business/%e3%81%9d%e3%81%ae%e4%bb%96/
+  - term: 素材別
+  - definition:
+    - link "ハッポート（1）" [ref=e48]:
+      - /url: https://pladan-factory.com/case/material/%e3%83%8f%e3%83%83%e3%83%9d%e3%83%bc%e3%83%88/
+  - definition:
+    - link "リボード（6）" [ref=e49]:
+      - /url: https://pladan-factory.com/case/material/%e3%83%aa%e3%83%9c%e3%83%bc%e3%83%89/
+  - definition:
+    - link "緩衝材（0）" [ref=e50]:
+      - /url: https://pladan-factory.com/case/material/%e7%b7%a9%e8%a1%9d%e6%9d%90/
+  - definition:
+    - link "Pボード（1）" [ref=e51]:
+      - /url: https://pladan-factory.com/case/material/p%e3%83%9c%e3%83%bc%e3%83%89/
+  - definition:
+    - link "goo!パネ PRO（4）" [ref=e52]:
+      - /url: https://pladan-factory.com/case/material/goo%e3%83%91%e3%83%8d-pro/
+  - definition:
+    - link "プラダン(スタンダード）（22）" [ref=e53]:
+      - /url: https://pladan-factory.com/case/material/mr_cat01/
+  - definition:
+    - link "導電プラダン（3）" [ref=e54]:
+      - /url: https://pladan-factory.com/case/material/mr_cat02/
+  - definition:
+    - link "厚物プラダン（2）" [ref=e55]:
+      - /url: https://pladan-factory.com/case/material/mr_cat03/
+  - definition:
+    - link "パロニアスーパーHD（0）" [ref=e56]:
+      - /url: https://pladan-factory.com/case/material/mr_cat04/
+  - definition:
+    - link "パロニア（0）" [ref=e57]:
+      - /url: https://pladan-factory.com/case/material/mr_cat05/
+  - definition:
+    - link "スミセラー（0）" [ref=e58]:
+      - /url: https://pladan-factory.com/case/material/mr_cat06/
+  - definition:
+    - link "ツインコーン（0）" [ref=e59]:
+      - /url: https://pladan-factory.com/case/material/mr_cat08/
+    - text: ブログ
+  - term: 最新記事
+  - definition:
+    - link "2024-12-26 年末年始休業のお知らせ" [ref=e60]:
+      - /url: https://pladan-factory.com/2024/12/26/2928/
+      - time: 2024-12-26
+      - text: 年末年始休業のお知らせ
+  - definition:
+    - link "2024-08-09 夏季休業のお知らせ" [ref=e61]:
+      - /url: https://pladan-factory.com/2024/08/09/2782/
+      - time: 2024-08-09
+      - text: 夏季休業のお知らせ
+  - definition:
+    - link "2024-04-24 ゴールデンウィーク休業のお知らせ" [ref=e62]:
+      - /url: https://pladan-factory.com/2024/04/24/2467/
+      - time: 2024-04-24
+      - text: ゴールデンウィーク休業のお知らせ
+  - term: カテゴリ
+  - definition:
+      - listitem:
+        - link "ニュース（22）" [ref=e63]:
+          - /url: https://pladan-factory.com/category/news/
+  - link "製造工程" [ref=e64]:
+    - /url: https://pladan-factory.com/pladan/manufacturing_process/
+  - link "コラム" [ref=e65] [nth=1]:
+    - /url: https://pladan-factory.com/column/
+  - link "Q&A" [ref=e66] [nth=1]:
+    - /url: https://pladan-factory.com/qa/
+  - link "ご注文の流れ" [ref=e67]:
+    - /url: https://pladan-factory.com/orderflow/
+  - paragraph:
+    - link "プラダンファクトリー公式Facebookはこちら" [ref=e68]:
+      - /url: https://www.facebook.com/profile.php?id=100020189899427
+  - contentinfo:
+    - term: About
+    - definition:
+      - link "プラダンとは？" [ref=e69]:
+        - /url: https://pladan-factory.com/pladan/
+    - definition:
+      - link "価格について" [ref=e70]:
+        - /url: https://pladan-factory.com/pladan/price/
+    - definition:
+      - link "サイズ" [ref=e71]:
+        - /url: https://pladan-factory.com/pladan/size/
+    - definition:
+      - link "オプションパーツ" [ref=e72]:
+        - /url: https://pladan-factory.com/pladan/optional_parts/
+    - definition:
+      - link "製造工程" [ref=e73] [nth=1]:
+        - /url: https://pladan-factory.com/pladan/manufacturing_process/
+    - definition:
+      - link "ご注文の流れ" [ref=e74] [nth=1]:
+        - /url: https://pladan-factory.com/orderflow/
+    - term: Products
+    - definition:
+      - link "プラダンケース" [ref=e75] [nth=1]:
+        - /url: https://pladan-factory.com/pladan_case/
+    - definition:
+      - link "プラダンシート" [ref=e76] [nth=1]:
+        - /url: https://pladan-factory.com/pladan_seat/
+    - definition:
+      - link "緩衝材" [ref=e77]:
+        - /url: https://pladan-factory.com/cushioning_material/
+    - definition:
+      - link "Q&A" [ref=e78] [nth=2]:
+        - /url: https://pladan-factory.com/qa/
+    - term: Works
+    - definition:
+      - link "制作事例" [ref=e79] [nth=2]:
+        - /url: https://pladan-factory.com/case/
+    - definition:
+      - link "コラム" [ref=e80] [nth=2]:
+        - /url: https://pladan-factory.com/column/
+    - term: Company
+    - definition:
+      - link "個人情報保護方針" [ref=e81]:
+        - /url: https://pladan-factory.com/privacy/
+    - definition:
+      - link "特定商取引法" [ref=e82]:
+        - /url: https://pladan-factory.com/law/
+    - definition:
+      - link "会社概要" [ref=e83]:
+        - /url: https://pladan-factory.com/company/
+    - paragraph: 〒820-0712 福岡県飯塚市大分507-1 tel.0948-72-3718（KYコンテナ内） info@pladan-factory.com
+    - paragraph:
+      - link "top page" [ref=e84]:
+        - /url: "#wrap"
+    - paragraph: 2026© Pladan Factory. All rights reserved.
+

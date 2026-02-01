@@ -1,0 +1,12 @@
+会社名: 🔴コンドット
+価格:
+  - 5mm厚: ¥10,120
+  - 7mm厚: ¥11,000
+  - 足なし: ¥7,920
+備考: データ入稿3日後発送
+発注期限: 2026-02-14
+URL: https://base-print.com/user_data/panel-lifesize
+見積書PDF: 
+  - KONDOT_フォトパネル5m厚見積書.pdf
+  - KONDOT_フォトパネル7mm厚見積書.pdf
+  - KONDOT_フォトパネル足なし見積書.pdf

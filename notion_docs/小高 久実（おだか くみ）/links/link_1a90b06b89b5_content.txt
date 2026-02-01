@@ -1,0 +1,42 @@
+# リンク先コンテンツ
+
+**URL**: https://www.instagram.com/imu_slowlifevlog
+**種類**: video
+**タイトル**: 動画コンテンツ
+**リンクテキスト**: 
+**参照元**: 小高 久実（おだか くみ）
+**取得日時**: 2026-01-22T17:16:13.090251
+
+---
+
+## コンテンツ
+
+Here are the bounding box detections:
+```json
+[
+  {"box_2d": [112, 430, 177, 568], "label": "Instagram"},
+  {"box_2d": [250, 401, 271, 557], "label": "Phone number, username, or email"},
+  {"box_2d": [310, 401, 331, 446], "label": "Password"},
+  {"box_2d": [379, 484, 400, 514], "label": "Log in"},
+  {"box_2d": [442, 493, 460, 505], "label": "OR"},
+  {"box_2d": [508, 458, 529, 568], "label": "Log in with Facebook"},
+  {"box_2d": [562, 453, 584, 545], "label": "Forgot password?"},
+  {"box_2d": [664, 540, 686, 581], "label": "Sign up"},
+  {"box_2d": [843, 171, 862, 198], "label": "About"},
+  {"box_2d": [843, 211, 862, 233], "label": "Blog"},
+  {"box_2d": [843, 244, 862, 266], "label": "Jobs"},
+  {"box_2d": [843, 277, 862, 298], "label": "Help"},
+  {"box_2d": [843, 309, 862, 325], "label": "API"},
+  {"box_2d": [843, 337, 862, 371], "label": "Privacy"},
+  {"box_2d": [843, 382, 862, 411], "label": "Terms"},
+  {"box_2d": [843, 422, 862, 466], "label": "Locations"},
+  {"box_2d": [843, 478, 862, 540], "label": "Instagram Lite"},
+  {"box_2d": [843, 551, 862, 585], "label": "Meta AI"},
+  {"box_2d": [843, 597, 862, 634], "label": "Threads"},
+  {"box_2d": [843, 646, 862, 790], "label": "Contact Uploading & Non-Users"},
+  {"box_2d": [843, 801, 862, 861], "label": "Meta Verified"},
+  {"box_2d": [960, 39, 980, 368], "label": "By continuing, you agree to Instagram's Terms of Use and Privacy Policy."},
+  {"box_2d": [891, 407, 913, 451], "label": "English"},
+  {"box_2d": [891, 462, 912, 591], "label": "2026 Instagram from Meta"}
+]
+```

@@ -1,0 +1,17 @@
+# ファッション兄弟
+
+Notion URL: https://www.notion.so/154f3b0fba8581f9bc83d55f878fe5e2
+同期日時: 2026-01-27T11:53:00+09:00
+
+---
+
+## プロパティ
+
+- **アカウント名**: ファッション兄弟
+- **ジャンル**: ファッション①
+- **小ジャンル**: メンズ
+- **フォロワー（k)**: 11
+- **アカウントURL**: https://www.tiktok.com/@kokitora?is_from_webapp=1&sender_device=pc
+- **お気に入り**: false
+- **アイコン**: ファッション兄弟.jpeg
+- **備考**: (なし)

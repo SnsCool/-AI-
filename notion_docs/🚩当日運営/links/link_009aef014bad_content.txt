@@ -1,0 +1,254 @@
+# リンク先コンテンツ
+
+**URL**: https://music.apple.com/jp/playlist/定番洋楽クリスマスソング/pl.b0e04e25887741ea845e1d5c88397fd4
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 🚩当日運営
+**取得日時**: 2026-01-22T13:40:46.601167
+
+---
+
+## コンテンツ
+
+  - navigation:
+    - textbox "Search" [ref=e1]:
+      - /placeholder: 検索
+      - listitem:
+        - button "ホーム" [ref=e2]
+      - listitem:
+        - button "新着おすすめ" [ref=e3] [pressed]
+      - listitem:
+        - button "ラジオ" [ref=e4]
+    - button "「ミュージック」で開く" [ref=e5]
+  - switch "シャッフル" [ref=e6] [disabled]
+  - button "前ヘ" [ref=e7] [disabled]
+  - button "再生" [ref=e8] [disabled]
+  - button "次へ" [ref=e9] [disabled]
+  - switch "リピート" [ref=e10] [disabled]
+  - button [ref=e11]
+  - button "消音" [ref=e12]
+  - slider "音量" [ref=e13]: "0.5"
+  - button "次はこちら" [ref=e14]:
+  - button "サインイン" [ref=e15]:
+    - text: サインイン
+  - main:
+    - heading "定番洋楽クリスマスソング" [ref=e16] [level=1]
+    - link "Apple Music クリスマス" [ref=e17]:
+      - /url: https://music.apple.com/jp/curator/apple-music-%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9/1053601584
+    - text: 最終更新：2週間前
+    - paragraph: 恋人や家族と過ごすクリスマスの時間。その楽しいひとときをさらに引き立たせるクリスマスソングは、一年に一度の特別な音楽体験をもたらしてくれる。このプレイリストでは、名アーティストが心をこめて歌い上げたクリスマスソングをセレクト。時代やジャンルを超えて降り注ぐカラフルな楽曲の数々は、心を芯から温め、ハッピーな気分を高めてくれるはず。
+    - button "さらに見る" [ref=e18]
+    - button "プレビュー" [ref=e19]:
+      - text: プレビュー
+    - button "さらに見る" [ref=e20] [nth=1]:
+      - row "ジングル・ベル・ロック、Bobby Helms":
+        - button "Bobby Helmsのジングル・ベル・ロックを再生" [ref=e21]
+        - link "ジングル・ベル・ロック" [ref=e22]:
+          - /url: https://music.apple.com/jp/song/%E3%82%B8%E3%83%B3%E3%82%B0%E3%83%AB-%E3%83%99%E3%83%AB-%E3%83%AD%E3%83%83%E3%82%AF/1358462132
+          - checkbox "ジングル・ベル・ロック" [ref=e23]
+        - link "Bobby Helms" [ref=e24]:
+          - /url: https://music.apple.com/jp/artist/bobby-helms/1579400
+        - link "Jingle Bell Rock / Captain Santa Claus (And His Reindeer Space Patrol) - Single" [ref=e25]:
+          - /url: https://music.apple.com/jp/album/%E3%82%B8%E3%83%B3%E3%82%B0%E3%83%AB-%E3%83%99%E3%83%AB-%E3%83%AD%E3%83%83%E3%82%AF/1358462130
+        - button "プレビュー" [ref=e26] [nth=1]
+        - time: 2:10
+        - button "さらに見る" [ref=e27] [nth=2]:
+      - row "Let It Snow! Let It Snow! Let It Snow!、ディーン・マーティン":
+        - button "ディーン・マーティンのLet It Snow! Let It Snow! Let It Snow!を再生" [ref=e28]
+        - link "Let It Snow! Let It Snow! Let It Snow!" [ref=e29]:
+          - /url: https://music.apple.com/jp/song/let-it-snow-let-it-snow-let-it-snow/1440830243
+          - checkbox "Let It Snow! Let It Snow! Let It Snow!" [ref=e30]
+        - link "ディーン・マーティン" [ref=e31]:
+          - /url: https://music.apple.com/jp/artist/%E3%83%87%E3%82%A3%E3%83%BC%E3%83%B3-%E3%83%9E%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3/266028
+        - link "Dino's Christmas" [ref=e32]:
+          - /url: https://music.apple.com/jp/album/let-it-snow-let-it-snow-let-it-snow/1440830105
+        - button "プレビュー" [ref=e33] [nth=2]
+        - time: 1:55
+        - button "さらに見る" [ref=e34] [nth=3]:
+      - row "All I Want for Christmas Is You、マライア・キャリー":
+        - button "マライア・キャリーのAll I Want for Christmas Is Youを再生" [ref=e35]
+        - link "All I Want for Christmas Is You" [ref=e36]:
+          - /url: https://music.apple.com/jp/song/all-i-want-for-christmas-is-you/585972803
+          - checkbox "All I Want for Christmas Is You" [ref=e37]
+        - link "マライア・キャリー" [ref=e38]:
+          - /url: https://music.apple.com/jp/artist/%E3%83%9E%E3%83%A9%E3%82%A4%E3%82%A2-%E3%82%AD%E3%83%A3%E3%83%AA%E3%83%BC/91853
+        - link "Merry Christmas" [ref=e39]:
+          - /url: https://music.apple.com/jp/album/all-i-want-for-christmas-is-you/585972750
+        - button "プレビュー" [ref=e40] [nth=3]
+        - time: 4:01
+        - button "さらに見る" [ref=e41] [nth=4]:
+      - row "そり滑り、ロネッツ":
+        - button "ロネッツのそり滑りを再生" [ref=e42]
+        - link "そり滑り" [ref=e43]:
+          - /url: https://music.apple.com/jp/song/%E3%81%9D%E3%82%8A%E6%BB%91%E3%82%8A/336037282
+          - checkbox "そり滑り" [ref=e44]
+        - link "ロネッツ" [ref=e45]:
+          - /url: https://music.apple.com/jp/artist/%E3%83%AD%E3%83%8D%E3%83%83%E3%83%84/16326351
+        - link "A Christmas Gift For You From Phil Spector" [ref=e46]:
+          - /url: https://music.apple.com/jp/album/%E3%81%9D%E3%82%8A%E6%BB%91%E3%82%8A/336036941
+        - button "プレビュー" [ref=e47] [nth=4]
+        - time: 3:06
+        - button "さらに見る" [ref=e48] [nth=5]:
+      - row "ザ・クリスマス・ソング、ナット・キング・コール":
+        - button "ナット・キング・コールのザ・クリスマス・ソングを再生" [ref=e49]
+        - link "ザ・クリスマス・ソング" [ref=e50]:
+          - /url: https://music.apple.com/jp/song/%E3%82%B6-%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9-%E3%82%BD%E3%83%B3%E3%82%B0/1435551062
+          - checkbox "ザ・クリスマス・ソング" [ref=e51]
+        - link "ナット・キング・コール" [ref=e52]:
+          - /url: https://music.apple.com/jp/artist/%E3%83%8A%E3%83%83%E3%83%88-%E3%82%AD%E3%83%B3%E3%82%B0-%E3%82%B3%E3%83%BC%E3%83%AB/42616562
+        - link "The Christmas Song (Expanded Edition)" [ref=e53]:
+          - /url: https://music.apple.com/jp/album/%E3%82%B6-%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9-%E3%82%BD%E3%83%B3%E3%82%B0/1435551048
+        - button "プレビュー" [ref=e54] [nth=5]
+        - time: 3:12
+        - button "さらに見る" [ref=e55] [nth=6]:
+      - row "アンダーニース・ザ・トゥリー、ケリー・クラークソン":
+        - button "ケリー・クラークソンのアンダーニース・ザ・トゥリーを再生" [ref=e56]
+        - link "アンダーニース・ザ・トゥリー" [ref=e57]:
+          - /url: https://music.apple.com/jp/song/%E3%82%A2%E3%83%B3%E3%83%80%E3%83%BC%E3%83%8B%E3%83%BC%E3%82%B9-%E3%82%B6-%E3%83%88%E3%82%A5%E3%83%AA%E3%83%BC/1537216368
+          - checkbox "アンダーニース・ザ・トゥリー" [ref=e58]
+        - link "ケリー・クラークソン" [ref=e59]:
+          - /url: https://music.apple.com/jp/artist/%E3%82%B1%E3%83%AA%E3%83%BC-%E3%82%AF%E3%83%A9%E3%83%BC%E3%82%AF%E3%82%BD%E3%83%B3/316265
+        - link "Wrapped In Red (Deluxe Version)" [ref=e60]:
+          - /url: https://music.apple.com/jp/album/%E3%82%A2%E3%83%B3%E3%83%80%E3%83%BC%E3%83%8B%E3%83%BC%E3%82%B9-%E3%82%B6-%E3%83%88%E3%82%A5%E3%83%AA%E3%83%BC/1537216364
+        - button "プレビュー" [ref=e61] [nth=6]
+        - time: 3:49
+        - button "さらに見る" [ref=e62] [nth=7]:
+      - row "Here Comes Santa Claus (Down Santa Claus Lane)、ドリス・デイ":
+        - button "ドリス・デイのHere Comes Santa Claus (Down Santa Claus Lane)を再生" [ref=e63]
+        - link "Here Comes Santa Claus (Down Santa Claus Lane)" [ref=e64]:
+          - /url: https://music.apple.com/jp/song/here-comes-santa-claus-down-santa-claus-lane/186748283
+          - checkbox "Here Comes Santa Claus (Down Santa Claus Lane)" [ref=e65]
+        - link "ドリス・デイ" [ref=e66]:
+          - /url: https://music.apple.com/jp/artist/%E3%83%89%E3%83%AA%E3%82%B9-%E3%83%87%E3%82%A4/461709
+        - link "Personal Christmas Collection" [ref=e67]:
+          - /url: https://music.apple.com/jp/album/here-comes-santa-claus-down-santa-claus-lane/186748057
+        - button "プレビュー" [ref=e68] [nth=7]
+        - time: 2:36
+        - button "さらに見る" [ref=e69] [nth=8]:
+      - row "Last Christmas、ワム!":
+        - button "ワム!のLast Christmasを再生" [ref=e70]
+        - link "Last Christmas" [ref=e71]:
+          - /url: https://music.apple.com/jp/song/last-christmas/282658482
+          - checkbox "Last Christmas" [ref=e72]
+        - link "ワム!" [ref=e73]:
+          - /url: https://music.apple.com/jp/artist/%E3%83%AF%E3%83%A0/548421
+        - link "Twenty Five" [ref=e74]:
+          - /url: https://music.apple.com/jp/album/last-christmas/282658449
+        - button "プレビュー" [ref=e75] [nth=8]
+        - time: 4:27
+        - button "さらに見る" [ref=e76] [nth=9]:
+      - row "Frosty the Snowman (with The Cass County Boys) [78rpm Version]、ジーン・オートリー":
+        - button "ジーン・オートリーのFrosty the Snowman (with The Cass County Boys) [78rpm Version]を再生" [ref=e77]
+        - link "Frosty the Snowman (with The Cass County Boys) [78rpm Version]" [ref=e78]:
+          - /url: https://music.apple.com/jp/song/frosty-the-snowman-with-the-cass-county-boys-78rpm-version/200300766
+          - checkbox "Frosty the Snowman (with The Cass County Boys) [78rpm Version]" [ref=e79]
+        - link "ジーン・オートリー" [ref=e80]:
+          - /url: https://music.apple.com/jp/artist/%E3%82%B8%E3%83%BC%E3%83%B3-%E3%82%AA%E3%83%BC%E3%83%88%E3%83%AA%E3%83%BC/491366
+        - link "Rudolph The Red Nosed Reindeer And Other Christmas Classics" [ref=e81]:
+          - /url: https://music.apple.com/jp/album/frosty-the-snowman-with-the-cass-county-boys-78rpm-version/200299213
+        - button "プレビュー" [ref=e82] [nth=9]
+        - time: 2:54
+        - button "さらに見る" [ref=e83] [nth=10]:
+      - row "ロッキン・アラウンド・ザ・クリスマス・ツリー (Single)、ブレンダ・リー":
+        - button "ブレンダ・リーのロッキン・アラウンド・ザ・クリスマス・ツリー (Single)を再生" [ref=e84]
+        - link "ロッキン・アラウンド・ザ・クリスマス・ツリー (Single)" [ref=e85]:
+          - /url: https://music.apple.com/jp/song/%E3%83%AD%E3%83%83%E3%82%AD%E3%83%B3-%E3%82%A2%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89-%E3%82%B6-%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9-%E3%83%84%E3%83%AA%E3%83%BC-single/1444032015
+          - checkbox "ロッキン・アラウンド・ザ・クリスマス・ツリー (Single)" [ref=e86]
+        - link "ブレンダ・リー" [ref=e87]:
+          - /url: https://music.apple.com/jp/artist/%E3%83%96%E3%83%AC%E3%83%B3%E3%83%80-%E3%83%AA%E3%83%BC/99320
+        - link "Rockin' Around The Christmas Tree/The Decca Christmas Recordings" [ref=e88]:
+          - /url: https://music.apple.com/jp/album/%E3%83%AD%E3%83%83%E3%82%AD%E3%83%B3-%E3%82%A2%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89-%E3%82%B6-%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9-%E3%83%84%E3%83%AA%E3%83%BC-single/1444032014
+        - button "プレビュー" [ref=e89] [nth=10]
+        - time: 2:06
+        - button "さらに見る" [ref=e90] [nth=11]:
+      - row "Santa Baby (Remastered 2001)、アーサー・キット":
+        - button "アーサー・キットのSanta Baby (Remastered 2001)を再生" [ref=e91]
+        - link "Santa Baby (Remastered 2001)" [ref=e92]:
+          - /url: https://music.apple.com/jp/song/santa-baby-remastered-2001/348906128
+          - checkbox "Santa Baby (Remastered 2001)" [ref=e93]
+        - link "アーサー・キット" [ref=e94]:
+          - /url: https://music.apple.com/jp/artist/%E3%82%A2%E3%83%BC%E3%82%B5%E3%83%BC-%E3%82%AD%E3%83%83%E3%83%88/2321181
+        - link "Purrfect - The Ultimate Collection" [ref=e95]:
+          - /url: https://music.apple.com/jp/album/santa-baby-remastered-2001/348905957
+        - button "プレビュー" [ref=e96] [nth=11]
+        - time: 3:26
+        - button "さらに見る" [ref=e97] [nth=12]:
+      - row "Like It's Christmas、ジョナス・ブラザーズ":
+        - button "ジョナス・ブラザーズのLike It's Christmasを再生" [ref=e98]
+        - link "Like It's Christmas" [ref=e99]:
+          - /url: https://music.apple.com/jp/song/like-its-christmas/1485796558
+          - checkbox "Like It's Christmas" [ref=e100]
+        - link "ジョナス・ブラザーズ" [ref=e101]:
+          - /url: https://music.apple.com/jp/artist/%E3%82%B8%E3%83%A7%E3%83%8A%E3%82%B9-%E3%83%96%E3%83%A9%E3%82%B6%E3%83%BC%E3%82%BA/114342891
+        - link "Like It's Christmas - Single" [ref=e102]:
+          - /url: https://music.apple.com/jp/album/like-its-christmas/1485796557
+        - button "プレビュー" [ref=e103] [nth=12]
+        - time: 3:20
+        - button "さらに見る" [ref=e104] [nth=13]:
+      - row "A Holly Jolly Christmas (Single Version)、バール・アイヴス":
+        - button "バール・アイヴスのA Holly Jolly Christmas (Single Version)を再生" [ref=e105]
+        - link "A Holly Jolly Christmas (Single Version)" [ref=e106]:
+          - /url: https://music.apple.com/jp/song/a-holly-jolly-christmas-single-version/1444213351
+          - checkbox "A Holly Jolly Christmas (Single Version)" [ref=e107]
+        - link "バール・アイヴス" [ref=e108]:
+          - /url: https://music.apple.com/jp/artist/%E3%83%90%E3%83%BC%E3%83%AB-%E3%82%A2%E3%82%A4%E3%83%B4%E3%82%B9/355906
+        - link "Have a Holly Jolly Christmas" [ref=e109]:
+          - /url: https://music.apple.com/jp/album/a-holly-jolly-christmas-single-version/1444213347
+        - button "プレビュー" [ref=e110] [nth=13]
+        - time: 2:15
+        - button "さらに見る" [ref=e111] [nth=14]:
+      - row "Officially Christmas、Dan + Shay":
+        - button "Dan + ShayのOfficially Christmasを再生" [ref=e112]
+        - link "Officially Christmas" [ref=e113]:
+          - /url: https://music.apple.com/jp/song/officially-christmas/1591113017
+          - checkbox "Officially Christmas" [ref=e114]
+        - link "Dan + Shay" [ref=e115]:
+          - /url: https://music.apple.com/jp/artist/dan-shay/690319057
+        - link "Officially Christmas - Single" [ref=e116]:
+          - /url: https://music.apple.com/jp/album/officially-christmas/1591112849
+        - button "プレビュー" [ref=e117] [nth=14]
+        - time: 2:58
+        - button "さらに見る" [ref=e118] [nth=15]:
+      - row "サンタが町にやってくる、ジャクソン 5":
+        - button "ジャクソン 5のサンタが町にやってくるを再生" [ref=e119]
+        - link "サンタが町にやってくる" [ref=e120]:
+          - /url: https://music.apple.com/jp/song/%E3%82%B5%E3%83%B3%E3%82%BF%E3%81%8C%E7%94%BA%E3%81%AB%E3%82%84%E3%81%A3%E3%81%A6%E3%81%8F%E3%82%8B/1452949489
+          - checkbox "サンタが町にやってくる" [ref=e121]
+        - link "ジャクソン 5" [ref=e122]:
+          - /url: https://music.apple.com/jp/artist/%E3%82%B8%E3%83%A3%E3%82%AF%E3%82%BD%E3%83%B3-5/104063
+        - link "Christmas Album" [ref=e123]:
+          - /url: https://music.apple.com/jp/album/%E3%82%B5%E3%83%B3%E3%82%BF%E3%81%8C%E7%94%BA%E3%81%AB%E3%82%84%E3%81%A3%E3%81%A6%E3%81%8F%E3%82%8B/1452949481
+        - button "プレビュー" [ref=e124] [nth=15]
+        - time: 2:27
+        - button "さらに見る" [ref=e125] [nth=16]:
+      - row "Cozy Little Christmas、ケイティ・ペリー":
+        - button "ケイティ・ペリーのCozy Little Christmasを再生" [ref=e126]
+        - link "Cozy Little Christmas" [ref=e127]:
+          - /url: https://music.apple.com/jp/song/cozy-little-christmas/1484609636
+          - checkbox "Cozy Little Christmas" [ref=e128]
+        - link "ケイティ・ペリー" [ref=e129]:
+          - /url: https://music.apple.com/jp/artist/%E3%82%B1%E3%82%A4%E3%83%86%E3%82%A3-%E3%83%9A%E3%83%AA%E3%83%BC/64387566
+        - link "Cozy Little Christmas - Single" [ref=e130]:
+          - /url: https://music.apple.com/jp/album/cozy-little-christmas/1484609633
+        - button "プレビュー" [ref=e131] [nth=16]
+        - time: 3:02
+        - button "さらに見る" [ref=e132] [nth=17]:
+      - row "It's the Most Wonderful Time of the Year、アンディ・ウィリアムス":
+        - button "アンディ・ウィリアムスのIt's the Most Wonderful Time of the Yearを再生" [ref=e133]
+        - link "It's the Most Wonderful Time of the Year" [ref=e134]:
+          - /url: https://music.apple.com/jp/song/its-the-most-wonderful-time-of-the-year/171434594
+          - checkbox "It's the Most Wonderful Time of the Year" [ref=e135]
+        - link "アンディ・ウィリアムス" [ref=e136]:
+          - /url: https://music.apple.com/jp/artist/%E3%82%A2%E3%83%B3%E3%83%87%E3%82%A3-%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E3%82%B9/466691
+        - link "The Andy Williams Christmas Album" [ref=e137]:
+          - /url: https://music.apple.com/jp/album/its-the-most-wonderful-time-of-the-year/171434474
+        - button "プレビュー" [ref=e138] [nth=17]
+        - time: 2:32
+        - button "さらに見る" [ref=e139] [nth=18]:
+      - row "Santa, Can't You Hear Me、ケリー・クラークソン、アリアナ・グランデ":
+        - button "ケリー・クラークソン & アリアナ・グランデのSanta, Can't You Hear Meを再生" [ref=e140]
+        - link "Santa, Can't You Hear Me" [ref=e141]:
+          - /url: https://music.apple.com/jp/song/santa-cant-you-hear-me/15
+
+[... 以下省略 ...]

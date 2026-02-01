@@ -1,0 +1,14 @@
+# 契約作業動画マニュアル
+
+Notion URL: https://www.notion.so/c2cf9fa9357b45aeb51753086c40ed83
+同期日時: 2026-01-27T00:00:00+09:00
+
+---
+
+## プロパティ
+
+- **やること**: 契約作業動画マニュアル
+- **カテゴリー**: (未設定)
+- **補足**: https://docs.google.com/document/d/1T_NeLzaOq5cbF6TSxcUNkh2qJQE5YLXvvttGBc3SIb0/edit?tab=t.0
+- **優先度**: (未設定)
+

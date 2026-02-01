@@ -1,0 +1,39 @@
+# リンク先コンテンツ
+
+**URL**: https://www.instagram.com/japanese_fuyu/
+**種類**: video
+**タイトル**: 動画コンテンツ
+**リンクテキスト**: 
+**参照元**: 長嶋 炫廷（ながしま ひょんじょん）_ボム
+**取得日時**: 2026-01-23T06:09:55.280520
+
+---
+
+## コンテンツ
+
+このスクリーンショットは、Instagramのログインページを示しています。動画コンテンツは表示されていません。
+
+表示されているテキストは以下の通りです。
+
+**左側の見出し:**
+See everyday moments from
+your <span style="color: #FF5E6C;">close friends.</span>
+
+**右側のログインフォーム:**
+Log into Instagram
+
+Mobile number, username or email
+Password
+Log in
+Forgot password?
+
+Log in with Facebook
+Create new account
+
+<img width="57" height="11" src="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/KOlXpL_S84k.png" alt="Metaロゴ"> Meta
+
+**フッター:**
+Meta About Blog Jobs Help API Privacy Terms Locations Instagram Lite Meta AI Threads Contact Uploading & Non-Users Meta Verified
+
+English (ドロップダウンメニュー)
+© 2026 Instagram from Meta

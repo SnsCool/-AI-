@@ -1,0 +1,12 @@
+{
+  "page_id": "246f3b0f-ba85-81ec-9cea-d97f736d77e4",
+  "created_time": "2025-08-05T14:15:00.000Z",
+  "last_edited_time": "2025-08-05T14:15:00.000Z",
+  "url": "https://www.notion.so/246f3b0fba8581ec9cead97f736d77e4",
+  "properties": {
+    "ステータス": {"type": "status", "status": {"name": "未着手"}},
+    "エリア": {"type": "multi_select", "multi_select": [{"name": "受付"}, {"name": "Hall"}]},
+    "タスク名": {"id": "title", "type": "title", "title": [{"plain_text": "運営スタッフ整理"}]},
+    "タグ": {"type": "multi_select", "multi_select": [{"name": "制作"}]}
+  }
+}

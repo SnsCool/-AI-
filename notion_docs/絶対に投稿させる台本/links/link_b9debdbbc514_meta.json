@@ -1,0 +1,8 @@
+{
+  "url": "https://www.instagram.com/reel/DFCzyG7SvjG/?igsh=MTN1YnBzNnk2dHk0Ng==",
+  "type": "video",
+  "processed_at": "2026-01-23T05:38:29.347568",
+  "content": "ご提示いただいたURL `https://www.instagram.com/reel/DFCzyG7SvjG/?igsh=MTN1YnBzNnk2dHk0Ng==` から読み取れる情報は以下の通りです。\n\n*   **プラットフォーム**: **Instagram**\n    *   URLのドメインが `instagram.com` であることから、プラットフォームはInstagramであることが分かります。\n\n*   **コンテンツの種類**: **リール動画 (Reel)**\n    *   URLパスに `/reel/` が含まれていることから、このコンテンツはInstagramのリール動画であることが分かります。\n\n*   **動画の固有ID**: `DFCzyG7SvjG`\n    *   `/reel/` の直後にある `DFCzyG7SvjG` が、この特定のInstagramリール動画を識別するためのユニークなIDです。\n\n*   **追加パラメータ**: `?igsh=MTN1YnBzNnk2dHk0Ng==`\n    *   この部分は、通常、Instagramがシェア元などを追跡するために使用するパラメータであり、動画本体のIDとは異なります。\n\n**まとめると、このURLはInstagramプラットフォーム上で公開されているリール動画であり、`DFCzyG7SvjG` という固有のIDを持つ動画に直接アクセスするためのものです。**",
+  "title": "",
+  "error": null
+}

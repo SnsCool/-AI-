@@ -1,0 +1,49 @@
+# リンク先コンテンツ
+
+**URL**: https://www.instagram.com/korpituuli
+**種類**: video
+**タイトル**: 動画コンテンツ
+**リンクテキスト**: 
+**参照元**: 週報（2025年11月18日）
+**取得日時**: 2026-01-23T06:55:32.837404
+
+---
+
+## コンテンツ
+
+提供されたスクリーンショットはInstagramのログインページです。動画ページのものではありません。したがって、動画のタイトル、説明、内容を特定することはできません。
+
+スクリーンショットに表示されているすべてのテキストを書き起こします。
+
+**左側:**
+*   **Instagramのロゴ**
+*   **See everyday moments from**
+*   **your close friends.**
+
+**右側:**
+*   **Log into Instagram**
+*   **Mobile number, username or email**
+*   **Password**
+*   **Log in**
+*   **Forgot password?**
+*   **Log in with Facebook**
+*   **Create new account**
+*   **Metaのロゴ**
+
+**フッター:**
+*   **Meta**
+*   **About**
+*   **Blog**
+*   **Jobs**
+*   **Help**
+*   **API**
+*   **Privacy**
+*   **Terms**
+*   **Locations**
+*   **Instagram Lite**
+*   **Meta AI**
+*   **Threads**
+*   **Contact Uploading & Non-Users**
+*   **Meta Verified**
+*   **English ˅**
+*   **© 2026 Instagram from Meta**

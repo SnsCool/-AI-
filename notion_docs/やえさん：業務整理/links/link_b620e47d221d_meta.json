@@ -1,0 +1,8 @@
+{
+  "url": "https://line.me/ti/g2/ts0oa3sQZliQ8tNtl-YJecXRMQvmM_z-S4ywUg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default",
+  "type": "webpage",
+  "processed_at": "2026-01-22T14:04:45.816316",
+  "content": "  - main:\n    - heading \"LINE OPENCHAT\" [ref=e1] [level=1]:\n    - paragraph: テスト\n    - paragraph: Members 3\n    - paragraph:\n      - link \"Open in LINE\" [ref=e2]:\n        - /url: line://ti/g2/ts0oa3sQZliQ8tNtl-YJecXRMQvmM_z-S4ywUg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default\n    - paragraph:\n      - link \"Download LINE\" [ref=e3]:\n        - /url: https://line.me/D\n    - paragraph: If you are unable to join this OpenChat, update your app to the latest version and try again.\n",
+  "title": "Webページ",
+  "error": null
+}

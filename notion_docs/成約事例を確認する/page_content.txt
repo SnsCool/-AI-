@@ -1,0 +1,15 @@
+# 成約事例を確認する
+
+Notion URL: https://www.notion.so/c9bf74474fa54d50922e2d5c045311f3
+同期日時: 2026-01-27T11:44:00+09:00
+
+---
+
+## プロパティ
+
+- **やること**: 成約事例を確認する
+- **優先度 (1)**: ⭐️⭐️⭐️
+- **進行度**: 未完了
+- **カテゴリー**: 資料確認
+- **種別**: 事前準備
+- **補足**: https://docs.google.com/spreadsheets/d/1fm__KO3p_U6mK6arWBJNtamzgYKrxwW5EMmw6JuwryI/edit?gid=0#gid=0

@@ -1,0 +1,23 @@
+{
+  "object": "page",
+  "id": "2ddf3b0f-ba85-8040-97b8-d9842110abe6",
+  "created_time": "2026-01-03T11:10:00.000Z",
+  "last_edited_time": "2026-01-06T06:18:00.000Z",
+  "parent": {
+    "type": "data_source_id",
+    "data_source_id": "2a0f3b0f-ba85-8084-9caa-000b245403f5",
+    "database_id": "2a0f3b0f-ba85-8088-9dc7-ff52b95f242e"
+  },
+  "archived": false,
+  "properties": {
+    "対象月": {
+      "type": "multi_select",
+      "multi_select": [{"name": "25年12月"}]
+    },
+    "名前": {
+      "type": "title",
+      "title": [{"plain_text": "12月_はるか月次資料"}]
+    }
+  },
+  "url": "https://www.notion.so/12-_-2ddf3b0fba85804097b8d9842110abe6"
+}

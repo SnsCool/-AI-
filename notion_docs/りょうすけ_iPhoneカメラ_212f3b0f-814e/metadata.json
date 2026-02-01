@@ -1,0 +1,11 @@
+{
+  "page_id": "212f3b0f-ba85-814e-a817-da47e38f0189",
+  "created_time": "2025-06-14T16:50:00.000Z",
+  "last_edited_time": "2025-06-14T16:50:00.000Z",
+  "url": "https://www.notion.so/iPhone-212f3b0fba85814ea817da47e38f0189",
+  "properties": {
+    "発信ジャンル": {"type": "multi_select", "multi_select": [{"name": "ガジェット"}]},
+    "アカウントURL": {"type": "url", "url": "https://www.instagram.com/ryosuke_iphonecamera"},
+    "名前": {"id": "title", "type": "title", "title": [{"plain_text": "りょうすけ｜iPhoneカメラの魅力にとらわれた人"}]}
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "page_id": "2013cf62-dcac-4551-a151-fbe9ef216f51",
+  "created_time": "2024-08-12T08:39:00.000Z",
+  "last_edited_time": "2025-10-17T04:59:00.000Z",
+  "url": "https://www.notion.so/Canva-2013cf62dcac4551a151fbe9ef216f51",
+  "properties": {
+    "カテゴリー": {"type": "multi_select", "multi_select": [{"name": "動画を見る"}]},
+    "補足": {"type": "rich_text", "rich_text": [{"plain_text": "Canvaの使い方がわからない人、使いこなしたい人は視聴推奨"}]},
+    "優先度": {"type": "select", "select": {"name": "2つ星"}},
+    "やること": {"id": "title", "type": "title", "title": [{"plain_text": "生徒特典『Canva使い方講座』"}]}
+  }
+}

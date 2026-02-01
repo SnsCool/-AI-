@@ -1,0 +1,6 @@
+[child_page] 案内文
+[child_page] 掲載依頼文
+[child_page] SnsClub NEXT記事リスト化
+[child_page] FB
+[child_page] 見てもらうための施策アイデア
+[child_page] スクラブネクストヒアリング

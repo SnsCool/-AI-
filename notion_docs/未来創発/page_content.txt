@@ -1,0 +1,18 @@
+# 未来創発
+
+Notion URL: https://www.notion.so/264a7466884d4d1c9c5217be44463799
+同期日時: 2026-01-27T15:40:00+09:00
+
+---
+
+## プロパティ
+
+- **キャッチコピー**: 未来創発
+- **参照リンク**: https://www.nri.com/jp/company/c_philosophy
+- **番号**: 206
+- **memo**:
+- **訴求方法**: 断定
+- **企業名, 商品名**: 野村総合研究所
+- **いいね**: false
+- **画像**: https://www.nri.com/-/media/Corporate/jp/Images/company/c_philosophy/mirai_logo_b.jpg?la=ja-JP&hash=40F0EF026EBFDE9514F26B459655987F62975384
+

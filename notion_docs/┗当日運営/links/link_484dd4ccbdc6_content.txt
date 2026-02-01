@@ -1,0 +1,54 @@
+# リンク先コンテンツ
+
+**URL**: https://forms.gle/7ds8pb2Nhrte5PQj8
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: ┗当日運営
+**取得日時**: 2026-01-22T17:16:51.290561
+
+---
+
+## コンテンツ
+
+## SnsClubオフ会参加者アンケート
+
+SnsClubでは、今後のサービス向上のため、オフ会参加者を対象としたアンケートを実施しています。回答はMVP選出の指標となる場合があります。
+
+**アンケートへのアクセス:** Googleアカウントでログインすると、作業内容を保存できます。 [Googleにログイン](https://accounts.google.com/Login?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSdcGZa2k9viX52uGCs1whKHVqEsi9LXzKS03F07z8hE2cI2fA%2Fviewform%3Ffbzx%3D-1227243637105613183)
+
+**アンケート内容（必須項目）:**
+
+*   **名前（ひらがなフルネーム）:** テキストボックスに入力
+*   **クラス名（例：駒居A組）:** テキストボックスに入力
+*   **参加したオフ会:** 以下のいずれかをラジオボタンで選択
+    *   2025年大忘年会
+    *   東京オフ会
+    *   大阪オフ会
+    *   名古屋オフ会
+    *   北海道オフ会
+    *   福岡オフ会
+*   **参加理由:** 複数選択可能
+    *   いつもお世話になっている講師に会いたい
+    *   仲間や横の繋がりを広げたい
+    *   他の生徒がオフ会参加しているのを見ていて興味持った
+    *   その他（テキストボックスに入力）
+*   **オフ会参加の目的達成度:** 5段階評価（1～5をラジオボタンで選択）
+*   **オフ会の全体満足度:** 5段階評価（1～5をラジオボタンで選択）
+*   **オフ会で良かった点:** テキストボックスに入力
+*   **今後のオフ会での改善点:** テキストボックスに入力
+
+**任意項目:**
+
+*   **SnsClub全体のサービスへの意見:** テキストボックスに入力
+
+**その他:**
+
+*   回答後、「送信」ボタンでアンケートを提出します。
+*   「フォームをクリア」ボタンで入力内容をリセットできます。
+*   このフォームはSnsCool内部で作成されました。
+
+不審なフォームの場合は[報告](https://drive.google.com/abuse?id=AKkXjoyzOPUxBNTHPWbnaTYmXNAn8RdiFKv6oouWQFgQ84R38ePaawcH6Ek-rFfj959TecaDqcMkQl0OSlutRRI:0&docurl=https://docs.google.com/forms/d/e/1FAIpQLSdcGZa2k9viX52uGCs1whKHVqEsi9LXzKS03F07z8hE2cI2fA/viewform?usp%3Dsend_form)してください。
+
+Powered by [Googleフォーム](//www.google.com/forms/about/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms)。 [ヘルプとフィードバック]
+

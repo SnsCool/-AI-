@@ -1,0 +1,198 @@
+{
+  "object": "page",
+  "id": "e2c0ae89-ff31-4401-b181-e13274e52fbd",
+  "created_time": "2023-05-31T04:09:00.000Z",
+  "last_edited_time": "2023-05-31T12:06:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "16276fe1-0dd7-4e84-9d4d-fccae90f4411"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "03fbd0c2-63f4-40cd-85fe-408676ef5f91"
+  },
+  "cover": {
+    "type": "file",
+    "file": {
+      "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/89e6f4ed-ae9b-4395-871a-0c505f895ff0/804b462c-f827-44ef-b25d-1914f549819c/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2023-05-31_21.06.35.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S2PRJFLO%2F20260129%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260129T034229Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEQolhG9ADS8pkE8OJ9AUx%2FAcCwXI2HCI6d8E%2BCiX98JAiBainRZt6CtbzQtmg4wCogYngRD9oTA3fn0xJeqsyhm0Sr%2FAwh8EAAaDDYzNzQyMzE4MzgwNSIM3THiVXbQjqKWfnjzKtwDbo8LSuym6BXq5ojzz%2FbbpRM%2FmYHgHuofv7EHs%2B5EXfVRdVxOzl1zI5EDER3tJTr681WddmvJ4i3qX9vsCmXGW5vZyJk3XuHlo95i3ayCZlEVw23P%2B9nSBnT%2FnEIbUDsympAvk3bLNMp8uTb8fkm%2Ba8plyu4Og5ck6DfBvq37xkuqJ5f2s%2BAAiJtd3bYk50MAFRX%2FVuBL30C9hYJxu2C6OSSq3ZAoFuboIPPl3XI%2F3glVAGkATMYc8%2BXZuUgUGgfRR1XHcPOOrSOjsAHUT8OvuMIiWgrTfPPT%2BeJDnHgwmOdL6zfar4UXMoFkvJBo66Sdgziaoq5nRZOAaAyJ5ztX25PzAoAlDbVUrOGw4ZQamtuygfskltDL0ECrQWWgjHIGGoDGdRaIcDaUabG2FWhHDHXSVMmU27YbbcgvEZzqgMeuh2OzwGNCyl86Hm%2FI3lM0ndz%2B9Yj2bxLTcOXBcetq8u4CLrnvjaf%2BFZBGJQ3F0eFxkZcpF3WeKNBSrBnAXLx4lyVKuE0cpGeujjyW5oWOaQs%2BCMtOL9TqRtDXDqyjkes5qU39K63NW7MyKYhHThs5tJYFXRv0d8kD2FEUPBb1zOxFRisyNsfgxONRIF5Abrmrv6mIyXRpnJZtX%2Fowy6LrywY6pgEwBq%2BWZs8YMpHzFN6zSmeoA1Qq3A%2BP9y0edemv9mCbyf2XyZYza5iGfbtilgE6veZVTTJFVyDsRwfFmmS3G6LCM6JF9feTFR3kLYAwudK2Om3HJXNQlsrOMcABa2fX%2FDAvqjS6%2ByimgFbMsJHXSh32IG83LVuGYTvRuyNrVSwmvX0QTsWD07oEcHaC%2BQIWukHiD%2BRKOzAhjOAcspNcqMIOVr9b2m2e&X-Amz-Signature=b1fbba078d71029e2f17a70605cc375a068353be9b7633cf0b4567c082adec94&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "expiry_time": "2026-01-29T04:42:29.504Z"
+    }
+  },
+  "icon": {
+    "type": "external",
+    "external": {
+      "url": "https://yt3.ggpht.com/ELKOGPv7RwBUjicYihFCfRAMuoao6AnfVwBHY8xRcYo82P7iHB4PNeySGBsopKIZviZkOBem0pc=s88-c-k-c0x00ffffff-no-rj"
+    }
+  },
+  "parent": {
+    "type": "data_source_id",
+    "data_source_id": "e3bdc6e9-2b52-4366-b433-56e77317bb94",
+    "database_id": "c61d77b9-b0e3-4554-bae5-4cebc70a6c9d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "is_locked": false,
+  "properties": {
+    "お気に入り": {
+      "id": "%3B%3CwS",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "順位": {
+      "id": "B%7DaY",
+      "type": "select",
+      "select": {
+        "id": "45876851-d2fb-4286-a696-60fd89bf8a1a",
+        "name": "2位",
+        "color": "pink"
+      }
+    },
+    "再生回数": {
+      "id": "N%5CnH",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "15万 回視聴",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "15万 回視聴",
+          "href": null
+        }
+      ]
+    },
+    "フォロワー数": {
+      "id": "U%5DSC",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "チャンネル登録者数 2.25万人",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "チャンネル登録者数 2.25万人",
+          "href": null
+        }
+      ]
+    },
+    "チャンネル名": {
+      "id": "X%7B%5E%5B",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "mnm.myth's vlog",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "mnm.myth's vlog",
+          "href": null
+        }
+      ]
+    },
+    "動画URL": {
+      "id": "%5E%3BjT",
+      "type": "url",
+      "url": "https://www.youtube.com/watch?v=lVcEkougono"
+    },
+    "25文字制限": {
+      "id": "_yPD",
+      "type": "formula",
+      "formula": {
+        "type": "string",
+        "string": "【1週間のお弁当】食べ盛り高校生に作る5日間のお弁"
+      }
+    },
+    "ジャンル": {
+      "id": "qJgQ",
+      "type": "select",
+      "select": {
+        "id": "nTj\\",
+        "name": "暮らし",
+        "color": "default"
+      }
+    },
+    "作成者": {
+      "id": "zVpd",
+      "type": "created_by",
+      "created_by": {
+        "object": "user",
+        "id": "16276fe1-0dd7-4e84-9d4d-fccae90f4411"
+      }
+    },
+    "コメント数 (件)": {
+      "id": "~SuY",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "154",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "154",
+          "href": null
+        }
+      ]
+    },
+    "タイトル": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "【1週間のお弁当】食べ盛り高校生に作る5日間のお弁当と朝ごはん🥢 - YouTube - mnm.myth's vlog",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "【1週間のお弁当】食べ盛り高校生に作る5日間のお弁当と朝ごはん🥢 - YouTube - mnm.myth's vlog",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/1-5-YouTube-mnm-myth-s-vlog-e2c0ae89ff314401b181e13274e52fbd",
+  "public_url": "https://shared-beak-b34.notion.site/1-5-YouTube-mnm-myth-s-vlog-e2c0ae89ff314401b181e13274e52fbd"
+}

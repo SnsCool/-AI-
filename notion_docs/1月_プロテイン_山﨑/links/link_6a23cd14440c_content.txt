@@ -1,0 +1,58 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?pli=1&gid=1846539054#gid=1846539054
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 1月_プロテイン_山﨑
+**取得日時**: 2026-01-22T17:06:14.646756
+
+---
+
+## コンテンツ
+
+## Google スプレッドシート UI の概要（新規事業開発コスト管理）
+
+このドキュメントは、Google スプレッドシートで「【新規事業開発】Monitoring Seat _コスト管理」という名前のファイルです。現在の状態は以下の通りです。
+
+**1. メニューバー:**
+
+*   **スプレッドシート ホームへのリンク:** [https://docs.google.com/spreadsheets/?pli=1&usp=sheets_web](https://docs.google.com/spreadsheets/?pli=1&usp=sheets_web)
+*   **ステータス:** ドライブに保存済み
+*   **コメント:** すべてのコメントを表示するボタン
+*   **共有設定:** リンクを知っている全員がアクセス可能（ログイン不要）。共有ボタンは無効。
+*   **クイック共有操作:** 無効
+*   **ログイン:**  [https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?pli%3D1%26gid%3D1846539054&followup=https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?pli%3D1%26gid%3D1846539054&ltmpl=sheets&ec=GAZAmwI](https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?pli%3D1%26gid%3D1846539054&followup=https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?pli%3D1%26gid%3D1846539054&ltmpl=sheets&ec=GAZAmwI)
+*   **メニュー項目:** ファイル、編集、表示、挿入、表示形式、データ、ツール、拡張機能、ヘルプ
+
+**2. ツールバー:**
+
+*   **メニュー検索:** メニューを検索可能 (option+/)
+*   **メイン:**
+    *   元に戻す/やり直し、印刷、書式を貼り付け
+    *   ズーム（現在100%）
+    *   通貨形式（¥）、パーセント形式（%）、小数点以下の桁数増減
+    *   表示形式の詳細設定
+    *   フォント（現在Arial）、フォントサイズ（現在11）
+    *   フォントサイズ増減、太字、斜体、取り消し線、テキストの色、塗りつぶしの色、枠線
+    *   セルの結合（無効）、結合タイプの選択（無効）
+    *   水平/垂直方向の配置、テキストの折り返し、テキストの回転、その他
+
+*   **モードと表示:** メニューの非表示(Ctrl+Shift+F)
+
+**3. 名前ボックス:**
+A1のセルが選択されています。
+
+**4. シートタブバー:**
+
+*   シートを追加ボタン
+*   すべてのシートボタン
+*   以下のシート名がタブとして表示されています: 事業群方針、ソリューション一覧、【拡販】アイレポート、拡販アイレポート_新規、【PoC】ナチュラ美 1年、【PoC】ナチュラ美 3年、ナチュラ美結果、【PoC】ダイエットコンサル事業、【PoC】SNS運用代行事業、【PoC】SNS運用代行事業_採用計画、【PoC】営業代行事業、【構築】TikTokLiveスクール事業、【構築】コーチングスクール、【構築】AI事業
+*   シートのスクロールボタン（左、右）
+
+**5. アクセシビリティ:**
+
+*   スクリーンリーダーサポートを有効にするリンク：無効にするには、⌘+option+Z。キーボードショートカット: ⌘スラッシュ。
+
+この概要は、ドキュメントの全体的な構造と、利用可能な主な機能を示しています。
+

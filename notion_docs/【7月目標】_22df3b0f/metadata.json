@@ -1,0 +1,11 @@
+{
+  "page_id": "22df3b0f-ba85-80d9-8bc6-eed3c1a99329",
+  "created_time": "2025-07-11T04:42:00.000Z",
+  "last_edited_time": "2025-07-11T05:11:00.000Z",
+  "url": "https://www.notion.so/7-22df3b0fba8580d98bc6eed3c1a99329",
+  "properties": {
+    "着手": {"type": "multi_select", "multi_select": [{"name": "数値管理"}]},
+    "ステータス": {"type": "status", "status": {"name": "目標"}},
+    "タスク": {"id": "title", "type": "title", "title": [{"plain_text": "【7月目標】"}]}
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "page_id": "284f3b0f-ba85-80b1-bb8c-dd1f16f8314c",
+  "title": "タグ",
+  "created_time": "2025-10-06T19:01:00.000Z",
+  "last_edited_time": "2025-10-21T05:14:00.000Z",
+  "url": "https://www.notion.so/284f3b0fba8580b1bb8cdd1f16f8314c",
+  "properties": {
+    "担当者": {"type": "people", "value": "又吉健斗"},
+    "日付": {"type": "date", "value": "2025-10-03"},
+    "ステータス": {"type": "status", "value": "完了"},
+    "メディア": {"type": "title", "value": "タグ"}
+  }
+}

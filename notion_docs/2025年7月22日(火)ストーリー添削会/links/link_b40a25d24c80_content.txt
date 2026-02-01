@@ -1,0 +1,395 @@
+# リンク先コンテンツ
+
+**URL**: https://yunth.jp/lp?u=es-air-gd-591&gad_source=1&gad_campaignid=22529448228&gbraid=0AAAAAoREoR-PeDVNb-OlHjn8ePnJ_CFag&gclid=CjwKCAjwhuHEBhBHEiwAZrvdcrPGOkep4nZhTVT4E1Vec-2hqOUJmwB8QZeYQeYthFXhmMpytQocWhoCIEEQAvD_BwE
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 2025年7月22日(火)ストーリー添削会
+**取得日時**: 2026-01-22T16:48:02.741005
+
+---
+
+## コンテンツ
+
+  - link [ref=e1]:
+    - /url: javascript:void(0)
+    - listitem: "@cosme ベストコスメアワード2022 美容液 上半期新作 第3位"
+    - listitem: "@cosme STORE ベストヒット賞 2022 ブランド新人賞"
+    - listitem: "@cosme SHOPPING ベストヒット賞 2022 ブランド新人賞"
+    - listitem: "@cosme 使い心地の満足度 100% 集計期間：2022年3月23日～3月27日(n＝20)"
+    - listitem: 美人百花 気になりコスメ 美白美容液部門1位
+    - listitem: 美人百花 2022下半期 ベストコスメ SNSでバズったスキンケア部門第3位
+    - listitem: WWDBEAUTY BESTCOSME 2022上半期 バラエティー・ドラックストア化粧水部門 第3位
+    - listitem: WWDBEAUTY BESTCOSME 2022下半期 バラエティー・ドラックストア美容液部門 第2位
+    - listitem: WWDBEAUTY BESTCOSME 2023上半期 バラエティー・ドラックストア美容液部門 第1位
+    - listitem: anan モテコスメ大賞 スキンケア部門 2022 Summer
+    - listitem: anan モテコスメ大賞 スキンケア部門 2022 Summer
+    - listitem: anan モテコスメ大賞 スキンケア部門 2023 Winter
+    - listitem: ロフト ベストコスメ 2022 美容液 BEST1
+    - listitem: ロフト ベストコスメ 2022SS マイクロカプセル炭酸パック BEST2
+    - listitem: ロフト ベストコスメ 2023SS 美容液 BEST5
+    - listitem: LDK the Beauty ベストコスメランキング 2023 スキンケア部門 ビタミンC美容液 第5位
+    - listitem: モンドセレクション2022 美容液 金賞
+    - listitem: 日本マーケティング機構調べ 2022 シミ悩みで頼りたい美白美容液 第1位
+    - listitem: 日本マーケティング機構調べ 2022 美白ケアに手放せない美白美容液 第1位
+    - listitem: 日本マーケティング機構調べ 2022 ベスコス受賞級の美白美容液 第1位
+    - listitem: 楽天デイリーランキング 美容液総合部門 1位 2023/2/6（木)更新(集計日:2/5)
+    - listitem: 楽天デイリーランキング フェイスクリーム 1位 2023/4/30（木)更新(集計日:4/29)
+    - listitem: 楽天デイリーランキング クレンジング 1位 2023/6/30（木)更新(集計日:4/29)
+    - listitem: Qoo10 AWARDS 2023 カテゴリー賞 ビューティ部門
+    - listitem: ロフト ベストコスメ 2023AW 美容液 BEST4
+    - listitem: WWDBEAUTY BESTCOSME 2023下半期 バラエティー・ドラックストア美容液部門総合 第1位
+    - listitem: WWDBEAUTY BESTCOSME 2023下半期 バラエティー・ドラックストア クレンジング・洗顔部門新商品 クレンジング第2位
+    - listitem: WWDBEAUTY BESTCOSME 2023下半期 バラエティー・ドラックストア クレンジング・洗顔部門新商品 洗顔第3位
+    - listitem: WWDBEAUTY BESTCOSME 2023下半期 バラエティー・ドラックストア 乳液・クリーム部門総合 クリーム第2位
+    - listitem: 楽天年間ランキング2023 美容液・コスメ・香水部門 美容液2位
+    - listitem: "@cosme月間口コミランキング クレンジング５位"
+    - listitem: 楽天ベストコスメ2023 総合大賞ランキング 美容液6位
+    - listitem: 楽天ベストコスメ2023 美容液部門 3位
+    - listitem: 楽天ベストコスメ2023 特別賞レビュー賞 美容液
+    - listitem: モンドセレクション2024 美容液 金賞
+  - link [ref=e2] [nth=1]:
+    - /url: javascript:void(0)
+  - button "Previous" [ref=e3]: ←Previous
+  - button "Next" [ref=e4]: →Next
+  - button "Previous" [ref=e5] [nth=1]: →Previous
+  - button "Next" [ref=e6] [nth=1]: ←Next
+  - link [ref=e7] [nth=2]:
+    - /url: javascript:void(0)
+  - button "Previous" [ref=e8] [nth=2]: ←Previous
+  - button "Next" [ref=e9] [nth=2]: →Next
+  - link [ref=e10] [nth=3]:
+    - /url: javascript:void(0)
+  - paragraph:
+    - link "特定商取引法に基づく表記" [ref=e11]:
+      - /url: https://yunth.jp/shop/law_info
+  - text: Amazonアカウントで簡単お申込み！
+  - button "Amazon Pay - Amazonアカウントをお使いください" [ref=e12]:
+  - text: Amazonに登録しているお支払い情報、お届け先情報を使用して簡単にお申込みが可能です。
+  - heading "お客様情報のご入力" [ref=e13] [level=4]
+  - paragraph:
+    - checkbox "入力を省略する（当サイトで購入したことがある方）" [ref=e14]
+    - text: 入力を省略する（当サイトで購入したことがある方）
+  - paragraph: 下記お客さま情報を全てご記入いただき、お申し込みボタンをクリックしてください。
+      - row "お名前 必須":
+        - rowheader "お名前 必須" [ref=e15]:
+            - strong: お名前
+            - text: 必須
+        - cell:
+          - textbox "例）山田 花子" [ref=e16]
+      - row "フリガナ 必須":
+        - rowheader "フリガナ 必須" [ref=e17]:
+            - strong: フリガナ
+            - text: 必須
+        - cell:
+          - textbox "例）ヤマダ ハナコ" [ref=e18]
+      - row "郵便番号 必須 〒":
+        - rowheader "郵便番号 必須" [ref=e19]:
+            - strong: 郵便番号
+            - text: 必須
+        - cell "〒" [ref=e20]:
+          - paragraph:
+            - text: 〒
+            - textbox "1500031" [ref=e21]
+      - row "都道府県 必須 選択してください":
+        - rowheader "都道府県 必須" [ref=e22]:
+            - strong: 都道府県
+            - text: 必須
+        - cell "選択してください" [ref=e23]:
+          - combobox [ref=e24]:
+            - option "選択してください" [ref=e25] [selected]
+            - option "北海道" [ref=e26]
+            - option "青森県" [ref=e27]
+            - option "岩手県" [ref=e28]
+            - option "宮城県" [ref=e29]
+            - option "秋田県" [ref=e30]
+            - option "山形県" [ref=e31]
+            - option "福島県" [ref=e32]
+            - option "茨城県" [ref=e33]
+            - option "栃木県" [ref=e34]
+            - option "群馬県" [ref=e35]
+            - option "埼玉県" [ref=e36]
+            - option "千葉県" [ref=e37]
+            - option "東京都" [ref=e38]
+            - option "神奈川県" [ref=e39]
+            - option "新潟県" [ref=e40]
+            - option "富山県" [ref=e41]
+            - option "石川県" [ref=e42]
+            - option "福井県" [ref=e43]
+            - option "山梨県" [ref=e44]
+            - option "長野県" [ref=e45]
+            - option "岐阜県" [ref=e46]
+            - option "静岡県" [ref=e47]
+            - option "愛知県" [ref=e48]
+            - option "三重県" [ref=e49]
+            - option "滋賀県" [ref=e50]
+            - option "京都府" [ref=e51]
+            - option "大阪府" [ref=e52]
+            - option "兵庫県" [ref=e53]
+            - option "奈良県" [ref=e54]
+            - option "和歌山県" [ref=e55]
+            - option "鳥取県" [ref=e56]
+            - option "島根県" [ref=e57]
+            - option "岡山県" [ref=e58]
+            - option "広島県" [ref=e59]
+            - option "山口県" [ref=e60]
+            - option "徳島県" [ref=e61]
+            - option "香川県" [ref=e62]
+            - option "愛媛県" [ref=e63]
+            - option "高知県" [ref=e64]
+            - option "福岡県" [ref=e65]
+            - option "佐賀県" [ref=e66]
+            - option "長崎県" [ref=e67]
+            - option "熊本県" [ref=e68]
+            - option "大分県" [ref=e69]
+            - option "宮崎県" [ref=e70]
+            - option "鹿児島県" [ref=e71]
+            - option "沖縄県" [ref=e72]
+      - row "住所1（市郡区／町・村） 必須":
+        - rowheader "住所1（市郡区／町・村） 必須" [ref=e73]:
+            - strong: 住所1（市郡区／町・村）
+            - text: 必須
+        - cell:
+          - textbox "例）○○市△△区□町" [ref=e74]
+      - row "住所2（丁目・番地・マンション名・号室） 必須":
+        - rowheader "住所2（丁目・番地・マンション名・号室） 必須" [ref=e75]:
+            - strong: 住所2（丁目・番地・マンション名・号室）
+            - text: 必須
+        - cell:
+          - textbox "例）△△ 1-4 ○○マンション101号" [ref=e76]
+      - row "電話番号 必須":
+        - rowheader "電話番号 必須" [ref=e77]:
+            - strong: 電話番号
+            - text: 必須
+        - cell:
+          - textbox "例）00000000000" [ref=e78]
+      - row "メールアドレス 必須":
+        - rowheader "メールアドレス 必須" [ref=e79]:
+            - strong: メールアドレス
+            - text: 必須
+        - cell:
+          - textbox "例）○○○@example.com" [ref=e80]
+      - row "パスワード 必須":
+        - rowheader "パスワード 必須" [ref=e81]:
+            - strong: パスワード
+            - text: 必須
+        - cell:
+          - textbox "半角英数字8文字以上" [ref=e82]
+      - row "生年月日 必須 ---- -- --":
+        - rowheader "生年月日 必須" [ref=e83]:
+            - strong: 生年月日
+            - text: 必須
+        - cell "---- -- --" [ref=e84]:
+          - combobox [ref=e85] [nth=1]:
+            - option "1926 年" [ref=e86]
+            - option "1927 年" [ref=e87]
+            - option "1928 年" [ref=e88]
+            - option "1929 年" [ref=e89]
+            - option "1930 年" [ref=e90]
+            - option "1931 年" [ref=e91]
+            - option "1932 年" [ref=e92]
+            - option "1933 年" [ref=e93]
+            - option "1934 年" [ref=e94]
+            - option "1935 年" [ref=e95]
+            - option "1936 年" [ref=e96]
+            - option "1937 年" [ref=e97]
+            - option "1938 年" [ref=e98]
+            - option "1939 年" [ref=e99]
+            - option "1940 年" [ref=e100]
+            - option "1941 年" [ref=e101]
+            - option "1942 年" [ref=e102]
+            - option "1943 年" [ref=e103]
+            - option "1944 年" [ref=e104]
+            - option "1945 年" [ref=e105]
+            - option "1946 年" [ref=e106]
+            - option "1947 年" [ref=e107]
+            - option "1948 年" [ref=e108]
+            - option "1949 年" [ref=e109]
+            - option "1950 年" [ref=e110]
+            - option "1951 年" [ref=e111]
+            - option "1952 年" [ref=e112]
+            - option "1953 年" [ref=e113]
+            - option "1954 年" [ref=e114]
+            - option "1955 年" [ref=e115]
+            - option "1956 年" [ref=e116]
+            - option "1957 年" [ref=e117]
+            - option "1958 年" [ref=e118]
+            - option "1959 年" [ref=e119]
+            - option "1960 年" [ref=e120]
+            - option "1961 年" [ref=e121]
+            - option "1962 年" [ref=e122]
+            - option "1963 年" [ref=e123]
+            - option "1964 年" [ref=e124]
+            - option "1965 年" [ref=e125]
+            - option "1966 年" [ref=e126]
+            - option "1967 年" [ref=e127]
+            - option "1968 年" [ref=e128]
+            - option "1969 年" [ref=e129]
+            - option "1970 年" [ref=e130]
+            - option "1971 年" [ref=e131]
+            - option "1972 年" [ref=e132]
+            - option "1973 年" [ref=e133]
+            - option "1974 年" [ref=e134]
+            - option "1975 年" [ref=e135]
+            - option "1976 年" [ref=e136]
+            - option "1977 年" [ref=e137]
+            - option "1978 年" [ref=e138]
+            - option "1979 年" [ref=e139]
+            - option "----" [ref=e140] [selected]
+            - option "1980 年" [ref=e141]
+            - option "1981 年" [ref=e142]
+            - option "1982 年" [ref=e143]
+            - option "1983 年" [ref=e144]
+            - option "1984 年" [ref=e145]
+            - option "1985 年" [ref=e146]
+            - option "1986 年" [ref=e147]
+            - option "1987 年" [ref=e148]
+            - option "1988 年" [ref=e149]
+            - option "1989 年" [ref=e150]
+            - option "1990 年" [ref=e151]
+            - option "1991 年" [ref=e152]
+            - option "1992 年" [ref=e153]
+            - option "1993 年" [ref=e154]
+            - option "1994 年" [ref=e155]
+            - option "1995 年" [ref=e156]
+            - option "1996 年" [ref=e157]
+            - option "1997 年" [ref=e158]
+            - option "1998 年" [ref=e159]
+            - option "1999 年" [ref=e160]
+            - option "2000 年" [ref=e161]
+            - option "2001 年" [ref=e162]
+            - option "2002 年" [ref=e163]
+            - option "2003 年" [ref=e164]
+            - option "2004 年" [ref=e165]
+            - option "2005 年" [ref=e166]
+            - option "2006 年" [ref=e167]
+            - option "2007 年" [ref=e168]
+            - option "2008 年" [ref=e169]
+            - option "2009 年" [ref=e170]
+            - option "2010 年" [ref=e171]
+            - option "2011 年" [ref=e172]
+            - option "2012 年" [ref=e173]
+            - option "2013 年" [ref=e174]
+            - option "2014 年" [ref=e175]
+            - option "2015 年" [ref=e176]
+            - option "2016 年" [ref=e177]
+            - option "2017 年" [ref=e178]
+            - option "2018 年" [ref=e179]
+            - option "2019 年" [ref=e180]
+            - option "2020 年" [ref=e181]
+            - option "2021 年" [ref=e182]
+            - option "2022 年" [ref=e183]
+            - option "2023 年" [ref=e184]
+            - option "2024 年" [ref=e185]
+            - option "2025 年" [ref=e186]
+            - option "2026 年" [ref=e187]
+          - combobox [ref=e188] [nth=2]:
+            - option "--" [ref=e189] [selected]
+            - option "1 月" [ref=e190]
+            - option "2 月" [ref=e191]
+            - option "3 月" [ref=e192]
+            - option "4 月" [ref=e193]
+            - option "5 月" [ref=e194]
+            - option "6 月" [ref=e195]
+            - option "7 月" [ref=e196]
+            - option "8 月" [ref=e197]
+            - option "9 月" [ref=e198]
+            - option "10 月" [ref=e199]
+            - option "11 月" [ref=e200]
+            - option "12 月" [ref=e201]
+          - combobox [ref=e202] [nth=3]:
+            - option "--" [ref=e203] [nth=1] [selected]
+            - option "1 日" [ref=e204]
+            - option "2 日" [ref=e205]
+            - option "3 日" [ref=e206]
+            - option "4 日" [ref=e207]
+            - option "5 日" [ref=e208]
+            - option "6 日" [ref=e209]
+            - option "7 日" [ref=e210]
+            - option "8 日" [ref=e211]
+            - option "9 日" [ref=e212]
+            - option "10 日" [ref=e213]
+            - option "11 日" [ref=e214]
+            - option "12 日" [ref=e215]
+            - option "13 日" [ref=e216]
+            - option "14 日" [ref=e217]
+            - option "15 日" [ref=e218]
+            - option "16 日" [ref=e219]
+            - option "17 日" [ref=e220]
+            - option "18 日" [ref=e221]
+            - option "19 日" [ref=e222]
+            - option "20 日" [ref=e223]
+            - option "21 日" [ref=e224]
+            - option "22 日" [ref=e225]
+            - option "23 日" [ref=e226]
+            - option "24 日" [ref=e227]
+            - option "25 日" [ref=e228]
+            - option "26 日" [ref=e229]
+            - option "27 日" [ref=e230]
+            - option "28 日" [ref=e231]
+            - option "29 日" [ref=e232]
+            - option "30 日" [ref=e233]
+            - option "31 日" [ref=e234]
+  - heading "お届け先情報" [ref=e235] [level=4]
+      - row "お届け先住所 必須 上記住所と同じ":
+        - rowheader "お届け先住所 必須" [ref=e236]:
+            - strong: お届け先住所
+            - text: 必須
+        - cell "上記住所と同じ" [ref=e237]:
+          - combobox [ref=e238] [nth=4]:
+            - option "上記住所と同じ" [ref=e239] [selected]
+            - option "新しく入力する" [ref=e240]
+  - heading "お支払い情報" [ref=e241] [level=4]
+      - row "お支払い方法 必須 クレジットカード一括":
+        - rowheader "お支払い方法 必須" [ref=e242]:
+            - strong: お支払い方法
+            - text: 必須
+        - cell "クレジットカード一括" [ref=e243]:
+          - combobox [ref=e244] [nth=5]:
+            - option "クレジットカード一括" [ref=e245] [selected]
+            - option "GMO 後払い同梱" [ref=e246]
+            - option "Amazon Pay" [ref=e247]
+      - row "クレジットカード番号 必須 ※ 数字のみで続けて入力してください。":
+        - rowheader "クレジットカード番号 必須" [ref=e248]:
+            - strong: クレジットカード番号
+            - text: 必須
+        - cell "※ 数字のみで続けて入力してください。" [ref=e249]:
+          - paragraph:
+            - textbox "例）4111xxxxxxxxxxxx" [ref=e250]
+          - paragraph: ※ 数字のみで続けて入力してください。
+      - row "カードの有効期限 必須 1 月 26 年 例）カードの表記03/18→03月/18年":
+        - rowheader "カードの有効期限 必須" [ref=e251]:
+            - strong: カードの有効期限
+            - text: 必須
+        - cell "1 月 26 年 例）カードの表記03/18→03月/18年" [ref=e252]:
+          - paragraph:
+            - combobox [ref=e253] [nth=6]:
+              - option "1" [ref=e254] [selected]
+              - option "2" [ref=e255]
+              - option "3" [ref=e256]
+              - option "4" [ref=e257]
+              - option "5" [ref=e258]
+              - option "6" [ref=e259]
+              - option "7" [ref=e260]
+              - option "8" [ref=e261]
+              - option "9" [ref=e262]
+              - option "10" [ref=e263]
+              - option "11" [ref=e264]
+              - option "12" [ref=e265]
+            - text: 月
+            - combobox [ref=e266] [nth=7]:
+              - option "26" [ref=e267] [selected]
+              - option "27" [ref=e268]
+              - option "28" [ref=e269]
+              - option "29" [ref=e270]
+              - option "30" [ref=e271]
+              - option "31" [ref=e272]
+              - option "32" [ref=e273]
+              - option "33" [ref=e274]
+              - option "34" [ref=e275]
+              - option "35" [ref=e276]
+              - option "36" [ref=e277]
+              - option "37" [ref=e278]
+              - option 
+
+[... 以下省略 ...]

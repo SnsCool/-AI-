@@ -1,0 +1,68 @@
+# リンク先コンテンツ
+
+**URL**: https://luma.com/create
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: イベント決済サイト：新規サイト確認
+**取得日時**: 2026-01-22T14:25:39.832894
+
+---
+
+## コンテンツ
+
+  - navigation:
+    - link "Luma Home" [ref=e1]:
+      - /url: /
+    - text: 2:25 PM GMT+9
+    - link "Explore Events" [ref=e2]:
+      - /url: /discover
+      - text: Explore Events
+    - link "Sign In" [ref=e3]:
+      - /url: /signin?next=%2Fcreate
+  - button "Choose File" [ref=e4]:
+    - button "Choose File" [ref=e5] [nth=1]
+  - button "Theme Minimal" [ref=e6]:
+    - text: Theme Minimal
+  - button [ref=e7]:
+  - button "Personal Calendar" [ref=e8]:
+    - text: Personal Calendar
+  - button "Public" [ref=e9]:
+    - text: Public
+  - textbox "Event Name" [ref=e10]
+  - text: Start
+  - textbox [ref=e11]: Thu, Jan 22
+  - textbox [ref=e12] [nth=1]:
+    - /placeholder: HH:MM
+    - text: 14:30
+  - text: End
+  - textbox [ref=e13] [nth=2]: Thu, Jan 22
+  - textbox [ref=e14] [nth=3]:
+    - /placeholder: HH:MM
+    - text: 15:30
+  - text: GMT+09:00 Tokyo
+  - text: Add Event Location Offline location or virtual link
+  - button "Add Description" [ref=e15]:
+    - text: Add Description
+  - text: Event Options
+  - text: Ticket Price Free
+  - button "Edit" [ref=e16]:
+  - text: Payment Optional
+  - text: Require Approval
+  - checkbox [ref=e17]
+  - text: Capacity Unlimited
+  - button "Edit" [ref=e18] [nth=1]:
+  - text: Waitlist Enabled
+  - button "Create Event" [ref=e19]
+  - heading "Welcome to Luma" [ref=e20] [level=3]
+  - text: Please sign in or sign up below. Email
+  - button "Use Phone Number" [ref=e21]:
+    - text: Use Phone Number
+  - textbox "Email" [ref=e22]:
+    - /placeholder: you@email.com
+  - button "Continue with Email" [ref=e23]
+  - button "Sign in with Google" [ref=e24]:
+    - text: Sign in with Google
+  - button "Sign in with Passkey" [ref=e25]:
+    - text: Sign in with Passkey
+

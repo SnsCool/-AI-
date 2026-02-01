@@ -1,0 +1,14 @@
+{
+  "page_id": "278f3b0f-ba85-80dc-ae55-e18ee9d5afc0",
+  "title": "二次有料枠募集",
+  "created_time": "2025-09-24T09:55:00.000Z",
+  "last_edited_time": "2025-09-24T09:57:00.000Z",
+  "url": "https://www.notion.so/278f3b0fba8580dcae55e18ee9d5afc0",
+  "properties": {
+    "担当者": {"type": "people", "value": ""},
+    "日付": {"type": "date", "value": null},
+    "ステータス": {"type": "status", "value": "未着手"},
+    "備考": {"type": "rich_text", "value": ""},
+    "メディア": {"type": "title", "value": "二次有料枠募集"}
+  }
+}

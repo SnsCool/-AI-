@@ -1,0 +1,17 @@
+{
+  "page_id": "27cf3b0f-ba85-809e-b914-cee5152881f1",
+  "created_time": "2025-09-28T14:17:00.000Z",
+  "last_edited_time": "2025-10-02T14:14:00.000Z",
+  "url": "https://www.notion.so/27cf3b0fba85809eb914cee5152881f1",
+  "properties": {
+    "タイミング": {"type": "select", "select": {"name": "クラス案内後"}},
+    "発生時期": {"type": "date", "date": {"start": "2025-09-01"}},
+    "入学式": {"type": "select", "select": {"name": "参加途中"}},
+    "月": {"type": "multi_select", "multi_select": [{"name": "9月"}]},
+    "運営LINE URL": {"type": "url", "url": "https://manager.linestep.net/line/detail/214959289"},
+    "クラス": {"type": "rich_text", "rich_text": [{"plain_text": "らこC組"}]},
+    "トラブルカテゴリ": {"type": "select", "select": {"name": "自信なし"}},
+    "選択": {"type": "select", "select": {"name": "森田咲音"}},
+    "名前と理由": {"id": "title", "type": "title", "title": [{"plain_text": "ますだけいと"}]}
+  }
+}

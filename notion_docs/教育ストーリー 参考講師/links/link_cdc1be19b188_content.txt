@@ -1,0 +1,237 @@
+# リンク先コンテンツ
+
+**URL**: https://drive.google.com/drive/folders/1RXOegzLP9g1HmbTLXIekKUuZQMH5pCsC
+**種類**: gdrive
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 教育ストーリー 参考講師
+**取得日時**: 2026-01-22T15:22:00.258392
+
+---
+
+## コンテンツ
+
+  - navigation:
+    - button "メイン コンテンツにスキップ" [ref=e1]
+    - button "キーボード ショートカット" [ref=e2]
+    - button "ユーザー補助に関するフィードバック" [ref=e3]
+  - banner:
+    - link "ドライブ" [ref=e4]:
+      - /url: https://drive.google.com/?tab=oo
+    - button "Google アプリ" [ref=e5]:
+    - link "ログイン" [ref=e6]:
+      - /url: https://accounts.google.com/ServiceLogin?hl=ja&passive=true&continue=https://drive.google.com/drive/folders/1RXOegzLP9g1HmbTLXIekKUuZQMH5pCsC&service=writely&ec=GAZAMQ
+  - navigation:
+    - heading "フォルダ パス" [ref=e7]
+    - list "フォルダ パス":
+      - listitem:
+        - link "2025年2月ローンチストーリー" [ref=e8]
+    - button "すべてダウンロード" [ref=e9]
+    - radiogroup "リスト レイアウトまたはグリッド レイアウト（⌥V、L キーの順）":
+      - radio "リスト" [ref=e10] [checked]
+      - radio "グリッド" [ref=e11]
+  - main:
+    - region:
+      - grid "アイテムリスト":
+          - text: 名前
+          - text: オーナー 更新日時 ファイルサイズ
+          - button "並べ替え" [ref=e12]
+          - 'row "2CFCE357-828F-4B5D-BAE4-6581801E0DBC.JPG 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 248 KB 使用中の容量: 248 KB"':
+            - gridcell "2CFCE357-828F-4B5D-BAE4-6581801E0DBC.JPG 画像 共有中" [ref=e13]:
+              - strong: 2CFCE357-828F-4B5D-BAE4-6581801E0DBC.JPG
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e14]: 2025/03/16
+            - 'gridcell "サイズ: 248 KB 使用中の容量: 248 KB"': 248 KB
+          - 'row "6F8F3BDB-46E6-4BFF-BAC3-70AB5EF317B0.JPG 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 369 KB 使用中の容量: 369 KB"':
+            - gridcell "6F8F3BDB-46E6-4BFF-BAC3-70AB5EF317B0.JPG 画像 共有中" [ref=e15]:
+              - strong: 6F8F3BDB-46E6-4BFF-BAC3-70AB5EF317B0.JPG
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e16] [nth=1]: 2025/03/16
+            - 'gridcell "サイズ: 369 KB 使用中の容量: 369 KB"': 369 KB
+          - 'row "8BCEEE0C-D377-450C-B750-65A03C45D04E.jpg 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2024/12/18 サイズ: 703 KB 使用中の容量: 703 KB"':
+            - gridcell "8BCEEE0C-D377-450C-B750-65A03C45D04E.jpg 画像 共有中" [ref=e17]:
+              - strong: 8BCEEE0C-D377-450C-B750-65A03C45D04E.jpg
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2024/12/18" [ref=e18]: 2024/12/18
+            - 'gridcell "サイズ: 703 KB 使用中の容量: 703 KB"': 703 KB
+          - 'row "8CE0D370-F1DA-4A52-A3FD-E70B6E817298.jpg 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2024/12/20 サイズ: 465 KB 使用中の容量: 465 KB"':
+            - gridcell "8CE0D370-F1DA-4A52-A3FD-E70B6E817298.jpg 画像 共有中" [ref=e19]:
+              - strong: 8CE0D370-F1DA-4A52-A3FD-E70B6E817298.jpg
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2024/12/20" [ref=e20]: 2024/12/20
+            - 'gridcell "サイズ: 465 KB 使用中の容量: 465 KB"': 465 KB
+          - 'row "8E100871-B76B-4F46-974A-A9BB68523434.JPG 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 628 KB 使用中の容量: 628 KB"':
+            - gridcell "8E100871-B76B-4F46-974A-A9BB68523434.JPG 画像 共有中" [ref=e21]:
+              - strong: 8E100871-B76B-4F46-974A-A9BB68523434.JPG
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e22] [nth=2]: 2025/03/16
+            - 'gridcell "サイズ: 628 KB 使用中の容量: 628 KB"': 628 KB
+          - 'row "8FF19470-A6E1-4B81-9602-89BA58A2C683.jpg 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/10/05 サイズ: 942 KB 使用中の容量: 942 KB"':
+            - gridcell "8FF19470-A6E1-4B81-9602-89BA58A2C683.jpg 画像 共有中" [ref=e23]:
+              - strong: 8FF19470-A6E1-4B81-9602-89BA58A2C683.jpg
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/10/05" [ref=e24]: 2025/10/05
+            - 'gridcell "サイズ: 942 KB 使用中の容量: 942 KB"': 942 KB
+          - 'row "9E1A4FEC-BDD2-42DA-8250-7D85A0CFBCE6.MP4 動画 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 1.9 MB 使用中の容量: 1.9 MB"':
+            - gridcell "9E1A4FEC-BDD2-42DA-8250-7D85A0CFBCE6.MP4 動画 共有中" [ref=e25]:
+              - strong: 9E1A4FEC-BDD2-42DA-8250-7D85A0CFBCE6.MP4
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e26] [nth=3]: 2025/03/16
+            - 'gridcell "サイズ: 1.9 MB 使用中の容量: 1.9 MB"': 1.9 MB
+          - 'row "9FCD72DF-E7D4-4949-B94C-23A6089AFB93.MP4 動画 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 9.5 MB 使用中の容量: 9.5 MB"':
+            - gridcell "9FCD72DF-E7D4-4949-B94C-23A6089AFB93.MP4 動画 共有中" [ref=e27]:
+              - strong: 9FCD72DF-E7D4-4949-B94C-23A6089AFB93.MP4
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e28] [nth=4]: 2025/03/16
+            - 'gridcell "サイズ: 9.5 MB 使用中の容量: 9.5 MB"': 9.5 MB
+          - 'row "9FD93167-92A7-4C54-9194-68ABBB2F86B4.JPG 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 659 KB 使用中の容量: 659 KB"':
+            - gridcell "9FD93167-92A7-4C54-9194-68ABBB2F86B4.JPG 画像 共有中" [ref=e29]:
+              - strong: 9FD93167-92A7-4C54-9194-68ABBB2F86B4.JPG
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e30] [nth=5]: 2025/03/16
+            - 'gridcell "サイズ: 659 KB 使用中の容量: 659 KB"': 659 KB
+          - 'row "16AF1F26-7BA7-4D5D-82F1-E6A895B1C1CD.JPG 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 691 KB 使用中の容量: 691 KB"':
+            - gridcell "16AF1F26-7BA7-4D5D-82F1-E6A895B1C1CD.JPG 画像 共有中" [ref=e31]:
+              - strong: 16AF1F26-7BA7-4D5D-82F1-E6A895B1C1CD.JPG
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e32] [nth=6]: 2025/03/16
+            - 'gridcell "サイズ: 691 KB 使用中の容量: 691 KB"': 691 KB
+          - 'row "30D8BA1C-F2D4-46BE-AF09-D77B8AC4004F.JPG 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 751 KB 使用中の容量: 751 KB"':
+            - gridcell "30D8BA1C-F2D4-46BE-AF09-D77B8AC4004F.JPG 画像 共有中" [ref=e33]:
+              - strong: 30D8BA1C-F2D4-46BE-AF09-D77B8AC4004F.JPG
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e34] [nth=7]: 2025/03/16
+            - 'gridcell "サイズ: 751 KB 使用中の容量: 751 KB"': 751 KB
+          - 'row "43FFE48B-A069-41F3-97A2-8D2EE19A3466.JPG 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 306 KB 使用中の容量: 306 KB"':
+            - gridcell "43FFE48B-A069-41F3-97A2-8D2EE19A3466.JPG 画像 共有中" [ref=e35]:
+              - strong: 43FFE48B-A069-41F3-97A2-8D2EE19A3466.JPG
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e36] [nth=8]: 2025/03/16
+            - 'gridcell "サイズ: 306 KB 使用中の容量: 306 KB"': 306 KB
+          - 'row "341D4C4A-EFA3-49C2-8D5D-3C24BE9C1C17.JPG 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/08 サイズ: 864 KB 使用中の容量: 864 KB"':
+            - gridcell "341D4C4A-EFA3-49C2-8D5D-3C24BE9C1C17.JPG 画像 共有中" [ref=e37]:
+              - strong: 341D4C4A-EFA3-49C2-8D5D-3C24BE9C1C17.JPG
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/08" [ref=e38]: 2025/03/08
+            - 'gridcell "サイズ: 864 KB 使用中の容量: 864 KB"': 864 KB
+          - 'row "493EAB81-6018-4716-8131-3F2A9836FB7D.JPG 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 238 KB 使用中の容量: 238 KB"':
+            - gridcell "493EAB81-6018-4716-8131-3F2A9836FB7D.JPG 画像 共有中" [ref=e39]:
+              - strong: 493EAB81-6018-4716-8131-3F2A9836FB7D.JPG
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e40] [nth=9]: 2025/03/16
+            - 'gridcell "サイズ: 238 KB 使用中の容量: 238 KB"': 238 KB
+          - 'row "888F7BB1-2FAE-4741-AF0E-22BD9C980652.JPG 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 477 KB 使用中の容量: 477 KB"':
+            - gridcell "888F7BB1-2FAE-4741-AF0E-22BD9C980652.JPG 画像 共有中" [ref=e41]:
+              - strong: 888F7BB1-2FAE-4741-AF0E-22BD9C980652.JPG
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e42] [nth=10]: 2025/03/16
+            - 'gridcell "サイズ: 477 KB 使用中の容量: 477 KB"': 477 KB
+          - 'row "4941BA92-A7DF-4074-8242-0C6DC2BB6D36.JPG 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 723 KB 使用中の容量: 723 KB"':
+            - gridcell "4941BA92-A7DF-4074-8242-0C6DC2BB6D36.JPG 画像 共有中" [ref=e43]:
+              - strong: 4941BA92-A7DF-4074-8242-0C6DC2BB6D36.JPG
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e44] [nth=11]: 2025/03/16
+            - 'gridcell "サイズ: 723 KB 使用中の容量: 723 KB"': 723 KB
+          - 'row "A966C119-0553-4FC4-9F84-1E9447B21622.JPG 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 325 KB 使用中の容量: 325 KB"':
+            - gridcell "A966C119-0553-4FC4-9F84-1E9447B21622.JPG 画像 共有中" [ref=e45]:
+              - strong: A966C119-0553-4FC4-9F84-1E9447B21622.JPG
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e46] [nth=12]: 2025/03/16
+            - 'gridcell "サイズ: 325 KB 使用中の容量: 325 KB"': 325 KB
+          - 'row "AA6AED72-1539-4142-B0EB-6F260B66AA9C.MP4 動画 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 927 KB 使用中の容量: 927 KB"':
+            - gridcell "AA6AED72-1539-4142-B0EB-6F260B66AA9C.MP4 動画 共有中" [ref=e47]:
+              - strong: AA6AED72-1539-4142-B0EB-6F260B66AA9C.MP4
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e48] [nth=13]: 2025/03/16
+            - 'gridcell "サイズ: 927 KB 使用中の容量: 927 KB"': 927 KB
+          - 'row "B9DC25EE-B04A-4C9D-BAC8-9C6AAD502920.jpg 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2024/12/18 サイズ: 695 KB 使用中の容量: 695 KB"':
+            - gridcell "B9DC25EE-B04A-4C9D-BAC8-9C6AAD502920.jpg 画像 共有中" [ref=e49]:
+              - strong: B9DC25EE-B04A-4C9D-BAC8-9C6AAD502920.jpg
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2024/12/18" [ref=e50] [nth=1]: 2024/12/18
+            - 'gridcell "サイズ: 695 KB 使用中の容量: 695 KB"': 695 KB
+          - 'row "BD1CCAFC-B5C1-4A66-99E0-E01AFFAC5ED5.jpg 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2024/12/18 サイズ: 889 KB 使用中の容量: 889 KB"':
+            - gridcell "BD1CCAFC-B5C1-4A66-99E0-E01AFFAC5ED5.jpg 画像 共有中" [ref=e51]:
+              - strong: BD1CCAFC-B5C1-4A66-99E0-E01AFFAC5ED5.jpg
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2024/12/18" [ref=e52] [nth=2]: 2024/12/18
+            - 'gridcell "サイズ: 889 KB 使用中の容量: 889 KB"': 889 KB
+          - 'row "CAE8B216-461E-4352-B1B2-7DE7F18F53A4.JPG 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 79 KB 使用中の容量: 79 KB"':
+            - gridcell "CAE8B216-461E-4352-B1B2-7DE7F18F53A4.JPG 画像 共有中" [ref=e53]:
+              - strong: CAE8B216-461E-4352-B1B2-7DE7F18F53A4.JPG
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e54] [nth=14]: 2025/03/16
+            - 'gridcell "サイズ: 79 KB 使用中の容量: 79 KB"': 79 KB
+          - 'row "D66F01A7-A7CA-455E-A5CC-64434BED24E1.jpg 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2024/12/20 サイズ: 364 KB 使用中の容量: 364 KB"':
+            - gridcell "D66F01A7-A7CA-455E-A5CC-64434BED24E1.jpg 画像 共有中" [ref=e55]:
+              - strong: D66F01A7-A7CA-455E-A5CC-64434BED24E1.jpg
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2024/12/20" [ref=e56] [nth=1]: 2024/12/20
+            - 'gridcell "サイズ: 364 KB 使用中の容量: 364 KB"': 364 KB
+          - 'row "D093484E-1500-49DD-B709-C4450DF1138E.jpg 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2024/12/20 サイズ: 364 KB 使用中の容量: 364 KB"':
+            - gridcell "D093484E-1500-49DD-B709-C4450DF1138E.jpg 画像 共有中" [ref=e57]:
+              - strong: D093484E-1500-49DD-B709-C4450DF1138E.jpg
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2024/12/20" [ref=e58] [nth=2]: 2024/12/20
+            - 'gridcell "サイズ: 364 KB 使用中の容量: 364 KB"': 364 KB
+          - 'row "DDDE49A9-BE61-4B53-80FD-8F360C8E6B6A.jpg 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2024/12/18 サイズ: 612 KB 使用中の容量: 612 KB"':
+            - gridcell "DDDE49A9-BE61-4B53-80FD-8F360C8E6B6A.jpg 画像 共有中" [ref=e59]:
+              - strong: DDDE49A9-BE61-4B53-80FD-8F360C8E6B6A.jpg
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2024/12/18" [ref=e60] [nth=3]: 2024/12/18
+            - 'gridcell "サイズ: 612 KB 使用中の容量: 612 KB"': 612 KB
+          - 'row "DF7F9FC2-53C6-47C8-B794-15E0FE80ED6C.JPG 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 463 KB 使用中の容量: 463 KB"':
+            - gridcell "DF7F9FC2-53C6-47C8-B794-15E0FE80ED6C.JPG 画像 共有中" [ref=e61]:
+              - strong: DF7F9FC2-53C6-47C8-B794-15E0FE80ED6C.JPG
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e62] [nth=15]: 2025/03/16
+            - 'gridcell "サイズ: 463 KB 使用中の容量: 463 KB"': 463 KB
+          - 'row "E7E0BBDE-2617-47D4-A739-9DD320361F55.jpg 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2024/12/18 サイズ: 1.1 MB 使用中の容量: 1.1 MB"':
+            - gridcell "E7E0BBDE-2617-47D4-A739-9DD320361F55.jpg 画像 共有中" [ref=e63]:
+              - strong: E7E0BBDE-2617-47D4-A739-9DD320361F55.jpg
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2024/12/18" [ref=e64] [nth=4]: 2024/12/18
+            - 'gridcell "サイズ: 1.1 MB 使用中の容量: 1.1 MB"': 1.1 MB
+          - 'row "EC58312D-5017-4C90-939B-47B64F71F218.MP4 動画 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 3.4 MB 使用中の容量: 3.4 MB"':
+            - gridcell "EC58312D-5017-4C90-939B-47B64F71F218.MP4 動画 共有中" [ref=e65]:
+              - strong: EC58312D-5017-4C90-939B-47B64F71F218.MP4
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e66] [nth=16]: 2025/03/16
+            - 'gridcell "サイズ: 3.4 MB 使用中の容量: 3.4 MB"': 3.4 MB
+          - 'row "F298A9A0-4416-4CD5-A74B-32C56323D615.JPG 画像 共有中 オーナー: オーナーは非公開です さん 最終変更 2025/03/16 サイズ: 358 KB 使用中の容量: 358 KB"':
+            - gridcell "F298A9A0-4416-4CD5-A74B-32C56323D615.JPG 画像 共有中" [ref=e67]:
+              - strong: F298A9A0-4416-4CD5-A74B-32C56323D615.JPG
+                - text: 共有中です
+            - 'gridcell "オーナー: オーナーは非公開です さん"': オーナーは非公開です
+            - gridcell "最終変更 2025/03/16" [ref=e68] [nth=17]: 2025/03/16
+            - 'gridcell "サイズ: 358 KB 使用中の容量: 358 KB"': 358 KB
+          - 'row "FC7E846E-DC77-49F1-9EAC-A63710AA80E
+
+[... 以下省略 ...]

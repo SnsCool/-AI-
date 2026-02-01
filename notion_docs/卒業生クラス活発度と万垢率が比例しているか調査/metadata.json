@@ -1,0 +1,18 @@
+{
+  "object": "page",
+  "id": "2e0f3b0f-ba85-803b-808d-f9c83d0bd279",
+  "created_time": "2026-01-06T05:29:00.000Z",
+  "last_edited_time": "2026-01-06T05:30:00.000Z",
+  "parent": {
+    "type": "data_source_id",
+    "database_id": "2e0f3b0f-ba85-8060-8d35-f57c3856a988"
+  },
+  "archived": false,
+  "properties": {
+    "名前": {
+      "type": "title",
+      "title": [{"plain_text": "卒業生クラス活発度と万垢率が比例しているか調査"}]
+    }
+  },
+  "url": "https://www.notion.so/2e0f3b0fba85803b808df9c83d0bd279"
+}

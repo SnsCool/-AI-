@@ -1,0 +1,12 @@
+{
+  "page_id": "241f3b0f-ba85-80e1-bd3e-e735b68f66ab",
+  "created_time": "2025-07-31T11:53:00.000Z",
+  "last_edited_time": "2025-08-08T02:12:00.000Z",
+  "url": "https://www.notion.so/241f3b0fba8580e1bd3ee735b68f66ab",
+  "properties": {
+    "ステータス": {"type": "status", "status": {"name": "未着手", "color": "yellow"}},
+    "着手": {"type": "multi_select", "multi_select": [{"name": "1週目", "color": "blue"}]},
+    "担当者": {"type": "people", "people": [{"name": "Mioko"}]},
+    "タスク": {"id": "title", "type": "title", "title": []}
+  }
+}

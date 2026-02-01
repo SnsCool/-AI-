@@ -1,0 +1,28 @@
+# よくあるお問い合わせ編集
+
+Notion URL: https://www.notion.so/2f0f3b0fba8580448a8ad44cc84463ef
+同期日時: 2026-02-01T12:27:08+09:00
+
+---
+
+https://whimsical.com/generated-board-M1Z2qNcM3oFuobroh1DSnB?ref=chatgpt
+🔄 よくある質問編集ワークフロー
+目的:
+ユーザーからよくあるお問い合わせをFAQページに追加・更新し、対応効率を上げる。
+🧩 ステップごとの流れ
+お問い合わせ担当者
+  よくある質問が増えた・同様の問い合わせが続くと感じたら記録する。
+  追加候補として「FAQリスト 」に記入。https://docs.google.com/spreadsheets/d/1baW6e7yd-Ick6s6ffvK0yoY6JhNmEhjRJ66Cmlj4ZgA/edit?usp=sharing 
+コンテンツ担当者（あゆみ）
+  WordPress にログイン
+  左側メニューの「投稿」→「投稿一覧」へ移動
+  「投稿を追加」をクリック
+  新しいFAQ内容を記入
+  保存（下書きまたは公開前レビュー用）
+管理者／編集者（）
+  内容・表現・重複チェック
+  承認後、「公開」ボタンを押す
+  公開後、サイトで表示確認
+完了
+  チーム内に更新完了を共有
+  定期的にFAQページを見直す（月1回）

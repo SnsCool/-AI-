@@ -1,0 +1,8 @@
+{
+  "url": "https://klingai.com/",
+  "type": "webpage",
+  "processed_at": "2026-01-22T16:16:15.793830",
+  "content": "  - text: Creative Studio API Platform About Us\n  - link \"Blog\" [ref=e1]:\n    - /url: https://app.klingai.com/global/blog\n  - button \"English\" [ref=e2]\n  - text: Experience Now\n  - text: Does It All Input anything. Understand everything. Generate any vision Create Now The Element in [@Image2] is running in the desert, with the camera pushing in to a close-up of the face in [@Image1]. Kling O1 Adhering to the Multi-modal Visual Language (MVL) concept, it uses natural language as its semantic framework, combined with multi-modal descriptions such as videos, images, and subjects, to accurately understand your intentions, making operation more intuitive and creation more efficient.\n  - textbox \"Ask anything...\" [ref=e3]\n  - button [ref=e4]:\n  - text: Search by\n  - button \"Logo\" [ref=e5]:\n  - text: Kling AI Customer Support\n  - button [ref=e6] [nth=1]:\n  - button [ref=e7] [nth=2]:\n  - paragraph: Find previous chats or start a new conversation\n  - textbox \"Search...\" [ref=e8]\n  - text: No previous conversations.\n  - button \"Start a new conversation\" [ref=e9]\n  - text: Powered by\n  - button \"Logo\" [ref=e10] [nth=1]:\n  - text: Kling AI Customer Support\n  - button [ref=e11] [nth=3]:\n  - button [ref=e12] [nth=4]:\n  - status: Loading...\n  - text: Powered by\n  - button \"Logo\" [ref=e13] [nth=2]:\n",
+  "title": "Webページ",
+  "error": null
+}

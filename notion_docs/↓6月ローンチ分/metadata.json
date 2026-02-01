@@ -1,0 +1,26 @@
+{
+  "page_id": "208f3b0f-ba85-80ba-a7b6-e0116c061673",
+  "created_time": "2025-06-04T04:49:00.000Z",
+  "last_edited_time": "2025-07-26T00:48:00.000Z",
+  "url": "https://www.notion.so/6-208f3b0fba8580baa7b6e0116c061673",
+  "parent": {},
+  "properties": {
+    "開催日": {
+      "id": "%40qUQ",
+      "type": "date",
+      "date": null
+    },
+    "": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "plain_text": "↓6月ローンチ分"
+        }
+      ]
+    }
+  },
+  "icon": null,
+  "cover": null,
+  "archived": false
+}

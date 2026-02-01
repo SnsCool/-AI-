@@ -1,0 +1,12 @@
+{
+  "page_id": "268f3b0f-ba85-806a-aab4-cd1b5997ea61",
+  "created_time": "2025-09-08T07:20:00.000Z",
+  "last_edited_time": "2025-09-28T05:45:00.000Z",
+  "url": "https://www.notion.so/9-268f3b0fba85806aaab4cd1b5997ea61",
+  "properties": {
+    "着手": {"type": "multi_select", "multi_select": [{"name": "一週目"}, {"name": "二週目"}, {"name": "四週目"}]},
+    "ステータス": {"type": "status", "status": {"name": "完了", "color": "green"}},
+    "担当者": {"type": "people", "people": [{"name": "Riku"}]},
+    "タスク": {"id": "title", "type": "title", "title": [{"plain_text": "9月オフ会：エスキャン連携"}]}
+  }
+}

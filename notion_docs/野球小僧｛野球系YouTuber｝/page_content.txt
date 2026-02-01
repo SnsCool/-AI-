@@ -1,0 +1,16 @@
+# 野球小僧｛野球系YouTuber｝
+
+Notion URL: https://www.notion.so/YouTuber-154f3b0fba8581e2ba90ead855e356ad
+同期日時: 2026-01-27T00:00:00+09:00
+
+---
+
+## プロパティ
+
+- **アカウント名**: 野球小僧｛野球系YouTuber｝
+- **小ジャンル**: 競技
+- **ジャンル**: 筋トレ
+- **フォロワー（k)**: 18.9
+- **お気に入り**: false
+- **アカウントURL**: https://www.tiktok.com/@yakkyukozou
+- **備考**: (未設定)

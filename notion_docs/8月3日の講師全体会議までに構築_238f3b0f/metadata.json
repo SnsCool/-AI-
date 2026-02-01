@@ -1,0 +1,13 @@
+{
+  "page_id": "238f3b0f-ba85-8000-ac4a-d9b83e2d9f03",
+  "title": "8月3日の講師全体会議までに構築",
+  "created_time": "2025-07-22T03:18:00.000Z",
+  "last_edited_time": "2025-08-04T15:07:00.000Z",
+  "url": "https://www.notion.so/8-3-238f3b0fba858000ac4ad9b83e2d9f03",
+  "archived": false,
+  "properties": {
+    "タスク": {"type": "title", "title": [{"plain_text": "8月3日の講師全体会議までに構築"}]},
+    "着手": {"type": "multi_select", "multi_select": [{"name": "スタータープログラム"}]},
+    "ステータス": {"type": "status", "status": {"name": "完了"}}
+  }
+}

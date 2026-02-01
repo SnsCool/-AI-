@@ -1,0 +1,9 @@
+# エスキャンを動画を視聴し、アウトプットする
+
+## Properties
+- カテゴリー: 動画を見る, 課題を提出する
+- 補足: https://shared-beak-b34.notion.site/11c743f2ed6b42d9b7e301f4bc4a0319?pvs=4
+- 優先度: ⭐️⭐️
+
+## Content
+

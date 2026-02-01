@@ -1,0 +1,18 @@
+# リンク先コンテンツ
+
+**URL**: https://discord.com/channels/@me
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 【個別相談会】開いておくタブ一覧
+**取得日時**: 2026-01-22T15:53:15.198148
+
+---
+
+## コンテンツ
+
+  - heading "Discord App Detected" [ref=e1] [level=1]
+  - text: Do you want to open this link in your Discord app?
+  - button "Open App" [ref=e2]
+  - button "Continue in Browser" [ref=e3]
+

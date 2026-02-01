@@ -1,0 +1,113 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/forms/d/e/1FAIpQLSfBFVTed2jlIAUFwtK4mFOq16bq8Q7ikxs60c0vq4hukw4DpQ/viewform?usp=dialog
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 採用決定後のフロー (New)
+**取得日時**: 2026-01-22T15:40:12.705857
+
+---
+
+## コンテンツ
+
+  - heading "Levelaスタッフ登録フォーム" [ref=e1] [level=1]
+  - link "Google にログイン" [ref=e2]:
+    - /url: https://accounts.google.com/Login?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfBFVTed2jlIAUFwtK4mFOq16bq8Q7ikxs60c0vq4hukw4DpQ%2Fviewform%3Ffbzx%3D6340267222203068754
+  - text: すると作業内容を保存できます。
+  - button "詳細" [ref=e3]
+    - listitem:
+      - heading "氏名 必須の質問" [ref=e4] [level=3]:
+        - strong: 氏名
+        - text: "*"
+      - textbox "氏名 必須の質問" [ref=e5]
+    - listitem:
+      - heading "氏名ふりがな 必須の質問" [ref=e6] [level=3]: 氏名ふりがな *
+      - textbox "氏名ふりがな 必須の質問" [ref=e7]
+    - listitem:
+      - heading "生年月日 必須の質問" [ref=e8] [level=3]:
+        - strong: 生年月日
+        - text: "*"
+      - text: 日付
+      - textbox "日付" [ref=e9]
+    - listitem:
+      - heading "電話番号 必須の質問" [ref=e10] [level=3]:
+        - strong: 電話番号
+        - text: "*"
+      - textbox "電話番号 必須の質問" [ref=e11]
+    - listitem:
+      - heading "メールアドレス 必須の質問" [ref=e12] [level=3]: メールアドレス *
+      - text: Notionのログインに使用しているメールアドレスを入力してください
+      - textbox "メールアドレス 必須の質問" [ref=e13]
+    - listitem:
+      - heading "郵便番号 必須の質問" [ref=e14] [level=3]: 郵便番号 *
+      - textbox "郵便番号 必須の質問" [ref=e15]
+    - listitem:
+      - heading "住所 必須の質問" [ref=e16] [level=3]:
+        - strong: 住所
+        - text: "*"
+      - textbox "住所 必須の質問" [ref=e17]
+    - listitem:
+      - heading "SNSアカウントURL 必須の質問" [ref=e18] [level=3]: SNSアカウントURL *
+      - text: SNSを運用していない方は[なし]とご記入ください
+      - textbox "SNSアカウントURL 必須の質問" [ref=e19]
+    - listitem:
+      - heading "入社日 必須の質問" [ref=e20] [level=3]: 入社日 *
+      - text: 日付
+      - textbox "日付" [ref=e21] [nth=1]
+    - listitem:
+      - heading "ご自身の該当項目を選択ください 必須の質問" [ref=e22] [level=3]: ご自身の該当項目を選択ください *
+      - text: 全体会議に出席可能な方は【オフラインメンバー】をご選択ください
+      - radiogroup "ご自身の該当項目を選択ください 必須の質問":
+        - radio "オフラインメンバー" [ref=e23]
+        - text: オフラインメンバー
+        - radio "オンラインメンバー" [ref=e24]
+        - text: オンラインメンバー
+        - radio "Synergy会員" [ref=e25]
+        - text: Synergy会員
+        - radio "上記以外" [ref=e26]
+        - text: 上記以外
+    - listitem:
+      - heading "部署を選択ください(Levelaの方)" [ref=e27] [level=3]
+      - radiogroup "部署を選択ください(Levelaの方)":
+        - radio "営業" [ref=e28]
+        - text: 営業
+        - radio "講師" [ref=e29]
+        - text: 講師
+        - radio "CS" [ref=e30]
+        - text: CS
+        - radio "マーケティング" [ref=e31]
+        - text: マーケティング
+        - radio "コーチングマネージャー" [ref=e32]
+        - text: コーチングマネージャー
+        - radio "AI事業" [ref=e33]
+        - text: AI事業
+        - radio "ASP" [ref=e34]
+        - text: ASP
+        - radio "アフィリエイト" [ref=e35]
+        - text: アフィリエイト
+        - radio "運用代行" [ref=e36]
+        - text: 運用代行
+        - radio "インターン" [ref=e37]
+        - text: インターン
+        - radio [ref=e38]
+        - text: "その他:"
+        - textbox "その他の回答" [ref=e39]
+    - listitem:
+      - heading "ご提供いただいた個人情報は、契約/管理業務の目的でのみ利用し、法令に基づく場合を除き、第三者に提供することはありません。 必須の質問" [ref=e40] [level=3]: ご提供いただいた個人情報は、契約/管理業務の目的でのみ利用し、法令に基づく場合を除き、第三者に提供することはありません。 *
+      - list "ご提供いただいた個人情報は、契約/管理業務の目的でのみ利用し、法令に基づく場合を除き、第三者に提供することはありません。 必須の質問":
+        - listitem:
+          - checkbox "個人情報の取扱いについて同意します" [ref=e41]
+          - text: 個人情報の取扱いについて同意します
+  - button "Submit" [ref=e42]: 送信
+  - button "フォームをクリア" [ref=e43]
+  - text: Google フォームでパスワードを送信しないでください。 このフォームは SnsCool 内部で作成されました。
+  - paragraph:
+    - text: このフォームが不審だと思われる場合
+    - link "報告" [ref=e44]:
+      - /url: https://drive.google.com/abuse?id=AKkXjoztKojO4BQ5NTfLs-GFuguHMk0vmsWpSefKg6KIOQB_KADMU1kCKjGOMAsPdpdfBbuLifFMa9lVd8_toFk:0&docurl=https://docs.google.com/forms/d/e/1FAIpQLSfBFVTed2jlIAUFwtK4mFOq16bq8Q7ikxs60c0vq4hukw4DpQ/viewform?usp%3Ddialog
+  - link "Google フォーム" [ref=e45]:
+    - /url: //www.google.com/forms/about/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms
+    - text: フォーム
+  - button "ヘルプとフィードバック" [ref=e46]
+

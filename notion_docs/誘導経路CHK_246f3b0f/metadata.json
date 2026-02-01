@@ -1,0 +1,16 @@
+{
+  "page_id": "246f3b0f-ba85-818e-a93f-caa5265d05ee",
+  "created_time": "2025-08-05T14:15:00.000Z",
+  "last_edited_time": "2025-08-05T14:15:00.000Z",
+  "url": "https://www.notion.so/CHK-246f3b0fba85818ea93fcaa5265d05ee",
+  "properties": {
+    "ステータス": {"type": "status", "status": {"name": "未着手", "color": "default"}},
+    "テキスト": {"type": "rich_text", "rich_text": []},
+    "担当者": {"type": "people", "people": []},
+    "タスクの種類": {"type": "multi_select", "multi_select": []},
+    "説明": {"type": "rich_text", "rich_text": [{"plain_text": "運営STの会場把握、誘導経路のCHK"}]},
+    "エリア": {"type": "multi_select", "multi_select": [{"name": "会場入口"}, {"name": "受付"}, {"name": "Hall"}, {"name": "託児室"}]},
+    "期日": {"type": "date", "date": null},
+    "タスク名": {"id": "title", "type": "title", "title": [{"plain_text": "誘導経路CHK"}]}
+  }
+}

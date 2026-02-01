@@ -1,0 +1,17 @@
+# れお美容レビュー
+
+Notion URL: https://www.notion.so/154f3b0fba8581ed8e95d98d79e95a20
+同期日時: 2026-01-27T00:00:00+09:00
+
+---
+
+## プロパティ
+
+- **アカウント名**: れお美容レビュー
+- **小ジャンル**: コスメ,メイク
+- **ジャンル**: 美容②
+- **フォロワー（k)**: 25.4
+- **お気に入り**: false
+- **アカウントURL**: https://www.tiktok.com/@reo_beauty?is_from_webapp=1&sender_device=pc
+- **備考**: (未設定)
+

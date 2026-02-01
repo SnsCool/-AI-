@@ -1,0 +1,169 @@
+# リンク先コンテンツ
+
+**URL**: https://forms.gle/iy66kMTfiGDwMNZF9
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 2024年11月5日
+**取得日時**: 2026-01-22T14:08:31.562772
+
+---
+
+## コンテンツ
+
+  - heading "【SnsCool】2期目を振り返ろう" [ref=e1] [level=1]
+  - text: 2期目の自分自身が、5つの「Be」それぞれでバリューを体現できていたかを振り返って自己評価しましょう！
+  - link "Google にログイン" [ref=e2]:
+    - /url: https://accounts.google.com/Login?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfmc1bqb7xWvmVSgG0XkgO-4bGRMvm6z8kWv9JgcaG9p4mIXw%2Fviewform%3Ffbzx%3D-2433596380061417787
+  - text: すると作業内容を保存できます。
+  - button "詳細" [ref=e3]
+    - listitem:
+      - heading "回答者 必須の質問" [ref=e4] [level=3]: 回答者 *
+      - textbox "回答者 必須の質問" [ref=e5]
+    - listitem:
+      - heading "「Be better」は、10点満点中何点ですか？ 必須の質問" [ref=e6] [level=3]: 「Be better」は、10点満点中何点ですか？ *
+      - radiogroup "「Be better」は、10点満点中何点ですか？ 必須の質問":
+        - text: "1"
+        - radio "1" [ref=e7]
+        - text: "2"
+        - radio "2" [ref=e8]
+        - text: "3"
+        - radio "3" [ref=e9]
+        - text: "4"
+        - radio "4" [ref=e10]
+        - text: "5"
+        - radio "5" [ref=e11]
+        - text: "6"
+        - radio "6" [ref=e12]
+        - text: "7"
+        - radio "7" [ref=e13]
+        - text: "8"
+        - radio "8" [ref=e14]
+        - text: "9"
+        - radio "9" [ref=e15]
+        - text: "10"
+        - radio "10" [ref=e16]
+    - listitem:
+      - heading "評価の理由や具体的な事例を教えてください！ 必須の質問" [ref=e17] [level=3]: 評価の理由や具体的な事例を教えてください！ *
+      - text: ■Be better：よりよくあれ 常により良い状態を目指します。 また、そうあろうとする人のサポートをします。
+      - textbox "評価の理由や具体的な事例を教えてください！ 必須の質問" [ref=e18]
+    - listitem:
+      - heading "「Be honest」は、10点満点中何点ですか？ 必須の質問" [ref=e19] [level=3]: 「Be honest」は、10点満点中何点ですか？ *
+      - radiogroup "「Be honest」は、10点満点中何点ですか？ 必須の質問":
+        - text: "1"
+        - radio "1" [ref=e20] [nth=1]
+        - text: "2"
+        - radio "2" [ref=e21] [nth=1]
+        - text: "3"
+        - radio "3" [ref=e22] [nth=1]
+        - text: "4"
+        - radio "4" [ref=e23] [nth=1]
+        - text: "5"
+        - radio "5" [ref=e24] [nth=1]
+        - text: "6"
+        - radio "6" [ref=e25] [nth=1]
+        - text: "7"
+        - radio "7" [ref=e26] [nth=1]
+        - text: "8"
+        - radio "8" [ref=e27] [nth=1]
+        - text: "9"
+        - radio "9" [ref=e28] [nth=1]
+        - text: "10"
+        - radio "10" [ref=e29] [nth=1]
+    - listitem:
+      - heading "評価の理由や具体的な事例を教えてください！ 必須の質問" [ref=e30] [nth=1] [level=3]: 評価の理由や具体的な事例を教えてください！ *
+      - text: ■Be honest：正直であれ チーム・顧客・自分に対して嘘をつかない 誠実で正直な人になります。
+      - textbox "評価の理由や具体的な事例を教えてください！ 必須の質問" [ref=e31] [nth=1]
+    - listitem:
+      - heading "「Be proactive」は、10点満点中何点ですか？ 必須の質問" [ref=e32] [level=3]: 「Be proactive」は、10点満点中何点ですか？ *
+      - radiogroup "「Be proactive」は、10点満点中何点ですか？ 必須の質問":
+        - text: "1"
+        - radio "1" [ref=e33] [nth=2]
+        - text: "2"
+        - radio "2" [ref=e34] [nth=2]
+        - text: "3"
+        - radio "3" [ref=e35] [nth=2]
+        - text: "4"
+        - radio "4" [ref=e36] [nth=2]
+        - text: "5"
+        - radio "5" [ref=e37] [nth=2]
+        - text: "6"
+        - radio "6" [ref=e38] [nth=2]
+        - text: "7"
+        - radio "7" [ref=e39] [nth=2]
+        - text: "8"
+        - radio "8" [ref=e40] [nth=2]
+        - text: "9"
+        - radio "9" [ref=e41] [nth=2]
+        - text: "10"
+        - radio "10" [ref=e42] [nth=2]
+    - listitem:
+      - heading "評価の理由や具体的な事例を教えてください！ 必須の質問" [ref=e43] [nth=2] [level=3]: 評価の理由や具体的な事例を教えてください！ *
+      - text: ■Be proactive：主体的であれ 自分の意思や判断に基づいて Missionを果たすために尽力します。
+      - textbox "評価の理由や具体的な事例を教えてください！ 必須の質問" [ref=e44] [nth=2]
+    - listitem:
+      - heading "「Be challenging」は、10点満点中何点ですか？ 必須の質問" [ref=e45] [level=3]: 「Be challenging」は、10点満点中何点ですか？ *
+      - radiogroup "「Be challenging」は、10点満点中何点ですか？ 必須の質問":
+        - text: "1"
+        - radio "1" [ref=e46] [nth=3]
+        - text: "2"
+        - radio "2" [ref=e47] [nth=3]
+        - text: "3"
+        - radio "3" [ref=e48] [nth=3]
+        - text: "4"
+        - radio "4" [ref=e49] [nth=3]
+        - text: "5"
+        - radio "5" [ref=e50] [nth=3]
+        - text: "6"
+        - radio "6" [ref=e51] [nth=3]
+        - text: "7"
+        - radio "7" [ref=e52] [nth=3]
+        - text: "8"
+        - radio "8" [ref=e53] [nth=3]
+        - text: "9"
+        - radio "9" [ref=e54] [nth=3]
+        - text: "10"
+        - radio "10" [ref=e55] [nth=3]
+    - listitem:
+      - heading "評価の理由や具体的な事例を教えてください！ 必須の質問" [ref=e56] [nth=3] [level=3]: 評価の理由や具体的な事例を教えてください！ *
+      - text: ■Be challenging：挑戦者であれ 失敗を恐れず、挑戦します。 また、組織・部下・自分の挑戦を賞賛します。
+      - textbox "評価の理由や具体的な事例を教えてください！ 必須の質問" [ref=e57] [nth=3]
+    - listitem:
+      - heading "「Be authentic」は、10点満点中何点ですか？ 必須の質問" [ref=e58] [level=3]: 「Be authentic」は、10点満点中何点ですか？ *
+      - radiogroup "「Be authentic」は、10点満点中何点ですか？ 必須の質問":
+        - text: "1"
+        - radio "1" [ref=e59] [nth=4]
+        - text: "2"
+        - radio "2" [ref=e60] [nth=4]
+        - text: "3"
+        - radio "3" [ref=e61] [nth=4]
+        - text: "4"
+        - radio "4" [ref=e62] [nth=4]
+        - text: "5"
+        - radio "5" [ref=e63] [nth=4]
+        - text: "6"
+        - radio "6" [ref=e64] [nth=4]
+        - text: "7"
+        - radio "7" [ref=e65] [nth=4]
+        - text: "8"
+        - radio "8" [ref=e66] [nth=4]
+        - text: "9"
+        - radio "9" [ref=e67] [nth=4]
+        - text: "10"
+        - radio "10" [ref=e68] [nth=4]
+    - listitem:
+      - heading "評価の理由や具体的な事例を教えてください！ 必須の質問" [ref=e69] [nth=4] [level=3]: 評価の理由や具体的な事例を教えてください！ *
+      - text: "■Be authentic: 本物であれ 私たちは常に社会に誇れる 正真正銘の本物を目指します。"
+      - textbox "評価の理由や具体的な事例を教えてください！ 必須の質問" [ref=e70] [nth=4]
+  - button "Submit" [ref=e71]: 送信
+  - button "フォームをクリア" [ref=e72]
+  - text: Google フォームでパスワードを送信しないでください。 このフォームは SnsCool 内部で作成されました。
+  - paragraph:
+    - text: このフォームが不審だと思われる場合
+    - link "報告" [ref=e73]:
+      - /url: https://drive.google.com/abuse?id=AKkXjoxP5PPi83doywMLwCyV6zuFTDMjXS4EDLUtR8-GTU1RQ-rfMO555pxkirLWg_-4fWBe6pmLxqAbTE3-Fig:0&docurl=https://docs.google.com/forms/d/e/1FAIpQLSfmc1bqb7xWvmVSgG0XkgO-4bGRMvm6z8kWv9JgcaG9p4mIXw/viewform?usp%3Dsend_form
+  - link "Google フォーム" [ref=e74]:
+    - /url: //www.google.com/forms/about/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms
+    - text: フォーム
+  - button "ヘルプとフィードバック" [ref=e75]
+

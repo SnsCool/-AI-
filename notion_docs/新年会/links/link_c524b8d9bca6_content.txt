@@ -1,0 +1,431 @@
+# リンク先コンテンツ
+
+**URL**: https://tabelog.com/tokyo/A1303/A130301/13231204/
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 新年会
+**取得日時**: 2026-01-22T13:39:14.050626
+
+---
+
+## コンテンツ
+
+  - heading "Ottotto BREWERY 渋谷道玄坂店 - 渋谷（ビアバー）" [ref=e1] [level=1]
+    - listitem:
+      - link "食べログについて" [ref=e2]:
+        - /url: https://tabelog.com/help/beginner/
+    - listitem:
+      - link "保有Vポイント" [ref=e3]:
+        - /url: https://tabelog.com/account/login/
+    - listitem:
+      - link "予約確認" [ref=e4]:
+        - /url: https://yoyaku.tabelog.com/yoyaku/tabelog_booking/send_remind/
+    - listitem:
+      - link "行ったお店" [ref=e5]:
+        - /url: https://tabelog.com/account/login/
+    - listitem:
+      - link "保存リスト" [ref=e6]:
+        - /url: https://tabelog.com/account/login/
+    - listitem:
+      - link "無料会員登録/ログイン" [ref=e7]:
+        - /url: https://tabelog.com/account/login/
+  - paragraph:
+    - link "食べログ" [ref=e8]:
+      - /url: https://tabelog.com/
+  - textbox "エリア・駅 [例:銀座、渋谷]" [ref=e9]
+  - textbox "キーワード [例:焼肉、店名、個室]" [ref=e10]
+  - textbox "" [ref=e11]: 2026/1/22(木)
+  - text: 
+  - combobox "" [ref=e12]:
+    - option "10:00" [ref=e13]
+    - option "10:30" [ref=e14]
+    - option "11:00" [ref=e15]
+    - option "11:30" [ref=e16]
+    - option "12:00" [ref=e17]
+    - option "12:30" [ref=e18]
+    - option "13:00" [ref=e19]
+    - option "13:30" [ref=e20]
+    - option "14:00" [ref=e21]
+    - option "14:30" [ref=e22]
+    - option "15:00" [ref=e23]
+    - option "15:30" [ref=e24]
+    - option "16:00" [ref=e25]
+    - option "16:30" [ref=e26]
+    - option "17:00" [ref=e27]
+    - option "17:30" [ref=e28]
+    - option "18:00" [ref=e29]
+    - option "18:30" [ref=e30]
+    - option "19:00" [ref=e31] [selected]
+    - option "19:30" [ref=e32]
+    - option "20:00" [ref=e33]
+    - option "20:30" [ref=e34]
+    - option "21:00" [ref=e35]
+    - option "21:30" [ref=e36]
+    - option "22:00" [ref=e37]
+    - option "22:30" [ref=e38]
+    - option "23:00" [ref=e39]
+    - option "23:30" [ref=e40]
+    - option "24:00" [ref=e41]
+  - text: 
+  - combobox "" [ref=e42] [nth=1]:
+    - option "1名" [ref=e43]
+    - option "2名" [ref=e44] [selected]
+    - option "3名" [ref=e45]
+    - option "4名" [ref=e46]
+    - option "5名" [ref=e47]
+    - option "6名" [ref=e48]
+    - option "7名" [ref=e49]
+    - option "8名" [ref=e50]
+    - option "9名" [ref=e51]
+    - option "10名" [ref=e52]
+    - option "11名" [ref=e53]
+    - option "12名" [ref=e54]
+    - option "13名" [ref=e55]
+    - option "14名" [ref=e56]
+    - option "15名" [ref=e57]
+    - option "16名" [ref=e58]
+    - option "17名" [ref=e59]
+    - option "18名" [ref=e60]
+    - option "19名" [ref=e61]
+    - option "20名" [ref=e62]
+    - option "21名" [ref=e63]
+    - option "22名" [ref=e64]
+    - option "23名" [ref=e65]
+    - option "24名" [ref=e66]
+    - option "25名" [ref=e67]
+    - option "26名" [ref=e68]
+    - option "27名" [ref=e69]
+    - option "28名" [ref=e70]
+    - option "29名" [ref=e71]
+    - option "30名" [ref=e72]
+    - option "31名" [ref=e73]
+    - option "32名" [ref=e74]
+    - option "33名" [ref=e75]
+    - option "34名" [ref=e76]
+    - option "35名" [ref=e77]
+    - option "36名" [ref=e78]
+    - option "37名" [ref=e79]
+    - option "38名" [ref=e80]
+    - option "39名" [ref=e81]
+    - option "40名" [ref=e82]
+    - option "41名" [ref=e83]
+    - option "42名" [ref=e84]
+    - option "43名" [ref=e85]
+    - option "44名" [ref=e86]
+    - option "45名" [ref=e87]
+    - option "46名" [ref=e88]
+    - option "47名" [ref=e89]
+    - option "48名" [ref=e90]
+    - option "49名" [ref=e91]
+    - option "50名" [ref=e92]
+    - option "51名" [ref=e93]
+    - option "52名" [ref=e94]
+    - option "53名" [ref=e95]
+    - option "54名" [ref=e96]
+    - option "55名" [ref=e97]
+    - option "56名" [ref=e98]
+    - option "57名" [ref=e99]
+    - option "58名" [ref=e100]
+    - option "59名" [ref=e101]
+    - option "60名" [ref=e102]
+    - option "61名" [ref=e103]
+    - option "62名" [ref=e104]
+    - option "63名" [ref=e105]
+    - option "64名" [ref=e106]
+    - option "65名" [ref=e107]
+    - option "66名" [ref=e108]
+    - option "67名" [ref=e109]
+    - option "68名" [ref=e110]
+    - option "69名" [ref=e111]
+    - option "70名" [ref=e112]
+    - option "71名" [ref=e113]
+    - option "72名" [ref=e114]
+    - option "73名" [ref=e115]
+    - option "74名" [ref=e116]
+    - option "75名" [ref=e117]
+    - option "76名" [ref=e118]
+    - option "77名" [ref=e119]
+    - option "78名" [ref=e120]
+    - option "79名" [ref=e121]
+    - option "80名" [ref=e122]
+    - option "81名" [ref=e123]
+    - option "82名" [ref=e124]
+    - option "83名" [ref=e125]
+    - option "84名" [ref=e126]
+    - option "85名" [ref=e127]
+    - option "86名" [ref=e128]
+    - option "87名" [ref=e129]
+    - option "88名" [ref=e130]
+    - option "89名" [ref=e131]
+    - option "90名" [ref=e132]
+    - option "91名" [ref=e133]
+    - option "92名" [ref=e134]
+    - option "93名" [ref=e135]
+    - option "94名" [ref=e136]
+    - option "95名" [ref=e137]
+    - option "96名" [ref=e138]
+    - option "97名" [ref=e139]
+    - option "98名" [ref=e140]
+    - option "99名" [ref=e141]
+  - text: 
+  - button "" [ref=e142]
+    - text: 
+    - listitem:
+      - link "食べログ" [ref=e143] [nth=1]:
+        - /url: https://tabelog.com/
+      - text: 
+    - listitem:
+      - link "東京" [ref=e144]:
+        - /url: https://tabelog.com/tokyo/
+      - text: 
+    - listitem:
+      - link "東京 ビアバー" [ref=e145]:
+        - /url: https://tabelog.com/tokyo/rstLst/BC0104/
+      - text: 
+    - listitem:
+      - link "渋谷・恵比寿・代官山 ビアバー" [ref=e146]:
+        - /url: https://tabelog.com/tokyo/A1303/rstLst/BC0104/
+      - text: 
+    - listitem:
+      - link "渋谷 ビアバー" [ref=e147]:
+        - /url: https://tabelog.com/tokyo/A1303/A130301/rstLst/BC0104/
+      - text: 
+    - listitem:
+      - link "渋谷駅 ビアバー" [ref=e148]:
+        - /url: https://tabelog.com/tokyo/A1303/A130301/R4698/rstLst/BC0104/
+      - text: 
+      - strong: Ottotto BREWERY 渋谷道玄坂店
+  - paragraph: 公式
+  - link "自家製クラフトビールを愉しむビアホール" [ref=e149]:
+    - /url: https://tabelog.com/tokyo/A1303/A130301/13231204/
+  - heading "Ottotto BREWERY 渋谷道玄坂店" [ref=e150] [level=2]
+      - paragraph:   3.45
+    - listitem:
+      - text: 
+      - link "137 人" [ref=e151]:
+        - /url: https://tabelog.com/tokyo/A1303/A130301/13231204/dtlrvwlst/
+        - emphasis: "137"
+        - text: 人
+      - text: 
+      - emphasis: "9759"
+      - text: 人
+  - term: 最寄り駅：
+  - definition:
+    - link "渋谷駅 " [ref=e152]:
+      - /url: https://tabelog.com/tokyo/A1303/A130301/R4698/rstLst/
+  - text: "["
+  - link "東京 " [ref=e153]:
+    - /url: https://tabelog.com/tokyo/
+  - text: "]"
+  - term: ジャンル：
+  - definition:
+    - link "ビアバー " [ref=e154]:
+      - /url: https://tabelog.com/rstLst/BC0104/
+    - link "バル " [ref=e155]:
+      - /url: https://tabelog.com/rstLst/RC210301/
+    - link "オイスターバー " [ref=e156]:
+      - /url: https://tabelog.com/rstLst/RC980602/
+  - term: 予算：
+  - definition:
+    - paragraph:
+      - img "Dinner": 
+      - link "￥3,000～￥3,999" [ref=e157]:
+        - /url: https://tabelog.com/tokyo/A1303/A130301/13231204/dtlratings/#price-range
+    - paragraph:
+      - img "Lunch": 
+      - link "￥3,000～￥3,999" [ref=e158] [nth=1]:
+        - /url: https://tabelog.com/tokyo/A1303/A130301/13231204/dtlratings/#price-range
+  - text: 
+  - link "店舗情報（詳細）" [ref=e159]:
+    - /url: "#title-rstdata"
+  - button " 行った" [ref=e160]
+  - button " 保存" [ref=e161]
+  - button "投稿 " [ref=e162]
+  - paragraph: 気になるお店はこちらで保存ができます
+    - listitem:
+      - link "トップ" [ref=e163]:
+        - /url: https://tabelog.com/tokyo/A1303/A130301/13231204/
+    - listitem:
+      - link "座席" [ref=e164]:
+        - /url: https://tabelog.com/tokyo/A1303/A130301/13231204/table/
+    - listitem:
+      - link "メニュー・コース" [ref=e165]:
+        - /url: https://tabelog.com/tokyo/A1303/A130301/13231204/party/
+    - listitem:
+      - link "写真 372 " [ref=e166]:
+        - /url: https://tabelog.com/tokyo/A1303/A130301/13231204/dtlphotolst/smp2/
+        - text: 写真
+        - strong: "372"
+        - text: 
+    - listitem:
+      - link "口コミ 137 " [ref=e167]:
+        - /url: https://tabelog.com/tokyo/A1303/A130301/13231204/dtlrvwlst/
+        - text: 口コミ
+        - emphasis: "137"
+        - text: 
+    - listitem:
+      - link "クーポン・地図" [ref=e168]:
+        - /url: https://tabelog.com/tokyo/A1303/A130301/13231204/dtlmap/
+      - img "Ottotto BREWERY - メイン写真:"
+      - img "Ottotto BREWERY - メイン写真:"
+      - img "Ottotto BREWERY - メイン写真:"
+      - img "Ottotto BREWERY - メイン写真:"
+      - img "Ottotto BREWERY - メイン写真:"
+      - img "Ottotto BREWERY - メイン写真:"
+      - img "Ottotto BREWERY - メイン写真:"
+      - img "Ottotto BREWERY - メイン写真:"
+      - img "Ottotto BREWERY - メイン写真:"
+      - img "Ottotto BREWERY - メイン写真:"
+  - button "前の画像" [ref=e169]
+  - button "次の画像" [ref=e170]
+    - listitem:
+      - link "Ottotto BREWERY - メイン写真:" [ref=e171]:
+        - /url: "#"
+        - img "Ottotto BREWERY - メイン写真:"
+    - listitem:
+      - link "Ottotto BREWERY - メイン写真:" [ref=e172] [nth=1]:
+        - /url: "#"
+        - img "Ottotto BREWERY - メイン写真:"
+    - listitem:
+      - link "Ottotto BREWERY - メイン写真:" [ref=e173] [nth=2]:
+        - /url: "#"
+        - img "Ottotto BREWERY - メイン写真:"
+    - listitem:
+      - link "Ottotto BREWERY - メイン写真:" [ref=e174] [nth=3]:
+        - /url: "#"
+        - img "Ottotto BREWERY - メイン写真:"
+    - listitem:
+      - link "Ottotto BREWERY - メイン写真:" [ref=e175] [nth=4]:
+        - /url: "#"
+        - img "Ottotto BREWERY - メイン写真:"
+    - listitem:
+      - link "Ottotto BREWERY - メイン写真:" [ref=e176] [nth=5]:
+        - /url: "#"
+        - img "Ottotto BREWERY - メイン写真:"
+    - listitem:
+      - link "Ottotto BREWERY - メイン写真:" [ref=e177] [nth=6]:
+        - /url: "#"
+        - img "Ottotto BREWERY - メイン写真:"
+    - listitem:
+      - link "Ottotto BREWERY - メイン写真:" [ref=e178] [nth=7]:
+        - /url: "#"
+        - img "Ottotto BREWERY - メイン写真:"
+    - listitem:
+      - link "Ottotto BREWERY - メイン写真:" [ref=e179] [nth=8]:
+        - /url: "#"
+        - img "Ottotto BREWERY - メイン写真:"
+    - listitem:
+      - link "Ottotto BREWERY - メイン写真:" [ref=e180] [nth=9]:
+        - /url: "#"
+        - img "Ottotto BREWERY - メイン写真:"
+  - heading "《渋谷駅A2出口3分》浜松町本店より直送のオリジナルクラフトビールが愉しめる☆" [ref=e181] [level=3]
+  - paragraph: ◇忘年会ご予約受付中◇ 着席80名様 立食100名様程度にてご利用が頂けます。 結婚式2次会等にも駅近でアクセス抜群の為便利です。 ご人数様、ご予算に応じてご利用のお時間、パーティー内容もご相談に応じます。 お気軽にお問合せ下さい。 ◇誕生日・記念日に◇ 特別な日を当店スタッフ一同お祝いさせて頂きます! デザートプレート、サプライズ、ご相談下さい♪ ◇飲み放題プランあり◇ ☆クラフトビール含む2h飲み放題プランあり
+  - heading "お店のこだわり" [ref=e182] [level=3]
+  - paragraph: ドリンク
+  - paragraph: 乾杯は自家醸造！おしゃれにOttotto樽生クラフトビールで
+  - paragraph: 空間
+  - paragraph: DAZN契約店！55インチモニター等6台完備してます！
+  - paragraph: ドリンク
+  - paragraph: 樽生クラフトビール付き2H飲み放題！3500円～
+  - paragraph: 料理
+  - paragraph: 圧倒的ボリュームのコース料理は、飲み放題付き２ｈ5000円～
+  - heading "コース" [ref=e183] [level=3]
+  - paragraph:
+    - link [ref=e184]:
+      - /url: https://tabelog.com/rst/rstdtl_party_dtl?LstAre=A130301&LstPrf=A1303&pal=tokyo&pplan_id=209529293&rcd=13231204
+  - text:  おすすめ 飲み放題
+  - paragraph:
+    - link "【新年会人気No.1クラフトビールを堪能する！2Hクラフトビール4種プラチナ飲み放題付】Ottottoオリジナルクラフト4種付きで大人気！ビアチキンのローストが食べれるプラチナプラン全5品 6000円" [ref=e185]:
+      - /url: https://tabelog.com/rst/rstdtl_party_dtl?LstAre=A130301&LstPrf=A1303&pal=tokyo&pplan_id=209529293&rcd=13231204
+    - text: 6品
+  - paragraph: 36時間ビールに漬け込んだビアチキンは柔らかくジューシー！ビールやワインとの相性も抜群です☆
+  - text: 予約する
+  - link "コース詳細" [ref=e186]:
+    - /url: https://tabelog.com/rst/rstdtl_party_dtl?LstAre=A130301&LstPrf=A1303&pal=tokyo&pplan_id=209529293&rcd=13231204
+  - deletion: 6,500円
+  - emphasis: 6,000
+  - text: 円 (税込)
+  - term: 
+  - definition: 2～36名様
+  - button " このコース予約で使えるクーポン（2） " [ref=e187]
+  - paragraph:
+    - link [ref=e188] [nth=1]:
+      - /url: https://tabelog.com/rst/rstdtl_party_dtl?LstAre=A130301&LstPrf=A1303&pal=tokyo&pplan_id=102171824&rcd=13231204
+  - text:  人気No.1 飲み放題
+  - paragraph:
+    - link "【パーティー人気ＮＯ．1♪2Hクラフトビール2種飲み放題付 】大人気！ビアチキンのローストが食べれるプレミアムプラン全6品5000円Ottottoクラフトビール更に2種追加（+1000円）" [ref=e189]:
+      - /url: https://tabelog.com/rst/rstdtl_party_dtl?LstAre=A130301&LstPrf=A1303&pal=tokyo&pplan_id=102171824&rcd=13231204
+    - text: 6品
+  - paragraph: 36時間ビールに漬け込んだビアチキンは柔らかくジューシー！ビールやワインとの相性も抜群です☆
+  - text: 予約する
+  - link "コース詳細" [ref=e190] [nth=1]:
+    - /url: https://tabelog.com/rst/rstdtl_party_dtl?LstAre=A130301&LstPrf=A1303&pal=tokyo&pplan_id=102171824&rcd=13231204
+  - emphasis: 5,000
+  - text: 円 (税込)
+  - term: 
+  - definition: 2～36名様
+  - button " このコース予約で使えるクーポン（4） " [ref=e191]
+  - paragraph:
+    - link [ref=e192] [nth=2]:
+      - /url: https://tabelog.com/rst/rstdtl_party_dtl?LstAre=A130301&LstPrf=A1303&pal=tokyo&pplan_id=275777643&rcd=13231204
+  - text: 飲み放題
+  - paragraph:
+    - link "【パーティー人気ＮＯ．1♪ゆったり３Hクラフトビール2種飲み放題付 】大人気！ビアチキンのローストが食べれるプレミアムプラン全6品6000円Ottottoクラフトビール更に2種追加（+1000円）" [ref=e193]:
+      - /url: https://tabelog.com/rst/rstdtl_party_dtl?LstAre=A130301&LstPrf=A1303&pal=tokyo&pplan_id=275777643&rcd=13231204
+    - text: 6品
+  - paragraph: 36時間ビールに漬け込んだビアチキンは柔らかくジューシー！ビールやワインとの相性も抜群です☆ ※飲み放題はラストオーダーは30分前です。
+  - text: 予約する
+  - link "コース詳細" [ref=e194] [nth=2]:
+    - /url: https://tabelog.com/rst/rstdtl_party_dtl?LstAre=A130301&LstPrf=A1303&pal=tokyo&pplan_id=275777643&rcd=13231204
+  - emphasis: 6,000
+  - text: 円 (税込)
+  - term: 
+  - definition: 2～36名様
+  - button " このコース予約で使えるクーポン（1） " [ref=e195]
+  - paragraph:
+    - link "コースをもっと見る（8件）" [ref=e196]:
+      - /url: /tokyo/A1303/A130301/13231204/party/
+      - text: 
+      - strong: コース
+      - text: をもっと見る（8件）
+  - heading "お得なクーポン" [ref=e197] [level=3]
+  - link "クーポン 【1月平日スペシャル♪18：00スタートまで 5000円ビアチキンプラン→4500円】4名様以上月曜～木曜限定 詳細" [ref=e198]:
+    - /url: https://tabelog.com/tokyo/A1303/A130301/13231204/dtlmap/
+    - paragraph: クーポン
+    - paragraph: 【1月平日スペシャル♪18：00スタートまで 5000円ビアチキンプラン→4500円】4名様以上月曜～木曜限定
+    - paragraph: 詳細
+  - link "クーポン 【1月新年限定】日・月・火曜日限定コースご予約でOttotto飲み放題プレミアム3種→PaleAle IPAなどプラチナ飲み放題5種にランクアップサービス！！ 詳細" [ref=e199]:
+    - /url: https://tabelog.com/tokyo/A1303/A130301/13231204/dtlmap/
+    - paragraph: クーポン
+    - paragraph: 【1月新年限定】日・月・火曜日限定コースご予約でOttotto飲み放題プレミアム3種→PaleAle IPAなどプラチナ飲み放題5種にランクアップサービス！！
+    - paragraph: 詳細
+  - link "クーポン 【1月新年会スペシャル♪平日限定 ※日・月・火曜日限定 祝日・祝前日除く】4名様以上コースご予約にて 飲み放題１ｈ延長サービス2h→３ｈにグレードアップ☆ 詳細" [ref=e200]:
+    - /url: https://tabelog.com/tokyo/A1303/A130301/13231204/dtlmap/
+    - paragraph: クーポン
+    - paragraph: 【1月新年会スペシャル♪平日限定 ※日・月・火曜日限定 祝日・祝前日除く】4名様以上コースご予約にて 飲み放題１ｈ延長サービス2h→３ｈにグレードアップ☆
+    - paragraph: 詳細
+  - paragraph:
+    - link "全部で4枚のクーポンを全て見る" [ref=e201]:
+      - /url: https://tabelog.com/tokyo/A1303/A130301/13231204/dtlmap/
+      - strong: 全部で4枚のクーポン
+      - text: を全て見る
+    - listitem: ※ クーポンごとに条件が異なりますので、必ず利用条件・提示条件をご確認ください。
+  - heading "投稿写真" [ref=e202] [level=3]
+  - paragraph:
+    - link "投稿する" [ref=e203]:
+      - /url: https://tabelog.com/account/login/
+    - listitem:
+      - paragraph:
+        - link "Ottotto BREWERY -" [ref=e204]:
+          - /url: https://tblg.k-img.com/restaurant/images/Rvw/324660/640x640_rect_49a98f6e1c7abd35d159920d444d612d.jpg
+    - listitem:
+      - paragraph:
+        - link "Ottotto BREWERY -" [ref=e205] [nth=1]:
+          - /url: https://tblg.k-img.com/restaurant/images/Rvw/324660/640x640_rect_5afebc70c84f34e6b332648a9278b94b.jpg
+    - listitem:
+      - paragraph:
+        - link "Ottotto BREWERY -" [ref=e206] [nth=2]:
+        
+
+[... 以下省略 ...]

@@ -1,0 +1,90 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/spreadsheets/d/16C7teV2p1Bw2imTBlZbqoDWbdvKU4Sie2nhd7jFGFEs/edit?gid=972376010#gid=972376010sy
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 12月23日週次
+**取得日時**: 2026-01-22T14:17:03.858374
+
+---
+
+## コンテンツ
+
+    - banner "メニューバー":
+      - link "スプレッドシート ホーム" [ref=e1]:
+        - /url: https://docs.google.com/spreadsheets/?usp=sheets_web
+      - text: 運用代行事業部_全体管理シート
+      - 'button "ドキュメントのステータス: ドライブに保存しました."'
+      - button "梅村章" [ref=e2]:
+      - button "すべてのコメントを表示" [ref=e3]
+      - button "共有します。リンクを知っている全員。 リンクを知っている全員がアクセスできます。ログインは不要です。" [ref=e4] [disabled]: 共有
+      - button "クイック共有操作" [ref=e5] [disabled]
+      - link "ログイン" [ref=e6]:
+        - /url: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/16C7teV2p1Bw2imTBlZbqoDWbdvKU4Sie2nhd7jFGFEs/edit?gid%3D972376010&followup=https://docs.google.com/spreadsheets/d/16C7teV2p1Bw2imTBlZbqoDWbdvKU4Sie2nhd7jFGFEs/edit?gid%3D972376010&ltmpl=sheets&ec=GAZAmwI
+        - menuitem "ファイル" [ref=e7]
+        - menuitem "編集" [ref=e8]
+        - menuitem "表示" [ref=e9]
+        - menuitem "挿入" [ref=e10]
+        - menuitem "表示形式" [ref=e11]
+        - menuitem "データ" [ref=e12]
+        - menuitem "ツール" [ref=e13]
+        - menuitem "拡張機能" [ref=e14]
+        - menuitem "ヘルプ" [ref=e15]
+      - toolbar "メニューを検索 (option+/)":
+        - combobox "メニュー" [ref=e16]
+      - toolbar "メイン":
+        - button "元に戻す (⌘Z)" [ref=e17]
+        - button "やり直し (⌘Y)" [ref=e18]
+        - button "印刷 (⌘P)" [ref=e19]
+        - button "書式を貼り付け" [ref=e20]
+        - combobox "ズーム" [ref=e21]:
+          - option "ズーム のリストで 100% を選択しています。" [ref=e22] [selected]:
+            - textbox "ズーム" [ref=e23]: 100%
+        - button "表示形式を通貨に設定" [ref=e24]: ¥
+        - button "表示形式をパーセントに設定" [ref=e25]: "%"
+        - button "小数点以下の桁数を減らす" [ref=e26]
+        - button "小数点以下の桁数を増やす" [ref=e27]
+        - button "表示形式の詳細設定" [ref=e28]: "123"
+        - listbox "フォント" [ref=e29]:
+          - option "フォント のリストで Arial を選択しています。" [ref=e30] [selected]: Arial
+        - button "フォントサイズを縮小 (⌘+Shift+カンマ)" [ref=e31]
+        - combobox "フォント サイズ" [ref=e32]:
+          - option "フォント サイズ のリストで 10 を選択しています。" [ref=e33] [selected]:
+            - textbox "フォント サイズ" [ref=e34]: "10"
+        - button "フォントサイズを拡大 (⌘+Shift+ピリオド)" [ref=e35]
+        - button "太字 (⌘B)" [ref=e36] [pressed]
+        - button "斜体 (⌘I)" [ref=e37]
+        - button "取り消し線 (⌘+Shift+X)" [ref=e38]
+        - button "テキストの色" [ref=e39]
+        - button "塗りつぶしの色" [ref=e40]
+        - button "枠線" [ref=e41]
+        - button "セルを結合" [ref=e42] [disabled]
+        - button "結合タイプを選択" [ref=e43] [disabled]
+        - button "水平方向の配置" [ref=e44]
+        - button "垂直方向の配置" [ref=e45]
+        - button "テキストを折り返す" [ref=e46]
+        - button "テキストの回転" [ref=e47]
+        - button "もっと見る" [ref=e48]
+      - toolbar "モードと表示":
+        - button "メニューを非表示 (Ctrl+Shift+F)" [ref=e49]
+      - textbox [ref=e50]: A1
+      - button "名前ボックスのメニューボタン。メニュー項目から 1 つを選択すると、対応する名前付き範囲に移動します。" [ref=e51]
+      - textbox [ref=e52] [nth=1]
+    - navigation "シートタブバー" [ref=e53]:
+        - button "シートを追加" [ref=e54]
+        - button "すべてのシート" [ref=e55]
+        - button "クライアント" [ref=e56]
+        - button "ログイン情報" [ref=e57]
+        - button "案件体制管理" [ref=e58]
+        - button "メンバー管理" [ref=e59]
+        - button "人件費管理" [ref=e60]
+        - button "外注単価表" [ref=e61]
+        - button "シート7 のコピー" [ref=e62]
+    - textbox [ref=e63] [nth=2]
+    - link "スクリーン リーダーのサポートを有効にする" [ref=e64]:
+      - /url: "#"
+    - textbox [ref=e65] [nth=3]
+    - region: スクリーン リーダーのサポートを有効にするには、⌘+option+Z を押します。キーボード ショートカットの詳細については、⌘スラッシュ を押します。
+    - text: 梅村章 さんがドキュメントの編集に参加しました。
+

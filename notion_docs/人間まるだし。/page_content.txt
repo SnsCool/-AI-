@@ -1,0 +1,18 @@
+# 人間まるだし。
+
+Notion URL: https://www.notion.so/4023d65b4cea4a31b244a0393b004ba1
+同期日時: 2026-01-27T21:00:00+09:00
+
+---
+
+## プロパティ
+
+- **キャッチコピー**: 人間まるだし。
+- **参照リンク**: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.jp%2Fpin%2F462674561722188103%2F&psig=AOvVaw2KyDMIZ9GvkGjbsfueqLlb&ust=1680707831065000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMCWut3CkP4CFQAAAAAdAAAAABAI
+- **番号**: 80
+- **memo**:
+- **訴求方法**: 対比
+- **企業名, 商品名**: 全裸監督
+- **いいね**: false
+- **画像**: https://i.pinimg.com/originals/ed/c8/0e/edc80e79f95c8c99830d6e5afa39b4f5.jpg
+

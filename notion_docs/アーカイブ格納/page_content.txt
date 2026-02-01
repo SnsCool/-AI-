@@ -1,0 +1,45 @@
+# アーカイブ格納
+
+Notion URL: https://www.notion.so/2e2f3b0fba85803f9f7fd975c8f2fb94
+同期日時: 2026-02-01T12:43:02+09:00
+
+---
+
+🎥 動画アーカイブ作成・公開フロー（Zoom → SnsClub）
+① Zoomレコーディングの取得
+Levela運営のZoomにログイン
+対象イベントのクラウドレコーディングを開く
+動画データをダウンロード
+② 動画編集（最低限）
+冒頭・終了部分の不要箇所をカット
+途中の待ち時間・トラブル箇所があれば削除
+※内容編集は行わず「見やすく整える」のみ
+③ YouTubeへアップロード
+YouTube Studioにログイン
+動画をアップロード
+設定内容
+  公開設定：限定公開
+  再生リスト：該当のSnsClub用リストに追加
+⚠️ 公開設定のミスに注意（必ず限定公開）
+④ SnsClubポータルページ作成
+該当カテゴリの既存ページを複製（推奨）
+以下を差し替え
+  タイトル
+  日付・内容文（必要に応じて）
+SnsClub Portal 
+⑤ サムネイル作成（Canva）
+https://www.canva.com/design/DAGm9RuvYc8/jp6aQHsLuz3nfcyFQYAcfw/edit?utm_content=DAGm9RuvYc8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Canvaでサムネを作成
+サイズ：YouTubeサムネ用（16:9）
+テキストは
+  イベント名
+  日付 or テーマ
+⑥ ページ内容の差し替え
+SnsClub Portal 
+SnsClubポータル→ジャンル特化グルコン→ジャンル→ページを複製
+  講師名を変更
+  サムネ画像をアップロード
+  Instagramリンクを差し替え
+  YouTubeリンクを差し替え
+⑦ Discordで告知
+DiscordのSnsClub運営アカウントで「特典更新のお知らせ」チャンネルに投稿

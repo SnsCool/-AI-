@@ -1,0 +1,25 @@
+# 【最優先】事業モデル確定（10_20）
+
+Notion URL: 
+同期日時: 2026-01-21T21:01:50.071696
+
+---
+
+AI事業
+
+▼サービス概要
+
+https://docs.google.com/document/d/1e1ROUynVz3Rx0wW5iS0hJZeKDOFnAR7fPb-defWVKpU/edit?tab=t.0
+
+▼顧客課題
+
+https://docs.google.com/document/d/1AtP-h4f3ogDllwdvfRs_XtI4AuIx0edW4oFA1FCDXN8/edit?tab=t.0
+
+▼タスク洗い出し
+
+https://docs.google.com/document/d/1O63FbEHg3VRFFfw-BrK7P44GrVf8mlO_3dp_yEn-coQ/edit?tab=t.0
+
+▼用意するプロンプトカテゴリ
+
+https://docs.google.com/document/d/1dciIyq-rGwS5dB2P2G9k3GX3VcmyaQCzWoQSTq5Uhsw/edit?tab=t.0
+

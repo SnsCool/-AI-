@@ -1,0 +1,14 @@
+{
+  "page_id": "265f3b0f-ba85-8014-90c3-e502c7a3bb80",
+  "created_time": "2025-09-05T05:28:00.000Z",
+  "last_edited_time": "2025-09-05T05:32:00.000Z",
+  "url": "https://www.notion.so/265f3b0fba85801490c3e502c7a3bb80",
+  "properties": {
+    "課題": {"type": "rich_text", "rich_text": [{"plain_text": "事業計画が更新されていない"}]},
+    "いつまでに？": {"type": "date", "date": {"start": "2025-09-30"}},
+    "ステータス": {"type": "status", "status": {"name": "未着手", "color": "default"}},
+    "誰が？": {"type": "people", "people": [{"name": "AKIRA"}]},
+    "選択": {"type": "select", "select": {"name": "運用代行", "color": "yellow"}},
+    "何をやるか？": {"id": "title", "type": "title", "title": [{"plain_text": "事業計画を設定した商品価格に合わせて設定する"}]}
+  }
+}

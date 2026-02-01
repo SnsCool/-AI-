@@ -1,0 +1,48 @@
+# リンク先コンテンツ
+
+**URL**: https://www.instagram.com/smallbusiness_studio?igsh=MWlxd2F6YjZsa251OA==
+**種類**: video
+**タイトル**: 動画コンテンツ
+**リンクテキスト**: 
+**参照元**: アカウント方向転換
+**取得日時**: 2026-01-23T06:08:08.621952
+
+---
+
+## コンテンツ
+
+このスクリーンショットは、Instagramのログインページを示しています。動画の再生ページではありません。
+
+以下は表示されているテキストの書き起こしです。
+
+**左側のパネル:**
+*   Instagramのロゴ
+*   See everyday moments from your **close friends**.
+
+**右側のパネル (ログインフォーム):**
+*   Log into Instagram
+*   Mobile number, username or email (入力フィールドのプレースホルダー)
+*   Password (入力フィールドのプレースホルダー)
+*   Log in (ボタン)
+*   Forgot password?
+*   Log in with Facebook (ボタン)
+*   Create new account (ボタン)
+*   Metaのロゴ
+
+**下部のフッター:**
+*   Meta
+*   About
+*   Blog
+*   Jobs
+*   Help
+*   API
+*   Privacy
+*   Terms
+*   Locations
+*   Instagram Lite
+*   Meta AI
+*   Threads
+*   Contact Uploading & Non-Users
+*   Meta Verified
+*   English (言語選択ドロップダウン)
+*   © 2026 Instagram from Meta

@@ -1,0 +1,61 @@
+# リンク先コンテンツ
+
+**URL**: https://timerex.net/s/uzship010_f67e/8f88e27f
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 全体会議議事録
+**取得日時**: 2026-01-22T16:39:35.752820
+
+---
+
+## コンテンツ
+
+  - navigation:
+    - link [ref=e1]:
+      - /url: https://timerex.net
+    - link "サポート" [ref=e2]:
+      - /url: https://help.timerex.net
+    - link "ログイン" [ref=e3]:
+      - /url: https://timerex.net/auth/login
+  - text: 所要時間 30 分
+  - heading "【PALES】オフラインメンバー体験予約" [ref=e4] [level=1]
+  - text: 1 日程選択 2 情報入力 3 日程調整完了 ・筋力トレーニング ・マシン、器具を使ったトレーニング ・自重トレーニング （→オフィスでできます） ・マシンピラティス ・キックボクシング ・ストレッチ （→オフィスでできます） 所要時間は、各プログラムにつき30分になります。 体験予約の際、ご要望のプログラムをメッセージでお送りいただけると嬉しいです。 ご都合の良い日時を選択してください ログインすると、あなたの予定もこの ページで確認できるようになります。
+  - link "新規登録（無料）" [ref=e5]:
+    - /url: https://timerex.net/auth/register?internal_ref=guest_page
+  - text: 2026年1月
+  - text: アジア/東京(UTC+09:00) 
+    - listitem:  前へ
+    - listitem: 12:00
+    - listitem: 13:00
+    - listitem: 14:00
+    - listitem: 15:00
+    - listitem: 16:00
+    - listitem: 17:00
+    - listitem: 18:00
+    - listitem: 19:00
+    - text: 22 木
+    - text: 23 金
+    - text: 24 土
+      - text: 11:30 - 12:00
+      - text: 13:00 - 13:30
+    - text: 25 日
+    - text: 26 月
+    - listitem: 次へ 
+    - listitem: 12:00
+    - listitem: 13:00
+    - listitem: 14:00
+    - listitem: 15:00
+    - listitem: 16:00
+    - listitem: 17:00
+    - listitem: 18:00
+    - listitem: 19:00
+  - link "不正行為を報告する" [ref=e6]:
+    - /url: https://bfdco87fw5s.typeform.com/to/Bf5KhbIh#url=https://timerex.net/s/uzship010_f67e/8f88e27f
+  - contentinfo:
+      - listitem:
+        - text: 言語設定
+        - combobox [ref=e7]:
+          - option "日本語" [ref=e8] [selected]
+          - option "English" [ref=e9]
+

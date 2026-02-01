@@ -1,0 +1,220 @@
+# リンク先コンテンツ
+
+**URL**: https://x.com/kantashono
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 庄野 敢大(しょうの かんた)
+**取得日時**: 2026-01-22T14:42:51.465797
+
+---
+
+## コンテンツ
+
+  - text: Don’t miss what’s happening People on X are the first to know.
+  - link "Log in" [ref=e1]:
+    - /url: /login
+  - link "Sign up" [ref=e2]:
+    - /url: /i/flow/signup
+  - button "Skip to home timeline" [ref=e3]
+  - button "Skip to trending" [ref=e4]
+  - banner:
+    - heading "X" [ref=e5] [level=1]:
+      - link "X" [ref=e6]:
+        - /url: /
+    - navigation "Primary" [ref=e7]
+  - main:
+    - button "Back" [ref=e8]
+    - heading "庄野かんた Verified account" [ref=e9] [level=2]:
+      - text: 庄野かんた
+    - text: 6,228 posts
+    - button "Profile Summary" [ref=e10]
+    - button "Search" [ref=e11]
+    - link "Opens profile photo" [ref=e12]:
+      - /url: /kantashono/photo
+    - button "Follow @kantashono" [ref=e13]: Follow
+    - text: 庄野かんた
+    - button "Provides details about verified accounts." [ref=e14]:
+    - text: "@kantashono 年商数十億ベンチャーのマーケ統括やインハウス広告/CRM責任者やってました。現在はマーケ支援や広告代理店、新規事業立ち上げをやってます。X広告 / Meta広告 の運用ノウハウを発信中。元競泳全国2位。ENTP⇄INTPを行ったり来たり。"
+    - link "@kantashono" [ref=e15]:
+      - /url: /kantashono
+    - text: ←揺れます
+    - button "Translate bio" [ref=e16]
+    - link "Joined May 2021" [ref=e17]:
+      - /url: /kantashono/about
+    - link "978 Following" [ref=e18]:
+      - /url: /kantashono/following
+    - link "2,613 Followers" [ref=e19]:
+      - /url: /kantashono/verified_followers
+    - navigation "Profile timelines" [ref=e20]:
+      - button "Previous" [ref=e21] [disabled]
+        - tab "Posts" [ref=e22] [selected]
+        - tab "Replies" [ref=e23]
+        - tab "Highlights" [ref=e24]
+        - tab "Media" [ref=e25]
+      - button "Next" [ref=e26] [disabled]
+    - region "庄野かんた’s posts" [ref=e27]:
+      - heading "庄野かんた’s posts" [ref=e28] [level=1]
+      - article "Pinned 庄野かんた Verified account @kantashono Jul 16, 2025 やっぱりスクール系は𝕏広告熱いですね まだ全然安く取れるんだけど、運用ノウハウとリソースなくて回してるところがない印象。 無料で広告のアドバイスとかしてるので、お気軽にDMください！ Quote 庄野かんた Verified account @kantashono Jun 16, 2025 単純な趣味で、スクール系のSNS広告運用のアドバイスしてるので興味あればDMください〜！ 普通に話す人が欲しいんです 🥹 3 replies, 4 reposts, 45 likes, 14 bookmarks, 31254 views" [ref=e29]:
+        - text: Pinned
+        - link "庄野かんた Verified account" [ref=e30]:
+          - /url: /kantashono
+          - text: 庄野かんた
+        - link "@kantashono" [ref=e31] [nth=1]:
+          - /url: /kantashono
+        - link "Jul 16, 2025" [ref=e32]:
+          - /url: /kantashono/status/1945261092508459480
+          - time: Jul 16, 2025
+        - button "More" [ref=e33]
+        - text: やっぱりスクール系は𝕏広告熱いですね まだ全然安く取れるんだけど、運用ノウハウとリソースなくて回してるところがない印象。 無料で広告のアドバイスとかしてるので、お気軽にDMください！ Quote
+        - link "庄野かんた Verified account @kantashono Jun 16, 2025 単純な趣味で、スクール系のSNS広告運用のアドバイスしてるので興味あればDMください〜！ 普通に話す人が欲しいんです 🥹" [ref=e34]:
+          - text: 庄野かんた
+          - text: "@kantashono"
+          - time: Jun 16, 2025
+          - text: 単純な趣味で、スクール系のSNS広告運用のアドバイスしてるので興味あればDMください〜！ 普通に話す人が欲しいんです
+        - group "3 replies, 4 reposts, 45 likes, 14 bookmarks, 31254 views":
+          - button "3 Replies. Reply" [ref=e35]: "3"
+          - button "4 reposts. Repost" [ref=e36]: "4"
+          - button "45 Likes. Like" [ref=e37]: "45"
+          - link "31254 views. View post analytics" [ref=e38]:
+            - /url: /kantashono/status/1945261092508459480/analytics
+            - text: 31K
+          - button "Bookmark" [ref=e39]
+          - button "Share post" [ref=e40]
+      - article "庄野かんた Verified account @kantashono May 30, 2025 Meta広告の鉄則。 ・訴求ごとに広告セットを分ける ・1セットあたり3～5CR ・1CRに対して1件以上のCVがつくまで評価しない ここができてない人は運用じゃなく「運試し」。 媒体任せでもない、自分の設計がすべて。 1 reply, 12 reposts, 148 likes, 139 bookmarks, 15690 views" [ref=e41]:
+        - link "庄野かんた Verified account" [ref=e42] [nth=1]:
+          - /url: /kantashono
+          - text: 庄野かんた
+        - link "@kantashono" [ref=e43] [nth=2]:
+          - /url: /kantashono
+        - link "May 30, 2025" [ref=e44]:
+          - /url: /kantashono/status/1928387155929251907
+          - time: May 30, 2025
+        - button "More" [ref=e45] [nth=1]
+        - text: Meta広告の鉄則。 ・訴求ごとに広告セットを分ける ・1セットあたり3～5CR ・1CRに対して1件以上のCVがつくまで評価しない ここができてない人は運用じゃなく「運試し」。 媒体任せでもない、自分の設計がすべて。
+        - group "1 reply, 12 reposts, 148 likes, 139 bookmarks, 15690 views":
+          - button "1 Reply. Reply" [ref=e46]: "1"
+          - button "12 reposts. Repost" [ref=e47]: "12"
+          - button "148 Likes. Like" [ref=e48]: "148"
+          - link "15690 views. View post analytics" [ref=e49]:
+            - /url: /kantashono/status/1928387155929251907/analytics
+            - text: 15K
+          - button "Bookmark" [ref=e50] [nth=1]
+          - button "Share post" [ref=e51] [nth=1]
+      - article "庄野かんた Verified account @kantashono Feb 22, 2025 Meta広告のリターゲティングでは、「LPを訪れたがCVしなかったユーザー全員」に配信するのではなく、「LP滞在時間30秒以上」や「商品ページを閲覧後に離脱したユーザー」のみに限定すると、CPAを抑えながらCVRを向上できる。さらに、過去のリターゲティング広告をクリックしたがCVしなかったユーザー向 1 reply, 6 reposts, 125 likes, 120 bookmarks, 7949 views" [ref=e52]:
+        - link "庄野かんた Verified account" [ref=e53] [nth=2]:
+          - /url: /kantashono
+          - text: 庄野かんた
+        - link "@kantashono" [ref=e54] [nth=3]:
+          - /url: /kantashono
+        - link "Feb 22, 2025" [ref=e55]:
+          - /url: /kantashono/status/1893118764084011276
+          - time: Feb 22, 2025
+        - button "More" [ref=e56] [nth=2]
+        - text: Meta広告のリターゲティングでは、「LPを訪れたがCVしなかったユーザー全員」に配信するのではなく、「LP滞在時間30秒以上」や「商品ページを閲覧後に離脱したユーザー」のみに限定すると、CPAを抑えながらCVRを向上できる。さらに、過去のリターゲティング広告をクリックしたがCVしなかったユーザー向
+        - button "Show more" [ref=e57]
+        - group "1 reply, 6 reposts, 125 likes, 120 bookmarks, 7949 views":
+          - button "1 Reply. Reply" [ref=e58] [nth=1]: "1"
+          - button "6 reposts. Repost" [ref=e59]: "6"
+          - button "125 Likes. Like" [ref=e60]: "125"
+          - link "7949 views. View post analytics" [ref=e61]:
+            - /url: /kantashono/status/1893118764084011276/analytics
+            - text: 7.9K
+          - button "Bookmark" [ref=e62] [nth=2]
+          - button "Share post" [ref=e63] [nth=2]
+      - article "庄野かんた Verified account @kantashono Jan 5, 2024 ① 広告 ↓ ② LINE登録 ↓ ③ 1通目個別相談オファー→個別相談 ↓ ④ ③を3日ほど繰り返す ↓ ⑤ セミナー→個別相談 ↓ ⑥ 個別相談オファー(一斉配信)→個別相談 ↓ ⑦ 個別相談オファー(別切り口)→個別相談 ↓ ⑧ 個別相談オファー(教育動画)→個別相談 ↓ ⑨ ⑤〜⑧を延々と繰り返す 2 replies, 3 reposts, 96 likes, 97 bookmarks, 26086 views" [ref=e64]:
+        - link "庄野かんた Verified account" [ref=e65] [nth=3]:
+          - /url: /kantashono
+          - text: 庄野かんた
+        - link "@kantashono" [ref=e66] [nth=4]:
+          - /url: /kantashono
+        - link "Jan 5, 2024" [ref=e67]:
+          - /url: /kantashono/status/1743198285136048285
+          - time: Jan 5, 2024
+        - button "More" [ref=e68] [nth=3]
+        - text: ① 広告 ↓ ② LINE登録 ↓ ③ 1通目個別相談オファー→個別相談 ↓ ④ ③を3日ほど繰り返す ↓ ⑤ セミナー→個別相談 ↓ ⑥ 個別相談オファー(一斉配信)→個別相談 ↓ ⑦ 個別相談オファー(別切り口)→個別相談 ↓ ⑧ 個別相談オファー(教育動画)→個別相談 ↓ ⑨ ⑤〜⑧を延々と繰り返す
+        - button "Show more" [ref=e69] [nth=1]
+        - group "2 replies, 3 reposts, 96 likes, 97 bookmarks, 26086 views":
+          - button "2 Replies. Reply" [ref=e70]: "2"
+          - button "3 reposts. Repost" [ref=e71]: "3"
+          - button "96 Likes. Like" [ref=e72]: "96"
+          - link "26086 views. View post analytics" [ref=e73]:
+            - /url: /kantashono/status/1743198285136048285/analytics
+            - text: 26K
+          - button "Bookmark" [ref=e74] [nth=3]
+          - button "Share post" [ref=e75] [nth=3]
+      - article "庄野かんた Verified account @kantashono Apr 28, 2024 新卒フリーランスをやってみた1年間を振り返ってみました 就職しないという選択肢をとって ☑︎よかったこと ☑︎悪かったこと ☑︎これから新卒フリーランスやってみたい方へのメッセージ をペラペラ話してます Embedded video Play Video 2 replies, 4 reposts, 92 likes, 20 bookmarks, 31771 views" [ref=e76]:
+        - link "庄野かんた Verified account" [ref=e77] [nth=4]:
+          - /url: /kantashono
+          - text: 庄野かんた
+        - link "@kantashono" [ref=e78] [nth=5]:
+          - /url: /kantashono
+        - link "Apr 28, 2024" [ref=e79]:
+          - /url: /kantashono/status/1784562986428092614
+          - time: Apr 28, 2024
+        - button "More" [ref=e80] [nth=4]
+        - text: 新卒フリーランスをやってみた1年間を振り返ってみました 就職しないという選択肢をとって ☑︎よかったこと ☑︎悪かったこと ☑︎これから新卒フリーランスやってみたい方へのメッセージ をペラペラ話してます
+        - button "Play Video" [ref=e81]
+        - group "2 replies, 4 reposts, 92 likes, 20 bookmarks, 31771 views":
+          - button "2 Replies. Reply" [ref=e82] [nth=1]: "2"
+          - button "4 reposts. Repost" [ref=e83] [nth=1]: "4"
+          - button "92 Likes. Like" [ref=e84]: "92"
+          - link "31771 views. View post analytics" [ref=e85]:
+            - /url: /kantashono/status/1784562986428092614/analytics
+            - text: 31K
+          - button "Bookmark" [ref=e86] [nth=4]
+          - button "Share post" [ref=e87] [nth=4]
+      - article "庄野かんた Verified account @kantashono Dec 10, 2024 僕がCR制作者に必ずリサーチしてもらう項目は ・理想のシーン+感情 ・現状の地獄のシーン+感情(ウッとなる感覚) ・現在理想の未来を得られてない理由 この3つだけ。 これをマストにしはじめてみんなCRが当たるようになったし(ヒット率30%とか)、僕も初めて作ったMetaの台本で2本中2本当てた。 1 reply, 3 reposts, 99 likes, 95 bookmarks, 11318 views" [ref=e88]:
+        - link "庄野かんた Verified account" [ref=e89] [nth=5]:
+          - /url: /kantashono
+          - text: 庄野かんた
+        - link "@kantashono" [ref=e90] [nth=6]:
+          - /url: /kantashono
+        - link "Dec 10, 2024" [ref=e91]:
+          - /url: /kantashono/status/1866436821284176383
+          - time: Dec 10, 2024
+        - button "More" [ref=e92] [nth=5]
+        - text: 僕がCR制作者に必ずリサーチしてもらう項目は ・理想のシーン+感情 ・現状の地獄のシーン+感情(ウッとなる感覚) ・現在理想の未来を得られてない理由 この3つだけ。 これをマストにしはじめてみんなCRが当たるようになったし(ヒット率30%とか)、僕も初めて作ったMetaの台本で2本中2本当てた。
+        - group "1 reply, 3 reposts, 99 likes, 95 bookmarks, 11318 views":
+          - button "1 Reply. Reply" [ref=e93] [nth=2]: "1"
+          - button "3 reposts. Repost" [ref=e94] [nth=1]: "3"
+          - button "99 Likes. Like" [ref=e95]: "99"
+          - link "11318 views. View post analytics" [ref=e96]:
+            - /url: /kantashono/status/1866436821284176383/analytics
+            - text: 11K
+          - button "Bookmark" [ref=e97] [nth=5]
+          - button "Share post" [ref=e98] [nth=5]
+    - region "Sign up" [ref=e99]:
+      - heading "New to X?" [ref=e100] [level=2]
+      - text: Sign up now to get your own personalized timeline!
+      - button "Sign up with Apple" [ref=e101]
+      - link "Create account" [ref=e102]:
+        - /url: /i/flow/signup
+      - text: By signing up, you agree to the
+      - link "Terms of Service" [ref=e103]:
+        - /url: https://x.com/tos
+      - text: and
+      - link "Privacy Policy" [ref=e104]:
+        - /url: https://x.com/privacy
+      - text: ", including"
+      - link "Cookie Use." [ref=e105]:
+        - /url: https://help.x.com/rules-and-policies/twitter-cookies
+    - navigation "Footer" [ref=e106]:
+      - link "Terms of Service" [ref=e107] [nth=1]:
+        - /url: https://x.com/tos
+      - text: "|"
+      - link "Privacy Policy" [ref=e108] [nth=1]:
+        - /url: https://x.com/privacy
+      - text: "|"
+      - link "Cookie Policy" [ref=e109]:
+        - /url: https://support.x.com/articles/20170514
+      - text: "|"
+      - link "Accessibility" [ref=e110]:
+        - /url: https://help.x.com/resources/accessibility
+      - text: "|"
+      - link "Ads info" [ref=e111]:
+        - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+      - text: "|"
+      - button "More" [ref=e112] [nth=6]
+      - text: © 2026 X Corp.
+

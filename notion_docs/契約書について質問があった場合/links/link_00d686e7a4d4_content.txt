@@ -1,0 +1,60 @@
+# リンク先コンテンツ
+
+**URL**: https://chatgpt.com/g/g-68440096552881919cf030b02e0a75d2-qi-yue-shu-zhi-wen-sahotagpt-snsclubyong
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 契約書について質問があった場合
+**取得日時**: 2026-01-23T07:20:36.574686
+
+---
+
+## コンテンツ
+
+提示されたコンテンツを要約すると以下の通りです。
+
+---
+
+このコンテンツは、ChatGPTのユーザーインターフェース、利用に関する重要な情報、およびエラーメッセージで構成されています。
+
+### 1. サイトの基本構造とナビゲーション
+
+*   **スキップリンク**: メインコンテンツ（`#main`）へ直接移動するためのリンク「Skip to content」があります。
+*   **ヘッダー（バナー）**:
+    *   サイトのロゴ兼トップページへのリンク。
+    *   「Model selector」ボタン（現在「ChatGPT」が選択されています）。
+    *   「Log in」（ログイン）ボタン。
+    *   「Sign up for free」（無料登録）ボタン。
+    *   「Open profile menu」（プロフィールメニューを開く）ボタン。
+
+### 2. ChatGPTのメイン機能と規約
+
+*   **メイン見出し**: 「What can I help with?」（何をお手伝いできますか？）
+*   **説明**: 「Ask anything」（何でも聞いてください）。
+*   **主要機能ボタン**:
+    *   「Add photos」（写真を添付）
+    *   「Search」（検索）
+    *   「Study」（学習）
+    *   「Create image」（画像を生成）
+    *   「Start Voice」（音声入力開始）
+*   **利用規約とプライバシーポリシー**:
+    *   ChatGPTへのメッセージ送信は、利用規約（[https://openai.com/terms](https://openai.com/terms)）への同意と、プライバシーポリシー（[https://openai.com/privacy](https://openai.com/privacy)）を読んだことを意味します。
+    *   Cookie設定への参照も記載されています。
+
+### 3. Cookieに関する同意ダイアログ
+
+*   **見出し**: 「We use cookies」（Cookieを使用しています）。
+*   **説明**: サイト機能、サービス利用の理解、マーケティングのためにCookieを使用しており、詳細はCookieポリシー（[https://openai.com/policies/cookie-policy/](https://openai.com/policies/cookie-policy/)）で確認できます。Cookieの管理からいつでも設定を変更可能です。
+*   **操作ボタン**:
+    *   「Close」（閉じる）
+    *   「Manage Cookies」（Cookieを管理）
+    *   「Reject non-essential」（必須ではないものを拒否）
+    *   「Accept all」（すべて承諾）
+
+### 4. 警告メッセージ
+
+*   **グローバル警告およびアラートポップアップ**:
+    *   「Warning: This GPT is inaccessible or not found. Ensure you're using the right account.」（警告: このGPTはアクセスできないか見つかりません。正しいアカウントを使用していることを確認してください。）というメッセージが表示されています。
+    *   アラートポップアップには「Close」（閉じる）ボタンが付随しています。
+
+---

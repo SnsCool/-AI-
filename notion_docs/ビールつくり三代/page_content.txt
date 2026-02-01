@@ -1,0 +1,18 @@
+# ビールつくり三代
+
+Notion URL: https://www.notion.so/bf49e59b705048c1b2d00e1eff905f39
+同期日時: 2026-01-27T11:32:00+09:00
+
+---
+
+## プロパティ
+
+- **キャッチコピー**: ビールつくり三代
+- **参照リンク**: http://yamahide1.gozaru.jp/MyCopy/copybest500.htm
+- **番号**: 270
+- **memo**:
+- **訴求方法**: 実績
+- **企業名, 商品名**: アサヒゴールド　朝日麦酒
+- **いいね**: false
+- **画像**: http://yamahide1.gozaru.jp/MyCopy/img/500_beertukuri3dai.jpg
+

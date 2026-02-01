@@ -1,0 +1,84 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/spreadsheets/d/1OqWS8x1E45rhXI-YkuccM--xGVYIX9YjZWJ_q5EHkzg/edit?gid=0#gid=0
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 🚩当日運営
+**取得日時**: 2026-01-22T13:40:59.401369
+
+---
+
+## コンテンツ
+
+    - banner "メニューバー":
+      - link "スプレッドシート ホーム" [ref=e1]:
+        - /url: https://docs.google.com/spreadsheets/?usp=sheets_web
+      - text: SnsClub大忘年会2025 チーム分け
+      - 'button "ドキュメントのステータス: ドライブに保存しました."'
+      - button "すべてのコメントを表示" [ref=e2]
+      - button "共有します。リンクを知っている全員。 リンクを知っている全員がアクセスできます。ログインは不要です。" [ref=e3] [disabled]: 共有
+      - button "クイック共有操作" [ref=e4] [disabled]
+      - link "ログイン" [ref=e5]:
+        - /url: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/1OqWS8x1E45rhXI-YkuccM--xGVYIX9YjZWJ_q5EHkzg/edit?gid%3D0&followup=https://docs.google.com/spreadsheets/d/1OqWS8x1E45rhXI-YkuccM--xGVYIX9YjZWJ_q5EHkzg/edit?gid%3D0&ltmpl=sheets&ec=GAZAmwI
+        - menuitem "ファイル" [ref=e6]
+        - menuitem "編集" [ref=e7]
+        - menuitem "表示" [ref=e8]
+        - menuitem "挿入" [ref=e9]
+        - menuitem "表示形式" [ref=e10]
+        - menuitem "データ" [ref=e11]
+        - menuitem "ツール" [ref=e12]
+        - menuitem "拡張機能" [ref=e13]
+        - menuitem "ヘルプ" [ref=e14]
+      - toolbar "メニューを検索 (option+/)":
+        - combobox "メニュー" [ref=e15]
+      - toolbar "メイン":
+        - button "元に戻す (⌘Z)" [ref=e16]
+        - button "やり直し (⌘Y)" [ref=e17]
+        - button "印刷 (⌘P)" [ref=e18]
+        - button "書式を貼り付け" [ref=e19]
+        - combobox "ズーム" [ref=e20]:
+          - option "ズーム のリストで 100% を選択しています。" [ref=e21] [selected]:
+            - textbox "ズーム" [ref=e22]: 100%
+        - button "表示形式を通貨に設定" [ref=e23]: ¥
+        - button "表示形式をパーセントに設定" [ref=e24]: "%"
+        - button "小数点以下の桁数を減らす" [ref=e25]
+        - button "小数点以下の桁数を増やす" [ref=e26]
+        - button "表示形式の詳細設定" [ref=e27]: "123"
+        - listbox "フォント" [ref=e28]:
+          - option "フォント のリストで デフォルト (Arial) を選択しています。" [ref=e29] [selected]: デフォルト (Arial)
+        - button "フォントサイズを縮小 (⌘+Shift+カンマ)" [ref=e30]
+        - combobox "フォント サイズ" [ref=e31]:
+          - option "フォント サイズ のリストで 10 を選択しています。" [ref=e32] [selected]:
+            - textbox "フォント サイズ" [ref=e33]: "10"
+        - button "フォントサイズを拡大 (⌘+Shift+ピリオド)" [ref=e34]
+        - button "太字 (⌘B)" [ref=e35]
+        - button "斜体 (⌘I)" [ref=e36]
+        - button "取り消し線 (⌘+Shift+X)" [ref=e37]
+        - button "テキストの色" [ref=e38]
+        - button "塗りつぶしの色" [ref=e39]
+        - button "枠線" [ref=e40]
+        - button "セルを結合" [ref=e41] [disabled]
+        - button "結合タイプを選択" [ref=e42] [disabled]
+        - button "水平方向の配置" [ref=e43]
+        - button "垂直方向の配置" [ref=e44]
+        - button "テキストを折り返す" [ref=e45]
+        - button "テキストの回転" [ref=e46]
+        - button "もっと見る" [ref=e47]
+      - toolbar "モードと表示":
+        - button "メニューを非表示 (Ctrl+Shift+F)" [ref=e48]
+      - textbox [ref=e49]: A1
+      - button "名前ボックスのメニューボタン。メニュー項目から 1 つを選択すると、対応する名前付き範囲に移動します。" [ref=e50]
+      - textbox [ref=e51] [nth=1]
+    - navigation "シートタブバー" [ref=e52]:
+        - button "シートを追加" [ref=e53]
+        - button "すべてのシート" [ref=e54]
+        - button "名簿" [ref=e55]
+        - button "ログ" [ref=e56]
+        - button "チーム分け" [ref=e57]
+    - textbox [ref=e58] [nth=2]
+    - link "スクリーン リーダーのサポートを有効にする" [ref=e59]:
+      - /url: "#"
+    - textbox [ref=e60] [nth=3]
+    - region: スクリーン リーダーのサポートを有効にするには、⌘+option+Z を押します。キーボード ショートカットの詳細については、⌘スラッシュ を押します。
+

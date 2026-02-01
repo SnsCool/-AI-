@@ -1,0 +1,24 @@
+# リンク先コンテンツ
+
+**URL**: https://www.instagram.com/reel/DNPC4LgzAyK/?igsh=MzFjMGg0bzhxY2cx
+**種類**: video
+**タイトル**: 
+**リンクテキスト**: 
+**参照元**: 1番高い買い物
+**取得日時**: 2026-01-23T05:41:30.184888
+
+---
+
+## コンテンツ
+
+提供されたInstagramのReel動画のURLから分かる情報は以下の通りです。
+
+*   **プラットフォーム（Platform）**: Instagram
+*   **コンテンツの種類（Content Type）**: Reel（リール動画）
+*   **動画のユニークID（Shortcode）**: `DNPC4gLzAyK`
+    *   これはInstagram上でこの特定のリール動画を一意に識別するためのショートコードです。
+*   **追加パラメータ（Tracking Parameter）**: `igsh=MzFjMGg0bzhxY2cx`
+    *   これはInstagramが共有リンクに自動的に付与する追跡用パラメータであり、どのユーザーがどこからこのリンクを共有したかなどの情報をInstagramが把握するために使用されます。動画コンテンツそのもののIDではありません。
+
+**まとめると:**
+このURLは、Instagramプラットフォーム上の「DNPC4gLzAyK」というIDを持つリール動画を指しており、共有追跡用のパラメータが付与されています。

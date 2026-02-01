@@ -1,0 +1,388 @@
+# リンク先コンテンツ
+
+**URL**: https://titan-art.com/price
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 【1_14~】合宿：パンフレット制作確認
+**取得日時**: 2026-01-22T15:26:20.354249
+
+---
+
+## コンテンツ
+
+  - banner:
+    - link [ref=e1]:
+      - /url: https://titan-art.com
+      - listitem:
+        - link "BRANDING ブランディング" [ref=e2]:
+          - /url: https://titan-art.com/service_branding
+          - emphasis: BRANDING ブランディング
+      - listitem:
+        - link "PACKAGE パッケージデザイン" [ref=e3]:
+          - /url: https://titan-art.com/works_medium/package
+          - emphasis: PACKAGE パッケージデザイン
+      - listitem:
+        - link "WEB WEB制作" [ref=e4]:
+          - /url: https://titan-art.com/works_medium/web
+          - emphasis: WEB WEB制作
+      - listitem:
+        - link "WORKS 制作実績" [ref=e5]:
+          - /url: https://titan-art.com/works
+          - emphasis: WORKS 制作実績
+      - listitem:
+        - link "PRICE 料金一覧" [ref=e6]:
+          - /url: https://titan-art.com/price
+          - emphasis: PRICE 料金一覧
+        - emphasis: SERVICE サービス
+      - listitem:
+        - link "COMPANY 会社概要" [ref=e7]:
+          - /url: https://titan-art.com/company
+          - emphasis: COMPANY 会社概要
+      - listitem:
+        - link "BLOG ブログ" [ref=e8]:
+          - /url: https://titan-art.com/blog
+          - emphasis: BLOG ブログ
+      - listitem:
+        - link "大阪のデザイン会社タイタン・アートのグッドデザイン賞受賞" [ref=e9]:
+          - /url: https://titan-art.com/gooddesign
+    - link "Lottie animation CONTACT お問い合わせ" [ref=e10]:
+      - /url: https://titan-art.com/contact
+      - text: CONTACT お問い合わせ
+  - navigation:
+    - link [ref=e11] [nth=1]:
+      - /url: https://titan-art.com
+    - link "CONTACT お問い合わせ" [ref=e12]:
+      - /url: https://titan-art.com/contact
+      - text: CONTACT
+      - emphasis: お問い合わせ
+      - listitem:
+        - link "WORKS 制作実績" [ref=e13] [nth=1]:
+          - /url: https://titan-art.com/works
+      - listitem:
+        - text: SERVICE
+          - listitem:
+            - link "01GRAPHIC DESIGN グラフィックデザイン" [ref=e14]:
+              - /url: https://titan-art.com/service_graphic
+              - superscript: "01"
+              - text: GRAPHIC DESIGN グラフィックデザイン
+          - listitem:
+            - link "02WEB DESIGN ウェブデザイン" [ref=e15]:
+              - /url: https://titan-art.com/service_web
+              - superscript: "02"
+              - text: WEB DESIGN ウェブデザイン
+          - listitem:
+            - link "03BRANDING ブランディング" [ref=e16]:
+              - /url: https://titan-art.com/service_branding
+              - superscript: "03"
+              - text: BRANDING ブランディング
+          - listitem:
+            - link "04PRODUCT ブランド運営" [ref=e17]:
+              - /url: https://titan-art.com/service_product
+              - superscript: "04"
+              - text: PRODUCT ブランド運営
+          - listitem:
+            - link "05OEM・ODM" [ref=e18]:
+              - /url: https://titan-art.com/service_product#oemlink
+              - superscript: "05"
+              - text: OEM・ODM
+          - listitem:
+            - link "06RESKILLING TRAINING リスキリング研修" [ref=e19]:
+              - /url: https://titan-art.com/service_reskilling
+              - superscript: "06"
+              - text: RESKILLING TRAINING リスキリング研修
+      - listitem:
+        - link "PRICE 料金一覧" [ref=e20] [nth=1]:
+          - /url: https://titan-art.com/price
+      - listitem:
+        - link "ORDER FLOW ご依頼の流れ" [ref=e21]:
+          - /url: https://titan-art.com/flow
+      - listitem:
+        - link "COMPANY 会社概要" [ref=e22] [nth=1]:
+          - /url: https://titan-art.com/company
+      - listitem:
+        - link "BLOG スタッフブログ" [ref=e23]:
+          - /url: https://titan-art.com/blog
+      - listitem:
+        - link "CSR CSR活動" [ref=e24]:
+          - /url: https://titan-art.com/csr
+      - listitem:
+        - link "Privacy Policy プライバシーポリシー" [ref=e25]:
+          - /url: https://titan-art.com/privacy
+      - listitem:
+        - link "Recruit 採用情報" [ref=e26]:
+          - /url: https://titan-art.com/recruit
+    - paragraph: クリエイティブの力で 世界の課題を解決する
+    - term: OUR BRAND
+    - definition:
+      - paragraph:
+        - link [ref=e27] [nth=2]:
+          - /url: //klonklonklon.com/
+      - paragraph:
+        - link [ref=e28] [nth=3]:
+          - /url: //kuronos96.com/
+      - listitem:
+        - link [ref=e29] [nth=4]:
+          - /url: https://titan-art.com/gooddesign
+      - listitem:
+        - link [ref=e30] [nth=5]:
+          - /url: //twitter.com/titan_art_com
+      - listitem:
+        - link [ref=e31] [nth=6]:
+          - /url: //www.pinterest.jp/TitanArtCoLTD/_created/
+  - text: MENU
+  - heading "PRICE 料金一覧" [ref=e32] [level=1]
+    - listitem:
+      - link "グラフィックデザイン" [ref=e33]:
+        - /url: "#link01"
+    - listitem:
+      - link "WEBデザイン" [ref=e34]:
+        - /url: "#link02"
+  - heading "￥10,000未満のご相談も大歓迎" [ref=e35] [level=2]
+  - paragraph: 【お願い】弊社へのご相談を『予算が少ないから』という理由で、見合わせないでください。課題解決に大も小もございません。どんなご依頼、ご相談でも一度私どもにご相談ください。私どもにご相談頂けることこそ、弊社の幸せであり、財産です。どんな些細なことでも是非とも、お気軽にご相談ください。（ご相談だけなら費用はかかりません）
+  - heading "GRAPHIC DESIGN グラフィックデザイン" [ref=e36] [level=2]
+  - heading "FLYER PAMPHLET POSTER チラシ・パンフレット・ポスターなど" [ref=e37] [level=3]
+  - text: 一枚もののデザインから、カタログなどのページものまで制作を行います。印刷料金についても別途お見積り・受注いたします。
+      - row "チラシデザイン ¥66,000〜":
+        - rowheader "チラシデザイン" [ref=e38]
+        - cell "¥66,000〜" [ref=e39]
+      - row "三つ折りリーフレットデザイン ¥132,000〜":
+        - rowheader "三つ折りリーフレットデザイン" [ref=e40]
+        - cell "¥132,000〜" [ref=e41]
+      - row "カタログ・パンフレット（4ページ〜） ¥220,000〜":
+        - rowheader "カタログ・パンフレット（4ページ〜）" [ref=e42]
+        - cell "¥220,000〜" [ref=e43]
+      - row "ポスターデザイン ¥154,000〜":
+        - rowheader "ポスターデザイン" [ref=e44]
+        - cell "¥154,000〜" [ref=e45]
+  - link "ご依頼はこちら" [ref=e46]:
+    - /url: https://titan-art.com/contact
+  - heading "DM BUSINESS CARD ハガキ・名刺" [ref=e47] [level=3]
+      - row "名刺・ショップカード ¥33,000〜":
+        - rowheader "名刺・ショップカード" [ref=e48]
+        - cell "¥33,000〜" [ref=e49]
+      - row "はがき・DM ¥44,000〜":
+        - rowheader "はがき・DM" [ref=e50]
+        - cell "¥44,000〜" [ref=e51]
+  - link "ご依頼はこちら" [ref=e52] [nth=1]:
+    - /url: https://titan-art.com/contact
+  - heading "LOGO DESIGN ロゴデザイン" [ref=e53] [level=3]
+      - row "コーポレートロゴ ¥165,000〜":
+        - rowheader "コーポレートロゴ" [ref=e54]
+        - cell "¥165,000〜" [ref=e55]
+      - row "ブランドロゴ ¥110,000〜":
+        - rowheader "ブランドロゴ" [ref=e56]
+        - cell "¥110,000〜" [ref=e57]
+  - link "ご依頼はこちら" [ref=e58] [nth=2]:
+    - /url: https://titan-art.com/contact
+  - heading "PACKAGE DESIGN パッケージデザイン" [ref=e59] [level=3]
+  - text: 定型のボトルにラベルを貼るだけのものから、形状からデザインするなど幅広いパッケージのご依頼にお答えします。料金の幅も大きいので、
+  - link "詳しくはお問い合わせください。" [ref=e60]:
+    - /url: https://titan-art.com/contact
+      - row "ボトルパッケージ ¥93,500〜":
+        - rowheader "ボトルパッケージ" [ref=e61]
+        - cell "¥93,500〜" [ref=e62]
+      - row "ジャータイプパッケージ ¥110,000〜":
+        - rowheader "ジャータイプパッケージ" [ref=e63]
+        - cell "¥110,000〜" [ref=e64] [nth=1]
+      - row "箱タイプパッケージ ¥132,000〜":
+        - rowheader "箱タイプパッケージ" [ref=e65]
+        - cell "¥132,000〜" [ref=e66] [nth=1]
+      - row "パウチパッケージ ¥110,000〜":
+        - rowheader "パウチパッケージ" [ref=e67]
+        - cell "¥110,000〜" [ref=e68] [nth=2]
+  - link "ご依頼はこちら" [ref=e69] [nth=3]:
+    - /url: https://titan-art.com/contact
+  - heading "DISPLAY DESIGN 什器・SPツールデザイン" [ref=e70] [level=3]
+  - text: お客様の購買や集客を直接的に訴えかけるセールスプロモーションツール。弊社はこの分野での実績が豊富にございます。
+      - row "フロア自立式ディスプレイ什器 ¥220,000〜":
+        - rowheader "フロア自立式ディスプレイ什器" [ref=e71]
+        - cell "¥220,000〜" [ref=e72] [nth=1]
+      - row "カウンターディスプレイ什器 ¥154,000〜":
+        - rowheader "カウンターディスプレイ什器" [ref=e73]
+        - cell "¥154,000〜" [ref=e74] [nth=1]
+      - row "店頭什器TOPボード ¥88,000〜":
+        - rowheader "店頭什器TOPボード" [ref=e75]
+        - cell "¥88,000〜" [ref=e76]
+      - row "店頭POP ¥22,000〜":
+        - rowheader "店頭POP" [ref=e77]
+        - cell "¥22,000〜" [ref=e78]
+  - link "ご依頼はこちら" [ref=e79] [nth=4]:
+    - /url: https://titan-art.com/contact
+  - text: 掲載の価格は一例です。掲載のないもののご相談もお気軽に
+  - link "お問い合わせください。" [ref=e80]:
+    - /url: https://titan-art.com/contact
+  - heading "WEB DESIGN WEBデザイン" [ref=e81] [level=2]
+  - heading "WEBデザイン LPサイト・コーポレートサイト・ECサイトなど" [ref=e82] [level=3]
+      - row "ランディングページ（1P） ¥275,000〜":
+        - rowheader "ランディングページ（1P）" [ref=e83]
+        - cell "¥275,000〜" [ref=e84]
+      - row "コーポレートサイト（5P～） ¥660,000〜":
+        - rowheader "コーポレートサイト（5P～）" [ref=e85]
+        - cell "¥660,000〜" [ref=e86]
+      - row "ECサイト ¥880,000〜":
+        - rowheader "ECサイト" [ref=e87]
+        - cell "¥880,000〜" [ref=e88]
+  - link "ご依頼はこちら" [ref=e89] [nth=5]:
+    - /url: https://titan-art.com/contact
+  - heading "SYSTEM / TOOLS システム/ツール" [ref=e90] [level=3]
+      - row "お問い合わせフォーム設置 ¥35,000〜":
+        - rowheader "お問い合わせフォーム設置" [ref=e91]
+        - cell "¥35,000〜" [ref=e92]
+      - row "WordPress基本構築 ¥40,000〜":
+        - rowheader "WordPress基本構築" [ref=e93]
+        - cell "¥40,000〜" [ref=e94]
+      - row "WordPress基本セキュリティ設定 ¥44,000〜":
+        - rowheader "WordPress基本セキュリティ設定" [ref=e95]
+        - cell "¥44,000〜" [ref=e96] [nth=1]
+      - row "WordPressバージョンアップ ¥55,000〜":
+        - rowheader "WordPressバージョンアップ" [ref=e97]
+        - cell "¥55,000〜" [ref=e98]
+      - row "WordPress機能追加 お問い合わせください":
+        - rowheader "WordPress機能追加" [ref=e99]
+        - cell "お問い合わせください" [ref=e100]
+  - link "ご依頼はこちら" [ref=e101] [nth=6]:
+    - /url: https://titan-art.com/contact
+  - heading "OPERATION / CONSULTING 運用/コンサルティング" [ref=e102] [level=3]
+      - row "アクセス解析サポート ¥10,000～ / 回":
+        - rowheader "アクセス解析サポート" [ref=e103]
+        - cell "¥10,000～ / 回" [ref=e104]
+      - row "WEB集客サポート ¥110,000～ / 回":
+        - rowheader "WEB集客サポート" [ref=e105]
+        - cell "¥110,000～ / 回" [ref=e106]
+      - row "広告運用代行 ¥44,000～ / 回":
+        - rowheader "広告運用代行" [ref=e107]
+        - cell "¥44,000～ / 回" [ref=e108]
+  - link "ご依頼はこちら" [ref=e109] [nth=7]:
+    - /url: https://titan-art.com/contact
+  - heading "VIDEO 動画制作" [ref=e110] [level=3]
+  - text: 撮影の有無・動画の長さなどにより料金は変動します。
+  - link "詳しくはお問い合わせください。" [ref=e111] [nth=1]:
+    - /url: https://titan-art.com/contact
+      - row "動画撮影・編集 ¥172,000〜":
+        - rowheader "動画撮影・編集" [ref=e112]
+        - cell "¥172,000〜" [ref=e113]
+      - row "動画編集 ¥77,000〜":
+        - rowheader "動画編集" [ref=e114]
+        - cell "¥77,000〜" [ref=e115]
+  - link "ご依頼はこちら" [ref=e116] [nth=8]:
+    - /url: https://titan-art.com/contact
+  - text: 掲載の価格は一例です。掲載のないもののご相談もお気軽に
+  - link "お問い合わせください。" [ref=e117] [nth=1]:
+    - /url: https://titan-art.com/contact
+    - listitem:
+      - link "CONTACT US お問い合わせはこちらから" [ref=e118]:
+        - /url: https://titan-art.com/contact
+    - listitem:
+      - link "RECRUIT 採用情報はこちら" [ref=e119]:
+        - /url: https://titan-art.com/recruit
+  - text: FOLLOW US CONNECT WITH US THROUGH OUR SOCIAL MEDIA CHANNELS.
+    - listitem:
+      - link [ref=e120] [nth=7]:
+        - /url: //twitter.com/titan_art_com
+    - listitem:
+      - link [ref=e121] [nth=8]:
+        - /url: //www.pinterest.jp/TitanArtCoLTD/_created/
+  - contentinfo:
+    - link [ref=e122] [nth=9]:
+      - /url: https://titan-art.com
+    - paragraph: 株式会社タイタン・アート
+    - term: OSAKA HEAD OFFICE
+    - definition: 〒550-0013 大阪府大阪市西区新町1丁目28-11 安川ビル4F
+    - term:
+      - link "TOKYO OFFICE" [ref=e123]:
+        - /url: https://tokyo.titan-art.com/
+    - definition: 〒150-0013 東京都渋谷区恵比寿1丁目26-18 セディア恵比寿1F
+    - term: TOKYO OFFICE Div.2
+    - definition: 〒150-0013 東京都渋谷区恵比寿1丁目24-11 GRASSE802
+    - term:
+      - link "WORKS" [ref=e124]:
+        - /url: https://titan-art.com/works
+    - definition:
+      - link "チラシ・フライヤー ・ポスター" [ref=e125]:
+        - /url: https://titan-art.com/works_medium/flyers/
+        - text: チラシ・フライヤー・ポスター
+    - definition:
+      - link "会社案内" [ref=e126]:
+        - /url: https://titan-art.com/works_medium/company_profile/
+    - definition:
+      - link "パンフレット" [ref=e127]:
+        - /url: https://titan-art.com/works_medium/pamphlet/
+    - definition:
+      - link "パッケージ" [ref=e128]:
+        - /url: https://titan-art.com/works_medium/package/
+    - definition:
+      - link "WEBサイト・LPサイト" [ref=e129]:
+        - /url: https://titan-art.com/works_medium/web/
+    - definition:
+      - link "名刺・封筒" [ref=e130]:
+        - /url: https://titan-art.com/works_medium/businesscards/
+    - definition:
+      - link "その他" [ref=e131]:
+        - /url: https://titan-art.com/works_medium/others/
+    - term: SERVICE
+    - definition:
+      - link "グラフィックデザイン" [ref=e132] [nth=1]:
+        - /url: https://titan-art.com/service_graphic
+    - definition:
+      - link "WEBデザイン" [ref=e133] [nth=1]:
+        - /url: https://titan-art.com/service_web
+    - definition:
+      - link "ブランディング" [ref=e134]:
+        - /url: https://titan-art.com/service_branding
+    - definition:
+      - link "プロダクト" [ref=e135]:
+        - /url: https://titan-art.com/service_product
+    - definition:
+      - link "OEM・ODM" [ref=e136]:
+        - /url: https://titan-art.com/service_product#oemlink
+    - definition:
+      - link "リスキリング研修" [ref=e137]:
+        - /url: https://titan-art.com/service_reskilling
+    - term: ORDER FLOW
+    - definition:
+      - link "ご依頼の流れ" [ref=e138]:
+        - /url: https://titan-art.com/flow
+    - definition:
+      - link "よくあるご質問" [ref=e139]:
+        - /url: https://titan-art.com/flow/#link02
+    - link "PRICE" [ref=e140]:
+      - /url: https://titan-art.com/price
+    - link "COMPANY" [ref=e141]:
+      - /url: https://titan-art.com/company
+    - link "BLOG" [ref=e142]:
+      - /url: https://titan-art.com/blog
+    - link "CSR" [ref=e143]:
+      - /url: https://titan-art.com/csr
+    - link "Privacy Policy" [ref=e144]:
+      - /url: https://titan-art.com/privacy
+    - link "Recruit" [ref=e145]:
+      - /url: https://titan-art.com/recruit
+    - term: OUR BRAND
+    - definition:
+      - paragraph:
+        - link [ref=e146] [nth=10]:
+          - /url: https://klonklonklon.com/
+      - paragraph:
+        - link [ref=e147] [nth=11]:
+          - /url: https://kuronos96.com/
+      - paragraph:
+        - link "24時間セルフレンタルスタジオ「USUBOSTUDIO3」" [ref=e148]:
+          - /url: https://utsubostudio3.com/
+      - listitem:
+        - link "大阪のデザイン会社タイタン・アートの2017年度グッドデザイン賞受賞" [ref=e149]:
+          - /url: https://titan-art.com/gooddesign
+      - listitem:
+        - link "大阪のデザイン会社タイタン・アートのセキュリティアクション" [ref=e150]:
+          - /url: https://www.ipa.go.jp/
+      - listitem:
+        - link [ref=e151] [nth=12]:
+          - /url: https://twitter.com/titan_art_com
+      - listitem:
+        - link [ref=e152] [nth=13]:
+          - /url: https://www.pinterest.jp/TitanArtCoLTD/_created/
+    - text: Copyright (C)
+    - link "Titan Art Co., Ltd. All Rights Reserved." [ref=e153]:
+      - /url: https://titan-art.com
+  - text: ja
+

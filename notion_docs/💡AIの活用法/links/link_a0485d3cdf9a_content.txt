@@ -1,0 +1,35 @@
+# リンク先コンテンツ
+
+**URL**: https://app.klingai.com/
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 💡AIの活用法
+**取得日時**: 2026-01-22T14:15:03.054111
+
+---
+
+## コンテンツ
+
+  - textbox "Ask anything..." [ref=e1]
+  - button [ref=e2]:
+  - text: Search by
+  - button "Logo" [ref=e3]:
+  - text: Kling AI Customer Support
+  - button [ref=e4] [nth=1]:
+  - button [ref=e5] [nth=2]:
+  - paragraph: Find previous chats or start a new conversation
+  - textbox "Search..." [ref=e6]
+  - text: No previous conversations.
+  - button "Start a new conversation" [ref=e7]
+  - text: Powered by
+  - button "Logo" [ref=e8] [nth=1]:
+  - text: Kling AI Customer Support
+  - button [ref=e9] [nth=3]:
+  - button [ref=e10] [nth=4]:
+  - status: Loading...
+  - text: Powered by
+  - button "Logo" [ref=e11] [nth=2]:
+    - paragraph: • Includes free credits and a trial of advanced features.
+    - paragraph: "• Try advanced features: professional mode, video extension, etc."
+

@@ -1,0 +1,16 @@
+{
+  "page_id": "25ff3b0f-ba85-8069-ac08-d9cd671c5de8",
+  "title": "やのえり",
+  "created_time": "2025-08-30T14:42:00.000Z",
+  "last_edited_time": "2025-09-25T13:51:00.000Z",
+  "url": "https://www.notion.so/25ff3b0fba858069ac08d9cd671c5de8",
+  "archived": false,
+  "properties": {
+    "名前と理由": {"type": "title", "title": [{"plain_text": "やのえり"}]},
+    "タイミング": {"type": "select", "select": {"name": "スターターSTEP1、2、3"}},
+    "入学式": {"type": "select", "select": {"name": "参加前"}},
+    "クラス": {"type": "rich_text", "rich_text": [{"plain_text": "はるパパC組"}]},
+    "トラブルカテゴリ": {"type": "select", "select": {"name": "家族関係"}},
+    "運営LINE URL": {"type": "url", "url": "https://manager.linestep.net/line/detail/213907747"}
+  }
+}

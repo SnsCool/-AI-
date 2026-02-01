@@ -1,0 +1,12 @@
+{
+  "page_id": "23af3b0f-ba85-80f5-89ea-e373b0fc2eb8",
+  "created_time": "2025-07-24T03:20:00.000Z",
+  "last_edited_time": "2025-07-24T03:20:00.000Z",
+  "url": "https://www.notion.so/23af3b0fba8580f589eae373b0fc2eb8",
+  "properties": {
+    "ステータス": {"type": "status", "status": {"name": "未着手"}},
+    "着手": {"type": "multi_select", "multi_select": [{"name": "4週目"}]},
+    "担当者": {"type": "people", "people": [{"name": "Mioko"}]},
+    "タスク": {"id": "title", "type": "title", "title": []}
+  }
+}

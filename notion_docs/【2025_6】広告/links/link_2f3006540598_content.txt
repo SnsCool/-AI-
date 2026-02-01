@@ -1,0 +1,114 @@
+# リンク先コンテンツ
+
+**URL**: https://112.gigafile.nu/0906-9b5fd00c3fb9e146be2c8a9476c60c7f
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 【2025_6】広告
+**取得日時**: 2026-01-22T16:59:46.234494
+
+---
+
+## コンテンツ
+
+  - button [ref=e1]
+  - banner:
+    - link [ref=e2]:
+      - /url: ./
+    - link "ログイン・会員登録" [ref=e3]:
+      - /url: https://member.gigafile.nu
+    - text: YouTubeで【GiFiレコーズラジオ】配信中！
+    - navigation:
+        - listitem:
+          - link "ホーム" [ref=e4]:
+            - /url: ./
+        - listitem:
+          - link "お知らせ" [ref=e5]:
+            - /url: https://news.gigafile.nu/
+        - listitem:
+          - link "ギガファイルとは" [ref=e6]:
+            - /url: support.php#faq
+        - listitem:
+          - link "お問合せ" [ref=e7]:
+            - /url: contact-us.php#contact
+        - listitem:
+          - link "アプリ" [ref=e8]:
+            - /url: https://news.gigafile.nu/app
+        - listitem:
+          - link "使い方" [ref=e9]:
+            - /url: https://ck.gigafile.nu/gigafile-manual-list_1
+        - listitem:
+          - link "速度比較" [ref=e10]:
+            - /url: https://speed.gigafile.nu/
+  - link [ref=e11] [nth=1]:
+    - /url: //gigafile.nu/
+  - heading "GigaFile（ギガファイル）便とは" [ref=e12] [level=2]
+  - paragraph: いますぐ利用できるユーザー登録不要の簡単無料大容量のファイル転送サービスです。容量無制限（１ファイル３００Ｇまで）のファイル転送が行えます。ファイルはアップロード後最大１００日間保持されます。
+  - paragraph:
+    - text: 新着情報：
+    - link "ギガファイル便、広告なしプラン開始のお知らせ" [ref=e13]:
+      - /url: https://news.gigafile.nu/?p=3663
+    - listitem: アップロード
+    - listitem:
+      - link "使い方" [ref=e14] [nth=1]:
+        - /url: https://ck.gigafile.nu/gigafileltd_2
+    - listitem:
+      - link "広告をなくす" [ref=e15]:
+        - /url: https://ck.gigafile.nu/gigafile-member_2
+      - row "保持期限変更 3日 5日 7日 14日 30日 60日 100日 5日":
+        - cell "保持期限変更" [ref=e16]
+        - cell "3日 5日 7日 14日 30日 60日 100日 5日" [ref=e17]:
+            - listitem: 3日
+            - listitem: 5日
+            - listitem: 7日
+            - listitem: 14日
+            - listitem: 30日
+            - listitem: 60日
+            - listitem: 100日
+          - text: 5日
+  - paragraph:
+    - text: ここにファイルをドラッグ&ドロップしてください。 フォルダごとドラッグすることが可能です。 1ファイル300Gまで、個数無制限
+    - paragraph:
+      - text: 広告なしでご利用したい方は、
+      - link "こちら" [ref=e18]:
+        - /url: https://ck.gigafile.nu/gigafile-member_1
+      - text: をご確認ください。
+  - text: ファイル名：
+  - textbox [ref=e19]
+  - text: .zip ダウンロードパスワード：
+  - textbox [ref=e20] [nth=1]
+  - text: まとめる
+  - link [ref=e21] [nth=2]:
+    - /url: ""
+  - textbox "「まとめる」ボタンを押してください。" [ref=e22]
+  - button "ファイルを選択" [ref=e23]
+  - button "中止" [ref=e24]
+  - paragraph: ※ファイル選択後アップロードは即実施されます。
+  - heading "新着情報" [ref=e25] [level=4]
+    - listitem:
+      - text: 2026/01/22
+      - link "ギガファイル便、広告なしプラン開始のお知らせ" [ref=e26] [nth=1]:
+        - /url: https://news.gigafile.nu/?p=3663
+    - listitem:
+      - text: 2026/01/21
+      - link "『トレンドハンター調査結果』バレンタイン誰にあげますか？～「恋愛イベント」ではなくなった？数字が語る、今の渡し方・考え方～" [ref=e27]:
+        - /url: https://news.gigafile.nu/?p=3656
+  - paragraph: 【GiFiレコーズラジオ】作業用BGM配信中
+  - paragraph: ギガファイル便公式YouTubeチャンネルにて、作業用BGMを24時間365日配信する企画「GiFiレコーズラジオ」を生配信中です。 ファイル転送中の箸休めに、ごゆるりとお楽しみください。
+  - paragraph: ギガファイル便では、作業用BGMのほか、使い方やよくある質問などを動画にまとめて公開しております。 ↓チャンネル登録よろしくお願いいたします。
+  - link "犬・猫用フリーズドライのささみ" [ref=e28]:
+    - /url: https://ck.gigafile.nu/four-foods_3
+  - contentinfo:
+        - row "利用規約・プライバシーポリシー 運営会社 ブログ © GigaFile便. All rights reserved":
+          - cell "利用規約・プライバシーポリシー 運営会社 ブログ" [ref=e29]:
+              - listitem:
+                - link "利用規約・プライバシーポリシー" [ref=e30]:
+                  - /url: privacy.php
+              - listitem:
+                - link "運営会社" [ref=e31]:
+                  - /url: https://ck.gigafile.nu/gigafileltd_1
+              - listitem:
+                - link "ブログ" [ref=e32]:
+                  - /url: https://news.gigafile.nu/
+          - cell "© GigaFile便. All rights reserved" [ref=e33]
+

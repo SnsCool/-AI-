@@ -1,0 +1,15 @@
+# 下町のナポレオン
+
+Notion URL: https://www.notion.so/fca7192ba6e04b5dbacb70f40d64cd6c
+同期日時: 2026-01-27T15:40:00+09:00
+
+---
+
+## プロパティ
+
+- **参照リンク**: https://www.google.com/url?sa=i&url=https%3A%2F%2Fitem.rakuten.co.jp%2Flandb-ikedasakaya%2F10000155%2F&psig=AOvVaw0lDoX8cce02BdgYRfylfic&ust=1680707578671000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOC9lvnBkP4CFQAAAAAdAAAAABAD
+- **番号**: 66
+- **memo**:
+- **訴求方法**: 例える
+- **企業名, 商品名**: いいちこ
+- **いいね**: false

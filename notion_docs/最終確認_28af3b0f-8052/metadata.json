@@ -1,0 +1,14 @@
+{
+  "page_id": "28af3b0f-ba85-8052-85b5-c777a701abba",
+  "created_time": "2025-10-12T14:40:00.000Z",
+  "last_edited_time": "2025-10-12T14:40:00.000Z",
+  "url": "https://www.notion.so/28af3b0fba85805285b5c777a701abba",
+  "properties": {
+    "担当者": {"type": "people", "people": []},
+    "投稿日": {"type": "date", "date": null},
+    "テキスト": {"type": "rich_text", "rich_text": []},
+    "備考": {"type": "rich_text", "rich_text": []},
+    "ステータス": {"type": "status", "status": {"name": "未着手"}},
+    "メディア": {"id": "title", "type": "title", "title": [{"plain_text": "最終確認"}]}
+  }
+}

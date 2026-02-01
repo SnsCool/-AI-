@@ -1,0 +1,97 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?pli=1&gid=1846539054#gid=1846539054
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 1_20
+**取得日時**: 2026-01-22T15:45:48.809954
+
+---
+
+## コンテンツ
+
+    - banner "メニューバー":
+      - link "スプレッドシート ホーム" [ref=e1]:
+        - /url: https://docs.google.com/spreadsheets/?pli=1&usp=sheets_web
+      - text: 【新規事業開発】Monitoring Seat _コスト管理
+      - 'button "ドキュメントのステータス: ドライブに保存しました."'
+      - button "すべてのコメントを表示" [ref=e2]
+      - button "共有します。リンクを知っている全員。 リンクを知っている全員がアクセスできます。ログインは不要です。" [ref=e3] [disabled]: 共有
+      - button "クイック共有操作" [ref=e4] [disabled]
+      - link "ログイン" [ref=e5]:
+        - /url: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?pli%3D1%26gid%3D1846539054&followup=https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?pli%3D1%26gid%3D1846539054&ltmpl=sheets&ec=GAZAmwI
+        - menuitem "ファイル" [ref=e6]
+        - menuitem "編集" [ref=e7]
+        - menuitem "表示" [ref=e8]
+        - menuitem "挿入" [ref=e9]
+        - menuitem "表示形式" [ref=e10]
+        - menuitem "データ" [ref=e11]
+        - menuitem "ツール" [ref=e12]
+        - menuitem "拡張機能" [ref=e13]
+        - menuitem "ヘルプ" [ref=e14]
+      - toolbar "メニューを検索 (option+/)":
+        - combobox "メニュー" [ref=e15]
+      - toolbar "メイン":
+        - button "元に戻す (⌘Z)" [ref=e16]
+        - button "やり直し (⌘Y)" [ref=e17]
+        - button "印刷 (⌘P)" [ref=e18]
+        - button "書式を貼り付け" [ref=e19]
+        - combobox "ズーム" [ref=e20]:
+          - option "ズーム のリストで 100% を選択しています。" [ref=e21] [selected]:
+            - textbox "ズーム" [ref=e22]: 100%
+        - button "表示形式を通貨に設定" [ref=e23]: ¥
+        - button "表示形式をパーセントに設定" [ref=e24]: "%"
+        - button "小数点以下の桁数を減らす" [ref=e25]
+        - button "小数点以下の桁数を増やす" [ref=e26]
+        - button "表示形式の詳細設定" [ref=e27]: "123"
+        - listbox "フォント" [ref=e28]:
+          - option "フォント のリストで Arial を選択しています。" [ref=e29] [selected]: Arial
+        - button "フォントサイズを縮小 (⌘+Shift+カンマ)" [ref=e30]
+        - combobox "フォント サイズ" [ref=e31]:
+          - option "フォント サイズ のリストで 11 を選択しています。" [ref=e32] [selected]:
+            - textbox "フォント サイズ" [ref=e33]: "11"
+        - button "フォントサイズを拡大 (⌘+Shift+ピリオド)" [ref=e34]
+        - button "太字 (⌘B)" [ref=e35]
+        - button "斜体 (⌘I)" [ref=e36]
+        - button "取り消し線 (⌘+Shift+X)" [ref=e37]
+        - button "テキストの色" [ref=e38]
+        - button "塗りつぶしの色" [ref=e39]
+        - button "枠線" [ref=e40]
+        - button "セルを結合" [ref=e41] [disabled]
+        - button "結合タイプを選択" [ref=e42] [disabled]
+        - button "水平方向の配置" [ref=e43]
+        - button "垂直方向の配置" [ref=e44]
+        - button "テキストを折り返す" [ref=e45]
+        - button "テキストの回転" [ref=e46]
+        - button "もっと見る" [ref=e47]
+      - toolbar "モードと表示":
+        - button "メニューを非表示 (Ctrl+Shift+F)" [ref=e48]
+      - textbox [ref=e49]: A1
+      - button "名前ボックスのメニューボタン。メニュー項目から 1 つを選択すると、対応する名前付き範囲に移動します。" [ref=e50]
+      - textbox [ref=e51] [nth=1]
+    - navigation "シートタブバー" [ref=e52]:
+        - button "シートを追加" [ref=e53]
+        - button "すべてのシート" [ref=e54]
+        - button "事業群方針" [ref=e55]
+        - button "ソリューション一覧" [ref=e56]
+        - button "【拡販】アイレポート" [ref=e57]
+        - button "拡販アイレポート_新規" [ref=e58]
+        - button "【PoC】ナチュラ美 1年" [ref=e59]
+        - button "【PoC】ナチュラ美 3年" [ref=e60]
+        - button "ナチュラ美結果" [ref=e61]
+        - button "【PoC】ダイエットコンサル事業" [ref=e62]
+        - button "【PoC】SNS運用代行事業" [ref=e63]
+        - button "【PoC】SNS運用代行事業_採用計画" [ref=e64]
+        - button "【PoC】営業代行事業" [ref=e65]
+        - button "【構築】TikTokLiveスクール事業" [ref=e66]
+        - button "【構築】コーチングスクール" [ref=e67]
+        - button "【構築】AI事業" [ref=e68]
+        - button "左へスクロール" [ref=e69]
+        - button "右へスクロール" [ref=e70]
+    - textbox [ref=e71] [nth=2]
+    - link "スクリーン リーダーのサポートを有効にする" [ref=e72]:
+      - /url: "#"
+    - textbox [ref=e73] [nth=3]
+    - region: スクリーン リーダーのサポートを有効にするには、⌘+option+Z を押します。キーボード ショートカットの詳細については、⌘スラッシュ を押します。
+

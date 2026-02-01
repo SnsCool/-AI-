@@ -1,0 +1,56 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/spreadsheets/d/1JdY-K-vRRgy9fjUfyyqdGyfVCLMjQFzSVAFJI-Taqb0/edit?gid=797455067#gid=797455067
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 顧客対応前後の営業マン対応事項
+**取得日時**: 2026-01-22T16:14:13.676594
+
+---
+
+## コンテンツ
+
+    - banner "メニューバー":
+      - link "スプレッドシート ホーム" [ref=e1]:
+        - /url: https://docs.google.com/spreadsheets/?usp=sheets_web
+      - text: 決済リンクまとめ（8/13以降発行）
+      - 'button "ドキュメントのステータス: ドライブに保存しました."'
+      - button "匿名キョウリュウ（アイドル状態）" [ref=e2]:
+      - button "共有します。リンクを知っている全員。 リンクを知っている全員がアクセスできます。ログインは不要です。" [ref=e3] [disabled]: 共有
+      - button "クイック共有操作" [ref=e4] [disabled]
+      - link "ログイン" [ref=e5]:
+        - /url: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/1JdY-K-vRRgy9fjUfyyqdGyfVCLMjQFzSVAFJI-Taqb0/edit?gid%3D797455067&followup=https://docs.google.com/spreadsheets/d/1JdY-K-vRRgy9fjUfyyqdGyfVCLMjQFzSVAFJI-Taqb0/edit?gid%3D797455067&ltmpl=sheets&ec=GAZAmwI
+        - menuitem "ファイル" [ref=e6]
+        - menuitem "編集" [ref=e7]
+        - menuitem "表示" [ref=e8]
+        - menuitem "挿入" [ref=e9] [disabled]
+        - menuitem "表示形式" [ref=e10] [disabled]
+        - menuitem "データ" [ref=e11]
+        - menuitem "ツール" [ref=e12]
+        - menuitem "拡張機能" [ref=e13] [disabled]
+        - menuitem "ヘルプ" [ref=e14]
+      - toolbar "メニューを検索 (option+/)":
+        - combobox "メニュー" [ref=e15]
+      - toolbar "メイン":
+        - button "印刷 (⌘P)" [ref=e16]
+        - button "フィルタ表示" [ref=e17]
+        - combobox "ズーム" [ref=e18]:
+          - option "ズーム のリストで 100% を選択しています。" [ref=e19] [selected]:
+            - textbox "ズーム" [ref=e20]: 100%
+        - button "モード" [ref=e21]: 閲覧のみ
+      - toolbar "モードと表示":
+        - button "メニューを非表示 (Ctrl+Shift+F)" [ref=e22]
+      - textbox [ref=e23]: A1:B1
+      - button "名前ボックスのメニューボタン。メニュー項目から 1 つを選択すると、対応する名前付き範囲に移動します。" [ref=e24]
+      - textbox [ref=e25] [nth=1]
+    - navigation "シートタブバー" [ref=e26]:
+        - button "すべてのシート" [ref=e27]
+        - button "営業一覧" [ref=e28]
+    - textbox [ref=e29] [nth=2]
+    - link "スクリーン リーダーのサポートを有効にする" [ref=e30]:
+      - /url: "#"
+    - textbox [ref=e31] [nth=3]
+    - region: スクリーン リーダーのサポートを有効にするには、⌘+option+Z を押します。キーボード ショートカットの詳細については、⌘スラッシュ を押します。
+    - text: 匿名キョウリュウ さんがドキュメントの編集に参加しました。
+

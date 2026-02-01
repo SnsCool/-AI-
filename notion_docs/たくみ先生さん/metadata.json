@@ -1,0 +1,21 @@
+{
+  "object": "page",
+  "id": "2e0f3b0f-ba85-801b-bae6-d69220121007",
+  "created_time": "2026-01-06T03:02:00.000Z",
+  "last_edited_time": "2026-01-06T04:09:00.000Z",
+  "parent": {
+    "type": "data_source_id",
+    "database_id": "1ecf3b0f-ba85-80c7-87b3-e501a0b13a27"
+  },
+  "archived": false,
+  "properties": {
+    "ジャンル": {"type": "multi_select", "multi_select": [{"name": "健康"}]},
+    "開催時間": {"type": "rich_text", "rich_text": [{"plain_text": "66分"}]},
+    "参加人数": {"type": "rich_text", "rich_text": [{"plain_text": "59"}]},
+    "名前": {
+      "type": "title",
+      "title": [{"plain_text": "たくみ先生さん"}]
+    }
+  },
+  "url": "https://www.notion.so/2e0f3b0fba85801bbae6d69220121007"
+}

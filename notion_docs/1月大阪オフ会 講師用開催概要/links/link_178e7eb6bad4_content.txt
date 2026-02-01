@@ -1,0 +1,23 @@
+# リンク先コンテンツ
+
+**URL**: https://maps.app.goo.gl/UK5V1XzXH4YM4dkW8
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 1月大阪オフ会 講師用開催概要
+**取得日時**: 2026-01-22T14:37:44.254183
+
+---
+
+## コンテンツ
+
+    - listitem:
+      - button "メニュー" [ref=e1]
+    - listitem:
+      - button "保存済み" [ref=e2]
+    - listitem:
+      - button "直近の履歴" [ref=e3] [disabled]
+    - listitem:
+      - button "アプリをダウンロード" [ref=e4]
+  - button "サイドパネルを折りたたむ" [ref=e5]
+

@@ -1,0 +1,33 @@
+# リンク先コンテンツ
+
+**URL**: https://www.instagram.com/tomo_sweets_/
+**種類**: video
+**タイトル**: 動画コンテンツ
+**リンクテキスト**: 
+**参照元**: みきさん
+**取得日時**: 2026-01-23T06:20:20.400885
+
+---
+
+## コンテンツ
+
+このスクリーンショットはInstagramのログインページです。動画が再生されているページではありません。
+
+以下は表示されているテキストの書き起こしです。
+
+**左側**
+Instagramのロゴ
+**See everyday moments from your close friends.**
+
+**右側**
+**Log into Instagram**
+Mobile number, username or email
+Password
+Log in
+Forgot password?
+Log in with Facebook
+Create new account
+Meta
+
+**フッター**
+Meta About Blog Jobs Help API Privacy Terms Locations Instagram Lite Meta AI Threads Contact Uploading & Non-Users Meta Verified English ▾ © 2026 Instagram from Meta

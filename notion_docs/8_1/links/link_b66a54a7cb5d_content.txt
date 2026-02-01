@@ -1,0 +1,255 @@
+# リンク先コンテンツ
+
+**URL**: https://amzn.asia/d/ilAOivT
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 8_1
+**取得日時**: 2026-01-22T15:13:09.086112
+
+---
+
+## コンテンツ
+
+  - navigation "ショートカットメニュー" [ref=e1]:
+    - heading "次に移動" [ref=e2] [level=2]
+    - list "次に移動":
+      - listitem:
+        - link "メインコンテンツ" [ref=e3]:
+          - /url: "#skippedLink"
+      - listitem:
+        - link "この商品について" [ref=e4]:
+          - /url: "#featurebullets_feature_div"
+      - listitem:
+        - link "購入オプションに移動" [ref=e5]:
+          - /url: "#buybox"
+          - text: 購入オプション
+      - listitem:
+        - link "レビュー" [ref=e6]:
+          - /url: "#customerReviews"
+    - heading "キーボードショートカット" [ref=e7] [level=2]
+    - list "キーボードショートカット":
+      - listitem:
+        - link "検索、option、フォーワードスラッシュ(/)" [ref=e8]:
+          - /url: javascript:void(0)
+      - listitem:
+        - link "カート、shift、option、c" [ref=e9]:
+          - /url: javascript:void(0)
+      - listitem:
+        - link "ホーム、 shift、option、h" [ref=e10]:
+          - /url: javascript:void(0)
+      - listitem:
+        - link "注文履歴、shift、option、o" [ref=e11]:
+          - /url: javascript:void(0)
+      - listitem:
+        - button "カートに入れる、シフト、option、K" [ref=e12]
+      - listitem:
+        - button "ショートカットの表示/非表示、shift、option、z" [ref=e13]
+    - text: 商品間を移動するには、キーボードの上矢印または下矢印を使用します。
+  - banner:
+    - navigation "プライマリ" [ref=e14]:
+      - link "Amazon.co.jp" [ref=e15]:
+        - /url: /ref=nav_logo
+        - text: .co.jp
+      - 'button "お届け先: 東京 151-0071 場所を更新する"'
+      - search:
+        - text: 食品・飲料・お酒
+        - combobox "検索するカテゴリーを選択します。" [ref=e16]:
+          - option "すべてのカテゴリー" [ref=e17]
+          - option "Amazon ふるさと納税" [ref=e18]
+          - option "プライム感謝セール" [ref=e19]
+          - option "Audibleオーディオブック" [ref=e20]
+          - option "Amazon フレッシュ" [ref=e21]
+          - option "ライフ" [ref=e22]
+          - option "成城石井" [ref=e23]
+          - option "Amazon デバイス" [ref=e24]
+          - option "Kindleストア" [ref=e25]
+          - option "Prime Video" [ref=e26]
+          - option "Alexaスキル" [ref=e27]
+          - option "Amazon定期おトク便" [ref=e28]
+          - option "デジタルミュージック" [ref=e29]
+          - option "アプリ&ゲーム" [ref=e30]
+          - option "本" [ref=e31]
+          - option "洋書" [ref=e32]
+          - option "音楽" [ref=e33]
+          - option "クラシック" [ref=e34]
+          - option "DVD" [ref=e35]
+          - option "コンピューター&テレビゲーム" [ref=e36]
+          - option "PCソフト" [ref=e37]
+          - option "パソコン・周辺機器" [ref=e38]
+          - option "エレクトロニクス&カメラ" [ref=e39]
+          - option "文房具・オフィス用品" [ref=e40]
+          - option "キッチン&家庭用品" [ref=e41]
+          - option "ペット用品" [ref=e42]
+          - option "ヘルスケア&パーソナルケア" [ref=e43]
+          - option "ビューティー" [ref=e44]
+          - option "食品・飲料・お酒" [ref=e45] [selected]
+          - option "ベビー&マタニティ" [ref=e46]
+          - option "ファッション" [ref=e47]
+          - option "女性服、靴、ジュエリー" [ref=e48]
+          - option "男性用服、靴、ジュエリー" [ref=e49]
+          - option "ベビー服、靴、ジュエリー" [ref=e50]
+          - option "玩具" [ref=e51]
+          - option "ホビー" [ref=e52]
+          - option "楽器" [ref=e53]
+          - option "スポーツ&アウトドア" [ref=e54]
+          - option "車＆バイク" [ref=e55]
+          - option "DIY、工具、ガーデニング" [ref=e56]
+          - option "大型家電" [ref=e57]
+          - option "クレジットカード" [ref=e58]
+          - option "ギフトカード" [ref=e59]
+          - option "産業・研究開発用品" [ref=e60]
+          - option "Amazonアウトレット" [ref=e61]
+          - option "Amazon海外ダイレクト" [ref=e62]
+        - searchbox "Amazon.co.jpを検索" [ref=e63]
+        - button "検索" [ref=e64]
+      - link "Amazon日本でのショッピングに使用する言語を選択します。現在の選択は日本語(JP)です。" [ref=e65]:
+        - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+        - text: JP
+      - button "展開して言語または国を変更する" [ref=e66]
+      - link "こんにちは, ログイン アカウント＆リスト" [ref=e67]:
+        - /url: https://www.amazon.co.jp/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fdp%2FB0D6R374NC%3F_encoding%3DUTF8%26psc%3D1%26ref%3Dnav_ya_signin%26ref_%3Dcm_sw_r_cp_ud_dp_42XQTQEYF1CCQWZM9QB5%26social_share%3Dcm_sw_r_cp_ud_dp_42XQTQEYF1CCQWZM9QB5&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=jpflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+      - button "アカウントと購入品リストを展開" [ref=e68]
+      - link "返品もこちら 注文履歴" [ref=e69]:
+        - /url: /gp/css/order-history?ref_=nav_orders_first
+      - link "カート内の商品数：0" [ref=e70]:
+        - /url: /gp/cart/view.html?ref_=nav_cart
+      - button "すべてのカテゴリーメニューを開く" [ref=e71]: すべて
+            - /url: /Amazon%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88/b/?ie=UTF8&node=2632478051&ref_=nav_cs_jppoints_unrec
+        - listitem:
+          - link "ヘルプ" [ref=e72]:
+            - /url: /%E3%83%98%E3%83%AB%E3%83%97/b/?ie=UTF8&node=642938&ref_=nav_cs_help_wt_t2
+        - listitem:
+          - link "ふるさと納税" [ref=e73]:
+            - /url: /fmc/furusato?ref_=nav_cs_tatsumi_discobar
+        - listitem:
+          - link "ネットスーパー" [ref=e74]:
+            - /url: /fmc/learn-more?ref_=nav_cs_groceries
+          - button "ネットスーパー詳細" [ref=e75]
+        - listitem:
+          - link "ランキング" [ref=e76]:
+            - /url: /ranking?type=top-sellers&ref_=nav_cs_bestsellers
+        - listitem:
+          - link "Amazon Basics" [ref=e77]:
+            - /url: /amazon_basic?ref_=nav_cs_amazonbasics
+        - listitem:
+          - link "Prime Video" [ref=e78]:
+            - /url: /gp/video/storefront?ref_=nav_cs_prime_video
+        - listitem:
+          - link "タイムセール" [ref=e79]:
+            - /url: /gp/goldbox?ref_=nav_cs_gb
+        - listitem:
+          - link "新着商品" [ref=e80]:
+            - /url: /ranking?type=new-releases&ref_=nav_cs_newreleases
+        - listitem:
+          - link "プライム" [ref=e81]:
+            - /url: /prime?ref_=nav_cs_primelink_nonmember
+          - button "プライム詳細" [ref=e82]
+        - listitem:
+          - link "ミュージック" [ref=e83]:
+            - /url: /music/player?ref_=nav_cs_music
+        - listitem:
+          - link "本" [ref=e84]:
+            - /url: /%E6%9C%AC-%E6%9B%B8%E7%B1%8D-%E9%80%9A%E8%B2%A9/b/?ie=UTF8&node=465392&ref_=nav_cs_books
+        - listitem:
+          - link "Amazonファッション" [ref=e85]:
+            - /url: /%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3/b/?ie=UTF8&node=2229202051&ref_=nav_cs_fashion
+        - listitem:
+          - link "ベビー&マタニティ" [ref=e86]:
+            - /url: /%E3%83%99%E3%83%93%E3%83%BC%E7%94%A8%E5%93%81-%E9%80%9A%E8%B2%A9-%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89-%E4%BA%BA%E6%B0%97-%E3%82%BB%E3%83%BC%E3%83%AB/b/?ie=UTF8&node=344845011&ref_=nav_cs_baby
+        - listitem:
+          - link "ホーム&キッチン" [ref=e87]:
+            - /url: /%E3%83%9B%E3%83%BC%E3%83%A0-%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3-%E6%B6%88%E8%80%97%E5%93%81%E3%83%BB%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B5%E3%83%AA-%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3-%E7%94%9F%E6%B4%BB%E9%9B%91%E8%B2%A8/b/?ie=UTF8&node=3828871&ref_=nav_cs_home_kitchen
+        - listitem:
+          - link "パソコン・周辺機器" [ref=e88]:
+            - /url: /PC%E5%91%A8%E8%BE%BA%E6%A9%9F%E5%99%A8-%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E5%91%A8%E8%BE%BA%E6%A9%9F%E5%99%A8-%E9%80%9A%E8%B2%A9/b/?ie=UTF8&node=2127209051&ref_=nav_cs_pc
+        - listitem:
+          - link "食品＆飲料" [ref=e89]:
+            - /url: /%E9%A3%9F%E5%93%81-%E9%A3%B2%E6%96%99-%E3%83%89%E3%83%AA%E3%83%B3%E3%82%AF-%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84-%E3%81%8A%E8%8F%93%E5%AD%90-%E9%85%92/b/?ie=UTF8&node=57239051&ref_=nav_cs_grocery
+        - listitem:
+          - link "ギフトカード" [ref=e90]:
+            - /url: /%E3%82%AE%E3%83%95%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89/b/?ie=UTF8&node=2351652051&ref_=nav_cs_gc
+          - button "ギフトカード詳細" [ref=e91]
+        - listitem:
+          - link "おもちゃ&ホビー" [ref=e92]:
+            - /url: /%E3%81%8A%E3%82%82%E3%81%A1%E3%82%83-%E9%80%9A%E8%B2%A9/b/?ie=UTF8&node=13299531&ref_=nav_cs_toys
+        - listitem:
+          - link "Kindle本" [ref=e93]:
+            - /url: /Kindle-%E3%82%AD%E3%83%B3%E3%83%89%E3%83%AB-%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D/b/?ie=UTF8&node=2275256051&ref_=nav_cs_kindle_books
+        - listitem:
+          - link "ドラッグストア" [ref=e94]:
+            - /url: /%E3%83%89%E3%83%A9%E3%83%83%E3%82%B0%E3%82%B9%E3%83%88%E3%82%A2-%E3%82%B5%E3%83%97%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%88-%E6%97%A5%E7%94%A8%E5%93%81-%E5%8C%BB%E8%96%AC%E5%93%81-%E9%80%9A%E8%B2%A9/b/?ie=UTF8&node=160384011&ref_=nav_cs_hpc
+        - listitem:
+          - link "車＆バイク" [ref=e95]:
+            - /url: /%E8%BB%8A%E7%94%A8%E5%93%81-%E3%82%AB%E3%83%BC%E3%82%B0%E3%83%83%E3%82%BA-%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96%E7%94%A8%E5%93%81-%E3%82%AB%E3%83%BC%E7%94%A8%E5%93%81-%E9%80%9A%E8%B2%A9/b/?ie=UTF8&node=2017304051&ref_=nav_cs_automotive
+        - listitem:
+          - link "スポーツ＆アウトドア" [ref=e96]:
+            - /url: /%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84-%E3%82%A2%E3%82%A6%E3%83%88%E3%83%89%E3%82%A2-%E8%87%AA%E8%BB%A2%E8%BB%8A-%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%83%8D%E3%82%B9%E3%83%BB%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0-%E3%82%B4%E3%83%AB%E3%83%95%E7%94%A8%E5%93%81%E9%80%9A%E8%B2%A9/b/?ie=UTF8&node=14304371&ref_=nav_cs_sports
+        - listitem:
+          - link "Audible" [ref=e97]:
+            - /url: /Audible-%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E3%83%96%E3%83%83%E3%82%AF/b/?ie=UTF8&node=7471076051&ref_=nav_cs_audible
+        - listitem:
+          - link "お手頃価格の海外ブランド" [ref=e98]:
+            - /url: /b/?node=21782663051&ref_=nav_cs_ibp_jp
+        - listitem:
+          - link "DIY・工具" [ref=e99]:
+            - /url: /DIY%E3%83%BB%E5%B7%A5%E5%85%B7-%E5%A4%A7%E5%B7%A5%E9%81%93%E5%85%B7-%E4%BD%9C%E6%A5%AD%E7%94%A8%E5%93%81%E3%83%BB%E5%AE%89%E5%85%A8%E7%94%A8%E5%93%81-%E9%9B%BB%E5%8B%95%E3%83%BB%E4%BD%9C%E6%A5%AD%E5%B7%A5%E5%85%B7-%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%86%E3%83%AA%E3%82%A2/b/?ie=UTF8&node=2016929051&ref_=nav_cs_hi
+        - listitem:
+          - link "ビューティー＆パーソナルケア" [ref=e100]:
+            - /url: /%E3%82%B3%E3%82%B9%E3%83%A1-%E5%8C%96%E7%B2%A7%E5%93%81-%E9%80%9A%E8%B2%A9/b/?ie=UTF8&node=52374051&ref_=nav_cs_beauty
+        - listitem:
+          - link "ペットフード・ペット用品" [ref=e101]:
+            - /url: /%E3%83%9A%E3%83%83%E3%83%88%E3%83%95%E3%83%BC%E3%83%89-%E3%83%9A%E3%83%83%E3%83%88%E7%94%A8%E5%93%81/b/?ie=UTF8&node=2127212051&ref_=nav_cs_pets
+        - listitem:
+          - link "Amazonで売る" [ref=e102]:
+            - /url: /b/?_encoding=UTF8&ld=AZJPSOASL_C&node=2490612051&ref_=nav_cs_sell
+        - listitem:
+          - link "定期おトク便" [ref=e103]:
+            - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+      - link "Audibleプレミアムプラン最初の3か月月額99円" [ref=e104]:
+        - /url: /hz/audible/mlp/membership/plus/monthly/?_encoding=UTF8&actionCode=AMAOTHR3520106268165&ref=adbl_JP_cs_bb_pw_lnv03_0001&ref_=nav_swm_Audible%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%97%E3%83%A9%E3%83%B3%E6%9C%80%E5%88%9D%E3%81%AE3%E3%81%8B%E6%9C%88%E6%9C%88%E9%A1%8D99%E5%86%86&pf_rd_p=aaba27b1-cf1e-4fb6-b235-57bba34739a0&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A1VC38T7YXB528&pf_rd_r=TQSQNZXA3M5VMJ2VHTDX
+      - link "食品・飲料・お酒" [ref=e105]:
+        - /url: /%E9%A3%9F%E5%93%81-%E9%A3%B2%E6%96%99-%E3%83%89%E3%83%AA%E3%83%B3%E3%82%AF-%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84-%E3%81%8A%E8%8F%93%E5%AD%90-%E9%85%92/b/?ie=UTF8&node=57239051&ref_=topnav_storetab_fb
+      - link "Amazonランキング" [ref=e106]:
+        - /url: http://www.amazon.co.jp/gp/bestsellers/food-beverage/?ie=UTF8&ref_=sv_fb_1
+      - link "食品, 現在、ドロップダウンリストが表示されています。このドロップダウンを開くには、Enterキーを押してください。" [ref=e107]:
+        - /url: /%E9%A3%9F%E5%93%81/b/?ie=UTF8&node=70903051&ref_=sv_fb_2
+        - text: 食品
+      - link "お米・麺・パン・シリアル, 現在、ドロップダウンリストが表示されています。このドロップダウンを開くには、Enterキーを押してください。" [ref=e108]:
+        - /url: /%E3%81%8A%E7%B1%B3_%E9%BA%BA_%E3%83%91%E3%83%B3_%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB/b/?ie=UTF8&node=2439923051&ref_=sv_fb_3
+        - text: お米・麺・パン・シリアル
+      - link "スイーツ, 現在、ドロップダウンリストが表示されています。このドロップダウンを開くには、Enterキーを押してください。" [ref=e109]:
+        - /url: /%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84-%E3%81%8A%E8%8F%93%E5%AD%90/b/?ie=UTF8&node=71314051&ref_=sv_fb_4
+        - text: スイーツ
+      - link "ドリンク, 現在、ドロップダウンリストが表示されています。このドロップダウンを開くには、Enterキーを押してください。" [ref=e110]:
+        - /url: /%E3%83%89%E3%83%AA%E3%83%B3%E3%82%AF-%E6%B0%B4-%E3%83%9F%E3%83%8D%E3%83%A9%E3%83%AB%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BF%E3%83%BC-%E3%82%BD%E3%83%95%E3%83%88%E3%83%89%E3%83%AA%E3%83%B3%E3%82%AF/b/?ie=UTF8&node=71442051&ref_=sv_fb_5
+        - text: ドリンク
+      - link "お酒, 現在、ドロップダウンリストが表示されています。このドロップダウンを開くには、Enterキーを押してください。" [ref=e111]:
+        - /url: /%E3%81%8A%E9%85%92-%E3%83%AF%E3%82%A4%E3%83%B3-%E6%97%A5%E6%9C%AC%E9%85%92-%E7%84%BC%E9%85%8E/b/?ie=UTF8&node=71588051&ref_=sv_fb_6
+        - text: お酒
+      - link "便利・おトク, 現在、ドロップダウンリストが表示されています。このドロップダウンを開くには、Enterキーを押してください。" [ref=e112]:
+        - /url: /b/?ie=UTF8&node=76366051&ref_=sv_fb_7
+        - text: 便利・おトク
+      - link "ふるさと納税, 現在、ドロップダウンリストが表示されています。このドロップダウンを開くには、Enterキーを押してください。" [ref=e113]:
+        - /url: http://www.amazon.co.jp/fmc/furusato/?_encoding=UTF8&ref_=sv_fb_8
+        - text: ふるさと納税
+      - link "ログイン" [ref=e114]:
+        - /url: https://www.amazon.co.jp/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fdp%2FB0D6R374NC%3F_encoding%3DUTF8%26psc%3D1%26ref%3Dnav_custrec_signin%26ref_%3Dcm_sw_r_cp_ud_dp_42XQTQEYF1CCQWZM9QB5%26social_share%3Dcm_sw_r_cp_ud_dp_42XQTQEYF1CCQWZM9QB5&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=jpflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+      - text: 初めてご利用ですか?
+      - link "Amazonは初めてですか? アカウントの作成はここから始めてください" [ref=e115]:
+        - /url: https://www.amazon.co.jp/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fdp%2FB0D6R374NC%2F%3F_encoding%3DUTF8%26_encoding%3DUTF8%26psc%3D1%26ref%3Dcm_sw_r_cp_ud_dp_42XQTQEYF1CCQWZM9QB5%26social_share%3Dcm_sw_r_cp_ud_dp_42XQTQEYF1CCQWZM9QB5%26ref_%3Dnav_custrec_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=jpflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+        - text: 新規登録はこちら
+  - heading "商品概要には、主要な商品情報が記載されています キーボードショートカット Shift + opt + D" [ref=e116] [level=1]:
+    - button "商品概要には、主要な商品情報が記載されています" [ref=e117]
+    - text: キーボードショートカット Shift + opt + D
+  - main:
+      - listitem:
+        - link "食品・飲料・お酒" [ref=e118] [nth=1]:
+          - /url: /%E9%A3%9F%E5%93%81-%E9%A3%B2%E6%96%99-%E3%83%89%E3%83%AA%E3%83%B3%E3%82%AF-%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84-%E3%81%8A%E8%8F%93%E5%AD%90-%E9%85%92/b/ref=dp_bc_1?ie=UTF8&node=57239051
+      - listitem:
+        - link "菓子・スナック" [ref=e119]:
+          - /url: /%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84-%E3%81%8A%E8%8F%93%E5%AD%90/b/ref=dp_bc_2?ie=UTF8&node=71314051
+      - listitem:
+        - link "せんべい・米菓" [
+
+[... 以下省略 ...]

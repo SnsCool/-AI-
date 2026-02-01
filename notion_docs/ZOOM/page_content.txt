@@ -1,0 +1,13 @@
+# ZOOM
+
+Notion URL: https://www.notion.so/ZOOM-1fc9f5761abe4e438db08c29d4c38f88
+同期日時: 2026-01-27T15:40:00+09:00
+
+---
+
+## プロパティ
+
+- **名前**: ZOOM
+- **タグ**: 必須
+- **説明**: 普段の講義に利用（録画のために有料版へ加入）
+- **URL**: https://zoom.us/ja

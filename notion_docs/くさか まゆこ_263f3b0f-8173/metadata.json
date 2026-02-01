@@ -1,0 +1,15 @@
+{
+  "page_id": "263f3b0f-ba85-8173-a7dd-e9cabe4ea15c",
+  "created_time": "2025-09-03T07:50:00.000Z",
+  "last_edited_time": "2025-09-03T07:50:00.000Z",
+  "url": "https://www.notion.so/263f3b0fba858173a7dde9cabe4ea15c",
+  "properties": {
+    "URL": {"type": "url", "url": "https://www.instagram.com/recipe_ohana"},
+    "マルチセレクト": {"type": "multi_select", "multi_select": [{"name": "年間生徒MVP"}]},
+    "景品": {"type": "rich_text", "rich_text": [{"plain_text": "旅行30万円分、花束、トロフィー"}]},
+    "講師": {"type": "rich_text", "rich_text": [{"plain_text": "ゆな"}]},
+    "順位": {"type": "rich_text", "rich_text": [{"plain_text": "1位"}]},
+    "アカウント名": {"type": "rich_text", "rich_text": [{"plain_text": "おはな"}]},
+    "本名": {"id": "title", "type": "title", "title": [{"plain_text": "くさか まゆこ"}]}
+  }
+}

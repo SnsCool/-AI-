@@ -1,0 +1,13 @@
+# こんなに
+
+Notion URL: https://www.notion.so/275b7eebc5f443d6acff8070cc048a51
+同期日時: 2026-01-27T12:00:00+09:00
+
+---
+
+## プロパティ
+
+- **例**: こんなに
+- **大項目**: Problem 問題提起
+- **種別**: 好奇心
+- **Bookmark**: false

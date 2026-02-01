@@ -1,0 +1,17 @@
+{
+  "page_id": "260f3b0f-ba85-80e9-9cd7-e4b4e5717774",
+  "title": "ソウタさん関連",
+  "created_time": "2025-08-31T13:54:00.000Z",
+  "last_edited_time": "2025-08-31T13:57:00.000Z",
+  "url": "https://www.notion.so/260f3b0fba8580e99cd7e4b4e5717774",
+  "properties": {
+    "クラス": {"type": "rich_text", "value": "ソウタH組"},
+    "運営LINE URL": {"type": "url", "value": "https://manager.linestep.net/line/detail/136107249"},
+    "トラブルカテゴリ": {"type": "select", "value": "運営"},
+    "クローザー": {"type": "select", "value": null},
+    "決済月": {"type": "date", "value": "2024-01-11"},
+    "生徒名": {"type": "rich_text", "value": "なかおたいち"},
+    "発生時期": {"type": "date", "value": "2024-07-11"},
+    "具体的な内容": {"type": "title", "value": "ソウタさん関連"}
+  }
+}

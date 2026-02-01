@@ -1,0 +1,20 @@
+{
+  "page_id": "2e7f3b0f-ba85-81ac-b94e-cb0f6bc8d0ae",
+  "created_time": "2026-01-13T03:51:00.000Z",
+  "last_edited_time": "2026-01-13T04:02:00.000Z",
+  "url": "https://www.notion.so/2e7f3b0fba8581acb94ecb0f6bc8d0ae",
+  "properties": {
+    "ホテル空き状況": {"type": "select", "select": {"name": "無"}},
+    "エリア": {"type": "rich_text", "rich_text": [{"plain_text": "渋谷"}]},
+    "進捗": {"type": "multi_select", "multi_select": []},
+    "担当者": {"type": "people", "people": []},
+    "個別会議室": {"type": "select", "select": {"name": "有"}},
+    "予算（見積り）": {"type": "number", "number": null},
+    "付帯ホテル": {"type": "select", "select": {"name": "無"}},
+    "ファイルの添付": {"type": "files", "files": []},
+    "使用ルーム": {"type": "rich_text", "rich_text": []},
+    "URL": {"type": "url", "url": "https://www.bellesalle.co.jp/shisetsu/shibuya/bs_shibuyagarden/"},
+    "仮押さえ期限": {"type": "date", "date": null},
+    "会場名": {"id": "title", "type": "title", "title": [{"plain_text": "ベルサール渋谷ガーデン"}]}
+  }
+}

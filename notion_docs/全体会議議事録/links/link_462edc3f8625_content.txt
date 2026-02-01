@@ -1,0 +1,335 @@
+# リンク先コンテンツ
+
+**URL**: https://beauty.hotpepper.jp/kr/slnH000753917/
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 全体会議議事録
+**取得日時**: 2026-01-22T16:40:46.209844
+
+---
+
+## コンテンツ
+
+  - heading "パレス 広尾 六本木店(PALES)" [ref=e1] [level=1]
+  - link "HOT PEPPER Beauty 国内最大級のヘアサロン ・リラク＆ビューティーサロン検索・予約サイト PRODUCED BY RECRUIT" [ref=e2]:
+    - /url: https://beauty.hotpepper.jp/relax/
+  - text: 国内最大級のヘアサロン ・リラク＆ビューティーサロン検索・予約サイト
+    - listitem:
+      - link "ヘルプ" [ref=e3]:
+        - /url: javascript:void(0);
+    - listitem:
+      - link "マイページ" [ref=e4]:
+        - /url: https://beauty.hotpepper.jp/CSP/my/myPage/
+    - listitem:
+      - link "リラクゼーションサロン検索トップ" [ref=e5]:
+        - /url: https://beauty.hotpepper.jp/relax/?gn=on
+    - listitem:
+      - link "ヘアサロン" [ref=e6]:
+        - /url: https://beauty.hotpepper.jp/svcSA/
+    - listitem:
+      - link "ヘアスタイル" [ref=e7]:
+        - /url: https://beauty.hotpepper.jp/catalog/
+    - listitem:
+      - link "ネイル・まつげサロン" [ref=e8]:
+        - /url: https://beauty.hotpepper.jp/nail/svcSA/
+    - listitem:
+      - link "ネイルカタログ" [ref=e9]:
+        - /url: https://beauty.hotpepper.jp/nail_catalog/
+    - listitem:
+      - link "リラクサロン" [ref=e10]:
+        - /url: https://beauty.hotpepper.jp/relax/svcSA/
+    - listitem:
+      - link "エステサロン" [ref=e11]:
+        - /url: https://beauty.hotpepper.jp/esthe/svcSA/
+    - listitem:
+      - link "美容クリニック" [ref=e12]:
+        - /url: https://clinic.beauty.hotpepper.jp/
+  - link [ref=e13]:
+    - /url: https://beauty.hotpepper.jp/doc/cp/beautycp/?ctm=cpnhpbdkaaabg000001407&lec_tm=m-12.c-10016358.a-338047736.d-c.fr-20978.fe-28218258
+  - link [ref=e14] [nth=1]:
+    - /url: https://beauty.hotpepper.jp/doc/cp/beautycp/?ctm=cpnhpbdkaaabg000001407&lec_tm=m-12.c-10016358.a-338047736.d-c.fr-20978.fe-28218258
+    - listitem:
+      - link "総合トップ" [ref=e15]:
+        - /url: https://beauty.hotpepper.jp/top/
+      - text: ">"
+    - listitem:
+      - link "リラクゼーション・マッサージサロン検索トップ" [ref=e16]:
+        - /url: https://beauty.hotpepper.jp/relax/
+      - text: ">"
+    - listitem:
+      - link "リラクゼーション・マッサージサロン関東トップ" [ref=e17]:
+        - /url: /relax/svcSA/
+      - text: ">"
+    - listitem:
+      - link "リラクゼーション・マッサージサロン恵比寿・代官山・中目黒・広尾・麻布・六本木トップ" [ref=e18]:
+        - /url: /relax/svcSA/macAC/
+      - text: ">"
+      - strong: パレス 広尾 六本木店(PALES)
+  - paragraph:
+    - link "【復旧済み】サイトに繋がりにくい状態が解消いたしました" [ref=e19]:
+      - /url: /doc/info/system_info/info_20260119.html?ctm=emergencyframe_pc
+  - link "パレス 広尾 六本木店(PALES)のお店ロゴ" [ref=e20]:
+    - /url: https://beauty.hotpepper.jp/kr/slnH000753917/
+    - listitem:
+      - link "空席確認・予約する" [ref=e21]:
+        - /url: https://beauty.hotpepper.jp/CSP/kr/reserve/?storeId=H000753917
+    - listitem:
+      - paragraph:
+        - link "ブックマークする" [ref=e22]:
+          - /url: javascript:void(0);
+  - paragraph:
+    - link "PALES パーソナルトレーニングジム 広尾・六本木店" [ref=e23]:
+      - /url: https://beauty.hotpepper.jp/kr/slnH000753917/
+  - paragraph: パレス パーソナルトレーニングジム ヒロオ ロッポンギテン
+    - listitem: リラク
+    - listitem: エステ
+    - listitem: リフレッシュ
+    - listitem: 整体・カイロ
+  - text: 5 （10件）
+  - link [ref=e24] [nth=2]:
+    - /url: javascript:void(0);
+    - listitem: 東京都港区西麻布２－１３－１２ 早野ビル ６０１号室
+    - listitem: 日比谷線「広尾駅」、大江戸線／ロ日比谷線「六本木駅」徒歩10分
+    - listitem:
+      - link "サロン情報" [ref=e25]:
+        - /url: https://beauty.hotpepper.jp/kr/slnH000753917/
+    - listitem:
+      - link "メニュー" [ref=e26]:
+        - /url: https://beauty.hotpepper.jp/kr/slnH000753917/coupon/
+    - listitem:
+      - link "スタッフ" [ref=e27]:
+        - /url: https://beauty.hotpepper.jp/kr/slnH000753917/staff/
+    - listitem:
+      - link "地図" [ref=e28]:
+        - /url: https://beauty.hotpepper.jp/kr/slnH000753917/map/
+    - listitem:
+      - link "口コミ" [ref=e29]:
+        - /url: https://beauty.hotpepper.jp/kr/slnH000753917/review/
+    - strong: 《広尾/六本木エリア女性限定》運動初心者でも安心！パーソナルジムで楽しく健康習慣を身に付ける♪
+  - paragraph: 運動経験ゼロでも大丈夫！女性専用×女性トレーナーの安心空間で、あなたのペースに合わせたトレーニングをご提供☆ピラティス・姿勢改善・キックボクシングもOK！初心者向けプログラムで楽しく健康習慣をスタート♪サブスク制だから都度払い不要＆通いやすさ抜群！平日は8:00～21:00受付◎理想の美ボディへ導きます！
+  - paragraph:
+    - link "空席確認・予約する" [ref=e30] [nth=1]:
+      - /url: https://beauty.hotpepper.jp/CSP/kr/reserve/?storeId=H000753917
+  - heading "パレス 広尾 六本木店(PALES)の雰囲気・メニューなど" [ref=e31] [level=2]
+      - paragraph: 完全個室＆女性専用だから、人目を気にせずトレーニングに集中！
+      - paragraph: プロのトレーナーが目標に合わせた最適なプランをご提案！
+      - paragraph: 無料レンタル完備（ウェア・シューズ・タオル・水）で手ぶらOK！
+  - heading "サロンの利用傾向" [ref=e32] [level=2]
+  - heading "平均予約金額" [ref=e33] [level=3]
+      - row "初来店 ¥4,000～¥4,999":
+        - rowheader "初来店" [ref=e34]
+        - cell "¥4,000～¥4,999" [ref=e35]
+      - row "2回目以降来店 データ収集中":
+        - rowheader "2回目以降来店" [ref=e36]
+        - cell "データ収集中" [ref=e37]:
+          - paragraph: データ収集中
+    - listitem: ※平均予約金額は、直近1年間のHOT PEPPER Beauty経由のネット予約時データをもとに集計しています。
+    - listitem: ※回数券購入分を含みます。
+    - listitem: ※予約合計金額が0円の場合は集計対象外です。
+  - heading "人気のクーポン" [ref=e38] [level=3]
+  - paragraph: データ収集中
+  - heading "予約比率" [ref=e39] [level=3]
+  - heading "性別比率" [ref=e40] [level=4]
+  - paragraph: データ収集中
+  - heading "年代比率" [ref=e41] [level=4]
+  - paragraph: データ収集中
+  - heading "パレス 広尾 六本木店(PALES)のサロンデータ" [ref=e42] [level=2]
+      - row "住所 東京都港区西麻布２－１３－１２ 早野ビル ６０１号室":
+        - rowheader "住所" [ref=e43]
+        - cell "東京都港区西麻布２－１３－１２ 早野ビル ６０１号室" [ref=e44]
+      - row "アクセス・道案内 ■広尾駅からお越しの場合（徒歩約10分）1. 広尾駅4番出口を出て、外苑西通りを右方向（西麻布方面）に進みます。2. 約700mほど直進し、「西麻布交差点」を右折します。3.少し進むと右手に「早野ビル」が見えてきます。■六本木駅からお越しの場合（徒歩約10分）1. 六本木駅2番出口を出て、六本木通りを西麻布方面へ直進します。2. 「西麻布交差点」で左折します。3. 少し進むと右手に「早野ビル」があります。":
+        - rowheader "アクセス・道案内" [ref=e45]
+        - cell "■広尾駅からお越しの場合（徒歩約10分）1. 広尾駅4番出口を出て、外苑西通りを右方向（西麻布方面）に進みます。2. 約700mほど直進し、「西麻布交差点」を右折します。3.少し進むと右手に「早野ビル」が見えてきます。■六本木駅からお越しの場合（徒歩約10分）1. 六本木駅2番出口を出て、六本木通りを西麻布方面へ直進します。2. 「西麻布交差点」で左折します。3. 少し進むと右手に「早野ビル」があります。" [ref=e46]
+      - row "営業時間 平日：8:00～22:00土日・祝：9:00～20:00":
+        - rowheader "営業時間" [ref=e47]
+        - cell "平日：8:00～22:00土日・祝：9:00～20:00" [ref=e48]
+      - row "定休日 お問い合わせください":
+        - rowheader "定休日" [ref=e49]
+        - cell "お問い合わせください" [ref=e50]
+      - row "支払い方法 Visa／Mastercard／JCB／American Express／交通系IC（suica,PASMO対応）":
+        - rowheader "支払い方法" [ref=e51]
+        - cell "Visa／Mastercard／JCB／American Express／交通系IC（suica,PASMO対応）" [ref=e52]
+      - row "設備 総数1(完全個室1)":
+        - rowheader "設備" [ref=e53]
+        - cell "総数1(完全個室1)" [ref=e54]
+      - row "スタッフ数 総数2人(スタッフ2人)":
+        - rowheader "スタッフ数" [ref=e55]
+        - cell "総数2人(スタッフ2人)" [ref=e56]
+      - row "駐車場":
+        - columnheader "駐車場" [ref=e57]
+      - row "こだわり条件 夜20時以降も受付OK／当日受付OK／2名以上の利用OK／女性専用／個室あり／2回目以降特典あり／店頭でのカード支払いOK／朝10時前でも受付OK／女性スタッフ在籍／完全予約制／指名予約OK／1人で貸切OK／着替えあり／都度払いメニューあり／体験メニューあり／回数券あり":
+        - rowheader "こだわり条件" [ref=e58]
+        - cell "夜20時以降も受付OK／当日受付OK／2名以上の利用OK／女性専用／個室あり／2回目以降特典あり／店頭でのカード支払いOK／朝10時前でも受付OK／女性スタッフ在籍／完全予約制／指名予約OK／1人で貸切OK／着替えあり／都度払いメニューあり／体験メニューあり／回数券あり" [ref=e59]
+      - row "その他 ポイント利用OK、即時予約OK":
+        - rowheader "その他" [ref=e60]
+        - cell "ポイント利用OK、即時予約OK" [ref=e61]
+  - heading "パレス 広尾 六本木店(PALES)の口コミ" [ref=e62] [level=2]
+  - paragraph: サロンPick Up
+  - paragraph: Aさん（女性/20代前半/会社員）
+  - paragraph: "[投稿日] 2025-05-01 22:52:31.0"
+    - listitem: 総合5 ★ ★ ★ ★ ★
+    - listitem: 雰囲気5
+    - listitem: 接客サービス5
+    - listitem: 技術・仕上がり5
+    - listitem: メニュー・料金5
+  - paragraph: 絶対に通います！！ pilatesに、マシーントレーニング、キックボクシングをマンツーマンでしていただけるなんて通うしかありません！ 初めてのパーソナルジムで緊張していましたが、 女性のトレーナーの方で安心してレッスンを受けられました。 とても丁寧かつ、モチベーションを上げてくれる教え方で、ここならズボラな私でも続けられそう！と思えました。 建物にはエレベーターもあり、綺麗な空間でした！ ウォーターサーバーや着替えもあったので、手ぶらでも大丈夫そうでした！
+  - paragraph: 予約時のクーポン・メニュー
+    - listitem: ジャンル
+  - paragraph: ※追加料金なし【都度利用】パーソナルトレーニング
+  - paragraph: PALES パーソナルトレーニングジム 広尾・六本木店からの返信コメント
+  - paragraph: 体験に来ていただき、ありがとうございました！
+  - paragraph:
+    - link "このサロンのすべての口コミを見る" [ref=e63]:
+      - /url: https://beauty.hotpepper.jp/kr/slnH000753917/review/
+  - paragraph:
+    - link "空席確認・予約する" [ref=e64] [nth=2]:
+      - /url: https://beauty.hotpepper.jp/CSP/kr/reserve/?storeId=H000753917
+  - term: 口コミ平均点：
+  - definition: 5 （10件）
+  - term: ページ最終更新日：
+  - definition: 2025-07-03 17:01:10.0
+  - definition:
+      - listitem:
+        - paragraph: ようこそ、ゲストさん。
+        - link "ログインする" [ref=e65]:
+          - /url: https://beauty.hotpepper.jp/CSP/login/
+        - paragraph:
+          - link "会員登録する（無料）" [ref=e66]:
+            - /url: https://beauty.hotpepper.jp/CSP/my/memberRegist/
+        - paragraph: ホットペッパービューティーなら ポイントが2%たまる！
+        - paragraph: ためたポイントをつかっておとく にサロンをネット予約！
+        - link "dポイント Pontaポイント" [ref=e67]:
+          - /url: https://point.recruit.co.jp/member/relExpCont?siteCd=HPB
+          - listitem:
+            - link "たまるポイントについて" [ref=e68]:
+              - /url: javascript:void(0);
+          - listitem:
+            - link "つかえるサービス一覧" [ref=e69]:
+              - /url: javascript:void(0);
+          - listitem:
+            - link "ポイント設定変更" [ref=e70]:
+              - /url: javascript:void(0);
+  - definition:
+      - listitem:
+        - term: ブックマーク
+        - definition: ログインすると会員情報に保存できます
+        - definition:
+          - link "サロン" [ref=e71]:
+            - /url: https://beauty.hotpepper.jp/CSP/my/bookmarkSalon/listGuest/?wak=KPCO100001_link_bookmarksalon_nologin
+        - definition:
+          - link "スタイリスト" [ref=e72]:
+            - /url: https://beauty.hotpepper.jp/CSP/my/bookmarkStylist/listGuest/?wak=KPCO100001_link_bookmarkstylist_nologin
+        - definition:
+          - link "クーポン" [ref=e73]:
+            - /url: https://beauty.hotpepper.jp/CSP/my/bookmarkCoupon/listGuest/?wak=KPCO100001_link_bookmarkcoupon_nologin
+        - definition:
+          - link "ヘアスタイル" [ref=e74] [nth=1]:
+            - /url: https://beauty.hotpepper.jp/CSP/my/bookmarkStyle/listGuest/?wak=KPCO100001_link_bookmarkstyle_nologin
+        - definition:
+          - link "ネイルデザイン" [ref=e75]:
+            - /url: https://beauty.hotpepper.jp/CSP/my/bookmarkDesign/listGuest/?wak=KPCO100001_link_bookmarknaildesign_nologin
+    - term: よくある問い合わせ
+    - definition:
+        - listitem:
+          - link "スマート支払いについて" [ref=e76]:
+            - /url: https://beauty.help.hotpepper.jp/s/topic/0TO2s000000PF9oGAG/%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E6%94%AF%E6%89%95%E3%81%84%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
+        - listitem:
+          - link "行きたいサロン・近隣のサロンが掲載されていません" [ref=e77]:
+            - /url: https://beauty.help.hotpepper.jp/app/answers/detail/a_id/13634/
+        - listitem:
+          - link "ポイントはどこのサロンで使えますか？" [ref=e78]:
+            - /url: https://beauty.help.hotpepper.jp/app/answers/detail/a_id/508/
+        - listitem:
+          - link "子供や友達の分の予約も代理でネット予約できますか？" [ref=e79]:
+            - /url: https://beauty.help.hotpepper.jp/app/answers/detail/a_id/522/
+        - listitem:
+          - link "予約をキャンセルしたい" [ref=e80]:
+            - /url: https://beauty.help.hotpepper.jp/app/answers/detail/a_id/480/
+        - listitem:
+          - link "「無断キャンセル」と表示が出て、ネット予約ができない" [ref=e81]:
+            - /url: https://beauty.help.hotpepper.jp/app/answers/detail/a_id/13515/
+    - listitem:
+      - link "サロン情報" [ref=e82] [nth=1]:
+        - /url: https://beauty.hotpepper.jp/kr/slnH000753917/
+    - listitem:
+      - link "メニュー" [ref=e83] [nth=1]:
+        - /url: https://beauty.hotpepper.jp/kr/slnH000753917/coupon/
+    - listitem:
+      - link "スタッフ" [ref=e84] [nth=1]:
+        - /url: https://beauty.hotpepper.jp/kr/slnH000753917/staff/
+    - listitem:
+      - link "地図" [ref=e85] [nth=1]:
+        - /url: https://beauty.hotpepper.jp/kr/slnH000753917/map/
+    - listitem:
+      - link "口コミ" [ref=e86] [nth=1]:
+        - /url: https://beauty.hotpepper.jp/kr/slnH000753917/review/
+    - listitem:
+      - link "恵比寿・代官山・中目黒・広尾・麻布・六本木" [ref=e87]:
+        - /url: https://beauty.hotpepper.jp/relax/svcSA/macAC/
+    - listitem:
+      - link "六本木・麻布十番・赤坂" [ref=e88]:
+        - /url: https://beauty.hotpepper.jp/relax/svcSA/macAC/salon/sacX010/
+    - listitem:
+      - link "東京都" [ref=e89]:
+        - /url: https://beauty.hotpepper.jp/relax/pre13/
+    - listitem:
+      - link "港区" [ref=e90]:
+        - /url: https://beauty.hotpepper.jp/relax/pre13/city10300000/
+    - listitem:
+      - link "六本木" [ref=e91]:
+        - /url: https://beauty.hotpepper.jp/relax/svcSA/stc0070020/
+    - listitem:
+      - link "乃木坂" [ref=e92]:
+        - /url: https://beauty.hotpepper.jp/relax/svcSA/stc0020025/
+    - listitem:
+      - link "広尾" [ref=e93]:
+        - /url: https://beauty.hotpepper.jp/relax/svcSA/stc0070015/
+    - listitem:
+      - link "関東のエクステの種類が豊富" [ref=e94]:
+        - /url: https://beauty.hotpepper.jp/nail/svcSA/grcGR05_spdL080/
+    - listitem:
+      - link "恵比寿・代官山・中目黒・広尾・麻布・六本木のポイントが利用できるサロン" [ref=e95]:
+        - /url: https://beauty.hotpepper.jp/relax/svcSA/macAC/salon/point/
+  - term: パレス 広尾 六本木店(PALES)の近隣サロン
+  - definition:
+      - listitem:
+        - link "レディナダ 西麻布店" [ref=e96]:
+          - /url: https://beauty.hotpepper.jp/kr/slnH000647354/
+        - text: "|"
+      - listitem:
+        - link "モンシェールロッポンギ(MONCHeR ROPPONGI.)" [ref=e97]:
+          - /url: https://beauty.hotpepper.jp/kr/slnH000584466/
+        - text: "|"
+      - listitem:
+        - link "西麻布広尾SPA." [ref=e98]:
+          - /url: https://beauty.hotpepper.jp/kr/slnH000664217/
+        - text: "|"
+      - listitem:
+        - link "ユンスタジオ(YUN Studio)" [ref=e99]:
+          - /url: https://beauty.hotpepper.jp/kr/slnH000780717/
+        - text: "|"
+      - listitem:
+        - link "マシェリ 西麻布六本木店(MA CHeRiE.)" [ref=e100]:
+          - /url: https://beauty.hotpepper.jp/kr/slnH000653999/
+  - link "(C) Recruit Co., Ltd." [ref=e101]:
+    - /url: https://www.recruit.co.jp/
+    - listitem:
+      - link "HOT PEPPER Beautyとサロンボード導入のご案内" [ref=e102]:
+        - /url: https://beauty.hotpepper.jp/doc/keisai/keisai.html
+    - listitem:
+      - link "掲載をご希望のサロン様はこちら" [ref=e103]:
+        - /url: https://beauty.hotpepper.jp/CSP/publicationInquiry/?wak=KPCO100001_link_sentel_footer
+    - listitem:
+      - link "ID・会員規約" [ref=e104]:
+        - /url: javascript:void(0);
+    - listitem:
+      - link "利用規約" [ref=e105]:
+        - /url: javascript:void(0);
+    - listitem:
+      - link "プライバシーポリシー" [ref=e106]:
+        - /url: javascript:void(0);
+    - listitem:
+      - link "ご利用ガイド" [ref=e107]:
+        - /url: javascript:void(0);
+

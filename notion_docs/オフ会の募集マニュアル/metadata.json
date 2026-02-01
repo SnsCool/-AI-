@@ -1,0 +1,35 @@
+{
+  "object": "page",
+  "id": "223f3b0f-ba85-8008-9f8f-d73e19e9a3e6",
+  "created_time": "2025-07-01T04:10:00.000Z",
+  "last_edited_time": "2026-01-09T13:31:00.000Z",
+  "parent": {
+    "type": "data_source_id",
+    "data_source_id": "1d9f3b0f-ba85-81b3-89f8-000b21adb1a2",
+    "database_id": "1d9f3b0f-ba85-8181-a509-c9aa4c6eebf2"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "カテゴリ": {
+      "type": "select",
+      "select": {
+        "name": "オフ会",
+        "color": "purple"
+      }
+    },
+    "URL": {
+      "type": "url",
+      "url": "https://www.notion.so/21df3b0fba8580eca2c2dc40e4084573?source=copy_link"
+    },
+    "名前": {
+      "type": "title",
+      "title": [
+        {
+          "plain_text": "オフ会の募集マニュアル"
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/223f3b0fba8580089f8fd73e19e9a3e6"
+}

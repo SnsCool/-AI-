@@ -1,0 +1,8 @@
+{
+  "url": "https://drive.google.com/drive/folders/1yYitPuCuTWpBDPt20QOMbmZafLpn9dA4?usp=sharing",
+  "type": "gdrive",
+  "processed_at": "2026-01-22T16:21:13.896810",
+  "content": "  - main:\n    - link \"Google\" [ref=e1]:\n      - /url: //www.google.com\n      - text: \"404.\"\n      - insertion: エラーが発生しました。\n      - text: リクエストされた URL はこのサーバーで見つかりませんでした。\n      - insertion: Google で確認できたことは以上です。\n",
+  "title": "Webページ",
+  "error": null
+}

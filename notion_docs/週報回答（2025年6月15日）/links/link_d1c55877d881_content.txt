@@ -1,0 +1,33 @@
+# リンク先コンテンツ
+
+**URL**: https://www.instagram.com/hiiro_roaster/
+**種類**: video
+**タイトル**: 動画コンテンツ
+**リンクテキスト**: 
+**参照元**: 週報回答（2025年6月15日）
+**取得日時**: 2026-01-22T13:28:19.356555
+
+---
+
+## コンテンツ
+
+以下は、画像のOCRで抽出したテキストです。
+
+"Instagram
+Phone number, username, or email
+Password
+Log in
+OR
++ Log in with Facebook
+Forgot password?
+Don't have an account? Sign up
+Meta About Blog Jobs Help API Privacy Terms Locations Instagram Lite Meta Al Threads Contact Uploading & Non-Users Meta Verified
+X By continuing, you agree to Instagram's Terms of Use and Privacy Policy.
+English
+2026 Instagram from Meta"
+
+これはInstagramのログインページのスクリーンショットです。上部にはInstagramのロゴが表示されています。ユーザーは、電話番号、ユーザー名、またはメールアドレスとパスワードを入力してログインできます。Facebookアカウントでログインするオプションもあります。パスワードを忘れた場合は、リセットするためのリンクがあります。アカウントを持っていない場合は、サインアップできます。
+
+ページの下部には、Meta、About、Blog、Jobs、Help、API、Privacy、Terms、Locations、Instagram Lite、Meta AI、Threads、Contact Uploading & Non-Users、Meta Verifiedへのリンクがあります。また、言語を選択するためのドロップダウンメニューと、著作権表示もあります。
+
+最後に、「By continuing, you agree to Instagram's Terms of Use and Privacy Policy」というメッセージが表示されています。これは、Instagramの利用規約とプライバシーポリシーに同意することを意味します。

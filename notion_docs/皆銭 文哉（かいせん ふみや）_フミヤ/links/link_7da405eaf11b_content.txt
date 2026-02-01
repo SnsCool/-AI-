@@ -1,0 +1,234 @@
+# リンク先コンテンツ
+
+**URL**: https://hillsbreakfast.roppongihills.com/speakers/vol_128_1.html
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 皆銭 文哉（かいせん ふみや）_フミヤ
+**取得日時**: 2026-01-22T15:31:40.702059
+
+---
+
+## コンテンツ
+
+  - navigation:
+    - link [ref=e1]:
+      - /url: /
+      - listitem:
+        - link "NEWS" [ref=e2]:
+          - /url: /information/
+      - listitem:
+        - link "ABOUT" [ref=e3]:
+          - /url: /about.html
+      - listitem:
+        - link "ARCHIVE" [ref=e4]:
+          - /url: /speakers/
+      - listitem:
+        - link "CONTACT" [ref=e5]:
+          - /url: /contact/
+      - listitem:
+        - link [ref=e6] [nth=1]:
+          - /url: https://twitter.com/hillsbreakfast
+      - listitem:
+        - link [ref=e7] [nth=2]:
+          - /url: https://www.facebook.com/hillsbreakfast/
+      - listitem:
+        - link [ref=e8] [nth=3]:
+          - /url: https://www.instagram.com/hillsbreakfast/
+      - listitem:
+        - link [ref=e9] [nth=4]:
+          - /url: https://www.youtube.com/user/hillsbreakfast/featured
+      - listitem:
+        - link "EN" [ref=e10]:
+          - /url: "#"
+  - heading [level=6]
+    - listitem:
+      - link "Top" [ref=e11]:
+        - /url: /
+    - listitem:
+      - text: /
+      - link "List of speakers" [ref=e12]:
+        - /url: /speakers/
+  - 'heading "Vol. 128 #1 Fumiya Minasei" [level=5]':
+      - /url: javascript:void(0);
+    - listitem:
+      - link "128th" [ref=e13]:
+        - /url: javascript:void(0);
+    - listitem:
+      - text: /
+      - link "Wednesday, November 30, 2022" [ref=e14]:
+        - /url: javascript:void(0);
+    - listitem:
+      - text: /
+      - link "Lifestyle" [ref=e15]:
+        - /url: javascript:void(0);
+    - listitem:
+      - link "Digital" [ref=e16]:
+        - /url: javascript:void(0);
+    - listitem:
+      - link "business" [ref=e17]:
+        - /url: javascript:void(0);
+    - listitem:
+      - link "media" [ref=e18]:
+        - /url: javascript:void(0);
+    - listitem:
+      - link "consulting" [ref=e19]:
+        - /url: javascript:void(0);
+    - listitem:
+      - link "creative" [ref=e20]:
+        - /url: javascript:void(0);
+  - link "FUMIYA KAISEN" [ref=e21]:
+    - /url: ""
+  - heading "Fumiya Minasei" [ref=e22] [level=4]
+  - heading "FUMIYA KAISEN" [ref=e23] [level=6]
+  - paragraph: Representative Director of Spotlight Co., Ltd.
+  - paragraph: After graduating from Aoyama Gakuin University, started introducing movies on SNS. Achieved a total of about 250,000 followers on SNS in the first year, and became the third movie influencer in Japan. He is currently working on the movie Spotlight, which he is directing.
+    - listitem:
+      - link "https://twitter.com/QAI1000/" [ref=e24]:
+        - /url: https://twitter.com/QAI1000/
+    - listitem:
+      - link "https://www.instagram.com/moviedirector_kf/" [ref=e25]:
+        - /url: https://www.instagram.com/moviedirector_kf/
+    - listitem:
+      - link "https://www.tiktok.com/@urabanashikun" [ref=e26]:
+        - /url: https://www.tiktok.com/@urabanashikun
+  - heading "Share This:" [ref=e27] [level=6]
+  - link [ref=e28] [nth=5]:
+    - /url: //twitter.com/intent/tweet?url=https%3A%2F%2Fhillsbreakfast.roppongihills.com%2Fspeakers%2Fvol_128_1.html&text=Vol.128%20%231%20%E7%9A%86%E9%8A%AD%20%E6%96%87%E5%93%89%20%7C%20Hills%20Breakfast
+  - link [ref=e29] [nth=6]:
+    - /url: //www.facebook.com/sharer/sharer.php?u=https://hillsbreakfast.roppongihills.com/speakers/vol_128_1.html
+  - link [ref=e30] [nth=7]:
+    - /url: ""
+  - searchbox "Search" [ref=e31]
+  - heading "Tags" [ref=e32] [level=6]
+  - paragraph: tag
+  - link "architecture" [ref=e33]:
+    - /url: javascript:void(0);
+  - link "Digital" [ref=e34] [nth=1]:
+    - /url: javascript:void(0);
+  - link "environment" [ref=e35]:
+    - /url: javascript:void(0);
+  - link "business" [ref=e36] [nth=1]:
+    - /url: javascript:void(0);
+  - link "media" [ref=e37] [nth=1]:
+    - /url: javascript:void(0);
+  - link "Sustainability" [ref=e38]:
+    - /url: javascript:void(0);
+  - link "abroad" [ref=e39]:
+    - /url: javascript:void(0);
+  - link "welfare" [ref=e40]:
+    - /url: javascript:void(0);
+  - link "design" [ref=e41]:
+    - /url: javascript:void(0);
+  - link "branding" [ref=e42]:
+    - /url: javascript:void(0);
+  - link "consulting" [ref=e43] [nth=1]:
+    - /url: javascript:void(0);
+  - link "education" [ref=e44]:
+    - /url: javascript:void(0);
+  - link "Agriculture" [ref=e45]:
+    - /url: javascript:void(0);
+  - link "creative" [ref=e46] [nth=1]:
+    - /url: javascript:void(0);
+  - link "sports" [ref=e47]:
+    - /url: javascript:void(0);
+  - link "region" [ref=e48]:
+    - /url: javascript:void(0);
+  - link "medical care" [ref=e49]:
+    - /url: javascript:void(0);
+  - link "music" [ref=e50]:
+    - /url: javascript:void(0);
+  - link "art" [ref=e51]:
+    - /url: javascript:void(0);
+  - link "technology" [ref=e52]:
+    - /url: javascript:void(0);
+  - link "hood" [ref=e53]:
+    - /url: javascript:void(0);
+  - link "health" [ref=e54]:
+    - /url: javascript:void(0);
+  - link "mindfulness" [ref=e55]:
+    - /url: javascript:void(0);
+  - link "community" [ref=e56]:
+    - /url: javascript:void(0);
+  - link "politics" [ref=e57]:
+    - /url: javascript:void(0);
+  - link "entertainment" [ref=e58]:
+    - /url: javascript:void(0);
+  - heading "Categories" [ref=e59] [level=6]
+  - paragraph: Speaker category
+    - listitem:
+      - link "culture 349" [ref=e60]:
+        - /url: javascript:void(0);
+    - listitem:
+      - link "Lifestyle 193" [ref=e61]:
+        - /url: javascript:void(0);
+    - listitem:
+      - link "innovation 140" [ref=e62]:
+        - /url: javascript:void(0);
+    - listitem:
+      - link "art 75" [ref=e63]:
+        - /url: javascript:void(0);
+  - heading "Archive" [ref=e64] [level=6]
+  - paragraph: archive
+  - paragraph:
+    - link [ref=e65] [nth=8]:
+      - /url: javascript:void(#);
+  - heading "Recent Posts" [ref=e66] [level=6]
+  - paragraph: recent articles
+  - link [ref=e67] [nth=9]:
+    - /url: /speakers/vol_158_1.html
+  - text: "1"
+  - paragraph:
+    - link "Nobuaki Sato" [ref=e68]:
+      - /url: /speakers/vol_158_1.html
+    - text: 158th November 2025
+  - link [ref=e69] [nth=10]:
+    - /url: /speakers/vol_158_2.html
+  - text: "2"
+  - paragraph:
+    - link "Yukina Shibata" [ref=e70]:
+      - /url: /speakers/vol_158_2.html
+    - text: 158th November 2025
+  - link [ref=e71] [nth=11]:
+    - /url: /speakers/vol_158_3.html
+  - text: "3"
+  - paragraph:
+    - link "Kobayashi Kozue" [ref=e72]:
+      - /url: /speakers/vol_158_3.html
+    - text: 158th November 2025
+  - link [ref=e73] [nth=12]:
+    - /url: /speakers/vol_158_4.html
+  - text: "4"
+  - paragraph:
+    - link "Ryomasa Gomi" [ref=e74]:
+      - /url: /speakers/vol_158_4.html
+    - text: 158th November 2025
+  - link [ref=e75] [nth=13]:
+    - /url: /speakers/vol_157_1.html
+  - text: "5"
+  - paragraph:
+    - link "Soichiro Miura" [ref=e76]:
+      - /url: /speakers/vol_157_1.html
+    - text: 157th October 2025
+  - link [ref=e77] [nth=14]:
+    - /url: /speakers/vol_157_2.html
+  - text: "6"
+  - paragraph:
+    - link "Shinichiro Horadanuki" [ref=e78]:
+      - /url: /speakers/vol_157_2.html
+    - text: 157th October 2025
+  - link [ref=e79] [nth=15]:
+    - /url: /speakers/vol_157_3.html
+  - text: "7"
+  - paragraph:
+    - link "Mari Murakami" [ref=e80]:
+      - /url: /speakers/vol_157_3.html
+    - text: 157th October 2025
+  - link [ref=e81] [nth=16]:
+    - /url: /speakers/vol_157_4.html
+  - text: "8"
+  - paragraph:
+    - link "Maya Sato" [ref=e82]:
+      - /url: /speakers/vol_157_4.html
+    - text: 157th October 2025
+

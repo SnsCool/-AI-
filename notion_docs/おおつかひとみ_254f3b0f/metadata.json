@@ -1,0 +1,17 @@
+{
+  "page_id": "254f3b0f-ba85-80dc-9355-dc11da2a64fa",
+  "title": "おおつかひとみ",
+  "created_time": "2025-08-19T02:06:00.000Z",
+  "last_edited_time": "2025-08-19T02:06:00.000Z",
+  "url": "https://www.notion.so/254f3b0fba8580dc9355dc11da2a64fa",
+  "properties": {
+    "クラス": {"type": "rich_text", "value": "ボムG組"},
+    "運営LINE URL": {"type": "url", "value": null},
+    "改善案": {"type": "rich_text", "value": ""},
+    "発生週": {"type": "select", "value": "8月2週目"},
+    "問い合わせ内容": {"type": "rich_text", "value": "今後オフ会やグルコン等参加する際に気まずくなってしまうのは避けたいので現在の担当講師への共有はやめていただきたいです。"},
+    "発生時期": {"type": "date", "value": "2025-08-15"},
+    "分類": {"type": "select", "value": "講師"},
+    "氏名": {"type": "title", "value": "おおつかひとみ"}
+  }
+}

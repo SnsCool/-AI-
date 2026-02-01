@@ -1,0 +1,110 @@
+# リンク先コンテンツ
+
+**URL**: https://theopenphotoproject.org/portfolio/pamphlet/selis.html#portfoliolist
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: パンフレット3
+**取得日時**: 2026-01-22T17:17:11.144029
+
+---
+
+## コンテンツ
+
+以下は、提供されたコンテンツの構造化された要約です。
+
+**I. 概要**
+
+*   「パンフレット制作.jp」(https://theopenphotoproject.org/) は、パンフレットデザイン制作などを提供するサービス。メールでの問い合わせは24時間365日受付。
+
+**II. コンテンツ**
+
+*   **デザイン事例:**
+    *   サイトマップ: https://theopenphotoproject.org/sitemap.html
+    *   アクセス: https://theopenphotoproject.org/access.html
+    *   よくある質問: https://theopenphotoproject.org/qa/
+*   **サイト内リンク:**
+    *   ホーム: //theopenphotoproject.org/
+    *   初めての方へ: ../../about/
+    *   サービス一覧: ../../service/
+    *   制作実績: ../../portfolio/
+    *   料金表: ../../price/
+    *   お問い合わせ: /contact/?referer=seo
+    *   作り方のポイント: https://theopenphotoproject.org/point/
+    *   用途別インデックス: https://theopenphotoproject.org/howtouse/
+
+**III. サービスラインナップ** (https://theopenphotoproject.org/service/)
+
+*   パンフレットデザイン: https://theopenphotoproject.org/service/pamphlet.html
+*   会社案内デザイン: https://theopenphotoproject.org/service/corporate.html
+*   カタログデザイン: https://theopenphotoproject.org/service/catalog.html
+*   学校案内デザイン: https://theopenphotoproject.org/service/school.html
+*   リーフレットデザイン: https://theopenphotoproject.org/service/leaflet.html
+*   ポケット付ホルダー・パンフレット: https://theopenphotoproject.org/service/pocket.html
+*   ポスターデザイン: https://theopenphotoproject.org/service/poster.html
+*   チラシデザイン: https://theopenphotoproject.org/service/tirasi.html
+*   新聞折込チラシ: https://theopenphotoproject.org/service/newspaper.html
+*   HP制作: https://theopenphotoproject.org/service/web.html
+*   マンガパンフレット: https://theopenphotoproject.org/service/manga.html
+*   マンガLP: https://theopenphotoproject.org/service/lp.html
+*   Web紙芝居: https://theopenphotoproject.org/service/web-kamishibai.html
+*   スチール撮影: https://theopenphotoproject.org/service/movie.html
+*   電子書籍・アプリ制作: https://theopenphotoproject.org/service/appli.html
+*   動画制作: https://theopenphotoproject.org/service/douga.html
+
+**IV. デザイン制作実績** (https://theopenphotoproject.org/portfolio/)
+
+*   パンフレットデザイン: https://theopenphotoproject.org/portfolio/pamphlet.html
+*   会社案内デザイン: https://theopenphotoproject.org/portfolio/corporate.html
+*   カタログデザイン: https://theopenphotoproject.org/portfolio/catalog.html
+*   学校案内デザイン: https://theopenphotoproject.org/portfolio/school.html
+*   リーフレット・DM: https://theopenphotoproject.org/portfolio/dm.html
+*   ポスターデザイン: https://theopenphotoproject.org/portfolio/poster.html
+*   チラシデザイン: https://theopenphotoproject.org/portfolio/tirasi.html
+*   マンガデザイン: https://theopenphotoproject.org/portfolio/manga.html
+*   会員誌・会報誌: https://theopenphotoproject.org/portfolio/magazine.html
+*   webデザイン: https://theopenphotoproject.org/portfolio/web.html
+*   その他デザイン: https://theopenphotoproject.org/portfolio/other.html
+
+**V. 顧客の声**
+
+*   東京薬科大学: https://theopenphotoproject.org/voice/
+*   駿台トラベル＆ホテル専門学校: https://theopenphotoproject.org/voice/#section2
+
+**VI. その他**
+
+*   ブログ: https://theopenphotoproject.org/blog/
+*   Facebookページ: https://www.facebook.com/pamhletseisaku.jp/
+*   ランディングページ: https://theopenphotoproject.org/snrlp/
+*   マンガパンフレット（詳細）: https://theopenphotoproject.org/service/manga/guidemangapamph-ad.html
+*   マンガランディングページ: https://theopenphotoproject.org/lp/
+*   Web紙芝居（詳細）: https://theopenphotoproject.org/service/web-kamishibai/guideweb-kamishibai.html
+*   動画制作: https://theopenphotoproject.org/service/douga.html
+*   社長インタビュー: https://theopenphotoproject.org/company/#section4
+*   よくある質問: https://theopenphotoproject.org/qa/
+*   ご利用規約: https://theopenphotoproject.org/company/kiyaku.html
+*   スタッフ紹介: https://theopenphotoproject.org/company/#section3
+*   ビジネスパートナー募集: https://theopenphotoproject.org/company/partner.html
+*   LINEで共有
+
+**VII. 株式会社セリス様のパンフレットデザイン事例**
+
+*   概要: 介護施設のパンフレットデザイン事例。以前制作したパンフレットをリニューアルし、高級感を向上させた。
+*   データ: A4×8P／4c×4c／マットコート135kg
+*   詳細: https://theopenphotoproject.org/portfolio/pamphlet/selis.html
+*   関連:
+    *   パンフレット作成・制作サービス案内: ../../service/pamphlet.html
+    *   パンフレットの料金表: ../../price/pa_price.html
+*   デザイン制作事例TOP: #contents
+
+**VIII. メニュー**
+
+*   グローバルメニューとフッターメニューはほぼ同様。
+
+**IX. ポケット付ホルダー**
+
+* ポケット付ホルダー,パンフレット作成・制作サービス案内: https://theopenphotoproject.org/service/pocket.html
+* ポケット付パンフレット作成・制作の料金表: https://theopenphotoproject.org/price/pp_price.html
+* ポケット付きホルダー作成・制作の料金表: https://theopenphotoproject.org/price/ph_price.html
+
+この要約は、ウェブサイトの構造と主要なコンテンツ、およびサービスと制作実績の概要を提供します。

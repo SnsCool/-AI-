@@ -1,0 +1,38 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/document/d/1KTAsK7cRWE4NRBqMG6tpKUMDXA0_pob5/edit?usp=sharing&ouid=111572611326635801113&rtpof=true&sd=true
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 9月16日週次
+**取得日時**: 2026-01-22T15:29:10.376876
+
+---
+
+## コンテンツ
+
+    - banner "メニューバー":
+      - link "ドキュメント ホーム" [ref=e1]:
+        - /url: https://docs.google.com/document/?usp=docs_web
+      - text: リサーチマニュアル
+      - button "Microsoft Word 形式" [ref=e2]: .docx
+      - 'button "ドキュメントのステータス: ドライブに保存しました."'
+      - button "編集権限をリクエスト. このドキュメントで行えるのは閲覧のみです。 オーナーに編集権限をリクエストするには、Google アカウントにログインする必要があります。" [ref=e3] [disabled]: 編集権限をリクエスト
+      - button "すべてのコメントを表示" [ref=e4]
+      - button "共有します。リンクを知っている全員。 リンクを知っている全員がアクセスできます。ログインは不要です。" [ref=e5] [disabled]: 共有
+      - button "クイック共有操作" [ref=e6] [disabled]
+      - link "ログイン" [ref=e7]:
+        - /url: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/document/d/1KTAsK7cRWE4NRBqMG6tpKUMDXA0_pob5/edit?usp%3Dsharing%26ouid%3D111572611326635801113%26rtpof%3Dtrue%26sd%3Dtrue&followup=https://docs.google.com/document/d/1KTAsK7cRWE4NRBqMG6tpKUMDXA0_pob5/edit?usp%3Dsharing%26ouid%3D111572611326635801113%26rtpof%3Dtrue%26sd%3Dtrue&ltmpl=docs&ec=GAZAGQ
+        - menuitem "ファイル" [ref=e8]
+        - menuitem "編集" [ref=e9]
+        - menuitem "表示" [ref=e10]
+        - menuitem "ツール" [ref=e11]
+        - menuitem "ヘルプ" [ref=e12]
+    - button "タブとアウトラインを非表示" [ref=e13]:
+      - button "戻る" [ref=e14] [disabled]:
+        - button "戻る" [ref=e15] [nth=1] [disabled]
+    - link "スクリーン リーダーのサポートを有効にする" [ref=e16]:
+      - /url: "#"
+    - text: バナーを非表示にしました
+    - region: スクリーン リーダーのサポートを有効にするには、⌘+option+Z を押します。キーボード ショートカットの詳細については、⌘スラッシュ を押します。
+

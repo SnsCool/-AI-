@@ -1,0 +1,8 @@
+{
+  "url": "https://ivry.jp/setting/rule/",
+  "type": "webpage",
+  "processed_at": "2026-01-22T15:32:11.280553",
+  "content": "  - link \"アイブリー\" [ref=e1]:\n    - /url: /\n  - heading \"ログイン\" [ref=e2] [level=2]\n  - text: メールアドレス\n    - textbox \"メールアドレス\" [ref=e3]\n    - text: パスワード\n    - textbox \"パスワード\" [ref=e4]\n    - button \"パスワードを表示する\" [ref=e5]:\n  - link \"パスワードがわからない、変更したい方はこちら\" [ref=e6]:\n    - /url: /password/reset/\n  - button \"ログイン\" [ref=e7] [disabled]\n  - paragraph:\n    - text: 利用を継続することで、アイブリーの\n    - link \"利用規約\" [ref=e8]:\n      - /url: /terms/\n    - text: と\n    - link \"プライバシーポリシー\" [ref=e9]:\n      - /url: /privacy/\n    - text: に同意したものとみなされます\n  - paragraph:\n    - text: カラーミーでのアプリ連携をご利用の方は\n    - link \"こちら\" [ref=e10]:\n      - /url: https://internal-api.ivry.jp/v1/auth/color_me\n  - paragraph: お困りごとはございませんか？\n  - paragraph: アイブリーヘルプセンターをご活用ください\n  - paragraph: アイブリーヘルプセンターは、アイブリーをご利用中のお客様向けのサポートサイトです。 設定方法や運用方法など、よくあるご質問をわかりやすくまとめています。初期設定から応用的な使い方まで、必要な情報を簡単に見つけることができます。\n  - link \"ヘルプセンターをみる\" [ref=e11]:\n    - /url: https://ivry-jp.notion.site/d07eaa09a57747969b40f451eadc6a87\n  - contentinfo:\n    - link \"アイブリー\" [ref=e12] [nth=1]:\n      - /url: /\n    - link \"利用規約\" [ref=e13] [nth=1]:\n      - /url: /terms/\n    - link \"プライバシーポリシー\" [ref=e14] [nth=1]:\n      - /url: /privacy/\n    - link \"特定商取引法に基づく表記\" [ref=e15]:\n      - /url: /compliance/\n  - region \"Notifications-top\" [ref=e16]\n  - region \"Notifications-top-left\" [ref=e17]\n  - region \"Notifications-top-right\" [ref=e18]\n  - region \"Notifications-bottom-left\" [ref=e19]\n  - region \"Notifications-bottom\" [ref=e20]\n  - region \"Notifications-bottom-right\" [ref=e21]\n",
+  "title": "Webページ",
+  "error": null
+}

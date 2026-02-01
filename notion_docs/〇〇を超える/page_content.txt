@@ -1,0 +1,14 @@
+# 〇〇を超える
+
+Notion URL: https://www.notion.so/68aa6905faa84f1d896caa8f0ac1e5a8
+同期日時: 2026-01-27T15:40:00+09:00
+
+---
+
+## プロパティ
+
+- **例**: 〇〇を超える
+- **大項目**: Problem 問題提起
+- **Bookmark**: false
+- **種別**: 比較
+- **memo**:

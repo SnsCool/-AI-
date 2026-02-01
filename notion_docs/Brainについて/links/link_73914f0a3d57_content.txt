@@ -1,0 +1,229 @@
+# リンク先コンテンツ
+
+**URL**: https://brain-market.com/
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: Brainについて
+**取得日時**: 2026-01-23T01:57:20.382074
+
+---
+
+## コンテンツ
+
+  - navigation:
+    - listbox [ref=e1]:
+        - paragraph: プロフィールを見る
+      - button "記事を書く" [ref=e2]:
+        - paragraph: 記事を書く
+      - text: 自分の記事 購入した記事 最近見た記事 売上管理 設定 ログアウト
+  - navigation:
+    - text: 並び替え
+    - button [ref=e3]:
+    - listbox [ref=e4] [nth=1]: 人気順 新着順 口コミが多い順 レビューが高い順
+  - banner:
+    - button [ref=e5] [nth=1]:
+    - text: カテゴリー
+    - textbox [ref=e6]:
+      - /placeholder: キーワードで検索
+    - button "ログイン" [ref=e7]:
+      - paragraph: ログイン
+    - button "新規登録" [ref=e8]:
+      - paragraph: 新規登録
+  - link [ref=e9]:
+    - /url: https://media.brain-market.com/brain/
+  - link [ref=e10] [nth=1]:
+    - /url: https://media.brain-market.com/
+  - link [ref=e11] [nth=2]:
+    - /url: https://youtu.be/SpeSl-dKS7c
+  - heading "カテゴリー" [ref=e12] [level=2]
+  - listbox [ref=e13] [nth=2]: すべて プログラミング 動画編集 SEO・ブログ デザイン マーケティング お金 恋愛・人間関係 健康・食事・美容 ビジネス 物販 AI SNS ライティング YouTube 資格 その他
+  - main:
+    - heading "人気の記事" [ref=e14] [level=2]
+    - link "ライター歴１０年・コンテンツ販売累計１億円突破の読む実践パッケージ ビジネス ¥24,600 紹介で30%還元（購入者限定） 5.0 (6件) めあり 3 days ago" [ref=e15]:
+      - /url: /u/meari/a/b3EjM2MjMgoTZsNWa0JXY
+      - heading "ライター歴１０年・コンテンツ販売累計１億円突破の読む実践パッケージ" [ref=e16] [level=3]
+      - text: ビジネス ¥24,600 紹介で30%還元（購入者限定） 5.0 (6件)
+      - text: めあり 3 days ago
+    - link "TikTokLite完全攻略 ～月100万の世界へ～ お金 ¥10,000 紹介で50%還元（全員） 5.0 (4件) にゃんてぇ 16 days ago" [ref=e17]:
+      - /url: /u/ncvsxz/a/b4cjM1MjMgoTZsNWa0JXY
+      - heading "TikTokLite完全攻略 ～月100万の世界へ～" [ref=e18] [level=3]
+      - text: お金 ¥10,000 紹介で50%還元（全員） 5.0 (4件)
+      - text: にゃんてぇ 16 days ago
+    - link "スマホ1台でできる！日記感覚ブログで月3万円を稼ぐ『アメステップ』 ビジネス ¥4,980 紹介で50%還元（購入者限定） 4.8 (222件) はたぼー 10 days ago" [ref=e19]:
+      - /url: /u/brain-hatabo/a/bzETNzMjMgoTZsNWa0JXY
+      - heading "スマホ1台でできる！日記感覚ブログで月3万円を稼ぐ『アメステップ』" [ref=e20] [level=3]
+      - text: ビジネス ¥4,980 紹介で50%還元（購入者限定） 4.8 (222件)
+      - text: はたぼー 10 days ago
+    - link "【NanobananaPro】3分でわかる最強AI漫画生成ツール【最終形態プロンプト＋α】 デザイン ¥19,500 紹介で50%還元（全員） 5.0 (2件) 不可思議ちゃん 13 days ago" [ref=e21]:
+      - /url: /u/fukachan/a/b2QTO0MjMgoTZsNWa0JXY
+      - heading "【NanobananaPro】3分でわかる最強AI漫画生成ツール【最終形態プロンプト＋α】" [ref=e22] [level=3]
+      - text: デザイン ¥19,500 紹介で50%還元（全員） 5.0 (2件)
+      - text: 不可思議ちゃん 13 days ago
+    - link "【今だからチャンス！】実績ゼロでも月10万円稼げるインスタ×アフィリエイトの完全攻略書 ビジネス ¥1,980 紹介で50%還元（全員） 5.0 (20件) しゃち 3 days ago" [ref=e23]:
+      - /url: /u/shachi_ai/a/bxgDM2MjMgoTZsNWa0JXY
+      - heading "【今だからチャンス！】実績ゼロでも月10万円稼げるインスタ×アフィリエイトの完全攻略書" [ref=e24] [level=3]
+      - text: ビジネス ¥1,980 紹介で50%還元（全員） 5.0 (20件)
+      - text: しゃち 3 days ago
+    - link "【月5〜20万円可】ゼロから始める最強副業「結婚相談所アフィリエイト×Threads」完全マニュアル ビジネス ¥2,980 紹介で50%還元（全員） 5.0 (12件) Saki@AI副業 15 days ago" [ref=e25]:
+      - /url: /u/redmoon000w/a/b4MTOwMjMgoTZsNWa0JXY
+      - heading "【月5〜20万円可】ゼロから始める最強副業「結婚相談所アフィリエイト×Threads」完全マニュアル" [ref=e26] [level=3]
+      - text: ビジネス ¥2,980 紹介で50%還元（全員） 5.0 (12件)
+      - text: Saki@AI副業 15 days ago
+    - link "【限定公開】7ヶ月連続100万円達成した僕の、AI×note収益化の全ノウハウ AI ¥20,980 紹介で50%還元（全員） 5.0 (28件) まな 3 months ago" [ref=e27]:
+      - /url: /u/lovepeace/a/b4QDMwMjMgoTZsNWa0JXY
+      - heading "【限定公開】7ヶ月連続100万円達成した僕の、AI×note収益化の全ノウハウ" [ref=e28] [level=3]
+      - text: AI ¥20,980 紹介で50%還元（全員） 5.0 (28件)
+      - text: まな 3 months ago
+    - button "8位以降も見る" [ref=e29]:
+      - paragraph: 8位以降も見る
+    - heading "新着記事" [ref=e30] [level=2]
+    - link "月5万＝才能じゃない｜最初の7日”で差がつく在宅副業ロードマップ（寝る前30分×継続案件×テンプレ化） ビジネス ¥1,980 紹介で50%還元（全員） 0 (0件) そらと＠副業アドバイザー 4 hours ago" [ref=e31]:
+      - /url: /u/rukychan/a/b5UjN2MjMgoTZsNWa0JXY
+      - heading "月5万＝才能じゃない｜最初の7日”で差がつく在宅副業ロードマップ（寝る前30分×継続案件×テンプレ化）" [ref=e32] [level=3]
+      - text: ビジネス ¥1,980 紹介で50%還元（全員） 0 (0件)
+      - text: そらと＠副業アドバイザー 4 hours ago
+    - link "Kindle出版で安定収益をつくる最強ロードマップ ビジネス ¥500 紹介で50%還元（全員） 0 (0件) 竜太郎2024 4 hours ago" [ref=e33]:
+      - /url: /u/ryutaro2024225/a/b0kTN2MjMgoTZsNWa0JXY
+      - heading "Kindle出版で安定収益をつくる最強ロードマップ" [ref=e34] [level=3]
+      - text: ビジネス ¥500 紹介で50%還元（全員） 0 (0件)
+      - text: 竜太郎2024 4 hours ago
+    - link "【全面解説】AI占い×LINE Bot完全攻略｜初期設定から運用まで一気通貫 SNS ¥480 紹介で50%還元（全員） 0 (0件) ゆう@AI副業 5 hours ago" [ref=e35]:
+      - /url: /u/yuru_senryakuka/a/b5cDNzMjMgoTZsNWa0JXY
+      - heading "【全面解説】AI占い×LINE Bot完全攻略｜初期設定から運用まで一気通貫" [ref=e36] [level=3]
+      - text: SNS ¥480 紹介で50%還元（全員） 0 (0件)
+      - text: ゆう@AI副業 5 hours ago
+    - link "【ズルい現実】Xで消耗→Threadsで回収。一般人がnoteを売る最短導線が全部ある ビジネス ¥980 紹介機能を利用できません 0 (0件) ‫ジョウ 6 hours ago" [ref=e37]:
+      - /url: /u/omiyasan77/a/b5cjN2MjMgoTZsNWa0JXY
+      - heading "【ズルい現実】Xで消耗→Threadsで回収。一般人がnoteを売る最短導線が全部ある" [ref=e38] [level=3]
+      - text: ビジネス ¥980 紹介機能を利用できません 0 (0件)
+      - text: ‫ジョウ 6 hours ago
+    - link "EC担当者のための「捨てる」技術｜粗利を最大化する、毎日のタスク優先順位決定フレームワーク ビジネス ¥980 紹介機能を利用できません 0 (0件) フジエダ リョウジ 6 hours ago" [ref=e39]:
+      - /url: /u/fujieda/a/b4IzN2MjMgoTZsNWa0JXY
+      - heading "EC担当者のための「捨てる」技術｜粗利を最大化する、毎日のタスク優先順位決定フレームワーク" [ref=e40] [level=3]
+      - text: ビジネス ¥980 紹介機能を利用できません 0 (0件)
+      - text: フジエダ リョウジ 6 hours ago
+    - link "≪副業初心者必見≫スキルゼロ＆スマホ1台でできるTikTokアフィリエイト【完全ガイド】 ビジネス ¥100 紹介機能を利用できません 0 (0件) 億万ネコ 6 hours ago" [ref=e41]:
+      - /url: /u/million-cat/a/bwIzN2MjMgoTZsNWa0JXY
+      - heading "≪副業初心者必見≫スキルゼロ＆スマホ1台でできるTikTokアフィリエイト【完全ガイド】" [ref=e42] [level=3]
+      - text: ビジネス ¥100 紹介機能を利用できません 0 (0件)
+      - text: 億万ネコ 6 hours ago
+    - link "スワンレディースクリニックの費用はいくら？【完全計画無痛分娩】自己負担額100万円超｜初診～退院の実録レポート 健康・食事・美容 ¥1,280 紹介機能を利用できません 0 (0件) キャメロンの育児備忘録🐾 6 hours ago" [ref=e43]:
+      - /url: /u/cameron_journal/a/b5AzN2MjMgoTZsNWa0JXY
+      - heading "スワンレディースクリニックの費用はいくら？【完全計画無痛分娩】自己負担額100万円超｜初診～退院の実録レポート" [ref=e44] [level=3]
+      - text: 健康・食事・美容 ¥1,280 紹介機能を利用できません 0 (0件)
+      - text: キャメロンの育児備忘録🐾 6 hours ago
+    - link "そのトリマの使い方、ほぼ意味ないです ビジネス ¥500 紹介機能を利用できません 0 (0件) Koukou 6 hours ago" [ref=e45]:
+      - /url: /u/koukou0905/a/b1EzN2MjMgoTZsNWa0JXY
+      - heading "そのトリマの使い方、ほぼ意味ないです" [ref=e46] [level=3]
+      - text: ビジネス ¥500 紹介機能を利用できません 0 (0件)
+      - text: Koukou 6 hours ago
+    - button "新着記事をもっと見る" [ref=e47]:
+      - paragraph: 新着記事をもっと見る
+    - heading "マーケティング" [ref=e48] [level=2]
+    - link "【今から無名が有名になる16の裏技】ど素人ホテルが2025年に携わった100以上のアカウント運用から見つけた最新事例 マーケティング ¥49,800 紹介で50%還元（全員） 4.7 (20件) ど素人ホテル再建計画 2 months ago" [ref=e49]:
+      - /url: /u/4610_hotel/a/b2UTMxMjMgoTZsNWa0JXY
+      - heading "【今から無名が有名になる16の裏技】ど素人ホテルが2025年に携わった100以上のアカウント運用から見つけた最新事例" [ref=e50] [level=3]
+      - text: マーケティング ¥49,800 紹介で50%還元（全員） 4.7 (20件)
+      - text: ど素人ホテル再建計画 2 months ago
+    - link "売れるnote量産術 Threads×ChatGPT 実績ゼロでもnoteが月5万に変わる7ステップ マーケティング ¥100 紹介で50%還元（全員） 5.0 (17件) モコ 2 days ago" [ref=e51]:
+      - /url: /u/moco3923/a/bygzNzMjMgoTZsNWa0JXY
+      - heading "売れるnote量産術 Threads×ChatGPT 実績ゼロでもnoteが月5万に変わる7ステップ" [ref=e52] [level=3]
+      - text: マーケティング ¥100 紹介で50%還元（全員） 5.0 (17件)
+      - text: モコ 2 days ago
+    - link "【1/24値上げ】“億”を動かす元詐欺師の告白 悪用厳禁｢心理掌握マーケティング術｣〜人を動かし成果を生む、AI時代の極秘メソッド〜（2026年2月7日までの期間限定販売） マーケティング ¥9,800 紹介で50%還元（購入者限定） 5.0 (13件) アラタメ堂 7 days ago" [ref=e53]:
+      - /url: /u/aratamedo/a/byYDN1MjMgoTZsNWa0JXY
+      - heading "【1/24値上げ】“億”を動かす元詐欺師の告白 悪用厳禁｢心理掌握マーケティング術｣〜人を動かし成果を生む、AI時代の極秘メソッド〜（2026年2月7日までの期間限定販売）" [ref=e54] [level=3]
+      - text: マーケティング ¥9,800 紹介で50%還元（購入者限定） 5.0 (13件)
+      - text: アラタメ堂 7 days ago
+    - link "【Threads×楽天アフィリエイトの攻略本】「これならできるかも」ではじめた楽天アフィリ、1ヶ月で20万円になった話。 マーケティング ¥12,980 紹介で50%還元（全員） 5.0 (132件) カピパラおじさん｜アフィリエイトの人 8 months ago" [ref=e55]:
+      - /url: /u/oji_to_moji/a/bwYDM3EjMgoTZsNWa0JXY
+      - heading "【Threads×楽天アフィリエイトの攻略本】「これならできるかも」ではじめた楽天アフィリ、1ヶ月で20万円になった話。" [ref=e56] [level=3]
+      - text: マーケティング ¥12,980 紹介で50%還元（全員） 5.0 (132件)
+      - text: カピパラおじさん｜アフィリエイトの人 8 months ago
+    - link "宇宙マーケティング・フルセット マーケティング ¥79,800 紹介で50%還元（全員） 0 (0件) まりぴん 18 days ago" [ref=e57]:
+      - /url: /u/maripin/a/b1ADM1MjMgoTZsNWa0JXY
+      - heading "宇宙マーケティング・フルセット" [ref=e58] [level=3]
+      - text: マーケティング ¥79,800 紹介で50%還元（全員） 0 (0件)
+      - text: まりぴん 18 days ago
+    - link "商品も実績もゼロ。それでも収益につながる「ズル賢い」戦略書！【無料note×アフィリエイト】 マーケティング ¥9,980 紹介で50%還元（全員） 5.0 (46件) ひがっち 23 days ago" [ref=e59]:
+      - /url: /u/higatch/a/b5UzM0MjMgoTZsNWa0JXY
+      - heading "商品も実績もゼロ。それでも収益につながる「ズル賢い」戦略書！【無料note×アフィリエイト】" [ref=e60] [level=3]
+      - text: マーケティング ¥9,980 紹介で50%還元（全員） 5.0 (46件)
+      - text: ひがっち 23 days ago
+    - link "【消耗戦から撤退せよ】「弱者の戦略」完全マニュアル【分散から集中へ】総文字数：5万字超 マーケティング ¥300 紹介で50%還元（全員） 0 (0件) アキラ 3 days ago" [ref=e61]:
+      - /url: /u/akiracredit/a/b3kDN2MjMgoTZsNWa0JXY
+      - heading "【消耗戦から撤退せよ】「弱者の戦略」完全マニュアル【分散から集中へ】総文字数：5万字超" [ref=e62] [level=3]
+      - text: マーケティング ¥300 紹介で50%還元（全員） 0 (0件)
+      - text: アキラ 3 days ago
+    - link "【10大特典付き】実績不要！誰でもできる𝕏バズメーカー収益化メソッド マーケティング ¥100 紹介で10%還元（購入者限定） 0 (0件) ゆう@SNSを自動化してFIRE 20 hours ago" [ref=e63]:
+      - /url: /u/eito8/a/b2QTO1MjMgoTZsNWa0JXY
+      - heading "【10大特典付き】実績不要！誰でもできる𝕏バズメーカー収益化メソッド" [ref=e64] [level=3]
+      - text: マーケティング ¥100 紹介で10%還元（購入者限定） 0 (0件)
+      - text: ゆう@SNSを自動化してFIRE 20 hours ago
+    - button "もっと見る" [ref=e65]:
+      - paragraph: もっと見る
+    - heading "ビジネス" [ref=e66] [level=2]
+    - link "ライター歴１０年・コンテンツ販売累計１億円突破の読む実践パッケージ ビジネス ¥24,600 紹介で30%還元（購入者限定） 5.0 (6件) めあり 3 days ago" [ref=e67] [nth=1]:
+      - /url: /u/meari/a/b3EjM2MjMgoTZsNWa0JXY
+      - heading "ライター歴１０年・コンテンツ販売累計１億円突破の読む実践パッケージ" [ref=e68] [nth=1] [level=3]
+      - text: ビジネス ¥24,600 紹介で30%還元（購入者限定） 5.0 (6件)
+      - text: めあり 3 days ago
+    - link "スマホ1台でできる！日記感覚ブログで月3万円を稼ぐ『アメステップ』 ビジネス ¥4,980 紹介で50%還元（購入者限定） 4.8 (222件) はたぼー 10 days ago" [ref=e69] [nth=1]:
+      - /url: /u/brain-hatabo/a/bzETNzMjMgoTZsNWa0JXY
+      - heading "スマホ1台でできる！日記感覚ブログで月3万円を稼ぐ『アメステップ』" [ref=e70] [nth=1] [level=3]
+      - text: ビジネス ¥4,980 紹介で50%還元（購入者限定） 4.8 (222件)
+      - text: はたぼー 10 days ago
+    - link "【今だからチャンス！】実績ゼロでも月10万円稼げるインスタ×アフィリエイトの完全攻略書 ビジネス ¥1,980 紹介で50%還元（全員） 5.0 (20件) しゃち 3 days ago" [ref=e71] [nth=1]:
+      - /url: /u/shachi_ai/a/bxgDM2MjMgoTZsNWa0JXY
+      - heading "【今だからチャンス！】実績ゼロでも月10万円稼げるインスタ×アフィリエイトの完全攻略書" [ref=e72] [nth=1] [level=3]
+      - text: ビジネス ¥1,980 紹介で50%還元（全員） 5.0 (20件)
+      - text: しゃち 3 days ago
+    - link "【月5〜20万円可】ゼロから始める最強副業「結婚相談所アフィリエイト×Threads」完全マニュアル ビジネス ¥2,980 紹介で50%還元（全員） 5.0 (12件) Saki@AI副業 15 days ago" [ref=e73] [nth=1]:
+      - /url: /u/redmoon000w/a/b4MTOwMjMgoTZsNWa0JXY
+      - heading "【月5〜20万円可】ゼロから始める最強副業「結婚相談所アフィリエイト×Threads」完全マニュアル" [ref=e74] [nth=1] [level=3]
+      - text: ビジネス ¥2,980 紹介で50%還元（全員） 5.0 (12件)
+      - text: Saki@AI副業 15 days ago
+    - link "その”売れない”には理由がある！売れるLINEスタンプ ビジネス ¥4,980 紹介で50%還元（全員） 5.0 (21件) シュナぽん 5 days ago" [ref=e75]:
+      - /url: /u/shuk/a/b3UTM2MjMgoTZsNWa0JXY
+      - heading "その”売れない”には理由がある！売れるLINEスタンプ" [ref=e76] [level=3]
+      - text: ビジネス ¥4,980 紹介で50%還元（全員） 5.0 (21件)
+      - text: シュナぽん 5 days ago
+    - link "【完全公開】1日10分で月収20万円も夢じゃない！？売れるGPTs解体新書 ビジネス ¥6,980 紹介で50%還元（全員） 4.5 (4件) 進撃のAI君 7 days ago" [ref=e77]:
+      - /url: /u/sadaharin/a/b3MTO1MjMgoTZsNWa0JXY
+      - heading "【完全公開】1日10分で月収20万円も夢じゃない！？売れるGPTs解体新書" [ref=e78] [level=3]
+      - text: ビジネス ¥6,980 紹介で50%還元（全員） 4.5 (4件)
+      - text: 進撃のAI君 7 days ago
+    - link "誰もが知っている人気の素材(パブリックドメイン)を無料で高画質で使う方法 ビジネス ¥3,980 紹介で50%還元（全員） 5.0 (13件) ハリスタバ＠本業以上の収入を1日1時間で稼ぎ続ける美容オタク 5 days ago" [ref=e79]:
+      - /url: /u/shiroikuma/a/b4YTO1MjMgoTZsNWa0JXY
+      - heading "誰もが知っている人気の素材(パブリックドメイン)を無料で高画質で使う方法" [ref=e80] [level=3]
+      - text: ビジネス ¥3,980 紹介で50%還元（全員） 5.0 (13件)
+      - text: ハリスタバ＠本業以上の収入を1日1時間で稼ぎ続ける美容オタク 5 days ago
+    - link "【初心者必見！】AI×楽天ROOM徹底攻略ロードマップ【スキマ時間で月3万狙える】 ビジネス ¥100 紹介で50%還元（購入者限定） 5.0 (18件) りな@AI副業でゼロから収益化 2 days ago" [ref=e81]:
+      - /url: /u/rina_ai_life/a/b4kzM2MjMgoTZsNWa0JXY
+      - heading "【初心者必見！】AI×楽天ROOM徹底攻略ロードマップ【スキマ時間で月3万狙える】" [ref=e82] [level=3]
+      - text: ビジネス ¥100 紹介で50%還元（購入者限定） 5.0 (18件)
+      - text: りな@AI副業でゼロから収益化 2 days ago
+    - button "もっと見る" [ref=e83] [nth=1]:
+      - paragraph: もっと見る
+  - contentinfo:
+    - text: カテゴリー プログラミング 動画編集 SEO・ブログ デザイン マーケティング お金 恋愛・人間関係 健康・食事・美容 ビジネス 物販 AI SNS ライティング YouTube 資格 その他
+    - link "利用規約" [ref=e84]:
+      - /url: https://brain-market.notion.site/197e3ca353d780148c2fe27a29ef45bb
+    - link "プライバシーポリシー" [ref=e85]:
+      - /url: https://brain-market.notion.site/143e3ca353d780e6b29be608bc4a525e
+    - link "特定商取引法に基づく表記" [ref=e86]:
+      - /url: https://brain-market.notion.site/197e3ca353d7802bb99ce3665b08f7bf
+    - link "ガイドライン" [ref=e87]:
+      - /url: https://brain-market.notion.site/143e3ca353d780bcb242fdeb9aa04245
+    - link "使い方ガイド" [ref=e88]:
+      - /url: https://brain-market.notion.site/Brain-143e3ca353d7803bbf8cef3d31db256b
+    - link "よくある質問" [ref=e89]:
+      - /url: https://brain-market.notion.site/143e3ca353d78004a7d2d8dcfda6f87a
+    - link "お問い合わせ" [ref=e90]:
+      - /url: /inquiry
+    - link "運営会社" [ref=e91]:
+      - /url: https://brain-contents.com/35-2/
+    - button [ref=e92] [nth=2]:
+    - paragraph: Copyright©2020 株式会社ブレイン
+

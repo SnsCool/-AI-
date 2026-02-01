@@ -1,0 +1,8 @@
+{
+  "url": "https://drive.google.com/drive/folders/1ulkBQHCZh1u58GeASogyZdNFMjl1oBzI",
+  "type": "gdrive",
+  "processed_at": "2026-01-22T16:30:08.219259",
+  "content": "  - dialog \"ドライブをお試しください（料金不要） Google ドライブは、あらゆるファイルを安全に保管しておけるサービスです さっそくお試しください\":\n    - heading \"Google ドライブについて\" [ref=e1]\n    - button \"閉じる\" [ref=e2]:\n      - heading \"ドライブをお試しください（料金不要）\" [ref=e3] [level=1]\n      - paragraph:\n        - text: Google ドライブは、あらゆるファイルを安全に保管しておけるサービスです さっそく\n        - link \"お試しください\" [ref=e4]\n",
+  "title": "Webページ",
+  "error": null
+}

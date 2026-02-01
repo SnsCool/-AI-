@@ -1,0 +1,31 @@
+# リンク先コンテンツ
+
+**URL**: https://www.instagram.com/kanako_gourmet_?igsh=MWRxbjZoMWZvbTFpaA%3D%3D&utm_source=qr
+**種類**: video
+**タイトル**: 
+**リンクテキスト**: 
+**参照元**: 長谷川 葵（はせがわ あおい）_かな子
+**取得日時**: 2026-01-23T06:33:58.303813
+
+---
+
+## コンテンツ
+
+提示されたURL `https://www.instagram.com/kanako_gourmet_?igsh=MWRxbjZoMWZvbTFpaA%3D%3D&utm_source=qr` からわかる情報は以下の通りです。
+
+1.  **プラットフォーム:**
+    *   `instagram.com` のドメインから、動画が公開されているプラットフォームは **Instagram (インスタグラム)** であることが分かります。
+
+2.  **ID / ユーザー名:**
+    *   URLの `https://www.instagram.com/kanako_gourmet_` の部分から、このURLは特定の動画ではなく、**ユーザーアカウントのプロフィールページ**を指していることが分かります。
+    *   ユーザー名は **`@kanako_gourmet_`** です。
+
+3.  **動画について:**
+    *   このURLは特定の動画への直接リンクではないため、**URLからは具体的な動画のIDやタイトルを特定することはできません。** `@kanako_gourmet_` さんのプロフィールページにアクセスし、投稿されているリール動画やフィード投稿の中から目的の動画を探す必要があります。
+
+4.  **その他のパラメータ:**
+    *   `igsh=MWRxbjZoMWZvbTFpaA%3D%3D`: これはInstagramの内部的な共有ハッシュまたは追跡IDと思われますが、公開されている動画やアカウントの特定には直接関係ありません。
+    *   `utm_source=qr`: このパラメータは「Urchin Tracking Module (UTM)」と呼ばれ、ウェブ解析のために使用されます。`qr` とあることから、このURLがQRコードを通じて共有された可能性を示唆しています。
+
+**まとめると：**
+このURLはInstagramプラットフォーム上の `@kanako_gourmet_` というユーザーのプロフィールページへのリンクです。特定の動画を指しているわけではないため、動画の詳細（動画ID、タイトル、内容など）はプロフィールページにアクセスしてから確認する必要があります。

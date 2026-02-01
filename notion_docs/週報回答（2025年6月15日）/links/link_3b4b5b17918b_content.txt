@@ -1,0 +1,43 @@
+# リンク先コンテンツ
+
+**URL**: https://www.instagram.com/misa_sweets_diet/
+**種類**: video
+**タイトル**: 動画コンテンツ
+**リンクテキスト**: 
+**参照元**: 週報回答（2025年6月15日）
+**取得日時**: 2026-01-22T13:29:53.389966
+
+---
+
+## コンテンツ
+
+Here are the text detections:
+```json
+[
+  {"box_2d": [112, 431, 177, 568], "text": "Instagram"},
+  {"box_2d": [248, 401, 271, 556], "text": "Phone number, username, or email"},
+  {"box_2d": [309, 401, 333, 446], "text": "Password"},
+  {"box_2d": [376, 485, 401, 514], "text": "Log in"},
+  {"box_2d": [441, 493, 460, 506], "text": "OR"},
+  {"box_2d": [507, 432, 529, 567], "text": "+ Log in with Facebook"},
+  {"box_2d": [561, 453, 586, 545], "text": "Forgot password?"},
+  {"box_2d": [664, 419, 688, 580], "text": "Don't have an account? Sign up"},
+  {"box_2d": [841, 138, 864, 160], "text": "Meta"},
+  {"box_2d": [842, 173, 865, 199], "text": "About"},
+  {"box_2d": [842, 211, 865, 232], "text": "Blog"},
+  {"box_2d": [842, 245, 865, 265], "text": "Jobs"},
+  {"box_2d": [842, 278, 865, 298], "text": "Help"},
+  {"box_2d": [842, 311, 865, 327], "text": "API"},
+  {"box_2d": [842, 337, 865, 370], "text": "Privacy"},
+  {"box_2d": [842, 382, 865, 411], "text": "Terms"},
+  {"box_2d": [842, 423, 865, 465], "text": "Locations"},
+  {"box_2d": [842, 477, 865, 541], "text": "Instagram Lite"},
+  {"box_2d": [842, 553, 865, 585], "text": "Meta Al"},
+  {"box_2d": [842, 598, 865, 634], "text": "Threads"},
+  {"box_2d": [842, 647, 865, 790], "text": "Contact Uploading & Non-Users"},
+  {"box_2d": [842, 802, 865, 861], "text": "Meta Verified"},
+  {"box_2d": [891, 408, 914, 439], "text": "English"},
+  {"box_2d": [891, 477, 914, 591], "text": "2026 Instagram from Meta"},
+  {"box_2d": [958, 39, 982, 367], "text": "By continuing, you agree to Instagram's Terms of Use and Privacy Policy."}
+]
+```

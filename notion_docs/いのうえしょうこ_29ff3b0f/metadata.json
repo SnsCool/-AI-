@@ -1,0 +1,17 @@
+{
+  "page_id": "29ff3b0f-ba85-8053-a013-fe08def58615",
+  "title": "いのうえしょうこ",
+  "created_time": "2025-11-02T13:29:00.000Z",
+  "last_edited_time": "2025-11-03T10:05:00.000Z",
+  "url": "https://www.notion.so/29ff3b0fba858053a013fe08def58615",
+  "properties": {
+    "タイミング": {"type": "select", "value": "クラス案内後"},
+    "発生時期": {"type": "date", "value": "2025-10-16"},
+    "入学式": {"type": "select", "value": "参加後"},
+    "月": {"type": "multi_select", "value": "10月"},
+    "クラス": {"type": "rich_text", "value": "スマみD組"},
+    "トラブルカテゴリ": {"type": "select", "value": "生徒"},
+    "選択": {"type": "select", "value": "藤井準也"},
+    "名前と理由": {"type": "title", "value": "いのうえしょうこ"}
+  }
+}

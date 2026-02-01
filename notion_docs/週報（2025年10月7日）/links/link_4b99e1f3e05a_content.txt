@@ -1,0 +1,48 @@
+# リンク先コンテンツ
+
+**URL**: https://www.instagram.com/chachamaru_diy/
+**種類**: video
+**タイトル**: 動画コンテンツ
+**リンクテキスト**: 
+**参照元**: 週報（2025年10月7日）
+**取得日時**: 2026-01-23T07:10:54.218917
+
+---
+
+## コンテンツ
+
+スクリーンショットは、Instagram のログインページを表示しています。動画ページではありません。
+
+以下は、スクリーンショットに表示されているすべてのテキストです。
+
+**左側:**
+*   **Instagram** (ロゴの下)
+*   **See everyday moments from your close friends.** (大きな見出し)
+
+**右側 (ログインフォーム):**
+*   **Log into Instagram**
+*   **Mobile number, username or email** (入力フィールドのプレースホルダー)
+*   **Password** (入力フィールドのプレースホルダー)
+*   **Log In** (青いボタン)
+*   **Forgot password?**
+*   **Log in with Facebook** (Facebook ロゴと青いボタン)
+*   **Create new account** (青い枠線のボタン)
+*   **Meta** (Meta ロゴの下)
+
+**フッター:**
+*   **Meta**
+*   **About**
+*   **Blog**
+*   **Jobs**
+*   **Help**
+*   **API**
+*   **Privacy**
+*   **Terms**
+*   **Locations**
+*   **Instagram Lite**
+*   **Meta AI**
+*   **Threads**
+*   **Contact Uploading & Non-Users**
+*   **Meta Verified**
+*   **English** (ドロップダウンメニュー)
+*   **© 2026 Instagram from Meta**

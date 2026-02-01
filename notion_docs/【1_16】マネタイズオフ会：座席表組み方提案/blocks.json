@@ -1,0 +1,62 @@
+[
+  {
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "plain_text": "▼ポイント"
+        }
+      ]
+    }
+  },
+  {
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "plain_text": "2,3人だと参加者50人前後で15~25テーブル程度のイメージになる"
+        }
+      ]
+    }
+  },
+  {
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "plain_text": "仮に講師が10人いたとして、1人が2~3テーブルを持つ感じになる"
+        }
+      ]
+    }
+  },
+  {
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "plain_text": "講師人数が少なすぎる場合は座席の人数を増やす方向でも良いと思う"
+        }
+      ]
+    }
+  },
+  {
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "plain_text": "▼座席表案"
+        }
+      ]
+    }
+  },
+  {
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "plain_text": "あらかじめテーブルのジャンル or 講師の専門を決めておいて\n生徒を振り分ける形にするとスムーズかも"
+        }
+      ]
+    }
+  }
+]

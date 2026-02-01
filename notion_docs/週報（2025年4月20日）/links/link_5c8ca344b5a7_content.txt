@@ -1,0 +1,27 @@
+# リンク先コンテンツ
+
+**URL**: https://www.instagram.com/uramin_bodymake/
+**種類**: video
+**タイトル**: 動画コンテンツ
+**リンクテキスト**: 
+**参照元**: 週報（2025年4月20日）
+**取得日時**: 2026-01-22T12:52:22.895302
+
+---
+
+## コンテンツ
+
+「Profile isn't available」というメッセージが表示されたInstagramのスクリーンショットを画像から説明します。
+画像の内容は、Web版Instagramサイトのスクリーンショットで、次の要素が含まれています。
+- 上部にはInstagramのロゴと、右上に「Log in」というリンクがあります。
+- 中央には「Profile isn't available」というメッセージが大きく表示されています。その下に「The link may be broken, or the profile may have been removed.」という説明があります。
+- その下には「Sign up for Instagram」という青いボタンがあります。
+- 下部には、小さい文字で「By continuing, you agree to Instagram's Terms of Use and Privacy Policy.」というメッセージが表示されています。
+画像全体から、アクセスしようとしたプロフィールが存在しないか、利用できなくなっている状況を示していると考えられます。
+OCRで読み取れたテキストは以下のとおりです。
+Instagram
+Profile isn't available
+The link may be broken, or the profile may have been removed.
+Sign up for Instagram
+X By continuing, you agree to Instagram's Terms of Use and Privacy Policy.
+Log in

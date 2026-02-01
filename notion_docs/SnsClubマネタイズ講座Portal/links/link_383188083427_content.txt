@@ -1,0 +1,47 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/document/d/1w5slWlFLtV516nFZrNZy095IpoPZ3uA0THr4GUr1yVA/edit?usp=sharing
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: SnsClubマネタイズ講座Portal
+**取得日時**: 2026-01-22T12:46:55.208442
+
+---
+
+## コンテンツ
+
+## ドキュメントインターフェースの概要
+
+このドキュメントは、「SnsClubマネタイズ講座受講契約書【エリートコース】」というタイトルで、Googleドキュメントで開かれているようです。
+
+**1. メニューバー:**
+
+*   **ダイアログ:** ドキュメントが複数タブで構成されている旨のメッセージ（[ref=e1]で閉じることができる）。
+*   **ドキュメント ホーム:**  [ref=e2]でアクセス可能 (URL: `https://docs.google.com/document/?usp=docs_web`).
+*   **ドキュメントステータス:** 「ドライブに保存しました」と表示するボタン。
+*   **共有オプション:** コメントの表示 ([ref=e3])、共有設定（リンクを知っている全員がアクセス可能でログイン不要） ([ref=e4])、クイック共有操作 ([ref=e5]) があるが、共有オプションは現在無効。
+*   **ログイン:** [ref=e6]でログインページへのリンクがある(URL: `https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/document/d/1w5slWlFLtV516nFZrNZy095IpoPZ3uA0THr4GUr1yVA/edit?usp%3Dsharing&followup=https://docs.google.com/document/d/1w5slWlFLtV516nFZrNZy095IpoPZ3uA0THr4GUr1yVA/edit?usp%3Dsharing&ltmpl=docs&ec=GAZAGQ`)。
+*   **メニュー項目:** ファイル([ref=e7])、編集([ref=e8])、表示([ref=e9])、挿入([ref=e10])、書式([ref=e11])、ツール([ref=e12])、拡張機能([ref=e13])、ヘルプ([ref=e14]) がある。
+*   **メニュー検索:** option+/ でメニューを検索 ([ref=e15])。
+
+**2. メインツールバー:**
+
+*   **編集操作:** 元に戻す ([ref=e16])、やり直し ([ref=e17])。
+*   **ドキュメント操作:** 印刷 ([ref=e18])、スペル・文法チェック ([ref=e19])、書式を貼り付け ([ref=e20])。
+*   **表示設定:** ズーム ([ref=e21], 100%選択済 ([ref=e22], [ref=e23]))、スタイル ([ref=e24], 見出し4選択済 ([ref=e25]))、フォント ([ref=e26], Century選択済 ([ref=e27]))、フォントサイズ ([ref=e29], 12選択済 ([ref=e30], [ref=e31]))。
+*   **テキスト書式:** フォントサイズ縮小 ([ref=e28])、フォントサイズ拡大 ([ref=e32])、太字 (オン[ref=e33])、斜体 ([ref=e34])、下線 ([ref=e35])、テキストの色 ([ref=e36])、ハイライトの色 ([ref=e37])。
+*   **リンク/コメント/リスト:** リンク挿入 ([ref=e38])、コメント追加 (無効[ref=e39])、配置とインデント ([ref=e40])、行間隔 ([ref=e41])、チェックリスト ([ref=e42], [ref=e43])、箇条書き ([ref=e44], [ref=e45])、番号付きリスト ([ref=e46], [ref=e47])、その他 (無効[ref=e48])。
+
+**3. モードと表示ツールバー:**
+
+*   編集モード ([ref=e49]) が選択されている。
+*   メニューを非表示にするオプション ([ref=e50]) がある。
+
+**4. その他の情報:**
+
+*   タブとアウトラインの表示/非表示を切り替えるボタン ([ref=e51]) がある。
+*   「戻る」ボタンは無効 ([ref=e52], [ref=e53])。
+*   スクリーンリーダーのサポートを有効にするリンク ([ref=e54]) がある。
+*   バナーが非表示になっている。
+

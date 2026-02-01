@@ -1,0 +1,7 @@
+# サービス説明
+
+## Properties
+- プロセス: SnsClub料金説明
+
+## Content
+(ブロック内容なし)

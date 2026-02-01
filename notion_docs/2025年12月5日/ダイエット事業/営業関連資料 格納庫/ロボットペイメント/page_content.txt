@@ -1,0 +1,69 @@
+# ロボットペイメント 
+
+Notion URL: https://www.notion.so/2e9f3b0fba858034830de646cc46948a
+同期日時: 2026-01-20 18:07:47
+
+---
+
+決済方法：メール送信・リンク送信
+メール送信の場合：ひろかに連絡（プラン名・支払い方法・メールアドレス）
+決済リンク
+ベーシック98,000円　一括プラン
+https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=
+basic001
+&mailauthckey=
+e9483952673e47308550cb0dd7597938
+ベーシック98,000円　3分割プラン
+└初回35000円 ／ 2・3回目31,500円
+https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=
+basic003
+&mailauthckey=
+e9483952673e47308550cb0dd7597938
+プレミアム198,000円　一括プラン
+https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=
+premium001
+&mailauthckey=
+e9483952673e47308550cb0dd7597938
+プレミアム198,000円　3分割プラン
+└毎月66,000円
+https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=
+premium003
+&mailauthckey=
+e9483952673e47308550cb0dd7597938
+その他の場合
+https://credit.j-payment.co.jp/link/bankcheck?aid=132910&jb=
+CAPTURE
+&am=
+商品金額
+&tx=0&sf=0&mailauthckey=e9483952673e47308550cb0dd7597938
+補足
+7日後に自動決済のリトライが2回続く、その後は1ヶ月後に依頼
+180日以内であれば決済取り消し可能　末締めのため、月をまたぐ場合は返金できるが
+管理ページ
+https://credit.j-payment.co.jp/cp/Main.aspx
+s.hiroka1206@gmail.com
+172215-0001
+yNagiMAJ3MaAF_G
+契約情報
+・プラン（必用であればオプションも）
+スペシャルプラン
+・振り込み先口座
+銀行名：GMOあおぞらネット銀行
+支店名：法人第二営業部
+預金科目：普通預金
+口座番号：1803175
+口座名義：株式会社Levela　PALESGYM
+口座名義(フリガナ)：カブシキカイシャパレスジム
+問い合わせ先メールアドレス：levela.diet@gmail.com
+・
+月額利用料のお支払方法（クレジットカード決済or口座引き落とし）
+クレカ決済
+___________________________________________
+■よくご選択いただくオプションの御案内
+メール決済（月額¥500）
+決済フォームをURL（それをQRコード化）で送付いただける方法です。
+___________________________________________
+■初期費用について
+プラン①（月額13,500）の場合 → 初期費用：¥29,000（税別）
+プラン②（月額15,500）の場合 → 初期費用：¥23,500（税別）
+Specialプラン（月額¥23,500）の場合 → 初期費用：¥0

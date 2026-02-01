@@ -1,0 +1,18 @@
+# 太陽に愛されよう
+
+Notion URL: https://www.notion.so/b9e0e3afd0f74d3ab82f6c13ef8ab071
+同期日時: 2026-01-27T11:48:00+09:00
+
+---
+
+## プロパティ
+
+- **キャッチコピー**: 太陽に愛されよう
+- **参照リンク**: https://nlab.itmedia.co.jp/nl/articles/2201/21/news118.html
+- **番号**: 380
+- **memo**:
+- **訴求方法**: 非常識
+- **企業名, 商品名**: サマー化粧品　資生堂
+- **いいね**: false
+- **画像**: https://image.itmedia.co.jp/nl/articles/2201/21/shiseido-cm-maedabibari-poster.jpg
+

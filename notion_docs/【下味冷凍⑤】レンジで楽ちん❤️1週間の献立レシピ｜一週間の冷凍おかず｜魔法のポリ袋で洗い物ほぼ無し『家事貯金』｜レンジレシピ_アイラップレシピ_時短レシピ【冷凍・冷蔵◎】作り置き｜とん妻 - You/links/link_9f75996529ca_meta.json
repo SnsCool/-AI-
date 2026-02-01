@@ -1,0 +1,8 @@
+{
+  "url": "https://www.youtube.com/watch?v=d9_bU8vJIiM&t=292s",
+  "type": "video",
+  "processed_at": "2026-01-29T13:44:13.561838",
+  "content": "ご提示いただいたURL `https://www.youtube.com/watch?v=d9_bU8vJIiM&t=292s` から分かる情報は以下の通りです。\n\n1.  **プラットフォーム**:\n    *   `www.youtube.com` ドメインから、この動画が**YouTube**でホストされていることが分かります。\n\n2.  **動画ID**:\n    *   `v=` パラメータ（`v=d9_bU8vJIiM`）は、YouTube上でその動画を一意に識別するためのIDです。この動画のIDは **`d9_bU8vJIiM`** です。\n\n3.  **タイムスタンプ**:\n    *   `t=` パラメータ（`t=292s`）は、動画の再生開始位置を指定するタイムスタンプです。このURLを開くと、動画は開始から **292秒（4分52秒）** の時点から再生が始まります。\n\nしたがって、このURLは「YouTube上にあるID `d9_bU8vJIiM` の動画を、開始から4分52秒の地点から再生する」という指示を含んでいます。",
+  "title": "",
+  "error": null
+}

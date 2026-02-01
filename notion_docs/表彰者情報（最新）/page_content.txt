@@ -1,0 +1,63 @@
+表彰者情報（最新）
+
+[child_database: 表彰者情報]
+
+## ◆生徒→生徒表彰(全3名)
+
+[table]
+
+## アニメーション動画イメージ
+
+受賞者発表：SE → BGM → フェードOUT
+
+[audio]
+[audio]
+[audio]
+[audio]
+
+[audio]
+
+[video]
+
+[video: https://www.youtube.com/watch?v=L9LwHtZHVwM]
+
+[video: https://www.youtube.com/watch?v=31XdlOHfoX8]
+
+## 表彰式前の動画
+
+表彰式開始
+
+[audio]
+
+[video: https://www.youtube.com/watch?v=kYmN06qKcSE]
+
+## ◆駒居（運営）→生徒表彰（全3名）
+
+・駒居（運営）さんチョイスベスト3
+万垢で生徒対談の協力、コミュニティ（チャット）を盛り上げている上位3名
+
+ふくながゆりな　ゆなF組
+
+あんどうことみ　ゆきへいB組
+
+おかむらまりこ　いけちゃんB組
+
+## ◆駒居→講師表彰（全3名）
+
+ゆな、はむ、ゆきへい
+
+## 年間生徒MVP（駒居さんチョイス）
+
+おはな
+
+Grand MVP：PVのBGm（10-30秒）
+
+[audio]
+
+[video: https://www.youtube.com/watch?v=dJT_L6d_fU8]
+
+演出
+
+- フォロワーが伸びていく
+- おはなさんのリール映す
+-

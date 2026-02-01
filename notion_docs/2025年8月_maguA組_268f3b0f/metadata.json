@@ -1,0 +1,12 @@
+{
+  "page_id": "268f3b0f-ba85-8052-9646-d117447dc275",
+  "created_time": "2025-09-08T08:19:00.000Z",
+  "last_edited_time": "2025-09-08T08:23:00.000Z",
+  "url": "https://www.notion.so/2025-8-268f3b0fba8580529646d117447dc275",
+  "properties": {
+    "クラス名": {"type": "rich_text", "rich_text": [{"plain_text": "maguA組"}]},
+    "アカウントURL": {"type": "url", "url": "https://www.instagram.com/miko.training"},
+    "顧客名": {"type": "rich_text", "rich_text": [{"plain_text": "おおた みかこ"}]},
+    "受賞月": {"id": "title", "type": "title", "title": [{"plain_text": "2025年8月"}]}
+  }
+}

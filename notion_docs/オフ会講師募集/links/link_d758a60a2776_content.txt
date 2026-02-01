@@ -1,0 +1,20 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/forms/d/1zUsz3BXOPdfGCx3eH1bUo47xo7fbyhyQ4URz32IO-jU/edit#responses
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: オフ会講師募集
+**取得日時**: 2026-01-22T14:39:32.986783
+
+---
+
+## コンテンツ
+
+  - dialog "続行するにはログインしてください":
+    - heading "続行するにはログインしてください" [ref=e1] [level=1]
+    - text: このフォームに記入するには、ログインする必要があります。あなたの身元は特定されません。
+    - link "不正行為の報告" [ref=e2]:
+      - /url: https://drive.google.com/abuse?id=AKkXjozHDOlhYW7NTmeCW4Cb22GNeQL1N7Drwm5FD0ETUkP9hOFfKyM26QvXk32QWs-oldmoDf767aJT3j3-9wc:0&docurl=https://docs.google.com/forms/d/1zUsz3BXOPdfGCx3eH1bUo47xo7fbyhyQ4URz32IO-jU/viewform?edit_requested%3Dtrue
+    - button "ログイン" [ref=e3]
+

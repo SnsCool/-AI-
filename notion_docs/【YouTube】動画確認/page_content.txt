@@ -1,0 +1,14 @@
+# 【YouTube】動画確認
+
+Notion URL: https://www.notion.so/YouTube-249f3b0fba8580f68eb3fde0c5b3d011
+同期日時: 2026-01-27T15:11:00+09:00
+
+---
+
+## プロパティ
+
+- **タスク**: 【YouTube】動画確認
+- **ステータス**: 完了
+- **着手**: 3週目
+- **担当者**: Mioko
+

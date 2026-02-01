@@ -1,0 +1,56 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/spreadsheets/d/1RCpXYI-kMF0rNRtZAmk8hdBNVUXsTegAdotqJ4WFvzg/edit?usp=sharing
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: ママさん社員撮影
+**取得日時**: 2026-01-22T16:26:57.481821
+
+---
+
+## コンテンツ
+
+    - banner "メニューバー":
+      - link "スプレッドシート ホーム" [ref=e1]:
+        - /url: https://docs.google.com/spreadsheets/?usp=sheets_web
+      - text: 台本（ママさん社員）
+      - 'button "ドキュメントのステータス: ドライブに保存しました."'
+      - button "共有します。リンクを知っている全員。 リンクを知っている全員がアクセスできます。ログインは不要です。" [ref=e2] [disabled]: 共有
+      - button "クイック共有操作" [ref=e3] [disabled]
+      - link "ログイン" [ref=e4]:
+        - /url: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/1RCpXYI-kMF0rNRtZAmk8hdBNVUXsTegAdotqJ4WFvzg/edit?usp%3Dsharing&followup=https://docs.google.com/spreadsheets/d/1RCpXYI-kMF0rNRtZAmk8hdBNVUXsTegAdotqJ4WFvzg/edit?usp%3Dsharing&ltmpl=sheets&ec=GAZAmwI
+        - menuitem "ファイル" [ref=e5]
+        - menuitem "編集" [ref=e6]
+        - menuitem "表示" [ref=e7]
+        - menuitem "挿入" [ref=e8] [disabled]
+        - menuitem "表示形式" [ref=e9] [disabled]
+        - menuitem "データ" [ref=e10]
+        - menuitem "ツール" [ref=e11]
+        - menuitem "拡張機能" [ref=e12] [disabled]
+        - menuitem "ヘルプ" [ref=e13]
+      - toolbar "メニューを検索 (option+/)":
+        - combobox "メニュー" [ref=e14]
+      - toolbar "メイン":
+        - button "印刷 (⌘P)" [ref=e15]
+        - button "フィルタ表示" [ref=e16]
+        - combobox "ズーム" [ref=e17]:
+          - option "ズーム のリストで 100% を選択しています。" [ref=e18] [selected]:
+            - textbox "ズーム" [ref=e19]: 100%
+        - button "モード" [ref=e20]: 閲覧のみ
+      - toolbar "モードと表示":
+        - button "メニューを非表示 (Ctrl+Shift+F)" [ref=e21]
+      - textbox [ref=e22]: A1
+      - button "名前ボックスのメニューボタン。メニュー項目から 1 つを選択すると、対応する名前付き範囲に移動します。" [ref=e23]
+      - textbox [ref=e24] [nth=1]
+    - navigation "シートタブバー" [ref=e25]:
+        - button "すべてのシート" [ref=e26]
+        - button "参考動画" [ref=e27]
+        - button "1本目台本(主婦向け)" [ref=e28]
+        - button "2本目台本(採用)" [ref=e29]
+    - textbox [ref=e30] [nth=2]
+    - link "スクリーン リーダーのサポートを有効にする" [ref=e31]:
+      - /url: "#"
+    - textbox [ref=e32] [nth=3]
+    - region: スクリーン リーダーのサポートを有効にするには、⌘+option+Z を押します。キーボード ショートカットの詳細については、⌘スラッシュ を押します。
+

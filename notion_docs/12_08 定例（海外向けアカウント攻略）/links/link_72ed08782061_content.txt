@@ -1,0 +1,46 @@
+# リンク先コンテンツ
+
+**URL**: https://www.instagram.com/shitaikoto_trip/
+**種類**: video
+**タイトル**: 動画コンテンツ
+**リンクテキスト**: 
+**参照元**: 12_08 定例（海外向けアカウント攻略）
+**取得日時**: 2026-01-22T17:57:25.873888
+
+---
+
+## コンテンツ
+
+このスクリーンショットは、Instagramのログインページです。動画ページではありません。
+
+表示されているテキストは以下の通りです。
+
+**ページ中央のログインフォーム:**
+
+*   Instagram
+*   Phone number, username, or email
+*   Password
+*   Log in
+*   OR
+*   Log in with Facebook
+*   Forgot password?
+*   Don't have an account? Sign up
+
+**ページ下部のフッター:**
+
+*   Meta
+*   About
+*   Blog
+*   Jobs
+*   Help
+*   API
+*   Privacy
+*   Terms
+*   Locations
+*   Instagram Lite
+*   Meta AI
+*   Threads
+*   Contact Uploading & Non-Users
+*   Meta Verified
+*   English (ドロップダウンアイコン)
+*   © 2026 Instagram from Meta

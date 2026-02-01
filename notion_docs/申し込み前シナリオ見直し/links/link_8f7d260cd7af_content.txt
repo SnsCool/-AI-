@@ -1,0 +1,117 @@
+# リンク先コンテンツ
+
+**URL**: https://sns-campus.jp/
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 申し込み前シナリオ見直し
+**取得日時**: 2026-01-22T14:37:29.666393
+
+---
+
+## コンテンツ
+
+  - banner:
+    - link [ref=e1]:
+      - /url: https://credit.j-payment.co.jp/link/creditcard?aid=128953&iid=esukyan980&mailauthckey=1653def8f66f4411a60bca640f7cd91b
+    - button [ref=e2]
+  - main:
+    - link [ref=e3] [nth=1]:
+      - /url: https://credit.j-payment.co.jp/link/creditcard?aid=128953&iid=esukyan980&mailauthckey=1653def8f66f4411a60bca640f7cd91b
+    - link [ref=e4] [nth=2]:
+      - /url: https://credit.j-payment.co.jp/link/creditcard?aid=128953&iid=esukyan980&mailauthckey=1653def8f66f4411a60bca640f7cd91b
+    - link [ref=e5] [nth=3]:
+      - /url: https://lin.ee/OuQSOA4j
+    - heading "SNSで稼いで生きる 未来を手に入れませんか？" [ref=e6] [level=2]
+    - paragraph: 「エスキャン」はSNSで生きていくために必要な全ての学びを得られるオンラインスクール。
+    - paragraph: SNSで稼げるノウハウを手に入れると、月給や場所や人間関係に悩むことなく、あなたが大切にしたい物を大切にできる人生を送ることができます。
+    - paragraph: ○サラリーマンの副業として ○育児しながら収入を得たい ○好きな仲間と自由に暮らしたい ○仕事を辞めて独立したい
+    - paragraph: SNSなら全てが叶います。 もちろん勉強や努力は必要ですが、一度獲得すると人生が変わるようなスキルが手に入ります。
+    - heading "あなたは こんな悩みを 抱えていませんか？" [ref=e7] [level=2]
+    - heading "Q uestion 01" [ref=e8] [level=3]
+    - paragraph: 60万円のスクールに入ったけど、過去のセミナー動画を見せられるだけで全然成長できなかった。
+    - paragraph: エスキャンなら毎月新しい動画講座が追加されて、質問できるライブコンサルがありますよ！
+    - heading "Q uestion 02" [ref=e9] [level=3]
+    - paragraph: まだアカウントもない初心者だけど、それでも伸ばしていけるかな。
+    - paragraph: 初心者から初めて、たった６投稿で2,000人以上のフォロワーを獲得した主婦の方もいるので大丈夫！
+    - heading "Q uestion 03" [ref=e10] [level=3]
+    - paragraph: フォロワーは増やせたけど、Instagramでの稼ぎ方が分からない。
+    - paragraph: エスキャンなら実際に月100万円以上稼いでいる現役の講師が動画とライブで丁寧に教えます！
+    - link [ref=e11] [nth=4]:
+      - /url: https://credit.j-payment.co.jp/link/creditcard?aid=128953&iid=esukyan980&mailauthckey=1653def8f66f4411a60bca640f7cd91b
+    - heading "エスキャンがあなたと 夢を近づける" [ref=e12] [level=2]
+    - paragraph: M erit 02
+    - heading "全ての動画講義は 学び直しがスグにできる 教科書付き" [ref=e13] [level=3]
+    - paragraph: もちろん全ての教科書がダウンロード可能なので、自分の欲しい情報を見返したい時に簡単に復習できます。
+    - paragraph: M erit 03
+    - heading "動画で学んだ内容は ワークライブで実践できるから 確実に身につきます" [ref=e14] [level=3]
+    - paragraph: 毎週様々な講師のワークライブが開催されているので、動画で学んだ内容をアウトプットし、講師のフィードバックをもらうことで確実に身についていきます。
+    - paragraph: M erit 04
+    - heading "特別単価の独自ASPで 高単価アフィリエイト可能" [ref=e15] [level=3]
+    - paragraph: エスキャンには独自の高単価アフィリエイト案件があるので、効率よく稼ぐことができます。
+    - paragraph: M erit 05
+    - heading "毎月開催のオフ会でで 夢を追いかける仲間が見つかる" [ref=e16] [level=3]
+    - paragraph: 毎月主要都市で開催されるオフ会に参加することでカイシャインとの交流はもちろん、熱い仲間も見つかります。
+    - paragraph: M erit 06
+    - heading "スクール限定チャット で 日々の成果をアウトプット" [ref=e17] [level=3]
+    - paragraph: エスキャン生だけのチャットでは、日々アウトプットや雑談で生徒同士が士気を高め合っています。
+    - paragraph: メリット満載のエスキャンにはあなたが成長できる講師や仲間、あらゆる環境が揃っています。
+    - heading "動画でメリットをCheck!" [ref=e18] [level=3]
+    - link "累計2000名突破！ご入会はこちら！" [ref=e19]:
+      - /url: https://credit.j-payment.co.jp/link/creditcard?aid=128953&iid=esukyan980&mailauthckey=1653def8f66f4411a60bca640f7cd91b
+    - heading "SNSならきっと掴める あなたの理想の生活" [ref=e20] [level=2]
+    - heading "こう考えたことがある方に オススメのスクールです" [ref=e21] [level=3]
+    - heading "時間と給料の壁" [ref=e22] [level=4]
+    - paragraph: どんなに頑張って働いても月給はいつも一緒。 自分が頑張った分だけしっかり稼げる仕事がしたい！ やりたいことも我慢してる…。
+    - heading "育児しながら…" [ref=e23] [level=4]
+    - paragraph: 家で小さい子供を育てながら稼ぎたいけど、働きに出るのはなかなか難しい…。 でも自分には資格もスキルもないから何もできない…。
+    - heading "自由に働きたい" [ref=e24] [level=4]
+    - paragraph: 時間や場所に縛られず、気の合う仲間と一緒に働きたい！ でも何からスタートしたらいいか分からないし、ネットの情報は信用できない…。
+    - paragraph: インスタやX、YouTubeで稼げるようになれば ○頑張り次第で時給や月給に関係なく稼げて ○育児しながらの隙間時間にスマホで投稿を作れて ○時間や場所に縛られずに好きな仲間と一緒に 稼いでいく未来を手にできます。 後は、あなたが一歩踏み出すかどうかだけです。 もちろん勉強や努力は必要ですが、頑張った分だけ稼いで、自由に生きられるSNSをエスキャンで学んで未来を手に入れましょう！
+    - heading "信頼できるスクールで 確実に学びきろう" [ref=e25] [level=2]
+    - text: サロンオーナーは ○BEASTAR株式会社 取締役 ○YouTube登録者10万人以上 ○KADOKAWAより書籍発売 ○令和の虎出演 などの実績を持つカイシャインです。 信頼できる環境で、多くの実績を持つカイシャインと、カイシャインが推薦する豪華講師とともにSNSで稼いで生きていく理想の未来を追いかけられます。
+    - heading "定額サブスクで 思いっきり学べる" [ref=e26] [level=2]
+    - text: 入会金98,000円(税込) ＋ 月額9,800円(税込)
+    - paragraph: ※初回6ヶ月契約
+    - paragraph: 初回6ヶ月契約となりますが、まとめて初月の引き落としではなく、初月は入会金＋月額分、2ヶ月目以降は毎月月額分のお支払いとなります。
+    - heading "他社との比較" [ref=e27] [level=3]
+    - paragraph: エスキャンは、60万円買い切りなどで販売されている高額スクールと違い、安心の定額サブスクで運用しています。
+    - link "累計2000名突破！ご入会はこちら！" [ref=e28] [nth=1]:
+      - /url: https://credit.j-payment.co.jp/link/creditcard?aid=128953&iid=esukyan980&mailauthckey=1653def8f66f4411a60bca640f7cd91b
+    - heading "皆さんから寄せられる よくある質問" [ref=e29] [level=2]
+    - heading "インスタは今まで見るだけの初心者なのですが、大丈夫でしょうか？" [ref=e30] [level=3]
+    - paragraph: もちろん大丈夫です。「生徒の声」でもご紹介していますが、全くの初心者から成果を上げた生徒も多数在籍しています。あなたが本気で学びたいと思うなら、動画講義と学んだ内容をアウトプットできるワークライブでしっかり成長できます。
+    - heading "入会したけど、講義が表示されません。" [ref=e31] [level=3]
+    - paragraph: お手持ちのスマホによってエラーが起こることがありますので、お手数ですがお問い合わせLINEまでご連絡いただければと思います。
+    - heading "初回6ヶ月契約の支払いは、一括でしょうか？毎月でしょうか？" [ref=e32] [level=3]
+    - paragraph: お支払いは一括ではなく、毎月になります。
+    - heading "カイシャインに直接質問はできますか？" [ref=e33] [level=3]
+    - paragraph: 毎月グループコンサルライブやオフ会に参加することで、直接の質問や相談が可能です。
+    - heading "解約金はありますか？" [ref=e34] [level=3]
+    - paragraph: 解約金は一切ありません。退会したいときにいつでも退会が可能です。（初回のみ6ヶ月契約となり、それ以降は任意のタイミングでの解約が可能です）
+    - heading "代表メッセージ" [ref=e35] [level=2]
+    - paragraph: 最後まで読んでいただき有難うございます。私もSNS運用を始める前はただの経営者でした。 そこからYouTube運用をスタートし、今では登録者10万人（ジャンル日本一）、KADOKAWAよりインスタ運用の書籍発売、令和の虎出演など、SNSを始める前には想像もしなかったような物を手にしてきました。 次はあなたの番です。 SNSの最大の魅力は、年齢も性別も関係なく、頑張った分だけ自分の収入として返ってくる事です。 私は自分に何か特別な才能があるとは思っていません。でもやり切りました。 自分から一歩を踏み出して、積極的に挑戦する姿勢さえ持てれば、誰でも成功できるのがSNSです。 私と、仲間たちと一緒に新しい一歩を踏み出し、理想の未来を手にしましょう！
+    - link "累計2000名突破！ご入会はこちら！" [ref=e36] [nth=2]:
+      - /url: https://credit.j-payment.co.jp/link/creditcard?aid=128953&iid=esukyan980&mailauthckey=1653def8f66f4411a60bca640f7cd91b
+    - heading "入会までの流れ" [ref=e37] [level=2]
+    - text: "1"
+    - paragraph: サイト内の「入会はコチラ」より入会ページで決済を行って下さい。
+    - text: "2"
+    - paragraph: 決済時後にエスキャン公式LINEから送られてくるリンクから、エスキャン講座のご登録をお願いいたします。
+    - text: "3"
+    - paragraph: エスキャン講座サイト用のアカウントを作成して下さい。
+    - text: "4"
+    - paragraph: 設定したメールアドレスに届いたメールより、エスキャン講座にログインして下さい。
+    - text: "5"
+    - paragraph: エスキャン講座サイトにログインし、まずは「必読」講座をご確認ください。
+    - link [ref=e38] [nth=5]:
+      - /url: https://credit.j-payment.co.jp/link/creditcard?aid=128953&iid=esukyan980&mailauthckey=1653def8f66f4411a60bca640f7cd91b
+  - contentinfo:
+    - link [ref=e39] [nth=6]:
+      - /url: "#"
+    - link "特定商取引記法に基づく表示" [ref=e40]:
+      - /url: ./tokushoho.html
+    - link "プライバシーポリシー" [ref=e41]:
+      - /url: ./privacy-poricy.html
+    - paragraph: ©︎Sns-Campus2023
+

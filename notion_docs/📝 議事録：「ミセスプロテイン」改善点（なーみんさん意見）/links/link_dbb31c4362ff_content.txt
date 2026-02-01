@@ -1,0 +1,96 @@
+# リンク先コンテンツ
+
+**URL**: https://reset-fasting.jp/shop/products/23001
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 📝 議事録：「ミセスプロテイン」改善点（なーみんさん意見）
+**取得日時**: 2026-01-22T15:32:33.654991
+
+---
+
+## コンテンツ
+
+  - banner:
+    - link [ref=e1]:
+      - /url: /shop
+      - listitem:
+        - link "TOP" [ref=e2]:
+          - /url: /shop
+      - listitem:
+        - link "ABOUT" [ref=e3]:
+          - /url: /shop/pages/about
+      - listitem:
+        - link "商品一覧" [ref=e4]:
+          - /url: /shop/pages/products
+      - listitem:
+        - link "RESET Dining" [ref=e5]:
+          - /url: /shop/pages/reset-dining
+      - listitem:
+        - link "RESET Media" [ref=e6]:
+          - /url: /shop/information
+      - listitem:
+        - link "よくある質問" [ref=e7]:
+          - /url: /shop/pages/faq
+    - link "ユーザーログイン" [ref=e8]:
+      - /url: /shop/customer
+    - navigation:
+      - link "カートアイコン 0" [ref=e9]:
+        - /url: /shop/cart
+        - text: "0"
+  - main:
+    - link "TOP" [ref=e10] [nth=1]:
+      - /url: /shop
+    - link "商品一覧" [ref=e11] [nth=1]:
+      - /url: /shop/pages/products
+    - text: 通常セット
+    - link "ALL" [ref=e12]:
+      - /url: /shop/pages/products
+    - link "RESET BOX" [ref=e13]:
+      - /url: /shop/pages/reset-box
+    - link "FASTING BOX" [ref=e14]:
+      - /url: /shop/pages/fasting-box
+    - link "PETIT FAS BOX" [ref=e15]:
+      - /url: /shop/pages/petit-fas-box
+    - link "SUPPORT ITEM" [ref=e16]:
+      - /url: /shop/pages/support-item
+    - link "GOODS" [ref=e17]:
+      - /url: /shop/pages/goods
+    - region:
+      - button "Go to last slide" [ref=e18]:
+      - button "Next slide" [ref=e19]:
+      - button "Go to slide 1" [ref=e20]:
+      - button "Go to slide 2" [ref=e21]:
+      - button "Go to slide 3" [ref=e22]:
+      - button "Go to slide 4" [ref=e23]:
+    - text: FASTING BOX
+    - heading "通常セット" [ref=e24] [level=1]
+    - text: 瓶タイプの酵素ドリンクと、4種のミール・ポタージュをセットにした5日間のファスティングプログラム。 食生活が乱れがちで食事改善をしたい方、本格的なファスティングにチャレンジしたい方、食事もバリエーション豊かに楽しみたい方におすすめです。 【セット内容】 ・酵素ドリンク（はちみつレモネード）×1本 ・麹ととうもろこしのポタージュ×1包 ・麹と玉ねぎのポタージュ×1包 ・熟成塩麹のおかゆ×1袋 ・塩麹参鶏湯のおかゆ×1袋 ・甘酒カレーリゾット×1袋 ・あさりトマトクリームリゾット×1袋 ・LINEでのパーソナルサポート付き 単品購入 9,180円 (税込)
+    - button "購入する" [ref=e25]
+    - text: 定期購入
+    - paragraph: 通常価格 9180円 (税込)
+    - text: 5,378円 (税込)
+    - button "購入する" [ref=e26] [nth=1]
+    - text: 初回単品購入価格から42％OFF 2回目以降はずっと7％OFFの 8,618円(＋送料600円)でお届け ・商品到着後20日間全額返金保証付き ・全国どこでも初回送料無料 ・縛りなし、いつでも解約OK ・定期配送のお休み可能 ※お届け予定7日前までのご連絡で、いつでも変更・解約いただけます。
+  - paragraph: 「ご感想」や「おすすめの飲み方」「お困りごと」など 公式LINEからなんでもお気軽にお問い合わせください。
+  - text: QRコードをスキャンするとLINEの友だちに追加されます
+  - paragraph: QRコードをスキャンするには、 スマートフォンのカメラをご利用ください。
+  - link "お問い合わせ" [ref=e27]:
+    - /url: /shop/contact
+    - listitem:
+      - link "会社案内" [ref=e28]:
+        - /url: /shop/base_info
+    - listitem:
+      - link "プライバシーポリシー" [ref=e29]:
+        - /url: /shop/privacy
+    - listitem:
+      - link "ご利用ガイド" [ref=e30]:
+        - /url: /shop/guide
+    - listitem:
+      - link "特定商取引法に基づく表記について" [ref=e31]:
+        - /url: /shop/law_info
+    - listitem:
+      - link "インスタグラム" [ref=e32]:
+        - /url: https://www.instagram.com/reset_dining/
+  - paragraph: © RESET
+

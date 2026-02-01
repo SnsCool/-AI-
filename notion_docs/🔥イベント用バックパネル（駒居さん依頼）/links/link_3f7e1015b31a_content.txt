@@ -1,0 +1,332 @@
+# リンク先コンテンツ
+
+**URL**: https://inkit.jp/products/detail/40
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 🔥イベント用バックパネル（駒居さん依頼）
+**取得日時**: 2026-01-22T14:50:23.036757
+
+---
+
+## コンテンツ
+
+  - banner:
+    - heading "ロールアップバナー W850（印刷込)｜短納期｜料金" [ref=e1] [level=1]
+      - listitem:
+        - link "利用規約" [ref=e2]:
+          - /url: https://inkit.jp/help/agreement
+      - listitem:
+        - link "プライバシーポリシー" [ref=e3]:
+          - /url: https://inkit.jp/help/privacy
+      - listitem:
+        - link "運営会社" [ref=e4]:
+          - /url: https://inkit.jp/user_data/company
+      - listitem:
+        - link "特定商取引法" [ref=e5]:
+          - /url: https://inkit.jp/help/tradelaw
+    - paragraph: こんにちは、ゲスト様
+    - link [ref=e6]:
+      - /url: https://inkit.jp/contact
+    - link [ref=e7] [nth=1]:
+      - /url: https://lin.ee/N1YVhI9
+  - banner:
+    - link [ref=e8] [nth=2]:
+      - /url: https://inkit.jp/
+    - paragraph: 03-6851-8181
+    - link "メールでのお問い合わせ" [ref=e9]:
+      - /url: https://inkit.jp/contact
+    - link "会員登録" [ref=e10]:
+      - /url: https://inkit.jp/entry
+    - link "ログイン" [ref=e11]:
+      - /url: https://inkit.jp/mypage/login
+    - link "お気に入り" [ref=e12]:
+      - /url: https://inkit.jp/mypage/
+    - link "カート" [ref=e13]:
+      - /url: https://inkit.jp/cart
+    - navigation:
+        - listitem:
+          - link "ホーム" [ref=e14]:
+            - /url: https://inkit.jp/
+        - listitem:
+          - link "商品一覧" [ref=e15]:
+            - /url: https://inkit.jp/productlist
+        - listitem:
+          - link "データ入稿" [ref=e16]:
+            - /url: https://inkit.jp/user_data/upload_data
+        - listitem:
+          - link "ご利用の流れ" [ref=e17]:
+            - /url: https://inkit.jp/user_data/flow
+        - listitem:
+          - link "お役立ちブログ" [ref=e18]:
+            - /url: https://inkit.jp/blog/
+        - listitem:
+          - link "大口取引" [ref=e19]:
+            - /url: https://inkit.jp/user_data/houjin
+        - listitem:
+          - link "よくある質問" [ref=e20]:
+            - /url: https://inkit.jp/user_data/faq
+  - banner:
+    - navigation "breadcrumb" [ref=e21]:
+        - listitem:
+          - link "インクイットTOP" [ref=e22]:
+            - /url: https://inkit.jp/
+        - listitem:
+          - text: ＞
+          - link "商品一覧" [ref=e23] [nth=1]:
+            - /url: https://inkit.jp/productlist
+        - listitem:
+          - text: ＞
+          - link "販促・イベント" [ref=e24]:
+            - /url: https://inkit.jp/products/list?category_id=7
+        - listitem:
+          - text: ＞
+          - link "バナー" [ref=e25]:
+            - /url: https://inkit.jp/products/list?category_id=31
+        - listitem: ＞ ロールアップバナー W850（印刷込)
+  - main:
+    - complementary:
+        - paragraph: 表示面サイズ
+      - definition:
+        - combobox [ref=e26]:
+          - option "W850xH2000" [ref=e27] [selected]
+        - text: ▼
+        - paragraph: 用紙
+      - definition:
+        - combobox [ref=e28] [nth=1]:
+          - option "ターポリン" [ref=e29] [selected]
+        - text: ▼
+        - paragraph: 印刷面
+      - definition:
+        - combobox [ref=e30] [nth=2]:
+          - option "片面" [ref=e31] [selected]
+        - text: ▼
+        - paragraph: オプション
+      - definition:
+        - combobox [ref=e32] [nth=3]:
+          - option "防炎シールあり" [ref=e33]
+          - option "防炎シール無し" [ref=e34] [selected]
+        - text: ▼
+        - paragraph: デザイン数
+      - definition:
+        - spinbutton [ref=e35]: "1"
+        - paragraph: 各部数
+      - definition:
+        - spinbutton [ref=e36] [nth=1]: "1"
+        - paragraph: 合計部数
+      - definition:
+        - spinbutton [ref=e37] [nth=2] [disabled]: "1"
+        - paragraph: 合計金額（税込）
+        - paragraph: ¥23,760
+      - paragraph: 送料無料（北海道・沖縄・離島除く）
+      - link "カートに追加する" [ref=e38]:
+        - /url: javascript:void(0);
+    - article:
+      - heading "ロールアップバナー W850（印刷込)" [ref=e39] [level=2]
+      - paragraph: 設営/撤去がかんたんなロールアップバナーです。各種イベント・展示会で人気のバナーです。丈夫で発色の良いターポリン素材を使用。使用時には引っ張り出し収納時はコンパクトなロールアップバナーです。（防炎認定品）盤面サイズはW850×H2000です。 納期：ご注文・在庫確認・ご入稿の完了後、 3〜4営業日後出荷※最短納期に挑戦中！お急ぎの場合はお問い合わせください
+      - paragraph:
+        - link "ほかのサイズを見る【ロールアップバナースタンド】" [ref=e40]:
+          - /url: https://inkit.jp/products/list?name=%E3%83%AD%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%83%E3%83%97
+      - heading "こんなシーンに！" [ref=e41] [level=2]
+      - heading "おすすめ使用シーン" [ref=e42] [level=3]
+      - paragraph: 店舗の案内・展示会に 【展示会や見本市のブース装飾】 企業ブースでの目立つ訴求ツールとして大活躍。大きなビジュアルでブランドイメージをしっかりアピールできます。 【店舗のプロモーションや店頭広告】 新商品紹介やセール案内など、店頭に設置するだけでお客様の視線をキャッチ！組み立て簡単で即使用可能です。 【セミナーや社内イベントでの案内掲示】 講演タイトルやスケジュール案内に最適。移動も収納も楽々で、多用途に使えます。
+      - paragraph:
+        - text: 【目次】
+        - link "自動見積・注文する" [ref=e43]:
+          - /url: "#"
+        - link "納期について" [ref=e44]:
+          - /url: "#nouki"
+        - link "本体について" [ref=e45]:
+          - /url: "#hon"
+        - link "オプションについて" [ref=e46]:
+          - /url: "#op"
+        - link "デザインデータについて" [ref=e47]:
+          - /url: "#data"
+      - heading "納期について" [ref=e48] [level=2]
+      - heading "3〜4営業日後出荷" [ref=e49] [level=3]
+      - paragraph: ご注文・ご入稿の完了後、3～4営業日後出荷 ※最短納期に挑戦中！お急ぎの場合はお問い合わせください ※データチェック完了後、お届け予定日をお知らせします。 ※ご注文・在庫確認・ご入稿お手続き完了後の納期確定、お支払いお手続き完了後の出荷となります。 ※メーカーの在庫状況により商品の出荷まではお日にちをいただく場合がございます。 ※配送地域により到着日数は異なりますので、予めご了承ください。
+      - link "ご注文の流れ" [ref=e50]:
+        - /url: https://inkit.jp/user_data/flow
+      - heading "ご注文の流れ" [ref=e51] [level=3]
+      - paragraph: ご注文 ↓ ご入稿 ↓ お届け ※ご入稿はご注文確認メールに記載のリンクよりお願いいたします
+      - heading "大量注文にも対応！" [ref=e52] [level=3]
+      - paragraph:
+        - text: 【３０枚以上】ご注文の場合は
+        - link "お問い合わせ" [ref=e53]:
+          - /url: https://inkit.jp/contact
+        - text: ください。 別途お見積りいたします。
+      - heading "本体について" [ref=e54] [level=2]
+      - heading "スペック" [ref=e55] [level=3]
+      - paragraph: 本体サイズ/組立時：W870*D390*H2110mm 本体サイズ/収納時：890*110*110mm 適応スクリーンサイズ：W850*H2000mm 本体：アルミシルバー塗装 本体重量：3.3kg
+      - heading "セット内容" [ref=e56] [level=3]
+      - paragraph: ・本体 ・出力シート ・持ち運び用バッグ ※出力シートと本体のセット販売となります。 ※在庫状況によりバッグの形状が異なる場合がございます。
+      - heading "組み立て方法" [ref=e57] [level=2]
+      - paragraph: 本体からシートを引き出し、支柱で固定します。
+      - heading "印刷面について" [ref=e58] [level=2]
+      - heading "ターポリン" [ref=e59] [level=3]
+      - paragraph: 耐久性が高く雨でぬれても大丈夫。防炎素材のシートです。 巻いて梱包・収納でき持ち運びも便利です。
+      - heading "オプション" [ref=e60] [level=2]
+      - heading "防炎シール" [ref=e61] [level=3]
+      - paragraph: 【防炎素材】 出力シートは防炎素材となります。防炎認定のシール貼付希望の場合はオプションをご選択ください。 貼り付け位置は裏面の隅となります。
+      - heading "データについて" [ref=e62] [level=2]
+      - heading "デザインテンプレート" [ref=e63] [level=3]
+      - paragraph:
+        - text: 適応スクリーンサイズ：W850*H2000mm ぬりたしは上15ｍｍ、下60ｍｍ、左右3mm作成ください。 【デザインテンプレート・ロールアップバナーW850】
+        - link "【ダウンロード】イラストレーター形式" [ref=e64]:
+          - /url: https://inkit.jp/html/user_data/assets/ai/w850rollupbanner.zip
+        - link "【ダウンロード】PDF形式" [ref=e65]:
+          - /url: https://inkit.jp/html/user_data/assets/ai/w850rollupbanner-pdf.zip
+      - paragraph:
+        - link "自動見積・注文する" [ref=e66] [nth=1]:
+          - /url: "#"
+      - heading "こんな商品もおすすめです" [ref=e67] [level=2]
+      - link "インクイットの展示会装飾" [ref=e68]:
+        - /url: https://inkit.jp/user_data/exhibiton
+      - heading "【展示会装飾】" [ref=e69] [level=3]
+      - paragraph:
+        - link "バックボード【スチレンボード製】はこちら" [ref=e70]:
+          - /url: https://inkit.jp/products/list?category_id=55
+        - link "バックパネル【幕＋システム】はこちら" [ref=e71]:
+          - /url: https://inkit.jp/products/list?category_id=53
+        - link "クイックタイプ【イージースクリーン】はこちら" [ref=e72]:
+          - /url: https://inkit.jp/products/list?category_id=54
+        - link "バックパネル【リボード製】はこちら" [ref=e73]:
+          - /url: https://inkit.jp/products/list?category_id=56
+      - heading "バナースタンド豆知識" [ref=e74] [level=2]
+  - link [ref=e75] [nth=3]:
+    - /url: "#ft"
+  - contentinfo:
+    - link "展示会装飾はこちら" [ref=e76]:
+      - /url: https://inkit.jp/user_data/exhibiton
+  - contentinfo:
+    - heading "店舗情報" [ref=e77] [level=2]
+      - paragraph: 店舗名
+      - paragraph: インクイット
+      - paragraph: 特徴
+      - paragraph: 印刷通販の不安をゼロにする。 電話・メール・LINEで相談も出来る通販です。
+      - paragraph: 営業時間
+      - paragraph: 平日9時〜20時（注文は24h受付中）
+      - paragraph: 制作物
+      - paragraph: 販促・イベントで必要な印刷物は全てお任せください。横断幕/タペストリー/バックパネル/什器/ノベルティも制作可能。商品ラインナップに無いものもお問い合わせください。
+    - heading "営業日カレンダー" [ref=e78] [level=2]
+        - row "2026年01月":
+          - columnheader "2026年01月" [ref=e79]
+        - row "日 月 火 水 木 金 土":
+          - columnheader "日" [ref=e80]
+          - columnheader "月" [ref=e81]
+          - columnheader "火" [ref=e82]
+          - columnheader "水" [ref=e83]
+          - columnheader "木" [ref=e84]
+          - columnheader "金" [ref=e85]
+          - columnheader "土" [ref=e86]
+        - row "1 2 3":
+          - cell "1" [ref=e87]
+          - cell "2" [ref=e88]
+          - cell "3" [ref=e89]
+        - row "4 5 6 7 8 9 10":
+          - cell "4" [ref=e90]
+          - cell "5" [ref=e91]
+          - cell "6" [ref=e92]
+          - cell "7" [ref=e93]
+          - cell "8" [ref=e94]
+          - cell "9" [ref=e95]
+          - cell "10" [ref=e96]
+        - row "11 12 13 14 15 16 17":
+          - cell "11" [ref=e97]
+          - cell "12" [ref=e98]
+          - cell "13" [ref=e99]
+          - cell "14" [ref=e100]
+          - cell "15" [ref=e101]
+          - cell "16" [ref=e102]
+          - cell "17" [ref=e103]
+        - row "18 19 20 21 22 23 24":
+          - cell "18" [ref=e104]
+          - cell "19" [ref=e105]
+          - cell "20" [ref=e106]
+          - cell "21" [ref=e107]
+          - cell "22" [ref=e108]
+          - cell "23" [ref=e109]
+          - cell "24" [ref=e110]
+        - row "25 26 27 28 29 30 31":
+          - cell "25" [ref=e111]
+          - cell "26" [ref=e112]
+          - cell "27" [ref=e113]
+          - cell "28" [ref=e114]
+          - cell "29" [ref=e115]
+          - cell "30" [ref=e116]
+          - cell "31" [ref=e117]
+        - row "2026年02月":
+          - columnheader "2026年02月" [ref=e118]
+        - row "日 月 火 水 木 金 土":
+          - columnheader "日" [ref=e119] [nth=1]
+          - columnheader "月" [ref=e120] [nth=1]
+          - columnheader "火" [ref=e121] [nth=1]
+          - columnheader "水" [ref=e122] [nth=1]
+          - columnheader "木" [ref=e123] [nth=1]
+          - columnheader "金" [ref=e124] [nth=1]
+          - columnheader "土" [ref=e125] [nth=1]
+        - row "1 2 3 4 5 6 7":
+          - cell "1" [ref=e126] [nth=1]
+          - cell "2" [ref=e127] [nth=1]
+          - cell "3" [ref=e128] [nth=1]
+          - cell "4" [ref=e129] [nth=1]
+          - cell "5" [ref=e130] [nth=1]
+          - cell "6" [ref=e131] [nth=1]
+          - cell "7" [ref=e132] [nth=1]
+        - row "8 9 10 11 12 13 14":
+          - cell "8" [ref=e133] [nth=1]
+          - cell "9" [ref=e134] [nth=1]
+          - cell "10" [ref=e135] [nth=1]
+          - cell "11" [ref=e136] [nth=1]
+          - cell "12" [ref=e137] [nth=1]
+          - cell "13" [ref=e138] [nth=1]
+          - cell "14" [ref=e139] [nth=1]
+        - row "15 16 17 18 19 20 21":
+          - cell "15" [ref=e140] [nth=1]
+          - cell "16" [ref=e141] [nth=1]
+          - cell "17" [ref=e142] [nth=1]
+          - cell "18" [ref=e143] [nth=1]
+          - cell "19" [ref=e144] [nth=1]
+          - cell "20" [ref=e145] [nth=1]
+          - cell "21" [ref=e146] [nth=1]
+        - row "22 23 24 25 26 27 28":
+          - cell "22" [ref=e147] [nth=1]
+          - cell "23" [ref=e148] [nth=1]
+          - cell "24" [ref=e149] [nth=1]
+          - cell "25" [ref=e150] [nth=1]
+          - cell "26" [ref=e151] [nth=1]
+          - cell "27" [ref=e152] [nth=1]
+          - cell "28" [ref=e153] [nth=1]
+  - contentinfo:
+    - heading "お問い合わせ" [ref=e154] [level=2]
+    - heading "お電話でのお問い合わせ" [ref=e155] [level=3]
+    - paragraph: TEL.03-6851-8181
+    - paragraph: 受付時間 ／ 平日 9：00～20：00
+    - heading "メールでのお問い合わせ・ご相談" [ref=e156] [level=3]
+    - link "お問い合わせはこちら 24時間受付中。お気軽にお問い合わせください！" [ref=e157]:
+      - /url: https://inkit.jp/contact
+      - paragraph: お問い合わせはこちら
+      - paragraph: 24時間受付中。お気軽にお問い合わせください！
+  - contentinfo:
+    - heading "お支払い方法" [ref=e158] [level=3]
+    - link "NP掛け払い" [ref=e159]:
+      - /url: https://np-kakebarai.com/buy/
+    - heading "送料について" [ref=e160] [level=3]
+    - paragraph: 全国 送料無料
+    - text: ※一部地域・商品を除く
+    - term: 北海道・沖縄
+    - definition: 2,200円（税込）から
+    - term: 離島
+    - definition: お問い合わせください
+    - heading "お届けについて" [ref=e161] [level=3]
+    - paragraph: 最短 ご相談可
+    - term: ポスター類
+    - definition: 平日：午前中までご注文・入稿で最短当日出荷 ※一部除く
+    - term: その他仕様
+    - definition: お気軽にお問合せ下さい。
+  - contentinfo:
+    - paragraph:
+      - link "インクイットTOP" [ref=e162] [nth=1]:
+        - /url: https://inkit.jp/
+      - text: © 2022 B&P Co.,Ltd.
+

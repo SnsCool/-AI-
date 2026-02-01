@@ -1,0 +1,8 @@
+{
+  "url": "https://timerex.net/s/hiromi.miyake_2dc5/05f6719b",
+  "type": "webpage",
+  "processed_at": "2026-01-22T14:59:23.819765",
+  "content": "  - navigation:\n    - link [ref=e1]:\n      - /url: https://timerex.net\n    - link \"サポート\" [ref=e2]:\n      - /url: https://help.timerex.net\n    - link \"ログイン\" [ref=e3]:\n      - /url: https://timerex.net/auth/login\n  - text: 所要時間 30 分\n  - heading \"マッチングマーケター面談\" [ref=e4] [level=1]\n  - text: 1 日程選択 2 情報入力 3 日程調整完了 ご都合の良い日時を選択してください ログインすると、あなたの予定もこの ページで確認できるようになります。\n  - link \"新規登録（無料）\" [ref=e5]:\n    - /url: https://timerex.net/auth/register?internal_ref=guest_page\n  - text: 2026年1月\n  - text: アジア/東京(UTC+09:00) \n    - listitem:  前へ\n    - listitem: 10:00\n    - listitem: 11:00\n    - listitem: 12:00\n    - listitem: 13:00\n    - listitem: 14:00\n    - listitem: 15:00\n    - listitem: 16:00\n    - listitem: 17:00\n    - text: 27 火\n    - text: 28 水\n    - text: 29 木\n      - text: 09:30 - 10:00\n    - text: 30 金\n      - text: 09:30 - 10:00\n    - text: 31 土\n    - listitem: 次へ \n    - listitem: 10:00\n    - listitem: 11:00\n    - listitem: 12:00\n    - listitem: 13:00\n    - listitem: 14:00\n    - listitem: 15:00\n    - listitem: 16:00\n    - listitem: 17:00\n  - link \"不正行為を報告する\" [ref=e6]:\n    - /url: https://bfdco87fw5s.typeform.com/to/Bf5KhbIh#url=https://timerex.net/s/hiromi.miyake_2dc5/05f6719b\n  - contentinfo:\n      - listitem:\n        - text: 言語設定\n        - combobox [ref=e7]:\n          - option \"日本語\" [ref=e8] [selected]\n          - option \"English\" [ref=e9]\n",
+  "title": "Webページ",
+  "error": null
+}

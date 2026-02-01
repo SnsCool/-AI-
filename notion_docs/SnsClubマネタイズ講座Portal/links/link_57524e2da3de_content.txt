@@ -1,0 +1,20 @@
+# リンク先コンテンツ
+
+**URL**: https://www.canva.com/design/DAG0jPqzcaA/iAj-vC49a5lHrxnV2LtlVQ/edit?utm_content=DAG0jPqzcaA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+**種類**: image
+**タイトル**: デザインコンテンツ
+**リンクテキスト**: 
+**参照元**: SnsClubマネタイズ講座Portal
+**取得日時**: 2026-01-22T12:48:28.853189
+
+---
+
+## コンテンツ
+
+この画像は、Canvaのウェブサイトでよく見られるセキュリティチェックのページを示しています。ページの中央にはCanvaのロゴがあり、その下には「Verify you are human」と書かれたチェックボックスと、Cloudflareのロゴがあります。Cloudflareは、ウェブサイトをDDoS攻撃やその他のセキュリティ脅威から保護するサービスを提供しています。
+
+さらに下には、技術的な詳細情報が表示されています。具体的には、Ray ID（9c1c1370ef68e38c）、IPアドレス（198.144.172.2）、検出された場所（JP、つまり日本）が表示されています。
+
+ページの下部には、「We're currently checking your connection. This shouldn't take long. If you keep getting this page, check if there's a problem with Canva.」というメッセージが表示されています。これは、Canvaがユーザーの接続を検証しており、通常はすぐに終わるはずだが、もし問題が解決しない場合はCanva自体に問題がある可能性があることを示唆しています。
+
+全体的に、この画像はCanvaのセキュリティ対策が作動しており、ユーザーの身元を確認している状況を表しています。

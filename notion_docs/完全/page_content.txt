@@ -1,0 +1,14 @@
+# 完全
+
+Notion URL: https://www.notion.so/48f6fbda622b44b18bf01bb21e62ef4b
+同期日時: 2026-01-27T11:53:00+09:00
+
+---
+
+## プロパティ
+
+- **例**: 完全
+- **大項目**: Narrow絞り込み
+- **Bookmark**: false
+- **種別**: レベル別
+- **memo**: (なし)

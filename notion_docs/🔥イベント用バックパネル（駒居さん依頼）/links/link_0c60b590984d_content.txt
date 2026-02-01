@@ -1,0 +1,404 @@
+# リンク先コンテンツ
+
+**URL**: https://inkit.jp/products/detail/27?gad_source=1&gad_campaignid=17928930648&gbraid=0AAAAAozDiolxIr7gTMYwoE-cPeuDi520Y&gclid=Cj0KCQiAo4TKBhDRARIsAGW29bfTjrxRj9VY-bf8aIa_t1fdFUA3OSle-Es_EtsUPm8K_HYVxBPYr3kaAn73EALw_wcB
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 🔥イベント用バックパネル（駒居さん依頼）
+**取得日時**: 2026-01-22T14:49:55.187687
+
+---
+
+## コンテンツ
+
+  - banner:
+    - heading "パネル印刷（スチレンタイプ）｜大判・短納期｜料金" [ref=e1] [level=1]
+      - listitem:
+        - link "利用規約" [ref=e2]:
+          - /url: https://inkit.jp/help/agreement
+      - listitem:
+        - link "プライバシーポリシー" [ref=e3]:
+          - /url: https://inkit.jp/help/privacy
+      - listitem:
+        - link "運営会社" [ref=e4]:
+          - /url: https://inkit.jp/user_data/company
+      - listitem:
+        - link "特定商取引法" [ref=e5]:
+          - /url: https://inkit.jp/help/tradelaw
+    - paragraph: こんにちは、ゲスト様
+    - link [ref=e6]:
+      - /url: https://inkit.jp/contact
+    - link [ref=e7] [nth=1]:
+      - /url: https://lin.ee/N1YVhI9
+  - banner:
+    - link [ref=e8] [nth=2]:
+      - /url: https://inkit.jp/
+    - paragraph: 03-6851-8181
+    - link "メールでのお問い合わせ" [ref=e9]:
+      - /url: https://inkit.jp/contact
+    - link "会員登録" [ref=e10]:
+      - /url: https://inkit.jp/entry
+    - link "ログイン" [ref=e11]:
+      - /url: https://inkit.jp/mypage/login
+    - link "お気に入り" [ref=e12]:
+      - /url: https://inkit.jp/mypage/
+    - link "カート" [ref=e13]:
+      - /url: https://inkit.jp/cart
+    - navigation:
+        - listitem:
+          - link "ホーム" [ref=e14]:
+            - /url: https://inkit.jp/
+        - listitem:
+          - link "商品一覧" [ref=e15]:
+            - /url: https://inkit.jp/productlist
+        - listitem:
+          - link "データ入稿" [ref=e16]:
+            - /url: https://inkit.jp/user_data/upload_data
+        - listitem:
+          - link "ご利用の流れ" [ref=e17]:
+            - /url: https://inkit.jp/user_data/flow
+        - listitem:
+          - link "お役立ちブログ" [ref=e18]:
+            - /url: https://inkit.jp/blog/
+        - listitem:
+          - link "大口取引" [ref=e19]:
+            - /url: https://inkit.jp/user_data/houjin
+        - listitem:
+          - link "よくある質問" [ref=e20]:
+            - /url: https://inkit.jp/user_data/faq
+  - banner:
+    - navigation "breadcrumb" [ref=e21]:
+        - listitem:
+          - link "インクイットTOP" [ref=e22]:
+            - /url: https://inkit.jp/
+        - listitem:
+          - text: ＞
+          - link "商品一覧" [ref=e23] [nth=1]:
+            - /url: https://inkit.jp/productlist
+        - listitem:
+          - text: ＞
+          - link "販促・イベント" [ref=e24]:
+            - /url: https://inkit.jp/products/list?category_id=7
+        - listitem:
+          - text: ＞
+          - link "パネル" [ref=e25]:
+            - /url: https://inkit.jp/products/list?category_id=11
+        - listitem: ＞ ［屋内］パネル（スチレンタイプ）
+  - main:
+    - complementary:
+        - paragraph: サイズ
+      - definition:
+        - combobox [ref=e26]:
+          - option "B0" [ref=e27]
+          - option "B1" [ref=e28]
+          - option "B2" [ref=e29]
+          - option "B3" [ref=e30]
+          - option "B4" [ref=e31]
+          - option "A0" [ref=e32]
+          - option "A1" [ref=e33]
+          - option "A2" [ref=e34]
+          - option "A3" [ref=e35]
+          - option "A4" [ref=e36]
+          - option "フリー" [ref=e37] [selected]
+        - text: ▼
+        - paragraph: 横（mm）
+      - definition:
+        - spinbutton [ref=e38]
+        - paragraph: 縦（mm）
+      - definition:
+        - spinbutton [ref=e39] [nth=1]
+        - paragraph: 用紙
+      - definition:
+        - combobox [ref=e40] [nth=1]:
+          - option "光沢紙" [ref=e41] [selected]
+          - option "半光沢紙" [ref=e42]
+        - text: ▼
+        - paragraph: 印刷面
+      - definition:
+        - combobox [ref=e43] [nth=2]:
+          - option "片面" [ref=e44] [selected]
+        - text: ▼
+        - paragraph: ラミ
+      - definition:
+        - combobox [ref=e45] [nth=3]:
+          - option "ラミ無し" [ref=e46] [selected]
+          - option "グロスラミ" [ref=e47]
+          - option "マットラミ" [ref=e48]
+        - text: ▼
+        - paragraph: パネル種類
+      - definition:
+        - combobox [ref=e49] [nth=4]:
+          - option "スチレン5㎜片面" [ref=e50] [selected]
+          - option "スチレン7㎜片面" [ref=e51]
+        - text: ▼
+        - paragraph: カットアウト
+      - definition:
+        - combobox [ref=e52] [nth=5]:
+          - option "カットアウト無し" [ref=e53] [selected]
+          - option "カットアウト" [ref=e54]
+        - text: ▼
+        - paragraph: フレーム加工
+      - definition:
+        - combobox [ref=e55] [nth=6]:
+          - option "無し" [ref=e56] [selected]
+        - text: ▼
+        - paragraph: 紙足
+      - definition:
+        - combobox [ref=e57] [nth=7]:
+          - option "紙足無し" [ref=e58] [selected]
+          - option "紙足H145mm" [ref=e59]
+          - option "紙足H210mm" [ref=e60]
+          - option "紙足H290mm" [ref=e61]
+          - option "紙足H500mm" [ref=e62]
+          - option "紙足H1000ｍｍ" [ref=e63]
+          - option "紙足H1300ｍｍ" [ref=e64]
+        - text: ▼
+        - paragraph: デザイン数
+      - definition:
+        - spinbutton [ref=e65] [nth=2]: "1"
+        - paragraph: 各部数
+      - definition:
+        - spinbutton [ref=e66] [nth=3]: "1"
+        - paragraph: 合計部数
+      - definition:
+        - spinbutton [ref=e67] [nth=4] [disabled]: "1"
+        - paragraph: 合計金額（税込）
+        - paragraph: ¥4,070
+      - paragraph: 送料無料（北海道・沖縄・離島除く）
+      - link "カートに追加する" [ref=e68]:
+        - /url: javascript:void(0);
+    - article:
+      - heading "［屋内］パネル（スチレンタイプ）" [ref=e69] [level=2]
+      - paragraph: 展示物や店内POPなどに最適なパネル。紙足を取り付け自立式パネルも対応できます。定番で一番人気なスチレンボードタイプ。 ※最大サイズ：1200mmx2400mm(最大サイズ以上の場合はご相談ください） 納期：ご注文・ご入稿の完了後、1〜2営業日後出荷※最短納期に挑戦中！お急ぎの場合はお問い合わせください
+      - heading "こんなシーンに！" [ref=e70] [level=2]
+      - heading "おすすめ使用シーン" [ref=e71] [level=3]
+      - paragraph: ・店舗POP・イベント・展示会など屋内での掲示に
+      - heading "スタンドを付けてPOPUPショップに" [ref=e72] [level=3]
+      - paragraph: POPUPストアや各種店舗の商品説明に 紙足をつけて自立させた仕様です
+      - heading "展示会に" [ref=e73] [level=3]
+      - paragraph:
+        - text: 展示会や見本市、合同説明会などのブース壁面に！フリーサイズで作成可能です。 【写真の壁面パネルサイズ】 ・W3960xH2400mm（4分割）W990mmで4分割 ・W2970xH2400mm（3分割）W990mmで3分割 最大サイズを超える場合は分割での制作もご対応可能です。ご希望の場合は
+        - link "お問合せ" [ref=e74]:
+          - /url: https://inkit.jp/contact
+        - text: ください
+      - heading "イベントに" [ref=e75] [level=3]
+      - paragraph:
+        - text: イベントや展示会のブース装飾に パネルの厚みは5ｍｍ/7ｍｍより選べます。 カットアウトをして姿切りも可能です。 カットラインの作成が難しい場合はご依頼いただくことも可能です。ご希望の場合は
+        - link "お問合せ" [ref=e76] [nth=1]:
+          - /url: https://inkit.jp/contact
+        - text: ください
+      - heading "サロン・美容院・クリニックに" [ref=e77] [level=3]
+      - paragraph: 美容院/ネイルサロン/飲食店/歯科医院/クリニックなどの装飾・説明に
+      - paragraph:
+        - text: 【目次】
+        - link "自動見積・注文する" [ref=e78]:
+          - /url: "#"
+        - link "納期について" [ref=e79]:
+          - /url: "#nouki"
+        - link "素材紹介" [ref=e80]:
+          - /url: "#sozai"
+        - link "加工・オプション" [ref=e81]:
+          - /url: "#kako"
+        - link "最大サイズ" [ref=e82]:
+          - /url: "#size"
+        - link "デザインデータについて" [ref=e83]:
+          - /url: "#data"
+      - heading "納期について" [ref=e84] [level=2]
+      - heading "1〜2営業日後出荷" [ref=e85] [level=3]
+      - paragraph: ご注文・ご入稿の完了後、1〜2営業日後出荷 ※最短納期に挑戦中！お急ぎの場合はお問い合わせください ※データチェック完了後、お届け予定日をお知らせします。 ※ご注文・ご入稿お手続き完了後の納期確定、お支払いお手続き完了後の出荷となります。 ※配送地域により到着日数は異なりますので、予めご了承ください。
+      - link "ご注文の流れ" [ref=e86]:
+        - /url: https://inkit.jp/user_data/flow
+      - heading "ご注文の流れ" [ref=e87] [level=3]
+      - paragraph: ご注文 ↓ ご入稿 ↓ お届け ※ご入稿はご注文確認メールに記載のリンクよりお願いいたします
+      - heading "大量注文にも対応！" [ref=e88] [level=3]
+      - paragraph:
+        - text: 【３０枚以上】ご注文の場合は
+        - link "お問い合わせ" [ref=e89]:
+          - /url: https://inkit.jp/contact
+        - text: ください。 別途お見積りいたします。
+      - heading "素材紹介" [ref=e90] [level=2]
+      - heading "半光沢紙または光沢紙+スチレンパネル仕上げ" [ref=e91] [level=3]
+      - paragraph: 高級感ある仕上がりの用紙にプリント、スチレンパネルに貼り込んで仕上げます ラミネート：グロス・マット スチレンパネルは5ｍｍ厚と7ｍｍ厚から選べます 短期仕様や予算を抑えたいときにおすすめ
+      - heading "加工について" [ref=e92] [level=2]
+      - heading "ラミネート加工" [ref=e93] [level=3]
+      - paragraph: 表面に透明のフィルムを圧着。ポスターの耐久性を上げます。 仕上がりはツヤのあるグロス・ツヤを抑えたマットからお選びいただけます。 長期間の使用にオススメ
+      - heading "カットアウト加工" [ref=e94] [level=3]
+      - paragraph: 姿切り対応可能です。 ※アルミフレームとは組み合わせできません
+      - heading "紙足" [ref=e95] [level=3]
+      - paragraph: 紙製の自立足です
+      - heading "アルミフレーム" [ref=e96] [level=3]
+      - paragraph: アルミフレームをフチに着けられます。 ※7ｍｍ厚のみ対応可能となります ※カットアウト加工（姿切り）とは組み合わせできません ※取り付け可能なサイズは１辺の長さが1800ｍｍまでとなります
+      - heading "オプション" [ref=e97] [level=2]
+      - heading "ネオボードスタンド" [ref=e98] [level=3]
+      - paragraph:
+        - text: ネオボードスタンドは、パネルや等身大パネルを自立させるのに最適なパネルスタンドです。 パネルまたは等身大パネルと一緒にカートに入れてご注文ください。
+        - link "ネオボードスタンドオプションを注文する" [ref=e99]:
+          - /url: https://inkit.jp/products/detail/1493
+        - text: パネルを床に対してほぼ垂直に立てることができます。 コンパクトなスタンドなので、スタンドにより絵柄が隠れる面積が少ないのが特徴です。 留め具をスライドしてねじで止める簡単な設置方法です。工具なども不要です。 【2個で1セットとなります】 ※納品時にパネルへの取り付けはされていません。お客様で取り付けをお願いいたします ※パネル・等身大パネル商品と別便でのお届けとなる場合がございます
+      - heading "サイズについて" [ref=e100] [level=2]
+      - heading "最大サイズ" [ref=e101] [level=3]
+      - paragraph:
+        - text: 最大サイズ：1200ｍｍx2400ｍｍ 最大サイズを超える場合は分割での制作もご対応可能です。ご希望の場合は
+        - link "お問合せ" [ref=e102] [nth=2]:
+          - /url: https://inkit.jp/contact
+        - text: ください
+      - paragraph: 【定型サイズ一覧表】（単位：mm）
+      - paragraph
+          - row "B0 B1 B2 B3 B4":
+            - cell "B0" [ref=e103]
+            - cell "B1" [ref=e104]
+            - cell "B2" [ref=e105]
+            - cell "B3" [ref=e106]
+            - cell "B4" [ref=e107]
+          - row "1030×1456 728×1030 515×728 364×515 257×364":
+            - cell "1030×1456" [ref=e108]
+            - cell "728×1030" [ref=e109]
+            - cell "515×728" [ref=e110]
+            - cell "364×515" [ref=e111]
+            - cell "257×364" [ref=e112]
+      - paragraph
+          - row "A0 A1 A2 A3 A4":
+            - cell "A0" [ref=e113]
+            - cell "A1" [ref=e114]
+            - cell "A2" [ref=e115]
+            - cell "A3" [ref=e116]
+            - cell "A4" [ref=e117]
+          - row "841×1189 594×841 420×594 297×420 210×297":
+            - cell "841×1189" [ref=e118]
+            - cell "594×841" [ref=e119]
+            - cell "420×594" [ref=e120]
+            - cell "297×420" [ref=e121]
+            - cell "210×297" [ref=e122]
+      - heading "梱包について" [ref=e123] [level=2]
+      - heading "梱包イメージ" [ref=e124] [level=3]
+      - paragraph: 段ボール梱包して納品いたします
+      - heading "データについて" [ref=e125] [level=2]
+      - heading "カットラインについて" [ref=e126] [level=3]
+      - paragraph: 姿切りの場合、カットラインを絵柄と別レイヤーに作成お願いします
+      - paragraph:
+        - link "【自動見積・注文する】" [ref=e127]:
+          - /url: "#"
+      - heading "こんな商品もおすすめです" [ref=e128] [level=2]
+      - link "インクイットの展示会装飾" [ref=e129]:
+        - /url: https://inkit.jp/user_data/exhibiton
+      - heading "【展示会装飾】" [ref=e130] [level=3]
+      - paragraph:
+        - link "バックボード【スチレンボード製】はこちら" [ref=e131]:
+          - /url: https://inkit.jp/products/list?category_id=55
+        - link "バックパネル【幕＋システム】はこちら" [ref=e132]:
+          - /url: https://inkit.jp/products/list?category_id=53
+        - link "クイックタイプ【イージースクリーン】はこちら" [ref=e133]:
+          - /url: https://inkit.jp/products/list?category_id=54
+        - link "バックパネル【リボード製】はこちら" [ref=e134]:
+          - /url: https://inkit.jp/products/list?category_id=56
+      - heading "ほかの素材でつくるなら" [ref=e135] [level=2]
+      - heading "おすすめパネル商品" [ref=e136] [level=3]
+      - paragraph:
+        - text: リーズナブルな屋内用・丈夫な屋外用・環境にやさしいボードなど各種取り揃えております
+        - link "そのほかのパネル素材はこちら" [ref=e137]:
+          - /url: https://inkit.jp/products/list?category_id=11
+      - heading "パネル・看板豆知識" [ref=e138] [level=2]
+  - link [ref=e139] [nth=3]:
+    - /url: "#ft"
+  - contentinfo:
+    - link "展示会装飾はこちら" [ref=e140]:
+      - /url: https://inkit.jp/user_data/exhibiton
+  - contentinfo:
+    - heading "店舗情報" [ref=e141] [level=2]
+      - paragraph: 店舗名
+      - paragraph: インクイット
+      - paragraph: 特徴
+      - paragraph: 印刷通販の不安をゼロにする。 電話・メール・LINEで相談も出来る通販です。
+      - paragraph: 営業時間
+      - paragraph: 平日9時〜20時（注文は24h受付中）
+      - paragraph: 制作物
+      - paragraph: 販促・イベントで必要な印刷物は全てお任せください。横断幕/タペストリー/バックパネル/什器/ノベルティも制作可能。商品ラインナップに無いものもお問い合わせください。
+    - heading "営業日カレンダー" [ref=e142] [level=2]
+        - row "2026年01月":
+          - columnheader "2026年01月" [ref=e143]
+        - row "日 月 火 水 木 金 土":
+          - columnheader "日" [ref=e144]
+          - columnheader "月" [ref=e145]
+          - columnheader "火" [ref=e146]
+          - columnheader "水" [ref=e147]
+          - columnheader "木" [ref=e148]
+          - columnheader "金" [ref=e149]
+          - columnheader "土" [ref=e150]
+        - row "1 2 3":
+          - cell "1" [ref=e151]
+          - cell "2" [ref=e152]
+          - cell "3" [ref=e153]
+        - row "4 5 6 7 8 9 10":
+          - cell "4" [ref=e154]
+          - cell "5" [ref=e155]
+          - cell "6" [ref=e156]
+          - cell "7" [ref=e157]
+          - cell "8" [ref=e158]
+          - cell "9" [ref=e159]
+          - cell "10" [ref=e160]
+        - row "11 12 13 14 15 16 17":
+          - cell "11" [ref=e161]
+          - cell "12" [ref=e162]
+          - cell "13" [ref=e163]
+          - cell "14" [ref=e164]
+          - cell "15" [ref=e165]
+          - cell "16" [ref=e166]
+          - cell "17" [ref=e167]
+        - row "18 19 20 21 22 23 24":
+          - cell "18" [ref=e168]
+          - cell "19" [ref=e169]
+          - cell "20" [ref=e170]
+          - cell "21" [ref=e171]
+          - cell "22" [ref=e172]
+          - cell "23" [ref=e173]
+          - cell "24" [ref=e174]
+        - row "25 26 27 28 29 30 31":
+          - cell "25" [ref=e175]
+          - cell "26" [ref=e176]
+          - cell "27" [ref=e177]
+          - cell "28" [ref=e178]
+          - cell "29" [ref=e179]
+          - cell "30" [ref=e180]
+          - cell "31" [ref=e181]
+        - row "2026年02月":
+          - columnheader "2026年02月" [ref=e182]
+        - row "日 月 火 水 木 金 土":
+          - columnheader "日" [ref=e183] [nth=1]
+          - columnheader "月" [ref=e184] [nth=1]
+          - columnheader "火" [ref=e185] [nth=1]
+          - columnheader "水" [ref=e186] [nth=1]
+          - columnheader "木" [ref=e187] [nth=1]
+          - columnheader "金" [ref=e188] [nth=1]
+          - columnheader "土" [ref=e189] [nth=1]
+        - row "1 2 3 4 5 6 7":
+          - cell "1" [ref=e190] [nth=1]
+          - cell "2" [ref=e191] [nth=1]
+          - cell "3" [ref=e192] [nth=1]
+          - cell "4" [ref=e193] [nth=1]
+          - cell "5" [ref=e194] [nth=1]
+          - cell "6" [ref=e195] [nth=1]
+          - cell "7" [ref=e196] [nth=1]
+        - row "8 9 10 11 12 13 14":
+          - cell "8" [ref=e197] [nth=1]
+          - cell "9" [ref=e198] [nth=1]
+          - cell "10" [ref=e199] [nth=1]
+          - cell "11" [ref=e200] [nth=1]
+          - cell "12" [ref=e201] [nth=1]
+          - cell "13" [ref=e202] [nth=1]
+          - cell "14" [ref=e203] [nth=1]
+        - row "15 16 17 18 19 20 21":
+          - cell "15" [ref=e204] [nth=1]
+          - cell "16" [ref=e205] [nth=1]
+          - cell "17" [ref=e206] [nth=1]
+          - cell "18" [ref=e207] [nth=1]
+          - cell "19" [ref=e208] [nth=1]
+          - cell "20" [ref=e209] [nth=1]
+          - cell "21" [ref=e210] [nth=1]
+        - row "22 23 24 25 26 27 28":
+          - cell "22" [ref=e211] [nth=1]
+          - cell "23" [ref=e212] [nth=1]
+          - cell "24" [ref=e213] [nth=1]
+          - cell "25" [ref=e214] [nth=1]
+          - cell "26" [ref=e215] [nth
+
+[... 以下省略 ...]

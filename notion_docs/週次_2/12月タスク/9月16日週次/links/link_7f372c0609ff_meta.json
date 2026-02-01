@@ -1,0 +1,8 @@
+{
+  "url": "https://docs.google.com/document/d/10yjweq3arJyQn3jR717WwSmRug_bEpPT7PU3ZD_YaOY/edit?usp=sharing",
+  "type": "gdoc",
+  "processed_at": "2026-01-22T15:29:53.859183",
+  "content": "    - banner \"メニューバー\":\n      - link \"ドキュメント ホーム\" [ref=e1]:\n        - /url: https://docs.google.com/document/?usp=docs_web\n      - text: 仕事の基準評価基準マニュアル\n      - 'button \"ドキュメントのステータス: ドライブに保存しました.\"'\n      - button \"編集権限をリクエスト. このドキュメントで行えるのは閲覧のみです。 オーナーに編集権限をリクエストするには、Google アカウントにログインする必要があります。\" [ref=e2] [disabled]: 編集権限をリクエスト\n      - button \"共有します。リンクを知っている全員。 リンクを知っている全員がアクセスできます。ログインは不要です。\" [ref=e3] [disabled]: 共有\n      - button \"クイック共有操作\" [ref=e4] [disabled]\n      - link \"ログイン\" [ref=e5]:\n        - /url: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/document/d/10yjweq3arJyQn3jR717WwSmRug_bEpPT7PU3ZD_YaOY/edit?usp%3Dsharing&followup=https://docs.google.com/document/d/10yjweq3arJyQn3jR717WwSmRug_bEpPT7PU3ZD_YaOY/edit?usp%3Dsharing&ltmpl=docs&ec=GAZAGQ\n        - menuitem \"ファイル\" [ref=e6]\n        - menuitem \"編集\" [ref=e7]\n        - menuitem \"表示\" [ref=e8]\n        - menuitem \"ツール\" [ref=e9]\n        - menuitem \"ヘルプ\" [ref=e10]\n    - button \"タブとアウトラインを非表示\" [ref=e11]:\n      - button \"戻る\" [ref=e12] [disabled]:\n        - button \"戻る\" [ref=e13] [nth=1] [disabled]\n    - link \"スクリーン リーダーのサポートを有効にする\" [ref=e14]:\n      - /url: \"#\"\n    - text: バナーを非表示にしました\n    - region: スクリーン リーダーのサポートを有効にするには、⌘+option+Z を押します。キーボード ショートカットの詳細については、⌘スラッシュ を押します。\n",
+  "title": "Webページ",
+  "error": null
+}

@@ -1,0 +1,85 @@
+# リンク先コンテンツ
+
+**URL**: https://fish.audio/ja/app/text-to-speech/
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 💡AIの活用法
+**取得日時**: 2026-01-22T14:14:35.306647
+
+---
+
+## コンテンツ
+
+  - link "Fish Audio" [ref=e1]:
+    - /url: /ja/app/
+    - text: Fish Audio
+  - button "Collapse sidebar" [ref=e2]
+  - navigation:
+    - link "ホーム" [ref=e3]:
+      - /url: /ja/app/
+    - link "発見" [ref=e4]:
+      - /url: /ja/app/discovery/
+    - heading "製品" [ref=e5] [level=3]
+    - link "音声合成" [ref=e6]:
+      - /url: /ja/app/text-to-speech/
+      - text: 音声合成
+    - link "ボイスクローン" [ref=e7]:
+      - /url: /ja/app/voice-cloning/
+    - link "ストーリースタジオ" [ref=e8]:
+      - /url: /ja/app/story-studio/
+    - link "オーディオ分離" [ref=e9]:
+      - /url: /ja/app/audio-separation/
+    - heading "プラットフォーム" [ref=e10] [level=3]
+    - link "料金プラン" [ref=e11]:
+      - /url: /ja/app/plan/
+    - link "更新情報" [ref=e12]:
+      - /url: /ja/app/changelog/
+    - link "チュートリアル" [ref=e13]:
+      - /url: /ja/app/tutorials/
+  - link "開発者" [ref=e14]:
+    - /url: /ja/app/developers/
+  - link "今すぐアップグレード" [ref=e15]:
+    - /url: /app/plan/
+    - button "今すぐアップグレード" [ref=e16]:
+      - text: 今すぐアップグレード
+  - button "ログイン" [ref=e17]:
+    - paragraph: ログイン
+  - main:
+    - heading "音声合成" [ref=e18] [level=1]
+    - button "外観テーマ" [ref=e19]
+    - button [ref=e20]:
+    - button "クレジットリンク" [ref=e21]
+    - textbox [ref=e22]:
+      - paragraph: ここにテキストを編集して音声に変換します。
+    - button "タグ" [ref=e23]
+    - button [ref=e24] [nth=1]:
+    - text: 0 / 0 characters
+    - button "生成して再生 (⌘ + ↵)" [ref=e25]:
+      - text: 生成して再生 (⌘ + ↵)
+    - button "設定" [ref=e26]
+    - button "歴史" [ref=e27]
+    - text: 声
+    - button [ref=e28] [nth=2]
+    - text: ボイスモデルを選択してください 声を作りますか?
+    - link "1分で作成" [ref=e29]:
+      - /url: /app/voice-cloning/
+    - text: TTSモデル
+    - combobox [ref=e30]: S1 (Latest)
+    - text: 詳細設定 プレミアム
+    - button [ref=e31] [nth=3]
+    - text: 高品質モード
+    - switch "高品質モード" [ref=e32] [checked]
+    - text: ボリューム 0 -10
+    - slider [ref=e33]
+    - text: 10 速度 1x 0.7x
+    - slider [ref=e34] [nth=1]
+    - text: 1.3x 温度
+    - text: 0.9 0.7
+    - slider [ref=e35] [nth=2]
+    - text: 1.0 Top P
+    - text: 0.9 0.7
+    - slider [ref=e36] [nth=3]
+    - text: "0.98"
+  - region "Notifications alt+T" [ref=e37]
+

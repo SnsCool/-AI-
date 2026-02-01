@@ -1,0 +1,8 @@
+{
+  "url": "https://app.klingai.com/",
+  "type": "webpage",
+  "processed_at": "2026-01-22T14:15:03.054111",
+  "content": "  - textbox \"Ask anything...\" [ref=e1]\n  - button [ref=e2]:\n  - text: Search by\n  - button \"Logo\" [ref=e3]:\n  - text: Kling AI Customer Support\n  - button [ref=e4] [nth=1]:\n  - button [ref=e5] [nth=2]:\n  - paragraph: Find previous chats or start a new conversation\n  - textbox \"Search...\" [ref=e6]\n  - text: No previous conversations.\n  - button \"Start a new conversation\" [ref=e7]\n  - text: Powered by\n  - button \"Logo\" [ref=e8] [nth=1]:\n  - text: Kling AI Customer Support\n  - button [ref=e9] [nth=3]:\n  - button [ref=e10] [nth=4]:\n  - status: Loading...\n  - text: Powered by\n  - button \"Logo\" [ref=e11] [nth=2]:\n    - paragraph: • Includes free credits and a trial of advanced features.\n    - paragraph: \"• Try advanced features: professional mode, video extension, etc.\"\n",
+  "title": "Webページ",
+  "error": null
+}

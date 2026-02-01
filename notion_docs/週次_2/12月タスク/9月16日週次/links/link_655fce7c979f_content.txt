@@ -1,0 +1,78 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/document/d/12uhoR-64fkGdEHO5DZ8Vf_HTIXmDLgRfpLHhYpHR5_A/edit?usp=sharing
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 9月16日週次
+**取得日時**: 2026-01-22T15:28:38.320294
+
+---
+
+## コンテンツ
+
+    - banner "メニューバー":
+      - link "ドキュメント ホーム" [ref=e1]:
+        - /url: https://docs.google.com/document/?usp=docs_web
+      - text: キックオフミーティングマニュアル
+      - 'button "ドキュメントのステータス: ドライブに保存しました."'
+      - button "すべてのコメントを表示" [ref=e2]
+      - button "共有します。リンクを知っている全員。 リンクを知っている全員がアクセスできます。ログインは不要です。" [ref=e3] [disabled]: 共有
+      - button "クイック共有操作" [ref=e4] [disabled]
+      - link "ログイン" [ref=e5]:
+        - /url: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/document/d/12uhoR-64fkGdEHO5DZ8Vf_HTIXmDLgRfpLHhYpHR5_A/edit?usp%3Dsharing&followup=https://docs.google.com/document/d/12uhoR-64fkGdEHO5DZ8Vf_HTIXmDLgRfpLHhYpHR5_A/edit?usp%3Dsharing&ltmpl=docs&ec=GAZAGQ
+        - menuitem "ファイル" [ref=e6]
+        - menuitem "編集" [ref=e7]
+        - menuitem "表示" [ref=e8]
+        - menuitem "挿入" [ref=e9]
+        - menuitem "表示形式" [ref=e10]
+        - menuitem "ツール" [ref=e11]
+        - menuitem "拡張機能" [ref=e12]
+        - menuitem "ヘルプ" [ref=e13]
+      - toolbar "メニューを検索 (option+/)":
+        - combobox "メニュー" [ref=e14]
+      - toolbar "メイン":
+        - button "元に戻す (⌘Z)" [ref=e15]
+        - button "やり直し (⌘Y)" [ref=e16]
+        - button "印刷 (⌘P)" [ref=e17]
+        - button "スペルと文法のチェック (⌘+option+X)" [ref=e18]
+        - button "書式を貼り付け" [ref=e19]
+        - combobox "ズーム" [ref=e20]:
+          - option "ズーム のリストで 100% を選択しています。" [ref=e21] [selected]:
+            - textbox "ズーム" [ref=e22]: 100%
+        - listbox "スタイル" [ref=e23]:
+          - option "スタイル のリストで 標準テキスト を選択しています。" [ref=e24] [selected]: 標準テキスト
+        - listbox "フォント" [ref=e25]:
+          - option "フォント のリストで Courier New を選択しています。" [ref=e26] [selected]: Courier New
+        - button "フォントサイズを縮小 (⌘+Shift+カンマ)" [ref=e27]
+        - combobox "フォント サイズ" [ref=e28]:
+          - option "フォント サイズ のリストで 8 を選択しています。" [ref=e29] [selected]:
+            - textbox "フォント サイズ" [ref=e30]: "8"
+        - button "フォントサイズを拡大 (⌘+Shift+ピリオド)" [ref=e31]
+        - button "太字 (⌘B)" [ref=e32] [pressed]
+        - button "斜体 (⌘I)" [ref=e33]
+        - button "下線 (⌘U)" [ref=e34]
+        - button "テキストの色" [ref=e35]
+        - button "ハイライトの色" [ref=e36]
+        - button "リンクを挿入 (⌘K)" [ref=e37]
+        - button "コメントを追加 (⌘+option+M)" [ref=e38]
+        - button "配置とインデント" [ref=e39]
+        - button "行間隔と段落の間隔" [ref=e40]
+        - button "チェックリスト (⌘+Shift+9)" [ref=e41]
+        - button "チェックリスト メニュー" [ref=e42]
+        - button "箇条書き (⌘+Shift+8)" [ref=e43]
+        - button "箇条書きメニュー" [ref=e44]
+        - button "番号付リスト (⌘+Shift+7)" [ref=e45]
+        - button "番号付きリストメニュー" [ref=e46]
+        - button "もっと見る" [ref=e47] [disabled]
+      - toolbar "モードと表示":
+        - button "編集モード" [ref=e48]: 編集
+        - button "メニューを非表示 (Ctrl+Shift+F)" [ref=e49]
+    - button "タブとアウトラインを非表示" [ref=e50]:
+      - button "戻る" [ref=e51] [disabled]:
+        - button "戻る" [ref=e52] [nth=1] [disabled]
+    - link "スクリーン リーダーのサポートを有効にする" [ref=e53]:
+      - /url: "#"
+    - region: スクリーン リーダーのサポートを有効にするには、⌘+option+Z を押します。キーボード ショートカットの詳細については、⌘スラッシュ を押します。
+    - text: バナーを非表示にしました
+

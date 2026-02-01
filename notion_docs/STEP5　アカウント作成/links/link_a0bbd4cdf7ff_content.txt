@@ -1,0 +1,305 @@
+# リンク先コンテンツ
+
+**URL**: https://www.xserver.ne.jp/blog/instagram/
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: STEP5　アカウント作成
+**取得日時**: 2026-01-22T14:59:53.551268
+
+---
+
+## コンテンツ
+
+  - banner:
+    - link "XServer" [ref=e1]:
+      - /url: https://www.xserver.ne.jp/
+    - paragraph: 国内シェアNo1サービスの「中の人」がブログ運営に役立つ情報をわかりやすくお届け！
+    - heading "初心者のためのブログ始め方講座｜エックスサーバー株式会社" [ref=e2] [level=1]:
+      - link "初心者のためのブログ始め方講座｜エックスサーバー株式会社" [ref=e3]:
+        - /url: https://www.xserver.ne.jp/blog/
+  - navigation:
+    - text: 
+    - heading "カテゴリー" [ref=e4] [level=4]
+      - listitem:
+        - link "TOP" [ref=e5]:
+          - /url: https://www.xserver.ne.jp/blog/
+      - listitem:
+        - link "作り方" [ref=e6]:
+          - /url: https://www.xserver.ne.jp/blog/category/how-to-make/
+      - listitem:
+        - link "書き方" [ref=e7]:
+          - /url: https://www.xserver.ne.jp/blog/category/how-to-write/
+      - listitem:
+        - link "収益化" [ref=e8]:
+          - /url: https://www.xserver.ne.jp/blog/category/monetization/
+      - listitem:
+        - link "初心者向け" [ref=e9]:
+          - /url: https://www.xserver.ne.jp/blog/tag/beginner/
+      - listitem:
+        - link "ノウハウ" [ref=e10]:
+          - /url: https://www.xserver.ne.jp/blog/category/know-how/
+      - listitem:
+        - link "WordPress" [ref=e11]:
+          - /url: https://www.xserver.ne.jp/blog/tag/wordpress/
+    - link [ref=e12]:
+      - /url: https://www.xserver.ne.jp/blog/xserver-wordpress-quickstart
+    - heading "アバウト" [ref=e13] [level=4]
+      - listitem:
+        - link "ブログがおすすめの理由" [ref=e14]:
+          - /url: https://www.xserver.ne.jp/blog/blog-merits/
+      - listitem:
+        - link "運営者情報" [ref=e15]:
+          - /url: https://www.xserver.ne.jp/blog/profile/
+      - listitem:
+        - link "プライバシーポリシー" [ref=e16]:
+          - /url: https://www.xserver.ne.jp/blog/privacy-policy/
+      - listitem:
+        - link "利用者情報の送信について" [ref=e17]:
+          - /url: https://www.xserver.ne.jp/blog/site-policy/
+      - listitem:
+        - link "お問い合わせ" [ref=e18]:
+          - /url: https://www.xserver.ne.jp/blog/contact/
+    - heading "リンク" [ref=e19] [level=4]
+      - listitem:
+        - link "エックスサーバー公式サイト" [ref=e20]:
+          - /url: https://www.xserver.ne.jp/
+      - listitem:
+        - link "エックスサーバー株式会社" [ref=e21]:
+          - /url: https://www.xserver.co.jp/
+      - listitem:
+        - link "XWRITE公式サイト" [ref=e22]:
+          - /url: https://xwrite.jp/
+  - navigation:
+      - listitem:
+        - link "TOP" [ref=e23]:
+          - /url: https://www.xserver.ne.jp/blog/
+          - text: TOP
+      - listitem:
+        - link "作り方" [ref=e24]:
+          - /url: https://www.xserver.ne.jp/blog/category/how-to-make/
+          - text: 作り方
+      - listitem:
+        - link "書き方" [ref=e25]:
+          - /url: https://www.xserver.ne.jp/blog/category/how-to-write/
+          - text: 書き方
+      - listitem:
+        - link "収益化" [ref=e26]:
+          - /url: https://www.xserver.ne.jp/blog/category/monetization/
+          - text: 収益化
+      - listitem:
+        - link "初心者向け" [ref=e27]:
+          - /url: https://www.xserver.ne.jp/blog/tag/beginner/
+          - text: 初心者向け
+      - listitem:
+        - link "WordPress" [ref=e28]:
+          - /url: https://www.xserver.ne.jp/blog/tag/wordpress/
+          - text: WordPress
+  - main:
+    - article:
+        - listitem:
+          - link " HOME" [ref=e29]:
+            - /url: https://www.xserver.ne.jp/blog
+        - listitem:
+          - link "ノウハウ" [ref=e30]:
+            - /url: https://www.xserver.ne.jp/blog/category/know-how/
+      - heading "インスタグラムのアカウント作成と設定・投稿方法を解説！" [ref=e31] [level=1]
+      - time:  2025年7月3日
+        - listitem:
+          - link "ノウハウ" [ref=e32] [nth=1]:
+            - /url: https://www.xserver.ne.jp/blog/category/know-how/
+        - listitem:
+          - link "X（旧Twitter）でシェア" [ref=e33]:
+            - /url: //twitter.com/intent/tweet?url=https%3A%2F%2Fwww.xserver.ne.jp%2Fblog%2Finstagram%2F&text=%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AE%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E4%BD%9C%E6%88%90%E3%81%A8%E8%A8%AD%E5%AE%9A%E3%83%BB%E6%8A%95%E7%A8%BF%E6%96%B9%E6%B3%95%E3%82%92%E8%A7%A3%E8%AA%AC%EF%BC%81+-+%E5%88%9D%E5%BF%83%E8%80%85%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E5%A7%8B%E3%82%81%E6%96%B9%E8%AC%9B%E5%BA%A7
+            - text: 
+        - listitem:
+          - link "Facebookでシェア" [ref=e34]:
+            - /url: //www.facebook.com/sharer.php?src=bm&u=https%3A%2F%2Fwww.xserver.ne.jp%2Fblog%2Finstagram%2F&t=%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AE%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E4%BD%9C%E6%88%90%E3%81%A8%E8%A8%AD%E5%AE%9A%E3%83%BB%E6%8A%95%E7%A8%BF%E6%96%B9%E6%B3%95%E3%82%92%E8%A7%A3%E8%AA%AC%EF%BC%81+-+%E5%88%9D%E5%BF%83%E8%80%85%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E5%A7%8B%E3%82%81%E6%96%B9%E8%AC%9B%E5%BA%A7
+            - text: 
+        - listitem:
+          - link "LINEでシェア" [ref=e35]:
+            - /url: //social-plugins.line.me/lineit/share?url=https%3A%2F%2Fwww.xserver.ne.jp%2Fblog%2Finstagram%2F
+            - text: 
+        - listitem: 
+      - paragraph: 【2025年7月3日更新】インスタグラムを利用する手順や画面などを最新化しました。
+        - strong: この記事のレベル
+      - figure:
+            - row "初心者 （3.0）":
+              - cell "初心者" [ref=e36]:
+                - strong: 初心者
+              - cell "（3.0）" [ref=e37]
+            - row "重要度 （3.0）":
+              - cell "重要度" [ref=e38]:
+                - strong: 重要度
+              - cell "（3.0）" [ref=e39] [nth=1]
+            - row "難しさ （2.0）":
+              - cell "難しさ" [ref=e40]:
+                - strong: 難しさ
+              - cell "（2.0）" [ref=e41]
+      - paragraph: こんにちは、T部長です！
+      - paragraph: インスタグラムを始めたいと思っているけどやり方がわからない！設定って難しいの？って思っている方は必見です。
+      - paragraph: 今回の記事では、インスタグラムの開設から基本的な設定、投稿方法などお伝えします。
+        - strong: T部長
+        - strong: この記事は以下のような人におすすめ！
+          - strong: インスタグラムのアカウント開設方法を知りたい
+          - strong: 投稿方法や基本的な使い方を知りたい
+          - strong: インスタグラムとブログの活用方法を知りたい
+      - paragraph: 最近では「インスタグラム」と「ブログ」との組み合わせが多くなってきていますので今回は、インスタグラムをすぐに始められるように、アカウントの開設・設定・投稿方法と、その他の機能についてわかりやすく説明します。
+      - paragraph: インスタグラムとはとても人気のSNSで集客ツールとして期待できますので、この機会にはじめてみましょう！
+      - paragraph: それでは、どうぞ！
+      - text: 目次 [ close ]
+        - listitem:
+          - link "インスタグラムとは？" [ref=e42]:
+            - /url: https://www.xserver.ne.jp/blog/instagram/#%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%A8%E3%81%AF
+            - listitem:
+              - link " Xとの違いは" [ref=e43]:
+                - /url: https://www.xserver.ne.jp/blog/instagram/#x%E3%81%A8%E3%81%AE%E9%81%95%E3%81%84%E3%81%AF
+            - listitem:
+              - link " ブログ×インスタグラムの使用例" [ref=e44]:
+                - /url: https://www.xserver.ne.jp/blog/instagram/#%E3%83%96%E3%83%AD%E3%82%B0-%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AE%E4%BD%BF%E7%94%A8%E4%BE%8B
+        - listitem:
+          - link "インスタグラムのアカウント開設〜設定までの手順を解説！" [ref=e45]:
+            - /url: https://www.xserver.ne.jp/blog/instagram/#%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AE%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E9%96%8B%E8%A8%AD-%E8%A8%AD%E5%AE%9A%E3%81%BE%E3%81%A7%E3%81%AE%E6%89%8B%E9%A0%86%E3%82%92%E8%A7%A3%E8%AA%AC
+            - listitem:
+              - link " １．アカウント開設する" [ref=e46]:
+                - /url: https://www.xserver.ne.jp/blog/instagram/#%EF%BC%91-%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E9%96%8B%E8%A8%AD%E3%81%99%E3%82%8B
+            - listitem:
+              - link " ２．プロフィールを設定する" [ref=e47]:
+                - /url: https://www.xserver.ne.jp/blog/instagram/#%EF%BC%92-%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B
+            - listitem:
+              - link " ３．設定の変更" [ref=e48]:
+                - /url: https://www.xserver.ne.jp/blog/instagram/#%EF%BC%93-%E8%A8%AD%E5%AE%9A%E3%81%AE%E5%A4%89%E6%9B%B4
+        - listitem:
+          - link "インスタグラムへの投稿方法" [ref=e49]:
+            - /url: https://www.xserver.ne.jp/blog/instagram/#%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%B8%E3%81%AE%E6%8A%95%E7%A8%BF%E6%96%B9%E6%B3%95
+            - listitem:
+              - link " 画像を投稿する" [ref=e50]:
+                - /url: https://www.xserver.ne.jp/blog/instagram/#%E7%94%BB%E5%83%8F%E3%82%92%E6%8A%95%E7%A8%BF%E3%81%99%E3%82%8B
+            - listitem:
+              - link " ストーリーズについて" [ref=e51]:
+                - /url: https://www.xserver.ne.jp/blog/instagram/#%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%BA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
+        - listitem:
+          - link "いいねや保存した投稿の確認" [ref=e52]:
+            - /url: https://www.xserver.ne.jp/blog/instagram/#%E3%81%84%E3%81%84%E3%81%AD%E3%82%84%E4%BF%9D%E5%AD%98%E3%81%97%E3%81%9F%E6%8A%95%E7%A8%BF%E3%81%AE%E7%A2%BA%E8%AA%8D
+            - listitem:
+              - link " いいねを確認する" [ref=e53]:
+                - /url: https://www.xserver.ne.jp/blog/instagram/#%E3%81%84%E3%81%84%E3%81%AD%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B
+            - listitem:
+              - link " 保存した投稿を見る" [ref=e54]:
+                - /url: https://www.xserver.ne.jp/blog/instagram/#%E4%BF%9D%E5%AD%98%E3%81%97%E3%81%9F%E6%8A%95%E7%A8%BF%E3%82%92%E8%A6%8B%E3%82%8B
+            - listitem:
+              - link " 通知を確認したいとき" [ref=e55]:
+                - /url: https://www.xserver.ne.jp/blog/instagram/#%E9%80%9A%E7%9F%A5%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%97%E3%81%9F%E3%81%84%E3%81%A8%E3%81%8D
+        - listitem:
+          - link "ビジネスアカウントとインスタライブ" [ref=e56]:
+            - /url: https://www.xserver.ne.jp/blog/instagram/#%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%81%A8%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%96
+            - listitem:
+              - link " ビジネスアカウント" [ref=e57]:
+                - /url: https://www.xserver.ne.jp/blog/instagram/#%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88
+            - listitem:
+              - link " インスタライブ" [ref=e58]:
+                - /url: https://www.xserver.ne.jp/blog/instagram/#%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%A9%E3%82%A4%E3%83%96
+        - listitem:
+          - link "まとめ" [ref=e59]:
+            - /url: https://www.xserver.ne.jp/blog/instagram/#%E3%81%BE%E3%81%A8%E3%82%81
+        - listitem:
+          - link "ブログの始め方を知りたい！実際に始めたい方へ" [ref=e60]:
+            - /url: https://www.xserver.ne.jp/blog/instagram/#%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AE%E5%A7%8B%E3%82%81%E6%96%B9%E3%82%92%E7%9F%A5%E3%82%8A%E3%81%9F%E3%81%84-%E5%AE%9F%E9%9A%9B%E3%81%AB%E5%A7%8B%E3%82%81%E3%81%9F%E3%81%84%E6%96%B9%E3%81%B8
+      - heading "インスタグラムとは？" [ref=e61] [level=2]
+        - text: インスタグラムは、
+        - strong: いまもっともホットなSNSなので導入できるなら導入したいツール
+        - text: です。ビジュアルコミュニケーションツールと言われて、写真やイラストなどをメインに投稿します。
+      - paragraph: どのSNSのなかでも性別を問わず幅広い世代で利用者が多く、うまく使えば実際に集客することができます。
+      - figure:
+            - row "国内ユーザー数 6600万人以上（2023年10月時点）":
+              - rowheader "国内ユーザー数" [ref=e62]
+              - cell "6600万人以上（2023年10月時点）" [ref=e63]
+            - row "ユーザー層 10代20代が多いと言われていたが、最近では幅広い世代で使われている。":
+              - rowheader "ユーザー層" [ref=e64]
+              - cell "10代20代が多いと言われていたが、最近では幅広い世代で使われている。" [ref=e65]
+            - row "特徴 ビジュアルメインのSNS。画像をたくさん投稿できる人はおすすめ。":
+              - rowheader "特徴" [ref=e66]
+              - cell "ビジュアルメインのSNS。画像をたくさん投稿できる人はおすすめ。" [ref=e67]
+            - row "拡散力 シェアボタンがなく拡散力は落ちる。検索がよく使われている。":
+              - rowheader "拡散力" [ref=e68]
+              - cell "シェアボタンがなく拡散力は落ちる。検索がよく使われている。" [ref=e69]
+      - heading "Xとの違いは" [ref=e70] [level=3]
+      - paragraph: よく使われるSNSとしてX（旧Twitter）があります。インスタグラムとXのユーザー層と利用者数の違いについて説明します。
+      - paragraph: ユーザー層ですが、Xよりもインスタグラムのほうが画像投稿を好む、いわゆる映える写真を好む層が多いです。最近ではどちらも男女ともに利用者が多くいます。
+      - paragraph: 利用者数に関しては、2023年時点ではどちらも6000万人台と拮抗した状態と見られます。
+      - figure:
+            - row "2017年 2018年 2019年 2023年":
+              - columnheader "2017年" [ref=e71]
+              - columnheader "2018年" [ref=e72]
+              - columnheader "2019年" [ref=e73]
+              - columnheader "2023年" [ref=e74]
+            - row "インスタグラム 2000万人 2900万人 3300万人 6600万人":
+              - cell "インスタグラム" [ref=e75]:
+                - strong: インスタグラム
+              - cell "2000万人" [ref=e76]
+              - cell "2900万人" [ref=e77]
+              - cell "3300万人" [ref=e78]
+              - cell "6600万人" [ref=e79]
+            - row "X 4500万人 ※非公表 ※非公表 6700万人":
+              - cell "X" [ref=e80]:
+                - strong: X
+              - cell "4500万人" [ref=e81]
+              - cell "※非公表" [ref=e82]
+              - cell "※非公表" [ref=e83] [nth=1]
+              - cell "6700万人" [ref=e84]
+      - heading "ブログ×インスタグラムの使用例" [ref=e85] [level=3]
+      - paragraph: ブログとインスタグラムを使用している方を紹介します。インスタグラムのプロフィールからブログを見ることができます。
+      - paragraph: ブログの記事の内容が上手にインスタグラムで紹介されているので、とても参考になります！
+      - heading "インスタグラムのアカウント開設〜設定までの手順を解説！" [ref=e86] [level=2]
+      - paragraph: ではさっそく、インスタグラムのアカウント開設方法について説明していきます。
+      - paragraph: ここからはアプリを使ってアカウント開設していきますので、以下バナーからアプリのダウンロードをお願いします。
+      - paragraph: ▼アプリをこちらからダウンロード▼
+      - link "Google Play で手に入れよう" [ref=e87]:
+        - /url: https://play.google.com/store/apps/details?id=com.instagram.android&hl=ja&gl=US
+      - link "App Store で手に入れよう" [ref=e88]:
+        - /url: https://apps.apple.com/us/app/instagram/id389801252?itsct=apps_box&itscg=30200
+      - heading "１．アカウント開設する" [ref=e89] [level=3]
+      - paragraph: まずはアカウントの開設をしていきます。
+        - strong: Facebookアカウントと連携させたインスタグラムアカウントの開設もできますが、プライベートとの区別ができなくなりますので、今回は連携しない方法を紹介します。
+      - text: STEP 1 新しいアカウントを作成する
+        - text: インスタグラムを開いて「
+        - strong: 新しいアカウントを作成
+        - text: 」をタップします。
+      - text: STEP 2 電話番号またはメールアドレスで認証する
+        - text: 今回はメールアドレスで認証することにしました。 まず「
+        - strong: メールアドレスで登録
+        - text: 」をタップします。 次にメールアドレスを入力し「
+        - strong: 次へ
+        - text: 」をタップすると認証コードが送られてきます。
+        - text: 認証コードを入力し、「
+        - strong: 次へ
+        - text: 」をタップします。
+      - text: STEP 3 パスワードを入力する
+        - text: パスワードを入力し、「
+        - strong: 次へ
+        - text: 」を選択します。
+      - text: STEP 4 誕生日を入力する
+      - paragraph: 自分の誕生日を入力します。
+      - text: STEP 5 名前を入力する
+      - paragraph: 名前はプロフィールに表示されるニックネームのことを指します。
+      - paragraph: インスタグラムの検索機能でヒットするので、アカウントに関連するキーワードを盛り込むのがおすすめです。
+      - paragraph: たとえば、キャンプ情報を投稿するアカウントの場合、「〇〇（ニックネーム） 神奈川県でキャンプコミュニティを運営」などの名前を付けるとほかのユーザーに表示されやすくなるでしょう。
+      - text: STEP 6 利用規約とポリシーに同意する
+      - paragraph: 利用規約とポリシーの同意を求められるので、「同意する」をタップします。
+      - text: STEP 7 プロフィールの写真を設定する
+        - text: プロフィールの写真を設定します。これはあとからでも変えられるので必要がない方は「
+        - strong: スキップ
+        - text: 」をタップしてください。 写真を設定したい方は「
+        - strong: 写真を追加
+        - text: 」をタップして写真を選択します。
+      - text: 
+      - strong: 写真を選ぶときのポイント
+          - strong: 統一感を出すために、アカウントの世界観に合った写真を選ぶ
+          - strong: 親近感を持ってもらえるように、顔の入った写真を選ぶ
+          - strong: 顔出しが難しい場合は、発信内容が分かる写真にする
+          - strong: ユーザーに気付いてもらえるように、ほかのSNSと同じ写真にする
+      - paragraph: 写真が設定されるとこの画面になります。 「この写真を投稿としてシェア」にチェックを入れずに「完了」をタップします。
+      - text: STEP 8 ユーザーネームを変更する
+      - paragraph: IDと呼ばれるものです。画像の「tbu
+
+[... 以下省略 ...]

@@ -1,0 +1,51 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/forms/d/1EbkCBqpdUhT_K3OcKGnkCVicdOnPb7BouRMVxQL-tNY/edit
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 🌱3段階アンケートの作成
+**取得日時**: 2026-01-22T14:54:41.806836
+
+---
+
+## コンテンツ
+
+  - button "編集権限をリクエスト" [ref=e1]:
+    - text: 編集権限をリクエスト
+  - heading "3段階プログラム満足度アンケート" [ref=e2] [level=1]
+  - paragraph: SnsClubを生徒の皆様にとって学びやすいを講座にするために 皆様からの率直なフィードバックを頂戴したく思い、 この度、顧客満足度調査を実施しております！
+  - paragraph: ※こちらは匿名ですので、本音でご記入ください
+  - link "Google にログイン" [ref=e3]:
+    - /url: https://accounts.google.com/Login?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSc9iwNpiJ8t_GRhft7RDygDwUSlcZFo-REO4YF94hFKuCCcFw%2Fviewform%3Ffbzx%3D2794152388003523981
+  - text: すると作業内容を保存できます。
+  - button "詳細" [ref=e4]
+    - listitem:
+      - heading "お名前を教えてください。" [ref=e5] [level=3]
+      - text: ※ひらがなフルネームで記入をお願いします
+      - textbox "お名前を教えてください。" [ref=e6]
+    - listitem:
+      - heading "所属クラス名を教えてください。" [ref=e7] [level=3]
+      - text: 例）駒居A組
+      - textbox "所属クラス名を教えてください。" [ref=e8]
+    - listitem:
+      - heading "3段階プログラムで良かったと思う点を教えてください！" [ref=e9] [level=3]
+      - textbox "3段階プログラムで良かったと思う点を教えてください！" [ref=e10]
+    - listitem:
+      - heading "3段階プログラムで改善してほしいと思った点があれば、教えてください！" [ref=e11] [level=3]
+      - textbox "3段階プログラムで改善してほしいと思った点があれば、教えてください！" [ref=e12]
+    - listitem:
+      - heading "その他、SnsClubのサービスについて、ご意見やご要望があれば教えてください！" [ref=e13] [level=3]
+      - textbox "その他、SnsClubのサービスについて、ご意見やご要望があれば教えてください！" [ref=e14]
+  - button "Submit" [ref=e15]: 送信
+  - button "フォームをクリア" [ref=e16]
+  - text: Google フォームでパスワードを送信しないでください。 このフォームは 株式会社Levela 内部で作成されました。
+  - paragraph:
+    - text: このフォームが不審だと思われる場合
+    - link "報告" [ref=e17]:
+      - /url: https://drive.google.com/abuse?id=AKkXjozgy7tFEkGvGeDFDNP9udKuYQ0qsKwZm0-eum3IY_n3xR_OZoBrdyRXUZbsuRCzFxdRF6OVQqG_Yluug_M:0&docurl=https://docs.google.com/forms/d/1EbkCBqpdUhT_K3OcKGnkCVicdOnPb7BouRMVxQL-tNY/viewform?edit_requested%3Dtrue
+  - link "Google フォーム" [ref=e18]:
+    - /url: //www.google.com/forms/about/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms
+    - text: フォーム
+  - button "ヘルプとフィードバック" [ref=e19]
+

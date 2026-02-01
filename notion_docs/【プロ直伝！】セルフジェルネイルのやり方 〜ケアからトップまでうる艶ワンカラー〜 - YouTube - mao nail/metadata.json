@@ -1,0 +1,197 @@
+{
+  "object": "page",
+  "id": "8d88820a-9a76-40e6-8864-41abc406fefe",
+  "created_time": "2023-05-17T18:16:00.000Z",
+  "last_edited_time": "2023-05-17T18:16:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "03fbd0c2-63f4-40cd-85fe-408676ef5f91"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "03fbd0c2-63f4-40cd-85fe-408676ef5f91"
+  },
+  "cover": {
+    "type": "external",
+    "external": {
+      "url": "https://i.ytimg.com/vi/pRPZXE2la28/hqdefault.jpg"
+    }
+  },
+  "icon": {
+    "type": "external",
+    "external": {
+      "url": "https://yt3.ggpht.com/rKNzCItmWpyyzExVJAINRH9rTulvNP-k41iv6ZH4ddYrS70pXt55uz4rcRFRT93hEQk0EWYOOg=s88-c-k-c0x00ffffff-no-rj"
+    }
+  },
+  "parent": {
+    "type": "data_source_id",
+    "data_source_id": "e3bdc6e9-2b52-4366-b433-56e77317bb94",
+    "database_id": "c61d77b9-b0e3-4554-bae5-4cebc70a6c9d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "is_locked": false,
+  "properties": {
+    "お気に入り": {
+      "id": "%3B%3CwS",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "順位": {
+      "id": "B%7DaY",
+      "type": "select",
+      "select": {
+        "id": "ac80fc50-31f2-49f0-b3f5-2d62573c9cef",
+        "name": "1位",
+        "color": "yellow"
+      }
+    },
+    "再生回数": {
+      "id": "N%5CnH",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "7.5万 回視聴",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "7.5万 回視聴",
+          "href": null
+        }
+      ]
+    },
+    "フォロワー数": {
+      "id": "U%5DSC",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "チャンネル登録者数 3650人",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "チャンネル登録者数 3650人",
+          "href": null
+        }
+      ]
+    },
+    "チャンネル名": {
+      "id": "X%7B%5E%5B",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "mao nail",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "mao nail",
+          "href": null
+        }
+      ]
+    },
+    "動画URL": {
+      "id": "%5E%3BjT",
+      "type": "url",
+      "url": "https://www.youtube.com/watch?v=pRPZXE2la28&t=2s"
+    },
+    "25文字制限": {
+      "id": "_yPD",
+      "type": "formula",
+      "formula": {
+        "type": "string",
+        "string": "【プロ直伝！】セルフジェルネイルのやり方　〜ケアか"
+      }
+    },
+    "ジャンル": {
+      "id": "qJgQ",
+      "type": "select",
+      "select": {
+        "id": "hiU:",
+        "name": "美容",
+        "color": "default"
+      }
+    },
+    "作成者": {
+      "id": "zVpd",
+      "type": "created_by",
+      "created_by": {
+        "object": "user",
+        "id": "03fbd0c2-63f4-40cd-85fe-408676ef5f91"
+      }
+    },
+    "コメント数 (件)": {
+      "id": "~SuY",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "20",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "20",
+          "href": null
+        }
+      ]
+    },
+    "タイトル": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "【プロ直伝！】セルフジェルネイルのやり方　〜ケアからトップまでうる艶ワンカラー〜 - YouTube - mao nail",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "【プロ直伝！】セルフジェルネイルのやり方　〜ケアからトップまでうる艶ワンカラー〜 - YouTube - mao nail",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/YouTube-mao-nail-8d88820a9a7640e6886441abc406fefe",
+  "public_url": "https://shared-beak-b34.notion.site/YouTube-mao-nail-8d88820a9a7640e6886441abc406fefe"
+}

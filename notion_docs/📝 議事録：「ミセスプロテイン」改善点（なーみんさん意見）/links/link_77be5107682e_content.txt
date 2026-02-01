@@ -1,0 +1,113 @@
+# リンク先コンテンツ
+
+**URL**: https://koredake.co.jp/?srsltid=AfmBOorUYB72WEHEvK3X8m-_jImzJUb7CWU5A2eTdcxRW3WkWrB417AI
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 📝 議事録：「ミセスプロテイン」改善点（なーみんさん意見）
+**取得日時**: 2026-01-22T15:32:41.934777
+
+---
+
+## コンテンツ
+
+  - link "️️新商品「スタイルコーヒー」半額キャンペーン☕️" [ref=e1]:
+    - /url: /lp?u=cf_03_hp_rls
+  - banner:
+    - link "KOREDAKE" [ref=e2]:
+      - /url: /
+    - link [ref=e3]:
+      - /url: /shop/customers/sign_in
+    - link [ref=e4] [nth=1]:
+      - /url: /shop/cart
+  - navigation:
+      - listitem:
+        - link "PRODUCTS" [ref=e5]:
+          - /url: /shop/products
+      - listitem:
+        - link "NUTRITION" [ref=e6]:
+          - /url: /shop/pages/nutrients
+      - listitem:
+        - link "INGREDIENTS" [ref=e7]:
+          - /url: /shop/pages/ingredients
+      - listitem:
+        - link "FAQ" [ref=e8]:
+          - /url: /shop/faq
+  - text: SCROLL
+  - paragraph: わ た し は 、
+  - paragraph: わ た し ら し く 。
+  - link "Shop Now" [ref=e9]:
+    - /url: /shop/products
+  - heading "毎日の健康も わたしらしさも、 KOREDAKE" [ref=e10] [level=2]
+  - paragraph: 変化が激しく、SNSなど情報あふれる現代において、わたしたちは常に誰かと比べて、振り回されがち。けど、本当に大切なのは自分らしくいること。自分を知ること。自分を大切にして、自分を好きでいること。わたしたちは、身体も違えば、悩んでることも違う。だから、KOREDAKE はひとりひとりに寄り添いながら、笑顔と自信にあふれた世界をつくっていきたい。健康にとどまらず、その先の自分らしさもサポートしていきます。 今より明るく、ポジティブな人生へ。
+  - heading "1食ですべての栄養が摂れる、 完全栄養プロテイン" [ref=e11] [level=3]
+    - text: KOREDAKE は女性が1食に必要な33種類の栄養素をすべて含んだ、完全栄養プロテインです
+    - superscript: ※
+    - text: 。日々の食事で不足しがちな、たんぱく質、食物繊維、26種のビタミン&ミネラルなどの栄養素を贅沢に配合しております。毎日必要な栄養を補うことで、健康的なカラダづくりをサポートします。
+  - heading "PRODUCTS KOREDAKE" [ref=e12] [level=3]
+  - paragraph: KOREDAKE は大袋の「パウダー」と、個包装でシェーカーなしで楽しめる「シェイクパック」をご用意しております。
+  - link "詳細はこちら" [ref=e13]:
+    - /url: /shop/products
+  - text: NUTRIENTS
+  - heading "KOREDAKEの栄養素" [ref=e14] [level=2]
+  - text: 女性が1食に必要な33種類の栄養素をたっぷり配合。 健康的なキレイを目指す人のために、管理栄養士監修のもと理想的なバランスで1食にまとめました。 0 1食分 100 % 200 % 300 % 400 % 500 % 137% 22.9g たんぱく質 100% 0.5g n | 3系脂肪酸 19% 0.5g n | 6系脂肪酸 17% 16.8g 炭水化物 157% 9.4g 食物繊維 33% 282.5mg ナトリウム 191% 5.1mg 亜鉛 105% 700.0mg カリウム 255% 551.5mg カルシウム 455% 15.2㎍ クロム 273% 22.8㎍ セレン 152% 4.3mg 鉄 347% 0.8mg 銅 187% 174.7mg マグネシウム 159% 1.9mg マンガン 150% 12.5㎍ モリブデン 175% 75.9㎍ ヨウ素 106% 282.8mg リン 103% 3.9mg ナイアシン 341% 5.7mg パントテン酸 114% 19.0㎍ ビオチン 251% 564.0㎍ ビタミンA 529% 1.9mg ビタミンB1 343% 1.4mg ビタミンB2 357% 1.3mg ビタミンB6 113% 0.9㎍ ビタミンB12 267% 89.1mg ビタミンC 169% 4.8㎍ ビタミンD 467% 8.2mg ビタミンE 100% 50.0㎍ ビタミンK 250% 200.0㎍ 葉酸
+  - paragraph: ※数値は「アーモンド」フレーバー ※推定値
+  - paragraph: ※厚生労働省「日本人の食事摂取基準（2020年版）/18~49歳女性・1日の1/3量」に占める割合です。
+  - link "詳細はこちら" [ref=e15] [nth=1]:
+    - /url: /shop/pages/nutrients
+  - heading "INGREDIENTS KOREDAKEの原材料" [ref=e16] [level=3]
+  - paragraph: 毎日安心して飲んでいただきたいからこそ、自信を持ってオススメできる良質な原材料を、こだわりを持って厳選しました。
+  - link "詳細はこちら" [ref=e17] [nth=2]:
+    - /url: /shop/pages/ingredients
+  - heading "MESSAGE メッセージ" [ref=e18] [level=3]
+  - paragraph: 自分らしく生きられるウェルネスプロテインを目指して
+  - paragraph: 『自分と向き合うきっかけをつくり、ウェルネスプロテインで自分らしく生きられる世界をつくりたい』 という想いから、KOREDAKE の開発はスタートしました。 ですが、開発への道のりはそう簡単なものではなく、失敗の連続でした。味のおいしさと栄養バランスとを両立することは、非常に難しかったのです。微小単位で配合量の調整を繰り返しながら、試行錯誤の中で、味と栄養の完全なバランスを追求し続けました。 構想から約1年以上。ようやく、こだわり続けた KOREDAKE の商品化に辿り着くことができました。完全な栄養バランスと、おいしさにこだわった、今までにないプロテインです。毎日飲んでほしい、そういった願いから、自然な甘さで飲みやすい味に仕上げています。KOREDAKE チームは、ファンの皆さんとより質の高い、満足していただけるものをこれから一緒に創っていくことに価値を置いています。これで完成ではありません。 ウェルネスプロテインという小さなきっかけですが、一人でも多くの方の人生が笑顔で豊かなものになったらと、心から強く願っています。多くの方々に支えてもらっていることに感謝し、私達チームはこれからも進化し続けていきます。
+  - text: "KOREDAKE代表 鈴木友樹 INSTAGRAM インスタグラム @koredake_official #koredake"
+  - link "もっと見る" [ref=e19]:
+    - /url: https://www.instagram.com/koredake_official/
+  - link "「スタイルコーヒー」販売記念半額キャンペーン" [ref=e20]:
+    - /url: /lp?u=cf_03_hp_rls
+  - contentinfo:
+    - link "KOREDAKE st LINE@" [ref=e21]:
+      - /url: https://liff.line.me/1657174282-4bqwOwxX?cs=site
+    - paragraph: 「ご感想」や「おすすめの飲み方」「お困りごと」など 公式 LINE からなんでもお気軽にお問い合わせください
+    - paragraph: ※ 厚生労働省「日本人の食事摂取基準（2020年版）」より18~49歳女性の推奨量・目安量・目標量をもとに、熱量・n-6系脂肪酸・炭水化物・ナトリウムを除き、すべての栄養素で1日分の基準値の3分の1以上を含む
+    - link "KOREDAKE" [ref=e22] [nth=1]:
+      - /url: /
+      - listitem:
+        - link "PRODUCTS" [ref=e23] [nth=1]:
+          - /url: /shop/products
+      - listitem:
+        - link "NUTRITION" [ref=e24] [nth=1]:
+          - /url: /shop/pages/nutrients
+      - listitem:
+        - link "INGREDIENTS" [ref=e25] [nth=1]:
+          - /url: /shop/pages/ingredients
+      - listitem:
+        - link "FAQ" [ref=e26] [nth=1]:
+          - /url: /shop/faq
+      - listitem:
+        - link "Instagram" [ref=e27]:
+          - /url: https://www.instagram.com/koredake_official/
+      - listitem:
+        - link "x" [ref=e28]:
+          - /url: https://x.com/koredakejp
+      - listitem:
+        - link "Line" [ref=e29]:
+          - /url: https://lin.ee/YgwpPMK
+    - link "Certified B Corporation" [ref=e30]:
+      - /url: https://www.bcorporation.net/en-us/find-a-b-corp/company/mepple-inc/
+      - listitem:
+        - link "お問い合わせ" [ref=e31]:
+          - /url: /shop/contact/draft
+      - listitem:
+        - link "プライバシーポリシー" [ref=e32]:
+          - /url: /shop/privacy
+      - listitem:
+        - link "利用規約" [ref=e33]:
+          - /url: /shop/customer_term
+      - listitem:
+        - link "特定商取引法に基づく表示" [ref=e34]:
+          - /url: /shop/law_info
+    - paragraph: ©2025 KOREDAKE
+

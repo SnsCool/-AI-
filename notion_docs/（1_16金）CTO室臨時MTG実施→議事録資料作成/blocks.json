@@ -1,0 +1,72 @@
+[
+  {
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "plain_text": "CTO室臨時MTG"
+        }
+      ]
+    }
+  },
+  {
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "plain_text": "1月16日（金）に実施したCTO室臨時MTGの議事録"
+        }
+      ]
+    }
+  },
+  {
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "plain_text": "議題"
+        }
+      ]
+    }
+  },
+  {
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "plain_text": "技術的課題の共有"
+        }
+      ]
+    }
+  },
+  {
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "plain_text": "今後の開発方針"
+        }
+      ]
+    }
+  },
+  {
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "plain_text": "決定事項"
+        }
+      ]
+    }
+  },
+  {
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "plain_text": "議事録資料を別途作成"
+        }
+      ]
+    }
+  }
+]

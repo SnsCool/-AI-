@@ -1,0 +1,7 @@
+# 懇親会
+
+## Properties
+- title: 懇親会
+
+## Content
+(コンテンツなし - ブロック未取得)

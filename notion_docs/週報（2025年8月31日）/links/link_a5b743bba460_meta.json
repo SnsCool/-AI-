@@ -1,0 +1,8 @@
+{
+  "url": "https://www.instagram.com/recipe",
+  "type": "video",
+  "processed_at": "2026-01-23T05:49:58.538596",
+  "content": "提示されたURL `https://www.instagram.com/recipe` から分かる情報は以下の通りです。\n\n*   **プラットフォーム (Platform):**\n    *   URLのドメイン名が `instagram.com` であることから、このURLが指すプラットフォームは**Instagram（インスタグラム）**です。\n\n*   **リソースの種類 (Type of Resource):**\n    *   このURLは、特定の動画（投稿）を直接指しているわけではありません。\n    *   パスが `/recipe` となっていることから、これは**`recipe` というユーザー名を持つInstagramアカウントのプロフィールページ**へのリンクです。\n\n*   **ID (Identifier):**\n    *   このURLから直接読み取れる「ID」に相当するのは、アカウントの**ユーザー名（Username）**です。この場合、それは `recipe` です。\n    *   もし特定の動画（投稿）であれば、通常 `https://www.instagram.com/p/UNIQUE_POST_ID/` や `https://www.instagram.com/reel/UNIQUE_REEL_ID/` のような形式になり、`UNIQUE_POST_ID` や `UNIQUE_REEL_ID` がその動画の固有のIDとなります。しかし、今回提供されたURLにはそのような形式のIDは含まれていません。\n\n*   **動画コンテンツについて (Regarding Video Content):**\n    *   このURL自体は特定の動画を指していませんが、`recipe` アカウントのプロフィールページにアクセスすることで、そのアカウントが投稿している多くの動画コンテンツ（フィード投稿、リール、ストーリーズなど）を閲覧することができます。アカウントのユーザー名が「recipe（レシピ）」であることから、料理に関する動画が多く投稿されている可能性が高いと推測できます。\n\n**まとめ:**\n\nこのURL `https://www.instagram.com/recipe` は、Instagramプラットフォーム上の「recipe」というユーザー名のアカウントのプロフィールページを指しています。特定の動画コンテンツへの直接リンクではありませんが、このプロフィールページから当該アカウントが投稿した様々な動画コンテンツにアクセスできます。URLから直接分かるIDは、アカウントのユーザー名「recipe」です。",
+  "title": "",
+  "error": null
+}

@@ -1,0 +1,9 @@
+# 問題クレーム一覧
+
+## Properties
+
+title: 問題クレーム一覧
+
+## Content
+
+[Database: New database]

@@ -1,0 +1,58 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/spreadsheets/d/16Xs6j7GUtIGA8uoBERoRVuJxerMA9GCJ_bCRlvxn-JE/edit?usp=drivesdk
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 👤まな進捗管理
+**取得日時**: 2026-01-22T12:58:31.880137
+
+---
+
+## コンテンツ
+
+このコンテンツは、Googleスプレッドシートのインターフェースとその機能に関するものです。以下に構造化された要約を示します。
+
+**1. メニューバー:**
+
+*   **リンク:** "スプレッドシート ホーム" (URL: [https://docs.google.com/spreadsheets/?usp=sheets_web](https://docs.google.com/spreadsheets/?usp=sheets_web))
+*   **テキスト:** "みお台本"
+*   **ボタン:**
+    *   "ドキュメントのステータス: ドライブに保存しました。"
+    *   "すべてのコメントを表示"
+    *   "共有します。リンクを知っている全員。 リンクを知っている全員がアクセスできます。ログインは不要です。" (無効)
+    *   "クイック共有操作" (無効)
+*   **リンク:** "ログイン" (URL: [https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/16Xs6j7GUtIGA8uoBERoRVuJxerMA9GCJ_bCRlvxn-JE/edit?usp%3Ddrivesdk&followup=https://docs.google.com/spreadsheets/d/16Xs6j7GUtIGA8uoBERoRVuJxerMA9GCJ_bCRlvxn-JE/edit?usp%3Ddrivesdk&ltmpl=sheets&ec=GAZAmwI](https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/16Xs6j7GUtIGA8uoBERoRVuJxerMA9GCJ_bCRlvxn-JE/edit?usp%3Ddrivesdk&followup=https://docs.google.com/spreadsheets/d/16Xs6j7GUtIGA8uoBERoRVuJxerMA9GCJ_bCRlvxn-JE/edit?usp%3Ddrivesdk&ltmpl=sheets&ec=GAZAmwI))
+    *   **メニュー項目:** "ファイル", "編集", "表示", "挿入", "表示形式", "データ", "ツール", "拡張機能", "ヘルプ"
+
+**2. ツールバー:**
+
+*   **メニュー検索:** メニューを検索するためのコンボボックス (option+/)
+*   **メイン:**
+    *   基本的な操作ボタン: "元に戻す", "やり直し", "印刷", "書式を貼り付け"
+    *   **ズーム:** コンボボックス (100% が選択済み)
+    *   **書式設定:** 通貨 (¥), パーセント ("%"), 小数点以下の桁数増減, 表示形式の詳細設定
+    *   **フォント:** リストボックス (Noto Sans が選択済み), フォントサイズ増減, フォントサイズコンボボックス (16 が選択済み), 太字 (選択済み), 斜体, 取り消し線, テキストの色, 塗りつぶしの色, 枠線, セルを結合 (無効), 結合タイプを選択 (無効), 水平方向の配置, 垂直方向の配置, テキストを折り返す, テキストの回転, "もっと見る"
+*   **モードと表示:**
+    *   "メニューを非表示 (Ctrl+Shift+F)" ボタン
+
+**3. その他の要素:**
+
+*   **名前ボックス:** A1 と表示されている名前ボックスのメニューボタン
+*   **スプレッドシートの編集領域:** テキストボックス
+*   **行の追加:** スプレッドシートの最下部に1000行を追加する機能
+*   **シートタブバー:** "シートを追加", "すべてのシート", "みお台本", "11〜20", "1〜10"などのシートタブボタン
+*   **スクリーンリーダー:** "スクリーン リーダーのサポートを有効にする" (URL: "#") リンク。キーボードショートカットの情報も表示
+
+**重要なポイント:**
+
+*   ドキュメントはドライブに保存済み。
+*   共有設定は「リンクを知っている全員」に設定されているが、共有ボタンは無効。
+*   フォントはNoto Sans、フォントサイズは16がデフォルトで選択されている。
+*   太字が選択されている。
+*   セル結合機能は無効。
+*   スプレッドシートの下部に行を追加できる。
+*   スクリーンリーダーサポートへのアクセス方法が記載。
+
+この要約は、スプレッドシートの主要なインターフェース要素と機能、およびドキュメントの現在の状態を把握するのに役立ちます。
+

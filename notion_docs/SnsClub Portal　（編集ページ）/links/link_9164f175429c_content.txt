@@ -1,0 +1,25 @@
+# リンク先コンテンツ
+
+**URL**: https://manychat.com/
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: SnsClub Portal　（編集ページ）
+**取得日時**: 2026-01-22T16:28:33.853615
+
+---
+
+## コンテンツ
+
+  - main:
+    - heading "Icon for manychat.commanychat.com" [ref=e1] [level=1]:
+      - text: manychat.com
+    - paragraph: Verify you are human by completing the action below.
+    - text: manychat.com needs to review the security of your connection before proceeding.
+  - contentinfo:
+    - text: "Ray ID:"
+    - code: 9c1d55d4bc152934
+    - text: Performance & security by
+    - link "Cloudflare" [ref=e2]:
+      - /url: https://www.cloudflare.com?utm_source=challenge&utm_campaign=m
+

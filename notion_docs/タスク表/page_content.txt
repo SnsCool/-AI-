@@ -1,0 +1,75 @@
+# タスク表
+
+Notion URL: 
+同期日時: 2026-01-21T20:11:12.638857
+
+---
+
+## ◼︎ 最優先タスク（期限：本日中にアクションプラン提出）
+
+[x] アクションプランの具体化と提出（本日中）
+
+[x] ① 基本ツールの使い方に関する教材作成（次回定例：16日まで）
+
+プロンプトと出力例：
+
+https://docs.google.com/document/d/1Hk5oIKiOrG81GrkWl1VSlv7p8E6zIDE_sUHPbdjCQDk/edit?tab=t.0#heading=h.4olily5kx59w
+
+[x] ② プロンプトの作り方に関する教材作成（次回定例：16日まで）
+
+[ ] 「プロンプト」での動き方などのマニュアル作成⚪︎
+
+## ◼︎ 順次対応タスク
+
+### 【市場調査・案件分析】（次回定例：16日までに着手・完了推奨）
+
+[x] クラウドソーシングサイト（クラウドワークス・ランサーズ等）の案件洗い出し
+
+[x] 案件分析と、優先開発するプロンプト領域の決定
+
+[x] 案件を受けやすいプロフィールの作成
+
+### 【コアコンテンツ（プロンプト）開発】
+
+[x] プロンプトの初期開発・実績構築
+
+https://docs.google.com/spreadsheets/d/18GVv2s8IVNGUhtVUBmFg38z-7_SuhWVVdzTNEnHUMdk/edit?gid=1213846776#gid=1213846776
+
+[x] メタプロンプトの開発
+
+https://docs.google.com/spreadsheets/d/1BdQFLGkJxXuzhf_Kx2UQyk8uQ8Cb2wvPc9kGqWj_p8M/edit?gid=1700918169#gid=1700918169
+
+[ ] プロンプトの評価・買取制度の構築
+
+### 【事業モデルの具体化と展開】
+
+[ ] モニター制度の実施⚪︎
+
+[ ] プロセスエコノミーの実践
+
+[ ] プラットフォーム化の検討⚪︎
+
+[ ] 事業計画の策定⚪︎
+
+[ ] 集客導線の策定⚪︎
+
+[ ] 『Prompt』ポータル作成⚪︎
+
+[ ] Lステップ構築
+
+[ ] Discord作成
+
+[ ] 契約書関連作成
+
+[ ] 決済システムの書類依頼⚪︎
+
+https://docs.google.com/spreadsheets/d/1CTtFrzpaKpergCFpwmULYv2yOKpIg78N/edit?gid=510995219#gid=510995219
+
+[ ] ローンチ方法検討⚪︎
+
+### 【使えるプロンプトの購入検討】
+
+[x] 案件納品できるプロンプト調査⚪︎
+
+https://docs.google.com/spreadsheets/d/1VrQ0ZwEanmRw6uCqO_3uvgCFF9CLezA7TwQbVyOttGw/edit?gid=0#gid=0
+

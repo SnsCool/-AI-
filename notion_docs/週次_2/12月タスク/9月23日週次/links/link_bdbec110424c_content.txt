@@ -1,0 +1,270 @@
+# リンク先コンテンツ
+
+**URL**: https://snsunyo.com/lp?utm_source=google_cpc&utm_medium=google_cpc&utm_campaign=cp01_lp&utm_term=インスタ
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 9月23日週次
+**取得日時**: 2026-01-22T15:01:56.350391
+
+---
+
+## コンテンツ
+
+  - banner:
+    - link "SNS運用ドットコム" [ref=e1]:
+      - /url: https://snsunyo.com/lp?utm_source=google_cpc&utm_medium=google_cpc&utm_campaign=cp01_lp&utm_term=%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF
+    - text: 株式会社ビジョン 東証プライム上場（証券コード：9416）
+    - link "24時間いつでもダウンロードできます 1分でわかる サービス資料" [ref=e2]:
+      - /url: https://snsunyo.com/lp/download?hsLang=ja&utm_source=google_cpc&utm_medium=google_cpc&utm_campaign=cp01_lp&utm_term=%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF
+    - navigation:
+      - navigation "Navigation Menu" [ref=e3]:
+          - menuitem "選ばれる理由" [ref=e4]
+          - menuitem "導入事例" [ref=e5]
+          - menuitem "料金プラン" [ref=e6]
+          - menuitem "導入の流れ" [ref=e7]
+          - menuitem "よくある質問" [ref=e8]
+  - main:
+    - heading "店舗運営をしている方、 EC販売をしている方、 フリーランスの方に" [ref=e9] [level=1]:
+    - paragraph: 最短5日で インスタ集客
+    - paragraph: お店のSNS運用に時間をとられていませんか？ SNS運用は実績のあるプロに任せて、効率的にアピール・集客！ SNS集客ならSNS運用どっとコムにお任せください。
+    - paragraph:
+      - link "badge" [ref=e10]:
+        - /url: https://snsunyo.com/lp?utm_source=google_cpc&utm_medium=google_cpc&utm_campaign=cp01_lp&utm_term=%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF#trial_plan
+    - link "お急ぎの方はお電話でも受付中 0120-389-019 ※平日10:00-19:00" [ref=e11]:
+      - /url: tel:0120-389-019
+    - link "専任担当と相談したい方 はこちら お試し プランお申込・相談をする" [ref=e12]:
+      - /url: https://snsunyo.com/lp?utm_source=google_cpc&utm_medium=google_cpc&utm_campaign=cp01_lp&utm_term=%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF#Contact
+    - paragraph: やったほうがいいのはわかってるけど・・・
+    - heading "お店のSNS運用 先延ばしに してませんか？" [ref=e13] [level=2]: お店のSNS運用 先延ばしにしてませんか？
+    - heading "データを見てわかるようにSNSでの 宣伝・アピールは大変効果的な方法です" [ref=e14] [level=2]
+    - paragraph: あらゆる世代がスマートフォンでのインターネットに多くの時間を費やし、 SNSからお店に行くキッカケとなった方、商品を購入するキッカケとなった方が50%を超えています。
+      - text: SNSの情報をきっかけに初めて利用する
+      - strong: お店に足を運んだこと
+      - text: はあるか？
+      - text: 商品購入前にSNSで
+      - strong: 口コミや投稿をチェック
+      - text: したことはあるか？
+    - paragraph: 引用元：アライドアーキテクツ調べ
+    - paragraph: それなら、プロにまかせてみませんか？
+    - paragraph: WEBやSNS経由の月間売上数億円以上！
+    - heading "即戦力のマーケターが あなたのお店の SNS集客をサポート！" [ref=e15] [level=2]: 即戦力のマーケターが あなたのお店のSNS集客をサポート！
+    - paragraph: 累計利用者1,800万人！グローバルWiFiなどを運営する 現役のマーケティングチームを必要な分だけご利用いただけます。
+    - link "お気軽にお電話でもご相談ください お試しプランお申込・相談をする" [ref=e16]:
+      - /url: https://snsunyo.com/lp?utm_source=google_cpc&utm_medium=google_cpc&utm_campaign=cp01_lp&utm_term=%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF#Contact
+    - link "24時間いつでも「申込直後」に資料のURLをご案内 1分でわかる 資料ダウンロードはこちら" [ref=e17]:
+      - /url: https://snsunyo.com/lp/download?hsLang=ja&utm_source=google_cpc&utm_medium=google_cpc&utm_campaign=cp01_lp&utm_term=%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF
+    - paragraph: お電話でのご相談・お申込は
+    - text: 0120-389-019 10:00~19:00（土日祝を除く）
+    - heading "SNS運用ドットコムが選ばれる理由" [ref=e18] [level=2]
+    - paragraph: メリット 01
+    - paragraph: 発信したい写真を撮って送るだけ！
+    - paragraph: 写真を撮って弊社にお送りいただければお客様の要望に沿って文字入れや画像加工を弊社スタッフが作業します。 フィード投稿やストーリーズの投稿、ハッシュタグの選定まで集客に必要な作業を代行いたします。
+    - paragraph: メリット 02
+    - paragraph: 来店圏内の 狙ったターゲットに直接発信できる
+    - paragraph: フォロワーが少なくても、バズらなくても大丈夫！ 運用を開始した日から、住んでいる場所や性別年齢、興味関心や子供がいる方などお客様のビジネスにあったターゲットを絞ってお店の投稿を多くの方に発信する事が可能です。
+    - paragraph: メリット 03
+    - paragraph: スマホでアピール！ かんたん集客
+    - paragraph: 今はパソコンやテレビを持ってない方も増えてきている事からホームページ代わりにSNSを始めるお店が増えています。 あなたのお客様にアカウントをフォローしてもらう事で、イベントのお知らせや集客などもかんたんに発信する事が出来ます。
+    - heading "さまざまな業種で ご利用いただけます" [ref=e19] [level=2]: さまざまな業種でご利用いただけます
+    - paragraph: ECサイトや店舗で個人向けのサービスや商品を販売している方であれば成功率高くすぐにお取り組み開始可能です。
+    - paragraph: 整体・整骨院
+    - paragraph: 美容室・サロン
+    - paragraph: 教室
+    - paragraph: 出張サービス
+    - paragraph: クリニック
+    - paragraph: 住宅・不動産
+    - paragraph: ホテル・旅館
+    - paragraph: 小売店
+    - paragraph: 飲食店
+    - paragraph: レジャー施設
+    - paragraph: その他、多数の業種に対応していますのでお気軽にご相談ください
+    - heading "導入事例" [ref=e20] [level=2]
+    - region:
+      - button "Previous slide" [ref=e21] [disabled]:
+      - button "Next slide" [ref=e22]:
+        - text: 小売店
+        - paragraph: 崔(チェ)おばさんのキムチ
+        - paragraph: ECサイトの売り上げ増加のご提案
+        - text: SNSを自社運用していたが有効な打ち手が見つからず困っていた
+        - term: 課題
+        - definition: フォロワー100名程度からアカウントを成長させることが出来なくなっていた
+        - term: 解決策
+        - definition: 課題について現状分析を行った上で複数の打ち手を提示していただいたため、ネクストアクションが明確になった
+        - term: 成果
+        - definition: 案件依頼前のフォロワー数と比較して10倍程度までSNSアカウントを成長させることができ、ECサイトの売り上げ向上に寄与している
+        - text: 教室
+        - paragraph: Sports Association NEXUS
+        - paragraph: 新規オープンする体操教室の集客サポートのご提案
+        - text: ポスティング以外に子供を持つ親に向けた集客をSNSを使って出来ないか考えていた
+        - term: 課題
+        - definition: まだ従業員もいない中SNS運用に時間もかけられずなかなか手を付けられずにいた
+        - term: 解決策
+        - definition: 投稿などの作業を全部弊社で代行しSNSを使って子どもを持つ親御さんへのPRをご提案
+        - term: 成果
+        - definition: SNSを通して認知は広がり徐々に体験のお申込みや入会の方が増えてきた
+        - text: 小売店
+        - paragraph: 吟海堂
+        - paragraph: SNSを活用した店舗集客のご提案
+        - text: SNSを周りからやった方がいいと言われてたが時間も取れなければ、やり方もわからなかった
+        - term: 課題
+        - definition: インスタ運用方法がよくわからずやりたいけどできなかった。写真や文字などをどうすれば良いのかわからなかった
+        - term: 解決策
+        - definition: 弊社に写真を送るだけで画像の加工対応、キャプションの作成などインスタグラムの運用をまるごとサポートするプランをご提案
+        - term: 成果
+        - definition: インスタ見てきましたという方が増えてきており、今まで来ていない客層が来ていただけるようになりました
+      - tablist "Select a slide to show":
+        - tab "Go to slide 1" [ref=e23] [selected]
+        - tab "Go to slide 2" [ref=e24]
+        - tab "Go to slide 3" [ref=e25]
+        - tab "Go to slide 4" [ref=e26]
+    - heading "お試しプラン" [ref=e27] [level=2]
+    - heading "お試しプラン インフルエンサー マッチングツールとは？" [ref=e28] [level=3]:
+      - text: インフルエンサーマッチングツールとは？
+    - paragraph: 条件にあったインフルエンサーを全国数万人の中から探すことのできるツール。 自社サービスや商品をプロモーションを依頼以外にインタビュー、コラボレーション、アンバサダー依頼 アンケートの協力など様々な相談を行うことができます。
+    - heading "料金プラン" [ref=e29] [level=2]
+    - text: お試しプラン（最初の1ヵ月間） （お試しプラン終了後）2ヵ月目～
+        - row "おためしプラン 1番おすすめ 新おためしプラン おためしプラン+":
+          - columnheader "おためしプラン" [ref=e30]
+          - columnheader "1番おすすめ 新おためしプラン" [ref=e31]
+          - columnheader "おためしプラン+" [ref=e32]
+        - row "月額料金 34,800 円/月 54,800 円/月 84,800 円/月":
+          - rowheader "月額料金" [ref=e33]
+          - cell "34,800 円/月" [ref=e34]
+          - cell "54,800 円/月" [ref=e35]
+          - cell "84,800 円/月" [ref=e36]
+        - row "投稿回数 4回/月 4回/月 8回/月":
+          - rowheader "投稿回数" [ref=e37]
+          - cell "4回/月" [ref=e38]
+          - cell "4回/月" [ref=e39] [nth=1]
+          - cell "8回/月" [ref=e40]
+        - row "投稿枚数 文字入れ加工1枚 ＋写真1枚 文字入れ加工3枚 ＋写真2枚 文字入れ加工3枚 ＋写真2枚":
+          - rowheader "投稿枚数" [ref=e41]
+          - cell "文字入れ加工1枚 ＋写真1枚" [ref=e42]
+          - cell "文字入れ加工3枚 ＋写真2枚" [ref=e43]
+          - cell "文字入れ加工3枚 ＋写真2枚" [ref=e44] [nth=1]
+        - row "ストーリーズ (投稿のお知らせ) ○ ○ ○":
+          - rowheader "ストーリーズ (投稿のお知らせ)" [ref=e45]
+          - cell "○" [ref=e46]
+          - cell "○" [ref=e47] [nth=1]
+          - cell "○" [ref=e48] [nth=2]
+        - row "リール対応 (最大15秒/5カット) ○ 2投稿分で1回 最大15秒/５カット ○ 2投稿分で1回 最大15秒~30秒/10カット ○ 2投稿分で1回 最大15秒~30秒/10カット":
+          - rowheader "リール対応 (最大15秒/5カット)" [ref=e49]
+          - cell "○ 2投稿分で1回 最大15秒/５カット" [ref=e50]:
+            - text: ○
+            - paragraph: 2投稿分で1回
+            - paragraph: 最大15秒/５カット
+          - cell "○ 2投稿分で1回 最大15秒~30秒/10カット" [ref=e51]:
+            - text: ○
+            - paragraph: 2投稿分で1回
+            - paragraph: 最大15秒~30秒/10カット
+          - cell "○ 2投稿分で1回 最大15秒~30秒/10カット" [ref=e52] [nth=1]:
+            - text: ○
+            - paragraph: 2投稿分で1回
+            - paragraph: 最大15秒~30秒/10カット
+        - row "広告オプション 広告費 5,000円込み （プラン内に 広告費及び運用費込み） 広告費 10,000円込み （プラン内に 広告費及び運用費込み） 広告費 10,000円込み （プラン内に 広告費及び運用費込み）":
+          - rowheader "広告オプション" [ref=e53]
+          - cell "広告費 5,000円込み （プラン内に 広告費及び運用費込み）" [ref=e54]:
+            - paragraph: 広告費5,000円込み
+            - paragraph: （プラン内に広告費及び運用費込み）
+          - cell "広告費 10,000円込み （プラン内に 広告費及び運用費込み）" [ref=e55]:
+            - paragraph: 広告費10,000円込み
+            - paragraph: （プラン内に広告費及び運用費込み）
+          - cell "広告費 10,000円込み （プラン内に 広告費及び運用費込み）" [ref=e56] [nth=1]:
+            - paragraph: 広告費10,000円込み
+            - paragraph: （プラン内に広告費及び運用費込み）
+        - row "インフルエンサー マッチング (1ヶ月5名まで採用可能) ○ ○ ○":
+          - rowheader "インフルエンサー マッチング (1ヶ月5名まで採用可能)" [ref=e57]
+          - cell "○" [ref=e58] [nth=3]
+          - cell "○" [ref=e59] [nth=4]
+          - cell "○" [ref=e60] [nth=5]
+        - row "契約期間の縛り ・解約金 なし なし なし":
+          - rowheader "契約期間の縛り ・解約金" [ref=e61]
+          - cell "なし" [ref=e62]
+          - cell "なし" [ref=e63] [nth=1]
+          - cell "なし" [ref=e64] [nth=2]
+    - text: スクロールできます
+      - listitem: ※ お試し期間中、サービスにご納得いただけなければ、お試し期間中に申し出いただけますと解約可能です。
+      - listitem: ※ お試しプランは初めてのお客様における最初の１ヶ月間に限り、お試しプランいずれか１つのみ適用となります。
+    - link "お気軽にお電話でもご相談ください お試しプランお申込・相談をする" [ref=e65] [nth=1]:
+      - /url: https://snsunyo.com/lp?utm_source=google_cpc&utm_medium=google_cpc&utm_campaign=cp01_lp&utm_term=%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF#Contact
+    - link "24時間いつでも「申込直後」に資料のURLをご案内 1分でわかる 資料ダウンロードはこちら" [ref=e66] [nth=1]:
+      - /url: https://snsunyo.com/lp/download?hsLang=ja&utm_source=google_cpc&utm_medium=google_cpc&utm_campaign=cp01_lp&utm_term=%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF
+    - paragraph: お電話でのご相談・お申込は
+    - text: 0120-389-019
+    - strong: 10:00~19:00
+    - text: （土日祝を除く）
+    - heading "導入の流れ" [ref=e67] [level=2]
+    - paragraph: 無料
+      - listitem: 相談/ご提案（オンライン）
+      - listitem: ご契約/初回入金
+    - paragraph: PDCAサポート
+      - listitem: キックオフミーティング（プロモーション内容すり合わせ）
+      - listitem: 投稿/広告画像制作
+      - listitem: 投稿/広告配信開始
+      - listitem: 効果測定（アクセス解析）
+      - listitem: 定例会（改善提案/修正作業代行）定例会後⑤へ
+    - heading "よくあるご質問" [ref=e68] [level=2]
+    - term: Q インスタグラムやSNSのアカウントを持ってないのですが問題ないでしょうか？
+    - term: Q 投稿は自社でおこなっているので、ＰＲ/集客の部分だけお願いする事も可能でしょうか。
+    - term: Q もっと他社の事例はありますか？
+    - term: Q 最短でどれくらいで成果が出せますか？
+    - term: Q キャンペーン施策やインフルエンサー施策も対応可能ですか？
+    - term: Q 自社のクライアントへ紹介する代理店制度みたいなものはありますか？
+    - heading "お申込・ご相談 フォーム" [ref=e69] [level=2]: お申込・ご相談フォーム
+    - text: 専任の担当がお客様のお問い合わせに対応いたします。 ご希望に応じて、サービスの詳細説明もご案内可能です。 お試しプランお申込・検討希望の方は「お試しプラン検討」とお問い合わせ内容に記載ください。
+      - text: 会社・組織名 必須 *
+      - textbox "会社・組織名 必須 *" [ref=e70]:
+        - /placeholder: 株式会社ビジョン
+      - text: 姓 必須 *
+      - textbox "姓 必須 *" [ref=e71]:
+        - /placeholder: ビジョン
+      - text: 名 必須 *
+      - textbox "名 必須 *" [ref=e72]:
+        - /placeholder: 太郎
+      - text: ホームページ
+      - textbox "ホームページ" [ref=e73]:
+        - /placeholder: https:XXXXXXXX.jp/
+      - text: メールアドレス 必須 *
+      - textbox "メールアドレス 必須 *" [ref=e74]:
+        - /placeholder: XXXXXXXXX@example.com
+      - text: 電話番号 必須 *
+      - textbox "電話番号 必須 *" [ref=e75]:
+        - /placeholder: 00-0000-0000
+      - text: 現在運用中のSNSを教えてください
+      - checkbox "X Instagram YouTube LINE 運用していない" [ref=e76]:
+        - checkbox "X" [ref=e77]
+        - checkbox "Instagram" [ref=e78]
+        - checkbox "YouTube" [ref=e79]
+        - checkbox "LINE" [ref=e80]
+        - checkbox "運用していない" [ref=e81]
+      - text: お問い合わせ内容 必須 *
+      - textbox "お問い合わせ内容 必須 *" [ref=e82]:
+        - /placeholder: お問い合わせ内容を入力してください
+        - listitem:
+          - paragraph:
+            - link "個人情報の取り扱い" [ref=e83]:
+              - /url: https://www.vision-net.co.jp/handling.html
+            - text: についてに同意する
+          - text: 必須 *
+    - button "送信する" [ref=e84]
+    - link "お気軽にお電話でもご相談ください お試しプランお申込・相談をする" [ref=e85] [nth=2]:
+      - /url: https://snsunyo.com/lp?utm_source=google_cpc&utm_medium=google_cpc&utm_campaign=cp01_lp&utm_term=%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF#Contact
+    - link "24時間いつでも「申込直後」に資料のURLをご案内 1分でわかる 資料ダウンロードはこちら" [ref=e86] [nth=2]:
+      - /url: https://snsunyo.com/lp/download?hsLang=ja&utm_source=google_cpc&utm_medium=google_cpc&utm_campaign=cp01_lp&utm_term=%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF
+    - paragraph: お電話でのご相談・お申込は
+    - text: 0120-389-019 10:00~19:00（土日祝を除く）
+    - link "お急ぎの方はお電話でも受付中 0120-389-019 ※平日 10:00-19:00" [ref=e87]:
+      - /url: tel:0120-389-019
+      - text: お急ぎの方はお電話でも受付中 0120-389-019 ※平日10:00-19:00
+    - link "専任担当と相談したい方 はこちら お試し プランお申込・相談をする" [ref=e88] [nth=1]:
+      - /url: https://snsunyo.com/lp?utm_source=google_cpc&utm_medium=google_cpc&utm_campaign=cp01_lp&utm_term=%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF#Contact
+  - contentinfo:
+    - paragraph: 運営会社：株式会社ビジョン 株式会社ビジョン 東証プライム上場（証券コード：9416） 〒160-0022 東京都新宿区新宿六丁目27番30号 新宿イーストサイドスクエア8階
+    - paragraph:
+      - link "クッキーポリシーについて" [ref=e89]:
+        - /url: https://snsunyo.com/cookie?hsLang=ja&utm_source=google_cpc&utm_medium=google_cpc&utm_campaign=cp01_lp&utm_term=%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF
+      - link "個人情報のお取り扱いについて" [ref=e90]:
+        - /url: https://www.vision-net.co.jp/handling.html
+    - text: ©2024 SNS運用ドットコム. ALL RIGHTS RESERVED.
+

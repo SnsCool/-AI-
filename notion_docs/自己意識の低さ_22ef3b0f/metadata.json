@@ -1,0 +1,16 @@
+{
+  "page_id": "22ef3b0f-ba85-80ff-9a16-e6d215ac6a48",
+  "created_time": "2025-07-12T11:33:00.000Z",
+  "last_edited_time": "2025-07-12T13:37:00.000Z",
+  "url": "https://www.notion.so/22ef3b0fba8580ff9a16e6d215ac6a48",
+  "properties": {
+    "クラス": {"type": "rich_text", "rich_text": [{"plain_text": "やんけA組"}]},
+    "運営LINE URL": {"type": "url", "url": "https://manager.linestep.net/line/detail/192031615"},
+    "トラブルカテゴリ": {"type": "select", "select": {"name": "生徒"}},
+    "クローザー": {"type": "select", "select": {"name": "有川薫"}},
+    "決済月": {"type": "rich_text", "rich_text": [{"plain_text": "2025年3月28日"}]},
+    "生徒名": {"type": "rich_text", "rich_text": [{"plain_text": "もりゆずる"}]},
+    "発生時期": {"type": "date", "date": {"start": "2025-03-29"}},
+    "具体的な内容": {"id": "title", "type": "title", "title": [{"plain_text": "自己意識の低さ"}]}
+  }
+}

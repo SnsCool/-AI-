@@ -1,0 +1,421 @@
+# リンク先コンテンツ
+
+**URL**: https://chouseisan.com/
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 調整さんでキックオフの日程を作成する
+**取得日時**: 2026-01-22T15:34:41.985848
+
+---
+
+## コンテンツ
+
+  - banner:
+    - link "調整さん - 簡単スケジュール調整、出欠管理ツール" [ref=e1]:
+      - /url: https://chouseisan.com
+    - paragraph: カンタン出欠管理、日程調整ツール。
+    - paragraph: 効率よくスケジュールを決めましょう。
+    - paragraph: ログインなしでもご利用いただけますが、ログインするとより便利に！
+      - listitem:
+        - link "会員登録 / ログイン" [ref=e2]:
+          - /url: /auth/login
+    - button "blog_notice_toggle_button" [ref=e3]: お知らせ
+  - heading "調整さんはURLをメンバーに送るだけで、 イベントの出欠確認や日程調整ができる出欠表ツールです。" [ref=e4] [level=2]
+  - heading "30秒でつくれる！カンタン出欠表" [ref=e5] [level=2]
+  - paragraph: STEP1イベント名
+  - paragraph:
+    - textbox "event_name" [ref=e6]:
+      - /placeholder: 例）今期もお疲れ様でした飲み会 など
+  - paragraph: メモ
+  - button "イベントメモをAIで作成する" [ref=e7]
+  - textbox "comment" [ref=e8]:
+    - /placeholder: 例）飲み会の日程調整しましょう！出欠〆切は◯日 など
+  - button "詳細設定" [ref=e9]
+  - paragraph: STEP2日程候補
+  - paragraph: カレンダーをクリックすると日程候補に日付が入ります。
+  - paragraph: "例:"
+  - paragraph: 8/7(月) 19:00～
+  - paragraph: 8/8(火) 20:00～
+  - textbox "event_kouho" [ref=e10]:
+    - /placeholder: "候補の区切りは改行で判断されます。\n内容は直接編集できます。"
+  - checkbox "日付の後に時刻を追加する" [ref=e11] [checked]
+  - text: 日付の後に時刻を追加する
+  - textbox "calendar_time_suffix" [ref=e12]: 19:00〜
+  - text: 2026年1月
+  - button ">" [ref=e13]
+  - text: 日 月 火 水 木 金 土 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+  - paragraph:
+    - link "利用規約" [ref=e14]:
+      - /url: /about/terms
+    - text: に同意のうえ、
+  - button "出欠表をつくる" [ref=e15]
+  - heading "調整さんがみんなに使われる3つのポイント" [ref=e16] [level=2]
+  - paragraph: ログインなしで簡単作成！
+  - paragraph: 調整さんは飲み会、会議、同窓会、送別会などどんなイベントにも使えます。
+  - paragraph: パソコンやスマホで使える！
+  - paragraph: みんなが平等かつカンタンに利用できます。対応機種を気にする必要はありません。
+  - paragraph: 愛用者がたくさんいます！
+  - paragraph: 2006年に誕生し、多くのイベントに使われてきました。これからも幹事さんを応援し続けます！
+  - heading "調整さんの関連サービス" [ref=e17] [level=2]
+    - listitem:
+      - link "日程調整自動化サービス TimeRex（タイムレックス）" [ref=e18]:
+        - /url: https://timerex.net/?utm_source=chouseisan&utm_medium=referral&utm_content=top_banner&utm_campaign=chouseisan_top_banner
+    - listitem:
+      - link "調整さんビジネスバナー" [ref=e19]:
+        - /url: " https://chouseisan.com/business?utm_source=chouseisan&utm_medium=referral&utm_content=top_banner&utm_campaign=chouseisan_top_banner"
+  - contentinfo:
+    - term: 言語
+    - definition:
+      - link "日本語" [ref=e20]:
+        - /url: /lang/ja
+    - definition:
+      - link "English" [ref=e21]:
+        - /url: /lang/en
+    - heading "調整さんがよく利用されるシーン" [ref=e22] [level=3]
+      - listitem:
+        - link "新年会" [ref=e23]:
+          - /url: /l/shinnenkai/
+      - listitem:
+        - link "送別会" [ref=e24]:
+          - /url: /l/sobetsukai/
+      - listitem:
+        - link "忘年会" [ref=e25]:
+          - /url: /l/bonenkai/
+      - listitem:
+        - link "幹事" [ref=e26]:
+          - /url: /l/kanji/
+      - listitem:
+        - link "結婚式二次会" [ref=e27]:
+          - /url: /l/wedding/
+      - listitem:
+        - link "宴会" [ref=e28]:
+          - /url: /l/enkai/
+      - listitem:
+        - link "花見" [ref=e29]:
+          - /url: /l/hanami/
+      - listitem:
+        - link "歓迎会" [ref=e30]:
+          - /url: /l/kangeikai/
+      - listitem:
+        - link "同窓会" [ref=e31]:
+          - /url: /l/dosokai/
+      - listitem:
+        - link "懇談会" [ref=e32]:
+          - /url: /l/kondankai/
+      - listitem:
+        - link "暑気払い" [ref=e33]:
+          - /url: /l/syokibarai/
+      - listitem:
+        - link "壮行会" [ref=e34]:
+          - /url: /l/sokokai/
+      - listitem:
+        - link "打ち合わせ" [ref=e35]:
+          - /url: /l/uchiawase/
+      - listitem:
+        - link "送迎会" [ref=e36]:
+          - /url: /l/sogeikai/
+      - listitem:
+        - link "誕生日" [ref=e37]:
+          - /url: /l/birthday/
+      - listitem:
+        - link "キャンプ" [ref=e38]:
+          - /url: /l/camp/
+      - listitem:
+        - link "スキー" [ref=e39]:
+          - /url: /l/ski/
+      - listitem:
+        - link "スノーボード" [ref=e40]:
+          - /url: /l/snowboard/
+      - listitem:
+        - link "バーベキュー" [ref=e41]:
+          - /url: /l/bbq/
+      - listitem:
+        - link "フットサル" [ref=e42]:
+          - /url: /l/futsal/
+      - listitem:
+        - link "ボウリング" [ref=e43]:
+          - /url: /l/bowling/
+      - listitem:
+        - link "合コン" [ref=e44]:
+          - /url: /l/gokon/
+      - listitem:
+        - link "合宿" [ref=e45]:
+          - /url: /l/gassyuku/
+      - listitem:
+        - link "社員旅行" [ref=e46]:
+          - /url: /l/company-trip/
+      - listitem:
+        - link "女子会" [ref=e47]:
+          - /url: /l/joshikai/
+      - listitem:
+        - link "旅行" [ref=e48]:
+          - /url: /l/trip/
+      - listitem:
+        - link "ミーティング" [ref=e49]:
+          - /url: /l/meeting/
+      - listitem:
+        - link "会議" [ref=e50]:
+          - /url: /l/kaigi/
+      - listitem:
+        - link "懇親会" [ref=e51]:
+          - /url: /l/konshinkai/
+      - listitem:
+        - link "納会" [ref=e52]:
+          - /url: /l/nokai/
+      - listitem:
+        - link "お正月" [ref=e53]:
+          - /url: /l/osyogatsu/
+      - listitem:
+        - link "カラオケ" [ref=e54]:
+          - /url: /l/karaoke/
+      - listitem:
+        - link "クラス会" [ref=e55]:
+          - /url: /l/classkai/
+      - listitem:
+        - link "ゴルフ" [ref=e56]:
+          - /url: /l/golf/
+      - listitem:
+        - link "テニス" [ref=e57]:
+          - /url: /l/tennis/
+      - listitem:
+        - link "バスケ" [ref=e58]:
+          - /url: /l/basketball/
+      - listitem:
+        - link "バドミントン" [ref=e59]:
+          - /url: /l/badminton/
+      - listitem:
+        - link "バレーボール" [ref=e60]:
+          - /url: /l/volleyball/
+      - listitem:
+        - link "ビアガーデン" [ref=e61]:
+          - /url: /l/beer-garden/
+      - listitem:
+        - link "案内状" [ref=e62]:
+          - /url: /l/annaijo/
+      - listitem:
+        - link "初詣" [ref=e63]:
+          - /url: /l/hatsumode/
+      - listitem:
+        - link "招待状" [ref=e64]:
+          - /url: /l/syotaijo/
+      - listitem:
+        - link "成人式" [ref=e65]:
+          - /url: /l/seijinshiki/
+      - listitem:
+        - link "大晦日" [ref=e66]:
+          - /url: /l/omisoka/
+      - listitem:
+        - link "釣り" [ref=e67]:
+          - /url: /l/fishing/
+      - listitem:
+        - link "登山" [ref=e68]:
+          - /url: /l/climbing/
+      - listitem:
+        - link "鍋パーティー" [ref=e69]:
+          - /url: /l/nabe/
+      - listitem:
+        - link "草野球" [ref=e70]:
+          - /url: /l/baseball/
+      - listitem:
+        - link "アンケート" [ref=e71]:
+          - /url: /l/question/
+      - listitem:
+        - link "クリスマス" [ref=e72]:
+          - /url: /l/christmas/
+      - listitem:
+        - link "コミケ" [ref=e73]:
+          - /url: /l/comike/
+      - listitem:
+        - link "サッカー" [ref=e74]:
+          - /url: /l/soccer/
+      - listitem:
+        - link "サバゲー" [ref=e75]:
+          - /url: /l/sabage/
+      - listitem:
+        - link "シフト表" [ref=e76]:
+          - /url: /l/shift/
+      - listitem:
+        - link "スケート" [ref=e77]:
+          - /url: /l/skate/
+      - listitem:
+        - link "ツーリング" [ref=e78]:
+          - /url: /l/touring/
+      - listitem:
+        - link "ボルダリング" [ref=e79]:
+          - /url: /l/bouldering/
+      - listitem:
+        - link "ラフティング" [ref=e80]:
+          - /url: /l/rafting/
+      - listitem:
+        - link "海水浴" [ref=e81]:
+          - /url: /l/kaisuiyoku/
+      - listitem:
+        - link "人狼" [ref=e82]:
+          - /url: /l/jinro/
+      - listitem:
+        - link "追いコン" [ref=e83]:
+          - /url: /l/oikon/
+      - listitem:
+        - link "読書会" [ref=e84]:
+          - /url: /l/reading/
+      - listitem:
+        - link "文化祭" [ref=e85]:
+          - /url: /l/bunkasai/
+      - listitem:
+        - link "麻雀" [ref=e86]:
+          - /url: /l/mah-jong/
+      - listitem:
+        - link "温泉" [ref=e87]:
+          - /url: /l/onsen/
+      - listitem:
+        - link "いちご狩り" [ref=e88]:
+          - /url: /l/strawberry/
+      - listitem:
+        - link "バンド" [ref=e89]:
+          - /url: /l/band/
+      - listitem:
+        - link "ピクニック" [ref=e90]:
+          - /url: /l/picnic/
+      - listitem:
+        - link "ソフトボール" [ref=e91]:
+          - /url: /l/softball/
+      - listitem:
+        - link "ダーツ" [ref=e92]:
+          - /url: /l/darts/
+      - listitem:
+        - link "ハイキング" [ref=e93]:
+          - /url: /l/hiking/
+      - listitem:
+        - link "パラグライダー" [ref=e94]:
+          - /url: /l/paraglider/
+      - listitem:
+        - link "ハロウィン" [ref=e95]:
+          - /url: /l/halloween/
+      - listitem:
+        - link "花火大会" [ref=e96]:
+          - /url: /l/fireworks/
+      - listitem:
+        - link "剣道" [ref=e97]:
+          - /url: /l/kendo/
+      - listitem:
+        - link "ビリヤード" [ref=e98]:
+          - /url: /l/billiards/
+      - listitem:
+        - link "柔道" [ref=e99]:
+          - /url: /l/judo/
+      - listitem:
+        - link "卒業旅行" [ref=e100]:
+          - /url: /l/graduation/
+      - listitem:
+        - link "ハンドボール" [ref=e101]:
+          - /url: /l/handball/
+      - listitem:
+        - link "ラグビー" [ref=e102]:
+          - /url: /l/rugby/
+      - listitem:
+        - link "ランニング" [ref=e103]:
+          - /url: /l/running/
+      - listitem:
+        - link "納涼船" [ref=e104]:
+          - /url: /l/noryosen/
+      - listitem:
+        - link "アウトドア" [ref=e105]:
+          - /url: /l/outdoor/
+      - listitem:
+        - link "アメフト" [ref=e106]:
+          - /url: /l/american-football/
+      - listitem:
+        - link "ぶどう狩り" [ref=e107]:
+          - /url: /l/grape/
+      - listitem:
+        - link "イルミネーション" [ref=e108]:
+          - /url: /l/illumination/
+      - listitem:
+        - link "さくらんぼ狩り" [ref=e109]:
+          - /url: /l/cherry/
+      - listitem:
+        - link "紅葉狩り" [ref=e110]:
+          - /url: /l/autumn/
+      - listitem:
+        - link "大掃除" [ref=e111]:
+          - /url: /l/osoji/
+      - listitem:
+        - link "カウントダウン" [ref=e112]:
+          - /url: /l/countdown/
+      - listitem:
+        - link "みかん狩り" [ref=e113]:
+          - /url: /l/mikan/
+      - listitem:
+        - link "屋形船" [ref=e114]:
+          - /url: /l/yakatabune/
+      - listitem:
+        - link "パーティー" [ref=e115]:
+          - /url: /l/party/
+      - listitem:
+        - link "OB会" [ref=e116]:
+          - /url: /l/obkai/
+      - listitem:
+        - link "プール" [ref=e117]:
+          - /url: /l/pool/
+      - listitem:
+        - link "ボランティア" [ref=e118]:
+          - /url: /l/volunteer/
+      - listitem:
+        - link "ワークショップ" [ref=e119]:
+          - /url: /l/workshop/
+      - listitem:
+        - link "セミナー" [ref=e120]:
+          - /url: /l/seminar/
+      - listitem:
+        - link "夏休み" [ref=e121]:
+          - /url: /l/summer-vacation/
+      - listitem:
+        - link "お盆" [ref=e122]:
+          - /url: /l/obon/
+      - listitem:
+        - link "祭り" [ref=e123]:
+          - /url: /l/festival/
+      - listitem:
+        - link "マラソン" [ref=e124]:
+          - /url: /l/marathon/
+      - listitem:
+        - link "イベント" [ref=e125]:
+          - /url: /l/events/
+      - listitem:
+        - link "打ち上げ" [ref=e126]:
+          - /url: /l/uchiage/
+    - link "ミクステンド ミクステンドWebサイトへ" [ref=e127]:
+      - /url: //mixtend.com/?utm_source=chouseisan&utm_medium=referral&utm_content=footer_logo
+      - paragraph: ミクステンドWebサイトへ
+    - paragraph: 調整さんについて
+      - listitem:
+        - link "お知らせ" [ref=e128]:
+          - /url: /l/category/chouseisan/
+      - listitem:
+        - link "お問い合わせ・ご要望" [ref=e129]:
+          - /url: https://help.chouseisan.com
+      - listitem:
+        - link "利用規約" [ref=e130] [nth=1]:
+          - /url: /about/terms
+      - listitem:
+        - link "プライバシーポリシー" [ref=e131]:
+          - /url: /about/privacy
+      - listitem:
+        - link "広告掲載について" [ref=e132]:
+          - /url: /about/advertisement
+    - paragraph: 関連サービス
+      - listitem:
+        - link "TimeRex - 日程調整自動化サービス" [ref=e133]:
+          - /url: //timerex.net/?utm_source=chouseisan&utm_medium=referral&utm_content=footer_link&utm_campaign=chouseisan_footer_link
+      - listitem:
+        - link "調整さんビジネス - 法人向け調整さん" [ref=e134]:
+          - /url: https://chouseisan.com/business?utm_source=chouseisan&utm_medium=referral&utm_content=footer_link&utm_campaign=chouseisan_footer_link
+    - paragraph: SNS
+      - listitem:
+        - link "Facebook" [ref=e135]:
+          - /url: https://www.facebook.com/chouseisan/
+      - listitem:
+        - link "X" [ref=e136]:
+          - /url: https://x.com/chouseisan
+

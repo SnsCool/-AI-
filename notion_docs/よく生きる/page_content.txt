@@ -1,0 +1,17 @@
+# よく生きる
+
+Notion URL: https://www.notion.so/015f9fff3b32438d85adca908046818b
+同期日時: 2026-01-27T11:54:00+09:00
+
+---
+
+## プロパティ
+
+- **キャッチコピー**: よく生きる
+- **参照リンク**: https://www.benesse-hd.co.jp/ja/about/philosophy.html
+- **番号**: 203
+- **memo**: (なし)
+- **訴求方法**: 断定
+- **企業名, 商品名**: ベネッセコーポレーション
+- **いいね**: false
+- **画像**: https://www.benesse-hd.co.jp/ja/about/images/philosophy/img-philosophy.jpg?20200131

@@ -1,0 +1,8 @@
+{
+  "url": "https://docs.google.com/spreadsheets/d/1iLuPWwFg1Kjpi-cskZf8ORxn8a54xy-ccibsKv4iF1I/copy",
+  "type": "gdoc",
+  "processed_at": "2026-01-22T13:05:42.614428",
+  "content": "## Google Sheetsへのサインイン\n\nGoogle Sheetsにアクセスするためのサインインページです。\n\n**主な要素:**\n\n*   **サインイン:** Google Sheetsにアクセスするための入り口。\n*   **メールアドレスまたは電話番号:** サインインに使用する情報を入力するテキストボックス。\n*   **パスワードを忘れた場合:** 「Forgot email?」リンクからメールアドレスの復旧が可能。\n*   **共有コンピュータの利用:** プライベートブラウジングの使用を推奨。「Learn more about using Guest mode」リンクから詳細を確認可能。\n*   **次へ:** サインインを進めるためのボタン。\n*   **アカウントの作成:** 「Create account」リンクからGoogleアカウントを作成可能。\n*   **言語選択:** ページ下部で表示言語を選択可能 (デフォルトは英語)。多数の言語オプションあり。\n*   **ヘルプ・プライバシー・利用規約:** ヘルプ、プライバシーポリシー、利用規約へのリンクがページ下部に用意されている。\n",
+  "title": "Webページ",
+  "error": null
+}

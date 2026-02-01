@@ -1,0 +1,92 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/spreadsheets/d/1pyEse1fbB_488ftguqAl9VE-73ukvI4jpbUmtrHTmjk/edit?usp=sharing
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 村松「講師マネージャー」
+**取得日時**: 2026-01-22T14:27:21.106526
+
+---
+
+## コンテンツ
+
+    - banner "メニューバー":
+      - link "スプレッドシート ホーム" [ref=e1]:
+        - /url: https://docs.google.com/spreadsheets/?usp=sheets_web
+      - text: 2025年6月ローンチ
+      - 'button "ドキュメントのステータス: ドライブに保存しました."'
+      - button "すべてのコメントを表示" [ref=e2]
+      - button "共有します。リンクを知っている全員。 リンクを知っている全員がアクセスできます。ログインは不要です。" [ref=e3] [disabled]: 共有
+      - button "クイック共有操作" [ref=e4] [disabled]
+      - link "ログイン" [ref=e5]:
+        - /url: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/1pyEse1fbB_488ftguqAl9VE-73ukvI4jpbUmtrHTmjk/edit?usp%3Dsharing&followup=https://docs.google.com/spreadsheets/d/1pyEse1fbB_488ftguqAl9VE-73ukvI4jpbUmtrHTmjk/edit?usp%3Dsharing&ltmpl=sheets&ec=GAZAmwI
+        - menuitem "ファイル" [ref=e6]
+        - menuitem "編集" [ref=e7]
+        - menuitem "表示" [ref=e8]
+        - menuitem "挿入" [ref=e9]
+        - menuitem "表示形式" [ref=e10] [disabled]
+        - menuitem "データ" [ref=e11]
+        - menuitem "ツール" [ref=e12]
+        - menuitem "拡張機能" [ref=e13] [disabled]
+        - menuitem "ヘルプ" [ref=e14]
+      - toolbar "メニューを検索 (option+/)":
+        - combobox "メニュー" [ref=e15]
+      - toolbar "メイン":
+        - button "元に戻す (⌘Z)" [ref=e16] [disabled]
+        - button "やり直し (⌘Y)" [ref=e17] [disabled]
+        - button "印刷 (⌘P)" [ref=e18]
+        - button "書式を貼り付け" [ref=e19] [disabled]
+        - combobox "ズーム" [ref=e20]:
+          - option "ズーム のリストで 100% を選択しています。" [ref=e21] [selected]:
+            - textbox "ズーム" [ref=e22]: 100%
+        - button "表示形式を通貨に設定" [ref=e23] [disabled]: ¥
+        - button "表示形式をパーセントに設定" [ref=e24] [disabled]: "%"
+        - button "小数点以下の桁数を減らす" [ref=e25] [disabled]
+        - button "小数点以下の桁数を増やす" [ref=e26] [disabled]
+        - button "表示形式の詳細設定" [ref=e27] [disabled]: "123"
+        - button "フォントサイズを縮小 (⌘+Shift+カンマ)" [ref=e28] [disabled]
+        - combobox "フォント サイズ" [ref=e29] [disabled]:
+          - option "フォント サイズ のリストで 10 を選択しています。" [ref=e30] [disabled] [selected]:
+            - textbox "フォント サイズ" [ref=e31] [disabled]: "10"
+        - button "フォントサイズを拡大 (⌘+Shift+ピリオド)" [ref=e32] [disabled]
+        - button "太字 (⌘B)" [ref=e33] [disabled] [pressed]
+        - button "斜体 (⌘I)" [ref=e34] [disabled]
+        - button "取り消し線 (⌘+Shift+X)" [ref=e35] [disabled]
+        - button "テキストの色" [ref=e36] [disabled]
+        - button "塗りつぶしの色" [ref=e37] [disabled]
+        - button "枠線" [ref=e38] [disabled]
+        - button "セルを結合" [ref=e39] [disabled]
+        - button "結合タイプを選択" [ref=e40] [disabled]
+        - button "水平方向の配置" [ref=e41] [disabled]
+        - button "垂直方向の配置" [ref=e42] [disabled]
+        - button "テキストを折り返す" [ref=e43] [disabled]
+        - button "テキストの回転" [ref=e44] [disabled]
+        - button "リンクを挿入 (⌘K)" [ref=e45] [disabled]
+        - button "コメントを挿入 (⌘+option+M)" [ref=e46]
+        - button "グラフを挿入" [ref=e47] [disabled]
+        - button "フィルタ表示" [ref=e48]
+        - button "関数" [ref=e49] [disabled]
+        - button "もっと見る" [ref=e50] [disabled]
+      - toolbar "モードと表示":
+        - button "メニューを非表示 (Ctrl+Shift+F)" [ref=e51]
+      - textbox [ref=e52]: A1
+      - button "名前ボックスのメニューボタン。メニュー項目から 1 つを選択すると、対応する名前付き範囲に移動します。" [ref=e53]
+      - textbox [ref=e54] [nth=1]
+    - navigation "シートタブバー" [ref=e55]:
+        - button "シートを追加" [ref=e56]
+        - button "すべてのシート" [ref=e57]
+        - button "マスター" [ref=e58]
+        - button "全体" [ref=e59]
+        - button "村松" [ref=e60]
+        - button "けいいち" [ref=e61]
+        - button "こうし" [ref=e62]
+        - button "ゆな" [ref=e63]
+        - button "ふみや" [ref=e64]
+        - button "ざき" [ref=e65]
+    - textbox [ref=e66] [nth=2]
+    - link "スクリーン リーダーのサポートを有効にする" [ref=e67]:
+      - /url: "#"
+    - textbox [ref=e68] [nth=3]
+    - region: スクリーン リーダーのサポートを有効にするには、⌘+option+Z を押します。キーボード ショートカットの詳細については、⌘スラッシュ を押します。
+

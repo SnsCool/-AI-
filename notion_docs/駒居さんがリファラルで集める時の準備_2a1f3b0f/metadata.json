@@ -1,0 +1,12 @@
+{
+  "page_id": "2a1f3b0f-ba85-8139-9c14-cb9928822755",
+  "created_time": "2025-11-04T00:34:00.000Z",
+  "last_edited_time": "2025-11-04T00:34:00.000Z",
+  "url": "https://www.notion.so/2a1f3b0fba8581399c14cb9928822755",
+  "properties": {
+    "納期": {"type": "date", "date": {"start": "2025-09-30"}},
+    "ステータス": {"type": "status", "status": {"name": "進行中"}},
+    "担当者": {"type": "people", "people": [{"name": "AKIRA"}]},
+    "タスク": {"id": "title", "type": "title", "title": [{"plain_text": "駒居さんがリファラルで集める時の準備（トークや資料）"}]}
+  }
+}

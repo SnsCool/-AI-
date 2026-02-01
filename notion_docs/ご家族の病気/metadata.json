@@ -1,0 +1,15 @@
+{
+  "page_id": "204f3b0f-ba85-80fc-9b3b-f5088d528881",
+  "created_time": "2025-05-31T07:04:00.000Z",
+  "last_edited_time": "2025-08-31T12:56:00.000Z",
+  "url": "https://www.notion.so/204f3b0fba8580fc9b3bf5088d528881",
+  "properties": {
+    "クラス": {"type": "rich_text", "rich_text": [{"plain_text": "はむD組"}]},
+    "トラブルカテゴリ": {"type": "select", "select": {"name": "生徒"}},
+    "クローザー": {"type": "select", "select": {"name": "安藤凪"}},
+    "決済月": {"type": "date", "date": {"start": "2024-10-14"}},
+    "生徒名": {"type": "rich_text", "rich_text": [{"plain_text": "はざま ゆの"}]},
+    "発生時期": {"type": "date", "date": {"start": "2024-11-05"}},
+    "具体的な内容": {"id": "title", "type": "title", "title": [{"plain_text": "ご家族の病気"}]}
+  }
+}

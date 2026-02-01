@@ -1,0 +1,143 @@
+# リンク先コンテンツ
+
+**URL**: https://levela.co.jp/
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 【2025_10】SEO部門
+**取得日時**: 2026-01-22T15:45:12.235924
+
+---
+
+## コンテンツ
+
+  - banner:
+    - heading "株式会社levela" [ref=e1] [level=1]:
+      - link "株式会社levela" [ref=e2]:
+        - /url: https://levela.co.jp/
+    - navigation:
+        - listitem:
+          - link "TOP" [ref=e3]:
+            - /url: https://levela.co.jp/
+        - listitem:
+          - link "ABOUT" [ref=e4]:
+            - /url: https://levela.co.jp/about/
+        - listitem:
+          - link "SERVICE" [ref=e5]:
+            - /url: https://levela.co.jp/service/
+        - listitem:
+          - link "BLOG" [ref=e6]:
+            - /url: https://levela.co.jp/blog/
+        - listitem:
+          - link "CONTACT" [ref=e7]:
+            - /url: https://levela.co.jp/contact/
+  - button "Scroll" [ref=e8]:
+    - text: Scroll
+  - main:
+    - heading "「なりたい自分になる」ための、 確かな道筋を" [ref=e9] [level=3]
+    - paragraph: 株式会社Levelaは「なりたい」を応援し、 人生を変えるきっかけになる会社です。 私たちの事業を通じて すべての人が理想の自分像に一歩近づく機会を提供します。
+    - heading "|" [ref=e10] [level=2]
+    - paragraph: ▶︎私たちについて
+    - link "TOP MESSAGE  代表挨拶" [ref=e11]:
+      - /url: https://levela.co.jp/about/#top-message
+      - heading "TOP MESSAGE" [ref=e12] [level=3]
+      - text: 
+      - paragraph: 代表挨拶
+    - link "PHILOSOPHY  経営理念" [ref=e13]:
+      - /url: https://levela.co.jp/about/#philosophy
+      - heading "PHILOSOPHY" [ref=e14] [level=3]
+      - text: 
+      - paragraph: 経営理念
+    - link "COMPANY  会社概要" [ref=e15]:
+      - /url: https://levela.co.jp/about/#company
+      - heading "COMPANY" [ref=e16] [level=3]
+      - text: 
+      - paragraph: 会社概要
+    - heading "|" [ref=e17] [nth=1] [level=2]
+    - paragraph: ▶︎ 事業内容
+    - heading "“なりたい自分” を叶える仕組み" [ref=e18] [level=3]
+    - paragraph: 株式会社Levelaは、現在２つの事業を展開しています。 主軸となる「SnsClub」では、個人の情報発信力を高め、 その影響力を収入やビジネスへと結びつけるための、 体系的なサポートを提供しています。
+    - figure:
+      - link [ref=e19]:
+        - /url: https://levela.co.jp/service/
+    - figure:
+      - link [ref=e20] [nth=1]:
+        - /url: https://www.youtube.com/@YoutubeSnsCool
+    - heading "|" [ref=e21] [nth=2] [level=2]
+    - paragraph: ▶︎ メディア出演
+    - figure:
+      - link [ref=e22] [nth=2]:
+        - /url: https://www.youtube.com/@YoutubeSnsCool
+    - heading "|" [ref=e23] [nth=3] [level=2]
+    - paragraph: ▶︎ お知らせ
+    - figure:
+      - link [ref=e24] [nth=3]:
+        - /url: https://levela.co.jp/news/
+      - listitem:
+        - link "公開日 コーポレートサイトリニューアルのお知らせ" [ref=e25]:
+          - /url: https://levela.co.jp/2026/01/05/%e3%82%b3%e3%83%bc%e3%83%9d%e3%83%ac%e3%83%bc%e3%83%88%e3%82%b5%e3%82%a4%e3%83%88%e3%83%aa%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%a2%e3%83%ab%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/
+          - time: 2026.01.05
+          - text: コーポレートサイトリニューアルのお知らせ
+  - heading "|" [ref=e26] [nth=4] [level=2]
+  - paragraph: ▶︎ お問い合わせ
+  - paragraph: ご質問・ご相談・ご依頼など、お気軽にお問い合わせください。
+  - figure:
+    - link [ref=e27] [nth=4]:
+      - /url: https://levela.co.jp/contact/
+  - figure:
+    - link [ref=e28] [nth=5]:
+      - /url: https://levela.co.jp/
+  - paragraph: 〒 150-0042 東京都渋谷区宇田川町42-6 TQ渋谷宇田川町3階
+  - paragraph:
+    - link "TOP" [ref=e29] [nth=1]:
+      - /url: https://levela.co.jp/
+  - paragraph:
+    - link "ABOUT" [ref=e30] [nth=1]:
+      - /url: https://levela.co.jp/about/
+  - paragraph:
+    - link "経営理念" [ref=e31]:
+      - /url: https://levela.co.jp/about/#philosophy
+  - paragraph:
+    - link "代表挨拶" [ref=e32]:
+      - /url: https://levela.co.jp/about/#top-message
+  - paragraph:
+    - link "会社概要" [ref=e33]:
+      - /url: https://levela.co.jp/about/#company
+  - paragraph:
+    - link "プライバシーポリシー" [ref=e34]:
+      - /url: https://levela.co.jp/privacy-policy/
+  - paragraph:
+    - link "SERVICE" [ref=e35] [nth=1]:
+      - /url: https://levela.co.jp/service/
+  - paragraph:
+    - link "事業内容" [ref=e36]:
+      - /url: https://levela.co.jp/service/#service
+  - paragraph:
+    - link "SnsClub" [ref=e37]:
+      - /url: https://levela.co.jp/service/#snsclub
+  - paragraph:
+    - link "エスキャン" [ref=e38]:
+      - /url: https://levela.co.jp/service/#scan
+  - paragraph:
+    - link "NEWS" [ref=e39]:
+      - /url: https://levela.co.jp/news/
+  - paragraph:
+    - link "BLOG" [ref=e40] [nth=1]:
+      - /url: https://levela.co.jp/blog/
+  - paragraph:
+    - link "CONTACT" [ref=e41] [nth=1]:
+      - /url: https://levela.co.jp/contact/
+  - figure:
+    - link [ref=e42] [nth=6]:
+      - /url: https://levela.co.jp/snsclub/lp/01/
+  - paragraph:
+    - link "SnsClub LPサイト" [ref=e43]:
+      - /url: https://levela.co.jp/snsclub/lp/01/
+  - figure:
+    - link [ref=e44] [nth=7]:
+      - /url: https://www.youtube.com/@YoutubeSnsCool
+  - paragraph:
+    - link "駒居康樹YouTubeチャンネル" [ref=e45]:
+      - /url: https://www.youtube.com/@YoutubeSnsCool
+    - paragraph: © 2025 株式会社Levela
+

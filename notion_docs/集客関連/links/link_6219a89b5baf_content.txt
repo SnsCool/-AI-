@@ -1,0 +1,57 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/spreadsheets/d/1eKgN7I6esRCEa_uvTRNP-bZnZdmw-XXamxdjbJ2-BlA/edit?usp=sharing
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 集客関連
+**取得日時**: 2026-01-22T17:16:39.109943
+
+---
+
+## コンテンツ
+
+## 【SnsClub】Youtube・TikTok万垢達成報告フォームに関するGoogleスプレッドシートのUI概要
+
+このドキュメントは、【SnsClub】Youtube・TikTok万垢達成報告フォームの回答を受け付けるためのGoogleスプレッドシートのUIに関する概要です。
+
+**1. メニューバー**
+
+*   **スプレッドシート ホーム:**  [https://docs.google.com/spreadsheets/?usp=sheets_web](https://docs.google.com/spreadsheets/?usp=sheets_web)へのリンク
+*   **フォーム名:** 【SnsClub】Youtube・TikTok万垢達成報告フォーム（回答）
+*   **ステータス:** ドライブに保存済み
+*   **共有設定:** リンクを知っている全員がアクセス可能（ログイン不要）
+*   **クイック共有:** 機能は無効
+*   **ログイン:** [https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/1eKgN7I6esRCEa_uvTRNP-bZnZdmw-XXamxdjbJ2-BlA/edit?usp%3Dsharing&followup=https://docs.google.com/spreadsheets/d/1eKgN7I6esRCEa_uvTRNP-bZnZdmw-XXamxdjbJ2-BlA/edit?usp%3Dsharing&ltmpl=sheets&ec=GAZAmwI](https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/1eKgN7I6esRCEa_uvTRNP-bZnZdmw-XXamxdjbJ2-BlA/edit?usp%3Dsharing&followup=https://docs.google.com/spreadsheets/d/1eKgN7I6esRCEa_uvTRNP-bZnZdmw-XXamxdjbJ2-BlA/edit?usp%3Dsharing&ltmpl=sheets&ec=GAZAmwI)へのリンク
+*   **メニュー項目:** ファイル、編集、表示、挿入(無効)、表示形式(無効)、データ、ツール、拡張機能(無効)、ヘルプ
+
+**2. ツールバー**
+
+*   **メニュー検索:** 検索ボックス (option + /)
+*   **メイン:**
+    *   印刷 (⌘P)
+    *   フィルタ表示
+    *   ズーム (現在100%): 100%
+    *   モード: 閲覧のみ
+*   **モードと表示:** メニューを非表示 (Ctrl+Shift+F)
+
+**3. スプレッドシート本体**
+
+*   **名前ボックス:** A1
+*   **名前付き範囲メニュー**
+*   **数式バー:** 入力欄
+*   **表の名前:** 入力欄
+*   **[表] メニュー**
+*   **表示ボタン**
+
+**4. シートタブバー**
+
+*   すべてのシート
+*   tiktok万垢達成報告フォーム
+*   YouTube万垢達成報告フォーム
+
+**5. その他**
+
+*   **スクリーン リーダーのサポート:** 有効にするためのリンク (#) とショートカット (⌘+option+Z) が表示されています。
+*   スクリーンリーダーに関する詳細説明が表示。
+

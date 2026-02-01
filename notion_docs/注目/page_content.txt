@@ -1,0 +1,14 @@
+# 注目
+
+Notion URL: https://www.notion.so/5a0284d8dbd24f4cbb17b71e956c6558
+同期日時: 2026-01-27T15:40:00+09:00
+
+---
+
+## プロパティ
+
+- **例**: 注目
+- **大項目**: Problem 問題提起
+- **Bookmark**: false
+- **種別**: 好奇心
+- **memo**:

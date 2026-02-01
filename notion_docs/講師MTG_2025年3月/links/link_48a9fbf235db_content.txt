@@ -1,0 +1,122 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/spreadsheets/d/1t0SyaDVZofbOlffP39-kOR7F-6mfP2mjbCWhXjp7sTo/copy
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 講師MTG_2025年3月
+**取得日時**: 2026-01-22T16:38:46.235862
+
+---
+
+## コンテンツ
+
+  - heading "Sign in" [ref=e1] [level=1]
+  - paragraph: to continue to Google Sheets
+  - textbox "Email or phone" [ref=e2]
+  - text: Email or phone
+  - paragraph:
+    - link "Forgot email?" [ref=e3]:
+      - /url: /signin/usernamerecovery?continue=https://docs.google.com/spreadsheets/d/1t0SyaDVZofbOlffP39-kOR7F-6mfP2mjbCWhXjp7sTo/copy&dsh=S908271074:1769067526555013&flowEntry=ServiceLogin&flowName=WebLiteSignIn&followup=https://docs.google.com/spreadsheets/d/1t0SyaDVZofbOlffP39-kOR7F-6mfP2mjbCWhXjp7sTo/copy&ifkv=AXbMIuAq0-gmiSrxf6B4n_9wMv32aufnFBfuEO2rjBm3GRX7hay23Ip3EHL2DSRxZ7DMpVfepnYlcQ&ltmpl=sheets&osid=1&service=wise
+  - paragraph:
+    - text: Not your computer? Use a private browsing window to sign in.
+    - link "Learn more about using Guest mode" [ref=e4]:
+      - /url: https://support.google.com/accounts?p=signin_privatebrowsing&hl=en-US
+  - button "Next" [ref=e5]
+  - link "Create account" [ref=e6]:
+    - /url: /lifecycle/flows/signup?continue=https://docs.google.com/spreadsheets/d/1t0SyaDVZofbOlffP39-kOR7F-6mfP2mjbCWhXjp7sTo/copy&dsh=S908271074:1769067526555013&flowEntry=SignUp&flowName=GlifWebSignIn&followup=https://docs.google.com/spreadsheets/d/1t0SyaDVZofbOlffP39-kOR7F-6mfP2mjbCWhXjp7sTo/copy&ifkv=AXbMIuAq0-gmiSrxf6B4n_9wMv32aufnFBfuEO2rjBm3GRX7hay23Ip3EHL2DSRxZ7DMpVfepnYlcQ&ltmpl=sheets&osid=1&service=wise
+  - contentinfo:
+    - combobox [ref=e7]:
+      - option "Afrikaans" [ref=e8]
+      - option "azərbaycan" [ref=e9]
+      - option "bosanski" [ref=e10]
+      - option "català" [ref=e11]
+      - option "Čeština" [ref=e12]
+      - option "Cymraeg" [ref=e13]
+      - option "Dansk" [ref=e14]
+      - option "Deutsch" [ref=e15]
+      - option "eesti" [ref=e16]
+      - option "English (United Kingdom)" [ref=e17]
+      - option "English (United States)" [ref=e18] [selected]
+      - option "Español (España)" [ref=e19]
+      - option "Español (Latinoamérica)" [ref=e20]
+      - option "euskara" [ref=e21]
+      - option "Filipino" [ref=e22]
+      - option "Français (Canada)" [ref=e23]
+      - option "Français (France)" [ref=e24]
+      - option "Gaeilge" [ref=e25]
+      - option "galego" [ref=e26]
+      - option "Hrvatski" [ref=e27]
+      - option "Indonesia" [ref=e28]
+      - option "isiZulu" [ref=e29]
+      - option "íslenska" [ref=e30]
+      - option "Italiano" [ref=e31]
+      - option "Kiswahili" [ref=e32]
+      - option "latviešu" [ref=e33]
+      - option "lietuvių" [ref=e34]
+      - option "magyar" [ref=e35]
+      - option "Melayu" [ref=e36]
+      - option "Nederlands" [ref=e37]
+      - option "norsk" [ref=e38]
+      - option "o‘zbek" [ref=e39]
+      - option "polski" [ref=e40]
+      - option "Português (Brasil)" [ref=e41]
+      - option "Português (Portugal)" [ref=e42]
+      - option "română" [ref=e43]
+      - option "shqip" [ref=e44]
+      - option "Slovenčina" [ref=e45]
+      - option "slovenščina" [ref=e46]
+      - option "srpski (latinica)" [ref=e47]
+      - option "Suomi" [ref=e48]
+      - option "Svenska" [ref=e49]
+      - option "Tiếng Việt" [ref=e50]
+      - option "Türkçe" [ref=e51]
+      - option "Ελληνικά" [ref=e52]
+      - option "беларуская" [ref=e53]
+      - option "български" [ref=e54]
+      - option "кыргызча" [ref=e55]
+      - option "қазақ тілі" [ref=e56]
+      - option "македонски" [ref=e57]
+      - option "монгол" [ref=e58]
+      - option "Русский" [ref=e59]
+      - option "српски (ћирилица)" [ref=e60]
+      - option "Українська" [ref=e61]
+      - option "ქართული" [ref=e62]
+      - option "հայերեն" [ref=e63]
+      - option "‫עברית‬‎" [ref=e64]
+      - option "‫اردو‬‎" [ref=e65]
+      - option "‫العربية‬‎" [ref=e66]
+      - option "‫فارسی‬‎" [ref=e67]
+      - option "አማርኛ" [ref=e68]
+      - option "नेपाली" [ref=e69]
+      - option "मराठी" [ref=e70]
+      - option "हिन्दी" [ref=e71]
+      - option "অসমীয়া" [ref=e72]
+      - option "বাংলা" [ref=e73]
+      - option "ਪੰਜਾਬੀ" [ref=e74]
+      - option "ગુજરાતી" [ref=e75]
+      - option "ଓଡ଼ିଆ" [ref=e76]
+      - option "தமிழ்" [ref=e77]
+      - option "తెలుగు" [ref=e78]
+      - option "ಕನ್ನಡ" [ref=e79]
+      - option "മലയാളം" [ref=e80]
+      - option "සිංහල" [ref=e81]
+      - option "ไทย" [ref=e82]
+      - option "ລາວ" [ref=e83]
+      - option "မြန်မာ" [ref=e84]
+      - option "ខ្មែរ" [ref=e85]
+      - option "한국어" [ref=e86]
+      - option "中文（香港）" [ref=e87]
+      - option "日本語" [ref=e88]
+      - option "简体中文" [ref=e89]
+      - option "繁體中文" [ref=e90]
+      - listitem:
+        - link "Help" [ref=e91]:
+          - /url: https://support.google.com/accounts?hl=en-US&p=account_iph
+      - listitem:
+        - link "Privacy" [ref=e92]:
+          - /url: https://accounts.google.com/TOS?loc=JP&hl=en-US&privacy=true
+      - listitem:
+        - link "Terms" [ref=e93]:
+          - /url: https://accounts.google.com/TOS?loc=JP&hl=en-US
+

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.instagram.com/reel/DHLoZxjzKsD/?igsh=MWN5eHpyM3poenlsNw=",
+  "type": "video",
+  "processed_at": "2026-01-23T06:00:52.627988",
+  "content": "提示されたURL `https://www.instagram.com/reel/DHLoZxjzKsD/?igsh=MWN5HpyM3poenlsNw=` から読み取れる情報は以下の通りです。\n\n1.  **プラットフォーム (Platform):**\n    *   `www.instagram.com` のドメインから、この動画が**Instagram (インスタグラム)** 上にホストされていることが明確に分かります。\n\n2.  **コンテンツタイプ (Content Type):**\n    *   URL内の `/reel/` というパスは、このコンテンツがInstagramの**リール (Reel) 動画**であることを示しています。リールは、Instagramが提供するショート動画機能です。\n\n3.  **動画の識別子 / 投稿ID (Post ID):**\n    *   `/reel/` の直後にある `DHLoZxjzKsD` の部分が、この特定のInstagram投稿（リール動画）を**一意に識別するID**です。Instagramの各投稿には、このような固有の英数字のIDが割り当てられています。このIDがあれば、直接その投稿にアクセスすることができます。\n\n4.  **トラッキングパラメータ (Tracking Parameter):**\n    *   `?igsh=MWN5HpyM3poenlsNw=` の部分は、Instagramの共有リンクによく付加されるクエリパラメータです。`igsh` は \"Instagram Share\" の略と考えられ、共有元のユーザー、デバイス、または経路などの情報を追跡するために使用されることが多いです。動画の直接的な内容やIDには関係ありませんが、共有された経緯をInstagram側が把握するためのものです。この部分がなくても動画自体にはアクセスできます。\n\n**まとめ:**\nこのURLは、Instagramプラットフォーム上に存在する特定のリール動画（識別子: `DHLoZxjzKsD`）を指しており、共有された際の追跡情報が付加されています。",
+  "title": "",
+  "error": null
+}

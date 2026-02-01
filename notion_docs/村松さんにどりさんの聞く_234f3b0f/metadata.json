@@ -1,0 +1,14 @@
+{
+  "page_id": "234f3b0f-ba85-80d9-ad32-de28f7569a07",
+  "created_time": "2025-07-18T02:49:00.000Z",
+  "last_edited_time": "2025-07-27T10:48:00.000Z",
+  "url": "https://www.notion.so/234f3b0fba8580d9ad32de28f7569a07",
+  "properties": {
+    "納期": {"type": "date", "date": null},
+    "着手": {"type": "multi_select", "multi_select": [{"name": "連携すること"}, {"name": "リーダー"}]},
+    "完了": {"type": "formula", "formula": {"type": "number", "number": 1}},
+    "ステータス": {"type": "status", "status": {"name": "完了"}},
+    "担当者": {"type": "people", "people": []},
+    "タスク": {"id": "title", "type": "title", "title": [{"plain_text": "村松さんにどりさんの聞く"}]}
+  }
+}

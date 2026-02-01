@@ -1,0 +1,13 @@
+{
+  "page_id": "26ff3b0f-ba85-81d7-adf9-f28bff4e3cb3",
+  "title": "目的・KPI設定",
+  "created_time": "2025-09-15T05:06:00.000Z",
+  "last_edited_time": "2025-09-15T05:06:00.000Z",
+  "url": "https://www.notion.so/KPI-26ff3b0fba8581d7adf9f28bff4e3cb3",
+  "properties": {
+    "担当者": {"type": "people"},
+    "日付": {"type": "date", "value": "2025-09-15"},
+    "ステータス": {"type": "status", "value": "未着手"},
+    "メディア": {"type": "title", "value": "目的・KPI設定"}
+  }
+}

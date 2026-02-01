@@ -1,0 +1,14 @@
+{
+  "page_id": "28bf3b0f-ba85-8058-a166-f7737068144e",
+  "created_time": "2025-10-13T08:51:00.000Z",
+  "last_edited_time": "2025-10-13T08:52:00.000Z",
+  "url": "https://www.notion.so/28bf3b0fba858058a166f7737068144e",
+  "properties": {
+    "担当者": {"type": "people", "people": [{"name": "森田咲音"}]},
+    "投稿日": {"type": "date", "date": {"start": "2025-10-10"}},
+    "テキスト": {"type": "rich_text", "rich_text": []},
+    "備考": {"type": "rich_text", "rich_text": []},
+    "ステータス": {"type": "status", "status": {"name": "未着手"}},
+    "メディア": {"id": "title", "type": "title", "title": [{"plain_text": "公開"}]}
+  }
+}

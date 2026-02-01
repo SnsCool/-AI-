@@ -1,0 +1,54 @@
+# リンク先コンテンツ
+
+**URL**: https://gemini.google.com/
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: アイパス関連
+**取得日時**: 2026-01-22T14:15:36.191176
+
+---
+
+## コンテンツ
+
+  - link "Sign in" [ref=e1]:
+    - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://gemini.google.com/&followup=https://gemini.google.com/&ec=GAZAkgU
+  - main:
+    - button "Main menu" [ref=e2]
+    - link "Gemini" [ref=e3]:
+      - /url: /app
+    - link "About Gemini Opens in a new window" [ref=e4]:
+      - /url: https://gemini.google/about/?utm_source=gemini&utm_medium=web&utm_campaign=gemini_zero_state_link_to_marketing_microsite
+    - link "Gemini App Opens in a new window" [ref=e5]:
+      - /url: https://gemini.google.com/app/download
+    - link "Subscriptions Opens in a new window" [ref=e6]:
+      - /url: https://one.google.com/ai
+    - link "For Business Opens in a new window" [ref=e7]:
+      - /url: https://workspace.google.com/solutions/ai/?utm_source=geminiforbusiness&utm_medium=et&utm_campaign=gemini-page-crosslink&utm_term=-&utm_content=forbusiness-2025Q3
+    - navigation:
+        - link "New chat" [ref=e8] [disabled]:
+          - /url: /app
+      - text: Sign in to start saving your chats Once you're signed in, you can access your recent chats here.
+      - button "Sign in" [ref=e9]
+        - button "Settings & help" [ref=e10]
+    - heading "Conversation with Gemini" [ref=e11] [level=1]
+    - heading "Meet Gemini, your personal AI assistant" [ref=e12] [level=1]
+    - button "Write, button, tap to use tool" [ref=e13]: Write
+    - button "Plan, button, tap to use tool" [ref=e14]: Plan
+    - button "Research, button, tap to use tool" [ref=e15]: Research
+    - button "Learn, button, tap to use tool" [ref=e16]: Learn
+    - textbox "Enter a prompt here" [ref=e17]:
+      - text: Ask Gemini 3
+    - button "Open upload file menu" [ref=e18]
+    - button "Tools" [ref=e19]
+    - group "Open mode picker":
+      - button "Fast" [ref=e20]
+    - button "Microphone" [ref=e21]
+    - paragraph:
+      - link "Google Terms Opens in a new window" [ref=e22]:
+        - /url: https://policies.google.com/terms
+      - text: and the
+      - link "Google Privacy Policy Opens in a new window" [ref=e23]:
+        - /url: https://policies.google.com/privacy
+      - text: apply. Gemini can make mistakes, so double-check it.
+

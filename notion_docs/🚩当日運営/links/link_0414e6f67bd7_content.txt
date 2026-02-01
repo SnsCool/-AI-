@@ -1,0 +1,97 @@
+# リンク先コンテンツ
+
+**URL**: https://docs.google.com/forms/d/e/1FAIpQLSdIlRpv1lCwJaPimNBO8f8gKY9K9m0a_o6--ZLXAeJmDDIydg/viewform?usp=dialog
+**種類**: gdoc
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 🚩当日運営
+**取得日時**: 2026-01-22T13:41:15.036937
+
+---
+
+## コンテンツ
+
+  - heading "第2問｜再生数当てクイズ回答フォーム" [ref=e1] [level=1]
+    - text: 4つのリール動画を見て、動画の
+    - strong: 「再生数が多い順」
+    - text: を予想して回答してください📱✨ こちらは
+    - strong: チームで相談してから、代表者1名のみ
+    - text: 回答をお願いします！
+    - text: みなさんの予想は運営側で自動集計し、 🎉
+    - strong: 上位チームを発表します！
+    - text: 🎉 ぜひ楽しみながら参加してください🙌✨ ⚠️ 注意事項
+    - text: ・本フォームは
+    - strong: チームにつき1名のみ
+    - text: 回答をお願いします。 ・回答は
+    - strong: 1位〜4位の全順位を必ず選択
+    - text: してください。 ・同じ動画を複数順位に選択しないよう、ご注意ください。 ・回答内容の
+    - strong: 送信後の修正はできません
+    - text: 。
+  - link "Google にログイン" [ref=e2]:
+    - /url: https://accounts.google.com/Login?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSdIlRpv1lCwJaPimNBO8f8gKY9K9m0a_o6--ZLXAeJmDDIydg%2Fviewform%3Ffbzx%3D-7899693779272881004
+  - text: すると作業内容を保存できます。
+  - button "詳細" [ref=e3]
+    - listitem:
+      - heading "チーム名 必須の質問" [ref=e4] [level=3]: チーム名 *
+      - text: ご自身のチーム名を選択してください
+      - listbox "チーム名 必須の質問" [ref=e5]:
+        - option "選択" [ref=e6] [selected]
+        - option "Aチーム" [ref=e7]
+        - option "Bチーム" [ref=e8]
+        - option "Cチーム" [ref=e9]
+        - option "Dチーム" [ref=e10]
+        - option "Eチーム" [ref=e11]
+        - option "Fチーム" [ref=e12]
+        - option "Gチーム" [ref=e13]
+        - option "Hチーム" [ref=e14]
+        - option "Iチーム" [ref=e15]
+        - option "Jチーム" [ref=e16]
+        - option "Kチーム" [ref=e17]
+        - option "Lチーム" [ref=e18]
+        - option "Mチーム" [ref=e19]
+        - option "Nチーム" [ref=e20]
+        - option "Oチーム" [ref=e21]
+        - option "Pチーム" [ref=e22]
+        - option "Qチーム" [ref=e23]
+        - option "Rチーム" [ref=e24]
+        - option "Sチーム" [ref=e25]
+        - option "Tチーム" [ref=e26]
+    - listitem:
+      - heading "第2問｜再生数が多い順を予想して選択してください 必須の質問" [ref=e27] [level=3]: 第2問｜再生数が多い順を予想して選択してください *
+      - text: ※一度選択した順位は複数選択しないでください。不備対象となります。 1位 2位 3位 4位
+      - radiogroup "動画A":
+        - text: 動画A
+        - radio "1位 は 動画A に対する応答です" [ref=e28]
+        - radio "2位 は 動画A に対する応答です" [ref=e29]
+        - radio "3位 は 動画A に対する応答です" [ref=e30]
+        - radio "4位 は 動画A に対する応答です" [ref=e31]
+      - radiogroup "動画B":
+        - text: 動画B
+        - radio "1位 は 動画B に対する応答です" [ref=e32]
+        - radio "2位 は 動画B に対する応答です" [ref=e33]
+        - radio "3位 は 動画B に対する応答です" [ref=e34]
+        - radio "4位 は 動画B に対する応答です" [ref=e35]
+      - radiogroup "動画C":
+        - text: 動画C
+        - radio "1位 は 動画C に対する応答です" [ref=e36]
+        - radio "2位 は 動画C に対する応答です" [ref=e37]
+        - radio "3位 は 動画C に対する応答です" [ref=e38]
+        - radio "4位 は 動画C に対する応答です" [ref=e39]
+      - radiogroup "動画D":
+        - text: 動画D
+        - radio "1位 は 動画D に対する応答です" [ref=e40]
+        - radio "2位 は 動画D に対する応答です" [ref=e41]
+        - radio "3位 は 動画D に対する応答です" [ref=e42]
+        - radio "4位 は 動画D に対する応答です" [ref=e43]
+  - button "Submit" [ref=e44]: 送信
+  - button "フォームをクリア" [ref=e45]
+  - text: このフォームは 株式会社Levela 内部で作成されました。
+  - paragraph:
+    - text: このフォームが不審だと思われる場合
+    - link "報告" [ref=e46]:
+      - /url: https://drive.google.com/abuse?id=AKkXjowY0fCsRsH5XMhd0juASYYjxRn5UmtPMV1qdgtqE6zIcKC0Ha0RQzVnlebBQxrcWKYUsmeCoFxa4zMQINQ:0&docurl=https://docs.google.com/forms/d/e/1FAIpQLSdIlRpv1lCwJaPimNBO8f8gKY9K9m0a_o6--ZLXAeJmDDIydg/viewform?usp%3Ddialog
+  - link "Google フォーム" [ref=e47]:
+    - /url: //www.google.com/forms/about/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms
+    - text: フォーム
+  - button "ヘルプとフィードバック" [ref=e48]
+

@@ -1,0 +1,5 @@
+# 中途解約算出フォーム作成（ロボットペイ）
+
+## ブックマーク
+
+[中途解約算出フォーム](https://docs.google.com/spreadsheets/d/example)

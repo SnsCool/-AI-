@@ -1,0 +1,13 @@
+# 抜け出す方法
+
+Notion URL: https://www.notion.so/116eddda-110d-4b00-8e5a-ad8a1a1cee18
+同期日時: 2026-01-27T12:00:00+09:00
+
+---
+
+## プロパティ
+
+- **例**: 抜け出す方法
+- **大項目**: Solution 解決策
+- **種別**: 方法提示
+- **Bookmark**: false

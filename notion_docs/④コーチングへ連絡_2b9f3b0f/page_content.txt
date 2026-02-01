@@ -1,0 +1,17 @@
+# ④コーチングへ連絡
+
+- コーチングのスプシを更新（プレミアムプラスコース契約の場合のみ）
+コミットの場合はスプシ更新なし。スレッドにて報告のみ
+https://docs.google.com/spreadsheets/d/1Wv_nSpfKLBRaJ59Y1GcQqU37nvJt7K0Izyxb_sN8b6I/edit?gid=0#gid=0&range=AF:AH
+[Image]
+※該当生徒のステータスを「中途解約」に変更
+
+- 下記スレッドより「ふうかさん・はるなさん」メンションにて報告
+[Bookmark](https://discord.com/channels/1172020927047942154/1416327509514911764)
+（例）
+[Image]
+```javascript
+<@876738171541549056> <@1362235075722350653>
+中途解約　生徒名　⭕️⭕️🔺組　担当MG：⭕️⭕️
+スプシ更新済✅
+```

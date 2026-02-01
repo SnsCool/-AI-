@@ -1,0 +1,8 @@
+{
+  "url": "https://mosh.jp/user/memberships/317021/contents/62966/325681",
+  "type": "webpage",
+  "processed_at": "2026-01-22T15:00:39.950142",
+  "content": "  - heading \"MOSH logo\" [ref=e1] [level=2]:\n  - link \"ゲスト\" [ref=e2]:\n    - /url: /public/auth/sign-in/guest?redirectUrl=%2Fuser%2Fmemberships%2F317021%2Fcontents%2F62966%2F325681\n    - paragraph: ゲスト\n  - link \"クリエイター\" [ref=e3]:\n    - /url: /public/auth/sign-in/creator?redirectUrl=%2Fuser%2Fmemberships%2F317021%2Fcontents%2F62966%2F325681\n    - paragraph: クリエイター\n  - heading \"ゲストとしてログイン\" [ref=e4] [level=1]\n  - paragraph: サービスや商品を利用・購入するお客様\n  - text: メールアドレス\n  - textbox \"メールアドレス\" [ref=e5]:\n    - /placeholder: メールアドレスを入力...\n  - text: パスワード\n  - link \"パスワードをお忘れの方\" [ref=e6]:\n    - /url: /public/auth/forgot-password?redirectUrl=%2Fuser%2Fmemberships%2F317021%2Fcontents%2F62966%2F325681\n  - textbox \"パスワード\" [ref=e7]:\n    - /placeholder: パスワードを入力...\n  - button [ref=e8]\n  - paragraph: 半角英数8〜30文字で、大文字、小文字、数字を組み合わせてください。\n  - button \"ログイン\" [ref=e9]\n  - paragraph: または、他の方法でログイン\n  - button \"Line\" [ref=e10]:\n  - button \"Facebook\" [ref=e11]:\n  - paragraph:\n    - text: ログインできない方は\n    - button \"こちら\" [ref=e12]\n  - paragraph:\n    - text: ゲストアカウントをお持ちでない場合は\n    - link \"新規登録\" [ref=e13]:\n      - /url: /public/auth/sign-up/guest?redirectUrl=%2Fuser%2Fmemberships%2F317021%2Fcontents%2F62966%2F325681\n  - contentinfo:\n    - link \"利用規約\" [ref=e14]:\n      - /url: /terms\n    - link \"プライバシーポリシー\" [ref=e15]:\n      - /url: /privacy-policy\n  - region \"Notifications alt+T\" [ref=e16]\n",
+  "title": "Webページ",
+  "error": null
+}

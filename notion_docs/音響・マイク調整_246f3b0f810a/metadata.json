@@ -1,0 +1,18 @@
+{
+  "page_id": "246f3b0f-ba85-810a-acfe-eece9e209d12",
+  "title": "音響・マイク調整",
+  "created_time": "2025-08-05T14:15:00.000Z",
+  "last_edited_time": "2025-08-05T14:15:00.000Z",
+  "url": "https://www.notion.so/246f3b0fba85810aacfeeece9e209d12",
+  "properties": {
+    "ステータス": {"type": "status", "value": "未着手"},
+    "テキスト": {"type": "rich_text", "value": ""},
+    "担当者": {"type": "people", "value": ""},
+    "タスクの種類": {"type": "multi_select", "value": "進行"},
+    "説明": {"type": "rich_text", "value": "・マイクの音量チェック\n・代表／司会／講師紹介などに合わせてオンオフ調整"},
+    "エリア": {"type": "multi_select", "value": "Hall"},
+    "期日": {"type": "date", "value": null},
+    "タスク名": {"type": "title", "value": "音響・マイク調整"},
+    "タグ": {"type": "multi_select", "value": "現場作業"}
+  }
+}

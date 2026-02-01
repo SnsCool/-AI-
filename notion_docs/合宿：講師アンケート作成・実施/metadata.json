@@ -1,0 +1,65 @@
+{
+  "page_id": "26ef3b0f-ba85-8071-9749-d611cceb9590",
+  "created_time": "2025-09-14T23:43:00.000Z",
+  "last_edited_time": "2025-09-15T02:39:00.000Z",
+  "url": "https://www.notion.so/26ef3b0fba8580719749d611cceb9590",
+  "parent": {},
+  "properties": {
+    "納期": {
+      "id": "%3Dm%3B%3C",
+      "type": "date",
+      "date": null
+    },
+    "着手": {
+      "id": "GlXj",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "812e73f9-a37b-4f57-9bf5-b647b73af64f",
+          "name": "一週目",
+          "color": "pink"
+        }
+      ]
+    },
+    "完了": {
+      "id": "ohdv",
+      "type": "formula",
+      "formula": {
+        "type": "number",
+        "number": 1
+      }
+    },
+    "ステータス": {
+      "id": "woXg",
+      "type": "status",
+      "status": {
+        "id": "40cc3ce2-b9c9-45d1-8b20-2a08300c513e",
+        "name": "完了",
+        "color": "green"
+      }
+    },
+    "担当者": {
+      "id": "yj%7CE",
+      "type": "people",
+      "people": [
+        {
+          "object": "user",
+          "id": "0b321809-cfb6-471a-9e29-c3bd89c65e6b",
+          "name": "Riku"
+        }
+      ]
+    },
+    "タスク": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "plain_text": "合宿：講師アンケート作成・実施"
+        }
+      ]
+    }
+  },
+  "icon": null,
+  "cover": null,
+  "archived": false
+}

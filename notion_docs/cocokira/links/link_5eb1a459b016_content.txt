@@ -1,0 +1,50 @@
+# リンク先コンテンツ
+
+**URL**: https://mosh.jp/user/memberships/317021/contents/62966/325681
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: cocokira
+**取得日時**: 2026-01-22T15:00:39.950142
+
+---
+
+## コンテンツ
+
+  - heading "MOSH logo" [ref=e1] [level=2]:
+  - link "ゲスト" [ref=e2]:
+    - /url: /public/auth/sign-in/guest?redirectUrl=%2Fuser%2Fmemberships%2F317021%2Fcontents%2F62966%2F325681
+    - paragraph: ゲスト
+  - link "クリエイター" [ref=e3]:
+    - /url: /public/auth/sign-in/creator?redirectUrl=%2Fuser%2Fmemberships%2F317021%2Fcontents%2F62966%2F325681
+    - paragraph: クリエイター
+  - heading "ゲストとしてログイン" [ref=e4] [level=1]
+  - paragraph: サービスや商品を利用・購入するお客様
+  - text: メールアドレス
+  - textbox "メールアドレス" [ref=e5]:
+    - /placeholder: メールアドレスを入力...
+  - text: パスワード
+  - link "パスワードをお忘れの方" [ref=e6]:
+    - /url: /public/auth/forgot-password?redirectUrl=%2Fuser%2Fmemberships%2F317021%2Fcontents%2F62966%2F325681
+  - textbox "パスワード" [ref=e7]:
+    - /placeholder: パスワードを入力...
+  - button [ref=e8]
+  - paragraph: 半角英数8〜30文字で、大文字、小文字、数字を組み合わせてください。
+  - button "ログイン" [ref=e9]
+  - paragraph: または、他の方法でログイン
+  - button "Line" [ref=e10]:
+  - button "Facebook" [ref=e11]:
+  - paragraph:
+    - text: ログインできない方は
+    - button "こちら" [ref=e12]
+  - paragraph:
+    - text: ゲストアカウントをお持ちでない場合は
+    - link "新規登録" [ref=e13]:
+      - /url: /public/auth/sign-up/guest?redirectUrl=%2Fuser%2Fmemberships%2F317021%2Fcontents%2F62966%2F325681
+  - contentinfo:
+    - link "利用規約" [ref=e14]:
+      - /url: /terms
+    - link "プライバシーポリシー" [ref=e15]:
+      - /url: /privacy-policy
+  - region "Notifications alt+T" [ref=e16]
+

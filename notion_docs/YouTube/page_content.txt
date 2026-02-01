@@ -1,0 +1,16 @@
+# YouTube
+
+Notion URL: https://www.notion.so/YouTube-b380093745084627a99bd67dc5526525
+同期日時: 2026-01-27T15:40:00+09:00
+
+---
+
+## プロパティ
+
+- **名前**: YouTube
+- **説明**: 画面収録として必要
+画面録画してアップロードしてリンク共有（無料）
+
+loomかどちらかでOK
+- **タグ**: 必須
+- **URL**: https://www.youtube.com/

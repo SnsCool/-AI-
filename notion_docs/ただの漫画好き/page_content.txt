@@ -1,0 +1,16 @@
+# ただの漫画好き
+
+Notion URL: https://www.notion.so/154f3b0fba8581e4b51bd0bda57ef385
+同期日時: 2026-01-27T18:40:00+09:00
+
+---
+
+## プロパティ
+
+- **小ジャンル**: 漫画紹介
+- **ジャンル**: コミック
+- **フォロワー（k)**: 30.7
+- **お気に入り**: false
+- **アカウントURL**: https://www.tiktok.com/@mangazuki.ryu?is_from_webapp=1&sender_device=pc
+- **備考**:
+

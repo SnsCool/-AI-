@@ -1,0 +1,16 @@
+# 毎日のお問い合わせ対応
+
+Notion URL: https://www.notion.so/277f3b0fba8580c6b382fc49c96b4d80
+同期日時: 2026-02-01T12:27:04+09:00
+
+---
+
+https://whimsical.com/generated-board-7YahA1UR2UAPoeCrCYkjvh?ref=chatgpt
+🧭 ワークフローの流れ（要約）
+お問い合わせフォームスプレッドシートを確認　https://docs.google.com/spreadsheets/d/1DC0R92DMfDsM0rTE2tnmi6ax0js7-7w2e6n56J3_OPw/edit?usp=sharing
+「未対応」のものから順番に対応開始
+次に、Lステップのトーク一覧から古い順に対応
+対応完了 → 「確認済み」に変更
+すぐに対応できない場合 → 一時返信
+対応方法が不明な場合 → 担当部署に共有・確認
+完了

@@ -1,0 +1,20 @@
+{
+  "page_id": "2a9f3b0f-ba85-817a-b1ec-ff08a7a9ec10",
+  "created_time": "2025-11-12T12:01:00.000Z",
+  "last_edited_time": "2025-11-12T12:01:00.000Z",
+  "url": "https://www.notion.so/2a9f3b0fba85817ab1ecff08a7a9ec10",
+  "properties": {
+    "ホテル空き状況": {"type": "select", "select": {"name": "有"}},
+    "エリア": {"type": "rich_text", "rich_text": [{"plain_text": "羽田空港"}]},
+    "進捗": {"type": "multi_select", "multi_select": [{"name": "空き有り＆見積り済"}, {"name": "仮押さえ済"}]},
+    "担当者": {"type": "people", "people": [{"name": "Riku"}]},
+    "個別会議室": {"type": "select", "select": {"name": "有"}},
+    "予算（見積り）": {"type": "number", "number": 6169200},
+    "付帯ホテル": {"type": "select", "select": {"name": "有"}},
+    "空き日程_": {"type": "rich_text", "rich_text": [{"plain_text": "2026年2月28日〜3月1日（土日）"}]},
+    "使用ルーム": {"type": "rich_text", "rich_text": [{"plain_text": "ホール半面＆Room６部屋利用可能"}]},
+    "URL": {"type": "url", "url": "https://www.hvf.jp/conference/hanedaairport/"},
+    "仮押さえ期限": {"type": "date", "date": {"start": "2025-10-24"}},
+    "会場名": {"id": "title", "type": "title", "title": [{"plain_text": "ベルサール羽田空港"}]}
+  }
+}

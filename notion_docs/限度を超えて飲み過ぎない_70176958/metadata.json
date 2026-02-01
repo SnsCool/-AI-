@@ -1,0 +1,10 @@
+{
+  "page_id": "70176958-529d-48cd-87b0-baf612f1ed05",
+  "created_time": "2024-08-12T08:39:00.000Z",
+  "last_edited_time": "2024-08-12T08:39:00.000Z",
+  "url": "https://www.notion.so/70176958529d48cd87b0baf612f1ed05",
+  "properties": {
+    "カテゴリー": {"type": "select", "select": {"name": "オフ会", "color": "blue"}},
+    "ルール": {"id": "title", "type": "title", "title": [{"plain_text": "限度を超えて飲み過ぎない"}]}
+  }
+}

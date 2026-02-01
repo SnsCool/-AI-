@@ -1,0 +1,14 @@
+# 舞台
+
+Notion URL: https://www.notion.so/f2e77fb776674e0ca56dbfa2f2babb07
+同期日時: 2026-01-27T15:20:00+09:00
+
+---
+
+## プロパティ
+
+- **例**: 舞台
+- **大項目**: Offer 提案
+- **Bookmark**: false
+- **種別**: ストーリー性
+

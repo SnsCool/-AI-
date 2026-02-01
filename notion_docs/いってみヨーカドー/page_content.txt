@@ -1,0 +1,16 @@
+# いってみヨーカドー
+
+Notion URL: https://www.notion.so/a213433a3b60445386d9419eeb275476
+同期日時: 2026-01-27T11:18:00+09:00
+
+---
+
+## プロパティ
+
+- **キャッチコピー**: いってみヨーカドー
+- **企業名, 商品名**: イトーヨーカドー
+- **訴求方法**: だじゃれ
+- **番号**: 134
+- **参照リンク**: https://www.google.com/url?sa=i&url=https%3A%2F%2Fmantan-web.jp%2Farticle%2F20110307dog00m200038000c.html&psig=AOvVaw21Xfhw6la_fROh6O0YPn2p&ust=1680937913590000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMD5ju2bl_4CFQAAAAAdAAAAABAD
+- **いいね**: false
+- **memo**:

@@ -1,0 +1,183 @@
+# リンク先コンテンツ
+
+**URL**: https://lp.rizap.jp/lp/guarantee-251101/b/?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: かずまさん（11月12日）
+**取得日時**: 2026-01-22T14:59:28.669286
+
+---
+
+## コンテンツ
+
+  - main:
+    - link [ref=e1]:
+      - /url: https://www.rizap.jp/contact/trial2506_1?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+    - paragraph:
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は2ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e2]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+  - button "Go to slide 1" [ref=e3]
+  - button "Go to slide 2" [ref=e4]
+  - button "Go to slide 3" [ref=e5]
+  - button "Go to slide 4" [ref=e6]
+  - button "Go to slide 5" [ref=e7]
+  - button "Go to slide 6" [ref=e8]
+  - button "Go to slide 7" [ref=e9]
+  - button "Go to slide 8" [ref=e10]
+  - button "Go to slide 9" [ref=e11]
+  - button "Go to slide 10" [ref=e12]
+  - button "Go to slide 11" [ref=e13]
+  - button "Go to slide 12" [ref=e14]
+  - button "Go to slide 13" [ref=e15]
+  - button "Go to slide 14" [ref=e16]
+  - button "Go to slide 15" [ref=e17]
+  - group "14 / 15":
+    - paragraph:
+      - strong: ※体験者（青木英子さん）の体重・内臓脂肪・皮下脂肪の年齢層は、エビデンスの範囲外です。
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は2ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e18] [nth=1]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+  - group "15 / 15":
+    - paragraph:
+      - strong: ※体験者（國枝新さん）の年齢はウエスト数値のエビデンス統計の範囲外です。
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は3ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e19] [nth=2]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+  - group "1 / 15":
+    - paragraph:
+      - strong: ※体験者（廣津史朗さん）さんの年齢はウエスト数値のエビデンス統計の範囲外です。
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は3ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e20] [nth=3]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+  - group "2 / 15":
+    - paragraph:
+      - strong: ※体験者（小林雅美さん）の年齢はウエスト数値のエビデンス統計の範囲外です。
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は3ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e21] [nth=4]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+  - group "3 / 15":
+    - paragraph:
+      - strong: ※斉藤一平さんの体脂肪数値・ウエスト数値はRIZAPの統計データを上回ったものであり、誰もがこの結果を得られるものではありません。※斉藤一平さんの年齢はウエスト数値のエビデンス統計の範囲外です。
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は2ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e22] [nth=5]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+  - group "4 / 15":
+    - paragraph:
+      - strong: ※体験者（知見玲さん）のウエスト数値はRIZAPの統計データを上回ったものであり、誰もがこの結果を得られるものではありません。 ※体験者（知見玲さん）の年齢はウエスト数値のエビデンス統計の範囲外です。
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は2ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e23] [nth=6]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+  - group "5 / 15":
+    - paragraph:
+      - strong: ※体験者（早田紗希さん）さんの年齢はウエスト数値のエビデンス統計の範囲外です。
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は3ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e24] [nth=7]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+  - group "6 / 15":
+    - paragraph:
+      - strong: ※体験者（谷内田篤さん）の体重数値・体脂肪数値・ウエスト数値はRIZAPの統計データを上回ったものであり、誰もがこの結果を得られるものではありません。 ※体験者（谷内田篤さん）の年齢はウエスト数値のエビデンス統計の範囲外です。
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は2ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e25] [nth=8]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+  - group "7 / 15":
+    - paragraph:
+      - strong: ※松本奈々絵さんの年齢とスタート時のウエスト数値はエビデンス統計の範囲外です。
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は2ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e26] [nth=9]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+  - group "8 / 15":
+    - paragraph:
+      - strong: ※体験者（永山陽一郎さん）の年齢はウエスト数値のエビデンス統計の範囲外です。
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は2ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e27] [nth=10]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+  - group "9 / 15":
+    - paragraph:
+      - strong: ※体験者（カルメンさん）の年齢はウエスト数値のエビデンス統計の範囲外です。
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は2ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e28] [nth=11]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+  - group "10 / 15":
+    - paragraph:
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は2ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e29] [nth=12]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+  - group "11 / 15":
+    - paragraph:
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は2ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e30] [nth=13]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+  - group "12 / 15":
+    - paragraph:
+      - strong: ※体験者（菅沼真弓さん）のウエスト数値はRIZAPの統計データを上回ったものであり、誰もがこの結果を得られるものではありません。
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は6ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e31] [nth=14]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+  - group "13 / 15":
+    - paragraph:
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は2ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e32] [nth=15]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+  - main:
+    - paragraph: ※入会時に契約したコースの初回のご利用日から30日間。ただし、RIZAPにて販売する物品は対象外となります。返金の手続きは来店の上書面で行うものとし、電話、メールなどの手段による手続きには応じかねます。30日間全額返金保証を利用すると再入会できません。
+    - paragraph: ※ 2022年8月末時点の累計会員数
+    - paragraph: ※ 2018年～2019年2月末実績
+    - paragraph: ※2024年5月末現在
+    - paragraph: ※RIZAPを体験した医師個人の感想。RIZAPのダイエットプログラムを体験しアンケートを完了した医師130人(平均年齢41歳）の３～５段階回答のうち中立回答を除外した結果（2025年5月集計調査）。
+    - paragraph: ※2024年6月末時点
+    - paragraph: ※RIZAPのサービスでは、医療行為は行っておりません。
+    - link [ref=e33] [nth=1]:
+      - /url: https://www.rizap.jp/contact/trial2506_1?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+    - paragraph: ※RIZAP及びRIZAPWOMANの会員に質問した結果（2022年3月当社調べ）＝N4,538 ※質問事項「RIZAPのサービスを通じて、期待されていた結果にコミットしましたか？もしくはできそうですか？」に対する回答者の割合
+    - paragraph:
+      - strong: ※体験者（はねちかさん）の体脂肪数値・ウエスト数値はRIZAPの統計データを上回ったものであり、誰もがこの結果を得られるものではありません。※体験者（はねちかさん）の年齢はウエスト数値のエビデンス統計の範囲外です。
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は2ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e34] [nth=16]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+    - paragraph: ※体験者のコメントは、事業者からの依頼によって構成し、薬機法にしたがって一部改変しています。
+    - paragraph:
+      - strong: ※体験者（REMIさん）の年齢はウエスト数値のエビデンス統計の範囲外です。
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は2ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e35] [nth=17]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+    - paragraph: ※体験者のコメントは、事業者からの依頼によって構成し、薬機法にしたがって一部改変しています。
+    - paragraph:
+      - strong: ※体験者（ジャン・裕一さん）の体脂肪数値・ウエスト数値はRIZAPの統計データを上回ったものであり、誰もがこの結果を得られるものではありません。
+      - text: ※結果には個人差があり効果を保証するものではありません。※プログラム実施期間は2ヶ月間になります。※RIZAPの臨床試験結果は
+      - link "こちら" [ref=e36] [nth=18]:
+        - /url: https://www.rizap.jp/lp/note-01?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cB5WjJGV_lEzlyNFFggNEEB-j4Sp-geo8FcRsxg4zvx9-veom9Ia8BoCG2AQAvD_BwE
+    - paragraph: ※体験者のコメントは、事業者からの依頼によって構成し、薬機法にしたがって一部改変しています。
+  - paragraph: ※RIZAPを体験した医師個人の感想。RIZAPのダイエットプログラムを体験しアンケートを完了した医師130人(平均年齢41歳）の3～5段階回答のうち中立回答を除外した結果（2025年5月集計調査）。
+  - paragraph: ※RIZAPのプログラム体験者N=46 (24~66歲、平均年齢45.8±10.9歳)の数値を統計処理した結果、内臓脂肪面積が2ヶ月間で127.92㎠±49.43から81.04㎠±33.67に減少。 確率的に可能な数値変化の幅(四分位法による)は内臓脂肪面積-109.26㎠~15.60㎠であり (実績値、2020年9月 日本臨床試験協会調べ) 2ヶ月後の内臓脂肪面積がこの範囲に収まらない者の割合は0.00%です。 ※RIZAPのプログラム体験者N=46(24~66歳、平均年齢45.8±10.9歳)の数値を統計処理した結果、皮下脂肪面積が2ヶ月間で326.63㎠ ±103.79から248.93㎠±94.24に減少。 確率的に可能な数値変化の幅(四分位法による)は皮下脂肪面積-147.12㎠~~9.00㎠であり (実績値、2020年9月 日本臨床試験協会調べ) 2ヶ月後の皮下脂肪面積がこの範囲に収まらない者の割合は4.35%です。
+  - button "Go to slide 1" [ref=e37] [nth=1]
+  - button "Go to slide 2" [ref=e38] [nth=1]
+  - button "Go to slide 3" [ref=e39] [nth=1]
+  - button "Go to slide 4" [ref=e40] [nth=1]
+  - button "Go to slide 5" [ref=e41] [nth=1]
+  - paragraph: ※医師のコメントは、事業者から依頼をしたうえでいただいた感想です。法令に従って一部改変しています。
+  - button "Go to slide 1" [ref=e42] [nth=2]
+  - button "Go to slide 2" [ref=e43] [nth=2]
+  - button "Go to slide 3" [ref=e44] [nth=2]
+  - button "Go to slide 4" [ref=e45] [nth=2]
+  - button "Go to slide 5" [ref=e46] [nth=2]
+  - button "Go to slide 6" [ref=e47] [nth=1]
+  - button "Go to slide 7" [ref=e48] [nth=1]
+  - button "Go to slide 8" [ref=e49] [nth=1]
+  - button "Go to slide 9" [ref=e50] [nth=1]
+  - button "Go to slide 10" [ref=e51] [nth=1]
+  - paragraph: ※お客様のコメントは、事業者からの依頼によって構成したものです。法令に従って一部改変しています。
+  - button "Go to slide 1" [ref=e52] [nth=3]
+  - button "Go to slide 2" [ref=e53] [nth=3]
+  - button "Go to slide 3" [ref=e54] [nth=3]
+  - button "Go to slide 4" [ref=e55] [nth=3]
+  - button "Go to slide 5" [ref=e56] [nth=3]
+  - paragraph: ※個人の感想であり効果を保証するものではありません。 ※BeforeAfterコンテストの際に自主的に投稿いただいた内容から、投稿者様の許諾を得た上で一部抜粋して掲載しております。
+  - main:
+    - paragraph:
+      - text: ※サービスおよび関連設備は店舗により異なり、取扱いのない店舗があります。詳しくはwebサイトの
+      - link "店舗ページ" [ref=e57]:
+        - /url: https://chocozap.jp/studios/search/area?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=%E3%83%A9%E3%82%A4%E3%82%B6%E3%83%83%E3%83%97&utm_content=83898061631&gad_source=1&gad_campaignid=7591994138&gbraid=0AAAAADGyVq9YQN-FmaUs8JhKZ5Roe37bF&gclid=CjwKCAiA_dDIBh
+
+[... 以下省略 ...]

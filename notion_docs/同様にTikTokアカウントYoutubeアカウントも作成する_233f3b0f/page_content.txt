@@ -1,0 +1,9 @@
+# 同様にTikTokアカウント、Youtubeアカウントも作成する
+
+## Properties
+- カテゴリー: 実行する
+- 補足: TikTokとYoutubeはInstagramに比べプロフィールの重要度が低いので、「名前+発信内容」程度の簡潔な内容でOK。
+- 優先度: ○
+
+## Content
+

@@ -1,0 +1,8 @@
+{
+  "url": "https://discord.com/channels/1151442122361282641/1159467673361600605/1434001687516807188",
+  "type": "webpage",
+  "processed_at": "2026-01-22T13:32:09.382996",
+  "content": "## Discordアプリ検出時の選択肢\n\nDiscordのリンクを開こうとした際、Discordアプリが検出されると、以下のいずれかの選択肢が表示されます。\n\n*   **「アプリを開く」ボタン (Open App):**  Discordアプリでリンクを開きます。\n*   **「ブラウザで続ける」ボタン (Continue in Browser):**  ウェブブラウザ上でDiscordを開き、リンクにアクセスします。\n\nつまり、Discordアプリがインストールされている環境で、Discordのリンクを開く際に、アプリで開くかブラウザで開くかを選択できるということです。\n",
+  "title": "Webページ",
+  "error": null
+}

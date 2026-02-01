@@ -1,0 +1,345 @@
+# リンク先コンテンツ
+
+**URL**: https://www.kokoro-tokyo.com/?utm_source=chatgpt.com
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: クレーム専門弁護士調査
+**取得日時**: 2026-01-22T16:48:34.253914
+
+---
+
+## コンテンツ
+
+  - heading "東京で弁護士をお探しの方は【弁護士法人心 東京法律事務所】" [ref=e1] [level=1]
+  - banner:
+    - paragraph:
+      - link "弁護士法人心 東京法律事務所" [ref=e2]:
+        - /url: https://www.kokoro-tokyo.com/
+    - paragraph:
+      - link [ref=e3]:
+        - /url: https://www.kokoro-tokyo.com/access/
+    - paragraph:
+      - link [ref=e4] [nth=1]:
+        - /url: https://www.kokoro-tokyo.com/access/
+    - paragraph:
+      - link [ref=e5] [nth=2]:
+        - /url: https://www.kokoro-tokyo.com/denwasoudan/
+    - paragraph:
+      - link [ref=e6] [nth=3]:
+        - /url: https://www.kokoro-tokyo.com/access/
+  - navigation:
+      - listitem:
+        - link "トップ" [ref=e7]:
+          - /url: https://www.kokoro-tokyo.com/
+      - listitem:
+        - link "法人概要" [ref=e8]:
+          - /url: https://www.kokoro-tokyo.com/houjingaiyou/
+      - listitem:
+        - link "弁護士・スタッフ" [ref=e9]:
+          - /url: https://www.kokoro-tokyo.com/staff/
+      - listitem:
+        - link "弁護士費用" [ref=e10]:
+          - /url: https://www.kokoro-tokyo.com/hiyou/
+      - listitem:
+        - link "代表・所長メッセージ" [ref=e11]:
+          - /url: https://www.kokoro-tokyo.com/message/
+      - listitem:
+        - link "お客様相談室" [ref=e12]:
+          - /url: https://www.kokoro-tokyo.com/cs/
+      - listitem:
+        - link "業務内容" [ref=e13]:
+          - /url: https://www.kokoro-tokyo.com/work/
+      - listitem:
+        - link "選ばれる理由" [ref=e14]:
+          - /url: https://www.kokoro-tokyo.com/point/
+      - listitem:
+        - link "お役立ち情報" [ref=e15]:
+          - /url: https://www.kokoro-tokyo.com/useful/
+      - listitem:
+        - link "Q＆A" [ref=e16]:
+          - /url: https://www.kokoro-tokyo.com/qanda/
+      - listitem:
+        - link "その他" [ref=e17]:
+          - /url: https://www.kokoro-tokyo.com/etc/
+      - listitem:
+        - link "お問合せ・アクセス" [ref=e18]:
+          - /url: https://www.kokoro-tokyo.com/access/
+  - paragraph:
+    - link [ref=e19] [nth=4]:
+      - /url: https://www.kokoro-tokyo.com/staff/
+  - paragraph:
+    - link [ref=e20] [nth=5]:
+      - /url: http://www.bengoshi-kokoro.com/inline/notice-b.html
+  - paragraph: Pick Up サービス
+    - listitem:
+      - link [ref=e21] [nth=6]:
+        - /url: https://www.yuigon.kokoro-tokyo.com/etc/yuigonsho-muryoushindan/
+    - listitem:
+      - link [ref=e22] [nth=7]:
+        - /url: https://www.koutsujiko-bengoshi.kokoro-tokyo.com/etc/songaibaishou-muryoushindan/
+      - link [ref=e23] [nth=8]:
+        - /url: https://www.kokoro-kouishougai.com/etc/shindan.html
+    - listitem:
+      - link [ref=e24] [nth=9]:
+        - /url: https://www.kabaraikin.kokoro-tokyo.com/muryoushindan/
+    - listitem:
+      - link [ref=e25] [nth=10]:
+        - /url: https://www.souzoku.tokyo-zeirishi.com/etc/souzokuzei-muryoushindan/
+    - listitem:
+      - link [ref=e26] [nth=11]:
+        - /url: https://www.saimuseiri.kokoro-tokyo.com/etc/saimuseiri-muryousimulation/
+  - heading "弁護士法人心の業務内容" [ref=e27] [level=2]:
+  - paragraph
+    - listitem:
+      - link "相続・遺言" [ref=e28]:
+        - /url: https://www.kokoro-tokyo.com/work/per_souzoku/
+    - listitem:
+      - link "交通事故・後遺障害" [ref=e29]:
+        - /url: https://www.kokoro-tokyo.com/work/per_jiko/
+    - listitem:
+      - link "障害年金" [ref=e30]:
+        - /url: https://www.kokoro-tokyo.com/work/per_shougainenkin/
+    - listitem:
+      - link "過払い金" [ref=e31]:
+        - /url: https://www.kokoro-tokyo.com/work/per_kabarai/
+    - listitem:
+      - link "債務整理（借金問題）" [ref=e32]:
+        - /url: https://www.kokoro-tokyo.com/work/per_saimu/
+    - listitem:
+      - link "不倫慰謝料" [ref=e33]:
+        - /url: https://www.kokoro-tokyo.com/work/per_furin/
+    - listitem:
+      - link "ビザ(在留資格)" [ref=e34]:
+        - /url: https://www.kokoro-tokyo.com/work/per_visa/
+    - listitem:
+      - link "刑事事件" [ref=e35]:
+        - /url: https://www.kokoro-tokyo.com/work/per_keiji/
+    - listitem:
+      - link "その他" [ref=e36] [nth=1]:
+        - /url: https://www.kokoro-tokyo.com/work/per_etc/
+  - paragraph
+    - listitem:
+      - link "顧問契約" [ref=e37]:
+        - /url: https://www.kokoro-tokyo.com/work/biz_komon/
+    - listitem:
+      - link "会社設立" [ref=e38]:
+        - /url: https://www.kokoro-tokyo.com/work/biz_setsuritsu/
+    - listitem:
+      - link "契約書作成" [ref=e39]:
+        - /url: https://www.kokoro-tokyo.com/work/biz_keiyakusyo/
+    - listitem:
+      - link "労働災害（使用者側）" [ref=e40]:
+        - /url: https://www.kokoro-tokyo.com/work/biz_rousai/
+    - listitem:
+      - link "労働問題（使用者側）" [ref=e41]:
+        - /url: https://www.kokoro-tokyo.com/work/biz_roumu/
+    - listitem:
+      - link "削除請求" [ref=e42]:
+        - /url: https://www.kokoro-tokyo.com/work/biz_sakujoseikyu/
+    - listitem:
+      - link "過払い金" [ref=e43] [nth=1]:
+        - /url: https://www.kokoro-tokyo.com/work/biz_kabarai/
+    - listitem:
+      - link "債務整理(破産・再生)" [ref=e44]:
+        - /url: https://www.kokoro-tokyo.com/work/biz_saimu/
+    - listitem:
+      - link "その他" [ref=e45] [nth=2]:
+        - /url: https://www.kokoro-tokyo.com/work/biz_etc/
+  - paragraph:
+    - link [ref=e46] [nth=12]:
+      - /url: https://www.kokoro-tokyo.com/point/
+      - text: 続きはこちら 
+      - text: 続きはこちら 
+      - text: 続きはこちら 
+      - text: 続きはこちら 
+      - text: 続きはこちら 
+  - paragraph:
+    - link "選ばれる理由一覧はこちら" [ref=e47]:
+      - /url: https://www.kokoro-tokyo.com/point/
+  - heading "【東京で弁護士をお探しなら当法人へ】" [ref=e48] [level=2]
+  - paragraph: お悩みの内容に合わせて、その分野を得意とする弁護士が相談を承る体制を整えています。当法人の強みなどを選ばれる理由としてまとめておりますのでご参照ください。
+  - paragraph:
+    - link "お客様相談室" [ref=e49] [nth=1]:
+      - /url: https://www.kokoro-tokyo.com/cs/
+  - heading "【お客様相談室を設置】" [ref=e50] [level=2]
+  - paragraph: 初めてでも安心してご利用いただけるよう、当法人では「お客様相談室」を設けております。詳細はこちらをご確認ください。東京で弁護士をお探しの方は、お気軽にご連絡ください。
+  - paragraph:
+    - link "新着情報" [ref=e51]:
+      - /url: https://www.kokoro-tokyo.com/etc/news/
+  - heading "【当法人からの新着情報】" [ref=e52] [level=2]
+  - paragraph: 当法人の休業日や受付時間の変更などについて掲載しておりますので、ご連絡を頂く前にご覧いただければと思います。
+  - paragraph:
+    - link "電話相談について" [ref=e53]:
+      - /url: https://www.kokoro-tokyo.com/etc/denwasoudan/
+  - heading "【お電話でもご相談いただけます】" [ref=e54] [level=2]
+  - paragraph: 事務所までお越しいただくことが難しい場合でも、お電話・テレビ電話でご相談いただけます。詳細はこちらをご参照ください。
+  - heading "【ご利用に便利な事務所です】" [ref=e55] [level=2]
+  - paragraph: 当法人の事務所は、ＪＲや地下鉄の駅から徒歩でお越しいただける、アクセスしやすい場所にあります。お問合せ先や地図などの情報はこちらからご確認ください。
+  - heading [level=2]:
+    - link [ref=e56] [nth=13]:
+      - /url: https://www.kokoro-tokyo.com/qanda/
+    - listitem:
+      - link [ref=e57] [nth=14]:
+        - /url: https://www.kokoro-tokyo.com/qanda/bengoshihoujinkokoro/shoukai-anken/
+    - listitem:
+      - link [ref=e58] [nth=15]:
+        - /url: https://www.kokoro-tokyo.com/qanda/bengoshihoujinkokoro/kingaku-anken/
+    - listitem:
+      - link [ref=e59] [nth=16]:
+        - /url: https://www.kokoro-tokyo.com/qanda/bengoshihoujinkokoro/kokoro-senmonbunya/
+    - listitem:
+      - link [ref=e60] [nth=17]:
+        - /url: https://www.kokoro-tokyo.com/qanda/bengoshihoujinkokoro/zeirishi-sharoushi-toukigyoumu/
+    - listitem:
+      - link [ref=e61] [nth=18]:
+        - /url: https://www.kokoro-tokyo.com/qanda/bengoshihoujinkokoro/kokoro-kyuseichou/
+  - paragraph:
+    - link "Ｑ＆Ａ一覧はこちら" [ref=e62]:
+      - /url: https://www.kokoro-tokyo.com/qanda/
+  - heading "【よくあるご質問はこちら】" [ref=e63] [level=2]
+  - paragraph: 弁護士へ寄せられるご質問について、Ｑ＆Ａ形式で紹介しています。東京で弁護士への相談をお考えの際は、こちらも参考にしていただければと思います。
+  - heading [level=2]:
+    - link [ref=e64] [nth=19]:
+      - /url: https://www.kokoro-tokyo.com/useful/
+    - listitem:
+      - link [ref=e65] [nth=20]:
+        - /url: https://www.kokoro-tokyo.com/useful/bengoshitounosenmonka/bengoshi-shihoushoshi-chigai/
+    - listitem:
+      - link [ref=e66] [nth=21]:
+        - /url: https://www.kokoro-tokyo.com/useful/bengoshitounosenmonka/bengoshi-gyouseishoshi-chigai/
+    - listitem:
+      - link [ref=e67] [nth=22]:
+        - /url: https://www.kokoro-tokyo.com/useful/bengoshitounosenmonka/bengoshi-senmonbunya/
+    - listitem:
+      - link [ref=e68] [nth=23]:
+        - /url: https://www.kokoro-tokyo.com/useful/bengoshitounosenmonka/bengoshi-erabikata/
+    - listitem:
+      - link [ref=e69] [nth=24]:
+        - /url: https://www.kokoro-tokyo.com/useful/bengoshitounosenmonka/muryou-soudan/
+    - listitem:
+      - link [ref=e70] [nth=25]:
+        - /url: https://www.kokoro-tokyo.com/useful/bengoshitounosenmonka/irai-chakushukin/
+  - paragraph:
+    - link "お役立ち情報一覧はこちら" [ref=e71]:
+      - /url: https://www.kokoro-tokyo.com/useful/
+  - heading "【法律事務所のお役立ち情報】" [ref=e72] [level=2]
+  - paragraph: 法律に関するお悩みをお持ちの方や、法律相談をお考えの方のお役に立ちそうな情報などを掲載しています。
+  - heading "サイト内更新情報（Pick up）" [ref=e73] [level=2]
+  - link "2025年12月23日 相続 相続放棄の期間 期限なくいつまででも相続放棄ができると、利害関係者や他の相続人が困ってしまいます。そこで、法律では相続の承認・放棄の意思表示をすることができる期間を一定期間に制限し、・・・ 続きはこちら" [ref=e74]:
+    - /url: https://www.kokoro-tokyo.com/useful/souzokuhouki/houki-kikan/
+    - paragraph: 2025年12月23日
+    - paragraph: 相続
+    - paragraph: 相続放棄の期間
+    - paragraph: 期限なくいつまででも相続放棄ができると、利害関係者や他の相続人が困ってしまいます。そこで、法律では相続の承認・放棄の意思表示をすることができる期間を一定期間に制限し、・・・
+    - paragraph: 続きはこちら
+  - link "2025年8月14日 専門家等 弁護士に相談・依頼するまでの流れ 数多くいる弁護士の中から、相談する弁護士を選ぶ必要があります。弁護士は法律の専門家だから誰に相談しても同じだと思われるかもしれませんが、弁護士によってどのような方針を・・・ 続きはこちら" [ref=e75]:
+    - /url: https://www.kokoro-tokyo.com/useful/bengoshitounosenmonka/soudan-irai-flow/
+    - paragraph: 2025年8月14日
+    - paragraph: 専門家等
+    - paragraph: 弁護士に相談・依頼するまでの流れ
+    - paragraph: 数多くいる弁護士の中から、相談する弁護士を選ぶ必要があります。弁護士は法律の専門家だから誰に相談しても同じだと思われるかもしれませんが、弁護士によってどのような方針を・・・
+    - paragraph: 続きはこちら
+  - link "2025年7月18日 障害年金 障害年金の決定から支給まで 障害年金の支給を受けるためには、障害年金の申請が必要です。申請手続きは、年金請求書等の必要資料を提出して行います。資料を提出した後は、日本年金機構の障害年金センターで、・・・ 続きはこちら" [ref=e76]:
+    - /url: https://www.kokoro-tokyo.com/useful/shougainenkin/kettei-shikyuu/
+    - paragraph: 2025年7月18日
+    - paragraph: 障害年金
+    - paragraph: 障害年金の決定から支給まで
+    - paragraph: 障害年金の支給を受けるためには、障害年金の申請が必要です。申請手続きは、年金請求書等の必要資料を提出して行います。資料を提出した後は、日本年金機構の障害年金センターで、・・・
+    - paragraph: 続きはこちら
+  - link "2025年6月18日 債務整理 給料の差押えを受けた場合の流れと債務整理 給料の差押えは、対象となってしまった方の給料の４分の１が、強制的に取り上げられてしまう制度をいいます。給料の差押えがなされる場合には、裁判所からの通知が勤務先に送付・・・ 続きはこちら" [ref=e77]:
+    - /url: https://www.kokoro-tokyo.com/useful/saimuseiri/kyuuryou-sashiosae/
+    - paragraph: 2025年6月18日
+    - paragraph: 債務整理
+    - paragraph: 給料の差押えを受けた場合の流れと債務整理
+    - paragraph: 給料の差押えは、対象となってしまった方の給料の４分の１が、強制的に取り上げられてしまう制度をいいます。給料の差押えがなされる場合には、裁判所からの通知が勤務先に送付・・・
+    - paragraph: 続きはこちら
+  - link "2025年4月10日 交通事故 交通事故の示談交渉を弁護士に任せることのメリット 交通事故に遭った場合、通常、すべての治療が終了となった段階で、相手の保険会社から被害者が被った損害を賠償するものとして示談金の提案を受けることとなります。その内容に疑問や・・・ 続きはこちら" [ref=e78]:
+    - /url: https://www.kokoro-tokyo.com/useful/koutsujiko/jidankoushou-bengoshi-merit/
+    - paragraph: 2025年4月10日
+    - paragraph: 交通事故
+    - paragraph: 交通事故の示談交渉を弁護士に任せることのメリット
+    - paragraph: 交通事故に遭った場合、通常、すべての治療が終了となった段階で、相手の保険会社から被害者が被った損害を賠償するものとして示談金の提案を受けることとなります。その内容に疑問や・・・
+    - paragraph: 続きはこちら
+  - link "2025年2月14日 刑事事件 略式起訴となる基準とその流れ 略式起訴は、起訴の一種ですが、公判廷でなされる正式起訴の場合と異なり、書面の審理のみで、刑罰の言い渡しがなされる手続きです。略式起訴は、簡易裁判所の管轄する事件で、・・・ 続きはこちら" [ref=e79]:
+    - /url: https://www.kokoro-tokyo.com/useful/keijijiken/ryakushikikiso/
+    - paragraph: 2025年2月14日
+    - paragraph: 刑事事件
+    - paragraph: 略式起訴となる基準とその流れ
+    - paragraph: 略式起訴は、起訴の一種ですが、公判廷でなされる正式起訴の場合と異なり、書面の審理のみで、刑罰の言い渡しがなされる手続きです。略式起訴は、簡易裁判所の管轄する事件で、・・・
+    - paragraph: 続きはこちら
+  - link "2025年1月30日 交通事故 弁護士に交通事故を相談・依頼することのメリット 交通事故の慰謝料の算定の基準は３つあります。最低限の補償基準である自賠責基準、任意保険会社の任意保険基準、裁判所基準（弁護士基準）で、基本的には、この中では裁判所基準・・・ 続きはこちら" [ref=e80]:
+    - /url: https://www.kokoro-tokyo.com/useful/koutsujiko/bengoshi-soudan-merit/
+    - paragraph: 2025年1月30日
+    - paragraph: 交通事故
+    - paragraph: 弁護士に交通事故を相談・依頼することのメリット
+    - paragraph: 交通事故の慰謝料の算定の基準は３つあります。最低限の補償基準である自賠責基準、任意保険会社の任意保険基準、裁判所基準（弁護士基準）で、基本的には、この中では裁判所基準・・・
+    - paragraph: 続きはこちら
+  - heading "【記事更新のお知らせです】" [ref=e81] [level=2]
+  - paragraph: 最近更新された記事を表示しています。参考にしていただける記事もあるかと思いますので、是非ご覧ください。
+  - paragraph:
+    - link "弁護士紹介へ" [ref=e82]:
+      - /url: https://www.kokoro-tokyo.com/staff/?mokuji-law
+  - heading "【弁護士をお探しの方へ】" [ref=e83] [level=2]
+  - paragraph: 当法人は、弁護士がそれぞれの担当分野に集中して取り組み、知識・ノウハウの蓄積とより良い解決に向けて努めています。当法人の弁護士紹介はこちらをご覧ください。
+  - paragraph:
+    - link "スタッフ紹介へ" [ref=e84]:
+      - /url: https://www.kokoro-tokyo.com/staff/?staff
+  - heading "【全力でサポートします】" [ref=e85] [level=2]
+  - paragraph: 法律の問題にお悩みの方々を、スタッフ一同協力してサポートいたします。まずはお気軽に相談予約のお電話をおかけください。こちらからスタッフ紹介をご覧いただけます。
+  - paragraph:
+    - link "心グループ概要へ" [ref=e86]:
+      - /url: https://www.kokoro-tokyo.com/etc/group/
+  - heading "【より質の高いサポートを目指します】" [ref=e87] [level=2]
+  - paragraph: 当法人では、他の士業等と連携し、様々なお悩みにワンストップでお応えできる体制を整えております。
+    - listitem:
+      - link [ref=e88] [nth=26]:
+        - /url: https://www.kokoro-tokyo.com/etc/link/?law
+    - listitem:
+      - link [ref=e89] [nth=27]:
+        - /url: https://www.kokoro-tokyo.com/etc/link/?ac
+    - listitem:
+      - link [ref=e90] [nth=28]:
+        - /url: https://www.kokoro-tokyo.com/etc/link/?blog
+  - heading "【当法人のリンク集です】" [ref=e91] [level=2]
+  - paragraph: 当法人では、案件ごとの専門サイトや、弁護士のブログ等のホームページを運営しています。リンクを紹介していますので、是非ご覧いただき、相談の参考になれば幸いです。
+  - paragraph:
+    - link [ref=e92] [nth=29]:
+      - /url: https://www.bengoshi.kokoro-form.com/bengoshi.php?place=東京
+    - link [ref=e93] [nth=30]:
+      - /url: https://www.kokoro-tokyo.com/access/
+  - paragraph:
+    - link [ref=e94] [nth=31]:
+      - /url: https://www.kokoro-tokyo.com/etc/news/
+  - heading "【まずはお問い合わせを】" [ref=e95] [level=2]
+  - paragraph: 当法人では、ご予約いただけますと、夜間や土日祝日等、柔軟に相談を承っております。お忙しい方もまずはお問い合わせください。
+  - heading "ＪＲ東京駅から弁護士法人心 東京法律事務所へのアクセスについて" [ref=e96] [level=2]
+  - heading "１ 八重洲北口の改札を出たら大丸方面にまっすぐ進み，駅の外に出てください" [ref=e97] [level=3]
+  - paragraph: 当事務所に近い改札は，八重洲北口の改札となります。
+  - paragraph: 改札を出たらＪＲのきっぷうりばを右手に大丸方面にまっすぐ進み，駅の外に出ます。
+  - heading "２ 向かい側に大黒屋が見える横断歩道を渡ってください" [ref=e98] [level=3]
+  - paragraph: 駅の外に出ると左前方に横断歩道が見えますので，まずは向かい側に大黒屋東京駅前店が見える横断歩道を渡ります。
+  - heading "３ 左へ曲がり，さらに横断歩道を渡ってください" [ref=e99] [level=3]
+  - paragraph: 前方に東京建物不動産販売株式会社のビルが見える横断歩道を渡ります。
+  - heading "４ 右へ曲がり，東京建物不動産販売のビルを左手にまっすぐ進み，１つ目の交差点を左へ曲がってください" [ref=e100] [level=3]
+  - paragraph: 前方におかしのまちおか日本橋店が見える交差点まで来たら，横断歩道を渡らずに左へ曲がってください。
+  - heading "５ ファミリーマート八重洲一丁目店が見えるまで進んでください" [ref=e101] [level=3]
+  - paragraph: １階にファミリーマート八重洲一丁目店のあるビルが八重洲加藤ビルデイング（旧表記：八重洲アメレックスビル）です。
+  - paragraph: ファミリーマート入口の右奥にエレベーターがございます。
+  - paragraph: ６階が弁護士法人心 東京法律事務所の受付になります。
+  - heading "日本橋駅から弁護士法人心 東京法律事務所へのアクセスについて" [ref=e102] [level=2]
+  - heading "１ 日本橋駅Ｂ０出口から地上に出てください" [ref=e103] [level=3]
+  - paragraph: 日本橋駅から弁護士法人心 東京法律事務所へお越しいただく際は、Ｂ０出口をお使いいただくと便利です。
+  - heading "２ Ｂ０出口を出たら右手に進んでください" [ref=e104] [level=3]
+  - paragraph: 日本橋駅Ｂ０出口を出ると、中央通りを挟んで正面に日本橋高島屋の新館が見えるかと思います。
+  - paragraph: 出口から右手、郵便局に沿って、一つ目の交差点まで進んでください。
+  - heading "３ 日本橋高島屋近くの交差点を右に曲がってください" [ref=e105] [level=3]
+  - paragraph: 日本橋高島屋の近くにある、日本橋二丁目第二交差点を右に曲がり、八重洲仲通りの方向へ進んでください。
+  - heading "４ 八重洲仲通りの交差点を左折してください" [ref=e106] [level=3]
+  - paragraph: 中央通りから右折してまっすぐ進むと、八重洲仲通りとの交差点に差し掛かりますので、横断歩道を渡り左折してください。
+  - paragraph: １階にセブンイレブンが入っているビルが目印です。
+  - heading "５ エレベーターで６階までお越しください" [ref=e107] [level=3]
+  - paragraph: 交差点を左に曲がると、右手に「八重洲加藤ビルデイング」があります。
+  - paragraph: １階に入ってい
+
+[... 以下省略 ...]

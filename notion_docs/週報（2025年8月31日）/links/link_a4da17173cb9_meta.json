@@ -1,0 +1,8 @@
+{
+  "url": "https://www.instagram.com/mimi",
+  "type": "video",
+  "processed_at": "2026-01-23T05:51:13.984856",
+  "content": "提示されたURL `https://www.instagram.com/mimi` から分かる情報は以下の通りです。\n\n*   **プラットフォーム:** Instagram\n    *   URLのドメインが `www.instagram.com` であることから、Instagramのコンテンツであることが明確です。\n\n*   **URLの種類（コンテンツの対象）:** ユーザープロフィールページ\n    *   このURLは、特定の動画を直接指しているものではなく、Instagramの**ユーザープロフィールページ**を指しています。\n\n*   **識別子 (ID):** `mimi`\n    *   URLの `instagram.com/` の後に続く `mimi` は、Instagramにおける**ユーザー名（Username）**です。\n    *   これは、そのユーザーアカウントを一意に識別するための公開されている名前となります。\n\n*   **動画のID:**\n    *   このURL自体からは、特定の動画のID（例えば、`instagram.com/p/ABCDEFGHIJ/` や `instagram.com/reel/ABCDEFGHIJ/` の`ABCDEFGHIJ`部分）を直接知ることはできません。このURLは、あくまでユーザー全体のアカウント情報を示しています。\n\n**まとめ:**\nこのURL `https://www.instagram.com/mimi` は、Instagram上における「mimi」というユーザーの公開プロフィールページへのリンクです。このページにアクセスすると、「mimi」さんが投稿した写真、動画（リール動画や通常の投稿動画）、ストーリーズ、そしてプロフィール情報（自己紹介文、フォロワー数、フォロー数など）を閲覧することができます。特定の動画を見るためには、このプロフィールページの中から目的の動画を探してクリックする必要があります。",
+  "title": "",
+  "error": null
+}

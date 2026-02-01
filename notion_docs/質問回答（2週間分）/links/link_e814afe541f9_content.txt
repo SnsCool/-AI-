@@ -1,0 +1,20 @@
+# リンク先コンテンツ
+
+**URL**: https://www.instagram.com/_yama.recipe/
+**種類**: video
+**タイトル**: 動画コンテンツ
+**リンクテキスト**: 
+**参照元**: 質問回答（2週間分）
+**取得日時**: 2026-01-22T13:02:01.254895
+
+---
+
+## コンテンツ
+
+ここに、画像の内容を記述します。
+
+画像には、インスタグラムのログイン画面が表示されています。上部にはインスタグラムのロゴがあり、その下に「電話番号、ユーザー名、またはメールアドレス」と「パスワード」を入力する欄があります。「ログイン」ボタン、または「Facebookでログイン」ボタンも用意されています。
+
+その下には、「アカウントをお持ちでない方はサインアップ」とあります。下部には、Meta、About、Blog、Jobs、Help、API、Privacy、Terms、Locations、Instagram Lite、Meta Al、Threads、Contact Uploading & Non-Users、Meta Verified へのリンクがあります。また、言語を選択するドロップダウンメニューと、「2026 Instagram from Meta」という著作権表示もあります。
+
+最後に、「X By continuing, you agree to Instagram's Terms of Use and Privacy Policy.」と表示されています。

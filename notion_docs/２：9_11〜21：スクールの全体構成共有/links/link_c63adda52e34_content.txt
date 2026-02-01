@@ -1,0 +1,157 @@
+# リンク先コンテンツ
+
+**URL**: https://pispis.net/lp-202205/?utm_source=instagram&utm_medium=social&utm_campaign=naoprofile&fbclid=PAdGRleANNP-BleHRuA2FlbQIxMQABp1iSTTNWFiwgESJ2QZz81swPKVKA-BpGF8zcjwS5AcOGJdFm_th9bHnsY1Ke_aem_h861mwDBWEo4DtteyeF0fg
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: ２：9_11〜21：スクールの全体構成共有
+**取得日時**: 2026-01-22T16:02:13.716406
+
+---
+
+## コンテンツ
+
+  - banner:
+    - link "大学受験pispis" [ref=e1]:
+      - /url: https://pispis.net/lp-202205/?utm_source=instagram&utm_medium=social&utm_campaign=naoprofile&fbclid=PAdGRleANNP-BleHRuA2FlbQIxMQABp1iSTTNWFiwgESJ2QZz81swPKVKA-BpGF8zcjwS5AcOGJdFm_th9bHnsY1Ke_aem_h861mwDBWEo4DtteyeF0fg
+      - heading "大学受験pispis" [ref=e2] [level=1]:
+      - listitem:
+        - link "実績" [ref=e3]:
+          - /url: http://pispis.net/lp-202205/?utm_source=instagram&utm_medium=social&utm_campaign=naoprofile&fbclid=PAdGRleANNP-BleHRuA2FlbQIxMQABp1iSTTNWFiwgESJ2QZz81swPKVKA-BpGF8zcjwS5AcOGJdFm_th9bHnsY1Ke_aem_h861mwDBWEo4DtteyeF0fg#achievement
+      - listitem:
+        - link "実感の声" [ref=e4]:
+          - /url: http://pispis.net/lp-202205/?utm_source=instagram&utm_medium=social&utm_campaign=naoprofile&fbclid=PAdGRleANNP-BleHRuA2FlbQIxMQABp1iSTTNWFiwgESJ2QZz81swPKVKA-BpGF8zcjwS5AcOGJdFm_th9bHnsY1Ke_aem_h861mwDBWEo4DtteyeF0fg#voice
+      - listitem:
+        - link "予備校で伸びない原因" [ref=e5]:
+          - /url: http://pispis.net/lp-202205/?utm_source=instagram&utm_medium=social&utm_campaign=naoprofile&fbclid=PAdGRleANNP-BleHRuA2FlbQIxMQABp1iSTTNWFiwgESJ2QZz81swPKVKA-BpGF8zcjwS5AcOGJdFm_th9bHnsY1Ke_aem_h861mwDBWEo4DtteyeF0fg#yss
+      - listitem:
+        - link "指導カリキュラム" [ref=e6]:
+          - /url: http://pispis.net/lp-202205/?utm_source=instagram&utm_medium=social&utm_campaign=naoprofile&fbclid=PAdGRleANNP-BleHRuA2FlbQIxMQABp1iSTTNWFiwgESJ2QZz81swPKVKA-BpGF8zcjwS5AcOGJdFm_th9bHnsY1Ke_aem_h861mwDBWEo4DtteyeF0fg#curri
+      - listitem:
+        - link "他塾との違い" [ref=e7]:
+          - /url: http://pispis.net/lp-202205/?utm_source=instagram&utm_medium=social&utm_campaign=naoprofile&fbclid=PAdGRleANNP-BleHRuA2FlbQIxMQABp1iSTTNWFiwgESJ2QZz81swPKVKA-BpGF8zcjwS5AcOGJdFm_th9bHnsY1Ke_aem_h861mwDBWEo4DtteyeF0fg#compare
+      - listitem:
+        - link "モデルケース" [ref=e8]:
+          - /url: http://pispis.net/lp-202205/?utm_source=instagram&utm_medium=social&utm_campaign=naoprofile&fbclid=PAdGRleANNP-BleHRuA2FlbQIxMQABp1iSTTNWFiwgESJ2QZz81swPKVKA-BpGF8zcjwS5AcOGJdFm_th9bHnsY1Ke_aem_h861mwDBWEo4DtteyeF0fg#case
+      - listitem:
+        - link "講師紹介" [ref=e9]:
+          - /url: http://pispis.net/lp-202205/?utm_source=instagram&utm_medium=social&utm_campaign=naoprofile&fbclid=PAdGRleANNP-BleHRuA2FlbQIxMQABp1iSTTNWFiwgESJ2QZz81swPKVKA-BpGF8zcjwS5AcOGJdFm_th9bHnsY1Ke_aem_h861mwDBWEo4DtteyeF0fg#teacher
+      - listitem:
+        - link "FAQ" [ref=e10]:
+          - /url: http://pispis.net/lp-202205/?utm_source=instagram&utm_medium=social&utm_campaign=naoprofile&fbclid=PAdGRleANNP-BleHRuA2FlbQIxMQABp1iSTTNWFiwgESJ2QZz81swPKVKA-BpGF8zcjwS5AcOGJdFm_th9bHnsY1Ke_aem_h861mwDBWEo4DtteyeF0fg#faq
+    - link "無料受験相談を受ける" [ref=e11]:
+      - /url: https://pispis.net/lp-202205/form/?utm_source=instagram&utm_medium=social&utm_campaign=naoprofile&fbclid=PAdGRleANNP-BleHRuA2FlbQIxMQABp1iSTTNWFiwgESJ2QZz81swPKVKA-BpGF8zcjwS5AcOGJdFm_th9bHnsY1Ke_aem_h861mwDBWEo4DtteyeF0fg
+  - link "無料受験相談を受ける" [ref=e12] [nth=1]:
+    - /url: https://pispis.net/lp-202205/form/?utm_source=instagram&utm_medium=social&utm_campaign=naoprofile&fbclid=PAdGRleANNP-BleHRuA2FlbQIxMQABp1iSTTNWFiwgESJ2QZz81swPKVKA-BpGF8zcjwS5AcOGJdFm_th9bHnsY1Ke_aem_h861mwDBWEo4DtteyeF0fg
+  - heading "合格実績 ACHIEVEMENT" [ref=e13] [level=2]
+  - heading "一足先に受験勉強を始めた生徒から 実感の声が続々!!" [ref=e14] [level=2]
+  - heading "早稲田に合格できて 本当に嬉しいです！" [ref=e15] [level=4]
+  - paragraph: pispisに通うまでは学校の中でもほぼ最下位で、学校の先生にも良い扱いをされていませんでした。 でも、pispisの先生は自分のことを1人の生徒として親身に接してくれたから、安心して受験勉強に挑めました。 今は早稲田の学生生活が本当に楽しいのでpispisに感謝しています！
+  - paragraph: pispis塾長 山本
+  - paragraph: Sちゃんは進学校にいたけど、学校の勉強についていけずに悩んでいて、pispisに相談をくれました。 最初は何から始めていいかわからないことが悩みだったので、志望校の分析や勉強計画の部分から一緒に始めていったよね！ 早稲田に合格して、今はpispisの講師として生徒を合格に導く立場で素敵な指導をしてくれていて僕も感謝しています！
+  - heading "高1から始めて、 本当に良かったです！" [ref=e16] [level=4]
+  - paragraph: 高1の頃から受験勉強を始められたので、周りの友達に差をつけられているのを実感しています。 元々は勉強のやる気があまりなかったけれど、先生がたのサポートのおかげで、今は勉強を進めるのが楽しいです！（笑） 特に、参考書が1冊1冊自分に定着していくのが実感できて、早く次の参考書にも進みたいと思うようになりました。
+  - paragraph: 担当講師 田村
+  - paragraph: Tくんと最初の面談の際、 目標はあるけど勉強に対してのやる気が沸いていないのが課題でした。 そこで、受験に対するモチベーションを重視した指導を行ったところ、みるみるうちに成績が上がりました。 これからも引き続き志望校に向けて、頑張っていきましょう！
+  - link "無料受験相談を受ける" [ref=e17] [nth=2]:
+    - /url: https://pispis.net/lp-202205/form/?utm_source=instagram&utm_medium=social&utm_campaign=naoprofile&fbclid=PAdGRleANNP-BleHRuA2FlbQIxMQABp1iSTTNWFiwgESJ2QZz81swPKVKA-BpGF8zcjwS5AcOGJdFm_th9bHnsY1Ke_aem_h861mwDBWEo4DtteyeF0fg
+  - heading "なぜ、予備校では成績が伸びないの？" [ref=e18] [level=2]
+  - paragraph: ①授業が難しくてわからない
+  - paragraph: ②授業以外に何をやれば 良いかわからない
+  - paragraph: つまり
+  - paragraph: 受験勉強には、自分のレベルに合った
+  - paragraph: やるべき勉強の計画が必要！！
+  - heading "大学受験pispisでは、 だから 1人1人に合わせた学習計画を作成" [ref=e19] [level=2]:
+    - text: 大学受験pispisでは、
+    - text: 1人1人に合わせた学習計画を作成
+  - paragraph: 入塾時から受験当日までの長期計画
+  - paragraph: 1日単位の細かい週間計画
+  - paragraph: でも… 計画はあっても 参考書をうまく使いこなせない…
+  - heading "pispisでは参考書1冊ごとに さらに 効率の良い使い方を細かく指導！！" [ref=e20] [level=2]:
+    - text: pispisでは参考書1冊ごとに
+    - text: 効率の良い使い方を細かく指導！！
+  - paragraph: 参考書ごとに使い方を細かく解説
+  - link "無料受験相談を受ける" [ref=e21] [nth=3]:
+    - /url: https://pispis.net/lp-202205/form/?utm_source=instagram&utm_medium=social&utm_campaign=naoprofile&fbclid=PAdGRleANNP-BleHRuA2FlbQIxMQABp1iSTTNWFiwgESJ2QZz81swPKVKA-BpGF8zcjwS5AcOGJdFm_th9bHnsY1Ke_aem_h861mwDBWEo4DtteyeF0fg
+  - heading "あなたを合格に導く pispisの指導カリキュラム" [ref=e22] [level=2]
+  - heading "初回指導前" [ref=e23] [level=3]
+  - heading "長期計画の作成" [ref=e24] [level=4]
+  - paragraph: あなた専用の受験までの 長期計画を作成します。
+  - heading "1週間のスケジュール" [ref=e25] [level=3]
+  - heading "勉強法の指導" [ref=e26] [level=4]
+  - paragraph: 学習する内容を効率よく 勉強するために 勉強法から指導します。
+  - heading "週間計画作成" [ref=e27] [level=4]
+  - paragraph: チェックテストの結果を元に、1日毎の計画を1週間分作成します。 もうやる勉強に迷うことはありません。
+  - heading "チェックテスト" [ref=e28] [level=4]
+  - paragraph: 学習した内容が定着しているかをチェックテストで細かく確認します。定着していない場合は、原因と改善策を話します。
+  - heading "自学自習" [ref=e29] [level=4]
+  - paragraph: 作成した計画表と指導した勉強法に基づき学習を進めてもらいます。また、専用アプリで順調に進められているか確認します。
+  - heading "その他のサービス" [ref=e30] [level=3]
+  - heading "質問し放題" [ref=e31] [level=4]
+  - paragraph: pispis質問専用アプリで指導日以外でも24時間いつでも質問可能です。 分かりやすく丁寧に解説します。
+  - heading "他の塾と何が違うの？" [ref=e32] [level=2]
+  - paragraph: つまり
+  - heading "生徒のモデルケース①" [ref=e33] [level=3]
+  - paragraph: 高校受験がうまくいかなかった原因が はっきり分かり、やっと自分に合った勉強法が わかりました！今は勉強が楽しいです！
+  - paragraph: 新高校2年生 Kさん
+      - row "入塾時学力レベル 偏差値35":
+        - rowheader "入塾時学力レベル" [ref=e34]
+        - cell "偏差値35" [ref=e35]
+      - row "課題 やる気もあって勉強時間も取れているけど、 勉強効率が悪く、やった勉強が定着していない。":
+        - rowheader "課題" [ref=e36]
+        - cell "やる気もあって勉強時間も取れているけど、 勉強効率が悪く、やった勉強が定着していない。" [ref=e37]
+      - row "1日の勉強時間 4時間":
+        - rowheader "1日の勉強時間" [ref=e38]
+        - cell "4時間" [ref=e39]
+      - row "所要時間 1年間":
+        - rowheader "所要時間" [ref=e40]
+        - cell "1年間" [ref=e41]
+  - heading "入塾時学力レベル" [ref=e42] [level=4]
+  - heading "1年後学力レベル" [ref=e43] [level=4]
+  - heading "生徒のモデルケース②" [ref=e44] [level=3]
+  - paragraph: 正直、入塾するまで全然勉強していませんでした。 pispisのコーチングのおかげで目標も明確になり、 今では受験勉強が楽しいです。
+  - paragraph: 新高校2年生 Rさん
+      - row "入塾時学力レベル 偏差値52":
+        - rowheader "入塾時学力レベル" [ref=e45] [nth=1]
+        - cell "偏差値52" [ref=e46]
+      - row "課題 志望校はあるけどなかなかやる気を出せなく、 勉強を後回しにしてしまう。":
+        - rowheader "課題" [ref=e47] [nth=1]
+        - cell "志望校はあるけどなかなかやる気を出せなく、 勉強を後回しにしてしまう。" [ref=e48]
+      - row "1日の勉強時間 0時間":
+        - rowheader "1日の勉強時間" [ref=e49] [nth=1]
+        - cell "0時間" [ref=e50]
+      - row "所要時間 1年間":
+        - rowheader "所要時間" [ref=e51] [nth=1]
+        - cell "1年間" [ref=e52] [nth=1]
+  - heading "入塾時学力レベル" [ref=e53] [nth=1] [level=4]
+  - heading "1年後学力レベル" [ref=e54] [nth=1] [level=4]
+  - link "無料受験相談を受ける" [ref=e55] [nth=4]:
+    - /url: https://pispis.net/lp-202205/form/?utm_source=instagram&utm_medium=social&utm_campaign=naoprofile&fbclid=PAdGRleANNP-BleHRuA2FlbQIxMQABp1iSTTNWFiwgESJ2QZz81swPKVKA-BpGF8zcjwS5AcOGJdFm_th9bHnsY1Ke_aem_h861mwDBWEo4DtteyeF0fg
+  - heading "志望校合格を実現させる 精鋭講師陣" [ref=e56] [level=2]
+  - heading "塾長 山本晃嗣" [ref=e57] [level=3]
+  - paragraph: 私自身、高校を中退して学力0からの大学受験をし、北海道大学へ進学しました。その中で挫折を味わった経験もありますし、それを乗り越えた経験もあるので、例え今は学力がない生徒でも夢に向かって受験勉強を進められるようにサポートしたいと思ってこの塾を作りました。あなたの夢に向かって、全力で大学受験をサポートします！
+  - heading "梶原脩" [ref=e58] [level=3]
+  - paragraph: 北海道大学、同大学院出身。偏差値32から受験勉強をした経験を生かして、皆さんの受験勉強のサポートをします！また、大学院卒業後は某経営コンサルティング企業に勤めていた経験があるので、受験勉強にとどまらずに大学進学後などの先のことも見据えて、視野を広げながら受験のサポートをしていきたいと思っています。一緒に良い人生を作るための大学受験にしましょう！
+  - heading "山畑雄平" [ref=e59] [level=3]
+  - paragraph: 私は前職で、年間数百件の中高生の勉強相談に乗り、アドバイスをしていました。その経験を生かし、生徒が今のレベルに合わせて、最適な学習をしていけるように相談に乗るので、気軽になんでも相談してください！
+  - heading "田村尚之" [ref=e60] [level=3]
+  - paragraph: 私は一昨年、夏の模試で偏差値35の状態から早稲田大学に合格しました。例え今の偏差値が低くても、諦めずに正しい勉強のやり方で受験勉強を進めれば、行きたい大学に合格することができます。今志望校に対して偏差値が足りなくて悩んでいる君も、一緒に合格を目指して頑張りましょう！
+  - paragraph: 他にも様々な講師が在籍！
+  - heading "よくあるご質問 FAQ" [ref=e61] [level=2]
+  - term: 地方在住なのですが、オンラインでも指導を受けられますか？ Q
+  - definition: もちろん大丈夫です。 オンラインでも対面と変わらないクオリティで指導できるような体制をとっています。 A
+  - term: 集団授業ですか？ １対１ですか？ Q
+  - definition: pispisは完全1対1の個別指導です。あなたのレベルに合わせて個別で指導します。 A
+  - term: 高校受験に失敗しました。こんな僕でも大丈夫ですか？ Q
+  - definition: 高校受験の失敗には必ず原因があります。まずはそこから見つけ、一緒に解決していきましょう。高校受験は失敗しても大学受験は成功出来ます。 A
+  - term: 自習室は指導日以外も使えますか？ Q
+  - definition: 指導日以外も利用可能です。 A
+  - term: 高校受験あまり勉強していませんでした。それでも大丈夫でしょうか？ Q
+  - definition: そういった子ほど合う指導法なので、もちろん大丈夫です。 A
+  - term: 部活に入りたいと考えています。両立は可能でしょうか？ Q
+  - definition: 部活との両立を成功させている生徒が多いのでご安心ください。 部活の予定に合わせた計画を立てます。 A
+  - term: 無料体験だけ受けることも可能でしょうか？ Q
+  - definition: 無料体験だけでも大丈夫です。誠心誠意合格までの勉強相談に乗らせていただきます。 A
+  - link "まずは無料受験相談で悩みを解決！！" [ref=e62]:
+    - /url: https://pispis.net/lp-202205/form/?utm_source=instagram&utm_medium=social&utm_campaign=naoprofile&fbclid=PAdGRleANNP-BleHRuA2FlbQIxMQABp1iSTTNWFiwgESJ2QZz81swPKVKA-BpGF8zcjwS5AcOGJdFm_th9bHnsY1Ke_aem_h861mwDBWEo4DtteyeF0fg
+

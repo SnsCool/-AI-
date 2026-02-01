@@ -1,0 +1,14 @@
+{
+  "page_id": "2a9f3b0f-ba85-81a7-a6c8-c23a814707d2",
+  "created_time": "2025-11-12T12:19:00.000Z",
+  "last_edited_time": "2025-11-12T12:19:00.000Z",
+  "url": "https://www.notion.so/2a9f3b0fba8581a7a6c8c23a814707d2",
+  "properties": {
+    "進捗": {"type": "multi_select", "multi_select": [{"name": "空きあり"}, {"name": "見積り依頼中"}, {"name": "仮押さえ済"}]},
+    "担当者": {"type": "people", "people": [{"name": "Riku"}]},
+    "空き日程_": {"type": "rich_text", "rich_text": [{"plain_text": "2月28日〜3月1日"}]},
+    "URL": {"type": "url", "url": "https://portcity-hall.tokyo/"},
+    "仮押さえ期限": {"type": "date", "date": {"start": "2025-11-10"}},
+    "会場名": {"id": "title", "type": "title", "title": [{"plain_text": "東京ポートシティ竹芝"}]}
+  }
+}

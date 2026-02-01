@@ -1,0 +1,51 @@
+# リンク先コンテンツ
+
+**URL**: https://wan.video/
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 💡AIの活用法
+**取得日時**: 2026-01-22T14:14:13.835957
+
+---
+
+## コンテンツ
+
+  - text: F e a t u r e s O p e n S o u r c e A P I Try Now
+  - text: Unleash Your Creativity Try Wan2.6 Now
+  - text: Generate
+  - text: Wan 2.6 720P 16:9 5s
+  - textbox [ref=e1]
+  - text: Frame
+  - text: Frame
+  - text: Audio
+  - text: "0"
+  - text: Introducing Wan 2.6 Learn More
+  - text: Starring Cast characters from reference videos into new scenes. Supports human or human-like figures, enabling multi-person and human-object interactions with appearance and voice consistency. Try Now
+  - text: Multi-shot Storytelling Tell a compelling story with intelligent multi-shot storytelling. You can create up to 15 seconds, 1080p HD narrative videos with native synced audio and visuals. Try Now
+  - text: Image Generation Advanced aesthetics with precise control over artistic style. Photorealistic portraits with lifelike textures and meticulous lighting. Integrated text generation for graphic design, including charts and posters. Try Now
+  - text: Multi-Image Control Create and edit images with studio-quality levels of precision and control. Supports multi-image referencing for commercial-grade consistency and faithful aesthetic transfer. Generate interleaved texts and images powered by real-world knowledge and reasoning capabilities, enabling hierarchical and structured visual narratives. Try Now
+  - text: Wan Create
+  - paragraph: Create without barriers—bring your ideas to life on Wan with text, images, and videos.
+  - button "Try Now" [ref=e2]
+  - text: API API
+  - paragraph: Build without limits—power your business with our API for seamless, high-quality visual generation.
+  - text: Open Source Open Source
+  - paragraph: Innovate without boundaries — harness open-source models for advanced performance and exceptional quality.
+  - text: Product Features View All
+  - text: Reference to Video Cast referenced characters into new scenes, supporting multi-person and human-object interactions with consistent appearance and voice. Try Now
+  - text: Image to Video (with Audio) 15-second multi-shot generation with auto cuts for stable multi-person native videos. Try Now
+  - text: Text to Video (with Audio) Cinematic precision with sophisticated motion and highly reliable prompt execution. Try Now
+  - text: Speech to Video Turn an image and audio into expressive, high-quality character videos. Try Now
+  - text: Text to Image Photorealistic results with expressive styles and consistent prompt alignment. Try Now
+  - text: Image Edit Enables easy conversational edits, references, and image creation. Try Now
+  - text: Open Source View All
+  - text: "Wan2.2-Animate: For Character Animation and Replacement Unified Model for Character Animation and Replacement. Learn More"
+  - text: "Wan2.2-S2V: Where Every Voice Finds Its Vision An Audio-Driven Cinematic Video Generation Model. Learn More"
+  - text: "Wan2.2: More Powerful, More Beautiful Wan2.2 scales with MoE, delivering stronger models and more beautiful videos, pushing open-source video generation to new frontiers. Learn More"
+  - text: Download Wan App Unleash your creativity anytime, anywhere with our official app.
+  - text: App Store
+  - text: Google Play
+  - text: App not available in your region? Try ourmobile web version. wan_ai@service.alibaba.com
+  - text: Wan Create Features Overview Try Now Pricing User Guide Open Source Latest Advancements GitHub API Platform Platform Overview API Access Product Policy Usage Policy Terms of Service Privacy Policy Wan © 2026 Powered by Alibaba Cloud.
+

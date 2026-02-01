@@ -1,0 +1,59 @@
+# リンク先コンテンツ
+
+**URL**: https://m-i-m.jp/https://hiroha.jp/
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 9月_プロテイン事業_山﨑
+**取得日時**: 2026-01-22T14:08:40.541926
+
+---
+
+## コンテンツ
+
+  - link "コンテンツに進む" [ref=e1]:
+    - /url: "#MainContent"
+  - banner:
+    - paragraph:
+      - link "THE MIM（ザ・ミム） | オンラインストア" [ref=e2]:
+        - /url: /
+    - navigation:
+        - listitem:
+          - link "ABOUT" [ref=e3]:
+            - /url: /#about
+        - listitem:
+          - link "PRODUCTS" [ref=e4]:
+            - /url: /#products
+        - listitem:
+          - link "STORY" [ref=e5]:
+            - /url: /#story
+      - listitem:
+        - link "INSTAGRAM" [ref=e6]:
+          - /url: https://www.instagram.com/m_i_m_jp/
+      - listitem:
+        - link "X" [ref=e7]:
+          - /url: https://x.com/m_i_m_jp
+    - link "SHOPPING BAG ( 0 )" [ref=e8]:
+      - /url: /cart
+  - main:
+    - paragraph: "404"
+    - heading "ページが見つかりません" [ref=e9] [level=1]
+    - link "買い物を続ける" [ref=e10]:
+      - /url: /collections/all
+  - contentinfo:
+    - navigation:
+        - listitem:
+          - link "プライバシーポリシー" [ref=e11]:
+            - /url: /policies/privacy-policy/
+        - listitem:
+          - link "利用規約" [ref=e12]:
+            - /url: /policies/terms-of-service/
+        - listitem:
+          - link "特定商取引法に基づく表記" [ref=e13]:
+            - /url: /policies/legal-notice/
+        - listitem:
+          - link "お問い合わせ" [ref=e14]:
+            - /url: /pages/contact/
+    - text: ©2026 THE MIM
+  - button "年末年始の対応について 2025/12/27から2026/1/6の期間、発送およびお問い合わせ対応をお休みいたします。ご不便をおかけしますが、1/7以降順次対応します。" [ref=e15]:
+

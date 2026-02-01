@@ -1,0 +1,18 @@
+# BuzzFeed Japan News
+
+Notion URL: https://www.notion.so/135f3b0fba8581b09347e754c60c4b53
+同期日時: 2026-01-27T18:30:00+09:00
+
+---
+
+## プロパティ
+
+- **アカウント名**: BuzzFeed Japan News
+- **ジャンル**: 法人②
+- **小ジャンル**: サービス
+- **フォロワー（k）**: 45
+- **投稿数**: 826
+- **マネタイズ**: 公式サイト
+- **アカウントURL**: https://www.instagram.com/buzzfeednews_jp/
+- **アカ作成月**: 2018-07-01
+- **表示用**: 45000フォロワー

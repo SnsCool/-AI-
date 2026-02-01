@@ -1,0 +1,14 @@
+{
+  "page_id": "2a2f3b0f-ba85-803b-b054-f5e976dd264e",
+  "title": "領収書",
+  "created_time": "2025-11-05T09:15:00.000Z",
+  "last_edited_time": "2025-11-06T15:26:00.000Z",
+  "url": "https://www.notion.so/2a2f3b0fba85803bb054f5e976dd264e",
+  "properties": {
+    "担当": {"type": "multi_select", "value": "ともえ"},
+    "連絡場所": {"type": "rich_text", "value": ""},
+    "中分類": {"type": "rich_text", "value": "領収書"},
+    "大分類": {"type": "multi_select", "value": "経理"},
+    "備考": {"type": "title", "value": ""}
+  }
+}

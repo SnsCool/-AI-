@@ -1,0 +1,36 @@
+# リンク先コンテンツ
+
+**URL**: https://miro.com/app/board/uXjVJXMeZpM=/
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 週次（9月23日）
+**取得日時**: 2026-01-22T16:44:04.031917
+
+---
+
+## コンテンツ
+
+  - heading "こまいさんチーム - Miro" [ref=e1] [level=1]
+  - toolbar "Board":
+    - button "Home" [ref=e2]
+    - button "board-icon" [ref=e3] [disabled]:
+    - button "Click to rename" [ref=e4]: こまいさんチーム
+    - button "Main menu" [ref=e5]
+    - button "export this board" [ref=e6]
+    - text: Continue collaborating using your real name.
+    - button "Sign up for free" [ref=e7]
+  - toolbar "People":
+    - button "Facilitation tools and reactions" [ref=e8]
+    - button "Activity" [ref=e9]
+    - button "Record and watch Talktracks" [ref=e10]
+    - button "Editing" [ref=e11]
+  - toolbar "Creation":
+    - button "Select" [ref=e12]
+    - button "Sticky note" [ref=e13]
+    - button "Shapes and lines" [ref=e14]
+    - button "Text" [ref=e15]
+    - button "Undo" [ref=e16] [disabled]
+    - button "Redo" [ref=e17] [disabled]
+  - button [ref=e18]
+

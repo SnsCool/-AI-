@@ -1,0 +1,17 @@
+# せがた三四郎
+
+Notion URL: https://www.notion.so/07d1d35497d747b4a4a54cdde34ed493
+同期日時: 2026-01-27T15:40:00+09:00
+
+---
+
+## プロパティ
+
+- **キャッチコピー**: せがた三四郎
+- **参照リンク**: https://www.google.com/url?sa=i&url=https%3A%2F%2Fnews.denfaminicogamer.jp%2Fnews%2F190330d&psig=AOvVaw01D57MQdC5FRI8K28U5Q2J&ust=1680937819917000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLCO6cSbl_4CFQAAAAAdAAAAABAD
+- **番号**: 128
+- **memo**:
+- **訴求方法**: だじゃれ
+- **企業名, 商品名**: セガサターン　セガ
+- **いいね**: false
+- **画像**: https://img-denfaminicogamer.com/wp-content/uploads/2019/03/30202814/6.jpg

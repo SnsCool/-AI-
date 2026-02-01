@@ -1,0 +1,34 @@
+# リンク先コンテンツ
+
+**URL**: https://tiget.net/users/provider_sign_up
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 2月合宿制作
+**取得日時**: 2026-01-22T15:31:15.314744
+
+---
+
+## コンテンツ
+
+  - heading "Let's confirm you are human" [ref=e1] [level=1]
+  - paragraph: Complete the security check before continuing. This step verifies that you are not a bot, which helps to protect your account and prevent spam.
+  - button "Begin begin" [ref=e2]:
+    - text: Begin
+  - combobox "Select language" [ref=e3]:
+    - option "العربية" [ref=e4]
+    - option "Čeština" [ref=e5]
+    - option "Dansk" [ref=e6]
+    - option "Deutsch" [ref=e7]
+    - option "English" [ref=e8] [selected]
+    - option "Español" [ref=e9]
+    - option "Français" [ref=e10]
+    - option "Italiano" [ref=e11]
+    - option "日本語" [ref=e12]
+    - option "Nederlands" [ref=e13]
+    - option "Polski" [ref=e14]
+    - option "Português" [ref=e15]
+    - option "Svenska" [ref=e16]
+    - option "Türkçe" [ref=e17]
+    - option "中文" [ref=e18]
+

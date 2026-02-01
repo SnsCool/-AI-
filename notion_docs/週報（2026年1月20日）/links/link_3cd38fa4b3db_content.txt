@@ -1,0 +1,43 @@
+# リンク先コンテンツ
+
+**URL**: https://www.instagram.com/kana_oyatsu/
+**種類**: video
+**タイトル**: 動画コンテンツ
+**リンクテキスト**: 
+**参照元**: 週報（2026年1月20日）
+**取得日時**: 2026-01-22T13:16:32.833593
+
+---
+
+## コンテンツ
+
+Here are the text detections:
+```json
+[
+  {"box_2d": [108, 430, 184, 568], "text": "Instagram"},
+  {"box_2d": [249, 402, 271, 556], "text": "Phone number, username, or email"},
+  {"box_2d": [309, 402, 330, 445], "text": "Password"},
+  {"box_2d": [367, 395, 413, 604], "text": "Log in"},
+  {"box_2d": [443, 492, 460, 506], "text": "OR"},
+  {"box_2d": [507, 458, 529, 568], "text": "Log in with Facebook"},
+  {"box_2d": [562, 453, 584, 545], "text": "Forgot password?"},
+  {"box_2d": [664, 420, 688, 580], "text": "Don't have an account? Sign up"},
+  {"box_2d": [842, 137, 864, 159], "text": "Meta"},
+  {"box_2d": [844, 171, 862, 198], "text": "About"},
+  {"box_2d": [844, 211, 862, 232], "text": "Blog"},
+  {"box_2d": [844, 244, 862, 266], "text": "Jobs"},
+  {"box_2d": [844, 279, 862, 298], "text": "Help"},
+  {"box_2d": [844, 311, 862, 326], "text": "API"},
+  {"box_2d": [844, 337, 862, 369], "text": "Privacy"},
+  {"box_2d": [844, 381, 862, 410], "text": "Terms"},
+  {"box_2d": [844, 423, 862, 465], "text": "Locations"},
+  {"box_2d": [844, 477, 862, 541], "text": "Instagram Lite"},
+  {"box_2d": [844, 552, 862, 584], "text": "Meta Al"},
+  {"box_2d": [844, 597, 862, 633], "text": "Threads"},
+  {"box_2d": [844, 646, 862, 789], "text": "Contact Uploading & Non-Users"},
+  {"box_2d": [844, 801, 862, 861], "text": "Meta Verified"},
+  {"box_2d": [892, 408, 911, 439], "text": "English"},
+  {"box_2d": [892, 477, 911, 591], "text": "2026 Instagram from Meta"},
+  {"box_2d": [959, 38, 981, 370], "text": "By continuing, you agree to Instagram's Terms of Use and Privacy Policy."}
+]
+```

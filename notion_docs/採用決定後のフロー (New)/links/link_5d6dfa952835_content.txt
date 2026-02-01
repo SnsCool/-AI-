@@ -1,0 +1,17 @@
+# リンク先コンテンツ
+
+**URL**: https://discord.gg/KNWheEzNJV
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 採用決定後のフロー (New)
+**取得日時**: 2026-01-22T15:40:01.270893
+
+---
+
+## コンテンツ
+
+  - heading "Discord App Launched" [ref=e1] [level=1]
+  - text: We've beamed the info to your Discord app. You can close this browser tab or continue with the web version.
+  - button "Continue to Discord" [ref=e2]
+

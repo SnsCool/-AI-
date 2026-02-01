@@ -1,0 +1,320 @@
+# リンク先コンテンツ
+
+**URL**: https://bulk.co.jp/lp?u=BUL_brand_SC_RN5_004&utm_source=brand&utm_medium=BUL&utm_campaign=BUL_brand_SC_RN5_004&utm_content=SC
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 1_20
+**取得日時**: 2026-01-22T15:46:11.900375
+
+---
+
+## コンテンツ
+
+  - link [ref=e1]:
+    - /url: "#form-wrapper"
+  - link [ref=e2] [nth=1]:
+    - /url: "#form-wrapper"
+  - button "Previous" [ref=e3]
+  - button "Next" [ref=e4]
+    - listitem:
+      - button "• 1" [ref=e5]
+    - listitem:
+      - button "• 2" [ref=e6]
+    - listitem:
+      - button "• 3" [ref=e7]
+  - button "Previous" [ref=e8] [nth=1]
+  - button "Next" [ref=e9] [nth=1]
+    - listitem:
+      - button "• 1" [ref=e10] [nth=1]
+    - listitem:
+      - button "• 2" [ref=e11] [nth=1]
+    - listitem:
+      - button "• 3" [ref=e12] [nth=1]
+    - listitem:
+      - button "• 4" [ref=e13]
+    - listitem:
+      - button "• 5" [ref=e14]
+    - listitem:
+      - button "• 6" [ref=e15]
+  - text: Amazonアカウントで簡単お申込み！
+  - button "Amazon Pay - Amazonアカウントをお使いください" [ref=e16]:
+  - text: Amazonに登録しているお支払い情報、お届け先情報を使用して簡単にお申込みが可能です。
+  - heading "お客様情報のご入力" [ref=e17] [level=4]
+  - paragraph:
+    - checkbox "入力を省略する（当サイトで購入したことがある方）" [ref=e18]
+    - text: 入力を省略する（当サイトで購入したことがある方）
+  - paragraph: 下記お客さま情報を全てご記入いただき、お申し込みボタンをクリックしてください。
+      - row "商品名 必須 【定期】FACE CARE 3STEP COURSE（初回税込1,280円 /2回目以降税込7,744円）":
+        - rowheader "商品名 必須" [ref=e19]:
+            - strong: 商品名
+            - text: 必須
+        - cell "【定期】FACE CARE 3STEP COURSE（初回税込1,280円 /2回目以降税込7,744円）" [ref=e20]:
+          - paragraph: 【定期】FACE CARE 3STEP COURSE（初回税込1,280円 /2回目以降税込7,744円）
+      - row "お名前 必須 姓： 名：":
+        - rowheader "お名前 必須" [ref=e21]:
+            - strong: お名前
+            - text: 必須
+        - cell "姓： 名：" [ref=e22]:
+          - paragraph:
+            - text: 姓：
+            - textbox "例）山田" [ref=e23]
+          - paragraph:
+            - text: 名：
+            - textbox "例）花子" [ref=e24]
+      - row "フリガナ 必須 セイ： メイ：":
+        - rowheader "フリガナ 必須" [ref=e25]:
+            - strong: フリガナ
+            - text: 必須
+        - cell "セイ： メイ：" [ref=e26]:
+          - paragraph:
+            - text: セイ：
+            - textbox "例）ヤマダ" [ref=e27]
+          - paragraph:
+            - text: メイ：
+            - textbox "例）ハナコ" [ref=e28]
+      - row "郵便番号 必須 〒":
+        - rowheader "郵便番号 必須" [ref=e29]:
+            - strong: 郵便番号
+            - text: 必須
+        - cell "〒" [ref=e30]:
+          - paragraph:
+            - text: 〒
+            - textbox "1500031" [ref=e31]
+      - row "都道府県 必須 選択してください":
+        - rowheader "都道府県 必須" [ref=e32]:
+            - strong: 都道府県
+            - text: 必須
+        - cell "選択してください" [ref=e33]:
+          - combobox [ref=e34]:
+            - option "選択してください" [ref=e35] [selected]
+            - option "北海道" [ref=e36]
+            - option "青森県" [ref=e37]
+            - option "岩手県" [ref=e38]
+            - option "宮城県" [ref=e39]
+            - option "秋田県" [ref=e40]
+            - option "山形県" [ref=e41]
+            - option "福島県" [ref=e42]
+            - option "茨城県" [ref=e43]
+            - option "栃木県" [ref=e44]
+            - option "群馬県" [ref=e45]
+            - option "埼玉県" [ref=e46]
+            - option "千葉県" [ref=e47]
+            - option "東京都" [ref=e48]
+            - option "神奈川県" [ref=e49]
+            - option "新潟県" [ref=e50]
+            - option "富山県" [ref=e51]
+            - option "石川県" [ref=e52]
+            - option "福井県" [ref=e53]
+            - option "山梨県" [ref=e54]
+            - option "長野県" [ref=e55]
+            - option "岐阜県" [ref=e56]
+            - option "静岡県" [ref=e57]
+            - option "愛知県" [ref=e58]
+            - option "三重県" [ref=e59]
+            - option "滋賀県" [ref=e60]
+            - option "京都府" [ref=e61]
+            - option "大阪府" [ref=e62]
+            - option "兵庫県" [ref=e63]
+            - option "奈良県" [ref=e64]
+            - option "和歌山県" [ref=e65]
+            - option "鳥取県" [ref=e66]
+            - option "島根県" [ref=e67]
+            - option "岡山県" [ref=e68]
+            - option "広島県" [ref=e69]
+            - option "山口県" [ref=e70]
+            - option "徳島県" [ref=e71]
+            - option "香川県" [ref=e72]
+            - option "愛媛県" [ref=e73]
+            - option "高知県" [ref=e74]
+            - option "福岡県" [ref=e75]
+            - option "佐賀県" [ref=e76]
+            - option "長崎県" [ref=e77]
+            - option "熊本県" [ref=e78]
+            - option "大分県" [ref=e79]
+            - option "宮崎県" [ref=e80]
+            - option "鹿児島県" [ref=e81]
+            - option "沖縄県" [ref=e82]
+      - row "住所1（市郡区／町・村） 必須":
+        - rowheader "住所1（市郡区／町・村） 必須" [ref=e83]:
+            - strong: 住所1（市郡区／町・村）
+            - text: 必須
+        - cell:
+          - textbox "例）○○市△△区□町" [ref=e84]
+      - row "住所2（丁目・番地） 必須":
+        - rowheader "住所2（丁目・番地） 必須" [ref=e85]:
+            - strong: 住所2（丁目・番地）
+            - text: 必須
+        - cell:
+          - textbox "例）△丁目 1-4" [ref=e86]:
+            - /placeholder: "例）△丁目 1-4 "
+      - row "電話番号 必須":
+        - rowheader "電話番号 必須" [ref=e87]:
+            - strong: 電話番号
+            - text: 必須
+        - cell:
+          - textbox "例）00000000000" [ref=e88]
+      - row "メールアドレス 必須":
+        - rowheader "メールアドレス 必須" [ref=e89]:
+            - strong: メールアドレス
+            - text: 必須
+        - cell:
+          - textbox "例）○○○@example.com" [ref=e90]
+  - heading "お届け先情報" [ref=e91] [level=4]
+      - row "お届け先住所 必須 上記住所と同じ":
+        - rowheader "お届け先住所 必須" [ref=e92]:
+            - strong: お届け先住所
+            - text: 必須
+        - cell "上記住所と同じ" [ref=e93]:
+          - combobox [ref=e94] [nth=1]:
+            - option "上記住所と同じ" [ref=e95] [selected]
+            - option "新しく入力する" [ref=e96]
+  - heading "お支払い情報" [ref=e97] [level=4]
+      - row "お支払い方法 必須 クレジットカード一括(手数料無料) ※マイレージ付与は1週間程度で行われます。お一人様1回限りの付与となります ※マイレージは定期コースご契約の方限定のサービスとなります。詳細はこちらをご覧ください":
+        - rowheader "お支払い方法 必須" [ref=e98]:
+            - strong: お支払い方法
+            - text: 必須
+        - cell "クレジットカード一括(手数料無料) ※マイレージ付与は1週間程度で行われます。お一人様1回限りの付与となります ※マイレージは定期コースご契約の方限定のサービスとなります。詳細はこちらをご覧ください" [ref=e99]:
+          - combobox [ref=e100] [nth=2]:
+            - option "クレジットカード一括(手数料無料)" [ref=e101] [selected]
+            - option "Amazon Pay(手数料無料)" [ref=e102]
+            - option "あと払いペイディ (コンビニ /銀行) ※翌月27日払い" [ref=e103]
+          - text: ※マイレージ付与は1週間程度で行われます。お一人様1回限りの付与となります
+          - paragraph:
+            - text: ※マイレージは定期コースご契約の方限定のサービスとなります。詳細は
+            - link "こちら" [ref=e104]:
+              - /url: https://bulk.co.jp/shop/pages/about_mileage
+            - text: をご覧ください
+      - row "クレジットカード番号 必須 ※ 数字のみで続けて入力してください。":
+        - rowheader "クレジットカード番号 必須" [ref=e105]:
+            - strong: クレジットカード番号
+            - text: 必須
+        - cell "※ 数字のみで続けて入力してください。" [ref=e106]:
+          - paragraph:
+            - textbox "例）4111xxxxxxxxxxxx" [ref=e107]
+          - paragraph: ※ 数字のみで続けて入力してください。
+      - row "カードの有効期限 必須 1 月 26 年 例）カードの表記03/18→03月/18年":
+        - rowheader "カードの有効期限 必須" [ref=e108]:
+            - strong: カードの有効期限
+            - text: 必須
+        - cell "1 月 26 年 例）カードの表記03/18→03月/18年" [ref=e109]:
+          - paragraph:
+            - combobox [ref=e110] [nth=3]:
+              - option "1" [ref=e111] [selected]
+              - option "2" [ref=e112]
+              - option "3" [ref=e113]
+              - option "4" [ref=e114]
+              - option "5" [ref=e115]
+              - option "6" [ref=e116]
+              - option "7" [ref=e117]
+              - option "8" [ref=e118]
+              - option "9" [ref=e119]
+              - option "10" [ref=e120]
+              - option "11" [ref=e121]
+              - option "12" [ref=e122]
+            - text: 月
+            - combobox [ref=e123] [nth=4]:
+              - option "26" [ref=e124] [selected]
+              - option "27" [ref=e125]
+              - option "28" [ref=e126]
+              - option "29" [ref=e127]
+              - option "30" [ref=e128]
+              - option "31" [ref=e129]
+              - option "32" [ref=e130]
+              - option "33" [ref=e131]
+              - option "34" [ref=e132]
+              - option "35" [ref=e133]
+              - option "36" [ref=e134]
+              - option "37" [ref=e135]
+              - option "38" [ref=e136]
+              - option "39" [ref=e137]
+              - option "40" [ref=e138]
+              - option "41" [ref=e139]
+            - text: 年
+          - paragraph: 例）カードの表記03/18→03月/18年
+      - row "セキュリティコード 必須 (VISA MasterCard JCB 等） カード裏面に印字されている下3桁の数字 (American Express） クレジットカードの表面(メインのカード番号の右上）に記載されている 4 桁の数字":
+        - rowheader "セキュリティコード 必須" [ref=e140]:
+            - strong: セキュリティコード
+            - text: 必須
+        - cell "(VISA MasterCard JCB 等） カード裏面に印字されている下3桁の数字 (American Express） クレジットカードの表面(メインのカード番号の右上）に記載されている 4 桁の数字" [ref=e141]:
+          - textbox "例）123" [ref=e142]
+            - listitem: (VISA MasterCard JCB 等） カード裏面に印字されている下3桁の数字
+            - listitem: (American Express） クレジットカードの表面(メインのカード番号の右上）に記載されている 4 桁の数字
+  - heading "配送業者の指定" [ref=e143] [level=4]
+      - row "配送業者 必須 ゆうパック置き配：玄関前 ※配送業者を選択されない場合は【置き配：玄関前】へお届けとなります ※置き配選択時はお届け時間の指定ができません ※マイレージは定期コースご契約の方限定のサービスとなります。単品でのご注文の場合はマイルが付与されません。予めご了承ください。 ・置き配を選択された場合は、置き配規約に同意いただいたこととなります。置き配規約をよくご確認のうえで置き配をご選択ください。 ・一度置き配指定先を設定すると自動的に毎回同じ場所へのお届けとなります。 ・宅配ボックスのないオートロックマンションの場合、置き配指定はできません。 ・可能な限り直射日光や雨風の影響を受けない場所をご指定ください。 置き配について詳しくは「置き配規約」「よくあるご質問」をご覧ください。":
+        - rowheader "配送業者 必須" [ref=e144]:
+            - strong: 配送業者
+            - text: 必須
+        - cell "ゆうパック置き配：玄関前 ※配送業者を選択されない場合は【置き配：玄関前】へお届けとなります ※置き配選択時はお届け時間の指定ができません ※マイレージは定期コースご契約の方限定のサービスとなります。単品でのご注文の場合はマイルが付与されません。予めご了承ください。 ・置き配を選択された場合は、置き配規約に同意いただいたこととなります。置き配規約をよくご確認のうえで置き配をご選択ください。 ・一度置き配指定先を設定すると自動的に毎回同じ場所へのお届けとなります。 ・宅配ボックスのないオートロックマンションの場合、置き配指定はできません。 ・可能な限り直射日光や雨風の影響を受けない場所をご指定ください。 置き配について詳しくは「置き配規約」「よくあるご質問」をご覧ください。" [ref=e145]:
+          - combobox [ref=e146] [nth=5]:
+            - option "ゆうパック：置き配を利用しない" [ref=e147]
+            - option "ゆうパック置き配：玄関前" [ref=e148] [selected]
+            - option "ゆうパック置き配：宅配ボックス" [ref=e149]
+            - option "ゆうパック置き配：ガスメーターボックス" [ref=e150]
+          - text: ※配送業者を選択されない場合は【置き配：玄関前】へお届けとなります ※置き配選択時はお届け時間の指定ができません ※マイレージは定期コースご契約の方限定のサービスとなります。単品でのご注文の場合はマイルが付与されません。予めご了承ください。 ・置き配を選択された場合は、置き配規約に同意いただいたこととなります。置き配規約をよくご確認のうえで置き配をご選択ください。 ・一度置き配指定先を設定すると自動的に毎回同じ場所へのお届けとなります。 ・宅配ボックスのないオートロックマンションの場合、置き配指定はできません。 ・可能な限り直射日光や雨風の影響を受けない場所をご指定ください。 置き配について詳しくは
+          - link "「置き配規約」" [ref=e151]:
+            - /url: https://bulk.co.jp/shop/pages/sp_unattendeddelivery_term
+          - link "「よくあるご質問」" [ref=e152]:
+            - /url: https://bulkhommecohelp.zendesk.com/hc/ja/sections/5143251832463-%E7%BD%AE%E3%81%8D%E9%85%8D%E3%81%A8%E3%81%AF
+          - text: をご覧ください。
+  - heading "お届け日の指定" [ref=e153] [level=4]
+      - row "初回お届け日の指定 指定なし":
+        - rowheader "初回お届け日の指定" [ref=e154]:
+            - strong: 初回お届け日の指定
+        - cell "指定なし" [ref=e155]:
+          - paragraph:
+            - combobox [ref=e156] [nth=6]:
+              - option "指定なし" [ref=e157] [selected]
+              - option "2026-01-28" [ref=e158]
+              - option "2026-01-29" [ref=e159]
+              - option "2026-01-30" [ref=e160]
+              - option "2026-01-31" [ref=e161]
+              - option "2026-02-01" [ref=e162]
+              - option "2026-02-02" [ref=e163]
+              - option "2026-02-03" [ref=e164]
+              - option "2026-02-04" [ref=e165]
+              - option "2026-02-05" [ref=e166]
+              - option "2026-02-06" [ref=e167]
+              - option "2026-02-07" [ref=e168]
+              - option "2026-02-08" [ref=e169]
+              - option "2026-02-09" [ref=e170]
+              - option "2026-02-10" [ref=e171]
+              - option "2026-02-11" [ref=e172]
+      - row "お届け時間の指定 指定なし に配達":
+        - rowheader "お届け時間の指定" [ref=e173]:
+            - strong: お届け時間の指定
+        - cell "指定なし に配達" [ref=e174]:
+          - combobox [ref=e175] [nth=7]:
+            - option "指定なし" [ref=e176] [nth=1] [selected]
+          - text: に配達
+  - checkbox "ショップからのお知らせを受け取る。" [ref=e177] [checked]
+  - text: ショップからのお知らせを受け取る。
+  - checkbox "私は以下の各事項を確認の上で申し込みます。 ・本製品は定期コースであり、私から解約の連絡をしない限り契約が継続する無期限の契約であること。 ・キャンセルポリシー（キャンセル・返品等について）及びプライバシーポリシーに同意していること ・ご購入についての利用規約及び当社の営業活動における利用に同意していること ・（未成年の場合）法定代理人の同意を得ていること。 ※ご購入者様が未成年の場合は、必ずご両親等の法定代理人のご同意を得た上でお申込みください。 未成年の方からのお申込みをいただいたときには、法定代理人の方に確認させていただく場合がございます。" [ref=e178]
+  - text: 私は以下の各事項を確認の上で申し込みます。
+  - paragraph: ・本製品は定期コースであり、私から解約の連絡をしない限り契約が継続する無期限の契約であること。
+  - paragraph:
+    - text: ・
+    - link "キャンセルポリシー（キャンセル・返品等について）" [ref=e179]:
+      - /url: https://bulk.co.jp/shop/pages/sp_cancelpolicy
+    - text: 及び
+    - link "プライバシーポリシー" [ref=e180]:
+      - /url: https://bulk.co.jp/shop/pages/sp_privacypolicy
+    - text: に同意していること
+  - paragraph:
+    - text: ・ご購入についての
+    - link "利用規約" [ref=e181]:
+      - /url: /shop/pages/sp_customer_term
+    - text: 及び当社の営業活動における利用に同意していること
+  - paragraph: ・（未成年の場合）法定代理人の同意を得ていること。 ※ご購入者様が未成年の場合は、必ずご両親等の法定代理人のご同意を得た上でお申込みください。 未成年の方からのお申込みをいただいたときには、法定代理人の方に確認させていただく場合がございます。
+  - button "Submit" [ref=e182]
+  - paragraph: 各製品の配合成分一覧
+  - paragraph: ご購入についての注意事項
+  - paragraph:
+    - link "会社概要" [ref=e183]:
+      - /url: //company.bulk.co.jp/about
+    - link "特定商取引法に基づく表記" [ref=e184]:
+      - /url: /info/law_info
+    - link "個人情報保護方針" [ref=e185]:
+      - /url: /info/privacy
+  - paragraph: © 2025 BULK HOMME
+

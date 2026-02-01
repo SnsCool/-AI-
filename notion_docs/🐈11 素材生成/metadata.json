@@ -1,0 +1,83 @@
+{
+  "id": "2cdf3b0f-ba85-8019-b9d5-f88149d4ea16",
+  "title": "🐈11　素材生成",
+  "created_time": "2025-12-18T15:12:00.000Z",
+  "last_edited_time": "2025-12-21T14:56:00.000Z",
+  "parent": {
+    "type": "database_id",
+    "database_id": "284f3b0f-ba85-81fe-bc7f-c7f74caad078"
+  },
+  "url": "https://www.notion.so/11-2cdf3b0fba858019b9d5f88149d4ea16",
+  "properties": {
+    "サブアイテム": {
+      "id": "%3B%3Cy~",
+      "type": "relation",
+      "relation": [],
+      "has_more": false
+    },
+    "ステータス": {
+      "id": "%3D%3C%5Ce",
+      "type": "status",
+      "status": {
+        "id": "66a0d2df-bb2f-46c1-b120-90dad1b972b9",
+        "name": "完了",
+        "color": "green"
+      }
+    },
+    "親アイテム": {
+      "id": "DVv%5C",
+      "type": "relation",
+      "relation": [],
+      "has_more": false
+    },
+    "日付": {
+      "id": "PKu%3F",
+      "type": "date",
+      "date": null
+    },
+    "着手": {
+      "id": "o%3BBC",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "担当者": {
+      "id": "p%3E%7BH",
+      "type": "people",
+      "people": [
+        {
+          "object": "user",
+          "id": "20cd872b-594c-81bb-93f2-00028e56e305",
+          "name": "いむ",
+          "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIq-oAYv2-dQ63P7OYV93jW-9v7N4VFVCwrvYAO8McRpez573Y=s100",
+          "type": "person",
+          "person": {
+            "email": "imu.slowlife559014@gmail.com"
+          }
+        }
+      ]
+    },
+    "タスク": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "🐈11　素材生成",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "🐈11　素材生成",
+          "href": null
+        }
+      ]
+    }
+  }
+}

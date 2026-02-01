@@ -1,0 +1,12 @@
+{
+  "page_id": "21ff3b0f-ba85-8014-85f6-c2bf6b75193c",
+  "created_time": "2025-06-27T07:46:00.000Z",
+  "last_edited_time": "2025-07-26T00:48:00.000Z",
+  "url": "https://www.notion.so/21ff3b0fba85801485f6c2bf6b75193c",
+  "properties": {
+    "開催日": {"type": "date", "date": {"start": "2025-07-21T10:00:00.000+09:00"}},
+    "曜日": {"type": "rich_text", "rich_text": [{"plain_text": "月（祝）"}]},
+    "担当者": {"type": "people", "people": [{"name": "akane"}]},
+    "": {"id": "title", "type": "title", "title": [{"plain_text": "🌸入学式"}]}
+  }
+}

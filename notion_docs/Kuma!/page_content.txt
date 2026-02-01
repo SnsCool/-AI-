@@ -1,0 +1,17 @@
+# Kuma!
+
+Notion URL: https://www.notion.so/Kuma-154f3b0fba8581efb3bdd64fde1f5e69
+同期日時: 2026-01-27T21:00:00+09:00
+
+---
+
+## プロパティ
+
+- **アカウント名**: Kuma!
+- **アカウントURL**: https://www.tiktok.com/@happier_bear
+- **フォロワー（k)**: 99.7
+- **ジャンル**: 特技・趣味
+- **小ジャンル**: 音楽
+- **お気に入り**: false
+- **備考**:
+

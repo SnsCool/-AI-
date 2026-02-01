@@ -1,0 +1,12 @@
+{
+  "page_id": "26ff3b0f-ba85-81d4-a136-e6161848aaf8",
+  "created_time": "2025-09-15T05:06:00.000Z",
+  "last_edited_time": "2025-09-15T05:06:00.000Z",
+  "url": "https://www.notion.so/26ff3b0fba8581d4a136e6161848aaf8",
+  "properties": {
+    "担当者": {"type": "people", "people": []},
+    "日付": {"type": "date", "date": {"start": "2025-09-18"}},
+    "ステータス": {"type": "status", "status": {"name": "未着手"}},
+    "メディア": {"id": "title", "type": "title", "title": [{"plain_text": "アカウント開設"}]}
+  }
+}

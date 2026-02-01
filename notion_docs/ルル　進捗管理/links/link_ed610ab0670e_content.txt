@@ -1,0 +1,21 @@
+# リンク先コンテンツ
+
+**URL**: https://drive.google.com/drive/folders/117VL3zZ28jkHZkIF_GyxDLZHhpklQXsh
+**種類**: gdrive
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: ルル　進捗管理
+**取得日時**: 2026-01-22T13:40:21.815916
+
+---
+
+## コンテンツ
+
+  - dialog "ドライブをお試しください（料金不要） Google ドライブは、あらゆるファイルを安全に保管しておけるサービスです さっそくお試しください":
+    - heading "Google ドライブについて" [ref=e1]
+    - button "閉じる" [ref=e2]:
+      - heading "ドライブをお試しください（料金不要）" [ref=e3] [level=1]
+      - paragraph:
+        - text: Google ドライブは、あらゆるファイルを安全に保管しておけるサービスです さっそく
+        - link "お試しください" [ref=e4]
+

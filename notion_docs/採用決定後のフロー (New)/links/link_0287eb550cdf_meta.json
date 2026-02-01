@@ -1,0 +1,8 @@
+{
+  "url": "https://discord.com/channels/1172020927047942154/1258675476281557022",
+  "type": "webpage",
+  "processed_at": "2026-01-22T15:40:22.702507",
+  "content": "  - heading \"Discord App Detected\" [ref=e1] [level=1]\n  - text: Do you want to open this link in your Discord app?\n  - button \"Open App\" [ref=e2]\n  - button \"Continue in Browser\" [ref=e3]\n",
+  "title": "Webページ",
+  "error": null
+}

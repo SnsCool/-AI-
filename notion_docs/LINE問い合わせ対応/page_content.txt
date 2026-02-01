@@ -1,0 +1,9 @@
+# LINE問い合わせ対応
+
+Notion URL: https://www.notion.so/LINE-2c4f3b0fba85800793f5f39ba8275ded
+同期日時: 2026-01-20 22:37:36
+
+---
+
+決済未完了の人に決済催促のリマインド
+PayPalからユニバペイ移行のリマインド

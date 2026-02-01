@@ -1,0 +1,8 @@
+{
+  "url": "https://whimsical.com/generated-board-7qhyTJkwVCJfrkfVJDCvu9",
+  "type": "webpage",
+  "processed_at": "2026-01-22T14:55:07.861738",
+  "content": "  - text: You must be signed in to access this page.\n  - button \"Sign in\" [ref=e1]\n  - banner:\n    - link \"Sign in\" [ref=e2]:\n      - /url: /login\n    - link \"Try Whimsical\" [ref=e3]:\n      - /url: /signup\n    - link [ref=e4]:\n      - /url: /\n  - textbox [ref=e5]\n",
+  "title": "Webページ",
+  "error": null
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://drive.google.com/drive/u/0/folders/1WS3i9rPB3yYTmu4uUx9o3YSGy1cBwmHE",
+  "type": "gdrive",
+  "processed_at": "2026-01-23T07:17:20.586910",
+  "content": "Google Driveにサインインするためのページです。\n\n**主要機能:**\n\n*   **サインイン**:\n    *   「Email or phone」と表示されたテキストボックスにメールアドレスまたは電話番号を入力します。\n    *   入力後、「Next」ボタンをクリックして続行します。\n    *   メールアドレスを忘れた場合は、「Forgot email?」リンクから回復手続きが可能です。\n*   **セキュリティに関する注意喚起**:\n    *   共有のコンピュータを使用している場合は、プライベートブラウジングウィンドウを使ってサインインすることが推奨されています。\n    *   ゲストモードの使用については、「Learn more about using Guest mode」リンクから詳細情報を確認できます。\n*   **新規アカウント作成**:\n    *   アカウントを持っていない場合は、「Create account」リンクから新しいアカウントを作成できます。\n\n**ページ下部（フッター）:**\n\n*   **言語選択**:\n    *   多数の言語オプションが選択できるコンボボックスが提供されており、初期設定では「English (United States)」が選択されています。\n*   **関連情報**:\n    *   「Help」\n    *   「Privacy」\n    *   「Terms」\n    上記のリンクから、Googleアカウントに関するヘルプ、プライバシーポリシー、および利用規約を参照できます。",
+  "title": "Webページ",
+  "error": null
+}

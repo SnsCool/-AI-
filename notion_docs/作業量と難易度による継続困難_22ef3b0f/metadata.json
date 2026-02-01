@@ -1,0 +1,17 @@
+{
+  "page_id": "22ef3b0f-ba85-807c-b08a-fe659b2d36b6",
+  "title": "作業量と難易度による継続困難",
+  "created_time": "2025-07-12T13:56:00.000Z",
+  "last_edited_time": "2025-07-12T15:07:00.000Z",
+  "url": "https://www.notion.so/22ef3b0fba85807cb08afe659b2d36b6",
+  "properties": {
+    "クラス": {"type": "rich_text", "value": "えりかB組"},
+    "運営LINE URL": {"type": "url", "value": "https://manager.linestep.net/line/detail/184683360"},
+    "トラブルカテゴリ": {"type": "select", "value": "サービス内容"},
+    "クローザー": {"type": "select", "value": "久保良允"},
+    "決済月": {"type": "rich_text", "value": "2025年1月23日"},
+    "生徒名": {"type": "rich_text", "value": "のなかせつこ"},
+    "発生時期": {"type": "date", "value": "2025-01-17"},
+    "具体的な内容": {"type": "title", "value": "作業量と難易度による継続困難"}
+  }
+}

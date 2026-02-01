@@ -1,0 +1,8 @@
+{
+  "url": "https://v0-roulette-app-lyart.vercel.app/",
+  "type": "webpage",
+  "processed_at": "2026-01-22T16:09:56.458572",
+  "content": "  - main:\n    - heading \"🎯 れおチーム ルーレット\" [ref=e1] [level=1]\n    - button \"スタート！\" [ref=e2]\n    - text: れおたん ももてぃん めい たっつみん さっしー みさ うき しゅん兄 たけるん りか\n  - link \"Built with\" [ref=e3]:\n    - /url: https://v0.app/chat/api/open/built-with-v0/b_8xRUu5kTJ64?ref=V5H9LP\n    - text: Built with\n  - button \"Close\" [ref=e4]:\n  - text: v0\n",
+  "title": "Webページ",
+  "error": null
+}

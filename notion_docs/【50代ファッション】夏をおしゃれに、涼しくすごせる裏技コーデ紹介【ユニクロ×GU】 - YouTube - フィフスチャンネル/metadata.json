@@ -1,0 +1,197 @@
+{
+  "object": "page",
+  "id": "8b5f329c-da38-4e70-8f0a-6876083f98e2",
+  "created_time": "2023-05-31T04:07:00.000Z",
+  "last_edited_time": "2023-05-31T04:07:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "16276fe1-0dd7-4e84-9d4d-fccae90f4411"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "16276fe1-0dd7-4e84-9d4d-fccae90f4411"
+  },
+  "cover": {
+    "type": "external",
+    "external": {
+      "url": "https://i.ytimg.com/vi/XyaZYkUzbw4/maxresdefault.jpg"
+    }
+  },
+  "icon": {
+    "type": "external",
+    "external": {
+      "url": "https://yt3.ggpht.com/JV8zw50M2UTgGW84XOtmpWr9tmgM-x9S2Fnre86ispG4p77Kia3sNf6_ZHmPQNMRO5SMa0NU3w=s88-c-k-c0x00ffffff-no-rj"
+    }
+  },
+  "parent": {
+    "type": "data_source_id",
+    "data_source_id": "e3bdc6e9-2b52-4366-b433-56e77317bb94",
+    "database_id": "c61d77b9-b0e3-4554-bae5-4cebc70a6c9d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "is_locked": false,
+  "properties": {
+    "お気に入り": {
+      "id": "%3B%3CwS",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "順位": {
+      "id": "B%7DaY",
+      "type": "select",
+      "select": {
+        "id": "45876851-d2fb-4286-a696-60fd89bf8a1a",
+        "name": "2位",
+        "color": "pink"
+      }
+    },
+    "再生回数": {
+      "id": "N%5CnH",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "13万 回視聴",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "13万 回視聴",
+          "href": null
+        }
+      ]
+    },
+    "フォロワー数": {
+      "id": "U%5DSC",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "チャンネル登録者数 6820人",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "チャンネル登録者数 6820人",
+          "href": null
+        }
+      ]
+    },
+    "チャンネル名": {
+      "id": "X%7B%5E%5B",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "フィフスチャンネル",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "フィフスチャンネル",
+          "href": null
+        }
+      ]
+    },
+    "動画URL": {
+      "id": "%5E%3BjT",
+      "type": "url",
+      "url": "https://www.youtube.com/watch?v=XyaZYkUzbw4"
+    },
+    "25文字制限": {
+      "id": "_yPD",
+      "type": "formula",
+      "formula": {
+        "type": "string",
+        "string": "【50代ファッション】夏をおしゃれに、涼しくすごせ"
+      }
+    },
+    "ジャンル": {
+      "id": "qJgQ",
+      "type": "select",
+      "select": {
+        "id": "F^LZ",
+        "name": "ファッション",
+        "color": "default"
+      }
+    },
+    "作成者": {
+      "id": "zVpd",
+      "type": "created_by",
+      "created_by": {
+        "object": "user",
+        "id": "16276fe1-0dd7-4e84-9d4d-fccae90f4411"
+      }
+    },
+    "コメント数 (件)": {
+      "id": "~SuY",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "10",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "10",
+          "href": null
+        }
+      ]
+    },
+    "タイトル": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "【50代ファッション】夏をおしゃれに、涼しくすごせる裏技コーデ紹介【ユニクロ×GU】 - YouTube - フィフスチャンネル",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "【50代ファッション】夏をおしゃれに、涼しくすごせる裏技コーデ紹介【ユニクロ×GU】 - YouTube - フィフスチャンネル",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/50-GU-YouTube-8b5f329cda384e708f0a6876083f98e2",
+  "public_url": "https://shared-beak-b34.notion.site/50-GU-YouTube-8b5f329cda384e708f0a6876083f98e2"
+}

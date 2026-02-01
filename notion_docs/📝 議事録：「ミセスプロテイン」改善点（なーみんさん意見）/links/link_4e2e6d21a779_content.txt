@@ -1,0 +1,407 @@
+# リンク先コンテンツ
+
+**URL**: https://sucreyshopping.jp/themaplemania?gad_source=1&gad_campaignid=17996059596&gbraid=0AAAAACV8JBGiKS7HBzm-tooKbk6zFhIwd&gclid=Cj0KCQjw3OjGBhDYARIsADd-uX7x2LqC29b065YjCnN3xZgQoeI7fb185hSHPmjLCelsqaWheJCLta0aAv67EALw_wcB
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 📝 議事録：「ミセスプロテイン」改善点（なーみんさん意見）
+**取得日時**: 2026-01-22T15:32:23.107523
+
+---
+
+## コンテンツ
+
+  - banner:
+    - link "ザ・メープルマニア ロゴ" [ref=e1]:
+      - /url: /themaplemania
+      - listitem:
+        - link "STORY" [ref=e2]:
+          - /url: /themaplemania/about
+      - listitem:
+        - link "PRODUCTS" [ref=e3]:
+          - /url: /shop/c/c10/?brand=themaplemania
+      - listitem:
+        - link "STORE" [ref=e4]:
+          - /url: /themaplemania/shoplist
+      - listitem:
+        - link "NEWS" [ref=e5]:
+          - /url: /themaplemania#news
+      - listitem:
+        - link "BRAND" [ref=e6]:
+          - /url: /brandlist
+      - listitem:
+        - link "RANKING" [ref=e7]:
+          - /url: /shop/e/eranking-daily-tmm/
+      - listitem:
+        - link "LARGE ORDER" [ref=e8]:
+          - /url: /large_order?utm_source=other&utm_medium=other&utm_campaign=20250210globalnavi
+    - textbox "商品を検索する" [ref=e9]:
+      - /placeholder: KEYWORD
+    - button "Submit" [ref=e10]: search
+      - listitem:
+        - link "初めての方へ" [ref=e11]:
+          - /url: /shopping-guide
+      - listitem:
+        - link "ログイン" [ref=e12]:
+          - /url: /shop/customer/menu.aspx
+      - listitem:
+        - link "カート" [ref=e13]:
+          - /url: /shop/cart/cart.aspx
+  - group "4 / 5":
+    - link "【期間限定】メープルピスタチオクッキー ショコラクッキーとの合わせ買いが出来るのは今だけ！！無くなる前にお早めがおすすめです！" [ref=e14]:
+      - /url: /shop/g/gtmm01127/
+      - text: 【期間限定】メープルピスタチオクッキー
+      - paragraph: ショコラクッキーとの合わせ買いが出来るのは今だけ！！無くなる前にお早めがおすすめです！
+  - group "5 / 5":
+    - link "【期間限定】ザ・メープルマニアセレクション 32個入(ピスタチオ) ご挨拶・お礼などのギフトにもおすすめ。今だけの特別なセレクションです。" [ref=e15]:
+      - /url: /shop/g/gtmm09404/
+      - text: 【期間限定】ザ・メープルマニアセレクション 32個入(ピスタチオ)
+      - paragraph: ご挨拶・お礼などのギフトにもおすすめ。今だけの特別なセレクションです。
+  - group "1 / 5":
+    - link "＼2月14日はバレンタインデー♪／バレンタイン早期ポイントアップキャンペーン 期間中、「メープルショコラクッキー」をご注文でWOWポイント2倍付与！" [ref=e16]:
+      - /url: https://sucreyshopping.jp/shop/g/gtmm01302/
+      - text: ＼2月14日はバレンタインデー♪／バレンタイン早期ポイントアップキャンペーン
+      - paragraph: 期間中、「メープルショコラクッキー」をご注文でWOWポイント2倍付与！
+  - group "2 / 5":
+    - link "ビジネスギフトにおすすめ ザ・メープルマニアからはビジネスギフトに「メープルギフト18枚詰合せ」をおすすめいたします！" [ref=e17]:
+      - /url: https://sucreyshopping.jp/shop/g/gtmm09210/
+      - text: ビジネスギフトにおすすめ
+      - paragraph: ザ・メープルマニアからはビジネスギフトに「メープルギフト18枚詰合せ」をおすすめいたします！
+  - group "3 / 5":
+    - link "メープルフィナンシェ ひとくち食べれば、リッチで甘いメープルの香り。メープルマニア自慢のフィナンシェです。" [ref=e18]:
+      - /url: /shop/e/ecategory-tmm-financier/
+      - text: メープルフィナンシェ
+      - paragraph: ひとくち食べれば、リッチで甘いメープルの香り。メープルマニア自慢のフィナンシェです。
+  - group "4 / 5":
+    - link "【期間限定】メープルピスタチオクッキー ショコラクッキーとの合わせ買いが出来るのは今だけ！！無くなる前にお早めがおすすめです！" [ref=e19] [nth=1]:
+      - /url: /shop/g/gtmm01127/
+      - text: 【期間限定】メープルピスタチオクッキー
+      - paragraph: ショコラクッキーとの合わせ買いが出来るのは今だけ！！無くなる前にお早めがおすすめです！
+  - group "5 / 5":
+    - link "【期間限定】ザ・メープルマニアセレクション 32個入(ピスタチオ) ご挨拶・お礼などのギフトにもおすすめ。今だけの特別なセレクションです。" [ref=e20] [nth=1]:
+      - /url: /shop/g/gtmm09404/
+      - text: 【期間限定】ザ・メープルマニアセレクション 32個入(ピスタチオ)
+      - paragraph: ご挨拶・お礼などのギフトにもおすすめ。今だけの特別なセレクションです。
+  - group "1 / 5":
+    - link "＼2月14日はバレンタインデー♪／バレンタイン早期ポイントアップキャンペーン 期間中、「メープルショコラクッキー」をご注文でWOWポイント2倍付与！" [ref=e21] [nth=1]:
+      - /url: https://sucreyshopping.jp/shop/g/gtmm01302/
+      - text: ＼2月14日はバレンタインデー♪／バレンタイン早期ポイントアップキャンペーン
+      - paragraph: 期間中、「メープルショコラクッキー」をご注文でWOWポイント2倍付与！
+  - group "2 / 5":
+    - link "ビジネスギフトにおすすめ ザ・メープルマニアからはビジネスギフトに「メープルギフト18枚詰合せ」をおすすめいたします！" [ref=e22] [nth=1]:
+      - /url: https://sucreyshopping.jp/shop/g/gtmm09210/
+      - text: ビジネスギフトにおすすめ
+      - paragraph: ザ・メープルマニアからはビジネスギフトに「メープルギフト18枚詰合せ」をおすすめいたします！
+  - button "Go to slide 1" [ref=e23]
+  - button "Go to slide 2" [ref=e24]
+  - button "Go to slide 3" [ref=e25]
+  - button "Go to slide 4" [ref=e26]
+  - button "Go to slide 5" [ref=e27]
+  - button "Previous slide" [ref=e28]
+  - button "Next slide" [ref=e29]
+  - heading "STORY ブランドストーリー" [ref=e30] [level=2]
+  - heading "舞台は古き良き時代のアメリカ。 メープル坊やは、いたずらとメープルのお菓子が大好き。" [ref=e31] [level=3]
+  - text: 「ザ・メープルマニア」のお菓子は、ひとつひとつに遊び心と子供のころの冒険心やいたずら心、懐かしさが込められています。 食べた人に少しでも子供のころのワクワクする気持ちを思い出してほしい。そんな気持ちで「ザ・メープルマニア」では、今日もお客様にメープルの甘い香りをお届けしています。
+  - heading "FEATURE 特集" [ref=e32] [level=2]
+    - listitem:
+      - link "ビジネスギフト メープルマニアから「メープルギフト18枚詰合せ」をビジネスギフトにオススメします！" [ref=e33]:
+        - /url: https://sucreyshopping.jp/shop/g/gtmm09210/
+        - text: メープルマニアから「メープルギフト18枚詰合せ」をビジネスギフトにオススメします！
+    - listitem:
+      - link "ごあいさつカード オンラインストア限定！手書きのメッセージが添えられる「ごあいさつギフト」大好評販売中！" [ref=e34]:
+        - /url: /shop/e/ecategory-tmm-goaisatsu/
+        - text: オンラインストア限定！手書きのメッセージが添えられる「ごあいさつギフト」大好評販売中！
+    - listitem:
+      - link "メープルバタークッキー特設 定番の「メープルバタークッキー」の魅力をご紹介！" [ref=e35]:
+        - /url: https://sucreyshopping.jp/themaplemania/cookie
+        - text: 定番の「メープルバタークッキー」の魅力をご紹介！
+    - listitem:
+      - link "大口注文窓口 大口注文をご希望の法人様や個人のお客様は、こちらの窓口よりお気軽にご相談ください" [ref=e36]:
+        - /url: /large_order
+        - text: 大口注文をご希望の法人様や個人のお客様は、こちらの窓口よりお気軽にご相談ください
+    - listitem:
+      - link "ザ・メープルマニアセレクション 32個入(ピスタチオ) 期間限定「ザ・メープルマニアセレクション 32個入(ピスタチオ)」が登場！" [ref=e37]:
+        - /url: https://sucreyshopping.jp/shop/g/gtmm09404/
+        - text: 期間限定「ザ・メープルマニアセレクション 32個入(ピスタチオ)」が登場！
+  - heading "NEW ARRIVAL 新商品" [ref=e38] [level=2]
+  - link "メープルショコラクッキー9枚入" [ref=e39]:
+    - /url: /shop/g/gtmm01302/
+  - text: ザ・メープルマニア
+  - link "メープルショコラクッキー9枚入" [ref=e40] [nth=1]:
+    - /url: /shop/g/gtmm01302/
+  - text: 1,270円(税込) 5.0 （4）
+  - link "メープルピスタチオクッキー9枚入" [ref=e41]:
+    - /url: /shop/g/gtmm01127/
+  - text: ザ・メープルマニア
+  - link "メープルピスタチオクッキー9枚入" [ref=e42] [nth=1]:
+    - /url: /shop/g/gtmm01127/
+  - text: 1,270円(税込) 4.8 （70）
+  - link "ザ・メープルマニアセレクション 32個入(ピスタチオ)" [ref=e43]:
+    - /url: /shop/g/gtmm09404/
+  - text: ザ・メープルマニア
+  - link "ザ・メープルマニアセレクション 32個入(ピスタチオ)" [ref=e44] [nth=1]:
+    - /url: /shop/g/gtmm09404/
+  - text: 5,400円(税込) 4.9 （33）
+  - link "ごあいさつカード（Thankyou) ザ・メープルマニアセレクション 32個入(ピスタチオ)" [ref=e45]:
+    - /url: /shop/g/gec996518/
+  - text: ザ・メープルマニア
+  - link "ごあいさつカード（Thankyou) ザ・メープルマニアセレクション 32個入(ピスタチオ)" [ref=e46] [nth=1]:
+    - /url: /shop/g/gec996518/
+  - text: 5,400円(税込) 4.9 （14）
+  - link "MORE" [ref=e47]:
+    - /url: /shop/e/enewitem-tmm/
+  - heading "PRODUCTS 商品情報" [ref=e48] [level=2]
+    - listitem:
+      - heading "MAPLE BUTTER COOKIE メープルバタークッキー" [ref=e49] [level=3]
+      - group "1 / 6":
+        - term:
+          - link "メープルバタークッキー9枚入" [ref=e50]:
+            - /url: /shop/g/gtmm01107/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "メープルバタークッキー9枚入" [ref=e51] [nth=1]:
+            - /url: /shop/g/gtmm01107/
+          - text: 1,130円(税込) 4.9 （308）
+      - group "2 / 6":
+        - term:
+          - link "メープルバタークッキー18枚入" [ref=e52]:
+            - /url: /shop/g/gtmm01108/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "メープルバタークッキー18枚入" [ref=e53] [nth=1]:
+            - /url: /shop/g/gtmm01108/
+          - text: 2,260円(税込) 4.8 （171）
+      - group "3 / 6":
+        - term:
+          - link "メープルバタークッキー32枚入" [ref=e54]:
+            - /url: /shop/g/gtmm01109/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "メープルバタークッキー32枚入" [ref=e55] [nth=1]:
+            - /url: /shop/g/gtmm01109/
+          - text: 4,000円(税込) 4.8 （100）
+      - group "4 / 6":
+        - term:
+          - link "【お急ぎ便】メープルバタークッキー9枚入" [ref=e56]:
+            - /url: /shop/g/gtmm01107ex/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "【お急ぎ便】メープルバタークッキー9枚入" [ref=e57] [nth=1]:
+            - /url: /shop/g/gtmm01107ex/
+          - text: 1,130円(税込) 4.9 （57）
+      - group "5 / 6":
+        - term:
+          - link "【お急ぎ便】メープルバタークッキー18枚入" [ref=e58]:
+            - /url: /shop/g/gtmm01108ex/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "【お急ぎ便】メープルバタークッキー18枚入" [ref=e59] [nth=1]:
+            - /url: /shop/g/gtmm01108ex/
+          - text: 2,260円(税込) 4.9 （38）
+      - group "6 / 6":
+        - term:
+          - link "【お急ぎ便】メープルバタークッキー32枚入" [ref=e60]:
+            - /url: /shop/g/gtmm01109ex/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "【お急ぎ便】メープルバタークッキー32枚入" [ref=e61] [nth=1]:
+            - /url: /shop/g/gtmm01109ex/
+          - text: 4,000円(税込) 5.0 （22）
+      - button "Next slide" [ref=e62] [nth=1]
+    - listitem:
+      - heading "MAPLE FINANCIER メープルフィナンシェ" [ref=e63] [level=3]
+      - group "1 / 3":
+        - term:
+          - link "メープルフィナンシェ6個入" [ref=e64]:
+            - /url: /shop/g/gtmm02108/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "メープルフィナンシェ6個入" [ref=e65] [nth=1]:
+            - /url: /shop/g/gtmm02108/
+          - text: 1,300円(税込) 4.9 （98）
+      - group "2 / 3":
+        - term:
+          - link "メープルフィナンシェ12個入" [ref=e66]:
+            - /url: /shop/g/gtmm02109/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "メープルフィナンシェ12個入" [ref=e67] [nth=1]:
+            - /url: /shop/g/gtmm02109/
+          - text: 2,600円(税込) 4.9 （7）
+      - group "3 / 3":
+        - term:
+          - link "メープルフィナンシェ12個入 5箱セット" [ref=e68]:
+            - /url: /shop/g/gec996556/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "メープルフィナンシェ12個入 5箱セット" [ref=e69] [nth=1]:
+            - /url: /shop/g/gec996556/
+          - text: 13,000円(税込)
+      - button "Next slide" [ref=e70] [nth=2]
+    - listitem:
+      - heading "LIMITED COOKIES ＜期間限定＞ メープルピスタチオクッキー" [ref=e71] [level=3]
+      - term:
+        - link "メープルピスタチオクッキー9枚入" [ref=e72] [nth=2]:
+          - /url: /shop/g/gtmm01127/
+      - definition:
+        - text: ザ・メープルマニア
+        - link "メープルピスタチオクッキー9枚入" [ref=e73] [nth=3]:
+          - /url: /shop/g/gtmm01127/
+        - text: 1,270円(税込) 4.8 （70）
+      - term:
+        - link "ザ・メープルマニアセレクション 32個入(ピスタチオ)" [ref=e74] [nth=2]:
+          - /url: /shop/g/gtmm09404/
+      - definition:
+        - text: ザ・メープルマニア
+        - link "ザ・メープルマニアセレクション 32個入(ピスタチオ)" [ref=e75] [nth=3]:
+          - /url: /shop/g/gtmm09404/
+        - text: 5,400円(税込) 4.9 （33）
+    - listitem:
+      - heading "LIMITED COOKIES ＜期間限定＞ メープルショコラクッキー" [ref=e76] [level=3]
+      - term:
+        - link "メープルショコラクッキー9枚入" [ref=e77] [nth=2]:
+          - /url: /shop/g/gtmm01302/
+      - definition:
+        - text: ザ・メープルマニア
+        - link "メープルショコラクッキー9枚入" [ref=e78] [nth=3]:
+          - /url: /shop/g/gtmm01302/
+        - text: 1,270円(税込) 5.0 （4）
+    - listitem:
+      - heading "ASSORTED GIFT メープルマニア詰合せ" [ref=e79] [level=3]
+      - term:
+        - link "メープルギフト18枚詰合せ" [ref=e80]:
+          - /url: /shop/g/gtmm09210/
+      - definition:
+        - text: ザ・メープルマニア
+        - link "メープルギフト18枚詰合せ" [ref=e81] [nth=1]:
+          - /url: /shop/g/gtmm09210/
+        - text: 2,920円(税込) 4.8 （25）
+      - term:
+        - link "【お急ぎ便】メープルギフト18枚詰合せ" [ref=e82]:
+          - /url: /shop/g/gtmm09202ex/
+      - definition:
+        - text: ザ・メープルマニア
+        - link "【お急ぎ便】メープルギフト18枚詰合せ" [ref=e83] [nth=1]:
+          - /url: /shop/g/gtmm09202ex/
+        - text: 2,920円(税込) 4.8 （6）
+    - listitem:
+      - heading "MAPLE BAUMKUCHEN メープルバームクーヘン" [ref=e84] [level=3]
+      - term:
+        - link "メープルバームクーヘン" [ref=e85]:
+          - /url: /shop/g/gtmm05102/
+      - definition:
+        - text: ザ・メープルマニア
+        - link "メープルバームクーヘン" [ref=e86] [nth=1]:
+          - /url: /shop/g/gtmm05102/
+        - text: 2,376円(税込) 4.8 （110）
+      - term:
+        - link "Especially for you メープルバーム ギフトパッケージ" [ref=e87]:
+          - /url: /shop/g/gec996529/
+      - definition:
+        - text: ザ・メープルマニア
+        - link "Especially for you メープルバーム ギフトパッケージ" [ref=e88] [nth=1]:
+          - /url: /shop/g/gec996529/
+        - text: 2,376円(税込) 4.9 （15）
+    - listitem:
+      - heading "ONLINE LIMITED 通販限定商品" [ref=e89] [level=3]
+      - group "1 / 3":
+        - term:
+          - link "ごあいさつカード（Thankyou) メープルギフト18枚詰合せ" [ref=e90]:
+            - /url: /shop/g/gec996476/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "ごあいさつカード（Thankyou) メープルギフト18枚詰合せ" [ref=e91] [nth=1]:
+            - /url: /shop/g/gec996476/
+          - text: 2,920円(税込) 4.8 （26）
+      - group "2 / 3":
+        - term:
+          - link "ごあいさつカード（Thankyou) ザ・メープルマニアセレクション 32個入(ピスタチオ)" [ref=e92] [nth=2]:
+            - /url: /shop/g/gec996518/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "ごあいさつカード（Thankyou) ザ・メープルマニアセレクション 32個入(ピスタチオ)" [ref=e93] [nth=3]:
+            - /url: /shop/g/gec996518/
+          - text: 5,400円(税込) 4.9 （14）
+      - group "3 / 3":
+        - term:
+          - link "ごあいさつカード（Thankyou) メープルバタークッキー32枚入" [ref=e94]:
+            - /url: /shop/g/gec996477/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "ごあいさつカード（Thankyou) メープルバタークッキー32枚入" [ref=e95] [nth=1]:
+            - /url: /shop/g/gec996477/
+          - text: 4,000円(税込) 4.9 （51）
+      - button "Next slide" [ref=e96] [nth=3]
+    - listitem:
+      - heading "STORE LIMITED 店舗限定商品" [ref=e97] [level=3]
+      - group "1 / 7":
+        - term:
+          - link "メープルクッキー詰合せ缶14枚入" [ref=e98]:
+            - /url: /shop/g/g29700040/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "メープルクッキー詰合せ缶14枚入" [ref=e99] [nth=1]:
+            - /url: /shop/g/g29700040/
+          - text: 2,500円(税込)
+      - group "2 / 7":
+        - term:
+          - link "メープルバターサンド3個入" [ref=e100]:
+            - /url: /shop/g/g20700301/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "メープルバターサンド3個入" [ref=e101] [nth=1]:
+            - /url: /shop/g/g20700301/
+          - text: 1,782円(税込)
+      - group "3 / 7":
+        - term:
+          - link "メープルサンデー メープルシロップ" [ref=e102]:
+            - /url: /shop/g/g21700003/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "メープルサンデー メープルシロップ" [ref=e103] [nth=1]:
+            - /url: /shop/g/g21700003/
+          - text: 432円(税込)
+      - group "4 / 7":
+        - term:
+          - link "メープルサンデースペシャル" [ref=e104]:
+            - /url: /shop/g/g21700008/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "メープルサンデースペシャル" [ref=e105] [nth=1]:
+            - /url: /shop/g/g21700008/
+          - text: 648円(税込)
+      - group "5 / 7":
+        - term:
+          - link "メープルサンデー メープルナッツ" [ref=e106]:
+            - /url: /shop/g/g21700005/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "メープルサンデー メープルナッツ" [ref=e107] [nth=1]:
+            - /url: /shop/g/g21700005/
+          - text: 486円(税込)
+      - group "6 / 7":
+        - term:
+          - link "メープルサンデー メープルコーヒー" [ref=e108]:
+            - /url: /shop/g/g21700006/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "メープルサンデー メープルコーヒー" [ref=e109] [nth=1]:
+            - /url: /shop/g/g21700006/
+          - text: 486円(税込)
+      - group "7 / 7":
+        - term:
+          - link "メープルサンデー メープルラズベリー" [ref=e110]:
+            - /url: /shop/g/g21700004/
+        - definition:
+          - text: ザ・メープルマニア
+          - link "メープルサンデー メープルラズベリー" [ref=e111] [nth=1]:
+            - /url: /shop/g/g21700004/
+          - text: 486円(税込)
+      - button "Next slide" [ref=e112] [nth=4]
+  - heading "BRAND ブランド" [ref=e113] [level=2]
+    - listitem:
+      - link "ミスターメープル イメージ ミスターメープル ロゴ ミスターメープル メープル×洋酒のちょっぴり大人なメープルスイーツブランド" [ref=e114]:
+        - /url: /mrmaple
+        - heading "
+
+[... 以下省略 ...]

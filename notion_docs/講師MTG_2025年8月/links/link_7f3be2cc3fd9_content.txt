@@ -1,0 +1,18 @@
+# リンク先コンテンツ
+
+**URL**: https://discord.com/channels/1172020927047942154/1344648444706422904/1383820117909180526
+**種類**: webpage
+**タイトル**: Webページ
+**リンクテキスト**: 
+**参照元**: 講師MTG_2025年8月
+**取得日時**: 2026-01-22T14:50:58.859077
+
+---
+
+## コンテンツ
+
+  - heading "Discord App Detected" [ref=e1] [level=1]
+  - text: Do you want to open this link in your Discord app?
+  - button "Open App" [ref=e2]
+  - button "Continue in Browser" [ref=e3]
+
