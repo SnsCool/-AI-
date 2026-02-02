@@ -1,0 +1,201 @@
+# Zoom バッチ処理ワークフロー
+# 毎時実行または手動トリガーで Zoom 録画を処理
+name: Zoom Batch Processing
+
+on:
+  # 毎時0分に実行（UTC）
+  schedule:
+    - cron: '0 * * * *'
+
+  # 手動実行
+  workflow_dispatch:
+    inputs:
+      group:
+        description: 'グループ番号 (1-6、空欄で全グループ順次実行)'
+        required: false
+        type: string
+        default: ''
+      from_date:
+        description: '開始日 (YYYY-MM-DD)'
+        required: false
+        type: string
+        default: ''
+      to_date:
+        description: '終了日 (YYYY-MM-DD)'
+        required: false
+        type: string
+        default: ''
+      reprocess:
+        description: '再処理フラグ（処理済みも再処理）'
+        required: false
+        type: boolean
+        default: false
+
+env:
+  TZ: 'Asia/Tokyo'
+
+jobs:
+  # マトリクス設定ジョブ
+  setup-matrix:
+    name: Setup Matrix Strategy
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+      should-run: ${{ steps.set-matrix.outputs.should-run }}
+    steps:
+      - id: set-matrix
+        run: |
+          if [ -z "${{ inputs.group }}" ]; then
+            # groupが空欄の場合：全グループ(1-6)を順次実行
+            echo "matrix={\"group\":[1,2,3,4,5,6]}" >> $GITHUB_OUTPUT
+            echo "should-run=true" >> $GITHUB_OUTPUT
+            echo "Run mode: All groups"
+          else
+            # groupが指定された場合：指定グループのみを実行
+            if [[ "${{ inputs.group }}" =~ ^[1-6]$ ]]; then
+              echo "matrix={\"group\":[${{ inputs.group }}]}" >> $GITHUB_OUTPUT
+              echo "should-run=true" >> $GITHUB_OUTPUT
+              echo "Run mode: Group ${{ inputs.group }}"
+            else
+              echo "Error: Invalid group number '${{ inputs.group }}'. Must be 1-6."
+              echo "should-run=false" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+  # メイン処理ジョブ
+  process:
+    name: Process Group ${{ matrix.group }}
+    needs: setup-matrix
+    if: needs.setup-matrix.outputs.should-run == 'true'
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: ${{ fromJson(needs.setup-matrix.outputs.matrix) }}
+      fail-fast: false  # あるグループが失敗しても他のグループは継続
+      max-parallel: 1   # 順次実行（API制限対策）
+    continue-on-error: true
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Setup Google Credentials
+        env:
+          GOOGLE_CREDENTIALS_BASE64: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+        run: |
+          # base64エンコードされたシークレットを安全にデコードしてファイルに保存
+          umask 077
+          printf '%s' "$GOOGLE_CREDENTIALS_BASE64" | base64 -d > /tmp/google_creds.json
+          chmod 600 /tmp/google_creds.json
+          echo "GOOGLE_APPLICATION_CREDENTIALS=/tmp/google_creds.json" >> $GITHUB_ENV
+          echo "Google credentials file created with secure permissions."
+
+      - name: Validate Inputs
+        id: validate
+        run: |
+          # 日付形式の検証 (YYYY-MM-DD)
+          DATE_REGEX='^[0-9]{4}-[0-9]{2}-[0-9]{2}$'
+
+          FROM_DATE="${{ inputs.from_date }}"
+          TO_DATE="${{ inputs.to_date }}"
+
+          if [ -n "$FROM_DATE" ] && ! [[ "$FROM_DATE" =~ $DATE_REGEX ]]; then
+            echo "Error: Invalid from_date format. Expected YYYY-MM-DD, got: $FROM_DATE"
+            exit 1
+          fi
+
+          if [ -n "$TO_DATE" ] && ! [[ "$TO_DATE" =~ $DATE_REGEX ]]; then
+            echo "Error: Invalid to_date format. Expected YYYY-MM-DD, got: $TO_DATE"
+            exit 1
+          fi
+
+          echo "Input validation passed."
+
+      - name: Run Batch Script (Group ${{ matrix.group }})
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          # 配列でコマンドを構築（安全な引数処理）
+          CMD=(python zoom/batch_zoom.py --group "${{ matrix.group }}" --all)
+
+          # 日付が指定されている場合
+          if [ -n "${{ inputs.from_date }}" ]; then
+            CMD+=(--from-date "${{ inputs.from_date }}")
+          fi
+          if [ -n "${{ inputs.to_date }}" ]; then
+            CMD+=(--to-date "${{ inputs.to_date }}")
+          fi
+
+          # 再処理フラグ
+          if [ "${{ inputs.reprocess }}" == "true" ]; then
+            CMD+=(--reprocess)
+          fi
+
+          echo "Running: ${CMD[*]}"
+          "${CMD[@]}"
+
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -f /tmp/google_creds.json
+
+  # 通知ジョブ
+  notify:
+    name: Notify Results
+    needs: [setup-matrix, process]
+    if: always() && needs.setup-matrix.outputs.should-run == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Determine Job Status
+        id: status
+        run: |
+          if [ "${{ needs.process.result }}" != "success" ]; then
+            echo "status=failure" >> $GITHUB_OUTPUT
+            echo "Some jobs failed."
+          else
+            echo "status=success" >> $GITHUB_OUTPUT
+            echo "All jobs succeeded."
+          fi
+
+      - name: Send Slack Notification on Failure
+        if: steps.status.outputs.status == 'failure' && env.SLACK_WEBHOOK_URL != ''
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          curl -X POST -H 'Content-type: application/json' \
+            --data "{\"text\":\"⚠️ Zoom Batch Workflow Failed\\nRepository: ${{ github.repository }}\\nRun: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
+            $SLACK_WEBHOOK_URL
+
+      - name: Output Summary
+        if: always()
+        run: |
+          echo "## Zoom Batch Processing Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.status.outputs.status }}" == "failure" ]; then
+            echo "❌ **一部のグループ処理でエラーが発生しました**" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "✅ **すべてのグループ処理が正常に完了しました**" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- 実行時刻: $(date '+%Y-%m-%d %H:%M:%S %Z')" >> $GITHUB_STEP_SUMMARY
+          echo "- [詳細ログを確認](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY

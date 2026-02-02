@@ -101,7 +101,7 @@ def get_zoom_recordings_single_month(
         "page_size": 300  # 最大300件/リクエスト
     }
 
-    response = requests.get(url, headers=headers, params=params)
+    response = requests.get(url, headers=headers, params=params, timeout=30)
     response.raise_for_status()
 
     data = response.json()
@@ -223,13 +223,17 @@ def download_file(url: str, access_token: str, save_path: str) -> str:
     return save_path
 
 
+@retry_on_network_error(max_retries=3, initial_delay=5.0)
 def download_transcript(url: str, access_token: str) -> str:
     """
     文字起こしファイルをダウンロードしてテキストとして返す
     """
-    download_url = f"{url}?access_token={access_token}"
+    # Authorization ヘッダーを使用（URLパラメータにトークンを含めない）
+    headers = {
+        "Authorization": f"Bearer {access_token}"
+    }
 
-    response = requests.get(download_url)
+    response = requests.get(url, headers=headers, timeout=60)
     response.raise_for_status()
 
     # VTT形式の場合、テキスト部分を抽出

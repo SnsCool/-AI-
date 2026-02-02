@@ -63,24 +63,28 @@ mkdir -p "$LOG_DIR"
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 LOG_FILE="$LOG_DIR/batch_$TIMESTAMP.log"
 
-# コマンド構築
-CMD="python -u batch_zoom.py"
+# コマンド構築（配列で安全に構築）
+build_cmd() {
+    local cmd=(python -u batch_zoom.py)
 
-if [ -n "$FROM_DATE" ]; then
-    CMD="$CMD --from-date $FROM_DATE"
-fi
+    if [ -n "$FROM_DATE" ]; then
+        cmd+=(--from-date "$FROM_DATE")
+    fi
 
-if [ -n "$TO_DATE" ]; then
-    CMD="$CMD --to-date $TO_DATE"
-fi
+    if [ -n "$TO_DATE" ]; then
+        cmd+=(--to-date "$TO_DATE")
+    fi
 
-if [ "$REPROCESS" = true ]; then
-    CMD="$CMD --reprocess"
-fi
+    if [ "$REPROCESS" = true ]; then
+        cmd+=(--reprocess)
+    fi
 
-if [ "$DRY_RUN" = true ]; then
-    CMD="$CMD --dry-run"
-fi
+    if [ "$DRY_RUN" = true ]; then
+        cmd+=(--dry-run)
+    fi
+
+    echo "${cmd[@]}"
+}
 
 # 全グループ順次実行
 if [ "$ALL_GROUPS" = true ]; then
@@ -91,11 +95,26 @@ if [ "$ALL_GROUPS" = true ]; then
         echo "" | tee -a "$LOG_FILE"
         echo "=== グループ $i/6 開始: $(date) ===" | tee -a "$LOG_FILE"
 
-        GROUP_CMD="$CMD --group $i --all"
-        echo "実行: $GROUP_CMD" | tee -a "$LOG_FILE"
+        # コマンドを配列で構築
+        CMD=(python -u batch_zoom.py --group "$i" --all)
 
-        # nohupで実行（エラーでも継続）
-        $GROUP_CMD 2>&1 | tee -a "$LOG_FILE" || {
+        if [ -n "$FROM_DATE" ]; then
+            CMD+=(--from-date "$FROM_DATE")
+        fi
+        if [ -n "$TO_DATE" ]; then
+            CMD+=(--to-date "$TO_DATE")
+        fi
+        if [ "$REPROCESS" = true ]; then
+            CMD+=(--reprocess)
+        fi
+        if [ "$DRY_RUN" = true ]; then
+            CMD+=(--dry-run)
+        fi
+
+        echo "実行: ${CMD[*]}" | tee -a "$LOG_FILE"
+
+        # 実行（エラーでも継続）
+        "${CMD[@]}" 2>&1 | tee -a "$LOG_FILE" || {
             echo "グループ $i でエラー発生、次のグループへ継続" | tee -a "$LOG_FILE"
         }
 
@@ -114,18 +133,30 @@ if [ "$ALL_GROUPS" = true ]; then
 fi
 
 # 単一グループまたは全件実行
+CMD=(python -u batch_zoom.py --all)
+
 if [ -n "$GROUP" ]; then
-    CMD="$CMD --group $GROUP"
+    CMD+=(--group "$GROUP")
+fi
+if [ -n "$FROM_DATE" ]; then
+    CMD+=(--from-date "$FROM_DATE")
+fi
+if [ -n "$TO_DATE" ]; then
+    CMD+=(--to-date "$TO_DATE")
+fi
+if [ "$REPROCESS" = true ]; then
+    CMD+=(--reprocess)
+fi
+if [ "$DRY_RUN" = true ]; then
+    CMD+=(--dry-run)
 fi
 
-CMD="$CMD --all"
-
 echo "=== バッチ処理開始: $(date) ===" | tee "$LOG_FILE"
-echo "実行: $CMD" | tee -a "$LOG_FILE"
+echo "実行: ${CMD[*]}" | tee -a "$LOG_FILE"
 echo "ログファイル: $LOG_FILE"
 
 # 実行
-$CMD 2>&1 | tee -a "$LOG_FILE"
+"${CMD[@]}" 2>&1 | tee -a "$LOG_FILE"
 
 echo "" | tee -a "$LOG_FILE"
 echo "=== バッチ処理完了: $(date) ===" | tee -a "$LOG_FILE"
