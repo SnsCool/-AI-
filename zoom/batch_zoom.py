@@ -14,11 +14,50 @@ import os
 import sys
 import argparse
 import tempfile
+import time
+import functools
 from datetime import datetime
 from typing import Optional
 from dotenv import load_dotenv
+from requests.exceptions import ConnectionError, Timeout, RequestException
+from urllib3.exceptions import NameResolutionError
 
 load_dotenv()
+
+
+def retry_on_network_error(max_retries: int = 3, initial_delay: float = 5.0):
+    """
+    ネットワークエラー時にリトライするデコレータ
+
+    Args:
+        max_retries: 最大リトライ回数
+        initial_delay: 初回待機時間（秒）、指数バックオフで増加
+    """
+    def decorator(func):
+        @functools.wraps(func)
+        def wrapper(*args, **kwargs):
+            last_exception = None
+            for attempt in range(max_retries + 1):
+                try:
+                    return func(*args, **kwargs)
+                except (ConnectionError, Timeout, RequestException, OSError) as e:
+                    last_exception = e
+                    error_str = str(e)
+                    # ネットワーク関連のエラーかチェック
+                    if any(keyword in error_str for keyword in [
+                        'NameResolutionError', 'Failed to resolve',
+                        'Max retries exceeded', 'Connection refused',
+                        'Network is unreachable', 'nodename nor servname'
+                    ]):
+                        if attempt < max_retries:
+                            delay = initial_delay * (2 ** attempt)
+                            print(f"   ネットワークエラー、{delay:.1f}秒後にリトライ ({attempt + 1}/{max_retries})...")
+                            time.sleep(delay)
+                            continue
+                    raise
+            raise last_exception
+        return wrapper
+    return decorator
 
 from services.supabase_client import get_supabase_client, save_knowledge, search_similar_knowledge
 from services.zoom_client import (

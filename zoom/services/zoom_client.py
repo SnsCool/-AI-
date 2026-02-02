@@ -4,15 +4,49 @@ Zoom API クライアント
 """
 
 import os
+import time
+import functools
 import requests
 import base64
 from datetime import datetime, timedelta
 from typing import Optional
 from dotenv import load_dotenv
+from requests.exceptions import ConnectionError, Timeout, RequestException
 
 load_dotenv()
 
 
+def retry_on_network_error(max_retries: int = 3, initial_delay: float = 5.0):
+    """
+    ネットワークエラー時にリトライするデコレータ
+    """
+    def decorator(func):
+        @functools.wraps(func)
+        def wrapper(*args, **kwargs):
+            last_exception = None
+            for attempt in range(max_retries + 1):
+                try:
+                    return func(*args, **kwargs)
+                except (ConnectionError, Timeout, RequestException, OSError) as e:
+                    last_exception = e
+                    error_str = str(e)
+                    if any(keyword in error_str for keyword in [
+                        'NameResolutionError', 'Failed to resolve',
+                        'Max retries exceeded', 'Connection refused',
+                        'Network is unreachable', 'nodename nor servname'
+                    ]):
+                        if attempt < max_retries:
+                            delay = initial_delay * (2 ** attempt)
+                            print(f"   ネットワークエラー、{delay:.1f}秒後にリトライ ({attempt + 1}/{max_retries})...")
+                            time.sleep(delay)
+                            continue
+                    raise
+            raise last_exception
+        return wrapper
+    return decorator
+
+
+@retry_on_network_error(max_retries=3, initial_delay=5.0)
 def get_zoom_access_token(account_id: str, client_id: str, client_secret: str) -> str:
     """
     Zoom OAuth Server-to-Server でアクセストークンを取得
@@ -33,7 +67,7 @@ def get_zoom_access_token(account_id: str, client_id: str, client_secret: str) -
         "account_id": account_id
     }
 
-    response = requests.post(url, headers=headers, data=data)
+    response = requests.post(url, headers=headers, data=data, timeout=30)
     response.raise_for_status()
 
     return response.json()["access_token"]
