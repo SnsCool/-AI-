@@ -106,6 +106,62 @@ DESTINATION_SHEET_NAME = "Zoom相談一覧"
 CUSTOMER_LIST_SHEET_NAME = "顧客一覧"
 
 
+def classify_error(error: Exception) -> str:
+    """
+    エラーを分類してわかりやすい日本語メッセージを返す
+
+    Returns:
+        日本語のエラー説明
+    """
+    error_str = str(error).lower()
+    error_type = type(error).__name__
+
+    # 認証・API関連
+    if "401" in error_str or "unauthorized" in error_str:
+        return "認証エラー: Zoom認証が無効です。認証情報を確認してください"
+    if "403" in error_str or "forbidden" in error_str:
+        return "権限エラー: アクセス権限がありません"
+    if "404" in error_str or "not found" in error_str:
+        return "データなし: 録画または文字起こしが見つかりません"
+    if "429" in error_str or "rate limit" in error_str or "quota" in error_str:
+        return "レート制限: API呼び出し制限に達しました。しばらく待って再実行してください"
+    if "500" in error_str or "502" in error_str or "503" in error_str or "504" in error_str:
+        return "サーバーエラー: Zoom/Googleサーバーが一時的に利用不可です"
+
+    # ネットワーク関連
+    if "timeout" in error_str or "timed out" in error_str:
+        return "タイムアウト: 接続がタイムアウトしました。再実行してください"
+    if "connection" in error_str or "network" in error_str or "resolve" in error_str:
+        return "接続エラー: ネットワーク接続に失敗しました"
+
+    # Google Sheets関連
+    if "spreadsheet" in error_str or "worksheet" in error_str or "gspread" in error_str:
+        return "シートエラー: Googleスプレッドシートへのアクセスに失敗しました"
+
+    # Google Drive関連
+    if "drive" in error_str or "upload" in error_str:
+        return "Driveエラー: Google Driveへのアップロードに失敗しました"
+
+    # Google Docs関連
+    if "docs" in error_str or "document" in error_str:
+        return "Docsエラー: Google Docsの作成に失敗しました"
+
+    # Zoom関連
+    if "zoom" in error_str or "recording" in error_str or "transcript" in error_str:
+        return "Zoomエラー: Zoom録画/文字起こしの取得に失敗しました"
+
+    # JSON/データ関連
+    if "json" in error_str or "decode" in error_str or "parse" in error_str:
+        return "データエラー: レスポンスの解析に失敗しました"
+
+    # ファイル関連
+    if "file" in error_str or "permission" in error_str or "access" in error_str:
+        return "ファイルエラー: ファイルのアクセスに失敗しました"
+
+    # その他
+    return f"処理エラー: {error_type} - {str(error)[:80]}"
+
+
 def is_recording_processed(supabase_client, recording_id: str) -> bool:
     """録画が処理済みかチェック"""
     result = supabase_client.table("processed_recordings").select("id").eq(
@@ -460,18 +516,20 @@ def process_single_recording(
         return True
 
     except Exception as e:
-        print(f"→ エラー: {e}")
+        # エラーを分類してわかりやすいメッセージに変換
+        error_message = classify_error(e)
+        print(f"→ エラー: {error_message}")
         import traceback
         traceback.print_exc()
 
-        # エラーをシートに記録
+        # エラーをシートに記録（日本語でわかりやすく）
         try:
             write_error_to_zoom_sheet(
                 spreadsheet_id=DESTINATION_SPREADSHEET_ID,
                 customer_name=customer_name if 'customer_name' in dir() else topic,
                 assignee=assignee,
                 meeting_datetime=meeting_datetime if 'meeting_datetime' in dir() else start_time,
-                error_message=str(e),
+                error_message=error_message,
                 sheet_name=DESTINATION_SHEET_NAME
             )
         except Exception as write_err:
