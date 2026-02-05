@@ -1135,6 +1135,166 @@ def write_to_zoom_sheet(
 
 
 @retry_on_quota_error(max_retries=5, initial_delay=2.0)
+def write_error_to_zoom_sheet(
+    spreadsheet_id: str,
+    customer_name: str,
+    assignee: str,
+    meeting_datetime: str,
+    error_message: str,
+    sheet_name: str = None
+) -> bool:
+    """
+    Zoom相談一覧シートにエラー情報を書き込む
+
+    J列にエラーメッセージを記録。エラーがある行は後で再処理可能。
+
+    Args:
+        spreadsheet_id: スプレッドシートID
+        customer_name: 顧客名
+        assignee: 担当者名
+        meeting_datetime: 面談日時
+        error_message: エラーメッセージ
+        sheet_name: シート名
+
+    Returns:
+        成功したかどうか
+    """
+    try:
+        client = get_sheets_client()
+        spreadsheet = client.open_by_key(spreadsheet_id)
+
+        target_sheet = sheet_name or DEFAULT_SHEET_NAME
+        try:
+            worksheet = spreadsheet.worksheet(target_sheet)
+        except:
+            worksheet = spreadsheet.sheet1
+
+        # 既存行を検索（顧客名 + 担当者でマッチング）
+        existing_row = find_existing_row_in_zoom_sheet(worksheet, customer_name, assignee)
+
+        # エラーメッセージを短縮（100文字まで）
+        short_error = error_message[:100] if len(error_message) > 100 else error_message
+        timestamp = datetime.now().strftime("%m/%d %H:%M")
+        error_text = f"[{timestamp}] {short_error}"
+
+        if existing_row:
+            # 既存行のJ列にエラーを記録
+            worksheet.update(f"J{existing_row}", [[error_text]])
+            print(f"   → エラー記録（行{existing_row}）: {short_error[:50]}...")
+            return True
+        else:
+            # 新規行を追加（最小限の情報 + エラー）
+            all_values = worksheet.get_all_values()
+            next_row = len(all_values) + 1
+
+            row_data = [
+                customer_name,  # A: 顧客名
+                assignee,  # B: 担当者
+                meeting_datetime,  # C: 面談日時
+                "",  # D: 所要時間
+                "",  # E: 事前キャンセル
+                "",  # F: 初回/実施後ステータス
+                "",  # G: 文字起こし
+                "",  # H: 面談動画
+                "",  # I: FB
+                error_text  # J: エラー
+            ]
+
+            worksheet.update(values=[row_data], range_name=f"A{next_row}:J{next_row}")
+            print(f"   → エラー行を新規追加（行{next_row}）: {short_error[:50]}...")
+            return True
+
+    except Exception as e:
+        print(f"エラー記録失敗: {e}")
+        return False
+
+
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
+def clear_error_in_zoom_sheet(
+    spreadsheet_id: str,
+    customer_name: str,
+    assignee: str,
+    sheet_name: str = None
+) -> bool:
+    """
+    Zoom相談一覧シートのエラー情報をクリア（処理成功時）
+
+    Args:
+        spreadsheet_id: スプレッドシートID
+        customer_name: 顧客名
+        assignee: 担当者名
+        sheet_name: シート名
+
+    Returns:
+        成功したかどうか
+    """
+    try:
+        client = get_sheets_client()
+        spreadsheet = client.open_by_key(spreadsheet_id)
+
+        target_sheet = sheet_name or DEFAULT_SHEET_NAME
+        try:
+            worksheet = spreadsheet.worksheet(target_sheet)
+        except:
+            worksheet = spreadsheet.sheet1
+
+        existing_row = find_existing_row_in_zoom_sheet(worksheet, customer_name, assignee)
+
+        if existing_row:
+            # J列をクリア
+            worksheet.update(f"J{existing_row}", [[""]])
+            return True
+
+        return False
+
+    except Exception as e:
+        print(f"エラークリア失敗: {e}")
+        return False
+
+
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
+def get_error_rows_from_zoom_sheet(
+    spreadsheet_id: str,
+    sheet_name: str = None
+) -> list[dict]:
+    """
+    Zoom相談一覧シートからエラーがある行を取得
+
+    Returns:
+        [{"row_num": int, "customer_name": str, "assignee": str, "meeting_datetime": str, "error": str}]
+    """
+    try:
+        client = get_sheets_client()
+        spreadsheet = client.open_by_key(spreadsheet_id)
+
+        target_sheet = sheet_name or DEFAULT_SHEET_NAME
+        try:
+            worksheet = spreadsheet.worksheet(target_sheet)
+        except:
+            worksheet = spreadsheet.sheet1
+
+        all_values = worksheet.get_all_values()
+        error_rows = []
+
+        for i, row in enumerate(all_values[1:], start=2):  # ヘッダーをスキップ
+            # J列（index 9）にエラーがあるか確認
+            if len(row) > 9 and row[9].strip():
+                error_rows.append({
+                    "row_num": i,
+                    "customer_name": row[0] if len(row) > 0 else "",
+                    "assignee": row[1] if len(row) > 1 else "",
+                    "meeting_datetime": row[2] if len(row) > 2 else "",
+                    "error": row[9]
+                })
+
+        return error_rows
+
+    except Exception as e:
+        print(f"エラー行取得失敗: {e}")
+        return []
+
+
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
 def write_to_data_storage_sheet(
     spreadsheet_id: str,
     customer_name: str,

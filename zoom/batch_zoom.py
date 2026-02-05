@@ -84,6 +84,9 @@ from services.google_drive_client import (
 from services.sheets_client import (
     write_to_zoom_sheet,
     write_to_data_storage_sheet,
+    write_error_to_zoom_sheet,
+    clear_error_in_zoom_sheet,
+    get_error_rows_from_zoom_sheet,
     reconcile_zoom_sheet_with_customer_sheet,
     reconcile_zoom_sheet_with_customer_list,
     DEFAULT_SPREADSHEET_ID,
@@ -443,12 +446,37 @@ def process_single_recording(
         else:
             print("→ 完了! (再更新対象: 処理済みマークなし)")
 
+        # 10. エラー列をクリア（成功時）
+        try:
+            clear_error_in_zoom_sheet(
+                spreadsheet_id=DESTINATION_SPREADSHEET_ID,
+                customer_name=customer_name,
+                assignee=assignee,
+                sheet_name=DESTINATION_SHEET_NAME
+            )
+        except:
+            pass  # エラークリア失敗は無視
+
         return True
 
     except Exception as e:
         print(f"→ エラー: {e}")
         import traceback
         traceback.print_exc()
+
+        # エラーをシートに記録
+        try:
+            write_error_to_zoom_sheet(
+                spreadsheet_id=DESTINATION_SPREADSHEET_ID,
+                customer_name=customer_name if 'customer_name' in dir() else topic,
+                assignee=assignee,
+                meeting_datetime=meeting_datetime if 'meeting_datetime' in dir() else start_time,
+                error_message=str(e),
+                sheet_name=DESTINATION_SHEET_NAME
+            )
+        except Exception as write_err:
+            print(f"   エラー記録失敗: {write_err}")
+
         return False
 
 
@@ -797,8 +825,57 @@ def main():
         action="store_true",
         help="高速モード: Zoomリンクと文字起こしのみ（動画アップロード・Docs保存スキップ）"
     )
+    parser.add_argument(
+        "--retry-errors",
+        action="store_true",
+        help="シートのエラー行のみ再処理"
+    )
+    parser.add_argument(
+        "--show-errors",
+        action="store_true",
+        help="シートのエラー行を表示（処理なし）"
+    )
 
     args = parser.parse_args()
+
+    # エラー行の表示のみ
+    if args.show_errors:
+        print("=" * 60)
+        print("エラー行一覧")
+        print("=" * 60)
+        error_rows = get_error_rows_from_zoom_sheet(
+            spreadsheet_id=DESTINATION_SPREADSHEET_ID,
+            sheet_name=DESTINATION_SHEET_NAME
+        )
+        if error_rows:
+            print(f"エラー行数: {len(error_rows)}件\n")
+            for row in error_rows:
+                print(f"行{row['row_num']}: {row['customer_name']} / {row['assignee']}")
+                print(f"   日時: {row['meeting_datetime']}")
+                print(f"   エラー: {row['error']}")
+                print()
+        else:
+            print("エラー行はありません。")
+        sys.exit(0)
+
+    # エラー行の再処理
+    if args.retry_errors:
+        print("=" * 60)
+        print("エラー行の再処理")
+        print("=" * 60)
+        error_rows = get_error_rows_from_zoom_sheet(
+            spreadsheet_id=DESTINATION_SPREADSHEET_ID,
+            sheet_name=DESTINATION_SHEET_NAME
+        )
+        if not error_rows:
+            print("エラー行はありません。")
+            sys.exit(0)
+
+        print(f"エラー行数: {len(error_rows)}件")
+        print("これらの行を再処理するには、通常のバッチ処理（--reprocess）を使用してください。")
+        print("\n再処理コマンド例:")
+        print(f"  python batch_zoom.py --reprocess --fast --limit {len(error_rows)}")
+        sys.exit(0)
 
     success = run_batch_process(
         spreadsheet_id=args.spreadsheet_id,
