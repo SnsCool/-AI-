@@ -25,6 +25,11 @@ on:
         required: false
         type: string
         default: ''
+      limit:
+        description: '1グループあたりの処理件数上限（デフォルト: 30）'
+        required: false
+        type: number
+        default: 30
       reprocess:
         description: '再処理フラグ（処理済みも再処理）'
         required: false
@@ -68,6 +73,7 @@ jobs:
     needs: setup-matrix
     if: needs.setup-matrix.outputs.should-run == 'true'
     runs-on: ubuntu-latest
+    timeout-minutes: 30  # タイムアウト設定（30分）
     strategy:
       matrix: ${{ fromJson(needs.setup-matrix.outputs.matrix) }}
       fail-fast: false  # あるグループが失敗しても他のグループは継続
@@ -134,9 +140,17 @@ jobs:
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PYTHONUNBUFFERED: "1"  # リアルタイムログ出力
         run: |
           # 配列でコマンドを構築（安全な引数処理）
-          CMD=(python zoom/batch_zoom.py --group "${{ matrix.group }}" --all)
+          CMD=(python zoom/batch_zoom.py --group "${{ matrix.group }}" --all --fast)
+
+          # 処理件数制限（デフォルト30件/グループ）
+          LIMIT="${{ inputs.limit }}"
+          if [ -z "$LIMIT" ]; then
+            LIMIT=30
+          fi
+          CMD+=(--limit "$LIMIT")
 
           # 日付が指定されている場合
           if [ -n "${{ inputs.from_date }}" ]; then
@@ -152,6 +166,7 @@ jobs:
           fi
 
           echo "Running: ${CMD[*]}"
+          echo "タイムアウト: 30分、処理上限: ${LIMIT}件/グループ"
           "${CMD[@]}"
 
       - name: Cleanup

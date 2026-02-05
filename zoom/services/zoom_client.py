@@ -73,6 +73,42 @@ def get_zoom_access_token(account_id: str, client_id: str, client_secret: str) -
     return response.json()["access_token"]
 
 
+def retry_on_api_error(max_retries: int = 3, initial_delay: float = 2.0):
+    """
+    API エラー（429 レート制限、5xx サーバーエラー）時にリトライするデコレータ
+    """
+    def decorator(func):
+        @functools.wraps(func)
+        def wrapper(*args, **kwargs):
+            last_exception = None
+            for attempt in range(max_retries + 1):
+                try:
+                    return func(*args, **kwargs)
+                except requests.exceptions.HTTPError as e:
+                    last_exception = e
+                    status_code = e.response.status_code if e.response else None
+                    # 429 (Rate Limit) or 5xx (Server Error) はリトライ
+                    if status_code in [429, 500, 502, 503, 504]:
+                        if attempt < max_retries:
+                            delay = initial_delay * (2 ** attempt)
+                            print(f"   API エラー ({status_code})、{delay:.1f}秒後にリトライ ({attempt + 1}/{max_retries})...")
+                            time.sleep(delay)
+                            continue
+                    raise
+                except (ConnectionError, Timeout, RequestException, OSError) as e:
+                    last_exception = e
+                    if attempt < max_retries:
+                        delay = initial_delay * (2 ** attempt)
+                        print(f"   接続エラー、{delay:.1f}秒後にリトライ ({attempt + 1}/{max_retries})...")
+                        time.sleep(delay)
+                        continue
+                    raise
+            raise last_exception
+        return wrapper
+    return decorator
+
+
+@retry_on_api_error(max_retries=3, initial_delay=2.0)
 def get_zoom_recordings_single_month(
     access_token: str,
     from_date: str,

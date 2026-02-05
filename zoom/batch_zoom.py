@@ -66,6 +66,11 @@ from services.zoom_client import (
     download_transcript,
     get_all_accounts_from_sheet,
 )
+
+# エラー回避: API呼び出し間の待機時間（秒）
+API_CALL_DELAY = 1.0
+# エラー回避: 1グループあたりの最大処理件数（デフォルト）
+DEFAULT_GROUP_LIMIT = 50
 from services.gemini_client import (
     analyze_meeting,
     generate_embedding,
@@ -473,14 +478,19 @@ def run_batch_process(
     """
     spreadsheet_id = spreadsheet_id or DEFAULT_SPREADSHEET_ID
 
+    start_time_batch = datetime.now()
+
     print("=" * 60)
     print("Zoom面談分析バッチ処理")
-    print(f"開始時刻: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"開始時刻: {start_time_batch.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"スプレッドシート: {spreadsheet_id}")
     print(f"シート: {DEFAULT_SHEET_NAME}")
     print(f"DRY RUN: {dry_run}")
+    print(f"API待機時間: {API_CALL_DELAY}秒")
     if limit:
         print(f"処理上限: {limit}件")
+    else:
+        print(f"処理上限: なし（推奨: --limit {DEFAULT_GROUP_LIMIT}）")
     if group:
         print(f"グループ: {group}/6")
     if from_date and to_date:
@@ -545,11 +555,16 @@ def run_batch_process(
     # 認証エラーの担当者を記録
     auth_errors = []
 
-    for account in accounts:
+    for acc_idx, account in enumerate(accounts):
         assignee = account["assignee"]
 
+        # アカウント間の待機（最初以外）
+        if acc_idx > 0 and API_CALL_DELAY > 0:
+            print(f"\n次のアカウントまで {API_CALL_DELAY}秒待機...")
+            time.sleep(API_CALL_DELAY)
+
         print(f"\n{'#'*60}")
-        print(f"担当者: {assignee}")
+        print(f"担当者 [{acc_idx + 1}/{len(accounts)}]: {assignee}")
         print(f"{'#'*60}")
 
         try:
@@ -621,27 +636,40 @@ def run_batch_process(
                 recordings = all_recordings[:1]  # 最新1件のみ処理
             print(f"録画数: {len(recordings)}/{len(all_recordings)}件 (認証元: {used_source})")
 
-            for recording in recordings:
+            for idx, recording in enumerate(recordings):
                 if limit and total_processed >= limit:
                     print(f"\n処理上限 {limit}件 に達しました")
                     break
 
-                total_processed += 1
-                success = process_single_recording(
-                    supabase_client=supabase_client,
-                    spreadsheet_id=spreadsheet_id,
-                    assignee=assignee,
-                    access_token=access_token,
-                    recording=recording,
-                    dry_run=dry_run,
-                    reprocess=reprocess,
-                    fast_mode=fast_mode
-                )
+                # API レート制限回避: 録画間の待機
+                if idx > 0 and API_CALL_DELAY > 0:
+                    time.sleep(API_CALL_DELAY)
 
-                if success:
-                    total_success += 1
-                else:
+                total_processed += 1
+                print(f"\n[{total_processed}] 処理開始...")
+
+                try:
+                    success = process_single_recording(
+                        supabase_client=supabase_client,
+                        spreadsheet_id=spreadsheet_id,
+                        assignee=assignee,
+                        access_token=access_token,
+                        recording=recording,
+                        dry_run=dry_run,
+                        reprocess=reprocess,
+                        fast_mode=fast_mode
+                    )
+
+                    if success:
+                        total_success += 1
+                    else:
+                        total_failed += 1
+                        print(f"   → 処理失敗（継続）")
+                except Exception as rec_error:
+                    print(f"   → 予期せぬエラー: {rec_error}")
                     total_failed += 1
+                    # 個別エラーは継続
+                    continue
 
             if limit and total_processed >= limit:
                 break
@@ -664,6 +692,10 @@ def run_batch_process(
         print(f"再照合で更新した行数: {updated_count}")
 
     # サマリー
+    end_time_batch = datetime.now()
+    elapsed = end_time_batch - start_time_batch
+    elapsed_minutes = elapsed.total_seconds() / 60
+
     print("\n" + "=" * 60)
     print("バッチ処理完了")
     print("=" * 60)
@@ -671,7 +703,10 @@ def run_batch_process(
     print(f"成功: {total_success}")
     print(f"失敗: {total_failed}")
     print(f"スキップ: {total_skipped}")
-    print(f"終了時刻: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"成功率: {(total_success / max(total_processed, 1) * 100):.1f}%")
+    print(f"開始時刻: {start_time_batch.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"終了時刻: {end_time_batch.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"所要時間: {elapsed_minutes:.1f}分")
     print(f"\nスプレッドシート: https://docs.google.com/spreadsheets/d/{spreadsheet_id}")
 
     # 認証エラーの詳細レポート
@@ -728,7 +763,8 @@ def main():
     parser.add_argument(
         "--limit",
         type=int,
-        help="処理する最大件数"
+        default=None,
+        help=f"処理する最大件数（未指定時は制限なし、グループ実行時は{DEFAULT_GROUP_LIMIT}件推奨）"
     )
     parser.add_argument(
         "--group",
