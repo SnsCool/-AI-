@@ -589,6 +589,159 @@ def find_matching_row_by_time(
 
 
 @retry_on_quota_error(max_retries=5, initial_delay=2.0)
+def find_matching_row_in_customer_list(
+    spreadsheet_id: str,
+    sheet_name: str,
+    assignee: str,
+    zoom_start_time: datetime,
+    tolerance_minutes: int = 45
+) -> Optional[dict]:
+    """
+    顧客一覧シートから、担当者名とZoom録画時間で一致する行を検索
+
+    シート構造（1行目がヘッダー）:
+    - A列(0): お名前
+    - B列(1): 担当者
+    - E列(4): 初回実施日（例: 2026年1月15日(木) 14:30～16:00）
+    - G列(6): 事前キャンセル（ステータス: 着座/飛び/リスケ等）
+    - H列(7): 初回/実施後ステータス（成約/失注/保留等）
+
+    Args:
+        spreadsheet_id: スプレッドシートID
+        sheet_name: シート名（例: "顧客一覧"）
+        assignee: 担当者名
+        zoom_start_time: Zoom録画の開始時間（UTC）
+        tolerance_minutes: 時間の許容誤差（分）
+
+    Returns:
+        マッチした行の情報 or None
+    """
+    from datetime import timedelta
+
+    try:
+        client = get_sheets_client()
+        spreadsheet = client.open_by_key(spreadsheet_id)
+
+        try:
+            worksheet = spreadsheet.worksheet(sheet_name)
+        except gspread.exceptions.WorksheetNotFound:
+            print(f"   シート '{sheet_name}' が見つかりません")
+            return None
+
+        # 全データを取得
+        all_values = worksheet.get_all_values()
+
+        if len(all_values) < 2:
+            return None
+
+        # ヘッダー行（1行目）
+        headers = all_values[0]
+
+        # 列インデックスを特定
+        name_col = 0       # A列: お名前
+        assignee_col = 1   # B列: 担当者
+        date_col = 4       # E列: 初回実施日
+        status_col = 6     # G列: 事前キャンセル
+        result_status_col = 7  # H列: 初回/実施後ステータス
+
+        # ヘッダーから列を動的に探す（最初に見つかったものを使用）
+        for j, col in enumerate(headers):
+            col_clean = col.strip()
+            if '担当者' in col_clean and assignee_col == 1:
+                assignee_col = j
+            elif '初回実施日' in col_clean and date_col == 4:
+                date_col = j
+            elif '事前キャンセル' in col_clean and status_col == 6:
+                status_col = j
+            elif col_clean == '初回/実施後ステータス':
+                # 完全一致で検索（2回目/実施後ステータス などを除外）
+                result_status_col = j
+
+        # Zoom時間をJSTに変換（UTCから+9時間）
+        zoom_jst = zoom_start_time + timedelta(hours=9)
+        tolerance = timedelta(minutes=tolerance_minutes)
+
+        # 担当者名を正規化（スペース、全角/半角の違いを吸収）
+        assignee_normalized = normalize_name(assignee)
+
+        # データ行を検索（2行目から）
+        for i, row in enumerate(all_values[1:], start=2):
+            if len(row) <= max(name_col, assignee_col, date_col):
+                continue
+
+            row_assignee = row[assignee_col] if len(row) > assignee_col else ""
+            row_assignee_normalized = normalize_name(row_assignee)
+
+            # 担当者名が一致しない場合はスキップ
+            if row_assignee_normalized != assignee_normalized:
+                continue
+
+            customer_name = row[name_col] if len(row) > name_col else ""
+            scheduled_time_str = row[date_col] if len(row) > date_col else ""
+            status = row[status_col].strip() if len(row) > status_col and row[status_col] else ""
+            result_status = row[result_status_col].strip() if len(row) > result_status_col and row[result_status_col] else ""
+
+            # 初回実施日が空白の場合はスキップ
+            if not scheduled_time_str:
+                continue
+
+            # 日時をパース
+            scheduled_time = parse_datetime_flexible(scheduled_time_str)
+            if not scheduled_time:
+                continue
+
+            # 時間がない場合は日付のみで比較
+            if scheduled_time.hour == 0 and scheduled_time.minute == 0:
+                if scheduled_time.date() == zoom_jst.date():
+                    return {
+                        "row_num": i,
+                        "customer_name": customer_name,
+                        "scheduled_time": scheduled_time_str,
+                        "match_type": "date_only",
+                        "status": status,
+                        "result_status": result_status
+                    }
+            else:
+                # 時間も含めて±tolerance分以内かチェック
+                time_diff = abs((zoom_jst.replace(tzinfo=None) - scheduled_time).total_seconds())
+                if time_diff <= tolerance.total_seconds():
+                    return {
+                        "row_num": i,
+                        "customer_name": customer_name,
+                        "scheduled_time": scheduled_time_str,
+                        "match_type": "exact_time",
+                        "status": status,
+                        "result_status": result_status
+                    }
+
+        return None
+
+    except Exception as e:
+        error_str = str(e)
+        if "429" in error_str or "Quota exceeded" in error_str:
+            raise
+        print(f"   顧客一覧検索エラー: {e}")
+        import traceback
+        traceback.print_exc()
+        return None
+
+
+def normalize_name(name: str) -> str:
+    """名前を正規化（スペース削除、全角→半角、小文字化）"""
+    if not name:
+        return ""
+    # 全角スペースを半角に
+    name = name.replace('　', ' ')
+    # スペースを削除
+    name = name.replace(' ', '')
+    # 全角英数を半角に
+    name = unicodedata.normalize('NFKC', name)
+    # 小文字化
+    name = name.lower()
+    return name
+
+
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
 def update_row_with_analysis(
     spreadsheet_id: str,
     assignee: str,
@@ -924,19 +1077,29 @@ def write_to_zoom_sheet(
             # 既存行を更新（全列を更新）
             print(f"   → 既存行 {existing_row} を更新: {customer_name} / {assignee}")
 
+            # 既存のG列（文字起こし）とH列（動画）を取得して、Google Docsリンクがあれば保持
+            existing_values = worksheet.row_values(existing_row)
+            existing_transcript = existing_values[6] if len(existing_values) > 6 else ""  # G列 (0-indexed: 6)
+            existing_video = existing_values[7] if len(existing_values) > 7 else ""  # H列 (0-indexed: 7)
+
+            # 既存のGoogle Docsリンクがあれば保持（上書きしない）
+            final_transcript_url = existing_transcript if existing_transcript and "docs.google.com" in existing_transcript else transcript_doc_url
+            # 既存のDriveリンクがあれば保持（Zoom共有リンクで上書きしない）
+            final_video_url = existing_video if existing_video and "drive.google.com" in existing_video else (video_drive_url or "")
+
             # C列〜I列を更新
             update_data = [
                 meeting_datetime,  # C: 面談日時
                 f"{duration_minutes}分",  # D: 所要時間
                 cancel_status,  # E: 事前キャンセル
                 result_status,  # F: 初回/実施後ステータス
-                transcript_doc_url,  # G: 文字起こし
-                video_drive_url or "",  # H: 面談動画
+                final_transcript_url,  # G: 文字起こし（既存があれば保持）
+                final_video_url,  # H: 面談動画（既存があれば保持）
                 feedback  # I: FB
             ]
             worksheet.update(f"C{existing_row}:I{existing_row}", [update_data])
 
-            print(f"   → 更新完了（C〜I列を上書き）")
+            print(f"   → 更新完了（C〜I列を上書き、既存Docs/Driveリンクは保持）")
             return True
         else:
             # 新規行を追加
@@ -1353,3 +1516,165 @@ def write_analysis_to_sheet(
         import traceback
         traceback.print_exc()
         return False
+
+
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
+def reconcile_zoom_sheet_with_customer_list(
+    spreadsheet_id: str,
+    zoom_sheet_name: str = "Zoom相談一覧",
+    customer_list_sheet_name: str = "顧客一覧"
+) -> int:
+    """
+    Zoom相談一覧シートのE列・F列が空の行を、顧客一覧シートと再照合して更新
+    （同一スプレッドシート内の2つのシートを照合）
+
+    処理内容:
+    1. 顧客一覧シートの全データを一括読み込み
+    2. Zoom相談一覧シートの全行をチェック
+    3. E列（事前キャンセル）またはF列（初回/実施後ステータス）が空の行を抽出
+    4. B列（担当者）+ C列（面談日時）でメモリ内検索
+    5. マッチすれば、A列（顧客名）、E列、F列を更新
+
+    Args:
+        spreadsheet_id: スプレッドシートID
+        zoom_sheet_name: Zoom相談一覧のシート名
+        customer_list_sheet_name: 顧客一覧のシート名
+
+    Returns:
+        更新した行数
+    """
+    from datetime import timedelta
+
+    try:
+        client = get_sheets_client()
+        spreadsheet = client.open_by_key(spreadsheet_id)
+
+        # 顧客一覧シートを取得
+        print(f"   顧客管理シートを一括読み込み中...")
+        try:
+            customer_worksheet = spreadsheet.worksheet(customer_list_sheet_name)
+        except:
+            print(f"   シート '{customer_list_sheet_name}' が見つかりません")
+            return 0
+
+        customer_values = customer_worksheet.get_all_values()
+        if len(customer_values) < 2:
+            print("   顧客一覧にデータがありません")
+            return 0
+
+        # 顧客データをメモリに読み込み（担当者+日時でインデックス）
+        customer_data = []
+        for row in customer_values[1:]:  # ヘッダーをスキップ
+            if len(row) < 8:
+                continue
+            customer_name = row[0] if len(row) > 0 else ""
+            assignee = row[1] if len(row) > 1 else ""
+            scheduled_time_str = row[4] if len(row) > 4 else ""  # E列: 初回実施日
+            status = row[6] if len(row) > 6 else ""  # G列: 事前キャンセル
+            result_status = row[7] if len(row) > 7 else ""  # H列: 初回/実施後ステータス
+
+            if assignee and scheduled_time_str:
+                scheduled_time = parse_datetime_flexible(scheduled_time_str)
+                if scheduled_time:
+                    customer_data.append({
+                        "customer_name": customer_name,
+                        "assignee": normalize_name(assignee),
+                        "scheduled_time": scheduled_time,
+                        "status": status.strip(),
+                        "result_status": result_status.strip()
+                    })
+
+        print(f"   顧客管理シート読み込み完了: {len(customer_data)}件")
+
+        # Zoom相談一覧シートを取得
+        try:
+            zoom_worksheet = spreadsheet.worksheet(zoom_sheet_name)
+        except:
+            print(f"   シート '{zoom_sheet_name}' が見つかりません")
+            return 0
+
+        zoom_values = zoom_worksheet.get_all_values()
+
+        if len(zoom_values) <= 1:
+            print("   Zoom相談一覧にデータがありません")
+            return 0
+
+        updated_count = 0
+        tolerance = timedelta(minutes=45)
+
+        # ヘッダー行をスキップして各行をチェック
+        for i, row in enumerate(zoom_values[1:], start=2):
+            if len(row) < 6:
+                continue
+
+            customer_name = row[0] if len(row) > 0 else ""
+            assignee = row[1] if len(row) > 1 else ""
+            meeting_datetime = row[2] if len(row) > 2 else ""
+            cancel_status = row[4] if len(row) > 4 else ""
+            result_status = row[5] if len(row) > 5 else ""
+
+            # E列またはF列が空の行を対象
+            if cancel_status and result_status:
+                continue  # 両方埋まっている場合はスキップ
+
+            if not assignee or not meeting_datetime:
+                continue  # 担当者または日時がない場合はスキップ
+
+            # 日時をパース
+            meeting_dt = parse_datetime_flexible(meeting_datetime)
+            if not meeting_dt:
+                continue
+
+            # メモリ内で顧客一覧と照合
+            assignee_normalized = normalize_name(assignee)
+            matched = None
+
+            for cust in customer_data:
+                if cust["assignee"] != assignee_normalized:
+                    continue
+
+                # 時間の照合
+                time_diff = abs((meeting_dt - cust["scheduled_time"]).total_seconds())
+                if time_diff <= tolerance.total_seconds():
+                    matched = cust
+                    break
+
+            if matched:
+                new_customer_name = matched.get('customer_name', '')
+                new_cancel_status = matched.get('status', '')
+                new_result_status = matched.get('result_status', '')
+
+                # 更新が必要かチェック
+                needs_update = False
+                if new_customer_name and new_customer_name != customer_name:
+                    needs_update = True
+                if new_cancel_status and new_cancel_status != cancel_status:
+                    needs_update = True
+                if new_result_status and new_result_status != result_status:
+                    needs_update = True
+
+                if needs_update:
+                    # 更新実行
+                    update_values = [
+                        new_customer_name or customer_name,
+                        new_cancel_status or cancel_status,
+                        new_result_status or result_status
+                    ]
+                    zoom_worksheet.update(f'A{i}', [[update_values[0]]])
+                    zoom_worksheet.update(f'E{i}:F{i}', [[update_values[1], update_values[2]]])
+                    print(f"   → 行 {i} を更新: {customer_name} → {new_customer_name}")
+                    print(f"      E列: {cancel_status} → {new_cancel_status}")
+                    print(f"      F列: {result_status} → {new_result_status}")
+                    updated_count += 1
+                    time.sleep(0.5)  # API制限対策
+
+        return updated_count
+
+    except Exception as e:
+        error_str = str(e)
+        if "429" in error_str or "Quota exceeded" in error_str:
+            raise
+        print(f"   再照合エラー: {e}")
+        import traceback
+        traceback.print_exc()
+        return 0

@@ -64,6 +64,7 @@ from services.zoom_client import (
     get_zoom_access_token,
     get_zoom_recordings,
     download_transcript,
+    get_all_accounts_from_sheet,
 )
 from services.gemini_client import (
     analyze_meeting,
@@ -79,20 +80,22 @@ from services.sheets_client import (
     write_to_zoom_sheet,
     write_to_data_storage_sheet,
     reconcile_zoom_sheet_with_customer_sheet,
+    reconcile_zoom_sheet_with_customer_list,
     DEFAULT_SPREADSHEET_ID,
     DEFAULT_SHEET_NAME,
     find_matching_row_by_time,
+    find_matching_row_in_customer_list,
     update_row_with_analysis,
     get_all_assignee_sheets,
     get_zoom_credentials_from_sheet,
 )
 
-# 担当者別シートのスプレッドシートID（照合用）
-ASSIGNEE_SPREADSHEET_ID = "1BmcpcMOoG-2fpIiMB-TNUq-qGcLsMy1P-3erqVNSV3c"
-
 # 書き込み先スプレッドシートID（Zoom相談一覧）
 DESTINATION_SPREADSHEET_ID = "1R5oMbJ7E-QfDFhHR164y8JKs6XLnkJcw8zBm2IPSn8E"
 DESTINATION_SHEET_NAME = "Zoom相談一覧"
+
+# 顧客一覧シート（照合用）- 同じスプレッドシート内
+CUSTOMER_LIST_SHEET_NAME = "顧客一覧"
 
 
 def is_recording_processed(supabase_client, recording_id: str) -> bool:
@@ -126,7 +129,8 @@ def process_single_recording(
     access_token: str,
     recording: dict,
     dry_run: bool = False,
-    reprocess: bool = False
+    reprocess: bool = False,
+    fast_mode: bool = False
 ) -> bool:
     """
     単一の録画を処理
@@ -186,6 +190,7 @@ def process_single_recording(
         # 1. まず担当者シートで照合（G列ステータス確認のため先に実行）
         print("→ 担当者シートで照合中...")
         meeting_datetime = start_time.replace("T", " ").replace("Z", "") if start_time else ""
+        meeting_date = start_time[:10] if start_time else datetime.now().strftime("%Y-%m-%d")
 
         # Zoom録画時間をdatetimeに変換
         zoom_start_dt = None
@@ -195,15 +200,16 @@ def process_single_recording(
             except:
                 pass
 
-        # 担当者シートで照合（顧客名とG列ステータスを取得）
+        # 顧客一覧シートで照合（顧客名とG列ステータスを取得）
         matched_row = None
         customer_name = topic  # デフォルトはZoomのtopic
         customer_status = None  # G列ステータス
         should_mark_processed = False  # 処理済みマークするかどうか
 
         if zoom_start_dt:
-            matched_row = find_matching_row_by_time(
-                spreadsheet_id=ASSIGNEE_SPREADSHEET_ID,
+            matched_row = find_matching_row_in_customer_list(
+                spreadsheet_id=DESTINATION_SPREADSHEET_ID,
+                sheet_name=CUSTOMER_LIST_SHEET_NAME,
                 assignee=assignee,
                 zoom_start_time=zoom_start_dt,
                 tolerance_minutes=45
@@ -244,8 +250,8 @@ def process_single_recording(
                 else:
                     print(f"   → ステータス空欄: 再更新対象（処理済みマークなし）")
         else:
-            # 顧客管理シートに担当者シートがない場合も処理続行
-            print("   → マッチなし: 顧客管理シートに担当者シートが存在しません")
+            # 顧客一覧シートにマッチがない場合も処理続行
+            print("   → マッチなし: 顧客一覧に該当なし（担当者・日時で照合）")
             print("   → 顧客名はZoomのtopicを使用: " + topic)
             customer_name = topic
             should_mark_processed = False  # 再更新対象
@@ -289,7 +295,9 @@ def process_single_recording(
 
         # 5. Google Docsに文字起こしを保存（文字起こしがある場合のみ）
         transcript_doc_url = ""
-        if has_transcript and transcript and len(transcript) >= 100:
+        if fast_mode:
+            print("→ 高速モード: Google Docs保存スキップ")
+        elif has_transcript and transcript and len(transcript) >= 100:
             print("→ Google Docsに保存中...")
             meeting_date = start_time[:10] if start_time else datetime.now().strftime("%Y-%m-%d")
             # 保存先フォルダID（環境変数から取得）
@@ -306,7 +314,10 @@ def process_single_recording(
 
         # 6. 動画をGoogle Driveにアップロード（圧縮なし）
         video_url = ""
-        if mp4_url:
+        if fast_mode:
+            print("→ 高速モード: 動画アップロードスキップ、Zoom共有リンクを使用")
+            video_url = share_url or ""
+        elif mp4_url:
             print("→ 動画をダウンロード・アップロード中...")
             meeting_date = start_time[:10] if start_time else datetime.now().strftime("%Y-%m-%d")
 
@@ -444,7 +455,8 @@ def run_batch_process(
     from_date: str = None,
     to_date: str = None,
     process_all: bool = False,
-    reprocess: bool = False
+    reprocess: bool = False,
+    fast_mode: bool = False
 ):
     """
     バッチ処理を実行
@@ -475,12 +487,36 @@ def run_batch_process(
         print(f"期間: {from_date} 〜 {to_date}")
     if process_all:
         print(f"全件処理: ON")
+    if fast_mode:
+        print(f"高速モード: ON（動画・Docs保存スキップ）")
     if reprocess:
         print(f"再処理: ON（処理済みも対象）")
     print("=" * 60)
 
     # Supabaseクライアント取得
     supabase_client = get_supabase_client()
+
+    # JSONファイルから認証情報を読み込み（API不要）
+    print("\nJSONファイルから認証情報を読み込み中...")
+    sheet_accounts_cache = {}
+    json_path = os.path.join(os.path.dirname(__file__), "zoom_credentials.json")
+    try:
+        import json
+        with open(json_path, "r", encoding="utf-8") as f:
+            json_accounts = json.load(f)
+        for acc in json_accounts:
+            if acc.get("account_id") and acc.get("client_id") and acc.get("client_secret"):
+                sheet_accounts_cache[acc["assignee"]] = acc
+        print(f"JSONキャッシュ: {len(sheet_accounts_cache)}件")
+    except Exception as e:
+        print(f"JSON読み込みエラー、スプレッドシートにフォールバック: {e}")
+        try:
+            sheet_accounts = get_all_accounts_from_sheet()
+            for acc in sheet_accounts:
+                sheet_accounts_cache[acc["assignee"]] = acc
+            print(f"スプレッドシートキャッシュ: {len(sheet_accounts_cache)}件")
+        except Exception as e2:
+            print(f"スプレッドシート取得エラー（続行）: {e2}")
 
     # 全アカウントを取得
     print("\nZoomアカウントを取得中...")
@@ -531,13 +567,9 @@ def run_batch_process(
             except Exception as supabase_error:
                 print(f"Supabase認証エラー: {supabase_error}")
 
-                # フォールバック: スプレッドシートから認証情報を取得
-                print(f"→ フォールバック: スプレッドシートから認証情報を取得中...")
-                sheet_creds = get_zoom_credentials_from_sheet(
-                    spreadsheet_id=DESTINATION_SPREADSHEET_ID,
-                    assignee=assignee,
-                    sheet_name="ZoomKeys"
-                )
+                # フォールバック: キャッシュから認証情報を取得
+                print(f"→ フォールバック: キャッシュから認証情報を取得中...")
+                sheet_creds = sheet_accounts_cache.get(assignee)
 
                 if sheet_creds:
                     print(f"   スプレッドシートに認証情報あり")
@@ -602,7 +634,8 @@ def run_batch_process(
                     access_token=access_token,
                     recording=recording,
                     dry_run=dry_run,
-                    reprocess=reprocess
+                    reprocess=reprocess,
+                    fast_mode=fast_mode
                 )
 
                 if success:
@@ -618,15 +651,15 @@ def run_batch_process(
             total_skipped += 1
             continue
 
-    # 再照合処理: E列・F列が空の行を顧客管理シートと照合して更新
+    # 再照合処理: E列・F列が空の行を顧客一覧シートと照合して更新
     if not dry_run:
         print("\n" + "=" * 60)
         print("再照合処理: Zoom相談一覧の未照合行を更新")
         print("=" * 60)
-        updated_count = reconcile_zoom_sheet_with_customer_sheet(
-            zoom_spreadsheet_id=DESTINATION_SPREADSHEET_ID,
-            customer_spreadsheet_id=ASSIGNEE_SPREADSHEET_ID,
-            zoom_sheet_name=DESTINATION_SHEET_NAME
+        updated_count = reconcile_zoom_sheet_with_customer_list(
+            spreadsheet_id=DESTINATION_SPREADSHEET_ID,
+            zoom_sheet_name=DESTINATION_SHEET_NAME,
+            customer_list_sheet_name=CUSTOMER_LIST_SHEET_NAME
         )
         print(f"再照合で更新した行数: {updated_count}")
 
@@ -723,6 +756,11 @@ def main():
         action="store_true",
         help="処理済みの録画も再処理"
     )
+    parser.add_argument(
+        "--fast",
+        action="store_true",
+        help="高速モード: Zoomリンクと文字起こしのみ（動画アップロード・Docs保存スキップ）"
+    )
 
     args = parser.parse_args()
 
@@ -734,7 +772,8 @@ def main():
         from_date=args.from_date,
         to_date=args.to_date,
         process_all=args.all,
-        reprocess=args.reprocess
+        reprocess=args.reprocess,
+        fast_mode=args.fast
     )
 
     sys.exit(0 if success else 1)
