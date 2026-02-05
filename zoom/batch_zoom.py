@@ -777,6 +777,107 @@ def run_batch_process(
         )
         print(f"再照合で更新した行数: {updated_count}")
 
+    # エラー行の自動再処理
+    if not dry_run:
+        print("\n" + "=" * 60)
+        print("エラー行の自動再処理")
+        print("=" * 60)
+
+        error_rows = get_error_rows_from_zoom_sheet(
+            spreadsheet_id=DESTINATION_SPREADSHEET_ID,
+            sheet_name=DESTINATION_SHEET_NAME
+        )
+
+        if error_rows:
+            print(f"エラー行数: {len(error_rows)}件")
+            retry_success = 0
+            retry_failed = 0
+
+            for error_row in error_rows:
+                print(f"\n再処理中: {error_row['customer_name']} / {error_row['assignee']}")
+                print(f"   前回エラー: {error_row['error'][:60]}...")
+
+                # このエラー行に対応する担当者の録画を探して再処理
+                # まず担当者のアクセストークンを取得
+                matching_account = None
+                for acc in accounts:
+                    if acc["assignee"] == error_row['assignee']:
+                        matching_account = acc
+                        break
+
+                if not matching_account:
+                    print(f"   → スキップ: 担当者 {error_row['assignee']} のアカウントが見つかりません")
+                    retry_failed += 1
+                    continue
+
+                try:
+                    # アクセストークン取得
+                    access_token = get_zoom_access_token(
+                        matching_account["account_id"],
+                        matching_account["client_id"],
+                        matching_account["client_secret"]
+                    )
+
+                    # エラー行の日時に近い録画を探す
+                    error_datetime = error_row['meeting_datetime']
+                    all_recordings = get_zoom_recordings(access_token, months=1)
+
+                    # 日時でマッチする録画を探す
+                    matching_recording = None
+                    for rec in all_recordings:
+                        rec_time = rec.get("start_time", "").replace("T", " ").replace("Z", "")
+                        if rec_time and error_datetime:
+                            # 日時の最初の16文字（YYYY-MM-DD HH:MM）で比較
+                            if rec_time[:16] == error_datetime[:16]:
+                                matching_recording = rec
+                                break
+
+                    if matching_recording:
+                        print(f"   → 対応する録画を発見: {matching_recording.get('topic')}")
+
+                        # 処理済みマークを解除（Supabaseから削除）
+                        recording_id = matching_recording.get("meeting_id")
+                        try:
+                            supabase_client.table("processed_recordings").delete().eq(
+                                "recording_id", recording_id
+                            ).execute()
+                            print(f"   → 処理済みマークを解除")
+                        except:
+                            pass
+
+                        # 再処理
+                        success = process_single_recording(
+                            supabase_client=supabase_client,
+                            spreadsheet_id=spreadsheet_id,
+                            assignee=error_row['assignee'],
+                            access_token=access_token,
+                            recording=matching_recording,
+                            dry_run=dry_run,
+                            reprocess=True,  # 再処理フラグON
+                            fast_mode=fast_mode
+                        )
+
+                        if success:
+                            retry_success += 1
+                            print(f"   → 再処理成功!")
+                        else:
+                            retry_failed += 1
+                            print(f"   → 再処理失敗")
+                    else:
+                        print(f"   → 対応する録画が見つかりません（日時: {error_datetime}）")
+                        retry_failed += 1
+
+                except Exception as retry_error:
+                    print(f"   → 再処理エラー: {retry_error}")
+                    retry_failed += 1
+
+                # API レート制限回避
+                time.sleep(API_CALL_DELAY)
+
+            print(f"\nエラー再処理結果: 成功 {retry_success}件 / 失敗 {retry_failed}件")
+        else:
+            print("エラー行はありません。")
+
     # サマリー
     end_time_batch = datetime.now()
     elapsed = end_time_batch - start_time_batch
