@@ -970,10 +970,11 @@ def normalize_text_for_match(text: str) -> str:
 def find_existing_row_in_zoom_sheet(
     worksheet,
     customer_name: str,
-    assignee: str
+    assignee: str,
+    meeting_datetime: str = None
 ) -> Optional[int]:
     """
-    Zoom相談一覧シートで、顧客名+担当者が一致する行を検索
+    Zoom相談一覧シートで、顧客名+担当者+面談日が一致する行を検索
 
     マッチング条件を緩くして以下の違いを吸収:
     - 全角/半角の違い
@@ -984,6 +985,7 @@ def find_existing_row_in_zoom_sheet(
         worksheet: ワークシート
         customer_name: 顧客名（A列）
         assignee: 担当者名（B列）
+        meeting_datetime: 面談日時（C列）- 日付部分（YYYY-MM-DD）でマッチング
 
     Returns:
         行番号（1-indexed）、見つからない場合はNone
@@ -994,16 +996,25 @@ def find_existing_row_in_zoom_sheet(
         # 検索用に正規化
         search_customer = normalize_text_for_match(customer_name)
         search_assignee = normalize_text_for_match(assignee)
+        # 面談日（日付部分のみ）を取得
+        search_date = meeting_datetime[:10] if meeting_datetime and len(meeting_datetime) >= 10 else None
 
         # ヘッダー行をスキップして検索（2行目以降）
         for i, row in enumerate(all_values[1:], start=2):
             if len(row) >= 2:
                 row_customer = normalize_text_for_match(row[0])
                 row_assignee = normalize_text_for_match(row[1])
+                row_date = row[2][:10] if len(row) > 2 and row[2] and len(row[2]) >= 10 else None
 
                 # 正規化した顧客名と担当者でマッチング
                 if row_customer == search_customer and row_assignee == search_assignee:
-                    return i
+                    # 面談日時が指定されている場合は日付もチェック
+                    if search_date and row_date:
+                        if row_date == search_date:
+                            return i
+                    else:
+                        # 面談日時が指定されていない場合は顧客名+担当者のみでマッチ
+                        return i
 
         return None
     except Exception as e:
@@ -1070,8 +1081,8 @@ def write_to_zoom_sheet(
         except:
             worksheet = spreadsheet.sheet1
 
-        # 既存行を検索（顧客名 + 担当者でマッチング）
-        existing_row = find_existing_row_in_zoom_sheet(worksheet, customer_name, assignee)
+        # 既存行を検索（顧客名 + 担当者 + 面談日でマッチング）
+        existing_row = find_existing_row_in_zoom_sheet(worksheet, customer_name, assignee, meeting_datetime)
 
         if existing_row:
             # 既存行を更新（全列を更新）
@@ -1087,7 +1098,10 @@ def write_to_zoom_sheet(
             # 既存のDriveリンクがあれば保持（Zoom共有リンクで上書きしない）
             final_video_url = existing_video if existing_video and "drive.google.com" in existing_video else (video_drive_url or "")
 
-            # C列〜I列を更新
+            # K列に更新日時を記録（2回目以降の更新時のみ）
+            update_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+            # C列〜I列を更新 + K列に更新日
             update_data = [
                 meeting_datetime,  # C: 面談日時
                 f"{duration_minutes}分",  # D: 所要時間
@@ -1099,7 +1113,10 @@ def write_to_zoom_sheet(
             ]
             worksheet.update(f"C{existing_row}:I{existing_row}", [update_data])
 
-            print(f"   → 更新完了（C〜I列を上書き、既存Docs/Driveリンクは保持）")
+            # K列（更新日）を別途更新
+            worksheet.update(f"K{existing_row}", [[update_timestamp]])
+
+            print(f"   → 更新完了（C〜I列を上書き、K列に更新日記録）")
             return True
         else:
             # 新規行を追加
@@ -1169,8 +1186,8 @@ def write_error_to_zoom_sheet(
         except:
             worksheet = spreadsheet.sheet1
 
-        # 既存行を検索（顧客名 + 担当者でマッチング）
-        existing_row = find_existing_row_in_zoom_sheet(worksheet, customer_name, assignee)
+        # 既存行を検索（顧客名 + 担当者 + 面談日でマッチング）
+        existing_row = find_existing_row_in_zoom_sheet(worksheet, customer_name, assignee, meeting_datetime)
 
         # エラーメッセージを短縮（100文字まで）
         short_error = error_message[:100] if len(error_message) > 100 else error_message
@@ -1292,6 +1309,95 @@ def get_error_rows_from_zoom_sheet(
     except Exception as e:
         print(f"エラー行取得失敗: {e}")
         return []
+
+
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
+def get_rows_missing_transcript(
+    spreadsheet_id: str,
+    sheet_name: str = None
+) -> list[dict]:
+    """
+    Zoom相談一覧シートから、動画はあるが文字起こしがない行を取得
+
+    Returns:
+        [{"row_num": int, "customer_name": str, "assignee": str, "meeting_datetime": str, "video_url": str}]
+    """
+    try:
+        client = get_sheets_client()
+        spreadsheet = client.open_by_key(spreadsheet_id)
+
+        target_sheet = sheet_name or DEFAULT_SHEET_NAME
+        try:
+            worksheet = spreadsheet.worksheet(target_sheet)
+        except:
+            worksheet = spreadsheet.sheet1
+
+        all_values = worksheet.get_all_values()
+        missing_rows = []
+
+        for i, row in enumerate(all_values[1:], start=2):  # ヘッダーをスキップ
+            # H列（動画）があり、G列（文字起こし）がない行を検索
+            has_video = len(row) > 7 and row[7].strip()
+            has_transcript = len(row) > 6 and row[6].strip() and "docs.google.com" in row[6]
+
+            if has_video and not has_transcript:
+                missing_rows.append({
+                    "row_num": i,
+                    "customer_name": row[0] if len(row) > 0 else "",
+                    "assignee": row[1] if len(row) > 1 else "",
+                    "meeting_datetime": row[2] if len(row) > 2 else "",
+                    "video_url": row[7] if len(row) > 7 else ""
+                })
+
+        return missing_rows
+
+    except Exception as e:
+        print(f"文字起こし未作成行の取得エラー: {e}")
+        return []
+
+
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
+def update_transcript_url_in_zoom_sheet(
+    spreadsheet_id: str,
+    row_num: int,
+    transcript_url: str,
+    sheet_name: str = None
+) -> bool:
+    """
+    Zoom相談一覧シートの指定行のG列（文字起こし）を更新
+
+    Args:
+        spreadsheet_id: スプレッドシートID
+        row_num: 行番号
+        transcript_url: 文字起こしドキュメントのURL
+        sheet_name: シート名
+
+    Returns:
+        成功したかどうか
+    """
+    try:
+        client = get_sheets_client()
+        spreadsheet = client.open_by_key(spreadsheet_id)
+
+        target_sheet = sheet_name or DEFAULT_SHEET_NAME
+        try:
+            worksheet = spreadsheet.worksheet(target_sheet)
+        except:
+            worksheet = spreadsheet.sheet1
+
+        # G列を更新
+        worksheet.update(f"G{row_num}", [[transcript_url]])
+
+        # K列に更新日時を記録
+        update_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+        worksheet.update(f"K{row_num}", [[update_timestamp]])
+
+        print(f"   → 行{row_num} の文字起こしURLを更新")
+        return True
+
+    except Exception as e:
+        print(f"文字起こしURL更新エラー: {e}")
+        return False
 
 
 @retry_on_quota_error(max_retries=5, initial_delay=2.0)

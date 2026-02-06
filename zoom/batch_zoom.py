@@ -87,6 +87,8 @@ from services.sheets_client import (
     write_error_to_zoom_sheet,
     clear_error_in_zoom_sheet,
     get_error_rows_from_zoom_sheet,
+    get_rows_missing_transcript,
+    update_transcript_url_in_zoom_sheet,
     reconcile_zoom_sheet_with_customer_sheet,
     reconcile_zoom_sheet_with_customer_list,
     DEFAULT_SPREADSHEET_ID,
@@ -994,6 +996,11 @@ def main():
         action="store_true",
         help="シートのエラー行を表示（処理なし）"
     )
+    parser.add_argument(
+        "--create-missing-transcripts",
+        action="store_true",
+        help="動画はあるが文字起こしがない行の文字起こしドキュメントを作成"
+    )
 
     args = parser.parse_args()
 
@@ -1034,6 +1041,131 @@ def main():
         print("これらの行を再処理するには、通常のバッチ処理（--reprocess）を使用してください。")
         print("\n再処理コマンド例:")
         print(f"  python batch_zoom.py --reprocess --fast --limit {len(error_rows)}")
+        sys.exit(0)
+
+    # 文字起こしドキュメントがない行を処理
+    if args.create_missing_transcripts:
+        print("=" * 60)
+        print("文字起こしドキュメント作成（動画ありの行）")
+        print("=" * 60)
+
+        missing_rows = get_rows_missing_transcript(
+            spreadsheet_id=DESTINATION_SPREADSHEET_ID,
+            sheet_name=DESTINATION_SHEET_NAME
+        )
+
+        if not missing_rows:
+            print("文字起こしが必要な行はありません。")
+            sys.exit(0)
+
+        print(f"対象行数: {len(missing_rows)}件\n")
+
+        # Supabaseクライアント取得
+        supabase_client = get_supabase_client()
+
+        # JSONファイルから認証情報を読み込み
+        sheet_accounts_cache = {}
+        json_path = os.path.join(os.path.dirname(__file__), "zoom_credentials.json")
+        try:
+            import json
+            with open(json_path, "r", encoding="utf-8") as f:
+                json_accounts = json.load(f)
+            for acc in json_accounts:
+                if acc.get("account_id") and acc.get("client_id") and acc.get("client_secret"):
+                    sheet_accounts_cache[acc["assignee"]] = acc
+        except Exception as e:
+            print(f"JSON読み込みエラー: {e}")
+
+        success_count = 0
+        failed_count = 0
+
+        for row in missing_rows:
+            print(f"\n処理中: 行{row['row_num']} - {row['customer_name']} / {row['assignee']}")
+            print(f"   日時: {row['meeting_datetime']}")
+
+            # 担当者の認証情報を取得
+            sheet_creds = sheet_accounts_cache.get(row['assignee'])
+            if not sheet_creds:
+                print(f"   → スキップ: 担当者の認証情報がありません")
+                failed_count += 1
+                continue
+
+            try:
+                # アクセストークン取得
+                access_token = get_zoom_access_token(
+                    sheet_creds["account_id"],
+                    sheet_creds["client_id"],
+                    sheet_creds["client_secret"]
+                )
+
+                # 録画を検索
+                all_recordings = get_zoom_recordings(access_token, months=2)
+
+                # 日時でマッチする録画を探す
+                matching_recording = None
+                row_datetime = row['meeting_datetime']
+                for rec in all_recordings:
+                    rec_time = rec.get("start_time", "").replace("T", " ").replace("Z", "")
+                    if rec_time and row_datetime:
+                        if rec_time[:16] == row_datetime[:16]:
+                            matching_recording = rec
+                            break
+
+                if not matching_recording:
+                    print(f"   → スキップ: 対応する録画が見つかりません")
+                    failed_count += 1
+                    continue
+
+                transcript_url = matching_recording.get("transcript_url")
+                if not transcript_url:
+                    print(f"   → スキップ: 文字起こしデータがありません")
+                    failed_count += 1
+                    continue
+
+                # 文字起こしをダウンロード
+                print("   → 文字起こしをダウンロード中...")
+                transcript = download_transcript(transcript_url, access_token)
+
+                if not transcript or len(transcript) < 100:
+                    print(f"   → スキップ: 文字起こしが短すぎます")
+                    failed_count += 1
+                    continue
+
+                # Google Docsに保存
+                print("   → Google Docsを作成中...")
+                meeting_date = row['meeting_datetime'][:10] if row['meeting_datetime'] else ""
+                transcript_folder_id = os.getenv("GOOGLE_DRIVE_FOLDER_ID")
+
+                doc_url = create_transcript_doc(
+                    transcript=transcript,
+                    assignee=row['assignee'],
+                    customer_name=row['customer_name'],
+                    meeting_date=meeting_date,
+                    folder_id=transcript_folder_id
+                )
+
+                if doc_url:
+                    # シートを更新
+                    update_transcript_url_in_zoom_sheet(
+                        spreadsheet_id=DESTINATION_SPREADSHEET_ID,
+                        row_num=row['row_num'],
+                        transcript_url=doc_url,
+                        sheet_name=DESTINATION_SHEET_NAME
+                    )
+                    print(f"   → 成功: {doc_url}")
+                    success_count += 1
+                else:
+                    print(f"   → 失敗: Docs作成に失敗")
+                    failed_count += 1
+
+            except Exception as e:
+                print(f"   → エラー: {e}")
+                failed_count += 1
+
+            # API レート制限回避
+            time.sleep(API_CALL_DELAY)
+
+        print(f"\n完了: 成功 {success_count}件 / 失敗 {failed_count}件")
         sys.exit(0)
 
     success = run_batch_process(
