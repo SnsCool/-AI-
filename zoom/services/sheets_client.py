@@ -974,18 +974,17 @@ def find_existing_row_in_zoom_sheet(
     meeting_datetime: str = None
 ) -> Optional[int]:
     """
-    Zoom相談一覧シートで、顧客名+担当者+面談日が一致する行を検索
+    Zoom相談一覧シートで、顧客名+担当者が一致する行を検索
 
-    マッチング条件を緩くして以下の違いを吸収:
-    - 全角/半角の違い
-    - 大文字/小文字の違い
-    - 余分な空白
+    マッチング条件:
+    - 顧客名と担当者が一致する行を検索
+    - 同じ顧客+担当者の組み合わせは1行のみ（リスケで日付が変わっても同じ行を更新）
 
     Args:
         worksheet: ワークシート
         customer_name: 顧客名（A列）
         assignee: 担当者名（B列）
-        meeting_datetime: 面談日時（C列）- 日付部分（YYYY-MM-DD）でマッチング
+        meeting_datetime: 面談日時（C列）- 未使用（互換性のため残す）
 
     Returns:
         行番号（1-indexed）、見つからない場合はNone
@@ -996,27 +995,19 @@ def find_existing_row_in_zoom_sheet(
         # 検索用に正規化
         search_customer = normalize_text_for_match(customer_name)
         search_assignee = normalize_text_for_match(assignee)
-        # 面談日（日付部分のみ）を取得
-        search_date = meeting_datetime[:10] if meeting_datetime and len(meeting_datetime) >= 10 else None
 
         # ヘッダー行をスキップして検索（2行目以降）
         for i, row in enumerate(all_values[1:], start=2):
             if len(row) >= 2:
                 row_customer = normalize_text_for_match(row[0])
                 row_assignee = normalize_text_for_match(row[1])
-                row_date = row[2][:10] if len(row) > 2 and row[2] and len(row[2]) >= 10 else None
 
                 # 正規化した顧客名と担当者でマッチング
                 if row_customer == search_customer and row_assignee == search_assignee:
-                    # 面談日時が指定されている場合は日付もチェック
-                    if search_date and row_date:
-                        if row_date == search_date:
-                            return i
-                    else:
-                        # 面談日時が指定されていない場合は顧客名+担当者のみでマッチ
-                        return i
+                    return i
 
         return None
+
     except Exception as e:
         error_str = str(e)
         if "429" in error_str or "Quota exceeded" in error_str:
