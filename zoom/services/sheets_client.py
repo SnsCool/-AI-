@@ -661,19 +661,15 @@ def find_matching_row_in_customer_list(
         zoom_jst = zoom_start_time + timedelta(hours=9)
         tolerance = timedelta(minutes=tolerance_minutes)
 
-        # 担当者名を正規化（スペース、全角/半角の違いを吸収）
-        assignee_normalized = normalize_name(assignee)
-
         # データ行を検索（2行目から）
         for i, row in enumerate(all_values[1:], start=2):
             if len(row) <= max(name_col, assignee_col, date_col):
                 continue
 
             row_assignee = row[assignee_col] if len(row) > assignee_col else ""
-            row_assignee_normalized = normalize_name(row_assignee)
 
-            # 担当者名が一致しない場合はスキップ
-            if row_assignee_normalized != assignee_normalized:
+            # 担当者名が一致しない場合はスキップ（柔軟なマッチング）
+            if not match_assignee_name(assignee, row_assignee):
                 continue
 
             customer_name = row[name_col] if len(row) > name_col else ""
@@ -739,6 +735,79 @@ def normalize_name(name: str) -> str:
     # 小文字化
     name = name.lower()
     return name
+
+
+# 担当者名のエイリアス（Zoom認証名 → 顧客一覧名）
+ASSIGNEE_ALIASES = {
+    "長谷川こなつ": "長谷川小夏",
+    "播磨谷 彩": "播磨谷　彩",
+    "栗原瑠人": "栗原日向子",  # 必要に応じて確認
+    "長谷川太一": "長谷川小夏",  # 必要に応じて確認
+}
+
+# 逆引きマッピングも作成
+ASSIGNEE_ALIASES_REVERSE = {v: k for k, v in ASSIGNEE_ALIASES.items()}
+
+
+def match_assignee_name(zoom_name: str, customer_name: str) -> bool:
+    """
+    担当者名が一致するかチェック（柔軟なマッチング）
+
+    マッチング方法:
+    1. 正規化した名前で完全一致
+    2. エイリアス（別名）でマッチ
+    3. スペースを無視してマッチ
+
+    Args:
+        zoom_name: Zoom認証の担当者名
+        customer_name: 顧客一覧の担当者名
+
+    Returns:
+        一致する場合True
+    """
+    if not zoom_name or not customer_name:
+        return False
+
+    # 1. 正規化して比較
+    norm_zoom = normalize_name(zoom_name)
+    norm_customer = normalize_name(customer_name)
+
+    if norm_zoom == norm_customer:
+        return True
+
+    # 2. エイリアスでチェック
+    # Zoom名のエイリアスが顧客名と一致するか
+    alias = ASSIGNEE_ALIASES.get(zoom_name)
+    if alias and normalize_name(alias) == norm_customer:
+        return True
+
+    # 顧客名のエイリアスがZoom名と一致するか
+    alias_reverse = ASSIGNEE_ALIASES_REVERSE.get(customer_name)
+    if alias_reverse and normalize_name(alias_reverse) == norm_zoom:
+        return True
+
+    # 3. 正規化したエイリアスでもチェック
+    for zoom_alias, customer_alias in ASSIGNEE_ALIASES.items():
+        if normalize_name(zoom_alias) == norm_zoom and normalize_name(customer_alias) == norm_customer:
+            return True
+
+    return False
+
+
+def get_customer_name_from_zoom(zoom_name: str) -> str:
+    """
+    Zoom認証の担当者名から顧客一覧の担当者名を取得
+
+    Args:
+        zoom_name: Zoom認証の担当者名
+
+    Returns:
+        顧客一覧で使用する担当者名
+    """
+    # エイリアスがあればそれを返す
+    if zoom_name in ASSIGNEE_ALIASES:
+        return ASSIGNEE_ALIASES[zoom_name]
+    return zoom_name
 
 
 @retry_on_quota_error(max_retries=5, initial_delay=2.0)
@@ -1925,7 +1994,7 @@ def reconcile_zoom_sheet_with_customer_list(
                 if scheduled_time:
                     customer_data.append({
                         "customer_name": customer_name,
-                        "assignee": normalize_name(assignee),
+                        "assignee": assignee,  # 元の名前を保持（マッチングで柔軟に比較）
                         "scheduled_time": scheduled_time,
                         "status": status.strip(),
                         "result_status": result_status.strip()
@@ -1972,12 +2041,12 @@ def reconcile_zoom_sheet_with_customer_list(
             if not meeting_dt:
                 continue
 
-            # メモリ内で顧客一覧と照合
-            assignee_normalized = normalize_name(assignee)
+            # メモリ内で顧客一覧と照合（柔軟なマッチング）
             matched = None
 
             for cust in customer_data:
-                if cust["assignee"] != assignee_normalized:
+                # 担当者名の柔軟なマッチング
+                if not match_assignee_name(assignee, cust["assignee"]):
                     continue
 
                 # 時間の照合

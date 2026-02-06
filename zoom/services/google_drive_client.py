@@ -115,6 +115,114 @@ def get_google_credentials():
     return credentials
 
 
+def create_transcript_doc_via_gas(
+    transcript: str,
+    title: str,
+    assignee: str,
+    customer_name: str
+) -> Optional[str]:
+    """
+    GAS経由で文字起こしドキュメントを作成（ユーザー所有になる）
+
+    Args:
+        transcript: 文字起こしテキスト
+        title: ドキュメントタイトル
+        assignee: 担当者名
+        customer_name: 顧客名
+
+    Returns:
+        Google DocsのURL（失敗時はNone）
+    """
+    if not GAS_WEBAPP_URL:
+        return None
+
+    try:
+        payload = {
+            "action": "create_transcript",
+            "transcript": transcript,
+            "title": title,
+            "assignee": assignee,
+            "customer_name": customer_name
+        }
+
+        response = requests.post(
+            GAS_WEBAPP_URL,
+            json=payload,
+            headers={"Content-Type": "application/json"},
+            timeout=120
+        )
+        response.raise_for_status()
+
+        result = response.json()
+
+        if result.get("success"):
+            doc_url = result.get("url")
+            print(f"   文字起こしDoc作成(GAS): {doc_url}")
+            return doc_url
+        else:
+            error_msg = result.get("error", "Unknown error")
+            print(f"   GAS文字起こしエラー: {error_msg}")
+            return None
+
+    except Exception as e:
+        print(f"   GASリクエストエラー: {str(e)}")
+        return None
+
+
+def copy_doc_via_gas(
+    doc_file_id: str,
+    doc_title: str,
+    assignee: str,
+    customer_name: str
+) -> Optional[str]:
+    """
+    GAS経由でドキュメントをコピー（ユーザー所有になる）
+
+    Args:
+        doc_file_id: サービスアカウントが作成したドキュメントのファイルID
+        doc_title: コピー後のドキュメントタイトル
+        assignee: 担当者名
+        customer_name: 顧客名
+
+    Returns:
+        コピーされたドキュメントのURL（失敗時はNone）
+    """
+    if not GAS_WEBAPP_URL:
+        return None
+
+    try:
+        payload = {
+            "action": "copy_doc",
+            "doc_file_id": doc_file_id,
+            "doc_title": doc_title,
+            "assignee": assignee,
+            "customer_name": customer_name
+        }
+
+        response = requests.post(
+            GAS_WEBAPP_URL,
+            json=payload,
+            headers={"Content-Type": "application/json"},
+            timeout=120
+        )
+        response.raise_for_status()
+
+        result = response.json()
+
+        if result.get("success"):
+            doc_url = result.get("url")
+            print(f"   GASコピー完了: {doc_url}")
+            return doc_url
+        else:
+            error_msg = result.get("error", "Unknown error")
+            print(f"   GASコピーエラー: {error_msg}")
+            return None
+
+    except Exception as e:
+        print(f"   GASコピーリクエストエラー: {str(e)}")
+        return None
+
+
 def create_transcript_doc(
     transcript: str,
     assignee: str,
@@ -123,27 +231,36 @@ def create_transcript_doc(
     folder_id: Optional[str] = None
 ) -> str:
     """
-    文字起こしをGoogle Docsに保存（Google Docs API直接使用）
+    文字起こしをGoogle Docsに保存
+    GAS_WEBAPP_URLが設定されていればGAS経由、なければAPI直接使用
 
     Args:
         transcript: 文字起こしテキスト
         assignee: 担当者名
         customer_name: 顧客名
         meeting_date: 面談日
-        folder_id: 保存先フォルダID（オプション）
+        folder_id: 保存先フォルダID（オプション、API直接使用時のみ）
 
     Returns:
         Google DocsのURL
     """
+    title = f"【文字起こし】{customer_name}_{assignee}_{meeting_date}"
+
+    # GAS経由で作成を試みる
+    if GAS_WEBAPP_URL:
+        result = create_transcript_doc_via_gas(transcript, title, assignee, customer_name)
+        if result:
+            return result
+        print("   GAS失敗、API直接使用にフォールバック")
+
+    # フォールバック: サービスアカウントで一時作成 → GASでコピー → 削除
     try:
         credentials = get_google_credentials()
         docs_service = build('docs', 'v1', credentials=credentials)
         drive_service = build('drive', 'v3', credentials=credentials)
 
-        # ドキュメントタイトル
-        title = f"【文字起こし】{customer_name}_{assignee}_{meeting_date}"
-
-        # 1. 空のドキュメントを作成
+        # 1. サービスアカウントで一時ドキュメントを作成
+        print("→ 一時ドキュメントを作成中...")
         doc = docs_service.documents().create(body={'title': title}).execute()
         doc_id = doc['documentId']
 
@@ -161,7 +278,7 @@ def create_transcript_doc(
             body={'requests': requests_body}
         ).execute()
 
-        # 3. 権限設定（リンクを知っている全員が閲覧可能）
+        # 3. 権限設定（GASからアクセスできるように）
         drive_service.permissions().create(
             fileId=doc_id,
             body={
@@ -170,26 +287,38 @@ def create_transcript_doc(
             }
         ).execute()
 
-        # 4. フォルダに移動（指定がある場合）
-        if folder_id:
-            # 現在の親フォルダを取得
-            file_info = drive_service.files().get(
-                fileId=doc_id,
-                fields='parents'
-            ).execute()
-            previous_parents = ",".join(file_info.get('parents', []))
+        print(f"   一時ドキュメント作成完了: {doc_id}")
 
-            # 新しいフォルダに移動
-            drive_service.files().update(
-                fileId=doc_id,
-                addParents=folder_id,
-                removeParents=previous_parents,
-                fields='id, parents'
-            ).execute()
+        # 4. GAS経由でコピー（ユーザー所有になる）
+        print("→ GAS経由でコピー中...")
+        copied_url = copy_doc_via_gas(doc_id, title, assignee, customer_name)
 
-        doc_url = f"https://docs.google.com/document/d/{doc_id}/edit"
-        print(f"   文字起こしDoc作成: {doc_url}")
-        return doc_url
+        # 5. 元ドキュメントを削除（コピー成功/失敗に関わらず削除して容量解放）
+        print("→ 一時ドキュメントを削除中...")
+        try:
+            drive_service.files().delete(fileId=doc_id).execute()
+            print(f"   一時ドキュメント削除完了: {doc_id}")
+        except Exception as del_e:
+            print(f"   一時ドキュメント削除エラー: {del_e}")
+
+        if copied_url:
+            return copied_url
+        else:
+            # GASコピーも失敗した場合は、再度作成してそのまま返す
+            print("→ GASコピー失敗、直接作成にフォールバック...")
+            doc = docs_service.documents().create(body={'title': title}).execute()
+            doc_id = doc['documentId']
+            docs_service.documents().batchUpdate(
+                documentId=doc_id,
+                body={'requests': requests_body}
+            ).execute()
+            drive_service.permissions().create(
+                fileId=doc_id,
+                body={'type': 'anyone', 'role': 'reader'}
+            ).execute()
+            doc_url = f"https://docs.google.com/document/d/{doc_id}/edit"
+            print(f"   文字起こしDoc作成(直接): {doc_url}")
+            return doc_url
 
     except Exception as e:
         raise Exception(f"Google Docs API error: {str(e)}")
@@ -271,22 +400,35 @@ def upload_video_to_drive_temp(video_path: str, file_name: str) -> Optional[str]
         return None
 
 
-def copy_video_via_gas(video_file_id: str, video_title: str) -> Optional[str]:
+def copy_video_via_gas(
+    video_file_id: str,
+    video_title: str,
+    assignee: str = "",
+    customer_name: str = ""
+) -> Optional[str]:
     """
     GAS経由で動画をコピー（ユーザー所有になる）
 
     Args:
         video_file_id: サービスアカウントがアップロードした動画のファイルID
         video_title: コピー後のファイル名
+        assignee: 担当者名（フォルダ整理用）
+        customer_name: 顧客名（フォルダ整理用）
 
     Returns:
         コピーされた動画のURL（失敗時はNone）
     """
+    if not GAS_WEBAPP_URL:
+        print("   GAS_WEBAPP_URLが設定されていません")
+        return None
+
     try:
         payload = {
             "action": "copy_video",
             "video_file_id": video_file_id,
-            "video_title": video_title
+            "video_title": video_title,
+            "assignee": assignee,
+            "customer_name": customer_name
         }
 
         response = requests.post(
@@ -411,6 +553,11 @@ def upload_video_with_copy(
     Returns:
         コピーされた動画のURL（ユーザー所有）
     """
+    # GAS_WEBAPP_URLが設定されていない場合はNoneを返す（フォールバック処理へ）
+    if not GAS_WEBAPP_URL:
+        print("   GAS_WEBAPP_URLが未設定のため、直接アップロードにフォールバック")
+        return None
+
     file_name = f"【面談動画】{customer_name}_{assignee}_{meeting_date}.mp4"
 
     # 1. サービスアカウントのDriveに一時アップロード
@@ -421,16 +568,9 @@ def upload_video_with_copy(
 
     # 2. GAS経由でコピー（ユーザー所有になる）
     print("→ GAS経由でコピー中...")
-    video_url = copy_video_via_gas(file_id, file_name)
+    video_url = copy_video_via_gas(file_id, file_name, assignee, customer_name)
 
-    # 3. コピーされた動画を「誰でも閲覧可能」に設定
-    if video_url:
-        copied_file_id = extract_file_id_from_url(video_url)
-        if copied_file_id:
-            print("→ 公開権限を設定中...")
-            set_public_permission(copied_file_id)
-
-    # 4. 元ファイルを削除（コピー成功/失敗に関わらず削除して容量解放）
+    # 3. 元ファイルを削除（コピー成功/失敗に関わらず削除して容量解放）
     print("→ 元ファイルを削除中...")
     delete_file_from_drive(file_id)
 
@@ -445,7 +585,7 @@ def upload_video_to_drive(
     folder_id: Optional[str] = None
 ) -> str:
     """
-    動画をGoogle Driveにアップロード（後方互換性のため残す）
+    動画をGoogle Driveにアップロード
 
     Args:
         video_path: 動画ファイルのパス
@@ -457,12 +597,6 @@ def upload_video_to_drive(
     Returns:
         Google DriveのURL
     """
-    # 新しい方式を使用
-    result = upload_video_with_copy(video_path, assignee, customer_name, meeting_date)
-    if result:
-        return result
-
-    # フォールバック: 従来の方式
     credentials = get_google_credentials()
     drive_service = build('drive', 'v3', credentials=credentials)
 
@@ -477,6 +611,7 @@ def upload_video_to_drive(
         resumable=True
     )
 
+    print(f"→ 動画をGoogle Driveにアップロード中...")
     file = drive_service.files().create(
         body=file_metadata,
         media_body=media,
@@ -485,6 +620,8 @@ def upload_video_to_drive(
 
     file_id = file['id']
 
+    # 公開権限を設定（リンクを知っている全員が閲覧可能）
+    print(f"→ 公開権限を設定中...")
     drive_service.permissions().create(
         fileId=file_id,
         body={
