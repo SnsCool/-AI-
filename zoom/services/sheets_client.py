@@ -1101,7 +1101,9 @@ def write_to_zoom_sheet(
 ) -> bool:
     """
     Zoom相談一覧シートに書き込む
-    - 同じ顧客名+担当者の行が既にある場合は、その行を更新
+    - 同じ顧客名+担当者の行が既にある場合:
+      - 新しい録画の日時 > 既存レコードの日時 → 更新する
+      - 新しい録画の日時 <= 既存レコードの日時 → スキップ（既存を保持）
     - ない場合は新規行を追加
 
     列構成:
@@ -1145,13 +1147,40 @@ def write_to_zoom_sheet(
         existing_row = find_existing_row_in_zoom_sheet(worksheet, customer_name, assignee, meeting_datetime)
 
         if existing_row:
-            # 既存行を更新（全列を更新）
-            print(f"   → 既存行 {existing_row} を更新: {customer_name} / {assignee}")
-
-            # 既存のG列（文字起こし）とH列（動画）を取得して、Google Docsリンクがあれば保持
+            # 既存行の値を取得
             existing_values = worksheet.row_values(existing_row)
+            existing_datetime_str = existing_values[2] if len(existing_values) > 2 else ""  # C列 (0-indexed: 2)
             existing_transcript = existing_values[6] if len(existing_values) > 6 else ""  # G列 (0-indexed: 6)
             existing_video = existing_values[7] if len(existing_values) > 7 else ""  # H列 (0-indexed: 7)
+
+            # 日時を比較: 新しい録画の日時 > 既存レコードの日時 の場合のみ更新
+            from datetime import datetime as dt
+            new_dt = None
+            existing_dt = None
+            try:
+                # 新しい日時をパース
+                new_dt = dt.strptime(meeting_datetime[:19], "%Y-%m-%d %H:%M:%S")
+            except:
+                try:
+                    new_dt = dt.strptime(meeting_datetime[:16], "%Y-%m-%d %H:%M")
+                except:
+                    pass
+            try:
+                # 既存の日時をパース
+                existing_dt = dt.strptime(existing_datetime_str[:19], "%Y-%m-%d %H:%M:%S")
+            except:
+                try:
+                    existing_dt = dt.strptime(existing_datetime_str[:16], "%Y-%m-%d %H:%M")
+                except:
+                    pass
+
+            # 日時比較: 新しい日時が既存より後でなければスキップ
+            if new_dt and existing_dt and new_dt <= existing_dt:
+                print(f"   → スキップ: 既存レコードの方が新しい ({existing_datetime_str} >= {meeting_datetime})")
+                return True  # 成功扱いで終了
+
+            # 既存行を更新（全列を更新）
+            print(f"   → 既存行 {existing_row} を更新: {customer_name} / {assignee}")
 
             # 既存のGoogle Docsリンクがあれば保持（上書きしない）
             final_transcript_url = existing_transcript if existing_transcript and "docs.google.com" in existing_transcript else transcript_doc_url
