@@ -1303,6 +1303,96 @@ def get_error_rows_from_zoom_sheet(
 
 
 @retry_on_quota_error(max_retries=5, initial_delay=2.0)
+def get_rows_with_zoom_link_only(
+    spreadsheet_id: str,
+    sheet_name: str = None
+) -> list[dict]:
+    """
+    Zoom相談一覧シートから、H列がZoomリンク（Drive未アップロード）の行を取得
+
+    Returns:
+        [{"row_num": int, "customer_name": str, "assignee": str, "meeting_datetime": str, "video_url": str}]
+    """
+    try:
+        client = get_sheets_client()
+        spreadsheet = client.open_by_key(spreadsheet_id)
+
+        target_sheet = sheet_name or DEFAULT_SHEET_NAME
+        try:
+            worksheet = spreadsheet.worksheet(target_sheet)
+        except:
+            worksheet = spreadsheet.sheet1
+
+        all_values = worksheet.get_all_values()
+        zoom_only_rows = []
+
+        for i, row in enumerate(all_values[1:], start=2):  # ヘッダーをスキップ
+            # H列（動画）がZoomリンクで、Driveリンクでない行を検索
+            has_video = len(row) > 7 and row[7].strip()
+            is_zoom_link = has_video and "zoom.us" in row[7]
+            is_drive_link = has_video and "drive.google.com" in row[7]
+
+            if is_zoom_link and not is_drive_link:
+                zoom_only_rows.append({
+                    "row_num": i,
+                    "customer_name": row[0] if len(row) > 0 else "",
+                    "assignee": row[1] if len(row) > 1 else "",
+                    "meeting_datetime": row[2] if len(row) > 2 else "",
+                    "video_url": row[7] if len(row) > 7 else ""
+                })
+
+        return zoom_only_rows
+
+    except Exception as e:
+        print(f"Zoomリンク行の取得エラー: {e}")
+        return []
+
+
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
+def update_video_url_in_zoom_sheet(
+    spreadsheet_id: str,
+    row_num: int,
+    video_url: str,
+    sheet_name: str = None
+) -> bool:
+    """
+    Zoom相談一覧シートの指定行のH列（動画）を更新
+
+    Args:
+        spreadsheet_id: スプレッドシートID
+        row_num: 行番号
+        video_url: 動画のURL
+        sheet_name: シート名
+
+    Returns:
+        成功したかどうか
+    """
+    try:
+        client = get_sheets_client()
+        spreadsheet = client.open_by_key(spreadsheet_id)
+
+        target_sheet = sheet_name or DEFAULT_SHEET_NAME
+        try:
+            worksheet = spreadsheet.worksheet(target_sheet)
+        except:
+            worksheet = spreadsheet.sheet1
+
+        # H列を更新
+        worksheet.update(f"H{row_num}", [[video_url]])
+
+        # K列に更新日時を記録
+        update_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+        worksheet.update(f"K{row_num}", [[update_timestamp]])
+
+        print(f"   → 行{row_num} の動画URLを更新")
+        return True
+
+    except Exception as e:
+        print(f"動画URL更新エラー: {e}")
+        return False
+
+
+@retry_on_quota_error(max_retries=5, initial_delay=2.0)
 def get_rows_missing_transcript(
     spreadsheet_id: str,
     sheet_name: str = None

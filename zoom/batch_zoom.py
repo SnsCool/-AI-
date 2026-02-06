@@ -88,7 +88,9 @@ from services.sheets_client import (
     clear_error_in_zoom_sheet,
     get_error_rows_from_zoom_sheet,
     get_rows_missing_transcript,
+    get_rows_with_zoom_link_only,
     update_transcript_url_in_zoom_sheet,
+    update_video_url_in_zoom_sheet,
     reconcile_zoom_sheet_with_customer_sheet,
     reconcile_zoom_sheet_with_customer_list,
     DEFAULT_SPREADSHEET_ID,
@@ -1001,6 +1003,11 @@ def main():
         action="store_true",
         help="動画はあるが文字起こしがない行の文字起こしドキュメントを作成"
     )
+    parser.add_argument(
+        "--upload-videos-to-drive",
+        action="store_true",
+        help="ZoomリンクのみでDrive未アップロードの動画をDriveにアップロード"
+    )
 
     args = parser.parse_args()
 
@@ -1164,6 +1171,140 @@ def main():
 
             # API レート制限回避
             time.sleep(API_CALL_DELAY)
+
+        print(f"\n完了: 成功 {success_count}件 / 失敗 {failed_count}件")
+        sys.exit(0)
+
+    # ZoomリンクをDriveにアップロード
+    if args.upload_videos_to_drive:
+        print("=" * 60)
+        print("動画をGoogle Driveにアップロード（Zoomリンクのみの行）")
+        print("=" * 60)
+
+        zoom_only_rows = get_rows_with_zoom_link_only(
+            spreadsheet_id=DESTINATION_SPREADSHEET_ID,
+            sheet_name=DESTINATION_SHEET_NAME
+        )
+
+        if not zoom_only_rows:
+            print("Zoomリンクのみの行はありません。全て既にDriveにアップロード済みです。")
+            sys.exit(0)
+
+        print(f"対象行数: {len(zoom_only_rows)}件\n")
+
+        # JSONファイルから認証情報を読み込み
+        sheet_accounts_cache = {}
+        json_path = os.path.join(os.path.dirname(__file__), "zoom_credentials.json")
+        try:
+            import json
+            with open(json_path, "r", encoding="utf-8") as f:
+                json_accounts = json.load(f)
+            for acc in json_accounts:
+                if acc.get("account_id") and acc.get("client_id") and acc.get("client_secret"):
+                    sheet_accounts_cache[acc["assignee"]] = acc
+        except Exception as e:
+            print(f"JSON読み込みエラー: {e}")
+
+        success_count = 0
+        failed_count = 0
+
+        for row in zoom_only_rows:
+            print(f"\n処理中: 行{row['row_num']} - {row['customer_name']} / {row['assignee']}")
+            print(f"   日時: {row['meeting_datetime']}")
+            print(f"   現在のリンク: {row['video_url'][:50]}...")
+
+            # 担当者の認証情報を取得
+            sheet_creds = sheet_accounts_cache.get(row['assignee'])
+            if not sheet_creds:
+                print(f"   → スキップ: 担当者の認証情報がありません")
+                failed_count += 1
+                continue
+
+            try:
+                # アクセストークン取得
+                access_token = get_zoom_access_token(
+                    sheet_creds["account_id"],
+                    sheet_creds["client_id"],
+                    sheet_creds["client_secret"]
+                )
+
+                # 録画を検索
+                all_recordings = get_zoom_recordings(access_token, months=2)
+
+                # 日時でマッチする録画を探す
+                matching_recording = None
+                row_datetime = row['meeting_datetime']
+                for rec in all_recordings:
+                    rec_time = rec.get("start_time", "").replace("T", " ").replace("Z", "")
+                    if rec_time and row_datetime:
+                        if rec_time[:16] == row_datetime[:16]:
+                            matching_recording = rec
+                            break
+
+                if not matching_recording:
+                    print(f"   → スキップ: 対応する録画が見つかりません")
+                    failed_count += 1
+                    continue
+
+                mp4_url = matching_recording.get("mp4_url")
+                if not mp4_url:
+                    print(f"   → スキップ: 動画データがありません")
+                    failed_count += 1
+                    continue
+
+                # 動画をダウンロード
+                print("   → 動画をダウンロード中...")
+                meeting_date = row['meeting_datetime'][:10] if row['meeting_datetime'] else ""
+
+                with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as tmp_file:
+                    temp_video_path = tmp_file.name
+
+                try:
+                    download_success = download_video_from_zoom(
+                        mp4_url=mp4_url,
+                        access_token=access_token,
+                        output_path=temp_video_path
+                    )
+
+                    if not download_success:
+                        print(f"   → スキップ: 動画ダウンロード失敗")
+                        failed_count += 1
+                        continue
+
+                    # Google Driveにアップロード
+                    print("   → Google Driveにアップロード中...")
+                    video_url = upload_video_with_copy(
+                        video_path=temp_video_path,
+                        assignee=row['assignee'],
+                        customer_name=row['customer_name'],
+                        meeting_date=meeting_date
+                    )
+
+                    if video_url:
+                        # シートを更新
+                        update_video_url_in_zoom_sheet(
+                            spreadsheet_id=DESTINATION_SPREADSHEET_ID,
+                            row_num=row['row_num'],
+                            video_url=video_url,
+                            sheet_name=DESTINATION_SHEET_NAME
+                        )
+                        print(f"   → 成功: {video_url}")
+                        success_count += 1
+                    else:
+                        print(f"   → 失敗: Driveアップロードに失敗")
+                        failed_count += 1
+
+                finally:
+                    # 一時ファイルを削除
+                    if os.path.exists(temp_video_path):
+                        os.remove(temp_video_path)
+
+            except Exception as e:
+                print(f"   → エラー: {e}")
+                failed_count += 1
+
+            # API レート制限回避
+            time.sleep(API_CALL_DELAY * 2)  # 動画は重いので待機時間を長めに
 
         print(f"\n完了: 成功 {success_count}件 / 失敗 {failed_count}件")
         sys.exit(0)
