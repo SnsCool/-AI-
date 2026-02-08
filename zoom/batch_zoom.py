@@ -719,11 +719,13 @@ def run_batch_process(
                 # デフォルトは1ヶ月分
                 all_recordings = get_zoom_recordings(access_token, months=1)
 
-            # 全件処理か最新1件のみか
+            # 全件処理か最新2件のみか
+            # 10分ごとのトリガーで取得漏れを防ぐため、最新2件を取得
+            # 処理済みの録画はis_recording_processed()でスキップされる
             if process_all:
                 recordings = all_recordings
             else:
-                recordings = all_recordings[:1]  # 最新1件のみ処理
+                recordings = all_recordings[:2]  # 最新2件を処理（重複は自動スキップ）
             print(f"録画数: {len(recordings)}/{len(all_recordings)}件 (認証元: {used_source})")
 
             for idx, recording in enumerate(recordings):
@@ -976,7 +978,7 @@ def main():
     parser.add_argument(
         "--all",
         action="store_true",
-        help="最新1件だけでなく全件処理"
+        help="最新2件だけでなく全件処理"
     )
     parser.add_argument(
         "--reprocess",
