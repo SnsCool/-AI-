@@ -109,11 +109,17 @@ jobs:
 
       - name: Setup Google Credentials
         env:
-          GOOGLE_CREDENTIALS_BASE64: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
         run: |
-          # base64エンコードされたシークレットを安全にデコードしてファイルに保存
+          # シークレットをファイルに保存（base64またはraw JSONに対応）
           umask 077
-          printf '%s' "$GOOGLE_CREDENTIALS_BASE64" | base64 -d > /tmp/google_creds.json
+          # まずbase64デコードを試行、失敗したらraw JSONとして扱う
+          if printf '%s' "$GOOGLE_CREDENTIALS_JSON" | base64 -d > /tmp/google_creds.json 2>/dev/null; then
+            echo "Credentials decoded from base64."
+          else
+            printf '%s' "$GOOGLE_CREDENTIALS_JSON" > /tmp/google_creds.json
+            echo "Credentials saved as raw JSON."
+          fi
           chmod 600 /tmp/google_creds.json
           echo "GOOGLE_APPLICATION_CREDENTIALS=/tmp/google_creds.json" >> $GITHUB_ENV
           echo "Google credentials file created with secure permissions."
