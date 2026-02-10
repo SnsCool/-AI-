@@ -154,9 +154,33 @@ function doPost(e) {
  * Web APIエントリーポイント（GET - 動作確認用）
  */
 function doGet(e) {
+  const action = e.parameter ? e.parameter.action : null;
+
+  // セットアップアクション
+  if (action === 'setup') {
+    setupDiscordWebhook();
+    return ContentService.createTextOutput(JSON.stringify({
+      success: true,
+      message: 'Discord Webhook URL を設定しました',
+      timestamp: new Date().toISOString()
+    })).setMimeType(ContentService.MimeType.JSON);
+  }
+
+  // テスト通知アクション
+  if (action === 'test') {
+    sendDiscordNotification('GAS テスト通知', 'Web APIからのテスト通知です', false);
+    return ContentService.createTextOutput(JSON.stringify({
+      success: true,
+      message: 'テスト通知を送信しました',
+      timestamp: new Date().toISOString()
+    })).setMimeType(ContentService.MimeType.JSON);
+  }
+
+  // デフォルト: ヘルスチェック
   return ContentService.createTextOutput(JSON.stringify({
     success: true,
     message: 'Zoom Video & Transcript API is running',
+    webhookConfigured: !!getDiscordWebhookUrl(),
     timestamp: new Date().toISOString()
   })).setMimeType(ContentService.MimeType.JSON);
 }
@@ -359,13 +383,31 @@ function testHealthCheck() {
 }
 
 /**
- * 初期設定用：スクリプトプロパティの設定方法を表示
+ * 初期設定：Discord Webhook URLを設定
+ * ※ 一度だけ実行してください
  */
-function showSetupInstructions() {
-  Logger.log('=== Discord Webhook URL 設定方法 ===');
-  Logger.log('1. GASエディタで「プロジェクトの設定」を開く');
-  Logger.log('2. 「スクリプトプロパティ」セクションで「プロパティを追加」');
-  Logger.log('3. プロパティ名: DISCORD_WEBHOOK_URL');
-  Logger.log('4. 値: Discord Webhook URL を貼り付け');
-  Logger.log('5. 保存');
+function setupDiscordWebhook() {
+  const webhookUrl = 'https://discord.com/api/webhooks/1470665385924886703/_RzEIe_OzrkDeCVYuGb1k2FeSKzHQNe6Lo_XGqf9xcwBFNtVqxqhEOCBDIE_adcldHZc';
+  PropertiesService.getScriptProperties().setProperty('DISCORD_WEBHOOK_URL', webhookUrl);
+  Logger.log('Discord Webhook URL を設定しました');
+
+  // 設定確認
+  const saved = PropertiesService.getScriptProperties().getProperty('DISCORD_WEBHOOK_URL');
+  if (saved) {
+    Logger.log('確認OK: ' + saved.substring(0, 50) + '...');
+  }
+}
+
+/**
+ * 設定確認用
+ */
+function checkWebhookSetting() {
+  const url = PropertiesService.getScriptProperties().getProperty('DISCORD_WEBHOOK_URL');
+  if (url) {
+    Logger.log('Webhook URL設定済み: ' + url.substring(0, 60) + '...');
+    return true;
+  } else {
+    Logger.log('Webhook URLが設定されていません。setupDiscordWebhook()を実行してください。');
+    return false;
+  }
 }
