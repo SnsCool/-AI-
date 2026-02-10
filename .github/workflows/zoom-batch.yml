@@ -26,10 +26,10 @@ on:
         type: string
         default: ''
       limit:
-        description: '1グループあたりの処理件数上限（デフォルト: 30）'
+        description: '1グループあたりの処理件数上限（0 or 空 = 無制限）'
         required: false
         type: number
-        default: 30
+        default: 0
       reprocess:
         description: '再処理フラグ（処理済みも再処理）'
         required: false
@@ -156,12 +156,11 @@ jobs:
           # 配列でコマンドを構築（安全な引数処理）
           CMD=(python zoom/batch_zoom.py --group "${{ matrix.group }}" --all --fast)
 
-          # 処理件数制限（デフォルト30件/グループ）
+          # 処理件数制限（デフォルト: 無制限）
           LIMIT="${{ inputs.limit }}"
-          if [ -z "$LIMIT" ]; then
-            LIMIT=30
+          if [ -n "$LIMIT" ] && [ "$LIMIT" -gt 0 ] 2>/dev/null; then
+            CMD+=(--limit "$LIMIT")
           fi
-          CMD+=(--limit "$LIMIT")
 
           # 日付が指定されている場合
           if [ -n "${{ inputs.from_date }}" ]; then
