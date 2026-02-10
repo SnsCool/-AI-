@@ -195,6 +195,10 @@ def classify_error(error: Exception) -> str:
     if "docs" in error_str or "document" in error_str:
         return "Docsエラー: Google Docsの作成に失敗しました"
 
+    # DB重複エラー
+    if "duplicate key" in error_str or "unique constraint" in error_str or "23505" in error_str:
+        return "DB重複エラー: 既に処理済みのレコードです"
+
     # Zoom関連
     if "zoom" in error_str or "recording" in error_str or "transcript" in error_str:
         return "Zoomエラー: Zoom録画/文字起こしの取得に失敗しました"
@@ -226,13 +230,16 @@ def mark_recording_processed(
     meeting_date: str,
     customer_name: Optional[str] = None
 ):
-    """録画を処理済みとしてマーク"""
-    supabase_client.table("processed_recordings").insert({
-        "recording_id": recording_id,
-        "assignee": assignee,
-        "meeting_date": meeting_date,
-        "customer_name": customer_name
-    }).execute()
+    """録画を処理済みとしてマーク（重複時は更新）"""
+    supabase_client.table("processed_recordings").upsert(
+        {
+            "recording_id": recording_id,
+            "assignee": assignee,
+            "meeting_date": meeting_date,
+            "customer_name": customer_name
+        },
+        on_conflict="recording_id"
+    ).execute()
 
 
 def process_single_recording(
