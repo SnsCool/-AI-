@@ -828,15 +828,28 @@ def run_batch_process(
                     error_datetime = error_row['meeting_datetime']
                     all_recordings = get_zoom_recordings(access_token, months=1)
 
-                    # 日時でマッチする録画を探す
+                    # 日時でマッチする録画を探す（UTC/JST両方で試行）
                     matching_recording = None
                     for rec in all_recordings:
-                        rec_time = rec.get("start_time", "").replace("T", " ").replace("Z", "")
+                        rec_start = rec.get("start_time", "")
+                        rec_time = rec_start.replace("T", " ").replace("Z", "")
                         if rec_time and error_datetime:
-                            # 日時の最初の16文字（YYYY-MM-DD HH:MM）で比較
+                            # 1. 直接マッチ
                             if rec_time[:16] == error_datetime[:16]:
                                 matching_recording = rec
                                 break
+
+                            # 2. UTC→JST変換してマッチ
+                            try:
+                                from datetime import datetime as dt, timedelta
+                                utc_dt = dt.fromisoformat(rec_start.replace("Z", "+00:00"))
+                                jst_dt = utc_dt + timedelta(hours=9)
+                                jst_str = jst_dt.strftime("%Y-%m-%d %H:%M")
+                                if jst_str == error_datetime[:16]:
+                                    matching_recording = rec
+                                    break
+                            except:
+                                pass
 
                     if matching_recording:
                         print(f"   → 対応する録画を発見: {matching_recording.get('topic')}")
@@ -1110,15 +1123,32 @@ def main():
                 # 録画を検索
                 all_recordings = get_zoom_recordings(access_token, months=2)
 
-                # 日時でマッチする録画を探す
+                # 日時でマッチする録画を探す（UTC/JST両方で試行）
                 matching_recording = None
                 row_datetime = row['meeting_datetime']
+                row_date = row_datetime[:10] if row_datetime else ""
+
                 for rec in all_recordings:
-                    rec_time = rec.get("start_time", "").replace("T", " ").replace("Z", "")
+                    rec_start = rec.get("start_time", "")
+                    rec_time = rec_start.replace("T", " ").replace("Z", "")
+
                     if rec_time and row_datetime:
+                        # 1. 直接マッチ
                         if rec_time[:16] == row_datetime[:16]:
                             matching_recording = rec
                             break
+
+                        # 2. UTC→JST変換してマッチ
+                        try:
+                            from datetime import datetime as dt, timedelta
+                            utc_dt = dt.fromisoformat(rec_start.replace("Z", "+00:00"))
+                            jst_dt = utc_dt + timedelta(hours=9)
+                            jst_str = jst_dt.strftime("%Y-%m-%d %H:%M")
+                            if jst_str == row_datetime[:16]:
+                                matching_recording = rec
+                                break
+                        except:
+                            pass
 
                 if not matching_recording:
                     print(f"   → スキップ: 対応する録画が見つかりません")
@@ -1233,18 +1263,81 @@ def main():
                 # 録画を検索
                 all_recordings = get_zoom_recordings(access_token, months=2)
 
-                # 日時でマッチする録画を探す
+                # 日時でマッチする録画を探す（UTC/JST両方で試行）
                 matching_recording = None
                 row_datetime = row['meeting_datetime']
+                row_date = row_datetime[:10] if row_datetime else ""
+
+                # 候補を集める（同じ日付の録画）
+                same_day_recordings = []
                 for rec in all_recordings:
-                    rec_time = rec.get("start_time", "").replace("T", " ").replace("Z", "")
+                    rec_start = rec.get("start_time", "")
+                    rec_date = rec_start[:10] if rec_start else ""
+                    if rec_date == row_date:
+                        same_day_recordings.append(rec)
+
+                for rec in all_recordings:
+                    rec_start = rec.get("start_time", "")
+                    rec_time = rec_start.replace("T", " ").replace("Z", "")
+
                     if rec_time and row_datetime:
+                        # 1. 直接マッチ（UTC同士）
                         if rec_time[:16] == row_datetime[:16]:
                             matching_recording = rec
                             break
 
+                        # 2. UTC→JST変換してマッチ（+9時間）
+                        try:
+                            from datetime import datetime as dt, timedelta
+                            utc_dt = dt.fromisoformat(rec_start.replace("Z", "+00:00"))
+                            jst_dt = utc_dt + timedelta(hours=9)
+                            jst_str = jst_dt.strftime("%Y-%m-%d %H:%M")
+                            if jst_str == row_datetime[:16]:
+                                matching_recording = rec
+                                print(f"   → JST変換でマッチ: {rec_start} → {jst_str}")
+                                break
+                        except:
+                            pass
+
+                # 3. 同じ日付で最も近い時刻の録画を選択（フォールバック）
+                if not matching_recording and same_day_recordings:
+                    print(f"   → 同日の録画が{len(same_day_recordings)}件あります。時刻が最も近いものを選択...")
+                    try:
+                        from datetime import datetime as dt
+                        row_time_str = row_datetime[11:16] if len(row_datetime) > 16 else "00:00"
+                        row_minutes = int(row_time_str[:2]) * 60 + int(row_time_str[3:5])
+
+                        best_match = None
+                        best_diff = float('inf')
+
+                        for rec in same_day_recordings:
+                            rec_start = rec.get("start_time", "")
+                            # UTC時間
+                            rec_utc_time = rec_start[11:16] if len(rec_start) > 16 else "00:00"
+                            rec_utc_minutes = int(rec_utc_time[:2]) * 60 + int(rec_utc_time[3:5])
+                            # JST時間
+                            rec_jst_minutes = (rec_utc_minutes + 540) % 1440  # +9時間
+
+                            # UTCとJSTの両方で差を計算
+                            diff_utc = abs(rec_utc_minutes - row_minutes)
+                            diff_jst = abs(rec_jst_minutes - row_minutes)
+                            diff = min(diff_utc, diff_jst)
+
+                            if diff < best_diff:
+                                best_diff = diff
+                                best_match = rec
+
+                        if best_match and best_diff <= 120:  # 2時間以内の差なら許容
+                            matching_recording = best_match
+                            print(f"   → 近似マッチ: 時刻差 {best_diff}分")
+                    except Exception as e:
+                        print(f"   → 近似マッチエラー: {e}")
+
                 if not matching_recording:
-                    print(f"   → スキップ: 対応する録画が見つかりません")
+                    print(f"   → スキップ: 対応する録画が見つかりません (日時: {row_datetime})")
+                    print(f"      利用可能な録画:")
+                    for rec in all_recordings[:5]:
+                        print(f"        - {rec.get('start_time', '')} : {rec.get('topic', '')[:30]}")
                     failed_count += 1
                     continue
 

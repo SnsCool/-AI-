@@ -57,6 +57,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            zoom
+            requirements.txt
+            .github
+          sparse-checkout-cone-mode: false
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -131,6 +137,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            zoom
+            requirements.txt
+            .github
+          sparse-checkout-cone-mode: false
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -164,6 +176,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            zoom
+            requirements.txt
+            .github
+          sparse-checkout-cone-mode: false
 
       - name: Setup Python
         uses: actions/setup-python@v5
