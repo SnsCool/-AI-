@@ -86,7 +86,6 @@ jobs:
         with:
           sparse-checkout: |
             zoom
-            requirements.txt
             .github
           sparse-checkout-cone-mode: false
 
@@ -99,14 +98,14 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          key: ${{ runner.os }}-pip-${{ hashFiles('zoom/requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
 
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r zoom/requirements.txt
 
       - name: Setup Google Credentials
         env:

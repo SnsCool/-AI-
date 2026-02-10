@@ -43,6 +43,9 @@ on:
   repository_dispatch:
     types: [analyze_meeting]
 
+env:
+  TZ: 'Asia/Tokyo'
+
 jobs:
   # バッチ処理（cron / 手動実行）
   batch-analyze:
@@ -60,7 +63,6 @@ jobs:
         with:
           sparse-checkout: |
             zoom
-            requirements.txt
             .github
           sparse-checkout-cone-mode: false
 
@@ -74,7 +76,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r zoom/requirements.txt
 
       - name: Calculate group number
         id: group
@@ -140,7 +142,6 @@ jobs:
         with:
           sparse-checkout: |
             zoom
-            requirements.txt
             .github
           sparse-checkout-cone-mode: false
 
@@ -179,7 +180,6 @@ jobs:
         with:
           sparse-checkout: |
             zoom
-            requirements.txt
             .github
           sparse-checkout-cone-mode: false
 
