@@ -212,6 +212,15 @@ jobs:
             --data "{\"text\":\"⚠️ Zoom Batch Workflow Failed\\nRepository: ${{ github.repository }}\\nRun: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
             $SLACK_WEBHOOK_URL
 
+      - name: Send Discord Notification on Failure
+        if: steps.status.outputs.status == 'failure'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          curl -X POST -H 'Content-Type: application/json' \
+            --data "{\"embeds\":[{\"title\":\"❌ Zoom Batch 処理エラー\",\"description\":\"一部のグループ処理でエラーが発生しました\",\"color\":15158332,\"fields\":[{\"name\":\"リポジトリ\",\"value\":\"${{ github.repository }}\",\"inline\":true},{\"name\":\"実行時刻\",\"value\":\"$(date '+%Y-%m-%d %H:%M:%S')\",\"inline\":true}],\"url\":\"${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}]}" \
+            $DISCORD_WEBHOOK_URL
+
       - name: Output Summary
         if: always()
         run: |
