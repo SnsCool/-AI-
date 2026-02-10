@@ -246,12 +246,8 @@ jobs:
             STATUS_ICON="✅"
           fi
 
-          # エラー時のみメンション
-          if [ "${{ steps.status.outputs.status }}" == "failure" ]; then
-            MENTION="<@1340666940615823451>"
-          else
-            MENTION=""
-          fi
+          # 常にメンション
+          MENTION="<@1340666940615823451>"
 
           curl -X POST -H 'Content-Type: application/json' \
             --data "{
