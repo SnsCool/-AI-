@@ -203,6 +203,19 @@ jobs:
             echo "All jobs succeeded."
           fi
 
+      - name: Get Error Details
+        id: error-details
+        if: needs.process.result != 'success'
+        run: |
+          # GitHub CLIでジョブ情報を取得
+          FAILED_JOBS=$(gh run view ${{ github.run_id }} --json jobs --jq '.jobs[] | select(.conclusion == "failure") | .name' 2>/dev/null | tr '\n' ', ' | sed 's/,$//')
+          if [ -z "$FAILED_JOBS" ]; then
+            FAILED_JOBS="不明"
+          fi
+          echo "failed_jobs=$FAILED_JOBS" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ github.token }}
+
       - name: Send Slack Notification on Failure
         if: steps.status.outputs.status == 'failure' && env.SLACK_WEBHOOK_URL != ''
         env:
@@ -217,8 +230,23 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
+          FAILED_JOBS="${{ steps.error-details.outputs.failed_jobs }}"
+          LOG_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
           curl -X POST -H 'Content-Type: application/json' \
-            --data "{\"embeds\":[{\"title\":\"❌ Zoom Batch 処理エラー\",\"description\":\"一部のグループ処理でエラーが発生しました\",\"color\":15158332,\"fields\":[{\"name\":\"リポジトリ\",\"value\":\"${{ github.repository }}\",\"inline\":true},{\"name\":\"実行時刻\",\"value\":\"$(date '+%Y-%m-%d %H:%M:%S')\",\"inline\":true}],\"url\":\"${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}]}" \
+            --data "{
+              \"embeds\": [{
+                \"title\": \"❌ Zoom Batch 処理エラー\",
+                \"description\": \"一部のグループ処理でエラーが発生しました。\\n\\n**失敗したジョブ:** ${FAILED_JOBS}\\n\\n[📋 詳細ログを確認](${LOG_URL})\",
+                \"color\": 15158332,
+                \"fields\": [
+                  {\"name\": \"リポジトリ\", \"value\": \"${{ github.repository }}\", \"inline\": true},
+                  {\"name\": \"実行時刻\", \"value\": \"$(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M:%S JST')\", \"inline\": true},
+                  {\"name\": \"トリガー\", \"value\": \"${{ github.event_name }}\", \"inline\": true}
+                ],
+                \"footer\": {\"text\": \"Run ID: ${{ github.run_id }}\"}
+              }]
+            }" \
             $DISCORD_WEBHOOK_URL
 
       - name: Output Summary
