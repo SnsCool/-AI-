@@ -74,7 +74,7 @@ def get_sheets_client():
     # サービスアカウントの認証情報
     # 環境変数から取得（JSON文字列）またはファイルパス
     creds_json = os.getenv("GOOGLE_CREDENTIALS_JSON") or os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON")
-    creds_file = os.getenv("GOOGLE_SERVICE_ACCOUNT_FILE")
+    creds_file = os.getenv("GOOGLE_SERVICE_ACCOUNT_FILE") or os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
 
     scopes = [
         "https://www.googleapis.com/auth/spreadsheets",
