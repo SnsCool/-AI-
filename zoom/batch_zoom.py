@@ -100,6 +100,9 @@ from services.sheets_client import (
     update_row_with_analysis,
     get_all_assignee_sheets,
     get_zoom_credentials_from_sheet,
+    match_assignee_name,
+    ASSIGNEE_ALIASES,
+    normalize_name,
 )
 
 # 書き込み先スプレッドシートID（Zoom相談一覧）
@@ -108,6 +111,48 @@ DESTINATION_SHEET_NAME = "Zoom相談一覧"
 
 # 顧客一覧シート（照合用）- 同じスプレッドシート内
 CUSTOMER_LIST_SHEET_NAME = "顧客一覧"
+
+
+def find_credentials_with_alias(assignee: str, credentials_cache: dict) -> Optional[dict]:
+    """
+    担当者名から認証情報を検索（表記揺れ対応）
+
+    Args:
+        assignee: シートの担当者名
+        credentials_cache: JSON/シートからロードした認証情報のキャッシュ
+
+    Returns:
+        認証情報の辞書、見つからない場合はNone
+    """
+    # 1. 完全一致
+    if assignee in credentials_cache:
+        return credentials_cache[assignee]
+
+    # 2. 正規化して検索
+    norm_assignee = normalize_name(assignee)
+    for json_name, creds in credentials_cache.items():
+        if normalize_name(json_name) == norm_assignee:
+            return creds
+
+    # 3. ASSIGNEE_ALIASESを使って検索
+    # シートの担当者名 → JSONの担当者名
+    for json_name, sheet_name in ASSIGNEE_ALIASES.items():
+        if normalize_name(sheet_name) == norm_assignee:
+            if json_name in credentials_cache:
+                return credentials_cache[json_name]
+
+    # JSONの担当者名 → シートの担当者名（逆引き）
+    if assignee in ASSIGNEE_ALIASES:
+        alias = ASSIGNEE_ALIASES[assignee]
+        if alias in credentials_cache:
+            return credentials_cache[alias]
+
+    # 4. match_assignee_name関数で柔軟にマッチング
+    for json_name, creds in credentials_cache.items():
+        if match_assignee_name(json_name, assignee):
+            return creds
+
+    return None
 
 
 def classify_error(error: Exception) -> str:
@@ -674,7 +719,7 @@ def run_batch_process(
 
                 # フォールバック: キャッシュから認証情報を取得
                 print(f"→ フォールバック: キャッシュから認証情報を取得中...")
-                sheet_creds = sheet_accounts_cache.get(assignee)
+                sheet_creds = find_credentials_with_alias(assignee, sheet_accounts_cache)
 
                 if sheet_creds:
                     print(f"   スプレッドシートに認証情報あり")
@@ -1106,7 +1151,7 @@ def main():
             print(f"   日時: {row['meeting_datetime']}")
 
             # 担当者の認証情報を取得
-            sheet_creds = sheet_accounts_cache.get(row['assignee'])
+            sheet_creds = find_credentials_with_alias(row['assignee'], sheet_accounts_cache)
             if not sheet_creds:
                 print(f"   → スキップ: 担当者の認証情報がありません")
                 failed_count += 1
@@ -1246,7 +1291,7 @@ def main():
             print(f"   現在のリンク: {row['video_url'][:50]}...")
 
             # 担当者の認証情報を取得
-            sheet_creds = sheet_accounts_cache.get(row['assignee'])
+            sheet_creds = find_credentials_with_alias(row['assignee'], sheet_accounts_cache)
             if not sheet_creds:
                 print(f"   → スキップ: 担当者の認証情報がありません")
                 failed_count += 1
