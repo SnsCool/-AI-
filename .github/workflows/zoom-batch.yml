@@ -154,7 +154,7 @@ jobs:
           PYTHONUNBUFFERED: "1"  # リアルタイムログ出力
         run: |
           # 配列でコマンドを構築（安全な引数処理）
-          CMD=(python zoom/batch_zoom.py --group "${{ matrix.group }}" --all --fast)
+          CMD=(python zoom/batch_zoom.py --group "${{ matrix.group }}")
 
           # 処理件数制限（デフォルト: 無制限）
           LIMIT="${{ inputs.limit }}"
