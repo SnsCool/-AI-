@@ -16,7 +16,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 # モデル
-ANALYSIS_MODEL = "gemini-2.0-flash-exp"
+ANALYSIS_MODEL = "gemini-2.0-flash"
 EMBEDDING_MODEL = "text-embedding-004"
 
 
