@@ -1,10 +1,15 @@
-name: Notion Daily Sync
+name: Notion Sync
 
 on:
   schedule:
-    # 毎日 午前9時（日本時間）= UTC 0:00
-    - cron: '0 0 * * *'
+    # 1日3回: 9:00, 15:00, 21:00 JST
+    - cron: '0 0 * * *'   # JST 9:00
+    - cron: '0 6 * * *'   # JST 15:00
+    - cron: '0 12 * * *'  # JST 21:00
   workflow_dispatch:  # 手動実行も可能
+
+env:
+  TZ: 'Asia/Tokyo'
 
 jobs:
   sync:
@@ -50,7 +55,36 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "sync: Notion日次同期 $(date '+%Y-%m-%d %H:%M' -u)
+          git commit -m "sync: Notion同期 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M')
 
           Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
           git push
+
+  notify-failure:
+    needs: sync
+    if: failure()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Discord Notification
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          LOG_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          CURRENT_TIME=$(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M:%S JST')
+          MENTION="<@1340666940615823451>"
+
+          curl -X POST -H 'Content-Type: application/json' \
+            --data "{
+              \"content\": \"${MENTION}\",
+              \"embeds\": [{
+                \"title\": \"❌ Notion Sync 失敗\",
+                \"description\": \"Notion同期処理でエラーが発生しました。\\n\\n[📋 詳細ログを確認](${LOG_URL})\",
+                \"color\": 15158332,
+                \"fields\": [
+                  {\"name\": \"実行時刻\", \"value\": \"${CURRENT_TIME}\", \"inline\": true},
+                  {\"name\": \"トリガー\", \"value\": \"${{ github.event_name }}\", \"inline\": true}
+                ],
+                \"footer\": {\"text\": \"Run ID: ${{ github.run_id }}\"}
+              }]
+            }" \
+            $DISCORD_WEBHOOK_URL
