@@ -14,8 +14,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
+          sparse-checkout: |
+            scripts
+            .notion_sync_state.json
+          sparse-checkout-cone-mode: false
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -35,7 +38,8 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          if git diff --quiet && git diff --cached --quiet; then
+          git add notion_docs/ .notion_sync_state.json || true
+          if git diff --cached --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -46,8 +50,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add notion_docs/
-          git add .notion_sync_state.json || true
           git commit -m "sync: Notion日次同期 $(date '+%Y-%m-%d %H:%M' -u)
 
           Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
