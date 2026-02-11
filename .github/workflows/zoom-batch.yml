@@ -1,5 +1,5 @@
-# Zoom バッチ処理ワークフロー
-# 毎時実行または手動トリガーで Zoom 録画を処理
+# Zoom 統合ワークフロー
+# バッチ処理・動画アップロード・Webhook分析・テストを統合
 name: Zoom Batch Processing
 
 on:
@@ -35,6 +35,30 @@ on:
         required: false
         type: boolean
         default: false
+      dry_run:
+        description: 'Dry run（書き込みなし）'
+        required: false
+        type: boolean
+        default: false
+      no_video:
+        description: '動画処理スキップ（--fast）'
+        required: false
+        type: boolean
+        default: false
+      run_test:
+        description: 'テストモード実行'
+        required: false
+        type: boolean
+        default: false
+      upload_videos:
+        description: '動画Driveアップロード実行'
+        required: false
+        type: boolean
+        default: false
+
+  # Webhook（外部からの分析リクエスト）
+  repository_dispatch:
+    types: [analyze_meeting]
 
 env:
   TZ: 'Asia/Tokyo'
@@ -43,6 +67,7 @@ jobs:
   # マトリクス設定ジョブ
   setup-matrix:
     name: Setup Matrix Strategy
+    if: ${{ github.event_name != 'repository_dispatch' && inputs.run_test != true }}
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
@@ -73,11 +98,11 @@ jobs:
     needs: setup-matrix
     if: needs.setup-matrix.outputs.should-run == 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 30  # タイムアウト設定（30分）
+    timeout-minutes: 30
     strategy:
       matrix: ${{ fromJson(needs.setup-matrix.outputs.matrix) }}
-      fail-fast: false  # あるグループが失敗しても他のグループは継続
-      max-parallel: 1   # 順次実行（API制限対策）
+      fail-fast: false
+      max-parallel: 1
     continue-on-error: true
 
     steps:
@@ -111,9 +136,7 @@ jobs:
         env:
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
         run: |
-          # シークレットをファイルに保存（base64またはraw JSONに対応）
           umask 077
-          # まずbase64デコードを試行、失敗したらraw JSONとして扱う
           if printf '%s' "$GOOGLE_CREDENTIALS_JSON" | base64 -d > /tmp/google_creds.json 2>/dev/null; then
             echo "Credentials decoded from base64."
           else
@@ -122,48 +145,43 @@ jobs:
           fi
           chmod 600 /tmp/google_creds.json
           echo "GOOGLE_APPLICATION_CREDENTIALS=/tmp/google_creds.json" >> $GITHUB_ENV
-          echo "Google credentials file created with secure permissions."
 
       - name: Validate Inputs
         id: validate
         run: |
-          # 日付形式の検証 (YYYY-MM-DD)
           DATE_REGEX='^[0-9]{4}-[0-9]{2}-[0-9]{2}$'
-
           FROM_DATE="${{ inputs.from_date }}"
           TO_DATE="${{ inputs.to_date }}"
-
           if [ -n "$FROM_DATE" ] && ! [[ "$FROM_DATE" =~ $DATE_REGEX ]]; then
             echo "Error: Invalid from_date format. Expected YYYY-MM-DD, got: $FROM_DATE"
             exit 1
           fi
-
           if [ -n "$TO_DATE" ] && ! [[ "$TO_DATE" =~ $DATE_REGEX ]]; then
             echo "Error: Invalid to_date format. Expected YYYY-MM-DD, got: $TO_DATE"
             exit 1
           fi
-
           echo "Input validation passed."
 
       - name: Run Batch Script (Group ${{ matrix.group }})
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
-          PYTHONUNBUFFERED: "1"  # リアルタイムログ出力
+          GOOGLE_SPREADSHEET_ID: ${{ secrets.GOOGLE_SPREADSHEET_ID }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PYTHONUNBUFFERED: "1"
         run: |
-          # 配列でコマンドを構築（安全な引数処理）
           CMD=(python zoom/batch_zoom.py --group "${{ matrix.group }}")
 
-          # 処理件数制限（デフォルト: 無制限）
           LIMIT="${{ inputs.limit }}"
           if [ -n "$LIMIT" ] && [ "$LIMIT" -gt 0 ] 2>/dev/null; then
             CMD+=(--limit "$LIMIT")
           fi
 
-          # 日付が指定されている場合
           if [ -n "${{ inputs.from_date }}" ]; then
             CMD+=(--from-date "${{ inputs.from_date }}")
           fi
@@ -171,13 +189,17 @@ jobs:
             CMD+=(--to-date "${{ inputs.to_date }}")
           fi
 
-          # 再処理フラグ
           if [ "${{ inputs.reprocess }}" == "true" ]; then
             CMD+=(--reprocess)
           fi
+          if [ "${{ inputs.dry_run }}" == "true" ]; then
+            CMD+=(--dry-run)
+          fi
+          if [ "${{ inputs.no_video }}" == "true" ]; then
+            CMD+=(--fast)
+          fi
 
           echo "Running: ${CMD[*]}"
-          echo "タイムアウト: 30分、処理上限: ${LIMIT}件/グループ"
           "${CMD[@]}"
 
       - name: Cleanup
@@ -185,36 +207,203 @@ jobs:
         run: |
           rm -f /tmp/google_creds.json
 
+  # 動画アップロードジョブ
+  upload-videos:
+    name: Upload Videos to Drive
+    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.upload_videos == true) }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            zoom
+            .github
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('zoom/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r zoom/requirements.txt
+
+      - name: Setup Google Credentials
+        env:
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+        run: |
+          umask 077
+          if printf '%s' "$GOOGLE_CREDENTIALS_JSON" | base64 -d > /tmp/google_creds.json 2>/dev/null; then
+            echo "Credentials decoded from base64."
+          else
+            printf '%s' "$GOOGLE_CREDENTIALS_JSON" > /tmp/google_creds.json
+            echo "Credentials saved as raw JSON."
+          fi
+          chmod 600 /tmp/google_creds.json
+          echo "GOOGLE_APPLICATION_CREDENTIALS=/tmp/google_creds.json" >> $GITHUB_ENV
+
+      - name: Upload videos to Google Drive
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GAS_COPY_URL: ${{ secrets.GAS_COPY_URL }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python zoom/batch_zoom.py --upload-videos-to-drive
+
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -f /tmp/google_creds.json
+
+  # Webhook分析ジョブ
+  webhook-analyze:
+    name: Analyze Meeting (Webhook)
+    if: ${{ github.event_name == 'repository_dispatch' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            zoom
+            .github
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('zoom/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r zoom/requirements.txt
+
+      - name: Analyze Transcript
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TRANSCRIPT: ${{ github.event.client_payload.transcript }}
+          ASSIGNEE: ${{ github.event.client_payload.assignee }}
+          MEETING_DATE: ${{ github.event.client_payload.meeting_date }}
+          CUSTOMER_NAME: ${{ github.event.client_payload.customer_name }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          echo "$TRANSCRIPT" > /tmp/transcript.txt
+          python zoom/main.py \
+            --file /tmp/transcript.txt \
+            --assignee "$ASSIGNEE" \
+            --date "$MEETING_DATE" \
+            --customer "$CUSTOMER_NAME"
+
+  # テストジョブ
+  test:
+    name: Run Test Mode
+    if: ${{ inputs.run_test == true }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            zoom
+            .github
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('zoom/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r zoom/requirements.txt
+
+      - name: Run Test Mode
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python zoom/main.py --test
+
   # 通知ジョブ
   notify:
     name: Notify Results
-    needs: [setup-matrix, process]
-    if: always() && needs.setup-matrix.outputs.should-run == 'true'
+    needs: [setup-matrix, process, upload-videos, webhook-analyze, test]
+    if: always()
     runs-on: ubuntu-latest
     steps:
       - name: Determine Job Status
         id: status
         run: |
-          if [ "${{ needs.process.result }}" != "success" ]; then
+          # 各ジョブの結果を収集（skippedは無視）
+          FAILED=""
+          SUCCEEDED=""
+
+          for JOB_NAME in process upload-videos webhook-analyze test; do
+            RESULT=""
+            case "$JOB_NAME" in
+              process)         RESULT="${{ needs.process.result }}" ;;
+              upload-videos)   RESULT="${{ needs.upload-videos.result }}" ;;
+              webhook-analyze) RESULT="${{ needs.webhook-analyze.result }}" ;;
+              test)            RESULT="${{ needs.test.result }}" ;;
+            esac
+
+            if [ "$RESULT" == "failure" ]; then
+              FAILED="${FAILED}${JOB_NAME}, "
+            elif [ "$RESULT" == "success" ]; then
+              SUCCEEDED="${SUCCEEDED}${JOB_NAME}, "
+            fi
+          done
+
+          if [ -n "$FAILED" ]; then
             echo "status=failure" >> $GITHUB_OUTPUT
-            echo "Some jobs failed."
+            echo "failed_jobs=${FAILED%, }" >> $GITHUB_OUTPUT
           else
             echo "status=success" >> $GITHUB_OUTPUT
-            echo "All jobs succeeded."
+            echo "failed_jobs=" >> $GITHUB_OUTPUT
           fi
-
-      - name: Get Error Details
-        id: error-details
-        if: needs.process.result != 'success'
-        run: |
-          # GitHub CLIでジョブ情報を取得
-          FAILED_JOBS=$(gh run view ${{ github.run_id }} --json jobs --jq '.jobs[] | select(.conclusion == "failure") | .name' 2>/dev/null | tr '\n' ', ' | sed 's/,$//')
-          if [ -z "$FAILED_JOBS" ]; then
-            FAILED_JOBS="不明"
-          fi
-          echo "failed_jobs=$FAILED_JOBS" >> $GITHUB_OUTPUT
-        env:
-          GH_TOKEN: ${{ github.token }}
+          echo "succeeded_jobs=${SUCCEEDED%, }" >> $GITHUB_OUTPUT
 
       - name: Send Slack Notification on Failure
         if: steps.status.outputs.status == 'failure' && env.SLACK_WEBHOOK_URL != ''
@@ -222,7 +411,7 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
           curl -X POST -H 'Content-type: application/json' \
-            --data "{\"text\":\"⚠️ Zoom Batch Workflow Failed\\nRepository: ${{ github.repository }}\\nRun: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
+            --data "{\"text\":\"⚠️ Zoom Batch Workflow Failed\\nFailed: ${{ steps.status.outputs.failed_jobs }}\\nRun: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
             $SLACK_WEBHOOK_URL
 
       - name: Send Discord Notification
@@ -234,19 +423,18 @@ jobs:
           CURRENT_TIME=$(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M:%S JST')
 
           if [ "${{ steps.status.outputs.status }}" == "failure" ]; then
-            FAILED_JOBS="${{ steps.error-details.outputs.failed_jobs }}"
-            TITLE="❌ Zoom Batch 処理エラー"
-            DESCRIPTION="一部のグループ処理でエラーが発生しました。\\n\\n**失敗したジョブ:** ${FAILED_JOBS}"
+            FAILED_JOBS="${{ steps.status.outputs.failed_jobs }}"
+            TITLE="❌ Zoom 処理エラー"
+            DESCRIPTION="一部の処理でエラーが発生しました。\\n\\n**失敗:** ${FAILED_JOBS}"
             COLOR=15158332
             STATUS_ICON="❌"
           else
-            TITLE="✅ Zoom Batch 処理完了"
-            DESCRIPTION="すべてのグループ処理が正常に完了しました。"
+            TITLE="✅ Zoom 処理完了"
+            DESCRIPTION="すべての処理が正常に完了しました。"
             COLOR=3066993
             STATUS_ICON="✅"
           fi
 
-          # 常にメンション
           MENTION="<@1340666940615823451>"
 
           curl -X POST -H 'Content-Type: application/json' \
@@ -269,13 +457,15 @@ jobs:
       - name: Output Summary
         if: always()
         run: |
-          echo "## Zoom Batch Processing Results" >> $GITHUB_STEP_SUMMARY
+          echo "## Zoom Processing Results" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           if [ "${{ steps.status.outputs.status }}" == "failure" ]; then
-            echo "❌ **一部のグループ処理でエラーが発生しました**" >> $GITHUB_STEP_SUMMARY
+            echo "❌ **一部の処理でエラーが発生しました**" >> $GITHUB_STEP_SUMMARY
+            echo "- 失敗: ${{ steps.status.outputs.failed_jobs }}" >> $GITHUB_STEP_SUMMARY
           else
-            echo "✅ **すべてのグループ処理が正常に完了しました**" >> $GITHUB_STEP_SUMMARY
+            echo "✅ **すべての処理が正常に完了しました**" >> $GITHUB_STEP_SUMMARY
           fi
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "- 実行時刻: $(date '+%Y-%m-%d %H:%M:%S %Z')" >> $GITHUB_STEP_SUMMARY
+          echo "- トリガー: ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
           echo "- [詳細ログを確認](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY

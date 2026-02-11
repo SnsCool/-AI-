@@ -379,18 +379,49 @@ def process_single_recording(
         # 2. 文字起こしをダウンロード（ある場合のみ）
         transcript = ""
         if has_transcript:
-            print("→ 文字起こしをダウンロード中...")
+            print("→ Zoom文字起こしをダウンロード中...")
             transcript = download_transcript(transcript_url, access_token)
             if transcript:
                 print(f"   文字数: {len(transcript)}")
             else:
-                print("   → 文字起こしダウンロード失敗（録画情報のみ記録）")
+                print("   → Zoom文字起こしダウンロード失敗")
                 has_transcript = False
 
         # 文字起こしが短い場合もフラグを更新
         if transcript and len(transcript) < 100:
-            print("   → 文字起こしが短すぎます（録画情報のみ記録）")
+            print("   → 文字起こしが短すぎます")
             has_transcript = False
+
+        # Zoom native transcriptが無い場合、Groq Whisperでフォールバック
+        if not has_transcript and mp4_url:
+            print("→ Groq Whisperで文字起こし中...")
+            try:
+                from services.groq_transcribe import transcribe_video as groq_transcribe
+                with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as tmp_file:
+                    tmp_path = tmp_file.name
+                try:
+                    dl_ok = download_video_from_zoom(
+                        mp4_url=mp4_url, access_token=access_token, output_path=tmp_path
+                    )
+                    if dl_ok:
+                        file_size_mb = os.path.getsize(tmp_path) / (1024 * 1024)
+                        if file_size_mb < 0.01:
+                            print(f"   → スキップ: 動画ファイルが小さすぎます ({file_size_mb:.2f}MB)")
+                        elif file_size_mb > 2000:
+                            print(f"   → スキップ: 動画ファイルが大きすぎます ({file_size_mb:.0f}MB)")
+                        else:
+                            print(f"   動画サイズ: {file_size_mb:.1f}MB")
+                            transcript = groq_transcribe(tmp_path) or ""
+                            if transcript and len(transcript) >= 100:
+                                has_transcript = True
+                                print(f"   Groq文字起こし完了: {len(transcript)}文字")
+                            else:
+                                print(f"   Groq文字起こし結果不十分 (len={len(transcript)})")
+                finally:
+                    if os.path.exists(tmp_path):
+                        os.remove(tmp_path)
+            except Exception as e:
+                print(f"   Groq文字起こしエラー: {e}")
 
         # 3. Gemini分析（一時的に無効化 - APIクォータ節約テスト）
         # print("→ Geminiで分析中...")
