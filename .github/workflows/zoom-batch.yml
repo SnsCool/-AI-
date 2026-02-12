@@ -3,9 +3,9 @@
 name: Zoom Batch Processing
 
 on:
-  # 毎時0分に実行（UTC）
+  # 10分ごとに実行（グループ単位で分散処理）
   schedule:
-    - cron: '0 * * * *'
+    - cron: '*/10 * * * *'
 
   # 手動実行
   workflow_dispatch:
@@ -75,17 +75,25 @@ jobs:
     steps:
       - id: set-matrix
         run: |
-          if [ -z "${{ inputs.group }}" ]; then
-            # groupが空欄の場合：全グループ(1-6)を順次実行
+          if [ "${{ github.event_name }}" == "schedule" ]; then
+            # cron実行: 現在の分からグループを自動計算
+            # 0分→G1, 10分→G2, 20分→G3, 30分→G4, 40分→G5, 50分→G6
+            MINUTE=$(TZ=Asia/Tokyo date +%M)
+            GROUP=$(( MINUTE / 10 + 1 ))
+            echo "matrix={\"group\":[${GROUP}]}" >> $GITHUB_OUTPUT
+            echo "should-run=true" >> $GITHUB_OUTPUT
+            echo "Schedule mode: Group ${GROUP}/6 (minute: ${MINUTE})"
+          elif [ -z "${{ inputs.group }}" ]; then
+            # 手動実行（group未指定）: 全グループ順次実行
             echo "matrix={\"group\":[1,2,3,4,5,6]}" >> $GITHUB_OUTPUT
             echo "should-run=true" >> $GITHUB_OUTPUT
-            echo "Run mode: All groups"
+            echo "Manual mode: All groups"
           else
-            # groupが指定された場合：指定グループのみを実行
+            # 手動実行（group指定）: 指定グループのみ
             if [[ "${{ inputs.group }}" =~ ^[1-6]$ ]]; then
               echo "matrix={\"group\":[${{ inputs.group }}]}" >> $GITHUB_OUTPUT
               echo "should-run=true" >> $GITHUB_OUTPUT
-              echo "Run mode: Group ${{ inputs.group }}"
+              echo "Manual mode: Group ${{ inputs.group }}"
             else
               echo "Error: Invalid group number '${{ inputs.group }}'. Must be 1-6."
               echo "should-run=false" >> $GITHUB_OUTPUT
@@ -207,10 +215,10 @@ jobs:
         run: |
           rm -f /tmp/google_creds.json
 
-  # 動画アップロードジョブ
+  # 動画アップロードジョブ（毎時0分 = G1のタイミングのみ自動実行）
   upload-videos:
     name: Upload Videos to Drive
-    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.upload_videos == true) }}
+    if: ${{ (github.event_name == 'workflow_dispatch' && inputs.upload_videos == true) }}
     runs-on: ubuntu-latest
     timeout-minutes: 120
 
