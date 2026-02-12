@@ -706,16 +706,32 @@ def run_batch_process(
     result = supabase_client.table("zoom_accounts").select("*").execute()
     all_accounts = result.data if result.data else []
 
-    # グループ指定時はアカウントをフィルタリング
+    # グループ指定時はJSONのgroupフィールドでフィルタリング
     if group and 1 <= group <= 6:
-        # アカウントを6グループに分割（1時間で全アカウント処理）
-        total = len(all_accounts)
-        group_size = (total + 5) // 6  # 切り上げ
-        start_idx = (group - 1) * group_size
-        end_idx = min(group * group_size, total)
-        accounts = all_accounts[start_idx:end_idx]
-        print(f"全アカウント数: {total}")
-        print(f"グループ{group}/6のアカウント: {start_idx+1}〜{end_idx}番目 ({len(accounts)}件)")
+        # JSONからグループ割当を取得
+        group_assignees = set()
+        try:
+            with open(json_path, "r", encoding="utf-8") as f:
+                json_accounts_for_group = json.load(f)
+            group_assignees = {
+                acc["assignee"] for acc in json_accounts_for_group
+                if acc.get("group") == group
+            }
+        except Exception:
+            pass
+
+        if group_assignees:
+            accounts = [a for a in all_accounts if a.get("assignee") in group_assignees]
+            print(f"全アカウント数: {len(all_accounts)}")
+            print(f"グループ{group}/6: {', '.join(group_assignees)} ({len(accounts)}件)")
+        else:
+            # フォールバック: 動的分割
+            total = len(all_accounts)
+            group_size = (total + 5) // 6
+            start_idx = (group - 1) * group_size
+            end_idx = min(group * group_size, total)
+            accounts = all_accounts[start_idx:end_idx]
+            print(f"グループ{group}/6（動的分割）: {len(accounts)}件")
     else:
         accounts = all_accounts
         print(f"アカウント数: {len(accounts)}")
