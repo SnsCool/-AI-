@@ -107,18 +107,36 @@ def main():
         print("[DRY-RUN] 削除はスキップしました")
         return
 
-    # 削除実行
+    # バッチ削除（100件ずつ）
     print()
     deleted = 0
     failed = 0
-    for f in targets:
-        try:
-            drive_service.files().delete(fileId=f["id"]).execute()
-            deleted += 1
-        except Exception as e:
-            print(f"  削除エラー: {f['name']} - {e}")
-            failed += 1
+    BATCH_SIZE = 100
 
+    for i in range(0, len(targets), BATCH_SIZE):
+        batch = drive_service.new_batch_http_request()
+        chunk = targets[i:i + BATCH_SIZE]
+
+        def make_callback(file_name):
+            def callback(request_id, response, exception):
+                nonlocal deleted, failed
+                if exception:
+                    print(f"  削除エラー: {file_name} - {exception}")
+                    failed += 1
+                else:
+                    deleted += 1
+            return callback
+
+        for f in chunk:
+            batch.add(
+                drive_service.files().delete(fileId=f["id"]),
+                callback=make_callback(f["name"]),
+            )
+
+        batch.execute()
+        print(f"  バッチ {i // BATCH_SIZE + 1}: {deleted}/{len(targets)}件処理済み")
+
+    print()
     print(f"削除完了: {deleted}件, 失敗: {failed}件, 解放: {format_size(total_size)}")
 
 
