@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-02-13T12:24:43.089765+00:00",
+  "last_sync": "2026-02-13T15:26:45.869399+00:00",
   "pages": {
     "306f3b0f-ba85-8040-96ac-d640633f5de6": {
       "title": "顧客からの問い合わせ詳細分析",
@@ -193,7 +193,7 @@
     },
     "236f3b0f-ba85-8038-be24-c05403ad1593": {
       "title": "ダイエット事業",
-      "last_edited": "2026-02-13T04:57:00.000Z",
+      "last_edited": "2026-02-13T15:13:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/ダイエット事業"
     },
     "305f3b0f-ba85-80be-a416-d2329fa8e775": {
@@ -1623,7 +1623,7 @@
     },
     "263f3b0f-ba85-80f2-ada3-d9ff2b2fe875": {
       "title": "【講師】マニュアル",
-      "last_edited": "2026-02-13T10:59:00.000Z",
+      "last_edited": "2026-02-13T15:15:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/【講師】マニュアル"
     },
     "2f5f3b0f-ba85-8043-83d2-efbbd4b2b781": {
@@ -1673,7 +1673,7 @@
     },
     "2dcf3b0f-ba85-80f4-acd7-c848622a10e6": {
       "title": "【アフィリエイター】マニュアル",
-      "last_edited": "2026-02-12T21:26:00.000Z",
+      "last_edited": "2026-02-13T12:57:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/【アフィリエイター】マニュアル"
     },
     "2ccf3b0f-ba85-80da-9192-cefc7e69b8e1": {
@@ -2358,7 +2358,7 @@
     },
     "7f19ff35-7ffc-4c78-8c71-92cb99d5204a": {
       "title": "Levela Portal",
-      "last_edited": "2026-02-12T09:44:00.000Z",
+      "last_edited": "2026-02-13T14:06:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/Levela Portal"
     },
     "305f3b0f-ba85-80c4-8b97-de78307fc1eb": {
@@ -4987,9 +4987,9 @@
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/てぃーぞー（2月13日）"
     },
     "306f3b0f-ba85-801f-bb88-e38f4cfd8240": {
-      "title": "フィットネスサービスについて",
-      "last_edited": "2026-02-13T12:04:00.000Z",
-      "path": "/home/runner/work/-AI-/-AI-/notion_docs/フィットネスサービスについて"
+      "title": "Levelaダイエット事業が目指すもの",
+      "last_edited": "2026-02-13T14:24:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Levelaダイエット事業が目指すもの"
     },
     "306f3b0f-ba85-80a4-ab8c-cf54e5a0ea17": {
       "title": "月末にレッスン予定表の共有",
@@ -5043,12 +5043,12 @@
     },
     "306f3b0f-ba85-808f-8a9a-c5fcfc2677d0": {
       "title": "駒居さん依頼事項",
-      "last_edited": "2026-02-13T12:02:00.000Z",
+      "last_edited": "2026-02-13T13:30:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/駒居さん依頼事項"
     },
     "306f3b0f-ba85-80f0-93d0-cc0c34fc653e": {
       "title": "トレーナー業務ロードマップ ",
-      "last_edited": "2026-02-13T11:50:00.000Z",
+      "last_edited": "2026-02-13T14:25:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/トレーナー業務ロードマップ"
     },
     "306f3b0f-ba85-8096-bd17-c3af11356a77": {
@@ -5405,6 +5405,546 @@
       "title": "25日の運営MTGの時間確認",
       "last_edited": "2026-02-13T09:29:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/25日の運営MTGの時間確認"
+    },
+    "306f3b0f-ba85-80a0-9cf6-c0293e24a957": {
+      "title": "⭕️月_事業名_事業責任者名",
+      "last_edited": "2026-02-13T14:42:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/⭕️月_事業名_事業責任者名"
+    },
+    "306f3b0f-ba85-80af-b97c-ece88ce9e522": {
+      "title": "戦略サマリー",
+      "last_edited": "2026-02-13T14:37:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/戦略サマリー"
+    },
+    "2e3f3b0f-ba85-80d9-8e31-ee69c0e24f8c": {
+      "title": "X顧問",
+      "last_edited": "2026-02-13T14:36:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/X顧問"
+    },
+    "306f3b0f-ba85-80df-9fa0-d290f145ffc6": {
+      "title": "打ち合わせ（2月6日）",
+      "last_edited": "2026-02-13T14:30:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/打ち合わせ（2月6日）"
+    },
+    "306f3b0f-ba85-8001-91e3-f93bd0604180": {
+      "title": "週次（2月17日）",
+      "last_edited": "2026-02-13T14:26:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/週次（2月17日）"
+    },
+    "306f3b0f-ba85-8179-b96c-cedbd146e8b7": {
+      "title": "打ち合わせ",
+      "last_edited": "2026-02-13T14:26:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/打ち合わせ"
+    },
+    "306f3b0f-ba85-810a-a14e-e4b9bc5e4099": {
+      "title": "スプレッドシートリンク",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/スプレッドシートリンク"
+    },
+    "306f3b0f-ba85-8135-a806-ffbacd6599e7": {
+      "title": "sizuruwiz × Levela 事業管理",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/sizuruwiz × Levela 事業管理"
+    },
+    "306f3b0f-ba85-81f3-aa77-d4541f59277e": {
+      "title": "Levela × sizuru 統合戦略",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Levela × sizuru 統合戦略"
+    },
+    "306f3b0f-ba85-8155-b174-cc23a2b4d2b8": {
+      "title": "Lステップ構築（自動フォロー配信）",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Lステップ構築（自動フォロー配信）"
+    },
+    "306f3b0f-ba85-818c-905b-feee21846607": {
+      "title": "契約更新3ヶ月前自動通知の仕組み化",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/契約更新3ヶ月前自動通知の仕組み化"
+    },
+    "306f3b0f-ba85-813e-bf41-cc95b5e85a0b": {
+      "title": "LP・HP改善（集客ページの品質向上）",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/LP・HP改善（集客ページの品質向上）"
+    },
+    "306f3b0f-ba85-8191-acf5-f4283403847d": {
+      "title": "紹介手数料の段階的引き下げ交渉",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/紹介手数料の段階的引き下げ交渉"
+    },
+    "306f3b0f-ba85-8122-bf29-fc626556ae7d": {
+      "title": "3ヶ月成果レポートの仕組みを作る",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/3ヶ月成果レポートの仕組みを作る"
+    },
+    "306f3b0f-ba85-8166-94aa-d2eb25156030": {
+      "title": "幽霊会員に「最近どうですか？」連絡",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/幽霊会員に「最近どうですか？」連絡"
+    },
+    "306f3b0f-ba85-8118-abe6-c5526f96b558": {
+      "title": "Instagram以外の集客チャネルを1つ本格テスト",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Instagram以外の集客チャネルを1つ本格テスト"
+    },
+    "306f3b0f-ba85-8132-875a-ecf1c8438e8b": {
+      "title": "AI活用のための技術責任者を1人採用（派遣でもOK）",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/AI活用のための技術責任者を1人採用（派遣でもOK）"
+    },
+    "306f3b0f-ba85-81f8-a752-e5aeb8637444": {
+      "title": "高額プラン（月25万+）のパッケージ設計",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/高額プラン（月25万+）のパッケージ設計"
+    },
+    "306f3b0f-ba85-816a-ac60-f1e841cb4a19": {
+      "title": "入会直後サポート設計（最初にやる3つのこと）",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/入会直後サポート設計（最初にやる3つのこと）"
+    },
+    "306f3b0f-ba85-81be-a994-c14808708dbe": {
+      "title": "退会理由トップ3を特定し、対策を立てる",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/退会理由トップ3を特定し、対策を立てる"
+    },
+    "306f3b0f-ba85-81a1-b8a7-c8e56eebc951": {
+      "title": "幽霊会員（活動なし）の人数を数える",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/幽霊会員（活動なし）の人数を数える"
+    },
+    "306f3b0f-ba85-8106-8a9e-f092d8b3b55f": {
+      "title": "全担当者から「成果が出ているクライアント事例を3つ」集める",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/全担当者から「成果が出ているクライアント事例を3つ」集める"
+    },
+    "306f3b0f-ba85-81d7-9f6c-d2080d6ebda1": {
+      "title": "契約満了3ヶ月前リストをスプレッドシートにまとめる",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/契約満了3ヶ月前リストをスプレッドシートにまとめる"
+    },
+    "306f3b0f-ba85-814d-92f0-fbe83365222a": {
+      "title": "茅原の担当を22社→15社に移管",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/茅原の担当を22社→15社に移管"
+    },
+    "306f3b0f-ba85-819e-b37b-cb0ef624c6e4": {
+      "title": "面談後24時間以内フォローのテンプレを作って全担当に共有",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/面談後24時間以内フォローのテンプレを作って全担当に共有"
+    },
+    "306f3b0f-ba85-81bf-a3b6-c0245978abad": {
+      "title": "退会理由アンケート（Googleフォーム）を作って退会フローに設置",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/退会理由アンケート（Googleフォーム）を作って退会フローに設置"
+    },
+    "306f3b0f-ba85-81ca-b040-c34d0b0af62e": {
+      "title": "2026/2/10週（テンプレート）",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/2026_2_10週（テンプレート）"
+    },
+    "306f3b0f-ba85-810e-9d54-ec5011044983": {
+      "title": "退会分析・顧客維持戦略",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/退会分析・顧客維持戦略"
+    },
+    "306f3b0f-ba85-8108-b92c-d8373d9d0c6c": {
+      "title": "平均月額は9.8万円",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/平均月額は9.8万円"
+    },
+    "306f3b0f-ba85-813f-9d11-c9290b281773": {
+      "title": "年間更新率は57%",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/年間更新率は57%"
+    },
+    "306f3b0f-ba85-814e-8ee7-ebc4e779aa1e": {
+      "title": "幽霊会員が40-60人いる",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/幽霊会員が40-60人いる"
+    },
+    "306f3b0f-ba85-81fc-8078-ea93da2a9183": {
+      "title": "Instagram以外で月3件の新規獲得できる",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Instagram以外で月3件の新規獲得できる"
+    },
+    "306f3b0f-ba85-8187-b0d7-ebb8c065f775": {
+      "title": "高額プラン（月25万+）の需要がある",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/高額プラン（月25万+）の需要がある"
+    },
+    "306f3b0f-ba85-81b9-976b-eec8268458fe": {
+      "title": "茅原の担当数を減らせば解約が減る",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/茅原の担当数を減らせば解約が減る"
+    },
+    "306f3b0f-ba85-81b0-8035-f3232423c1e1": {
+      "title": "面談後フォロー率を80%に上げれば契約率35%になる",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/面談後フォロー率を80%に上げれば契約率35%になる"
+    },
+    "306f3b0f-ba85-81d1-8971-e810d7b25b19": {
+      "title": "退会防止施策で更新率70%にできる",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/退会防止施策で更新率70%にできる"
+    },
+    "306f3b0f-ba85-81df-a5f1-dbde3c465d65": {
+      "title": "2026/2/10週",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/2026_2_10週"
+    },
+    "306f3b0f-ba85-81fd-aff1-cf7406143097": {
+      "title": "事業概要・現状分析",
+      "last_edited": "2026-02-13T14:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/事業概要・現状分析"
+    },
+    "66cc46fc-1077-41e7-bb59-962df7a81294": {
+      "title": "ホームルーム",
+      "last_edited": "2026-02-13T13:47:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/ホームルーム"
+    },
+    "306f3b0f-ba85-80e6-970d-d150f19e0fe4": {
+      "title": "2月6日～2月12日　振り返り",
+      "last_edited": "2026-02-13T13:20:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/2月6日～2月12日　振り返り"
+    },
+    "306f3b0f-ba85-8034-94be-f3f8b55101e1": {
+      "title": "講師業務ロードマップ (1)",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/講師業務ロードマップ (1)"
+    },
+    "306f3b0f-ba85-8127-91a3-c9f3e7c9f1e4": {
+      "title": "Zoom背景をCanvaでコピーして作成する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Zoom背景をCanvaでコピーして作成する"
+    },
+    "306f3b0f-ba85-81f4-b835-e799e043066e": {
+      "title": "終了後のメッセージを送信する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/終了後のメッセージを送信する"
+    },
+    "306f3b0f-ba85-811f-a3a2-d7283c9f7249": {
+      "title": "担当クラスに（当日の案内）を送信する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/担当クラスに（当日の案内）を送信する"
+    },
+    "306f3b0f-ba85-81d3-a08b-df527ed21010": {
+      "title": "食事記録FB方法 ",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/食事記録FB方法"
+    },
+    "306f3b0f-ba85-81fc-84d8-fc7acae6f523": {
+      "title": "⚪︎クラス⚪︎組",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/⚪︎クラス⚪︎組"
+    },
+    "306f3b0f-ba85-8107-91f2-dbc2c872a5cf": {
+      "title": "皆さん、お疲れ様です！",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/皆さん、お疲れ様です！"
+    },
+    "306f3b0f-ba85-8158-9328-c18a7de147be": {
+      "title": "Untitled",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Untitled"
+    },
+    "306f3b0f-ba85-815c-983a-c49475e1cf52": {
+      "title": "個別初回メッセージ",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/個別初回メッセージ"
+    },
+    "306f3b0f-ba85-813c-87a1-de5e74c650d9": {
+      "title": "提出されたアウトプットなどへのフィードバック",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/提出されたアウトプットなどへのフィードバック"
+    },
+    "306f3b0f-ba85-81af-acff-d5c1608679a3": {
+      "title": "毎日のチャットサポート",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/毎日のチャットサポート"
+    },
+    "306f3b0f-ba85-8106-81bf-d536c46f618f": {
+      "title": "キックオフから　90日（3ヶ月）が経つまでクラスチャットや添削対応",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/キックオフから　90日（3ヶ月）が経つまでクラスチャットや添削対応"
+    },
+    "306f3b0f-ba85-8163-b1e8-ef11e8d9e7ed": {
+      "title": "担当クラスに事前情報メッセージを送信する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/担当クラスに事前情報メッセージを送信する"
+    },
+    "306f3b0f-ba85-816a-9c40-ff59d6e418d9": {
+      "title": "Untitled",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Untitled"
+    },
+    "306f3b0f-ba85-8182-a323-d9bb8b5cbdb6": {
+      "title": "顧客の事前情報を確認する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/顧客の事前情報を確認する"
+    },
+    "306f3b0f-ba85-81a4-a881-d497454d6ba1": {
+      "title": "担当クラス全員の記録をチェックしてFBする",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/担当クラス全員の記録をチェックしてFBする"
+    },
+    "306f3b0f-ba85-815d-9b26-f1b922037c37": {
+      "title": "サポート終盤に「卒業時アンケート」に回答させる",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/サポート終盤に「卒業時アンケート」に回答させる"
+    },
+    "306f3b0f-ba85-81d6-afc6-cc2bf047380c": {
+      "title": "クラスに正式に卒業の挨拶を送信する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/クラスに正式に卒業の挨拶を送信する"
+    },
+    "306f3b0f-ba85-816b-8979-c38d62117024": {
+      "title": "チームチャットにて卒業時アンケートのURLを共有して回答していない生徒さんに回答してもらう（鬼管理がする？）",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/チームチャットにて卒業時アンケートのURLを共有して回答していない生徒さんに回答してもらう（鬼管理がする？）"
+    },
+    "306f3b0f-ba85-816c-b39b-de4ff913e043": {
+      "title": "生徒のアウトプットや質問に返信する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/生徒のアウトプットや質問に返信する"
+    },
+    "306f3b0f-ba85-81a7-af59-d34a9aa96b61": {
+      "title": "個人用スレッドが消えた時の対策",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/個人用スレッドが消えた時の対策"
+    },
+    "306f3b0f-ba85-8135-a4c5-ec6d34b03dbe": {
+      "title": "講師トレーニングに参加する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/講師トレーニングに参加する"
+    },
+    "306f3b0f-ba85-8152-9fdb-fdc1e784034e": {
+      "title": "個別で初回挨拶を送信する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/個別で初回挨拶を送信する"
+    },
+    "306f3b0f-ba85-81be-b9be-e0febfb62c29": {
+      "title": "Untitled",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Untitled"
+    },
+    "306f3b0f-ba85-81e7-8776-de94f5ad55ed": {
+      "title": "個別で【毎日の記録テンプレ】を送信・ピン留めする",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/個別で【毎日の記録テンプレ】を送信・ピン留めする"
+    },
+    "306f3b0f-ba85-81f4-b90f-e88928bcf624": {
+      "title": "Zoom背景をCanvaでコピーして作成する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Zoom背景をCanvaでコピーして作成する"
+    },
+    "306f3b0f-ba85-8111-8486-c033aceb0a08": {
+      "title": "Discord【運営/お知らせサーバー】に入室",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Discord【運営_お知らせサーバー】に入室"
+    },
+    "306f3b0f-ba85-81b7-8cf2-fc96809668ee": {
+      "title": "Notionを登録する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Notionを登録する"
+    },
+    "306f3b0f-ba85-8129-b75d-d8cd6b17942a": {
+      "title": "スタータープログラムを全て確認する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/スタータープログラムを全て確認する"
+    },
+    "306f3b0f-ba85-8170-b1c1-e6e38dfc6884": {
+      "title": "講師MTGに参加する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/講師MTGに参加する"
+    },
+    "306f3b0f-ba85-8154-9f44-eda9d5026ac5": {
+      "title": "クラス運用ルールを確認する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/クラス運用ルールを確認する"
+    },
+    "306f3b0f-ba85-8136-af04-fde0c8fbc986": {
+      "title": "Zoom有料版に加入する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Zoom有料版に加入する"
+    },
+    "306f3b0f-ba85-8159-ab98-cf41b12e3db3": {
+      "title": "Discord【クラスチャットサーバー】に入室",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Discord【クラスチャットサーバー】に入室"
+    },
+    "306f3b0f-ba85-8166-9f28-e6a32489a52a": {
+      "title": "テキストコミュニケーションにおけるルールついて確認する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/テキストコミュニケーションにおけるルールついて確認する"
+    },
+    "306f3b0f-ba85-8187-9964-e9c798e5f741": {
+      "title": "調整さんを登録する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/調整さんを登録する"
+    },
+    "306f3b0f-ba85-81c3-b3d4-f057d065a9a0": {
+      "title": "Notionの基本操作を確認する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Notionの基本操作を確認する"
+    },
+    "306f3b0f-ba85-8127-b37f-f0b7ee376b7d": {
+      "title": "事前確認したアーカイブと同じ流れで進める",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/事前確認したアーカイブと同じ流れで進める"
+    },
+    "306f3b0f-ba85-8147-a218-e8e4e721d9c8": {
+      "title": "週次ミーティング終了後のメッセージとアーカイブを送信する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/週次ミーティング終了後のメッセージとアーカイブを送信する"
+    },
+    "306f3b0f-ba85-8169-98cf-fb5e82f28bc6": {
+      "title": "アーカイブをポータルに格納する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/アーカイブをポータルに格納する"
+    },
+    "306f3b0f-ba85-8176-8ea2-dbf719c52049": {
+      "title": "管理シート写真添付方法",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/管理シート写真添付方法"
+    },
+    "306f3b0f-ba85-8182-8310-d7242d7d1f63": {
+      "title": "各チームに（当日の案内）を送信する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/各チームに（当日の案内）を送信する"
+    },
+    "306f3b0f-ba85-819b-b098-eae2001e4b79": {
+      "title": "各メンバーの記録を確認し、FB項目を事前に準備しておく",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/各メンバーの記録を確認し、FB項目を事前に準備しておく"
+    },
+    "306f3b0f-ba85-81db-ade3-dbfadc1ad9ec": {
+      "title": "Zoomを録画する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Zoomを録画する"
+    },
+    "306f3b0f-ba85-810e-a61a-d05fc45d0a74": {
+      "title": "担当クラスに当日の案内を送信する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/担当クラスに当日の案内を送信する"
+    },
+    "306f3b0f-ba85-8130-9670-dfa24016729d": {
+      "title": "事前確認したアーカイブと同じ流れで進める",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/事前確認したアーカイブと同じ流れで進める"
+    },
+    "306f3b0f-ba85-817b-8991-fcb15829cb2d": {
+      "title": "Zoomを録画する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Zoomを録画する"
+    },
+    "306f3b0f-ba85-81f9-aa93-e7d257293639": {
+      "title": "添削期間を記入する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/添削期間を記入する"
+    },
+    "306f3b0f-ba85-81fd-8e21-ef7819e11f1e": {
+      "title": "生徒のアウトプットや質問に返信する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/生徒のアウトプットや質問に返信する"
+    },
+    "306f3b0f-ba85-8121-b269-faf55c2a7d43": {
+      "title": "コピーして作成した自分用の「キックオフ」スライドを画面共有する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/コピーして作成した自分用の「キックオフ」スライドを画面共有する"
+    },
+    "306f3b0f-ba85-8189-b082-e2651e34a6b7": {
+      "title": "次回週次ミーティングの日程調整",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/次回週次ミーティングの日程調整"
+    },
+    "306f3b0f-ba85-81a2-a345-c485f94c7cb0": {
+      "title": "担当クラスにメッセージ（アーカイブ）を送信する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/担当クラスにメッセージ（アーカイブ）を送信する"
+    },
+    "306f3b0f-ba85-81e0-aedf-f16860c46bc5": {
+      "title": "アーカイブをloomもしくはYouTubeへアップロードしミーティング格納部屋に格納",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/アーカイブをloomもしくはYouTubeへアップロードしミーティング格納部屋に格納"
+    },
+    "306f3b0f-ba85-813b-801e-e510c8f09192": {
+      "title": "生徒の挨拶に返信する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/生徒の挨拶に返信する"
+    },
+    "306f3b0f-ba85-8148-b50b-d9fcd2dcb80c": {
+      "title": "担当チームに日程アンケートを送信する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/担当チームに日程アンケートを送信する"
+    },
+    "306f3b0f-ba85-819c-8270-e55f0bda2fa1": {
+      "title": "Untitled",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Untitled"
+    },
+    "306f3b0f-ba85-812a-9dae-f78161b3aeaf": {
+      "title": "担当チーム日程決定の連絡をする",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/担当チーム日程決定の連絡をする"
+    },
+    "306f3b0f-ba85-8172-a1b4-f2ca72b47820": {
+      "title": "キックオフのアーカイブを確認する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/キックオフのアーカイブを確認する"
+    },
+    "306f3b0f-ba85-81bc-bd3b-d5ca4ec3c13b": {
+      "title": "「キックオフ」のスライドをコピーして自分用に編集する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/「キックオフ」のスライドをコピーして自分用に編集する"
+    },
+    "306f3b0f-ba85-81f1-afa0-d228e2d0df49": {
+      "title": "担当チームに初回挨拶を送信する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/担当チームに初回挨拶を送信する"
+    },
+    "306f3b0f-ba85-8113-9d67-eb364ed5bca5": {
+      "title": "Untitled",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Untitled"
+    },
+    "306f3b0f-ba85-8158-937f-de286c81dc69": {
+      "title": "スタータープログラム講師マニュアルを確認する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/スタータープログラム講師マニュアルを確認する"
+    },
+    "306f3b0f-ba85-81e9-a025-f26b185bcef9": {
+      "title": "調整さんでキックオフの日程を作成する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/調整さんでキックオフの日程を作成する"
+    },
+    "306f3b0f-ba85-818e-b41e-cff0d24fb390": {
+      "title": "アーカイブ格納庫をコピーして作成する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/アーカイブ格納庫をコピーして作成する"
+    },
+    "306f3b0f-ba85-8116-8e1e-f9d4a8dc76f1": {
+      "title": "Untitled",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Untitled"
+    },
+    "306f3b0f-ba85-8158-af94-c0101ce20d92": {
+      "title": "キックオフの流れを確認（当日スムーズに説明できるように）",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/キックオフの流れを確認（当日スムーズに説明できるように）"
+    },
+    "306f3b0f-ba85-8104-b848-c43f240e472a": {
+      "title": "提出された課題へのフィードバック",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/提出された課題へのフィードバック"
+    },
+    "306f3b0f-ba85-81f5-9208-daf6e0741a11": {
+      "title": "スタータープログラムを確認する",
+      "last_edited": "2026-02-13T12:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/スタータープログラムを確認する"
+    },
+    "306f3b0f-ba85-804d-a6b0-de26bd953c32": {
+      "title": "MVV",
+      "last_edited": "2026-02-13T12:47:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/MVV"
     }
   }
 }
