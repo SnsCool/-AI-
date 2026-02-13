@@ -1,8 +1,0 @@
-{
-  "url": "https://docs.google.com/spreadsheets/d/1t5YvwDJG5-2wy9F9PuVEFfE7TPVUoU6OjihrITVk2hs/edit?usp=sharing",
-  "type": "gdoc",
-  "processed_at": "2026-01-22T17:15:28.509704",
-  "content": "## 【モニターcチーム】管理シートのUI概要\n\nこの要約は、Google スプレッドシートのインターフェース要素をまとめたものです。\n\n**1. メニューバー:**\n\n*   **タイトル:** 【モニターcチーム】管理シート\n*   **主要リンク:**\n    *   [スプレッドシート ホーム](https://docs.google.com/spreadsheets/?usp=sheets_web)\n    *   [ログイン](https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/spreadsheets/d/1t5YvwDJG5-2wy9F9PuVEFfE7TPVUoU6OjihrITVk2hs/edit?usp%3Dsharing&followup=https://docs.google.com/spreadsheets/d/1t5YvwDJG5-2wy9F9PuVEFfE7TPVUoU6OjihrITVk2hs/edit?usp%3Dsharing&ltmpl=sheets&ec=GAZAmwI)\n*   **ステータス:** ドライブに保存済み\n*   **共有設定:** リンクを知っている全員がアクセス可能 (ログイン不要) – 現在共有機能は無効\n*   **コメント:** すべてのコメントを表示ボタンあり\n*   **メニュー:** ファイル、編集、表示、挿入、表示形式、データ、ツール、拡張機能、ヘルプ\n\n**2. ツールバー:**\n\n*   **検索:** メニューを検索 (option+/)\n*   **メイン:**\n    *   元に戻す、やり直し、印刷、書式を貼り付け\n    *   ズーム (100%が選択)\n    *   表示形式 (通貨、パーセント、小数点桁数調整)\n    *   フォント (Arialが選択)、フォントサイズ (11が選択)\n    *   太字、斜体、取り消し線\n    *   テキストの色、塗りつぶしの色、枠線\n    *   セルの結合 (無効)\n    *   水平/垂直方向の配置、テキストの折り返し、テキストの回転\n    *   その他オプション\n*   **表示:** メニューを非表示 (Ctrl+Shift+F)\n\n**3. 名前ボックスと数式バー:**\n\n*   セル A1 が選択\n*   数式バーあり\n\n**4. 表:**\n\n*   表の名前を表示\n*   表に関するメニューボタンあり\n\n**5. グラフ:**\n\n*   200行を超えるグラフの概要は無効 (制限は今後削除予定)\n*   グラフに戻るボタンあり\n\n**6. シートタブバー:**\n\n*   シートの追加、すべてのシートを表示\n*   シート名：【まいこ様】、【まみ様】、【めぐみ様】、【まきこ様】、【ひろえ様】、【まな様】、【れいこ様】、【あゆみ様】、【ともこ様】\n*   左右スクロールボタン\n\n**7. その他:**\n\n*   スクリーンリーダーサポート有効化リンク (⌘+option+Zで有効化、⌘スラッシュでキーボードショートカット表示)\n",
-  "title": "Webページ",
-  "error": null
-}

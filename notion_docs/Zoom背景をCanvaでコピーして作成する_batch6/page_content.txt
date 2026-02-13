@@ -1,6 +1,0 @@
-Zoom背景をCanvaでコピーして作成する
-
-補足: SnsClub業務を行う際には背景に設定する。
-https://www.canva.com/design/DAGIcmrlc9U/EtrD--ltTs62KTlNty8_Jw/edit?utm_content=DAGIcmrlc9U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-
-[Contains child page: Zoom背景をCanvaでコピーして作成する]

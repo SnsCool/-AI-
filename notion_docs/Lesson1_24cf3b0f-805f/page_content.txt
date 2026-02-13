@@ -1,7 +1,0 @@
-# Lesson1
-
-## Properties
-- title: Lesson1
-
-## Content
-(コンテンツなし - ブロック未取得)

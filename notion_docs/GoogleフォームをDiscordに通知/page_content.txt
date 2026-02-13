@@ -1,8 +1,0 @@
-# GoogleフォームをDiscordに通知
-
-Notion URL: https://www.notion.so/Google-Discord-1cff3b0fba8581ab8e87eee15380e26e
-同期日時: 2026-01-29
-
----
-
-[データベースエントリ - ブロック内容は別途取得が必要]

@@ -1,8 +1,0 @@
-{
-  "url": "https://manager.line.biz/account/@748zzggu/broadcast",
-  "type": "webpage",
-  "processed_at": "2026-01-22T15:32:06.918086",
-  "content": "  - main:\n    - button \"Go back\" [ref=e1]\n    - text: Change language\n    - combobox \"Change language\" [ref=e2]:\n      - option \"English\" [ref=e3] [selected]\n      - option \"日本語\" [ref=e4]\n      - option \"한국어\" [ref=e5]\n      - option \"ภาษาไทย\" [ref=e6]\n      - option \"Bahasa Indonesia\" [ref=e7]\n      - option \"繁體中文\" [ref=e8]\n    - heading \"LINEヤフーBusiness ID\" [ref=e9] [level=1]\n    - heading \"Log in with LINE Business ID\" [ref=e10] [level=2]\n    - button \"LINE account\" [ref=e11]\n    - button \"Business account\" [ref=e12]\n    - heading \"Log in with Yahoo! JAPAN Business ID\" [ref=e13] [level=2]\n    - link \"Yahoo! JAPAN ID\" [ref=e14]:\n      - /url: /login/yahoo\n    - link \"Create an account\" [ref=e15]:\n      - /url: /signup\n    - button \"Use SSO\" [ref=e16]\n    - paragraph: © LY Corporation\n    - link \"Help\" [ref=e17]:\n      - /url: https://help2.line.me/business_id/web?lang=en\n    - link \"Terms of Use\" [ref=e18]:\n      - /url: https://help2.line.me/business_id/web/?contentId=200001358&lang=en\n",
-  "title": "Webページ",
-  "error": null
-}

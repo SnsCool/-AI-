@@ -1,4 +1,0 @@
-# 競合アカウントのバズ投稿をリストアップ・分析する
-
-詳細: こちらのスプシの「バズ投稿」「バズ投稿台本書き起こし」シートを記入してください
-競合分析シート: https://docs.google.com/spreadsheets/d/1-l-ALyoSg0VTO4GC0PHSD7Ga7LGUls5p0s4XQixlY_E/copy?usp=sharing

@@ -1,8 +1,0 @@
-{
-  "url": "https://connect.kakutoku.cloud/client/product/dacebc0de4e32fef02154dd06ec5f120/proposal",
-  "type": "webpage",
-  "processed_at": "2026-01-22T16:30:51.686591",
-  "content": "  - text: 企業向け メールアドレス\n  - textbox \"kakutoku@sample.com\" [ref=e1]\n  - text: パスワード\n  - textbox [ref=e2]\n  - text: パスワードはカクトク運営事務局から届いている「アカウント発行」メールに記載しております\n  - button \"ログイン\" [ref=e3]\n  - link \"パスワードを忘れた方\" [ref=e4]:\n    - /url: /client/password/reset\n  - link \"アカウントをお持ちでなく、新規で利用を開始されたい方\" [ref=e5]:\n    - /url: https://kakutoku.jp/lp/client/inquiry?redirect_uri=%2Fclient%2Fproduct%2Fdacebc0de4e32fef02154dd06ec5f120%2Fproposal\n",
-  "title": "Webページ",
-  "error": null
-}

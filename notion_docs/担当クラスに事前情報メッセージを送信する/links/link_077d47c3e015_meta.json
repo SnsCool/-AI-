@@ -1,8 +1,0 @@
-{
-  "url": "https://timerex.net/〜",
-  "type": "webpage",
-  "processed_at": "2026-01-22T15:30:42.762489",
-  "content": "  - navigation:\n    - link \"TimeRex（タイムレックス） by 調整さん\" [ref=e1]:\n      - /url: https://timerex.net\n    - link \"サポート\" [ref=e2]:\n      - /url: https://help.timerex.net\n    - link \"ログイン\" [ref=e3]:\n      - /url: https://timerex.net/auth/login\n    - text: 404 Not Found\n    - paragraph: 対象のページは見つかりませんでした。\n  - contentinfo:\n      - listitem:\n        - link \"利用規約\" [ref=e4]:\n          - /url: https://timerex.net/terms\n      - listitem:\n        - link \"プライバシーポリシー\" [ref=e5]:\n          - /url: https://timerex.net/privacy\n      - listitem:\n        - link \"特商法に基づく表記\" [ref=e6]:\n          - /url: https://timerex.net/trade\n      - listitem:\n        - link \"ステータス\" [ref=e7]:\n          - /url: https://status.timerex.net/\n      - listitem:\n        - link \"お知らせ\" [ref=e8]:\n          - /url: https://timerex.net/blog\n      - listitem:\n        - link \"サポート\" [ref=e9] [nth=1]:\n          - /url: https://help.timerex.net\n      - listitem:\n        - link \"TimeRex With\" [ref=e10]:\n          - /url: https://timerex.net/blog/contents\n      - listitem:\n        - link \"Developer Portal\" [ref=e11]:\n          - /url: https://developers.timerex.net/ja\n      - listitem:\n        - text: 言語設定\n        - combobox [ref=e12]:\n          - option \"日本語\" [ref=e13] [selected]\n          - option \"英語\" [ref=e14]\n      - listitem:\n        - link \"MIXTEND\" [ref=e15]:\n          - /url: https://mixtend.com/\n",
-  "title": "Webページ",
-  "error": null
-}

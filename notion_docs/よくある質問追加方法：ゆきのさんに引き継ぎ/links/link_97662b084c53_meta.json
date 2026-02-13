@@ -1,8 +1,0 @@
-{
-  "url": "https://support.snsclub.jp/wp-login.php?redirect_to=https%3A%2F%2Fsupport.snsclub.jp%2Fwp-admin%2F&reauth=1",
-  "type": "webpage",
-  "processed_at": "2026-01-22T15:37:34.256906",
-  "content": "  - heading \"ログイン\" [ref=e1] [level=1]\n  - link \"Powered by WordPress\" [ref=e2]:\n    - /url: https://ja.wordpress.org/\n  - paragraph:\n    - text: ユーザー名またはメールアドレス\n    - textbox \"ユーザー名またはメールアドレス\" [ref=e3]\n  - text: パスワード\n  - textbox \"パスワード\" [ref=e4]\n  - button \"パスワードを表示\" [ref=e5]\n  - paragraph:\n    - checkbox \"ログイン状態を保存する\" [ref=e6]\n    - text: ログイン状態を保存する\n  - paragraph:\n    - button \"ログイン\" [ref=e7]\n  - paragraph:\n    - link \"パスワードをお忘れですか ?\" [ref=e8]:\n      - /url: https://support.snsclub.jp/wp-login.php?action=lostpassword\n  - paragraph:\n    - link \"← SnsClub お問い合わせ へ移動\" [ref=e9]:\n      - /url: https://support.snsclub.jp/\n  - text: 言語\n  - combobox \"言語\" [ref=e10]:\n    - option \"English (United States)\" [ref=e11]\n    - option \"日本語\" [ref=e12] [selected]\n  - button \"変更\" [ref=e13]\n",
-  "title": "Webページ",
-  "error": null
-}

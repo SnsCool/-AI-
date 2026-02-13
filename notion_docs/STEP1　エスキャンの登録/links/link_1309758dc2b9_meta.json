@@ -1,8 +1,0 @@
-{
-  "url": "https://one-stream.io/user/1nTdVscsOTRacnDyjJsGD8ZGVwi1/playlists/category/88cd48f0-bc2f-4ba5-ad28-46ac6d5e0def",
-  "type": "webpage",
-  "processed_at": "2026-01-22T16:49:00.259740",
-  "content": "  - text: Welcome to エスキャン!\n  - form:\n    - textbox \"Email Address\" [ref=e1]\n    - textbox \"Password\" [ref=e2]\n    - button \"Show password\" [ref=e3]\n    - button \"Login\" [ref=e4]\n    - button \"Google Account\" [ref=e5]:\n      - text: Google Account\n    - link \"Forgot Password\" [ref=e6]:\n      - /url: /request_reset_password?tid=1nTdVscsOTRacnDyjJsGD8ZGVwi1\n      - listitem: Copyright カイシャイン株式会社. All Rights Reserved.\n",
-  "title": "Webページ",
-  "error": null
-}

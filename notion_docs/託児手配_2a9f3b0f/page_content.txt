@@ -1,8 +1,0 @@
-# 託児手配
-
-## Properties
-- 担当者: Riku
-- ステータス: 未着手
-
-## Content
-

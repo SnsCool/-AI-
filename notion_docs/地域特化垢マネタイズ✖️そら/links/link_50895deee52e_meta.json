@@ -1,8 +1,0 @@
-{
-  "url": "https://lin.ee/fWTYcIO",
-  "type": "webpage",
-  "processed_at": "2026-01-22T13:37:14.540054",
-  "content": "  - banner:\n    - heading \"LINE\" [ref=e1] [level=1]:\n      - link \"LINE\" [ref=e2]:\n        - /url: /\n  - main:\n    - paragraph: 404 Not Found\n    - paragraph: Unable to open page\n    - paragraph: The page either does not exist, or you have no network connection.\n    - paragraph:\n      - link \"LINE HOME\" [ref=e3]:\n        - /url: http://line.me\n",
-  "title": "Webページ",
-  "error": null
-}

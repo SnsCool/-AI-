@@ -1,8 +1,0 @@
-{
-  "url": "https://maps.app.goo.gl/kL58YvLF226pBUFYA",
-  "type": "webpage",
-  "processed_at": "2026-01-22T15:17:41.625541",
-  "content": "    - listitem:\n      - button \"メニュー\" [ref=e1]\n    - listitem:\n      - button \"保存済み\" [ref=e2]\n    - listitem:\n      - button \"直近の履歴\" [ref=e3] [disabled]\n    - listitem:\n      - button \"アプリをダウンロード\" [ref=e4]\n  - button \"サイドパネルを折りたたむ\" [ref=e5]\n",
-  "title": "Webページ",
-  "error": null
-}

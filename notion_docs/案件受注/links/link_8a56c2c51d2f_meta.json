@@ -1,8 +1,0 @@
-{
-  "url": "https://crowdworks.jp/proposals/271187477",
-  "type": "webpage",
-  "processed_at": "2026-01-22T17:10:18.531532",
-  "content": "## ログインページの概要\n\nこのページは、主に以下の機能を提供します。\n\n**1. ログイン (見出し1)**\n\n*   **標準ログイン:**\n    *   メールアドレスとパスワードを入力してログインできます。\n        *   メールアドレス入力欄\n        *   パスワード入力欄\n        *   パスワード表示/非表示切り替えボタン\n        *   ログインボタン\n        *   ログイン状態を30日間保存するチェックボックス\n    *   パスワードを忘れた場合は、パスワード再設定ページへのリンクがあります。\n        *   `/password_reset_requests/new`\n\n**2. 他のアカウントでログイン (見出し2)**\n\n*   Google、Yahoo! JAPAN ID、Facebookアカウントを利用してログインできます。\n    *   Googleでログインボタン\n    *   Yahoo! JAPAN IDでログインボタン\n    *   Facebookでログインボタン\n\n**3. 新規アカウント作成**\n\n*   新しいアカウントを作成するためのリンクがあります。\n    *   `/user/new_email`\n\n**4. フッター情報**\n\n*   以下のリンクがフッターに配置されています。\n    *   利用規約 (`/pages/agreement`)\n    *   特定商取引法に基づく表記 (`/pages/sctl`)\n    *   個人情報保護方針 (`https://crowdworks.co.jp/privacy_policy`)\n*   著作権情報: copyright (c) CrowdWorks all rights reserved.\n",
-  "title": "Webページ",
-  "error": null
-}

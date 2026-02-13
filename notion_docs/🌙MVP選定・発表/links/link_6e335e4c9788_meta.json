@@ -1,8 +1,0 @@
-{
-  "url": "https://discord.com/channels/1151442122361282641/1159467673361600605/1434474759852261568",
-  "type": "webpage",
-  "processed_at": "2026-01-22T13:31:54.191685",
-  "content": "## Discord アプリケーションの検出\n\nDiscordのリンクを開こうとした際に表示されるポップアップに関する情報です。\n\n**概要:**\n\n*   **タイトル:** Discord App Detected (Discord アプリケーションが検出されました)\n*   **メッセージ:** Do you want to open this link in your Discord app? (このリンクを Discord アプリケーションで開きますか？)\n*   **選択肢:**\n    *   **Open App (アプリケーションを開く):** Discord アプリケーションを起動してリンクを開きます。\n    *   **Continue in Browser (ブラウザで続行):** 現在使用しているブラウザでリンクを開きます。\n\n**要約:**\n\nDiscordのリンクを開こうとすると、Discordアプリケーションが検出され、アプリケーションで開くかブラウザで開くかの選択を促されます。\n",
-  "title": "Webページ",
-  "error": null
-}

@@ -1,5 +1,0 @@
-# 1-6 プロフィール設定
-
-[synced_block]
-
-[synced_block from 8de00e9b-ebf2-46e4-becb-7d55b773c1ce]

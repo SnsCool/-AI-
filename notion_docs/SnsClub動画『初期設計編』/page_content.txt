@@ -1,8 +1,0 @@
-# SnsClub動画『初期設計編』
-
-Notion URL: https://www.notion.so/SnsClub-2edf3b0fba85812e8985cfba587f6d1f
-同期日時: 2026-02-01T12:39:57+09:00
-
----
-
-2 目的を決める

@@ -1,8 +1,0 @@
-{
-  "url": "https://www.youtube.com/watch?v=EQw8TbVWQHI",
-  "type": "video",
-  "processed_at": "2026-01-29T13:42:12.999146",
-  "content": "提供されたURL `https://www.youtube.com/watch?v=EQw8TbVWQHI` から分かる情報は以下の通りです。\n\n1.  **プロトコル (Protocol): `https://`**\n    *   これは「Hypertext Transfer Protocol Secure」の略で、インターネット上でのデータ通信が暗号化されていることを示します。安全な接続であることを意味します。\n\n2.  **プラットフォーム/ドメイン (Platform/Domain): `www.youtube.com`**\n    *   この部分が、動画がホストされているプラットフォームが「**YouTube**」であることを明確に示しています。YouTubeはGoogleが提供する世界最大の動画共有サービスです。\n\n3.  **パス (Path): `/watch`**\n    *   このパスは、YouTubeのウェブサイト内で「動画を視聴する」ためのページであることを示しています。つまり、個別の動画再生ページにアクセスするためのものです。\n\n4.  **クエリパラメータ (Query Parameter): `?v=EQw8TbVWQHI`**\n    *   **`?`**: これがクエリ文字列の始まりを示します。\n    *   **`v=`**: 「video（動画）」の略で、続く文字列が動画のIDであることを示しています。\n    *   **`EQw8TbVWQHI`**: これがこの動画の**ユニークなID**です。YouTubeは各動画に11文字の英数字の識別子を割り当てており、このIDによって特定の動画を一意に特定できます。\n\n**まとめ:**\n\nこのURLは、**YouTubeプラットフォーム**上で、**`EQw8TbVWQHI` というユニークなID**を持つ特定の動画を視聴するための直接リンクです。このURLにアクセスすることで、その動画が再生されるページに遷移します。",
-  "title": "",
-  "error": null
-}

@@ -1,6 +1,0 @@
-# 東京ポートシティ竹芝
-
-(ブロック内容なし - データベースエントリ)
-
-## Properties
-- URL: https://portcity-hall.tokyo/?_fsi=uDzsPB1p

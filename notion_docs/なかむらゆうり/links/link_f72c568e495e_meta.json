@@ -1,8 +1,0 @@
-{
-  "url": "https://manager.linestep.net/line/visual?member=186975104",
-  "type": "webpage",
-  "processed_at": "2026-01-23T05:39:32.947456",
-  "content": "以下は提供されたコンテンツの要約です。\n\n---\n\n**システムログインページ概要**\n\nこのページは、メッセージ配信スタンドのログインインターフェースを提供しており、ユーザーは以下の操作や情報にアクセスできます。\n\n1.  **ログインフォーム:**\n    *   **ユーザーID入力欄**\n    *   **パスワード入力欄**\n    *   **ログインボタン**: 初期状態では無効化されています。\n\n2.  **サポート・関連情報リンク:**\n    *   **ユーザーID・ログインパスワードをお忘れの方はこちら**: パスワードリセットページ（`/auth/password/email`）へ遷移します。\n    *   **各種お問い合わせはこちら**: 問い合わせページ（`https://manual.linestep.net/contact`）へ遷移します。\n    *   **【Zoom個別相談】1対1でLステップのお悩みを解決するならこちら**: LステップのZoom個別相談ページ（`https://linestep.jp/zoom_1on1_consulting/?utm_source=lstep_login&utm_medium=referral&utm_campaign=guide_bannar`）へ遷移します。\n\n3.  **システムに関する重要な注意点:**\n    *   本システムは**株式会社マネクル**が提供するメッセージ配信スタンドです。\n    *   **LINEヤフー株式会社**が提供するサービスでは**ありません**。\n    *   LINE公式アカウント・Messaging APIとの連携は**ユーザーの責任**において行われるものとし、システム提供元は一切関知しません。",
-  "title": "Webページ",
-  "error": null
-}

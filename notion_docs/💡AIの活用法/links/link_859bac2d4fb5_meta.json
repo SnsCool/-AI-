@@ -1,8 +1,0 @@
-{
-  "url": "https://claude.ai/",
-  "type": "webpage",
-  "processed_at": "2026-01-22T14:14:58.782788",
-  "content": "  - main:\n    - heading \"Icon for claude.aiclaude.ai\" [ref=e1] [level=1]:\n      - text: claude.ai\n    - paragraph: Verify you are human by completing the action below.\n    - text: claude.ai needs to review the security of your connection before proceeding.\n  - contentinfo:\n    - text: \"Ray ID:\"\n    - code: 9c1c92267d51c903\n    - text: Performance & security by\n    - link \"Cloudflare\" [ref=e2]:\n      - /url: https://www.cloudflare.com?utm_source=challenge&utm_campaign=m\n",
-  "title": "Webページ",
-  "error": null
-}

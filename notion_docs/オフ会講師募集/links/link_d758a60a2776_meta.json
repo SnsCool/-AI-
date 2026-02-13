@@ -1,8 +1,0 @@
-{
-  "url": "https://docs.google.com/forms/d/1zUsz3BXOPdfGCx3eH1bUo47xo7fbyhyQ4URz32IO-jU/edit#responses",
-  "type": "gdoc",
-  "processed_at": "2026-01-22T14:39:32.986783",
-  "content": "  - dialog \"続行するにはログインしてください\":\n    - heading \"続行するにはログインしてください\" [ref=e1] [level=1]\n    - text: このフォームに記入するには、ログインする必要があります。あなたの身元は特定されません。\n    - link \"不正行為の報告\" [ref=e2]:\n      - /url: https://drive.google.com/abuse?id=AKkXjozHDOlhYW7NTmeCW4Cb22GNeQL1N7Drwm5FD0ETUkP9hOFfKyM26QvXk32QWs-oldmoDf767aJT3j3-9wc:0&docurl=https://docs.google.com/forms/d/1zUsz3BXOPdfGCx3eH1bUo47xo7fbyhyQ4URz32IO-jU/viewform?edit_requested%3Dtrue\n    - button \"ログイン\" [ref=e3]\n",
-  "title": "Webページ",
-  "error": null
-}

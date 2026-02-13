@@ -1,8 +1,0 @@
-{
-  "url": "https://www.youtube.com/watch?v=vfzNwSJ3yVU",
-  "type": "video",
-  "processed_at": "2026-01-29T13:34:40.955538",
-  "content": "このURLからわかる情報は以下の通りです。\n\n*   **プラットフォーム:** YouTube (www.youtube.com)\n*   **動画ID:** `vfzNwSJ3yVU`\n    *   これは、YouTube上でこの特定の動画を一意に識別するための11文字の文字列です。YouTubeのすべての動画には、この形式の固有のIDが割り当てられています。\n*   **URLの構造:**\n    *   `https://www.youtube.com/`: YouTubeのウェブサイトのドメインです。\n    *   `watch`: YouTubeで動画を視聴するページであることを示します。\n    *   `?v=`: クエリパラメータであり、「v」は「video」（動画）を意味します。これに続く文字列（今回の場合は`vfzNwSJ3yVU`）が動画のIDであることを指定しています。\n\nしたがって、このURLはYouTube上の`vfzNwSJ3yVU`というIDを持つ動画を視聴するための直接リンクです。",
-  "title": "",
-  "error": null
-}

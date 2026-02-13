@@ -1,8 +1,0 @@
-{
-  "url": "https://im-mall.boujee.jp/account/register",
-  "type": "webpage",
-  "processed_at": "2026-01-22T16:07:02.584996",
-  "content": "  - main:\n    - main:\n      - heading \"インフルエンサー新規登録\" [ref=e1] [level=1]\n      - textbox \"ログインID（メールアドレス）\" [ref=e2]\n      - textbox \"パスワード\" [ref=e3]\n      - button \"toggle password\" [ref=e4]:\n        - listitem: ※ パスワードは、英数字を含む8文字以上で設定してください。\n      - button \"新規登録\" [ref=e5]\n      - link \"登録済みの方はこちら\" [ref=e6]:\n        - /url: /login\n      - link \"企業様のログインはこちら\" [ref=e7]:\n        - /url: /login\n    - navigation:\n        - listitem:\n          - link \"よくあるご質問\" [ref=e8]:\n            - /url: https://castmeinfluencer.zendesk.com/hc/ja\n        - listitem:\n          - link \"お問い合わせ\" [ref=e9]:\n            - /url: https://castmeinfluencer.zendesk.com/hc/ja/requests/new\n        - listitem:\n          - link \"インフルエンサー登録規約\" [ref=e10]:\n            - /url: https://im.boujee.jp/terms/service\n        - listitem:\n          - link \"プライバシーポリシー\" [ref=e11]:\n            - /url: https://im.boujee.jp/privacypolicy\n        - listitem:\n          - link \"運営会社情報\" [ref=e12]:\n            - /url: https://www.plan-b.co.jp/\n    - paragraph: Copyright © PLAN-B Inc.\n",
-  "title": "Webページ",
-  "error": null
-}

@@ -1,3 +1,0 @@
-[callout]
-
-[child_database: ジャンル特化グルコン]

@@ -1,8 +1,0 @@
-{
-  "url": "https://tldv.io/app/meetings/68da7e391a82d40013635abc/",
-  "type": "webpage",
-  "processed_at": "2026-01-22T15:57:02.680338",
-  "content": "  - complementary:\n    - link [ref=e1]:\n      - /url: /app/meetings\n    - link \"Record now\" [ref=e2]:\n      - /url: /app/record\n      - text: Record now\n    - navigation:\n      - link \"Search\" [ref=e3]:\n        - /url: /app/search\n        - text: Search\n      - link \"Meetings & Folders\" [ref=e4]:\n        - /url: /app/meetings\n        - text: Meetings & Folders\n      - link \"Meeting templates\" [ref=e5]:\n        - /url: /app/ai-meeting-templates\n        - text: Meeting templates\n      - link \"AI Reports\" [ref=e6]:\n        - /url: /app/ai-reports\n        - text: AI Reports\n      - link \"Integrations\" [ref=e7]:\n        - /url: /app/integrations\n        - text: Integrations\n      - link \"AI Coaching Hub\" [ref=e8]:\n        - /url: /app/ai-coaching-hub\n        - text: AI Coaching Hub\n      - link \"Clips & Reels\" [ref=e9]:\n        - /url: /app/clips\n        - text: Clips & Reels\n    - link \"Login\" [ref=e10]:\n      - /url: /app/login\n  - button [ref=e11]:\n",
-  "title": "Webページ",
-  "error": null
-}

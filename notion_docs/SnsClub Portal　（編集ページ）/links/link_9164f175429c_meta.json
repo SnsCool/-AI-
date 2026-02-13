@@ -1,8 +1,0 @@
-{
-  "url": "https://manychat.com/",
-  "type": "webpage",
-  "processed_at": "2026-01-22T16:28:33.853615",
-  "content": "  - main:\n    - heading \"Icon for manychat.commanychat.com\" [ref=e1] [level=1]:\n      - text: manychat.com\n    - paragraph: Verify you are human by completing the action below.\n    - text: manychat.com needs to review the security of your connection before proceeding.\n  - contentinfo:\n    - text: \"Ray ID:\"\n    - code: 9c1d55d4bc152934\n    - text: Performance & security by\n    - link \"Cloudflare\" [ref=e2]:\n      - /url: https://www.cloudflare.com?utm_source=challenge&utm_campaign=m\n",
-  "title": "Webページ",
-  "error": null
-}

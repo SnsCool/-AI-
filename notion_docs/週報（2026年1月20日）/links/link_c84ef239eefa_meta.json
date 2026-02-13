@@ -1,8 +1,0 @@
-{
-  "url": "https://www.instagram.com/mioim_gohan/",
-  "type": "video",
-  "processed_at": "2026-01-22T13:16:07.847209",
-  "content": "Here are the bounding box detections:\n```json\n[\n  {\"box_2d\": [234, 394, 286, 604], \"label\": \"Phone number, username, or email\"},\n  {\"box_2d\": [297, 394, 348, 604], \"label\": \"Password\"},\n  {\"box_2d\": [367, 394, 412, 604], \"label\": \"Log in\"},\n  {\"box_2d\": [508, 456, 528, 568], \"label\": \"Log in with Facebook\"},\n  {\"box_2d\": [562, 453, 583, 546], \"label\": \"Forgot password?\"},\n  {\"box_2d\": [664, 541, 685, 581], \"label\": \"Sign up\"}\n]\n```",
-  "title": "動画コンテンツ",
-  "error": null
-}

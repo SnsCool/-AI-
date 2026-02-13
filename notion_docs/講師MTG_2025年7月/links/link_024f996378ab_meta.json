@@ -1,8 +1,0 @@
-{
-  "url": "https://one-stream.io/user/1nTdVscsOTRacnDyjJsGD8ZGVwi1/playlist/2f34f06f-6a95-49d9-9b2d-c7a7225eaff6",
-  "type": "webpage",
-  "processed_at": "2026-01-22T18:05:42.138287",
-  "content": "以下は、提示されたコンテンツの日本語要約です。\n\n### 「エスキャン」ログインページ概要\n\n「エスキャン」のログインページへようこそ。このページは、ユーザーがアカウントにログインするための機能と情報を提供しており、以下の要素で構成されています。\n\n**1. ログインフォーム**\n*   **入力フィールド:**\n    *   「Email Address」（メールアドレス）を入力するテキストボックス\n    *   「Password」（パスワード）を入力するテキストボックス\n*   **操作ボタン:**\n    *   「Show password」ボタン：入力されたパスワードの表示/非表示を切り替えます。\n    *   「Login」ボタン：入力したメールアドレスとパスワードでログインを実行します。\n\n**2. その他のログインオプション**\n*   「Google Account」ボタン：Googleアカウントを使用してログインするためのボタンです。\n\n**3. 補助機能**\n*   「Forgot Password」（パスワードをお忘れの場合）リンク：パスワードのリセットをリクエストするためのリンクです。\n    *   リクエストURL: `/request_reset_password?tid=1nTdVscsOTRacnDyjJsGD8ZGVwi1`\n\n**4. 著作権情報**\n*   Copyright カイシャイン株式会社. All Rights Reserved. (著作権はカイシャイン株式会社に帰属します。)",
-  "title": "Webページ",
-  "error": null
-}

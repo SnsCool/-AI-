@@ -1,9 +1,0 @@
-# SnsClubラジオ
-
-## Properties
-- 担当者: リオ
-- KGI: 顧客満足度
-- ステータス: 未着手
-
-## Content
-

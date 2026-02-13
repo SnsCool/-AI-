@@ -1,8 +1,0 @@
-{
-  "url": "https://crowdworks.jp/proposals/271328354",
-  "type": "webpage",
-  "processed_at": "2026-01-22T17:09:24.310259",
-  "content": "## ログインページの概要\n\nこのページは、以下の機能を提供するログイン画面です。\n\n**1. ログイン:**\n\n*   **メールアドレスとパスワード:** メールアドレスとパスワードを入力してログインします。\n    *   [ref=e2]: メールアドレス入力欄\n    *   [ref=e3]: パスワード入力欄\n*   **パスワード表示:** パスワードを表示する/隠すボタンがあります。[ref=e4]\n*   **ログインボタン:** ログインを実行します。[ref=e5]\n*   **ログイン状態の保存:** 30日間ログイン状態を保存するオプションがあります。[ref=e6]\n*   **パスワードリセット:** パスワードを忘れた場合は、リセットページへのリンクがあります。[ref=e7] (URL: /password_reset_requests/new)\n\n**2. 他のアカウントでのログイン:**\n\n以下のサービスアカウントを利用してログインできます。\n\n*   Google [ref=e9]\n*   Yahoo! JAPAN ID [ref=e10]\n*   Facebook [ref=e11]\n\n**3. 新規アカウント作成:**\n\n*   新規アカウントを作成するためのリンクがあります。[ref=e12] (URL: /user/new_email)\n\n**4. 関連情報:**\n\nページ下部には、以下の情報へのリンクがあります。\n\n*   利用規約 [ref=e13] (URL: /pages/agreement)\n*   特定商取引法に基づく表記 [ref=e14] (URL: /pages/sctl)\n*   個人情報保護方針 [ref=e15] (URL: https://crowdworks.co.jp/privacy_policy)\n\n**5. 著作権情報:**\n\n*   copyright (c) CrowdWorks all rights reserved.\n",
-  "title": "Webページ",
-  "error": null
-}

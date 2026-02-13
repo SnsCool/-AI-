@@ -1,8 +1,0 @@
-{
-  "url": "https://www.youtube.com/watch?v=SVIkgo7vyzo",
-  "type": "video",
-  "processed_at": "2026-01-29T13:41:21.574913",
-  "content": "ご提示いただいたURL `https://www.youtube.com/watch?v=SVIkgo7vyzo` から読み取れる情報は以下の通りです。\n\n*   **プラットフォーム**: YouTube\n    *   URLのドメイン名 `www.youtube.com` から、この動画がGoogleが運営する動画共有プラットフォーム「YouTube」でホストされていることが分かります。\n*   **動画ID**: `SVIkgo7vyzo`\n    *   URLの `?v=` の後に続く `SVIkgo7vyzo` が、この動画のユニークな識別子（動画ID）です。\n    *   このIDは、YouTube上でこの動画を一意に特定するために使用されます。\n\n**URLの構造解説:**\n\n*   `https://`: ウェブサイトがHTTPSプロトコル（セキュアな通信）を使用していることを示します。\n*   `www.youtube.com`: 動画がホストされているプラットフォームのドメイン名です。\n*   `/watch`: YouTube上で動画を視聴するための標準的なパスです。\n*   `?v=`: クエリパラメータの開始を示し、「v」は「video」（動画）を意味します。\n*   `SVIkgo7vyzo`: 上述の通り、この動画に割り当てられた一意の動画IDです。\n\nこの情報（特に動画ID）は、動画を共有したり、ウェブサイトに埋め込んだり、YouTubeのAPIを通じて動画のメタデータ（タイトル、説明、チャンネル情報など）を取得したりする際に利用されます。",
-  "title": "",
-  "error": null
-}

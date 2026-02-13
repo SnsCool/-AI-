@@ -1,8 +1,0 @@
-{
-  "url": "https://docs.google.com/document/d/1O63FbEHg3VRFFfw-BrK7P44GrVf8mlO_3dp_yEn-coQ/edit?tab=t.0",
-  "type": "gdoc",
-  "processed_at": "2026-01-22T15:01:04.139962",
-  "content": "  - link \"Google ロゴ\" [ref=e1]:\n    - /url: //support.google.com/docs/\n  - paragraph: リクエストしたファイルは削除されています。\n  - paragraph: URL が間違っておらず、ファイルのオーナーによって削除されていないことをご確認ください。\n    - strong: あれもこれも Google ドライブで\n  - paragraph: Google ドライブにはドキュメントやスプレッドシート、プレゼンテーションなどを簡単に作成、保存してオンラインで共有できるアプリが揃っています。\n  - paragraph:\n    - text: 詳細は\n    - link \"drive.google.com/start/apps\" [ref=e2]:\n      - /url: https://drive.google.com/start/apps\n    - text: をご覧ください。\n",
-  "title": "Webページ",
-  "error": null
-}

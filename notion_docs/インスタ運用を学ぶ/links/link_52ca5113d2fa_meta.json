@@ -1,8 +1,0 @@
-{
-  "url": "https://one-stream.io/user/1nTdVscsOTRacnDyjJsGD8ZGVwi1/playlist/d735c6be-bfd8-447c-9994-bc4c4d050aa0",
-  "type": "webpage",
-  "processed_at": "2026-01-22T13:21:44.920088",
-  "content": "エスキャンへようこそ！\n\nこの画面では、以下の情報を使ってログインできます。\n\n*   **メールアドレス:** 入力欄 [e1]\n*   **パスワード:** 入力欄 [e2]\n*   **パスワード表示ボタン:** [e3] パスワードの表示/非表示を切り替えられます。\n*   **ログインボタン:** [e4] メールアドレスとパスワードを使ってログインします。\n*   **Googleアカウントでログインボタン:** [e5] Googleアカウントを使ってログインします。\n*   **パスワードを忘れた場合:** リンク [e6] をクリックして、パスワード再設定をリクエストできます（URL: `/request_reset_password?tid=1nTdVscsOTRacnDyjJsGD8ZGVwi1`）。\n\n**著作権:** カイシャイン株式会社がすべての権利を保有します。\n",
-  "title": "Webページ",
-  "error": null
-}

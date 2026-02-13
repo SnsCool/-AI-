@@ -1,8 +1,0 @@
-{
-  "url": "https://one-stream.io/user/1nTdVscsOTRacnDyjJsGD8ZGVwi1/playlist/0457daaa-354b-4029-b80c-e2c16ee9cca7",
-  "type": "webpage",
-  "processed_at": "2026-01-22T18:05:54.876023",
-  "content": "以下は提供されたコンテンツの要約です。\n\n---\n\n**概要:**\n「エスキャン」のウェルカムページで、ユーザーログインフォームが提示されています。\n\n**構造化された情報:**\n\n1.  **ウェルカムメッセージ:**\n    *   「エスキャンへようこそ！」\n\n2.  **ログインフォームの要素:**\n    *   **入力項目:**\n        *   メールアドレス (textbox)\n        *   パスワード (textbox)\n    *   **操作ボタン:**\n        *   パスワード表示ボタン\n        *   ログインボタン\n        *   Googleアカウントでログインボタン\n    *   **その他リンク:**\n        *   パスワードをお忘れの方へのリンク\n            *   URL: `/request_reset_password?tid=1nTdVscsOTRacnDyjJsGD8ZGVwi1`\n\n3.  **著作権表示:**\n    *   Copyright カイシャイン株式会社. All Rights Reserved.\n\n---",
-  "title": "Webページ",
-  "error": null
-}

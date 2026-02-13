@@ -1,8 +1,0 @@
-{
-  "url": "https://us06web.zoom.us/rec/share/aE2z54xeLyqJ8hzSrrzs4QRkIFd7Fz9tIIHblg7K2fbHXNnbh-i9MPnfe3Yae6ms.X9kbdC3kEbJCmHFm",
-  "type": "video",
-  "processed_at": "2026-01-23T05:39:43.983716",
-  "content": "ご提示いただいたURL `https://us06web.zoom.us/rec/share/aE2z54xeLyqJ8hzSrrzs4QRkIFd7Fz9tIIHblg7K2fbHXNnbh-i9MPnfe3Yae6ms.X9kbdC3kEbJCmHFm` からわかる情報は以下の通りです。\n\n1.  **プラットフォーム**:\n    *   ドメイン名が `zoom.us` であることから、この動画は**Zoom (ズーム)** プラットフォーム上でホストされています。\n\n2.  **コンテンツの種類**:\n    *   パスに `/rec/share/` が含まれています。\n        *   `rec` は \"recording\" (録画) を意味します。\n        *   `share` は \"共有\" を意味します。\n    *   したがって、このURLは**Zoomミーティングの録画を共有するためのリンク**であることがわかります。\n\n3.  **ユニークID/識別子**:\n    *   URLの最後の部分 `aE2z54xeLyqJ8hzSrrzs4QRkIFd7Fz9tIIHblg7K2fbHXNnbh-i9MPnfe3Yae6ms.X9kbdC3kEbJCmHFm` が、この特定の録画を一意に識別するためのIDです。Zoomの録画共有リンクでは、このように複雑な英数字の文字列が使用されます。\n\n4.  **サーバー情報（推測）**:\n    *   サブドメインの `us06web` は、Zoomが利用しているデータセンターやサーバー群の場所（この場合は「アメリカ合衆国」の「06番目のウェブクラスター」といった意味合い）を示唆している可能性があります。\n\n**まとめると：**\nこのURLは、Zoomプラットフォームに保存されている特定のミーティング録画にアクセスするための共有リンクです。このリンクをクリックすると、Zoomのウェブサイト上で該当する録画を再生できるページに移動します。ただし、録画の設定によっては、視聴にパスワードの入力が必要な場合があります。URL自体からは、録画のタイトル、日時、内容といった具体的な情報までは読み取れません。",
-  "title": "",
-  "error": null
-}

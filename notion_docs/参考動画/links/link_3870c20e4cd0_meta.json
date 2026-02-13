@@ -1,8 +1,0 @@
-{
-  "url": "https://www.instagram.com/reel/DJu6HUWN2vG/?igsh=MXB4MzNjYWR6MTZybg==",
-  "type": "video",
-  "processed_at": "2026-01-23T06:01:51.937691",
-  "content": "ご提示いただいたInstagramのReel動画のURLから分かる情報は以下の通りです。\n\n*   **プラットフォーム**: Instagram (インスタグラム)\n*   **コンテンツの種類**: Reel (リール動画)\n*   **動画のユニークID**: `DJu6HUWN2vG`\n*   **URLの構成要素**:\n    *   `https://www.instagram.com`: プラットフォームのドメイン\n    *   `/reel/`: コンテンツがリール動画であることを示すパス\n    *   `DJu6HUWN2vG`: この特定のリール動画を一意に識別するショートコード（ID）\n    *   `/?igsh=MXB4MzNjYWR6MTZybg==`: Instagramの共有セッションIDを示すパラメータ。これは動画自体を識別するものではなく、どこからアクセスされたかといった情報を含む可能性があります。\n\nこのURLは、Instagram上で`DJu6HUWN2vG`というIDを持つ特定のリール動画コンテンツへ直接アクセスするためのリンクであることが分かります。",
-  "title": "",
-  "error": null
-}

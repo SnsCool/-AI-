@@ -1,8 +1,0 @@
-# サービス価格の設定
-
-## Properties
-- ステータス: 完了
-- 担当者: AKIRA
-
-## Content
-

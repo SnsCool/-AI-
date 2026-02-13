@@ -1,9 +1,0 @@
-# 【ASP】特別講義追う
-
-## Properties
-- 着手: 一週目
-- ステータス: 完了
-- 担当者: Mioko
-
-## Content
-

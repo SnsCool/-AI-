@@ -1,8 +1,0 @@
-{
-  "url": "https://expo2025.underwater-construction.com/ja/",
-  "type": "webpage",
-  "processed_at": "2026-01-22T16:43:47.127950",
-  "content": "  - heading \"403 Forbidden\" [ref=e1] [level=1]\n  - heading \"アクセスしようとしたページは表示できませんでした。\" [ref=e2] [level=2]\n  - paragraph: このエラーは、表示するページへのアクセス許可がなかったことを意味します。\n  - heading \"以下のような原因が考えられます。\" [ref=e3] [level=3]\n    - listitem: アクセスが許可されていない（パーミッション等によって禁止されている）。\n    - listitem: デフォルトドキュメント（index.html, index.htm 等）が存在しない。\n",
-  "title": "Webページ",
-  "error": null
-}

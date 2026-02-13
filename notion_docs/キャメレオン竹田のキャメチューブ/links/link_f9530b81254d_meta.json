@@ -1,8 +1,0 @@
-{
-  "url": "https://www.youtube.com/watch?v=NWKQ_YJ0ZFk",
-  "type": "video",
-  "processed_at": "2026-01-29T13:40:49.131091",
-  "content": "提示されたURL `https://www.youtube.com/watch?v=NWKQ_YJ0ZFk` から分かる情報は以下の通りです。\n\n1.  **プロトコル (Protocol): `https://`**\n    *   これは「Hypertext Transfer Protocol Secure」の略で、インターネット上でのセキュアなデータ通信を表します。ウェブブラウザとサーバー間の通信が暗号化されているため、安全性が高いことを示しています。\n\n2.  **プラットフォーム/ドメイン (Platform/Domain): `www.youtube.com`**\n    *   この部分が、動画がホストされているプラットフォームが「YouTube」であることを明確に示しています。`www` は一般的なウェブサービスを示すサブドメインです。\n\n3.  **パス (Path): `/watch`**\n    *   これは、YouTubeのサーバーに対して、ユーザーが「動画を見る」（watch）ためのページにアクセスしたい、という意図を伝えています。YouTubeでは通常、このパスが動画再生ページに使われます。\n\n4.  **クエリパラメータ (Query Parameter): `?v=`**\n    *   URLの `?` 以降は「クエリパラメータ」と呼ばれ、サーバーに渡す追加情報を含んでいます。`v=` は、YouTubeにおいて「video」（動画）を示すパラメータです。\n\n5.  **動画ID (Video ID): `NWKQ_YJ0ZFk`**\n    *   `v=` の後に続く `NWKQ_YJ0ZFk` が、この動画を一意に識別する「動画ID」です。YouTube上のすべての動画には固有のIDが割り当てられており、このIDがあることで、数多くの動画の中から特定の動画を正確に特定し、再生することが可能になります。\n\n**まとめると：**\n\nこのURLは、「**YouTube** プラットフォーム上の、**IDが `NWKQ_YJ0ZFk` である特定の動画** の再生ページへ、**セキュアな接続** を通じてアクセスする」ことを意味しています。この情報だけで、どのサービスで、どの動画が公開されているかが一目瞭然です。",
-  "title": "",
-  "error": null
-}

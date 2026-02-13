@@ -1,7 +1,0 @@
-# 入学式LINE回答フォーム更新
-
-## Properties
-- 頻度: 2週
-
-## Content
-

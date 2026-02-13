@@ -1,8 +1,0 @@
-{
-  "url": "https://tiget.net/users/provider_sign_up",
-  "type": "webpage",
-  "processed_at": "2026-01-22T15:31:15.314744",
-  "content": "  - heading \"Let's confirm you are human\" [ref=e1] [level=1]\n  - paragraph: Complete the security check before continuing. This step verifies that you are not a bot, which helps to protect your account and prevent spam.\n  - button \"Begin begin\" [ref=e2]:\n    - text: Begin\n  - combobox \"Select language\" [ref=e3]:\n    - option \"العربية\" [ref=e4]\n    - option \"Čeština\" [ref=e5]\n    - option \"Dansk\" [ref=e6]\n    - option \"Deutsch\" [ref=e7]\n    - option \"English\" [ref=e8] [selected]\n    - option \"Español\" [ref=e9]\n    - option \"Français\" [ref=e10]\n    - option \"Italiano\" [ref=e11]\n    - option \"日本語\" [ref=e12]\n    - option \"Nederlands\" [ref=e13]\n    - option \"Polski\" [ref=e14]\n    - option \"Português\" [ref=e15]\n    - option \"Svenska\" [ref=e16]\n    - option \"Türkçe\" [ref=e17]\n    - option \"中文\" [ref=e18]\n",
-  "title": "Webページ",
-  "error": null
-}

@@ -1,8 +1,0 @@
-{
-  "url": "https://miro.com/app/board/uXjVJXMeZpM=/",
-  "type": "webpage",
-  "processed_at": "2026-01-22T16:44:04.031917",
-  "content": "  - heading \"こまいさんチーム - Miro\" [ref=e1] [level=1]\n  - toolbar \"Board\":\n    - button \"Home\" [ref=e2]\n    - button \"board-icon\" [ref=e3] [disabled]:\n    - button \"Click to rename\" [ref=e4]: こまいさんチーム\n    - button \"Main menu\" [ref=e5]\n    - button \"export this board\" [ref=e6]\n    - text: Continue collaborating using your real name.\n    - button \"Sign up for free\" [ref=e7]\n  - toolbar \"People\":\n    - button \"Facilitation tools and reactions\" [ref=e8]\n    - button \"Activity\" [ref=e9]\n    - button \"Record and watch Talktracks\" [ref=e10]\n    - button \"Editing\" [ref=e11]\n  - toolbar \"Creation\":\n    - button \"Select\" [ref=e12]\n    - button \"Sticky note\" [ref=e13]\n    - button \"Shapes and lines\" [ref=e14]\n    - button \"Text\" [ref=e15]\n    - button \"Undo\" [ref=e16] [disabled]\n    - button \"Redo\" [ref=e17] [disabled]\n  - button [ref=e18]\n",
-  "title": "Webページ",
-  "error": null
-}

@@ -1,8 +1,0 @@
-{
-  "url": "https://discordapp.com/channels/1151442122361282641/1159467673361600605/1428694427374981230",
-  "type": "webpage",
-  "processed_at": "2026-01-22T13:32:34.280379",
-  "content": "## Discord アプリケーションの起動確認\n\nDiscordのリンクを開こうとした際に表示されるダイアログに関する情報です。\n\n*   **タイトル:** Discord App Detected (Discordアプリを検出)\n*   **メッセージ:** Do you want to open this link in your Discord app? (このリンクをDiscordアプリで開きますか？)\n*   **選択肢:**\n    *   **Open App:** Discordアプリを起動してリンクを開きます。\n    *   **Continue in Browser:** ブラウザ上でリンクを開き続けます。\n",
-  "title": "Webページ",
-  "error": null
-}

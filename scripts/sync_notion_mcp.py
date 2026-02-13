@@ -169,11 +169,14 @@ def extract_text_from_blocks(blocks, depth=0):
     return '\n'.join(text_parts)
 
 def sanitize_filename(name):
-    """ファイル名として安全な文字列に変換"""
+    """ファイル名として安全な文字列に変換（Linux ext4の255バイト制限対応）"""
     unsafe_chars = ['/', '\\', ':', '*', '?', '"', '<', '>', '|', '\n', '\r']
     for char in unsafe_chars:
         name = name.replace(char, '_')
-    return name[:80].strip()
+    # バイト数ベースで切り詰め（ext4は255バイト制限、余裕を持って200バイト）
+    while len(name.encode('utf-8')) > 200:
+        name = name[:-1]
+    return name.strip()
 
 def sync_page(page, sync_state):
     """単一ページを同期"""

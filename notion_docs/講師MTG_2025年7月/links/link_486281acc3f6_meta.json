@@ -1,8 +1,0 @@
-{
-  "url": "https://one-stream.io/user/1nTdVscsOTRacnDyjJsGD8ZGVwi1/playlist/330aba8e-0919-471e-9ade-f532545d034b",
-  "type": "webpage",
-  "processed_at": "2026-01-22T18:06:07.519428",
-  "content": "「エスキャン」のログインページに関する要約です。\n\n### 1. ページタイトル / ウェルカムメッセージ\n*   「エスキャン」へようこそ\n\n### 2. ログインフォームの要素\n*   **入力フィールド**:\n    *   メールアドレス\n    *   パスワード\n*   **操作ボタン**:\n    *   パスワードを表示\n    *   ログイン\n*   **その他のログインオプション**:\n    *   Googleアカウントでログイン\n*   **パスワード関連リンク**:\n    *   パスワードを忘れた場合 (リンク先URL: `/request_reset_password?tid=1nTdVscsOTRacnDyjJsGD8ZGVwi1`)\n\n### 3. 著作権情報\n*   Copyright カイシャイン株式会社. All Rights Reserved.",
-  "title": "Webページ",
-  "error": null
-}

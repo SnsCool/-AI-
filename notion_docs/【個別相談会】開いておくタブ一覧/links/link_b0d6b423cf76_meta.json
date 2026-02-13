@@ -1,8 +1,0 @@
-{
-  "url": "https://www.cloudsign.jp/document/01me64t11pcdd4tyfgvjrc34xvjfjr9r/files",
-  "type": "webpage",
-  "processed_at": "2026-01-22T15:53:30.211577",
-  "content": "  - link [ref=e1]:\n    - /url: https://www.cloudsign.jp/\n    - text: メールアドレス\n    - textbox \"メールアドレス\" [ref=e2]:\n      - /placeholder: 例）cloud.taro@example.com\n    - button \"次へ\" [ref=e3]\n  - link \"ヘルプセンター\" [ref=e4]:\n    - /url: https://help.cloudsign.jp\n  - link \"メンテナンス・障害情報\" [ref=e5]:\n    - /url: https://status.cloudsign.jp/\n  - link \"規約・ポリシー一覧\" [ref=e6]:\n    - /url: /policy\n  - link \"運営会社\" [ref=e7]:\n    - /url: https://www.bengo4.com/corporate/?__hstc=71694668.f097eeccec205362c635c016efa9c58e.1769064812228.1769064812228.1769064812228.1&__hssc=71694668.1.1769064812228&__hsfp=86da88d7784f7701b8920b23a01b8245\n  - text: © 2015 Bengo4.com,Inc.\n  - region \"Chat Widget\" [ref=e8]:\n",
-  "title": "Webページ",
-  "error": null
-}

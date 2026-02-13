@@ -1,8 +1,0 @@
-{
-  "url": "https://crowdworks.jp/contracts/57179694",
-  "type": "webpage",
-  "processed_at": "2026-01-22T17:09:58.286792",
-  "content": "## ログインページの要約\n\n**1. ログイン**\n\n*   **メールアドレスとパスワードによるログイン:**\n    *   メールアドレスとパスワードを入力するテキストボックスが用意されています。\n    *   パスワードを表示/非表示を切り替えるボタンがあります。\n    *   「ログイン」ボタンでログインできます。\n    *   「ログイン状態を保存する（30日間）」チェックボックスがあります。\n*   **パスワード再設定:**\n    *   パスワードを忘れた場合は、「パスワードをお忘れですか？」リンクから再設定できます (URL: /password_reset_requests/new)。\n\n**2. 他のアカウントでログイン**\n\n*   以下のサービスのアカウントでログインできます。\n    *   Google\n    *   Yahoo! JAPAN ID\n    *   Facebook\n\n**3. アカウント作成**\n\n*   「新しくアカウントを作成する」リンクからアカウントを作成できます (URL: /user/new_email)。\n\n**4. その他**\n\n*   **利用規約:** へのリンクがあります (URL: /pages/agreement)。\n*   **特定商取引法に基づく表記:** へのリンクがあります (URL: /pages/sctl)。\n*   **個人情報保護方針:** へのリンクがあります (URL: https://crowdworks.co.jp/privacy_policy)。\n*   著作権はCrowdWorksに帰属します。\n",
-  "title": "Webページ",
-  "error": null
-}

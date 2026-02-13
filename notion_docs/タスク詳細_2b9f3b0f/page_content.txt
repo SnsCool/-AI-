@@ -1,3 +1,0 @@
-# タスク詳細
-
-[Child Database: New database]

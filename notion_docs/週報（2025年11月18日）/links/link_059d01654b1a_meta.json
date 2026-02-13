@@ -1,8 +1,0 @@
-{
-  "url": "https://www.instagram.com/なし/",
-  "type": "video",
-  "processed_at": "2026-01-23T06:52:39.449606",
-  "content": "提示されたURL `https://www.instagram.com/なし/` について、URLから分かる情報を元に説明します。\n\n1.  **プラットフォーム:**\n    *   URLのドメイン部分が `instagram.com` であるため、この動画が**Instagram**のプラットフォーム上にあることを示しています。\n\n2.  **ID等（動画の特定情報）:**\n    *   このURLのパス部分が `/なし/` となっています。通常のInstagramのURL構造では、この部分には以下のような情報が含まれます。\n        *   **ユーザーID（アカウント名）:** `https://www.instagram.com/ユーザー名/`\n        *   **投稿ID:** `https://www.instagram.com/p/投稿ID/` (一般的な写真・動画投稿)\n        *   **リールID:** `https://www.instagram.com/reel/リールID/` (リール動画)\n        *   **ストーリーID:** `https://www.instagram.com/s/ストーリーID/` (ストーリー)\n    *   しかし、提示された `/なし/` というパスは、Instagramが認識する有効なユーザー名、投稿ID、リールIDの形式ではありません。\n    *   **結論として、このURLからは具体的な動画コンテンツを特定するためのID（投稿ID、リールIDなど）を抽出することはできません。**\n\n**まとめ:**\n提示されたURL `https://www.instagram.com/なし/` からは、動画が**Instagram**プラットフォーム上にあることは明確に分かります。しかし、URLのパス部分が有効な動画IDやアカウント情報を指していないため、このURL単体では**どの動画であるかを具体的に特定することはできません。**",
-  "title": "",
-  "error": null
-}

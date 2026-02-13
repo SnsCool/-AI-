@@ -1,8 +1,0 @@
-{
-  "url": "https://m-i-m.jp/https://hiroha.jp/",
-  "type": "webpage",
-  "processed_at": "2026-01-22T14:08:40.541926",
-  "content": "  - link \"コンテンツに進む\" [ref=e1]:\n    - /url: \"#MainContent\"\n  - banner:\n    - paragraph:\n      - link \"THE MIM（ザ・ミム） | オンラインストア\" [ref=e2]:\n        - /url: /\n    - navigation:\n        - listitem:\n          - link \"ABOUT\" [ref=e3]:\n            - /url: /#about\n        - listitem:\n          - link \"PRODUCTS\" [ref=e4]:\n            - /url: /#products\n        - listitem:\n          - link \"STORY\" [ref=e5]:\n            - /url: /#story\n      - listitem:\n        - link \"INSTAGRAM\" [ref=e6]:\n          - /url: https://www.instagram.com/m_i_m_jp/\n      - listitem:\n        - link \"X\" [ref=e7]:\n          - /url: https://x.com/m_i_m_jp\n    - link \"SHOPPING BAG ( 0 )\" [ref=e8]:\n      - /url: /cart\n  - main:\n    - paragraph: \"404\"\n    - heading \"ページが見つかりません\" [ref=e9] [level=1]\n    - link \"買い物を続ける\" [ref=e10]:\n      - /url: /collections/all\n  - contentinfo:\n    - navigation:\n        - listitem:\n          - link \"プライバシーポリシー\" [ref=e11]:\n            - /url: /policies/privacy-policy/\n        - listitem:\n          - link \"利用規約\" [ref=e12]:\n            - /url: /policies/terms-of-service/\n        - listitem:\n          - link \"特定商取引法に基づく表記\" [ref=e13]:\n            - /url: /policies/legal-notice/\n        - listitem:\n          - link \"お問い合わせ\" [ref=e14]:\n            - /url: /pages/contact/\n    - text: ©2026 THE MIM\n  - button \"年末年始の対応について 2025/12/27から2026/1/6の期間、発送およびお問い合わせ対応をお休みいたします。ご不便をおかけしますが、1/7以降順次対応します。\" [ref=e15]:\n",
-  "title": "Webページ",
-  "error": null
-}
