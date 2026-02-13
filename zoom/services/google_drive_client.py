@@ -324,32 +324,55 @@ def create_transcript_doc(
         raise Exception(f"Google Docs API error: {str(e)}")
 
 
-def download_video_from_zoom(mp4_url: str, access_token: str, output_path: str) -> bool:
+def download_video_from_zoom(mp4_url: str, access_token: str, output_path: str, max_retries: int = 3) -> bool:
     """
-    Zoomから動画をダウンロード
+    Zoomから動画をダウンロード（リトライ機能付き）
 
     Args:
         mp4_url: Zoom動画のURL
         access_token: Zoomアクセストークン
         output_path: 保存先パス
+        max_retries: 最大リトライ回数
 
     Returns:
         成功したかどうか
     """
-    try:
-        headers = {"Authorization": f"Bearer {access_token}"}
-        response = requests.get(mp4_url, headers=headers, stream=True, timeout=600)
-        response.raise_for_status()
+    import time
 
-        with open(output_path, 'wb') as f:
-            for chunk in response.iter_content(chunk_size=8192):
-                f.write(chunk)
+    for attempt in range(max_retries + 1):
+        try:
+            headers = {"Authorization": f"Bearer {access_token}"}
+            response = requests.get(mp4_url, headers=headers, stream=True, timeout=600)
+            response.raise_for_status()
 
-        print(f"   動画ダウンロード完了: {output_path}")
-        return True
-    except Exception as e:
-        print(f"   動画ダウンロードエラー: {str(e)}")
-        return False
+            with open(output_path, 'wb') as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    f.write(chunk)
+
+            print(f"   動画ダウンロード完了: {output_path}")
+            return True
+        except requests.exceptions.HTTPError as e:
+            status_code = e.response.status_code if e.response is not None else None
+            if status_code in [429, 500, 502, 503, 504] and attempt < max_retries:
+                delay = 5.0 * (2 ** attempt)
+                print(f"   ダウンロードエラー ({status_code})、{delay:.0f}秒後にリトライ ({attempt + 1}/{max_retries})...")
+                time.sleep(delay)
+                continue
+            print(f"   動画ダウンロードエラー: {str(e)}")
+            return False
+        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout, OSError) as e:
+            if attempt < max_retries:
+                delay = 5.0 * (2 ** attempt)
+                print(f"   接続エラー、{delay:.0f}秒後にリトライ ({attempt + 1}/{max_retries})...")
+                time.sleep(delay)
+                continue
+            print(f"   動画ダウンロードエラー: {str(e)}")
+            return False
+        except Exception as e:
+            print(f"   動画ダウンロードエラー: {str(e)}")
+            return False
+
+    return False
 
 
 def upload_video_to_drive_temp(video_path: str, file_name: str) -> Optional[str]:

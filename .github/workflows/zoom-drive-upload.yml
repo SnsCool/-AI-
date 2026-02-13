@@ -1,28 +1,21 @@
-# Zoom バックフィル処理ワークフロー
-# 文字起こしDocs作成・動画Driveアップロードの未処理分を補完
-name: Zoom Backfill (Docs & Drive)
+# Zoom動画 Google Driveアップロード（自動）
+# シートのZoomリンクをチェックし、Driveにアップロードされていない動画を自動アップロード
+name: Zoom Drive Upload
 
 on:
-  workflow_dispatch:
-    inputs:
-      mode:
-        description: '処理モード'
-        required: true
-        type: choice
-        options:
-          - both
-          - transcripts-only
-          - videos-only
-        default: 'both'
+  schedule:
+    # 毎時0分に実行（1時間おき）
+    - cron: '0 * * * *'
+  workflow_dispatch:  # 手動実行も可能
 
 env:
   TZ: 'Asia/Tokyo'
 
 jobs:
-  backfill:
-    name: Backfill ${{ inputs.mode }}
+  upload:
+    name: Upload Videos to Drive
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
 
     steps:
       - name: Checkout code
@@ -65,28 +58,7 @@ jobs:
           chmod 600 /tmp/google_creds.json
           echo "GOOGLE_APPLICATION_CREDENTIALS=/tmp/google_creds.json" >> $GITHUB_ENV
 
-      - name: Install ffmpeg
-        if: inputs.mode == 'both' || inputs.mode == 'transcripts-only'
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg
-
-      - name: Create Missing Transcripts
-        if: inputs.mode == 'both' || inputs.mode == 'transcripts-only'
-        env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
-          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
-          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-          GAS_WEBAPP_URL: ${{ secrets.GAS_WEBAPP_URL }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          PYTHONUNBUFFERED: "1"
-        run: |
-          echo "=== 文字起こしDocs作成（未処理分） ==="
-          python zoom/batch_zoom.py --create-missing-transcripts
-
-      - name: Upload Videos to Drive
-        if: inputs.mode == 'both' || inputs.mode == 'videos-only'
+      - name: Upload videos to Google Drive
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
@@ -95,7 +67,6 @@ jobs:
           GAS_WEBAPP_URL: ${{ secrets.GAS_WEBAPP_URL }}
           PYTHONUNBUFFERED: "1"
         run: |
-          echo "=== 動画Driveアップロード（未処理分） ==="
           python zoom/batch_zoom.py --upload-videos-to-drive
 
       - name: Cleanup
@@ -105,7 +76,7 @@ jobs:
 
   notify:
     name: Notify Results
-    needs: backfill
+    needs: upload
     if: always()
     runs-on: ubuntu-latest
     steps:
@@ -115,29 +86,32 @@ jobs:
         run: |
           LOG_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           CURRENT_TIME=$(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M:%S JST')
-
-          if [ "${{ needs.backfill.result }}" == "success" ]; then
-            TITLE="✅ Zoom Backfill 完了"
-            DESCRIPTION="Docs作成・動画Driveアップロードが完了しました。"
-            COLOR=3066993
-          else
-            TITLE="❌ Zoom Backfill エラー"
-            DESCRIPTION="バックフィル処理でエラーが発生しました。"
-            COLOR=15158332
-          fi
-
           MENTION="<@1340666940615823451>"
+
+          if [ "${{ needs.upload.result }}" == "success" ]; then
+            TITLE="✅ Drive Upload 完了"
+            DESCRIPTION="Zoom動画のDriveアップロードが完了しました。"
+            COLOR=3066993
+          elif [ "${{ needs.upload.result }}" == "failure" ]; then
+            TITLE="❌ Drive Upload エラー"
+            DESCRIPTION="Driveアップロード処理でエラーが発生しました。次回実行で自動リトライされます。"
+            COLOR=15158332
+          else
+            TITLE="⏭️ Drive Upload スキップ"
+            DESCRIPTION="アップロード対象がありませんでした。"
+            COLOR=8421504
+          fi
 
           curl -X POST -H 'Content-Type: application/json' \
             --data "{
               \"content\": \"${MENTION}\",
               \"embeds\": [{
                 \"title\": \"${TITLE}\",
-                \"description\": \"${DESCRIPTION}\\n\\n**モード:** ${{ inputs.mode }}\\n[📋 詳細ログを確認](${LOG_URL})\",
+                \"description\": \"${DESCRIPTION}\\n\\n[📋 詳細ログを確認](${LOG_URL})\",
                 \"color\": ${COLOR},
                 \"fields\": [
                   {\"name\": \"実行時刻\", \"value\": \"${CURRENT_TIME}\", \"inline\": true},
-                  {\"name\": \"モード\", \"value\": \"${{ inputs.mode }}\", \"inline\": true}
+                  {\"name\": \"トリガー\", \"value\": \"${{ github.event_name }}\", \"inline\": true}
                 ],
                 \"footer\": {\"text\": \"Run ID: ${{ github.run_id }}\"}
               }]
