@@ -309,16 +309,23 @@ def process_single_recording(
     try:
         # 1. まず担当者シートで照合（G列ステータス確認のため先に実行）
         print("→ 担当者シートで照合中...")
-        meeting_datetime = start_time.replace("T", " ").replace("Z", "") if start_time else ""
-        meeting_date = start_time[:10] if start_time else datetime.now().strftime("%Y-%m-%d")
-
-        # Zoom録画時間をdatetimeに変換
+        # Zoom録画時間をdatetimeに変換（UTC）
         zoom_start_dt = None
         if start_time:
             try:
                 zoom_start_dt = datetime.fromisoformat(start_time.replace("Z", "+00:00"))
             except:
                 pass
+
+        # シート書き込み用の日時はJST（UTC+9）に変換
+        if zoom_start_dt:
+            from datetime import timedelta
+            zoom_jst_dt = zoom_start_dt + timedelta(hours=9)
+            meeting_datetime = zoom_jst_dt.strftime("%Y-%m-%d %H:%M:%S")
+            meeting_date = zoom_jst_dt.strftime("%Y-%m-%d")
+        else:
+            meeting_datetime = start_time.replace("T", " ").replace("Z", "") if start_time else ""
+            meeting_date = start_time[:10] if start_time else datetime.now().strftime("%Y-%m-%d")
 
         # 顧客一覧シートで照合（顧客名とG列ステータスを取得）
         matched_row = None
