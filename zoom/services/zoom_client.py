@@ -170,7 +170,18 @@ def get_zoom_recordings_single_month(
             "share_url": meeting.get("share_url"),  # 共有リンク（認証不要）
         })
 
-    return recordings
+    # 同一ミーティングの重複除去（topic + start_time が同じ場合、最長durationを保持）
+    deduplicated = {}
+    for rec in recordings:
+        key = (rec.get("topic", ""), rec.get("start_time", ""))
+        existing = deduplicated.get(key)
+        if existing is None or (rec.get("duration") or 0) > (existing.get("duration") or 0):
+            deduplicated[key] = rec
+
+    if len(deduplicated) < len(recordings):
+        print(f"   重複除去: {len(recordings)}件 → {len(deduplicated)}件")
+
+    return list(deduplicated.values())
 
 
 def get_zoom_recordings(
