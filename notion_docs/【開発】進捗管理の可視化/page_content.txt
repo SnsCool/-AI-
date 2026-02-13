@@ -1,0 +1,9 @@
+# 【開発】進捗管理の可視化
+
+Notion URL: https://www.notion.so/304f3b0fba8580cbbeb3c490249ae640
+同期日時: 2026-02-13T15:23:16+09:00
+
+---
+
+https://www.notion.so/2f8f3b0fba8580009a3bfba6af3d2dc9?p=304f3b0fba8580ceb244e7de6eb4cd8c&pm=s
+進捗をNotionで管理しているが大変なのでスプシにて管理したい

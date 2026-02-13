@@ -1,0 +1,11 @@
+# 新クラス通知部屋への送信の自動化
+
+Notion URL: https://www.notion.so/300f3b0fba8580a8adfde0487d0b27a3
+同期日時: 2026-02-13T15:26:05+09:00
+
+---
+
+これをGASを組んで、自動で配信できるように設定
+◆使用シート
+https://docs.google.com/spreadsheets/d/15kwixp3wNhYP9VJ9N-IrQsmGsaZmVCf3BYG-3wMy0fE/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1YpT3KKJ-2qEp38JBXBRyTZQA3IyMnj8UDt8U2HZpfJM/edit?usp=sharing

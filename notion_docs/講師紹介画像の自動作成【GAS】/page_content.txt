@@ -1,0 +1,15 @@
+# 講師紹介画像の自動作成【GAS】
+
+Notion URL: https://www.notion.so/GAS-305f3b0fba8580feb654f4b8872a2178
+同期日時: 2026-02-13T15:22:24+09:00
+
+---
+
+講師紹介画像のデータをお送りします！
+・生徒実績ない場合
+https://www.canva.com/design/DAHA_hFbgeg/JzbvypsR-uJGwPt7AafBmg/edit?utm_content=DAHA_hFbgeg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+・生徒実績（万垢輩出があった場合）
+https://www.canva.com/design/DAG0za5D_-0/3Z7xS3mLPml4CM-qCkZLEQ/edit?utm_content=DAG0za5D_-0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+フォームの更新
+アイコンデータもフォームに入れてもらう
+名前とか情報は全てフォーム回答してもらうようにする

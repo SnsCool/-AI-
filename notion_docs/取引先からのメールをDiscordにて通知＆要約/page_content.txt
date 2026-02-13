@@ -1,0 +1,8 @@
+# 取引先からのメールをDiscordにて通知＆要約
+
+Notion URL: https://www.notion.so/Discord-305f3b0fba8580b9bc30fb221681a66d
+同期日時: 2026-02-13T15:22:22+09:00
+
+---
+
+(コンテンツなし)

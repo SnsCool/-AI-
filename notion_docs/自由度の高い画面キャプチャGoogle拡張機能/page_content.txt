@@ -1,0 +1,9 @@
+# 自由度の高い画面キャプチャGoogle拡張機能
+
+Notion URL: https://www.notion.so/Google-300f3b0fba85802ea114e8f16c7d3fa0
+同期日時: 2026-02-13T15:41:56+09:00
+
+---
+
+https://chromewebstore.google.com/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg
+画面内に入り切っていない部分のスクショもスクロールしてキャプチャが可能

@@ -1,0 +1,12 @@
+# グルコンリマインド配信設定
+
+Notion URL: https://www.notion.so/2c4f3b0fba8580d19c04eec7fd49593c
+同期日時: 2026-02-13T15:22:12+09:00
+
+---
+
+マネタイズグルコン配信テキスト
+  https://docs.google.com/spreadsheets/d/1jCE-g_3f1BD_2FizaxhbIvKUocmoK7rexfDiZUzY3yY/edit?usp=sharing
+Discord_一斉配信用シート
+  https://docs.google.com/spreadsheets/d/1bL2pLv2wKBGKb3SuHBWtfwHxy_xEeZ406qg1glNCSpY/edit?usp=sharing
+前日の18時、当日1時間前に設定
