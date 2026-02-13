@@ -609,16 +609,19 @@ def process_single_recording(
         import traceback
         traceback.print_exc()
 
-        # エラーをシートに記録（日本語でわかりやすく）
+        # エラーをシートに記録（顧客一覧にマッチがある場合のみ）
         try:
-            write_error_to_zoom_sheet(
-                spreadsheet_id=DESTINATION_SPREADSHEET_ID,
-                customer_name=customer_name if 'customer_name' in dir() else topic,
-                assignee=assignee,
-                meeting_datetime=meeting_datetime if 'meeting_datetime' in dir() else start_time,
-                error_message=error_message,
-                sheet_name=DESTINATION_SHEET_NAME
-            )
+            if matched_row:
+                write_error_to_zoom_sheet(
+                    spreadsheet_id=DESTINATION_SPREADSHEET_ID,
+                    customer_name=customer_name if 'customer_name' in dir() else topic,
+                    assignee=assignee,
+                    meeting_datetime=meeting_datetime if 'meeting_datetime' in dir() else start_time,
+                    error_message=error_message,
+                    sheet_name=DESTINATION_SHEET_NAME
+                )
+            else:
+                print("   → エラー記録スキップ: 顧客一覧にマッチなし")
         except Exception as write_err:
             print(f"   エラー記録失敗: {write_err}")
 
