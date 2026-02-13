@@ -281,6 +281,11 @@ def main():
         if updated_count > 0 and updated_count % 10 == 0:
             time.sleep(1)
 
+        # 50ページごとに中間保存（タイムアウト対策）
+        if (i + 1) % 50 == 0:
+            save_sync_state(sync_state)
+            print(f"   💾 中間保存: {i+1}/{len(pages)}ページ完了")
+
     # 同期状態を保存
     save_sync_state(sync_state)
 
