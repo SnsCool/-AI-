@@ -25,6 +25,7 @@ jobs:
           sparse-checkout: |
             scripts
             .notion_sync_state.json
+            notion_docs
           sparse-checkout-cone-mode: false
 
       - name: Set up Python
