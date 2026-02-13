@@ -1,9 +1,11 @@
 # 勤怠シートの自動化（またけんさん）
 
 Notion URL: https://www.notion.so/304f3b0fba85806699bbe806a514bee3
-同期日時: 2026-02-13T15:24:24+09:00
+同期日時: 2026-02-13T18:23:38+09:00
 
 ---
 
 ゆなさんに権限をまたけんさんに渡していいか確認
 https://docs.google.com/spreadsheets/d/1THn14Pn_pLDaxF7zPPgI1QbNlAOGno9pl0hfuDSJe1g/edit?gid=1619679228#gid=1619679228
+フォロワー数
+投稿URLの添付も自動化したい
