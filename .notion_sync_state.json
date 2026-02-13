@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-02-13T15:26:45.869399+00:00",
+  "last_sync": "2026-02-13T18:21:03.907906+00:00",
   "pages": {
     "306f3b0f-ba85-8040-96ac-d640633f5de6": {
       "title": "顧客からの問い合わせ詳細分析",
@@ -83,7 +83,7 @@
     },
     "306f3b0f-ba85-80f2-a193-ec2048609c33": {
       "title": "Discordメッセージ送信ツール",
-      "last_edited": "2026-02-13T05:42:00.000Z",
+      "last_edited": "2026-02-13T15:31:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/Discordメッセージ送信ツール"
     },
     "306f3b0f-ba85-80fc-a97e-d81c0bd3ee51": {
@@ -5043,7 +5043,7 @@
     },
     "306f3b0f-ba85-808f-8a9a-c5fcfc2677d0": {
       "title": "駒居さん依頼事項",
-      "last_edited": "2026-02-13T13:30:00.000Z",
+      "last_edited": "2026-02-13T16:12:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/駒居さん依頼事項"
     },
     "306f3b0f-ba85-80f0-93d0-cc0c34fc653e": {
@@ -5418,7 +5418,7 @@
     },
     "2e3f3b0f-ba85-80d9-8e31-ee69c0e24f8c": {
       "title": "X顧問",
-      "last_edited": "2026-02-13T14:36:00.000Z",
+      "last_edited": "2026-02-13T16:52:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/X顧問"
     },
     "306f3b0f-ba85-80df-9fa0-d290f145ffc6": {
@@ -5945,6 +5945,131 @@
       "title": "MVV",
       "last_edited": "2026-02-13T12:47:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/MVV"
+    },
+    "306f3b0f-ba85-81e0-b099-e7f23f14d982": {
+      "title": "X顧問事業 経営ダッシュボード",
+      "last_edited": "2026-02-13T16:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/X顧問事業 経営ダッシュボード"
+    },
+    "306f3b0f-ba85-81c3-ab61-e181a69868de": {
+      "title": "議事録・メモ",
+      "last_edited": "2026-02-13T16:56:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/議事録・メモ"
+    },
+    "306f3b0f-ba85-81e8-8310-d6983f4f76d7": {
+      "title": "市場・競合分析",
+      "last_edited": "2026-02-13T16:56:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/市場・競合分析"
+    },
+    "306f3b0f-ba85-811d-92c6-cba4b0689abe": {
+      "title": "幽霊会員率",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/幽霊会員率"
+    },
+    "306f3b0f-ba85-81f2-9cef-ce0a06615906": {
+      "title": "Xスクール月売上",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Xスクール月売上"
+    },
+    "306f3b0f-ba85-8136-8775-dec355fc32a2": {
+      "title": "未決済回収率",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/未決済回収率"
+    },
+    "306f3b0f-ba85-8176-af4a-cf135c49eeee": {
+      "title": "退会者復帰率",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/退会者復帰率"
+    },
+    "306f3b0f-ba85-81a6-a177-f870a5196d87": {
+      "title": "年間解約率",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/年間解約率"
+    },
+    "306f3b0f-ba85-818d-92c8-cac2cd975f01": {
+      "title": "セミナー転換率",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/セミナー転換率"
+    },
+    "306f3b0f-ba85-811b-8972-e20916ec7f01": {
+      "title": "月間広告費",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/月間広告費"
+    },
+    "306f3b0f-ba85-818d-b3e1-f35a2c3183e3": {
+      "title": "集客単価",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/集客単価"
+    },
+    "306f3b0f-ba85-812b-bbda-c649278f5f61": {
+      "title": "仮説を3つ以上実測値に置き換え",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/仮説を3つ以上実測値に置き換え"
+    },
+    "306f3b0f-ba85-8156-bf57-d057c73f8f30": {
+      "title": "LINE月2回以上定期配信を稼働",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/LINE月2回以上定期配信を稼働"
+    },
+    "306f3b0f-ba85-81fc-a094-cdee5fcfe236": {
+      "title": "ろじん以外が担当するコンテンツ1つ以上",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/ろじん以外が担当するコンテンツ1つ以上"
+    },
+    "306f3b0f-ba85-818b-aea4-ed484ab5eba7": {
+      "title": "30日無活動→自動連絡の仕組み構築",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/30日無活動→自動連絡の仕組み構築"
+    },
+    "306f3b0f-ba85-81ef-9739-d0a11759b989": {
+      "title": "退会防止トップ3への対策を開始",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/退会防止トップ3への対策を開始"
+    },
+    "306f3b0f-ba85-813e-89e2-e22e01141039": {
+      "title": "仮説を実測値に置き換え",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/仮説を実測値に置き換え"
+    },
+    "306f3b0f-ba85-816e-9b4d-db9f2adc0cca": {
+      "title": "2024売上増原因特定",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/2024売上増原因特定"
+    },
+    "306f3b0f-ba85-81b7-84c1-fbc2d48f62f6": {
+      "title": "退会理由トップ3特定",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/退会理由トップ3特定"
+    },
+    "306f3b0f-ba85-816c-a4bd-eb82e2bb6859": {
+      "title": "LINE 5,500人へ1通配信",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/LINE 5,500人へ1通配信"
+    },
+    "306f3b0f-ba85-818d-b863-dd5e73b00631": {
+      "title": "2024 vs 2025月別売上比較",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/2024 vs 2025月別売上比較"
+    },
+    "306f3b0f-ba85-8122-af2e-ff061d5a05ab": {
+      "title": "幽霊会員を数える（90日無活動）",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/幽霊会員を数える（90日無活動）"
+    },
+    "306f3b0f-ba85-8163-b078-e61f29bb4763": {
+      "title": "退会者アンケート作成・送信",
+      "last_edited": "2026-02-13T16:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/退会者アンケート作成・送信"
+    },
+    "306f3b0f-ba85-80ea-99ea-e47a55f650f0": {
+      "title": "またけんさんにイメージ送る",
+      "last_edited": "2026-02-13T15:52:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/またけんさんにイメージ送る"
+    },
+    "306f3b0f-ba85-808c-a144-e667933e6a67": {
+      "title": "パターン出し",
+      "last_edited": "2026-02-13T15:31:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/パターン出し"
     }
   }
 }
