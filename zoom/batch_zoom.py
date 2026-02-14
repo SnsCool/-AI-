@@ -1176,7 +1176,33 @@ def main():
             print("文字起こしが必要な行はありません。")
             sys.exit(0)
 
-        print(f"対象行数: {len(missing_rows)}件\n")
+        print(f"対象行数: {len(missing_rows)}件")
+
+        # 7日以内のエントリのみに限定
+        from datetime import timedelta
+        cutoff_date = datetime.now() - timedelta(days=7)
+        filtered_rows = []
+        skipped_old = 0
+        for row in missing_rows:
+            row_dt_str = row.get('meeting_datetime', '')
+            if row_dt_str:
+                try:
+                    row_dt = datetime.strptime(row_dt_str[:19], "%Y-%m-%d %H:%M:%S")
+                    if row_dt < cutoff_date:
+                        skipped_old += 1
+                        continue
+                except (ValueError, TypeError):
+                    pass
+            filtered_rows.append(row)
+
+        if skipped_old > 0:
+            print(f"7日以前のエントリをスキップ: {skipped_old}件")
+        missing_rows = filtered_rows
+        print(f"処理対象: {len(missing_rows)}件\n")
+
+        if not missing_rows:
+            print("7日以内に文字起こしが必要な行はありません。")
+            sys.exit(0)
 
         # Supabaseクライアント取得
         supabase_client = get_supabase_client()
@@ -1251,18 +1277,56 @@ def main():
                     failed_count += 1
                     continue
 
+                # 1. VTT文字起こしを試行
                 transcript_url = matching_recording.get("transcript_url")
-                if not transcript_url:
-                    print(f"   → スキップ: 文字起こしデータがありません")
-                    failed_count += 1
-                    continue
+                transcript = ""
 
-                # 文字起こしをダウンロード
-                print("   → 文字起こしをダウンロード中...")
-                transcript = download_transcript(transcript_url, access_token)
+                if transcript_url:
+                    print("   → VTT文字起こしをダウンロード中...")
+                    transcript = download_transcript(transcript_url, access_token)
+                    if transcript and len(transcript) >= 100:
+                        print(f"   VTT文字起こし取得: {len(transcript)}文字")
+
+                # 2. VTTがない or 失敗 → Groq Whisper フォールバック
+                if not transcript or len(transcript) < 100:
+                    mp4_url = matching_recording.get("mp4_url")
+                    if mp4_url:
+                        print("   → Groq Whisperで文字起こし中...")
+                        try:
+                            from services.groq_transcribe import transcribe_video as groq_transcribe
+                            with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as tmp_file:
+                                tmp_path = tmp_file.name
+                            try:
+                                from services.google_drive_client import download_video_from_zoom
+                                dl_ok = download_video_from_zoom(
+                                    mp4_url=mp4_url, access_token=access_token, output_path=tmp_path
+                                )
+                                if dl_ok:
+                                    file_size_mb = os.path.getsize(tmp_path) / (1024 * 1024)
+                                    if file_size_mb < 0.01:
+                                        print(f"   → スキップ: 動画ファイルが小さすぎます ({file_size_mb:.2f}MB)")
+                                    elif file_size_mb > 2000:
+                                        print(f"   → スキップ: 動画ファイルが大きすぎます ({file_size_mb:.0f}MB)")
+                                    else:
+                                        print(f"   動画サイズ: {file_size_mb:.1f}MB")
+                                        transcript = groq_transcribe(tmp_path) or ""
+                                        if transcript and len(transcript) >= 100:
+                                            print(f"   Groq文字起こし完了: {len(transcript)}文字")
+                                        else:
+                                            print(f"   Groq文字起こし結果不十分 (len={len(transcript) if transcript else 0})")
+                                            transcript = ""
+                                else:
+                                    print("   → MP4ダウンロード失敗")
+                            finally:
+                                if os.path.exists(tmp_path):
+                                    os.remove(tmp_path)
+                        except Exception as e:
+                            print(f"   Groq文字起こしエラー: {e}")
+                    else:
+                        print("   → VTT・MP4どちらもありません")
 
                 if not transcript or len(transcript) < 100:
-                    print(f"   → スキップ: 文字起こしが短すぎます")
+                    print(f"   → スキップ: 文字起こしが取得できません")
                     failed_count += 1
                     continue
 

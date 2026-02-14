@@ -1515,8 +1515,9 @@ def get_rows_missing_transcript(
         missing_rows = []
 
         for i, row in enumerate(all_values[1:], start=2):  # ヘッダーをスキップ
-            # H列（動画）があり、G列（文字起こし）がない行を検索
-            has_video = len(row) > 7 and row[7].strip()
+            # H列（動画URL）があり、G列（文字起こし）がない行を検索
+            h_val = row[7].strip() if len(row) > 7 else ""
+            has_video = "drive.google.com" in h_val or "zoom.us" in h_val
             has_transcript = len(row) > 6 and row[6].strip() and "docs.google.com" in row[6]
 
             if has_video and not has_transcript:
