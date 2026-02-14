@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-02-13T21:16:10.583650+00:00",
+  "last_sync": "2026-02-14T00:41:28.563408+00:00",
   "pages": {
     "306f3b0f-ba85-8040-96ac-d640633f5de6": {
       "title": "顧客からの問い合わせ詳細分析",
@@ -1698,7 +1698,7 @@
     },
     "2ccf3b0f-ba85-8073-9ee7-c9423be0e9b7": {
       "title": "【トレーナー】マニュアル",
-      "last_edited": "2026-02-13T10:59:00.000Z",
+      "last_edited": "2026-02-13T23:51:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/【トレーナー】マニュアル"
     },
     "255f3b0f-ba85-802c-a417-cb09f6ac4dd7": {
@@ -2978,7 +2978,7 @@
     },
     "304f3b0f-ba85-8047-88ec-d81e304f3f22": {
       "title": "Untitled",
-      "last_edited": "2026-02-11T10:01:00.000Z",
+      "last_edited": "2026-02-14T00:29:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/Untitled"
     },
     "2fff3b0f-ba85-803d-8836-de557a8d572c": {
@@ -2993,7 +2993,7 @@
     },
     "302f3b0f-ba85-8067-859b-fea1626e02b8": {
       "title": "谷田 瑞季さん",
-      "last_edited": "2026-02-11T09:11:00.000Z",
+      "last_edited": "2026-02-13T22:40:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/谷田 瑞季さん"
     },
     "2cdf3b0f-ba85-8069-b301-cebe29e63163": {
@@ -3148,7 +3148,7 @@
     },
     "304f3b0f-ba85-80f1-ac1c-e597be075b4f": {
       "title": "2月モニター募集について",
-      "last_edited": "2026-02-11T03:48:00.000Z",
+      "last_edited": "2026-02-14T00:34:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/2月モニター募集について"
     },
     "2e6f3b0f-ba85-8064-b4fa-d44d6556813c": {
@@ -5118,12 +5118,12 @@
     },
     "306f3b0f-ba85-81d0-a288-e505add36f0a": {
       "title": "1-2 _マネタイズマインドセット",
-      "last_edited": "2026-02-13T11:14:00.000Z",
+      "last_edited": "2026-02-14T00:31:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/1-2 _マネタイズマインドセット"
     },
     "306f3b0f-ba85-8133-979e-ea5f808e4f16": {
       "title": "1-3_収益化までのステップ",
-      "last_edited": "2026-02-13T11:13:00.000Z",
+      "last_edited": "2026-02-14T00:31:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/1-3_収益化までのステップ"
     },
     "306f3b0f-ba85-812d-bd2c-e3d6a54a48a1": {
@@ -6070,6 +6070,61 @@
       "title": "パターン出し",
       "last_edited": "2026-02-13T15:31:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/パターン出し"
+    },
+    "307f3b0f-ba85-81bf-b53d-daff83bcfe59": {
+      "title": "5-2 料金設計",
+      "last_edited": "2026-02-14T00:30:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/5-2 料金設計"
+    },
+    "307f3b0f-ba85-81bd-b32c-ee03100847eb": {
+      "title": "5-1 運用代行の全体像",
+      "last_edited": "2026-02-14T00:30:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/5-1 運用代行の全体像"
+    },
+    "307f3b0f-ba85-8106-9402-e1fb5bba9e42": {
+      "title": "4-7_ストーリーローンチ",
+      "last_edited": "2026-02-14T00:30:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/4-7_ストーリーローンチ"
+    },
+    "307f3b0f-ba85-81c7-b216-d6bede95f8c8": {
+      "title": "4-5_販売導線構築",
+      "last_edited": "2026-02-14T00:30:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/4-5_販売導線構築"
+    },
+    "307f3b0f-ba85-81d5-8561-ee815224d2b7": {
+      "title": "4-4_商品作成",
+      "last_edited": "2026-02-14T00:30:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/4-4_商品作成"
+    },
+    "307f3b0f-ba85-811c-92b8-eef52c567d47": {
+      "title": "4-3_特典設計",
+      "last_edited": "2026-02-14T00:30:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/4-3_特典設計"
+    },
+    "307f3b0f-ba85-8103-8350-d02285a252a4": {
+      "title": "4-2_自社商品ーコンセプト設計",
+      "last_edited": "2026-02-14T00:30:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/4-2_自社商品ーコンセプト設計"
+    },
+    "307f3b0f-ba85-81b6-bea4-e49c0edf89c7": {
+      "title": "4-1 コンテンツ販売の全体像",
+      "last_edited": "2026-02-14T00:30:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/4-1 コンテンツ販売の全体像"
+    },
+    "307f3b0f-ba85-81b2-a82f-cd49113c9a85": {
+      "title": "3-3_アフィリエイト型投稿の作り方",
+      "last_edited": "2026-02-14T00:30:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/3-3_アフィリエイト型投稿の作り方"
+    },
+    "307f3b0f-ba85-81e5-9e5b-eb4911acef01": {
+      "title": "2-3_案件単価交渉・条件交渉",
+      "last_edited": "2026-02-14T00:30:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/2-3_案件単価交渉・条件交渉"
+    },
+    "307f3b0f-ba85-811f-b264-d7eb2ea17978": {
+      "title": "1-1 _基礎_Instagram収益化の全体像",
+      "last_edited": "2026-02-14T00:29:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/1-1 _基礎_Instagram収益化の全体像"
     }
   }
 }

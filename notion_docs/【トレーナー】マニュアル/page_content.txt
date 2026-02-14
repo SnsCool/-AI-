@@ -1,7 +1,7 @@
 # 【トレーナー】マニュアル
 
 Notion URL: https://www.notion.so/2ccf3b0fba8580739ee7c9423be0e9b7
-同期日時: 2026-02-13T21:20:26+09:00
+同期日時: 2026-02-14T09:41:26+09:00
 
 ---
 
@@ -12,6 +12,7 @@ Notion URL: https://www.notion.so/2ccf3b0fba8580739ee7c9423be0e9b7
 https://www.notion.so/306f3b0fba85805384b1ec089d4d288a?source=copy_link
 配信時
 ①配信開始
+画面録画
 ②配信マニュアル
 配信直後にやること
 アーカイブ格納
