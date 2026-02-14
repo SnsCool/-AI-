@@ -1,22 +1,24 @@
 # 【トレーナー】マニュアル
 
 Notion URL: https://www.notion.so/2ccf3b0fba8580739ee7c9423be0e9b7
-同期日時: 2026-02-14T09:41:26+09:00
+同期日時: 2026-02-14T15:21:03+09:00
 
 ---
 
-初回配信までにやること
+【初回配信までにやること】
   levela.diet@gmail.com
   Levela0906
-前日のリマインド
-https://www.notion.so/306f3b0fba85805384b1ec089d4d288a?source=copy_link
-配信時
-①配信開始
+前日のリマインド連絡
+L連絡テンプレ→https://www.notion.so/306f3b0fba85805384b1ec089d4d288a?source=copy_link
+【配信時】
+①配信開始方法
 画面録画
 ②配信マニュアル
-配信直後にやること
+【配信直後にやること】
 アーカイブ格納
 Untitled 
+アーカイブ格納連絡
+L連絡テンプレ→https://shared-beak-b34.notion.site/307f3b0fba858042bf21c7fc5435a5ef?source=copy_link
 配信の振り返りシート記入
     振り返り実施の目的
     配信後の振り返りは、受講生が「また次も参加したい」と感じ続けてもらうためのメンテナンス作業です。以下の3点を目的とします。
@@ -44,6 +46,12 @@ Untitled
     Meeting ID: 472 089 6697
 Passcode:  0123
     参加予定の方は「❤️‍🔥」押してください！
+    @everyone
+    アーカイブ更新のお知らせ:loudspeaker:
+    アーカイブを更新いたしました！！
+オンタイムで参加できなかった方も是非ご活用ください〜:woman_running_facing_right:
+    【下半身スッキリ尻トレ:peach:】
+    https://shared-beak-b34.notion.site/2-14-9-00-307f3b0fba858031b3cce3d4e945e797?source=copy_link
   トレーナー業務ロードマップとは
   トレーナーがどのタイミングどのようなアクションを行うのか？をまとめたものです。
   普段の学習・アウトプットは基本的にこのページを参考に行なってください。
