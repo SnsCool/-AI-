@@ -1,11 +1,12 @@
 # diet事業の概要を確認
 
 Notion URL: https://www.notion.so/diet-306f3b0fba8581168e1ef9d4a8dc76f1
-同期日時: 2026-02-15T00:15:35+09:00
+同期日時: 2026-02-15T06:09:58+09:00
 
 ---
 
 サービス説明資料
+https://www.canva.com/design/DAG-0Z6w0Nw/NCBK7EUArTd3A4mTS9O1ZA/edit
 事業全体の概要
 背景・目的
 ターゲット

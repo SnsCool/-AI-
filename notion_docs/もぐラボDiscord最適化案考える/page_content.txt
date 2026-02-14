@@ -1,7 +1,7 @@
 # もぐラボDiscord最適化案考える
 
 Notion URL: https://www.notion.so/Discord-306f3b0fba85808f944bc7a5997962e1
-同期日時: 2026-02-15T00:16:51+09:00
+同期日時: 2026-02-15T06:15:15+09:00
 
 ---
 
