@@ -71,6 +71,7 @@ jobs:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           GAS_WEBAPP_URL: ${{ secrets.GAS_WEBAPP_URL }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           PYTHONUNBUFFERED: "1"
         run: |
           echo "=== 文字起こしバックフィル（VTT + Groq Whisper） ==="

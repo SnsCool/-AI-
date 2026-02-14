@@ -25,6 +25,18 @@ from urllib3.exceptions import NameResolutionError
 load_dotenv()
 
 
+def send_discord_notification(message: str):
+    """Discord Webhook で通知を送信"""
+    webhook_url = os.getenv("DISCORD_WEBHOOK_URL")
+    if not webhook_url:
+        return
+    try:
+        import requests
+        requests.post(webhook_url, json={"content": message}, timeout=10)
+    except Exception as e:
+        print(f"Discord通知エラー: {e}")
+
+
 def retry_on_network_error(max_retries: int = 3, initial_delay: float = 5.0):
     """
     ネットワークエラー時にリトライするデコレータ
@@ -1365,6 +1377,17 @@ def main():
             time.sleep(API_CALL_DELAY)
 
         print(f"\n完了: 成功 {success_count}件 / 失敗 {failed_count}件")
+
+        # Discord通知
+        if success_count > 0:
+            send_discord_notification(
+                f"\U0001f970 文字起こしバックフィル完了\n"
+                f"成功: {success_count}件 / 失敗: {failed_count}件"
+            )
+        elif failed_count > 0:
+            send_discord_notification(
+                f"文字起こしバックフィル: 全{failed_count}件失敗"
+            )
         sys.exit(0)
 
     # ZoomリンクをDriveにアップロード
