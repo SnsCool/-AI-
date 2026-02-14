@@ -1,7 +1,7 @@
 # Discord使い方マニュアル（顧客向け）
 
 Notion URL: https://www.notion.so/Discord-301f3b0fba85803883b9c96100be20de
-同期日時: 2026-02-13T15:39:03+09:00
+同期日時: 2026-02-15T00:16:52+09:00
 
 ---
 

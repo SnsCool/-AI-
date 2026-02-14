@@ -1,10 +1,8 @@
 # 顧客管理
 
-Notion URL: https://www.notion.so/302f3b0fba858021b2a1f17ff3b75f15
-同期日時: 2026-02-13T15:41:33+09:00
+Notion URL: https://www.notion.so/302f3b0fba85802f8771fda4c2a533e1
+同期日時: 2026-02-15T00:15:31+09:00
 
 ---
 
-1期生
-2期生
-3期生
+顧客管理 
