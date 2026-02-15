@@ -1,22 +1,23 @@
 # SnsClubマネタイズ講座スタッフPortal
 
 Notion URL: https://www.notion.so/SnsClub-Portal-24ff3b0fba8580dfa9d7c6a5e9b222da
-同期日時: 2026-02-15T15:28:23+09:00
+同期日時: 2026-02-15T18:16:23+09:00
 
 ---
 
 グルコン日程調整アプリ
 https://groupconsul-calender-monetize.vercel.app/
-  グルコンに日程をカレンダー入力できるアプリができました！🎉
+  グルコンの日程をカレンダー入力できるアプリができました！🎉
 ※PCでご利用ください！
   🔴ログイン方法
   https://groupconsul-calender-monetize.vercel.app/
-  Googleアカウントでログインを選択
-  ログインしたいアカウントを選択
-（ログインしたアカウントのGoogleカレンダーに日程が登録されるようになっております！）
-  この画面はエラーではありません！！！
-Googleに審査を出していないアプリなのでこの表示が出ているだけで、安全にご利用いただけます。
-画面左下の「詳細」をクリック
+  ⚠️Googleカレンダーが連携されているかご確認ください！
+  ⚠️アイコンをご変更ください
+  ⚠️講師名もご変更ください
+  Googleカレンダーと連携しているので、自分のGoogleカレンダーとグルコンの開催時間が重複している時間は選択できないようになっています。（選択できる時間がない場合はグレーアウトします）
+  候補日を提出すると、黄色で表示されます
+  運営は講師が提出した日程を「日程確定」「編集」「削除」することができます。
+  運営が候補日を確定すると、カレンダーの表示が緑色に変わり、Googleカレンダーに予定が登録されます。
 🔴マネタイズ生徒用Portal（構築中）
 
 
@@ -68,7 +69,7 @@ https://docs.google.com/document/d/1clW_BMayViwUCm-4ozynTpovnHOZ-KdPRIYL5wswEpc/
 https://docs.google.com/document/d/1w5slWlFLtV516nFZrNZy095IpoPZ3uA0THr4GUr1yVA/edit?usp=sharing
 2026.02_エリート契約書
 https://docs.google.com/document/d/1q6rvxmAMt5HK6nx4CLe8gvxDP_VDdiY0YpyXBYIsPjs/edit?usp=sharing
-講師の方との契約書
+講師契約書
 https://docs.google.com/document/d/1mltQEscmwsVONi6DwOtG9hK0H4eFdhTlFUaHyZ3OoPU/edit?usp=sharing
 クラウドサインマニュアル
 https://docs.google.com/document/d/1KtPTbd8_4c76I7H7MKAPJO3LAH5XLwv_3-j70lGlcsk/edit?tab=t.0
