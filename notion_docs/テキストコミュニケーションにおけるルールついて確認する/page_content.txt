@@ -1,7 +1,7 @@
 # テキストコミュニケーションにおけるルールついて確認する
 
-Notion URL: https://www.notion.so/306f3b0fba8581669f28e6a32489a52a
-同期日時: 2026-02-14T00:26:21+09:00
+Notion URL: https://www.notion.so/306f3b0fba85810993dac9ad9582e656
+同期日時: 2026-02-15T21:17:04+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 講師受け入れ人数
 
 Notion URL: https://www.notion.so/307f3b0fba8580308ffccbe5ae5b97a9
-同期日時: 2026-02-15T15:24:51+09:00
+同期日時: 2026-02-15T21:15:52+09:00
 
 ---
 
@@ -16,3 +16,4 @@ Notion URL: https://www.notion.so/307f3b0fba8580308ffccbe5ae5b97a9
 ひろみ：
 くりこ：
 https://docs.google.com/spreadsheets/d/1iS8KGj6McNj2kLrDA8BxZrY2kKDlllpzuJcUZSMGPWw/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?usp=sharing
