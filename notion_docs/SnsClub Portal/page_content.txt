@@ -1,7 +1,7 @@
 # SnsClub Portal
 
 Notion URL: https://www.notion.so/SnsClub-Portal-a2e14c7fb93a4b81b25dd8689241e10a
-同期日時: 2026-02-13T15:32:57+09:00
+同期日時: 2026-02-15T15:26:20+09:00
 
 ---
 

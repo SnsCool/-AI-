@@ -1,7 +1,7 @@
 # CS関連資料 格納庫
 
 Notion URL: https://www.notion.so/CS-307f3b0fba8580bd9cd7dfa9581e0d4f
-同期日時: 2026-02-15T06:14:12+09:00
+同期日時: 2026-02-15T15:28:10+09:00
 
 ---
 
@@ -3819,6 +3819,12 @@ https://docs.google.com/spreadsheets/d/1bp6aI5JCuqIVlEHu2yatEMeUBM0HmKKVtL4S7NU2
     その誘惑を『物理的に遠ざける』ために、今日できる工夫を一つ教えてください。
     逆に、良い習慣を『ついやってしまう』ための仕掛けを作るなら何ですか？
     根性はもういりません。あなたが無意識でも成功してしまう『設計図』を、ぜひグループでアウトプットしてみてください！
+  https://youtu.be/_wM14Hr2_jU
+  https://youtu.be/7GQk9DW260Q
+  https://youtu.be/dpZ8EegiDZc
+  https://youtu.be/25wcCeG-SNc
+  https://youtu.be/zi4Cn5c7W1g
+  https://youtu.be/XPiVR9KWHGs
   ①チーム内に挨拶
     @everyone
 モニター参加ありがとうございます！
@@ -3948,7 +3954,6 @@ https://docs.google.com/spreadsheets/d/1bp6aI5JCuqIVlEHu2yatEMeUBM0HmKKVtL4S7NU2
     進行内容
 https://www.notion.so/27a94227cded806ab290e164a11d1c2e?source=copy_link
     ミーティング時に今回のMTでのアウトプット促しをする
-  さりな：毎月10名・MAX30名
     振り返り実施の目的
     受講生が「また次も参加したい」と感じ続けてもらうためのメンテナンス作業です。
     以下の3点を目的とします。
@@ -3958,3 +3963,14 @@ https://www.notion.so/27a94227cded806ab290e164a11d1c2e?source=copy_link
 参加数や反応を確認し、「自分の頑張りを見てもらえている（寄り添い）」という安心感を提供し、脱落を防ぎます。
     「成功体験」の再現
 良かった点・課題を整理し、「毎回参加して良かった」と思える高い満足度を、どのトレーナーでも安定して提供できるようにします。
+  2月：20名（さりな15名・てぃーぞー5名）
+  3月：20名（さりな10名・てぃーぞー5名・まりな5名）
+  4月：20名（さりな10名・まりな5名・新人5名）
+  5月：20名（さりな10名・まりな5名・新人5名）
+  さりな：毎月10名・MAX30名
+  まりな：
+  まこと：
+  きよと：
+  ひろみ：
+  くりこ：
+  https://docs.google.com/spreadsheets/d/1iS8KGj6McNj2kLrDA8BxZrY2kKDlllpzuJcUZSMGPWw/edit?usp=sharing
