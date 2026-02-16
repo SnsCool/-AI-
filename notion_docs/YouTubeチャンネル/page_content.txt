@@ -1,8 +1,11 @@
 # YouTubeチャンネル
 
-Notion URL: https://www.notion.so/YouTube-302f3b0fba8580c7ad31d90c8cef144f
-同期日時: 2026-02-15T00:10:43+09:00
+Notion URL: https://www.notion.so/YouTube-309f3b0fba858035a0b3f9fd67bbc0ac
+同期日時: 2026-02-17T03:21:47+09:00
 
 ---
 
-(コンテンツなし)
+タスクの説明
+タスクの概要と関連する詳細を提供します。
+サブタスク
+サポートファイル

@@ -1,8 +1,11 @@
 # ストーリーネタの作成
 
-Notion URL: https://www.notion.so/302f3b0fba858071b3baf2df51945725
-同期日時: 2026-02-16T18:26:58+09:00
+Notion URL: https://www.notion.so/309f3b0fba858045855de1436a999076
+同期日時: 2026-02-17T03:21:29+09:00
 
 ---
 
-https://docs.google.com/spreadsheets/d/1iBocg8CL6vo7N5w_dwSPYhL4_NYBqcYcZvWMCQ_Urro/edit?usp=sharing
+タスクの説明
+タスクの概要と関連する詳細を提供します。
+サブタスク
+サポートファイル

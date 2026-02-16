@@ -1,8 +1,11 @@
 # 営業マニュアル
 
-Notion URL: https://www.notion.so/307f3b0fba85801d86ffff0fca06d920
-同期日時: 2026-02-16T00:12:12+09:00
+Notion URL: https://www.notion.so/309f3b0fba858098b4c4e8124f5a115c
+同期日時: 2026-02-17T03:21:39+09:00
 
 ---
 
-https://www.notion.so/2ccf3b0fba8580da9192cefc7e69b8e1?source=copy_link
+タスクの説明
+タスクの概要と関連する詳細を提供します。
+サブタスク
+サポートファイル
