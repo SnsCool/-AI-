@@ -1,7 +1,7 @@
 # フィットネス配信
 
 Notion URL: https://www.notion.so/306f3b0fba85816f91bbdc1462ab2e3a
-同期日時: 2026-02-15T21:17:00+09:00
+同期日時: 2026-02-16T18:29:00+09:00
 
 ---
 
@@ -63,4 +63,3 @@ Notion URL: https://www.notion.so/306f3b0fba85816f91bbdc1462ab2e3a
 毎回必ず5分確保する
 運動以外の悩みもOK
 メンタル・生活面の相談も歓迎する
-入室方法👇
