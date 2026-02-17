@@ -1,7 +1,7 @@
 # Mrs .PROTEINまとめ
 
 Notion URL: https://www.notion.so/Mrs-PROTEIN-2cdf3b0fba85809a9094cb877c22f0fc
-同期日時: 2026-02-17T15:31:00+09:00
+同期日時: 2026-02-17T18:25:38+09:00
 
 ---
 
@@ -28,6 +28,10 @@ Notion URL: https://www.notion.so/Mrs-PROTEIN-2cdf3b0fba85809a9094cb877c22f0fc
   ③ 3月の販売方針
   3月はコーヒーフレーバーのみ販売
   他フレーバーは一旦販売停止／調整期間とする
+  🗓 月別在庫推移
+  📊 現在庫
+  📈 継続データ
+  🚨 発注ルール
 アフィリエイト
     アカウント　（ゆうとさん）
 年齢         18-24           30.3%
@@ -341,7 +345,7 @@ Notion URL: https://www.notion.so/Mrs-PROTEIN-2cdf3b0fba85809a9094cb877c22f0fc
     インサイト
     リンククリック数293件
     購入3件
-    ダイエットに必要なタンパク質補給をプロテインで
+    2月ローンチ
     1日目
     2日目
     3日目
