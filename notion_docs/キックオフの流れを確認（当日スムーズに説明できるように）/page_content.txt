@@ -1,7 +1,7 @@
 # キックオフの流れを確認（当日スムーズに説明できるように）
 
-Notion URL: https://www.notion.so/306f3b0fba858158af94c0101ce20d92
-同期日時: 2026-02-14T00:26:43+09:00
+Notion URL: https://www.notion.so/2d0f3b0fba858164a543d166ef3396a2
+同期日時: 2026-02-18T00:27:10+09:00
 
 ---
 
@@ -14,9 +14,16 @@ Notion URL: https://www.notion.so/306f3b0fba858158af94c0101ce20d92
 3.　生徒同士の交流
 メッセージテンプレート
 https://docs.google.com/spreadsheets/d/1mQ0O0WtUirbwRylOYA8CHwtbHMfaBw9lKeXEWbUHuCg/edit?usp=sharing　
+
+
 使用する資料
 https://www.canva.com/design/DAGyN6UKOZw/-CPdAgO81V1zSQfbWa3OUg/edit
+
+複製し自己紹介文を作成し自分用にする
+↓この部分
 ポイント
 生徒の自己紹介に必ず1回は質問を入れる
 生徒が発言しやすい環境作り
 過去アーカイブ
+https://www.youtube.com/watch?v=OFw_f-QqxTM
+https://drive.google.com/file/d/1SvoPxLPt0OpVUWEeyWdfdWH5vbSHtvJo/view?usp=drive_link
