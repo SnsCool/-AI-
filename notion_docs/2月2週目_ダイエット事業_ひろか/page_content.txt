@@ -1,13 +1,14 @@
 # 2月2週目_ダイエット事業_ひろか
 
 Notion URL: https://www.notion.so/2-2-_-_-309f3b0fba8580839cd4f3b450c0a2a4
-同期日時: 2026-02-17T03:22:15+09:00
+同期日時: 2026-02-17T12:56:48+09:00
 
 ---
 
 今月目標：20名成約
 └現状18名成約済み → 残り2名
 └残り3アポ
+https://docs.google.com/spreadsheets/d/1bdSmkkQp7DP1OTdt1VJqmT43rQBKnY5LcN3yUXgWgEM/edit?usp=sharing
 達成AP：既存LINEリストへのローンチ
 てぃーぞー：チャレンジローンチ（3日間の食事添削→個別）
 └16〜17日 チャレンジ募集・18〜20日 チャレンジ期間・21〜22日 個別募集
@@ -16,12 +17,14 @@ https://docs.google.com/spreadsheets/d/1enwjJv2PcIuW_erXNXy6U4c8_dz6dRk9dH13KTUD
 https://docs.google.com/document/d/1oLOXrkOJi65SUaL4152N4g1AJE2xwV2AnV3gIo5q6iI/edit?usp=sharing
 https://drive.google.com/file/d/1Zbqj-3LICkf3Jv_UHyYihzKVHt1UPEpy/view
 https://drive.google.com/file/d/1RFw1PKHRJEGgLLPW6DZ3k1insR7tgGqI/view
+2000リスト
 さりな：個別相談ローンチ
 └20〜22日 個別募集
 https://docs.google.com/spreadsheets/d/1pYEEzZFjSonJLUIFIvnxxRkjaPylI51b1AVYTuAJOfY/edit?usp=sharing
 https://docs.google.com/document/d/11s3EFOQxxPh-i5BgxZQc0CjMQh_Y4MF1IrDHpZE3Ifo/edit?usp=sharing
+700リスト
 ローンチと別で遂行してること
-各職種のマニュアル作成（途中）
+各職種のマニュアル作成
 【講師】マニュアル 
 【トレーナー】マニュアル 
 【営業】マニュアル 
@@ -36,7 +39,14 @@ https://www.instagram.com/sachi_face.bodypilates?igsh=MWNyNjB0cXFjbTZyMA%3D%3D&u
 各マニュアル化
 3月ローンチの目処を立てる
 ロゴ作成
-その他コミュニティ運営のブラッシュアップ
+その他コミュニティ運営のブラッシュアップ（講師・トレーナー・AI関連・）
 相談・共有
-サービス名決定：「もぐラボ」
+サービス名：もぐラボ
 太一さん：動画カリキュラムのアプリをダイエット版でも作成したい
+todo
+価格モニター生インタビュー
+営業入る
+上位プラン：食事で何パターンか試す
+食のサービス
+食材・作る・できたもの・レシピ・健康・
+料理教室やる！

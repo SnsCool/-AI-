@@ -1,7 +1,7 @@
 # 講師受け入れ人数
 
 Notion URL: https://www.notion.so/307f3b0fba8580308ffccbe5ae5b97a9
-同期日時: 2026-02-15T21:15:52+09:00
+同期日時: 2026-02-17T12:56:48+09:00
 
 ---
 
@@ -10,9 +10,9 @@ Notion URL: https://www.notion.so/307f3b0fba8580308ffccbe5ae5b97a9
 4月：20名（さりな10名・まりな5名・新人5名）
 5月：20名（さりな10名・まりな5名・新人5名）
 さりな：毎月10名・MAX30名
-まりな：
-まこと：
-きよと：
+まりな：初月5名
+まこと：初月5名
+きよと：初月5名
 ひろみ：
 くりこ：
 https://docs.google.com/spreadsheets/d/1iS8KGj6McNj2kLrDA8BxZrY2kKDlllpzuJcUZSMGPWw/edit?usp=sharing
