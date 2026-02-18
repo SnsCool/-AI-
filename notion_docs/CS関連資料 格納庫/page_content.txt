@@ -1,7 +1,7 @@
 # CS関連資料 格納庫
 
 Notion URL: https://www.notion.so/CS-307f3b0fba8580bd9cd7dfa9581e0d4f
-同期日時: 2026-02-18T00:27:08+09:00
+同期日時: 2026-02-19T03:24:47+09:00
 
 ---
 
@@ -3960,7 +3960,8 @@ https://www.notion.so/27a94227cded806ab290e164a11d1c2e?source=copy_link
   入会してからチームが始まるまでに何もやることがないことでさらに不安な気持ちが増強され、この期間に退会(クーリングオフ)を選んでしまう生徒さんも少なからずいらっしゃいました。
 
   せっかく入ると決めてくれた生徒さんのモチベーションを入会〜クラススタートまで維持するために作られたプログラムとなっています！
-
+  
+⬇︎スタータープログラム⬇︎
     もぐラボに入会した生徒さんが入会後7日間で取り組むべきことを1日ごとにまとめたものです。
 もぐラボ生として食べ痩せダイエットに取り組む姿勢や必要な考え方、実際に動画を作成する練習まで含まれており、
 食べ痩せダイエット初心者の方に必要なカリキュラムとなっています。
@@ -3978,9 +3979,14 @@ Untitled
     ✅クラスで積極的に発言しやすいような雰囲気作りをお願いします！
 
 参考文章：
-  
-SnsClubスタータープログラム
-
+    目的
+    生徒のモチベーションを維持する
+    メッセージテンプレート
+    https://docs.google.com/spreadsheets/d/1i19_X799l0AmlLOVIjqdCweA9x8rmt9xLSfZj7dhxT4/edit?usp=sharing
+    メッセージテンプレート活用しながらチーム内にメッセージを送る
+    ポイント
+    1.　こまめな連絡でモチベーション管理
+2.　生徒が発言しやすい環境作り
 トレーナー関連
 https://www.canva.com/design/DAG9VgdbZ9U/HvFWc_xTKOisB_3vVGnE6w/edit?utm_content=DAG9VgdbZ9U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
     振り返り実施の目的
@@ -4018,3 +4024,13 @@ CS関連
   コミュニティ改善施策
   活性化、マニュアル、質問返答など
   その他共有・提案
+講師育成
+  2月18日
+  https://drive.google.com/file/d/13FjEs7susyrFNNFVTBKhyo2qU8dZlXfY/view?usp=sharing
+  次回までの課題
+①講義動画全部視聴
+②講師マニュアル一通り目を通す
+③過去のアドバイスを見て内容を把握
+  ↓
+確認後ミニ演習2〜3名
+  2月26日
