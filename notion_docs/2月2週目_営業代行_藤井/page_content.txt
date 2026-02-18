@@ -1,7 +1,7 @@
 # 2月2週目_営業代行_藤井
 
 Notion URL: https://www.notion.so/2-2-_-_-309f3b0fba85804091c1d8af7bd2312e
-同期日時: 2026-02-17T12:55:42+09:00
+同期日時: 2026-02-18T12:55:52+09:00
 
 ---
 
@@ -45,3 +45,4 @@ https://docs.google.com/spreadsheets/d/1RIjb5Xntz_6DKnrYSEEG4mFUDH_YNxrKxNS2AQKU
 ①600万円の紙書籍verの営業提案資料作成
 ②Facebook営業100件
 ③他の広告戦略の打ち手を考える。
+定例の設定と資料内容のアップデート（600万円の紙書籍verの営業提案資料作成）

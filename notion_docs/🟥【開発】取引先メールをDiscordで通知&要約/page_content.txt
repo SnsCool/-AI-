@@ -1,7 +1,7 @@
 # 🟥【開発】取引先メールをDiscordで通知&要約
 
 Notion URL: https://www.notion.so/Discord-305f3b0fba8580bda7abeb750aea0c54
-同期日時: 2026-02-13T14:58:04+09:00
+同期日時: 2026-02-18T12:54:49+09:00
 
 ---
 
