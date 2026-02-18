@@ -1,7 +1,7 @@
 # スタータープログラムを確認する
 
-Notion URL: https://www.notion.so/306f3b0fba8581f59208daf6e0741a11
-同期日時: 2026-02-14T00:26:44+09:00
+Notion URL: https://www.notion.so/2d0f3b0fba85811ebef0df1c016e31cf
+同期日時: 2026-02-18T18:24:30+09:00
 
 ---
 
