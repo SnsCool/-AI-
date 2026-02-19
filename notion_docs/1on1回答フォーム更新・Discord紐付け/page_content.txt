@@ -1,7 +1,7 @@
 # 1on1回答フォーム更新・Discord紐付け
 
 Notion URL: https://www.notion.so/1on1-Discord-2fdf3b0fba8580b5b571f8d62574a1cf
-同期日時: 2026-02-13T15:01:52+09:00
+同期日時: 2026-02-20T06:13:17+09:00
 
 ---
 
