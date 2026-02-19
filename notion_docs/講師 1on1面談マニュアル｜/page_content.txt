@@ -1,7 +1,7 @@
 # 講師 1on1面談マニュアル｜
 
 Notion URL: https://www.notion.so/1on1-308f3b0fba85805599dfdb08e84c7ef6
-同期日時: 2026-02-15T21:17:08+09:00
+同期日時: 2026-02-19T12:53:52+09:00
 
 ---
 
@@ -87,3 +87,5 @@ https://docs.google.com/spreadsheets/d/1e57-3vX43UnAzTbWk9luKEjS3zbKcKMQz6vFXo5R
 顔出しNG: ラジオ配信、手元配信、Vアバターを提案。声の良さを褒める。
 話すことがない: 「話す場ではなくリスナーと会話する場」と定義し、質問ストックを勧める。
 時間がない: 毎日やる必要はない。「決めた日にやる」こと、最初は15分でOKであることを伝える。
+discord
+https://discord.gg/C3UWQead
