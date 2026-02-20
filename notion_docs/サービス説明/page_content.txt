@@ -1,7 +1,7 @@
 # サービス説明
 
-Notion URL: https://www.notion.so/309f3b0fba8581c5b9b8e170dd21963b
-同期日時: 2026-02-16T15:34:09+09:00
+Notion URL: https://www.notion.so/2bdf3b0fba8581df8e99c8d3786a635d
+同期日時: 2026-02-20T12:53:59+09:00
 
 ---
 

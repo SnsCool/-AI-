@@ -1,0 +1,17 @@
+# 受講生管理シート
+
+Notion URL: https://www.notion.so/30df3b0fba85807ead60eaa739f401a2
+同期日時: 2026-02-20T12:52:50+09:00
+
+---
+
+▼受講生一覧リスト
+https://docs.google.com/spreadsheets/d/1e57-3vX43UnAzTbWk9luKEjS3zbKcKMQz6vFXo5ROcQ/edit?gid=785745425#gid=785745425
+▼現役受講生確認シート
+    申し送り事項
+    受講生情報
+    受講生目標 | 実績
+    受講生現状ステータス
+    受講生面談情報(講師)
+    受講生面談情報(コーチングスタッフ)
+    教育方針(MTG用)
