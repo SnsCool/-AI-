@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-02-16T18:28:20+09:00
+同期日時: 2026-02-20T18:20:41+09:00
 
 ---
 
@@ -145,7 +145,6 @@ Xの自動投稿（インスタやTikTokは完全な自動投稿はできない�
     APIと有料プランへの課金
     ヒアリング
 名刺印刷用Googleスライド作成GAS
-  CSVのインプットが違うため、修正対応。途中に空白行やチケット種別があるので、それも併せて対応する。CSV読み込み手順書をTangoで作る
   デザイン用Googleスライド
     https://docs.google.com/presentation/d/1akDbppBAQo4PGW54-GfGs_cHQHsvw5NFUSoRaUWwj_0/edit?slide=id.g3a4121eee6e_0_28#slide=id.g3a4121eee6e_0_28
   下記スプレッドシートのテスト用にGASを設定
