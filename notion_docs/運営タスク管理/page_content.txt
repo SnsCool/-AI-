@@ -1,11 +1,11 @@
 # 運営タスク管理
 
 Notion URL: https://www.notion.so/2a7f3b0fba85801d8235f54840494020
-同期日時: 2026-02-19T21:25:12+09:00
+同期日時: 2026-02-20T15:27:47+09:00
 
 ---
 
-事業カレンダー
+運営カレンダー
 https://calendar.google.com/calendar/u/1?cid=bGV2ZWxhLmRpZXRAZ21haWwuY29t
-もぐラボイベントカレンダー
+もぐラボカレンダー
 https://calendar.google.com/calendar/u/0?cid=bW9nbGFiMTIzQGdtYWlsLmNvbQ
