@@ -1,7 +1,7 @@
-# 個別で初回挨拶を送信する
+# 個別で初回挨拶を送信する 
 
-Notion URL: https://www.notion.so/306f3b0fba8581529fdbfdc1e784034e
-同期日時: 2026-02-14T00:26:10+09:00
+Notion URL: https://www.notion.so/30ef3b0fba858032bff6cdd24a26f438
+同期日時: 2026-02-22T06:09:05+09:00
 
 ---
 

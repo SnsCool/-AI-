@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-02-21T18:12:39.067105+00:00",
+  "last_sync": "2026-02-21T21:09:07.089379+00:00",
   "pages": {
     "306f3b0f-ba85-8040-96ac-d640633f5de6": {
       "title": "顧客からの問い合わせ詳細分析",
@@ -2973,7 +2973,7 @@
     },
     "260f3b0f-ba85-801a-955b-c21692aff7f0": {
       "title": "営業ポータル",
-      "last_edited": "2026-02-18T15:53:00.000Z",
+      "last_edited": "2026-02-21T19:37:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/営業ポータル"
     },
     "304f3b0f-ba85-8047-88ec-d81e304f3f22": {
@@ -4058,7 +4058,7 @@
     },
     "2f4f3b0f-ba85-803a-8ac6-d7752c833321": {
       "title": "合宿運営マニュアル作成メモ",
-      "last_edited": "2026-02-21T18:12:00.000Z",
+      "last_edited": "2026-02-21T18:17:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/合宿運営マニュアル作成メモ"
     },
     "302f3b0f-ba85-8160-b609-f37692cee618": {
@@ -7343,7 +7343,7 @@
     },
     "2d0f3b0f-ba85-8023-bf59-e8c6f537ca5c": {
       "title": "【講師】マニュアル",
-      "last_edited": "2026-02-20T04:39:00.000Z",
+      "last_edited": "2026-02-21T18:44:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/【講師】マニュアル"
     },
     "2fdf3b0f-ba85-801b-832c-f86bd694c781": {
@@ -13785,6 +13785,36 @@
       "title": "各メンバーの記録を確認し、FB項目を事前に準備しておく",
       "last_edited": "2026-02-21T15:51:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/各メンバーの記録を確認し、FB項目を事前に準備しておく"
+    },
+    "30ef3b0f-ba85-8041-ae83-fa80a5831894": {
+      "title": "Untitled",
+      "last_edited": "2026-02-21T19:04:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Untitled"
+    },
+    "30ef3b0f-ba85-8028-8a3b-f3ae74f5da76": {
+      "title": "食事アドバイスの練習",
+      "last_edited": "2026-02-21T19:03:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/食事アドバイスの練習"
+    },
+    "30ef3b0f-ba85-80bc-a755-d38826644e76": {
+      "title": "個別スレッドを作成 （全員分）",
+      "last_edited": "2026-02-21T18:44:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/個別スレッドを作成 （全員分）"
+    },
+    "30ef3b0f-ba85-8032-bff6-cdd24a26f438": {
+      "title": "個別で初回挨拶を送信する ",
+      "last_edited": "2026-02-21T18:43:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/個別で初回挨拶を送信する"
+    },
+    "2d0f3b0f-ba85-8106-ac2a-fb62876bf320": {
+      "title": "個別でスレッドを作成",
+      "last_edited": "2026-02-21T18:43:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/個別でスレッドを作成"
+    },
+    "30ef3b0f-ba85-8007-aee8-c75d805b3d23": {
+      "title": "個別初回メッセージ",
+      "last_edited": "2026-02-21T18:35:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/個別初回メッセージ"
     }
   }
 }
