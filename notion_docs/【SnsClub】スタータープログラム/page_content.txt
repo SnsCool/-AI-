@@ -1,7 +1,7 @@
 # 【SnsClub】スタータープログラム
 
 Notion URL: https://www.notion.so/SnsClub-300f3b0fba858058bb12fee7f713fd1f
-同期日時: 2026-02-13T15:49:14+09:00
+同期日時: 2026-02-21T18:16:46+09:00
 
 ---
 
