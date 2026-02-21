@@ -1,36 +1,17 @@
-# クラス分け
+# ローンチ前準備フロー
 
-Notion URL: https://www.notion.so/2cbf3b0fba8580ecb7cde54304fee5c6
-同期日時: 2026-02-21T15:20:10+09:00
+Notion URL: https://www.notion.so/30ef3b0fba85800b8b83da134493d6ef
+同期日時: 2026-02-21T15:20:07+09:00
 
 ---
 
-  クラス数予測
-    10月・11月共に、成約数約300
-    これまでの流れからいくと、単純計算でクラスが
-    35〜40クラス必要
-  稼働２クラス未満の専属講師
-    中澤
-    ジョー
-    優希
-    みも
-    みー
-    炊飯器夫婦
-    かずニコ
-    せいま
-    しょうた
-    まりな
-    滋賀めし
-    ※上記講師に１クラスずつ持ってもらったとして、来月受け持てる講師がいなくなる。
-  ローンチ講師
-  講師以外
-  準備前にやること
-  ローンチ講師の確認
-  https://docs.google.com/spreadsheets/d/1sOOhq205WO7Nif_W3fY1sVdnf16F80BAj5i5MkHslXs/edit?usp=sharing
-  ローンチ講師受け持ちクラス数の確認
-  「講師マネージャー」のチャンネルから下記を送る
-  https://docs.google.com/spreadsheets/d/1H8i8hHdXDWqHyLPhUSLNwErQ9dsiF1Bp8FuCtnbd2HE/edit?gid=1590357039#gid=1590357039
-  @講師マネージャー 各位
+準備前にやること
+ローンチ講師の確認
+https://docs.google.com/spreadsheets/d/1sOOhq205WO7Nif_W3fY1sVdnf16F80BAj5i5MkHslXs/edit?usp=sharing
+ローンチ講師受け持ちクラス数の確認
+「講師マネージャー」のチャンネルから下記を送る
+https://docs.google.com/spreadsheets/d/1H8i8hHdXDWqHyLPhUSLNwErQ9dsiF1Bp8FuCtnbd2HE/edit?gid=1590357039#gid=1590357039
+@講師マネージャー 各位
 お疲れ様です！
 
 2月後半ローンチ講師の
@@ -45,11 +26,11 @@ Notion URL: https://www.notion.so/2cbf3b0fba8580ecb7cde54304fee5c6
 ▼記入用URL
 https://docs.google.com/spreadsheets/d/1H8i8hHdXDWqHyLPhUSLNwErQ9dsiF1Bp8FuCtnbd2HE/edit?usp=sharing
 ## 2/12（木）までに記入をお願いいたします🙇‍♀️
-  クラスを持たない講師がいれば、営業へ共有
-  今季ローンチ目標値
-  必要クラス数の考え方
-  ローンチ講師数
-  クラス必要数は、成約目標から逆算して考えています！
+クラスを持たない講師がいれば、営業へ共有
+今季ローンチ目標値
+必要クラス数の考え方
+ローンチ講師数
+クラス必要数は、成約目標から逆算して考えています！
 前提としては、ローンチする講師（36名）のうち2/3の講師が１クラスのみを担当する想定でクラス数の仮説を立てています！
 3月の成約目標は 470名
 通常講師で対応できるクラス数は 48クラス（約384名分） の予定
@@ -58,11 +39,11 @@ https://docs.google.com/spreadsheets/d/1H8i8hHdXDWqHyLPhUSLNwErQ9dsiF1Bp8FuCtnbd
 3月以降は現時点でローンチ講師が決定していないため、全く読めないですが
 毎月成約目標が平均50名ずつ増えているので
 15クラス必要になる場合も出てくるかもしれません...
-  上記は広告流入を抜いた数になるので、、、
-  クラス数が計算できたらサポートMGへクラスの依頼
-  進捗管理シートの記入
-  スムーズに進むようにローンチ講師は事前にサーバーに入室させておく
-  お世話になっております！
+上記は広告流入を抜いた数になるので、、、
+クラス数が計算できたらサポートMGへクラスの依頼
+進捗管理シートの記入
+スムーズに進むようにローンチ講師は事前にサーバーに入室させておく
+お世話になっております！
 運営スタッフの⭕️と申します🙇‍♀️
 
 今後のクラス運営にあたり、ご対応のお願いとなります！
