@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-02-21T12:22:56.935281+00:00",
+  "last_sync": "2026-02-21T15:10:47.861943+00:00",
   "pages": {
     "306f3b0f-ba85-8040-96ac-d640633f5de6": {
       "title": "顧客からの問い合わせ詳細分析",
@@ -2707,9 +2707,9 @@
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/掲示サイン作成"
     },
     "305f3b0f-ba85-80e7-a468-c91f1a19ed7e": {
-      "title": "名札作成",
-      "last_edited": "2026-02-18T04:29:00.000Z",
-      "path": "/home/runner/work/-AI-/-AI-/notion_docs/名札作成"
+      "title": "エスキャン名札作成",
+      "last_edited": "2026-02-21T13:59:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/エスキャン名札作成"
     },
     "305f3b0f-ba85-80c4-86be-c196f084355c": {
       "title": "合宿：音響打ち合わせ（2/13）",
@@ -3058,7 +3058,7 @@
     },
     "2c3f3b0f-ba85-8185-8512-c16a971b6147": {
       "title": "採用決定後のフロー (New)",
-      "last_edited": "2026-02-21T06:05:00.000Z",
+      "last_edited": "2026-02-21T13:04:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/採用決定後のフロー (New)"
     },
     "1b9f3b0f-ba85-8071-9c6f-cab3a2f0a8f6": {
@@ -4058,7 +4058,7 @@
     },
     "2f4f3b0f-ba85-803a-8ac6-d7752c833321": {
       "title": "合宿運営マニュアル作成メモ",
-      "last_edited": "2026-02-21T12:12:00.000Z",
+      "last_edited": "2026-02-21T13:29:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/合宿運営マニュアル作成メモ"
     },
     "302f3b0f-ba85-8160-b609-f37692cee618": {
@@ -5403,7 +5403,7 @@
     },
     "306f3b0f-ba85-803a-b09b-c91113e0b742": {
       "title": "25日の運営MTGの時間確認",
-      "last_edited": "2026-02-18T07:01:00.000Z",
+      "last_edited": "2026-02-21T13:58:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/25日の運営MTGの時間確認"
     },
     "306f3b0f-ba85-80a0-9cf6-c0293e24a957": {
@@ -8888,7 +8888,7 @@
     },
     "308f3b0f-ba85-8017-ab37-f99159e39cb4": {
       "title": "グルコン日程確定",
-      "last_edited": "2026-02-18T03:57:00.000Z",
+      "last_edited": "2026-02-21T13:55:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/グルコン日程確定"
     },
     "308f3b0f-ba85-8010-8217-f3c01fadcae9": {
@@ -11588,7 +11588,7 @@
     },
     "30bf3b0f-ba85-8099-a969-c2e0e37f2f63": {
       "title": "合宿：運営マニュアル作成",
-      "last_edited": "2026-02-20T01:25:00.000Z",
+      "last_edited": "2026-02-21T13:59:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/合宿：運営マニュアル作成"
     },
     "30bf3b0f-ba85-8003-bae7-cb5d784fc53f": {
@@ -12008,7 +12008,7 @@
     },
     "30bf3b0f-ba85-80b8-b6b9-c4abab55c479": {
       "title": "既婚者の恋ありかなしか",
-      "last_edited": "2026-02-21T11:51:00.000Z",
+      "last_edited": "2026-02-21T12:41:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/既婚者の恋ありかなしか"
     },
     "30bf3b0f-ba85-80bf-8e6e-e871b3697bc5": {
@@ -13702,9 +13702,9 @@
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/ライフティ中途解約"
     },
     "30ef3b0f-ba85-800e-9dd0-fc536d944670": {
-      "title": "合宿アウトプット企画｜運用ルールまとめ（確定版）",
-      "last_edited": "2026-02-21T11:38:00.000Z",
-      "path": "/home/runner/work/-AI-/-AI-/notion_docs/合宿アウトプット企画｜運用ルールまとめ（確定版）"
+      "title": "合宿アウトプット企画｜運用ルールまとめ",
+      "last_edited": "2026-02-21T13:48:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/合宿アウトプット企画｜運用ルールまとめ"
     },
     "30ef3b0f-ba85-8048-851b-f70c39bacd99": {
       "title": "契約",
@@ -13715,6 +13715,66 @@
       "title": "12:30〜13:30｜開会式・マインドセット案",
       "last_edited": "2026-02-21T10:06:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/12_30〜13_30｜開会式・マインドセット案"
+    },
+    "30ef3b0f-ba85-80e2-9606-fc63d4afb55a": {
+      "title": "【2/24】水とお菓子Amazon購入",
+      "last_edited": "2026-02-21T14:04:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/【2_24】水とお菓子Amazon購入"
+    },
+    "30ef3b0f-ba85-805e-9278-fa7942940bbe": {
+      "title": "合宿名札作成",
+      "last_edited": "2026-02-21T14:00:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/合宿名札作成"
+    },
+    "30ef3b0f-ba85-800d-933f-d67075df4998": {
+      "title": "備品リスト・経費関連確認",
+      "last_edited": "2026-02-21T13:59:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/備品リスト・経費関連確認"
+    },
+    "30ef3b0f-ba85-802f-abc2-f2d98668043e": {
+      "title": "登壇者入時間等連絡",
+      "last_edited": "2026-02-21T13:58:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/登壇者入時間等連絡"
+    },
+    "30ef3b0f-ba85-802f-83ce-c7983fc88f48": {
+      "title": "WSスライド",
+      "last_edited": "2026-02-21T13:58:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/WSスライド"
+    },
+    "30ef3b0f-ba85-8024-9803-e95eb1cf1f06": {
+      "title": "駒居さん提案スライド",
+      "last_edited": "2026-02-21T13:58:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/駒居さん提案スライド"
+    },
+    "30ef3b0f-ba85-8082-b336-e99ee9de5cf4": {
+      "title": "グルコン配信予約設定",
+      "last_edited": "2026-02-21T13:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/グルコン配信予約設定"
+    },
+    "30ef3b0f-ba85-8076-afe8-da564eedf9ea": {
+      "title": "BGM",
+      "last_edited": "2026-02-21T13:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/BGM"
+    },
+    "30ef3b0f-ba85-8024-a162-d71718bb3c26": {
+      "title": "1on1",
+      "last_edited": "2026-02-21T13:47:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/1on1"
+    },
+    "29bf3b0f-ba85-8097-8ac7-d24c9f36ab20": {
+      "title": "Monthly 会議",
+      "last_edited": "2026-02-21T13:46:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Monthly 会議"
+    },
+    "2fbf3b0f-ba85-80b6-af79-f7e6491e70c1": {
+      "title": "いわかわのぶゆき",
+      "last_edited": "2026-02-21T13:05:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/いわかわのぶゆき"
+    },
+    "30ef3b0f-ba85-80dd-bb23-c7c40bb288d3": {
+      "title": "Untitled",
+      "last_edited": "2026-02-21T13:04:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Untitled"
     }
   }
 }
