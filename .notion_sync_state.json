@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-02-21T00:39:54.294250+00:00",
+  "last_sync": "2026-02-21T03:50:08.448004+00:00",
   "pages": {
     "306f3b0f-ba85-8040-96ac-d640633f5de6": {
       "title": "顧客からの問い合わせ詳細分析",
@@ -3568,7 +3568,7 @@
     },
     "2fbf3b0f-ba85-802e-97e3-d0e0b40e0abc": {
       "title": "100時間配信の重要性",
-      "last_edited": "2026-02-10T05:57:00.000Z",
+      "last_edited": "2026-02-21T02:52:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/100時間配信の重要性"
     },
     "303f3b0f-ba85-81d1-a587-feae3e609b13": {
@@ -4152,9 +4152,9 @@
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/【学生】「チャットが大盛り上がりとは？」（堀めぐみ）"
     },
     "302f3b0f-ba85-80bd-a28c-c41601a08a91": {
-      "title": "Untitled",
-      "last_edited": "2026-02-09T06:48:00.000Z",
-      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Untitled"
+      "title": "【DAY5】アカウント設計",
+      "last_edited": "2026-02-21T03:12:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/【DAY5】アカウント設計"
     },
     "302f3b0f-ba85-80de-80c2-d43d3388eb86": {
       "title": "マインド配信の作成",
@@ -10912,13 +10912,13 @@
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/PL作成"
     },
     "30af3b0f-ba85-8084-996f-c624c88cd3e4": {
-      "title": "カナノ講師 (2)",
-      "last_edited": "2026-02-18T03:26:00.000Z",
-      "path": "/home/runner/work/-AI-/-AI-/notion_docs/カナノ講師 (2)"
+      "title": "カナノ講師 ②",
+      "last_edited": "2026-02-21T01:40:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/カナノ講師 ②"
     },
     "30af3b0f-ba85-8004-8296-dc86a7a09de8": {
       "title": "じゅんママ講師②",
-      "last_edited": "2026-02-18T03:39:00.000Z",
+      "last_edited": "2026-02-21T01:35:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/じゅんママ講師②"
     },
     "2fef3b0f-ba85-80ac-a8c4-db0223a22804": {
@@ -12583,7 +12583,7 @@
     },
     "30cf3b0f-ba85-8051-8ea8-db53473f82d6": {
       "title": "【安眠ストレッチ】 ",
-      "last_edited": "2026-02-20T11:28:00.000Z",
+      "last_edited": "2026-02-21T01:39:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/【安眠ストレッチ】"
     },
     "2bdf3b0f-ba85-8135-94ea-d972b6348044": {
@@ -12848,7 +12848,7 @@
     },
     "30df3b0f-ba85-80aa-8e8d-eb5848161303": {
       "title": "導線設計",
-      "last_edited": "2026-02-20T04:14:00.000Z",
+      "last_edited": "2026-02-21T02:00:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/導線設計"
     },
     "30df3b0f-ba85-818e-9218-db6fbef9ff77": {
@@ -13280,6 +13280,241 @@
       "title": "Google、最先端モデルGemini 3.1 Proを公開",
       "last_edited": "2026-02-21T00:09:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/Google、最先端モデルGemini 3.1 Proを公開"
+    },
+    "30ef3b0f-ba85-8006-a64c-f3d2faad298b": {
+      "title": "プロフィールの最適化",
+      "last_edited": "2026-02-21T03:44:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/プロフィールの最適化"
+    },
+    "30ef3b0f-ba85-802a-9de5-f73ccf60c65d": {
+      "title": "かずさん｜クリエイティブ・イラスト（編集中）",
+      "last_edited": "2026-02-21T03:44:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/かずさん｜クリエイティブ・イラスト（編集中）"
+    },
+    "30ef3b0f-ba85-80fc-be7e-d06e6bc471cf": {
+      "title": "トピックの設定",
+      "last_edited": "2026-02-21T03:43:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/トピックの設定"
+    },
+    "30ef3b0f-ba85-808c-990f-ee18350ee269": {
+      "title": "配信タイトル",
+      "last_edited": "2026-02-21T03:43:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/配信タイトル"
+    },
+    "30ef3b0f-ba85-8063-88f0-d546266b3e13": {
+      "title": "カバー画像",
+      "last_edited": "2026-02-21T03:43:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/カバー画像"
+    },
+    "30ef3b0f-ba85-8034-9ea5-f9935fcda0b8": {
+      "title": "Bio",
+      "last_edited": "2026-02-21T03:43:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Bio"
+    },
+    "30ef3b0f-ba85-800b-9892-e25787cc68b9": {
+      "title": "アカウント名",
+      "last_edited": "2026-02-21T03:43:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/アカウント名"
+    },
+    "30ef3b0f-ba85-8097-aa4d-c5061331c284": {
+      "title": "Untitled",
+      "last_edited": "2026-02-21T03:43:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Untitled"
+    },
+    "30ef3b0f-ba85-80ee-a5d1-d19d194ea1f1": {
+      "title": "アイコン",
+      "last_edited": "2026-02-21T03:43:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/アイコン"
+    },
+    "30ef3b0f-ba85-8092-9a26-e1b956e41a13": {
+      "title": "ひなたく講師｜暮らし",
+      "last_edited": "2026-02-21T03:37:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/ひなたく講師｜暮らし"
+    },
+    "30ef3b0f-ba85-8000-9070-e013d1d9bca7": {
+      "title": "ターゲット設計",
+      "last_edited": "2026-02-21T03:35:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/ターゲット設計"
+    },
+    "30ef3b0f-ba85-8007-b5fe-ff4a04b02668": {
+      "title": "アルゴリズムの攻略",
+      "last_edited": "2026-02-21T03:35:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/アルゴリズムの攻略"
+    },
+    "30ef3b0f-ba85-80f1-afdf-c34e0a954572": {
+      "title": "自分のジャンル&ターゲット(コピーして使用)",
+      "last_edited": "2026-02-21T03:30:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/自分のジャンル&ターゲット(コピーして使用)"
+    },
+    "30ef3b0f-ba85-8057-b690-fb0f36201677": {
+      "title": "たきさん",
+      "last_edited": "2026-02-21T03:26:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/たきさん"
+    },
+    "30ef3b0f-ba85-806a-bee5-c7c8306a935e": {
+      "title": "ぽぽさん｜レシピ（編集中）",
+      "last_edited": "2026-02-21T03:06:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/ぽぽさん｜レシピ（編集中）"
+    },
+    "30ef3b0f-ba85-80b1-a402-caec830712d2": {
+      "title": "なほさん｜レシピ（編集中） ",
+      "last_edited": "2026-02-21T03:04:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/なほさん｜レシピ（編集中）"
+    },
+    "1eaf3b0f-ba85-804b-af75-c55f4cddabb8": {
+      "title": "グルコン立ち会いマニュアル",
+      "last_edited": "2026-02-21T02:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/グルコン立ち会いマニュアル"
+    },
+    "2fbf3b0f-ba85-810c-aaf5-cfccf1d8ea84": {
+      "title": "配信が習慣化される",
+      "last_edited": "2026-02-21T02:52:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/配信が習慣化される"
+    },
+    "30ef3b0f-ba85-8018-b943-c522f5c28c33": {
+      "title": "【下半身スッキリ尻トレ】",
+      "last_edited": "2026-02-21T01:50:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/【下半身スッキリ尻トレ】"
+    },
+    "30ef3b0f-ba85-8047-84bf-d94263c64962": {
+      "title": "Untitled",
+      "last_edited": "2026-02-21T01:42:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Untitled"
+    },
+    "30ef3b0f-ba85-80a6-be8a-d82ea5787452": {
+      "title": "プロテイン事業・ハルさんお打ち合わせ",
+      "last_edited": "2026-02-21T01:42:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/プロテイン事業・ハルさんお打ち合わせ"
+    },
+    "30ef3b0f-ba85-80ef-a96d-c8e8fb3716a2": {
+      "title": "[ダイエット/ひろかさん] 添削bot",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[ダイエット_ひろかさん] 添削bot"
+    },
+    "30ef3b0f-ba85-80ea-bd5a-fce3567ba631": {
+      "title": "[マネタイズ/りくさん] 太一さんスライドシステムを使用したデータ整形をしてからのスライド化",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[マネタイズ_りくさん] 太一さんスライドシステムを使用したデータ整形をしてからのスライド化"
+    },
+    "30ef3b0f-ba85-80e8-819d-de92d3c8d0b3": {
+      "title": "[CTO/太一] スライド生成の保守運用",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[CTO_太一] スライド生成の保守運用"
+    },
+    "30ef3b0f-ba85-80db-acee-de5fea021c02": {
+      "title": "チャンリク",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/チャンリク"
+    },
+    "30ef3b0f-ba85-80ce-b3ba-c04cd5fd3a44": {
+      "title": "[ダイエット/ひろかさん] 食事投稿のカウント",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[ダイエット_ひろかさん] 食事投稿のカウント"
+    },
+    "30ef3b0f-ba85-80bd-a9c7-fcd081196a08": {
+      "title": "zoomかんしアプリ",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/zoomかんしアプリ"
+    },
+    "30ef3b0f-ba85-80ba-9dd5-cd8619594813": {
+      "title": "[CTO/たいちさん] withai更新作業",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[CTO_たいちさん] withai更新作業"
+    },
+    "30ef3b0f-ba85-80b9-834c-f58c1a924634": {
+      "title": "[CS/ゆうかさん] 講師動画格納",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[CS_ゆうかさん] 講師動画格納"
+    },
+    "30ef3b0f-ba85-80b5-8d8b-ea651ee4c065": {
+      "title": "[Tiktok/岡] TikTokアプリ開発",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[Tiktok_岡] TikTokアプリ開発"
+    },
+    "30ef3b0f-ba85-80ae-9d13-d1ab434c215a": {
+      "title": "[ダイエット/ひろかさん] 食事添削方法",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[ダイエット_ひろかさん] 食事添削方法"
+    },
+    "30ef3b0f-ba85-807f-b90c-d956c00ec3b3": {
+      "title": "[マネタイズ/陸] Zoom終了後の自動サムネ作成YouTubeアップロード Notion格納システム",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[マネタイズ_陸] Zoom終了後の自動サムネ作成YouTubeアップロード Notion格納システム"
+    },
+    "30ef3b0f-ba85-8073-ab2b-fb18a83cae40": {
+      "title": "[社長室/アンリ] 図書館webアプリ調整",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[社長室_アンリ] 図書館webアプリ調整"
+    },
+    "30ef3b0f-ba85-8073-84f7-f2e9601acbcd": {
+      "title": "れベッターの新規機能開発",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/れベッターの新規機能開発"
+    },
+    "30ef3b0f-ba85-805c-b6b4-ce077f891fde": {
+      "title": "[ダイエット/ひろかさん] お知らせbot",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[ダイエット_ひろかさん] お知らせbot"
+    },
+    "30ef3b0f-ba85-8056-813b-f33b178000af": {
+      "title": "[CS/あかね] スライド生成の自動化",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[CS_あかね] スライド生成の自動化"
+    },
+    "30ef3b0f-ba85-8054-ad0b-dc05efe4c64a": {
+      "title": "[メディア/松元りくさん] オフ会席替えシステム構築",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[メディア_松元りくさん] オフ会席替えシステム構築"
+    },
+    "30ef3b0f-ba85-804a-83f7-f6ff8bcfcb95": {
+      "title": "[CTO/たいちさん] youtubeショート作成ツール",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[CTO_たいちさん] youtubeショート作成ツール"
+    },
+    "30ef3b0f-ba85-8046-b604-cb9065484638": {
+      "title": "[CTO/太一] Notionの抽出プロンプト作成と実装",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[CTO_太一] Notionの抽出プロンプト作成と実装"
+    },
+    "30ef3b0f-ba85-8046-b222-d9f50c528789": {
+      "title": "フォーム回答を複数共有",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/フォーム回答を複数共有"
+    },
+    "30ef3b0f-ba85-803f-8a49-d97cf8dcdde6": {
+      "title": "[ダイエット/ひろかさん] フィットネス配信と食べ痩せコンテンツの配信bot",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[ダイエット_ひろかさん] フィットネス配信と食べ痩せコンテンツの配信bot"
+    },
+    "30ef3b0f-ba85-8036-8a68-fdea40333b6a": {
+      "title": "[CS/やましたゆうか] CS弁護士チャットボット引き継ぎ",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[CS_やましたゆうか] CS弁護士チャットボット引き継ぎ"
+    },
+    "30ef3b0f-ba85-802d-8fb5-e050d4899357": {
+      "title": "[社長室/アンリ] レベッター",
+      "last_edited": "2026-02-21T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[社長室_アンリ] レベッター"
+    },
+    "30ef3b0f-ba85-8026-afd0-d53bf61ca431": {
+      "title": "[CTO/たいちさん] 教育をする内容をやる / 今の業務がどのように変わるかを出す",
+      "last_edited": "2026-02-21T01:40:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[CTO_たいちさん] 教育をする内容をやる _ 今の業務がどのように変わるかを出す"
+    },
+    "30ef3b0f-ba85-8017-9e82-cae4215d6efd": {
+      "title": "[CTO/たいちさん] 新規zoomapi",
+      "last_edited": "2026-02-21T01:40:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[CTO_たいちさん] 新規zoomapi"
+    },
+    "30ef3b0f-ba85-8010-9d0f-c30b821cfa6e": {
+      "title": "[CS/あかね] Xの自動化投稿システム構築",
+      "last_edited": "2026-02-21T01:40:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[CS_あかね] Xの自動化投稿システム構築"
+    },
+    "30ef3b0f-ba85-8002-aee2-c4a68024f7b9": {
+      "title": "[社長室/アンリ] シートとフォームのgas構築",
+      "last_edited": "2026-02-21T01:40:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/[社長室_アンリ] シートとフォームのgas構築"
     }
   }
 }

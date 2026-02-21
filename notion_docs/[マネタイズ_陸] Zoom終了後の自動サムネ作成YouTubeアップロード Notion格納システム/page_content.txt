@@ -1,7 +1,7 @@
 # [マネタイズ/陸] Zoom終了後の自動サムネ作成YouTubeアップロード Notion格納システム
 
-Notion URL: https://www.notion.so/Zoom-YouTube-Notion-30ef3b0fba8581f18f96ced42b95b500
-同期日時: 2026-02-21T09:39:43+09:00
+Notion URL: https://www.notion.so/Zoom-YouTube-Notion-30ef3b0fba85807fb90cd956c00ec3b3
+同期日時: 2026-02-21T12:49:34+09:00
 
 ---
 

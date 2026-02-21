@@ -1,7 +1,7 @@
 # [CTO/たいちさん] youtubeショート作成ツール
 
-Notion URL: https://www.notion.so/CTO-youtube-30ef3b0fba8581539bf0f71791ec9441
-同期日時: 2026-02-21T09:39:41+09:00
+Notion URL: https://www.notion.so/CTO-youtube-30ef3b0fba85804a83f7f6ff8bcfcb95
+同期日時: 2026-02-21T12:49:36+09:00
 
 ---
 
