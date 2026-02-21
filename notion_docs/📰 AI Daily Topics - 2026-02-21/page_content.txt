@@ -1,0 +1,25 @@
+# 📰 AI Daily Topics - 2026-02-21
+
+Notion URL: https://www.notion.so/AI-Daily-Topics-2026-02-21-30ef3b0fba8581a89ed9fddad29cb088
+同期日時: 2026-02-21T09:39:48+09:00
+
+---
+
+📈 本日のAIトレンド総括
+2026年2月のAI分野では、より高度で大規模なモデルのリリースが相次ぎ、エージェント型AIの実用化と自治性の向上が顕著です。政策面では標準化や国際協力が進み、産業応用やグローバル展開も加速しています。
+🔥 高重要度トピック (3件)
+Google、最先端モデルGemini 3.1 Proを公開 (Google DeepMind Blog)
+OpenAI、2030年までの支出見通しを6,000億ドルに修正 (CNBC)
+OpenClawモーメント：自律AIエージェントが労働市場に進出 (VentureBeat)
+⚡ 中重要度トピック (6件)
+NIST、AIエージェント標準化イニシアティブを開始 (NIST)
+Alibaba、エージェント型AI時代に対応したQwen3.5を発表 (Reuters / CNBC)
+MIT Sloanが解説：エージェント型AIは生成AIの次の進化形 (MIT Sloan)
+Anthropic、AIエージェントの自治性測定に関する研究を発表 (Anthropic)
+AIがEV向け高温磁性材料を発見、レアアース代替に期待 (Science Daily)
+米国、インドAIインパクトサミットでAI普及と主権支援を推進 (White House)
+📌 低重要度トピック (1件)
+AIソフトウェア開発の未来を巡るコミュニティ議論 (HackerNews)
+📊 本日の統計
+総トピック数: 10件 | 高重要度: 3件 | 中重要度: 6件 | 低重要度: 1件
+AI Daily Topics Pipeline | 自動生成 | 2026-02-20 19:09

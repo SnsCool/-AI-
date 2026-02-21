@@ -1,0 +1,14 @@
+# Google、最先端モデルGemini 3.1 Proを公開
+
+Notion URL: https://www.notion.so/Google-Gemini-3-1-Pro-30ef3b0fba85815cbbc8d739e5717c93
+同期日時: 2026-02-21T09:39:54+09:00
+
+---
+
+📋 概要
+Google DeepMindはGemini 3シリーズの最新モデルGemini 3.1 Proを発表しました。大幅に性能が向上し、最大100万トークンのコンテキスト対応や6万4千トークンの出力が可能です。Google CloudやAI Studioなど複数のプラットフォームで利用可能となっています。
+💡 ビジネス・技術への影響
+複雑なタスク処理能力の向上により、企業のAI活用範囲が拡大し、クラウドサービスの競争力強化や新規アプリケーション開発が促進されます。
+🔗 参考リンク
+https://deepmind.google/models/model-cards/gemini-3-1-pro/
+情報源: Google DeepMind Blog | 収集日: 2026-02-21

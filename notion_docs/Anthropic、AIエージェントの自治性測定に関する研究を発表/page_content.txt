@@ -1,0 +1,14 @@
+# Anthropic、AIエージェントの自治性測定に関する研究を発表
+
+Notion URL: https://www.notion.so/Anthropic-AI-30ef3b0fba8581fdabbdf5dc00afb422
+同期日時: 2026-02-21T09:39:50+09:00
+
+---
+
+📋 概要
+AnthropicはAIエージェントの自治性を実務で測定するための4次元フレームワーク（自治性、有効性、目標の複雑性、汎用性）を提案しました。これは高度に自律的なAIの理解と統制に重要です。
+💡 ビジネス・技術への影響
+自治性の定量化によりAIの安全性や性能評価が進み、規制対応や信頼構築に役立つ技術基盤が整備されます。
+🔗 参考リンク
+https://www.anthropic.com/research/measuring-agent-autonomy
+情報源: Anthropic | 収集日: 2026-02-21

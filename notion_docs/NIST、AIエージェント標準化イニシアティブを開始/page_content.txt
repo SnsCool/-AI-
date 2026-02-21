@@ -1,0 +1,14 @@
+# NIST、AIエージェント標準化イニシアティブを開始
+
+Notion URL: https://www.notion.so/NIST-AI-30ef3b0fba8581b29902cc0f83f32725
+同期日時: 2026-02-21T09:39:53+09:00
+
+---
+
+📋 概要
+NISTのAI標準化センターがAIエージェントの安全性と相互運用性を確保するための標準化イニシアティブを立ち上げました。業界主導の標準策定、コミュニティによるオープンプロトコル開発、セキュリティ・アイデンティティ研究の3本柱で進められます。
+💡 ビジネス・技術への影響
+AIエージェントの信頼性向上と普及促進に寄与し、企業の導入リスク軽減や国際的な技術連携の基盤形成に貢献します。
+🔗 参考リンク
+https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure
+情報源: NIST | 収集日: 2026-02-21

@@ -1,0 +1,14 @@
+# Alibaba、エージェント型AI時代に対応したQwen3.5を発表
+
+Notion URL: https://www.notion.so/Alibaba-AI-Qwen3-5-30ef3b0fba858191b9a9d904951d6894
+同期日時: 2026-02-21T09:39:53+09:00
+
+---
+
+📋 概要
+Alibabaは複雑なタスクを自律的に実行可能なQwen3.5をリリースしました。テキスト・画像・マルチモーダル入力に対応し、中国の他企業とともにエージェント型AIの競争を加速させています。
+💡 ビジネス・技術への影響
+中国市場におけるAI競争力強化と多様な産業へのAI応用拡大が期待され、グローバルなAI技術競争に影響を与えます。
+🔗 参考リンク
+https://www.cnbc.com/2026/02/14/new-china-ai-models-alibaba-bytedance-seedance-kuaishou-kling.html
+情報源: Reuters / CNBC | 収集日: 2026-02-21

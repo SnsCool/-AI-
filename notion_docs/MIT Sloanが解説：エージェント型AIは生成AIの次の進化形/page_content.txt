@@ -1,0 +1,14 @@
+# MIT Sloanが解説：エージェント型AIは生成AIの次の進化形
+
+Notion URL: https://www.notion.so/MIT-Sloan-AI-AI-30ef3b0fba8581f3a472e786fc732cb3
+同期日時: 2026-02-21T09:39:50+09:00
+
+---
+
+📋 概要
+MIT Sloanはエージェント型AIを生成AIの次の進化段階として解説しました。これらのAIは半自律的または完全自律的に行動し、単なるツールから自律的な行為者へと役割が変化しています。
+💡 ビジネス・技術への影響
+AIの利用形態が根本的に変わることで、技術開発や倫理・規制の枠組みが見直され、ビジネス戦略にも新たな視点が求められます。
+🔗 参考リンク
+https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained
+情報源: MIT Sloan | 収集日: 2026-02-21
