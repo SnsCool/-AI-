@@ -1,13 +1,13 @@
 # 1on1
 
 Notion URL: https://www.notion.so/1on1-30ef3b0fba858024a162d71718bb3c26
-同期日時: 2026-02-22T00:10:06+09:00
+同期日時: 2026-02-22T09:42:59+09:00
 
 ---
 
 自分の部署の緊急ではないが重要な課題
 ◆カリキュラムの自動化【現状】
-1月の進捗
+2月の進捗（量産していくフェーズ）（現状作成予定　84講義）
   プロンプト
      以下の資料を基に、講師と生徒の2人による講座動画の台本を作成してください。         
                                                                                       
@@ -420,33 +420,22 @@ Notion URL: https://www.notion.so/1on1-30ef3b0fba858024a162d71718bb3c26
   実際にできた台本
     https://drive.google.com/file/d/1kw5zToCXSQHn4BuAhuSFCBg7QqCFhE1K/view?usp=sharing
   感情表現用キャラクターイメージ作成（必要セット作成）
-  そもそも羊のキャラクター設定について、微妙・・・？　人にするか
-  Figumaでデザインテンプレート設定（微調整は人間）
-  https://www.figma.com/design/gqJtQlXt8j2stoW5edqCGT/Codia-AI-Canva--Import-Canva-Designs-to-Editable-Figma--%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3-?node-id=0-1&t=7krFCphkEb3tZkN0-1
-  ※NotebookLMとの比較もする
+  キャラクター作成（羊ではなく、女の子に変更）
+  Figumaでデザインテンプレート設定（微調整は人間）→NotebookLMに変更
   （途中）キャラクターのサイズ自動変更設定（最終調整含む）
-  fish audioの音声合体
-人間の手が必要
-  スライドの微調整
-  具体例の画像挿入
-  YAML（スライド）
-NotebookLM（HTML形式だったら使えるようになる）
-NotebookLM精度高い・・・NotebookLMのスライド化の方がよいか・・・
-
-◆講師の質の差をなくす（満足度高い低い要因の両方、半分を占めている）
-添削時間（12時間で講師アラートメッセージが届くようにする）
-何時に送られてきているのかを見る。ボリューム時間。（そもそも、アラートの仕方）通知設定しないと。要因をしっかり分析する。目的はレスポンスを早くすること。黄色信号/ クレームが過去に起きていた人。
-CSとサポートMGのCTO室メンバーが実装中
-添削内容（講師にNotebookLM、GPTsを展開して、一人一人の添削内容の質の向上）
-  村松、ゆな、サポートMGの過去添削、SnsClubラジオを格納
-  https://notebooklm.google.com/notebook/a26f53e0-5051-4298-8706-89d0d15ef677
-  https://chatgpt.com/g/g-69704a13b67c819190afbf14c5d781e9-dong-hua-tian-xue-ozhu-ketiyan　（精度まだ上げてる段階）
-
-◆イベント業務が時間かかっている問題について
-イベント運営の業務フロー
-12月オフ会（SnsClubオフ会稼働、145時間→40時間）
+  駒居さんボイスの修正
+  作成できたフローで生成（1講義5時間で作成）
+修正箇所
+  テロップの切り替えの修正の強化
+  大目次ごとに背景の変更
+人間の手が必要（4時間ほど）
+  台本とスライドのタイミングを合わせる指示作成
+  https://docs.google.com/spreadsheets/d/1LdFmuh3NzBELFc68MsPrWu8JlhL96-L1UUPqkfFqKGI/edit?usp=sharing
+アクションプラン
+  〜3月　60講義作成＆公開
+  〜4月　24講義作成＆こうか
+◆業務の効率化
 リソース（人・金・モノ）の強化提案
-◆BPR（業務プロセスの抜本的効率化）
 【進捗】
 CS業務の可視化
 https://docs.google.com/spreadsheets/d/12uJY4J39PffMHEOhh0PD5z4DJ1d8sSA4VFNXuO_9ohE/edit?usp=sharing

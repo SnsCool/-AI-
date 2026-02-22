@@ -1,7 +1,7 @@
 # SNS使用可能動画
 
 Notion URL: https://www.notion.so/SNS-2c1f3b0fba8580f8b543c3b05f4c3f79
-同期日時: 2026-02-13T15:41:38+09:00
+同期日時: 2026-02-22T09:43:08+09:00
 
 ---
 
@@ -20,3 +20,5 @@ Notion URL: https://www.notion.so/SNS-2c1f3b0fba8580f8b543c3b05f4c3f79
 4人目：佐瀬さん
 【2月9日20時公開】
 5人目：矢野さん
+【2月22日20時公開】
+6人目：小澤さん
