@@ -1,7 +1,7 @@
 # レシピ
 
 Notion URL: https://www.notion.so/302f3b0fba85801f9902e4b4ec779234
-同期日時: 2026-02-13T15:20:42+09:00
+同期日時: 2026-02-22T21:16:49+09:00
 
 ---
 
@@ -96,3 +96,8 @@ Notion URL: https://www.notion.so/302f3b0fba85801f9902e4b4ec779234
     参考動画：http://instagram.com/p/DTNGWpFifgs/
     参考動画：https://www.instagram.com/p/DPV4RbhiJq1/
     参考動画：https://www.instagram.com/reel/DT_45x3EqNm/
+スイーツレシピのフック
+    1. 「質感」を物理的に見せる
+    2. 「動詞」を撮影する
+    3. 光の使い分け（ライティング）
+    参考動画：https://www.instagram.com/p/DTpi86sESf4/
