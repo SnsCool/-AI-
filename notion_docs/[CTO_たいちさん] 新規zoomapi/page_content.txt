@@ -1,8 +1,8 @@
 # [CTO/たいちさん] 新規zoomapi
 
 Notion URL: https://www.notion.so/CTO-zoomapi-30ef3b0fba8580179e82cae4215d6efd
-同期日時: 2026-02-21T12:49:54+09:00
+同期日時: 2026-02-22T15:26:25+09:00
 
 ---
 
-(コンテンツなし)
+❌

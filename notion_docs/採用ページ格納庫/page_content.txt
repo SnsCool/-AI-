@@ -1,7 +1,7 @@
 # 採用ページ格納庫
 
 Notion URL: https://www.notion.so/2f7f3b0fba8580829adbd5e0da6b7d31
-同期日時: 2026-02-22T12:53:50+09:00
+同期日時: 2026-02-22T15:26:20+09:00
 
 ---
 
@@ -327,7 +327,7 @@ Notion URL: https://www.notion.so/2f7f3b0fba8580829adbd5e0da6b7d31
   BreakingDown
   RIZIN
   BOB2025
-26年マネタイズ合宿
+26年マネタイズ合宿用
   Levelaの採用ページをご覧いただき、ありがとうございます。このページでは、募集ポジションや応募フロー、福利厚生などを簡潔にまとめていますので、ご確認の上、ご応募ください。
   求人応募フォームはこちら：https://levela.co.jp/recruit/form4.html?ref=%E3%82%8D%E3%81%98%E3%82%93X
   1. 会社概要
