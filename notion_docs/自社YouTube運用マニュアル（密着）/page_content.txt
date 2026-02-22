@@ -1,7 +1,7 @@
 # 自社YouTube運用マニュアル（密着） 
 
 Notion URL: https://www.notion.so/YouTube-30bf3b0fba8580b5b57bfa2926a4a72d
-同期日時: 2026-02-19T03:24:54+09:00
+同期日時: 2026-02-23T00:14:44+09:00
 
 ---
 
@@ -27,6 +27,8 @@ https://docs.google.com/spreadsheets/d/1URlT8Z5nmvx5nBwAzQlCFj221CZdqS07VRn0knb1
 https://docs.google.com/spreadsheets/d/1iqLudj56QapXkNRvoIKAqN6e1XbswJNX0t8j3aaEa0A/edit?usp=sharing
 ④ 修正指示書（過去実施分）
 https://www.notion.so/2b1f3b0fba8580c1ad2be0bdeb5e4e6b?source=copy_link
+⑤アサイン状況資料／公開管理（シート１枚目／２枚目）
+https://docs.google.com/spreadsheets/d/1tMhkOzU1agOOWHpPOxbrS8F6iuMMpBsENpnPozGXFP0/edit?usp=sharing
 🔽STEP① 密着者アサイン
 ▫️目的
 密着動画に出演してもらう人物の確定
