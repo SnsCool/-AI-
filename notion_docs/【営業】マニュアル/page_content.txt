@@ -1,25 +1,26 @@
 # 【営業】マニュアル
 
 Notion URL: https://www.notion.so/2ccf3b0fba8580da9192cefc7e69b8e1
-同期日時: 2026-02-19T15:41:22+09:00
+同期日時: 2026-02-23T06:10:13+09:00
 
 ---
 
-営業におけるすべてのタスクを示したものではありません。
-ロードマップ以外にもインプットやアウトプットをすべき内容はあります。
-こちらはもぐラボ営業担当が必要最低限やってほしいことのリストとしてご認識ください！
-必要ツール準備編
-営業前の事前準備をしておきましょう！
-面談前研修
-営業活動開始に向けて二人三脚で頑張っていきましょう！上から順番に確認していってください！
-知識習得編
-面談実施前TODO
-面談実施時TODO
-ローンチに向けて、疑問点などを解決していきましょう！
-面談実施後TODO
-実際にストーリーをアップして、フォロワーさんに興味を持ってもらえるようにしましょう！
-面談前に、お客さんに対してどんな話をするのがいいかを把握しておきましょう！
-スクリプト
+必要ツールの準備
+  運営カレンダー
+  https://calendar.google.com/calendar/u/1?cid=bGV2ZWxhLmRpZXRAZ21haWwuY29t
+  もぐラボカレンダー
+  https://calendar.google.com/calendar/u/0?cid=bW9nbGFiMTIzQGdtYWlsLmNvbQ
+  もぐラボ
+  https://discord.gg/uTMGAArQmY
+  もぐラボ【運営用】
+  https://discord.gg/Fzp74nN8rY
+
+知識の習得
+  食べ痩せカリキュラム
+  https://shared-beak-b34.notion.site/2eef3b0fba85803e92b3f513c97e3311?source=copy_link
+営業資料の確認
+  https://www.canva.com/design/DAG-0Z6w0Nw/NCBK7EUArTd3A4mTS9O1ZA/edit
+スクリプトの確認
     ひろかマインド
     挨拶・自己紹介
     認識のすり合わせ
@@ -268,6 +269,10 @@ Notion URL: https://www.notion.so/2ccf3b0fba8580da9192cefc7e69b8e1
     アイスブレイク・自己紹介
     ヒアリング
     価値提供①（タイプ）
+    いくつか問題となること出しておく
+    停滞期
+    モチベ
+    良さそうなもの提供した。→知識をつけること重要
     布石
     サービス説明
     マインドセット・布石
@@ -490,9 +495,10 @@ levela.diet.96
   levela.diet@gmail.com
 levela.diet.96
   【エルステ】
-  ID：Levela_diet
+  https://manager.linestep.net/
+ID：Levela_diet
 PW：Leveladiet
-契約書
+契約書マニュアル
   https://docs.google.com/document/d/1g_loHuU9VrBLs9bSaApIGNAfBr6HHNny2y5WbO3qC7w/edit?usp=sharing
 決済ツール
   【カード決済】
@@ -530,3 +536,6 @@ PW：Leveladiet
   https://line.me/ti/p/%40584nzzgo
 商談録画
   https://drive.google.com/drive/folders/1CodLgae93-UDwDvh4dYI_DV2QQJO4un8?usp=drive_link
+営業管理シート
+  https://docs.google.com/spreadsheets/d/1bdSmkkQp7DP1OTdt1VJqmT43rQBKnY5LcN3yUXgWgEM/edit?usp=sharing
+  https://docs.google.com/spreadsheets/d/17fHrRXzJ_nmaia6HMPMQpAq3heyBEjM1W3Epy-wSFUk/edit?gid=0#gid=0
