@@ -1,0 +1,18 @@
+# Google、AI Pro/Ultraサブスクライバーのサードパーティツール（OpenClaw）利用を制限・アカウント停止
+
+Notion URL: https://www.notion.so/Google-AI-Pro-Ultra-OpenClaw-310f3b0fba8581d18f3ccbe707ac1db3
+同期日時: 2026-02-23T09:42:46+09:00
+
+---
+
+概要
+GoogleがAI Pro/Ultraサブスク利用者のサードパーティツールOpenClawなどのOAuth利用を規約違反とし、アカウント停止を実施。非Google製品でのAntigravityサーバー使用を禁止した。
+キーポイント
+AI Pro/Ultra（月350ドル）契約者のサードパーティツール利用を規約違反と判断
+OpenClawやOpenCodeなどのOAuth認証利用でアカウント停止措置
+GoogleのAntigravityサーバーを非Google製品で使うことを禁止
+ビジネスへの影響
+エコシステムの閉鎖性が強まり、開発者コミュニティの信頼低下やAI企業間の協業に悪影響を及ぼす可能性がある。
+情報源
+HackerNews / ai.google.dev
+#Google #AIサブスクリプション #サードパーティツール #規約違反 #開発者コミュニティ

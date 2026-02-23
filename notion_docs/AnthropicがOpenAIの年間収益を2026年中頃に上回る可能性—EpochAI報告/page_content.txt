@@ -1,0 +1,18 @@
+# AnthropicがOpenAIの年間収益を2026年中頃に上回る可能性—EpochAI報告
+
+Notion URL: https://www.notion.so/Anthropic-OpenAI-2026-EpochAI-310f3b0fba8581a6ba73c9a510f3df2d
+同期日時: 2026-02-23T09:42:48+09:00
+
+---
+
+概要
+EpochAIの分析で、AnthropicはOpenAIより10倍速く成長し、2026年中頃にOpenAIの年間収益を上回る可能性が示された。
+キーポイント
+Anthropicの成長速度はOpenAIの10倍
+2025年末にAnthropicの年換算収益は90億ドル超
+2026年2月には140億ドルに達する見込み
+ビジネスへの影響
+AIスタートアップ市場の勢力図が変わり、投資家の注目がAnthropicへシフトする可能性が高い。
+情報源
+Reddit / EpochAI
+#Anthropic #OpenAI #AI収益成長

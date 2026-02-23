@@ -1,0 +1,18 @@
+# Apple、ビジュアルインテリジェンス搭載ウェアラブルAIデバイスを次の主力製品に
+
+Notion URL: https://www.notion.so/Apple-AI-310f3b0fba8581e1896aec8d8ba1be87
+同期日時: 2026-02-23T09:42:48+09:00
+
+---
+
+概要
+AppleはVisual Intelligence搭載のウェアラブルAIデバイスを次期主力製品とし、カメラ付きAirPodsやスマートグラスを2026年後半に発売予定。AIが周囲環境を解析する機能を備える。
+キーポイント
+Tim CookがVisual Intelligenceをウェアラブルの核心機能と位置付け
+カメラ搭載AirPodsとスマートグラスを開発中
+2026年後半にカメラ搭載モデルを発売予定
+ビジネスへの影響
+ウェアラブルAI市場でMetaのRayban Glassesと競合し、新たな競争軸を形成する。
+情報源
+Bloomberg / Apple Insider
+#Apple #ウェアラブルAI #Visual Intelligence
