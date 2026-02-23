@@ -1,12 +1,12 @@
 # 2月3週目_もぐラボ_ひろか
 
 Notion URL: https://www.notion.so/2-3-_-_-310f3b0fba8580e394a0c08104c0e148
-同期日時: 2026-02-24T03:30:05+09:00
+同期日時: 2026-02-24T06:21:39+09:00
 
 ---
 
 今月目標と結果
-今月目標：20名成約
+目標：20名成約
 └現状19名成約済み → 残り1名
 └残り5アポ
 https://docs.google.com/spreadsheets/d/1bdSmkkQp7DP1OTdt1VJqmT43rQBKnY5LcN3yUXgWgEM/edit?usp=sharing
@@ -24,6 +24,19 @@ https://drive.google.com/file/d/1Zbqj-3LICkf3Jv_UHyYihzKVHt1UPEpy/view
 https://drive.google.com/file/d/1RFw1PKHRJEGgLLPW6DZ3k1insR7tgGqI/view
 さりな：個別相談ローンチ
 └1通のみ配信で個別申し込み：0件
+https://docs.google.com/spreadsheets/d/1pYEEzZFjSonJLUIFIvnxxRkjaPylI51b1AVYTuAJOfY/edit?usp=sharing
+https://docs.google.com/document/d/11s3EFOQxxPh-i5BgxZQc0CjMQh_Y4MF1IrDHpZE3Ifo/edit?usp=sharing
+KSF
+てぃーぞーのチャレンジローンチ
+① 参加ハードルを低めに設定した
+要因： 「3日間の献立と動画」という具体的かつ即可能な企画にしたこと。
+分析： よくある「痩せる方法」という重い訴求ではなく、「自分にもできるかも」と思わせる「軽さ」が、90名という集客数を生んだ最大の要因です。
+②「短期集中型」コンテンツによる成功体験の提供
+要因： 「3days」という、終わりが明確に見える期間設定。
+分析： ダイエットという継続が難しいテーマにおいて、3日間という「短さ」が参加者のコミットメントを引き出し、28名中20名（71%）という高い完走率を実現。この「最後までやり切れた」という小さな成功体験が、高い信頼構築に直結。
+KFF
+さりな個別誘導
+シンプルに直接誘導しすぎた
   私、変わりました。
 Hirokaさんのことを本気で変えたくて。
   さりなです☺️
@@ -52,58 +65,24 @@ Hirokaさんのことを本気で変えたくて。
   まずは無料の個別相談にご参加ください！☺️
 下のリンクから簡単に予約できます👇
   リンク
-https://docs.google.com/spreadsheets/d/1pYEEzZFjSonJLUIFIvnxxRkjaPylI51b1AVYTuAJOfY/edit?usp=sharing
-https://docs.google.com/document/d/11s3EFOQxxPh-i5BgxZQc0CjMQh_Y4MF1IrDHpZE3Ifo/edit?usp=sharing
-KSF
-てぃーぞーのチャレンジローンチ
-KSF① 参加ハードルを低めに設定した
-要因： 「3日間の献立と動画」という具体的かつ即時利用可能な高い便益（ベネフィット）をぶつけたこと。
-分析： 通常の「痩せる方法」という重い訴求ではなく、「きっかけなら自分にもできるかも」と思わせる「軽さ」が、目標30名に対して90名という異常な集客率（300%）を生んだ最大の要因です。
-① 「きっかけ」訴求の固定資産化
-AP： 今回の「集客時のバナー」や「告知文」を、もっとも反応が取れるフロントフックとして保存。次回以降も、この「きっかけ作り」を入り口にするのが最も集客コストを抑えられる。
-KSF②「短期集中型」コンテンツによる成功体験の提供
-要因： 「3days」という、終わりが明確に見える期間設定。
-分析： ダイエットという継続が難しいテーマにおいて、3日間という「短さ」が参加者のコミットメントを引き出し、28名中20名（71%）という高い完走率を実現しました。この「最後までやり切れた」という小さな成功体験が、高い信頼構築に直結
-② コンテンツの「隙間」の戦略的設計
-AP： 完走率が高いからこそ、あえて**「3日間では絶対に解決できない悩み」**をコンテンツ内に伏線として配置します。
-  例：配布献立の中に「この献立をあなたの体質に合わせて調整する方法は個別相談で」という一文を必須化
-KSF③「実益（献立・動画）」を介した直接的な価値提供
-要因： 抽象的なノウハウではなく、「今日何を食べるか」「何をやるか」という具体的な物理的ツールを配布したこと。
-分析： ユーザーが「考える」というコストを徹底的に排除し、「言われた通りに動けばいい状態」を作ったことが、幽霊部員化を防ぎ、実施・完走へと繋げた要因。
-KFF
-改善AP①「代替案」「自分の食事送るでもOK」の資料内明記：
-現在のPDFに「もし材料がない場合は、これでもOK」というコンビニ代替品リストを1枚追加するだけで、準備不足による離脱を大幅に減らせます。
-改善AP①「コンビニ版・買い物リスト」の用意：
-忙しくてスーパーに行けない層のために、PDFにあるコンビニメニュー
-（サラダチキン、おにぎり等）のリストも準備期間に配布する。
 今週AP
+残りのアポを成約させる
+3月ローンチの戦略立てる
 ロードマップ(定性)
 ロードマップ(定量)
+1〜3月：各月20名集客、MAX60名稼働、70〜90名稼働が可能な体制を構築。
+4〜6月：各月30名集客、MAX90名稼働、100〜120名稼働が可能な体制を構築。
+7〜9月：各月40名集客、MAX120名稼働、130〜150名稼働が可能な体制を構築。
+10〜12月：各月50名集客、MAX150名稼働を1月に叶える。
+→これで年商7,800万。上位プランとサブスクを組み込めば1億到達レベル。
 提案・相談事項
-ローンチと別で遂行してること
-各職種のマニュアル作成
-【講師】マニュアル 
-【トレーナー】マニュアル 
-【営業】マニュアル 
-【アフィリエイター】マニュアル 
 新規採用・教育
-講師：3月より始動
+先週
 https://www.instagram.com/marina_gohan?igsh=ZDZjbnI2Z2VvbXVy
-講師：4月より始動
-https://www.instagram.com/tuki_diet_gohan/?locale=ja_JP
-講師：4月より始動
-https://www.instagram.com/tabeyaseryouri?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D
-トレーナー：2月より始動
 https://www.instagram.com/sachi_face.bodypilates?igsh=MWNyNjB0cXFjbTZyMA%3D%3D&utm_source=qr
-2人のローンチやり切る・営業準備（マニュアル・スクリプト・資料・指導）
-各マニュアル化
-3月ローンチの目処を立てる
+今週
+https://www.instagram.com/tuki_diet_gohan/?locale=ja_JP
+https://www.instagram.com/tabeyaseryouri?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D
 ロゴ作成
-その他コミュニティ運営のブラッシュアップ（講師・トレーナー・AI関連・）
-価格モニター生インタビュー
-営業入る
-上位プラン：食事で何パターンか試す
-食のサービス
-食材・作る・できたもの・レシピ・健康・
-料理教室やる！
+https://www.lovart.ai/canvas?projectId=536aa2b65f0d4f3499c79a2d01039dcc
 ネクストアクション
