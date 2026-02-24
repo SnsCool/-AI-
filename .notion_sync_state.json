@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-02-23T21:21:46.237131+00:00",
+  "last_sync": "2026-02-24T00:39:49.027937+00:00",
   "pages": {
     "306f3b0f-ba85-8040-96ac-d640633f5de6": {
       "title": "顧客からの問い合わせ詳細分析",
@@ -14778,17 +14778,17 @@
     },
     "310f3b0f-ba85-80e3-94a0-c08104c0e148": {
       "title": "2月3週目_もぐラボ_ひろか",
-      "last_edited": "2026-02-23T19:45:00.000Z",
+      "last_edited": "2026-02-24T00:38:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/2月3週目_もぐラボ_ひろか"
     },
     "310f3b0f-ba85-8056-ac2c-f53fe10e5ce1": {
       "title": "2月3週目_ミチシル_ふうか",
-      "last_edited": "2026-02-23T19:32:00.000Z",
+      "last_edited": "2026-02-24T00:39:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/2月3週目_ミチシル_ふうか"
     },
     "310f3b0f-ba85-8066-892c-efd9230e8c6a": {
       "title": "さりな個別誘導",
-      "last_edited": "2026-02-23T19:28:00.000Z",
+      "last_edited": "2026-02-23T23:46:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/さりな個別誘導"
     },
     "310f3b0f-ba85-80ed-ad1c-ff632b583ed0": {
@@ -14800,6 +14800,76 @@
       "title": "事前確認したアーカイブと同じ流れで進める",
       "last_edited": "2026-02-23T15:33:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/事前確認したアーカイブと同じ流れで進める"
+    },
+    "311f3b0f-ba85-80a2-b0d9-d2525a5d294f": {
+      "title": "2月3週目_REALIVE_岡",
+      "last_edited": "2026-02-24T00:39:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/2月3週目_REALIVE_岡"
+    },
+    "311f3b0f-ba85-81e0-be00-c0e5d06a95f8": {
+      "title": "UC San Diego・MIT、LLM内部ステアリング技術を実証",
+      "last_edited": "2026-02-24T00:19:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/UC San Diego・MIT、LLM内部ステアリング技術を実証"
+    },
+    "311f3b0f-ba85-8101-8163-c11ac6cb87f9": {
+      "title": "FreeBSDにAIがWi-Fiドライバを自動生成、実用例として注目",
+      "last_edited": "2026-02-24T00:19:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/FreeBSDにAIがWi-Fiドライバを自動生成、実用例として注目"
+    },
+    "311f3b0f-ba85-81c1-8fa0-e9bcc3235cdd": {
+      "title": "Pentagon、AnthropicのAI安全ガードレール要求で交渉中",
+      "last_edited": "2026-02-24T00:19:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Pentagon、AnthropicのAI安全ガードレール要求で交渉中"
+    },
+    "311f3b0f-ba85-81a4-98d7-ecadd6c42951": {
+      "title": "Anthropic、中国企業によるClaudeの知識蒸留を告発",
+      "last_edited": "2026-02-24T00:19:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Anthropic、中国企業によるClaudeの知識蒸留を告発"
+    },
+    "311f3b0f-ba85-810a-afa4-dca6f6febbbe": {
+      "title": "Guide Labs、解釈可能なLLM「Steerling-8B」をオープンソース公開",
+      "last_edited": "2026-02-24T00:19:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Guide Labs、解釈可能なLLM「Steerling-8B」をオープンソース公開"
+    },
+    "311f3b0f-ba85-81c0-b1af-d08c57dd002d": {
+      "title": "Big Tech、2026年にAI投資総額6500億ドル超を予測",
+      "last_edited": "2026-02-24T00:19:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Big Tech、2026年にAI投資総額6500億ドル超を予測"
+    },
+    "311f3b0f-ba85-81f0-b277-cb2c2780caa2": {
+      "title": "ホワイトハウス、インドAIサミットでグローバルAIイニシアチブ発表",
+      "last_edited": "2026-02-24T00:18:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/ホワイトハウス、インドAIサミットでグローバルAIイニシアチブ発表"
+    },
+    "311f3b0f-ba85-8180-9ccd-d8c4d0df26c5": {
+      "title": "Anthropic、380億ドル評価でエンタープライズAIの転換点示す",
+      "last_edited": "2026-02-24T00:18:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Anthropic、380億ドル評価でエンタープライズAIの転換点示す"
+    },
+    "311f3b0f-ba85-819d-8f60-faab20515bd9": {
+      "title": "OpenAI、4大コンサルと提携し企業向けAI普及を加速",
+      "last_edited": "2026-02-24T00:18:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/OpenAI、4大コンサルと提携し企業向けAI普及を加速"
+    },
+    "311f3b0f-ba85-8104-b048-f52f32016f57": {
+      "title": "DeepSeek、新AIモデルリリースでNasdaq株価に影響懸念",
+      "last_edited": "2026-02-24T00:18:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/DeepSeek、新AIモデルリリースでNasdaq株価に影響懸念"
+    },
+    "311f3b0f-ba85-8109-b0ed-f917d8a3aeb5": {
+      "title": "Goldman Sachs：AIの米国GDP成長への寄与はほぼゼロ",
+      "last_edited": "2026-02-24T00:18:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Goldman Sachs：AIの米国GDP成長への寄与はほぼゼロ"
+    },
+    "311f3b0f-ba85-817d-8671-d887199f46e9": {
+      "title": "📰 AI Daily Topics - 2026-02-24",
+      "last_edited": "2026-02-24T00:18:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/📰 AI Daily Topics - 2026-02-24"
+    },
+    "310f3b0f-ba85-8032-a171-c8d153773c71": {
+      "title": "個別誘導",
+      "last_edited": "2026-02-23T23:50:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/個別誘導"
     }
   }
 }

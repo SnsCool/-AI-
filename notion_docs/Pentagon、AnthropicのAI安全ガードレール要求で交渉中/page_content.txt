@@ -1,0 +1,18 @@
+# Pentagon、AnthropicのAI安全ガードレール要求で交渉中
+
+Notion URL: https://www.notion.so/Pentagon-Anthropic-AI-311f3b0fba8581c18fa0e9bcc3235cdd
+同期日時: 2026-02-24T09:39:42+09:00
+
+---
+
+概要
+米国防総省はAnthropicとAI契約に関する交渉を実施。Anthropicは軍事用途でのAI活用にあたり安全ガードレールの設置を要求しており、安全基準の策定が焦点となっている。
+💼 ビジネス影響
+軍事分野でのAI安全基準整備が進むことで、関連契約の条件や市場参入に影響を及ぼす可能性がある。
+📰 情報源
+媒体: New York Times
+URL: https://www.nytimes.com/2026/02/23/us/politics/pentagon-anthropic-ai.html
+📊 メタデータ
+カテゴリ: Policy & Regulation
+重要度: 中
+収集日: 2026-02-24

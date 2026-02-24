@@ -1,0 +1,18 @@
+# DeepSeek、新AIモデルリリースでNasdaq株価に影響懸念
+
+Notion URL: https://www.notion.so/DeepSeek-AI-Nasdaq-311f3b0fba858104b048f52f32016f57
+同期日時: 2026-02-24T09:39:47+09:00
+
+---
+
+概要
+中国DeepSeekが新AIモデルのリリースを予告し、過去のリリース時にNasdaqのAI関連銘柄が大幅下落したことから、今回も同様の市場混乱が予想されている。特にNvidiaなどの株価に影響が懸念されている。
+💼 ビジネス影響
+AIモデルの発表が米国株式市場のボラティリティを高め、投資家心理に影響を与える可能性がある。
+📰 情報源
+媒体: CNBC
+URL: https://www.cnbc.com/2026/02/23/deepseek-to-release-new-ai-model-a-rough-period-for-nasdaq-stocks-could-follow.html
+📊 メタデータ
+カテゴリ: Model Release
+重要度: 高
+収集日: 2026-02-24

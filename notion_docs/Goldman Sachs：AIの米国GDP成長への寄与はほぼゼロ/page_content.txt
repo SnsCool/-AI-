@@ -1,0 +1,18 @@
+# Goldman Sachs：AIの米国GDP成長への寄与はほぼゼロ
+
+Notion URL: https://www.notion.so/Goldman-Sachs-AI-GDP-311f3b0fba858109b0edf917d8a3aeb5
+同期日時: 2026-02-24T09:39:47+09:00
+
+---
+
+概要
+Goldman Sachsの主任エコノミストJan Hatziusは、AI関連投資が2025年の米国GDP成長にほとんど寄与していないと指摘。主な理由はAIハードウェアの多くが台湾・韓国製で米国内生産に計上されないためで、経営幹部の調査でも生産性向上や雇用への影響は限定的とされている。
+💼 ビジネス影響
+米国内のAI投資がGDPに直結しにくい構造が明らかとなり、投資戦略の見直しが求められる。
+📰 情報源
+媒体: Gizmodo / Goldman Sachs
+URL: https://gizmodo.com/ai-added-basically-zero-to-us-economic-growth-last-year-goldman-sachs-says-2000571527
+📊 メタデータ
+カテゴリ: Business & Investment
+重要度: 高
+収集日: 2026-02-24

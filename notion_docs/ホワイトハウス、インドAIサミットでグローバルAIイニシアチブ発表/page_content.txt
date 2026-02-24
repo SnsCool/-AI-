@@ -1,0 +1,18 @@
+# ホワイトハウス、インドAIサミットでグローバルAIイニシアチブ発表
+
+Notion URL: https://www.notion.so/AI-AI-311f3b0fba8581f0b277cb2c2780caa2
+同期日時: 2026-02-24T09:39:43+09:00
+
+---
+
+概要
+ホワイトハウスはインドAIインパクトサミットで「American AI stack」輸出プログラムや技術者派遣のU.S. Tech Corps、NISTのAI標準化イニシアチブを発表。米国主導のAIグローバル標準確立を目指す一方、欧州・インドはAI主権を重視し対立軸が浮上している。
+💼 ビジネス影響
+米国のAI技術輸出と標準化推進により国際競争力が強化されるが、地域間の政策対立も市場リスクとなる。
+📰 情報源
+媒体: GovInfoSecurity
+URL: https://www.govinfosecurity.com/white-house-rolls-out-global-ai-initiatives-a-30834
+📊 メタデータ
+カテゴリ: Policy & Geopolitics
+重要度: 高
+収集日: 2026-02-24

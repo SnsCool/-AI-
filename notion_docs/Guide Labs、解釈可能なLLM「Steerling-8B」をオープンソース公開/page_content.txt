@@ -1,0 +1,18 @@
+# Guide Labs、解釈可能なLLM「Steerling-8B」をオープンソース公開
+
+Notion URL: https://www.notion.so/Guide-Labs-LLM-Steerling-8B-311f3b0fba85810aafa4dca6f6febbbe
+同期日時: 2026-02-24T09:39:43+09:00
+
+---
+
+概要
+Guide Labsが8Bパラメータの解釈可能LLM「Steerling-8B」を公開。各トークン生成過程を学習データまで追跡可能で、既存モデルの90%性能を維持しつつブラックボックス問題を解消。金融や医療など規制産業での活用が期待される。
+💼 ビジネス影響
+解釈可能性の向上により規制産業でのAI採用が促進され、新たな市場機会が創出される。
+📰 情報源
+媒体: TechCrunch
+URL: https://techcrunch.com/2026/02/23/guide-labs-debuts-a-new-kind-of-interpretable-llm/
+📊 メタデータ
+カテゴリ: Research
+重要度: 中
+収集日: 2026-02-24

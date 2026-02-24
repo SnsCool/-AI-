@@ -1,0 +1,18 @@
+# Anthropic、中国企業によるClaudeの知識蒸留を告発
+
+Notion URL: https://www.notion.so/Anthropic-Claude-311f3b0fba8581a498d7ecadd6c42951
+同期日時: 2026-02-24T09:39:42+09:00
+
+---
+
+概要
+AnthropicはDeepSeekなど中国AI企業がClaudeを利用して自社モデルを改善する知識蒸留行為を問題視し、利用規約違反として告発。米中AI技術競争における知的財産権問題が浮上している。
+💼 ビジネス影響
+知的財産権侵害の懸念が米中間のAI技術競争を激化させ、企業間の信頼関係に影響を与える可能性がある。
+📰 情報源
+媒体: Reuters / The Verge
+URL: https://www.reuters.com/world/china/chinese-companies-used-claude-improve-own-models-anthropic-says-2026-02-23/
+📊 メタデータ
+カテゴリ: Policy & Geopolitics
+重要度: 中
+収集日: 2026-02-24

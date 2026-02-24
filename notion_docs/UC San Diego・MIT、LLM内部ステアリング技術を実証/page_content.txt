@@ -1,0 +1,18 @@
+# UC San Diego・MIT、LLM内部ステアリング技術を実証
+
+Notion URL: https://www.notion.so/UC-San-Diego-MIT-LLM-311f3b0fba8581e0be00c0e5d06a95f8
+同期日時: 2026-02-24T09:39:41+09:00
+
+---
+
+概要
+UC San DiegoとMITの研究者がLLMの内部セマンティックベクトルを特定・調整する新技術を発表。これによりモデルの出力制御がより精密になり、応用範囲の拡大が期待される。
+💼 ビジネス影響
+高度な出力制御技術の実用化により、カスタマイズ性の高いAIサービス開発が促進される可能性がある。
+📰 情報源
+媒体: HPCwire
+URL: https://www.hpcwire.com/aiwire/2026/02/23/researchers-demonstrate-new-internal-steering-technique-for-llms/
+📊 メタデータ
+カテゴリ: Research
+重要度: 低
+収集日: 2026-02-24

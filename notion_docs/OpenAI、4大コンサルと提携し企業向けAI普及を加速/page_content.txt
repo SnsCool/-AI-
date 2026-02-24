@@ -1,0 +1,18 @@
+# OpenAI、4大コンサルと提携し企業向けAI普及を加速
+
+Notion URL: https://www.notion.so/OpenAI-4-AI-311f3b0fba85819d8f60faab20515bd9
+同期日時: 2026-02-24T09:39:46+09:00
+
+---
+
+概要
+OpenAIはBCG、McKinsey、Accenture、Capgeminiと複数年のパートナーシップ「Frontier Alliances」を締結し、企業顧客のAI導入支援を強化。Anthropicも同様にDeloitteやAccentureと提携し、エンタープライズAIの普及を狙う。
+💼 ビジネス影響
+大手コンサルとの連携により企業のAI採用が加速し、AI市場の拡大と競争激化が予想される。
+📰 情報源
+媒体: TechCrunch / CNBC
+URL: https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/
+📊 メタデータ
+カテゴリ: Business & Investment
+重要度: 高
+収集日: 2026-02-24

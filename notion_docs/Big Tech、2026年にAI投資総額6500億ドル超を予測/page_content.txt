@@ -1,0 +1,18 @@
+# Big Tech、2026年にAI投資総額6500億ドル超を予測
+
+Notion URL: https://www.notion.so/Big-Tech-2026-AI-6500-311f3b0fba8581c0b1afd08c57dd002d
+同期日時: 2026-02-24T09:39:43+09:00
+
+---
+
+概要
+Bridgewaterの調査によると、Alphabet、Amazon、Meta、Microsoftの4社が2026年にAI関連インフラに約6500億ドルを投資予定。主にデータセンター建設やAIチップ調達に充てられる見込み。
+💼 ビジネス影響
+大手テック企業の巨額投資がAIインフラの拡充を促進し、関連市場の成長を後押しする。
+📰 情報源
+媒体: Reuters
+URL: https://www.reuters.com/business/big-tech-invest-about-650-billion-ai-2026-bridgewater-says-2026-02-23/
+📊 メタデータ
+カテゴリ: Business & Investment
+重要度: 中
+収集日: 2026-02-24
