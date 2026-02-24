@@ -1,7 +1,7 @@
 # 2月3週目_REALIVE_岡
 
 Notion URL: https://www.notion.so/2-3-_REALIVE_-311f3b0fba8580a2b0d9d2525a5d294f
-同期日時: 2026-02-24T09:39:38+09:00
+同期日時: 2026-02-24T12:56:44+09:00
 
 ---
 
@@ -18,26 +18,51 @@ https://docs.google.com/spreadsheets/d/1e57-3vX43UnAzTbWk9luKEjS3zbKcKMQz6vFXo5R
 ▼受講生確認
 https://docs.google.com/spreadsheets/d/1e57-3vX43UnAzTbWk9luKEjS3zbKcKMQz6vFXo5ROcQ/edit?gid=785745425#gid=785745425
 KSF
+ロゴ制作
+  ブランドコンセプトから逆算して整理したキーワードを軸にラフ案を作成
+  キーワード
+    明るさ
+    嬉しい変化
+    親しみやすさ
+    未来
+    サポート
+    コミット
+    本気
+  詳細
+  https://www.canva.com/design/DAHBq24-KS0/BEzU3rVe-EWVw5GdvQRmiA/edit?utm_content=DAHBq24-KS0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+営業関連
+  Sns Clubへの個人アタックの実施
+    文書を個人個人に寄せた送付の実施
+  面談の成功
+    10件中8件の成約
+  講師との関係性構築
+    2日に1回のMTGの実施
 KFF
 今週AP
-100面談実施目標
-Epi Group : 30面談
-  2/17(火) 19:30〜 | MTG予定
-  2/20(金) | 募集開始目標
-Sns Club : 70面談
-  リストアップ |完了
-  Lステップログイン | 完了
-コンセプト関連
+集客関連
+  20名の追加面談を実施
+    個別アタック40名への実施
+  Epi Groupの流入
+    2/28
+ロゴ関連
   ラフ作成
     候補収集〜ラフ作成 | 2/19(木)
     本格デザイン | 2/24(火)
     最終決定 | 2/28(土)
 
 ロードマップ(定性)
-2/28(土) コンセプト案作成
+2/24(火) 14:00 検証内容の確認
+  適性金額
+  適正期間
+2/25(水)13:00 1on1面談のルール仕組みの構築
+2/28(土) ロゴ案作成
+2/28(土)媒体資料修正版作成
 3/2(月) 15名モニター生スタート
 ロードマップ(定量)
-2/22(日) 80面談追加決定
-2/25(水) 15名募集完了
+2/26(木) 20面談追加決定
 提案・相談事項
 ネクストアクション
+集客・募集
+コンセプト・ロゴ
+モニター検証・システム
+講師関連

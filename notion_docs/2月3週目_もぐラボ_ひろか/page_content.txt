@@ -1,7 +1,7 @@
 # 2月3週目_もぐラボ_ひろか
 
 Notion URL: https://www.notion.so/2-3-_-_-310f3b0fba8580e394a0c08104c0e148
-同期日時: 2026-02-24T09:39:41+09:00
+同期日時: 2026-02-24T12:57:13+09:00
 
 ---
 
@@ -57,14 +57,14 @@ https://drive.google.com/file/d/1RFw1PKHRJEGgLLPW6DZ3k1insR7tgGqI/view
 KSF
 てぃーぞーチャレンジローンチ
 ① 参加ハードルを低めに設定した
-「3日間チャレンジ」という「自分にもできるかも」と思わせる「軽さ」が、90名という申し込み数を生んだ。
-②「短期集中型」コンテンツによる成功体験の提供
-「3日間」という、終わりが明確に見える期間設定で、28名中20名（71%）という完走率。
+「3日間チャレンジ」という「自分にもできるかも」と思わせる軽さが、90名という申し込み数に。
+②「短期集中」コンテンツによる成功体験の提供
+「3日間」という、終わりが見える期間設定で、28名中20名（71%）という完走率に。
 KFF
 てぃーぞーのチャレンジローンチ
 ①チャレンジ企画の説明がわかりにくかった
 https://drive.google.com/file/d/1Zbqj-3LICkf3Jv_UHyYihzKVHt1UPEpy/view
-参加表明したものの、よくわからず離脱
+参加表明したものの、前日にやり方やベネフィットがよくわからず離脱した可能性
 ②個別誘導の仕方と追い切りが雑だった
   🔴さん
 3日間本当にお疲れ様でした✨
@@ -113,7 +113,6 @@ https://drive.google.com/file/d/1Zbqj-3LICkf3Jv_UHyYihzKVHt1UPEpy/view
 それに向けての採用と教育
 料理教室を実施
 モニターインタビュー実施
-ロードマップ(定性)
 ロードマップ(定量)
 1〜3月：各月20名集客、MAX60名稼働、70〜90名稼働が可能な体制を構築。
 4〜6月：各月30名集客、MAX90名稼働、100〜120名稼働が可能な体制を構築。
@@ -134,5 +133,4 @@ https://www.instagram.com/tabeyaseryouri?utm_source=ig_web_button_share_sheet&ig
 https://www.instagram.com/snsclub.insta16?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
 ロゴ作成
 https://www.lovart.ai/canvas?projectId=536aa2b65f0d4f3499c79a2d01039dcc
-提案資料をよくしたい
 ネクストアクション
