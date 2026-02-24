@@ -1,7 +1,7 @@
 # まい┊1食200円の平日冷凍弁当
 
 Notion URL: https://www.notion.so/1-200-301f3b0fba8580558debd63b898a57b1
-同期日時: 2026-02-23T12:55:56+09:00
+同期日時: 2026-02-25T00:27:15+09:00
 
 ---
 
@@ -23,3 +23,4 @@ Notion URL: https://www.notion.so/1-200-301f3b0fba8580558debd63b898a57b1
 https://drive.google.com/file/d/1cd4v0bkWgQjntx5jr4K_RnEFGCSic--n/view?usp=sharing
 リンククリック数：87件
 購入数：6件
+購入率：6%
