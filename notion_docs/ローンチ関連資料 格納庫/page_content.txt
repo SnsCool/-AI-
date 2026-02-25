@@ -1,7 +1,7 @@
 # ローンチ関連資料 格納庫
 
 Notion URL: https://www.notion.so/2ccf3b0fba858005b183ca54e4ca7a54
-同期日時: 2026-02-15T06:10:08+09:00
+同期日時: 2026-02-25T18:26:24+09:00
 
 ---
 
@@ -58,30 +58,44 @@ Notion URL: https://www.notion.so/2ccf3b0fba858005b183ca54e4ca7a54
   目的：成約率の向上、個別相談の予約率向上
   現状：教育が足りておらず、営業のハードルが高い
   ┗もう少しサポートに興味を持つ状態を個別相談前で作っていく
-  ①SNS告知
-  16タイプ診断という名目で、興味を引く。自分の対応を知るきっかけを与える
-  ②LINE追加
-  診断アプリを作成し診断する
-    診断結果を送る際、
-    タイプ別の「よくある失敗パターン」
-    「あなたのタイプが最短で成果を出すための唯一の欠落ポイント」
-    　　という伏線を張る。
-  ③教育動画
-  診断結果お待たせしました！
-  〇〇タイプの方は△△力がありますが、実は『自己流の型』に
-  固執して遠回りしやすい傾向があります。
-  この壁を突破する具体策は、次の動画で解説します」と繋げ、
-  「独学＝時間の損失」という意識を強めます。
-  教育内容
-    自己流は失敗への道
-    食事制限は地獄の始まり
-    代謝の話→食べないと脂肪燃えない体になり、我慢でしか痩せれなくなる。食べたら即太る
-  ④CTA
-  ダイエット戦略設計、ロードマップ相談会
-  アンケート実施（審査制）
-    参加理由
-    理想
-    最悪な未来
+  エバー動線を確立し、常時集客できる仕組みを設計する
+  案①
+    ①SNS告知
+    16タイプ診断という名目で、興味を引く。自分の対応を知るきっかけを与える
+    ②LINE追加
+    診断アプリを作成し診断する
+    ③教育動画
+    教育内容
+    ④CTA
+    ダイエット戦略設計、ロードマップ相談会
+    アンケート実施（審査制）
+  案②
+    ① SNS告知
+    アクション: 「食べ痩せ攻略動画」＋「豪華特典」の無料配布をメインに打ち出す。
+    狙い: 「これさえあれば痩せられる」という期待感でLINE登録の動機を最大化する。
+    ライティング: 「【保存版】努力ゼロで脂肪を燃やす『食べ痩せ攻略動画』と、そのまま真似るだけの52大特典を完全無料で受け取ってください。」
+    ② LINE追加・特典配布
+    アクション: 登録直後に「プレミアム動画」と「特典一覧」を送付する。
+    仕掛け: 特典を送る際、「これだけあれば十分」と思わせつつ、同時に「活用しきれないリスク」という伏線を張る。
+    メッセージ例:
+    「お待たせしました！特典の受取はこちらです。
+この資料には『痩せるための正解』が全て詰まっています。ですが、実は9割の方が特典を受け取っただけで満足し、『自分に合う活用法』がわからず遠回りして終わってしまいます。
+あなたがこの膨大な資料を宝の持ち腐れにせず、最短で成果を出すための『唯一の欠落ポイント』を、次の動画で解説します。これを見ずに資料を読み込むのは、時間の損失です。」
+    ③ 教育動画（VLS）
+    テーマ: 「自己流は失敗への道」「食事制限は地獄の始まり」
+    内容: * 代謝の真実: 「食べない＝脂肪が燃えない体」になり、我慢の先に待つのは「リバウンド」と「食べたら即太る体」という恐怖を伝える。
+    ④ CTA（誘導）
+    名称: 「ダイエット戦略設計・ロードマップ相談会」
+    特別感: 52大特典を「あなた専用」にカスタマイズするため、人数限定・審査制であることを強調。
+    アンケート実施: 予約前に以下の内容を回答させる。
+    ⑤ 個別相談
+    アクション: 特典の活用方法をベースに悩みを深掘り。
+    価値提供: 特典の中から今のユーザーに必要なものをピックアップし、その場で「あなた専用の3ヶ月ロードマップ」を提示する。
+    演出: 「この52個の武器を、いつ、どの順番で使うべきか。その答えがこのロードマップです」と提示。
+    ⑥ 営業
+    アクション: ロードマップを「完走するための環境（サポート）」を提案。
+    クロージング: 大量の資料（特典）があっても、一人では「正解」を選び続けられないリスクと、プロが伴走する価値を対比。
+    決め台詞: 「この膨大な特典、一人で使いこなす自信はありますか？もし迷いがあるなら、私と一緒に確実に『食べ痩せ』を実現しませんか？」
   必要項目
   SNS
   ローンチコンセプト設計
@@ -98,8 +112,17 @@ Notion URL: https://www.notion.so/2ccf3b0fba858005b183ca54e4ca7a54
   アンケート内容作成（本気度アップさせる）
   参加特典もあればより良い？
   16タイプ
+  てぃーぞーLINE→もぐラボ誘導
 ダイエット事業
 https://docs.google.com/spreadsheets/d/1ezCjICUfjWYVIhQaql-e-n28FW1AdjTFoGAphALKX4s/edit?gid=0#gid=0
+ひろかの過去事例
+https://docs.google.com/document/d/1oEjA8Fx8YoXUJTebnXqYuJApu10NrN1sAmv8ATR-bes/edit?tab=t.0
+https://docs.google.com/document/d/1wNXkpUwuUqK57yGtubon3FDy902Pg_RNZIiupKpBfEk/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/11nGIVAfuvo9RQ8CczqCEmte6HhiUMEmjP0jxfQdb3wk/edit?gid=270011799#gid=270011799
+https://docs.google.com/document/d/160hNmggs_SHTpKx4a3PID82ofZSELbTfj26fB0xW5A4/edit?tab=t.0
+https://docs.google.com/document/d/17PwJ-WRSTGR52e89Q5rZP8HusFhyMuAiLReZKDvz2dY/edit?tab=t.0
+https://docs.google.com/document/d/1m9rxIFFIy8wvBkTBn2X3hXDeIbIxYN9wGrLehJL8ElQ/edit?tab=t.0#heading=h.njb3oqghyvhs
+https://docs.google.com/document/d/1SIbmuOda3QW4jLw_Hjd_q-zgbWJS3XtGYwNagZAEECc/edit?tab=t.0
 SnsClub関連資料
 https://docs.google.com/spreadsheets/d/1J37-iV4BechlQrP6lDzafMArPgqq8lCC32b2Zooqe-4/edit?gid=520163859#gid=520163859
 https://docs.google.com/spreadsheets/d/1KSyaCI4g8GsnqmndJ0LglLLiWR3KjYsCUHHbA8Nt-V0/edit?gid=589815825#gid=589815825
