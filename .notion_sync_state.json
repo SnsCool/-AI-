@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-02-25T00:45:01.547961+00:00",
+  "last_sync": "2026-02-25T03:56:44.024185+00:00",
   "pages": {
     "306f3b0f-ba85-8040-96ac-d640633f5de6": {
       "title": "顧客からの問い合わせ詳細分析",
@@ -143,7 +143,7 @@
     },
     "306f3b0f-ba85-809e-85bb-eae00e3bb89f": {
       "title": "MVP選定",
-      "last_edited": "2026-02-13T05:29:00.000Z",
+      "last_edited": "2026-02-25T01:36:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/MVP選定"
     },
     "2c5f3b0f-ba85-805e-9a9d-f38a09a61705": {
@@ -1083,7 +1083,7 @@
     },
     "1c3f3b0f-ba85-8046-b33e-dfc3c5d8050f": {
       "title": "CS部",
-      "last_edited": "2026-02-22T12:12:00.000Z",
+      "last_edited": "2026-02-25T03:28:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/CS部"
     },
     "306f3b0f-ba85-8055-a0eb-fb45a48f31b4": {
@@ -2358,7 +2358,7 @@
     },
     "7f19ff35-7ffc-4c78-8c71-92cb99d5204a": {
       "title": "Levela Portal",
-      "last_edited": "2026-02-22T16:58:00.000Z",
+      "last_edited": "2026-02-25T02:42:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/Levela Portal"
     },
     "305f3b0f-ba85-80c4-8b97-de78307fc1eb": {
@@ -2997,9 +2997,9 @@
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/谷田 瑞季さん"
     },
     "2cdf3b0f-ba85-8069-b301-cebe29e63163": {
-      "title": "中途解約対応",
-      "last_edited": "2026-02-18T12:45:00.000Z",
-      "path": "/home/runner/work/-AI-/-AI-/notion_docs/中途解約対応"
+      "title": "中途解約",
+      "last_edited": "2026-02-25T02:25:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/中途解約"
     },
     "302f3b0f-ba85-8082-b6d9-e7b4cdcafb6f": {
       "title": "りくさん1on1",
@@ -3248,7 +3248,7 @@
     },
     "299f3b0f-ba85-80bf-b6ac-c28e6469a874": {
       "title": "保証制度",
-      "last_edited": "2026-02-24T14:59:00.000Z",
+      "last_edited": "2026-02-25T01:34:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/保証制度"
     },
     "2e8f3b0f-ba85-8034-a00e-f694e8bacae5": {
@@ -4368,7 +4368,7 @@
     },
     "2fef3b0f-ba85-809f-af5b-d22d031fb66a": {
       "title": "CS営業連携",
-      "last_edited": "2026-02-15T01:00:00.000Z",
+      "last_edited": "2026-02-25T03:04:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/CS営業連携"
     },
     "24df3b0f-ba85-80e1-9c41-e4fab8a626a7": {
@@ -5418,7 +5418,7 @@
     },
     "2e3f3b0f-ba85-80d9-8e31-ee69c0e24f8c": {
       "title": "X顧問",
-      "last_edited": "2026-02-24T02:57:00.000Z",
+      "last_edited": "2026-02-25T02:59:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/X顧問"
     },
     "306f3b0f-ba85-80df-9fa0-d290f145ffc6": {
@@ -10628,12 +10628,12 @@
     },
     "2fff3b0f-ba85-8082-8260-ed159aa12c7d": {
       "title": "🌱PP9（初投稿作成）の改善",
-      "last_edited": "2026-02-17T01:17:00.000Z",
+      "last_edited": "2026-02-25T01:57:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/🌱PP9（初投稿作成）の改善"
     },
     "2fff3b0f-ba85-8028-b734-d359f748ab3a": {
       "title": "🌱PP6（リール台本模写）の改善",
-      "last_edited": "2026-02-17T01:17:00.000Z",
+      "last_edited": "2026-02-25T01:57:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/🌱PP6（リール台本模写）の改善"
     },
     "2fff3b0f-ba85-80d6-aa24-f6c2f773019c": {
@@ -10648,7 +10648,7 @@
     },
     "2fdf3b0f-ba85-8079-bad6-e98406ee5825": {
       "title": "🌱SP（STEP1）の改善",
-      "last_edited": "2026-02-17T06:49:00.000Z",
+      "last_edited": "2026-02-25T01:57:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/🌱SP（STEP1）の改善"
     },
     "2fdf3b0f-ba85-80a8-bc72-f3fbb3b0abda": {
@@ -10673,12 +10673,12 @@
     },
     "30af3b0f-ba85-80b4-a1ac-c3004b56ba60": {
       "title": "GPT時代遅れ",
-      "last_edited": "2026-02-20T08:23:00.000Z",
+      "last_edited": "2026-02-25T03:49:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/GPT時代遅れ"
     },
     "30af3b0f-ba85-800b-9949-c7a622883d3e": {
       "title": "明日電気が止まる",
-      "last_edited": "2026-02-24T04:17:00.000Z",
+      "last_edited": "2026-02-25T03:49:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/明日電気が止まる"
     },
     "30af3b0f-ba85-8038-b9c4-f4b77cc5424d": {
@@ -10873,7 +10873,7 @@
     },
     "30af3b0f-ba85-80fb-b957-c9786a0f62d2": {
       "title": "大人のぬりえ",
-      "last_edited": "2026-02-24T06:18:00.000Z",
+      "last_edited": "2026-02-25T03:48:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/大人のぬりえ"
     },
     "30af3b0f-ba85-80c0-a6b0-db4352e1fdb3": {
@@ -10888,7 +10888,7 @@
     },
     "2fcf3b0f-ba85-80af-b2d7-df56262ae239": {
       "title": "1月_りお月次資料",
-      "last_edited": "2026-02-18T06:48:00.000Z",
+      "last_edited": "2026-02-25T01:56:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/1月_りお月次資料"
     },
     "30af3b0f-ba85-8055-87f6-e66e0f930852": {
@@ -11077,9 +11077,9 @@
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/クローク札本申し込み"
     },
     "30bf3b0f-ba85-8061-bd2d-d0fb32ee3d2f": {
-      "title": "2026年2月2週目",
-      "last_edited": "2026-02-18T03:34:00.000Z",
-      "path": "/home/runner/work/-AI-/-AI-/notion_docs/2026年2月2週目"
+      "title": "2026年2月3週目",
+      "last_edited": "2026-02-25T03:42:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/2026年2月3週目"
     },
     "30bf3b0f-ba85-8061-9363-f90862f0b3b9": {
       "title": "【開発】最新OSでも使用できるClipy開発",
@@ -11112,9 +11112,9 @@
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/Untitled"
     },
     "30bf3b0f-ba85-80f0-8b06-f0363917600e": {
-      "title": "2026年2月2週目",
-      "last_edited": "2026-02-18T03:21:00.000Z",
-      "path": "/home/runner/work/-AI-/-AI-/notion_docs/2026年2月2週目"
+      "title": "2026年2月3週目",
+      "last_edited": "2026-02-25T02:58:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/2026年2月3週目"
     },
     "300f3b0f-ba85-803d-914a-d83fb67147aa": {
       "title": "新規事業_Weekly会議 ",
@@ -11303,7 +11303,7 @@
     },
     "30bf3b0f-ba85-8044-aa93-fb0ee73da181": {
       "title": "領収書発行",
-      "last_edited": "2026-02-18T02:10:00.000Z",
+      "last_edited": "2026-02-25T01:19:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/領収書発行"
     },
     "2fdf3b0f-ba85-800a-92af-dae124a44bee": {
@@ -11453,7 +11453,7 @@
     },
     "2acf3b0f-ba85-80c7-b79f-f7bbc68f436d": {
       "title": "休会対応マニュアル",
-      "last_edited": "2026-02-18T00:53:00.000Z",
+      "last_edited": "2026-02-25T01:33:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/休会対応マニュアル"
     },
     "30bf3b0f-ba85-805d-ad86-cc14bba412ab": {
@@ -11743,7 +11743,7 @@
     },
     "30bf3b0f-ba85-80e8-9907-ef0cd1d644d4": {
       "title": "集中型カリキュラム変更点",
-      "last_edited": "2026-02-18T07:23:00.000Z",
+      "last_edited": "2026-02-25T02:24:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/集中型カリキュラム変更点"
     },
     "30bf3b0f-ba85-80e7-b719-d433c35d6590": {
@@ -12078,7 +12078,7 @@
     },
     "30cf3b0f-ba85-8088-8ba9-f21a099828c2": {
       "title": "たいぞうスクリプト（チャレンジローンチver.） ",
-      "last_edited": "2026-02-24T12:11:00.000Z",
+      "last_edited": "2026-02-25T00:56:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/たいぞうスクリプト（チャレンジローンチver.）"
     },
     "30cf3b0f-ba85-807a-b71c-ce5e4f0702a5": {
@@ -13718,7 +13718,7 @@
     },
     "30ef3b0f-ba85-80e2-9606-fc63d4afb55a": {
       "title": "【2/24】水とお菓子Amazon購入",
-      "last_edited": "2026-02-21T14:04:00.000Z",
+      "last_edited": "2026-02-25T02:52:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/【2_24】水とお菓子Amazon購入"
     },
     "30ef3b0f-ba85-805e-9278-fa7942940bbe": {
@@ -13733,7 +13733,7 @@
     },
     "30ef3b0f-ba85-802f-abc2-f2d98668043e": {
       "title": "登壇者入時間等連絡",
-      "last_edited": "2026-02-23T05:24:00.000Z",
+      "last_edited": "2026-02-25T02:52:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/登壇者入時間等連絡"
     },
     "30ef3b0f-ba85-802f-83ce-c7983fc88f48": {
@@ -14938,7 +14938,7 @@
     },
     "311f3b0f-ba85-806e-9a49-d255d86b32a0": {
       "title": "2月３週目_Mrs .PROTEIN_はる",
-      "last_edited": "2026-02-24T23:38:00.000Z",
+      "last_edited": "2026-02-25T02:57:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/2月３週目_Mrs .PROTEIN_はる"
     },
     "311f3b0f-ba85-805b-af63-c3faa6adabfa": {
@@ -15543,7 +15543,7 @@
     },
     "311f3b0f-ba85-80c8-a8a4-eea0353b2672": {
       "title": "マニュアル作成",
-      "last_edited": "2026-02-24T07:41:00.000Z",
+      "last_edited": "2026-02-25T02:11:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/マニュアル作成"
     },
     "311f3b0f-ba85-8014-9f47-e43a91267d74": {
@@ -15848,7 +15848,7 @@
     },
     "311f3b0f-ba85-80c4-ac50-ca9b4734feaf": {
       "title": "保証制度延長の場合の対応",
-      "last_edited": "2026-02-24T15:00:00.000Z",
+      "last_edited": "2026-02-25T01:57:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/保証制度延長の場合の対応"
     },
     "311f3b0f-ba85-8030-8d03-d96da0b4acc1": {
@@ -15988,13 +15988,128 @@
     },
     "311f3b0f-ba85-8047-a826-f3d48ea868c2": {
       "title": "2月3週目_営業代行_藤井",
-      "last_edited": "2026-02-25T00:09:00.000Z",
+      "last_edited": "2026-02-25T01:20:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/2月3週目_営業代行_藤井"
     },
     "311f3b0f-ba85-8076-8bb1-f89609c309a5": {
       "title": "営業部_議事録",
       "last_edited": "2026-02-24T22:46:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/営業部_議事録"
+    },
+    "2f9f3b0f-ba85-8022-9a87-ceb8abd6dd60": {
+      "title": "営業×CS連携事項について",
+      "last_edited": "2026-02-25T03:04:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/営業×CS連携事項について"
+    },
+    "312f3b0f-ba85-80a0-a4de-e0e05f30f1a9": {
+      "title": "2026年2月4週目",
+      "last_edited": "2026-02-25T02:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/2026年2月4週目"
+    },
+    "312f3b0f-ba85-80bd-978b-c56ad8ebc768": {
+      "title": "2026年2月4週目",
+      "last_edited": "2026-02-25T02:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/2026年2月4週目"
+    },
+    "309f3b0f-ba85-8064-8a93-d636237d7978": {
+      "title": "X顧問 事業計画書",
+      "last_edited": "2026-02-25T02:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/X顧問 事業計画書"
+    },
+    "312f3b0f-ba85-8090-a22a-c420d95b3c21": {
+      "title": "週報まとめと共有",
+      "last_edited": "2026-02-25T02:26:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/週報まとめと共有"
+    },
+    "312f3b0f-ba85-806f-8cd3-cb49e416676a": {
+      "title": "運営お問合せ対応",
+      "last_edited": "2026-02-25T02:26:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/運営お問合せ対応"
+    },
+    "312f3b0f-ba85-803a-994d-c2caacdd1986": {
+      "title": "アイレポートお問合せ対応",
+      "last_edited": "2026-02-25T02:25:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/アイレポートお問合せ対応"
+    },
+    "312f3b0f-ba85-808f-a9d6-e8bacac34c98": {
+      "title": "新クラス作成",
+      "last_edited": "2026-02-25T02:25:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/新クラス作成"
+    },
+    "312f3b0f-ba85-80fb-8e8f-e00d3501716d": {
+      "title": "PPアサイン",
+      "last_edited": "2026-02-25T02:25:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/PPアサイン"
+    },
+    "312f3b0f-ba85-8098-a53d-f658328b2301": {
+      "title": "あかねさん依頼　音声作成",
+      "last_edited": "2026-02-25T02:25:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/あかねさん依頼　音声作成"
+    },
+    "312f3b0f-ba85-8050-8aa5-f43aea9fee0f": {
+      "title": "2月3週目_アイレポート_長谷川",
+      "last_edited": "2026-02-25T02:15:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/2月3週目_アイレポート_長谷川"
+    },
+    "2fdf3b0f-ba85-813e-ba39-dcde62777c16": {
+      "title": "領収書発行",
+      "last_edited": "2026-02-25T02:13:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/領収書発行"
+    },
+    "2fdf3b0f-ba85-814f-8d97-c77dcacadc37": {
+      "title": "卒業生ロール付与",
+      "last_edited": "2026-02-25T02:13:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/卒業生ロール付与"
+    },
+    "2fdf3b0f-ba85-81f7-bb29-e98118f8ab39": {
+      "title": "クーリングオフ",
+      "last_edited": "2026-02-25T02:13:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/クーリングオフ"
+    },
+    "312f3b0f-ba85-8052-80c4-dc202e7cb068": {
+      "title": "問い合わせ対応",
+      "last_edited": "2026-02-25T02:08:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/問い合わせ対応"
+    },
+    "312f3b0f-ba85-8083-8271-d72a9ec34169": {
+      "title": "STEP5　1on1の予約と実施",
+      "last_edited": "2026-02-25T02:05:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/STEP5　1on1の予約と実施"
+    },
+    "2fff3b0f-ba85-806d-9f75-f6d9c75661dd": {
+      "title": "📝営業連携資料修正",
+      "last_edited": "2026-02-25T01:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/📝営業連携資料修正"
+    },
+    "2fff3b0f-ba85-80d9-8bbc-ed150d4caf69": {
+      "title": "🌱12月ローンチで、クラスを持つのが2回目以降の講師へのアンケート実施",
+      "last_edited": "2026-02-25T01:57:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/🌱12月ローンチで、クラスを持つのが2回目以降の講師へのアンケート実施"
+    },
+    "2a8f3b0f-ba85-80fc-b2ba-f09f78d357b4": {
+      "title": "ローンチ前準備",
+      "last_edited": "2026-02-25T01:51:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/ローンチ前準備"
+    },
+    "312f3b0f-ba85-801c-8521-f2e2a2922233": {
+      "title": "ジャンプアップ制",
+      "last_edited": "2026-02-25T01:41:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/ジャンプアップ制"
+    },
+    "2fdf3b0f-ba85-8094-9694-cb6abea1a202": {
+      "title": "サークル作成",
+      "last_edited": "2026-02-25T01:30:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/サークル作成"
+    },
+    "312f3b0f-ba85-8044-8b75-f4bb07732a04": {
+      "title": "卒業生クラス2回目アンケート",
+      "last_edited": "2026-02-25T01:21:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/卒業生クラス2回目アンケート"
+    },
+    "312f3b0f-ba85-803f-be1d-e913a6c479fb": {
+      "title": "領収書発行",
+      "last_edited": "2026-02-25T01:20:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/領収書発行"
     }
   }
 }
