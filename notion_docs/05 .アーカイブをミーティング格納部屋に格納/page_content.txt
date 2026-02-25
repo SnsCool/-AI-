@@ -1,0 +1,9 @@
+# 05 .アーカイブをミーティング格納部屋に格納
+
+Notion URL: https://www.notion.so/05-312f3b0fba8581f587f2cb9c3651affb
+同期日時: 2026-02-26T00:28:08+09:00
+
+---
+
+アーカイブ格納部屋 
+ GoogleDriveやYouTubeなどアップロードし格納する
