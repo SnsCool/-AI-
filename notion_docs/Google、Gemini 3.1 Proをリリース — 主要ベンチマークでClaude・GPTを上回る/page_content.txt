@@ -1,0 +1,8 @@
+# Google、Gemini 3.1 Proをリリース — 主要ベンチマークでClaude・GPTを上回る
+
+Notion URL: https://www.notion.so/Google-Gemini-3-1-Pro-Claude-GPT-313f3b0fba858158841dda5de6ebebab
+同期日時: 2026-02-26T09:39:43+09:00
+
+---
+
+Googleは最新の大規模言語モデルGemini 3.1 Proをリリースしました。主要ベンチマークであるARC-AGI-2で77.1%のスコアを記録し、前モデルの31.1%から大幅に向上しました。また、Humanity's Last Examでも44.4%を達成し、Claude Opus 4.6の40.0%やGPT-5.2の34.5%を上回りました。これにより、Gemini 3.1 Proは主要競合モデルを凌駕する性能を示しています。現在、GeminiアプリとNotebookLMに展開が開始されています。

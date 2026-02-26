@@ -1,0 +1,8 @@
+# Anthropic vs ペンタゴン：軍事利用制限をめぐる対立が激化、xAI GrokはPentagon機密ネットワークへの展開合意
+
+Notion URL: https://www.notion.so/Anthropic-vs-xAI-Grok-Pentagon-313f3b0fba858111abe0fe4e15401c89
+同期日時: 2026-02-26T09:39:40+09:00
+
+---
+
+米国防総省はAnthropicに対し、AI技術の無制限な軍事利用を認めなければ契約解除や「サプライチェーンリスク企業」指定の可能性を通告した。Anthropicはミサイル防衛へのAI利用を限定的に認める方向で交渉中である。一方、xAIのGrokはPentagonの機密ネットワークへの展開に合意し、軍事分野でのAI活用が進展している。AnthropicのCEOと国防長官の会談も予定されている。これにより米国のAI軍事利用を巡る企業と政府の対立が激化している。

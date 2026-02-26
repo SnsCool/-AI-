@@ -1,0 +1,8 @@
+# 科学的AI研究が成熟フェーズへ：Nature賞とBCG X AIサイエンス研究所が「AI for Discovery賞」を創設
+
+Notion URL: https://www.notion.so/AI-Nature-BCG-X-AI-AI-for-Discovery-313f3b0fba8581b78b05f6867529081a
+同期日時: 2026-02-26T09:39:32+09:00
+
+---
+
+Nature AwardsとBCG X AIサイエンス研究所が、AIを活用して科学的発見を加速する研究者を表彰する「AI for Discovery賞」を新設した。HPCwireは科学的AI研究が成熟フェーズに入り、複雑な研究データ解析や研究範囲の拡大に広く活用されていると報告している。特にバイオテック分野では、AIを採用する企業の50%が標的発見の高速化を実現している。これによりAIの科学研究への貢献が明確化されている。

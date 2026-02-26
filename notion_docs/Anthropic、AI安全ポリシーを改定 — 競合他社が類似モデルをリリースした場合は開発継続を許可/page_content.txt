@@ -1,0 +1,8 @@
+# Anthropic、AI安全ポリシーを改定 — 競合他社が類似モデルをリリースした場合は開発継続を許可
+
+Notion URL: https://www.notion.so/Anthropic-AI-313f3b0fba8581c9a249d1edfe99bda1
+同期日時: 2026-02-26T09:39:40+09:00
+
+---
+
+AnthropicはAI安全ポリシー「Responsible Scaling Policy 3.0」を改定し、競合他社が類似の高リスクモデルをリリースした場合、自社の開発停止義務を撤廃した。これは政策環境がAIの競争力強化と経済成長を優先する方向に変化したことを背景としている。なお、この方針変更を理由に社内の安全研究者Mrinank Sharmaが退職した。Anthropicは380億ドルの評価額で、OpenAIやGoogle、xAIと激しく競争している。
