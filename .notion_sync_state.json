@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-02-26T15:23:57.770402+00:00",
+  "last_sync": "2026-02-26T18:25:52.018084+00:00",
   "pages": {
     "306f3b0f-ba85-8040-96ac-d640633f5de6": {
       "title": "顧客からの問い合わせ詳細分析",
@@ -13953,7 +13953,7 @@
     },
     "2f7f3b0f-ba85-8082-9adb-d5e0da6b7d31": {
       "title": "採用ページ格納庫",
-      "last_edited": "2026-02-23T05:50:00.000Z",
+      "last_edited": "2026-02-26T15:45:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/採用ページ格納庫"
     },
     "30ff3b0f-ba85-80c9-881d-c21f2bacd18f": {
@@ -17335,6 +17335,96 @@
       "title": "講師マネージャー_議事",
       "last_edited": "2026-02-26T13:25:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/講師マネージャー_議事"
+    },
+    "313f3b0f-ba85-80d2-a780-e30b9afb8c43": {
+      "title": "万垢オン会ファシリ",
+      "last_edited": "2026-02-26T17:20:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/万垢オン会ファシリ"
+    },
+    "313f3b0f-ba85-80ca-9a12-f2b873caa3b8": {
+      "title": "しみずもえクレーム対応",
+      "last_edited": "2026-02-26T17:12:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/しみずもえクレーム対応"
+    },
+    "313f3b0f-ba85-8055-bd9e-de31dee624c2": {
+      "title": "ささきゆかりクレーム対応",
+      "last_edited": "2026-02-26T17:12:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/ささきゆかりクレーム対応"
+    },
+    "313f3b0f-ba85-8081-aa99-c302663cde72": {
+      "title": "講師図鑑フォーム展開",
+      "last_edited": "2026-02-26T17:12:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/講師図鑑フォーム展開"
+    },
+    "2fdf3b0f-ba85-81f3-8fe7-ca3cb676fccc": {
+      "title": "中途解約フォーム作成",
+      "last_edited": "2026-02-26T17:11:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/中途解約フォーム作成"
+    },
+    "313f3b0f-ba85-80c3-b181-d7f1e4e4e77e": {
+      "title": "株式会社Levela 採用情報ページ ",
+      "last_edited": "2026-02-26T15:46:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/株式会社Levela 採用情報ページ"
+    },
+    "313f3b0f-ba85-810e-a9dc-e486c937afd2": {
+      "title": "SNS運用ディレクター",
+      "last_edited": "2026-02-26T15:44:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/SNS運用ディレクター"
+    },
+    "313f3b0f-ba85-8128-855c-c5537031f514": {
+      "title": "広報・メディア運営",
+      "last_edited": "2026-02-26T15:44:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/広報・メディア運営"
+    },
+    "313f3b0f-ba85-814f-91cc-d87fab8a080e": {
+      "title": "エンジニア",
+      "last_edited": "2026-02-26T15:44:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/エンジニア"
+    },
+    "313f3b0f-ba85-817a-8bd2-e955ddf9e2f9": {
+      "title": "マーケティング",
+      "last_edited": "2026-02-26T15:44:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/マーケティング"
+    },
+    "313f3b0f-ba85-817b-9781-c3bae434cbe2": {
+      "title": "経理",
+      "last_edited": "2026-02-26T15:44:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/経理"
+    },
+    "313f3b0f-ba85-817c-8240-cd2eb1ed115a": {
+      "title": "クリエイティブ",
+      "last_edited": "2026-02-26T15:44:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/クリエイティブ"
+    },
+    "313f3b0f-ba85-81c7-81a7-cffa5e52ff61": {
+      "title": "CS/カスタマーサポート",
+      "last_edited": "2026-02-26T15:44:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/CS_カスタマーサポート"
+    },
+    "313f3b0f-ba85-81f5-a883-d8c6b1b95d0c": {
+      "title": "コーチング",
+      "last_edited": "2026-02-26T15:44:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/コーチング"
+    },
+    "313f3b0f-ba85-8149-99f3-d177ae2d212f": {
+      "title": "営業",
+      "last_edited": "2026-02-26T15:44:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/営業"
+    },
+    "313f3b0f-ba85-8155-bebb-c685decfb9ac": {
+      "title": "総合職",
+      "last_edited": "2026-02-26T15:44:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/総合職"
+    },
+    "313f3b0f-ba85-817c-b75b-caf259537f9f": {
+      "title": "インフルエンサー",
+      "last_edited": "2026-02-26T15:44:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/インフルエンサー"
+    },
+    "313f3b0f-ba85-81aa-9356-dc0883de97a0": {
+      "title": "新規事業立ち上げ",
+      "last_edited": "2026-02-26T15:44:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/新規事業立ち上げ"
     }
   }
 }
