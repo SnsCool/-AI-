@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-02-26T18:28:07+09:00
+同期日時: 2026-02-27T12:51:17+09:00
 
 ---
 
@@ -27,6 +27,7 @@ Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
     ⑦BGM（うたなし、集中力と波動が上がる曲）も合わせる
     ⑧システムでキャラクターとテロップと音声とスライドを入れる
     ⑨完成とチェック作業、格納
+    追加修正
 リマインド系
 済：入学式リマインド（20260106現：スプシ⇒Discode）（旧Notion⇒Discode）
   https://docs.google.com/spreadsheets/d/1hAAKlODeMMdUuQGerhKkYAmkKZJPTDjRD_YXJxn_OVE/edit?usp=sharing
@@ -181,3 +182,21 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
 講師図鑑を作成したい
   3月末までに
   万垢生徒と講師を見れるWebサイトが欲しい
+エンジニア
+SnsClub講義（GRITSTUDY）アプリ追加開発
+引き継ぎ
+  【前提】追加でお金をかける気はない
+  要件定義書
+    モバイルアプリ
+    管理画面
+    非機能要件・その他
+  仕様書
+    画面仕様書(管理画面)
+    テーブル定義書
+    試験仕様書
+  デザインファイル
+    https://www.figma.com/design/gRLhv37oqiweEe0xDcxA1p/Levela様_UI_共有用?node-id=779-7107&t=ZPXNWMwVXrX3uiBs-1
+  バッチ
+    https://drive.google.com/drive/folders/1PXnQWaDEL6xFxL7mpSs87435MvCRhCMb
+  アプリ配信プラットフォームの調査結果
+    https://docs.google.com/spreadsheets/d/1OYnnVcZWYb_Qj-uoEgTjsclhK3S51gQLMHOGGvnDip0/edit?usp=drive_link
