@@ -1,0 +1,15 @@
+# Google、Gemini 3.1 Proをリリース — Claude・GPT-5.2を上回るベンチマーク性能
+
+Notion URL: https://www.notion.so/Google-Gemini-3-1-Pro-Claude-GPT-5-2-314f3b0fba85819885aefa4a41a578b3
+同期日時: 2026-02-27T09:42:24+09:00
+
+---
+
+要約  
+Googleは新たな推論モデル「Gemini 3.1 Pro」をリリースし、AIベンチマークでClaude Opus 4.6やGPT-5.2を上回る性能を示しました。特に「Humanity's Last Exam」や「ARC-AGI-2」などの難関テストで高得点を獲得し、GoogleのAIリーダーシップを強化しています。無料ユーザーも試用可能で、NotebookLMなど既存サービスへの導入も進んでいます。
+キーポイント  
+Gemini 3.1 Proは「Humanity's Last Exam」で44.4%、ARC-AGI-2で77.1%の高スコアを達成。  
+Claude Opus 4.6やGPT-5.2を上回るベンチマーク性能を実証。  
+Gemini App、API、NotebookLMで利用可能、無料ユーザーも試用可能で有料ユーザーは利用枠拡大。
+日本企業への示唆  
+GoogleのAI競争力強化により、国内企業も先進AIモデルの導入・活用を加速し、競争優位性の確保と業務効率化を図るべきです。

@@ -1,7 +1,7 @@
 # CTO：取引先からのメールをDiscordにて通知＆要約
 
 Notion URL: https://www.notion.so/CTO-Discord-305f3b0fba858066aa3bc14f7d5c0e59
-同期日時: 2026-02-13T15:02:17+09:00
+同期日時: 2026-02-27T09:42:51+09:00
 
 ---
 
