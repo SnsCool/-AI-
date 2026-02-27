@@ -1,7 +1,7 @@
 # REALIVE
 
 Notion URL: https://www.notion.so/REALIVE-2a9f3b0fba8580d4a7a5e1212b30ad82
-同期日時: 2026-02-27T15:27:19+09:00
+同期日時: 2026-02-27T18:28:48+09:00
 
 ---
 
@@ -1606,6 +1606,7 @@ https://www.notion.so/SnsClub-2fff3b0fba858049a1b2da5ad8999a89
     └エンタメ要素/メンタル面/特徴的な見た目が必要
     【価値】
     ライバー→16.2万円
+    講師契約
   > Epi Group 事務所担当者用 ― 所属ライバーへのREALIVE紹介マニュアル
   スクリプトA
 活動中ライバー向け（1ヶ月経過・伸び悩み・熱量低下）

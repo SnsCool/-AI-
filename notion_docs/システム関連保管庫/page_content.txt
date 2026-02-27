@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-02-27T12:51:17+09:00
+同期日時: 2026-02-27T18:21:36+09:00
 
 ---
 
@@ -182,6 +182,7 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
 講師図鑑を作成したい
   3月末までに
   万垢生徒と講師を見れるWebサイトが欲しい
+  GAS＋Webサーバで実装できるかも？
 エンジニア
 SnsClub講義（GRITSTUDY）アプリ追加開発
 引き継ぎ
