@@ -1,0 +1,12 @@
+# GoogleのAIが抗生物質耐性問題を解決
+
+Notion URL: https://www.notion.so/Google-AI-315f3b0fba8581cfb6afc935eb3c5147
+同期日時: 2026-02-28T09:36:42+09:00
+
+---
+
+GoogleのAIが抗生物質耐性問題を解決
+GoogleのCo-scientist AIが、10年間解決できなかった抗生物質耐性の研究課題を48時間で解決。膨大なデータ解析とパターン認識により、人間の科学者が見逃した解決策を提案した。
+ビジネス影響: 医療研究の効率化と新薬開発の加速が期待される。
+情報源: APPN News / Science.org
+元記事を読む

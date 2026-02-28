@@ -1,0 +1,12 @@
+# Google Gemini 3.1 ProとClaude 4.6登場
+
+Notion URL: https://www.notion.so/Google-Gemini-3-1-Pro-Claude-4-6-315f3b0fba858137a3a5f7ddc43b345c
+同期日時: 2026-02-28T09:36:43+09:00
+
+---
+
+Google Gemini 3.1 ProとClaude 4.6登場
+Googleは複雑問題に強化されたGemini 3.1 Proを発表。Anthropicは高度推論対応のClaude 4.6をリリース。GoogleとSamsungはPixel 10とGalaxy S26に多段AIエージェントを搭載し、注文や予約を支援。AppleのSiriは遅延中。
+ビジネス影響: 高度AI搭載端末で競争激化、顧客体験向上が加速。
+情報源: Google Blog / Medium / MarketingProfs
+元記事を読む
