@@ -1,7 +1,7 @@
 # 2026年マネタイズ合宿BGM
 
 Notion URL: https://www.notion.so/2026-BGM-315f3b0fba8580c2bf00e0f25cee7e0e
-同期日時: 2026-02-28T18:11:43+09:00
+同期日時: 2026-03-01T00:08:34+09:00
 
 ---
 
@@ -9,7 +9,7 @@ Notion URL: https://www.notion.so/2026-BGM-315f3b0fba8580c2bf00e0f25cee7e0e
 
 司会アナウンス
 
-駒居さん登壇SE
+陸さん登壇SE
 
 開会式・マインドセット中
 なしで良いと思う

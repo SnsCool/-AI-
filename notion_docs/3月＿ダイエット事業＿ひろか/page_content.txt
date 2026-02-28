@@ -1,7 +1,7 @@
 # 3月＿ダイエット事業＿ひろか
 
 Notion URL: https://www.notion.so/3-311f3b0fba8580d8ae0ad229b5ba9096
-同期日時: 2026-02-28T06:11:43+09:00
+同期日時: 2026-03-01T00:08:32+09:00
 
 ---
 
@@ -30,6 +30,7 @@ KFFとは
 当月目標・達成AP
 達成APとは
   立てた目標を達成するためのアクションプランを納期付きで設定してください。
+20名成約
 PL
 年間計画の定量と定性
 1〜3月：各月20名集客、MAX60名稼働、70〜90名稼働が可能な体制を構築。
@@ -38,6 +39,9 @@ PL
 10〜12月：各月50名集客、MAX150名稼働を1月に叶える。
 →これで年商7,800万。上位プランとサブスクを組み込めば1億到達レベル。
 共有・提案・依頼
+駒居さん
+フィットネス動画撮影してくれる方
+太ってる有名人
 https://discord.gg/GR4JARVTx9
 https://www.canva.com/design/DAHCBAj5Q7o/WBobhPlZTewd1p8MpAFjmg/edit
 https://docs.google.com/spreadsheets/d/1ezCjICUfjWYVIhQaql-e-n28FW1AdjTFoGAphALKX4s/edit?gid=0#gid=0
