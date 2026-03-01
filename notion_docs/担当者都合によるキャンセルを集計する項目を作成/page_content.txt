@@ -1,7 +1,7 @@
 # 担当者都合によるキャンセルを集計する項目を作成
 
-Notion URL: https://www.notion.so/316f3b0fba8581739efbf8c3bbfabdca
-同期日時: 2026-03-01T18:19:58+09:00
+Notion URL: https://www.notion.so/316f3b0fba858164b1b8f1e3d82920a2
+同期日時: 2026-03-02T00:09:46+09:00
 
 ---
 
