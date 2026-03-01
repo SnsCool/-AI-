@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-03-01T00:47:50.034115+00:00",
+  "last_sync": "2026-03-01T03:57:09.735044+00:00",
   "pages": {
     "306f3b0f-ba85-8040-96ac-d640633f5de6": {
       "title": "顧客からの問い合わせ詳細分析",
@@ -4688,7 +4688,7 @@
     },
     "2fef3b0f-ba85-8000-b4d7-d6dec224c0d6": {
       "title": "Untitled",
-      "last_edited": "2026-02-22T06:28:00.000Z",
+      "last_edited": "2026-03-01T01:45:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/Untitled"
     },
     "2fef3b0f-ba85-805c-b28f-ced3f4481f6a": {
@@ -10848,7 +10848,7 @@
     },
     "30af3b0f-ba85-80bc-ab61-e044dbc4cf60": {
       "title": "2月26日＿小林大蔵",
-      "last_edited": "2026-02-26T11:58:00.000Z",
+      "last_edited": "2026-03-01T03:53:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/2月26日＿小林大蔵"
     },
     "30af3b0f-ba85-802f-af84-f9c3399a93fb": {
@@ -10888,7 +10888,7 @@
     },
     "2fcf3b0f-ba85-80af-b2d7-df56262ae239": {
       "title": "1月_りお月次資料",
-      "last_edited": "2026-02-25T01:56:00.000Z",
+      "last_edited": "2026-03-01T02:51:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/1月_りお月次資料"
     },
     "30af3b0f-ba85-8055-87f6-e66e0f930852": {
@@ -12788,7 +12788,7 @@
     },
     "2bdf3b0f-ba85-81df-8e99-c8d3786a635d": {
       "title": "サービス説明",
-      "last_edited": "2026-02-20T05:42:00.000Z",
+      "last_edited": "2026-03-01T02:18:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/サービス説明"
     },
     "2fef3b0f-ba85-8024-a636-cd771fdf114c": {
@@ -14703,7 +14703,7 @@
     },
     "310f3b0f-ba85-80f2-a270-df357b851701": {
       "title": "スターターパック作成",
-      "last_edited": "2026-02-27T08:17:00.000Z",
+      "last_edited": "2026-03-01T03:16:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/スターターパック作成"
     },
     "310f3b0f-ba85-8057-87e2-c3cefacfb44c": {
@@ -16348,7 +16348,7 @@
     },
     "312f3b0f-ba85-80f9-aaab-c3b053b115a3": {
       "title": "3月＿トレーナー＿小林大蔵",
-      "last_edited": "2026-02-25T07:05:00.000Z",
+      "last_edited": "2026-03-01T03:54:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/3月＿トレーナー＿小林大蔵"
     },
     "312f3b0f-ba85-803e-b515-f7d0f76fadf1": {
@@ -18375,6 +18375,36 @@
       "title": "🗣️問い合わせ",
       "last_edited": "2026-03-01T00:17:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/🗣️問い合わせ"
+    },
+    "316f3b0f-ba85-8000-9d2c-c4ec67eb215a": {
+      "title": "関口 愛里（せきぐち あいり）",
+      "last_edited": "2026-03-01T03:55:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/関口 愛里（せきぐち あいり）"
+    },
+    "316f3b0f-ba85-8085-bac2-c193425b1758": {
+      "title": "大平 安寿加（おおひら あすか）",
+      "last_edited": "2026-03-01T03:31:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/大平 安寿加（おおひら あすか）"
+    },
+    "316f3b0f-ba85-80de-8566-e420b7fc4d51": {
+      "title": "お名前（ふりがな）※姓名の間に半角スペース",
+      "last_edited": "2026-03-01T03:31:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/お名前（ふりがな）※姓名の間に半角スペース"
+    },
+    "29bf3b0f-ba85-805c-b248-ef740b49333c": {
+      "title": "勤怠管理表",
+      "last_edited": "2026-03-01T03:29:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/勤怠管理表"
+    },
+    "26ff3b0f-ba85-8046-ba80-d1358eb5a957": {
+      "title": "顧客対応前後の営業マン対応事項",
+      "last_edited": "2026-03-01T03:18:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/顧客対応前後の営業マン対応事項"
+    },
+    "316f3b0f-ba85-80c2-ba70-c7ce2cd6b35d": {
+      "title": "山﨑 直樹（やまざきなおき）",
+      "last_edited": "2026-03-01T01:05:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/山﨑 直樹（やまざきなおき）"
     }
   }
 }
