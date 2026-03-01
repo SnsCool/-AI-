@@ -1,12 +1,12 @@
 # 3月＿ダイエット事業＿ひろか
 
 Notion URL: https://www.notion.so/3-311f3b0fba8580d8ae0ad229b5ba9096
-同期日時: 2026-03-01T21:15:21+09:00
+同期日時: 2026-03-02T03:12:25+09:00
 
 ---
 
 先月目標と結果
-20名成約 → 20名成約達成
+2期生（3月スタート）20名 ：達成
 https://docs.google.com/spreadsheets/d/1bdSmkkQp7DP1OTdt1VJqmT43rQBKnY5LcN3yUXgWgEM/edit?gid=997171970#gid=997171970
 KSF・転用AP
 KSFとは
@@ -31,7 +31,9 @@ KFFとは
 当月目標・達成AP
 達成APとは
   立てた目標を達成するためのアクションプランを納期付きで設定してください。
-20名成約
+目標：20名成約（1名成約済み・残アポ2件）
+達成AP：インフルエンサーローンチ
+詳細
 PL
 年間計画の定量と定性
 https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?gid=222896699#gid=222896699
@@ -42,16 +44,23 @@ https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4k
 →これで年商7,800万。上位プランとサブスクを組み込めば1億到達レベル。
 共有・提案・依頼
 サポート状況
-（さりなさんの講師月次資料を添付）
-紹介依頼
-フィットネス動画を撮影してくれる方
-太ってる有名人
-https://discord.gg/GR4JARVTx9
-https://docs.google.com/spreadsheets/d/1ezCjICUfjWYVIhQaql-e-n28FW1AdjTFoGAphALKX4s/edit?gid=0#gid=0
-https://docs.google.com/spreadsheets/d/17fHrRXzJ_nmaia6HMPMQpAq3heyBEjM1W3Epy-wSFUk/edit?gid=0#gid=0
+サービス資料
+https://www.canva.com/design/DAG-0Z6w0Nw/NCBK7EUArTd3A4mTS9O1ZA/edit
+フィットネス配信を辞めて、動画共有にする
+その代わり料理教室を開催
 採用関連
+アフィ：9名
+営業：2名
+講師：8名
+トレーナー：2名
+https://docs.google.com/spreadsheets/d/1ezCjICUfjWYVIhQaql-e-n28FW1AdjTFoGAphALKX4s/edit?gid=0#gid=0
 https://www.canva.com/design/DAHCBAj5Q7o/WBobhPlZTewd1p8MpAFjmg/edit
 講師採用 
-【講師】マニュアル
+マニュアル
 【営業】マニュアル
-https://www.canva.com/design/DAG-0Z6w0Nw/NCBK7EUArTd3A4mTS9O1ZA/edit
+【講師】マニュアル
+紹介依頼
+もぐラボ専用のフィットネス動画を撮影してくれる方
+太ってる有名人
+運営用ディスコード
+https://discord.gg/GR4JARVTx9

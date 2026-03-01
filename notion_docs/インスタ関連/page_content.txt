@@ -1,0 +1,43 @@
+# インスタ関連
+
+Notion URL: https://www.notion.so/316f3b0fba85805c89eec091eba3960c
+同期日時: 2026-03-02T03:13:18+09:00
+
+---
+
+クライアント管理シート
+  docs.google.com/spreadsheets/d/1GUR4AISZVpEpDIQWrILnDCBjsewUgHL-AUBX4jw4b4s/edit?gid=0#gid=0
+クライアント面談管理シート
+  https://docs.google.com/spreadsheets/d/1CYBiCswBrs6MBTSOAOOW1_6-ZsVITnV17aaKACj4ZjM/edit?gid=887375247#gid=887375247
+クライアント月次報告書まとめ　
+  https://docs.google.com/spreadsheets/d/1tUZyx8dZ64WAZA7qfc4dOvkzqj-mEjB3SaUSrqZ8VYw/edit?usp=sharing
+ディレクターマニュアル
+  https://docs.google.com/document/d/15uXv8BaJsCaQj3a8_KPJTZHliS3r9f7_YRvhMCGr7ck/edit?usp=sharing
+ディレクター月次報告書
+  https://docs.google.com/spreadsheets/u/0/d/16UeJmT_EK0z3oeVozbyDf582znzRNWVyS2FG343Cx-Y/edit
+ディレクター週報
+  https://docs.google.com/forms/d/e/1FAIpQLSetvg0ePneN5j4BhIrx6wN2gIbA6gjUjmFpDk2MnEA3zmYxGw/viewform?usp=publish-editor
+ディレクター昇降格シート
+  https://docs.google.com/spreadsheets/d/1u59MOlCRc4ogh6VtJvTZ4HxXFurtN2H2dv-92l1L_jg/edit?usp=sharing
+ディレクター用作業ガイド
+  https://docs.google.com/spreadsheets/u/0/d/1QMKfK7FBV7kZLDZ7m1_c4UnXJjX5WoJ-O6isKKnl6dE/edit
+リファラル管理シート
+  https://docs.google.com/spreadsheets/u/0/d/1I8IZQE486SzPmhORHD1CMUGA2mAjoUkFof2k0_PDp2Y/edit
+初回面談スクリプト
+  https://docs.google.com/spreadsheets/d/1BWSqDTYcQQeKXB4uNAmhBk2yXMGh6rcePhfiQ8qCN88/edit?usp=sharing
+SnsClub資料確認問題
+  https://docs.google.com/forms/d/e/1FAIpQLSfWMUZALmJQyKM-NQbscwyEXHUr8r3nbE5XKIJf2mJ6Lav_EQ/viewform
+マニュアルbot
+  https://notebooklm.google.com/notebook/c53c0c29-9715-4a8d-89d1-54cfc62ef411
+運用担当者昇降格シート
+  https://docs.google.com/spreadsheets/d/1sSwkynZxDXNU2Knw3Jc2MrNf1LBYddfbL_zloeTn0c8/edit?usp=sharing
+作業者・運用マニュアル発行
+個別面談シート
+  https://docs.google.com/document/d/1gYzYyPhfGoIT8wDmMAN_KrEpQ0qrrA2JOsxJ4IeNR50/edit?usp=sharing
+引き継ぎシート
+  https://docs.google.com/spreadsheets/u/0/d/18bDHnHBiyUTe-se1BDi443SqjHXRJh1_-JBnKa5Eb6g/edit
+作業者週報
+  ▼フォーム
+  https://forms.gle/ArN5RdqwDWM5KATP7
+  ▼回答
+  https://docs.google.com/spreadsheets/d/1JzaEQvMEDyQNkiAc71XrXUk37o3ziT15vIAYhFUc7hg/edit?usp=sharing

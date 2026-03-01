@@ -1,0 +1,20 @@
+# 経理関係
+
+Notion URL: https://www.notion.so/316f3b0fba85806d8932c27b30e564b0
+同期日時: 2026-03-02T03:13:28+09:00
+
+---
+
+入金管理表
+  https://docs.google.com/spreadsheets/d/1c46VhRwij36jIdsSiHU_aEzXPOOXNiLwBsVuJR7b8sA/edit?pli=1&gid=342463095#gid=342463095
+経理　依頼・確認シート
+  https://docs.google.com/spreadsheets/d/1C5VjR0-HVkMFzKRToK03uWd1A-qOdFFgBGSSDlQHU38/edit?pli=1&gid=1924017424#gid=1924017424
+アイパス管理
+  https://docs.google.com/spreadsheets/d/1sKhMhoI6Xxj-RhfeVm7eChrpxjd78IdoOwDdda8fKIo/edit?gid=1693030647#gid=1693030647
+請求書・格納
+  作業者請求書回答フォーム
+    https://docs.google.com/spreadsheets/d/1MW5Jd8FTueB3qKyv9cxeq4XaLLGbSHTl2I28cvOCLBc/edit?gid=1852260237#gid=1852260237
+  ディレクター格納フォルダ
+    https://drive.google.com/drive/u/4/folders/1j5ja0JaHOcmzeiJkycbG_eYhjJbRuCMN
+  請求金額確認シート
+    https://docs.google.com/spreadsheets/d/1q3sz54ub3warp-wDl46ESLodIc13cJewU5WMMHzeE3E/edit?gid=1857616732#gid=1857616732
