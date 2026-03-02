@@ -1,7 +1,7 @@
 # 資料・その他
 
 Notion URL: https://www.notion.so/316f3b0fba8580b1b8efc198ec1a40a2
-同期日時: 2026-03-02T15:28:28+09:00
+同期日時: 2026-03-02T21:21:50+09:00
 
 ---
 
@@ -23,8 +23,6 @@ sizuruwizアカウント運用実績20選
   https://docs.google.com/document/d/1bUOHAoMhf5lrJzC-1_dkSXUmDGztGv-LBhb52OeG6Hg/edit?tab=t.0
 契約前読み合わせ資料
   https://docs.google.com/document/u/0/d/1SlVwMjqBYow_xZlohS8SkpFqaebXb25ZfsUs2oX0oEk/edit
-お客様アンケート契約満了
-  https://docs.google.com/spreadsheets/d/1b5ixXzyANlHX6ugZMtO97ypako-o9zkZy9gfhY84TNc/edit?resourcekey=&gid=700344021#gid=700344021
 交流活動マニュアル
   https://manual.sizuruwiz.com/
 SnsClub資料確認問題
