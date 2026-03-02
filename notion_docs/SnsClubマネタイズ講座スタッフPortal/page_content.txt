@@ -1,7 +1,7 @@
 # SnsClubマネタイズ講座スタッフPortal
 
 Notion URL: https://www.notion.so/SnsClub-Portal-24ff3b0fba8580dfa9d7c6a5e9b222da
-同期日時: 2026-02-24T18:25:08+09:00
+同期日時: 2026-03-02T18:25:22+09:00
 
 ---
 
@@ -79,6 +79,8 @@ https://docs.google.com/document/d/12037qIOGDZ0U14eC5oYt6c3Dc1WTirsBj2WCU7xm8G8/
 https://docs.google.com/document/d/1bF9x2juyxm6BOWo-q4mrLUCxee7_w1rFlidKuKT77wQ/edit?usp=sharing
 マネタイズ1on1 LINE流入URL
 https://liff.line.me/2001359303-6EmGr8rA/landing?follow=%40065bwadm&lp=Lf92ol&liff_id=2001359303-6EmGr8rA
+マネタイズ講座申し込みURL (3/5まで)
+https://liff.line.me/2008740332-nhely5Ge/landing?follow=%40246xinkg&lp=a8tS65&liff_id=2008740332-nhely5Ge
 マネタイズ1on1日程変更URL
 https://rsv.e-ticket.link/guide?liff_id=2001359303-qEngxjxZ&is=aRzjYHF0V2&tab=history
 陸1on1申し込み用URL(講師採用時)

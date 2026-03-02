@@ -1,7 +1,7 @@
 # サービス名確定
 
-Notion URL: https://www.notion.so/312f3b0fba85813883bfe8a99fd0e19a
-同期日時: 2026-02-26T03:30:29+09:00
+Notion URL: https://www.notion.so/312f3b0fba8580feb3d6e0bb02f71065
+同期日時: 2026-03-02T18:26:28+09:00
 
 ---
 
