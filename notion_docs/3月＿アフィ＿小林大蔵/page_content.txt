@@ -1,7 +1,7 @@
 # 3月＿アフィ＿小林大蔵
 
 Notion URL: https://www.notion.so/3-312f3b0fba85803eb515f7d0f76fadf1
-同期日時: 2026-02-25T18:29:04+09:00
+同期日時: 2026-03-02T15:28:50+09:00
 
 ---
 
@@ -29,4 +29,9 @@ KFFとは
 当月目標・達成AP
 達成APとは
   立てた目標を達成するためのアクションプランを納期付きで設定してください。
+目標：1000リスト
+達成AP：インフルエンサーローンチ
+ローンチ資料
+https://docs.google.com/spreadsheets/d/1UpXOrL3nuMZ1lfkKCu2Hyd4noM8bMAviZ5Ipe1NIOfU/edit?usp=sharing
+クリエイティブ 
 共有・提案・依頼

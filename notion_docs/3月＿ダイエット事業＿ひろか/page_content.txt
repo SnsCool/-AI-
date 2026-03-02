@@ -1,7 +1,7 @@
 # 3月＿ダイエット事業＿ひろか
 
 Notion URL: https://www.notion.so/3-311f3b0fba8580d8ae0ad229b5ba9096
-同期日時: 2026-03-02T03:12:25+09:00
+同期日時: 2026-03-02T15:29:28+09:00
 
 ---
 
@@ -44,6 +44,7 @@ https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4k
 →これで年商7,800万。上位プランとサブスクを組み込めば1億到達レベル。
 共有・提案・依頼
 サポート状況
+さりなさん講師月次資料添付
 サービス資料
 https://www.canva.com/design/DAG-0Z6w0Nw/NCBK7EUArTd3A4mTS9O1ZA/edit
 フィットネス配信を辞めて、動画共有にする
