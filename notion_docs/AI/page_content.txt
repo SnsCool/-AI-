@@ -1,8 +1,16 @@
 # AI
 
-Notion URL: https://www.notion.so/AI-305f3b0fba8580c48b97de78307fc1eb
-同期日時: 2026-02-13T15:21:49+09:00
+Notion URL: https://www.notion.so/AI-2fff3b0fba85817a819bdb904f676c5b
+同期日時: 2026-03-03T03:21:08+09:00
 
 ---
 
-(コンテンツなし)
+  https://notebooklm.google.com/
+  ・https://lightning-shad-a33.notion.site/25acdc5d8d2480298d66d7012c2c44d6
+　（成約用）
+・https://lightning-shad-a33.notion.site/25acdc5d8d2480e1b84edc10474531ef
+　（失注用）
+  https://chatgpt.com/g/g-690b6e973ab881919cd11242f7722f30-zhu-fu-ceng-rohureyong-kiyarakutasheng-cheng-ai-gu-ke-yi-yong
+  https://chatgpt.com/g/g-69295c08b52c8191a7dc507c5b1bde7e-snsclub-shang-tan-sheng-yin-anaraisa
+  SNSClub 商談失注アナライザー
+  https://chatgpt.com/g/g-692a90323ad48191a10acd4cf868c7af-snsclub-shang-tan-shi-zhu-anaraisa
