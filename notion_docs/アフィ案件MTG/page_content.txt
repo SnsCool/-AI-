@@ -1,7 +1,7 @@
 # アフィ案件MTG
 
 Notion URL: https://www.notion.so/MTG-2c3f3b0fba8580a9aaeccd100260551a
-同期日時: 2026-02-24T15:32:09+09:00
+同期日時: 2026-03-03T00:29:55+09:00
 
 ---
 
@@ -22,6 +22,7 @@ Notion URL: https://www.notion.so/MTG-2c3f3b0fba8580a9aaeccd100260551a
   https://drive.google.com/drive/folders/18EqNcxazuJvBJUeCR-bBEg9P7-h9NTJO
   リンククリック数：98件
   購入数：4件
+  購入率：4%
   アカウント　（おはなさん）
 年齢        18-24           27.7%
                 25-34  　    36.2%
@@ -41,6 +42,10 @@ Notion URL: https://www.notion.so/MTG-2c3f3b0fba8580a9aaeccd100260551a
   プロテインの味が苦手だったから飲めなかったが、
   食事から必要なタンパク質量を補うのは難しいから
   2月ローンチ
+  https://drive.google.com/drive/folders/1bENTZEckFfIoWMFPMPBtMqLD9eb4prFI
+  リンククリック数：50件
+  購入数：7件
+  購入率：14%？
   アカウント　（kentaさん）
 年齢        18-24          0.6%
                 25-34  　   19%
@@ -61,6 +66,8 @@ Notion URL: https://www.notion.so/MTG-2c3f3b0fba8580a9aaeccd100260551a
   ダイエットのやり方がわからない
   子育ての悩みでストーリーでさやまるの悩みに対する返答を共感でもらう
   インサイト
+  リンククリック数：19件
+  購入数：0件
   アカウント　（さん）
 年齢        18-24          7.4%
                 25-34  　   27.8%
@@ -79,10 +86,26 @@ Notion URL: https://www.notion.so/MTG-2c3f3b0fba8580a9aaeccd100260551a
   https://drive.google.com/file/d/1cd4v0bkWgQjntx5jr4K_RnEFGCSic--n/view?usp=sharing
   リンククリック数：87件
   購入数：6件
-  なままG組
+  購入率：6%
+  ひなままG組
   1ヶ月で万垢でFWさんには旦那さんとの生活、世界観やおしゃれな料理に憧れを持つ人が多い
+  インサイト
+  年齢        18-24          3.1%
+                25-34  　   23.2%
+　　　　35-44　　  35.5％
+　　　　45-54          25.5％
+  女性が92.6％
+ストーリー閲覧10-15％
   2月初ローンチ
   https://drive.google.com/drive/folders/1doLSkylRhsc-DaHH1qBvynZVuv6lx9sJ
+  リンククリック数：69件
+  購入数：13件
+  購入率：18%
+  訴求軸
+  髪の毛のビフォアフ、旦那が勝手に奪うくらい上手い
+  朝バタバタでも便利訴求、たんぱく質大事だよ、アレンジストーリー
+  次回ローンチ訴求
+  朝ごはんの代わりになる、
   アカウント　（おはなさん）
 年齢        18-24          1.9%
                 25-34  　   19.5%
@@ -99,6 +122,8 @@ Notion URL: https://www.notion.so/MTG-2c3f3b0fba8580a9aaeccd100260551a
 https://drive.google.com/drive/folders/1P1OU8Sai2kLGQUyims6ajtOsPH5ph7ng
   リンククリック数：292件
   購入数：15件
+  購入率：5%
+  ローンチ後も買えなかったDMがあって次回買いたいですが5件くらい
 インサイトがまだない
   アカウント　（ゆなさん）
 年齢　　25-34  　 16.3 
@@ -359,6 +384,11 @@ https://drive.google.com/drive/folders/1P1OU8Sai2kLGQUyims6ajtOsPH5ph7ng
   購入3件
   2月ローンチ
   インサイト
+  フィードコメント：70件
+リンククリック数：402件
+  購入数：13件
+  購入率：3%
+  インスタライブでやる
   1日目
   2日目
   3日目
@@ -376,6 +406,10 @@ https://drive.google.com/drive/folders/1P1OU8Sai2kLGQUyims6ajtOsPH5ph7ng
   当日フィード
 https://www.canva.com/design/DAHBA19gcho/rJuXMZjj1LzqEKsw6saR3w/edit?utm_content=DAHBA19gcho&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
   インサイト
+  コメント数：862件
+  リンククリック数：
+  購入数：96件
+  購入率：
   インサイト
   35-45    50%
   女性8割
@@ -390,4 +424,46 @@ https://www.canva.com/design/DAHBA19gcho/rJuXMZjj1LzqEKsw6saR3w/edit?utm_content
   インサイト
   https://drive.google.com/drive/folders/1TQ06NE4OFFdd7-D5wG3xBAyNjRCYbokw?usp=drive_link
   リンククリック数：271件
-  購入数：18件
+  購入数：17件
+  購入率：6%
+  美容の部分入れ込む/昔の写真使ってどっちの方が若いっていうので
+  子どもの食べ物にも危険は潜んでるんだよで（添加物）
+アフィするかも
+  年齢        
+  18-24           0.5%
+25-34  　   10.8%
+35-44　　32.7％
+45-54          35.3％
+55-64         17.4%
+65以上　　3.2%
+  女性が95.0％
+  ストーリー閲覧17.0％
+  マネタイズ講座生：ライトコース（1月）
+  コーヒーが美味しかった/プロテインやりたい
+『案件』
+  ステッパー：固定報酬5000円
+  『訴求方法』
+  置き換えダイエットで何キロ痩せるか検証
+  子供も太ってるから痩せさせたい（fwの意見）
+  リバウンドした理由/暴食で歯止め効かなくなり→プロテインに置き換える
+  忙しいままさんに朝ごはん置き換え（ホットカフェオレ/きなこラテ/ヨーグルト）
+  便秘が改善されていく
+  他プロテインとの溶けやすさの比較
+  マネタイズ講座（ライトコース）
+  年齢        
+  18-24           1.9%
+25-34  　   14.4%
+35-44　　 28.5％
+45-54         32.1％
+55-64         17.8%
+  女性が79.0％
+  ストーリー閲覧?％
+  『案件』
+  ユンス：成果4件
+  キャストミー：固定1−2万
+  豚キムチどん：固定7万
+  『訴求方法』
+  30-40女性が多くて時短、がっつり飯作りたい人
+  栄養を気にしているか？（時短、簡単、栄養、がっつり）
+  子どもはイベントの時に出してて
+  ままでも綺麗でいたいからインナーケア

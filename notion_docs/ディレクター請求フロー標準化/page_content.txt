@@ -1,7 +1,7 @@
 # ディレクター請求フロー標準化
 
-Notion URL: https://www.notion.so/315f3b0fba8580759dc9f9b462817d99
-同期日時: 2026-03-01T00:12:24+09:00
+Notion URL: https://www.notion.so/317f3b0fba8580f98d79d97b0a74aa97
+同期日時: 2026-03-03T00:28:48+09:00
 
 ---
 

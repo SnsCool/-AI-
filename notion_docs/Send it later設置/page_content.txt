@@ -1,7 +1,7 @@
 # Send it later設置
 
-Notion URL: https://www.notion.so/Send-it-later-312f3b0fba8581c7a04efc5610f91978
-同期日時: 2026-02-26T03:30:37+09:00
+Notion URL: https://www.notion.so/Send-it-later-317f3b0fba85802384d2dcf0b3c20944
+同期日時: 2026-03-03T00:30:11+09:00
 
 ---
 

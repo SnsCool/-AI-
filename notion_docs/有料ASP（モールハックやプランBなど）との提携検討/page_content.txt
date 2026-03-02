@@ -1,7 +1,7 @@
 # 有料ASP（モールハックやプランBなど）との提携検討
 
-Notion URL: https://www.notion.so/ASP-B-316f3b0fba8581be8adce8f3d409bcd0
-同期日時: 2026-03-02T06:08:55+09:00
+Notion URL: https://www.notion.so/ASP-B-317f3b0fba8581c486f1ea89ffe1c9dd
+同期日時: 2026-03-03T00:21:27+09:00
 
 ---
 

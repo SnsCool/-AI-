@@ -1,7 +1,7 @@
 # コア資料
 
 Notion URL: https://www.notion.so/317f3b0fba8580b08174e9c8c4ebfb8b
-同期日時: 2026-03-02T21:21:55+09:00
+同期日時: 2026-03-03T00:26:20+09:00
 
 ---
 
@@ -9,6 +9,8 @@ Notion URL: https://www.notion.so/317f3b0fba8580b08174e9c8c4ebfb8b
   https://docs.google.com/document/d/1DKLJLJ1goH4f8QR8dOqaIgt3y_fS5Wzqi-mRz08bOho/edit?usp=sharing
 コアシート
   https://docs.google.com/spreadsheets/d/1_1PaJKajt6kPOuxn-Jsx34AMxpqcq0njel2ajHKGt04/edit?usp=sharing
+木曜週次報告書
+  https://docs.google.com/document/d/1szDzpsFhTecw0IZ6itTOBFhOPloPfipOwIE2f1T1V9o/edit?usp=sharing
 月次・年間データ資料
   https://docs.google.com/spreadsheets/d/11SmyZcWZ0zV1NJtIow3yC8jh0E7B91Vrq_3U2pXa-yg/edit?usp=sharing
 ディレクター定例報告
@@ -23,3 +25,5 @@ UGC広告資料
     https://www.canva.com/design/DAHBBKXUKwg/CskTUovmBxl1qJilH3rG6A/edit
 お客様アンケート契約満了
   https://docs.google.com/spreadsheets/d/1b5ixXzyANlHX6ugZMtO97ypako-o9zkZy9gfhY84TNc/edit?resourcekey=&gid=700344021#gid=700344021
+コアメンバー請求書格納フォルダ
+  https://drive.google.com/drive/folders/15WLnpdIKRK52B4TXpGMuMmocg91n0iIo?usp=sharing
