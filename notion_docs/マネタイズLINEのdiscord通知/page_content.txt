@@ -1,7 +1,7 @@
 # マネタイズLINEのdiscord通知
 
-Notion URL: https://www.notion.so/LINE-discord-305f3b0fba8580578526c2ddc713bf5b
-同期日時: 2026-02-13T15:22:25+09:00
+Notion URL: https://www.notion.so/LINE-discord-318f3b0fba85819f9c42f6d19fd3d2e4
+同期日時: 2026-03-03T18:25:50+09:00
 
 ---
 

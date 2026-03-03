@@ -1,7 +1,7 @@
 # YouTube：告知文章作成ツール設定
 
-Notion URL: https://www.notion.so/YouTube-305f3b0fba858080b707ccf0563cb83f
-同期日時: 2026-02-13T15:19:52+09:00
+Notion URL: https://www.notion.so/YouTube-318f3b0fba85815a9730fe7d15af92e8
+同期日時: 2026-03-03T18:25:37+09:00
 
 ---
 

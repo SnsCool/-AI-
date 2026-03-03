@@ -1,7 +1,7 @@
 # 講師に生徒のフォロワー数に応じて通知
 
-Notion URL: https://www.notion.so/317f3b0fba8580cf9b04c73cd775ad23
-同期日時: 2026-03-02T18:26:11+09:00
+Notion URL: https://www.notion.so/318f3b0fba8581318ae0c7e72c4e0f1c
+同期日時: 2026-03-03T18:23:02+09:00
 
 ---
 

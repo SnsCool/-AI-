@@ -1,7 +1,7 @@
 # ❓クレーム事実確認をお問い合わせ担当者に依頼、テンプレ
 
-Notion URL: https://www.notion.so/2f1f3b0fba8580378fe6c91154659375
-同期日時: 2026-02-13T15:01:53+09:00
+Notion URL: https://www.notion.so/318f3b0fba858189a48ac7a9b2215fc7
+同期日時: 2026-03-03T18:27:54+09:00
 
 ---
 

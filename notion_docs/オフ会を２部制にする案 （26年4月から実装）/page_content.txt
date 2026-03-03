@@ -1,7 +1,7 @@
 # オフ会を２部制にする案 （26年4月から実装）
 
-Notion URL: https://www.notion.so/26-4-2fdf3b0fba8581328197f910a79b1681
-同期日時: 2026-02-13T15:20:05+09:00
+Notion URL: https://www.notion.so/26-4-318f3b0fba858176bf4fe9f0474ab024
+同期日時: 2026-03-03T18:27:07+09:00
 
 ---
 

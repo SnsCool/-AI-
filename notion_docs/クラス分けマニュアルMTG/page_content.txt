@@ -1,7 +1,7 @@
 # クラス分けマニュアルMTG
 
-Notion URL: https://www.notion.so/MTG-305f3b0fba8580589121e1ca24d92e40
-同期日時: 2026-02-27T00:23:27+09:00
+Notion URL: https://www.notion.so/MTG-318f3b0fba8581729da7d5947c8a69ff
+同期日時: 2026-03-03T18:25:48+09:00
 
 ---
 

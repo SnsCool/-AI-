@@ -1,8 +1,8 @@
 # ジャンル別資料作成（レシピ）
 
-Notion URL: https://www.notion.so/313f3b0fba8580a69d13d6830a7ba4f5
-同期日時: 2026-02-27T00:23:24+09:00
+Notion URL: https://www.notion.so/318f3b0fba8581f6920bd8ab02b80095
+同期日時: 2026-03-03T18:26:07+09:00
 
 ---
 
-(コンテンツなし)
+  https://shared-beak-b34.notion.site/302f3b0fba85800ca30fc1bb61886b61?source=copy_link

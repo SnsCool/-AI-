@@ -1,7 +1,7 @@
 # CTO：講師紹介画像の自動作成
 
-Notion URL: https://www.notion.so/CTO-305f3b0fba85800b8318fb0fb1aa965f
-同期日時: 2026-02-27T09:42:46+09:00
+Notion URL: https://www.notion.so/CTO-318f3b0fba858121af53e9c72bb0cc84
+同期日時: 2026-03-03T18:26:09+09:00
 
 ---
 
