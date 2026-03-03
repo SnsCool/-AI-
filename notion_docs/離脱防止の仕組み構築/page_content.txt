@@ -1,7 +1,7 @@
 # 離脱防止の仕組み構築
 
-Notion URL: https://www.notion.so/317f3b0fba8581dc8285e8cd0d6838a3
-同期日時: 2026-03-02T21:20:49+09:00
+Notion URL: https://www.notion.so/318f3b0fba85815b8dcffbd2a8f7f2a4
+同期日時: 2026-03-03T21:21:04+09:00
 
 ---
 
