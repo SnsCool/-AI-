@@ -1,13 +1,24 @@
 # 3月＿ダイエット事業＿ひろか
 
 Notion URL: https://www.notion.so/3-311f3b0fba8580d8ae0ad229b5ba9096
-同期日時: 2026-03-02T15:29:28+09:00
+同期日時: 2026-03-04T00:24:03+09:00
 
 ---
 
 先月目標と結果
-2期生（3月スタート）20名 ：達成
-https://docs.google.com/spreadsheets/d/1bdSmkkQp7DP1OTdt1VJqmT43rQBKnY5LcN3yUXgWgEM/edit?gid=997171970#gid=997171970
+2期生（3月スタート）20名確保 ：20名達成
+└既に1月ローンチで15名を確約済み、あと5名必要
+└残り6アポのため若干アポ数が足りない状況であった為、2月ローンチ実施
+→てぃーぞーさんの既存LINEリストへのローンチ
+てぃーぞーLINEリストへのチャレンジローンチ（3日間の食事添削→個別）
+【スケジュール】
+└16〜17日 チャレンジ募集・18〜20日 チャレンジ期間・21〜22日 個別募集
+【数値データ】
+【詳細データ】
+https://docs.google.com/spreadsheets/d/1enwjJv2PcIuW_erXNXy6U4c8_dz6dRk9dH13KTUDbiI/edit?usp=sharing
+https://docs.google.com/document/d/1oLOXrkOJi65SUaL4152N4g1AJE2xwV2AnV3gIo5q6iI/edit?usp=sharing
+https://drive.google.com/file/d/1Zbqj-3LICkf3Jv_UHyYihzKVHt1UPEpy/view
+https://drive.google.com/file/d/1RFw1PKHRJEGgLLPW6DZ3k1insR7tgGqI/view
 KSF・転用AP
 KSFとは
   KSFは「Key Success Factors（キーサクセスファクター）」の略で、日本語では「重要成功要因」と訳されます。KSFは、組織やビジネスが成功するために不可欠な要素や条件を指します。
@@ -23,17 +34,40 @@ KSFとは
   AP
   週３以上でメニーチャットを絡めた交流ストーリーを推奨する
   普段リールでの発信が多い発信者はリールでローンチさせてみる
+KSF：「きっかけづくり」・3日間という低いハードル設定
+具体的な「3日間の献立とトレーニング動画」を提示し、「ダイエットのきっかけ作り」を提供
+→ 通常の「痩せる方法」という重い訴求ではなく、「自分にもできるかも」と思わせる「軽さ」が、参加表明90名につながった
+転用AP：チャレンジローンチは今後作り込ば活用できそう
+LINEにリスト溜まってきたタイミングで痩せたい人へのチャレンジ企画を実施する
 KFF・改善AP
 KFFとは
   KFF（Key Failure Factors）とは、組織やビジネスが失敗する原因となる重要な要素や条件を指します。これらは、成功を妨げるリスクや障害となる要因であり、企業が目標を達成できない理由を明らかにするために分析されます。
 改善APとは
   KFFを受けて、同じ失敗を繰り返さないためにどうするべきか？というアクションプランを書き出してください
+KFF：企画の説明が分かりにくかった
+└ 63名が説明資料を開いてるのに対して、実施者が28名
+https://drive.google.com/file/d/1RFw1PKHRJEGgLLPW6DZ3k1insR7tgGqI/view
+改善AP：動画で企画説明と、資料も改善
+資料通りにやらなきゃいけないのではという懸念の払拭
+→コンビニ代替品リストや買い物リストを1枚追加するなど
 当月目標・達成AP
 達成APとは
   立てた目標を達成するためのアクションプランを納期付きで設定してください。
-目標：20名成約（1名成約済み・残アポ2件）
-達成AP：インフルエンサーローンチ
+目標：3期生（4月スタート）20名成約
+達成AP：①インフルエンサーローンチ　②スクラブ募集
 詳細
+ローンチ日程：13日〜15日
+インフルエンサーローンチ詳細
+経路：各インフルエンサー → もぐラボ公式LINE → 教育動画1本 → 個別相談
+インフルエンサー詳細（見込み順）
+ストーリーローンチ構成：https://docs.google.com/spreadsheets/d/1UpXOrL3nuMZ1lfkKCu2Hyd4noM8bMAviZ5Ipe1NIOfU/edit
+エバー動画台本：https://docs.google.com/document/d/1aQAhzn0gTmcin-zP4Sh1LlhP9tw1FQBQRMHRqRdMQT4/edit?tab=t.571qbocce3sv
+撮影：シンガポールで撮影（8日）
+編集：よしき（12日までに完成依頼済み）
+LINE導線：りょうさん（依頼済み）
+ローンチ資料
+https://docs.google.com/spreadsheets/d/1UpXOrL3nuMZ1lfkKCu2Hyd4noM8bMAviZ5Ipe1NIOfU/edit?usp=sharing
+クリエイティブ 
 PL
 年間計画の定量と定性
 https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?gid=222896699#gid=222896699
@@ -44,7 +78,6 @@ https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4k
 →これで年商7,800万。上位プランとサブスクを組み込めば1億到達レベル。
 共有・提案・依頼
 サポート状況
-さりなさん講師月次資料添付
 サービス資料
 https://www.canva.com/design/DAG-0Z6w0Nw/NCBK7EUArTd3A4mTS9O1ZA/edit
 フィットネス配信を辞めて、動画共有にする

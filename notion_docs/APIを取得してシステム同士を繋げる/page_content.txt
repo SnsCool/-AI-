@@ -1,7 +1,7 @@
 # APIを取得してシステム同士を繋げる
 
-Notion URL: https://www.notion.so/API-311f3b0fba8581d3a57af639aa9c981d
-同期日時: 2026-02-24T21:24:35+09:00
+Notion URL: https://www.notion.so/API-318f3b0fba8581d9acd8d6d3339e8a35
+同期日時: 2026-03-04T00:35:07+09:00
 
 ---
 
