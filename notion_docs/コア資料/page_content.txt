@@ -1,7 +1,7 @@
 # コア資料
 
 Notion URL: https://www.notion.so/317f3b0fba8580b08174e9c8c4ebfb8b
-同期日時: 2026-03-03T00:26:20+09:00
+同期日時: 2026-03-03T13:03:52+09:00
 
 ---
 
@@ -27,3 +27,5 @@ UGC広告資料
   https://docs.google.com/spreadsheets/d/1b5ixXzyANlHX6ugZMtO97ypako-o9zkZy9gfhY84TNc/edit?resourcekey=&gid=700344021#gid=700344021
 コアメンバー請求書格納フォルダ
   https://drive.google.com/drive/folders/15WLnpdIKRK52B4TXpGMuMmocg91n0iIo?usp=sharing
+【確定版】SNS運用代行_高単価プラン原価 
+  https://docs.google.com/spreadsheets/d/1qMmrPen52acKHCyZTiUgjwpVEy5YemvNiDZW-aty1BE/edit?usp=sharing
