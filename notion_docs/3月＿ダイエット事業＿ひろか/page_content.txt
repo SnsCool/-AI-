@@ -1,7 +1,7 @@
 # 3月＿ダイエット事業＿ひろか
 
 Notion URL: https://www.notion.so/3-311f3b0fba8580d8ae0ad229b5ba9096
-同期日時: 2026-03-04T03:25:35+09:00
+同期日時: 2026-03-04T06:16:43+09:00
 
 ---
 
@@ -14,7 +14,7 @@ Notion URL: https://www.notion.so/3-311f3b0fba8580d8ae0ad229b5ba9096
 【スケジュール】
 └16〜17日 チャレンジ募集・18〜20日 チャレンジ期間・21〜22日 個別募集
 【数値データ】
-【詳細データ】
+【詳細シナリオ】
 https://docs.google.com/spreadsheets/d/1enwjJv2PcIuW_erXNXy6U4c8_dz6dRk9dH13KTUDbiI/edit?usp=sharing
 https://drive.google.com/file/d/1Zbqj-3LICkf3Jv_UHyYihzKVHt1UPEpy/view
 KSF・転用AP
@@ -42,11 +42,12 @@ KFFとは
   KFF（Key Failure Factors）とは、組織やビジネスが失敗する原因となる重要な要素や条件を指します。これらは、成功を妨げるリスクや障害となる要因であり、企業が目標を達成できない理由を明らかにするために分析されます。
 改善APとは
   KFFを受けて、同じ失敗を繰り返さないためにどうするべきか？というアクションプランを書き出してください
-KFF：企画の説明が分かりにくかった
-└ 63名が説明資料を開いてるのに対して、実施者が28名
+KFF：企画説明が分かりにくかった
+└ 90名が参加表明・63名が企画資料を開いてるのに対して、実施者が28名
+https://drive.google.com/file/d/1Zbqj-3LICkf3Jv_UHyYihzKVHt1UPEpy/view
 https://drive.google.com/file/d/1RFw1PKHRJEGgLLPW6DZ3k1insR7tgGqI/view
 改善AP：動画で企画説明と、資料も改善
-資料通りにやらなきゃいけないのではという懸念の払拭
+資料通りにやらなきゃいけないのではという懸念の払拭もする
 →コンビニ代替品リストや買い物リストを1枚追加するなど
 当月目標・達成AP
 達成APとは
@@ -54,7 +55,7 @@ https://drive.google.com/file/d/1RFw1PKHRJEGgLLPW6DZ3k1insR7tgGqI/view
 目標：3期生（4月スタート）20名成約
 達成AP：① インフルエンサーローンチ　② スクラブローンチ
 ① インフルエンサーローンチ
-【経路】
+【導線】
 各インフルエンサー → もぐラボ公式LINE → 教育動画1本 → 個別相談
 【スケジュール】
 13〜15日 募集告知・14〜31日 個別相談
@@ -63,12 +64,12 @@ https://drive.google.com/file/d/1RFw1PKHRJEGgLLPW6DZ3k1insR7tgGqI/view
 https://docs.google.com/spreadsheets/d/1UpXOrL3nuMZ1lfkKCu2Hyd4noM8bMAviZ5Ipe1NIOfU/edit
 クリエイティブ 
 【LINE内】
-エバー動画台本：https://docs.google.com/document/d/1aQAhzn0gTmcin-zP4Sh1LlhP9tw1FQBQRMHRqRdMQT4/edit?tab=t.571qbocce3sv
+エバー動画台本：https://docs.google.com/document/d/1aQAhzn0gTmcin-zP4Sh1LlhP9tw1FQBQRMHRqRdMQT4/edit?tab=t.571qbocce3sv（これから仕上げます）
 撮影：シンガポールで撮影（8日）
 編集：よしき（11日までに完成依頼済み）
 LINE導線：りょうさん（12日までに完成依頼済み）
 【営業】
-てぃーぞー・はるかさん（新採用）が行う
+てぃーぞー・はるかさん（新）が行う
 └ https://www.instagram.com/haruka_seiro?igsh=bnoxbmM2MW9vM3Vy&utm_source=qr
 ② スクラブローンチ
 【スケジュール】
@@ -77,7 +78,7 @@ LINE導線：りょうさん（12日までに完成依頼済み）
 ダイエットサークル・ダイエットジャンル部屋でうちこさんに流していただく
 【営業】
 ひろかが行う
-3月ローンチの数値設定
+3月ローンチの数値想定
 PL
 年間計画の定量と定性
 https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?gid=222896699#gid=222896699
@@ -85,22 +86,21 @@ https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4k
 4〜6月：各月30名集客、MAX90名稼働、100〜120名稼働が可能な体制を構築。
 7〜9月：各月40名集客、MAX120名稼働、130〜150名稼働が可能な体制を構築。
 10〜12月：各月50名集客、MAX150名稼働を1月に叶える。
-→これで年商7,800万。上位プランとサブスクを組み込めば1億到達レベル。
 共有・提案・依頼
-サポート状況（2月スタート20名：1ヶ月経過時点）
+サポート状況
 【各チームの平均値】
+  （2月スタート20名：1ヶ月経過時点）
 【個人詳細データ】
   Bチーム
   Cチーム
-サービス資料
-https://www.canva.com/design/DAG-0Z6w0Nw/NCBK7EUArTd3A4mTS9O1ZA/edit
-採用関連（現状人数）
+【1ヶ月目の成果報告】
+  https://drive.google.com/drive/folders/17OzxkiQcYEIJNEGRu3NKml0EwKGvh31-
+採用状況
 アフィリエイター：9名❌（圧倒的に足りない→スクラブでの再募集・インスタDM）
 営業：2名🔺（増やす目処は立っている）
 講師：8名⭕️
 トレーナー：2名⭕️
 https://docs.google.com/spreadsheets/d/1ezCjICUfjWYVIhQaql-e-n28FW1AdjTFoGAphALKX4s/edit?gid=0#gid=0
-https://www.canva.com/design/DAHCBAj5Q7o/WBobhPlZTewd1p8MpAFjmg/edit
 講師採用計画 
 マニュアル
 【講師】マニュアル
@@ -109,6 +109,10 @@ https://www.canva.com/design/DAHCBAj5Q7o/WBobhPlZTewd1p8MpAFjmg/edit
 もぐラボ専用のフィットネス動画を撮影してくれる方
 太ってる有名人（受けてもらって集客に活用したいです）
 ロゴ案
+前回から進んでないです。
 https://www.lovart.ai/canvas?projectId=536aa2b65f0d4f3499c79a2d01039dcc
 運営用ディスコード
 https://discord.gg/GR4JARVTx9
+その他資料
+https://www.canva.com/design/DAG-0Z6w0Nw/NCBK7EUArTd3A4mTS9O1ZA/edit
+https://www.canva.com/design/DAHCBAj5Q7o/WBobhPlZTewd1p8MpAFjmg/edit
