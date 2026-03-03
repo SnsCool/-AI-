@@ -1,7 +1,7 @@
 # ジムの自分のプロンプトだけを使うための準備を実行
 
-Notion URL: https://www.notion.so/317f3b0fba8581959f88fd519f928e8e
-同期日時: 2026-03-03T00:24:32+09:00
+Notion URL: https://www.notion.so/318f3b0fba85810b82cfd52d1b3af89b
+同期日時: 2026-03-04T03:26:54+09:00
 
 ---
 

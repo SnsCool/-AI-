@@ -1,7 +1,7 @@
 # ゴさんとの連携に関する明確な合意
 
-Notion URL: https://www.notion.so/317f3b0fba8581f2bf6ccff31a2013bb
-同期日時: 2026-03-02T21:22:15+09:00
+Notion URL: https://www.notion.so/318f3b0fba858124a695f12df31b122a
+同期日時: 2026-03-04T03:25:09+09:00
 
 ---
 

@@ -1,19 +1,31 @@
 # CTO室
 
-Notion URL: https://www.notion.so/CTO-2f8f3b0fba85803f8507f9273ed88aa9
-同期日時: 2026-02-22T15:26:34+09:00
+Notion URL: https://www.notion.so/CTO-318f3b0fba8581489c5ed650996e280e
+同期日時: 2026-03-04T03:28:47+09:00
 
 ---
 
-  メモ
-  【イベント】
-  ワークフロー
-  https://mermaid.ai/app/projects/b73dfe5d-cbb5-43e6-8f08-a1a106ab6bc8/diagrams/e16a02f3-6ce2-4c60-b5f2-944565c2e1b6/version/v0.1/edit
-  タスク
-  https://docs.google.com/spreadsheets/d/12uJY4J39PffMHEOhh0PD5z4DJ1d8sSA4VFNXuO_9ohE/edit?pli=1&gid=1930141022#gid=1930141022
-  資料
-  https://docs.google.com/presentation/d/1FoFIHFCQ_85SVQJLrDyOG7Hv0Wv7xIMJ2YzMJHYQj-o/edit?slide=id.p1#slide=id.p1
-  経費関連
-  https://docs.google.com/spreadsheets/d/1yBjfIsL2GslNYGB7G_RRzL7-inX8O5y2trqCyqifL4Q/edit?gid=960678369#gid=960678369
-  運営ワークフロー
-  https://whimsical.com/generated-board-3apfD2WYhZnoyDa6EoC6HT?ref=chatgpt
+採用
+→ リンクドDBビューを追加（フィルター: 部署=CTO室, 課題=採用）
+組織・体制構築
+→ リンクドDBビューを追加（フィルター: 部署=CTO室, 課題=組織・体制構築）
+教育・育成
+→ リンクドDBビューを追加（フィルター: 部署=CTO室, 課題=教育・育成）
+評価・報酬制度
+→ リンクドDBビューを追加（フィルター: 部署=CTO室, 課題=評価・報酬制度）
+業務効率化
+→ リンクドDBビューを追加（フィルター: 部署=CTO室, 課題=業務効率化）
+戦略・KPI
+→ リンクドDBビューを追加（フィルター: 部署=CTO室, 課題=戦略・KPI）
+データ基盤
+→ リンクドDBビューを追加（フィルター: 部署=CTO室, 課題=データ基盤）
+連携・コミュニケーション
+→ リンクドDBビューを追加（フィルター: 部署=CTO室, 課題=連携・コミュニケーション）
+コンテンツ制作
+→ リンクドDBビューを追加（フィルター: 部署=CTO室, 課題=コンテンツ制作）
+顧客対応
+→ リンクドDBビューを追加（フィルター: 部署=CTO室, 課題=顧客対応）
+AI・技術活用
+→ リンクドDBビューを追加（フィルター: 部署=CTO室, 課題=AI・技術活用）
+その他
+→ リンクドDBビューを追加（フィルター: 部署=CTO室, 課題=その他）
