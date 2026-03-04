@@ -1,7 +1,7 @@
 # スタータープログラム開始日をLステップ回答日に設定
 
-Notion URL: https://www.notion.so/L-318f3b0fba8581ccbad2e7f0b27f8068
-同期日時: 2026-03-04T09:45:42+09:00
+Notion URL: https://www.notion.so/L-318f3b0fba858189be40d59470c61302
+同期日時: 2026-03-05T03:22:47+09:00
 
 ---
 

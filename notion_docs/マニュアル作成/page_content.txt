@@ -1,9 +1,8 @@
 # マニュアル作成
 
-Notion URL: https://www.notion.so/318f3b0fba85815b9cf3cd2dde3a5ce7
-同期日時: 2026-03-03T18:23:24+09:00
+Notion URL: https://www.notion.so/318f3b0fba85819a8e63e3069cfb334a
+同期日時: 2026-03-05T03:21:27+09:00
 
 ---
 
-クラス分け
-保証制度の口座聞きとり後の対応を入れていく
+(コンテンツなし)

@@ -1,7 +1,7 @@
 # 投稿数KPI目標設定
 
-Notion URL: https://www.notion.so/KPI-318f3b0fba858158ba85c466d53d445d
-同期日時: 2026-03-04T09:45:45+09:00
+Notion URL: https://www.notion.so/KPI-318f3b0fba8581f3a79edfa6a41995b8
+同期日時: 2026-03-05T03:24:15+09:00
 
 ---
 
