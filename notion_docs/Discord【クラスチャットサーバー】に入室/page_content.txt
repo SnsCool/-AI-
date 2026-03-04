@@ -1,8 +1,8 @@
 # Discord【クラスチャットサーバー】に入室
 
-Notion URL: https://www.notion.so/Discord-306f3b0fba858159ab98cf41b12e3db3
-同期日時: 2026-02-14T00:26:19+09:00
+Notion URL: https://www.notion.so/Discord-319f3b0fba8581cea0ebfaa6e8c48ff6
+同期日時: 2026-03-04T12:57:27+09:00
 
 ---
 
-クラスチャットの招待リンク貼る
+(コンテンツなし)

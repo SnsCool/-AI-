@@ -1,7 +1,7 @@
 # 2月_はるか月次資料 
 
 Notion URL: https://www.notion.so/2-_-318f3b0fba8580e08141f52e94b08823
-同期日時: 2026-03-04T09:40:44+09:00
+同期日時: 2026-03-04T12:57:09+09:00
 
 ---
 
@@ -40,6 +40,7 @@ Notion URL: https://www.notion.so/2-_-318f3b0fba8580e08141f52e94b08823
 ➡️ 大半が生徒側事情
 初期60日以内解約詳細
 解約顧客詳細
+  合計：3,497,158円
 KSF・転用AP（達成した場合のみ）
 KSFとは
   KSFは「Key Success Factors（キーサクセスファクター）」の略で、日本語では「重要成功要因」と訳されます。KSFは、組織やビジネスが成功するために不可欠な要素や条件を指します。
@@ -124,6 +125,7 @@ Discord反応低下
   →結果に基づき、中途解約阻止に動く
 解約に至る前に原因の追求
   することを目的としたアクション設計
+https://docs.google.com/forms/d/e/1FAIpQLSf5Db3psYNn34VJwP_69UqUpe-NaRZwUVnU_6PJtx-OSyb0PQ/viewform?usp=dialog
 先月実施したタスク
 中途解約アンケート作成
 ジャンル別解説資料
