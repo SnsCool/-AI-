@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-03-04T12:55:48+09:00
+同期日時: 2026-03-04T15:28:28+09:00
 
 ---
 
@@ -175,10 +175,10 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/requirements.md
 https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
   ①正しく動くかチェック
     チェックに必要な情報
-  ②正しく動いていなかったら修正
+    エラー
+  ②正しく動いていなかったら修正③もっと良くした方がいいことやよくできることがあれば提案
     修正点
     確認点
-  ③もっと良くした方がいいことやよくできることがあれば提案
   ④CS部へ展開
     基本的な流れは同じらしい、Zoomのアカウントが違うことや、サムネイル画像が違う点に注意が必要。
 講師図鑑を作成したい
