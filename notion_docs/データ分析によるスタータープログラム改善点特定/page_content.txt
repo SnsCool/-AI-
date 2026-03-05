@@ -1,7 +1,7 @@
 # データ分析によるスタータープログラム改善点特定
 
-Notion URL: https://www.notion.so/318f3b0fba858185a054ef62edf73aff
-同期日時: 2026-03-05T03:22:48+09:00
+Notion URL: https://www.notion.so/31af3b0fba85804aab96d597dd4069ad
+同期日時: 2026-03-05T21:22:10+09:00
 
 ---
 
