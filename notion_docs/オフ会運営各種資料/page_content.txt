@@ -1,7 +1,7 @@
 # オフ会運営各種資料
 
 Notion URL: https://www.notion.so/1b9f3b0fba8580719c6fcab3a2f0a8f6
-同期日時: 2026-03-04T18:25:19+09:00
+同期日時: 2026-03-05T15:26:54+09:00
 
 ---
 
@@ -602,6 +602,7 @@ https://docs.google.com/spreadsheets/d/1FChjZWq0wPKhkzH1PNGQ7y-zmVRPfQpydjZzLMp4
 26年4月東京オフ会
     ⏰運営用タイムスケジュール
     会場使用時間：10時30分〜19時30分
+    会場使用時間：10時30分〜19時30分
 🌺ジャンル別オフ会
 2026年1月：マネタイズオフ会
   https://docs.google.com/spreadsheets/d/1FXsJfgyN-dn0t7iOXoIzHoWxQhEr_mGHxlotHdyEnlM/edit?usp=sharing
@@ -609,22 +610,6 @@ https://docs.google.com/spreadsheets/d/1FChjZWq0wPKhkzH1PNGQ7y-zmVRPfQpydjZzLMp4
     アンケートで寄せられた「撮影オフ会で学びたいこと」は、大きく以下のカテゴリーに分類できました。特に「ライティング・照明」「画角・アングル」に関する悩みが大多数を占めています。
     https://docs.google.com/spreadsheets/d/1v6aNx-jilNa6s3yHgoLcP-aIoRnsVqSonpx6Q8OETfk/edit?resourcekey=&gid=755275341#gid=755275341
   https://docs.google.com/presentation/d/1rbZs3N_krBcUpRf8CSUkda0kDoxqVziT/edit?slide=id.p1#slide=id.p1
-    ⭐️Relax one 渋谷シェアキッチン
-    会場費：￥32,340（税込）/　12:00~17:00利用
-    人数オプション：￥17,600（税込）/20個
-    キッチン利用：￥6,600/回
-    キッチン周り各種：￥1,100/回
-    合計：57,640円
-    ⭐️スクエア渋谷
-    会場費：￥29,920（税込）/　12:00~17:00利用
-    プロジェクター、各種カトラリー、各種調理器具：無料
-    ※モニターはなし
-    ⭐️タイムレス渋谷
-    会場費：￥35,805（税込）/　12:00~17:00利用
-    ゴミ引取：￥2,200/1
-    キッチン利用：￥4,400/1
-    プロジェクター&スクリーン：￥1,100/1
-    合計：43,505円
 🌺エスキャン
 2025年11月プレミアムオフ会
   Untitled 
