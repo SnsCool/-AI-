@@ -1,7 +1,7 @@
 # 他部署連携（営業・講師MG）
 
-Notion URL: https://www.notion.so/MG-31cf3b0fba8580c5a02fccc81ed95572
-同期日時: 2026-03-07T21:19:42+09:00
+Notion URL: https://www.notion.so/MG-31cf3b0fba8580fb959bdb5a427613c1
+同期日時: 2026-03-08T00:10:31+09:00
 
 ---
 
