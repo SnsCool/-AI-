@@ -1,7 +1,7 @@
 # 勉強会動画＆スライドアーカイブ
 
 Notion URL: https://www.notion.so/2fcf3b0fba8580eb8fb9d7d6c1b2f11f
-同期日時: 2026-03-06T00:25:10+09:00
+同期日時: 2026-03-07T12:46:21+09:00
 
 ---
 
@@ -12,5 +12,5 @@ Notion URL: https://www.notion.so/2fcf3b0fba8580eb8fb9d7d6c1b2f11f
 
 勉強会の内容についても問い合わせがあるので見たことがない方は必ずご確認ください。
     勉強会スライド（閲覧参考用）
-※こちらは実際に使用するものをコピーして参考用に載せています。実際に使用したものと異なる場合があります。
+※こちらは実際に使用するものをコピーして参考用に載せています。実際に使用したものと若干異なる場合があります。
 https://www.canva.com/design/DAHAbR8wo9I/SsraXwRHwRz7DOI6Ucp0bQ/edit
