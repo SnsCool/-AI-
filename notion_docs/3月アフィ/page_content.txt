@@ -1,7 +1,7 @@
 # 3月アフィ
 
 Notion URL: https://www.notion.so/3-316f3b0fba8580f7b9dad4829247e6f7
-同期日時: 2026-03-08T15:20:18+09:00
+同期日時: 2026-03-08T18:13:22+09:00
 
 ---
 
@@ -59,6 +59,7 @@ https://docs.google.com/spreadsheets/d/1UpXOrL3nuMZ1lfkKCu2Hyd4noM8bMAviZ5Ipe1NI
     10日：リール台本作成
     ┗13日：リール投稿
     コメント誘導のシステム導入
+    リール台本案
     さりなさん
     https://www.instagram.com/sarina_diet_gohan/
     3日：4日の台本共有
