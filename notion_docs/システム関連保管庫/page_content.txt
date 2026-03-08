@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-03-06T15:23:44+09:00
+同期日時: 2026-03-09T00:10:35+09:00
 
 ---
 
@@ -172,6 +172,7 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/design.md
     要件定義：https://github.com/SnsCool/cs-movie-correction/blob/main/docs/requirements.md
     引き継ぎ書：
 https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
+    DB（Notion）
   ①正しく動くかチェック
     チェックに必要な情報
     エラー

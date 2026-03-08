@@ -1,13 +1,14 @@
 # よしおかやすこ　すずき組
 
 Notion URL: https://www.notion.so/31df3b0fba858093b37ffb1dd4b8a3eb
-同期日時: 2026-03-08T09:42:50+09:00
+同期日時: 2026-03-09T00:09:33+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
     [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    https://docs.google.com/spreadsheets/d/197nGvf7EseNP-pXoOEGOhJc1zyBJJknt1UZTvFZ2L2o/edit?gid=0#gid=0
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
