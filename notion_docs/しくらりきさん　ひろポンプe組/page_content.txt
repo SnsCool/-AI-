@@ -1,7 +1,7 @@
-# まつもとあやか　たいせいG組
+# しくらりきさん　ひろポンプe組
 
-Notion URL: https://www.notion.so/G-31af3b0fba8580c6b616f7f77196a723
-同期日時: 2026-03-09T12:53:19+09:00
+Notion URL: https://www.notion.so/e-2d2f3b0fba85809e9b7ae562fc7443d4
+同期日時: 2026-03-09T12:53:31+09:00
 
 ---
 
@@ -10,10 +10,10 @@ Notion URL: https://www.notion.so/G-31af3b0fba8580c6b616f7f77196a723
     [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
-    https://docs.google.com/spreadsheets/d/1b-FpzlVhlg0J3-rOhucfii-oitHVcIlxrHXKKPIXwLU/edit?gid=0#gid=0
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
     ②誓約書はPDFにして生徒さんへ送付
     ▼講師1on1　予約用timerex▼
+    https://timerex.net/s/hiro.ponpu.en_188a/12bb9342
     生徒メアド：
     １回目：第２回（初期設計1on1）〜第４回講義 
 ２回目：第４回講義〜第６回講義：
