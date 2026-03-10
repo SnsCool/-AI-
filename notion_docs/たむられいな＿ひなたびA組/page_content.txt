@@ -1,13 +1,13 @@
 # たむられいな＿ひなたびA組
 
 Notion URL: https://www.notion.so/A-318f3b0fba85807386a8facaba9e0acc
-同期日時: 2026-03-09T18:30:45+09:00
+同期日時: 2026-03-11T00:26:09+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
-    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    [https://docs.google.com/spreadsheets/d/19UCcHDVzZsFHjEFYdp7P0Qt2_daweOa5waOLzFhLzX0/edit?gid=0#gid=0]
     📜 | 誓約書
     [https://docs.google.com/spreadsheets/d/16dD0no_2fGHkoVgIt8mO0gSFYpb4qiVNAGDWMNQGtgE/edit?usp=sharing]
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
