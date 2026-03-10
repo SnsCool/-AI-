@@ -1,7 +1,7 @@
 # 3月アフィ
 
 Notion URL: https://www.notion.so/3-316f3b0fba8580f7b9dad4829247e6f7
-同期日時: 2026-03-10T12:52:08+09:00
+同期日時: 2026-03-10T15:23:16+09:00
 
 ---
 
@@ -53,3 +53,5 @@ https://docs.google.com/spreadsheets/d/1UpXOrL3nuMZ1lfkKCu2Hyd4noM8bMAviZ5Ipe1NI
     動画
     フィード
     プレゼントリール
+メモ
+プレミアム動画のサムネ作成
