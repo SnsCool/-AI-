@@ -1,7 +1,7 @@
 # SnsClubラジオ視聴し、アウトプットする 
 
-Notion URL: https://www.notion.so/SnsClub-4e8f3b0fba858239a2cc01350e6b559a
-同期日時: 2026-03-10T18:30:01+09:00
+Notion URL: https://www.notion.so/SnsClub-652f3b0fba8583eab8b5812876ad9ed5
+同期日時: 2026-03-11T21:22:18+09:00
 
 ---
 

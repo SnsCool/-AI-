@@ -1,19 +1,19 @@
 # まつもとあやか　たいせいG組
 
 Notion URL: https://www.notion.so/G-31af3b0fba8580c6b616f7f77196a723
-同期日時: 2026-03-09T12:53:19+09:00
+同期日時: 2026-03-11T21:21:42+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
-    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]https://docs.google.com/spreadsheets/d/17NKrE3dE8mwHzENzSixht-qAmfD50P89UTt7S2Cs6iM/edit?gid=1220109173#gid=1220109173
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
-    https://docs.google.com/spreadsheets/d/1b-FpzlVhlg0J3-rOhucfii-oitHVcIlxrHXKKPIXwLU/edit?gid=0#gid=0
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
     ②誓約書はPDFにして生徒さんへ送付
     ▼講師1on1　予約用timerex▼
+    https://timerex.net/s/63fb42a8/
     生徒メアド：
     １回目：第２回（初期設計1on1）〜第４回講義 
 ２回目：第４回講義〜第６回講義：

@@ -1,7 +1,7 @@
 # SnsClubマネタイズ講座スタッフPortal
 
 Notion URL: https://www.notion.so/SnsClub-Portal-24ff3b0fba8580dfa9d7c6a5e9b222da
-同期日時: 2026-03-11T18:21:56+09:00
+同期日時: 2026-03-11T21:25:10+09:00
 
 ---
 
@@ -102,6 +102,8 @@ https://forms.gle/nXW7KrhHTqL4GK9D9
 https://docs.google.com/spreadsheets/d/1gSes6wgMe41jIRXzyi68Sen2zdxGxNQ2abwJAQzPK8o/edit?usp=sharing
 マネタイズ講座LINEリマインド動画
 https://drive.google.com/file/d/1njCMfns0BikhEgrtl5wTKxBbhLz42jNS/view?usp=sharing
+エリート成果目標管理シート
+https://docs.google.com/spreadsheets/d/17QEP01pwY2ZISG3cht4Rkmatsn7oDgK4M6ZdgAvNMy8/edit?usp=sharing
 💰マネタイズ講座 中期経営計画💰
 🎯 1. 事業ビジョン
 ■ 中期目標
