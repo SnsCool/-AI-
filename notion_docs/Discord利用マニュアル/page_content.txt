@@ -1,7 +1,7 @@
 # Discord利用マニュアル
 
 Notion URL: https://www.notion.so/Discord-6dfaa192c53f47d3a86ceb06c4a4e510
-同期日時: 2026-03-05T15:28:47+09:00
+同期日時: 2026-03-11T18:27:20+09:00
 
 ---
 
