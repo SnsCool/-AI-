@@ -1,7 +1,7 @@
 # 2月2週目_ダイエット事業_ひろか
 
-Notion URL: https://www.notion.so/2-2-_-_-309f3b0fba8580839cd4f3b450c0a2a4
-同期日時: 2026-02-18T21:21:36+09:00
+Notion URL: https://www.notion.so/2-2-_-_-321f3b0fba8581c8a5a9e1ef2d3888d5
+同期日時: 2026-03-12T15:34:24+09:00
 
 ---
 
@@ -25,7 +25,7 @@ https://docs.google.com/document/d/11s3EFOQxxPh-i5BgxZQc0CjMQh_Y4MF1IrDHpZE3Ifo/
 700リスト
 ローンチと別で遂行してること
 各職種のマニュアル作成
-【講師】マニュアル 
+講師マニュアル 
 【トレーナー】マニュアル 
 【営業】マニュアル 
 【アフィリエイター】マニュアル 
