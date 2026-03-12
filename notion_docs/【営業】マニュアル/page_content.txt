@@ -1,7 +1,7 @@
 # 【営業】マニュアル
 
 Notion URL: https://www.notion.so/2ccf3b0fba8580da9192cefc7e69b8e1
-同期日時: 2026-03-02T00:09:59+09:00
+同期日時: 2026-03-13T00:25:50+09:00
 
 ---
 
@@ -510,6 +510,7 @@ levela.diet.96
   https://manager.linestep.net/
 ID：Levela_diet
 PW：Leveladiet
+  【スタッフコード】
 契約書マニュアル
   https://docs.google.com/document/d/1g_loHuU9VrBLs9bSaApIGNAfBr6HHNny2y5WbO3qC7w/edit?usp=sharing
 決済ツール
@@ -551,3 +552,6 @@ PW：Leveladiet
 営業管理シート
   https://docs.google.com/spreadsheets/d/1bdSmkkQp7DP1OTdt1VJqmT43rQBKnY5LcN3yUXgWgEM/edit?usp=sharing
   https://docs.google.com/spreadsheets/d/17fHrRXzJ_nmaia6HMPMQpAq3heyBEjM1W3Epy-wSFUk/edit?gid=0#gid=0
+  顧客管理 
+  ┗講師に顧客情報を連携するためのシート
+  →営業の人が記入をする
