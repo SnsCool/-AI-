@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-03-11T15:25:41+09:00
+同期日時: 2026-03-12T12:56:29+09:00
 
 ---
 
@@ -107,6 +107,8 @@ CS マネジメントMTG
     週一や月一実施でもよい
   たいちさん打ち合わせ用
     https://www.notion.so/2e3f3b0fba858038a341f1f1350413c4
+  たいちさんからＦＴＰの情報をもらったので、関連するページの申請フォームを項目統一できているか確認
+    ログインＵＲＬ
 済：生徒管理シートの日付がぐちゃぐちゃになっている（2026年が途中に混ざったりしている）！？
   日付が飛んでいる（例：2025/12/14の次が2025/12/21）はあるが、途中で、未来に行ったり、過去に戻ったりはなかった。
   飛んでいる日付はデータ数が多くなるので、できれば、追加したくない
@@ -186,6 +188,10 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
   万垢生徒と講師を見れるWebサイトが欲しい
   GAS＋Webサーバで実装できるかも？
     型だけhttps://script.google.com/macros/s/AKfycbxa4ezPGWpnx0XBDwxkTnDC8Auj3w5JJPCM6qAxTaZpf49aIEXKAXMTD0sdfmr_bkin/exec
+マネタイズ講座の入金確認シートチェック？
+顧客管理シートのCSV反映ボタンが正しく動かない
+  データが全部とれない？
+  ライトとエリートに転記もうまくいってない。
 エンジニア
 SnsClub講義（GRITSTUDY）アプリ追加開発
 引き継ぎ
