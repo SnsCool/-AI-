@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-03-12T15:26:57+09:00
+同期日時: 2026-03-12T18:22:55+09:00
 
 ---
 
@@ -183,6 +183,7 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
     確認点
   ④CS部へ展開
     基本的な流れは同じらしい、Zoomのアカウントが違うことや、サムネイル画像が違う点に注意が必要。
+    運営アカウントのYoutubeへ上げる
 講師図鑑を作成したい
   3月末までに
   万垢生徒と講師を見れるWebサイトが欲しい
@@ -190,8 +191,8 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
     型だけhttps://script.google.com/macros/s/AKfycbxa4ezPGWpnx0XBDwxkTnDC8Auj3w5JJPCM6qAxTaZpf49aIEXKAXMTD0sdfmr_bkin/exec
 マネタイズ講座の入金確認シートチェック？
 顧客管理シートのCSV反映ボタンが正しく動かない
-  データが全部とれない？
-  ライトとエリートに転記もうまくいってない。
+  データが全部とれない？→名前と時間で判定
+  ライトとエリートに転記もうまくいってない。AとB列を移す。
 エンジニア
 SnsClub講義（GRITSTUDY）アプリ追加開発
 引き継ぎ

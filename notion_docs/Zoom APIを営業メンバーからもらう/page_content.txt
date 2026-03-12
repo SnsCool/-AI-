@@ -1,7 +1,7 @@
 # Zoom APIを営業メンバーからもらう
 
 Notion URL: https://www.notion.so/Zoom-API-321f3b0fba858169a4b4c0064af046ad
-同期日時: 2026-03-12T12:57:25+09:00
+同期日時: 2026-03-12T18:21:45+09:00
 
 ---
 
