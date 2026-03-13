@@ -1,7 +1,7 @@
 # 【営業】マニュアル
 
 Notion URL: https://www.notion.so/2ccf3b0fba8580da9192cefc7e69b8e1
-同期日時: 2026-03-13T00:25:50+09:00
+同期日時: 2026-03-13T21:28:17+09:00
 
 ---
 
@@ -513,6 +513,7 @@ PW：Leveladiet
   【スタッフコード】
 契約書マニュアル
   https://docs.google.com/document/d/1g_loHuU9VrBLs9bSaApIGNAfBr6HHNny2y5WbO3qC7w/edit?usp=sharing
+  株式会社Levela 代表取締役 駒居
 決済ツール
   【カード決済】
     決済方法：メール送信・リンク送信

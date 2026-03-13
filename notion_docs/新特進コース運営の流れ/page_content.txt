@@ -1,7 +1,7 @@
 # 新特進コース運営の流れ
 
 Notion URL: https://www.notion.so/320f3b0fba85809eadffeea5913af86c
-同期日時: 2026-03-13T15:27:43+09:00
+同期日時: 2026-03-13T21:21:35+09:00
 
 ---
 
@@ -18,6 +18,8 @@ Notion URL: https://www.notion.so/320f3b0fba85809eadffeea5913af86c
     通常セッション1回目はクラスの初回HRに合わせる必要ありません
 初回顔合わせの7日以内に実施できるよう調整しましょう
     7～12回目は進捗に合わせ、生徒と調整して実施してください
+    前日21時以降および当日キャンセルは、報酬あり消化扱いでも構いませんが、
+ルールとして1度は認められていますのでご注意ください。
     ⏰生徒は毎日タイムスケジュール（タスク宣言）を行う
     内容：1メッセージにつき1タスク（例：9:00～10:00台本作成）
     タスク消化後：【done】スタンプを押す
@@ -31,3 +33,9 @@ Notion URL: https://www.notion.so/320f3b0fba85809eadffeea5913af86c
     （詳細は各チームリーダーよりお伝えします）
     【コミット/特進】連絡テンプレ/対応まとめ 
     コミット/特進サポート期間・報酬詳細 
+    アクションシート：https://docs.google.com/spreadsheets/d/11z3_yXujRSZrDKh5EX7dc_2lvqoDJIR-jWjHfuQl4sQ/copy
+    説明PDF：https://www.canva.com/design/DAGOg6YIIqM/Vq1W-w9AoHn-Fv9Pm2IybA/view?utm_content=DAGOg6YIIqM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h576f5c37a6
+    誓約書：https://docs.google.com/spreadsheets/d/1XCLVAwHQkI6FkeY7MYxX6Zt_6SBP4d5uA7MF8WUWSBg/copy
+    自己紹介カード：https://www.canva.com/design/DAF7kHZYDMQ/mifJF5IH5Va3iH5Z9jpdnA/edit?utm_content=DAF7kHZYDMQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+    Zoom背景：https://www.canva.com/design/DAF9r4dmSac/b9MeNX5hYjx1T1ZKVGBEMQ/edit?utm_content=DAF9r4dmSac&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+    FAQ（よくある質問） 
