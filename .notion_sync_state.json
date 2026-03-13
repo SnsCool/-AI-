@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-03-13T18:21:31.158650+00:00",
+  "last_sync": "2026-03-13T21:16:23.849585+00:00",
   "pages": {
     "306f3b0f-ba85-8040-96ac-d640633f5de6": {
       "title": "顧客からの問い合わせ詳細分析",
@@ -2997,9 +2997,9 @@
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/谷田 瑞季さん"
     },
     "2cdf3b0f-ba85-8069-b301-cebe29e63163": {
-      "title": "中途解約",
-      "last_edited": "2026-02-26T10:06:00.000Z",
-      "path": "/home/runner/work/-AI-/-AI-/notion_docs/中途解約"
+      "title": "中途解約LINE対応",
+      "last_edited": "2026-03-13T20:02:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/中途解約LINE対応"
     },
     "302f3b0f-ba85-8082-b6d9-e7b4cdcafb6f": {
       "title": "りくさん1on1",
@@ -18633,7 +18633,7 @@
     },
     "316f3b0f-ba85-809a-8b8e-d189c2798077": {
       "title": "はるかスクリプト",
-      "last_edited": "2026-03-13T18:16:00.000Z",
+      "last_edited": "2026-03-13T20:58:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/はるかスクリプト"
     },
     "316f3b0f-ba85-8129-985f-f62399f8cd8d": {
@@ -42267,9 +42267,9 @@
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/あらいみくほさん　つきD組"
     },
     "320f3b0f-ba85-8020-84b9-c49b03675db1": {
-      "title": "⭐️オフ会概要",
-      "last_edited": "2026-03-11T07:11:00.000Z",
-      "path": "/home/runner/work/-AI-/-AI-/notion_docs/⭐️オフ会概要"
+      "title": "⭐️3月北海道オフ会概要",
+      "last_edited": "2026-03-13T18:23:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/⭐️3月北海道オフ会概要"
     },
     "320f3b0f-ba85-8020-91af-f554ed3b7051": {
       "title": "5月半期総会：会場選定・確定",
@@ -45553,7 +45553,7 @@
     },
     "322f3b0f-ba85-8094-8fd5-e48a50872e09": {
       "title": "マーケ部タスク一覧",
-      "last_edited": "2026-03-13T10:28:00.000Z",
+      "last_edited": "2026-03-13T18:37:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/マーケ部タスク一覧"
     },
     "322f3b0f-ba85-81d1-8b8a-d23f3bd0e340": {
@@ -45573,7 +45573,7 @@
     },
     "301f3b0f-ba85-80f7-bc2b-ef23db50cc65": {
       "title": "🔷1回目",
-      "last_edited": "2026-03-13T18:08:00.000Z",
+      "last_edited": "2026-03-13T18:30:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/🔷1回目"
     },
     "300f3b0f-ba85-80dc-b9d6-dcfe02174d7b": {
@@ -48640,6 +48640,96 @@
       "title": "3/27〜28：徳島撮影",
       "last_edited": "2026-03-13T15:48:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/3_27〜28：徳島撮影"
+    },
+    "322f3b0f-ba85-8088-9e78-d4bf31e5795f": {
+      "title": "クーリングオフ退会処理",
+      "last_edited": "2026-03-13T20:13:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/クーリングオフ退会処理"
+    },
+    "1d9f3b0f-ba85-80c2-8728-c84e751f6e5a": {
+      "title": "マニュアル一覧",
+      "last_edited": "2026-03-13T20:13:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/マニュアル一覧"
+    },
+    "279f3b0f-ba85-8015-ad22-e0e56e3fa153": {
+      "title": "クーリングオフ顧客処理",
+      "last_edited": "2026-03-13T20:12:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/クーリングオフ顧客処理"
+    },
+    "322f3b0f-ba85-8124-87a3-c52e1bcf2e56": {
+      "title": "⑦対応マーク変更",
+      "last_edited": "2026-03-13T20:12:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/⑦対応マーク変更"
+    },
+    "322f3b0f-ba85-8159-9761-cc9cec1f01dd": {
+      "title": "③講師へ連絡",
+      "last_edited": "2026-03-13T20:12:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/③講師へ連絡"
+    },
+    "322f3b0f-ba85-816b-b174-f40733dfdce0": {
+      "title": "①Lステップで該当生徒を開く",
+      "last_edited": "2026-03-13T20:12:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/①Lステップで該当生徒を開く"
+    },
+    "322f3b0f-ba85-81c1-8c99-d36d5e5c1579": {
+      "title": "②Discord追放処理",
+      "last_edited": "2026-03-13T20:12:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/②Discord追放処理"
+    },
+    "322f3b0f-ba85-81d1-91da-c077ea7fea2c": {
+      "title": "④CSへ連絡",
+      "last_edited": "2026-03-13T20:12:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/④CSへ連絡"
+    },
+    "322f3b0f-ba85-811c-8d7b-f1695072402e": {
+      "title": "⑥講師報酬変更報告スレッド連絡",
+      "last_edited": "2026-03-13T20:12:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/⑥講師報酬変更報告スレッド連絡"
+    },
+    "322f3b0f-ba85-81e8-ab62-d599c97981a3": {
+      "title": "⑤コーチングへ連絡",
+      "last_edited": "2026-03-13T20:12:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/⑤コーチングへ連絡"
+    },
+    "322f3b0f-ba85-81ef-b73f-cef9f511fc2c": {
+      "title": "①エスキャン解約連絡",
+      "last_edited": "2026-03-13T20:01:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/①エスキャン解約連絡"
+    },
+    "322f3b0f-ba85-81cd-b606-e36cd2d53567": {
+      "title": "③講師へ連絡",
+      "last_edited": "2026-03-13T20:01:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/③講師へ連絡"
+    },
+    "322f3b0f-ba85-81b5-8444-f2fe175ba304": {
+      "title": "④コーチングへ連絡",
+      "last_edited": "2026-03-13T20:01:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/④コーチングへ連絡"
+    },
+    "322f3b0f-ba85-814e-929d-ce77efb13ee9": {
+      "title": "⑥講師報酬変更報告スレッド連絡",
+      "last_edited": "2026-03-13T20:01:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/⑥講師報酬変更報告スレッド連絡"
+    },
+    "322f3b0f-ba85-8122-ace5-f460cb0fa19e": {
+      "title": "⑤新クラス作成スレッド連絡",
+      "last_edited": "2026-03-13T20:01:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/⑤新クラス作成スレッド連絡"
+    },
+    "322f3b0f-ba85-817b-b747-f62c2f7f3bed": {
+      "title": "②Discord追放処理",
+      "last_edited": "2026-03-13T20:01:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/②Discord追放処理"
+    },
+    "322f3b0f-ba85-809e-a61e-fc69474b08cc": {
+      "title": "中途解約退会処理",
+      "last_edited": "2026-03-13T20:01:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/中途解約退会処理"
+    },
+    "322f3b0f-ba85-8074-a1f4-d7887723e79a": {
+      "title": "新クラス作成",
+      "last_edited": "2026-03-13T19:59:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/新クラス作成"
     }
   }
 }

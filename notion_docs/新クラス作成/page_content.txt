@@ -1,8 +1,59 @@
 # 新クラス作成
 
-Notion URL: https://www.notion.so/318f3b0fba8581d59c08e0bdc9ce115c
-同期日時: 2026-03-11T12:54:07+09:00
+Notion URL: https://www.notion.so/322f3b0fba858074a1f4d7887723e79a
+同期日時: 2026-03-14T06:16:15+09:00
 
 ---
 
-(コンテンツなし)
+📍業務の目的
+新しいクラスができたらクラス専用チャットを作成する
+新クラス作成(随時)
+指示のタイミングで作業
+　　Discord＞顧客管理＞新クラス作成通知 で指示
+やること
+生徒管理シート作成
+  作成後、講師に共有
+Discord_一斉配信用シートに日付とURLを入れる
+SnsClub運営（プロファイル）
+ディスコード管理
+Discord_一斉配信用シート
+https://docs.google.com/spreadsheets/d/1bL2pLv2wKBGKb3SuHBWtfwHxy_xEeZ406qg1glNCSpY/edit?gid=0#gid=0
+・日付：クラス開始日
+SnsClub helpのDiscordログイン→検索窓に【in：クラス名　必ず最後まで】で検索→講師の自己紹介の日付
+・URL：ウェブフックURL（手動設定する）
+チャンネルの編集⚙️→連携サービス→ウェブフック→新しいウェブフック→お名前：SnsClub運営、アイコン変更→保存→URLコピー→スプシ
+
+一斉配信用シートの更新やり方
+SnsClub Discord一斉配信シート 
+SnsClub講師一覧
+https://docs.google.com/spreadsheets/d/1XHbbFYazquX_oQvgylaKqa56i_HsYaQswsQSLR4zkG8/edit?gid=552010113#gid=552010113
+テンプレをコピーして、名前を入力
+テンプレクラス_生徒出席簿
+https://docs.google.com/spreadsheets/d/1xaxgXipE6FHeu_2RtxCMDA_vQbUA3mALtwgHhksfK3g/edit?gid=285311773#gid=285311773
+一から作るときはこれをコピー
+リンクをクラス出席簿に添付（権限：全員・編集者）
+運営(プロファイル)＞Lステップ
+右上SnsClub運営に切り替え
+詳細検索
+　友だち情報＞入会情報＞クラス名(講師名)・クラス名記入
+⚠️黒い対応マークはカウントしない
+クラス作成したら随時メンション
+Discord＞クラス名簿作成通知
+https://discord.com/channels/1172020927047942154/1346010167573090374
+専属
+https://discord.com/channels/1172020927047942154/139748474759649694
+@講師名
+お世話になっております！
+講師名🔴組の生徒出席簿を更新しました！
+  リンクをご確認いただき、
+①赤色のセルを埋めていただく
+②プルダウンから「出席」「欠席」をご選択いただく
+上記の対応をお願いいたします🙇‍♀️
+  運営の管理の都合上、今後はこちらのシートで管理していただけますと幸いです🙇‍♀️
+今まで記入してくださっていた内容は引き継いでありますので、何卒よろしくお願いいたします。
+  リンク
+月報で管理
+講師から＠される
+月報で管理の場合は、講師一覧のクラス名簿の欄に【月報で管理】と記載
+SnsClub講師一覧
+https://docs.google.com/spreadsheets/d/1XHbbFYazquX_oQvgylaKqa56i_HsYaQswsQSLR4zkG8/edit?gid=552010113#gid=552010113
