@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-03-15T18:27:33+09:00
+同期日時: 2026-03-16T03:17:46+09:00
 
 ---
 
@@ -30,6 +30,11 @@ Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
     ⑨完成とチェック作業、格納
     追加修正
 未分類
+講師図鑑を作成したい
+  3月末までに
+  万垢生徒と講師を見れるWebサイトが欲しい
+  GAS＋Webサーバで実装できるかも？
+    型だけhttps://script.google.com/macros/s/AKfycbxa4ezPGWpnx0XBDwxkTnDC8Auj3w5JJPCM6qAxTaZpf49aIEXKAXMTD0sdfmr_bkin/exec
 アーカイブ格納システム確認・修正＋拡張
   共有資料
     本番フォームリンク：
@@ -53,11 +58,6 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
   ④CS部へ展開
     基本的な流れは同じらしい、Zoomのアカウントが違うことや、サムネイル画像が違う点に注意が必要。
     運営アカウントのYoutubeへ上げる+設定はみおなさんが実施？？
-講師図鑑を作成したい
-  3月末までに
-  万垢生徒と講師を見れるWebサイトが欲しい
-  GAS＋Webサーバで実装できるかも？
-    型だけhttps://script.google.com/macros/s/AKfycbxa4ezPGWpnx0XBDwxkTnDC8Auj3w5JJPCM6qAxTaZpf49aIEXKAXMTD0sdfmr_bkin/exec
 マネタイズ顧客管理シートのCSV反映ボタンが正しく動かない
   データが全部とれない？→名前と時間で判定
   ライトとエリートに転記もうまくいってない。AとB列を移す。

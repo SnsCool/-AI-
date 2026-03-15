@@ -1,8 +1,13 @@
 # 営業部
 
-Notion URL: https://www.notion.so/318f3b0fba858151b57be737bb4387f2
-同期日時: 2026-03-04T06:16:25+09:00
+Notion URL: https://www.notion.so/324f3b0fba8580669015f5b430d0bc5a
+同期日時: 2026-03-16T03:14:36+09:00
 
 ---
 
-(コンテンツなし)
+▼NotebookLM
+https://notebooklm.cloud.google.com/global/notebook/7773482f-c748-439c-95b9-7beb2b94d811?project=307374576318
+期限超過
+タスク一覧
+期限未記入
+タスク一覧
