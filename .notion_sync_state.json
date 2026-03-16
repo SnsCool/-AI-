@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-03-16T18:28:25.111703+00:00",
+  "last_sync": "2026-03-16T21:18:29.257003+00:00",
   "pages": {
     "306f3b0f-ba85-8040-96ac-d640633f5de6": {
       "title": "顧客からの問い合わせ詳細分析",
@@ -28853,7 +28853,7 @@
     },
     "318f3b0f-ba85-81de-9888-d08651887679": {
       "title": "タスク管理体制構築",
-      "last_edited": "2026-03-15T16:40:00.000Z",
+      "last_edited": "2026-03-16T20:51:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/タスク管理体制構築"
     },
     "318f3b0f-ba85-8161-9e19-f5ac130b710c": {
@@ -29113,7 +29113,7 @@
     },
     "318f3b0f-ba85-81ab-96c1-c146eab476ef": {
       "title": "報酬体系見直し",
-      "last_edited": "2026-03-15T16:40:00.000Z",
+      "last_edited": "2026-03-16T21:08:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/報酬体系見直し"
     },
     "318f3b0f-ba85-81f2-835f-c90db86acd8e": {
@@ -30458,7 +30458,7 @@
     },
     "318f3b0f-ba85-819a-8e63-e3069cfb334a": {
       "title": "講師MGやることリスト作成",
-      "last_edited": "2026-03-16T18:26:00.000Z",
+      "last_edited": "2026-03-16T20:54:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/講師MGやることリスト作成"
     },
     "318f3b0f-ba85-81f2-bba0-cd441f47c809": {
@@ -32368,7 +32368,7 @@
     },
     "319f3b0f-ba85-8140-abf1-fbf3caa965ca": {
       "title": "目標設定プロセスの改善",
-      "last_edited": "2026-03-15T16:41:00.000Z",
+      "last_edited": "2026-03-16T20:50:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/目標設定プロセスの改善"
     },
     "319f3b0f-ba85-8028-b103-f10eff3df92f": {
@@ -32457,9 +32457,9 @@
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/🔸3回目"
     },
     "319f3b0f-ba85-81ea-8eb2-fba39973b439": {
-      "title": "根拠に基づいた目標値の設定",
-      "last_edited": "2026-03-16T18:20:00.000Z",
-      "path": "/home/runner/work/-AI-/-AI-/notion_docs/根拠に基づいた目標値の設定"
+      "title": "根拠に基づいたベース目標値をAIで算出",
+      "last_edited": "2026-03-16T21:18:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/根拠に基づいたベース目標値をAIで算出"
     },
     "319f3b0f-ba85-8137-a2c3-c14a182ed2f3": {
       "title": "四半期目標達成に向けたアクションプラン策定",
@@ -50848,7 +50848,7 @@
     },
     "322f3b0f-ba85-81fc-8ee7-ca875f7d0316": {
       "title": "講師統括からの移行計画",
-      "last_edited": "2026-03-15T16:44:00.000Z",
+      "last_edited": "2026-03-16T20:49:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/講師統括からの移行計画"
     },
     "322f3b0f-ba85-81f7-b846-c04d610ce8aa": {
@@ -50983,7 +50983,7 @@
     },
     "322f3b0f-ba85-8114-805c-d8666317a263": {
       "title": "成果クリエイティブのLLM活用",
-      "last_edited": "2026-03-15T16:42:00.000Z",
+      "last_edited": "2026-03-16T21:09:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/成果クリエイティブのLLM活用"
     },
     "322f3b0f-ba85-810b-8480-f79faa58697d": {
@@ -51908,7 +51908,7 @@
     },
     "325f3b0f-ba85-803e-a1d6-e492eac66170": {
       "title": "/ 通常セッション_",
-      "last_edited": "2026-03-16T14:39:00.000Z",
+      "last_edited": "2026-03-16T20:56:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/_ 通常セッション_"
     },
     "2caf3b0f-ba85-807c-9b68-cbeb87c29b86": {
@@ -51973,13 +51973,28 @@
     },
     "325f3b0f-ba85-803a-9261-d066e1f53cec": {
       "title": "講師MG育成",
-      "last_edited": "2026-03-16T18:26:00.000Z",
+      "last_edited": "2026-03-16T21:07:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/講師MG育成"
     },
     "325f3b0f-ba85-8077-a5d0-ed86b97a4e24": {
       "title": "Untitled",
       "last_edited": "2026-03-16T17:13:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/Untitled"
+    },
+    "325f3b0f-ba85-80c9-acbd-d50b15a30d29": {
+      "title": "ローンチスキルチェックリスト作成",
+      "last_edited": "2026-03-16T21:07:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/ローンチスキルチェックリスト作成"
+    },
+    "25ff3b0f-ba85-806c-a77f-f8c855ea1f69": {
+      "title": "🔸5回目",
+      "last_edited": "2026-03-16T19:47:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/🔸5回目"
+    },
+    "25ff3b0f-ba85-8086-b96f-e20744a418bd": {
+      "title": "おがわみおさん",
+      "last_edited": "2026-03-16T19:46:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/おがわみおさん"
     }
   }
 }
