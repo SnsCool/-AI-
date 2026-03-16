@@ -62,7 +62,7 @@ def retry_on_quota_error(max_retries: int = 5, initial_delay: float = 2.0):
 
 
 # 新しいスプレッドシートID（セミナー管理シート）
-DEFAULT_SPREADSHEET_ID = "1Cm3OR4C42kj4A2I-p9L1dMKuXaibAPADdTq0YMP45Z8"
+DEFAULT_SPREADSHEET_ID = "1R5oMbJ7E-QfDFhHR164y8JKs6XLnkJcw8zBm2IPSn8E"
 DEFAULT_SHEET_NAME = "Zoom相談一覧"
 
 
