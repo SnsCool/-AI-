@@ -1,0 +1,14 @@
+# チーム管理シート作成
+
+Notion URL: https://www.notion.so/325f3b0fba858095a300cbecc0063190
+同期日時: 2026-03-16T18:38:57+09:00
+
+---
+
+https://docs.google.com/spreadsheets/d/1IxWM7vA0zQDfWJdlUSyfK_cpyGSGcwC5xJ3ig_oI4NQ/edit?usp=sharing
+上記の管理シートのテンプレをコピーし自分のチームの管理シートを作成
+
+①ファイル名は自分のチーム名に直す
+例）2期生Aチーム
+②日付の欄は食事添削開始日からの日付に変更
+③サポート生全員分のページ作成
