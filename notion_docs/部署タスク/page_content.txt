@@ -1,10 +1,16 @@
 # 部署タスク
 
 Notion URL: https://www.notion.so/308f3b0fba8580e9b82edde5c7574750
-同期日時: 2026-03-16T06:11:54+09:00
+同期日時: 2026-03-16T13:05:49+09:00
 
 ---
 
+  ▼NotebookLM
+  https://notebooklm.cloud.google.com/global/notebook/7773482f-c748-439c-95b9-7beb2b94d811?project=307374576318
+  期限超過
+  タスク一覧
+  期限未記入
+  タスク一覧
   ▼NotebookLM
   https://notebooklm.cloud.google.com/global/notebook/7773482f-c748-439c-95b9-7beb2b94d811?project=307374576318
   期限超過

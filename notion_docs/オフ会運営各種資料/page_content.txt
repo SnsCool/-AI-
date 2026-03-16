@@ -1,7 +1,7 @@
 # オフ会運営各種資料
 
 Notion URL: https://www.notion.so/1b9f3b0fba8580719c6fcab3a2f0a8f6
-同期日時: 2026-03-13T18:20:40+09:00
+同期日時: 2026-03-16T13:07:56+09:00
 
 ---
 
@@ -595,6 +595,7 @@ https://docs.google.com/spreadsheets/d/1FChjZWq0wPKhkzH1PNGQ7y-zmVRPfQpydjZzLMp4
 26年3月北海道オフ会
   配布用Notion
   その他資料
+    https://docs.google.com/spreadsheets/d/1GZCVVZbbks8mhmJHg4jyaMf2vFlLe85ZL05ZM3uf-AY/edit?usp=sharing
 26年4月東京オフ会
     ⏰運営用タイムスケジュール
     会場使用時間：10時00分〜19時30分
