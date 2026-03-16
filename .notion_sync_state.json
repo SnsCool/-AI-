@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-03-16T15:35:56.013194+00:00",
+  "last_sync": "2026-03-16T18:28:25.111703+00:00",
   "pages": {
     "306f3b0f-ba85-8040-96ac-d640633f5de6": {
       "title": "顧客からの問い合わせ詳細分析",
@@ -2358,7 +2358,7 @@
     },
     "7f19ff35-7ffc-4c78-8c71-92cb99d5204a": {
       "title": "Levela Portal",
-      "last_edited": "2026-03-15T10:40:00.000Z",
+      "last_edited": "2026-03-16T17:05:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/Levela Portal"
     },
     "305f3b0f-ba85-80c4-8b97-de78307fc1eb": {
@@ -4568,7 +4568,7 @@
     },
     "2fbf3b0f-ba85-80cb-9a5a-de0fe5c87e36": {
       "title": "クーリングオフ対応",
-      "last_edited": "2026-02-08T03:52:00.000Z",
+      "last_edited": "2026-03-16T16:57:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/クーリングオフ対応"
     },
     "2fff3b0f-ba85-8045-8c6f-ea84456c4a61": {
@@ -22393,7 +22393,7 @@
     },
     "308f3b0f-ba85-80e9-b82e-dde5c7574750": {
       "title": "部署タスク",
-      "last_edited": "2026-03-16T05:18:00.000Z",
+      "last_edited": "2026-03-16T17:05:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/部署タスク"
     },
     "317f3b0f-ba85-8080-92a5-cdd6170ec402": {
@@ -29163,7 +29163,7 @@
     },
     "318f3b0f-ba85-8176-b1c4-e4a63cf5f327": {
       "title": "講師育成・サポート体制強化",
-      "last_edited": "2026-03-15T16:38:00.000Z",
+      "last_edited": "2026-03-16T18:26:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/講師育成・サポート体制強化"
     },
     "318f3b0f-ba85-813c-bc22-e6fec603ef13": {
@@ -30457,9 +30457,9 @@
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/メディアアカウントの成長戦略"
     },
     "318f3b0f-ba85-819a-8e63-e3069cfb334a": {
-      "title": "マニュアル作成",
-      "last_edited": "2026-03-15T16:39:00.000Z",
-      "path": "/home/runner/work/-AI-/-AI-/notion_docs/マニュアル作成"
+      "title": "講師MGやることリスト作成",
+      "last_edited": "2026-03-16T18:26:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/講師MGやることリスト作成"
     },
     "318f3b0f-ba85-81f2-bba0-cd441f47c809": {
       "title": "満活性率向上のための自動フィードバックシステム活用",
@@ -32363,7 +32363,7 @@
     },
     "319f3b0f-ba85-8021-8af9-e06018ae5212": {
       "title": "成功事例の分析",
-      "last_edited": "2026-03-04T17:51:00.000Z",
+      "last_edited": "2026-03-16T18:19:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/成功事例の分析"
     },
     "319f3b0f-ba85-8140-abf1-fbf3caa965ca": {
@@ -32457,9 +32457,9 @@
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/🔸3回目"
     },
     "319f3b0f-ba85-81ea-8eb2-fba39973b439": {
-      "title": "根拠に基づいた目標値の設定とメンバーへの伝達",
-      "last_edited": "2026-03-15T16:41:00.000Z",
-      "path": "/home/runner/work/-AI-/-AI-/notion_docs/根拠に基づいた目標値の設定とメンバーへの伝達"
+      "title": "根拠に基づいた目標値の設定",
+      "last_edited": "2026-03-16T18:20:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/根拠に基づいた目標値の設定"
     },
     "319f3b0f-ba85-8137-a2c3-c14a182ed2f3": {
       "title": "四半期目標達成に向けたアクションプラン策定",
@@ -51970,6 +51970,16 @@
       "title": "あらかつみ_滋賀めしB組",
       "last_edited": "2026-03-16T12:47:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/あらかつみ_滋賀めしB組"
+    },
+    "325f3b0f-ba85-803a-9261-d066e1f53cec": {
+      "title": "講師MG育成",
+      "last_edited": "2026-03-16T18:26:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/講師MG育成"
+    },
+    "325f3b0f-ba85-8077-a5d0-ed86b97a4e24": {
+      "title": "Untitled",
+      "last_edited": "2026-03-16T17:13:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Untitled"
     }
   }
 }
