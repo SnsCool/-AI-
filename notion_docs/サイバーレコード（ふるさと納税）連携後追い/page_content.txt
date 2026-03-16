@@ -1,7 +1,7 @@
 # サイバーレコード（ふるさと納税）連携後追い
 
-Notion URL: https://www.notion.so/312f3b0fba8581c5917fed72b4f4ce92
-同期日時: 2026-02-27T00:23:51+09:00
+Notion URL: https://www.notion.so/317f3b0fba858031a76cf55de503a987
+同期日時: 2026-03-03T00:30:09+09:00
 
 ---
 

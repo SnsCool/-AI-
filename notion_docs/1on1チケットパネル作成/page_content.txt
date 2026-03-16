@@ -1,7 +1,7 @@
 # 1on1チケットパネル作成
 
-Notion URL: https://www.notion.so/1on1-310f3b0fba8580a5b70fd644b21336bf
-同期日時: 2026-02-26T18:25:39+09:00
+Notion URL: https://www.notion.so/1on1-318f3b0fba8581b98f40ffd78c8b8ffe
+同期日時: 2026-03-03T18:23:33+09:00
 
 ---
 

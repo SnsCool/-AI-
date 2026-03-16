@@ -1,7 +1,7 @@
 # CTO：モセリニュースの全自動化
 
-Notion URL: https://www.notion.so/CTO-305f3b0fba8580e3939fd62ef0927b52
-同期日時: 2026-02-27T09:42:47+09:00
+Notion URL: https://www.notion.so/CTO-318f3b0fba85815699a3da8e8dec2737
+同期日時: 2026-03-03T18:24:57+09:00
 
 ---
 

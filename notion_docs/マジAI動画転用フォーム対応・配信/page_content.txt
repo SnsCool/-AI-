@@ -1,7 +1,7 @@
 # マジAI動画転用フォーム対応・配信
 
-Notion URL: https://www.notion.so/AI-312f3b0fba8581a3b151ce58b889a496
-同期日時: 2026-02-26T03:30:32+09:00
+Notion URL: https://www.notion.so/AI-317f3b0fba858041b3fde49a53086cbc
+同期日時: 2026-03-03T00:31:55+09:00
 
 ---
 

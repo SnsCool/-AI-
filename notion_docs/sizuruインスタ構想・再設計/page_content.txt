@@ -1,7 +1,7 @@
 # sizuruインスタ構想・再設計
 
-Notion URL: https://www.notion.so/sizuru-312f3b0fba8581379944cc017807b6e5
-同期日時: 2026-02-26T12:53:45+09:00
+Notion URL: https://www.notion.so/sizuru-317f3b0fba85808a8a58d10c9c6d8299
+同期日時: 2026-03-03T00:30:20+09:00
 
 ---
 

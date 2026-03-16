@@ -1,7 +1,7 @@
 # リマインドBOT
 
 Notion URL: https://www.notion.so/BOT-310f3b0fba8580b5aa99fb38ee69ba6b
-同期日時: 2026-02-26T00:29:10+09:00
+同期日時: 2026-02-28T06:18:07+09:00
 
 ---
 

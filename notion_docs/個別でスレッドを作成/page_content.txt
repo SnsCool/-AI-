@@ -1,7 +1,7 @@
 # 個別でスレッドを作成
 
 Notion URL: https://www.notion.so/2d0f3b0fba858106ac2afb62876bf320
-同期日時: 2026-02-22T06:09:05+09:00
+同期日時: 2026-03-06T03:43:26+09:00
 
 ---
 
@@ -16,3 +16,4 @@ Notion URL: https://www.notion.so/2d0f3b0fba858106ac2afb62876bf320
 自分
 
 を必ずメンションしましょう！
+作り方の動画

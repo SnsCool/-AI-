@@ -1,8 +1,13 @@
 # コーチング部
 
-Notion URL: https://www.notion.so/2f8f3b0fba8580f99690d0dc85f13e06
-同期日時: 2026-02-14T21:14:48+09:00
+Notion URL: https://www.notion.so/324f3b0fba8580c3a897fc4e24643913
+同期日時: 2026-03-16T15:43:40+09:00
 
 ---
 
-(コンテンツなし)
+▼NotebookLM
+https://notebooklm.cloud.google.com/global/notebook/7773482f-c748-439c-95b9-7beb2b94d811?project=307374576318
+期限超過
+タスク一覧
+期限未記入
+タスク一覧

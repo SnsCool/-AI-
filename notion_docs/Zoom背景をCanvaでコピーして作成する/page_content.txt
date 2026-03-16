@@ -1,7 +1,7 @@
 # Zoom背景をCanvaでコピーして作成する
 
-Notion URL: https://www.notion.so/Zoom-Canva-2d0f3b0fba8581d5bb64e087f79726fe
-同期日時: 2026-02-22T21:16:55+09:00
+Notion URL: https://www.notion.so/Zoom-Canva-319f3b0fba8581fd921bfede6da211d4
+同期日時: 2026-03-04T12:57:29+09:00
 
 ---
 

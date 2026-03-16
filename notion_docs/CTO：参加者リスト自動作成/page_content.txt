@@ -1,7 +1,7 @@
 # CTO：参加者リスト自動作成
 
-Notion URL: https://www.notion.so/CTO-305f3b0fba85800a8b2cd9afd131cd3c
-同期日時: 2026-02-27T09:42:53+09:00
+Notion URL: https://www.notion.so/CTO-318f3b0fba8581a88c7fc29e09c78640
+同期日時: 2026-03-03T18:26:11+09:00
 
 ---
 

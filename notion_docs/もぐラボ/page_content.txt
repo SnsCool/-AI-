@@ -1,7 +1,7 @@
 # もぐラボ
 
 Notion URL: https://www.notion.so/236f3b0fba858038be24c05403ad1593
-同期日時: 2026-02-26T09:40:09+09:00
+同期日時: 2026-03-15T18:26:45+09:00
 
 ---
 
@@ -11,6 +11,7 @@ Notion URL: https://www.notion.so/236f3b0fba858038be24c05403ad1593
     https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?usp=sharing
     https://docs.google.com/spreadsheets/d/1T7P4k-WSXBx-0WuflYWpCMMYofJ_FKJmTldZAgd7I8M/edit?gid=737377661#gid=737377661
     プロダクト
+    https://www.canva.com/design/DAG-0Z6w0Nw/NCBK7EUArTd3A4mTS9O1ZA/edit
     Untitled 
     CS
     マーケ

@@ -1,0 +1,12 @@
+# AnthropicがVercept買収と新機能発表
+
+Notion URL: https://www.notion.so/Anthropic-Vercept-315f3b0fba8581c1a6bec678fd531fe1
+同期日時: 2026-02-28T09:36:43+09:00
+
+---
+
+AnthropicがVercept買収と新機能発表
+Anthropicはシアトル拠点のVerceptを買収し、ClaudeのExcelやGmail対応プラグインを開始。Perplexityは19モデル連携の自律型システムを発表し、MicrosoftはCopilot Tasksのプレビューを公開した。
+ビジネス影響: 企業向けAI活用が進み、業務自動化の効率化が加速する。
+情報源: MarketingProfs / VentureBeat
+元記事を読む

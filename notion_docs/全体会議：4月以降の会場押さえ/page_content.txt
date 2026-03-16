@@ -1,8 +1,9 @@
 # 全体会議：4月以降の会場押さえ
 
-Notion URL: https://www.notion.so/4-30bf3b0fba85805dad86cc14bba412ab
-同期日時: 2026-02-18T18:24:37+09:00
+Notion URL: https://www.notion.so/4-318f3b0fba8581c3a59ae1cb0c14ad7c
+同期日時: 2026-03-11T18:26:39+09:00
 
 ---
 
 マナスでnotionに連携できるか、できなければスプシ連携で進捗まとめたい
+全体会議：空き状況確認進捗 

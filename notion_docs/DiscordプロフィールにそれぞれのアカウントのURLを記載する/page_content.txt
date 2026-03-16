@@ -1,0 +1,12 @@
+# DiscordプロフィールにそれぞれのアカウントのURLを記載する
+
+Notion URL: https://www.notion.so/Discord-URL-a64f3b0fba858353b87381174acb7ab8
+同期日時: 2026-03-16T00:14:21+09:00
+
+---
+
+Discordを開く
+右下の自分のアイコンをクリックする
+プロフィールボタンをクリック
+自己紹介の欄にInstagramのアカウントURLを添付する
+右上の保存ボタンをクリックする

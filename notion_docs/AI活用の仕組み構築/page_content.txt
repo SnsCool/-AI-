@@ -1,7 +1,7 @@
 # AI活用の仕組み構築
 
-Notion URL: https://www.notion.so/AI-309f3b0fba8581c29d84fae4d8e39fd8
-同期日時: 2026-02-26T03:30:59+09:00
+Notion URL: https://www.notion.so/AI-317f3b0fba8580568fc2d46fcd8a63ba
+同期日時: 2026-03-03T18:34:38+09:00
 
 ---
 
