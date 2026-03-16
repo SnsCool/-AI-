@@ -1,8 +1,13 @@
 # マネタイズ部
 
-Notion URL: https://www.notion.so/2f8f3b0fba858093a6d6fadc843d50a4
-同期日時: 2026-02-14T21:14:51+09:00
+Notion URL: https://www.notion.so/325f3b0fba8580a4b5e8e2129f8726a9
+同期日時: 2026-03-16T15:43:37+09:00
 
 ---
 
-(コンテンツなし)
+▼NotebookLM
+https://notebooklm.cloud.google.com/global/notebook/7773482f-c748-439c-95b9-7beb2b94d811?project=307374576318
+期限超過
+タスク一覧
+期限未記入
+タスク一覧
