@@ -1,7 +1,7 @@
 # 🔸3回目
 
-Notion URL: https://www.notion.so/3-2b9f3b0fba8580a0a6a2dd7a607e6435
-同期日時: 2026-03-16T03:18:05+09:00
+Notion URL: https://www.notion.so/3-324f3b0fba8580c7ae15c55ec7871688
+同期日時: 2026-03-16T09:48:43+09:00
 
 ---
 
@@ -16,5 +16,6 @@ Notion URL: https://www.notion.so/3-2b9f3b0fba8580a0a6a2dd7a607e6435
   ①今月の“最重要ゴール”（タスクの約束）
   ②次回までの投稿数目標：
   【録音データ貼り付け】
+
   次回以降のセッション日程記録（ジャンプします）
 Untitled 
