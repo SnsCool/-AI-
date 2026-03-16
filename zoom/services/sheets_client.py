@@ -391,20 +391,28 @@ def find_matching_row_in_memory(
     all_customer_data: dict,
     assignee: str,
     zoom_start_time: datetime,
-    tolerance_minutes: int = 45
+    tolerance_minutes: int = 45,
+    zoom_topic: str = ""
 ) -> Optional[dict]:
     """
-    メモリ上の顧客データから時間でマッチする行を検索
+    メモリ上の顧客データから行を検索（段階的照合）
+
+    照合順序:
+    1. 担当者名 + 日時±tolerance分（従来通り）
+    2. 担当者名 + 同日 + 最も時間が近い予定
+    3. 担当者名 + Zoom録画タイトルに顧客名が含まれるか
 
     Args:
         all_customer_data: load_all_customer_sheets_dataで読み込んだデータ
         assignee: 担当者名
         zoom_start_time: Zoom録画の開始時間（UTC）
         tolerance_minutes: 時間の許容誤差（分）
+        zoom_topic: Zoom録画のタイトル（顧客名照合用）
 
     Returns:
         マッチした行の情報、見つからない場合はNone
     """
+    import re
     from datetime import timedelta
 
     if assignee not in all_customer_data:
@@ -417,22 +425,21 @@ def find_matching_row_in_memory(
     zoom_jst = zoom_start_time + timedelta(hours=9)
     tolerance = timedelta(minutes=tolerance_minutes)
 
+    # --- Step 1: 担当者名 + 日時±tolerance分（従来ロジック） ---
     for row_data in rows:
         scheduled_time = row_data['scheduled_time']
 
-        # 時間がない場合は日付のみで比較
         if scheduled_time.hour == 0 and scheduled_time.minute == 0:
             if scheduled_time.date() == zoom_jst.date():
                 return {
                     'row_num': row_data['row_num'],
                     'customer_name': row_data['customer_name'],
                     'scheduled_time': row_data['scheduled_time_str'],
-                    'match_type': 'date_only',
+                    'match_type': 'exact_time',
                     'status': row_data['status'],
                     'result_status': row_data['result_status']
                 }
         else:
-            # 時間も含めて±tolerance分以内かチェック
             time_diff = abs((zoom_jst.replace(tzinfo=None) - scheduled_time).total_seconds())
             if time_diff <= tolerance.total_seconds():
                 return {
@@ -440,6 +447,61 @@ def find_matching_row_in_memory(
                     'customer_name': row_data['customer_name'],
                     'scheduled_time': row_data['scheduled_time_str'],
                     'match_type': 'exact_time',
+                    'status': row_data['status'],
+                    'result_status': row_data['result_status']
+                }
+
+    # --- Step 2: 担当者名 + 同日 + 最も時間が近い予定 ---
+    same_day_candidates = []
+    for row_data in rows:
+        scheduled_time = row_data['scheduled_time']
+        if scheduled_time.date() == zoom_jst.date():
+            time_diff = abs((zoom_jst.replace(tzinfo=None) - scheduled_time).total_seconds())
+            same_day_candidates.append((time_diff, row_data))
+
+    if same_day_candidates:
+        same_day_candidates.sort(key=lambda x: x[0])
+        best = same_day_candidates[0][1]
+        print(f"   → 同日マッチ: {best['customer_name']}（時間差{same_day_candidates[0][0]/60:.0f}分）")
+        return {
+            'row_num': best['row_num'],
+            'customer_name': best['customer_name'],
+            'scheduled_time': best['scheduled_time_str'],
+            'match_type': 'same_day',
+            'status': best['status'],
+            'result_status': best['result_status']
+        }
+
+    # --- Step 3: 担当者名 + Zoom録画タイトルに顧客名が含まれるか ---
+    if zoom_topic:
+        # Zoomタイトルから数字・記号・敬称を除去して名前部分を抽出
+        clean_topic = re.sub(r'[\d\-\(\)（）:：/／]', ' ', zoom_topic)
+        clean_topic = re.sub(r'さん|様|氏|先生', '', clean_topic)
+
+        for row_data in rows:
+            customer = row_data['customer_name'].strip()
+            if not customer:
+                continue
+            # 顧客名（姓のみ or フルネーム）がタイトルに含まれるか
+            if customer in clean_topic:
+                print(f"   → 顧客名マッチ: タイトル '{zoom_topic}' に '{customer}' を発見")
+                return {
+                    'row_num': row_data['row_num'],
+                    'customer_name': row_data['customer_name'],
+                    'scheduled_time': row_data['scheduled_time_str'],
+                    'match_type': 'topic_name',
+                    'status': row_data['status'],
+                    'result_status': row_data['result_status']
+                }
+            # 姓だけで照合（2文字以上）
+            surname = customer.split()[0] if ' ' in customer else customer[:2]
+            if len(surname) >= 2 and surname in clean_topic:
+                print(f"   → 顧客姓マッチ: タイトル '{zoom_topic}' に '{surname}' を発見")
+                return {
+                    'row_num': row_data['row_num'],
+                    'customer_name': row_data['customer_name'],
+                    'scheduled_time': row_data['scheduled_time_str'],
+                    'match_type': 'topic_surname',
                     'status': row_data['status'],
                     'result_status': row_data['result_status']
                 }
@@ -594,7 +656,8 @@ def find_matching_row_in_customer_list(
     sheet_name: str,
     assignee: str,
     zoom_start_time: datetime,
-    tolerance_minutes: int = 45
+    tolerance_minutes: int = 45,
+    zoom_topic: str = ""
 ) -> Optional[dict]:
     """
     顧客一覧シートから、担当者名とZoom録画時間で一致する行を検索
@@ -706,6 +769,81 @@ def find_matching_row_in_customer_list(
                         "customer_name": customer_name,
                         "scheduled_time": scheduled_time_str,
                         "match_type": "exact_time",
+                        "status": status,
+                        "result_status": result_status
+                    }
+
+        # --- Step 2: 担当者名 + 同日 + 最も時間が近い予定 ---
+        import re as _re
+        same_day_candidates = []
+        for i, row in enumerate(all_values[1:], start=2):
+            if len(row) <= max(name_col, assignee_col, date_col):
+                continue
+            row_assignee = row[assignee_col] if len(row) > assignee_col else ""
+            if not match_assignee_name(assignee, row_assignee):
+                continue
+            scheduled_time_str = row[date_col] if len(row) > date_col else ""
+            if not scheduled_time_str:
+                continue
+            scheduled_time = parse_datetime_flexible(scheduled_time_str)
+            if not scheduled_time:
+                continue
+            if scheduled_time.date() == zoom_jst.date():
+                time_diff = abs((zoom_jst.replace(tzinfo=None) - scheduled_time).total_seconds())
+                customer_name = row[name_col] if len(row) > name_col else ""
+                status = row[status_col].strip() if len(row) > status_col and row[status_col] else ""
+                result_status = row[result_status_col].strip() if len(row) > result_status_col and row[result_status_col] else ""
+                same_day_candidates.append((time_diff, {
+                    "row_num": i,
+                    "customer_name": customer_name,
+                    "scheduled_time": scheduled_time_str,
+                    "match_type": "same_day",
+                    "status": status,
+                    "result_status": result_status
+                }))
+
+        if same_day_candidates:
+            same_day_candidates.sort(key=lambda x: x[0])
+            best = same_day_candidates[0]
+            print(f"   → 同日マッチ: {best[1]['customer_name']}（時間差{best[0]/60:.0f}分）")
+            return best[1]
+
+        # --- Step 3: 担当者名 + Zoom録画タイトルに顧客名が含まれるか ---
+        if zoom_topic:
+            clean_topic = _re.sub(r'[\d\-\(\)（）:：/／]', ' ', zoom_topic)
+            clean_topic = _re.sub(r'さん|様|氏|先生', '', clean_topic)
+
+            for i, row in enumerate(all_values[1:], start=2):
+                if len(row) <= max(name_col, assignee_col):
+                    continue
+                row_assignee = row[assignee_col] if len(row) > assignee_col else ""
+                if not match_assignee_name(assignee, row_assignee):
+                    continue
+                customer_name = (row[name_col] if len(row) > name_col else "").strip()
+                if not customer_name:
+                    continue
+                status = row[status_col].strip() if len(row) > status_col and row[status_col] else ""
+                result_status = row[result_status_col].strip() if len(row) > result_status_col and row[result_status_col] else ""
+                scheduled_time_str = row[date_col] if len(row) > date_col else ""
+
+                if customer_name in clean_topic:
+                    print(f"   → 顧客名マッチ: タイトル '{zoom_topic}' に '{customer_name}' を発見")
+                    return {
+                        "row_num": i,
+                        "customer_name": customer_name,
+                        "scheduled_time": scheduled_time_str,
+                        "match_type": "topic_name",
+                        "status": status,
+                        "result_status": result_status
+                    }
+                surname = customer_name.split()[0] if ' ' in customer_name else customer_name[:2]
+                if len(surname) >= 2 and surname in clean_topic:
+                    print(f"   → 顧客姓マッチ: タイトル '{zoom_topic}' に '{surname}' を発見")
+                    return {
+                        "row_num": i,
+                        "customer_name": customer_name,
+                        "scheduled_time": scheduled_time_str,
+                        "match_type": "topic_surname",
                         "status": status,
                         "result_status": result_status
                     }

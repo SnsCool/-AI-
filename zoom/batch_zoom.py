@@ -351,7 +351,8 @@ def process_single_recording(
                 sheet_name=CUSTOMER_LIST_SHEET_NAME,
                 assignee=assignee,
                 zoom_start_time=zoom_start_dt,
-                tolerance_minutes=45
+                tolerance_minutes=45,
+                zoom_topic=topic
             )
 
         # G列（事前キャンセル）とH列（初回/実施後ステータス）を格納
