@@ -553,8 +553,19 @@ def process_single_recording(
         else:
             print("→ Zoom相談一覧シートスキップ: 顧客管理シートにマッチなし")
 
-        # 7.5. データ格納シートへの書き込みは廃止（API quota節約）
-        # Zoom相談一覧のみに書き込み、データ格納は別途バッチでコピー
+        # 7.5. データ格納シートへの書き込み（マッチ有無に関わらず全件記録）
+        write_to_data_storage_sheet(
+            spreadsheet_id=DESTINATION_SPREADSHEET_ID,
+            customer_name=customer_name,
+            assignee=assignee,
+            meeting_datetime=meeting_datetime,
+            duration_minutes=duration,
+            cancel_status=cancel_status,
+            result_status=result_status,
+            transcript_doc_url=transcript_doc_url,
+            video_drive_url=video_url,
+            feedback=feedback
+        )
 
         # 8. 成約の場合はナレッジ保存（一時的に無効化 - APIクォータ節約テスト）
         # summary = analysis.get("summary", "")
