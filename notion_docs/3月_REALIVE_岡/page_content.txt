@@ -1,7 +1,7 @@
 # 3月_REALIVE_岡
 
 Notion URL: https://www.notion.so/3-_REALIVE_-319f3b0fba85801ab27bdb313ed92fe2
-同期日時: 2026-03-04T12:56:44+09:00
+同期日時: 2026-03-17T09:40:34+09:00
 
 ---
 
@@ -11,7 +11,6 @@ Notion URL: https://www.notion.so/3-_REALIVE_-319f3b0fba85801ab27bdb313ed92fe2
 【現状ステータス】
 受注数 : 15名
 残アポ : 4名
-入金 : 10名
 ▼詳細数値
 https://docs.google.com/spreadsheets/d/1e57-3vX43UnAzTbWk9luKEjS3zbKcKMQz6vFXo5ROcQ/edit?gid=258424186#gid=258424186
 
