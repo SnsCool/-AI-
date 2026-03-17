@@ -627,12 +627,18 @@ def process_single_recording(
         import traceback
         traceback.print_exc()
 
+        # Discord通知
+        cust = customer_name if 'customer_name' in dir() else topic
+        send_discord_notification(
+            f"❌ Zoom処理エラー: {assignee} - {cust}\n{error_message[:200]}"
+        )
+
         # エラーをシートに記録（顧客一覧にマッチがある場合のみ）
         try:
             if matched_row:
                 write_error_to_zoom_sheet(
                     spreadsheet_id=DESTINATION_SPREADSHEET_ID,
-                    customer_name=customer_name if 'customer_name' in dir() else topic,
+                    customer_name=cust,
                     assignee=assignee,
                     meeting_datetime=meeting_datetime if 'meeting_datetime' in dir() else start_time,
                     error_message=error_message,
@@ -1034,6 +1040,14 @@ def run_batch_process(
     print(f"終了時刻: {end_time_batch.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"所要時間: {elapsed_minutes:.1f}分")
     print(f"\nスプレッドシート: https://docs.google.com/spreadsheets/d/{spreadsheet_id}")
+
+    # Discord通知（失敗がある場合）
+    if total_failed > 0:
+        send_discord_notification(
+            f"⚠️ Zoomバッチ処理: {total_failed}件失敗\n"
+            f"成功: {total_success}件 / 失敗: {total_failed}件 / スキップ: {total_skipped}件\n"
+            f"グループ: {group_filter or '全体'} / 所要時間: {elapsed_minutes:.1f}分"
+        )
 
     # 認証エラーの詳細レポート
     if auth_errors:
