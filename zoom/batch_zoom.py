@@ -1205,16 +1205,32 @@ def main():
         print("文字起こしドキュメント作成（動画ありの行）")
         print("=" * 60)
 
+        # Zoom相談一覧 + データ格納の両方を対象にする
         missing_rows = get_rows_missing_transcript(
             spreadsheet_id=DESTINATION_SPREADSHEET_ID,
             sheet_name=DESTINATION_SHEET_NAME
         )
+        print(f"Zoom相談一覧: {len(missing_rows)}件")
+
+        missing_rows_storage = get_rows_missing_transcript(
+            spreadsheet_id=DESTINATION_SPREADSHEET_ID,
+            sheet_name="Zoom相談一覧 データ格納"
+        )
+        print(f"データ格納: {len(missing_rows_storage)}件")
+
+        # データ格納の行にシート名を付与（更新先の区別用）
+        for row in missing_rows:
+            row["target_sheet"] = DESTINATION_SHEET_NAME
+        for row in missing_rows_storage:
+            row["target_sheet"] = "Zoom相談一覧 データ格納"
+
+        missing_rows = missing_rows + missing_rows_storage
 
         if not missing_rows:
             print("文字起こしが必要な行はありません。")
             sys.exit(0)
 
-        print(f"対象行数: {len(missing_rows)}件")
+        print(f"合計対象行数: {len(missing_rows)}件")
 
         # 7日以内のエントリのみに限定
         from datetime import timedelta
@@ -1382,12 +1398,13 @@ def main():
                 )
 
                 if doc_url:
-                    # シートを更新
+                    # シートを更新（対象シートを区別）
+                    target_sheet = row.get('target_sheet', DESTINATION_SHEET_NAME)
                     update_transcript_url_in_zoom_sheet(
                         spreadsheet_id=DESTINATION_SPREADSHEET_ID,
                         row_num=row['row_num'],
                         transcript_url=doc_url,
-                        sheet_name=DESTINATION_SHEET_NAME
+                        sheet_name=target_sheet
                     )
                     print(f"   → 成功: {doc_url}")
                     success_count += 1
