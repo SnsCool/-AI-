@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-03-17T00:33:33+09:00
+同期日時: 2026-03-19T06:16:59+09:00
 
 ---
 
@@ -33,8 +33,10 @@ Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
 講師図鑑を作成したい
   3月末までに
   万垢生徒と講師を見れるWebサイトが欲しい
-  GAS＋Webサーバで実装できるかも？
-    型だけhttps://script.google.com/macros/s/AKfycbxa4ezPGWpnx0XBDwxkTnDC8Auj3w5JJPCM6qAxTaZpf49aIEXKAXMTD0sdfmr_bkin/exec
+    諸元データ
+  GASだけで実装してみた（上にGASで作ったよ。が出ちゃう。）
+    https://script.google.com/macros/s/AKfycbxvOL8rsz-_272gLjiFI4zT1wbx9f9jZ3H7V6Luofky1iiFBYIVzvCf7dqZL2dfoRMW/exec
+  Canvaの自動データ取得が難しい。（安定しない。）
 アーカイブ格納システム確認・修正＋拡張
   共有資料
     本番フォームリンク：
