@@ -371,12 +371,12 @@ def process_single_recording(
             # 照合シートから顧客名を取得
             customer_name = matched_row['customer_name'] or topic
 
-            # ステータスによる処理分岐
+            # ステータスによる処理分岐（スキップせず全件処理する）
             if cancel_status in SKIP_STATUSES:
-                print(f"→ スキップ: ステータスが「{cancel_status}」のため処理不要")
-                return True
+                print(f"   → ステータス「{cancel_status}」: スキップせず処理続行")
+                should_mark_processed = True
 
-            if cancel_status in COMPLETE_STATUSES:
+            elif cancel_status in COMPLETE_STATUSES:
                 should_mark_processed = True
                 print(f"   → ステータス「{cancel_status}」: 処理後に完了マーク")
             elif cancel_status in NO_MARK_STATUSES or any(s in cancel_status for s in NO_MARK_STATUSES):
