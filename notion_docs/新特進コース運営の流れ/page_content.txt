@@ -1,7 +1,7 @@
 # 新特進コース運営の流れ
 
 Notion URL: https://www.notion.so/320f3b0fba85809eadffeea5913af86c
-同期日時: 2026-03-16T21:35:51+09:00
+同期日時: 2026-03-18T12:57:04+09:00
 
 ---
 
@@ -13,22 +13,19 @@ Notion URL: https://www.notion.so/320f3b0fba85809eadffeea5913af86c
     🔥万アカ達成
     🔥100投稿
     （過去コミットコースでの万アカ輩出が平均80投稿程度のため）
+    📝トークスクリプトに沿って行う
+    （詳細は各チームリーダーよりお伝えします）
     ⏰生徒は毎日タイムスケジュール（タスク宣言）を行う
     内容：1メッセージにつき1タスク（例：9:00～10:00台本作成）
     タスク消化後：【done】スタンプを押す
     送信場所：個別チャット
     MGの対応：タスク消化されているか24時間以内に追いかけ（確認頻度は各MGによる）
-    ✉お互いに24時間以内の返信
-    ❌初回顔合わせセッションまでのテキストコミュニケーションは取らない
-    👩‍🏫MGは返信がなくても毎日連絡をすること
-    ✋3日間連絡が取れない場合、運営メンバーに報告すること
-    📝トークスクリプトに沿って行う
-    （詳細は各チームリーダーよりお伝えします）
-    【コミット/特進】連絡テンプレ/対応まとめ 
     コミット/特進サポート期間・報酬詳細 
+    ✉お互いに24時間以内の返信
+    ❌目標設定セッション実施まで、テキストコミュニケーションは取らない
+　（熱量が図れずトラブルの原因となります）
+    👩‍🏫MGは返信がなくても毎日連絡をすること
+    ✋生徒と3日間連絡が取れない場合、運営メンバーに報告すること
+    【コミット/特進】連絡テンプレ/対応まとめ
     アクションシート：https://docs.google.com/spreadsheets/d/11z3_yXujRSZrDKh5EX7dc_2lvqoDJIR-jWjHfuQl4sQ/copy
-    説明PDF：https://www.canva.com/design/DAGOg6YIIqM/Vq1W-w9AoHn-Fv9Pm2IybA/view?utm_content=DAGOg6YIIqM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h576f5c37a6
-    誓約書：https://docs.google.com/spreadsheets/d/1XCLVAwHQkI6FkeY7MYxX6Zt_6SBP4d5uA7MF8WUWSBg/copy
-    自己紹介カード：https://www.canva.com/design/DAF7kHZYDMQ/mifJF5IH5Va3iH5Z9jpdnA/edit?utm_content=DAF7kHZYDMQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-    Zoom背景：https://www.canva.com/design/DAF9r4dmSac/b9MeNX5hYjx1T1ZKVGBEMQ/edit?utm_content=DAF9r4dmSac&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
     FAQ（よくある質問） 
