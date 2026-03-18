@@ -1,7 +1,7 @@
 # 3月アフィ
 
 Notion URL: https://www.notion.so/3-316f3b0fba8580f7b9dad4829247e6f7
-同期日時: 2026-03-18T18:25:49+09:00
+同期日時: 2026-03-19T00:36:49+09:00
 
 ---
 
@@ -167,6 +167,8 @@ LINE構築
 プレゼントリール
 リール作成
 LINE動線
+自分のアカウントに流入
+┗動画までのシナリオあるから、そこで人数集めて
 目標
 https://docs.google.com/spreadsheets/d/1UpXOrL3nuMZ1lfkKCu2Hyd4noM8bMAviZ5Ipe1NIOfU/edit?usp=sharing
 ローンチスケジュール
