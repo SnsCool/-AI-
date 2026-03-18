@@ -1,7 +1,7 @@
 # オフ会運営各種資料
 
 Notion URL: https://www.notion.so/1b9f3b0fba8580719c6fcab3a2f0a8f6
-同期日時: 2026-03-18T09:46:32+09:00
+同期日時: 2026-03-18T18:27:20+09:00
 
 ---
 
@@ -1270,3 +1270,4 @@ https://docs.google.com/spreadsheets/d/1yBjfIsL2GslNYGB7G_RRzL7-inX8O5y2trqCyqif
 参加して終わりではなく「その後の行動につながること」を大切にした場です。
 リアルだからこそ得られる気づき・出会いを、ぜひ体感してください😊
 講師・運営一同、みなさんにお会いできるのを楽しみにしています！
+https://docs.google.com/spreadsheets/d/1qJCdc9LXWCMhisS5QmpjnLV2_5LsupKuAsHox5M7ss0/edit?usp=sharing
