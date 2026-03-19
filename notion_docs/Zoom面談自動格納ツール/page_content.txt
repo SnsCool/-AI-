@@ -1,0 +1,47 @@
+# Zoom面談自動格納ツール
+
+Notion URL: https://www.notion.so/Zoom-328f3b0fba858125b610e572e3cf2104
+同期日時: 2026-03-20T03:24:58+09:00
+
+---
+
+ワークフロー
+flowchart TD
+    A[Zoomミーティング終了] --> B[GASトリガー検知]
+    B --> C[Zoom API録画URL取得]
+    C --> D[Google Driveに自動保存]
+    D --> E[Groq Whisper文字起こし]
+    E --> F[Gemini AI要約生成]
+    F --> G[フォローアップタスク抽出]
+    G --> H[スプレッドシート記録]
+    H --> I[顧客名自動紐付け]
+    I --> J[Discord通知]
+
+ガントチャート
+gantt
+    title Zoom面談自動格納ツール
+    dateFormat YYYY-MM-DD
+
+    section M0: 基盤構築
+    GASプロジェクト初期設定    :t0_1, 2026-03-20, 1d
+    Zoom OAuth認証設定         :t0_2, 2026-03-21, 2d
+    スプレッドシート設計        :t0_3, 2026-03-21, 1d
+
+    section M1: コア機能
+    Zoom録画URL自動取得        :t1_1, after t0_2, 2d
+    Google Drive自動保存       :t1_2, after t1_1, 2d
+    音声文字起こし実装          :t1_3, after t1_2, 3d
+    AI要約生成                 :t1_4, after t1_3, 2d
+    面談一覧スプレッドシート    :t1_5, after t0_3, 2d
+
+    section M2: 拡張機能
+    フォローアップタスク抽出    :t2_1, after t1_4, 2d
+    顧客名自動紐付け           :t2_2, after t2_1, 2d
+
+    section M3: 付加機能
+    Discord通知               :t3_1, after t2_2, 1d
+
+    section M4: テスト・デプロイ
+    時限トリガー設定           :t4_1, after t1_4, 1d
+    エラーハンドリング・ログ    :t4_2, after t4_1, 1d
+    統合テスト・本番設定        :t4_3, after t3_1, 2d

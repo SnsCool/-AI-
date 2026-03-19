@@ -1,7 +1,7 @@
 # クラス分け自動化のCTO室共有と相談
 
-Notion URL: https://www.notion.so/CTO-328f3b0fba85816b8d13fb3be33b2ac6
-同期日時: 2026-03-20T00:33:47+09:00
+Notion URL: https://www.notion.so/CTO-328f3b0fba8581818f70c3eb86b4f55f
+同期日時: 2026-03-20T03:26:50+09:00
 
 ---
 

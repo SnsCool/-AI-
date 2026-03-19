@@ -1,7 +1,7 @@
 # CREDIX決済連携
 
 Notion URL: https://www.notion.so/CREDIX-328f3b0fba85816aa1fdcdbd5722d30c
-同期日時: 2026-03-19T21:22:16+09:00
+同期日時: 2026-03-20T03:28:13+09:00
 
 ---
 

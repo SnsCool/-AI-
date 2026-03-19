@@ -1,7 +1,7 @@
 # Supabase保存
 
 Notion URL: https://www.notion.so/Supabase-328f3b0fba8581ff9a6ae517026ac59e
-同期日時: 2026-03-20T00:28:01+09:00
+同期日時: 2026-03-20T03:27:16+09:00
 
 ---
 
