@@ -1,27 +1,44 @@
 # タイプ診断
 
 Notion URL: https://www.notion.so/323f3b0fba8580ef8b87f924eb33475d
-同期日時: 2026-03-19T15:29:24+09:00
+同期日時: 2026-03-19T21:21:32+09:00
 
 ---
 
-タイプ診断ローンチ
-集客（りょう：やることアクション決めて共有）：
-動線完成：17日（15時）
-  診断内容確認：17日（りょう：15時）
-  タイプ診断 
-  診断後のシナリオ確認FB：17日（りょう：16時）
-  https://docs.google.com/spreadsheets/d/1z8YWHJpNLiAxHIKy3ych-SBILnPhfOe1bysi--C57Ng/edit?usp=sharing
-LINE診断構築：17日：(たいぞう：20時)
-┗上記内容終わらないと進みません
-LINEシナリオ構築完了：18日：（たいぞう：20時）
-ローンチ：20日〜22日
+3/19
+タイプ診断リール
+┗食欲コントロール→CTA
+〜タイプっぽい。気になる方は診断して。
+3つほど作成
+┗頑張っても痩せない
+┗食欲暴走しちゃう人
+20日：訴求
+気になって作って周りの人にやってたけど
+めっちゃ当たってた
+TO DO 
+リール
+  食欲乱れる系
+  シンプル診断
+  別リール
+LINEテンプレート作成
+診断の最終結果の連携
+結果クリエイティブ作成
+https://www.canva.com/design/DAG9cJ5_cPw/JlQnjJQSaZ7ATCJvngGTRQ/edit?utm_content=DAG9cJ5_cPw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+シナリオ動線設計
+https://docs.google.com/spreadsheets/d/1z8YWHJpNLiAxHIKy3ych-SBILnPhfOe1bysi--C57Ng/edit?usp=sharing
+アンケート作成（？）これなんだけっけ
+タグを入れる
 ◎りょうさん確認
 予約の動線
+内容確認・FB
+┗挨拶メッセージ、
 最終結果の出し方
+┗ここから枝分かれさせる方法・最終結果出す（画像と文章どっちが良いか）
 シナリオ構築
 公式LINE追加ありがとうございます！
 診断
+予約前、予約後に教育動画はしっかり入れないと
+成約率に関わる
 Q1. 朝の目覚めと食欲は？
 A： 甘いものが欲しい or 空腹すぎて目が覚める
 B： 体が重く、食欲ゼロ。
