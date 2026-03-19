@@ -1,11 +1,12 @@
 # 顧客データ
 
-Notion URL: https://www.notion.so/302f3b0fba8581549ae4ef5845aa1e36
-同期日時: 2026-03-05T18:24:07+09:00
+Notion URL: https://www.notion.so/302f3b0fba8581cf93fad50407a4ccbc
+同期日時: 2026-03-19T18:21:45+09:00
 
 ---
 
-  参加目的（何のためにダイエットするのか）
+録画：
+  参加目的
 生活スタイル
 職業：
 生活特徴：
@@ -16,3 +17,5 @@ Notion URL: https://www.notion.so/302f3b0fba8581549ae4ef5845aa1e36
 過去の失敗
 理想の姿
 食べ物(苦手/アレルギー)
+摂取カロリー：PFCバランス
+ kcal　P：

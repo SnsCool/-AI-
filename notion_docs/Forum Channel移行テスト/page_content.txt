@@ -1,7 +1,7 @@
 # Forum Channel移行テスト
 
 Notion URL: https://www.notion.so/Forum-Channel-328f3b0fba858187b254dfda62b1d4a7
-同期日時: 2026-03-19T15:29:50+09:00
+同期日時: 2026-03-19T18:24:52+09:00
 
 ---
 
