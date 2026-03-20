@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-03-20T18:20:25.489787+00:00",
+  "last_sync": "2026-03-20T21:12:47.554936+00:00",
   "pages": {
     "306f3b0f-ba85-8040-96ac-d640633f5de6": {
       "title": "顧客からの問い合わせ詳細分析",
@@ -1678,7 +1678,7 @@
     },
     "2ccf3b0f-ba85-80da-9192-cefc7e69b8e1": {
       "title": "【営業】マニュアル",
-      "last_edited": "2026-03-18T11:10:00.000Z",
+      "last_edited": "2026-03-20T20:46:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/【営業】マニュアル"
     },
     "2f3f3b0f-ba85-80f9-a8e7-c64d1dc50dd4": {
@@ -5608,7 +5608,7 @@
     },
     "306f3b0f-ba85-8034-94be-f3f8b55101e1": {
       "title": "【アフィリエイター】マニュアル",
-      "last_edited": "2026-03-01T08:23:00.000Z",
+      "last_edited": "2026-03-20T20:20:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/【アフィリエイター】マニュアル"
     },
     "306f3b0f-ba85-8127-91a3-c9f3e7c9f1e4": {
@@ -17887,9 +17887,9 @@
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/アフィ添削計画"
     },
     "314f3b0f-ba85-80c2-bdc5-d00992edf799": {
-      "title": "業務委託契約書の締結",
-      "last_edited": "2026-03-12T17:52:00.000Z",
-      "path": "/home/runner/work/-AI-/-AI-/notion_docs/業務委託契約書の締結"
+      "title": "業務委託契約書の修正",
+      "last_edited": "2026-03-20T18:46:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/業務委託契約書の修正"
     },
     "315f3b0f-ba85-815c-be4b-c29fcd868835": {
       "title": "GoogleのAIが抗生物質耐性問題を解決",
@@ -59995,6 +59995,11 @@
       "title": "3月19日議事録",
       "last_edited": "2026-03-20T15:47:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/3月19日議事録"
+    },
+    "329f3b0f-ba85-81e5-a321-f3ea3629a49f": {
+      "title": "Sat Mar 21 2026 03:11:01 GMT+0900 (Japan Standard Time)",
+      "last_edited": "2026-03-20T18:22:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/Sat Mar 21 2026 03_11_01 GMT+0900 (Japan Standard Time)"
     }
   }
 }
