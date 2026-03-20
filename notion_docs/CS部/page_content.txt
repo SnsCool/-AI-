@@ -1,13 +1,14 @@
 # CS部
 
-Notion URL: https://www.notion.so/CS-318f3b0fba858124b2b0d6f80600dff0
-同期日時: 2026-03-20T12:51:28+09:00
+Notion URL: https://www.notion.so/CS-329f3b0fba8580129181d9c2647efee7
+同期日時: 2026-03-20T15:27:10+09:00
 
 ---
 
-▼NotebookLM
-https://notebooklm.cloud.google.com/global/notebook/7773482f-c748-439c-95b9-7beb2b94d811?project=307374576318
-期限超過
-タスク一覧
-期限未記入
-タスク一覧
+進行中タスク①
+現在のステータス
+未着手/進行中/完了/停滞中(悩んでる・相談したい)
+進捗率
+0%~100%
+その他
+困っていることや相談事項などあればなんでも記載してください！
