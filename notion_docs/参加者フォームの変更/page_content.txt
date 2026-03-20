@@ -1,0 +1,17 @@
+# 参加者フォームの変更
+
+Notion URL: https://www.notion.so/328f3b0fba858013b5cbd6596ad6e3e4
+同期日時: 2026-03-19T12:57:42+09:00
+
+---
+
+スペシャルグルコン
+https://script.google.com/macros/s/AKfycbzSulrYxlbxfEA3TV6qxQnKdFovVec78Oby4uKNQkAepCDwkX0MHFkBjx6laCKKbDqXAQ/exec
+オンラインイベント
+https://script.google.com/macros/s/AKfycbzSulrYxlbxfEA3TV6qxQnKdFovVec78Oby4uKNQkAepCDwkX0MHFkBjx6laCKKbDqXAQ/exec?p=1
+オン会
+https://script.google.com/macros/s/AKfycbzSulrYxlbxfEA3TV6qxQnKdFovVec78Oby4uKNQkAepCDwkX0MHFkBjx6laCKKbDqXAQ/exec?p=2
+万垢生限定オン会
+https://script.google.com/macros/s/AKfycbzSulrYxlbxfEA3TV6qxQnKdFovVec78Oby4uKNQkAepCDwkX0MHFkBjx6laCKKbDqXAQ/exec?p=3
+ジャンル特化グルコン
+https://script.google.com/macros/s/AKfycbzSulrYxlbxfEA3TV6qxQnKdFovVec78Oby4uKNQkAepCDwkX0MHFkBjx6laCKKbDqXAQ/exec?p=4

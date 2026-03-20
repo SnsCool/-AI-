@@ -1,7 +1,7 @@
 # マネタイズ講座の特別案件の導線を変更
 
 Notion URL: https://www.notion.so/319f3b0fba85803699bcd521a23ab9b1
-同期日時: 2026-03-04T21:31:51+09:00
+同期日時: 2026-03-19T13:03:58+09:00
 
 ---
 
@@ -13,4 +13,3 @@ Notion URL: https://www.notion.so/319f3b0fba85803699bcd521a23ab9b1
 https://line.me/ti/p/3mHgBzEh2n
 中島さんの連絡先
 https://line.me/ti/p/juydsGvpF2
-3/15までに変更して、実装もお願いします
