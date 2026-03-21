@@ -1,14 +1,13 @@
 # 営業部
 
-Notion URL: https://www.notion.so/329f3b0fba8580c6ba9ac4c3e406d408
-同期日時: 2026-03-20T15:27:10+09:00
+Notion URL: https://www.notion.so/324f3b0fba8580669015f5b430d0bc5a
+同期日時: 2026-03-22T03:16:00+09:00
 
 ---
 
-進行中タスク①
-現在のステータス
-未着手/進行中/完了/停滞中(悩んでる・相談したい)
-進捗率
-0%~100%
-その他
-困っていることや相談事項などあればなんでも記載してください！
+▼NotebookLM
+https://notebooklm.cloud.google.com/global/notebook/7773482f-c748-439c-95b9-7beb2b94d811?project=307374576318
+期限超過
+タスク一覧
+期限未記入
+タスク一覧

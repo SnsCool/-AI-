@@ -1,7 +1,7 @@
 # SnsClub経理の引き継ぎ
 
 Notion URL: https://www.notion.so/SnsClub-324f3b0fba858038b9b5c83d087c8632
-同期日時: 2026-03-17T12:56:05+09:00
+同期日時: 2026-03-22T03:15:12+09:00
 
 ---
 

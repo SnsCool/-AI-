@@ -1,7 +1,7 @@
 # Lステップ連携
 
-Notion URL: https://www.notion.so/L-318f3b0fba8581939a66d72d1803f8f7
-同期日時: 2026-03-04T03:25:59+09:00
+Notion URL: https://www.notion.so/L-32af3b0fba85812fb692fe0990b053ff
+同期日時: 2026-03-22T03:14:34+09:00
 
 ---
 
