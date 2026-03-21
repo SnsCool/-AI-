@@ -1,7 +1,7 @@
 # LINE流入導線構築
 
-Notion URL: https://www.notion.so/LINE-32af3b0fba85810f83dfe0f6934d1baf
-同期日時: 2026-03-21T18:16:51+09:00
+Notion URL: https://www.notion.so/LINE-32af3b0fba85811ea2f6ecdf94fd72ca
+同期日時: 2026-03-21T21:16:31+09:00
 
 ---
 
