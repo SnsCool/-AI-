@@ -1,7 +1,7 @@
 # タイプ診断
 
 Notion URL: https://www.notion.so/323f3b0fba8580ef8b87f924eb33475d
-同期日時: 2026-03-20T15:26:46+09:00
+同期日時: 2026-03-21T15:21:38+09:00
 
 ---
 
@@ -28,6 +28,9 @@ https://www.canva.com/design/DAG9cJ5_cPw/JlQnjJQSaZ7ATCJvngGTRQ/edit?utm_content
 https://docs.google.com/spreadsheets/d/1z8YWHJpNLiAxHIKy3ych-SBILnPhfOe1bysi--C57Ng/edit?usp=sharing
 アンケート作成（？）これなんだけっけ
 タグを入れる
+タイプ診断
+アフィリエイターにもやってもらう
+その結果をもとにストーリーズ作成してもらう
 ◎りょうさん確認
 予約の動線
 内容確認・FB
