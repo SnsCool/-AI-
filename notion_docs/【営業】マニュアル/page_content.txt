@@ -1,7 +1,7 @@
 # 【営業】マニュアル
 
 Notion URL: https://www.notion.so/2ccf3b0fba8580da9192cefc7e69b8e1
-同期日時: 2026-03-18T21:31:44+09:00
+同期日時: 2026-03-21T06:12:46+09:00
 
 ---
 
@@ -749,6 +749,8 @@ levela.diet.96
   
 ID：Levela_diet
 PW：Leveladiet
+  カレンダー連携のやり方
+  https://linestep.jp/2024/12/20/reserve_calendar/
   【スタッフコード】
 契約書マニュアル
   https://docs.google.com/document/d/1g_loHuU9VrBLs9bSaApIGNAfBr6HHNny2y5WbO3qC7w/edit?usp=sharing
