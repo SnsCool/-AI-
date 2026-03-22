@@ -1,7 +1,7 @@
 # 採用ページ格納庫
 
 Notion URL: https://www.notion.so/2f7f3b0fba8580829adbd5e0da6b7d31
-同期日時: 2026-03-02T18:29:14+09:00
+同期日時: 2026-03-22T21:19:40+09:00
 
 ---
 
@@ -695,7 +695,7 @@ SnsClub生徒_公式LINE
   以下は現場を率いる責任者からのメッセージです。部署の役割やチームの雰囲気、仕事への想いを感じていただければと思います。
   10. ご応募・お問い合わせ先
   ご不明点があれば、公式LINEまでお気軽にお問い合わせください。
-  株式会社Levela 公式LINE： https://levela.co.jp/recruit/form4.html?ref=mioko_X
+  株式会社Levela 公式LINE： https://levela.co.jp/recruit/form4.html?ref=みおこX
   11.参考動画
   12.スポンサー実績
   BreakingDown
