@@ -1,7 +1,7 @@
 # LINEチーム対応マニュアル
 
 Notion URL: https://www.notion.so/LINE-2fcf3b0fba85802f8185f5a630fe9b4f
-同期日時: 2026-03-22T15:29:14+09:00
+同期日時: 2026-03-23T03:15:41+09:00
 
 ---
 
@@ -394,7 +394,14 @@ https://chatgpt.com/g/g-686f4aee48d08191ba203157223e309b-insutahui-da-ju-ju-sang
   ※タブ名はCSVダウンロードした勉強会の日付
   ⚠この状態では、お客様ごとの返信になっていないので、
   　ここから個別の文章になるように関数を入れていきます！
-  ⑨https://docs.google.com/document/d/1etKXhaJb3JLGroIE2Mr-4yhKQIeF9n3hlIJouU3OccI/edit?tab=t.0　←こちらのプロンプトをコピーし、先ほど「個別メッセージ作成し」
+  ⑨https://docs.google.com/document/d/1etKXhaJb3JLGroIE2Mr-4yhKQIeF9n3hlIJouU3OccI/edit?tab=t.0　
+  👆こちらのプロンプトをコピーし「個別メッセージ作成シート」に戻ります。
+  ⑩コピーした関数をD列に反映させます。
+  　この時、D列に直接入力するのではなく、「fx」と書いてある欄に入力してください。
+  例：D列3行目に関数を反映させたい場合は、D列3行目をクリックしてから、
+  　　fxの欄にコピーした関数を張り付けてください
+  ⑪反映させると以下のように、今年達成したい目標が反映されたメッセージが作成されます。
+  ⑫すべてコピーして反映させていきます
 ❓（上記以外）よくある質問集
 📱勉強会参加者限定LINE対応マニュアル
   こちらの勉強会参加者限定LINEでは、主に
