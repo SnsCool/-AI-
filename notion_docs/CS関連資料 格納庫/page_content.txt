@@ -1,7 +1,7 @@
 # CS関連資料 格納庫
 
 Notion URL: https://www.notion.so/CS-307f3b0fba8580bd9cd7dfa9581e0d4f
-同期日時: 2026-03-22T15:27:27+09:00
+同期日時: 2026-03-23T00:13:07+09:00
 
 ---
 
@@ -2282,6 +2282,7 @@ https://www.notion.so/27a94227cded806ab290e164a11d1c2e?source=copy_link
   ひなた：初月5名・MAX15名
   つき：初月5名・MAX15名
   くりこ：初月5名
+  まなさん：初月5名
   みくよ：毎月5名・MAX15名
   予定
   1〜3月：各月20名集客、MAX60名稼働、70〜90名稼働が可能な体制を構築。
@@ -2311,38 +2312,26 @@ https://www.notion.so/27a94227cded806ab290e164a11d1c2e?source=copy_link
 ⬇︎スタータープログラム⬇︎
      今日の流れ
   . 個別相談タイム（1人3〜5分）
-  今週気づいたことをみんなにシェア
-  追加でわからないことや不安なことを相談（1個）
-    👉 私がその場でフィードバック
+  今日まで（グルコンまで）にできたこと1〜2個
+  今現時点でわからないことや不安なことを相談（1個）
+    👉 講師がその場でフィードバック
   2. 全体シェア＆学び合い（プチ講義5分程度）
   今日のテーマについて解説（テーマはなんでもいい）
 サポート生の傾向など見てこのテーマがいいなと思った内容をシェア
 スライド作成でもOK・喋るだけの形式でもOK
-  今日はについて
+  テーマはこちらからチームの課題と思う内容をピックアップして解説していきましょう！
+https://docs.google.com/spreadsheets/d/1BT-cU6ayZCqXVr31xsNobFhZBIRkJtNTA62HNcRCBUY/edit?usp=sharing
   3. 質問タイム（サポート生同士）
-  サポート生同士で質問し合う
-  合間に私に投げても問題ないです
+  サポート生同士で聞きたいことがあれば質問してもらう
   質問は 全体で5回まで に制限
     👉 みんなの工夫や考えをシェアして学びを深める
   4. 次週アクション宣言
-  1人ずつ「来週意識したいこと」を一言で宣言
+  1人ずつ「来週意識したいこと」を一言で宣言してもらう
   5. まとめ
-  最後に一言
+  最後に講師から一言
 応援メッセージやマインド系がお勧め
-    ① オープニング 3分
-    挨拶
-    ② 成果シェア と講師アドバイス
-    各自30秒でOK
-    ③ よくあるつまずきの全体解説
-    外食・飲み会の整え方
-    ④他の皆さんに聞きたいこと
-    ⑤ 次の2週間のミッション設定 7分
-    全員が宣言
-    主食：毎食〇g
-    たんぱく質：毎食〇を入れる
-    間食：ルール（時間/量/代替）
-    水分：〇ml×〇回
-    運動：〇分×週〇回
+  グルコンのアーカイブはこちらから見れます！
+アーカイブ格納部屋 
 https://drive.google.com/drive/folders/1klT-yjdncfQpesKvY24ybmPUVyeXU9Iu
     議事録（講師ミーティング）
      決定事項
@@ -2622,6 +2611,7 @@ https://docs.google.com/spreadsheets/d/1nj1bJn1T0vgcHtughEX_1wM40FVtZYXw/edit?us
     みくさん
     ポジティブ/ネガティブ変化とKSFを再整理し、再提出する。
     便秘メンバーには追加ヒアリングを実施する。
+https://docs.google.com/spreadsheets/d/1PoOmVRL-R_2fT_OoQAqVqt848BPCJ4ed/edit?usp=sharing&ouid=111077476546038855417&rtpof=true&sd=true
 トレーナー関連
 https://www.canva.com/design/DAG9VgdbZ9U/HvFWc_xTKOisB_3vVGnE6w/edit?utm_content=DAG9VgdbZ9U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
     振り返り実施の目的
@@ -2649,6 +2639,8 @@ https://www.canva.com/design/DAG9VgdbZ9U/HvFWc_xTKOisB_3vVGnE6w/edit?utm_content
   食べ痩せ動画全部見る
   添削内容把握
   添削3回練習
+  添削練習
+  https://docs.google.com/document/d/1YWPF3sCu__pbi1If9HMGOhfIX2I3UAJNmryh_DoXYes/edit?usp=sharing 
   つきさんのやることリスト
   ① 講師ミーティング参加
   3月26日（木）16:00〜
