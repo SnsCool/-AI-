@@ -27,7 +27,7 @@ accounts = [
     {"assignee": "鈴木里果", "account_id": "TECozTcpQS22jZUlgX1wWg", "client_id": "HuCL9453TVW2F89fOJdcg", "client_secret": "XvjqfZ5Zlt165syCIvrsdvP6tEpQWPcD"},
     {"assignee": "遠藤威", "account_id": "HlKK-h5NSACZtAeZTAjVDw", "client_id": "coXv5SltSHuqWWX_zLYbiw", "client_secret": "dIHv3ezqon2SEgUj524kVF97SiLY5Ytk"},
     {"assignee": "鎌田夕季", "account_id": "ayXZwkRKTfmBXPSkyA6ghA", "client_id": "tCOIH7XR2elass28l_sEw", "client_secret": "67koGEz61I5PXXK2WZvr4SSqCwTqnEiT"},
-    {"assignee": "大谷みくに", "account_id": "gA8z7hjoRkGjXYtI5YDIYA", "client_id": "zeDjVlx6RoWL49PYnDLPx", "client_secret": "O4uvmDLbluUtLShlsP9zgHRkXHvYbN6D"},
+    {"assignee": "大谷みくに", "account_id": "gA8z7hjoRkGjXYtI5YDIYA", "client_id": "S7xxOb90QSm0newJXWfsCA", "client_secret": "GonK66Qo1Iaq393YE1SL4Wef2widd4o8"},
     {"assignee": "森田主", "account_id": "VZRJj_aBQeCBoVLFiF6CoA", "client_id": "eSPw_jxQQHSjlXTRJp8gmQ", "client_secret": "EPjtSMICmntwzrhho2hzxDUmdarEzlPn"},
     {"assignee": "上村勇人", "account_id": "QnNR-VNKQvu4LYFAaG3stQ", "client_id": "ec35lOV5RbCsFmwV0UF0hg", "client_secret": "Ry5sJJzf8h05hMyMxcnJtX2K2Fvbqfs7"},
     {"assignee": "石岡涼", "account_id": "5BsyOKLTQIGMtkkybCht_g", "client_id": "e19BMh2MQam6blF_xCzbWg", "client_secret": "W2O3I17cLRcOWwtUfZzQA3qAG2aJATSS"},
