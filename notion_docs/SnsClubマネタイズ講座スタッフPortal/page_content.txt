@@ -1,7 +1,7 @@
 # SnsClubマネタイズ講座スタッフPortal
 
 Notion URL: https://www.notion.so/SnsClub-Portal-24ff3b0fba8580dfa9d7c6a5e9b222da
-同期日時: 2026-03-21T18:16:34+09:00
+同期日時: 2026-03-22T12:53:56+09:00
 
 ---
 
@@ -78,6 +78,8 @@ https://docs.google.com/document/d/1bF9x2juyxm6BOWo-q4mrLUCxee7_w1rFlidKuKT77wQ/
 外部向けマネタイズ1on1予約URL
 陸1on1申し込み用URL(講師採用時)
 https://timerex.net/s/rikuex0906_f5f0/cd6c96ac
+エリート審査面談
+https://timerex.net/s/rikuex0906_f5f0/629495d7
 顧客管理シート
 https://docs.google.com/spreadsheets/d/11A3GKKO8nBgYVb4sgqw2yRqPXscARnVs93JCK-BAsE4/edit?usp=sharing
 Levela Googleアカウントアイパス
