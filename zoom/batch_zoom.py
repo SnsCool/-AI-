@@ -1234,6 +1234,30 @@ def main():
             print("文字起こしが必要な行はありません。")
             sys.exit(0)
 
+        # 30日以内のエントリのみに限定（Zoom録画の保存期限に合わせる）
+        from datetime import timedelta
+        cutoff_date = datetime.now() - timedelta(days=30)
+        filtered_rows = []
+        skipped_old = 0
+        for row in missing_rows:
+            row_dt_str = row.get('meeting_datetime', '')
+            if row_dt_str:
+                try:
+                    row_dt = datetime.strptime(row_dt_str[:19], "%Y-%m-%d %H:%M:%S")
+                    if row_dt < cutoff_date:
+                        skipped_old += 1
+                        continue
+                except (ValueError, TypeError):
+                    pass
+            filtered_rows.append(row)
+
+        if skipped_old > 0:
+            print(f"30日以前のエントリをスキップ: {skipped_old}件")
+        missing_rows = filtered_rows
+
+        if not missing_rows:
+            sys.exit(0)
+
         print(f"合計対象行数: {len(missing_rows)}件")
 
         print(f"処理対象: {len(missing_rows)}件\n")
@@ -1425,6 +1449,31 @@ def main():
 
         if not zoom_only_rows:
             print("Zoomリンクのみの行はありません。全て既にDriveにアップロード済みです。")
+            sys.exit(0)
+
+        # 30日以内の行のみ対象（Zoom録画の保存期限に合わせる）
+        from datetime import timedelta
+        cutoff_date = datetime.now() - timedelta(days=30)
+        filtered_rows = []
+        skipped_old = 0
+        for row in zoom_only_rows:
+            row_dt_str = row.get('meeting_datetime', '')
+            if row_dt_str:
+                try:
+                    row_dt = datetime.strptime(row_dt_str[:19], "%Y-%m-%d %H:%M:%S")
+                    if row_dt < cutoff_date:
+                        skipped_old += 1
+                        continue
+                except (ValueError, TypeError):
+                    pass
+            filtered_rows.append(row)
+
+        if skipped_old > 0:
+            print(f"30日以前の行をスキップ: {skipped_old}件")
+        zoom_only_rows = filtered_rows
+
+        if not zoom_only_rows:
+            print("30日以内の対象行はありません。")
             sys.exit(0)
 
         print(f"対象行数: {len(zoom_only_rows)}件\n")
