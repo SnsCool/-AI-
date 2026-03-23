@@ -1236,31 +1236,7 @@ def main():
 
         print(f"合計対象行数: {len(missing_rows)}件")
 
-        # 7日以内のエントリのみに限定
-        from datetime import timedelta
-        cutoff_date = datetime.now() - timedelta(days=7)
-        filtered_rows = []
-        skipped_old = 0
-        for row in missing_rows:
-            row_dt_str = row.get('meeting_datetime', '')
-            if row_dt_str:
-                try:
-                    row_dt = datetime.strptime(row_dt_str[:19], "%Y-%m-%d %H:%M:%S")
-                    if row_dt < cutoff_date:
-                        skipped_old += 1
-                        continue
-                except (ValueError, TypeError):
-                    pass
-            filtered_rows.append(row)
-
-        if skipped_old > 0:
-            print(f"7日以前のエントリをスキップ: {skipped_old}件")
-        missing_rows = filtered_rows
         print(f"処理対象: {len(missing_rows)}件\n")
-
-        if not missing_rows:
-            print("7日以内に文字起こしが必要な行はありません。")
-            sys.exit(0)
 
         # Supabaseクライアント取得
         supabase_client = get_supabase_client()
@@ -1449,31 +1425,6 @@ def main():
 
         if not zoom_only_rows:
             print("Zoomリンクのみの行はありません。全て既にDriveにアップロード済みです。")
-            sys.exit(0)
-
-        # 7日以内の行のみ対象（古い録画はZoom側で期限切れの可能性が高い）
-        from datetime import timedelta
-        cutoff_date = datetime.now() - timedelta(days=7)
-        filtered_rows = []
-        skipped_old = 0
-        for row in zoom_only_rows:
-            row_dt_str = row.get('meeting_datetime', '')
-            if row_dt_str:
-                try:
-                    row_dt = datetime.strptime(row_dt_str[:19], "%Y-%m-%d %H:%M:%S")
-                    if row_dt < cutoff_date:
-                        skipped_old += 1
-                        continue
-                except (ValueError, TypeError):
-                    pass
-            filtered_rows.append(row)
-
-        if skipped_old > 0:
-            print(f"7日より古い行をスキップ: {skipped_old}件")
-        zoom_only_rows = filtered_rows
-
-        if not zoom_only_rows:
-            print("7日以内の対象行はありません。")
             sys.exit(0)
 
         print(f"対象行数: {len(zoom_only_rows)}件\n")
