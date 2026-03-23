@@ -253,72 +253,39 @@ def create_transcript_doc(
             return result
         print("   GAS失敗、API直接使用にフォールバック")
 
-    # フォールバック: サービスアカウントで一時作成 → GASでコピー → 削除
+    # サービスアカウントで直接作成（GAS不使用）
     try:
         credentials = get_google_credentials()
         docs_service = build('docs', 'v1', credentials=credentials)
         drive_service = build('drive', 'v3', credentials=credentials)
 
-        # 1. サービスアカウントで一時ドキュメントを作成
-        print("→ 一時ドキュメントを作成中...")
+        # 1. ドキュメントを作成
+        print("→ Google Docsを作成中...")
         doc = docs_service.documents().create(body={'title': title}).execute()
         doc_id = doc['documentId']
 
         # 2. 文字起こし内容を挿入
-        requests_body = [
-            {
-                'insertText': {
-                    'location': {'index': 1},
-                    'text': transcript
-                }
-            }
-        ]
         docs_service.documents().batchUpdate(
             documentId=doc_id,
-            body={'requests': requests_body}
+            body={'requests': [
+                {
+                    'insertText': {
+                        'location': {'index': 1},
+                        'text': transcript
+                    }
+                }
+            ]}
         ).execute()
 
-        # 3. 権限設定（GASからアクセスできるように）
+        # 3. 公開権限を設定
         drive_service.permissions().create(
             fileId=doc_id,
-            body={
-                'type': 'anyone',
-                'role': 'reader'
-            }
+            body={'type': 'anyone', 'role': 'reader'}
         ).execute()
 
-        print(f"   一時ドキュメント作成完了: {doc_id}")
-
-        # 4. GAS経由でコピー（ユーザー所有になる）
-        print("→ GAS経由でコピー中...")
-        copied_url = copy_doc_via_gas(doc_id, title, assignee, customer_name)
-
-        # 5. 元ドキュメントを削除（コピー成功/失敗に関わらず削除して容量解放）
-        print("→ 一時ドキュメントを削除中...")
-        try:
-            drive_service.files().delete(fileId=doc_id).execute()
-            print(f"   一時ドキュメント削除完了: {doc_id}")
-        except Exception as del_e:
-            print(f"   一時ドキュメント削除エラー: {del_e}")
-
-        if copied_url:
-            return copied_url
-        else:
-            # GASコピーも失敗した場合は、再度作成してそのまま返す
-            print("→ GASコピー失敗、直接作成にフォールバック...")
-            doc = docs_service.documents().create(body={'title': title}).execute()
-            doc_id = doc['documentId']
-            docs_service.documents().batchUpdate(
-                documentId=doc_id,
-                body={'requests': requests_body}
-            ).execute()
-            drive_service.permissions().create(
-                fileId=doc_id,
-                body={'type': 'anyone', 'role': 'reader'}
-            ).execute()
-            doc_url = f"https://docs.google.com/document/d/{doc_id}/edit"
-            print(f"   文字起こしDoc作成(直接): {doc_url}")
-            return doc_url
+        doc_url = f"https://docs.google.com/document/d/{doc_id}/edit"
+        print(f"   文字起こしDoc作成完了: {doc_url}")
+        return doc_url
 
     except Exception as e:
         raise Exception(f"Google Docs API error: {str(e)}")

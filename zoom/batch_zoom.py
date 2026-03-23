@@ -91,7 +91,7 @@ from services.gemini_client import (
 from services.google_drive_client import (
     create_transcript_doc,
     download_video_from_zoom,
-    upload_video_with_copy,
+    upload_video_to_drive,
 )
 from services.sheets_client import (
     write_to_zoom_sheet,
@@ -505,8 +505,8 @@ def process_single_recording(
                 )
 
                 if download_success:
-                    # Google Driveにアップロード（サービスアカウント→GASコピー→削除）
-                    video_url = upload_video_with_copy(
+                    # Google Driveに直接アップロード（GAS不使用）
+                    video_url = upload_video_to_drive(
                         video_path=temp_video_path,
                         assignee=assignee,
                         customer_name=customer_name,
@@ -1625,7 +1625,7 @@ def main():
 
                     # Google Driveにアップロード
                     print("   → Google Driveにアップロード中...")
-                    video_url = upload_video_with_copy(
+                    video_url = upload_video_to_drive(
                         video_path=temp_video_path,
                         assignee=row['assignee'],
                         customer_name=row['customer_name'],
