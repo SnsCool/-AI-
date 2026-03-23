@@ -593,9 +593,26 @@ def upload_video_with_copy(
     print("→ GAS経由でコピー中...")
     video_url = copy_video_via_gas(file_id, file_name, assignee, customer_name)
 
-    # 3. 元ファイルを削除（コピー成功/失敗に関わらず削除して容量解放）
-    print("→ 元ファイルを削除中...")
-    delete_file_from_drive(file_id)
+    if not video_url:
+        # GASコピー失敗時: サービスアカウントのファイルを公開して直接リンクを返す
+        print("→ GASコピー失敗、サービスアカウントのファイルを公開リンクとして使用")
+        try:
+            credentials = get_google_credentials()
+            drive_service = build('drive', 'v3', credentials=credentials)
+            drive_service.permissions().create(
+                fileId=file_id,
+                body={'type': 'anyone', 'role': 'reader'}
+            ).execute()
+            video_url = f"https://drive.google.com/file/d/{file_id}/view"
+            print(f"→ 公開リンク: {video_url}")
+            return video_url
+        except Exception as e:
+            print(f"→ 公開リンク作成失敗: {e}")
+
+    # 3. 元ファイルを削除（コピー成功時のみ。失敗時は公開リンクとして残す）
+    if video_url and "drive.google.com/file" not in video_url:
+        print("→ 元ファイルを削除中...")
+        delete_file_from_drive(file_id)
 
     return video_url
 
