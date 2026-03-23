@@ -1355,7 +1355,6 @@ def main():
                             with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as tmp_file:
                                 tmp_path = tmp_file.name
                             try:
-                                from services.google_drive_client import download_video_from_zoom
                                 dl_ok = download_video_from_zoom(
                                     mp4_url=mp4_url, access_token=access_token, output_path=tmp_path
                                 )
