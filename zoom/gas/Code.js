@@ -9,6 +9,33 @@
 const ROOT_FOLDER_ID = '1lzfcvVtyN7FCFJWX8GWR3VLyknxVWLnk';
 
 /**
+ * リトライヘルパー: Google APIの一時的なサーバーエラー時に自動リトライ
+ * @param {Function} fn - 実行する関数
+ * @param {number} maxRetries - 最大リトライ回数（デフォルト3）
+ * @param {number} initialDelay - 初回待機ミリ秒（デフォルト2000）
+ * @returns {*} 関数の戻り値
+ */
+function withRetry(fn, maxRetries = 3, initialDelay = 2000) {
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      return fn();
+    } catch (error) {
+      const errorStr = error.toString();
+      const isRetryable = errorStr.includes('server error') ||
+                          errorStr.includes('Service invoked too many times') ||
+                          errorStr.includes('Rate Limit') ||
+                          errorStr.includes('try again');
+      if (!isRetryable || attempt >= maxRetries) {
+        throw error;
+      }
+      const delay = initialDelay * Math.pow(2, attempt);
+      Logger.log(`リトライ ${attempt + 1}/${maxRetries}: ${delay}ms待機 (${errorStr.substring(0, 100)})`);
+      Utilities.sleep(delay);
+    }
+  }
+}
+
+/**
  * Discord Webhook URLを取得
  * スクリプトプロパティに DISCORD_WEBHOOK_URL を設定してください
  */
@@ -190,32 +217,34 @@ function doGet(e) {
  */
 function copyVideoFromServiceAccount(videoFileId, videoTitle, assignee, customerName) {
   try {
-    const sourceFile = DriveApp.getFileById(videoFileId);
-    const rootFolder = DriveApp.getFolderById(ROOT_FOLDER_ID);
+    return withRetry(() => {
+      const sourceFile = DriveApp.getFileById(videoFileId);
+      const rootFolder = DriveApp.getFolderById(ROOT_FOLDER_ID);
 
-    // 担当者フォルダを取得または作成
-    let assigneeFolder = getOrCreateFolderInParent(rootFolder, assignee);
+      // 担当者フォルダを取得または作成
+      let assigneeFolder = getOrCreateFolderInParent(rootFolder, assignee);
 
-    // 顧客フォルダを取得または作成
-    let customerFolder = getOrCreateFolderInParent(assigneeFolder, customerName);
+      // 顧客フォルダを取得または作成
+      let customerFolder = getOrCreateFolderInParent(assigneeFolder, customerName);
 
-    // 動画サブフォルダを取得または作成
-    let videoFolder = getOrCreateFolderInParent(customerFolder, '動画');
+      // 動画サブフォルダを取得または作成
+      let videoFolder = getOrCreateFolderInParent(customerFolder, '動画');
 
-    // ファイルをコピー
-    const copiedFile = sourceFile.makeCopy(videoTitle, videoFolder);
+      // ファイルをコピー
+      const copiedFile = sourceFile.makeCopy(videoTitle, videoFolder);
 
-    // 公開権限を設定
-    copiedFile.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
+      // 公開権限を設定
+      copiedFile.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
 
-    const fileUrl = copiedFile.getUrl();
-    logSuccess('copyVideoFromServiceAccount', `動画コピー完了: ${customerName}`);
+      const fileUrl = copiedFile.getUrl();
+      logSuccess('copyVideoFromServiceAccount', `動画コピー完了: ${customerName}`);
 
-    return {
-      success: true,
-      url: fileUrl,
-      fileId: copiedFile.getId()
-    };
+      return {
+        success: true,
+        url: fileUrl,
+        fileId: copiedFile.getId()
+      };
+    });
 
   } catch (error) {
     logError('copyVideoFromServiceAccount', error, {
@@ -298,32 +327,34 @@ function createTranscriptDoc(transcript, title, assignee, customerName) {
  */
 function copyDocFromServiceAccount(docFileId, docTitle, assignee, customerName) {
   try {
-    const sourceFile = DriveApp.getFileById(docFileId);
-    const rootFolder = DriveApp.getFolderById(ROOT_FOLDER_ID);
+    return withRetry(() => {
+      const sourceFile = DriveApp.getFileById(docFileId);
+      const rootFolder = DriveApp.getFolderById(ROOT_FOLDER_ID);
 
-    // 担当者フォルダを取得または作成
-    let assigneeFolder = getOrCreateFolderInParent(rootFolder, assignee);
+      // 担当者フォルダを取得または作成
+      let assigneeFolder = getOrCreateFolderInParent(rootFolder, assignee);
 
-    // 顧客フォルダを取得または作成
-    let customerFolder = getOrCreateFolderInParent(assigneeFolder, customerName);
+      // 顧客フォルダを取得または作成
+      let customerFolder = getOrCreateFolderInParent(assigneeFolder, customerName);
 
-    // 文字起こしサブフォルダを取得または作成
-    let transcriptFolder = getOrCreateFolderInParent(customerFolder, '文字起こし');
+      // 文字起こしサブフォルダを取得または作成
+      let transcriptFolder = getOrCreateFolderInParent(customerFolder, '文字起こし');
 
-    // ファイルをコピー
-    const copiedFile = sourceFile.makeCopy(docTitle, transcriptFolder);
+      // ファイルをコピー
+      const copiedFile = sourceFile.makeCopy(docTitle, transcriptFolder);
 
-    // 公開権限を設定
-    copiedFile.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
+      // 公開権限を設定
+      copiedFile.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
 
-    const fileUrl = copiedFile.getUrl();
-    logSuccess('copyDocFromServiceAccount', `ドキュメントコピー完了: ${customerName}`);
+      const fileUrl = copiedFile.getUrl();
+      logSuccess('copyDocFromServiceAccount', `ドキュメントコピー完了: ${customerName}`);
 
-    return {
-      success: true,
-      url: fileUrl,
-      fileId: copiedFile.getId()
-    };
+      return {
+        success: true,
+        url: fileUrl,
+        fileId: copiedFile.getId()
+      };
+    });
 
   } catch (error) {
     logError('copyDocFromServiceAccount', error, {
