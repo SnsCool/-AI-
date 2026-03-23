@@ -1652,8 +1652,8 @@ def main():
                 print(f"   → エラー: {e}")
                 failed_count += 1
 
-            # API レート制限回避
-            time.sleep(API_CALL_DELAY * 2)  # 動画は重いので待機時間を長めに
+            # API レート制限回避（動画コピーはDrive APIに負荷が高いため長めに待機）
+            time.sleep(10)
 
         print(f"\n完了: 成功 {success_count}件 / 失敗 {failed_count}件")
         sys.exit(0)
