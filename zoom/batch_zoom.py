@@ -596,14 +596,18 @@ def process_single_recording(
 
         # 9. 処理済みマーク（ステータスに応じて）
         if should_mark_processed:
-            mark_recording_processed(
-                supabase_client,
-                recording_id=meeting_id,
-                assignee=assignee,
-                meeting_date=meeting_date,
-                customer_name=topic
-            )
-            print("→ 完了! (処理済みマーク)")
+            # 文字起こし・動画が両方未完了なら処理済みマークしない（次回再処理させる）
+            if not transcript_doc_url and not video_url:
+                print("→ 完了! (文字起こし・動画未完了のため処理済みマークなし)")
+            else:
+                mark_recording_processed(
+                    supabase_client,
+                    recording_id=meeting_id,
+                    assignee=assignee,
+                    meeting_date=meeting_date,
+                    customer_name=topic
+                )
+                print("→ 完了! (処理済みマーク)")
         else:
             print("→ 完了! (再更新対象: 処理済みマークなし)")
 

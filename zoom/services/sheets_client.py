@@ -1289,6 +1289,8 @@ def write_to_zoom_sheet(
             # 既存行の値を取得
             existing_values = worksheet.row_values(existing_row)
             existing_datetime_str = existing_values[2] if len(existing_values) > 2 else ""  # C列 (0-indexed: 2)
+            existing_cancel = existing_values[4] if len(existing_values) > 4 else ""  # E列 (0-indexed: 4)
+            existing_result = existing_values[5] if len(existing_values) > 5 else ""  # F列 (0-indexed: 5)
             existing_transcript = existing_values[6] if len(existing_values) > 6 else ""  # G列 (0-indexed: 6)
             existing_video = existing_values[7] if len(existing_values) > 7 else ""  # H列 (0-indexed: 7)
 
@@ -1321,6 +1323,9 @@ def write_to_zoom_sheet(
             # 既存行を更新（全列を更新）
             print(f"   → 既存行 {existing_row} を更新: {customer_name} / {assignee}")
 
+            # 既存のE列・F列があれば保持（上書きしない）
+            final_cancel_status = existing_cancel if existing_cancel else cancel_status
+            final_result_status = existing_result if existing_result else result_status
             # 既存のGoogle Docsリンクがあれば保持（上書きしない）
             final_transcript_url = existing_transcript if existing_transcript and "docs.google.com" in existing_transcript else transcript_doc_url
             # 既存のDriveリンクがあれば保持（Zoom共有リンクで上書きしない）
@@ -1333,8 +1338,8 @@ def write_to_zoom_sheet(
             update_data = [
                 meeting_datetime,  # C: 面談日時
                 f"{duration_minutes}分",  # D: 所要時間
-                cancel_status,  # E: 事前キャンセル
-                result_status,  # F: 初回/実施後ステータス
+                final_cancel_status,  # E: 事前キャンセル（既存があれば保持）
+                final_result_status,  # F: 初回/実施後ステータス（既存があれば保持）
                 final_transcript_url,  # G: 文字起こし（既存があれば保持）
                 final_video_url,  # H: 面談動画（既存があれば保持）
                 feedback  # I: FB
