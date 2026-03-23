@@ -1411,13 +1411,16 @@ def main():
                     )
                     print(f"   → 成功: {doc_url}")
                     success_count += 1
+                    send_discord_notification(f"✅ 文字起こし: {row['customer_name']} / {row['assignee']} ({row['meeting_datetime'][:10]})")
                 else:
                     print(f"   → 失敗: Docs作成に失敗")
                     failed_count += 1
+                    send_discord_notification(f"❌ 文字起こし失敗: {row['customer_name']} / {row['assignee']} ({row['meeting_datetime'][:10]})")
 
             except Exception as e:
                 print(f"   → エラー: {e}")
                 failed_count += 1
+                send_discord_notification(f"❌ 文字起こしエラー: {row['customer_name']} / {row['assignee']} - {str(e)[:100]}")
 
             # API レート制限回避
             time.sleep(API_CALL_DELAY)
@@ -1639,9 +1642,11 @@ def main():
                         )
                         print(f"   → 成功: {video_url}")
                         success_count += 1
+                        send_discord_notification(f"✅ Drive格納: {row['customer_name']} / {row['assignee']} ({row['meeting_datetime'][:10]})")
                     else:
                         print(f"   → 失敗: Driveアップロードに失敗")
                         failed_count += 1
+                        send_discord_notification(f"❌ Drive格納失敗: {row['customer_name']} / {row['assignee']} ({row['meeting_datetime'][:10]})")
 
                 finally:
                     # 一時ファイルを削除
@@ -1651,10 +1656,12 @@ def main():
             except Exception as e:
                 print(f"   → エラー: {e}")
                 failed_count += 1
+                send_discord_notification(f"❌ Drive格納エラー: {row['customer_name']} / {row['assignee']} - {str(e)[:100]}")
 
             # API レート制限回避（動画コピーはDrive APIに負荷が高いため長めに待機）
             time.sleep(10)
 
+        send_discord_notification(f"📊 Drive格納完了: 成功 {success_count}件 / 失敗 {failed_count}件")
         print(f"\n完了: 成功 {success_count}件 / 失敗 {failed_count}件")
         sys.exit(0)
 
