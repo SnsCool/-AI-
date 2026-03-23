@@ -264,50 +264,52 @@ function copyVideoFromServiceAccount(videoFileId, videoTitle, assignee, customer
  */
 function createTranscriptDoc(transcript, title, assignee, customerName) {
   try {
-    const rootFolder = DriveApp.getFolderById(ROOT_FOLDER_ID);
+    return withRetry(() => {
+      const rootFolder = DriveApp.getFolderById(ROOT_FOLDER_ID);
 
-    // 担当者フォルダを取得または作成
-    let assigneeFolder = getOrCreateFolderInParent(rootFolder, assignee);
+      // 担当者フォルダを取得または作成
+      let assigneeFolder = getOrCreateFolderInParent(rootFolder, assignee);
 
-    // 顧客フォルダを取得または作成
-    let customerFolder = getOrCreateFolderInParent(assigneeFolder, customerName);
+      // 顧客フォルダを取得または作成
+      let customerFolder = getOrCreateFolderInParent(assigneeFolder, customerName);
 
-    // 文字起こしサブフォルダを取得または作成
-    let transcriptFolder = getOrCreateFolderInParent(customerFolder, '文字起こし');
+      // 文字起こしサブフォルダを取得または作成
+      let transcriptFolder = getOrCreateFolderInParent(customerFolder, '文字起こし');
 
-    // Google Docsを作成
-    const doc = DocumentApp.create(title);
-    const docId = doc.getId();
+      // Google Docsを作成
+      const doc = DocumentApp.create(title);
+      const docId = doc.getId();
 
-    // 文字起こし内容を挿入
-    const body = doc.getBody();
-    body.setText(transcript);
-    doc.saveAndClose();
+      // 文字起こし内容を挿入
+      const body = doc.getBody();
+      body.setText(transcript);
+      doc.saveAndClose();
 
-    // フォルダに移動
-    const docFile = DriveApp.getFileById(docId);
-    transcriptFolder.addFile(docFile);
+      // フォルダに移動
+      const docFile = DriveApp.getFileById(docId);
+      transcriptFolder.addFile(docFile);
 
-    // ルートから削除
-    const parents = docFile.getParents();
-    while (parents.hasNext()) {
-      const parent = parents.next();
-      if (parent.getId() !== transcriptFolder.getId()) {
-        parent.removeFile(docFile);
+      // ルートから削除
+      const parents = docFile.getParents();
+      while (parents.hasNext()) {
+        const parent = parents.next();
+        if (parent.getId() !== transcriptFolder.getId()) {
+          parent.removeFile(docFile);
+        }
       }
-    }
 
-    // 公開権限を設定
-    docFile.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
+      // 公開権限を設定
+      docFile.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
 
-    const docUrl = doc.getUrl();
-    logSuccess('createTranscriptDoc', `文字起こし作成完了: ${customerName}`);
+      const docUrl = doc.getUrl();
+      logSuccess('createTranscriptDoc', `文字起こし作成完了: ${customerName}`);
 
-    return {
-      success: true,
-      url: docUrl,
-      docId: docId
-    };
+      return {
+        success: true,
+        url: docUrl,
+        docId: docId
+      };
+    });
 
   } catch (error) {
     logError('createTranscriptDoc', error, {
