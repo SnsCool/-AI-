@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-03-23T15:37:29+09:00
+同期日時: 2026-03-23T18:32:06+09:00
 
 ---
 
@@ -36,7 +36,12 @@ Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
     諸元データ
   GASだけで実装してみた（上にGASで作ったよ。が出ちゃう。）
     https://script.google.com/macros/s/AKfycbxvOL8rsz-_272gLjiFI4zT1wbx9f9jZ3H7V6Luofky1iiFBYIVzvCf7dqZL2dfoRMW/exec
-  Canvaの自動データ取得が難しい。（安定しない。）
+  Canvaの自動データ取得が難しい。APIを繋いでいるアカウントで対象のページを表示しないと権限が得られない。
+  追加修正
+    生徒の表示に「担当講師」欄を追加
+    生徒の表示画面にアカウント検索機能を追加
+    ジャンル相談マップを万垢輩出数が多いTop５を表示
+    ジャンルを、こちらで勝手に統合
 アーカイブ格納システム確認・修正＋拡張
   共有資料
     本番フォームリンク：
@@ -63,20 +68,6 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
 マネタイズ顧客管理シートのCSV反映ボタンが正しく動かない
   データが全部とれない？→名前と時間で判定
   ライトとエリートに転記もうまくいってない。AとB列を移す。
-名刺印刷用Googleスライド作成GAS
-  デザイン用Googleスライド
-    https://docs.google.com/presentation/d/1akDbppBAQo4PGW54-GfGs_cHQHsvw5NFUSoRaUWwj_0/edit?slide=id.g3a4121eee6e_0_28#slide=id.g3a4121eee6e_0_28
-  下記スプレッドシートのテスト用にGASを設定
-    https://docs.google.com/spreadsheets/d/1xEAPI3MZa_5mRMJM1O3BX4HOMFUyhQZqbxw9JfBnrcM/edit?gid=1204145965#gid=1204145965
-  データ例
-    https://docs.google.com/spreadsheets/d/1z1RPiHCrJdS5rQEJp9ao6j2siLQVZR4Q9zmIeFY64Zs/edit?usp=sharing
-  追加修正
-  スライド5ページ目に講師、6ページ目に運営のデザインを入れる
-  エスキャン版の名刺作成
-  デザイン用Googleスライド
-    https://docs.google.com/presentation/d/1T7ZmC6ftwOi6PSM1VJ0k6C4NCL9zYLFVmAcXLJwIX_4/edit?usp=sharing
-  下記スプレッドシートのテスト用にGASを設定
-    https://docs.google.com/spreadsheets/d/1E0QT8qgSg9bHE5HIMzaYPnQzd-CjcQXVXEoPy4P1sbE/edit?usp=sharing
 スクラブラジオの音声結合
 アプリ開発
 SnsClub講義（GRITSTUDY）アプリ追加開発
@@ -96,6 +87,7 @@ SnsClub講義（GRITSTUDY）アプリ追加開発
     再現性
     運用・障害対応
     仕様・判断材料
+AWSを社内インフラにしたい
   一部作業残（優先度低）
 管理系
 生徒管理シートのエラー対応【短期対策のみ実施済、画像行の削除を実施や処理を軽くしたい】
@@ -225,3 +217,19 @@ CS マネジメントMTG
   顧客リスト_テスト用 の当月 カード 列を探す
   名前が一致する人に金額を入れる
   一致しない人は 入金CSV 側の名前セルを赤くする
+済：名刺印刷用Googleスライド作成GAS
+  デザイン用Googleスライド
+    https://docs.google.com/presentation/d/1akDbppBAQo4PGW54-GfGs_cHQHsvw5NFUSoRaUWwj_0/edit?slide=id.g3a4121eee6e_0_28#slide=id.g3a4121eee6e_0_28
+  下記スプレッドシートのテスト用にGASを設定
+    https://docs.google.com/spreadsheets/d/1xEAPI3MZa_5mRMJM1O3BX4HOMFUyhQZqbxw9JfBnrcM/edit?gid=1204145965#gid=1204145965
+  データ例
+    https://docs.google.com/spreadsheets/d/1z1RPiHCrJdS5rQEJp9ao6j2siLQVZR4Q9zmIeFY64Zs/edit?usp=sharing
+  追加修正
+  スライド6ページ目に講師、7ページ目に運営のデザインを入れる
+  スライド5ページ目にアカウントURL項目に「なし」の場合デザインを追加
+  人数判定を「1000人未満」「1000人～4999人」「5000人～9999人」「10000人以上」も追加
+  エスキャン版の名刺作成
+  デザイン用Googleスライド
+    https://docs.google.com/presentation/d/1T7ZmC6ftwOi6PSM1VJ0k6C4NCL9zYLFVmAcXLJwIX_4/edit?usp=sharing
+  下記スプレッドシートのテスト用にGASを設定
+    https://docs.google.com/spreadsheets/d/1E0QT8qgSg9bHE5HIMzaYPnQzd-CjcQXVXEoPy4P1sbE/edit?usp=sharing
