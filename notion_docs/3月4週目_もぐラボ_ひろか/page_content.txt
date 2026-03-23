@@ -1,11 +1,12 @@
 # 3月4週目_もぐラボ_ひろか
 
 Notion URL: https://www.notion.so/3-4-_-_-32cf3b0fba8580dbad2de09332d5d105
-同期日時: 2026-03-23T18:33:24+09:00
+同期日時: 2026-03-24T03:24:12+09:00
 
 ---
 
-先月目標と結果
+先週目標と結果
+アフィローンチ実施済み・スクラブローンチ今週に実施
 KSF・転用AP
 KSFとは
   KSFは「Key Success Factors（キーサクセスファクター）」の略で、日本語では「重要成功要因」と訳されます。KSFは、組織やビジネスが成功するために不可欠な要素や条件を指します。
@@ -21,14 +22,31 @@ KSFとは
   AP
   週３以上でメニーチャットを絡めた交流ストーリーを推奨する
   普段リールでの発信が多い発信者はリールでローンチさせてみる
+1. LINE流入数：475名 → 476名　（アフィローンチのみで達成）
+KSF：
+2. 成約率：30% → 100%
+KSF
+転用AP
 KFF・改善AP
 KFFとは
   KFF（Key Failure Factors）とは、組織やビジネスが失敗する原因となる重要な要素や条件を指します。これらは、成功を妨げるリスクや障害となる要因であり、企業が目標を達成できない理由を明らかにするために分析されます。
 改善APとは
   KFFを受けて、同じ失敗を繰り返さないためにどうするべきか？というアクションプランを書き出してください
-当月目標・達成AP
+予約数：95名 → 5名／予約率：20% → 1%
+KFF
+改善AP
+今週目標・達成AP
 達成APとは
   立てた目標を達成するためのアクションプランを納期付きで設定してください。
+目標：
+達成AP：
 PL
 年間計画の定量と定性
+https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?usp=sharing
 共有・提案・依頼
+採用：
+アフィ
+営業
+講師
+LINEマーケ
+https://docs.google.com/spreadsheets/d/1ezCjICUfjWYVIhQaql-e-n28FW1AdjTFoGAphALKX4s/edit?gid=0#gid=0

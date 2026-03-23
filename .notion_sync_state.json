@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-03-23T15:30:07.110242+00:00",
+  "last_sync": "2026-03-23T18:27:20.290466+00:00",
   "pages": {
     "306f3b0f-ba85-8040-96ac-d640633f5de6": {
       "title": "顧客からの問い合わせ詳細分析",
@@ -1678,7 +1678,7 @@
     },
     "2ccf3b0f-ba85-80da-9192-cefc7e69b8e1": {
       "title": "【営業】マニュアル",
-      "last_edited": "2026-03-20T20:46:00.000Z",
+      "last_edited": "2026-03-23T15:59:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/【営業】マニュアル"
     },
     "2f3f3b0f-ba85-80f9-a8e7-c64d1dc50dd4": {
@@ -3153,7 +3153,7 @@
     },
     "2e6f3b0f-ba85-8064-b4fa-d44d6556813c": {
       "title": "1月サクラマニュアル",
-      "last_edited": "2026-02-13T09:00:00.000Z",
+      "last_edited": "2026-03-23T16:24:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/1月サクラマニュアル"
     },
     "2fff3b0f-ba85-800c-882a-ccb10197a448": {
@@ -8228,7 +8228,7 @@
     },
     "308f3b0f-ba85-80aa-a58b-ec60fb9c7f99": {
       "title": "駒居さんお金配りアカウント",
-      "last_edited": "2026-03-19T20:32:00.000Z",
+      "last_edited": "2026-03-23T16:45:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/駒居さんお金配りアカウント"
     },
     "308f3b0f-ba85-8068-a7b1-fc8f2b789564": {
@@ -29148,7 +29148,7 @@
     },
     "318f3b0f-ba85-8158-982d-c132fc231050": {
       "title": "トークスクリプトAI評価",
-      "last_edited": "2026-03-17T02:42:00.000Z",
+      "last_edited": "2026-03-23T15:42:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/トークスクリプトAI評価"
     },
     "318f3b0f-ba85-818c-aee3-e9dc2b85344d": {
@@ -37983,7 +37983,7 @@
     },
     "31cf3b0f-ba85-80a6-a807-f6898c9727f4": {
       "title": "つたこさん3月",
-      "last_edited": "2026-03-07T08:36:00.000Z",
+      "last_edited": "2026-03-23T16:31:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/つたこさん3月"
     },
     "31cf3b0f-ba85-8086-8275-e0546b288f60": {
@@ -40168,7 +40168,7 @@
     },
     "304f3b0f-ba85-80dd-864e-d6739252bffe": {
       "title": "あおきりか_辛女A組",
-      "last_edited": "2026-03-16T04:56:00.000Z",
+      "last_edited": "2026-03-23T15:38:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/あおきりか_辛女A組"
     },
     "31ef3b0f-ba85-8035-9ce0-dfd0dc989a2e": {
@@ -44218,7 +44218,7 @@
     },
     "315f3b0f-ba85-80b4-a8ba-e895c5c7840d": {
       "title": "こばやし　いくほ　アローラB組",
-      "last_edited": "2026-03-12T04:01:00.000Z",
+      "last_edited": "2026-03-23T15:44:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/こばやし　いくほ　アローラB組"
     },
     "298f3b0f-ba85-8070-a1f3-fe76d9d7fbaa": {
@@ -52263,27 +52263,27 @@
     },
     "326f3b0f-ba85-80cd-84a9-d1b332c6655f": {
       "title": "特進コース　新レギュレーション構築",
-      "last_edited": "2026-03-17T03:37:00.000Z",
+      "last_edited": "2026-03-23T15:40:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/特進コース　新レギュレーション構築"
     },
     "326f3b0f-ba85-80b3-a129-d68a5df18eed": {
       "title": "目標設定シートの自動作成（これすることによってセッション記録の自動転記や、Discordから入力されたデータを自動収集・反映する？）",
-      "last_edited": "2026-03-17T03:36:00.000Z",
+      "last_edited": "2026-03-23T15:39:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/目標設定シートの自動作成（これすることによってセッション記録の自動転記や、Discordから入力されたデータを自動収集・反映する？）"
     },
     "326f3b0f-ba85-80ec-8fb2-f90c7883f645": {
       "title": "顧客管理情報収集のためのフォーム作成（セッション実施時の報告フォーム）",
-      "last_edited": "2026-03-17T03:36:00.000Z",
+      "last_edited": "2026-03-23T15:38:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/顧客管理情報収集のためのフォーム作成（セッション実施時の報告フォーム）"
     },
     "326f3b0f-ba85-80b8-af48-f260e4214983": {
       "title": "顧客管理シート　マスタの項目検討",
-      "last_edited": "2026-03-17T03:36:00.000Z",
+      "last_edited": "2026-03-23T15:38:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/顧客管理シート　マスタの項目検討"
     },
     "326f3b0f-ba85-80fa-9da2-f2ee832fb6e6": {
       "title": "顧客管理シート新規作成（自動的かつ正確に投稿数と投稿日を収集するため）",
-      "last_edited": "2026-03-17T03:36:00.000Z",
+      "last_edited": "2026-03-23T15:38:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/顧客管理シート新規作成（自動的かつ正確に投稿数と投稿日を収集するため）"
     },
     "2abf3b0f-ba85-8006-8488-ccdd3e929fd0": {
@@ -52333,7 +52333,7 @@
     },
     "326f3b0f-ba85-80e4-b7ed-dd2d2c93ec17": {
       "title": "月間目標・タスク記入シート",
-      "last_edited": "2026-03-18T09:03:00.000Z",
+      "last_edited": "2026-03-23T15:36:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/月間目標・タスク記入シート"
     },
     "326f3b0f-ba85-80e5-99d5-d3004f43f90a": {
@@ -52343,12 +52343,12 @@
     },
     "326f3b0f-ba85-80d1-8353-faa310115ab5": {
       "title": "投稿管理シート",
-      "last_edited": "2026-03-17T03:28:00.000Z",
+      "last_edited": "2026-03-23T15:36:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/投稿管理シート"
     },
     "326f3b0f-ba85-80d4-ace9-cb43a565d0a9": {
       "title": "半年目標記入シート",
-      "last_edited": "2026-03-18T09:03:00.000Z",
+      "last_edited": "2026-03-23T15:36:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/半年目標記入シート"
     },
     "326f3b0f-ba85-80d6-9ac9-e3331d6077dd": {
@@ -52363,12 +52363,12 @@
     },
     "326f3b0f-ba85-8093-8cdd-ef6553feeb76": {
       "title": "ボムさん　特進コースの流れを講師へ共有お願いします（早く1投稿をさせるため、講師ブロックがあると生徒への案内内容に相違が生まれる）",
-      "last_edited": "2026-03-18T09:04:00.000Z",
+      "last_edited": "2026-03-23T15:36:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/ボムさん　特進コースの流れを講師へ共有お願いします（早く1投稿をさせるため、講師ブロックがあると生徒への案内内容に相違が生まれる）"
     },
     "326f3b0f-ba85-8049-b829-cc3de3697a73": {
       "title": "営業　3/24 22:15〜　営業部へ特進コースの説明",
-      "last_edited": "2026-03-17T03:27:00.000Z",
+      "last_edited": "2026-03-23T15:36:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/営業　3_24 22_15〜　営業部へ特進コースの説明"
     },
     "326f3b0f-ba85-804b-b988-dba38b530f8e": {
@@ -52408,7 +52408,7 @@
     },
     "326f3b0f-ba85-80ca-81f1-cdc0900b8493": {
       "title": "目標設定シート作成",
-      "last_edited": "2026-03-17T03:25:00.000Z",
+      "last_edited": "2026-03-23T15:36:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/目標設定シート作成"
     },
     "326f3b0f-ba85-8136-be2b-ec59fac54f7e": {
@@ -52443,7 +52443,7 @@
     },
     "326f3b0f-ba85-805a-9394-e0dc4fe97509": {
       "title": "各チーム　虎の巻　完成",
-      "last_edited": "2026-03-17T03:23:00.000Z",
+      "last_edited": "2026-03-23T15:36:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/各チーム　虎の巻　完成"
     },
     "326f3b0f-ba85-81fb-a888-e0714ebf100a": {
@@ -52493,7 +52493,7 @@
     },
     "326f3b0f-ba85-805e-bb69-ef97c115a720": {
       "title": "請求書チェック",
-      "last_edited": "2026-03-17T03:17:00.000Z",
+      "last_edited": "2026-03-23T15:36:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/請求書チェック"
     },
     "326f3b0f-ba85-8086-abe9-e94f1f5d4624": {
@@ -52738,7 +52738,7 @@
     },
     "326f3b0f-ba85-803d-ad81-f6519f6c28cf": {
       "title": "3月2週目_ミチシル_森本",
-      "last_edited": "2026-03-17T02:19:00.000Z",
+      "last_edited": "2026-03-23T16:06:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/3月2週目_ミチシル_森本"
     },
     "2b1f3b0f-ba85-8027-8459-ef6b050f9c08": {
@@ -53153,17 +53153,17 @@
     },
     "326f3b0f-ba85-8163-bf17-f83e8c0d7cba": {
       "title": "コミット制約率向上特別勉強会企画",
-      "last_edited": "2026-03-17T12:21:00.000Z",
+      "last_edited": "2026-03-23T15:42:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/コミット制約率向上特別勉強会企画"
     },
     "326f3b0f-ba85-8196-8632-f8cddd7cfd45": {
       "title": "Discordチャットタスク管理仕組み構築",
-      "last_edited": "2026-03-17T12:21:00.000Z",
+      "last_edited": "2026-03-23T15:41:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/Discordチャットタスク管理仕組み構築"
     },
     "326f3b0f-ba85-81a5-b9db-d102fc7e39fb": {
       "title": "週1回集中型コーチング施策導入",
-      "last_edited": "2026-03-17T12:21:00.000Z",
+      "last_edited": "2026-03-23T15:42:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/週1回集中型コーチング施策導入"
     },
     "326f3b0f-ba85-81cd-910c-da5e1bf54ea6": {
@@ -53228,7 +53228,7 @@
     },
     "326f3b0f-ba85-81b3-abad-feab7435e9c6": {
       "title": "アクションシート廃止とコーチング連携強化",
-      "last_edited": "2026-03-17T12:21:00.000Z",
+      "last_edited": "2026-03-23T15:41:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/アクションシート廃止とコーチング連携強化"
     },
     "326f3b0f-ba85-8133-a98c-fc8b41c47be9": {
@@ -56138,7 +56138,7 @@
     },
     "328f3b0f-ba85-80a7-9ee6-ed940ee0093a": {
       "title": "5本目：改めてルール説明",
-      "last_edited": "2026-03-19T15:17:00.000Z",
+      "last_edited": "2026-03-23T16:43:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/5本目：改めてルール説明"
     },
     "2e3f3b0f-ba85-8080-bd2d-ce11904151ef": {
@@ -56147,9 +56147,9 @@
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/🔷1回目"
     },
     "328f3b0f-ba85-80ab-a346-c6b6a3602f17": {
-      "title": "4本目：1人目当選者100万円渡す",
-      "last_edited": "2026-03-19T15:17:00.000Z",
-      "path": "/home/runner/work/-AI-/-AI-/notion_docs/4本目：1人目当選者100万円渡す"
+      "title": "6本目：配る理由、次の100万円企画発表",
+      "last_edited": "2026-03-23T17:15:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/6本目：配る理由、次の100万円企画発表"
     },
     "328f3b0f-ba85-81a5-bb95-f687bea0f488": {
       "title": "Thu Mar 19 2026 17:14:01 GMT+0900 (Japan Standard Time)",
@@ -56157,18 +56157,18 @@
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/Thu Mar 19 2026 17_14_01 GMT+0900 (Japan Standard Time)"
     },
     "328f3b0f-ba85-8005-b6b8-dc59a41572c9": {
-      "title": "8本目：",
-      "last_edited": "2026-03-19T08:20:00.000Z",
-      "path": "/home/runner/work/-AI-/-AI-/notion_docs/8本目："
+      "title": "9本目：久保優太さん回",
+      "last_edited": "2026-03-23T17:19:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/9本目：久保優太さん回"
     },
     "328f3b0f-ba85-8097-b42e-cdeb157fa942": {
-      "title": "7本目：",
-      "last_edited": "2026-03-19T08:20:00.000Z",
-      "path": "/home/runner/work/-AI-/-AI-/notion_docs/7本目："
+      "title": "7本目：2人目当選者発表",
+      "last_edited": "2026-03-23T17:17:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/7本目：2人目当選者発表"
     },
     "328f3b0f-ba85-804d-980f-dccb1e92895a": {
       "title": "3本目：1人目当選者発表",
-      "last_edited": "2026-03-19T15:17:00.000Z",
+      "last_edited": "2026-03-23T16:43:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/3本目：1人目当選者発表"
     },
     "328f3b0f-ba85-80da-a5a9-ddf330370968": {
@@ -58373,7 +58373,7 @@
     },
     "328f3b0f-ba85-819c-92b1-dcde0921464f": {
       "title": "特進コース対象者確認",
-      "last_edited": "2026-03-19T16:18:00.000Z",
+      "last_edited": "2026-03-23T15:42:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/特進コース対象者確認"
     },
     "328f3b0f-ba85-818a-aae2-ca63176a6777": {
@@ -58388,12 +58388,12 @@
     },
     "328f3b0f-ba85-81ea-a0db-cdd978edc37e": {
       "title": "新サポート体制構築",
-      "last_edited": "2026-03-19T16:18:00.000Z",
+      "last_edited": "2026-03-23T15:41:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/新サポート体制構築"
     },
     "328f3b0f-ba85-816a-8de0-efdbb78cf370": {
       "title": "特進コースセッション頻度増加と早期投稿促進",
-      "last_edited": "2026-03-19T16:18:00.000Z",
+      "last_edited": "2026-03-23T15:40:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/特進コースセッション頻度増加と早期投稿促進"
     },
     "328f3b0f-ba85-81cd-8631-c84d39e34e1d": {
@@ -59028,67 +59028,67 @@
     },
     "328f3b0f-ba85-8128-9307-de93de49d545": {
       "title": "コーチング管理シート改修方法壁打ち",
-      "last_edited": "2026-03-19T15:46:00.000Z",
+      "last_edited": "2026-03-23T15:39:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/コーチング管理シート改修方法壁打ち"
     },
     "328f3b0f-ba85-81a9-bbc6-c2c7c8fec4a0": {
       "title": "Book LMアカウント認証確認",
-      "last_edited": "2026-03-19T15:46:00.000Z",
+      "last_edited": "2026-03-23T15:39:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/Book LMアカウント認証確認"
     },
     "328f3b0f-ba85-812d-9c55-ecd5c7e9e368": {
       "title": "Google Meet移行検討",
-      "last_edited": "2026-03-19T15:46:00.000Z",
+      "last_edited": "2026-03-23T15:39:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/Google Meet移行検討"
     },
     "328f3b0f-ba85-8179-9dbb-eb3adeab04da": {
       "title": "タスク明確化方法検討",
-      "last_edited": "2026-03-19T15:46:00.000Z",
+      "last_edited": "2026-03-23T15:39:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/タスク明確化方法検討"
     },
     "328f3b0f-ba85-8118-b248-ebc4a7d7f113": {
       "title": "セッション実施状況と投稿数データ自動取得",
-      "last_edited": "2026-03-19T15:46:00.000Z",
+      "last_edited": "2026-03-23T15:39:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/セッション実施状況と投稿数データ自動取得"
     },
     "328f3b0f-ba85-8171-9c70-e6d253b7b9a3": {
       "title": "1ヶ月遅れで施策結果を振り返る",
-      "last_edited": "2026-03-19T15:46:00.000Z",
+      "last_edited": "2026-03-23T15:42:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/1ヶ月遅れで施策結果を振り返る"
     },
     "328f3b0f-ba85-81c7-b05b-f9e1c141415e": {
       "title": "分析対象シート統一",
-      "last_edited": "2026-03-19T15:46:00.000Z",
+      "last_edited": "2026-03-23T15:42:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/分析対象シート統一"
     },
     "328f3b0f-ba85-81a6-8dbb-deb86a3e6030": {
       "title": "スタータープログラムつまずきポイント特定と施策策定",
-      "last_edited": "2026-03-19T15:46:00.000Z",
+      "last_edited": "2026-03-23T15:42:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/スタータープログラムつまずきポイント特定と施策策定"
     },
     "328f3b0f-ba85-817b-b9c3-e8de4eaf69e3": {
       "title": "特進コースKPI改善",
-      "last_edited": "2026-03-19T15:46:00.000Z",
+      "last_edited": "2026-03-23T15:40:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/特進コースKPI改善"
     },
     "328f3b0f-ba85-8128-af60-e784ca31b466": {
       "title": "Notion移行検討",
-      "last_edited": "2026-03-19T15:44:00.000Z",
+      "last_edited": "2026-03-23T15:38:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/Notion移行検討"
     },
     "328f3b0f-ba85-81aa-98b3-f9dcac652a53": {
       "title": "Google Meet移行検討",
-      "last_edited": "2026-03-19T15:44:00.000Z",
+      "last_edited": "2026-03-23T15:38:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/Google Meet移行検討"
     },
     "328f3b0f-ba85-8101-8991-dd4f37de3151": {
       "title": "コーチング管理シート改修壁打ち",
-      "last_edited": "2026-03-19T15:44:00.000Z",
+      "last_edited": "2026-03-23T15:38:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/コーチング管理シート改修壁打ち"
     },
     "328f3b0f-ba85-8142-b17b-fe60e50a8280": {
       "title": "特進・ベーシック比較分析基準値統一",
-      "last_edited": "2026-03-19T15:44:00.000Z",
+      "last_edited": "2026-03-23T15:37:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/特進・ベーシック比較分析基準値統一"
     },
     "328f3b0f-ba85-810e-9370-da7afcf74266": {
@@ -59098,7 +59098,7 @@
     },
     "328f3b0f-ba85-811e-82d4-dad79c01cfdf": {
       "title": "分析対象シートの統一",
-      "last_edited": "2026-03-19T15:44:00.000Z",
+      "last_edited": "2026-03-23T15:37:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/分析対象シートの統一"
     },
     "328f3b0f-ba85-81ac-a763-c434b2c1b568": {
@@ -59108,12 +59108,12 @@
     },
     "328f3b0f-ba85-8110-a28b-c7b2a804abdd": {
       "title": "業務フロー最適化",
-      "last_edited": "2026-03-19T15:44:00.000Z",
+      "last_edited": "2026-03-23T15:37:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/業務フロー最適化"
     },
     "328f3b0f-ba85-8161-ba9f-ebc9dcf1cdb2": {
       "title": "タスク管理ツール化検討",
-      "last_edited": "2026-03-19T15:44:00.000Z",
+      "last_edited": "2026-03-23T15:37:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/タスク管理ツール化検討"
     },
     "328f3b0f-ba85-81c1-b64c-efcf5e97c004": {
@@ -59123,7 +59123,7 @@
     },
     "328f3b0f-ba85-817b-b962-febbd1f076c4": {
       "title": "業務効率化",
-      "last_edited": "2026-03-19T15:43:00.000Z",
+      "last_edited": "2026-03-23T15:39:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/業務効率化"
     },
     "328f3b0f-ba85-810d-adc8-efb23972cab1": {
@@ -61318,7 +61318,7 @@
     },
     "32af3b0f-ba85-80b0-add4-c548ba8a78a4": {
       "title": "テレアポ_スケジュール策定",
-      "last_edited": "2026-03-21T08:01:00.000Z",
+      "last_edited": "2026-03-23T16:07:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/テレアポ_スケジュール策定"
     },
     "32af3b0f-ba85-804e-9a05-e05a1edf6f6e": {
@@ -62388,7 +62388,7 @@
     },
     "32af3b0f-ba85-8117-9602-ef12202121ff": {
       "title": "LINE管理体制構築",
-      "last_edited": "2026-03-23T13:21:00.000Z",
+      "last_edited": "2026-03-23T16:07:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/LINE管理体制構築"
     },
     "32af3b0f-ba85-81bb-8ff7-dcee7003601e": {
@@ -64118,7 +64118,7 @@
     },
     "304f3b0f-ba85-80cc-a414-d315fcf40a17": {
       "title": "🔸2回目",
-      "last_edited": "2026-03-23T05:09:00.000Z",
+      "last_edited": "2026-03-23T16:01:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/🔸2回目"
     },
     "304f3b0f-ba85-8061-bff1-ccd1b39705d0": {
@@ -64233,7 +64233,7 @@
     },
     "32cf3b0f-ba85-80f9-b1a4-c1fb30bca344": {
       "title": "/ 通常セッション_",
-      "last_edited": "2026-03-23T14:42:00.000Z",
+      "last_edited": "2026-03-23T15:34:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/_ 通常セッション_"
     },
     "32cf3b0f-ba85-80ad-94bb-cdf90811e0aa": {
@@ -64578,7 +64578,7 @@
     },
     "32cf3b0f-ba85-80db-ad2d-e09332d5d105": {
       "title": "3月4週目_もぐラボ_ひろか",
-      "last_edited": "2026-03-23T07:55:00.000Z",
+      "last_edited": "2026-03-23T18:13:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/3月4週目_もぐラボ_ひろか"
     },
     "32cf3b0f-ba85-80f6-9bdc-f42afd87b88a": {
@@ -64658,7 +64658,7 @@
     },
     "2a5f3b0f-ba85-80f0-bb45-dfd40c6788de": {
       "title": "🔸5回目",
-      "last_edited": "2026-03-23T15:24:00.000Z",
+      "last_edited": "2026-03-23T15:36:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/🔸5回目"
     },
     "2d8f3b0f-ba85-80f2-9f0d-fe9395ddcc4b": {
@@ -64678,7 +64678,7 @@
     },
     "32cf3b0f-ba85-8063-83fc-ca42ec33d37a": {
       "title": "こばやしあすかさん",
-      "last_edited": "2026-03-23T13:01:00.000Z",
+      "last_edited": "2026-03-23T15:32:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/こばやしあすかさん"
     },
     "2b1f3b0f-ba85-8089-9275-daeb7c1335cc": {
@@ -64955,6 +64955,66 @@
       "title": "🔸2回目",
       "last_edited": "2026-03-23T12:35:00.000Z",
       "path": "/home/runner/work/-AI-/-AI-/notion_docs/🔸2回目"
+    },
+    "32cf3b0f-ba85-80fb-94c3-d31141bbf19c": {
+      "title": "はるかスクリプト (SnsClub流入)",
+      "last_edited": "2026-03-23T17:27:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/はるかスクリプト (SnsClub流入)"
+    },
+    "32cf3b0f-ba85-807c-8dab-dde480b136af": {
+      "title": "8本目：2人目当選者へお渡し",
+      "last_edited": "2026-03-23T17:19:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/8本目：2人目当選者へお渡し"
+    },
+    "32cf3b0f-ba85-8094-b0b4-ef2b97c7c45e": {
+      "title": "4本目：1人目当選者へお渡し",
+      "last_edited": "2026-03-23T16:36:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/4本目：1人目当選者へお渡し"
+    },
+    "32cf3b0f-ba85-80f7-984c-e4f7116e940d": {
+      "title": "自己肯定感が上がりすぎて困る本",
+      "last_edited": "2026-03-23T16:30:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/自己肯定感が上がりすぎて困る本"
+    },
+    "32cf3b0f-ba85-8019-9a04-de94483920c9": {
+      "title": "3月24日（火）14時〜（やえこさん）",
+      "last_edited": "2026-03-23T16:27:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/3月24日（火）14時〜（やえこさん）"
+    },
+    "32cf3b0f-ba85-80b3-93fb-ebfffa67e69f": {
+      "title": "3月25日（火）10時〜（さえさん） ",
+      "last_edited": "2026-03-23T16:20:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/3月25日（火）10時〜（さえさん）"
+    },
+    "2e6f3b0f-ba85-80f9-b7e1-dfd331980dc9": {
+      "title": "1月15日（木）",
+      "last_edited": "2026-03-23T16:10:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/1月15日（木）"
+    },
+    "32cf3b0f-ba85-80d0-b77a-cc205f7e0ebf": {
+      "title": "3月24日10時〜、14時〜、3月25日10時〜、20時〜（ちささん）",
+      "last_edited": "2026-03-23T16:09:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/3月24日10時〜、14時〜、3月25日10時〜、20時〜（ちささん）"
+    },
+    "32cf3b0f-ba85-80ca-8945-c8b5ec9a5519": {
+      "title": "3月_4種目_ふうか",
+      "last_edited": "2026-03-23T16:09:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/3月_4種目_ふうか"
+    },
+    "32cf3b0f-ba85-8008-90c3-ee76fa10e463": {
+      "title": "3月24日20時〜（めぐみさん）",
+      "last_edited": "2026-03-23T16:08:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/3月24日20時〜（めぐみさん）"
+    },
+    "32cf3b0f-ba85-8007-8e80-e0167c906430": {
+      "title": "3月25日14時〜（さえさん）",
+      "last_edited": "2026-03-23T16:08:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/3月25日14時〜（さえさん）"
+    },
+    "2a5f3b0f-ba85-8069-a72e-cf9bcd967547": {
+      "title": "🔷6回目",
+      "last_edited": "2026-03-23T15:35:00.000Z",
+      "path": "/home/runner/work/-AI-/-AI-/notion_docs/🔷6回目"
     }
   }
 }
