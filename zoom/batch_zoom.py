@@ -1135,26 +1135,15 @@ def main():
         print("文字起こしドキュメント作成（動画ありの行）")
         print("=" * 60)
 
-        # Zoom相談一覧 + データ格納の両方を対象にする
+        # Zoom相談一覧のみ対象
         missing_rows = get_rows_missing_transcript(
             spreadsheet_id=DESTINATION_SPREADSHEET_ID,
             sheet_name=DESTINATION_SHEET_NAME
         )
         print(f"Zoom相談一覧: {len(missing_rows)}件")
 
-        missing_rows_storage = get_rows_missing_transcript(
-            spreadsheet_id=DESTINATION_SPREADSHEET_ID,
-            sheet_name="Zoom相談一覧 データ格納"
-        )
-        print(f"データ格納: {len(missing_rows_storage)}件")
-
-        # データ格納の行にシート名を付与（更新先の区別用）
         for row in missing_rows:
             row["target_sheet"] = DESTINATION_SHEET_NAME
-        for row in missing_rows_storage:
-            row["target_sheet"] = "Zoom相談一覧 データ格納"
-
-        missing_rows = missing_rows + missing_rows_storage
 
         if not missing_rows:
             print("文字起こしが必要な行はありません。")
