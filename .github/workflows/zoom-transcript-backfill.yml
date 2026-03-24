@@ -4,9 +4,19 @@ name: Zoom Transcript Backfill
 
 on:
   schedule:
-    # 30分おきに実行
-    - cron: '*/30 * * * *'
-  workflow_dispatch:  # 手動実行も可能
+    # 2時間おきに実行
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: '処理件数上限（デフォルト: 3）'
+        required: false
+        type: number
+        default: 3
+
+concurrency:
+  group: zoom-transcript-backfill
+  cancel-in-progress: false
 
 env:
   TZ: 'Asia/Tokyo'
@@ -15,7 +25,7 @@ jobs:
   backfill:
     name: Create Missing Transcripts
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 90
 
     steps:
       - name: Checkout code
@@ -74,8 +84,9 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           PYTHONUNBUFFERED: "1"
         run: |
-          echo "=== 文字起こしバックフィル（VTT + Groq Whisper） ==="
-          python zoom/batch_zoom.py --create-missing-transcripts
+          LIMIT="${{ inputs.limit || '3' }}"
+          echo "=== 文字起こしバックフィル（VTT + Groq Whisper）limit=${LIMIT} ==="
+          python zoom/batch_zoom.py --create-missing-transcripts --limit "$LIMIT"
 
       - name: Cleanup
         if: always()

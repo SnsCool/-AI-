@@ -6,7 +6,17 @@ on:
   schedule:
     # 毎時0分に実行（1時間おき）
     - cron: '0 * * * *'
-  workflow_dispatch:  # 手動実行も可能
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: '処理件数上限（デフォルト: 5）'
+        required: false
+        type: number
+        default: 5
+
+concurrency:
+  group: zoom-drive-upload
+  cancel-in-progress: false
 
 env:
   TZ: 'Asia/Tokyo'
@@ -67,7 +77,9 @@ jobs:
           GAS_WEBAPP_URL: ${{ secrets.GAS_WEBAPP_URL }}
           PYTHONUNBUFFERED: "1"
         run: |
-          python zoom/batch_zoom.py --upload-videos-to-drive
+          LIMIT="${{ inputs.limit || '5' }}"
+          echo "=== Zoom動画Driveアップロード limit=${LIMIT} ==="
+          python zoom/batch_zoom.py --upload-videos-to-drive --limit "$LIMIT"
 
       - name: Cleanup
         if: always()
@@ -89,15 +101,15 @@ jobs:
           MENTION="<@1340666940615823451>"
 
           if [ "${{ needs.upload.result }}" == "success" ]; then
-            TITLE="✅ Drive Upload 完了"
+            TITLE="Drive Upload"
             DESCRIPTION="Zoom動画のDriveアップロードが完了しました。"
             COLOR=3066993
           elif [ "${{ needs.upload.result }}" == "failure" ]; then
-            TITLE="❌ Drive Upload エラー"
+            TITLE="Drive Upload Error"
             DESCRIPTION="Driveアップロード処理でエラーが発生しました。次回実行で自動リトライされます。"
             COLOR=15158332
           else
-            TITLE="⏭️ Drive Upload スキップ"
+            TITLE="Drive Upload Skip"
             DESCRIPTION="アップロード対象がありませんでした。"
             COLOR=8421504
           fi
@@ -107,11 +119,11 @@ jobs:
               \"content\": \"${MENTION}\",
               \"embeds\": [{
                 \"title\": \"${TITLE}\",
-                \"description\": \"${DESCRIPTION}\\n\\n[📋 詳細ログを確認](${LOG_URL})\",
+                \"description\": \"${DESCRIPTION}\\n\\n[Details](${LOG_URL})\",
                 \"color\": ${COLOR},
                 \"fields\": [
-                  {\"name\": \"実行時刻\", \"value\": \"${CURRENT_TIME}\", \"inline\": true},
-                  {\"name\": \"トリガー\", \"value\": \"${{ github.event_name }}\", \"inline\": true}
+                  {\"name\": \"Time\", \"value\": \"${CURRENT_TIME}\", \"inline\": true},
+                  {\"name\": \"Trigger\", \"value\": \"${{ github.event_name }}\", \"inline\": true}
                 ],
                 \"footer\": {\"text\": \"Run ID: ${{ github.run_id }}\"}
               }]

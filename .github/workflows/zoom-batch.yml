@@ -40,18 +40,8 @@ on:
         required: false
         type: boolean
         default: false
-      no_video:
-        description: '動画処理スキップ（--fast）'
-        required: false
-        type: boolean
-        default: false
       run_test:
         description: 'テストモード実行'
-        required: false
-        type: boolean
-        default: false
-      upload_videos:
-        description: '動画Driveアップロード実行'
         required: false
         type: boolean
         default: false
@@ -140,11 +130,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r zoom/requirements.txt
 
-      - name: Install ffmpeg
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg
-
       - name: Setup Google Credentials
         env:
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
@@ -210,76 +195,8 @@ jobs:
           if [ "${{ inputs.dry_run }}" == "true" ]; then
             CMD+=(--dry-run)
           fi
-          if [ "${{ inputs.no_video }}" == "true" ]; then
-            CMD+=(--fast)
-          fi
-
           echo "Running: ${CMD[*]}"
           "${CMD[@]}"
-
-      - name: Cleanup
-        if: always()
-        run: |
-          rm -f /tmp/google_creds.json
-
-  # 動画アップロードジョブ（毎時0分 = G1のタイミングのみ自動実行）
-  upload-videos:
-    name: Upload Videos to Drive
-    if: ${{ (github.event_name == 'workflow_dispatch' && inputs.upload_videos == true) }}
-    runs-on: ubuntu-latest
-    timeout-minutes: 120
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          sparse-checkout: |
-            zoom
-            .github
-          sparse-checkout-cone-mode: false
-
-      - name: Set up Python 3.13
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.13'
-
-      - name: Cache pip dependencies
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('zoom/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
-      - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r zoom/requirements.txt
-
-      - name: Setup Google Credentials
-        env:
-          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
-        run: |
-          umask 077
-          if printf '%s' "$GOOGLE_CREDENTIALS_JSON" | base64 -d > /tmp/google_creds.json 2>/dev/null; then
-            echo "Credentials decoded from base64."
-          else
-            printf '%s' "$GOOGLE_CREDENTIALS_JSON" > /tmp/google_creds.json
-            echo "Credentials saved as raw JSON."
-          fi
-          chmod 600 /tmp/google_creds.json
-          echo "GOOGLE_APPLICATION_CREDENTIALS=/tmp/google_creds.json" >> $GITHUB_ENV
-
-      - name: Upload videos to Google Drive
-        env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
-          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
-          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-          GAS_WEBAPP_URL: ${{ secrets.GAS_WEBAPP_URL }}
-          PYTHONUNBUFFERED: "1"
-        run: |
-          python zoom/batch_zoom.py --upload-videos-to-drive
 
       - name: Cleanup
         if: always()
@@ -384,7 +301,7 @@ jobs:
   # 通知ジョブ
   notify:
     name: Notify Results
-    needs: [setup-matrix, process, upload-videos, webhook-analyze, test]
+    needs: [setup-matrix, process, webhook-analyze, test]
     if: always()
     runs-on: ubuntu-latest
     steps:
@@ -395,11 +312,10 @@ jobs:
           FAILED=""
           SUCCEEDED=""
 
-          for JOB_NAME in process upload-videos webhook-analyze test; do
+          for JOB_NAME in process webhook-analyze test; do
             RESULT=""
             case "$JOB_NAME" in
               process)         RESULT="${{ needs.process.result }}" ;;
-              upload-videos)   RESULT="${{ needs.upload-videos.result }}" ;;
               webhook-analyze) RESULT="${{ needs.webhook-analyze.result }}" ;;
               test)            RESULT="${{ needs.test.result }}" ;;
             esac

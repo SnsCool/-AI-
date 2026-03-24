@@ -396,99 +396,25 @@ def process_single_recording(
             customer_name = topic
             should_mark_processed = False  # 再更新対象
 
-        # 2. 文字起こしをダウンロード（ある場合のみ）
+        # 2. 文字起こし・分析はスキップ（transcript-backfillワークフローで後追い処理）
         transcript = ""
-        if has_transcript:
-            print("→ Zoom文字起こしをダウンロード中...")
-            transcript = download_transcript(transcript_url, access_token)
-            if transcript:
-                print(f"   文字数: {len(transcript)}")
-            else:
-                print("   → Zoom文字起こしダウンロード失敗")
-                has_transcript = False
+        has_transcript = False
+        print("→ 文字起こしスキップ（transcript-backfillで後追い処理）")
 
-        # 文字起こしが短い場合もフラグを更新
-        if transcript and len(transcript) < 100:
-            print("   → 文字起こしが短すぎます")
-            has_transcript = False
-
-        # Zoom native transcriptが無い場合、Groq Whisperでフォールバック
-        if not has_transcript and mp4_url:
-            print("→ Groq Whisperで文字起こし中...")
-            try:
-                from services.groq_transcribe import transcribe_video as groq_transcribe
-                with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as tmp_file:
-                    tmp_path = tmp_file.name
-                try:
-                    dl_ok = download_video_from_zoom(
-                        mp4_url=mp4_url, access_token=access_token, output_path=tmp_path
-                    )
-                    if dl_ok:
-                        file_size_mb = os.path.getsize(tmp_path) / (1024 * 1024)
-                        if file_size_mb < 0.01:
-                            print(f"   → スキップ: 動画ファイルが小さすぎます ({file_size_mb:.2f}MB)")
-                        elif file_size_mb > 2000:
-                            print(f"   → スキップ: 動画ファイルが大きすぎます ({file_size_mb:.0f}MB)")
-                        else:
-                            print(f"   動画サイズ: {file_size_mb:.1f}MB")
-                            transcript = groq_transcribe(tmp_path) or ""
-                            if transcript and len(transcript) >= 100:
-                                has_transcript = True
-                                print(f"   Groq文字起こし完了: {len(transcript)}文字")
-                            else:
-                                print(f"   Groq文字起こし結果不十分 (len={len(transcript)})")
-                finally:
-                    if os.path.exists(tmp_path):
-                        os.remove(tmp_path)
-            except Exception as e:
-                print(f"   Groq文字起こしエラー: {e}")
-
-        # 3. Gemini分析（一時的に無効化 - APIクォータ節約テスト）
-        # print("→ Geminiで分析中...")
-        # analysis = analyze_meeting(transcript)
-        # if not analysis:
-        #     print("→ エラー: 分析に失敗しました")
-        #     return False
-        # closing_result = analysis.get("closing_result", "不明")
-        # print(f"   クロージング結果: {closing_result}")
-        analysis = {}  # 一時的にスキップ
+        analysis = {}
         closing_result = "未分析"
-        print("→ Gemini分析スキップ（テストモード）")
-
-        # 4. 詳細フィードバック生成（一時的に無効化 - APIクォータ節約）
-        # print("→ 詳細フィードバック生成中...")
-        # feedback = generate_detailed_feedback(transcript)
-        feedback = ""  # 一時的にスキップ
+        feedback = ""
 
         if dry_run:
             print("→ [DRY RUN] 書き込みをスキップ")
             return True
 
-        # 5. Google Docsに文字起こしを保存（文字起こしがある場合のみ）
+        # 5. Google Docs作成スキップ（transcript-backfillワークフローで後追い処理）
         transcript_doc_url = ""
-        if fast_mode:
-            print("→ 高速モード: Google Docs保存スキップ")
-        elif has_transcript and transcript and len(transcript) >= 100:
-            print("→ Google Docsに保存中...")
-            meeting_date = start_time[:10] if start_time else datetime.now().strftime("%Y-%m-%d")
-            # 保存先フォルダID（環境変数から取得）
-            transcript_folder_id = os.getenv("GOOGLE_DRIVE_FOLDER_ID")
-            transcript_doc_url = create_transcript_doc(
-                transcript=transcript,
-                assignee=assignee,
-                customer_name=customer_name,
-                meeting_date=meeting_date,
-                folder_id=transcript_folder_id
-            )
-        else:
-            print("→ 文字起こしなし: Google Docs作成スキップ")
 
         # 6. 動画をGoogle Driveにアップロード（圧縮なし）
         video_url = ""
-        if fast_mode:
-            print("→ 高速モード: 動画アップロードスキップ、Zoom共有リンクを使用")
-            video_url = share_url or ""
-        elif mp4_url:
+        if mp4_url:
             print("→ 動画をダウンロード・アップロード中...")
             meeting_date = start_time[:10] if start_time else datetime.now().strftime("%Y-%m-%d")
 
@@ -1260,6 +1186,11 @@ def main():
 
         print(f"合計対象行数: {len(missing_rows)}件")
 
+        # --limit が指定されていれば件数を制限
+        if args.limit and args.limit > 0:
+            missing_rows = missing_rows[:args.limit]
+            print(f"--limit {args.limit} により処理対象を制限")
+
         print(f"処理対象: {len(missing_rows)}件\n")
 
         # Supabaseクライアント取得
@@ -1478,6 +1409,11 @@ def main():
         if not zoom_only_rows:
             print("30日以内の対象行はありません。")
             sys.exit(0)
+
+        # --limit が指定されていれば件数を制限
+        if args.limit and args.limit > 0:
+            zoom_only_rows = zoom_only_rows[:args.limit]
+            print(f"--limit {args.limit} により処理対象を制限")
 
         print(f"対象行数: {len(zoom_only_rows)}件\n")
 
