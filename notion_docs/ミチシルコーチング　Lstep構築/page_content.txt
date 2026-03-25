@@ -1,7 +1,7 @@
 # ミチシルコーチング　Lstep構築
 
 Notion URL: https://www.notion.so/Lstep-32cf3b0fba858019886ed8f979921e76
-同期日時: 2026-03-25T15:33:14+09:00
+同期日時: 2026-03-25T18:30:15+09:00
 
 ---
 
@@ -24,6 +24,9 @@ Notion URL: https://www.notion.so/Lstep-32cf3b0fba858019886ed8f979921e76
 配信メッセージ
 【miro】 https://miro.com/app/board/uXjVG7oSHow=/
 友達追加直後からアンケート回答
+なんかモヤモヤしてる　→no.5
+仕事・キャリア・働き方　→no.1
+自己理解は選択肢から
 体験セッション申し込みまで
 事前アンケート回答　→キャリアかそれ以外か、で誰のカレンダーが送信されるかが分かれる
 ↓
