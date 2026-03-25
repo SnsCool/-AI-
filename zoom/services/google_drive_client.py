@@ -17,6 +17,9 @@ load_dotenv()
 # GAS Web App URL（Google Docs作成用、環境変数から取得）
 GAS_WEBAPP_URL = os.getenv("GAS_WEBAPP_URL")
 
+# 共有ドライブID（設定されていれば共有ドライブに直接アップロード）
+SHARED_DRIVE_ID = os.getenv("SHARED_DRIVE_ID")
+
 try:
     from google.oauth2.service_account import Credentials
     from googleapiclient.discovery import build
@@ -277,11 +280,27 @@ def create_transcript_doc(
             ]}
         ).execute()
 
-        # 3. 公開権限を設定
-        drive_service.permissions().create(
-            fileId=doc_id,
-            body={'type': 'anyone', 'role': 'reader'}
-        ).execute()
+        # 3. 共有ドライブに移動 or 公開権限を設定
+        if SHARED_DRIVE_ID:
+            # Docs APIで作成後、Drive APIで共有ドライブに移動
+            file_info = drive_service.files().get(
+                fileId=doc_id,
+                fields='parents',
+                supportsAllDrives=True
+            ).execute()
+            current_parents = ','.join(file_info.get('parents', []))
+            drive_service.files().update(
+                fileId=doc_id,
+                addParents=SHARED_DRIVE_ID,
+                removeParents=current_parents,
+                supportsAllDrives=True
+            ).execute()
+        else:
+            drive_service.permissions().create(
+                fileId=doc_id,
+                body={'type': 'anyone', 'role': 'reader'},
+                supportsAllDrives=True
+            ).execute()
 
         doc_url = f"https://docs.google.com/document/d/{doc_id}/edit"
         print(f"   文字起こしDoc作成完了: {doc_url}")
@@ -543,6 +562,11 @@ def upload_video_with_copy(
     Returns:
         コピーされた動画のURL（ユーザー所有）
     """
+    # 共有ドライブが設定されている場合はGASコピー不要（直接アップロードで十分）
+    if SHARED_DRIVE_ID:
+        print("   共有ドライブが設定済みのため、直接アップロードを使用")
+        return None
+
     # GAS_WEBAPP_URLが設定されていない場合はNoneを返す（フォールバック処理へ）
     if not GAS_WEBAPP_URL:
         print("   GAS_WEBAPP_URLが未設定のため、直接アップロードにフォールバック")
@@ -593,6 +617,7 @@ def upload_video_to_drive(
 ) -> str:
     """
     動画をGoogle Driveにアップロード
+    SHARED_DRIVE_IDが設定されていれば共有ドライブに直接アップロード
 
     Args:
         video_path: 動画ファイルのパス
@@ -608,9 +633,10 @@ def upload_video_to_drive(
     drive_service = build('drive', 'v3', credentials=credentials)
 
     file_name = f"【面談動画】{customer_name}_{assignee}_{meeting_date}.mp4"
+    target_folder = folder_id or SHARED_DRIVE_ID
     file_metadata = {'name': file_name}
-    if folder_id:
-        file_metadata['parents'] = [folder_id]
+    if target_folder:
+        file_metadata['parents'] = [target_folder]
 
     media = MediaFileUpload(
         video_path,
@@ -618,33 +644,38 @@ def upload_video_to_drive(
         resumable=True
     )
 
-    print(f"→ 動画をGoogle Driveにアップロード中...")
+    use_shared = bool(SHARED_DRIVE_ID and not folder_id)
+
+    print(f"→ 動画をGoogle Driveにアップロード中...{'（共有ドライブ）' if use_shared else ''}")
     file = drive_service.files().create(
         body=file_metadata,
         media_body=media,
-        fields='id, webViewLink'
+        fields='id, webViewLink',
+        supportsAllDrives=True
     ).execute()
 
     file_id = file['id']
 
-    # 公開権限を設定（リンクを知っている全員が閲覧可能）
-    print(f"→ 公開権限を設定中...")
-    drive_service.permissions().create(
-        fileId=file_id,
-        body={
-            'type': 'anyone',
-            'role': 'reader'
-        }
-    ).execute()
+    if not use_shared:
+        # 共有ドライブ以外の場合のみ公開権限を設定
+        print(f"→ 公開権限を設定中...")
+        drive_service.permissions().create(
+            fileId=file_id,
+            body={
+                'type': 'anyone',
+                'role': 'reader'
+            },
+            supportsAllDrives=True
+        ).execute()
 
     file_info = drive_service.files().get(
         fileId=file_id,
-        fields='webViewLink'
+        fields='webViewLink',
+        supportsAllDrives=True
     ).execute()
 
     video_url = file_info.get('webViewLink', f"https://drive.google.com/file/d/{file_id}/view")
     print(f"   動画アップロード完了: {video_url}")
-
     return video_url
 
 

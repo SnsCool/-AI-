@@ -173,6 +173,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GAS_WEBAPP_URL: ${{ secrets.GAS_WEBAPP_URL }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SHARED_DRIVE_ID: ${{ secrets.SHARED_DRIVE_ID }}
           PYTHONUNBUFFERED: "1"
         run: |
           CMD=(python zoom/batch_zoom.py --group "${{ matrix.group }}")

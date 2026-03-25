@@ -31,6 +31,8 @@ def list_files(drive_service):
             fields="nextPageToken, files(id, name, mimeType, size, createdTime)",
             pageSize=100,
             pageToken=page_token,
+            supportsAllDrives=True,
+            includeItemsFromAllDrives=True,
         ).execute()
 
         files.extend(resp.get("files", []))
@@ -176,7 +178,7 @@ def main():
 
         for f in chunk:
             batch.add(
-                drive_service.files().delete(fileId=f["id"]),
+                drive_service.files().delete(fileId=f["id"], supportsAllDrives=True),
                 callback=make_callback(f["name"]),
             )
 
