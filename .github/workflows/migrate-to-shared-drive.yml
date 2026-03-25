@@ -1,16 +1,24 @@
-# SA所有ファイルを共有ドライブに移行
-name: Migrate to Shared Drive
+# SA Drive容量管理（ゴミ箱空にする / ファイル移行）
+name: SA Drive Management
 
 on:
   workflow_dispatch:
     inputs:
+      action:
+        description: '実行する操作'
+        required: true
+        type: choice
+        options:
+          - empty-trash
+          - migrate
+        default: 'empty-trash'
       dry_run:
         description: 'ドライラン（一覧表示のみ）'
         required: false
         type: boolean
         default: true
       limit:
-        description: '移行件数上限（0=全件）'
+        description: '移行件数上限（0=全件、migrateのみ）'
         required: false
         type: number
         default: 0
@@ -19,8 +27,8 @@ env:
   TZ: 'Asia/Tokyo'
 
 jobs:
-  migrate:
-    name: Migrate Files to Shared Drive
+  manage:
+    name: SA Drive Management
     runs-on: ubuntu-latest
     timeout-minutes: 60
 
@@ -50,7 +58,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r zoom/requirements.txt
 
-      - name: Run Migration
+      - name: Run
         env:
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
@@ -62,11 +70,15 @@ jobs:
             FLAGS="--dry-run"
           fi
 
-          LIMIT="${{ inputs.limit }}"
-          if [ -n "$LIMIT" ] && [ "$LIMIT" -gt 0 ] 2>/dev/null; then
-            FLAGS="$FLAGS --limit $LIMIT"
+          if [ "${{ inputs.action }}" == "empty-trash" ]; then
+            FLAGS="$FLAGS --empty-trash"
+          else
+            LIMIT="${{ inputs.limit }}"
+            if [ -n "$LIMIT" ] && [ "$LIMIT" -gt 0 ] 2>/dev/null; then
+              FLAGS="$FLAGS --limit $LIMIT"
+            fi
           fi
 
-          echo "=== SA → 共有ドライブ移行 ==="
+          echo "=== SA Drive管理 (action=${{ inputs.action }}) ==="
           echo "フラグ: $FLAGS"
           python zoom/migrate_to_shared_drive.py $FLAGS

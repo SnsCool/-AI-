@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 """
-サービスアカウントのファイルを共有ドライブに移行
+サービスアカウントのDrive容量管理ツール
 
-SA所有のファイルを共有ドライブに移動する。
-ファイルIDが変わらないため、スプレッドシートのURL書き換えは不要。
+1. ゴミ箱を空にして容量回復
+2. SA所有ファイルを指定フォルダに移動（ファイルID維持＝URL書き換え不要）
 
 Usage:
-    python migrate_to_shared_drive.py --dry-run     # 対象一覧のみ表示
-    python migrate_to_shared_drive.py               # 実行
-    python migrate_to_shared_drive.py --limit 5     # 5件だけ移行
+    python migrate_to_shared_drive.py --empty-trash              # ゴミ箱を空にする
+    python migrate_to_shared_drive.py --empty-trash --dry-run    # ゴミ箱の中身を確認
+    python migrate_to_shared_drive.py --dry-run                  # 移行対象の一覧表示
+    python migrate_to_shared_drive.py                            # 全件移行
+    python migrate_to_shared_drive.py --limit 5                  # 5件だけ移行
 """
 
 import argparse
@@ -53,6 +55,85 @@ def format_size(size_bytes):
     return f"{size:.1f}TB"
 
 
+def print_storage_info(drive_service):
+    """SA情報とストレージ使用量を表示"""
+    about = drive_service.about().get(fields="user, storageQuota").execute()
+    email = about["user"]["emailAddress"]
+    quota = about.get("storageQuota", {})
+    usage = int(quota.get("usage", 0))
+    usage_in_trash = int(quota.get("usageInDriveTrash", 0))
+    limit = quota.get("limit")
+
+    print(f"サービスアカウント: {email}")
+    print(f"使用量: {format_size(usage)}" + (f" / {format_size(int(limit))}" if limit else ""))
+    if usage_in_trash > 0:
+        print(f"ゴミ箱内: {format_size(usage_in_trash)}")
+    print()
+    return usage, usage_in_trash
+
+
+def list_trashed_files(drive_service):
+    """ゴミ箱内のファイルを取得"""
+    files = []
+    page_token = None
+
+    while True:
+        resp = drive_service.files().list(
+            q="trashed = true",
+            fields="nextPageToken, files(id, name, mimeType, size, trashedTime)",
+            pageSize=100,
+            pageToken=page_token,
+        ).execute()
+
+        files.extend(resp.get("files", []))
+        page_token = resp.get("nextPageToken")
+        if not page_token:
+            break
+
+    return files
+
+
+def empty_trash(drive_service, dry_run=False):
+    """ゴミ箱を空にする"""
+    print("=" * 50)
+    print("ゴミ箱クリーンアップ")
+    print("=" * 50)
+
+    trashed = list_trashed_files(drive_service)
+
+    if not trashed:
+        print("ゴミ箱は空です")
+        return
+
+    total_size = 0
+    for f in trashed:
+        size = int(f.get("size", 0))
+        total_size += size
+        trashed_time = (f.get("trashedTime") or "")[:19].replace("T", " ")
+        print(f"  {trashed_time}  {format_size(size):>10}  {f['name']}")
+
+    print()
+    print(f"ゴミ箱内: {len(trashed)}件, {format_size(total_size)}")
+
+    if dry_run:
+        print()
+        print("[DRY-RUN] 削除はスキップしました")
+        return
+
+    # ゴミ箱を一括で空にする
+    print()
+    print("ゴミ箱を空にしています...")
+    try:
+        drive_service.files().emptyTrash().execute()
+        print(f"完了: {len(trashed)}件削除, {format_size(total_size)} 解放")
+    except Exception as e:
+        print(f"エラー: {e}")
+
+    # 使用量を再確認
+    print()
+    print_storage_info(drive_service)
+
+
 def list_sa_files(drive_service):
     """サービスアカウントが所有する全ファイルを取得"""
     files = []
@@ -74,10 +155,9 @@ def list_sa_files(drive_service):
     return files
 
 
-def move_to_shared_drive(drive_service, file_id, file_name, shared_drive_id):
-    """ファイルを共有ドライブに移動（ファイルIDは維持される）"""
+def move_file(drive_service, file_id, file_name, target_folder_id):
+    """ファイルを指定フォルダに移動（ファイルIDは維持される）"""
     try:
-        # 現在の親フォルダを取得
         file_info = drive_service.files().get(
             fileId=file_id,
             fields="parents",
@@ -85,10 +165,9 @@ def move_to_shared_drive(drive_service, file_id, file_name, shared_drive_id):
         ).execute()
         current_parents = ",".join(file_info.get("parents", []))
 
-        # 共有ドライブに移動
         drive_service.files().update(
             fileId=file_id,
-            addParents=shared_drive_id,
+            addParents=target_folder_id,
             removeParents=current_parents,
             supportsAllDrives=True,
         ).execute()
@@ -99,48 +178,45 @@ def move_to_shared_drive(drive_service, file_id, file_name, shared_drive_id):
         return False
 
 
-def main():
-    parser = argparse.ArgumentParser(description="SA所有ファイルを共有ドライブに移行")
-    parser.add_argument("--dry-run", action="store_true", help="対象一覧のみ表示（移動しない）")
-    parser.add_argument("--limit", type=int, default=0, help="移行するファイル数の上限（0=全件）")
-    args = parser.parse_args()
+def migrate_files(drive_service, dry_run=False, limit=0):
+    """SA所有ファイルを移行"""
+    target_id = os.getenv("SHARED_DRIVE_ID")
+    if not target_id:
+        print("SHARED_DRIVE_ID が設定されていないため、ファイル移行をスキップ")
+        return
 
-    credentials = get_google_credentials()
-    drive_service = build("drive", "v3", credentials=credentials)
+    print("=" * 50)
+    print("ファイル移行")
+    print("=" * 50)
 
-    # サービスアカウント情報
-    about = drive_service.about().get(fields="user, storageQuota").execute()
-    email = about["user"]["emailAddress"]
-    quota = about.get("storageQuota", {})
-    usage = int(quota.get("usage", 0))
-    print(f"サービスアカウント: {email}")
-    print(f"現在の使用量: {format_size(usage)}")
-    print()
-
-    # 共有ドライブID確認
-    shared_drive_id = os.getenv("SHARED_DRIVE_ID")
-    if not shared_drive_id:
-        print("エラー: 環境変数 SHARED_DRIVE_ID が設定されていません")
-        sys.exit(1)
-
-    # 共有ドライブへのアクセス確認
+    # 移行先へのアクセス確認
     try:
-        drive_info = drive_service.drives().get(driveId=shared_drive_id).execute()
-        drive_name = drive_info.get("name", "(不明)")
-        print(f"共有ドライブ: {drive_name} ({shared_drive_id})")
-    except Exception as e:
-        print(f"エラー: 共有ドライブにアクセスできません - {e}")
-        sys.exit(1)
+        # 共有ドライブとして試す
+        drive_info = drive_service.drives().get(driveId=target_id).execute()
+        target_name = drive_info.get("name", "(不明)")
+        print(f"移行先（共有ドライブ）: {target_name}")
+    except Exception:
+        # 通常フォルダとして試す
+        try:
+            folder_info = drive_service.files().get(
+                fileId=target_id,
+                fields="name",
+                supportsAllDrives=True,
+            ).execute()
+            target_name = folder_info.get("name", "(不明)")
+            print(f"移行先（フォルダ）: {target_name}")
+        except Exception as e:
+            print(f"エラー: 移行先にアクセスできません - {e}")
+            return
     print()
 
-    # SA所有ファイル一覧取得
+    # SA所有ファイル一覧
     print("ファイル一覧を取得中...")
     files = list_sa_files(drive_service)
     if not files:
         print("移行対象のファイルはありません")
         return
 
-    # 一覧表示
     total_size = 0
     for f in files:
         size = int(f.get("size", 0))
@@ -151,18 +227,16 @@ def main():
     print()
     print(f"合計: {len(files)}件, {format_size(total_size)}")
 
-    if args.dry_run:
+    if dry_run:
         print()
         print("[DRY-RUN] 移動はスキップしました")
         return
 
-    # 移動対象の決定
     targets = files
-    if args.limit > 0:
-        targets = files[:args.limit]
-        print(f"--limit {args.limit} が指定されたため、先頭 {len(targets)} 件のみ移行します")
+    if limit > 0:
+        targets = files[:limit]
+        print(f"--limit {limit} により先頭 {len(targets)} 件のみ移行")
 
-    # 移動実行
     print()
     moved = 0
     failed = 0
@@ -173,17 +247,34 @@ def main():
         file_size = int(f.get("size", 0))
         print(f"[{i}/{len(targets)}] Moving: {file_name}...", end=" ", flush=True)
 
-        if move_to_shared_drive(drive_service, f["id"], file_name, shared_drive_id):
+        if move_file(drive_service, f["id"], file_name, target_id):
             print("OK")
             moved += 1
             moved_size += file_size
         else:
             failed += 1
 
-    # 結果サマリ
     print()
-    print("=" * 50)
     print(f"移行完了: {moved}件, 失敗: {failed}件, 移行サイズ: {format_size(moved_size)}")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="SA Drive容量管理ツール")
+    parser.add_argument("--dry-run", action="store_true", help="一覧表示のみ（実行しない）")
+    parser.add_argument("--empty-trash", action="store_true", help="ゴミ箱を空にする")
+    parser.add_argument("--limit", type=int, default=0, help="移行するファイル数の上限（0=全件）")
+    args = parser.parse_args()
+
+    credentials = get_google_credentials()
+    drive_service = build("drive", "v3", credentials=credentials)
+
+    # ストレージ情報表示
+    print_storage_info(drive_service)
+
+    if args.empty_trash:
+        empty_trash(drive_service, dry_run=args.dry_run)
+    else:
+        migrate_files(drive_service, dry_run=args.dry_run, limit=args.limit)
 
 
 if __name__ == "__main__":
