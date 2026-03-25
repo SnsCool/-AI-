@@ -1,7 +1,7 @@
 # 資料・その他
 
 Notion URL: https://www.notion.so/316f3b0fba8580b1b8efc198ec1a40a2
-同期日時: 2026-03-02T21:21:50+09:00
+同期日時: 2026-03-26T00:34:36+09:00
 
 ---
 
@@ -11,6 +11,11 @@ Notion URL: https://www.notion.so/316f3b0fba8580b1b8efc198ec1a40a2
   https://www.canva.com/design/DAHCsTV-rT0/lj5YtuwPE-0ODKQLE3yKCw/edit?utm_content=DAHCsTV-rT0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 初回面談スクリプト
   https://docs.google.com/spreadsheets/d/1BWSqDTYcQQeKXB4uNAmhBk2yXMGh6rcePhfiQ8qCN88/edit?usp=sharing
+UGC広告
+  ▼UGC面談資料
+  https://drive.google.com/file/d/1QipFfzPIx_zzq-NTW_y-HjbmtP-P8lqg/view?usp=sharing
+  ▼スクリプト
+  https://docs.google.com/spreadsheets/d/1258MiCOdSDP_Q_wiTypYLYk_orOrlocyZUonW9pzyxw/edit?usp=sharing
 事業成長資料
   https://drive.google.com/file/d/1mBvHC3fcYLLRqk5qng_v50sR4SdhIMml/view?usp=sharing
 紹介制度説明資料
