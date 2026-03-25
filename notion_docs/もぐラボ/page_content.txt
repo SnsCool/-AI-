@@ -1,7 +1,7 @@
 # もぐラボ
 
 Notion URL: https://www.notion.so/236f3b0fba858038be24c05403ad1593
-同期日時: 2026-03-24T09:46:16+09:00
+同期日時: 2026-03-25T12:56:07+09:00
 
 ---
 
@@ -12,8 +12,9 @@ Notion URL: https://www.notion.so/236f3b0fba858038be24c05403ad1593
     プロダクト
     https://www.canva.com/design/DAG-0Z6w0Nw/NCBK7EUArTd3A4mTS9O1ZA/edit
     Untitled 
-    CS
     マーケ
+    アフィリエイト
     営業
-    戦略
-    その他
+    講師
+    CS
+その他
