@@ -20,6 +20,9 @@ GAS_WEBAPP_URL = os.getenv("GAS_WEBAPP_URL")
 # 共有ドライブID（設定されていれば共有ドライブに直接アップロード）
 SHARED_DRIVE_ID = os.getenv("SHARED_DRIVE_ID")
 
+# Domain-wide delegation: SAがこのユーザーとして動作する
+GOOGLE_DELEGATE_EMAIL = os.getenv("GOOGLE_DELEGATE_EMAIL")
+
 try:
     from google.oauth2.service_account import Credentials
     from googleapiclient.discovery import build
@@ -114,6 +117,10 @@ def get_google_credentials():
         credentials = Credentials.from_service_account_file(creds_file, scopes=scopes)
     else:
         raise ValueError("GOOGLE_CREDENTIALS_JSON or GOOGLE_SERVICE_ACCOUNT_FILE must be set")
+
+    # Domain-wide delegation: 指定ユーザーとしてAPI操作を実行
+    if GOOGLE_DELEGATE_EMAIL:
+        credentials = credentials.with_subject(GOOGLE_DELEGATE_EMAIL)
 
     return credentials
 
@@ -645,8 +652,14 @@ def upload_video_to_drive(
     )
 
     use_shared = bool(SHARED_DRIVE_ID and not folder_id)
+    use_delegate = bool(GOOGLE_DELEGATE_EMAIL)
 
-    print(f"→ 動画をGoogle Driveにアップロード中...{'（共有ドライブ）' if use_shared else ''}")
+    mode = ""
+    if use_delegate:
+        mode = f"（{GOOGLE_DELEGATE_EMAIL}として）"
+    elif use_shared:
+        mode = "（共有ドライブ）"
+    print(f"→ 動画をGoogle Driveにアップロード中...{mode}")
     file = drive_service.files().create(
         body=file_metadata,
         media_body=media,
@@ -656,8 +669,9 @@ def upload_video_to_drive(
 
     file_id = file['id']
 
-    if not use_shared:
-        # 共有ドライブ以外の場合のみ公開権限を設定
+    if not use_shared and not use_delegate:
+        # SA直接アップロード時のみ公開権限を設定
+        # delegation/共有ドライブでは組織内アクセスが自動で付与される
         print(f"→ 公開権限を設定中...")
         drive_service.permissions().create(
             fileId=file_id,

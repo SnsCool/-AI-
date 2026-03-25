@@ -76,6 +76,7 @@ jobs:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           GAS_WEBAPP_URL: ${{ secrets.GAS_WEBAPP_URL }}
           SHARED_DRIVE_ID: ${{ secrets.SHARED_DRIVE_ID }}
+          GOOGLE_DELEGATE_EMAIL: ${{ secrets.GOOGLE_DELEGATE_EMAIL }}
           PYTHONUNBUFFERED: "1"
         run: |
           LIMIT="${{ inputs.limit || '5' }}"

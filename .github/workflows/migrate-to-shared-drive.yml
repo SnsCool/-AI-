@@ -11,6 +11,7 @@ on:
         options:
           - empty-trash
           - migrate
+          - status
         default: 'empty-trash'
       dry_run:
         description: 'ドライラン（一覧表示のみ）'
@@ -62,6 +63,7 @@ jobs:
         env:
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_DELEGATE_EMAIL: ${{ secrets.GOOGLE_DELEGATE_EMAIL }}
           SHARED_DRIVE_ID: ${{ secrets.SHARED_DRIVE_ID }}
           PYTHONUNBUFFERED: "1"
         run: |
@@ -72,7 +74,8 @@ jobs:
 
           if [ "${{ inputs.action }}" == "empty-trash" ]; then
             FLAGS="$FLAGS --empty-trash"
-          else
+          elif [ "${{ inputs.action }}" == "migrate" ]; then
+            FLAGS="$FLAGS --migrate"
             LIMIT="${{ inputs.limit }}"
             if [ -n "$LIMIT" ] && [ "$LIMIT" -gt 0 ] 2>/dev/null; then
               FLAGS="$FLAGS --limit $LIMIT"
