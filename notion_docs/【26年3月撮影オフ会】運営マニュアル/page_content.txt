@@ -1,11 +1,10 @@
 # 【26年3月撮影オフ会】運営マニュアル 
 
 Notion URL: https://www.notion.so/26-3-32ef3b0fba8580e38e1cfc8fdfd6a791
-同期日時: 2026-03-25T13:00:37+09:00
+同期日時: 2026-03-26T06:17:26+09:00
 
 ---
 
-⚠️変更予定⚠️
 当日運営
 会場情報（入室・退出方法含む）
   【本予約ご利用日時】
@@ -44,10 +43,12 @@ Notion URL: https://www.notion.so/26-3-32ef3b0fba8580e38e1cfc8fdfd6a791
   内容：3月28日東麻布レミューキッチンスタジオ使用料として
   番組名：SnsClub撮影オフ会
 投影スライド
+⚠️変更中⚠️
   https://www.canva.com/design/DAHE6VPQHqY/sCeuRqncYnW66rZzbT5Jgw/edit?utm_content=DAHE6VPQHqY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 生徒座席表
 講師座席表
-  なし？
+  講師は座席指定なし
+⚠️以下、変更中⚠️
 ⏰11時00分（開場3時間40分前）
 スレッド送信　担当者：やえこ
   @All
