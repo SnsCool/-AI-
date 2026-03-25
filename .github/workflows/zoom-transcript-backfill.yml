@@ -89,6 +89,16 @@ jobs:
           echo "=== 文字起こしバックフィル（VTT + Groq Whisper）limit=${LIMIT} ==="
           python zoom/batch_zoom.py --create-missing-transcripts --limit "$LIMIT"
 
+      - name: Copy SA files to sales@ and cleanup
+        if: success()
+        env:
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+          GAS_WEBAPP_URL: ${{ secrets.GAS_WEBAPP_URL }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          echo "=== SA→sales@ コピー＋SA削除 ==="
+          python zoom/copy_and_cleanup_sa.py || true
+
       - name: Cleanup
         if: always()
         run: |

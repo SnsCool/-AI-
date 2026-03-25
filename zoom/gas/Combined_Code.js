@@ -14,6 +14,10 @@
 // Zoom用: Google Drive保存先フォルダ
 const ROOT_FOLDER_ID = '1lzfcvVtyN7FCFJWX8GWR3VLyknxVWLnk';
 
+// コピー先フォルダ（SA→sales@移行用）
+const COPY_VIDEO_FOLDER_ID = '1gKBpZ1vKRu5LdpTAI_r0qTM_x2Ft1irl';
+const COPY_DOC_FOLDER_ID = '1nV5Ftw9IY4XyFAW1f1zjhrZvDS8SHYNE';
+
 // NotebookLM用: GCPプロジェクト設定
 const PROJECT_NUMBER = '421666620867';
 const LOCATION = 'global';
@@ -201,11 +205,8 @@ function copyVideoFromServiceAccount(videoFileId, videoTitle, assignee, customer
   try {
     return withRetry(() => {
       const sourceFile = DriveApp.getFileById(videoFileId);
-      const rootFolder = DriveApp.getFolderById(ROOT_FOLDER_ID);
-      let assigneeFolder = getOrCreateFolderInParent(rootFolder, assignee);
-      let customerFolder = getOrCreateFolderInParent(assigneeFolder, customerName);
-      let videoFolder = getOrCreateFolderInParent(customerFolder, '動画');
-      const copiedFile = sourceFile.makeCopy(videoTitle, videoFolder);
+      const destFolder = DriveApp.getFolderById(COPY_VIDEO_FOLDER_ID);
+      const copiedFile = sourceFile.makeCopy(videoTitle, destFolder);
       copiedFile.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
       logSuccess('copyVideoFromServiceAccount', `動画コピー完了: ${customerName}`);
       return { success: true, url: copiedFile.getUrl(), fileId: copiedFile.getId() };
@@ -250,11 +251,8 @@ function copyDocFromServiceAccount(docFileId, docTitle, assignee, customerName) 
   try {
     return withRetry(() => {
       const sourceFile = DriveApp.getFileById(docFileId);
-      const rootFolder = DriveApp.getFolderById(ROOT_FOLDER_ID);
-      let assigneeFolder = getOrCreateFolderInParent(rootFolder, assignee);
-      let customerFolder = getOrCreateFolderInParent(assigneeFolder, customerName);
-      let transcriptFolder = getOrCreateFolderInParent(customerFolder, '文字起こし');
-      const copiedFile = sourceFile.makeCopy(docTitle, transcriptFolder);
+      const destFolder = DriveApp.getFolderById(COPY_DOC_FOLDER_ID);
+      const copiedFile = sourceFile.makeCopy(docTitle, destFolder);
       copiedFile.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
       logSuccess('copyDocFromServiceAccount', `ドキュメントコピー完了: ${customerName}`);
       return { success: true, url: copiedFile.getUrl(), fileId: copiedFile.getId() };
@@ -269,87 +267,6 @@ function getOrCreateFolderInParent(parentFolder, folderName) {
   const folders = parentFolder.getFoldersByName(folderName);
   if (folders.hasNext()) return folders.next();
   return parentFolder.createFolder(folderName);
-}
-
-// ══════════════════════════════════════════════
-// SA所有ファイル一括コピー＋URL書き換え
-// GASエディタから手動実行: migrateSaFilesToSales()
-// ══════════════════════════════════════════════
-
-/**
- * スプレッドシートのG列・H列にあるSA所有ファイルをsales@のDriveにコピーし、URLを書き換える
- * GASスクリプトエディタから手動で実行してください
- */
-function migrateSaFilesToSales() {
-  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
-  const sheet = ss.getSheetByName(ZOOM_SHEET_NAME);
-  const data = sheet.getDataRange().getValues();
-  const rootFolder = DriveApp.getFolderById(ROOT_FOLDER_ID);
-
-  // G列(index 6) = 文字起こしDoc, H列(index 7) = 動画
-  const columns = [
-    { colIndex: 6, colLetter: 'G', type: '文字起こし', subFolder: '文字起こし' },
-    { colIndex: 7, colLetter: 'H', type: '動画', subFolder: '動画' },
-  ];
-
-  let copied = 0;
-  let skipped = 0;
-  let failed = 0;
-
-  for (let row = 1; row < data.length; row++) {  // ヘッダースキップ
-    const customerName = data[row][COL_CUSTOMER] || '';
-    const assignee = data[row][COL_ASSIGNEE] || '';
-
-    for (const col of columns) {
-      const url = data[row][col.colIndex];
-      if (!url || typeof url !== 'string') continue;
-
-      // Google DriveのURLからファイルIDを抽出
-      const match = url.match(/\/d\/([a-zA-Z0-9_-]+)/);
-      if (!match) continue;
-      const fileId = match[1];
-
-      try {
-        const file = DriveApp.getFileById(fileId);
-        const owner = file.getOwner();
-
-        // sales@所有のファイルはスキップ（既にコピー済み）
-        if (owner && owner.getEmail() === Session.getActiveUser().getEmail()) {
-          skipped++;
-          continue;
-        }
-
-        // フォルダ構成: ROOT/担当者/顧客名/動画 or 文字起こし
-        let targetFolder = rootFolder;
-        if (assignee) targetFolder = getOrCreateFolderInParent(targetFolder, assignee);
-        if (customerName) targetFolder = getOrCreateFolderInParent(targetFolder, customerName);
-        targetFolder = getOrCreateFolderInParent(targetFolder, col.subFolder);
-
-        // コピー実行
-        const copiedFile = file.makeCopy(file.getName(), targetFolder);
-        copiedFile.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
-
-        // スプレッドシートのURLを書き換え
-        const newUrl = copiedFile.getUrl();
-        const cell = sheet.getRange(row + 1, col.colIndex + 1);  // 1-indexed
-        cell.setValue(newUrl);
-
-        Logger.log(`[${row + 1}] ${col.type} コピー完了: ${customerName} / ${assignee} → ${newUrl}`);
-        copied++;
-
-        // レート制限回避
-        Utilities.sleep(500);
-
-      } catch (e) {
-        Logger.log(`[${row + 1}] ${col.type} エラー: ${customerName} - ${e.message}`);
-        failed++;
-      }
-    }
-  }
-
-  const summary = `移行完了: コピー ${copied}件, スキップ ${skipped}件, 失敗 ${failed}件`;
-  Logger.log(summary);
-  SpreadsheetApp.getUi().alert(summary);
 }
 
 // ══════════════════════════════════════════════
@@ -570,14 +487,9 @@ function testListNotebooks() {
   Logger.log(JSON.stringify(result));
 }
 
-/**
- * 担当者名の不一致チェック
- * 顧客一覧(B列) vs Zoom相談一覧(B列) vs ZoomKeys(A列) を比較
- */
 function compareAssigneeNames() {
   const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
 
-  // ZoomKeys の担当者名一覧
   const keysSheet = ss.getSheetByName(ZOOMKEYS_SHEET_NAME);
   const keysData = keysSheet.getDataRange().getValues();
   const keysNames = new Set();
@@ -586,18 +498,16 @@ function compareAssigneeNames() {
     if (name) keysNames.add(name);
   }
 
-  // 顧客一覧 の担当者名一覧（ユニーク + 件数）
   const custSheet = ss.getSheetByName('顧客一覧');
   const custData = custSheet.getDataRange().getValues();
   const custNamesCount = {};
   for (let i = 1; i < custData.length; i++) {
-    const name = (custData[i][1] || '').toString().trim(); // B列=担当者
+    const name = (custData[i][1] || '').toString().trim();
     if (name && name !== '担当者') {
       custNamesCount[name] = (custNamesCount[name] || 0) + 1;
     }
   }
 
-  // Zoom相談一覧 の担当者名一覧（ユニーク + 件数）
   const zoomSheet = ss.getSheetByName(ZOOM_SHEET_NAME);
   const zoomData = zoomSheet.getDataRange().getValues();
   const zoomNamesCount = {};
@@ -608,7 +518,6 @@ function compareAssigneeNames() {
     }
   }
 
-  // 全担当者名を集める（3シート統合）
   const allNames = new Set([...Object.keys(custNamesCount), ...Object.keys(zoomNamesCount)]);
 
   const results = [];
@@ -617,7 +526,6 @@ function compareAssigneeNames() {
     const inCust = custNamesCount[name] || 0;
     const inZoom = zoomNamesCount[name] || 0;
 
-    // エイリアス解決チェック
     let alias = null;
     let aliasInKeys = false;
     if (!inKeys) {
@@ -648,7 +556,6 @@ function compareAssigneeNames() {
     });
   }
 
-  // ステータス別に分類
   const ok = results.filter(r => r.status === 'OK');
   const aliased = results.filter(r => r.status === 'ALIAS');
   const noMatch = results.filter(r => r.status === 'NO_MATCH');
@@ -666,4 +573,17 @@ function compareAssigneeNames() {
     },
     noMatch, aliased, ok
   };
+}
+
+function deleteAllTriggers() {
+  const triggers = ScriptApp.getProjectTriggers();
+  triggers.forEach(t => ScriptApp.deleteTrigger(t));
+  Logger.log('全トリガーを削除しました: ' + triggers.length + '件');
+}
+
+/**
+ * DriveApp権限修復用 — これを実行して権限を再承認してください
+ */
+function fixDriveAuth() {
+  Logger.log(DriveApp.getRootFolder().getName());
 }
