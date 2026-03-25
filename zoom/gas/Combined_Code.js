@@ -272,6 +272,87 @@ function getOrCreateFolderInParent(parentFolder, folderName) {
 }
 
 // ══════════════════════════════════════════════
+// SA所有ファイル一括コピー＋URL書き換え
+// GASエディタから手動実行: migrateSaFilesToSales()
+// ══════════════════════════════════════════════
+
+/**
+ * スプレッドシートのG列・H列にあるSA所有ファイルをsales@のDriveにコピーし、URLを書き換える
+ * GASスクリプトエディタから手動で実行してください
+ */
+function migrateSaFilesToSales() {
+  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+  const sheet = ss.getSheetByName(ZOOM_SHEET_NAME);
+  const data = sheet.getDataRange().getValues();
+  const rootFolder = DriveApp.getFolderById(ROOT_FOLDER_ID);
+
+  // G列(index 6) = 文字起こしDoc, H列(index 7) = 動画
+  const columns = [
+    { colIndex: 6, colLetter: 'G', type: '文字起こし', subFolder: '文字起こし' },
+    { colIndex: 7, colLetter: 'H', type: '動画', subFolder: '動画' },
+  ];
+
+  let copied = 0;
+  let skipped = 0;
+  let failed = 0;
+
+  for (let row = 1; row < data.length; row++) {  // ヘッダースキップ
+    const customerName = data[row][COL_CUSTOMER] || '';
+    const assignee = data[row][COL_ASSIGNEE] || '';
+
+    for (const col of columns) {
+      const url = data[row][col.colIndex];
+      if (!url || typeof url !== 'string') continue;
+
+      // Google DriveのURLからファイルIDを抽出
+      const match = url.match(/\/d\/([a-zA-Z0-9_-]+)/);
+      if (!match) continue;
+      const fileId = match[1];
+
+      try {
+        const file = DriveApp.getFileById(fileId);
+        const owner = file.getOwner();
+
+        // sales@所有のファイルはスキップ（既にコピー済み）
+        if (owner && owner.getEmail() === Session.getActiveUser().getEmail()) {
+          skipped++;
+          continue;
+        }
+
+        // フォルダ構成: ROOT/担当者/顧客名/動画 or 文字起こし
+        let targetFolder = rootFolder;
+        if (assignee) targetFolder = getOrCreateFolderInParent(targetFolder, assignee);
+        if (customerName) targetFolder = getOrCreateFolderInParent(targetFolder, customerName);
+        targetFolder = getOrCreateFolderInParent(targetFolder, col.subFolder);
+
+        // コピー実行
+        const copiedFile = file.makeCopy(file.getName(), targetFolder);
+        copiedFile.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
+
+        // スプレッドシートのURLを書き換え
+        const newUrl = copiedFile.getUrl();
+        const cell = sheet.getRange(row + 1, col.colIndex + 1);  // 1-indexed
+        cell.setValue(newUrl);
+
+        Logger.log(`[${row + 1}] ${col.type} コピー完了: ${customerName} / ${assignee} → ${newUrl}`);
+        copied++;
+
+        // レート制限回避
+        Utilities.sleep(500);
+
+      } catch (e) {
+        Logger.log(`[${row + 1}] ${col.type} エラー: ${customerName} - ${e.message}`);
+        failed++;
+      }
+    }
+  }
+
+  const summary = `移行完了: コピー ${copied}件, スキップ ${skipped}件, 失敗 ${failed}件`;
+  Logger.log(summary);
+  SpreadsheetApp.getUi().alert(summary);
+}
+
+// ══════════════════════════════════════════════
 // NotebookLM Enterprise 機能
 // ══════════════════════════════════════════════
 
