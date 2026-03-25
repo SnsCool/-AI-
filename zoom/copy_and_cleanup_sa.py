@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-SA所有ファイルを指定フォルダに移動し、SA容量を解放する。
+SA所有ファイルを指定フォルダに移動し、所有権をkiyotong0612@gmail.comに移転してSA容量を解放する。
 ファイルIDが変わらないのでスプレッドシートのURL書き換えは不要。
 
 Usage:
-    python copy_and_cleanup_sa.py --dry-run        # SA所有ファイルの一覧表示のみ
+    python copy_and_cleanup_sa.py --dry-run        # 対象一覧表示のみ
     python copy_and_cleanup_sa.py                   # 全件処理
     python copy_and_cleanup_sa.py --limit 5         # 5件だけ処理
 """
@@ -30,6 +30,9 @@ SHEET_NAME = "Zoom相談一覧"
 # 移動先フォルダ
 VIDEO_FOLDER_ID = "1gKBpZ1vKRu5LdpTAI_r0qTM_x2Ft1irl"
 DOC_FOLDER_ID = "1nV5Ftw9IY4XyFAW1f1zjhrZvDS8SHYNE"
+
+# 所有権移転先
+TRANSFER_OWNER_EMAIL = "kiyotong0612@gmail.com"
 
 
 def get_credentials():
@@ -65,22 +68,40 @@ def get_storage_usage(drive_service):
     return email, usage
 
 
-def move_file_to_folder(drive_service, file_id, dest_folder_id):
-    """ファイルを指定フォルダに移動（ファイルIDは維持）"""
+def move_and_transfer(drive_service, file_id, dest_folder_id):
+    """
+    ファイルを指定フォルダに移動し、所有権を移転する。
+    1. フォルダ移動（addParents/removeParents）
+    2. 所有権移転（transferOwnership）
+    """
+    # 1. フォルダ移動（既に移動済みならスキップ）
     file_info = drive_service.files().get(
         fileId=file_id, fields="parents", supportsAllDrives=True
     ).execute()
-    current_parents = ",".join(file_info.get("parents", []))
-    drive_service.files().update(
+    current_parents = file_info.get("parents", [])
+    if dest_folder_id not in current_parents:
+        drive_service.files().update(
+            fileId=file_id,
+            addParents=dest_folder_id,
+            removeParents=",".join(current_parents),
+            supportsAllDrives=True,
+        ).execute()
+
+    # 2. 所有権移転
+    drive_service.permissions().create(
         fileId=file_id,
-        addParents=dest_folder_id,
-        removeParents=current_parents,
+        body={
+            "type": "user",
+            "role": "owner",
+            "emailAddress": TRANSFER_OWNER_EMAIL,
+        },
+        transferOwnership=True,
         supportsAllDrives=True,
     ).execute()
 
 
 def main():
-    parser = argparse.ArgumentParser(description="SA所有ファイルを指定フォルダに移動")
+    parser = argparse.ArgumentParser(description="SA所有ファイルを移動＋所有権移転")
     parser.add_argument("--dry-run", action="store_true", help="一覧表示のみ")
     parser.add_argument("--limit", type=int, default=0, help="処理数上限（0=全件）")
     args = parser.parse_args()
@@ -90,7 +111,8 @@ def main():
     sheets_service = build("sheets", "v4", credentials=credentials)
 
     print("=" * 60)
-    print("SA所有ファイル → フォルダ移動")
+    print("SA所有ファイル → フォルダ移動＋所有権移転")
+    print(f"移転先: {TRANSFER_OWNER_EMAIL}")
     print("=" * 60)
     print()
     print("[処理前]")
@@ -100,9 +122,9 @@ def main():
     # スプレッドシートのG列・H列を読み取り
     print("スプレッドシートからURL一覧を取得中...")
     entries = []
-    for col_letter, col_index, dest_folder, file_type in [
-        ("G", 6, DOC_FOLDER_ID, "文字起こし"),
-        ("H", 7, VIDEO_FOLDER_ID, "動画"),
+    for col_letter, dest_folder, file_type in [
+        ("G", DOC_FOLDER_ID, "文字起こし"),
+        ("H", VIDEO_FOLDER_ID, "動画"),
     ]:
         range_notation = f"'{SHEET_NAME}'!{col_letter}:{col_letter}"
         try:
@@ -157,19 +179,13 @@ def main():
             skipped += 1
             continue
 
-        # 既に移動先フォルダにあるか確認
-        parents = file_info.get("parents", [])
-        if entry["dest_folder"] in parents:
-            skipped += 1
-            continue
-
         targets.append({**entry, "file_info": file_info})
 
-    print(f"移動対象（SA所有）: {len(targets)}件, スキップ: {skipped}件, エラー: {errors}件")
+    print(f"移動＋移転対象（SA所有）: {len(targets)}件, スキップ: {skipped}件, エラー: {errors}件")
     print()
 
     if not targets:
-        print("移動対象のファイルはありません")
+        print("処理対象のファイルはありません")
         return
 
     # 一覧表示
@@ -183,14 +199,14 @@ def main():
     print(f"\n合計: {len(targets)}件, {format_size(total_size)}")
 
     if args.dry_run:
-        print(f"\n[DRY-RUN] 移動はスキップしました")
+        print(f"\n[DRY-RUN] 処理はスキップしました")
         return
 
     if args.limit > 0:
         targets = targets[:args.limit]
         print(f"\n--limit {args.limit} により先頭 {len(targets)} 件のみ処理")
 
-    # 移動実行
+    # 実行
     print()
     moved = 0
     failed = 0
@@ -200,7 +216,7 @@ def main():
         print(f"[{i}/{len(targets)}] {t['file_type']}: {fi['name']}...", end=" ", flush=True)
 
         try:
-            move_file_to_folder(drive_service, t["file_id"], t["dest_folder"])
+            move_and_transfer(drive_service, t["file_id"], t["dest_folder"])
             print("OK")
             moved += 1
         except Exception as e:
@@ -212,7 +228,7 @@ def main():
     # 結果
     print()
     print("=" * 60)
-    print(f"完了: {moved}件移動, {failed}件失敗")
+    print(f"完了: {moved}件成功, {failed}件失敗")
     print("=" * 60)
     print()
     print("[処理後]")
