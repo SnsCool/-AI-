@@ -20,6 +20,69 @@ ANALYSIS_MODEL = "gemini-2.0-flash"
 EMBEDDING_MODEL = "text-embedding-004"
 
 
+def transcribe_audio(file_path: str) -> Optional[str]:
+    """
+    Gemini 2.0 Flashで音声/動画ファイルを文字起こし
+    Groq Whisperのフォールバック用
+
+    Args:
+        file_path: 音声/動画ファイルのパス
+
+    Returns:
+        文字起こしテキスト（失敗時はNone）
+    """
+    for attempt in range(3):
+        try:
+            print(f"   Gemini文字起こし中... ({attempt+1}/3)")
+            uploaded_file = genai.upload_file(file_path)
+
+            # アップロード完了を待つ
+            import time as _time
+            while uploaded_file.state.name == "PROCESSING":
+                _time.sleep(5)
+                uploaded_file = genai.get_file(uploaded_file.name)
+
+            if uploaded_file.state.name == "FAILED":
+                print(f"   Geminiファイルアップロード失敗")
+                return None
+
+            model = genai.GenerativeModel(ANALYSIS_MODEL)
+            response = model.generate_content(
+                [
+                    uploaded_file,
+                    "この音声を日本語で文字起こししてください。話者の発言をそのまま書き起こしてください。タイムスタンプは不要です。"
+                ],
+                generation_config={"max_output_tokens": 8192}
+            )
+
+            # アップロードファイルを削除
+            try:
+                genai.delete_file(uploaded_file.name)
+            except:
+                pass
+
+            text = response.text.strip() if response.text else ""
+            if text and len(text) >= 100:
+                print(f"   Gemini文字起こし完了: {len(text)}文字")
+                return text
+            else:
+                print(f"   Gemini文字起こし結果不十分 (len={len(text)})")
+                return None
+
+        except Exception as e:
+            if "429" in str(e) and attempt < 2:
+                print(f"   Geminiレート制限、60秒待機... ({attempt+1}/3)")
+                time.sleep(60)
+                continue
+            print(f"   Gemini文字起こしエラー: {e}")
+            if attempt < 2:
+                time.sleep(10)
+                continue
+            return None
+
+    return None
+
+
 def analyze_video(video_path: str) -> dict:
     """
     商談動画を分析（表情、態度、話し方）

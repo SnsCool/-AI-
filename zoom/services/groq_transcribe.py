@@ -126,6 +126,8 @@ def _call_groq_whisper(audio_path: str, api_key: str = None, language: str = "ja
 
             if resp.status_code == 429:
                 retry_after = int(resp.headers.get("retry-after", 30))
+                if retry_after > 60:
+                    raise Exception(f"Groq rate limit too long: {retry_after}s, Geminiにフォールバック")
                 print(f"   Groq API レート制限、{retry_after}秒待機... ({attempt+1}/3)")
                 time.sleep(retry_after)
                 continue

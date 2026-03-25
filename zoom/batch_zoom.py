@@ -1265,40 +1265,53 @@ def main():
                     if transcript and len(transcript) >= 100:
                         print(f"   VTT文字起こし取得: {len(transcript)}文字")
 
-                # 2. VTTがない or 失敗 → Groq Whisper フォールバック
+                # 2. VTTがない or 失敗 → Groq Whisper → Gemini フォールバック
                 if not transcript or len(transcript) < 100:
                     mp4_url = matching_recording.get("mp4_url")
                     if mp4_url:
-                        print("   → Groq Whisperで文字起こし中...")
+                        # MP4をダウンロード（Groq/Gemini共通で使う）
+                        with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as tmp_file:
+                            tmp_path = tmp_file.name
                         try:
-                            from services.groq_transcribe import transcribe_video as groq_transcribe
-                            with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as tmp_file:
-                                tmp_path = tmp_file.name
-                            try:
-                                dl_ok = download_video_from_zoom(
-                                    mp4_url=mp4_url, access_token=access_token, output_path=tmp_path
-                                )
-                                if dl_ok:
-                                    file_size_mb = os.path.getsize(tmp_path) / (1024 * 1024)
-                                    if file_size_mb < 0.01:
-                                        print(f"   → スキップ: 動画ファイルが小さすぎます ({file_size_mb:.2f}MB)")
-                                    elif file_size_mb > 2000:
-                                        print(f"   → スキップ: 動画ファイルが大きすぎます ({file_size_mb:.0f}MB)")
-                                    else:
-                                        print(f"   動画サイズ: {file_size_mb:.1f}MB")
+                            dl_ok = download_video_from_zoom(
+                                mp4_url=mp4_url, access_token=access_token, output_path=tmp_path
+                            )
+                            if dl_ok:
+                                file_size_mb = os.path.getsize(tmp_path) / (1024 * 1024)
+                                if file_size_mb < 0.01:
+                                    print(f"   → スキップ: 動画ファイルが小さすぎます ({file_size_mb:.2f}MB)")
+                                elif file_size_mb > 2000:
+                                    print(f"   → スキップ: 動画ファイルが大きすぎます ({file_size_mb:.0f}MB)")
+                                else:
+                                    print(f"   動画サイズ: {file_size_mb:.1f}MB")
+
+                                    # 2a. Groq Whisper試行
+                                    try:
+                                        print("   → Groq Whisperで文字起こし中...")
+                                        from services.groq_transcribe import transcribe_video as groq_transcribe
                                         transcript = groq_transcribe(tmp_path) or ""
                                         if transcript and len(transcript) >= 100:
                                             print(f"   Groq文字起こし完了: {len(transcript)}文字")
-                                        else:
-                                            print(f"   Groq文字起こし結果不十分 (len={len(transcript) if transcript else 0})")
+                                    except Exception as e:
+                                        print(f"   Groq文字起こし失敗: {e}")
+                                        transcript = ""
+
+                                    # 2b. Groq失敗 → Gemini フォールバック
+                                    if not transcript or len(transcript) < 100:
+                                        try:
+                                            print("   → Geminiで文字起こし中...")
+                                            from services.gemini_client import transcribe_audio as gemini_transcribe
+                                            transcript = gemini_transcribe(tmp_path) or ""
+                                            if transcript and len(transcript) >= 100:
+                                                print(f"   Gemini文字起こし完了: {len(transcript)}文字")
+                                        except Exception as e:
+                                            print(f"   Gemini文字起こし失敗: {e}")
                                             transcript = ""
-                                else:
-                                    print("   → MP4ダウンロード失敗")
-                            finally:
-                                if os.path.exists(tmp_path):
-                                    os.remove(tmp_path)
-                        except Exception as e:
-                            print(f"   Groq文字起こしエラー: {e}")
+                            else:
+                                print("   → MP4ダウンロード失敗")
+                        finally:
+                            if os.path.exists(tmp_path):
+                                os.remove(tmp_path)
                     else:
                         print("   → VTT・MP4どちらもありません")
 
