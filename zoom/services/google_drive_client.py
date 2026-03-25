@@ -17,11 +17,9 @@ load_dotenv()
 # GAS Web App URL（Google Docs作成用、環境変数から取得）
 GAS_WEBAPP_URL = os.getenv("GAS_WEBAPP_URL")
 
-# 共有ドライブID（設定されていれば共有ドライブに直接アップロード）
-SHARED_DRIVE_ID = os.getenv("SHARED_DRIVE_ID")
-
-# Domain-wide delegation: SAがこのユーザーとして動作する
-GOOGLE_DELEGATE_EMAIL = os.getenv("GOOGLE_DELEGATE_EMAIL")
+# 動画・文字起こしの保存先フォルダ（kiyotong0612のDrive）
+VIDEO_FOLDER_ID = os.getenv("VIDEO_FOLDER_ID", "1gKBpZ1vKRu5LdpTAI_r0qTM_x2Ft1irl")
+DOC_FOLDER_ID = os.getenv("DOC_FOLDER_ID", "1nV5Ftw9IY4XyFAW1f1zjhrZvDS8SHYNE")
 
 try:
     from google.oauth2.service_account import Credentials
@@ -287,9 +285,8 @@ def create_transcript_doc(
             ]}
         ).execute()
 
-        # 3. 共有ドライブに移動 or 公開権限を設定
-        if SHARED_DRIVE_ID:
-            # Docs APIで作成後、Drive APIで共有ドライブに移動
+        # 3. 文字起こしフォルダに移動 + 公開権限設定
+        if DOC_FOLDER_ID:
             file_info = drive_service.files().get(
                 fileId=doc_id,
                 fields='parents',
@@ -298,12 +295,12 @@ def create_transcript_doc(
             current_parents = ','.join(file_info.get('parents', []))
             drive_service.files().update(
                 fileId=doc_id,
-                addParents=SHARED_DRIVE_ID,
+                addParents=DOC_FOLDER_ID,
                 removeParents=current_parents,
                 supportsAllDrives=True
             ).execute()
-        else:
-            drive_service.permissions().create(
+
+        drive_service.permissions().create(
                 fileId=doc_id,
                 body={'type': 'anyone', 'role': 'reader'},
                 supportsAllDrives=True
@@ -623,15 +620,14 @@ def upload_video_to_drive(
     folder_id: Optional[str] = None
 ) -> str:
     """
-    動画をGoogle Driveにアップロード
-    SHARED_DRIVE_IDが設定されていれば共有ドライブに直接アップロード
+    動画をGoogle Driveにアップロード（VIDEO_FOLDER_IDに直接保存）
 
     Args:
         video_path: 動画ファイルのパス
         assignee: 担当者名
         customer_name: 顧客名
         meeting_date: 面談日
-        folder_id: 保存先フォルダID（オプション）
+        folder_id: 保存先フォルダID（オプション、指定なしでVIDEO_FOLDER_ID）
 
     Returns:
         Google DriveのURL
@@ -640,7 +636,7 @@ def upload_video_to_drive(
     drive_service = build('drive', 'v3', credentials=credentials)
 
     file_name = f"【面談動画】{customer_name}_{assignee}_{meeting_date}.mp4"
-    target_folder = folder_id or SHARED_DRIVE_ID
+    target_folder = folder_id or VIDEO_FOLDER_ID
     file_metadata = {'name': file_name}
     if target_folder:
         file_metadata['parents'] = [target_folder]
@@ -651,15 +647,7 @@ def upload_video_to_drive(
         resumable=True
     )
 
-    use_shared = bool(SHARED_DRIVE_ID and not folder_id)
-    use_delegate = bool(GOOGLE_DELEGATE_EMAIL)
-
-    mode = ""
-    if use_delegate:
-        mode = f"（{GOOGLE_DELEGATE_EMAIL}として）"
-    elif use_shared:
-        mode = "（共有ドライブ）"
-    print(f"→ 動画をGoogle Driveにアップロード中...{mode}")
+    print(f"→ 動画をGoogle Driveにアップロード中...")
     file = drive_service.files().create(
         body=file_metadata,
         media_body=media,
@@ -669,9 +657,7 @@ def upload_video_to_drive(
 
     file_id = file['id']
 
-    if not use_shared and not use_delegate:
-        # SA直接アップロード時のみ公開権限を設定
-        # delegation/共有ドライブでは組織内アクセスが自動で付与される
+    if True:
         print(f"→ 公開権限を設定中...")
         drive_service.permissions().create(
             fileId=file_id,
