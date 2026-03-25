@@ -84,4 +84,8 @@ jobs:
 
           echo "=== SA Drive管理 (action=${{ inputs.action }}) ==="
           echo "フラグ: $FLAGS"
+
+          # フォルダアクセステスト
+          python zoom/test_folder_access.py
+
           python zoom/migrate_to_shared_drive.py $FLAGS
