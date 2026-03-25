@@ -87,17 +87,20 @@ def move_and_transfer(drive_service, file_id, dest_folder_id):
             supportsAllDrives=True,
         ).execute()
 
-    # 2. 所有権移転
-    drive_service.permissions().create(
-        fileId=file_id,
-        body={
-            "type": "user",
-            "role": "owner",
-            "emailAddress": TRANSFER_OWNER_EMAIL,
-        },
-        transferOwnership=True,
-        supportsAllDrives=True,
-    ).execute()
+    # 2. kiyotong0612に共有（GASからコピーできるように）
+    try:
+        drive_service.permissions().create(
+            fileId=file_id,
+            body={
+                "type": "user",
+                "role": "reader",
+                "emailAddress": TRANSFER_OWNER_EMAIL,
+            },
+            sendNotificationEmail=False,
+            supportsAllDrives=True,
+        ).execute()
+    except Exception:
+        pass  # 既に共有済みの場合はスキップ
 
 
 def main():
