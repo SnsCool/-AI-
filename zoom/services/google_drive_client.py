@@ -116,10 +116,6 @@ def get_google_credentials():
     else:
         raise ValueError("GOOGLE_CREDENTIALS_JSON or GOOGLE_SERVICE_ACCOUNT_FILE must be set")
 
-    # Domain-wide delegation: 指定ユーザーとしてAPI操作を実行
-    if GOOGLE_DELEGATE_EMAIL:
-        credentials = credentials.with_subject(GOOGLE_DELEGATE_EMAIL)
-
     return credentials
 
 
