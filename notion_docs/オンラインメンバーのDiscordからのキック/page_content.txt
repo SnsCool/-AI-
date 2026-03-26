@@ -1,7 +1,7 @@
 # オンラインメンバーのDiscordからのキック
 
 Notion URL: https://www.notion.so/Discord-328f3b0fba8581349206ef53afdaef41
-同期日時: 2026-03-21T15:21:47+09:00
+同期日時: 2026-03-27T03:29:33+09:00
 
 ---
 
