@@ -1,7 +1,7 @@
 # SnsClubマネタイズ講座スタッフPortal
 
 Notion URL: https://www.notion.so/SnsClub-Portal-24ff3b0fba8580dfa9d7c6a5e9b222da
-同期日時: 2026-03-25T13:04:34+09:00
+同期日時: 2026-03-26T09:47:56+09:00
 
 ---
 
@@ -20,6 +20,16 @@ https://groupconsul-calender-monetize.vercel.app/
   運営が候補日を確定すると、カレンダーの表示が緑色に変わり、Googleカレンダーに予定が登録されます。
   資料１
 https://canva.link/ey4xhr6056wfnfj
+  【毎月5日締切】マネタイズグルコン・講師対談スケジュール入力
+    https://groupconsul-calender-monetize.vercel.app/
+    アプリからログインし、実施可能候補日を全て入力してください。
+    使い方は下記ページをご参照ください🙇🏻‍♀️
+    グルコン日程調整アプリの使い方 
+  【毎月第4木曜日10:00~12:00】マネタイズ講師定例月次MTG
+    zoomで開催のMTGです。
+  マネタイズ講座オフ会
+    不定期で開催されるマネタイズ講座生向けオフ会です。(おおよそ3ヶ月に1回実施予定)
+    開催日が確定次第、参加可否のアンケートを取ります。
 🔴マネタイズ生徒用Portal
 
 マネタイズ講座の概要と目的
