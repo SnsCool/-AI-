@@ -1,7 +1,7 @@
 # 教材格納庫｜ママのための私軸コーチング
 
 Notion URL: https://www.notion.so/2faf3b0fba85805dbdc8e3033813b713
-同期日時: 2026-03-26T00:36:31+09:00
+同期日時: 2026-03-26T21:36:11+09:00
 
 ---
 
@@ -48,6 +48,7 @@ Notion URL: https://www.notion.so/2faf3b0fba85805dbdc8e3033813b713
   📚 01.Web教科書
   こちらをタップ▶︎　第3章 目標設定とセッションの進行
   02.印刷用PDF
+  補足資料：https://docs.google.com/spreadsheets/d/1ule7eStha3fy68unfl_4530kkLO_0G2mg-AtAHlA0Ns/copy（コーチングセッションのトークスクリプト）
   03.講義スライド
 第四章：コーチングスキル実践編
   コーチングセッション ストラクチャーについて

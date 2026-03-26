@@ -1,13 +1,13 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-03-26T13:03:13+09:00
+同期日時: 2026-03-26T21:40:22+09:00
 
 ---
 
   対応中
 カリキュラム作成
-講義動画自動作成【追加対応残】
+講義動画自動作成【ひたすら作ろう】
   プロトタイプ1
     全体で人（チェックや作業）がいるか
     未実装点
@@ -30,20 +30,6 @@ Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
     ⑨完成とチェック作業、格納
     追加修正
 未分類
-講師図鑑を作成したい
-  3月末までに
-  万垢生徒と講師を見れるWebサイトが欲しい
-    諸元データ
-  GASだけで実装してみた（上にGASで作ったよ。が出ちゃう。）
-    https://script.google.com/macros/s/AKfycbxvOL8rsz-_272gLjiFI4zT1wbx9f9jZ3H7V6Luofky1iiFBYIVzvCf7dqZL2dfoRMW/exec
-  Canvaの自動データ取得が難しい。APIを繋いでいるアカウントで対象のページを表示しないと権限が得られない。
-  追加修正
-    済：生徒の表示に「担当講師」欄を追加
-    済：生徒の表示画面にアカウント検索機能を追加
-    済：ジャンル相談マップを万垢輩出数が多いTop５を表示
-    済：ジャンルを、こちらで勝手に統合
-    講師側の画像をタップしたら大きく
-    ジャンル相談側はインスタのアイコンを取得
 アーカイブ格納システム確認・修正＋拡張
   共有資料
     本番フォームリンク：
@@ -64,6 +50,7 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
   ②正しく動いていなかったら修正③もっと良くした方がいいことやよくできることがあれば提案
     修正点
     確認点
+  ③バージョン2へ変更
   ④CS部へ展開
     基本的な流れは同じらしい、Zoomのアカウントが違うことや、サムネイル画像が違う点に注意が必要。
     運営アカウントのYoutubeへ上げる+設定はみおなさんが実施？？
@@ -235,3 +222,18 @@ CS マネジメントMTG
     https://docs.google.com/presentation/d/1T7ZmC6ftwOi6PSM1VJ0k6C4NCL9zYLFVmAcXLJwIX_4/edit?usp=sharing
   下記スプレッドシートのテスト用にGASを設定
     https://docs.google.com/spreadsheets/d/1E0QT8qgSg9bHE5HIMzaYPnQzd-CjcQXVXEoPy4P1sbE/edit?usp=sharing
+講師図鑑を作成したい
+  3月末までに
+  万垢生徒と講師を見れるWebサイトが欲しい
+    諸元データ
+  GASだけで実装してみた（上にGASで作ったよ。が出ちゃう。）
+    https://script.google.com/macros/s/AKfycbxvOL8rsz-_272gLjiFI4zT1wbx9f9jZ3H7V6Luofky1iiFBYIVzvCf7dqZL2dfoRMW/exec
+  Canvaの自動データ取得が難しい。APIを繋いでいるアカウントで対象のページを表示しないと権限が得られない。
+  追加修正
+    済：生徒の表示に「担当講師」欄を追加
+    済：生徒の表示画面にアカウント検索機能を追加
+    済：ジャンル相談マップを万垢輩出数が多いTop５を表示
+    済：ジャンルを、こちらで勝手に統合
+    済：講師側の画像をタップしたら大きく
+    済：ジャンル相談側はインスタのアイコンを取得
+    済：講師側も検索と絞り込み機能追加

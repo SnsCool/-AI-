@@ -1,7 +1,7 @@
 # ゆりチーム3月定例後MTG
 
-Notion URL: https://www.notion.so/3-MTG-321f3b0fba8580d28ea0c5ff7a49c513
-同期日時: 2026-03-17T18:26:52+09:00
+Notion URL: https://www.notion.so/3-MTG-388f3b0fba858395a313812963f13c58
+同期日時: 2026-03-26T21:32:13+09:00
 
 ---
 
@@ -50,7 +50,7 @@ https://www.notion.so/31cf3b0fba85800db176d354eabbbf98?source=copy_link
  AI勉強会について
 （内容考えました！みんなの案も欲しいです☺️）
 AI講座
-  AIの基本を知ろう会
+  AIの基本を知ろう
     導入・AI活用の心構え
     （セキュリティの注意点）（個人情報NG）　2分
      AIの現状の活用シェア	
