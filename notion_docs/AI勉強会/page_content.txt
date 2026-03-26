@@ -1,22 +1,57 @@
 # AI勉強会
 
 Notion URL: https://www.notion.so/AI-32df3b0fba85802d9ee3d556ad08f43f
-同期日時: 2026-03-25T15:32:11+09:00
+同期日時: 2026-03-26T15:36:09+09:00
 
 ---
 
  AI勉強会について
+タカヤさん・ミクさん・きみえさん・りこさん・さおりさん
+みんながAIに慣れてもっと作業効率良くなることが大きな目的
 AI講座
-  AIの基本
-    導入・AI活用の心構え
-    （セキュリティの注意点）（個人情報NG）　2分
-     AIの現状の活用シェア	
-    （スクラブの現場での成功事例・悩み）　10分
+   AIの現状の活用シェア	
+    （スクラブの現場での成功事例・悩み）　
+    みくさん
+    文字起こし：PlAUD（要約・TODO）半年　購入2万円　年間4万円
+    └元とれるぐらい重宝している（オフ会・MTGでも使える）
+    （読み込ませれば別の人のもできる！！！！）
+    きみえさん
+    ChatGPT：日報の返信・
+    セッションをメモってそれを議事録にしてもらう
+    タカヤさん
+    ChatGPT：PPの議事録は自分なりに作成している（振り返りのメッセージ）：文字起こしと議事録の内容を落とし込んで作っている
+    ・セッション前に前回のを読み込ませて、セッションしている
+    さおりさん
+    ChatGPT
+    日報・エスカレーションの時にまとめる・壁打ち相手ぐらい
     AI資料作成の方法　10分
-    （NotebookLMの使用方法確認）
+    （NotebookLMとマナスの使用方法確認）
     └アジェンダにも活用できます！！！！
+    プロンプトの作成方法
+    ①自分が知りたいことを壁打ちして考える
+    ②プロンプトをAIに作らせている
      AIを使ってアジェンダ作成の実践　15分
     （プロンプトのコツ伝授 ＋ 実際に作成）
     AIでこんなことできたらいいなを話す　10分
     （スクラブの仕事で活用できそうな部分）
+    1.プロンプトの作成方法
+    ①自分が知りたいことを壁打ちして考える
+    ②プロンプトをAIに作らせている
+    2.チャットが見やすくなるような工夫
+    3.規約などを要約しておく（文章が多いと困ってしまう、、、）
+    └返金・契約書・リスケ・当日キャンセル
+    4.セッションのプロンプトがもっとできてたらいいな
+    （生徒さんによって使い分けられたら便利そう！）
+    ・行動が早い
+    ・精神的にしんどいタイプ
+    ・講師への不満
+    （返信遅い・意思疎通が取れない：性別や年齢のギャップ・自己流タイプ）
+    ・行動が遅い（やるやる詐欺：セッション後は動くけど動かなくなるタイプの方）・完璧主義で行動遅い・体調悪くて進めない）
     今後仕事面で活用するものを1人1つずつ考えて発表。　10分
+さおりさん：議事録・生徒さんに送る文章も調整する
+みくさん：PPの生徒さんに送る文章を短くできそう！と思った
+きみえさん：前回のセッションから次回の議事録をする
+タカヤさん：新たなツールを使ってみる。
+マナス（メタ社）：投稿に使える！！！！！
+台本・テロップ
+https://manus.im/app?utm_source=google&utm_medium=&utm_campaign=23538041420&utm_content=199680933744&utm_term=ai+エージェント&cid=7296735399&adgroupid=199680933744&matchtype=b&placement=&device=c&devicemodel=&network=g&gclid=Cj0KCQjwj47OBhCmARIsAF5wUEFP4vupVkZCtNPo7Hhg80GEkLqAYOycUrCRv0xH9jUtrDTTEYt3GYsaAnHzEALw_wcB&gclid=Cj0KCQjwj47OBhCmARIsAF5wUEFP4vupVkZCtNPo7Hhg80GEkLqAYOycUrCRv0xH9jUtrDTTEYt3GYsaAnHzEALw_wcB&gbraid=0AAAABB8nEWMzqclI_a3ALHsjYYzB5bfF_&gbraid=0AAAABB8nEWMzqclI_a3ALHsjYYzB5bfF_&wbraid=CkEKCQjwj47OBhDHARIwAOza9m9kojU-p0SFGp20zcBacX2Nqav3YaN7LKQZOlgPUEAeZCBgC0JgDo5yQP4qGgL-Ww&creative=796290183018&adid=&gad_source=1&gad_campaignid=23538041420

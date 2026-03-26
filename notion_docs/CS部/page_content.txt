@@ -1,7 +1,7 @@
 # CS部
 
 Notion URL: https://www.notion.so/CS-1c3f3b0fba858046b33edfc3c5d8050f
-同期日時: 2026-03-26T00:36:05+09:00
+同期日時: 2026-03-26T15:42:20+09:00
 
 ---
 
@@ -14,7 +14,6 @@ Notion URL: https://www.notion.so/CS-1c3f3b0fba858046b33edfc3c5d8050f
     https://docs.google.com/spreadsheets/d/1puBKH3Vo0nVJ3yZOUfttZXISwYDOwhQzsrMgWeTsDwM/edit?usp=sharing
     オン会進行マニュアル 
     グルコン立ち会いマニュアル 
-    🆕26年3月〜入学式マニュアル 
     🆕26年3月〜入学式マニュアル 
     ◾️社内イベント
     ◾️SnsClubイベント
