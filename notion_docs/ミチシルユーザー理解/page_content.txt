@@ -1,7 +1,7 @@
 # ミチシルユーザー理解
 
 Notion URL: https://www.notion.so/32ef3b0fba8580ba927afd09ddb8fc10
-同期日時: 2026-03-25T18:30:24+09:00
+同期日時: 2026-03-26T13:04:41+09:00
 
 ---
 
@@ -11,3 +11,30 @@ Notion URL: https://www.notion.so/32ef3b0fba8580ba927afd09ddb8fc10
   訴求内容まとめ：https://docs.google.com/spreadsheets/d/1NWSTFA3sZYoApkubWjHXb3savnCKgTTrt8i7EGGspfc/edit?gid=394828829#gid=394828829
   万垢達成者（Discord報告あった人）：
 https://docs.google.com/spreadsheets/d/1n2nvEHmvIw1dCLAXzdRIT2BPB4pSgHONMlUncN9Qkmg/edit?gid=375422658#gid=375422658
+ミチシル：「女性向けの、人生の方向性を見つけるためのコーチング」
+    コア価値
+    悩みを言語化・明確化
+    自己理解を深める
+    自分に合った働き方・生き方を見つける
+    行動のスタートラインに立てる
+    ■ 特徴
+    女性コーチ中心 → 安心感
+    主婦・家庭の悩みに強い
+    キャリア × ライフ 両方扱う
+     ターゲット
+    ■ メイン層
+    女性（主婦・ママ・独身含む）
+    在宅 or ゆるく働いている人 or 専業主婦
+    「コーチングを知らない前提」
+    ■ 状態
+    不幸ではないけど満たされない
+    なんとなく毎日が過ぎている
+    自信がない（社会との接点の薄さ）
+    「このままでいいの？」という違和感
+    ■ 具体的な悩み
+    復職・働き方の迷い
+    在宅 vs 出社の葛藤
+    収入不安
+    家族（夫・子ども）との関係
+    自分の人生の方向性が不明確
+    何に悩んでいるかすら分からない
