@@ -1,0 +1,10 @@
+# スプレッドシート
+
+Notion URL: https://www.notion.so/32ff3b0fba8580b39a83dc526b555a25
+同期日時: 2026-03-27T06:14:20+09:00
+
+---
+
+⬜︎名前を検索
+虫眼鏡マークに⌘＋Ｆ（Mac）
+　　　　　　　Ctrl＋Ｆ（Windows）
