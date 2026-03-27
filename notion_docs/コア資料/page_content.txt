@@ -1,7 +1,7 @@
 # コア資料
 
 Notion URL: https://www.notion.so/317f3b0fba8580b08174e9c8c4ebfb8b
-同期日時: 2026-03-19T03:28:48+09:00
+同期日時: 2026-03-27T18:26:52+09:00
 
 ---
 
@@ -29,3 +29,5 @@ UGC広告資料
   https://drive.google.com/drive/folders/15WLnpdIKRK52B4TXpGMuMmocg91n0iIo?usp=sharing
 【確定版】SNS運用代行_高単価プラン原価 
   https://docs.google.com/spreadsheets/d/1qMmrPen52acKHCyZTiUgjwpVEy5YemvNiDZW-aty1BE/edit?usp=sharing
+ディレクター管理シート
+  https://docs.google.com/spreadsheets/d/1q-GdWscDeO7K_3kGqEMTvxVg-k1yjr3aho01leA0Srg/edit?gid=2113936615#gid=2113936615
