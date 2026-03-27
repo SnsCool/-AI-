@@ -1,0 +1,8 @@
+# オフラインメンバー以外の全Discordメンバーの在籍状況を確認（退職済みかどうか）
+
+Notion URL: https://www.notion.so/Discord-330f3b0fba858099bed8d54e42ebb54d
+同期日時: 2026-03-28T03:26:22+09:00
+
+---
+
+(コンテンツなし)
