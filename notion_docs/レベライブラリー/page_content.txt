@@ -1,0 +1,17 @@
+# レベライブラリー
+
+Notion URL: https://www.notion.so/330f3b0fba8580539cbdfd58a14b0731
+同期日時: 2026-03-27T15:49:42+09:00
+
+---
+
+今後はこちらに月一の｢読了報告フォーム｣の提出をお願いします。
+社内の本の貸し借りもこちらで管理します。
+詳細は下記動画をご確認ください！
+①登録方法
+https://youtu.be/gIW8gUzBWag?si=IGjfQQ52_9F7srxr
+②使い方
+https://youtu.be/fFcYqT5HcOc?si=Y7HAzLMkHBw2GoGf
+
+こちらから開けます↓
+http://localhost:3000

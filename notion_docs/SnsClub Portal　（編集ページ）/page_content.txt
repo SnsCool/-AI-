@@ -1,7 +1,7 @@
 # SnsClub Portal　（編集ページ）
 
 Notion URL: https://www.notion.so/SnsClub-Portal-fbe799af880845c5a9bb15b6faa4357a
-同期日時: 2026-03-19T13:01:37+09:00
+同期日時: 2026-03-27T15:39:01+09:00
 
 ---
 
@@ -515,6 +515,7 @@ SnsClubラジオや特典映像などのインプットと、
     配布用Notion
     その他資料
   2026年3月：撮影特化オフ会
+    https://docs.google.com/spreadsheets/d/1BV0XF-lWKP9BRFTTZChaUB1Gkb_OlN5qu9APWQm2zbY/edit?gid=0#gid=0
     https://docs.google.com/presentation/d/1rbZs3N_krBcUpRf8CSUkda0kDoxqVziT/edit?slide=id.p1#slide=id.p1
     配布Notion
   🌺エスキャン
@@ -564,6 +565,8 @@ SnsClubラジオや特典映像などのインプットと、
     👥 相談会
     株式会社Levelaオフィス　２階
     〒195-0042
+    <会場写真>
+    <会場フロアマップ>
     ■持ち物
     ・メモのできるもの
 ・スマートフォン

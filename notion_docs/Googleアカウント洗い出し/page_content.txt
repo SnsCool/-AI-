@@ -1,8 +1,8 @@
 # Googleアカウント洗い出し
 
 Notion URL: https://www.notion.so/Google-32af3b0fba85819babc6ee49afa24e7f
-同期日時: 2026-03-21T15:21:30+09:00
+同期日時: 2026-03-27T15:36:27+09:00
 
 ---
 
-(コンテンツなし)
+ID、PWを共有しているもの
