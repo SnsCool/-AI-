@@ -1,7 +1,7 @@
 # クレーム回答Discord連携依頼
 
 Notion URL: https://www.notion.so/Discord-328f3b0fba85809590c5d90c4b21d6c3
-同期日時: 2026-03-19T13:01:56+09:00
+同期日時: 2026-03-27T13:10:43+09:00
 
 ---
 

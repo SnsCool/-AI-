@@ -1,15 +1,20 @@
 # ナレッジ共有
 
 Notion URL: https://www.notion.so/32ef3b0fba8580309045edf77bd0f706
-同期日時: 2026-03-25T18:29:43+09:00
+同期日時: 2026-03-27T13:04:17+09:00
 
 ---
 
 ストーリーズAI 
 https://gemini.google.com/gem/f6c1ef8143af
-RESTORY紹介ページ
+  RESTORY
+  競合のストーリーズを徹底分析
+  競合アカウントを30アカウントまで登録し、ストーリーズを毎日記録最大90日間保存することができます。
+  ※ストーリーズが表示されるのは、登録日以降のストーリーズのみとなります。
+  RESTORY紹介ページ
 https://re-story.jp/
 
 ベーシックプラン (競合アカウント登録不可)
 料金：無料
 https://app.re-story.jp/users/sign_up?code=e8b1d457-75e1-48e4-9159-b01b688454c8
+クリエイティブ 
