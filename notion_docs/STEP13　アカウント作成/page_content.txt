@@ -1,7 +1,7 @@
 # STEP13　アカウント作成
 
 Notion URL: https://www.notion.so/STEP13-32ff3b0fba8580aa942ef664bb2e4cf7
-同期日時: 2026-03-27T18:26:22+09:00
+同期日時: 2026-03-27T21:26:00+09:00
 
 ---
 

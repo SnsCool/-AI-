@@ -1,7 +1,7 @@
 # STEP4　初期設計
 
 Notion URL: https://www.notion.so/STEP4-32ff3b0fba8580af94a2cb0bef94d7e4
-同期日時: 2026-03-27T13:13:21+09:00
+同期日時: 2026-03-27T21:27:04+09:00
 
 ---
 
