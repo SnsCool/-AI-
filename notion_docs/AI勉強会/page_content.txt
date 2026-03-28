@@ -1,50 +1,8 @@
 # AI勉強会
 
-Notion URL: https://www.notion.so/AI-25bf3b0fba85834fa746019973fc7930
-同期日時: 2026-03-28T12:54:06+09:00
+Notion URL: https://www.notion.so/AI-322f3b0fba8581388449eb3a21d37f3f
+同期日時: 2026-03-29T06:12:28+09:00
 
 ---
 
- AI勉強会参加者
-タカヤさん・ミクさん・きみえさん・さおりさん
-🤖 AI活用勉強会 議事録
-開催日: 2026年3月26日
-目的: AIに慣れ、作業効率を向上させることで、仕事を最大化する
-🚀 1. メンバー別：AI活用の現状と成功事例
-各メンバーが現場でどのようにAIを使い、どんな成果を出しているかの共有。
-みくさん（PLAUD活用）
-  内容: 文字起こしデバイス「PLAUD」を半年間使用（本体2万円/年4万円）。
-  メリット: 要約やTODO抽出が非常に優秀。オフ会やMTGでも活用でき、十分に元が取れる重宝ツール。
-きみえさん（ChatGPT活用）
-  内容: 日報の返信案作成。セッションメモを議事録に変換。
-タカヤさん（ChatGPT活用）
-  内容: 文字起こしと議事録を統合し、振り返りメッセージを作成。
-  工夫: セッション直前に「前回の内容」を読み込ませ、流れを把握してから臨む。
-さおりさん（ChatGPT活用）
-  内容: 日報作成、エスカレーション時の集約、アイデアの壁打ち。
-💡 2. AI資料作成・アジェンダ作成のコツ
-AIを「指示待ち」にせず、「一緒に作るパートナー」にするための手法。
-プロンプト作成のステップ（一例）
-壁打ち: 自分が知りたいことをAIに投げ、対話しながら考えを整理する。
-プロンプト生成: 整理された内容を基に「これを実行するための最適なプロンプトを作って」とAIに依頼する。
-【実践】60分セッション・アジェンダ作成の構造
-以下の要素（プロンプトのコツ）を盛り込むことで、精度の高い回答が得られる。
-役割（Role）: 「あなたはプロのコーチ」
-目的（Goal）: 「クライアントが迷わず進めるアジェンダ作成」
-条件（Constraints）: 「60分以内の配分」「ポジティブな言葉遣い」
-具体的データ: 前回の振り返り、今回の結果、半年後の目標、トークスクリプト。
-🔍 3. 今後のAI活用アイデア（スクラブ現場編）
-今後、さらに効率化できるポイントの出し合い。
-規約・重要事項の要約
-  返金、契約書、リスケ、当日キャンセルなどの複雑な文章を、受講生が理解しやすいよう要約する。（すぐにセッション中伝えたい場合などに活用）
-受講生タイプ別プロンプトの最適化
-  行動が早い人: 次のステップを先回りして提案。
-  精神的にしんどい人: 承認と寄り添いに特化した文面。
-  行動が遅い・完璧主義: タスクを極限まで細分化し、心理的ハードルを下げる。
-  講師への不満・ギャップがある: 意図を汲み取り、共通言語を見つける。
-📝 4. 明日からのMy Mission
-📌 メモ：おすすめツール
-NotebookLM: 資料の読み込みと深い分析に。
-Meta AI（マナス）: 投稿作成、台本、テロップ案の作成に。
-└クレジットと記載されるが、無料で使える！！！！
-https://manus.im/app?utm_source=google&utm_medium=&utm_campaign=23538041420&utm_content=199680933744&utm_term=ai+エージェント&cid=7296735399&adgroupid=199680933744&matchtype=b&placement=&device=c&devicemodel=&network=g&gclid=Cj0KCQjwj47OBhCmARIsAF5wUEFP4vupVkZCtNPo7Hhg80GEkLqAYOycUrCRv0xH9jUtrDTTEYt3GYsaAnHzEALw_wcB&gclid=Cj0KCQjwj47OBhCmARIsAF5wUEFP4vupVkZCtNPo7Hhg80GEkLqAYOycUrCRv0xH9jUtrDTTEYt3GYsaAnHzEALw_wcB&gbraid=0AAAABB8nEWMzqclI_a3ALHsjYYzB5bfF_&gbraid=0AAAABB8nEWMzqclI_a3ALHsjYYzB5bfF_&wbraid=CkEKCQjwj47OBhDHARIwAOza9m9kojU-p0SFGp20zcBacX2Nqav3YaN7LKQZOlgPUEAeZCBgC0JgDo5yQP4qGgL-Ww&creative=796290183018&adid=&gad_source=1&gad_campaignid=23538041420
+(コンテンツなし)

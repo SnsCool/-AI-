@@ -1,7 +1,7 @@
 # Discord部署別AI導入
 
 Notion URL: https://www.notion.so/Discord-AI-32af3b0fba858143887fc243c7f72d8b
-同期日時: 2026-03-22T00:10:55+09:00
+同期日時: 2026-03-29T06:12:28+09:00
 
 ---
 

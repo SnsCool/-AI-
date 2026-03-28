@@ -1,7 +1,7 @@
 # API連携MTG設定
 
 Notion URL: https://www.notion.so/API-MTG-32af3b0fba8581129545cf9c163482a2
-同期日時: 2026-03-22T03:14:49+09:00
+同期日時: 2026-03-29T06:11:51+09:00
 
 ---
 
