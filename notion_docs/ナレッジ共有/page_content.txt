@@ -1,7 +1,7 @@
 # ナレッジ共有
 
 Notion URL: https://www.notion.so/32ef3b0fba8580309045edf77bd0f706
-同期日時: 2026-03-27T13:04:17+09:00
+同期日時: 2026-03-28T18:19:42+09:00
 
 ---
 
@@ -18,3 +18,4 @@ https://re-story.jp/
 料金：無料
 https://app.re-story.jp/users/sign_up?code=e8b1d457-75e1-48e4-9159-b01b688454c8
 クリエイティブ 
+ローンチの大枠流れ、心構えなどのマニュアルもあると良いか

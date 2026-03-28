@@ -1,7 +1,7 @@
 # 4月＿アフィ＿小林大蔵
 
 Notion URL: https://www.notion.so/4-31ef3b0fba85809a92ffd53be9e9f25a
-同期日時: 2026-03-27T21:29:21+09:00
+同期日時: 2026-03-28T18:21:14+09:00
 
 ---
 
@@ -16,17 +16,6 @@ KPI：360リスト
 https://docs.google.com/spreadsheets/d/1ezCjICUfjWYVIhQaql-e-n28FW1AdjTFoGAphALKX4s/edit?usp=sharing
 ┗【アフィリエイター別】数値結果、【個人名】タブにデータ記載
 各アフィリエイタークリエイティブ
-流入後のシナリオ
-動画フックシナリオ
-https://docs.google.com/spreadsheets/d/1z8YWHJpNLiAxHIKy3ych-SBILnPhfOe1bysi--C57Ng/edit?usp=sharing
-  ┗【プレミアム動画】タブ→実施の欄にシナリオ記載
-タイプ診断シナリオ
-流入後シナリオ👇
-  https://docs.google.com/spreadsheets/d/1z8YWHJpNLiAxHIKy3ych-SBILnPhfOe1bysi--C57Ng/edit?usp=sharing
-  ┗【タイプ診断】タブ→実施の欄にシナリオ記載
-タイプ診断クリエイティブ
-  https://www.canva.com/design/DAHD1VfIuCs/TDLKihZD8VqArJjzqWuOiA/edit?utm_content=DAHD1VfIuCs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-  ┗LINEカルーセル画像
 反応の良かったストーリーズ
     閲覧数：3096（平均1000ほど）
     らこさんのビフォアフストーリーズ参考
@@ -47,6 +36,11 @@ KSFとは
   AP
   週３以上でメニーチャットを絡めた交流ストーリーを推奨する
   普段リールでの発信が多い発信者はリールでローンチさせてみる
+KSF
+要因
+転用AP
+リール誘導でリストを拡大できた
+教育不足で、特典フックのような形式になった
 KFF・改善AP
 KFFとは
   KFF（Key Failure Factors）とは、組織やビジネスが失敗する原因となる重要な要素や条件を指します。これらは、成功を妨げるリスクや障害となる要因であり、企業が目標を達成できない理由を明らかにするために分析されます。
@@ -55,6 +49,18 @@ KFFとは
 当月目標・達成AP
 達成APとは
   立てた目標を達成するためのアクションプランを納期付きで設定してください。
+アフィリエイターローンチ（　人）
+流入後のシナリオ
+動画フックシナリオ
+https://docs.google.com/spreadsheets/d/1z8YWHJpNLiAxHIKy3ych-SBILnPhfOe1bysi--C57Ng/edit?usp=sharing
+  ┗【プレミアム動画】タブ→実施の欄にシナリオ記載
+タイプ診断シナリオ
+流入後シナリオ👇
+  https://docs.google.com/spreadsheets/d/1z8YWHJpNLiAxHIKy3ych-SBILnPhfOe1bysi--C57Ng/edit?usp=sharing
+  ┗【タイプ診断】タブ→実施の欄にシナリオ記載
+タイプ診断クリエイティブ
+  https://www.canva.com/design/DAHD1VfIuCs/TDLKihZD8VqArJjzqWuOiA/edit?utm_content=DAHD1VfIuCs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+  ┗LINEカルーセル画像
 共有・提案・依頼
 ストーリーズローンチスタート前に全て流れを決定しておくべき
 やりながら変わると動線考えるのがむずすぎる

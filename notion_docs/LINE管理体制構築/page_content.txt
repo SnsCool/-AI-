@@ -1,7 +1,7 @@
 # LINE管理体制構築
 
-Notion URL: https://www.notion.so/LINE-32af3b0fba8581179602ef12202121ff
-同期日時: 2026-03-28T06:16:01+09:00
+Notion URL: https://www.notion.so/LINE-31af3b0fba85810e9908ce3df1b5195b
+同期日時: 2026-03-28T18:20:40+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 【アフィリエイター】マニュアル
 
 Notion URL: https://www.notion.so/306f3b0fba85803494bef3f8b55101e1
-同期日時: 2026-03-27T13:04:07+09:00
+同期日時: 2026-03-28T18:20:06+09:00
 
 ---
 
@@ -11,6 +11,7 @@ Notion URL: https://www.notion.so/306f3b0fba85803494bef3f8b55101e1
     サービス紹介のポイントとコツ
     報酬・サポート体制
     ローンチ期間終了後の動き
+    アフィ数値確認表（仮）
 もぐラボ
 https://discord.gg/uTMGAArQmY
 もぐラボ【運営用】
