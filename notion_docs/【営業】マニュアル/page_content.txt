@@ -1,15 +1,11 @@
 # 【営業】マニュアル
 
 Notion URL: https://www.notion.so/2ccf3b0fba8580da9192cefc7e69b8e1
-同期日時: 2026-03-25T15:39:43+09:00
+同期日時: 2026-03-28T12:53:34+09:00
 
 ---
 
 必要ツールの準備
-  運営カレンダー
-  https://calendar.google.com/calendar/u/1?cid=bGV2ZWxhLmRpZXRAZ21haWwuY29t
-  もぐラボカレンダー
-  https://calendar.google.com/calendar/u/0?cid=bW9nbGFiMTIzQGdtYWlsLmNvbQ
   もぐラボ
   https://discord.gg/uTMGAArQmY
   もぐラボ【運営用】
@@ -20,6 +16,8 @@ Notion URL: https://www.notion.so/2ccf3b0fba8580da9192cefc7e69b8e1
   https://shared-beak-b34.notion.site/2eef3b0fba85803e92b3f513c97e3311?source=copy_link
 営業資料の確認
   https://www.canva.com/design/DAG-0Z6w0Nw/NCBK7EUArTd3A4mTS9O1ZA/edit
+商談録画
+  https://drive.google.com/drive/folders/1CodLgae93-UDwDvh4dYI_DV2QQJO4un8?usp=drive_link
 スクリプトの確認
     ひろかマインド
     挨拶・自己紹介
@@ -761,7 +759,6 @@ ID：Levela_diet
 PW：Leveladiet
   カレンダー連携のやり方
   https://linestep.jp/2024/12/20/reserve_calendar/
-  【スタッフコード】
 契約書マニュアル
   https://docs.google.com/document/d/1g_loHuU9VrBLs9bSaApIGNAfBr6HHNny2y5WbO3qC7w/edit?usp=sharing
   株式会社Levela 代表取締役 駒居
@@ -799,8 +796,6 @@ PW：Leveladiet
   https://docs.google.com/spreadsheets/d/1q-QFg1MXbTFzSJR0fiMY415EGiaiXGuPYqtz6B0X3IY/edit?gid=1643841729#gid=1643841729
 入会者用LINE
   https://line.me/ti/p/%40584nzzgo
-商談録画
-  https://drive.google.com/drive/folders/1CodLgae93-UDwDvh4dYI_DV2QQJO4un8?usp=drive_link
 営業管理シート
   https://docs.google.com/spreadsheets/d/1bdSmkkQp7DP1OTdt1VJqmT43rQBKnY5LcN3yUXgWgEM/edit?usp=sharing
   https://docs.google.com/spreadsheets/d/17fHrRXzJ_nmaia6HMPMQpAq3heyBEjM1W3Epy-wSFUk/edit?gid=0#gid=0
