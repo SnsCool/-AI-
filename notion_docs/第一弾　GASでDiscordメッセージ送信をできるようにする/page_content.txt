@@ -1,7 +1,7 @@
 # 第一弾　GASでDiscordメッセージ送信をできるようにする
 
 Notion URL: https://www.notion.so/GAS-Discord-325f3b0fba858009b7e1c095671acbb4
-同期日時: 2026-03-26T15:41:51+09:00
+同期日時: 2026-03-29T18:18:56+09:00
 
 ---
 
