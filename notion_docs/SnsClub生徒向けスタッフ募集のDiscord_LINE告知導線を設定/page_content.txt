@@ -1,7 +1,7 @@
 # SnsClub生徒向けスタッフ募集のDiscord/LINE告知導線を設定 
 
 Notion URL: https://www.notion.so/SnsClub-Discord-LINE-330f3b0fba8580a7b068d1978caa8e4b
-同期日時: 2026-03-28T03:26:53+09:00
+同期日時: 2026-03-29T21:22:58+09:00
 
 ---
 

@@ -1,15 +1,44 @@
 # 02.食事アドバイスの練習
 
 Notion URL: https://www.notion.so/02-332f3b0fba8580ab94ccd09f85432490
-同期日時: 2026-03-29T18:18:48+09:00
+同期日時: 2026-03-29T21:19:50+09:00
 
 ---
 
-講義動画全部視聴する
+食べ痩せ動画全部視聴する
+Untitled 
 他の講師のアドバイスを見て実際の食事アドバイスを把握した上で
 
 練習していいていいタイミングで食事アドバイス練習を行う
 講師に確認してもらいFBをもらう
 
-こちらを元にチャットGPTで作成し訂正して提出する
-食事添削方法 
+食事添削 練習方法
+① 食事データの受け取り
+講師マネージャーから、5人分の食事記録（写真付き）が送られます
+② ChatGPTで添削作成
+送られてきた食事記録をChatGPTに読み込ませ、
+食事アドバイス（添削文）を作成する
+食事添削方法chatGPT（作成し直し中🙇‍♀️） 
+③ 文章の修正
+ChatGPTで作成した文章をそのまま使うのではなく、
+自分で表現や内容を確認し、必要に応じて修正する
+④ Googleドキュメントに貼り付け
+修正した添削文をGoogleドキュメントにまとめる
+https://docs.google.com/document/d/1Vn440j2oyeVikh_cFAewkBVn-sxTgZhIfY_Rfssr0Vk/edit?hl=ja&tab=t.0
+記入例
+https://docs.google.com/document/d/1xITYPay98KI8k8_XOUzOFiLB8HdnpK1wrAAtBfstBDg/edit?usp=sharing
+⑤ 講師へ提出
+作成したドキュメントを講師に提出する
+⑥ フィードバック修正
+講師・マネージャーから
+ドキュメント上でコメント（修正点）が入る
+→ コメント内容をもとに添削を修正する
+コメント内容をは赤文字にして添削を修正する
+記入例
+https://docs.google.com/document/d/1ZKH_TSoU3-qTBvH1MYf4JSRqcA4e_5Sr8-BEPXjuacw/edit?usp=sharing
+⑦ 再提出
+修正後、再度ドキュメントを提出する
+ポイント
+・ChatGPTは「ベース作成」として活用する
+・必ず自分の言葉で修正する
+・修正意図を理解しながらブラッシュアップする
