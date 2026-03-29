@@ -1,7 +1,7 @@
 # 04.担当クラスにアーカイブ・メッセージ送信する
 
-Notion URL: https://www.notion.so/04-312f3b0fba8581b795e4e5fe6dddc264
-同期日時: 2026-03-16T18:33:51+09:00
+Notion URL: https://www.notion.so/04-332f3b0fba8580ef9e49e9ef3ecf3871
+同期日時: 2026-03-30T00:14:11+09:00
 
 ---
 

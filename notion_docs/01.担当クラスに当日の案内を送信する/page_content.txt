@@ -1,7 +1,7 @@
 # 01.担当クラスに当日の案内を送信する
 
-Notion URL: https://www.notion.so/01-312f3b0fba8581b3a0a7e3a9c6bafcb1
-同期日時: 2026-02-26T00:28:01+09:00
+Notion URL: https://www.notion.so/01-332f3b0fba85809d8524c67f0db6d23a
+同期日時: 2026-03-30T00:14:12+09:00
 
 ---
 

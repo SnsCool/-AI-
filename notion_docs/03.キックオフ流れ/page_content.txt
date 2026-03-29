@@ -1,7 +1,7 @@
 # 03.キックオフ流れ
 
-Notion URL: https://www.notion.so/03-312f3b0fba8581bf9266df613fdeb09e
-同期日時: 2026-03-06T03:43:53+09:00
+Notion URL: https://www.notion.so/03-332f3b0fba85808489bcd645fddf9fcf
+同期日時: 2026-03-30T00:14:12+09:00
 
 ---
 
@@ -19,3 +19,6 @@ https://shared-beak-b34.notion.site/2f8f3b0fba8580c78d97c5b69a9d8933
 →時には厳しいことを言うかもしれないですが皆さんにしっかり痩せて欲しいため
 普段は優しいので笑
 みたいな冗談も交えつつ事前のマインド面もお伝えしていく
+
+
+詳細
