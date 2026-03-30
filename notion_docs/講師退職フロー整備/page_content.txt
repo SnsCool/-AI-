@@ -1,7 +1,7 @@
 # 講師退職フロー整備
 
-Notion URL: https://www.notion.so/331f3b0fba8581b68dbdc5e45b1a3250
-同期日時: 2026-03-28T18:20:45+09:00
+Notion URL: https://www.notion.so/331f3b0fba85815387e2ca43b38e441f
+同期日時: 2026-03-31T03:27:26+09:00
 
 ---
 
