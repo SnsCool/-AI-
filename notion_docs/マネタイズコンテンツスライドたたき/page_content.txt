@@ -1,7 +1,7 @@
 # マネタイズコンテンツスライドたたき
 
 Notion URL: https://www.notion.so/32df3b0fba8580df971adefe7381d1e8
-同期日時: 2026-03-30T03:16:33+09:00
+同期日時: 2026-03-30T09:50:28+09:00
 
 ---
 
@@ -111,5 +111,7 @@ https://canva.link/9mmf8yocg996r1e
 件数が飛躍的に伸びた実践解説
 https://canva.link/a0aim7c88b2loq3
 上級者向けストーリー運用思考法①
-
+https://canva.link/frx34d3njf27o84
 訴求チェックリスト
+https://canva.link/5hch5yzokrqqyy7
+複数アカウントのメリット・デメリット

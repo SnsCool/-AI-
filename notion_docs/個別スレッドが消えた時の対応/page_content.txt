@@ -1,7 +1,7 @@
 # 個別スレッドが消えた時の対応
 
-Notion URL: https://www.notion.so/315f3b0fba8580088e16df284cc827bf
-同期日時: 2026-02-28T12:42:16+09:00
+Notion URL: https://www.notion.so/333f3b0fba85806c8cbdc8ce99223968
+同期日時: 2026-03-30T09:48:51+09:00
 
 ---
 
