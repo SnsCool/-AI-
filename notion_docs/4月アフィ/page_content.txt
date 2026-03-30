@@ -1,7 +1,7 @@
 # 4月アフィ
 
 Notion URL: https://www.notion.so/4-31ff3b0fba8580ae983ed79c2bf5ebda
-同期日時: 2026-03-28T18:20:19+09:00
+同期日時: 2026-03-30T18:40:28+09:00
 
 ---
 
@@ -18,3 +18,4 @@ Notion URL: https://www.notion.so/4-31ff3b0fba8580ae983ed79c2bf5ebda
 動画→勉強会
 動画→個別相談🔺
 診断→個別相談🔺
+診断→動画→個別相談
