@@ -1,0 +1,8 @@
+#  オンラインメンバーが辞める際のアクセス削除手順（Discord・Notion・スプシ等）を文書化する  
+
+Notion URL: https://www.notion.so/Discord-Notion-333f3b0fba8580da96c8c03b94db8957
+同期日時: 2026-03-31T00:36:27+09:00
+
+---
+
+(コンテンツなし)
