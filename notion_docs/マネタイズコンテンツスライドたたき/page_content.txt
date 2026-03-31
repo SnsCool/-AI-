@@ -1,7 +1,7 @@
 # マネタイズコンテンツスライドたたき
 
 Notion URL: https://www.notion.so/32df3b0fba8580df971adefe7381d1e8
-同期日時: 2026-04-01T03:27:39+09:00
+同期日時: 2026-04-01T06:18:26+09:00
 
 ---
 
@@ -138,6 +138,7 @@ https://canva.link/wuy1utaefgybsnu
 https://canva.link/6kglcv9zesw3gyq
 マインド
 コンパス資料
+
   https://canva.link/v2z91b4g9mwoxun
 ビジネス基礎マスター講座
   https://canva.link/6bdp0spdwoi2a0t
@@ -162,3 +163,31 @@ SNSで稼げる大ジャンル選定
 インスタ運用 プロフ設計編
   https://canva.link/fx4oq0evfatqpau
 インスタ運用 ハイライト設計講座
+  https://canva.link/60ncw30ffvf2xxy
+インスタリール攻略 講義編
+  https://canva.link/3yopukmbxw90x1g
+インスタリール攻略 台本編
+  https://canva.link/1dh2stmd3t9leo2
+インスタリール攻略撮影編
+  https://canva.link/6cyxqyn1yh1j2a2
+インスタリール攻略編集編
+  https://canva.link/i306jnbhf102cjo
+インスタリール攻略 アップ編
+  https://canva.link/e89ufusezl0a0il
+インスタ運用 アウトバウンド編
+  https://canva.link/bpm3ts4az7h5l0v
+個別相談ローンチの全体像解説
+  https://canva.link/jxcw89q3msfx15f
+企画コンセプト設計
+  https://canva.link/ngpv23idgu3e1lz
+提案資料の設計
+  https://canva.link/agz3gdq4iqlfmst
+決済＆会員サイトシステム MOSH の準備
+  https://canva.link/fyc5onsp7hgol5j
+SNSで稼ぐための特典設計講座
+  https://canva.link/61qhm4lthq854pa
+特典設計 内容編
+  https://canva.link/e8x48ya08j6zkva
+特典設計 実践編
+  
+特典設計 サムネ編
