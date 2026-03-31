@@ -1,19 +1,19 @@
 # むらかみもえさん　きいb組
 
 Notion URL: https://www.notion.so/b-324f3b0fba8580efa637fe4963581681
-同期日時: 2026-03-30T00:14:38+09:00
+同期日時: 2026-04-01T00:36:30+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
-    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    https://docs.google.com/spreadsheets/d/13GnJ5aWWdWZE34YJHFjiPMwc6dCrvYfwnjc5zFbbEiw/edit?usp=sharing
     📜 | 誓約書
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
     ②誓約書はPDFにして生徒さんへ送付
     ▼講師1on1　予約用timerex▼
     https://timerex.net/s/kii.dietrecipe43_ae07/dfb8b90b
-    生徒メアド：
+    生徒メアド：ifrg1028@gmail.com 
     １回目：第２回（初期設計1on1）〜第４回講義 
 ２回目：第４回講義〜第６回講義：
 ３回目：第６回講義〜第８回講義：
