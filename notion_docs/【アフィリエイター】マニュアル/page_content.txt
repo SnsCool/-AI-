@@ -1,18 +1,18 @@
 # 【アフィリエイター】マニュアル
 
 Notion URL: https://www.notion.so/306f3b0fba85803494bef3f8b55101e1
-同期日時: 2026-03-31T15:42:19+09:00
+同期日時: 2026-03-31T18:36:15+09:00
 
 ---
 
     ①もぐラボ全体
+    自己紹介後のフローを「はじめに」に入れる。最後に概要、食べ痩せ知識みてねCTA
     ②食べ痩せ知識を学ぶ
-    Levelaとは　入れるか否か
     アフィリエイト流れ
     サービス紹介のポイントとコツ
     ローンチ期間終了後の動き
+    アフィ数値確認表（仮）
     報酬について
-アフィ数値確認表（仮）
 メモ
 報酬形体詳細ひろかさんに確認
 コンセプト設計、添削フローの角度高すぎないかFBもらう
@@ -21,17 +21,3 @@ Notion URL: https://www.notion.so/306f3b0fba85803494bef3f8b55101e1
 アフィ終わった後の振り返りシートも作りたい
 ┗この人がどんな結果で、次回の課題は何かを可視化するためのもの（アフィMGのマニュアルになるか）
 ┗SnsClubの聞く
-もぐラボ
-https://discord.gg/uTMGAArQmY
-もぐラボ【運営用】
-https://discord.gg/Fzp74nN8rY
-食べ痩せカリキュラム
-https://shared-beak-b34.notion.site/2eef3b0fba85803e92b3f513c97e3311?source=copy_link
-  https://www.canva.com/design/DAG-0Z6w0Nw/NCBK7EUArTd3A4mTS9O1ZA/edit?utm_content=DAG-0Z6w0Nw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-https://drive.google.com/drive/folders/1klT-yjdncfQpesKvY24ybmPUVyeXU9Iu?usp=drive_link
-RESTORY紹介ページ
-https://re-story.jp/
-
-ベーシックプラン (競合アカウント登録不可)
-料金：無料
-https://app.re-story.jp/users/sign_up?code=e8b1d457-75e1-48e4-9159-b01b688454c8

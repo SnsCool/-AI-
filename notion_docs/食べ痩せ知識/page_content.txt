@@ -1,7 +1,7 @@
-# 食べ痩せ知識
+# 食べ痩せ知識 
 
-Notion URL: https://www.notion.so/32ef3b0fba8580859a7ed24a62873bf4
-同期日時: 2026-03-25T18:26:57+09:00
+Notion URL: https://www.notion.so/334f3b0fba85805ea42de893f4d3fc6a
+同期日時: 2026-03-31T18:36:17+09:00
 
 ---
 
@@ -15,3 +15,4 @@ Notion URL: https://www.notion.so/32ef3b0fba8580859a7ed24a62873bf4
 皆様のインプットに最大限活用してください！
   食べ痩せ知識詳細はこちら
   Untitled 
+※0章、スタータープログラムの動画7本は必ず視聴をお願いいたします！

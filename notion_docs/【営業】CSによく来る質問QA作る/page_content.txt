@@ -1,7 +1,7 @@
 # 【営業】CSによく来る質問QA作る
 
 Notion URL: https://www.notion.so/CS-QA-2f7f3b0fba8580afb4b6ec20f52e7e55
-同期日時: 2026-03-19T03:28:40+09:00
+同期日時: 2026-03-31T18:36:11+09:00
 
 ---
 

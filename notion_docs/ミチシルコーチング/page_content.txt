@@ -1,7 +1,7 @@
 # ミチシルコーチング
 
 Notion URL: https://www.notion.so/2ecf3b0fba858060a507d8c2ce724114
-同期日時: 2026-03-30T00:13:40+09:00
+同期日時: 2026-03-31T18:32:38+09:00
 
 ---
 
@@ -51,3 +51,4 @@ Notion URL: https://www.notion.so/2ecf3b0fba858060a507d8c2ce724114
   https://www.notion.so/32ef3b0fba8580ba927afd09ddb8fc10?source=copy_link　◀️これをベースに 悩みをもっと初歩的な悩みにするイメージ
   自分軸、はどのテーマにも共通するから、具体に落とし込むなら、もう１階層下げる
 年間計画
+メンタルをメインにした

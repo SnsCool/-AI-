@@ -1,7 +1,7 @@
 # 会議資料
 
 Notion URL: https://www.notion.so/269f3b0fba85804f803fc74084ce3c0e
-同期日時: 2026-03-14T18:18:25+09:00
+同期日時: 2026-03-31T18:36:06+09:00
 
 ---
 
@@ -35,7 +35,7 @@ Notion URL: https://www.notion.so/269f3b0fba85804f803fc74084ce3c0e
   進捗報告
   目標：9月7日合宿でのモニターローンチまでに全てを間に合わせる。
   必要項目：
-  モニターの詳細決定　モニター詳細 
+  モニターの詳細決定　0期生モニター詳細 
     参加条件　達成
     プラン・価格　達成
     サービス設計　達成
@@ -51,12 +51,12 @@ Notion URL: https://www.notion.so/269f3b0fba85804f803fc74084ce3c0e
     食べ痩せダイエット教材　達成
     フィットネスプログラム　達成
     サークル・自主オフ会マニュアル　達成
-  CS体制の構築　【講師】マニュアル 
+  CS体制の構築　Untitled 
     サポート体制の構築　達成
     Discord運営体制の構築　達成　
     講師マニュアルの作成　達成
     記録・管理の体制構築　達成
-  採用関連　メンバー紹介  
+  採用関連　Untitled 
     採用計画の作成　達成
     採用決定　達成
   モニターローンチの結果
@@ -450,7 +450,7 @@ Notion URL: https://www.notion.so/269f3b0fba85804f803fc74084ce3c0e
   3日以上記録なしアラート　11月〜
   管理シートの確認　11月〜
   Untitled 
-  オーダーメイドプラン作成 
+  Untitled 
   さりなタスク
   10月中
   「翌日12時OK」を最初のチーム内で告知する
@@ -782,7 +782,7 @@ Untitled
   PL修正（報酬の決定も含む）
   サービス名・ブランディング・ロゴ案
   インフルエンサー候補の選定
-  ポータル構築 
+  Untitled 
   その他
   1月16日（金）17日（土）18日（日）にローンチしたい
   └年内にインフルエンサー採用と訴求事例の共有
@@ -793,9 +793,9 @@ Untitled
   今月の目標とAP
   先週の動き
   サービス内容の修正  
-     └ 事業概要 
+     └ 概要 
   ポータルサイト構築 
-     └ ポータル構築 
+     └ Untitled 
   アフィリエイター候補選定 とデータ収集
   　└https://docs.google.com/spreadsheets/d/1ezCjICUfjWYVIhQaql-e-n28FW1AdjTFoGAphALKX4s/edit?usp=sharing
   　　　下記の数値データを参考に採用を進める
@@ -821,7 +821,7 @@ Untitled
     導線関連
     営業関連
     体組成計・プロテインの発送周りのオペレーション
-  事業概要 
+  概要 
   https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?gid=1846539054#gid=1846539054
   決めたいこと
   プランの内容と価格
@@ -950,9 +950,9 @@ Untitled
   PL修正
   └ https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?usp=sharing 
   ポータルサイト構築 （ 済み：構成・台本 ／ 残り：スライド・動画）
-     └ ポータル構築 
+     └ Untitled 
   講師マニュアルの作成 
-  └ 【講師】マニュアル 
+  └ Untitled 
   アフィリエイター候補の選定（20〜30名は確保したい）
   　└https://docs.google.com/spreadsheets/d/1ezCjICUfjWYVIhQaql-e-n28FW1AdjTFoGAphALKX4s/edit?usp=sharing
   モニター生データ収集中（月次までに完成予定）
@@ -1869,7 +1869,7 @@ Untitled
   営業マン採用：🔺ひとり確保
   　   3月から入れるようにこれから教育
   講師採用：⭕️
-    講師採用計画 
+    講師受け入れ人数 
   　　さりな・まりな・みくよ・ひなた・つき・（3名待ち）
   アフィリエイター採用：🔺
     4月以降は集まってきてるが、3月の見込みが危うい
@@ -1897,78 +1897,36 @@ Untitled
   4月からの価格
   14800円：現行通り
   19800円：個別で食事添削／専属の管理栄養士とトレーナーがつく／月2回面談
-  アフィリエイター採用
-  営業マン採用
+  内容 → 原価 → 価格
+  利益率を上げる
+  紹介で1万引き
+  └卒業手前の半ば2ヶ月
+  └限定画像のクーポンコード
+  └限定URLからの面談
+  講師報酬を1.7万までにあげても良さそう
+  ロールモデルと卒業後
   https://mogulab.my.canva.site/
   https://docs.google.com/spreadsheets/d/1z8YWHJpNLiAxHIKy3ych-SBILnPhfOe1bysi--C57Ng/edit?gid=0#gid=0
   ↓動画確認リンク
 https://youtu.be/yCWjOopAiPY
   ↓動画ダウンロードリンク
 https://xgf.nu/nPW2z
-  3月目標・達成AP
-  達成APとは
-    立てた目標を達成するためのアクションプランを納期付きで設定してください。
-  目標：3期生（4月スタート）20名成約
-  達成AP：① インフルエンサーローンチ　② スクラブローンチ
-  3月ローンチ数値想定：
-  ① インフルエンサーローンチ詳細
-  【導線】
-  各インフルエンサー → もぐラボ公式LINE → 教育動画1本 → 個別相談
-  【スケジュール】
-  13〜15日 募集告知・14〜31日 個別相談
-  【インフルエンサー】
-  【ストーリーローンチ構成】
-  https://docs.google.com/spreadsheets/d/1UpXOrL3nuMZ1lfkKCu2Hyd4noM8bMAviZ5Ipe1NIOfU/edit
-  クリエイティブ 
-  【LINE関連】
-  動画台本：https://docs.google.com/document/d/1aQAhzn0gTmcin-zP4Sh1LlhP9tw1FQBQRMHRqRdMQT4/edit?tab=t.571qbocce3sv（これから仕上げます）
-  撮影：てぃーぞー
-  編集：よしき
-  LINE導線：りょうさん
-  【営業】
-  てぃーぞー・はるかさん（新）が行う
-  └ https://www.instagram.com/haruka_seiro?igsh=bnoxbmM2MW9vM3Vy&utm_source=qr
-  ② スクラブローンチ詳細
-  【スケジュール】
-  （仮）6日〜興味付け → 10日告知 → 11日〜15日 個別
-  【告知】
-  （仮）ダイエットサークルでうちこさんに流していただく
-  【営業】
-  ひろかが行う
   PL
-  年間計画の定量と定性
-  https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?gid=222896699#gid=222896699
-  1〜3月：各月20名集客、MAX60名稼働、70〜90名稼働が可能な体制を構築。
-  4〜6月：各月30名集客、MAX90名稼働、100〜120名稼働が可能な体制を構築。
-  7〜9月：各月40名集客、MAX120名稼働、130〜150名稼働が可能な体制を構築。
-  10〜12月：各月50名集客、MAX150名稼働を1月に叶える。
-  →これプラス、上位プランとサブスクを組み込めば1期目1億ギリ可能な範囲。
-  共有・提案・依頼
-  サポート状況
-  【各チームの平均値】（2月スタート21名：1ヶ月経過）
-  【1ヶ月目の成果報告】
-    1ヶ月で2〜5キロ減りました報告！！
-  【個人詳細データ】
-    Bチーム
-    Cチーム
-  採用関連
-  アフィリエイター：9名❌（圧倒的に足りない→スクラブ募集・インスタDM）
-  └シズルウィズさんと、もぐラボ公式メディア作成予定
-  営業：2名🔺（増やしたい）
-  講師：8名⭕️
-  トレーナー：2名⭕️
-  https://docs.google.com/spreadsheets/d/1ezCjICUfjWYVIhQaql-e-n28FW1AdjTFoGAphALKX4s/edit?gid=0#gid=0
-  講師採用計画 
-  マニュアル関連
-  【講師】マニュアル
-  【営業】マニュアル
-  紹介依頼
-  もぐラボ専用のフィットネス動画を撮影してくれる方
-  太ってる有名人（痩せさせて集客に活用したいです）
-  ↓今使ってるこの有名人系の事例を増やしたい（これは元AKBの方）
-  ロゴ案
-  前回から進んでないです。シンガポール中にやりたい。
-  https://www.lovart.ai/canvas?projectId=536aa2b65f0d4f3499c79a2d01039dcc
-  その他資料
-  https://www.canva.com/design/DAHCBAj5Q7o/WBobhPlZTewd1p8MpAFjmg/edit
-  https://www.canva.com/design/DAG-0Z6w0Nw/NCBK7EUArTd3A4mTS9O1ZA/edit
+  https://docs.google.com/spreadsheets/d/1bdSmkkQp7DP1OTdt1VJqmT43rQBKnY5LcN3yUXgWgEM/edit?gid=997171970#gid=997171970
+  https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?gid=428922564#gid=428922564
+  採用
+  つかささん
+  明日アフィ説明会
+  ロゴ・HP
+  管理栄養士：
+  もぐラボをフロントに出す　リリース記念
+  食べ痩せで健康的に痩せる
+  講師のクオリティを出す
+  HP
+  食べ痩せとは
+  なんでそんなに結果出るのか
+  講師
+  サブスク
+  プレミアム
+  コミュニティ
+  サポート周り
