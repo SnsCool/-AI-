@@ -1,7 +1,7 @@
 # 領収書発行
 
-Notion URL: https://www.notion.so/32ef3b0fba858059b8afc137ac78b5f0
-同期日時: 2026-03-25T12:59:47+09:00
+Notion URL: https://www.notion.so/335f3b0fba8581f38634f7ad6687ec27
+同期日時: 2026-04-01T13:17:50+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # Lステップ：クレーム自動返信メッセージ設定
 
-Notion URL: https://www.notion.so/L-328f3b0fba85806e90a7c6e84fe5edf6
-同期日時: 2026-03-27T09:47:09+09:00
+Notion URL: https://www.notion.so/L-335f3b0fba85811c8a9defd9a88b65cb
+同期日時: 2026-04-01T13:14:58+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # コミットコーチング連携MTG
 
-Notion URL: https://www.notion.so/MTG-318f3b0fba858156bcd8e6fcd8796375
-同期日時: 2026-03-03T18:25:51+09:00
+Notion URL: https://www.notion.so/MTG-335f3b0fba8581129b5bd582374f0a63
+同期日時: 2026-04-01T13:17:37+09:00
 
 ---
 

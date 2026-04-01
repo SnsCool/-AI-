@@ -1,7 +1,7 @@
 # 会場空き状況自動化ツール作成
 
-Notion URL: https://www.notion.so/319f3b0fba8580e3989dd9289c0db049
-同期日時: 2026-03-25T15:39:10+09:00
+Notion URL: https://www.notion.so/335f3b0fba8581c0a5cbde3424fde966
+同期日時: 2026-04-01T13:13:37+09:00
 
 ---
 

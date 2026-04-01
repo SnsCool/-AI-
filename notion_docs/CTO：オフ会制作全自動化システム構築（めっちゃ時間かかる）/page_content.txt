@@ -1,7 +1,7 @@
 # CTO：オフ会制作全自動化システム構築（めっちゃ時間かかる）
 
-Notion URL: https://www.notion.so/CTO-330f3b0fba8580339cf8e334895a55e6
-同期日時: 2026-03-27T18:27:15+09:00
+Notion URL: https://www.notion.so/CTO-335f3b0fba858122b789e7f1561a3c92
+同期日時: 2026-04-01T13:14:22+09:00
 
 ---
 

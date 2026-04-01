@@ -1,7 +1,7 @@
 # 二部制の場合のチケット販売方法、タイムスケジュール 
 
-Notion URL: https://www.notion.so/318f3b0fba8581b28f7afe3cfffe2ea9
-同期日時: 2026-03-03T18:26:43+09:00
+Notion URL: https://www.notion.so/335f3b0fba858134a0b6cbd79a216fbb
+同期日時: 2026-04-01T13:16:53+09:00
 
 ---
 

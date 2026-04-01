@@ -1,7 +1,7 @@
 # 新クラス作成Bot作成
 
-Notion URL: https://www.notion.so/Bot-330f3b0fba8580c1ad27d3679b94a171
-同期日時: 2026-03-27T13:03:36+09:00
+Notion URL: https://www.notion.so/Bot-335f3b0fba8581f4835ec48466cd6036
+同期日時: 2026-04-01T13:14:09+09:00
 
 ---
 

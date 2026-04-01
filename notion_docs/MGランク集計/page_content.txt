@@ -1,7 +1,7 @@
 # MGランク集計
 
-Notion URL: https://www.notion.so/MG-319f3b0fba85802b942ec8bb3a311d84
-同期日時: 2026-03-11T12:54:06+09:00
+Notion URL: https://www.notion.so/MG-335f3b0fba85813cbb3fd29d279a365b
+同期日時: 2026-04-01T13:16:26+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # アーカイブ自動化設定：進捗30％
 
-Notion URL: https://www.notion.so/30-330f3b0fba8580a28f3be45ebca161d3
-同期日時: 2026-03-27T13:03:20+09:00
+Notion URL: https://www.notion.so/30-335f3b0fba85816abb45e1a47029acaa
+同期日時: 2026-04-01T13:14:10+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # クラス案内フロー作成
 
-Notion URL: https://www.notion.so/318f3b0fba8581ef8a1ec69b87093655
-同期日時: 2026-03-03T18:26:51+09:00
+Notion URL: https://www.notion.so/335f3b0fba8581148864e0dcf37f9525
+同期日時: 2026-04-01T13:16:41+09:00
 
 ---
 
