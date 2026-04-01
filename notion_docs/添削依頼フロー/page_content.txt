@@ -1,7 +1,7 @@
 # 添削依頼フロー
 
 Notion URL: https://www.notion.so/333f3b0fba858023aea9c44169c89dec
-同期日時: 2026-03-31T18:40:53+09:00
+同期日時: 2026-04-01T21:34:20+09:00
 
 ---
 
@@ -14,8 +14,8 @@ Notion URL: https://www.notion.so/333f3b0fba858023aea9c44169c89dec
 ② 添削依頼の提出方法
 必ず「担当マネージャー（MG）」をメンションすること。
 数日分をまとめて依頼するのもOKです！
-Canvaの共有リンク（編集権限またはコメント権限）を専用チャット（Discord）に送付。
-添削依頼時に、必ず設定で「リンクを知ってる全員」を選択し、担当MGに送お送りください！
+Google Driveに自分のフォルダを作成し画像を格納し、リンクをお送りください！
+┗https://drive.google.com/drive/folders/1s0XGT2uVDjILxP95vZmgnyESAKJDTqCx?usp=sharing
 例）
 ③ 添削依頼の文章テンプレート
 こちらのテンプレートに沿って添削依頼をしてください！

@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-04-01T15:55:51+09:00
+同期日時: 2026-04-01T21:31:58+09:00
 
 ---
 
@@ -59,6 +59,7 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
   ④CS部へ展開
     基本的な流れは同じらしい、Zoomのアカウントが違うことや、サムネイル画像が違う点に注意が必要。
     運営アカウントのYoutubeへ上げる+設定はみおなさんが実施？？
+    みおなさんに作業の流れを確認する
 マネタイズ顧客管理シートのCSV反映ボタンが正しく動かない
   データが全部とれない？→名前と時間で判定
   ライトとエリートに転記もうまくいってない。AとB列を移す。
@@ -246,7 +247,6 @@ CS マネジメントMTG
   万垢生徒と講師を見れるWebサイトが欲しい
     諸元データ
   GASだけで実装してみた（上にGASで作ったよ。が出ちゃう。）
-    https://script.google.com/macros/s/AKfycbxvOL8rsz-_272gLjiFI4zT1wbx9f9jZ3H7V6Luofky1iiFBYIVzvCf7dqZL2dfoRMW/exec
   Canvaの自動データ取得が難しい。APIを繋いでいるアカウントで対象のページを表示しないと権限が得られない。
   追加修正
     済：生徒の表示に「担当講師」欄を追加
