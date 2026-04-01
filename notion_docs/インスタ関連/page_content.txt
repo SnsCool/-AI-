@@ -1,7 +1,7 @@
 # インスタ関連
 
 Notion URL: https://www.notion.so/316f3b0fba85805c89eec091eba3960c
-同期日時: 2026-03-26T00:37:49+09:00
+同期日時: 2026-04-01T15:49:00+09:00
 
 ---
 
@@ -13,8 +13,6 @@ Notion URL: https://www.notion.so/316f3b0fba85805c89eec091eba3960c
   https://docs.google.com/spreadsheets/d/1tUZyx8dZ64WAZA7qfc4dOvkzqj-mEjB3SaUSrqZ8VYw/edit?usp=sharing
 ディレクターマニュアル
   https://docs.google.com/document/d/15uXv8BaJsCaQj3a8_KPJTZHliS3r9f7_YRvhMCGr7ck/edit?usp=sharing
-ディレクター月次報告書
-  https://docs.google.com/spreadsheets/u/0/d/16UeJmT_EK0z3oeVozbyDf582znzRNWVyS2FG343Cx-Y/edit
 ディレクター週報
   https://docs.google.com/forms/d/e/1FAIpQLSetvg0ePneN5j4BhIrx6wN2gIbA6gjUjmFpDk2MnEA3zmYxGw/viewform?usp=publish-editor
 ディレクター昇降格シート

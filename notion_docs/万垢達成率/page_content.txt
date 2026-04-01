@@ -1,9 +1,8 @@
 # 万垢達成率
 
-Notion URL: https://www.notion.so/318f3b0fba8581128f65ea3b9f5509f1
-同期日時: 2026-03-30T15:50:20+09:00
+Notion URL: https://www.notion.so/2f8f3b0fba85809d814bfd684b38e5cf
+同期日時: 2026-04-01T15:56:20+09:00
 
 ---
 
-・2月万垢達成率：17.45%（達成）
-※ 先月：10.25%
+〇〇％
