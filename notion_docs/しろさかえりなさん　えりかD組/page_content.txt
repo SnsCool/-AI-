@@ -1,12 +1,13 @@
 # しろさかえりなさん　えりかD組
 
 Notion URL: https://www.notion.so/D-292f3b0fba858065add2e2ff038f641f
-同期日時: 2026-03-20T09:43:53+09:00
+同期日時: 2026-04-02T06:21:13+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
+
     [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
     https://docs.google.com/spreadsheets/d/19pNoBWVL5eKiOz1jUg5fTLPyINapHQ6372tGGOiE7W4/edit?gid=0#gid=0
     📜 | 誓約書
