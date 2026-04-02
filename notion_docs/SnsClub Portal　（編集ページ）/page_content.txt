@@ -1,7 +1,7 @@
 # SnsClub Portal　（編集ページ）
 
 Notion URL: https://www.notion.so/SnsClub-Portal-fbe799af880845c5a9bb15b6faa4357a
-同期日時: 2026-03-27T15:39:01+09:00
+同期日時: 2026-04-02T18:37:12+09:00
 
 ---
 
@@ -480,7 +480,7 @@ SnsClubラジオや特典映像などのインプットと、
     講師オファー用
     生徒募集案内用（合宿）
   SnsClubマネタイズ合宿 2026冬
-    2月合宿制作 
+    2026年2月合宿制作 
     合宿制作物 
     https://docs.google.com/spreadsheets/d/1NooV2LhSWqUUvIb1UiNE_c50gfZp6yyhXj0Y_c8N3qw/edit?usp=sharing
     生徒案内用
@@ -517,6 +517,9 @@ SnsClubラジオや特典映像などのインプットと、
   2026年3月：撮影特化オフ会
     https://docs.google.com/spreadsheets/d/1BV0XF-lWKP9BRFTTZChaUB1Gkb_OlN5qu9APWQm2zbY/edit?gid=0#gid=0
     https://docs.google.com/presentation/d/1rbZs3N_krBcUpRf8CSUkda0kDoxqVziT/edit?slide=id.p1#slide=id.p1
+    配布Notion
+  2026年4月：マネタイズ講座オフ会
+    https://docs.google.com/spreadsheets/d/1KDb1r3EKhyxOg2BGZHl5C4TE3-1xYioLAH4VGkcqrR4/edit?usp=sharing
     配布Notion
   🌺エスキャン
   2025年11月プレミアムオフ会

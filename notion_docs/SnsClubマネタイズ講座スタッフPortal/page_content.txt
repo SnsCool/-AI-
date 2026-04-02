@@ -1,7 +1,7 @@
 # SnsClubマネタイズ講座スタッフPortal
 
 Notion URL: https://www.notion.so/SnsClub-Portal-24ff3b0fba8580dfa9d7c6a5e9b222da
-同期日時: 2026-03-27T21:28:19+09:00
+同期日時: 2026-04-02T18:39:59+09:00
 
 ---
 
@@ -18,8 +18,282 @@ https://groupconsul-calender-monetize.vercel.app/
   候補日を提出すると、黄色で表示されます
   運営は講師が提出した日程を「日程確定」「編集」「削除」することができます。
   運営が候補日を確定すると、カレンダーの表示が緑色に変わり、Googleカレンダーに予定が登録されます。
-  資料１
-https://canva.link/ey4xhr6056wfnfj
+  🔴https://canva.link/ey4xhr6056wfnfj
+収益化の全体像
+  https://canva.link/fq42eb9h8y8dq7m❌
+インスタの用語解説
+  https://canva.link/dq7ceqqzdxlc4ty❌
+投稿作成の流れ
+  https://canva.link/jlaq6i5z87dqlrk❌
+アルゴリズムの正しい理解
+  https://canva.link/ku8ma6p5i2xteol❌
+Canvaの使い方
+  https://canva.link/k43um9d4jrdl1hh❌
+CapCutの使い方
+  https://canva.link/zpjbf2z9i2jmm2e❌
+運用で使っているアイテムまとめ
+  https://canva.link/u66jecz1su4ytry❌
+1年で8桁を達成した目標設定の正しい方法
+  🔴https://canva.link/cp7tzwm2zd91tuf
+初期設計の重要性
+  🔴https://canva.link/5xvtz0h12zkl4pa
+ジャンル選び
+  🔴https://canva.link/bdgxy148wdwazav
+ジャンル選びと収益性の関係性
+  🔴https://canva.link/7i18wpa0ybhkr9c
+発信ジャンルの競合分析
+  https://canva.link/ec94uvfjcn78iet❌
+爆伸びするアカウント設計
+  https://canva.link/xtpzxlnh601v5ls❌
+フォロー率が上がるプロフィール設計
+  🔴https://canva.link/20h3hr7lsrh8nm8
+正しいストーリーテリングの作り方
+  https://canva.link/myst9gr9b160ker❌
+伸びるアカウントの方程式
+  https://canva.link/a5db72dzvh06qm9❌
+リールのアルゴリズム攻略
+  https://canva.link/pruzpzotf023e50❌
+競合分析のポイント
+  https://canva.link/92mgkboh9vjg2kk❌
+企画の競合分析のポイント
+  https://canva.link/53af0z6vr94d93n❌
+投稿の実践練習
+  https://canva.link/ovo0yekv0fijr38❌
+企画の作り方
+  https://canva.link/5w66ybog4g5nmjy❌
+投稿する際の4つの注意点
+  https://canva.link/3dlx3jj7xizkcz0❌
+爆発的にリールを伸ばす極意
+  https://canva.link/y1p5xoduttgwmpr❌
+過去に伸びたリールの実践解説
+  https://canva.link/pln5mymob3yu14r❌
+過去伸びなかったリールの実践解説
+  https://canva.link/6mnhx1schosmkf5❌
+リールの表紙作成
+  https://canva.link/n7u4kf1t73h4ck9
+ハイライトの設置
+  https://canva.link/lk4i7p9yvvrxhad
+リール投稿前にやること
+  https://canva.link/mikoc527yuwjlyx
+他ジャンルから自身のアカウントへの応用方法
+  https://canva.link/8rizpw5x2fdbjyh❌
+リール作成の実践解説
+  https://canva.link/evd8t7xep19eeul❌
+リールのインサイト分析のポイント
+  https://canva.link/5g0gx22tijhmror❌
+フィードのアルゴリズム
+  https://canva.link/noiczgq3fildrx1🔺
+リールとフィードの使い分け
+  https://canva.link/0k8bh4ae79vixck
+フィード投稿の作成ポイント
+  https://canva.link/bggirzi5b32h9v7❌
+インサイト分析のポイント
+  https://canva.link/fcxz1qwxocm51l0🔺
+ストーリー運用の基礎基本
+  https://canva.link/5trs7di61bnxj0o
+収益化までの全体像
+  https://canva.link/5rsvuva1ipevvxo
+楽天ROOMにおける収益化※実勢紹介外したほうがいいかも
+  https://canva.link/n7qrmrfjm2003jv
+固定報酬における収益化※アカウント情報外したほうがいいかも
+  https://canva.link/8f1ijidb9cm5fie
+上手なストーリーデザインのコツ※動画で解説外したほうがいい
+  https://canva.link/7j4rj007khda9b1
+ストーリー×DM戦略
+  https://canva.link/1pon7v9cxdlq006
+ファン化の目的と重要性※内容が浅いから迷う、、
+  https://canva.link/l239zfm5onpd025
+7つのファン化テンプレート
+  https://canva.link/zcah437ud1802vw
+9割が間違える 真のファン化テクニック
+  https://canva.link/nwvda29ni3m26sh❌
+アフィリエイトの経緯と実績※けいさんの名前がある
+  https://canva.link/kzgz0wl6o2kebr9
+ゴールからの逆算思考
+  https://canva.link/1cb0zne6jj5ezh9
+爆売れするストーリーテンプレート※⑤の未来の提示のリンクが危なそう
+  https://canva.link/dv44pmm7r8hf0jy
+求をしていく際の注意点
+  https://canva.link/snu74wgw329rbme
+収益化で意識するポイント
+  https://canva.link/jhltwlxcy27yce0
+引き込まれる文章の構成※ストーリー例が文字化けしている
+  https://canva.link/ferioga58o0xi4i
+成果を出すための3つのマインド
+  https://canva.link/9mmf8yocg996r1e❌
+件数が飛躍的に伸びた実践解説
+  https://canva.link/a0aim7c88b2loq3
+上級者向けストーリー運用思考法①
+  https://canva.link/frx34d3njf27o84
+訴求チェックリスト※チェックリストが危険
+  https://canva.link/5hch5yzokrqqyy7
+複数アカウントのメリット・デメリット※実績部分が危ない
+  https://canva.link/urryiv6lk26rp3j
+外注化のタイミング
+  https://canva.link/jh1urk713nwbc2t❌
+運用代行における収益化※営業DMテンプレはじゅんさんのテンプレの方がいいかも、、
+  https://canva.link/arjtr6tj95g4l2q❌
+初月で月7桁を達成した自社商品における収益化※まめさんの実績があるため
+  https://canva.link/iitwowpzkxq33ir❌
+初月で760万円売り上げた販売方法※自身の事例がまめさん
+  https://canva.link/8nxuqpjbxablx80
+販売までの全体像
+  https://canva.link/g5eslw21ljdlicb
+売れる商品設計の構築
+  https://canva.link/jn2v8f8wbtnb64k
+集客と教育
+  https://canva.link/lhge7x6p4olb7uj
+ローンチシステムの構築※まめさんの事例あるため危ない
+  https://canva.link/pr9wnoyhnoyqk7q
+セールスの全体像※まめさんの事例あるため危ない
+  https://canva.link/wuy1utaefgybsnu
+月7桁達成までのロードマップ
+  https://canva.link/6kglcv9zesw3gyq
+マインド※けいさんの名前あり、まめさんの実績あるため危ない
+  🔴https://canva.link/v2z91b4g9mwoxun
+ビジネス基礎マスター講座
+  🔴https://canva.link/6bdp0spdwoi2a0t
+ビジネス基礎マスター講座2
+  🔴https://canva.link/ge0qnirabuq5cn0
+SNSで稼げる大ジャンル選定
+  🔴https://canva.link/ufy80yq7ddfbewm
+市場リサーチマスター講座
+  🔴https://canva.link/r2lc8inbihfsayl
+競合分析マスター講座
+  🔴https://canva.link/7z644m2dm3pluja
+ポジションメイクマスター講座
+  🔴https://canva.link/3hz8k1u520pcydk
+商品コンセプト設計マスター講座※コンパスの記載(事例)あり
+  🔴https://canva.link/ckmmwtjjs6861ua
+商品設計マスター講座
+  🔴https://canva.link/160ge4ulbvwweqj
+公式LINE初期設計マスター講座
+  https://canva.link/mgb4fzc8mqvqm1a
+インスタ運用 ジャンル認識編※内容が古いかも
+  https://canva.link/87uxvuj7bkvv8sc
+インスタ運用 プロフ設計編
+  https://canva.link/fx4oq0evfatqpau
+インスタ運用 ハイライト設計講座
+  https://canva.link/60ncw30ffvf2xxy
+インスタリール攻略 講義編※外部流入向けにはあり⭕️
+  https://canva.link/3yopukmbxw90x1g
+インスタリール攻略 台本編※外部流入向けにはあり⭕️
+  https://canva.link/1dh2stmd3t9leo2
+インスタリール攻略撮影編※外部流入向けにはあり⭕️
+  https://canva.link/6cyxqyn1yh1j2a2
+インスタリール攻略編集編※外部流入向けにはあり⭕️
+  https://canva.link/i306jnbhf102cjo
+インスタリール攻略 アップ編※外部流入向けにはあり⭕️
+  https://canva.link/e89ufusezl0a0il❌
+インスタ運用 アウトバウンド編
+  🔴https://canva.link/bpm3ts4az7h5l0v
+個別相談ローンチの全体像解説
+  🔴https://canva.link/jxcw89q3msfx15f
+企画コンセプト設計
+  🔴https://canva.link/ngpv23idgu3e1lz
+提案資料の設計
+  🔴https://canva.link/agz3gdq4iqlfmst
+決済＆会員サイトシステム MOSH の準備
+  🔴https://canva.link/fyc5onsp7hgol5j
+SNSで稼ぐための特典設計講座※情報が古いかも、なくても良さそう
+  🔴https://canva.link/61qhm4lthq854pa
+特典設計 内容編
+  🔴https://canva.link/e8x48ya08j6zkva
+特典設計 実践編
+  🔴https://canva.link/mhjvkfn9s67e8rg
+特典設計 サムネ編
+  🔴https://canva.link/ainkt1t053jlctk
+企画概要動画のススメ
+  https://canva.link/106rsxts8yo7al6❌
+企画概要動画 - 台本編※台本のテンプレがないため
+  🔴https://canva.link/w3j5i3rg5xu3t3l
+企画概要動画 撮影編
+  🔴https://canva.link/ocabvpyf1trofko
+企画概要動画 編集編
+  🔴https://canva.link/26v05knr7m5rwc3
+ストーリーローンチ攻略編
+  https://canva.link/s4j6mlc4izxz7so❌
+ストーリーローンチ台本編※台本テンプレない
+  https://canva.link/qh89ar7a5nvbwk4🔺
+ストーリーローンチ デザイン編
+  https://canva.link/6dudou9gny9yav0🔺
+当日告知投稿 台本編
+  https://canva.link/qetm28eihu7mh17🔺
+当日告知投稿デザイン編
+  https://canva.link/a8grpdigi8yfx0l🔺
+ストーリーローンチ スケジュール編※インスタライブの推奨がある
+  https://canva.link/v0q1oafd5x4z992🔺
+ストーリーローンチ実践編※インスタライブの推奨がある
+  🔴https://canva.link/j7g9zeqlt4dz9dv
+フロント集客LP構築講座
+  🔴https://canva.link/uyqunrd5r1ck66k
+フロント集客LP 台本編
+  🔴https://canva.link/di4emp87io3r7ez
+フロント集客LPデザイン戦略
+  🔴https://canva.link/sdlpm44p9vf5drr
+フロント集客LP ダウンロード編
+  🔴https://canva.link/u8too8xnv73p2z0
+フロント集客LP 埋め込み編
+  🔴https://canva.link/q2y9lej31whc77j
+LINE導線設計 講義編
+  🔴https://canva.link/plii82qlb7fnugj
+LINE導線構築における用語理解
+  🔴https://canva.link/sk7cjvs7p2g563r
+LINE導線 全体像理解編
+  🔴https://canva.link/5uj7ub7gw3tj5y6
+LINE導線構築編（素材準備）
+  🔴https://canva.link/ov9ev1lypzm61ah
+LINE導線構築編 - ライティング準備※青字の変更ができないかも。こうちつが別なのでわかりにくい
+  🔴https://canva.link/hzwwtpv6ruulib2
+LINE導線構築編：テンプレート作成※図解がないのでわかりにくそう
+  🔴https://canva.link/qifhkdixfckmjdc
+LINE導線構築 - ステップ作成とタグ設定※図解がわかりにくい。何のツールかがわかりにくい
+  🔴https://canva.link/323nzuup7dpkswi
+LINE導線構築編：QRコードアクション※Linyなので、このままだと使えない
+  🔴https://canva.link/jv6qlub5rcir47p
+LINE導線構築編：配信予約
+  🔴https://canva.link/2w55gznvjc19ffe
+LINE導線構築編 - レッスン予約
+  🔴https://canva.link/v8xe0c2finner33
+個別セールス マスター講座
+  🔴https://canva.link/hr8t0zld0u2nrlf
+個別セールス 全体像理解編※実録視聴があるため使えない
+  🔴https://canva.link/gaxtfb7oealonk2
+個別セールス トークスクリプト作成術
+  🔴https://canva.link/ds59b98ebz316gz
+個別セールス 契約書編
+  🔴https://canva.link/08yw1pvvco73syf
+金策編
+  https://canva.link/ijeg6ii149bnneq
+個別セールス ロープレ研修
+  https://canva.link/584mewfow57l8fd🔺
+個別セールス 最終確認編
+  https://canva.link/y5tcs0ddwcokj4u
+セールス録画添削で制約率UP！
+  🔴https://canva.link/svb7d8ey0zlxpbf
+モニターファネル理解編
+  🔴https://canva.link/yz2sxz1hc6pe1ka
+モニターファネル ストーリーローンチ設計
+  🔴https://canva.link/4eoilex2wv9vo2l
+モニターファネルマスター講座 フィード投稿設計編
+  🔴https://canva.link/vi346hgkkviknpw
+モニターファネル実践編
+  🔴https://canva.link/uvkq4r0m5zbb021
+インスタで月7桁・8桁を達成するセールスファネル※アフィリエイトディスガあるのでそこを外した方が良さそう
+  🔴https://canva.link/7cebhoz93mo1tyf
+ゼロから3年で3億円を生み出した思考法※早いかも、、
+  https://canva.link/cuzdjg74lxk7o9l⭕️
+商品設計完全マスター講座
+  https://canva.link/d42pr35pnls6cg6
+SNS集客完全マスター講座※おすすめジャンルいる？メニチャじゃなくていいか
+  https://canva.link/xnkadvxugs7ed62
+爆発的に伸ばすショート動画 完全攻略
+  https://canva.link/12mc3m82r4xpdsa
+正しいフィード投稿の理解
+  🔴https://canva.link/f96fh7y63m8swwp
+悪用厳禁 究極のファン化テクニック
+  https://canva.link/altm3wr6b1pyvxv
+ローンチシステムの構築 完全ガイド
   【毎月5日締切】マネタイズグルコン・講師対談スケジュール入力
     https://groupconsul-calender-monetize.vercel.app/
     アプリからログインし、実施可能候補日を全て入力してください。
@@ -85,6 +359,26 @@ https://canva.link/ey4xhr6056wfnfj
 大きく環境が変わる機会になります。
 
 お話しできることを楽しみにしております！
+  定例業務
+や・レベシェア報酬依頼（LINE）
+や・回答の転記
+
+と・請求書送付
+と・振込確認
+
+や・グルコン日程調整
+や・カレンダー配信
+や・グルコンのお知らせ配信設定
+
+と・受講費決済確認
+と・PL更新
+と・未払い受講者にリマインド
+
+都度・アーカイブアップロード
+（グルコン自動化済み、1on1は手動）
+・入会、退会処理
+
+
 🔴マネタイズ生徒用Portal
 
 マネタイズ講座の概要と目的
