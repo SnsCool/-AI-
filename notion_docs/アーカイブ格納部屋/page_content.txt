@@ -1,7 +1,7 @@
 # アーカイブ格納部屋
 
 Notion URL: https://www.notion.so/2f8f3b0fba8580c78d97c5b69a9d8933
-同期日時: 2026-03-20T00:30:15+09:00
+同期日時: 2026-04-02T21:38:10+09:00
 
 ---
 
@@ -11,12 +11,12 @@ YouTubeかグーグルドライブにアップして添付してください
 
   ▼ 講義アーカイブ格納庫
   🎥 第1回 キックオフMT
-  🎥 第2回 週次MT
-  🎥 第3回 週次MT
-  🎥 第4回 週次MT
-  🎥 第5回 週次MT
-  🎥 第6回 週次MT
-  🎥 第7回 週次MT（最終）
+  🎥 第2回 グルコン
+  🎥 第3回 グルコン
+  🎥 第4回 グルコン
+  🎥 第5回 グルコン
+  🎥 第6回 グルコン
+  🎥 第7回 グルコン（最終）
 ↓
   ▼ 講義アーカイブ格納庫
   🎥 第1回 キックオフMT
@@ -57,8 +57,7 @@ https://us05web.zoom.us/j/8989797996?pwd=QUhUVElUcGRHUlF5WG5mK3R4NjN6Zz09&omn=85
 (原則、毎回同じリンクを使用して講義を行います)
   ▼ 講義アーカイブ格納庫
   🎥 第1回 キックオフMT
-  🎥 第2回 週次MT
-  ※アーカイブの格納はありません
+  🎥 第2回 グルコン
   🎥 第3回 週次MT
   🎥 第4回 週次MT
   🎥 第5回 週次MT
@@ -66,8 +65,7 @@ https://us05web.zoom.us/j/8989797996?pwd=QUhUVElUcGRHUlF5WG5mK3R4NjN6Zz09&omn=85
   🎥 第7回 週次MT（最終）
   ▼ 講義アーカイブ格納庫
   🎥 第1回 キックオフMT
-  https://us06web.zoom.us/rec/share/y3kw7mExeNpfy8VmEQMRzcpUrdYn0_2IWnAniHSnYiIeS3WVkj6uCbs3FbFwe8yq.LK79rbd8biyaTNwW
-パスコード: H+.@1&qK
+  https://drive.google.com/file/d/1sdgPQfoesGQbjEK79hWyIOh06jvVB8Ce/view?usp=drivesdk
   🎥 第2回 週次MT
   🎥 第3回 週次MT
   🎥 第4回 週次MT
@@ -77,9 +75,10 @@ https://us05web.zoom.us/j/8989797996?pwd=QUhUVElUcGRHUlF5WG5mK3R4NjN6Zz09&omn=85
   ▼ 講義アーカイブ格納庫
   🎥 第1回 キックオフMT　3/12
   https://youtu.be/5vxvI6smBbI
-  🎥 第2回 週次MT
-  🎥 第3回 週次MT
-  🎥 第4回 週次MT
-  🎥 第5回 週次MT
-  🎥 第6回 週次MT
+  🎥 第2回 グルコン　3/23
+  https://youtu.be/Y97nHDnE3PA
+  🎥 第3回 グルコン
+  🎥 第4回 グルコン
+  🎥 第5回 グルコン
+  🎥 第6回 グルコン
   🎥 第7回 週次MT（最終）

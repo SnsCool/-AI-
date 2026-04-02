@@ -1,7 +1,7 @@
 # 予約方法決定　Lstep構築
 
 Notion URL: https://www.notion.so/Lstep-334f3b0fba85804eb4f4d6b5cfc52082
-同期日時: 2026-03-31T13:06:50+09:00
+同期日時: 2026-04-02T21:35:57+09:00
 
 ---
 

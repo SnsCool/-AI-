@@ -1,13 +1,13 @@
 # 4月勉強会 
 
-Notion URL: https://www.notion.so/4-336f3b0fba858005a085c6c11d075e0e
-同期日時: 2026-04-02T18:28:38+09:00
+Notion URL: https://www.notion.so/4-336f3b0fba858052b1eae86969865dab
+同期日時: 2026-04-02T21:42:41+09:00
 
 ---
 
 ガントチャート
-https://www.notion.so/LINE-281f3b0fba858011800edc68cda14d30
-月毎
+https://www.notion.so/LINE-281f3b0fba858011800edc68cda14d30¥
+毎月
 ①勉強会スライドコピー→今月ver作成
 https://www.canva.com/design/DAHFljx1-Tg/xQpxmjauCNeql2MVq9ZP2w/edit
 ②先月10000人フォロワー達成者更新
@@ -21,7 +21,6 @@ https://docs.google.com/document/d/1THG_NMDx1qrIaPgIWDsYZRPQQAuRmn27DcZAAnFlM3Y/
 写真よりも実績は多くならないようにする
 レシピアカウントは15スライド程度にする
 10000人フォロワー達成者の紹介は30人
-/
 3.先月10000人フォロワー達成者一覧スライド修正する
 ここは先月10000人フォロワー達成者全員のインスタプロフィールの画像を乗せる
 達成者の人数を更新する
@@ -36,4 +35,5 @@ P261付近ローンチ講師のスクショへ差し替え
 表紙日程変更勉強会スライド変更3種類
 【勉強会スライド・ファシリ注意事項視聴会・ウェビナー変更】
 https://www.notion.so/a8834c02b01342be80df62521269275b
+
 https://www.canva.com/design/DAG6X9CZiQo/7Hyz-T3YOssc9g7fmmwimA/edit

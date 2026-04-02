@@ -1,7 +1,7 @@
 # 講師週次MT議事録
 
 Notion URL: https://www.notion.so/MT-31af3b0fba8580f5a908ef4463c9536c
-同期日時: 2026-03-26T21:38:57+09:00
+同期日時: 2026-04-02T21:42:20+09:00
 
 ---
 
@@ -534,3 +534,27 @@ https://docs.google.com/spreadsheets/d/1nj1bJn1T0vgcHtughEX_1wM40FVtZYXw/edit?us
   講師ミーティングの資料作成は、GeminiやGensparkなどAI活用可
 ※
   ただ、文章がおかしい箇所や追加したい内容などは、随時削除や追加を行ってください。
+  予定
+  2月：20名（さりな15名・てぃーぞー5名）⭕️
+  3月：20名（さりな10名・まりな5名・みくよ5名）⭕️
+  4月：20名（さりな5名・まりな5名・つき5名・くりこ5名）⭕️
+  5月：30名（さりな10名・まりな5名・つき5名・くりこ5名・はなよ5名）
+  6月：30名（さりな10名・まりな5名・つき5名・くりこ5名・はなよ5名）
+  キャパ
+  さりな：毎月10名・MAX30名
+  まりな：毎月5名・MAX15名
+  つき：初月5名・
+  みくよ：初月5名
+  はなよ：初月5名
+  ひなた：初月5名・MAX15名
+  くりこ：初月5名
+  まなさん：初月5名
+  予定
+  1〜3月：各月20名集客、MAX60名稼働、70〜90名稼働が可能な体制を構築。
+  4〜6月：各月30名集客、MAX90名稼働、100〜120名稼働が可能な体制を構築。
+  7〜9月：各月40名集客、MAX120名稼働、130〜150名稼働が可能な体制を構築。
+  10〜12月：各月50名集客、MAX150名稼働を1月に叶える。
+  →これで年商7,800万。上位プランとサブスクを組み込めば1億到達レベル。
+  https://docs.google.com/spreadsheets/d/1iS8KGj6McNj2kLrDA8BxZrY2kKDlllpzuJcUZSMGPWw/edit?usp=sharing
+  https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?usp=sharing
+  https://docs.google.com/spreadsheets/d/1nwSfKzSkDBgheB2o0eEgAyROGs-0NgCAh-sBtsu7NpQ/edit?gid=1333201137#gid=1333201137

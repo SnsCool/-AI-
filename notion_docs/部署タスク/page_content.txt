@@ -1,7 +1,7 @@
 # 部署タスク
 
 Notion URL: https://www.notion.so/308f3b0fba8580e9b82edde5c7574750
-同期日時: 2026-03-23T15:39:43+09:00
+同期日時: 2026-04-02T21:34:59+09:00
 
 ---
 
@@ -11,6 +11,7 @@ Notion URL: https://www.notion.so/308f3b0fba8580e9b82edde5c7574750
   タスク一覧
   期限未記入
   タスク一覧
+  営業分析ツール開発
   ▼NotebookLM
   https://notebooklm.cloud.google.com/global/notebook/7773482f-c748-439c-95b9-7beb2b94d811?project=307374576318
   期限超過
