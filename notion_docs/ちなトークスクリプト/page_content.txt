@@ -1,7 +1,7 @@
 # ちなトークスクリプト
 
-Notion URL: https://www.notion.so/330f3b0fba8580ca90b8f458622fbc46
-同期日時: 2026-03-27T13:12:29+09:00
+Notion URL: https://www.notion.so/336f3b0fba8581c4a91bd9ad2a80d156
+同期日時: 2026-04-02T13:07:21+09:00
 
 ---
 
