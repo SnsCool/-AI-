@@ -1,7 +1,7 @@
 # CS部
 
 Notion URL: https://www.notion.so/CS-1c3f3b0fba858046b33edfc3c5d8050f
-同期日時: 2026-04-02T00:41:53+09:00
+同期日時: 2026-04-03T18:26:12+09:00
 
 ---
 
@@ -15,7 +15,11 @@ Notion URL: https://www.notion.so/CS-1c3f3b0fba858046b33edfc3c5d8050f
     オン会進行マニュアル 
     グルコン立ち会いマニュアル 
     🆕26年3月〜入学式マニュアル 
-    ◾️社内イベント
+    ◾️Levelaイベント
+    社外イベント
+    採用イベント
+    社内会議
+    社内イベント
     ◾️SnsClubイベント
     通常オフ会
     ジャンル特化オフ会
@@ -24,7 +28,6 @@ Notion URL: https://www.notion.so/CS-1c3f3b0fba858046b33edfc3c5d8050f
     イベント制作について
     経費管理
     問い合わせ用
-    採用イベント
     🚩その他
     SnsClub新カリキュラム  
 過去データ

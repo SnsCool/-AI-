@@ -1,7 +1,7 @@
 # 添削依頼フロー
 
 Notion URL: https://www.notion.so/333f3b0fba858023aea9c44169c89dec
-同期日時: 2026-04-01T21:34:20+09:00
+同期日時: 2026-04-03T18:27:59+09:00
 
 ---
 
@@ -12,9 +12,9 @@ Notion URL: https://www.notion.so/333f3b0fba858023aea9c44169c89dec
 ┗添削依頼が遅れそうな場合、事前の共有、いつまでに送ることができるかのご報告をお願いします！
 ※投稿直前での依頼だと、FBができずそのままの投稿になる可能性があるのでご了承ください！
 ② 添削依頼の提出方法
-必ず「担当マネージャー（MG）」をメンションすること。
+必ずDiscordで「担当マネージャー」をメンションすること。
 数日分をまとめて依頼するのもOKです！
-Google Driveに自分のフォルダを作成し画像を格納し、リンクをお送りください！
+Google Driveに自分のフォルダを作成し画像を格納し、フォルダリンクをお送りください！
 ┗https://drive.google.com/drive/folders/1s0XGT2uVDjILxP95vZmgnyESAKJDTqCx?usp=sharing
 例）
 ③ 添削依頼の文章テンプレート
