@@ -1,7 +1,7 @@
 # 【アフィリエイトMG】マニュアル 
 
 Notion URL: https://www.notion.so/MG-333f3b0fba85804db979d6148455910e
-同期日時: 2026-04-02T18:31:13+09:00
+同期日時: 2026-04-03T13:05:19+09:00
 
 ---
 
@@ -11,6 +11,9 @@ Notion URL: https://www.notion.so/MG-333f3b0fba85804db979d6148455910e
 ┗シート作成
 1on1MTGの録画格納
 https://drive.google.com/drive/folders/1NE4IBf6Af-N74MxxWRaRa5slu4bEMqyy?usp=drive_link
+ローンチ3〜4週間前に1on1面談
+┗課題を行ってもらう。
+ストーリーズ教育開始前に2回目1on1面談
 アフィ面談ヒアリングシート
 アフィ繋がれてからの流れ
 アフィ繋がれたら1通目
@@ -30,6 +33,8 @@ Zoom ミーティングに参加する
   https://us05web.zoom.us/j/8989797996?pwd=QUhUVElUcGRHUlF5WG5mK3R4NjN6Zz09&omn=85013180585
   ミーティング ID: 898 979 7996
 パスコード: LT3eJ5
+2026年4月
+2026年5月
 アフィ関わり方
 ローンチ期間：事前面談で大枠を決める（ローンチ開始の2週間前くらい）
 →2週間分の流れを決める。

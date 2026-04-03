@@ -1,7 +1,7 @@
 # ❓Discord未ログイン者への連絡
 
-Notion URL: https://www.notion.so/Discord-335f3b0fba858130a2a7f5d66d12c453
-同期日時: 2026-04-01T13:19:02+09:00
+Notion URL: https://www.notion.so/Discord-318f3b0fba85813c9dedcbe66773d4ae
+同期日時: 2026-04-03T13:00:30+09:00
 
 ---
 
