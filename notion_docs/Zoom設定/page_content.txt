@@ -1,0 +1,57 @@
+# Zoom設定
+
+Notion URL: https://www.notion.so/Zoom-337f3b0fba8580579ec9d511b6947cd8
+同期日時: 2026-04-03T21:24:41+09:00
+
+---
+
+STEP 1：Zoomマーケットプレイスにログイン
+marketplace.zoom.us 　←このままURLに貼り付けするとアクセスできます
+右上「Sign In」→ 自分のZoomアカウントでログイン
+STEP 2：アプリを新規作成
+※aあ　のマークを押して英語にしておくと画像が英語なので分かりやすいです。
+右上「Develop」→「Build App」をクリック
+アプリタイプ一覧から 「Server-to-Server OAuth　App」 を選択して右下のCreateをクリック
+Name（アプリ名）を入力してCreateをクリック
+※アプリ名はCOACHING_AUTO で統一
+下の画面が出てくるので、3個コピーしますが、下記4項目を最後にはるなさんに送付するので、
+↓４つの項目名↓　をメモ帳などにコピペしてはるなさんに送る用の項目名として使ってください。
+
+　　　　　　　　　　　　　　　　　　　送る見本↓
+
+自分の名前：
+
+Account ID：
+
+Client ID：
+
+Client Secret：
+
+　　　　　　　　　　　　　　　　メモなどにコピーが完了したらContinueをクリックする↑
+STEP 4：権限（Scopes）を追加
+左にあるメニューの「Scopes」をクリックする
+①cloud_recording:read:list_user_recordings:admin
+②cloud_recording:read:list_account_recordings:admin 
+③cloud_recording:read:meeting_transcript:admin
+検索→チェック入れる→Continueの横にSaved　が出たら再度検索、チェック入れる、で繰り返す
+上手くいかなかったら1個ずつContinueでもOK
+STEP 5：基本情報を入力
+アプリ作成後、左のメニューのinformationをクリックし、以下の項目を入力して「Continue」をクリック
+
+App Name：COACHING_AUTO
+Short Desc：Coaching session auto ription sync
+Company：Levela
+Name：自分の名前ローマ字で入力
+Email： 自分のメールアドレス
+STEP 5：アプリを有効化する
+左メニュー 「Activation」 をクリックして、
+「Your app is ready foractivation」という画面が表示されたら
+
+  「Activate your app」 ボタンをクリックすると下記緑のチェックの○になり、
+「Your app is activated on the account」 になればOK
+STEP 6：控えた情報をはるなさんにDMで送って、はるなさんからスタンプ✅が来たら完了です。
+
+  名前：（自分の名前）（共有アカウント名）
+  Account ID：
+  Client ID：
+  Client Secret：
