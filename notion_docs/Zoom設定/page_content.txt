@@ -1,7 +1,7 @@
 # Zoom設定
 
 Notion URL: https://www.notion.so/Zoom-337f3b0fba8580579ec9d511b6947cd8
-同期日時: 2026-04-03T21:24:41+09:00
+同期日時: 2026-04-04T00:25:24+09:00
 
 ---
 
@@ -13,7 +13,7 @@ STEP 2：アプリを新規作成
 右上「Develop」→「Build App」をクリック
 アプリタイプ一覧から 「Server-to-Server OAuth　App」 を選択して右下のCreateをクリック
 Name（アプリ名）を入力してCreateをクリック
-※アプリ名はCOACHING_AUTO で統一
+※アプリ名はCOACHING_AUTOで統一
 下の画面が出てくるので、3個コピーしますが、下記4項目を最後にはるなさんに送付するので、
 ↓４つの項目名↓　をメモ帳などにコピペしてはるなさんに送る用の項目名として使ってください。
 
@@ -47,7 +47,7 @@ STEP 5：アプリを有効化する
 左メニュー 「Activation」 をクリックして、
 「Your app is ready foractivation」という画面が表示されたら
 
-  「Activate your app」 ボタンをクリックすると下記緑のチェックの○になり、
+  「Activate your app」 ボタンをクリックすると下記緑のチェックの✅になり、
 「Your app is activated on the account」 になればOK
 STEP 6：控えた情報をはるなさんにDMで送って、はるなさんからスタンプ✅が来たら完了です。
 
