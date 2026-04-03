@@ -1,7 +1,7 @@
 # アフィ案件MTG
 
 Notion URL: https://www.notion.so/MTG-2c3f3b0fba8580a9aaeccd100260551a
-同期日時: 2026-04-02T21:33:02+09:00
+同期日時: 2026-04-04T03:26:51+09:00
 
 ---
 
@@ -327,9 +327,10 @@ https://drive.google.com/drive/folders/1g7b_TMB_tmKo-SnldJOWAgtom7tPsMO8
   3月ローンチ
     インサイト
 https://drive.google.com/drive/folders/1n8_SUoyde5wtOLUOiQwvMGDSGAsECpL9
-総リンククリック数：
+総リンククリック数：382件
 1日目：217件(ライブ）、2日目：88件、3日目：77件
 購入数：18件
+    購入率：4.7%
   1日目
   2日目
   3日目
@@ -355,8 +356,6 @@ https://www.canva.com/design/DAHBA19gcho/rJuXMZjj1LzqEKsw6saR3w/edit?utm_content
     １日目
     ２日目
     3日目
-    
-フィード
   インサイト
   35-45    50%
   女性8割
@@ -382,6 +381,8 @@ https://www.canva.com/design/DAHBA19gcho/rJuXMZjj1LzqEKsw6saR3w/edit?utm_content
   インサイト
 https://drive.google.com/drive/folders/1oWaosKh1FlKXT5x6D8zaz-26P-IkyEwC?usp=sharing
 総クリック数307件
+購入件数：16件
+  購入率：約5.2%
   アカウント　（おはなさん）
 年齢        18-24          1.9%
                 25-34  　   19.5%
@@ -403,10 +404,11 @@ https://drive.google.com/drive/folders/1P1OU8Sai2kLGQUyims6ajtOsPH5ph7ng
   3月ローンチ
     インサイト
 https://drive.google.com/drive/folders/1OtmjpA9XilxybjZbd2M1Zo-L-ZM91H85
-リンククリック数
+リンククリック数331件
+フィードコメント121件
     購入件数20件
+    購入率：約6.0％
   4月ローンチ
-アフィするかも
   アカウント　（ゆうとさん）
 年齢        18-24           30.3%
                 25-34  　   30.2%
@@ -431,6 +433,7 @@ https://drive.google.com/drive/folders/1OtmjpA9XilxybjZbd2M1Zo-L-ZM91H85
     https://drive.google.com/drive/folders/1ffkKtTg25hAfsfCxt5NauDHPlQd9bCx9
   リンククリック数
   購入件数11件
+アフィするかも
   年齢        
   18-24           0.5%
 25-34  　   10.8%

@@ -1,7 +1,7 @@
 # あお⌇夫も沼るラクうま健康レシピ
 
 Notion URL: https://www.notion.so/2cff3b0fba8580c995c0eb8f5ab1f6f0
-同期日時: 2026-03-22T21:16:31+09:00
+同期日時: 2026-04-04T03:26:53+09:00
 
 ---
 
@@ -25,3 +25,7 @@ https://drive.google.com/drive/folders/18EqNcxazuJvBJUeCR-bBEg9P7-h9NTJO
 購入率：4%
 3月ローンチ
 クリエイティブ
+インサイト
+  https://drive.google.com/drive/folders/1ffkKtTg25hAfsfCxt5NauDHPlQd9bCx9
+リンククリック数
+購入件数11件
