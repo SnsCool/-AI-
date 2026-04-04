@@ -1,7 +1,7 @@
 # ひなまま
 
 Notion URL: https://www.notion.so/2e7f3b0fba8580bfb38cc9ad370c50a8
-同期日時: 2026-04-04T03:23:46+09:00
+同期日時: 2026-04-04T12:58:29+09:00
 
 ---
 
@@ -14,10 +14,10 @@ Notion URL: https://www.notion.so/2e7f3b0fba8580bfb38cc9ad370c50a8
   当日フィード
 https://www.canva.com/design/DAHBA19gcho/rJuXMZjj1LzqEKsw6saR3w/edit?utm_content=DAHBA19gcho&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
   インサイト
-  コメント数：862件
-  リンククリック数：
-  購入数：96件
-  購入率：
+    コメント数：862件
+    リンククリック数：
+    購入数：96件
+    購入率：
 3月ローンチ
   １日目
   ２日目

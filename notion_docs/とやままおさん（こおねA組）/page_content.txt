@@ -1,13 +1,13 @@
 # とやままおさん（こおねA組）
 
 Notion URL: https://www.notion.so/A-337f3b0fba858028bf1ff814483ce933
-同期日時: 2026-04-04T03:25:02+09:00
+同期日時: 2026-04-04T12:56:20+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
-    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    [https://docs.google.com/spreadsheets/d/1OAsLSO6RV1-WmWPcimNkyHPZQjIsgxCROQd8N9I2uL4/edit?gid=0#gid=0]
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
