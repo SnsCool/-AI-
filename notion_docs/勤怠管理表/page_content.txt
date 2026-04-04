@@ -1,12 +1,15 @@
 # 勤怠管理表
 
 Notion URL: https://www.notion.so/29bf3b0fba85805cb248ef740b49333c
-同期日時: 2026-03-18T00:34:44+09:00
+同期日時: 2026-04-04T15:36:31+09:00
 
 ---
 
 👇こちらのスプシに作業時間を記入して申告してください！
 （自分のシートがない場合はFMをコピーして自分のシートを作成してください）
+2026年4月分
+  ディレクションメンバー：https://docs.google.com/spreadsheets/d/13Ce9-X5xb-z0Wbdi14tdztadGqT1z_3oC3a6i8c4LVU/edit?gid=1586073242#gid=1586073242
+  編集メンバー：https://docs.google.com/spreadsheets/d/1ovipAQFmMVFWoGrxsvEV-KdSWvWIJWBd3y5GdeEqx5U/edit?usp=sharing
 2026年3月分
   ディレクションメンバー：https://docs.google.com/spreadsheets/d/1l_uPwSU3BNRSSRvDkiDiSBHJBKiW-YhWbhTc2uMlVV4/edit?gid=1586073242#gid=1586073242
   編集メンバー：https://docs.google.com/spreadsheets/d/1ovipAQFmMVFWoGrxsvEV-KdSWvWIJWBd3y5GdeEqx5U/edit?usp=sharing

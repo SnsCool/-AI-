@@ -1,7 +1,7 @@
 # 新規サービスローンチ準備
 
-Notion URL: https://www.notion.so/335f3b0fba8581739b23ec8ea23356e5
-同期日時: 2026-04-01T15:46:46+09:00
+Notion URL: https://www.notion.so/338f3b0fba8581d08e5cdc053f2d50b1
+同期日時: 2026-04-04T15:36:35+09:00
 
 ---
 
