@@ -1,7 +1,7 @@
 # Zoom設定
 
 Notion URL: https://www.notion.so/Zoom-337f3b0fba8580579ec9d511b6947cd8
-同期日時: 2026-04-04T18:21:08+09:00
+同期日時: 2026-04-05T00:13:04+09:00
 
 ---
 
@@ -28,15 +28,20 @@ Client ID：
 Client Secret：
 
 　　　　　　　　　　　　　　　　メモなどにコピーが完了したらContinueをクリックする↑
-STEP 4：権限（Scopes）を追加
-左にあるメニューの「Scopes」をクリックする
+STEP 3：権限（Scopes）を追加
+左にあるメニューの「Scopes」をクリックするmarketplace.zoom.us
+下記の①～③の英字を下の赤枠にコピーペーストして、検索し、出てきたらチェックを入れる、を3回繰り返します。
+３項目にチェックを入れる形です
+
 ①cloud_recording:read:list_user_recordings:admin
 ②cloud_recording:read:list_account_recordings:admin 
 ③cloud_recording:read:meeting_transcript:admin
-検索をかけてみて、出ないなどの時はスペースが入っていたりしていると思いますので、消してみてください！
+検索をかけてみて、出ないなどの時は前後にスペースが入っていたりしていると思います。
+消してみてください。
+
 検索→チェック入れる→Continueの横にSaved　が出たら再度検索、チェック入れる、で繰り返す
 上手くいかなかったら1個ずつContinueでもOK
-STEP 5：基本情報を入力
+STEP 4：基本情報を入力
 アプリ作成後、左のメニューのinformationをクリックし、以下の項目を入力して「Continue」をクリック
 
 App Name：COACHING_AUTO

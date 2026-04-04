@@ -1,7 +1,7 @@
 # 春尾妙子
 
-Notion URL: https://www.notion.so/335f3b0fba858048af1ccb7b0d1df3bb
-同期日時: 2026-04-03T18:29:14+09:00
+Notion URL: https://www.notion.so/337f3b0fba8580f680decce12c679115
+同期日時: 2026-04-05T00:14:16+09:00
 
 ---
 
@@ -26,5 +26,5 @@ Notion URL: https://www.notion.so/335f3b0fba858048af1ccb7b0d1df3bb
 性格
 該当エリア：
 初回面談希望日程
-平日 夜（18時〜23時）,
+平日 夜（18時〜23時）
 日曜日 夜（18時〜23時）
