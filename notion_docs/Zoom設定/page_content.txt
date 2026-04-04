@@ -1,7 +1,7 @@
 # Zoom設定
 
 Notion URL: https://www.notion.so/Zoom-337f3b0fba8580579ec9d511b6947cd8
-同期日時: 2026-04-04T00:25:24+09:00
+同期日時: 2026-04-04T18:21:08+09:00
 
 ---
 
@@ -33,6 +33,7 @@ STEP 4：権限（Scopes）を追加
 ①cloud_recording:read:list_user_recordings:admin
 ②cloud_recording:read:list_account_recordings:admin 
 ③cloud_recording:read:meeting_transcript:admin
+検索をかけてみて、出ないなどの時はスペースが入っていたりしていると思いますので、消してみてください！
 検索→チェック入れる→Continueの横にSaved　が出たら再度検索、チェック入れる、で繰り返す
 上手くいかなかったら1個ずつContinueでもOK
 STEP 5：基本情報を入力

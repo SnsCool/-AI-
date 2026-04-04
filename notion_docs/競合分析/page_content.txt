@@ -1,7 +1,7 @@
 # 競合分析
 
 Notion URL: https://www.notion.so/255f3b0fba85805b8a2fc0dc5bded66c
-同期日時: 2026-03-25T13:02:49+09:00
+同期日時: 2026-04-04T18:19:43+09:00
 
 ---
 
@@ -60,8 +60,6 @@ Notion URL: https://www.notion.so/255f3b0fba85805b8a2fc0dc5bded66c
     →しっかり食べて筋肉や骨を残しつつ、なるべく体脂肪のみを燃やしていくことが重要
     代謝を上げ太りにくい体質を作ること
     → そのためにはカロリーを減らし食事量を落とすのではなく、同じカロリーでもその内訳が大切な要素
-https://diet.healthfit.co.jp/last-diet/
-https://beetto.jp/sukumane/page/top
   食生活完成プログラム THE LAST
   アカウント
     https://www.instagram.com/kota_sakano/
@@ -233,6 +231,8 @@ https://utlink.jp/l/d1YZqQLNT8Ym
   進捗をリアルタイムで鬼監視
   　・「やったか・やってないか」ではなく、達成度を数値で評価
   ・勉強が進んでいなければ即修正指示
+https://beetto.jp/sukumane/page/top
+https://diet.healthfit.co.jp/last-diet/
 メモ
 https://mariness.jp/blogs/mariness-program
 https://classpass.co.jp/plans
