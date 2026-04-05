@@ -1,7 +1,7 @@
 # Zoom設定
 
 Notion URL: https://www.notion.so/Zoom-337f3b0fba8580579ec9d511b6947cd8
-同期日時: 2026-04-05T13:04:22+09:00
+同期日時: 2026-04-05T15:38:17+09:00
 
 ---
 
@@ -46,7 +46,17 @@ Corching
 上手くいかなかったら1個ずつContinueでもOK
 
 ○スペースを消してみても出ない場合○
+2025/04/04以降に実施される方はこちらになる可能性が高いです。
+(ZOOM側の仕様が変わった？)
 
+先に＋Add Scopes　をクリックすると検索窓が開きます。
+下の検索窓が出たら、その中の🔎に検索する文字を入力します
+
+
+①cloud_recording:read:list_user_recordings:admin
+②cloud_recording:read:list_account_recordings:admin 
+③cloud_recording:read:meeting_transcript:admin
+Doneをクリックしたら下記の画面になりますが、チェックが入っていなかったら入れてContinueをクリック
 STEP 4：基本情報を入力
 アプリ作成後、左のメニューのinformationをクリックし、以下の項目を入力して「Continue」をクリック
 

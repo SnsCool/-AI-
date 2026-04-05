@@ -1,7 +1,7 @@
 # ゆりさん3月
 
 Notion URL: https://www.notion.so/3-31cf3b0fba85804d8afef9f7cab4202f
-同期日時: 2026-04-02T18:37:45+09:00
+同期日時: 2026-04-05T15:35:17+09:00
 
 ---
 
@@ -11,8 +11,6 @@ Notion URL: https://www.notion.so/3-31cf3b0fba85804d8afef9f7cab4202f
 ・気づき
 ・次の目標
 → 深掘りして「再現できる行動」まで落とす
-https://docs.google.com/spreadsheets/d/12H4qGvOwollEIiVOS-31mwAzJQdC03k-rSGjyTgSHA0/edit?gid=1382907759#gid=1382907759
-https://docs.google.com/spreadsheets/d/12lEvoKnQmqpT-tI3Ii8DUZg0SF0huQU7sbHeQWtUlLM/edit?gid=655045630#gid=655045630
 月12本（週3本）、他のMGのセッション動画をみて、1セッションにつき1つの学びをnotionにまとめる
   未達成。達成率50％（6本/月）
   週3という指標が曖昧でスケジュールに落とし込めなかったので
