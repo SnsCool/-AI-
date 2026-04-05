@@ -1,21 +1,21 @@
 # Zoom設定
 
 Notion URL: https://www.notion.so/Zoom-337f3b0fba8580579ec9d511b6947cd8
-同期日時: 2026-04-05T03:17:02+09:00
+同期日時: 2026-04-05T13:04:22+09:00
 
 ---
 
 STEP 1：Zoomマーケットプレイスにログイン
 marketplace.zoom.us 　←このままURLに貼り付けするとアクセスできます
-右上「Sign In」→ 自分のZoomアカウントでログイン
+
+右上「Sign In or サインアップ」→ 自分のZoomアカウントでログイン
 STEP 2：アプリを新規作成
 ※aあ　のマークを押して英語にしておくと画像が英語なので分かりやすいです。
 右上「Develop」→「Build App」をクリック
 アプリタイプ一覧から 「Server-to-Server OAuth　App」 を選択して右下のCreateをクリック
 Name（アプリ名）を入力してCreateをクリック
-※アプリ名はCOACHING_AUTOで統一
-下の画面が出てくるので、3個コピーしますが、下記4項目を最後にはるなさんに送付するので、
-↓４つの項目名↓　をメモ帳などにコピペしてはるなさんに送る用の項目名として使ってください。
+※アプリ名はCOACHING_AUTOで統一次から下の画面が出てくるので、3個コピーしますが、下記4項目を最後にはるなさんに送付するので、↓４つの項目名↓　をメモ帳などにコピペして
+はるなさんに送る用の項目名として使ってください。
 
 　　　　　　　　　　　　　　　　　　　送る見本↓
 
@@ -26,7 +26,7 @@ Account ID：
 Client ID：
 
 Client Secret：
-
+　　　　　　　　　　　　　　　　　　　　　　　　右のCopyをクリックしてコピーする
 　　　　　　　　　　　　　　　　メモなどにコピーが完了したらContinueをクリックする↑
 STEP 3：権限（Scopes）を追加
 左にあるメニューの「Scopes」をクリックする 
@@ -38,16 +38,20 @@ Corching
 ①cloud_recording:read:list_user_recordings:admin
 ②cloud_recording:read:list_account_recordings:admin 
 ③cloud_recording:read:meeting_transcript:admin
-検索をかけてみて、出ないなどの時は前後にスペースが入っていたりしていると思います。
+※検索をかけてみて、出ないなどの時は前後にスペースが入っていたりしていると思います。
 消してみてください。
+
 
 検索→チェック入れる→Continueの横にSaved　が出たら再度検索、チェック入れる、で繰り返す
 上手くいかなかったら1個ずつContinueでもOK
+
+○スペースを消してみても出ない場合○
+
 STEP 4：基本情報を入力
 アプリ作成後、左のメニューのinformationをクリックし、以下の項目を入力して「Continue」をクリック
 
 App Name：COACHING_AUTO
-Short Desc：Coaching session auto ription sync
+Short Description：Coaching session auto ription sync
 Company：Levela
 Name：自分の名前ローマ字で入力
 Email： 自分のメールアドレス
