@@ -1,7 +1,7 @@
 # 【アフィリエイトMG】マニュアル 
 
 Notion URL: https://www.notion.so/MG-333f3b0fba85804db979d6148455910e
-同期日時: 2026-04-03T13:05:19+09:00
+同期日時: 2026-04-05T09:50:13+09:00
 
 ---
 
@@ -33,6 +33,10 @@ Zoom ミーティングに参加する
   https://us05web.zoom.us/j/8989797996?pwd=QUhUVElUcGRHUlF5WG5mK3R4NjN6Zz09&omn=85013180585
   ミーティング ID: 898 979 7996
 パスコード: LT3eJ5
+3通目
+  こちらミーティング前にご記入よろしくお願いいたします！！
+  【事前準備シートタブ】
+  https://docs.google.com/spreadsheets/d/1ckk2iH9ydzgmNakeTA7rVWPLvnHs1UMKPnHHhj9SrQA/edit?usp=sharing
 2026年4月
 2026年5月
 アフィ関わり方
