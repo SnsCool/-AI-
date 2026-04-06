@@ -1,7 +1,7 @@
 # クレーム対応フロー
 
 Notion URL: https://www.notion.so/2e7f3b0fba858060ac51d99a09a6ffd9
-同期日時: 2026-03-31T13:06:52+09:00
+同期日時: 2026-04-06T21:28:49+09:00
 
 ---
 
@@ -12,6 +12,6 @@ Notion URL: https://www.notion.so/2e7f3b0fba858060ac51d99a09a6ffd9
   みおな・りお・はるかの3名をメンションして連絡
 ② クレーム対応中の方から返信が来た場合
 下記画像のようにLステップ内の「担当者の欄」に対応担当を入れますので、担当者のみをメンションして連絡
-https://frontend-vert-two-56.vercel.app/
-ID：youtube_channel@snscool.jp
-PW：snsclub20260322
+https://app.levela.co.jp/claim
+ID: levela.cs@team
+パスワード: 20260328levela
