@@ -1,7 +1,7 @@
 # 👩‍💻中途解約・クーオフの効率化の仕組み作り
 
-Notion URL: https://www.notion.so/337f3b0fba8580cab490c906d6153e69
-同期日時: 2026-04-03T13:02:34+09:00
+Notion URL: https://www.notion.so/33af3b0fba8580d99a0cec26f46b8dec
+同期日時: 2026-04-06T15:53:05+09:00
 
 ---
 
