@@ -1,7 +1,7 @@
 # Zoomについて
 
 Notion URL: https://www.notion.so/Zoom-338f3b0fba8580339369c321d11b943a
-同期日時: 2026-04-04T18:20:47+09:00
+同期日時: 2026-04-07T00:25:50+09:00
 
 ---
 
@@ -17,6 +17,10 @@ https://www.notion.so/Zoom-337f3b0fba8580579ec9d511b6947cd8?source=copy_link
   Client Secret：
 命名規則
 　　　　　　　　　　　　　👇コピペ用👇
+Zoom命名規則
+コミット：「コミット」
+旧特進：「旧特進」
+新特進：「新特進」
 上記までまず完了させましょう！！！！
 動画が格納される場所
 https:/www.notion.so/32ef3b0fba8580ae84c2ca6a94cd129e
