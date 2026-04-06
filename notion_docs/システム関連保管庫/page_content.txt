@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-04-01T21:31:58+09:00
+同期日時: 2026-04-06T13:06:39+09:00
 
 ---
 
@@ -82,7 +82,7 @@ SnsClub講義（GRITSTUDY）アプリ追加開発
     再現性
     運用・障害対応
     仕様・判断材料
-  配信も含めたアカウント作成
+  配信も含めたアカウント作成（info@levera.）
     AWSアカウント引き継ぎ済み（委託先が作成したアカウントのメールアドレスを変更、ただし、クレジットカード設定は別途必要）
     Apple Developer
     Google Play
@@ -247,6 +247,7 @@ CS マネジメントMTG
   万垢生徒と講師を見れるWebサイトが欲しい
     諸元データ
   GASだけで実装してみた（上にGASで作ったよ。が出ちゃう。）
+    https://script.google.com/macros/s/AKfycbxvOL8rsz-_272gLjiFI4zT1wbx9f9jZ3H7V6Luofky1iiFBYIVzvCf7dqZL2dfoRMW/exec
   Canvaの自動データ取得が難しい。APIを繋いでいるアカウントで対象のページを表示しないと権限が得られない。
   追加修正
     済：生徒の表示に「担当講師」欄を追加
