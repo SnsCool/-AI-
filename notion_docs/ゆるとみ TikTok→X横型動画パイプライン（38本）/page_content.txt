@@ -1,22 +1,22 @@
 # ゆるとみ TikTok→X横型動画パイプライン（38本）
 
 Notion URL: https://www.notion.so/TikTok-X-38-33af3b0fba85810f8e10e087077be1b7
-同期日時: 2026-04-07T00:23:20+09:00
+同期日時: 2026-04-07T13:02:54+09:00
 
 ---
 
 概要
 ソース: TikTok @yurutomi（ゆるっと富の話を）38本の縦型動画
-処理内容: TikTok動画 → YouTube元ネタ特定 → 横型切り抜き → Groq文字起こし → 日本語字幕 → X投稿文生成
-処理日: 2026-04-06
-成功率: 38/38（100%）
+処理内容: TikTok動画 → YouTube元ネタ特定（書き起こし照合） → 横型切り抜き → Groq文字起こし → 日本語字幕 → X投稿文生成
+処理日: 2026-04-06〜07
 字幕付き動画: ~/Workspace/x-content/yurutomi-pipeline/subtitled/
 横型クリップ: ~/Workspace/x-content/yurutomi-pipeline/clips/
-全38本一覧
+処理状況（最終更新: 2026-04-07 12:32）
+完了: 7/38 | OK: 3 | 低スコア/要確認: 4 | 未完了: 31（処理待ち27 + 失敗4）
 ファイル構成
 TikTokオリジナル: ~/Workspace/x-content/yurutomi-pipeline/tiktok/
-YouTube元動画: ~/Workspace/x-content/yurutomi-pipeline/youtube/
+YouTube元動画音声: ~/Workspace/x-content/yurutomi-pipeline/youtube/
 横型クリップ: ~/Workspace/x-content/yurutomi-pipeline/clips/
 字幕付き動画: ~/Workspace/x-content/yurutomi-pipeline/subtitled/
-処理結果JSON: ~/Workspace/x-content/yurutomi-pipeline/output/
 パイプラインState: ~/Workspace/x-content/yurutomi-pipeline/state.json
+ソースマッピング: ~/Workspace/x-content/yurutomi-pipeline/verified_sources.json

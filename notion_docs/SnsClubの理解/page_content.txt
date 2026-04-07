@@ -1,16 +1,13 @@
 # SnsClubの理解
 
 Notion URL: https://www.notion.so/SnsClub-29bf3b0fba85806a989af03e8f33c39c
-同期日時: 2026-03-14T12:51:38+09:00
+同期日時: 2026-04-07T13:12:20+09:00
 
 ---
 
 ◆SnsClubの提案資料
 ◆SnsClubの入学式資料
 ◆SnsClub 初投稿までの学習プログラム
-Untitled 
-【SnsClub】アカウント設計プログラム  
-【SnsClub】投稿スタータープログラム  
 ◆SnsClub 学習ロードマップ
 学習ロードマップ 
 ◆SnsClubポータル（学習サイト）
@@ -96,5 +93,5 @@ https://youtu.be/D_5dArUlJkM
 SnsClubスタッフ Portal  
 ◆卒業クラス制度
 🎓 SnsClub卒業後について 
-万垢以下からの万垢達成者リスト
+◆SnsClubの万垢実績
 ◆SnsClubラジオ（駒居さんラジオ）

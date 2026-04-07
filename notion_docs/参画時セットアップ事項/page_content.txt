@@ -1,0 +1,22 @@
+# 参画時セットアップ事項
+
+Notion URL: https://www.notion.so/33bf3b0fba85806f9559eecd56238485
+同期日時: 2026-04-07T13:03:04+09:00
+
+---
+
+ミチシルの公式LINEへのログイン
+  管理者へ以下情報を連携
+    フルネーム ローマ字：Nakatomi Tomohiro
+名前フルネーム：中富 智弘
+メールアドレス：hgu.kyokunishi.tohma@gmail.com
+  管理者から登録完了連絡があり次第、ログイン（パスワード設定も）
+  ログインできたら、こちらのページで自分のカレンダーの外部連携を行う
+https://manager.linestep.net/salon/174215/config/external_services
+    [sign in with Google]をタップ
+↓
+カレンダーID：hgu.kyokunishi.tohma@gmail.com
+予約枠：中富 智弘
+
+ZoomIDの連携
+  繰り返し使えるzoomリンクを管理者へ共有
