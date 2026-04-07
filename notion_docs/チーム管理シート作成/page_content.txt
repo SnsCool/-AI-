@@ -1,11 +1,11 @@
 # チーム管理シート作成
 
 Notion URL: https://www.notion.so/332f3b0fba858069b2e2fe87b76d8162
-同期日時: 2026-03-30T00:16:22+09:00
+同期日時: 2026-04-07T21:32:26+09:00
 
 ---
 
-https://docs.google.com/spreadsheets/d/1IxWM7vA0zQDfWJdlUSyfK_cpyGSGcwC5xJ3ig_oI4NQ/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1ujfwr6VXQx7RGOwpVvB6kjT4sQ_XImynS6C8UxhuFvE/edit?usp=sharing
 上記の管理シートのテンプレをコピーし自分のチームの管理シートを作成
 
 ①ファイル名は自分のチーム名に直す

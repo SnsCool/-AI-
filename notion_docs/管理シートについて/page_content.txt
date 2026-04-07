@@ -1,10 +1,11 @@
 # 管理シートについて
 
 Notion URL: https://www.notion.so/332f3b0fba8580668ecbf7184e837d65
-同期日時: 2026-03-30T00:13:54+09:00
+同期日時: 2026-04-07T21:32:25+09:00
 
 ---
 
+https://docs.google.com/spreadsheets/d/1ujfwr6VXQx7RGOwpVvB6kjT4sQ_XImynS6C8UxhuFvE/edit?usp=sharing
 管理シートは、生徒さんの変化を正確に把握するための重要なシートです。
 日々の数値だけでなく、体型や生活習慣の変化も含めて総合的に確認していきます。
 管理シートについては各講師が管理してください
