@@ -1,8 +1,9 @@
 # Discordはじめにのページ整える
 
-Notion URL: https://www.notion.so/Discord-335f3b0fba858164aeafea5cdc76b248
-同期日時: 2026-04-01T13:16:33+09:00
+Notion URL: https://www.notion.so/Discord-319f3b0fba858018bcbfef7b62a4ea68
+同期日時: 2026-04-07T15:49:21+09:00
 
 ---
 
-(コンテンツなし)
+SnsClubカレンダー追加
+SnsClubポータルブックマーク追加

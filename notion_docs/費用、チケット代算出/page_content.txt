@@ -1,7 +1,7 @@
 # 費用、チケット代算出
 
-Notion URL: https://www.notion.so/2bef3b0fba8580afa55ee7650aeb6b06
-同期日時: 2026-04-01T18:35:09+09:00
+Notion URL: https://www.notion.so/2bff3b0fba858148b745cd54fa7cf15c
+同期日時: 2026-04-07T15:47:50+09:00
 
 ---
 

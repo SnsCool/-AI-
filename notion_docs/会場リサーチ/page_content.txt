@@ -1,12 +1,11 @@
 # 会場リサーチ
 
-Notion URL: https://www.notion.so/2a9f3b0fba8581429617f4e60c2e97ec
-同期日時: 2026-04-01T18:35:00+09:00
+Notion URL: https://www.notion.so/2bff3b0fba8581b58b00c2eaaddf4535
+同期日時: 2026-04-07T15:47:54+09:00
 
 ---
 
-講師募集（人数制限かけない）
-講師数確定
-講師数からキャパ算出
-キャパから会場算出
-生徒募集
+TKPガーデンシティPREMIUM大阪駅前
+https://www.kashikaigishitsu.net/facilitys/gcp-osaka-ekimae/
+262㎡の部屋と、30㎡の部屋仮押さえ中。12/10期限。
+飲食物持ち込み不可。ケータリング注文可。
