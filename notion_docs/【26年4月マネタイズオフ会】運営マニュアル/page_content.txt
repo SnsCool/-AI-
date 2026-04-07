@@ -1,7 +1,7 @@
 # 【26年4月マネタイズオフ会】運営マニュアル 
 
 Notion URL: https://www.notion.so/26-4-335f3b0fba8580f3b707fbc44b703a94
-同期日時: 2026-04-07T21:34:07+09:00
+同期日時: 2026-04-08T00:38:30+09:00
 
 ---
 
@@ -40,7 +40,6 @@ https://tabelog.com/tokyo/A1303/A130301/13156935/
   受付QRコード（アンケートはLINE・スレッド送信のため不要）
 →会場の外3箇所にはる：
 投影スライド：⚠️変更中
-  file:///Users/kobayashimiyuu/offkai-slides.html
   https://canva.link/4un87mkuy3t9hx4
 生徒座席表：⚠️作成中
   https://docs.google.com/spreadsheets/d/1KDb1r3EKhyxOg2BGZHl5C4TE3-1xYioLAH4VGkcqrR4/edit?gid=339235057#gid=339235057

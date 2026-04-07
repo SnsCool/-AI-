@@ -1,7 +1,7 @@
 # 04.担当クラスにアーカイブ・メッセージ送信する
 
 Notion URL: https://www.notion.so/04-332f3b0fba8580ef9e49e9ef3ecf3871
-同期日時: 2026-03-30T00:14:11+09:00
+同期日時: 2026-04-08T00:41:15+09:00
 
 ---
 
@@ -23,6 +23,9 @@ https://docs.google.com/spreadsheets/d/1IxWM7vA0zQDfWJdlUSyfK_cpyGSGcwC5xJ3ig_oI
 アーカイブURL
 ※管理シートは自身のチーム用にコピーして作成しましょう
 日付、曜日を添削開始日からに変更する
+
+管理シートのリンクを添付するときは必ず
+リンクを知っている人全員・編集者にしましょう！
 アーカイブはファイルなうですぐ送るかYouTubeやGoogleドライブに格納してチームチャットに送る
 ファイルなう
 https://d.kuku.lu/index.php

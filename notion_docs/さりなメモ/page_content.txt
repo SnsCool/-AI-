@@ -1,7 +1,7 @@
 # さりなメモ
 
 Notion URL: https://www.notion.so/337f3b0fba8580afa615cef7318c5a94
-同期日時: 2026-04-07T21:32:18+09:00
+同期日時: 2026-04-08T00:42:32+09:00
 
 ---
 
@@ -90,3 +90,5 @@ https://docs.google.com/spreadsheets/d/1IxWM7vA0zQDfWJdlUSyfK_cpyGSGcwC5xJ3ig_oI
 体重計を自社で出して連動できるように
 献立作成してくれるアプリ
 冷蔵庫の中身だけで作成できるレシピ提案（AI）
+https://www.instagram.com/ren_kozasa_eiyo?igsh=bXBraWhicm00Ymgx
+このかたの栄養講座受けたい
