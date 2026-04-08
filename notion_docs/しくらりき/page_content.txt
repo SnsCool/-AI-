@@ -1,7 +1,7 @@
 # しくらりき
 
 Notion URL: https://www.notion.so/33cf3b0fba858149bcb0f753b227ccb8
-同期日時: 2026-04-09T00:37:01+09:00
+同期日時: 2026-04-09T06:22:57+09:00
 
 ---
 
@@ -41,4 +41,5 @@ Notion URL: https://www.notion.so/33cf3b0fba858149bcb0f753b227ccb8
 └ プロフィール写真の仮置き提出（後日改めて撮影）。
 └ 4月10日にSNSアカウント（Instagram、TikTok、YouTube）を開設し、URLをDiscordに掲載。
 └ 4月11日から1日30分、リール台本の文字起こしと分析を行う。
+  セッションデータ
   セッションデータ
