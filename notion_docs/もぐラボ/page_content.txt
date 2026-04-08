@@ -1,7 +1,7 @@
 # もぐラボ
 
 Notion URL: https://www.notion.so/236f3b0fba858038be24c05403ad1593
-同期日時: 2026-04-07T15:41:51+09:00
+同期日時: 2026-04-08T13:08:02+09:00
 
 ---
 
@@ -281,6 +281,7 @@ Notion URL: https://www.notion.so/236f3b0fba858038be24c05403ad1593
   誰でも講師になれるマニュアル
   画像・文章から確実に近い栄養価計算できるようなシステム
   1on1（初回の）導入するか検討（つきさん情報共有してもらう）
+1on1動画 
   ベルラスの講師まとめ方聞く（くりこさん）
   週次MTGの資料をなくす？
   New page 旧資料
@@ -296,6 +297,12 @@ https://docs.google.com/spreadsheets/d/1Ir9F300j1gtCD-wkHv5ywWi1Uj9OjN97/edit?us
 https://docs.google.com/spreadsheets/d/1IxWM7vA0zQDfWJdlUSyfK_cpyGSGcwC5xJ3ig_oI4NQ/edit?usp=sharing
     毎日配信のコンテンツ作成と配信
     画像・文章から確実に近い栄養価計算できるようなシステム
+  今後やっていきたいこと
+  体重計を自社で出して連動できるように
+  献立作成してくれるアプリ
+  冷蔵庫の中身だけで作成できるレシピ提案（AI）
+  https://www.instagram.com/ren_kozasa_eiyo?igsh=bXBraWhicm00Ymgx
+このかたの栄養講座受けたい
     ここにやったこと、やること入れていく（優先順位低）
     1on1ヒアリングシート作成
     アフィリエイト終了後の振り返り1人1人まとめていく
@@ -344,7 +351,13 @@ https://docs.google.com/spreadsheets/d/1IxWM7vA0zQDfWJdlUSyfK_cpyGSGcwC5xJ3ig_oI
   マーケ
     期間 : 4/17~4/19
     目標：1200リスト　40成約(80)
-    アフィリエイター数：
+    アフィリエイター数：4人
+    がくさん
+    はなよさん
+    あさみさん
+    れいさん
+    てぃーぞー
+    さりな
     訴求：「自分専用のトリセツ（タイプ診断動画）がもらえる！」
     ┗動画でタイプを知り、タイプ別1週間の献立表ももらえる✨
     流れ
