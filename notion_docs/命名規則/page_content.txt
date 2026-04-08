@@ -1,10 +1,11 @@
 # 命名規則
 
 Notion URL: https://www.notion.so/338f3b0fba8580c1824fefde4ccaaf8a
-同期日時: 2026-04-08T00:41:16+09:00
+同期日時: 2026-04-08T21:29:50+09:00
 
 ---
 
+命名規則生成ページ👉：https://lavelacoaching.github.io/naming-rule-generator/
 Excelの命名規則自動計算ファイルです：緑の欄に入力、青い欄に自動で命名規則が出ます
 
 ○スプシで使用する場合はこちら
