@@ -1,8 +1,15 @@
 # Untitled
 
-Notion URL: https://www.notion.so/ef5f3b0fba8583b791dc013ef8009bb3
-同期日時: 2026-04-08T00:41:43+09:00
+Notion URL: https://www.notion.so/338f3b0fba8580c1824fefde4ccaaf8a
+同期日時: 2026-04-08T15:43:53+09:00
 
 ---
 
-(コンテンツなし)
+命名規則生成ページ👉：https://lavelacoaching.github.io/naming-rule-generator/
+Excelの命名規則自動計算ファイルです：緑の欄に入力、青い欄に自動で命名規則が出ます
+
+○スプシで使用する場合はこちら
+https://docs.google.com/spreadsheets/d/1JzTREQIuEnZ4yNvTlPXcdm3lwObNaStSv1GzM22PbEA/edit?usp=sharing
+○DLしていただいてExcelで編集を有効にして使える場合はこちら　保護かけています
+※「コミット」「旧特進」「新特進」「特進」の４種類に変更済_2026/04/06更新
+👇コピペ用👇
