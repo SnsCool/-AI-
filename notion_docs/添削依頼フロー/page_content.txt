@@ -1,11 +1,13 @@
 # 添削依頼フロー
 
 Notion URL: https://www.notion.so/333f3b0fba858023aea9c44169c89dec
-同期日時: 2026-04-09T18:38:51+09:00
+同期日時: 2026-04-09T21:37:05+09:00
 
 ---
 
 スムーズにFBを送らせていただくため、下記の添削フローをご確認ください！
+  【添削依頼フロー説明動画はこちら👇】
+  https://www.loom.com/share/df985ff476884469901ef80f71685ff0
 ①提出期限
 投稿予定日の前日 23:59 まで
 例：4月2日に投稿する場合は、4月1日の23:59までに提出。
@@ -14,7 +16,7 @@ Notion URL: https://www.notion.so/333f3b0fba858023aea9c44169c89dec
 ② 添削依頼の提出方法
 必ずDiscordで「担当マネージャー」をメンションすること。
 数日分をまとめて依頼するのもOKです！
-Google Driveに自分のフォルダを作成し画像を格納し、フォルダリンクをお送りください！
+Google Driveに自分のフォルダを作成し画像を格納、もしくはDiscordに画像直貼りで提出
 ┗https://drive.google.com/drive/folders/1s0XGT2uVDjILxP95vZmgnyESAKJDTqCx?usp=sharing
 ③ 添削依頼の文章テンプレート
 こちらのテンプレートに沿って添削依頼をしてください！

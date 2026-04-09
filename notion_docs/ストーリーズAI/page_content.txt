@@ -1,12 +1,14 @@
 # ストーリーズAI
 
 Notion URL: https://www.notion.so/AI-318f3b0fba8580c6af9efa35d3df14d2
-同期日時: 2026-03-31T18:34:18+09:00
+同期日時: 2026-04-09T21:37:53+09:00
 
 ---
 
   ストーリーズAI
   https://gemini.google.com/gem/1vkJqB6xcRpEuZLPVQdjapKc4aQn7KE24?usp=sharing
+  【使い方説明動画👇】
+  https://www.loom.com/share/7b76fa5080ca477d968c40d50d3aaa0f
 1. このAIでできること
 スマホで5秒で読める、テンポの良いストーリーズ原稿の作成。
 「日常のつぶやき」から「ダイエットの教育」へ自然に繋げるブリッジ。
