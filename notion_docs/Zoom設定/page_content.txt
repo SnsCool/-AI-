@@ -1,12 +1,12 @@
 # Zoom設定
 
 Notion URL: https://www.notion.so/Zoom-337f3b0fba8580579ec9d511b6947cd8
-同期日時: 2026-04-08T00:41:17+09:00
+同期日時: 2026-04-09T13:00:57+09:00
 
 ---
 
 STEP 1：Zoomマーケットプレイスにログイン
-marketplace.zoom.us 　←このままURLに貼り付けするとアクセスできます
+marketplace.zoom.us ←このままURLに貼り付けするとアクセスできます
 
 右上「Sign In or サインアップ」→ 自分のZoomアカウントでログイン
 STEP 2：アプリを新規作成

@@ -1,7 +1,7 @@
 # / 通常セッション_
 
-Notion URL: https://www.notion.so/_-22cf3b0fba85829b927281dedcdb79fd
-同期日時: 2026-04-09T03:37:11+09:00
+Notion URL: https://www.notion.so/_-33df3b0fba8580919e3fc8e600491e25
+同期日時: 2026-04-09T13:01:33+09:00
 
 ---
 
@@ -24,7 +24,7 @@ Notion URL: https://www.notion.so/_-22cf3b0fba85829b927281dedcdb79fd
 累計　　投稿目標
 累計　　アクション目標
 講義日程　　第　回：　/　（）　0:00~　
-セッション日程　第　回：　/　（）　0:00~
+セッション日程　第　２回：　4/23　（木）　11:50~
 講師との1on1
 特別講義の出席
 SnsClubラジオ
