@@ -1,7 +1,7 @@
 # 添削依頼フロー
 
 Notion URL: https://www.notion.so/333f3b0fba858023aea9c44169c89dec
-同期日時: 2026-04-03T18:27:59+09:00
+同期日時: 2026-04-09T18:38:51+09:00
 
 ---
 
@@ -16,10 +16,9 @@ Notion URL: https://www.notion.so/333f3b0fba858023aea9c44169c89dec
 数日分をまとめて依頼するのもOKです！
 Google Driveに自分のフォルダを作成し画像を格納し、フォルダリンクをお送りください！
 ┗https://drive.google.com/drive/folders/1s0XGT2uVDjILxP95vZmgnyESAKJDTqCx?usp=sharing
-例）
 ③ 添削依頼の文章テンプレート
 こちらのテンプレートに沿って添削依頼をしてください！
   ●メンション： @（マネージャー名）
 ●投稿予定日： 月 日　時投稿予定
   ●相談・気になる点：（例：3枚目の文字量が多い気がします / 最後の引きが弱くないか不安です）
-●Canvaリンク： [ここにURLを貼る]
+●画像を貼る
