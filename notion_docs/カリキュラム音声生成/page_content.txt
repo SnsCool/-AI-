@@ -1,7 +1,7 @@
 # カリキュラム音声生成
 
-Notion URL: https://www.notion.so/335f3b0fba8581ecaccfd24b75ff5b03
-同期日時: 2026-04-01T13:16:19+09:00
+Notion URL: https://www.notion.so/33df3b0fba858022bae3c4a28e7783f5
+同期日時: 2026-04-09T15:50:07+09:00
 
 ---
 

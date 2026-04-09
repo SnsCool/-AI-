@@ -1,11 +1,11 @@
 # Zoom自動連携について
 
 Notion URL: https://www.notion.so/Zoom-337f3b0fba858075bfdcf6c5562591ad
-同期日時: 2026-04-08T15:44:14+09:00
+同期日時: 2026-04-09T15:49:58+09:00
 
 ---
 
     Zoomで実施したセッションデータの
     Zoomアカウントの設定および情報取得
     変換サイトから作成可能です👉：https://lavelacoaching.github.io/naming-rule-generator/
-    公開準備中👉：
+    公開準備中👉：https://lavelacoaching.github.io/zoom-account-manager/

@@ -1,7 +1,7 @@
 # 4月9日_丹羽真梨菜 
 
 Notion URL: https://www.notion.so/4-9-_-33cf3b0fba8580dca3e5dfeb74f372c6
-同期日時: 2026-04-09T13:02:36+09:00
+同期日時: 2026-04-09T15:45:54+09:00
 
 ---
 
@@ -13,6 +13,7 @@ Notion URL: https://www.notion.so/4-9-_-33cf3b0fba8580dca3e5dfeb74f372c6
 https://docs.google.com/spreadsheets/d/1LUeQEETYjS8ekzspwu6q3SYhL150CYv3/edit?usp=drivesdk&ouid=105122943315702746389&rtpof=true&sd=true【体重・体脂肪計算】
 KSF・転用AP
 KSFとは
+  KSFは「Key Success Factors（キーサクセスファクター）」の略で、日本語では「重要成功要因」と訳されます。KSFは、成功のための重要要因
 転用AP　（アクションプラン）とは
   KSFを受けて、再現性を持って取り組めるアクションプランを書き出してください
 書き方の例
@@ -68,3 +69,5 @@ KFF①こんたにちづる：週末に予定が多くなり、体重増加。
 その他共有・提案
 他講師に共有しておきたいこと
 ↓下記項目キックオフミーティングのスライドに足してみます！
+https://canva.link/q89d7gd2rmnf2jd
+↑【26】にあります！
