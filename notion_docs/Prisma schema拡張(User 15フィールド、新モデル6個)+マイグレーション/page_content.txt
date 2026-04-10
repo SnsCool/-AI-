@@ -1,0 +1,8 @@
+# Prisma schema拡張(User 15フィールド、新モデル6個)+マイグレーション
+
+Notion URL: https://www.notion.so/Prisma-schema-User-15-6-33ef3b0fba858104a0abfa558efe1959
+同期日時: 2026-04-11T06:18:15+09:00
+
+---
+
+(コンテンツなし)
