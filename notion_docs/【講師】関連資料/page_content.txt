@@ -1,10 +1,12 @@
 # 【講師】関連資料
 
 Notion URL: https://www.notion.so/307f3b0fba8580bd9cd7dfa9581e0d4f
-同期日時: 2026-04-11T00:28:39+09:00
+同期日時: 2026-04-12T00:18:50+09:00
 
 ---
 
+  Weekly会議の目的
+  進捗を共有し、KSF・KFF・アクションプランを洗い出すことで、誰が、いつまでに、何をするのか？を決めることが会議の目的です。
 講師関連
   1期生
   2期生
@@ -68,6 +70,7 @@ https://us05web.zoom.us/j/8989797996?pwd=QUhUVElUcGRHUlF5WG5mK3R4NjN6Zz09&omn=85
     🎥 第1回 キックオフMT
     https://drive.google.com/file/d/1sdgPQfoesGQbjEK79hWyIOh06jvVB8Ce/view?usp=drivesdk
     🎥 第2回 週次MT
+    https://drive.google.com/file/d/1eZ3cvmdvkLilfwZyFdR0MfEWiSqAR6wq/view?usp=drivesdk
     🎥 第3回 週次MT
     🎥 第4回 週次MT
     🎥 第5回 週次MT
@@ -91,6 +94,22 @@ https://us05web.zoom.us/j/8989797996?pwd=QUhUVElUcGRHUlF5WG5mK3R4NjN6Zz09&omn=85
     🎥 第5回 グルコン
     🎥 第6回 グルコン
     🎥 第7回 グルコン（最終）
+    ▼ 講義アーカイブ格納庫
+    🎥 第1回 キックオフMT
+    🎥 第2回 週次MT
+    🎥 第3回 週次MT
+    🎥 第4回 週次MT
+    🎥 第5回 週次MT
+    🎥 第6回 週次MT
+    🎥 第7回 週次MT（最終）
+    ▼ 講義アーカイブ格納庫
+    🎥 第1回 キックオフMT　
+    🎥 第2回 グルコン　
+    🎥 第3回 グルコン
+    🎥 第4回 グルコン
+    🎥 第5回 グルコン
+    🎥 第6回 グルコン
+    🎥 第7回 週次MT（最終）
     1通目
     ご参加ありがとうございます！
     ◯チームの皆さん、初めまして！講師の◯◯です！
@@ -2623,23 +2642,11 @@ https://docs.google.com/spreadsheets/d/1Ir9F300j1gtCD-wkHv5ywWi1Uj9OjN97/edit?us
   2月：20名（さりな15名・てぃーぞー5名）⭕️
   3月：20名（さりな10名・まりな5名・みくよ5名）⭕️
   4月：20名（さりな5名・まりな5名・つき5名・くりこ5名）⭕️
-  5月：30名（さりな10名・まりな5名・つき5名・くりこ5名・はなよ5名）
-  6月：30名（さりな10名・まりな5名・つき5名・くりこ5名・はなよ5名）
-  キャパ
-  さりな：毎月10名・MAX30名
-  まりな：毎月5名・MAX15名
-  つき：初月5名・
-  みくよ：初月5名
-  はなよ：初月5名
-  ひなた：初月5名・MAX15名
-  くりこ：初月5名
-  まなさん：初月5名
-  予定
-  1〜3月：各月20名集客、MAX60名稼働、70〜90名稼働が可能な体制を構築。
-  4〜6月：各月30名集客、MAX90名稼働、100〜120名稼働が可能な体制を構築。
-  7〜9月：各月40名集客、MAX120名稼働、130〜150名稼働が可能な体制を構築。
-  10〜12月：各月50名集客、MAX150名稼働を1月に叶える。
-  →これで年商7,800万。上位プランとサブスクを組み込めば1億到達レベル。
+  5月：40名（さりな10名・つき6名・くりこ6名・はな6名・のの6名・まな6名）
+  6月：60名（さりな10名・まりな5名・つき5名・くりこ5名・はなよ5名 ・のの5名・まな5名）
+  7月：80名（さりな10名・まりな5名・つき5名・くりこ5名・はなよ5名 ・のの5名・まな5名）
+  講師採用候補
+  ひろみ・きよと・あき
   https://docs.google.com/spreadsheets/d/1iS8KGj6McNj2kLrDA8BxZrY2kKDlllpzuJcUZSMGPWw/edit?usp=sharing
   https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?usp=sharing
   https://docs.google.com/spreadsheets/d/1nwSfKzSkDBgheB2o0eEgAyROGs-0NgCAh-sBtsu7NpQ/edit?gid=1333201137#gid=1333201137
