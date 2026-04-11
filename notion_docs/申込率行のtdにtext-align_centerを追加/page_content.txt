@@ -1,0 +1,8 @@
+# 申込率行のtdにtext-align:centerを追加
+
+Notion URL: https://www.notion.so/td-text-align-center-33ef3b0fba8581d98bb8f081f10388d7
+同期日時: 2026-04-11T09:48:09+09:00
+
+---
+
+(コンテンツなし)
