@@ -1,7 +1,7 @@
 # アーカイブ格納部屋
 
 Notion URL: https://www.notion.so/2f8f3b0fba8580c78d97c5b69a9d8933
-同期日時: 2026-04-08T00:41:14+09:00
+同期日時: 2026-04-11T15:32:44+09:00
 
 ---
 
@@ -67,6 +67,7 @@ https://us05web.zoom.us/j/8989797996?pwd=QUhUVElUcGRHUlF5WG5mK3R4NjN6Zz09&omn=85
   🎥 第1回 キックオフMT
   https://drive.google.com/file/d/1sdgPQfoesGQbjEK79hWyIOh06jvVB8Ce/view?usp=drivesdk
   🎥 第2回 週次MT
+  https://drive.google.com/file/d/1eZ3cvmdvkLilfwZyFdR0MfEWiSqAR6wq/view?usp=drivesdk
   🎥 第3回 週次MT
   🎥 第4回 週次MT
   🎥 第5回 週次MT
@@ -90,3 +91,19 @@ https://us05web.zoom.us/j/8989797996?pwd=QUhUVElUcGRHUlF5WG5mK3R4NjN6Zz09&omn=85
   🎥 第5回 グルコン
   🎥 第6回 グルコン
   🎥 第7回 グルコン（最終）
+  ▼ 講義アーカイブ格納庫
+  🎥 第1回 キックオフMT
+  🎥 第2回 週次MT
+  🎥 第3回 週次MT
+  🎥 第4回 週次MT
+  🎥 第5回 週次MT
+  🎥 第6回 週次MT
+  🎥 第7回 週次MT（最終）
+  ▼ 講義アーカイブ格納庫
+  🎥 第1回 キックオフMT　
+  🎥 第2回 グルコン　
+  🎥 第3回 グルコン
+  🎥 第4回 グルコン
+  🎥 第5回 グルコン
+  🎥 第6回 グルコン
+  🎥 第7回 週次MT（最終）

@@ -1,7 +1,7 @@
 # 2期生：Bチーム
 
 Notion URL: https://www.notion.so/2-B-328f3b0fba8580c1bdc7cedb7bd4ae3e
-同期日時: 2026-03-29T21:18:46+09:00
+同期日時: 2026-04-11T15:32:45+09:00
 
 ---
 
@@ -9,6 +9,7 @@ Notion URL: https://www.notion.so/2-B-328f3b0fba8580c1bdc7cedb7bd4ae3e
 🎥 第1回 キックオフMT
 https://drive.google.com/file/d/1sdgPQfoesGQbjEK79hWyIOh06jvVB8Ce/view?usp=drivesdk
 🎥 第2回 週次MT
+https://drive.google.com/file/d/1eZ3cvmdvkLilfwZyFdR0MfEWiSqAR6wq/view?usp=drivesdk
 🎥 第3回 週次MT
 🎥 第4回 週次MT
 🎥 第5回 週次MT
