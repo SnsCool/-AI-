@@ -1,9 +1,9 @@
 # 05.Zoom背景をCanvaでコピーして作成する
 
 Notion URL: https://www.notion.so/05-Zoom-Canva-330f3b0fba8580f5a53fc8e7da5f525a
-同期日時: 2026-03-27T21:25:10+09:00
+同期日時: 2026-04-12T15:42:49+09:00
 
 ---
 
 もぐラボ業務を行う際には背景に設定する。
-（まだ未完成なので背景は自由で大丈夫です🙌）
+https://www.canva.com/design/DAHF4RmLmTI/3lPJZKr_2PCT7n8QOa_ANg/edit
