@@ -1,0 +1,8 @@
+# zoom_client.pyをスプシ直接読み込み（フォールバックJSON）に変更
+
+Notion URL: https://www.notion.so/zoom_client-py-JSON-340f3b0fba858125b9f9c4e954c3ca59
+同期日時: 2026-04-12T18:24:03+09:00
+
+---
+
+(コンテンツなし)

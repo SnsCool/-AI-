@@ -1,0 +1,8 @@
+# Zoom認証をスプシ直接読込に変更
+
+Notion URL: https://www.notion.so/Zoom-340f3b0fba85811ebbdee9dd5890ca3f
+同期日時: 2026-04-12T18:26:07+09:00
+
+---
+
+(コンテンツなし)

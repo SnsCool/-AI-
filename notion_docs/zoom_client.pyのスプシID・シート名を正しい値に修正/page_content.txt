@@ -1,0 +1,8 @@
+# zoom_client.pyのスプシID・シート名を正しい値に修正
+
+Notion URL: https://www.notion.so/zoom_client-py-ID-340f3b0fba85816eae83efae00cc99e6
+同期日時: 2026-04-12T18:26:06+09:00
+
+---
+
+(コンテンツなし)

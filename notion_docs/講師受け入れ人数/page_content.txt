@@ -1,7 +1,7 @@
 # 講師受け入れ人数
 
 Notion URL: https://www.notion.so/307f3b0fba8580308ffccbe5ae5b97a9
-同期日時: 2026-04-12T00:17:21+09:00
+同期日時: 2026-04-12T18:24:16+09:00
 
 ---
 
@@ -14,6 +14,20 @@ Notion URL: https://www.notion.so/307f3b0fba8580308ffccbe5ae5b97a9
 7月：80名（さりな10名・まりな5名・つき5名・くりこ5名・はなよ5名 ・のの5名・まな5名）
 講師採用候補
 ひろみ・きよと・あき
-https://docs.google.com/spreadsheets/d/1iS8KGj6McNj2kLrDA8BxZrY2kKDlllpzuJcUZSMGPWw/edit?usp=sharing
-https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?usp=sharing
-https://docs.google.com/spreadsheets/d/1nwSfKzSkDBgheB2o0eEgAyROGs-0NgCAh-sBtsu7NpQ/edit?gid=1333201137#gid=1333201137
+講師採用：80名を持つ講師
+⭕️ さりな：毎月10名・MAX30名
+⭕️ まりな：毎月5名・MAX15名
+⭕️ つき：初月5名・MAX15名
+⭕️ みくよ：初月5名・MAX15名
+⭕️ くりこ：初月5名・MAX15名
+⭕️ はなよ：初月5名・MAX15名
+⭕️ すみさん：初月5名・MAX15名
+⭕️ まなさん：初月5名・MAX15名
+⭕️ ののさん：初月5名・MAX15名
+あきさん：初月5名・MAX15名
+ひなたさん：初月5名・MAX15名
+◯さん：初月5名・MAX15名
+◯さん：初月5名・MAX15名
+◯さん：初月5名・MAX15名
+◯さん：初月5名・MAX15名
+◯さん：初月5名・MAX15名

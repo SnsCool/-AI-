@@ -1,0 +1,8 @@
+# batch.py・refetch_mp4.pyをJSONファイルからスプシ直接読込に変更
+
+Notion URL: https://www.notion.so/batch-py-refetch_mp4-py-JSON-340f3b0fba8581dd9927d36213d38dd0
+同期日時: 2026-04-12T18:26:06+09:00
+
+---
+
+(コンテンツなし)

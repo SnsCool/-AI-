@@ -1,0 +1,8 @@
+# Groq Whisperで全32本の音声文字起こし
+
+Notion URL: https://www.notion.so/Groq-Whisper-32-340f3b0fba85816cbaf4cefc13c84833
+同期日時: 2026-04-12T18:28:18+09:00
+
+---
+
+(コンテンツなし)

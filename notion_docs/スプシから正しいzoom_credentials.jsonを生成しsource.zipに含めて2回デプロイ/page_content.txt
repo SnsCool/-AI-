@@ -1,0 +1,8 @@
+# スプシから正しいzoom_credentials.jsonを生成しsource.zipに含めて2回デプロイ
+
+Notion URL: https://www.notion.so/zoom_credentials-json-source-zip-2-340f3b0fba8581f7904fe4e8bb87a2d6
+同期日時: 2026-04-12T18:24:02+09:00
+
+---
+
+(コンテンツなし)

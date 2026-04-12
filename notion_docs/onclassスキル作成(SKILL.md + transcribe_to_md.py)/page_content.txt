@@ -1,0 +1,8 @@
+# onclassスキル作成(SKILL.md + transcribe_to_md.py)
+
+Notion URL: https://www.notion.so/onclass-SKILL-md-transcribe_to_md-py-340f3b0fba85814e805ed12eada40352
+同期日時: 2026-04-12T18:28:17+09:00
+
+---
+
+(コンテンツなし)

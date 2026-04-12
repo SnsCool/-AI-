@@ -1,7 +1,7 @@
 # たいぞうメモ
 
 Notion URL: https://www.notion.so/312f3b0fba858076b941e4bf10c5dd7e
-同期日時: 2026-04-09T09:45:24+09:00
+同期日時: 2026-04-12T18:28:12+09:00
 
 ---
 
@@ -284,6 +284,8 @@ Zoom ミーティングに参加する
     何キロ痩せた、体脂肪率何％落ちた
     ストーリーズAI
     https://gemini.google.com/gem/1vkJqB6xcRpEuZLPVQdjapKc4aQn7KE24?usp=sharing
+    【使い方説明動画👇】
+    https://www.loom.com/share/7b76fa5080ca477d968c40d50d3aaa0f
   1. このAIでできること
   スマホで5秒で読める、テンポの良いストーリーズ原稿の作成。
   「日常のつぶやき」から「ダイエットの教育」へ自然に繋げるブリッジ。

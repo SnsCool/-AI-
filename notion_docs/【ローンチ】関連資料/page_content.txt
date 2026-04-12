@@ -1,10 +1,11 @@
 # 【ローンチ】関連資料
 
 Notion URL: https://www.notion.so/2ccf3b0fba858005b183ca54e4ca7a54
-同期日時: 2026-03-25T12:57:49+09:00
+同期日時: 2026-04-12T18:26:26+09:00
 
 ---
 
+https://docs.google.com/spreadsheets/d/1mgis2fKpsB92aEhglL38Nv12SNkyHmoKs5KZAJXHx9I/edit?gid=1487441004#gid=1487441004
   ローンチスケジュール
   1月16〜18日　ローンチ
   1月17〜31日　個別相談
