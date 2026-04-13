@@ -1,0 +1,176 @@
+# ころB組
+
+Notion URL: https://www.notion.so/B-341f3b0fba8580299db9e3ef4480d6ff
+同期日時: 2026-04-13T15:57:34+09:00
+
+---
+
+つぼいりえ（iPhone）
+  最終ログ：2026.4.13
+  自己分析シート
+    https://docs.google.com/spreadsheets/d/1NC7Td-_qbozswGZpvs3dO8p_W3RQKR-_C192ExmI9w8/edit?usp=drivesdk
+  初期設計シート
+    https://docs.google.com/spreadsheets/d/1k3EccmIAzfrSNuM3H2jg_32cz6TCby0yZ1yzY7gczHM/edit?usp=drivesdk
+ただあけみ（iPhone）
+  最終ログ：2026.3.５
+  自己分析シート
+    https://docs.google.com/spreadsheets/d/1Nwzj95WLJ4ms-wBsc-4AxP-XsqG9rAOxQrlcItqlnDM/edit?usp=sharing
+  初期設計シート
+    https://docs.google.com/spreadsheets/d/125huuCXC11VkFhAZ00HB1BWQUNeR9rFFWtQPmoLOTgE/edit?usp=sharing
+はたのあゆ（レシピ）
+  最終ログ：2026.4.11
+  自己分析シート
+    https://docs.google.com/spreadsheets/d/1m4xanQ7SuuD3Cpl05MpcPv8QQVj9O0U45f2jZvBL5cM/edit?usp=drivesdk
+  初期設計シート
+    https://docs.google.com/spreadsheets/d/1KY-DuakM1LnOLBTe_40FIl6H_F0_f6heSZ3vts25jqs/edit?usp=drivesdk
+よしだかな（iPhone)
+  最終ログ：2026.2.17
+  自己分析シート
+    https://docs.google.com/spreadsheets/d/1m4xanQ7SuuD3Cpl05MpcPv8QQVj9O0U45f2jZvBL5cM/edit?usp=drivesdk
+  初期設計シート
+    https://docs.google.com/spreadsheets/d/1KY-DuakM1LnOLBTe_40FIl6H_F0_f6heSZ3vts25jqs/edit?usp=drivesdk
+ちゅうじょうまなみ（レシピ：アカウントなし）
+  最終ログ：2026.4.10
+  自己分析シート
+    https://docs.google.com/spreadsheets/d/1m4xanQ7SuuD3Cpl05MpcPv8QQVj9O0U45f2jZvBL5cM/edit?usp=drivesdk
+  初期設計シート
+    https://docs.google.com/spreadsheets/d/1njm8q9X-XyXIZpUj0o-0yEAs4IFMpCWxZO62seP6dAM/edit?usp=drivesdk 
+    🧠 全体像（結論）
+    この方は一言でいうと
+    👉 「意欲は高いけど、ITリテラシーと自己効力感が低く、サポート依存型になりやすいタイプ」
+    🔍 ① 性格・心理特性
+    ■ ① 素直で努力型
+    「頑張ります」「よろしくお願いします」が多い
+    課題提出もちゃんと継続してる
+    👉 やる気はある（ここはかなり強み）
+    ■ ② 自己肯定感が低め
+    「ついていけてない」「分からない」「焦りしかない」
+    「何を質問していいか分からない」
+    👉 “できていない自分”に意識が向きすぎている
+    ■ ③ 遠慮・恐縮が強い
+    「すみません」「お手数おかけします」が多い
+    「何のお役にも立てず申し訳ない」
+    👉 サポートを受けることに心理的ハードルがある
+    ⚙️ ② 行動特性
+    ■ ① アウトプットはちゃんとやる
+    STEP2〜STEP8まで提出あり
+    ラジオアウトプットも実施
+    👉 継続力はある（これはかなり優秀）
+    ■ ② でも“理解が浅いまま進む”
+    「そもそも理解できていなかった」
+    同じ課題を複数回提出
+    👉 “分からないまま進む癖”がある
+    ■ ③ 受け身になりやすい
+    質問が具体化されていない
+    「どうしたらいいですか？」系
+    👉 自走というより“指示待ち寄り”
+    💻 ③ スキル面（かなり重要）
+    ■ ITリテラシーが低い
+    ダウンロードできない
+    ファイル保存が分からない
+    PC環境も不十分（旦那のPCのみ）
+    👉 ここが最大のボトルネック
+    ■ ツールへの抵抗感あり
+    「カタカナばかりで？？？」
+    InShotなど自分の慣れたツールに寄る
+    👉 新しいものへのハードルが高い
+    🧩 ④ 環境・制約
+    PC自由に使えない（旦那のPC）
+    内緒でやってる（＝心理的制約あり）
+    👉 学習環境がかなり悪い
+    ⚠️ ⑤ 詰まりポイント（重要）
+    この人が伸びない理由はかなり明確👇
+    ① 分からない → 質問できない
+    ↓
+    ② 理解浅いまま進む
+    ↓
+    ③ できない体験が増える
+    ↓
+    ④ 自信さらに下がる
+    👉 負のループに入ってる
+    💡 ⑥ 強み（ちゃんとある）
+    ここ見落とすとダメ👇
+    継続力あり
+    真面目
+    素直
+    投げ出してない
+    👉 ポテンシャルは普通にあるタイプ
+    🧭 ⑦ この人のタイプ分類
+    かなり分かりやすく分類すると👇
+    👉 「初心者・低ITリテラシー・努力型・自信低めタイプ」
+    スクールでいうと
+    👉 “一番サポート設計が重要な層”
+    🛠 ⑧ この人に必要な対応（超重要）
+    もし運営視点なら👇
+    ✔ ① 超具体指示
+    ×「やってみてください」
+    ◎「ここを押して→これを選択→これ保存」
+    ✔ ② 成功体験を小さく作る
+    1ステップで褒める
+    「できた」を積ませる
+    ✔ ③ 質問の型を与える
+    例：
+    何が分からないか
+    どこまでやったか
+    どこで止まったか
+    👉 これないと永遠に詰まる
+    ✔ ④ IT部分は別サポートレイヤー
+    👉 正直ここを切り分けないと無理
+    ⚠️ ⑨ 今回のクレームに繋がる理由
+    はるちゃん的に一番大事ここ👇
+    この人自体というより
+    👉 「このタイプに対する設計ミス」
+    が原因になりやすい
+    起きてるズレ
+    本人：必死にやってる
+    でも：できない
+    講師：ある程度できる前提で話す
+    👉 期待値のズレ → 不信感
+    ✍️ まとめ
+    この人は
+    👉 「やる気あるのに伸びない典型タイプ」
+    原因は
+    IT弱い
+    質問できない
+    理解浅いまま進む
+    サポート設計が合ってない
+いまえださかえ（レシピ：アカウントなし）
+  最終ログ：2026.4.10
+  自己分析シート
+    https://docs.google.com/spreadsheets/d/1HRU0mV-dy6hUQKtWuO773IfEuhIHnWYbGbpJR7ACtBQ/edit?usp=drivesdk 
+  初期設計シート
+    https://docs.google.com/spreadsheets/d/15-c_Z56nHpfusBtMq29_eu3m-Q1_q4r90Izfuyp4m4w/edit?usp=drivesdk
+    🧠 性格タイプ
+    👉 「真面目で努力家だけど、不安になりやすい慎重タイプ」
+    🔍 もう少し具体的に
+    ① とても真面目・責任感が強い
+    何度も再提出する
+    しっかりやり切ろうとする
+👉 手を抜かないタイプ
+    ② 不安になりやすい（確認型）
+    「これでいいですか？」が多い
+    次に進む前に確認したい
+👉 正解を知ってから動きたい
+    ③ 完璧にやろうとしてしまう
+    TTPや環境を整えようとして止まる
+👉 中途半端が苦手
+    ④ 素直で吸収力が高い
+    フィードバックをちゃんと取り入れる
+👉 言われたことはやる
+    ⑤ 優しくて協調性がある
+    チーム調整や周りへの配慮ができる
+👉 人間関係トラブルは起こしにくい
+    🎯 一言でまとめると
+    👉 「頑張り屋で素直。でも自信がなくて迷いやすい人」
+うえだまゆみ（ファッション：アカウントなし）
+  最終ログ：2026.4.11
+  自己分析シート
+    https://docs.google.com/spreadsheets/d/1HRU0mV-dy6hUQKtWuO773IfEuhIHnWYbGbpJR7ACtBQ/edit?usp=drivesdk 
+  初期設計シート
+    https://docs.google.com/spreadsheets/d/1zH2kBaaCJn3pPG5FkkVFtAGgEkOEG8KwRjVIuX8vtBE/edit?gid=1964450321#gid=1964450321
+なかがわもとこ（スターター：ストーリー加工動画まで）
+  最終ログ：2025.12.15
+  自己分析シート
+  初期設計シート
+  やりたいことリスト
+    https://docs.google.com/spreadsheets/d/13At457ZsJAyb9UvlV5S6SaQdF69gbF8ceygtuLtVO5Y/edit?usp=drivesdk
