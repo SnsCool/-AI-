@@ -1,0 +1,8 @@
+# macOS TTSで話者A/B各4ファイルの音声生成
+
+Notion URL: https://www.notion.so/macOS-TTS-A-B-4-341f3b0fba8581e483dcf881172a13f8
+同期日時: 2026-04-14T03:35:25+09:00
+
+---
+
+(コンテンツなし)

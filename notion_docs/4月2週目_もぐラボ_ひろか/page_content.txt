@@ -1,7 +1,7 @@
 # 4月2週目_もぐラボ_ひろか
 
 Notion URL: https://www.notion.so/4-2-_-_-340f3b0fba8580948bece79c7c209afd
-同期日時: 2026-04-14T00:36:51+09:00
+同期日時: 2026-04-14T03:35:25+09:00
 
 ---
 
@@ -31,4 +31,3 @@ https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4k
 └LINEシナリオ・LINE構築・クリエイティブ・VSL台本・LPシナリオ・LP構築
   https://www.canva.com/design/DAGsPhTupaY/yV8s6hpVwxvYltOcw7lofA/edit
   https://www.canva.com/design/DAHCMpjxWKE/HVb94EW_Fu9Kb0GVgIympA/edit?utm_content=DAHCMpjxWKE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-CTO室に参加したい（てぃーぞーさん）

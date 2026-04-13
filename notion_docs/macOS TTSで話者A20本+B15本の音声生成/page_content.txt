@@ -1,0 +1,8 @@
+# macOS TTSで話者A20本+B15本の音声生成
+
+Notion URL: https://www.notion.so/macOS-TTS-A20-B15-341f3b0fba8581af80ecd29d2d464b72
+同期日時: 2026-04-14T03:35:19+09:00
+
+---
+
+(コンテンツなし)

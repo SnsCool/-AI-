@@ -1,0 +1,8 @@
+# generate-slides.pyのモデルをgemini-3-pro-image-previewに変更
+
+Notion URL: https://www.notion.so/generate-slides-py-gemini-3-pro-image-preview-341f3b0fba858172bb9ee585c7579117
+同期日時: 2026-04-14T03:35:17+09:00
+
+---
+
+(コンテンツなし)
