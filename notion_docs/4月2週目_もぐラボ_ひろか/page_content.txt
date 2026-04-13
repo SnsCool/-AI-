@@ -1,7 +1,7 @@
 # 4月2週目_もぐラボ_ひろか
 
 Notion URL: https://www.notion.so/4-2-_-_-340f3b0fba8580948bece79c7c209afd
-同期日時: 2026-04-13T13:15:07+09:00
+同期日時: 2026-04-13T18:44:45+09:00
 
 ---
 
@@ -17,7 +17,8 @@ https://docs.google.com/spreadsheets/d/1mgis2fKpsB92aEhglL38Nv12SNkyHmoKs5KZAJXH
 今週目標・達成AP
 達成APとは
   立てた目標を達成するためのアクションプランを納期付きで設定してください。
-アフィリエイターローンチ：流入500→アポ50
+アフィリエイターローンチ：流入500→アポ40
+スクラブ・エスキャンローンチ
 PL
 年間計画の定量と定性
 https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?gid=222896699#gid=222896699
@@ -26,3 +27,4 @@ https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4k
 かずさんの報酬
   https://www.canva.com/design/DAGsPhTupaY/yV8s6hpVwxvYltOcw7lofA/edit
   https://www.canva.com/design/DAHCMpjxWKE/HVb94EW_Fu9Kb0GVgIympA/edit?utm_content=DAHCMpjxWKE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+CTO室に1人いれたい（てぃーぞーさん・ともえさん）
