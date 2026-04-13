@@ -1,0 +1,8 @@
+# スレッド作成・Lステップダグつけマニュアル作成→claudeでできるようにプロンプト作成
+
+Notion URL: https://www.notion.so/L-claude-335f3b0fba8580a4b35ecb554d4f840f
+同期日時: 2026-04-13T21:37:36+09:00
+
+---
+
+https://docs.google.com/spreadsheets/d/1Ir919htd6rIZa7qFnGIDc4xFs51dG6nlDXVGQkcLiRQ/edit?usp=sharing

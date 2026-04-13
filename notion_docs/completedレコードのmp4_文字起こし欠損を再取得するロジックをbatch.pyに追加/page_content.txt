@@ -1,0 +1,8 @@
+# completedレコードのmp4/文字起こし欠損を再取得するロジックをbatch.pyに追加
+
+Notion URL: https://www.notion.so/completed-mp4-batch-py-341f3b0fba85815bb0f3ec1f1ba2892b
+同期日時: 2026-04-13T21:37:48+09:00
+
+---
+
+(コンテンツなし)

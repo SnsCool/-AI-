@@ -1,0 +1,8 @@
+# mp4_urlがない新規レコードをpendingにして次回リトライするよう修正
+
+Notion URL: https://www.notion.so/mp4_url-pending-341f3b0fba858157980ee11baebcef20
+同期日時: 2026-04-13T21:37:46+09:00
+
+---
+
+(コンテンツなし)
