@@ -1,13 +1,13 @@
 # まつもとひょうが　篠原敬至アa組
 
 Notion URL: https://www.notion.so/a-33ff3b0fba85801abf6ada43889526ce
-同期日時: 2026-04-11T15:33:25+09:00
+同期日時: 2026-04-14T00:36:57+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
-    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    [https://docs.google.com/spreadsheets/d/1siEG_rOF53mYS2RJcQ6ESx9nTB_hXw64h4KNfItG2Gk/edit?gid=1220109173#gid=1220109173ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
@@ -53,3 +53,4 @@ Starter Program（入会〜ホームルームまでにやること）
 1on1~アカウント開設
 初投稿~フォロワー1000人
 ↑↑↑　上記、タップしてOPEN！　↑↑↑
+https://docs.google.com/spreadsheets/d/1siEG_rOF53mYS2RJcQ6ESx9nTB_hXw64h4KNfItG2Gk/edit?gid=1220109173#gid=1220109173

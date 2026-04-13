@@ -1,0 +1,8 @@
+# lesson-videoスキル作成（~/.claude/skills/lesson-video/SKILL.md）
+
+Notion URL: https://www.notion.so/lesson-video-claude-skills-lesson-video-SKILL-md-341f3b0fba85813abfb1f2e447a4e353
+同期日時: 2026-04-14T00:36:31+09:00
+
+---
+
+(コンテンツなし)

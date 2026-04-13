@@ -1,13 +1,13 @@
 # 4月2週目_もぐラボ_ひろか
 
 Notion URL: https://www.notion.so/4-2-_-_-340f3b0fba8580948bece79c7c209afd
-同期日時: 2026-04-13T21:33:56+09:00
+同期日時: 2026-04-14T00:36:51+09:00
 
 ---
 
 今月目標と進捗
 目標：40名成約（4期生：5月スタート）
-現状：7名成約
+現状：7名成約　残アポなし
 達成AP：
 アフィリエイターローンチ
 スクラブローンチ（卒業生チャット・ダイエットサークルを活用）
@@ -17,14 +17,18 @@ https://docs.google.com/spreadsheets/d/1mgis2fKpsB92aEhglL38Nv12SNkyHmoKs5KZAJXH
 今週目標・達成AP
 達成APとは
   立てた目標を達成するためのアクションプランを納期付きで設定してください。
-アフィリエイターローンチ：流入500→アポ40
-スクラブ・エスキャンローンチ
+アフィリエイターローンチ：30アポ
+スクラブローンチ（卒業生チャット・ダイエットサークル）：20アポ
+└あかねさん・うちこさんとすり合わせして告知
+エスキャンローンチ（ディスコードにて告知）：10アポ
+└美月さんに文面お送りするので駒居さんアカウントより告知いただきたいです
 PL
 年間計画の定量と定性
 https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?gid=222896699#gid=222896699
 共有・提案・依頼
 アフィリエイターの報酬確認方法
 かずさんの報酬
+└LINEシナリオ・LINE構築・クリエイティブ・VSL台本・LPシナリオ・LP構築
   https://www.canva.com/design/DAGsPhTupaY/yV8s6hpVwxvYltOcw7lofA/edit
   https://www.canva.com/design/DAHCMpjxWKE/HVb94EW_Fu9Kb0GVgIympA/edit?utm_content=DAHCMpjxWKE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-CTO室に1人いれたい（てぃーぞーさん・ともえさん）
+CTO室に参加したい（てぃーぞーさん）

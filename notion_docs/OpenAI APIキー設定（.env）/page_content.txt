@@ -1,0 +1,8 @@
+# OpenAI APIキー設定（.env）
+
+Notion URL: https://www.notion.so/OpenAI-API-env-341f3b0fba8581c5a8cdfbdb33566c2e
+同期日時: 2026-04-14T00:36:30+09:00
+
+---
+
+(コンテンツなし)

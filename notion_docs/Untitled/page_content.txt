@@ -1,8 +1,11 @@
 # Untitled
 
-Notion URL: https://www.notion.so/341f3b0fba8581f3b80ccc66902f1050
-同期日時: 2026-04-13T21:37:40+09:00
+Notion URL: https://www.notion.so/341f3b0fba8580f58cc9e4bad13e6d57
+同期日時: 2026-04-14T00:36:27+09:00
 
 ---
 
-(コンテンツなし)
+タスクの説明
+タスクの概要と関連する詳細を提供します。
+サブタスク
+サポートファイル
