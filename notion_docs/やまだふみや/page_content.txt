@@ -1,7 +1,7 @@
 # やまだふみや
 
 Notion URL: https://www.notion.so/341f3b0fba85816fb0b6fcc1be27dfc8
-同期日時: 2026-04-14T03:35:57+09:00
+同期日時: 2026-04-14T06:22:26+09:00
 
 ---
 
@@ -62,4 +62,5 @@ Notion URL: https://www.notion.so/341f3b0fba85816fb0b6fcc1be27dfc8
 
 ▶要望
 └ 編集作業の効率化、時間短縮のヒントが欲しい
+  セッションデータ
   セッションデータ
