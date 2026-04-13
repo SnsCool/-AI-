@@ -1,7 +1,7 @@
 # 【営業】マニュアル
 
 Notion URL: https://www.notion.so/2ccf3b0fba8580da9192cefc7e69b8e1
-同期日時: 2026-04-01T21:33:30+09:00
+同期日時: 2026-04-13T13:15:00+09:00
 
 ---
 
@@ -732,19 +732,6 @@ Notion URL: https://www.notion.so/2ccf3b0fba8580da9192cefc7e69b8e1
     リハッシュ
     アウト返し
     契約・お支払い
-    挨拶・自己紹介
-    認識のすり合わせ
-    ヒアリング
-    匂わせ・解決策の提示
-    布石打ち
-    サービス説明（前半）　
-    布石打ち
-    サービス説明（後半）
-    マインドセット・布石打ち
-    金額提示
-    リハッシュ
-    アウト返し
-    契約・お支払い
 LINEログパス
   【グーグルアカウント】
   levela.diet@gmail.com
@@ -761,7 +748,7 @@ PW：Leveladiet
   https://linestep.jp/2024/12/20/reserve_calendar/
 契約書マニュアル
   https://docs.google.com/document/d/1g_loHuU9VrBLs9bSaApIGNAfBr6HHNny2y5WbO3qC7w/edit?usp=sharing
-  株式会社Levela 代表取締役 駒居
+  署名：株式会社Levela 代表取締役 駒居
 決済ツール
   【カード決済】
     決済方法：メール送信・リンク送信
@@ -797,8 +784,5 @@ PW：Leveladiet
 入会者用LINE
   https://line.me/ti/p/%40584nzzgo
 営業管理シート
-  https://docs.google.com/spreadsheets/d/1bdSmkkQp7DP1OTdt1VJqmT43rQBKnY5LcN3yUXgWgEM/edit?usp=sharing
+  https://docs.google.com/spreadsheets/d/1bdSmkkQp7DP1OTdt1VJqmT43rQBKnY5LcN3yUXgWgEM/edit?gid=997171970#gid=997171970
   https://docs.google.com/spreadsheets/d/17fHrRXzJ_nmaia6HMPMQpAq3heyBEjM1W3Epy-wSFUk/edit?gid=0#gid=0
-  顧客管理 
-  ┗講師に顧客情報を連携するためのシート
-  →営業の人が記入をする

@@ -1,13 +1,85 @@
 # CS関連資料
 
 Notion URL: https://www.notion.so/CS-32ef3b0fba8580048a1ef7da5cc21537
-同期日時: 2026-04-12T18:26:12+09:00
+同期日時: 2026-04-13T13:14:39+09:00
 
 ---
 
-https://www.canva.com/design/DAG9VgdbZ9U/HvFWc_xTKOisB_3vVGnE6w/edit?utm_content=DAG9VgdbZ9U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+体組成計の発注
 https://www.amazon.co.jp/?&tag=hydraamazonav-22&ref=pd_sl_8eaqjij3p0_e&adgrpid=157529193801&hvpone=&hvptwo=&hvadid=675152705458&hvpos=&hvnetw=g&hvrand=10820202008787733825&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1009308&hvtargid=kwd-893523692&hydadcr=27920_14701882
-https://mail.google.com/mail/u/1/#inbox
+シート関連
+https://docs.google.com/spreadsheets/d/1bdSmkkQp7DP1OTdt1VJqmT43rQBKnY5LcN3yUXgWgEM/edit?gid=1298894381#gid=1298894381
+https://docs.google.com/spreadsheets/d/17fHrRXzJ_nmaia6HMPMQpAq3heyBEjM1W3Epy-wSFUk/edit?gid=0#gid=0
+契約書
+https://docs.google.com/document/d/1KtPTbd8_4c76I7H7MKAPJO3LAH5XLwv_3-j70lGlcsk/edit?tab=t.0
 https://www.cloudsign.jp/dashboard
+領収書
+https://docs.google.com/spreadsheets/d/1q-QFg1MXbTFzSJR0fiMY415EGiaiXGuPYqtz6B0X3IY/edit?gid=1643841729#gid=1643841729
+https://www.loom.com/share/1df87a8656684f3b9919649e2ac12cba?sid=767263a4-c204-49c7-8100-92a6bfbe6ef7
+決済ツール
+  決済方法：メール送信・決済リンク送信
+  メール送信の場合：ひろかに連絡（プラン名・支払い方法・メールアドレス）
+  決済リンク
+  ベーシック98,000円　一括プラン
+  https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=basic001&mailauthckey=e9483952673e47308550cb0dd7597938
+  ベーシック98,000円　3分割プラン
+  https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=basic003&mailauthckey=e9483952673e47308550cb0dd7597938
+  ベーシック98,000円　6分割プラン
+  https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=basic006&mailauthckey=e9483952673e47308550cb0dd7597938
+  プレミアム198,000円　一括プラン
+  https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=premium001&mailauthckey=e9483952673e47308550cb0dd7597938
+  プレミアム198,000円　3分割プラン
+  https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=premium003&mailauthckey=e9483952673e47308550cb0dd7597938
+  その他の場合
+  https://credit.j-payment.co.jp/link/bankcheck?aid=132910&jb=CAPTURE&am=商品金額&tx=0&sf=0&mailauthckey=e9483952673e47308550cb0dd7597938
+  補足
+  7日後に自動決済のリトライが2回続く、その後は1ヶ月後に依頼
+  180日以内であれば決済取り消し可能　末締めのため、月をまたぐ場合は返金できるが
+  管理ページ
+    https://credit.j-payment.co.jp/cp/Main.aspx
+    s.hiroka1206@gmail.com
+    172215-0001
+    yNagiMAJ3MaAF_G
+  契約情報
+    ・プラン（必用であればオプションも）
+    スペシャルプラン
+    ・振り込み先口座
+    銀行名：GMOあおぞらネット銀行
+    支店名：法人第二営業部
+    預金科目：普通預金
+    口座番号：1803175
+    口座名義：株式会社Levela　PALESGYM
+    口座名義(フリガナ)：カブシキカイシャパレスジム
+    問い合わせ先メールアドレス：levela.diet@gmail.com
+    ・月額利用料のお支払方法（クレジットカード決済or口座引き落とし）
+    クレカ決済
+    ___________________________________________
+    ■よくご選択いただくオプションの御案内
+    メール決済（月額¥500）
+    決済フォームをURL（それをQRコード化）で送付いただける方法です。
+    ___________________________________________
+    ■初期費用について
+    プラン①（月額13,500）の場合 → 初期費用：¥29,000（税別）
+    プラン②（月額15,500）の場合 → 初期費用：¥23,500（税別）
+    Specialプラン（月額¥23,500）の場合 → 初期費用：¥0
 https://jpayment.zendesk.com/hc/ja/articles/360000167642-%E3%83%A1%E3%83%BC%E3%83%AB%E6%B1%BA%E6%B8%88%E3%82%B5%E3%83%B3%E3%83%97%E3%83%ABURL
+銀行口座
+GMOあおぞらネット銀行
+法人第二営業部
+普通　1803175
+株式会社レベラパレスジム
+その他
+  ZOOMアカウント
+  levela.diet@gmail.com
+  Levela0906
+  Google
+  https://mail.google.com/mail/u/1/#inbox
+  levela.diet@gmail.com
+levela.diet.96
+  エルステ
+  ID：Levela_diet
+PW：Leveladiet
+  ID:Leveladiet1
+PW:Leveladiet2
+https://www.canva.com/design/DAG9VgdbZ9U/HvFWc_xTKOisB_3vVGnE6w/edit?utm_content=DAG9VgdbZ9U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 https://docs.google.com/document/d/1yEBJtUqura2YiEv6-d0T8wBc6vCigp3m4hUa7WebdI4/edit?tab=t.0

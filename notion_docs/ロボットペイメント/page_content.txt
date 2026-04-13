@@ -1,24 +1,22 @@
 # ロボットペイメント 
 
-Notion URL: https://www.notion.so/2e9f3b0fba858034830de646cc46948a
-同期日時: 2026-03-13T21:28:19+09:00
+Notion URL: https://www.notion.so/341f3b0fba858034ab0bdeb21391e0d3
+同期日時: 2026-04-13T13:14:45+09:00
 
 ---
 
-決済方法：メール送信・リンク送信
+決済方法：メール送信・決済リンク送信
 メール送信の場合：ひろかに連絡（プラン名・支払い方法・メールアドレス）
 決済リンク
 ベーシック98,000円　一括プラン
 https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=basic001&mailauthckey=e9483952673e47308550cb0dd7597938
 ベーシック98,000円　3分割プラン
-└初回35000円 ／ 2・3回目31,500円
 https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=basic003&mailauthckey=e9483952673e47308550cb0dd7597938
 ベーシック98,000円　6分割プラン
 https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=basic006&mailauthckey=e9483952673e47308550cb0dd7597938
 プレミアム198,000円　一括プラン
 https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=premium001&mailauthckey=e9483952673e47308550cb0dd7597938
 プレミアム198,000円　3分割プラン
-└毎月66,000円
 https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=premium003&mailauthckey=e9483952673e47308550cb0dd7597938
 その他の場合
 https://credit.j-payment.co.jp/link/bankcheck?aid=132910&jb=CAPTURE&am=商品金額&tx=0&sf=0&mailauthckey=e9483952673e47308550cb0dd7597938

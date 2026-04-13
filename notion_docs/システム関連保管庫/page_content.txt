@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-04-11T03:27:12+09:00
+同期日時: 2026-04-13T13:12:54+09:00
 
 ---
 
@@ -98,7 +98,7 @@ SnsClub講義（GRITSTUDY）アプリ追加開発
     Google Play
     Firebase
 引き継ぎ後ネクストステップ
-  info@levela.co.jp、アカウント作成
+  app@levela.co.jp、アカウント作成
     App Store Connect / Apple Developer
     Google Developer
     AWS
