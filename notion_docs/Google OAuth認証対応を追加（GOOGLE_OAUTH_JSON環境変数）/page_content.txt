@@ -1,0 +1,8 @@
+# Google OAuth認証対応を追加（GOOGLE_OAUTH_JSON環境変数）
+
+Notion URL: https://app.notion.com/p/Google-OAuth-GOOGLE_OAUTH_JSON-342f3b0fba8581c59ccfd40b5c9ff191
+同期日時: 2026-04-14T21:37:07+09:00
+
+---
+
+(コンテンツなし)

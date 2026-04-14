@@ -1,0 +1,8 @@
+# JSONフォールバックを廃止、常にスプシから読み取りに変更
+
+Notion URL: https://app.notion.com/p/JSON-342f3b0fba8581ea8e23cc9b8f521b5b
+同期日時: 2026-04-14T21:37:06+09:00
+
+---
+
+(コンテンツなし)

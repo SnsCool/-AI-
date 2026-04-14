@@ -1,7 +1,7 @@
 # はるおたえこ_Reon B組
 
-Notion URL: https://www.notion.so/_Reon-B-33bf3b0fba8580bb9e59f5ca38fd06bd
-同期日時: 2026-04-07T13:11:23+09:00
+Notion URL: https://www.notion.so/_Reon-B-342f3b0fba8580ad8c2ec20548ae0f8c
+同期日時: 2026-04-14T21:32:35+09:00
 
 ---
 
@@ -49,7 +49,7 @@ https://www.canva.com/design/DAGOg6YIIqM/eqJhbsePHX57xupfSvMkBg/edit?utm_content
 ロードマップを決めたら、次回のコーチングセッションで振り返り・実行できた・できていないを二人で確認し、確実に学習を進めていきましょう。
 以下、学習ロードマップをコピペ+チェックボックスを使える状態にして、学習カリキュラムの進捗を確認し、
 Starter Program（入会〜ホームルームまでにやること）
-  SnsClubスタータープログラム講師マニュアル 
+  【講師マニュアル】SnsClubスタータープログラム 
 1on1~アカウント開設
 初投稿~フォロワー1000人
 ↑↑↑　上記、タップしてOPEN！　↑↑↑
