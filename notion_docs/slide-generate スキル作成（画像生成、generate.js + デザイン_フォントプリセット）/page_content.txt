@@ -1,0 +1,8 @@
+# slide-generate スキル作成（画像生成、generate.js + デザイン/フォントプリセット）
+
+Notion URL: https://app.notion.com/p/slide-generate-generate-js-342f3b0fba85811f8171c41af811c5ee
+同期日時: 2026-04-14T13:08:06+09:00
+
+---
+
+(コンテンツなし)

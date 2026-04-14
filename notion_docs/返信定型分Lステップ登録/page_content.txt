@@ -1,7 +1,7 @@
 # 返信定型分Lステップ登録
 
-Notion URL: https://www.notion.so/L-333f3b0fba85800bab6cdb24a46cee05
-同期日時: 2026-03-31T06:20:39+09:00
+Notion URL: https://app.notion.com/p/L-333f3b0fba85800bab6cdb24a46cee05
+同期日時: 2026-04-14T13:10:16+09:00
 
 ---
 

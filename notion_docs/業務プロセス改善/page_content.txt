@@ -1,7 +1,7 @@
 # 業務プロセス改善
 
-Notion URL: https://www.notion.so/331f3b0fba8581909931e9e58e7c2f8c
-同期日時: 2026-04-13T18:48:24+09:00
+Notion URL: https://app.notion.com/p/331f3b0fba85811a88aee46f78b772cd
+同期日時: 2026-04-14T13:07:42+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # CSと目標数値設定をブラッシュアップ
 
-Notion URL: https://www.notion.so/CS-339f3b0fba858185a976e66c6e1c8225
-同期日時: 2026-04-06T00:15:27+09:00
+Notion URL: https://app.notion.com/p/CS-339f3b0fba858185a976e66c6e1c8225
+同期日時: 2026-04-14T13:06:32+09:00
 
 ---
 

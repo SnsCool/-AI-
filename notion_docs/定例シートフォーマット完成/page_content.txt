@@ -1,7 +1,7 @@
 # 定例シートフォーマット完成
 
-Notion URL: https://www.notion.so/339f3b0fba8580679c3fe623926b9dfe
-同期日時: 2026-04-06T00:15:06+09:00
+Notion URL: https://app.notion.com/p/339f3b0fba8580679c3fe623926b9dfe
+同期日時: 2026-04-14T13:10:14+09:00
 
 ---
 

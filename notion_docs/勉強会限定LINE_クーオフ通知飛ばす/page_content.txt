@@ -1,7 +1,7 @@
 # 勉強会限定LINE_クーオフ通知飛ばす
 
-Notion URL: https://www.notion.so/LINE_-333f3b0fba8580f3b790f37308fdfe12
-同期日時: 2026-03-31T06:20:21+09:00
+Notion URL: https://app.notion.com/p/LINE_-333f3b0fba8580f3b790f37308fdfe12
+同期日時: 2026-04-14T13:10:11+09:00
 
 ---
 

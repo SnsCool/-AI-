@@ -1,7 +1,7 @@
 # X顧問｜顧客管理ツール概要
 
-Notion URL: https://www.notion.so/X-334f3b0fba85801896aec2c1254234e5
-同期日時: 2026-04-07T15:48:48+09:00
+Notion URL: https://app.notion.com/p/X-342f3b0fba8581d19d91ec2626e62b18
+同期日時: 2026-04-14T13:08:57+09:00
 
 ---
 
@@ -11,3 +11,6 @@ Notion URL: https://www.notion.so/X-334f3b0fba85801896aec2c1254234e5
 開発の目的
 補足
 詳細な技術要件・設計はCTO室に依頼予定
+===
+・4月15日までで50%程度完成
+・4月末で100%完成予定

@@ -1,7 +1,7 @@
 # 採用〜ローンチまでのワークフロー洗い出し
 
-Notion URL: https://www.notion.so/331f3b0fba8580bbbe32dab9a6b95a42
-同期日時: 2026-03-31T13:06:09+09:00
+Notion URL: https://app.notion.com/p/331f3b0fba8580bbbe32dab9a6b95a42
+同期日時: 2026-04-14T13:07:43+09:00
 
 ---
 

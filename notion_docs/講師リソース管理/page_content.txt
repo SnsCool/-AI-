@@ -1,7 +1,7 @@
 # 講師リソース管理
 
-Notion URL: https://www.notion.so/339f3b0fba8581a99db8fd470b4e6bc0
-同期日時: 2026-04-06T00:17:54+09:00
+Notion URL: https://app.notion.com/p/339f3b0fba8581a99db8fd470b4e6bc0
+同期日時: 2026-04-14T13:06:47+09:00
 
 ---
 

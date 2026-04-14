@@ -1,7 +1,7 @@
 # Notionワークスペースの現メンバー一覧を出力→退職者を削除 （メールアドレス作成後）
 
-Notion URL: https://www.notion.so/Notion-330f3b0fba85806e9040c2bfbd93c973
-同期日時: 2026-03-30T13:07:28+09:00
+Notion URL: https://app.notion.com/p/Notion-330f3b0fba85806e9040c2bfbd93c973
+同期日時: 2026-04-14T13:07:42+09:00
 
 ---
 

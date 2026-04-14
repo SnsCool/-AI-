@@ -1,7 +1,7 @@
 # ⭐️Discord入室通知（週次で確認）
 
-Notion URL: https://www.notion.so/Discord-336f3b0fba8580a49116f84aa3f17ab2
-同期日時: 2026-04-07T13:12:37+09:00
+Notion URL: https://app.notion.com/p/Discord-336f3b0fba8580a49116f84aa3f17ab2
+同期日時: 2026-04-14T13:10:21+09:00
 
 ---
 

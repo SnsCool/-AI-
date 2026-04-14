@@ -1,7 +1,7 @@
 # 目標設定シート導入_マニュアル作成
 
-Notion URL: https://www.notion.so/_-334f3b0fba858097b610f11d459e638c
-同期日時: 2026-04-02T21:35:59+09:00
+Notion URL: https://app.notion.com/p/_-334f3b0fba858097b610f11d459e638c
+同期日時: 2026-04-14T13:06:46+09:00
 
 ---
 

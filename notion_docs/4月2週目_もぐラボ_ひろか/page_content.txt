@@ -1,7 +1,7 @@
 # 4月2週目_もぐラボ_ひろか
 
-Notion URL: https://www.notion.so/4-2-_-_-340f3b0fba8580948bece79c7c209afd
-同期日時: 2026-04-14T09:55:02+09:00
+Notion URL: https://app.notion.com/p/4-2-_-_-340f3b0fba8580948bece79c7c209afd
+同期日時: 2026-04-14T13:08:38+09:00
 
 ---
 
@@ -31,3 +31,17 @@ https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4k
 └LINEシナリオ・LINE構築・クリエイティブ・VSL台本・LPシナリオ・LP構築
   https://www.canva.com/design/DAGsPhTupaY/yV8s6hpVwxvYltOcw7lofA/edit
   https://www.canva.com/design/DAHCMpjxWKE/HVb94EW_Fu9Kb0GVgIympA/edit?utm_content=DAHCMpjxWKE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+営業MG報酬
+単価2000円×全体の成約数（目標値が未達だったら）
+単価4000円×全体の成約数（目標値を達成したら）
+個人の成約報酬はなし
+参考）スクラブ営業MG報酬
+30〜34 1500
+35〜39 2000
+40〜45 3000
+45〜　3500
+次回の壁打ちで持ってくる
+講師のランク評価制度
+講師MG報酬
+アフィMG報酬
+サブスク設計
