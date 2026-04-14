@@ -1,7 +1,7 @@
 # 🆕26年3月〜入学式マニュアル
 
-Notion URL: https://www.notion.so/26-3-1edf3b0fba85807da6ceda3b24ec8190
-同期日時: 2026-04-11T21:22:44+09:00
+Notion URL: https://app.notion.com/p/26-3-1edf3b0fba85807da6ceda3b24ec8190
+同期日時: 2026-04-15T00:35:13+09:00
 
 ---
 
@@ -21,7 +21,7 @@ Notion URL: https://www.notion.so/26-3-1edf3b0fba85807da6ceda3b24ec8190
 ⭐️不参加者への連絡・次回入学式の確認（2〜3分）
 Zoomを立ち上げて画面共有でスライドを投影する。
     ↓動画　※事前にご自身のPCにダウンロードしてください🙇🏻‍♀️
-    https://drive.google.com/file/d/1CR0CaZtFXvCXAvA0d7XpyyeEYOuAxOts/view?usp=sharing
+    https://drive.google.com/file/d/16JpJaULcKC8jAFDgieB1xEzLW-NMopIq/view?usp=sharing
   動画を画面共有する。
     必ず「サウンド共有」にチェック！
   時間になったら「待機室から入室を許可」し、生徒さんを入室させる。

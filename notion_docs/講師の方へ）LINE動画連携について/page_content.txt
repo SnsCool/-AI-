@@ -1,12 +1,13 @@
 # 講師の方へ）LINE動画連携について
 
-Notion URL: https://www.notion.so/LINE-342f3b0fba85808eb7b6e56bc381d425
-同期日時: 2026-04-14T21:32:21+09:00
+Notion URL: https://app.notion.com/p/LINE-342f3b0fba85808eb7b6e56bc381d425
+同期日時: 2026-04-15T00:32:31+09:00
 
 ---
 
 流入3日前23:59までに下記のドライブに動画入れていただきたいです！
-＜リンク＞
+■URL
+https://drive.google.com/drive/folders/1YDMCvWN6glw51zs5QHFqt1c4hwLg9vIC
 格納する動画の名前は下記沿って変更してほしいです
 〇月前半）LINE動画_〇〇
   〇月後半）LINE動画_〇〇
@@ -30,6 +31,3 @@ Notion URL: https://www.notion.so/LINE-342f3b0fba85808eb7b6e56bc381d425
 12/3 23:59
 スレッドでもリマインドしますが、よろしくお願いいたします🙇‍♀️
 ーーーー
-質問）
-ローンチ講師はいつくらいに決まる？
-→名前の指定したらダメですか？

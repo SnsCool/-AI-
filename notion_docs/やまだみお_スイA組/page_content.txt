@@ -1,7 +1,7 @@
 # やまだみお_スイA組
 
-Notion URL: https://www.notion.so/_-A-2ddf3b0fba858004928ff518ae568edf
-同期日時: 2026-03-07T21:19:56+09:00
+Notion URL: https://app.notion.com/p/_-A-2ddf3b0fba858004928ff518ae568edf
+同期日時: 2026-04-15T00:34:33+09:00
 
 ---
 
@@ -9,5 +9,5 @@ Notion URL: https://www.notion.so/_-A-2ddf3b0fba858004928ff518ae568edf
   2回目：2/7 19
 3回目：3/7 19
 4回目：4/11 21
-5回目：5/9 21
-6回目：6/13 21
+5回目：5/13 22
+6回目：6/11 22

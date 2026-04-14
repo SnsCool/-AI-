@@ -1,7 +1,7 @@
 # 案件一覧Notionに追加
 
-Notion URL: https://www.notion.so/Notion-328f3b0fba8580cfa072f6fc6ac3056b
-同期日時: 2026-04-03T00:30:58+09:00
+Notion URL: https://app.notion.com/p/Notion-328f3b0fba8580cfa072f6fc6ac3056b
+同期日時: 2026-04-15T00:34:24+09:00
 
 ---
 

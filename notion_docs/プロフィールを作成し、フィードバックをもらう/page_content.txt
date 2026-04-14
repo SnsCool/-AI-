@@ -1,7 +1,7 @@
 # プロフィールを作成し、フィードバックをもらう
 
-Notion URL: https://www.notion.so/342f3b0fba858106b488c63a79363d5d
-同期日時: 2026-04-14T21:33:34+09:00
+Notion URL: https://app.notion.com/p/5d3f3b0fba85831ca6d1813e21438cee
+同期日時: 2026-04-15T00:32:45+09:00
 
 ---
 
