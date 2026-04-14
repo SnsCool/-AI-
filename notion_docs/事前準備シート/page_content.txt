@@ -1,7 +1,7 @@
 # 事前準備シート
 
-Notion URL: https://www.notion.so/333f3b0fba8580a88b10c2b0b69c9ac8
-同期日時: 2026-04-03T18:28:55+09:00
+Notion URL: https://app.notion.com/p/333f3b0fba8580a88b10c2b0b69c9ac8
+同期日時: 2026-04-14T15:49:03+09:00
 
 ---
 
@@ -9,3 +9,7 @@ Notion URL: https://www.notion.so/333f3b0fba8580a88b10c2b0b69c9ac8
 1on1面談前にこちらのシートの記入をお願いいたします！
 ※コピーして自分用のスプレッドシートを作成
 https://docs.google.com/spreadsheets/d/1ckk2iH9ydzgmNakeTA7rVWPLvnHs1UMKPnHHhj9SrQA/edit?usp=sharing
+もぐラボアフィリエイト重要ポイント
+①ビフォーアフターの活用
+②憧れ感の演出
+③共感

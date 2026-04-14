@@ -1,7 +1,7 @@
 # スタータープログラムの内容変更にあたり、MGのアサイン方法変更
 
-Notion URL: https://www.notion.so/MG-334f3b0fba85804e9f6ad505afb24816
-同期日時: 2026-04-02T21:35:57+09:00
+Notion URL: https://app.notion.com/p/MG-334f3b0fba85804e9f6ad505afb24816
+同期日時: 2026-04-14T15:49:41+09:00
 
 ---
 

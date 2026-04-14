@@ -1,7 +1,7 @@
 # ナレッジ共有
 
-Notion URL: https://www.notion.so/32ef3b0fba8580309045edf77bd0f706
-同期日時: 2026-04-09T21:36:59+09:00
+Notion URL: https://app.notion.com/p/32ef3b0fba8580309045edf77bd0f706
+同期日時: 2026-04-14T15:49:29+09:00
 
 ---
 
@@ -18,6 +18,13 @@ https://re-story.jp/
 料金：無料
 https://app.re-story.jp/users/sign_up?code=e8b1d457-75e1-48e4-9159-b01b688454c8
 クリエイティブ 
+  ストーリーズ機能の活用方法
+  質問箱
+  リアクション
+  アンケート機能
+  食べやせ教育資料
+  食べ痩せ定食黄金比
+  ポテチやハンバーガーがOKな理由
 RESTORY紹介ページ
 https://re-story.jp/
 

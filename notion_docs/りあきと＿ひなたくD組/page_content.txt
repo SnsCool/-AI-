@@ -1,13 +1,13 @@
 # りあきと＿ひなたくD組
 
-Notion URL: https://www.notion.so/D-335f3b0fba85806eaeceef80d4891fb6
-同期日時: 2026-04-06T15:54:19+09:00
+Notion URL: https://app.notion.com/p/D-335f3b0fba85806eaeceef80d4891fb6
+同期日時: 2026-04-14T15:49:20+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
-    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    アクションhttps://docs.google.com/spreadsheets/d/1uIBiK7dhFhcXCVLbbXZ_7vFSJUppuSDV7fM6GIb3PBw/edit?usp=sharing
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
@@ -50,7 +50,7 @@ https://www.canva.com/design/DAGOg6YIIqM/eqJhbsePHX57xupfSvMkBg/edit?utm_content
 ロードマップを決めたら、次回のコーチングセッションで振り返り・実行できた・できていないを二人で確認し、確実に学習を進めていきましょう。
 以下、学習ロードマップをコピペ+チェックボックスを使える状態にして、学習カリキュラムの進捗を確認し、
 Starter Program（入会〜ホームルームまでにやること）
-  SnsClubスタータープログラム講師マニュアル 
+  【講師マニュアル】SnsClubスタータープログラム 
 1on1~アカウント開設
 初投稿~フォロワー1000人
 ↑↑↑　上記、タップしてOPEN！　↑↑↑
