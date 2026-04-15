@@ -1,7 +1,7 @@
 # 【営業】マニュアル
 
 Notion URL: https://www.notion.so/2ccf3b0fba8580da9192cefc7e69b8e1
-同期日時: 2026-04-13T13:15:00+09:00
+同期日時: 2026-04-16T00:34:18+09:00
 
 ---
 
@@ -18,7 +18,7 @@ Notion URL: https://www.notion.so/2ccf3b0fba8580da9192cefc7e69b8e1
   https://www.canva.com/design/DAG-0Z6w0Nw/NCBK7EUArTd3A4mTS9O1ZA/edit
 商談録画
   https://drive.google.com/drive/folders/1CodLgae93-UDwDvh4dYI_DV2QQJO4un8?usp=drive_link
-スクリプトの確認
+スクリプトの確認 
     ひろかマインド
     挨拶・自己紹介
     認識のすり合わせ
