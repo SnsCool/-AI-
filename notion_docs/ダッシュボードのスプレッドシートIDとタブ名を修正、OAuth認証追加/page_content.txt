@@ -1,0 +1,10 @@
+# ダッシュボードのスプレッドシートIDとタブ名を修正、OAuth認証追加
+
+Notion URL: https://www.notion.so/ID-OAuth-343f3b0fba858124a2f3ec165b0763da
+同期日時: 2026-04-16T06:23:52+09:00
+
+---
+
+commit: 2034b8c9e227e0d4c456de7d6263c74d9ff39435
+
+M	backend/api/assignee_dashboard.py

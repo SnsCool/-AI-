@@ -1,0 +1,10 @@
+# Dockerfileでnpx next buildを使用（.bin/nextのrequire-hookエラー回避）
+
+Notion URL: https://www.notion.so/Dockerfile-npx-next-build-bin-next-require-hook-343f3b0fba858112a187fbb6f6de1351
+同期日時: 2026-04-16T06:24:20+09:00
+
+---
+
+commit: fdb07bf8734c01feed4e119fd6a353466e506f6e
+
+M	frontend/Dockerfile

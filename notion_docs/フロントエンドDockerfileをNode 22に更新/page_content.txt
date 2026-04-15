@@ -1,0 +1,10 @@
+# フロントエンドDockerfileをNode 22に更新
+
+Notion URL: https://www.notion.so/Dockerfile-Node-22-343f3b0fba8581bfbe25e15d80b1f184
+同期日時: 2026-04-16T06:24:20+09:00
+
+---
+
+commit: 48c7eafe577dae6b98a2e7a24c48a6c43f57e35d
+
+M	frontend/Dockerfile

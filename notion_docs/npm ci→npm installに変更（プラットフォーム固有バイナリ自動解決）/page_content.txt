@@ -1,0 +1,10 @@
+# npm ci→npm installに変更（プラットフォーム固有バイナリ自動解決）
+
+Notion URL: https://www.notion.so/npm-ci-npm-install-343f3b0fba8581aa923ddbf1620b8c65
+同期日時: 2026-04-16T06:23:52+09:00
+
+---
+
+commit: 49beafd0ba3783d5d1dab2449fd3efafea8ec231
+
+M	frontend/Dockerfile

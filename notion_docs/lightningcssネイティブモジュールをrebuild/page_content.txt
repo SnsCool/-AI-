@@ -1,0 +1,10 @@
+# lightningcssネイティブモジュールをrebuild
+
+Notion URL: https://www.notion.so/lightningcss-rebuild-343f3b0fba858124ace3c2167f30b1e0
+同期日時: 2026-04-16T06:24:19+09:00
+
+---
+
+commit: 580eac23a182cb7a95a929acf1c19441c151ee18
+
+M	frontend/Dockerfile
