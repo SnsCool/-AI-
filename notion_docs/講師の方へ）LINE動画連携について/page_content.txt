@@ -1,13 +1,16 @@
 # 講師の方へ）LINE動画連携について
 
-Notion URL: https://app.notion.com/p/LINE-342f3b0fba85808eb7b6e56bc381d425
-同期日時: 2026-04-15T00:32:31+09:00
+Notion URL: https://www.notion.so/LINE-342f3b0fba85808eb7b6e56bc381d425
+同期日時: 2026-04-15T21:35:00+09:00
 
 ---
 
 流入3日前23:59までに下記のドライブに動画入れていただきたいです！
 ■URL
 https://drive.google.com/drive/folders/1YDMCvWN6glw51zs5QHFqt1c4hwLg9vIC
+○月
+　L○月前半
+　　　L〇月前半）LINE動画_〇〇
 格納する動画の名前は下記沿って変更してほしいです
 〇月前半）LINE動画_〇〇
   〇月後半）LINE動画_〇〇
