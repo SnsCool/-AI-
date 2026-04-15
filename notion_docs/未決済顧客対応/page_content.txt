@@ -1,7 +1,7 @@
 # 未決済顧客対応
 
-Notion URL: https://www.notion.so/33bf3b0fba8581b28cd9f2059eec6a5a
-同期日時: 2026-04-07T18:33:16+09:00
+Notion URL: https://www.notion.so/32df3b0fba85819bb90de4974a6aa6d7
+同期日時: 2026-04-15T18:41:28+09:00
 
 ---
 
