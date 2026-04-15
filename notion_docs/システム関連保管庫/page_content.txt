@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-04-13T13:12:54+09:00
+同期日時: 2026-04-16T03:34:17+09:00
 
 ---
 
@@ -72,8 +72,7 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
     Notionへアップ
     Discord通知
 スクラブラジオの音声結合
-コーチング得心コース用Webアプリ開発
-  ああ
+コーチング特進コース用Webアプリ開発
 アプリ開発
 SnsClub講義（GRITSTUDY）アプリ追加開発
 引き継ぎ
@@ -99,13 +98,14 @@ SnsClub講義（GRITSTUDY）アプリ追加開発
     Firebase
 引き継ぎ後ネクストステップ
   app@levela.co.jp、アカウント作成
-    App Store Connect / Apple Developer
-    Google Developer
+    不要：App Store Connect / Apple Developer
+    不要：Google Developer
     AWS
     Firebase
   みおこさん、たいちさんにクレジットカード決済依頼
-  打ち合わせ調整
-    期限感となにするか？
+  ポータルとしての機能をまずは、Webアプリ化する。
+    アプリで作るようになっているものをWebアプリ化
+    スクラブポータルをトップページに
 AWSを社内インフラにしたい
   gitからアップロードしてアクセスできるようになった？
   一部作業残（優先度低）

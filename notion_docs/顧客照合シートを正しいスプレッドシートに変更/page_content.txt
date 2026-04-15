@@ -1,0 +1,10 @@
+# 顧客照合シートを正しいスプレッドシートに変更
+
+Notion URL: https://www.notion.so/343f3b0fba85815594c6f057f5f70b6d
+同期日時: 2026-04-16T03:32:34+09:00
+
+---
+
+commit: 55aab95d516d5658a066dac6f977e504dcdeda9d
+
+M	backend/services/sheets_sync.py
