@@ -1,7 +1,7 @@
 # プロダクト開発
 
-Notion URL: https://www.notion.so/342f3b0fba8581838fb2d0264bfc663c
-同期日時: 2026-04-14T18:44:52+09:00
+Notion URL: https://www.notion.so/343f3b0fba85812faf12d44ec83f4fd3
+同期日時: 2026-04-15T13:08:12+09:00
 
 ---
 
