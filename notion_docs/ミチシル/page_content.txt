@@ -1,7 +1,7 @@
 # ミチシル
 
 Notion URL: https://www.notion.so/2caf3b0fba8580d28207fa6397ef22e3
-同期日時: 2026-04-07T13:10:36+09:00
+同期日時: 2026-04-16T15:51:43+09:00
 
 ---
 
@@ -167,6 +167,7 @@ Notion URL: https://www.notion.so/2caf3b0fba8580d28207fa6397ef22e3
     ミチシル訴求 まとめ（インフルエンサーPR内容メモ） 
     戦略
     ふうかメモ
+ミチシルコーチ
   第一章：認知科学コーチングとは？メカニズムを知る
   元ファイル：
   file:///Users/fuka/01_AI/%E3%81%BE%E3%81%98AI%E6%A8%A1%E5%80%A3/%E6%95%99%E6%9D%90HTML/%E7%AC%AC1%E7%AB%A0.html

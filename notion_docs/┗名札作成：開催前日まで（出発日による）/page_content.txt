@@ -1,0 +1,76 @@
+# ┗名札作成：開催前日まで（出発日による）
+
+Notion URL: https://www.notion.so/2bdf3b0fba85809c938ae69beb9a3557
+同期日時: 2026-04-16T15:49:37+09:00
+
+---
+
+Untitled 
+運営のプロファイルにログイン>オフ会のブックマークに関連URL格納済み
+（講師も追加）
+ディスコード＞運営アカウント＞オフ会お知らせ
+もらった参加者リストを修正
+名簿をディスコードで共有される
+→はじめに手動でリンク訂正
+→URLが開かない時の検索方法
+　・Discord or月報で検索、無理だったらりくさんに連絡
+必要共通項目：ニックネーム　InstagramURL 
+＜エスキャン＞
+・参加者リストをコピーし、タイトルを変更
+（本名フルネーム（カタカナ））、ニックネーム、InstagramアカウントURL 、フ ォロワー数、発信ジャンル 、参加回数、 エスキャンゴールド会員
+・フォロワー数を正しい数字に　例)12,000
+ →？りくさんに報告
+
+ゴールド会員を並び替え
+講師：名前の後に講師と追加
+＜SnsClub＞
+クラス：〇〇組
+講師名：さんを削除
+アルファベットは大文字で統一
+講師：アカウントは、ここから検索　講師一覧　
+よく使う方
+  駒居さん
+https://www.instagram.com/koki_komai/
+カイシャインさん
+https://www.instagram.com/snshighschool/
+名刺を自動作成
+SnsClub　 　https://docs.google.com/spreadsheets/d/1PpaEvfJjTnM3NHkg8Ytu-1oTF4L5DPcmgf5DrPhCCqA/edit?gid=1204145965#gid=1204145965
+ニックネーム・SNSアカウントURL・クラス名(講師：空欄)　を貼り付け
+エスキャン　https://docs.google.com/spreadsheets/d/1iootn3bZYh1YbMNpfsk05u8xHcUkMxIsdpvpRy4jA4E/edit?gid=1204145965#gid=1204145965
+ニックネーム・SNSアカウントURL　を貼り付け
+拡張機能のAppsを選択し、実行(5分くらいかかる)
+⚠️50人ずつ(エラーが起きてしまうので)⚠️
+
+スライドに反映されているか手動で確認
+X、TikTok、YouTubeは必ず手動で作成
+完成した名刺をPDFで保存
+保存したPDFを分割
+https://www.nowte.net/tool/pdf-to-png/
+キャンバで印刷シートを作成（人数もリストと合っているか確認）
+https://www.canva.com/design/DAF5MIii4nY/qgpYrtsqlV8CMgK3yguEOA/edit?success=true&continue_in_browser=true
+1ページづつダウンロード
+PDF(印刷)　cmyk
+未反映名刺を手動作成
+反映されていないものがあれば、キャンバで作成
+QRコードはアプリ＞QRコードと検索　黒白のQR codeで今あるQRコードをタップしてから、更新
+アイコン画像は、Instagram：アカウントページに飛び、画面をダブルクリック＞画像コピー＞貼り付け
+SnsCool https://www.canva.com/design/DAF-u0cadMc/Czv9abnN2vO21tdxVhS4nw/edit?success=true&continue_in_browser=true
+エスキャン　https://www.canva.com/design/DAF-vO21LDo/NOHNlDJatTwgGUVLElpm2w/edit?success=true&continue_in_browser=true
+作成ページをダウンロード：PNG
+
+1ページづつダウンロード
+PDF(印刷)　
+実際に名刺を作成
+セブンネットプリントにアップロード（10枚まで可能）
+すぐにプリント>同意＞ファイルを選択
+カラーモード：カラー　に変更
+https://www.printing.ne.jp/index_p.html
+スマホで見れるようにファイルに保存して、セブンで印刷
+(美月さんに現金もらう)　⚠️領収書
+カラー、一枚：60円
+ペーパーカッター、ネックストラップの箱（倉庫）を用意し、ネックストラップに入れる
+⚠️講師は青のネックストラップ
+＜エスキャン＞
+ゴールド会員は黄色のネックストラップ
+講師はエスキャンストラップ
+ゴールドでない人はストラップなし
