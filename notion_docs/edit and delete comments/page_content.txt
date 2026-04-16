@@ -1,0 +1,12 @@
+# edit and delete comments
+
+Notion URL: https://www.notion.so/edit-and-delete-comments-344f3b0fba858146850afd5adbe9a2e5
+同期日時: 2026-04-16T18:45:17+09:00
+
+---
+
+commit: 6f900430991031254f561ec171ccae70663baf2a
+
+M	backend/api/comments.py
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/components/recording/CommentSection.tsx

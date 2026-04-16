@@ -1,0 +1,12 @@
+# LINE-style chat UI with speaker detection
+
+Notion URL: https://www.notion.so/LINE-style-chat-UI-with-speaker-detection-344f3b0fba8581e191f1caf3ea1ad33b
+同期日時: 2026-04-16T18:45:42+09:00
+
+---
+
+commit: a3de31ba0d12c56f7831716757f2ad4731b243f6
+
+M	backend/api/analysis.py
+M	backend/services/transcript_parser.py
+M	frontend/src/app/recordings/[id]/page.tsx

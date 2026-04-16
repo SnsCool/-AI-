@@ -1,0 +1,16 @@
+# comprehensive analysis + comment system
+
+Notion URL: https://www.notion.so/comprehensive-analysis-comment-system-344f3b0fba8581dfb131fb3ff71eba22
+同期日時: 2026-04-16T18:45:41+09:00
+
+---
+
+commit: 619c0b972459bdc72265890611f60af84f17cbcf
+
+M	backend/api/analysis.py
+A	backend/api/comments.py
+M	backend/main.py
+M	frontend/src/app/recordings/[id]/page.tsx
+A	frontend/src/components/recording/AnalysisPanel.tsx
+A	frontend/src/components/recording/CommentSection.tsx
+M	frontend/src/lib/api.ts

@@ -1,0 +1,11 @@
+# AI coaching mode - brainstorm with AI about the meeting
+
+Notion URL: https://www.notion.so/AI-coaching-mode-brainstorm-with-AI-about-the-meeting-344f3b0fba8581b6a254d1e6b8169d35
+同期日時: 2026-04-16T18:44:55+09:00
+
+---
+
+commit: c70d1ed83adf8094645c32041a78148affa47f4b
+
+M	backend/api/ai_chat.py
+M	frontend/src/app/recordings/[id]/page.tsx

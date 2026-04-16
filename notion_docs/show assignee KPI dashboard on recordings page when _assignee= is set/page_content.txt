@@ -1,0 +1,10 @@
+# show assignee KPI dashboard on recordings page when ?assignee= is set
+
+Notion URL: https://www.notion.so/show-assignee-KPI-dashboard-on-recordings-page-when-assignee-is-set-344f3b0fba8581a992bcd35337849b0d
+同期日時: 2026-04-16T18:44:40+09:00
+
+---
+
+commit: b728508e31c580476c98fbde00a0b6d18cebadaf
+
+M	frontend/src/app/recordings/page.tsx

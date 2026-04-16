@@ -1,0 +1,11 @@
+# ローンチ推移を棒グラフに変更 + 着座率追加
+
+Notion URL: https://www.notion.so/344f3b0fba8581c59cadcd09326151b5
+同期日時: 2026-04-16T18:44:12+09:00
+
+---
+
+commit: 6b051aa6226e5717f1fc69b62ffe9be44fb2e2b8
+
+M	backend/api/assignee_dashboard.py
+M	frontend/src/app/assignee-dashboard/page.tsx

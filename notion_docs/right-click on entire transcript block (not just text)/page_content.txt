@@ -1,0 +1,10 @@
+# right-click on entire transcript block (not just text)
+
+Notion URL: https://www.notion.so/right-click-on-entire-transcript-block-not-just-text-344f3b0fba85814a8d29fa30da0f8b5a
+同期日時: 2026-04-16T18:45:04+09:00
+
+---
+
+commit: 29bbd0f3fa6d190fcf4a2149f60f12a8d7885511
+
+M	frontend/src/app/recordings/[id]/page.tsx

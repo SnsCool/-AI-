@@ -1,0 +1,11 @@
+# filter recordings by customer sheet + show 準備中
+
+Notion URL: https://www.notion.so/filter-recordings-by-customer-sheet-show-344f3b0fba8581d4847ae9bff8eea240
+同期日時: 2026-04-16T18:44:53+09:00
+
+---
+
+commit: 96b7ea287949d8b7ad45bc8c5526491ce09db68e
+
+M	backend/services/db_client.py
+M	frontend/src/app/recordings/page.tsx

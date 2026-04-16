@@ -1,0 +1,19 @@
+# 管理画面をPC向けに刷新 + インライン編集 + 分析ダッシュボード
+
+Notion URL: https://www.notion.so/PC-344f3b0fba8581f182dcda8f2964d471
+同期日時: 2026-04-16T18:45:30+09:00
+
+---
+
+commit: eabbabaeeb74588c409561cd61289c92d2fe57d1
+
+M	src/app/(admin)/admin/import/page.tsx
+M	src/app/(admin)/admin/page.tsx
+M	src/app/(admin)/admin/questions/page.tsx
+A	src/app/(admin)/admin/series/SeriesManagerClient.tsx
+M	src/app/(admin)/admin/series/page.tsx
+M	src/app/(admin)/layout.tsx
+A	src/app/api/admin/analytics/route.ts
+A	src/app/api/admin/courses/[id]/route.ts
+A	src/app/api/admin/lessons/[id]/route.ts
+A	src/app/api/admin/questions/[id]/route.ts

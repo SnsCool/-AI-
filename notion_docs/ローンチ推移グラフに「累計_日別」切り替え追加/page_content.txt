@@ -1,0 +1,12 @@
+# ローンチ推移グラフに「累計/日別」切り替え追加
+
+Notion URL: https://www.notion.so/344f3b0fba85814d8ae8fe17b6673e9f
+同期日時: 2026-04-16T18:44:11+09:00
+
+---
+
+commit: 6df0ae4431dcc615689233f997b62db86672dcb8
+
+M	backend/api/assignee_dashboard.py
+M	frontend/src/app/assignee-dashboard/page.tsx
+M	frontend/src/lib/api.ts

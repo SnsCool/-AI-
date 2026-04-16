@@ -1,0 +1,18 @@
+# 既存機能を461f812ベースに復元 + 議事録機能のみ追加
+
+Notion URL: https://www.notion.so/461f812-344f3b0fba858143981fe4ae43ce8c04
+同期日時: 2026-04-16T18:44:05+09:00
+
+---
+
+commit: 7bcc50e45c6a2f22545895ee8411ba65698ad340
+
+M	backend/api/batch.py
+M	backend/services/sheets_sync.py
+M	frontend/src/app/assignee-dashboard/page.tsx
+M	frontend/src/app/assignees/page.tsx
+M	frontend/src/app/nav-bar.tsx
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/app/recordings/page.tsx
+M	frontend/src/components/recording/CommentSection.tsx
+M	frontend/src/lib/api.ts

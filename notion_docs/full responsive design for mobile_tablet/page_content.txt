@@ -1,0 +1,18 @@
+# full responsive design for mobile/tablet
+
+Notion URL: https://www.notion.so/full-responsive-design-for-mobile-tablet-344f3b0fba8581a1bf78d38a54f318b4
+同期日時: 2026-04-16T18:45:33+09:00
+
+---
+
+commit: 45ecb2f4da756546c1bf45ae7a866a7bb204415a
+
+M	frontend/src/app/assignees/page.tsx
+M	frontend/src/app/batch/page.tsx
+M	frontend/src/app/globals.css
+M	frontend/src/app/layout.tsx
+M	frontend/src/app/page.tsx
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/app/recordings/page.tsx
+M	frontend/src/components/recording/AnalysisPanel.tsx
+M	frontend/src/components/recording/CommentSection.tsx

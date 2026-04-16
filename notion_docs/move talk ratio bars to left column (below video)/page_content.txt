@@ -1,0 +1,10 @@
+# move talk ratio bars to left column (below video)
+
+Notion URL: https://www.notion.so/move-talk-ratio-bars-to-left-column-below-video-344f3b0fba8581b894aed703a0539423
+同期日時: 2026-04-16T18:45:11+09:00
+
+---
+
+commit: 1d7bcd3390bf4f32aa0935cfdafdc4528533e0ef
+
+M	frontend/src/app/recordings/[id]/page.tsx

@@ -1,0 +1,10 @@
+# faster AI chat - use Flash + analysis context + less transcript
+
+Notion URL: https://www.notion.so/faster-AI-chat-use-Flash-analysis-context-less-transcript-344f3b0fba8581ca89c9f0da890f251f
+同期日時: 2026-04-16T18:44:55+09:00
+
+---
+
+commit: ae6fbdfed331f8d2cd4d8408ce481c3ad89fe5f4
+
+M	backend/api/ai_chat.py

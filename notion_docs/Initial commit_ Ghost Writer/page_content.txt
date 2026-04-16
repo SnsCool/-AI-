@@ -1,0 +1,10 @@
+# Initial commit: Ghost Writer
+
+Notion URL: https://www.notion.so/Initial-commit-Ghost-Writer-344f3b0fba8581bab63dc8a364aa7fc7
+同期日時: 2026-04-16T18:43:53+09:00
+
+---
+
+commit: 2067a204a45e17316097098b5935eece777d1154
+
+(no file changes)

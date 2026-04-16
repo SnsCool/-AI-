@@ -1,0 +1,10 @@
+# ECSタスク定義にGoogle Calendar OAuth環境変数を追加
+
+Notion URL: https://www.notion.so/ECS-Google-Calendar-OAuth-344f3b0fba8581a184d8ff8e2200a00b
+同期日時: 2026-04-16T18:44:22+09:00
+
+---
+
+commit: 61f9b0fde739205807cfac686da30ca2e1840098
+
+M	infra/task-def-backend.json

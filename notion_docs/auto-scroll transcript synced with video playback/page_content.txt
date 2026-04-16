@@ -1,0 +1,10 @@
+# auto-scroll transcript synced with video playback
+
+Notion URL: https://www.notion.so/auto-scroll-transcript-synced-with-video-playback-344f3b0fba85818e91e3cbf3adacec40
+同期日時: 2026-04-16T18:45:42+09:00
+
+---
+
+commit: 249f82e13b1a71855d567c85d775f305e81ca5ec
+
+M	frontend/src/app/recordings/[id]/page.tsx

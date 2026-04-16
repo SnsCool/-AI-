@@ -1,0 +1,11 @@
+# color scheme - 成約=赤, 失注=黒#333, 保留=緑
+
+Notion URL: https://www.notion.so/color-scheme-333-344f3b0fba8581adaaa8e5d60ee3f97d
+同期日時: 2026-04-16T18:44:39+09:00
+
+---
+
+commit: e86c27adf06e866800d0991edd264579a7ac9f0e
+
+M	frontend/src/app/assignee-dashboard/page.tsx
+M	frontend/src/app/recordings/page.tsx

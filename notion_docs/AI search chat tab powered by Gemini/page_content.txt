@@ -1,0 +1,12 @@
+# AI search chat tab powered by Gemini
+
+Notion URL: https://www.notion.so/AI-search-chat-tab-powered-by-Gemini-344f3b0fba8581d183becd0deffaf301
+同期日時: 2026-04-16T18:45:04+09:00
+
+---
+
+commit: 236b85b99e1314c8d4678bfe16da75b9436af4f9
+
+A	backend/api/ai_chat.py
+M	backend/main.py
+M	frontend/src/app/recordings/[id]/page.tsx

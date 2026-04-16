@@ -1,0 +1,11 @@
+# 新規登録にDiscord連携ステップ追加 + 運営ロール追加
+
+Notion URL: https://www.notion.so/Discord-344f3b0fba8581568fa9f952908ee16a
+同期日時: 2026-04-16T18:44:13+09:00
+
+---
+
+commit: b1b0b75b7c6641adb51bce1b80a0d78e85ed8471
+
+M	backend/api/auth.py
+M	frontend/src/app/register/page.tsx

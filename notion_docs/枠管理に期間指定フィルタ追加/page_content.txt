@@ -1,0 +1,10 @@
+# 枠管理に期間指定フィルタ追加
+
+Notion URL: https://www.notion.so/344f3b0fba8581fb8024ca6631d897fc
+同期日時: 2026-04-16T18:44:10+09:00
+
+---
+
+commit: 813330ac9a132f93a25abc35ca3ef7ee384560e5
+
+M	frontend/src/app/slot-management/page.tsx

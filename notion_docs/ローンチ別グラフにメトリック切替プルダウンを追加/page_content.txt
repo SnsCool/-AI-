@@ -1,0 +1,12 @@
+# ローンチ別グラフにメトリック切替プルダウンを追加
+
+Notion URL: https://www.notion.so/344f3b0fba85815eb5c4d456df27152c
+同期日時: 2026-04-16T18:44:19+09:00
+
+---
+
+commit: c83caf52b7a7db04c311b5f39ac4fdf9afab8058
+
+M	backend/api/assignee_dashboard.py
+M	frontend/src/app/assignee-dashboard/page.tsx
+M	frontend/src/lib/api.ts

@@ -1,0 +1,10 @@
+# version 2.1.0-minutes for deploy verification
+
+Notion URL: https://www.notion.so/version-2-1-0-minutes-for-deploy-verification-344f3b0fba85815291f3ea9294c53aea
+同期日時: 2026-04-16T18:44:06+09:00
+
+---
+
+commit: 1216a7826f13d551af1b154abbd27463ac3c3f5c
+
+M	backend/main.py

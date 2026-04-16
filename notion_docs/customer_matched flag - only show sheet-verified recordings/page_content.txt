@@ -1,0 +1,11 @@
+# customer_matched flag - only show sheet-verified recordings
+
+Notion URL: https://www.notion.so/customer_matched-flag-only-show-sheet-verified-recordings-344f3b0fba8581d59cdcdfabcf90b40c
+同期日時: 2026-04-16T18:44:53+09:00
+
+---
+
+commit: 6a83405638a1cf9e722841638cb91fcda3c9fac9
+
+M	backend/api/batch.py
+M	backend/services/db_client.py

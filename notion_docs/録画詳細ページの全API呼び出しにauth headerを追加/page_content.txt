@@ -1,0 +1,10 @@
+# 録画詳細ページの全API呼び出しにauth headerを追加
+
+Notion URL: https://www.notion.so/API-auth-header-344f3b0fba8581e7a30bd7b21f888e66
+同期日時: 2026-04-16T18:44:29+09:00
+
+---
+
+commit: 5c6ca7ae1d532c41a23cd1628e79fd5adeae550c
+
+M	frontend/src/app/recordings/[id]/page.tsx

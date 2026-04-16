@@ -1,0 +1,13 @@
+# アプリ内通知機能を実装
+
+Notion URL: https://www.notion.so/344f3b0fba858110a0e1f0f455f51de7
+同期日時: 2026-04-16T18:44:12+09:00
+
+---
+
+commit: 6afdbe19ecc9bd91ecea2ab9d37e302bf77fe152
+
+M	backend/api/comments.py
+A	backend/api/notifications.py
+M	backend/main.py
+M	frontend/src/app/nav-bar.tsx

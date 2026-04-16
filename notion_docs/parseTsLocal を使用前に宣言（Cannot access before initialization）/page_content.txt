@@ -1,0 +1,10 @@
+# parseTsLocal を使用前に宣言（Cannot access before initialization）
+
+Notion URL: https://www.notion.so/parseTsLocal-Cannot-access-before-initialization-344f3b0fba85816790eff3a17a0ac9a8
+同期日時: 2026-04-16T18:44:29+09:00
+
+---
+
+commit: c39a45676f607e04de482c295e32d80889243f05
+
+M	frontend/src/app/recordings/[id]/page.tsx

@@ -1,0 +1,11 @@
+# status badges use color scheme - 成約=赤, 失注=黒, 保留=緑
+
+Notion URL: https://www.notion.so/status-badges-use-color-scheme-344f3b0fba8581919d38d6c0a51f9aab
+同期日時: 2026-04-16T18:44:39+09:00
+
+---
+
+commit: bb42a3de06a86c2e25b66f596d65617f60ad3c65
+
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/app/recordings/page.tsx

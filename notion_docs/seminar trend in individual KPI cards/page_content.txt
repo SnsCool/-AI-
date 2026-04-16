@@ -1,0 +1,11 @@
+# seminar trend in individual KPI cards
+
+Notion URL: https://www.notion.so/seminar-trend-in-individual-KPI-cards-344f3b0fba85815f96fbe71d6a1238b7
+同期日時: 2026-04-16T18:44:38+09:00
+
+---
+
+commit: be2022bac08efe364d80a092fc0009de0d668f2f
+
+M	backend/api/assignee_dashboard.py
+M	frontend/src/app/assignee-dashboard/page.tsx

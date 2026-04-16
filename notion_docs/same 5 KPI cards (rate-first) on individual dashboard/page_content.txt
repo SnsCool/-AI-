@@ -1,0 +1,10 @@
+# same 5 KPI cards (rate-first) on individual dashboard
+
+Notion URL: https://www.notion.so/same-5-KPI-cards-rate-first-on-individual-dashboard-344f3b0fba858193b91af9a5dd1209cb
+同期日時: 2026-04-16T18:44:40+09:00
+
+---
+
+commit: 056160b645ce1fb0c22999469cf76008e5bcb9e1
+
+M	frontend/src/app/assignee-dashboard/page.tsx

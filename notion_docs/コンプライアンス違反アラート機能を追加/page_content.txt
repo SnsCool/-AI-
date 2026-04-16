@@ -1,0 +1,13 @@
+# コンプライアンス違反アラート機能を追加
+
+Notion URL: https://www.notion.so/344f3b0fba8581bfb84fc60b6c606bfb
+同期日時: 2026-04-16T18:44:17+09:00
+
+---
+
+commit: b7badb2a4841906399c76f601b0292d265da7e54
+
+A	backend/api/compliance.py
+M	backend/main.py
+M	frontend/src/app/assignee-dashboard/page.tsx
+M	frontend/src/lib/api.ts

@@ -1,0 +1,10 @@
+# 分析セクションのラベルをタイトルに変更（「〇〇を分析しました」を削除）
+
+Notion URL: https://www.notion.so/344f3b0fba8581e59963dbcb86a6bbf6
+同期日時: 2026-04-16T18:44:13+09:00
+
+---
+
+commit: 9d5a9305677a6f7fc179740b1ba19e09051ef1ce
+
+M	frontend/src/app/recordings/[id]/page.tsx

@@ -1,0 +1,10 @@
+# remove speaker timeline section from left column
+
+Notion URL: https://www.notion.so/remove-speaker-timeline-section-from-left-column-344f3b0fba85816b8e8bd64ab80f1db0
+同期日時: 2026-04-16T18:45:10+09:00
+
+---
+
+commit: f29c103e7361a4c60fdd903c0c19c45a70f64293
+
+M	frontend/src/app/recordings/[id]/page.tsx

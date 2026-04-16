@@ -1,0 +1,15 @@
+# Googleカレンダー連携枠管理機能を実装
+
+Notion URL: https://www.notion.so/Google-344f3b0fba85816b9239f779e07dc09b
+同期日時: 2026-04-16T18:44:23+09:00
+
+---
+
+commit: 05dbedb187a7ca838c548c599d6932198a59323a
+
+M	backend/main.py
+M	backend/services/scheduler.py
+M	frontend/src/app/nav-bar.tsx
+M	frontend/src/app/settings/page.tsx
+A	frontend/src/app/slot-management/page.tsx
+M	frontend/src/lib/api.ts

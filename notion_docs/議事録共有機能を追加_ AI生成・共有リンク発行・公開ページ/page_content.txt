@@ -1,0 +1,16 @@
+# 議事録共有機能を追加: AI生成・共有リンク発行・公開ページ
+
+Notion URL: https://www.notion.so/AI-344f3b0fba85815a8313e06298ab84f8
+同期日時: 2026-04-16T18:44:07+09:00
+
+---
+
+commit: 9235766278d86898f637bd59b170ebfaa70d1a06
+
+A	backend/api/minutes.py
+M	backend/main.py
+M	frontend/src/app/nav-bar.tsx
+M	frontend/src/app/recordings/[id]/page.tsx
+A	frontend/src/app/share/[token]/layout.tsx
+A	frontend/src/app/share/[token]/page.tsx
+M	frontend/src/lib/api.ts

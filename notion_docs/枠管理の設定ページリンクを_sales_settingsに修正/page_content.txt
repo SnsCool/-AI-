@@ -1,0 +1,10 @@
+# 枠管理の設定ページリンクを/sales/settingsに修正
+
+Notion URL: https://www.notion.so/sales-settings-344f3b0fba8581979db7d2ba45f6bade
+同期日時: 2026-04-16T18:44:10+09:00
+
+---
+
+commit: 8d9db3931b75f7f6de5a5df925fbcf89600f21b9
+
+M	frontend/src/app/slot-management/page.tsx

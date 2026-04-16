@@ -1,0 +1,10 @@
+# rate as primary display, counts as secondary - 3 KPI cards
+
+Notion URL: https://www.notion.so/rate-as-primary-display-counts-as-secondary-3-KPI-cards-344f3b0fba8581a58462dd7074c9e664
+同期日時: 2026-04-16T18:44:41+09:00
+
+---
+
+commit: 25ea2abe49aa5f00e248baa7d0eeb920a2e4256e
+
+M	frontend/src/app/assignee-dashboard/page.tsx

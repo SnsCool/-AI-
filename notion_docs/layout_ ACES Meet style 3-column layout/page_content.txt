@@ -1,0 +1,10 @@
+# layout: ACES Meet style 3-column layout
+
+Notion URL: https://www.notion.so/layout-ACES-Meet-style-3-column-layout-344f3b0fba8581b8b90ef5dd47cb8c95
+同期日時: 2026-04-16T18:45:22+09:00
+
+---
+
+commit: 1b946c27c88e1d296c1f6ee30cac0842bb26094e
+
+M	frontend/src/app/recordings/[id]/page.tsx

@@ -1,0 +1,10 @@
+# comprehensive assignee dashboard from 顧客管理シート
+
+Notion URL: https://www.notion.so/comprehensive-assignee-dashboard-from-344f3b0fba85815fb2a8ffbf35312d42
+同期日時: 2026-04-16T18:44:52+09:00
+
+---
+
+commit: 5dbe414b35b9f5cee069d27a2fb47dee659356a2
+
+M	backend/api/assignee_dashboard.py

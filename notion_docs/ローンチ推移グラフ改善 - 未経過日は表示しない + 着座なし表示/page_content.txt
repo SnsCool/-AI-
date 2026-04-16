@@ -1,0 +1,12 @@
+# ローンチ推移グラフ改善 - 未経過日は表示しない + 着座なし表示
+
+Notion URL: https://www.notion.so/344f3b0fba858187adb0d1ebe4d6b81f
+同期日時: 2026-04-16T18:44:26+09:00
+
+---
+
+commit: 076786716dbfaae5a326fa5cebf1fc9b113a80c7
+
+M	backend/api/assignee_dashboard.py
+M	frontend/src/app/assignee-dashboard/page.tsx
+M	frontend/src/lib/api.ts

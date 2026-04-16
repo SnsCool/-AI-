@@ -1,0 +1,10 @@
+# Python 3.9 compatibility, add .env for local dev
+
+Notion URL: https://www.notion.so/Python-3-9-compatibility-add-env-for-local-dev-344f3b0fba85811681c0d362273bf1f3
+同期日時: 2026-04-16T18:45:45+09:00
+
+---
+
+commit: a16985ed7eb4d13042da5d7d9dadf7084dc09ca9
+
+M	backend/services/scheduler.py

@@ -1,0 +1,13 @@
+# YouTube URLからの字幕取得に対応
+
+Notion URL: https://www.notion.so/YouTube-URL-344f3b0fba8581bd9eaffa6fe05c9649
+同期日時: 2026-04-16T18:43:53+09:00
+
+---
+
+commit: 145eb74cd4d9ceb153e4049674ddd90a97c57e4b
+
+M	app.py
+M	requirements.txt
+M	scraper.py
+M	static/index.html

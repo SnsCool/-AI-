@@ -1,0 +1,10 @@
+# コンプラ違反のメンバー別展開+傾向分析を追加
+
+Notion URL: https://www.notion.so/344f3b0fba8581268775d86bb663e440
+同期日時: 2026-04-16T18:44:17+09:00
+
+---
+
+commit: 7b62922830ada1a0650be4d5783a429b2bbf24d7
+
+M	frontend/src/app/assignee-dashboard/page.tsx

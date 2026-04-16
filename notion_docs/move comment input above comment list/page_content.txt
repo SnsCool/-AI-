@@ -1,0 +1,10 @@
+# move comment input above comment list
+
+Notion URL: https://www.notion.so/move-comment-input-above-comment-list-344f3b0fba8581e7bdaac795b0fecbe1
+同期日時: 2026-04-16T18:45:11+09:00
+
+---
+
+commit: 8d3db66e1f1d3d9ce5e0f0090fcd553ca8cbf599
+
+M	frontend/src/app/recordings/[id]/page.tsx

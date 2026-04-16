@@ -1,0 +1,11 @@
+# use textarea for comments (multiline support)
+
+Notion URL: https://www.notion.so/use-textarea-for-comments-multiline-support-344f3b0fba85816794e6d86e6ab163ae
+同期日時: 2026-04-16T18:45:34+09:00
+
+---
+
+commit: 4e145866c2421fc0d826227b6b73018b0150949a
+
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/components/recording/CommentSection.tsx

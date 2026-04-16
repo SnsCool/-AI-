@@ -1,0 +1,10 @@
+# pass total duration to Gemini for accurate phase breakdown
+
+Notion URL: https://www.notion.so/pass-total-duration-to-Gemini-for-accurate-phase-breakdown-344f3b0fba8581108917ddaee8cbb177
+同期日時: 2026-04-16T18:45:25+09:00
+
+---
+
+commit: 3621f5ad6348fe7372f03cda8a7908890e6f6a1c
+
+M	backend/api/analysis.py

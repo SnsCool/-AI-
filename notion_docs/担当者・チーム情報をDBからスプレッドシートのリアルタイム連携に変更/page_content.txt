@@ -1,0 +1,13 @@
+# 担当者・チーム情報をDBからスプレッドシートのリアルタイム連携に変更
+
+Notion URL: https://www.notion.so/DB-344f3b0fba8581199eb5c95dc1517698
+同期日時: 2026-04-16T18:44:36+09:00
+
+---
+
+commit: 85c16fc1a948c48352dac6d3088f0bb916130396
+
+M	backend/api/dashboard.py
+M	frontend/src/app/assignees/page.tsx
+M	frontend/src/app/page.tsx
+M	frontend/src/lib/api.ts

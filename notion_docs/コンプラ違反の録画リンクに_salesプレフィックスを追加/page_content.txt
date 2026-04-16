@@ -1,0 +1,10 @@
+# コンプラ違反の録画リンクに/salesプレフィックスを追加
+
+Notion URL: https://www.notion.so/sales-344f3b0fba8581558538c031bd53dc09
+同期日時: 2026-04-16T18:44:14+09:00
+
+---
+
+commit: 41d6a021be8c04769f3c3da74d3008cec79c2f3a
+
+M	frontend/src/app/assignee-dashboard/page.tsx

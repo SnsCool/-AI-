@@ -1,0 +1,10 @@
+# layout: transcript left + comments right (Google Docs style)
+
+Notion URL: https://www.notion.so/layout-transcript-left-comments-right-Google-Docs-style-344f3b0fba85813fa72ed7c439b9b864
+同期日時: 2026-04-16T18:45:24+09:00
+
+---
+
+commit: a3a6f8deed85f1501a5ef32cd3cc38477be87bb9
+
+M	frontend/src/app/recordings/[id]/page.tsx

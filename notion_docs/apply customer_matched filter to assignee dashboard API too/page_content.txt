@@ -1,0 +1,10 @@
+# apply customer_matched filter to assignee dashboard API too
+
+Notion URL: https://www.notion.so/apply-customer_matched-filter-to-assignee-dashboard-API-too-344f3b0fba8581ef90c7f33c8d8fd2fb
+同期日時: 2026-04-16T18:44:53+09:00
+
+---
+
+commit: 02455a89ba0bc649c73fcd322058a83fbddc44fb
+
+M	backend/api/assignee_dashboard.py

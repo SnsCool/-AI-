@@ -1,0 +1,10 @@
+# match Zoom recordings with customer list sheet
+
+Notion URL: https://www.notion.so/match-Zoom-recordings-with-customer-list-sheet-344f3b0fba8581ab80e1ef67f45a02db
+同期日時: 2026-04-16T18:45:43+09:00
+
+---
+
+commit: 76dfb7da801f96ea8c61c33de50e09f8e00797a9
+
+M	backend/services/sheets_sync.py

@@ -1,0 +1,46 @@
+# add frontend files directly (remove nested git repo)
+
+Notion URL: https://www.notion.so/add-frontend-files-directly-remove-nested-git-repo-344f3b0fba858136b1cfe675f7088b62
+同期日時: 2026-04-16T18:45:46+09:00
+
+---
+
+commit: d58df407f4ff2841ba1a42dd90df5a55334115db
+
+D	frontend
+A	frontend/.gitignore
+A	frontend/AGENTS.md
+A	frontend/CLAUDE.md
+A	frontend/Dockerfile
+A	frontend/README.md
+A	frontend/components.json
+A	frontend/eslint.config.mjs
+A	frontend/next.config.ts
+A	frontend/package-lock.json
+A	frontend/package.json
+A	frontend/postcss.config.mjs
+A	frontend/public/file.svg
+A	frontend/public/globe.svg
+A	frontend/public/next.svg
+A	frontend/public/vercel.svg
+A	frontend/public/window.svg
+A	frontend/src/app/assignees/page.tsx
+A	frontend/src/app/batch/page.tsx
+A	frontend/src/app/favicon.ico
+A	frontend/src/app/globals.css
+A	frontend/src/app/layout.tsx
+A	frontend/src/app/page.tsx
+A	frontend/src/app/recordings/[id]/page.tsx
+A	frontend/src/app/recordings/page.tsx
+A	frontend/src/components/ui/badge.tsx
+A	frontend/src/components/ui/button.tsx
+A	frontend/src/components/ui/card.tsx
+A	frontend/src/components/ui/input.tsx
+A	frontend/src/components/ui/select.tsx
+A	frontend/src/components/ui/separator.tsx
+A	frontend/src/components/ui/table.tsx
+A	frontend/src/components/ui/tabs.tsx
+A	frontend/src/lib/api.ts
+A	frontend/src/lib/utils.ts
+A	frontend/src/middleware.ts
+A	frontend/tsconfig.json

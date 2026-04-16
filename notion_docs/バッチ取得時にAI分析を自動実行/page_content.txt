@@ -1,0 +1,10 @@
+# バッチ取得時にAI分析を自動実行
+
+Notion URL: https://www.notion.so/AI-344f3b0fba8581cb9290e75ce9a0e407
+同期日時: 2026-04-16T18:44:27+09:00
+
+---
+
+commit: 2d5f4eeaa9de596112eb4a7b0081be57f2541250
+
+M	backend/api/batch.py

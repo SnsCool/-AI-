@@ -1,0 +1,10 @@
+# comment popover stays open when clicking inside
+
+Notion URL: https://www.notion.so/comment-popover-stays-open-when-clicking-inside-344f3b0fba8581b38010cecfbf16cf62
+同期日時: 2026-04-16T18:45:17+09:00
+
+---
+
+commit: bdb21d91459a61d51446a0f3074432b7b1fa19a7
+
+M	frontend/src/app/recordings/[id]/page.tsx

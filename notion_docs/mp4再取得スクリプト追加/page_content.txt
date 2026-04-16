@@ -1,0 +1,10 @@
+# mp4再取得スクリプト追加
+
+Notion URL: https://www.notion.so/mp4-344f3b0fba858199b6d7fc43db6c427c
+同期日時: 2026-04-16T18:44:27+09:00
+
+---
+
+commit: 6f14746e0357eeb1fa38efac47e1ed9ec0d28487
+
+A	backend/scripts/refetch_mp4.py

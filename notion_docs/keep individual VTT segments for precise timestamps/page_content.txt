@@ -1,0 +1,10 @@
+# keep individual VTT segments for precise timestamps
+
+Notion URL: https://www.notion.so/keep-individual-VTT-segments-for-precise-timestamps-344f3b0fba8581dbb705f6737a571ba5
+同期日時: 2026-04-16T18:45:42+09:00
+
+---
+
+commit: ff6933918f577f961d4199765468dfd966466c90
+
+M	backend/services/transcript_parser.py

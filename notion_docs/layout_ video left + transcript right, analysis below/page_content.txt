@@ -1,0 +1,10 @@
+# layout: video left + transcript right, analysis below
+
+Notion URL: https://www.notion.so/layout-video-left-transcript-right-analysis-below-344f3b0fba85819a99b5e48b1e7a0b4f
+同期日時: 2026-04-16T18:45:24+09:00
+
+---
+
+commit: 867895ee4f3c2089269fdd90a1c9bbbb4cacaaea
+
+M	frontend/src/app/recordings/[id]/page.tsx

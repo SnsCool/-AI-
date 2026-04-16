@@ -1,0 +1,17 @@
+# 録画フィルタ・担当者期間指定・ダッシュボード統合・平均商談時間
+
+Notion URL: https://www.notion.so/344f3b0fba85813980bbe53d26bee9e8
+同期日時: 2026-04-16T18:44:35+09:00
+
+---
+
+commit: b17b95f80ea153e74b3053e5a0b7d8009027fc7c
+
+M	backend/api/assignee_dashboard.py
+M	backend/api/recordings.py
+M	backend/services/db_client.py
+M	frontend/src/app/assignee-dashboard/page.tsx
+M	frontend/src/app/assignees/page.tsx
+M	frontend/src/app/page.tsx
+M	frontend/src/app/recordings/page.tsx
+M	frontend/src/lib/api.ts

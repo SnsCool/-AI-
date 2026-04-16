@@ -1,0 +1,10 @@
+# pie chart label type error + deploy assignee dashboard
+
+Notion URL: https://www.notion.so/pie-chart-label-type-error-deploy-assignee-dashboard-344f3b0fba85812ea2d2ed335717ce1b
+同期日時: 2026-04-16T18:44:53+09:00
+
+---
+
+commit: 5ac71ccf911af46dacf286ac034495ebd9285a21
+
+M	frontend/src/app/assignee-dashboard/page.tsx

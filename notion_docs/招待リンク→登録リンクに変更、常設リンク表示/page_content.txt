@@ -1,0 +1,10 @@
+# 招待リンク→登録リンクに変更、常設リンク表示
+
+Notion URL: https://www.notion.so/344f3b0fba85818786b3df8fdb838a47
+同期日時: 2026-04-16T18:44:10+09:00
+
+---
+
+commit: 16db32723435b10a4fd43c448364c3471c14cf5a
+
+M	frontend/src/app/admin/page.tsx

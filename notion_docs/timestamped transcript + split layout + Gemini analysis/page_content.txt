@@ -1,0 +1,14 @@
+# timestamped transcript + split layout + Gemini analysis
+
+Notion URL: https://www.notion.so/timestamped-transcript-split-layout-Gemini-analysis-344f3b0fba8581f181d3efdd7cf68c57
+同期日時: 2026-04-16T18:45:42+09:00
+
+---
+
+commit: 5a2c8d140faa286dd9a2194126f95b9f52d62c10
+
+A	backend/api/analysis.py
+M	backend/api/batch.py
+M	backend/main.py
+A	backend/services/transcript_parser.py
+M	frontend/src/app/recordings/[id]/page.tsx

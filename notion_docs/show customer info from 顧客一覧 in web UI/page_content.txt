@@ -1,0 +1,13 @@
+# show customer info from 顧客一覧 in web UI
+
+Notion URL: https://www.notion.so/show-customer-info-from-in-web-UI-344f3b0fba8581a88f69f0c38df115fb
+同期日時: 2026-04-16T18:45:43+09:00
+
+---
+
+commit: 14592373914387b78002bfc7bb9590a3865d3aae
+
+M	backend/api/batch.py
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/app/recordings/page.tsx
+M	frontend/src/lib/api.ts

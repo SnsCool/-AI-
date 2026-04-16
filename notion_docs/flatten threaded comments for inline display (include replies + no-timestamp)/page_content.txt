@@ -1,0 +1,10 @@
+# flatten threaded comments for inline display (include replies + no-timestamp)
+
+Notion URL: https://www.notion.so/flatten-threaded-comments-for-inline-display-include-replies-no-timestamp-344f3b0fba85817f93c3c44946943cf6
+同期日時: 2026-04-16T18:44:56+09:00
+
+---
+
+commit: d7617d14724bef2552a4dd81b93f025697d2eb2b
+
+M	frontend/src/app/recordings/[id]/page.tsx

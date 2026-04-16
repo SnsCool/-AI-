@@ -1,0 +1,11 @@
+# merge 議事録 into 対話分析, vertical good/bad points
+
+Notion URL: https://www.notion.so/merge-into-vertical-good-bad-points-344f3b0fba8581b589b6eb794d24449a
+同期日時: 2026-04-16T18:45:10+09:00
+
+---
+
+commit: 9f27317418b747d1fc9cfbc2e862a6a2cb4a751c
+
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/components/recording/AnalysisPanel.tsx

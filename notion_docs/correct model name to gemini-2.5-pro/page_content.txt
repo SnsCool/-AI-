@@ -1,0 +1,11 @@
+# correct model name to gemini-2.5-pro
+
+Notion URL: https://www.notion.so/correct-model-name-to-gemini-2-5-pro-344f3b0fba8581ee948bed91f5f2963c
+同期日時: 2026-04-16T18:44:55+09:00
+
+---
+
+commit: d102b95ee8b6d5bdca181019df5a8ecd3368f5b3
+
+M	backend/api/ai_chat.py
+M	backend/api/analysis.py

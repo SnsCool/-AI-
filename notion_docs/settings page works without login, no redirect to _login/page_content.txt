@@ -1,0 +1,10 @@
+# settings page works without login, no redirect to /login
+
+Notion URL: https://www.notion.so/settings-page-works-without-login-no-redirect-to-login-344f3b0fba858153b17cd6a95406dd28
+同期日時: 2026-04-16T18:44:44+09:00
+
+---
+
+commit: 51ca295767bd4d052a8df1824f130c3d7099c10b
+
+M	frontend/src/app/settings/page.tsx

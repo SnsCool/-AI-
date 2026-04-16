@@ -1,0 +1,10 @@
+# チームカードに着地見込み成約率を追加
+
+Notion URL: https://www.notion.so/344f3b0fba8581ad9c66e40216faecb7
+同期日時: 2026-04-16T18:44:12+09:00
+
+---
+
+commit: 56f3750f6d3491f0fcc323b919ae657ea414a9b0
+
+M	frontend/src/app/assignee-dashboard/page.tsx

@@ -1,0 +1,11 @@
+# assignee dashboard UI with all metrics
+
+Notion URL: https://www.notion.so/assignee-dashboard-UI-with-all-metrics-344f3b0fba85814ea0eccc81bfe9f05b
+同期日時: 2026-04-16T18:44:52+09:00
+
+---
+
+commit: c3958e89440aa6b7557dacf7bcc24851b124d387
+
+M	frontend/src/app/assignee-dashboard/page.tsx
+M	frontend/src/lib/api.ts

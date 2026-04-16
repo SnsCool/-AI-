@@ -1,0 +1,10 @@
+# show all analysis items with proper parsing + inline comments
+
+Notion URL: https://www.notion.so/show-all-analysis-items-with-proper-parsing-inline-comments-344f3b0fba8581338e7dde88b0429f94
+同期日時: 2026-04-16T18:45:18+09:00
+
+---
+
+commit: ec6c005e8d3a5821c57ffd891fef2fa0c3373e58
+
+M	frontend/src/app/recordings/[id]/page.tsx

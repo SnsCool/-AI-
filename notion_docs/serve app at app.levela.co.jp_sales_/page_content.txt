@@ -1,0 +1,15 @@
+# serve app at app.levela.co.jp/sales/
+
+Notion URL: https://www.notion.so/serve-app-at-app-levela-co-jp-sales-344f3b0fba858168bedec7df30b2eee4
+同期日時: 2026-04-16T18:44:52+09:00
+
+---
+
+commit: 5448e5c42aa05eb0b7dfadb303ac22b16b89747d
+
+M	frontend/next.config.ts
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/components/recording/CommentSection.tsx
+M	frontend/src/components/recording/FigmaComment.tsx
+M	frontend/src/lib/api.ts
+M	frontend/src/lib/auth.ts

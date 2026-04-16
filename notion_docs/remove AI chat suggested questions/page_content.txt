@@ -1,0 +1,10 @@
+# remove AI chat suggested questions
+
+Notion URL: https://www.notion.so/remove-AI-chat-suggested-questions-344f3b0fba85816e9fd4f47431e4b7a7
+同期日時: 2026-04-16T18:44:56+09:00
+
+---
+
+commit: c0096749cb44eaa068693f4ae41b71b40f2ebd66
+
+M	frontend/src/app/recordings/[id]/page.tsx

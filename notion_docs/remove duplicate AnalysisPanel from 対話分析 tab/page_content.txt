@@ -1,0 +1,10 @@
+# remove duplicate AnalysisPanel from 対話分析 tab
+
+Notion URL: https://www.notion.so/remove-duplicate-AnalysisPanel-from-tab-344f3b0fba858158a722c8a3e725292d
+同期日時: 2026-04-16T18:45:09+09:00
+
+---
+
+commit: 728db11693378dd9229f3a818058208b201773ed
+
+M	frontend/src/app/recordings/[id]/page.tsx

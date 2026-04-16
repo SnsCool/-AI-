@@ -1,0 +1,11 @@
+# seminar-based comparison on dashboard
+
+Notion URL: https://www.notion.so/seminar-based-comparison-on-dashboard-344f3b0fba85816da12cd0c5d5453a4a
+同期日時: 2026-04-16T18:44:38+09:00
+
+---
+
+commit: 2a28a7362f65648d36880ce012c177e76200a3d6
+
+M	backend/api/assignee_dashboard.py
+M	frontend/src/app/assignee-dashboard/page.tsx

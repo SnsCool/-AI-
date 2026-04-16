@@ -1,0 +1,10 @@
+# exclude recordings under 1min and without video
+
+Notion URL: https://www.notion.so/exclude-recordings-under-1min-and-without-video-344f3b0fba85814b854bd77e572afe00
+同期日時: 2026-04-16T18:45:31+09:00
+
+---
+
+commit: 58f7d6a24488b90e00ae4d2fd9277672713edc2a
+
+M	backend/services/db_client.py

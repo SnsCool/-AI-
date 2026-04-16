@@ -1,0 +1,18 @@
+# login system + Zoom/Discord OAuth integration
+
+Notion URL: https://www.notion.so/login-system-Zoom-Discord-OAuth-integration-344f3b0fba8581aa891cf0e14dfdd223
+同期日時: 2026-04-16T18:45:32+09:00
+
+---
+
+commit: f58d99fbd4d367cca2684ac46b0080545d3bd60a
+
+A	backend/api/auth.py
+A	backend/api/discord_oauth.py
+A	backend/api/user_sync.py
+A	backend/api/zoom_oauth.py
+M	backend/main.py
+M	frontend/src/app/layout.tsx
+A	frontend/src/app/login/page.tsx
+A	frontend/src/app/settings/page.tsx
+A	frontend/src/lib/auth.ts

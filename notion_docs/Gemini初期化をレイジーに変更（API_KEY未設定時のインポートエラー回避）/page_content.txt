@@ -1,0 +1,10 @@
+# Gemini初期化をレイジーに変更（API_KEY未設定時のインポートエラー回避）
+
+Notion URL: https://www.notion.so/Gemini-API_KEY-344f3b0fba8581b9bfa5e0c9ac0f0a8f
+同期日時: 2026-04-16T18:44:06+09:00
+
+---
+
+commit: fff45ea72653b4a5dbf39d6122aecd381d9bed99
+
+M	backend/api/minutes.py

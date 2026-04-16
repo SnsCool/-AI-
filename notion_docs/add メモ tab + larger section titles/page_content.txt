@@ -1,0 +1,12 @@
+# add メモ tab + larger section titles
+
+Notion URL: https://www.notion.so/add-tab-larger-section-titles-344f3b0fba8581c6b70cfb35c88c6433
+同期日時: 2026-04-16T18:45:10+09:00
+
+---
+
+commit: 6672183701a9586b1260ad31ac45ee6264af835e
+
+A	backend/api/notes.py
+M	backend/main.py
+M	frontend/src/app/recordings/[id]/page.tsx

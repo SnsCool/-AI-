@@ -1,0 +1,10 @@
+# debug: 録画詳細ページにエラーバウンダリー追加
+
+Notion URL: https://www.notion.so/debug-344f3b0fba85811b95b4f1721bcaf75f
+同期日時: 2026-04-16T18:44:29+09:00
+
+---
+
+commit: a88fe806329bb27df61beb2b057bc706b78f31c8
+
+A	frontend/src/app/recordings/[id]/error.tsx

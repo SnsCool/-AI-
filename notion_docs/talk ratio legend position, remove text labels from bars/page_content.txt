@@ -1,0 +1,10 @@
+# talk ratio legend position, remove text labels from bars
+
+Notion URL: https://www.notion.so/talk-ratio-legend-position-remove-text-labels-from-bars-344f3b0fba8581b386e7c87d6b432fe4
+同期日時: 2026-04-16T18:45:25+09:00
+
+---
+
+commit: a5a9cd80a286ce7a46a356b4a201799a26b3d594
+
+M	frontend/src/components/recording/AnalysisPanel.tsx

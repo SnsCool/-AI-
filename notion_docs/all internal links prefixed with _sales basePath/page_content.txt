@@ -1,0 +1,15 @@
+# all internal links prefixed with /sales basePath
+
+Notion URL: https://www.notion.so/all-internal-links-prefixed-with-sales-basePath-344f3b0fba858183abedfe92d6d0580e
+同期日時: 2026-04-16T18:44:46+09:00
+
+---
+
+commit: 82df839aab9bd678000c7b7e31032f4be1b453eb
+
+M	frontend/src/app/assignees/page.tsx
+M	frontend/src/app/layout.tsx
+M	frontend/src/app/login/page.tsx
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/app/recordings/page.tsx
+M	frontend/src/app/settings/page.tsx

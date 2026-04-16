@@ -1,0 +1,11 @@
+# remove name input from comment forms, use logged-in user
+
+Notion URL: https://www.notion.so/remove-name-input-from-comment-forms-use-logged-in-user-344f3b0fba858151b458f4acb692d8c2
+同期日時: 2026-04-16T18:45:12+09:00
+
+---
+
+commit: cddc1f7966375a7ca959555031d2ed4b5d637b7b
+
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/components/recording/CommentSection.tsx

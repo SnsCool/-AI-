@@ -1,0 +1,10 @@
+# remove Card wrapper and header from CommentSection - textarea only
+
+Notion URL: https://www.notion.so/remove-Card-wrapper-and-header-from-CommentSection-textarea-only-344f3b0fba8581d5a34ad2d3c7018142
+同期日時: 2026-04-16T18:45:11+09:00
+
+---
+
+commit: fe0e56afc1cee08af0f945d32a8bd9173b09b4b5
+
+M	frontend/src/components/recording/CommentSection.tsx

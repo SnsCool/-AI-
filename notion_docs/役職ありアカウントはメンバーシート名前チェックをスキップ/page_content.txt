@@ -1,0 +1,10 @@
+# 役職ありアカウントはメンバーシート名前チェックをスキップ
+
+Notion URL: https://www.notion.so/344f3b0fba85813c9eb7f35c1b4b6667
+同期日時: 2026-04-16T18:44:09+09:00
+
+---
+
+commit: 5386499fa7ae8c9f04dc4aa7c9381dc96acd322f
+
+M	backend/api/auth.py

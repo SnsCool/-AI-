@@ -1,0 +1,14 @@
+# UI improvements - display order, status filter, transcript search
+
+Notion URL: https://www.notion.so/UI-improvements-display-order-status-filter-transcript-search-344f3b0fba858164b7edcbc1894e4b5c
+同期日時: 2026-04-16T18:45:31+09:00
+
+---
+
+commit: 5a7fb3bfc705ffbe52d31e09b0ce7bae621b8d0a
+
+M	backend/api/recordings.py
+M	backend/services/db_client.py
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/app/recordings/page.tsx
+M	frontend/src/lib/api.ts

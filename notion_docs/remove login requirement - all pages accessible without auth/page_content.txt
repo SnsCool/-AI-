@@ -1,0 +1,10 @@
+# remove login requirement - all pages accessible without auth
+
+Notion URL: https://www.notion.so/remove-login-requirement-all-pages-accessible-without-auth-344f3b0fba8581eeba5ac7bc74c045d3
+同期日時: 2026-04-16T18:44:45+09:00
+
+---
+
+commit: ffe4c6baadd9a42168318136fa20a6a69cf7d13e
+
+M	frontend/src/app/settings/page.tsx

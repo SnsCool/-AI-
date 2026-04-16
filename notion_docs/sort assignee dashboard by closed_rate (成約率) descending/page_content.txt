@@ -1,0 +1,10 @@
+# sort assignee dashboard by closed_rate (成約率) descending
+
+Notion URL: https://www.notion.so/sort-assignee-dashboard-by-closed_rate-descending-344f3b0fba858107ae02d72e59105446
+同期日時: 2026-04-16T18:44:44+09:00
+
+---
+
+commit: d18cb4b0ed8ed1565c6bcdd9d70163dd01a676b1
+
+M	backend/api/assignee_dashboard.py

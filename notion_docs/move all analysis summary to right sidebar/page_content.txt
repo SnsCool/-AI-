@@ -1,0 +1,10 @@
+# move all analysis summary to right sidebar
+
+Notion URL: https://www.notion.so/move-all-analysis-summary-to-right-sidebar-344f3b0fba858165bcc0fcde867d0f1f
+同期日時: 2026-04-16T18:45:24+09:00
+
+---
+
+commit: 2bfb4f59cd128ea10388a1e863065664c7b8ce42
+
+M	frontend/src/app/recordings/[id]/page.tsx

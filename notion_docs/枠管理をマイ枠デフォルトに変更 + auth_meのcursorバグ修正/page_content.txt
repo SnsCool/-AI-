@@ -1,0 +1,15 @@
+# 枠管理をマイ枠デフォルトに変更 + auth/meのcursorバグ修正
+
+Notion URL: https://www.notion.so/auth-me-cursor-344f3b0fba8581739121c7791be74925
+同期日時: 2026-04-16T18:44:22+09:00
+
+---
+
+commit: 4f4e00973a3b235bc310635c44d2c69be90fbb9d
+
+M	backend/api/auth.py
+M	backend/api/slots.py
+M	backend/services/slot_manager.py
+M	frontend/src/app/settings/page.tsx
+M	frontend/src/app/slot-management/page.tsx
+M	frontend/src/lib/api.ts

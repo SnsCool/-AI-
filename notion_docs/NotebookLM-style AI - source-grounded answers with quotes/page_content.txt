@@ -1,0 +1,11 @@
+# NotebookLM-style AI - source-grounded answers with quotes
+
+Notion URL: https://www.notion.so/NotebookLM-style-AI-source-grounded-answers-with-quotes-344f3b0fba85815b8975c2882d378dc1
+同期日時: 2026-04-16T18:44:54+09:00
+
+---
+
+commit: f93203899e4083a836d28daac2ce339f09af8989
+
+M	backend/api/ai_chat.py
+M	frontend/src/app/recordings/[id]/page.tsx

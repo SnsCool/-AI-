@@ -1,8 +1,12 @@
 # コンプライアンスチェック機能追加
 
-Notion URL: https://www.notion.so/331f3b0fba858107bf1dff8ed73f9b91
-同期日時: 2026-03-28T21:20:58+09:00
+Notion URL: https://www.notion.so/344f3b0fba85813dbccfd3281f8e0d68
+同期日時: 2026-04-16T18:44:29+09:00
 
 ---
 
-(コンテンツなし)
+commit: 4d2d5a562e07d51912a6b586fa4b03655686f30d
+
+M	backend/api/analysis.py
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/components/recording/AnalysisPanel.tsx

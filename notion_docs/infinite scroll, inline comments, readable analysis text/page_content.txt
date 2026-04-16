@@ -1,0 +1,13 @@
+# infinite scroll, inline comments, readable analysis text
+
+Notion URL: https://www.notion.so/infinite-scroll-inline-comments-readable-analysis-text-344f3b0fba858157a4b7e60fc49215dc
+同期日時: 2026-04-16T18:45:30+09:00
+
+---
+
+commit: 99b7a7516397e05c70c23d61eb2d1ad812760b0e
+
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/app/recordings/page.tsx
+M	frontend/src/components/recording/CommentSection.tsx
+M	frontend/src/components/recording/TimestampText.tsx

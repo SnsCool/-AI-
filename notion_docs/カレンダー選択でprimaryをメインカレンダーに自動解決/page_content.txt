@@ -1,0 +1,10 @@
+# カレンダー選択でprimaryをメインカレンダーに自動解決
+
+Notion URL: https://www.notion.so/primary-344f3b0fba85810d8601ee6da56887f3
+同期日時: 2026-04-16T18:44:20+09:00
+
+---
+
+commit: afa730bed3ae3cb28f3842d01c686a7e17beba7e
+
+M	frontend/src/app/settings/page.tsx

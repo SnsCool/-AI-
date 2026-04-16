@@ -1,0 +1,10 @@
+# コンプラ判定基準明確化 - 目標設定は違反ではない
+
+Notion URL: https://www.notion.so/344f3b0fba8581019b22c007aa38552d
+同期日時: 2026-04-16T18:44:26+09:00
+
+---
+
+commit: c0a88f2d1f183591e3c9df0a2d7eb4603b04ac33
+
+M	backend/api/analysis.py

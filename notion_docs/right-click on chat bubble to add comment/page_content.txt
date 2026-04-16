@@ -1,0 +1,11 @@
+# right-click on chat bubble to add comment
+
+Notion URL: https://www.notion.so/right-click-on-chat-bubble-to-add-comment-344f3b0fba8581b8b0c4c2777684f972
+同期日時: 2026-04-16T18:45:36+09:00
+
+---
+
+commit: d40a58a912cb3a6308659670c53a405ac2657012
+
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/components/recording/CommentSection.tsx

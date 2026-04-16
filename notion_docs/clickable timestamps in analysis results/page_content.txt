@@ -1,0 +1,14 @@
+# clickable timestamps in analysis results
+
+Notion URL: https://www.notion.so/clickable-timestamps-in-analysis-results-344f3b0fba8581628d9eecac7649569a
+同期日時: 2026-04-16T18:45:34+09:00
+
+---
+
+commit: fa8798752bf30d496a07761dc7e50b441ee6c782
+
+M	backend/api/analysis.py
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/components/recording/AnalysisPanel.tsx
+A	frontend/src/components/recording/TimestampText.tsx
+M	frontend/src/lib/api.ts

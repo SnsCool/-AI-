@@ -1,0 +1,14 @@
+# メンバーマスタスプシ連携＋多軸分析（チーム/性別/経験/副業/教育担当）
+
+Notion URL: https://www.notion.so/344f3b0fba8581baac3dd81014771a71
+同期日時: 2026-04-16T18:44:36+09:00
+
+---
+
+commit: 7d993b10e3bf7ebaf304f89e2f9f52377d47f6b6
+
+M	backend/api/assignee_dashboard.py
+M	backend/api/assignees.py
+A	backend/services/member_master.py
+M	frontend/src/app/assignee-dashboard/page.tsx
+M	frontend/src/lib/api.ts

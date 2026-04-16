@@ -1,0 +1,10 @@
+# larger text throughout dashboard for readability
+
+Notion URL: https://www.notion.so/larger-text-throughout-dashboard-for-readability-344f3b0fba8581669352c10082f6087b
+同期日時: 2026-04-16T18:44:43+09:00
+
+---
+
+commit: b479c7686303b93cf9c0532a20cac03bbeddaf57
+
+M	frontend/src/app/assignee-dashboard/page.tsx

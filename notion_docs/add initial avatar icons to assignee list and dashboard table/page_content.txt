@@ -1,0 +1,11 @@
+# add initial avatar icons to assignee list and dashboard table
+
+Notion URL: https://www.notion.so/add-initial-avatar-icons-to-assignee-list-and-dashboard-table-344f3b0fba858121ac2dc32fc3fdc6b7
+同期日時: 2026-04-16T18:44:39+09:00
+
+---
+
+commit: 5afd845a65c2df3a8379d124e81da2035e2afd72
+
+M	frontend/src/app/assignee-dashboard/page.tsx
+M	frontend/src/app/assignees/page.tsx

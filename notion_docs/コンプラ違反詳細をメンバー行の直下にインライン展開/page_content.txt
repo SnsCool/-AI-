@@ -1,0 +1,10 @@
+# コンプラ違反詳細をメンバー行の直下にインライン展開
+
+Notion URL: https://www.notion.so/344f3b0fba8581d493d0fb3abd582999
+同期日時: 2026-04-16T18:44:14+09:00
+
+---
+
+commit: a231dfb9f3a9f8d8ebf7d95775260637c161c6ba
+
+M	frontend/src/app/assignee-dashboard/page.tsx

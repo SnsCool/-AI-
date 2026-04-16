@@ -1,0 +1,10 @@
+# 録画一覧の未記入・60分問題を修正
+
+Notion URL: https://www.notion.so/60-344f3b0fba8581b3aba6e22cb4e31795
+同期日時: 2026-04-16T18:44:22+09:00
+
+---
+
+commit: b8843ea221753a781b7b3345cdda3fc4fb5e5295
+
+M	backend/api/batch.py

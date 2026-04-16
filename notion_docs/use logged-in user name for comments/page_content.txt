@@ -1,0 +1,11 @@
+# use logged-in user name for comments
+
+Notion URL: https://www.notion.so/use-logged-in-user-name-for-comments-344f3b0fba8581f1ae36df54dd8e2add
+同期日時: 2026-04-16T18:45:17+09:00
+
+---
+
+commit: 938de196aaf1daccff7405587b4af03af274e6d4
+
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/components/recording/CommentSection.tsx

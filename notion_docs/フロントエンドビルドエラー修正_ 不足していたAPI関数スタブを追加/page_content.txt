@@ -1,0 +1,10 @@
+# フロントエンドビルドエラー修正: 不足していたAPI関数スタブを追加
+
+Notion URL: https://www.notion.so/API-344f3b0fba85810e9067d2d65e3f0e7c
+同期日時: 2026-04-16T18:44:07+09:00
+
+---
+
+commit: 7e5c2c248ad840b35c2c7b4b295fc2618019943b
+
+M	frontend/src/lib/api.ts

@@ -1,0 +1,14 @@
+# 管理者ページを実装
+
+Notion URL: https://www.notion.so/344f3b0fba858131854cfd0e40f0d95b
+同期日時: 2026-04-16T18:44:20+09:00
+
+---
+
+commit: 4f628e21b6af27cb309c49e61f8fc21b3493cf64
+
+A	backend/api/admin.py
+M	backend/main.py
+A	frontend/src/app/admin/page.tsx
+M	frontend/src/app/nav-bar.tsx
+M	frontend/src/lib/api.ts

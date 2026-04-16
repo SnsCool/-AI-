@@ -1,0 +1,10 @@
+# リッチテキストエディタで議事録編集（Bold/色/見出し対応）
+
+Notion URL: https://www.notion.so/Bold-344f3b0fba8581588f84c117b894bc56
+同期日時: 2026-04-16T18:44:02+09:00
+
+---
+
+commit: 1b8d6d95cda1a3b33cf4ce18809b24d1b5187007
+
+M	backend/api/minutes.py

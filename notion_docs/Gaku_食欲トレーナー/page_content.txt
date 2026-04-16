@@ -1,7 +1,7 @@
 # Gaku/食欲トレーナー
 
-Notion URL: https://www.notion.so/Gaku-33df3b0fba8580208c84c46c259622b5
-同期日時: 2026-04-09T21:37:29+09:00
+Notion URL: https://www.notion.so/Gaku-33df3b0fba85804a909dd373d79d25f4
+同期日時: 2026-04-16T18:46:14+09:00
 
 ---
 

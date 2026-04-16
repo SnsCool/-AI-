@@ -1,0 +1,10 @@
+# フロントエンドDockerfileもECR Publicに変更
+
+Notion URL: https://www.notion.so/Dockerfile-ECR-Public-344f3b0fba8581b58e1dceca0e4c7879
+同期日時: 2026-04-16T18:44:00+09:00
+
+---
+
+commit: 9da9fe9a2a92f28ac6a02eff2c749f964dac89b2
+
+M	frontend/Dockerfile

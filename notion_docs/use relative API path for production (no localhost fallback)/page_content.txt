@@ -1,0 +1,10 @@
+# use relative API path for production (no localhost fallback)
+
+Notion URL: https://www.notion.so/use-relative-API-path-for-production-no-localhost-fallback-344f3b0fba8581aa81e3fbcfd0e33573
+同期日時: 2026-04-16T18:45:45+09:00
+
+---
+
+commit: aff352fd8b28b20ab18bd048548af16f6d8a5e2c
+
+M	frontend/src/lib/api.ts

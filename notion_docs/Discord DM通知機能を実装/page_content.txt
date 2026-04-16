@@ -1,0 +1,12 @@
+# Discord DM通知機能を実装
+
+Notion URL: https://www.notion.so/Discord-DM-344f3b0fba858182b0d0d7a135ccc933
+同期日時: 2026-04-16T18:44:13+09:00
+
+---
+
+commit: 5d76f2a1a85dc7af10c6b39cefe3dd5f37a29f77
+
+M	backend/api/comments.py
+M	backend/api/discord_oauth.py
+M	frontend/src/app/settings/page.tsx

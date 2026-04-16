@@ -1,0 +1,10 @@
+# クーオフ→クーリングオフに修正（スプレッドシート実データに合わせる）
+
+Notion URL: https://www.notion.so/344f3b0fba85816fa5aff34977f7931f
+同期日時: 2026-04-16T18:44:02+09:00
+
+---
+
+commit: 31a7cc4fe4ea13a312c601d495f189355577bc4e
+
+M	backend/api/assignee_dashboard.py

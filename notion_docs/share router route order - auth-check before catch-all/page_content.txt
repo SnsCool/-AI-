@@ -1,0 +1,10 @@
+# share router route order - auth-check before catch-all
+
+Notion URL: https://www.notion.so/share-router-route-order-auth-check-before-catch-all-344f3b0fba858161a7d2d70aa9f50d51
+同期日時: 2026-04-16T18:44:03+09:00
+
+---
+
+commit: d66ce12bc4366b68847ce10de33aa6f56c71fbaa
+
+M	backend/api/minutes.py

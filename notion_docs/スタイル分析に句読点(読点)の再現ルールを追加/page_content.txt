@@ -1,0 +1,10 @@
+# スタイル分析に句読点(読点)の再現ルールを追加
+
+Notion URL: https://www.notion.so/344f3b0fba8581439c96e2726a639c78
+同期日時: 2026-04-16T18:43:53+09:00
+
+---
+
+commit: 3842dfaafeaa5e7ca29d8b4e677c0769e6d98e3b
+
+M	app.py

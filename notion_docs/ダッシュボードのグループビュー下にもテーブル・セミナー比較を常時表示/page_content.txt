@@ -1,0 +1,10 @@
+# ダッシュボードのグループビュー下にもテーブル・セミナー比較を常時表示
+
+Notion URL: https://www.notion.so/344f3b0fba8581b2a5f8e793b90c7f54
+同期日時: 2026-04-16T18:44:33+09:00
+
+---
+
+commit: 835ade4aaff10f2f6dc0eaee18859853d8e78065
+
+M	frontend/src/app/assignee-dashboard/page.tsx

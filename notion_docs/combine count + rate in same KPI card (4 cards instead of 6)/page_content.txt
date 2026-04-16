@@ -1,0 +1,10 @@
+# combine count + rate in same KPI card (4 cards instead of 6)
+
+Notion URL: https://www.notion.so/combine-count-rate-in-same-KPI-card-4-cards-instead-of-6-344f3b0fba858113bc53cd42c789a8cd
+同期日時: 2026-04-16T18:44:41+09:00
+
+---
+
+commit: 78f731ad80386363bbe779612414cceda453f912
+
+M	frontend/src/app/assignee-dashboard/page.tsx

@@ -1,0 +1,11 @@
+# Ghost-Writer visual polish
+
+Notion URL: https://www.notion.so/Ghost-Writer-visual-polish-344f3b0fba8581c8b40be37c06f0695f
+同期日時: 2026-04-16T18:45:32+09:00
+
+---
+
+commit: 82d88e4fada0cca7eaa379eb116fea7d72062067
+
+M	frontend/src/app/globals.css
+M	frontend/src/app/page.tsx

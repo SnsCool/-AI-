@@ -1,0 +1,14 @@
+# 記事修正機能を追加: 部分選択修正・全体修正・保存済み記事の編集
+
+Notion URL: https://www.notion.so/344f3b0fba8581abb3f3d9b916635bf7
+同期日時: 2026-04-16T18:43:53+09:00
+
+---
+
+commit: 76282313c6ee9219e421f1defbfd650b43f35013
+
+M	.gitignore
+M	app.py
+M	static/ghost-icon.png
+M	static/ghost-writing.png
+M	static/index.html

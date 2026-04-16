@@ -1,0 +1,11 @@
+# add Google Sheets sync to batch processing
+
+Notion URL: https://www.notion.so/add-Google-Sheets-sync-to-batch-processing-344f3b0fba8581579105fbec2bb429d3
+同期日時: 2026-04-16T18:45:44+09:00
+
+---
+
+commit: e271c4fa25e884d3e9522e63b160901239a5ba73
+
+M	backend/api/batch.py
+A	backend/services/sheets_sync.py

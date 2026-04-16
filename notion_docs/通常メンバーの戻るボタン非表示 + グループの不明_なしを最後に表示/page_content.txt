@@ -1,0 +1,11 @@
+# 通常メンバーの戻るボタン非表示 + グループの不明/なしを最後に表示
+
+Notion URL: https://www.notion.so/344f3b0fba858142a972ed8783382fd7
+同期日時: 2026-04-16T18:44:31+09:00
+
+---
+
+commit: c04195e80a8300cf65391438a78734146c3236e1
+
+M	backend/api/assignee_dashboard.py
+M	frontend/src/app/assignee-dashboard/page.tsx

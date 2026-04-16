@@ -1,0 +1,10 @@
+# video + summary side-by-side layout
+
+Notion URL: https://www.notion.so/video-summary-side-by-side-layout-344f3b0fba858152a459e132b3eedfc2
+同期日時: 2026-04-16T18:45:24+09:00
+
+---
+
+commit: 1a08cd81907c189de4a36b851672eb1bcadd8b28
+
+M	frontend/src/app/recordings/[id]/page.tsx

@@ -1,0 +1,10 @@
+# recordings list in individual assignee dashboard
+
+Notion URL: https://www.notion.so/recordings-list-in-individual-assignee-dashboard-344f3b0fba8581899b14e6f04b104dee
+同期日時: 2026-04-16T18:44:37+09:00
+
+---
+
+commit: f3189c185860f39b2dc9394519dc61814b0529a6
+
+M	frontend/src/app/assignee-dashboard/page.tsx

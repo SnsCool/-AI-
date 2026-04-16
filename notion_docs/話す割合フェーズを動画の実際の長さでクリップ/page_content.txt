@@ -1,0 +1,10 @@
+# 話す割合フェーズを動画の実際の長さでクリップ
+
+Notion URL: https://www.notion.so/344f3b0fba858195b389cdc8c25dd22e
+同期日時: 2026-04-16T18:44:29+09:00
+
+---
+
+commit: 2e100e3259fffa7db6da6aaf71b9b12323672251
+
+M	frontend/src/app/recordings/[id]/page.tsx

@@ -1,0 +1,12 @@
+# agent-style analysis UI + Gemini 2.5 Pro
+
+Notion URL: https://www.notion.so/agent-style-analysis-UI-Gemini-2-5-Pro-344f3b0fba858164be14e22701dda04b
+同期日時: 2026-04-16T18:44:56+09:00
+
+---
+
+commit: 3abfd917502d459ffcf783b160c26c9695aea8d3
+
+M	backend/api/ai_chat.py
+M	backend/api/analysis.py
+M	frontend/src/app/recordings/[id]/page.tsx

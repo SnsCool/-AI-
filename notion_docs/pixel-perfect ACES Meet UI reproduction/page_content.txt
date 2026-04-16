@@ -1,0 +1,10 @@
+# pixel-perfect ACES Meet UI reproduction
+
+Notion URL: https://www.notion.so/pixel-perfect-ACES-Meet-UI-reproduction-344f3b0fba85816cb5e9f33700b19443
+同期日時: 2026-04-16T18:45:21+09:00
+
+---
+
+commit: c8320a9aa71d4bbcd12c8e80a40b9e7e76253fc8
+
+M	frontend/src/app/recordings/[id]/page.tsx

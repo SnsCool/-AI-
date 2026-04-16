@@ -1,0 +1,10 @@
+# assignee dashboard stats from 顧客管理シート directly
+
+Notion URL: https://www.notion.so/assignee-dashboard-stats-from-directly-344f3b0fba8581c58777c77194971620
+同期日時: 2026-04-16T18:44:52+09:00
+
+---
+
+commit: 8e0734a6f25ddc5a4bb2666c43866cf1032218eb
+
+M	backend/api/assignee_dashboard.py

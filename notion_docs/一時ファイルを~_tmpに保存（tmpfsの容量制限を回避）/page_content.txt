@@ -1,0 +1,11 @@
+# 一時ファイルを~/tmpに保存（tmpfsの容量制限を回避）
+
+Notion URL: https://www.notion.so/tmp-tmpfs-344f3b0fba8581999decebbff6042d6a
+同期日時: 2026-04-16T18:44:23+09:00
+
+---
+
+commit: b2ff891ed3cf94228a3f03a4dd42aed9d70a7b1e
+
+M	backend/api/batch.py
+M	backend/scripts/refetch_mp4.py

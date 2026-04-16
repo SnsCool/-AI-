@@ -1,0 +1,15 @@
+# SP版レスポンシブ対応を追加（@media max-width: 640px）
+
+Notion URL: https://www.notion.so/SP-media-max-width-640px-344f3b0fba8581deb169c87d6bd13b6a
+同期日時: 2026-04-16T18:43:52+09:00
+
+---
+
+commit: 8eb28a410c7421b3465ea927d6698bb8b93daef9
+
+M	.env.example
+M	.gitignore
+M	app.py
+M	requirements.txt
+M	scraper.py
+M	static/index.html

@@ -1,0 +1,13 @@
+# コンプラ違反にタイムスタンプリンク追加
+
+Notion URL: https://www.notion.so/344f3b0fba8581078ef8f9277d28ccee
+同期日時: 2026-04-16T18:44:14+09:00
+
+---
+
+commit: ae4e3625f6b985af41793328325c8708adfdcb6a
+
+M	backend/api/compliance.py
+M	frontend/src/app/assignee-dashboard/page.tsx
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/lib/api.ts

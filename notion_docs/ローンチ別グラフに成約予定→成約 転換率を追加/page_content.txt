@@ -1,0 +1,12 @@
+# ローンチ別グラフに成約予定→成約 転換率を追加
+
+Notion URL: https://www.notion.so/344f3b0fba858110bf35dfe8b79bf155
+同期日時: 2026-04-16T18:44:17+09:00
+
+---
+
+commit: 14b29e55de34c26cb80c34ffd83ecca0f4666f05
+
+M	backend/api/assignee_dashboard.py
+M	frontend/src/app/assignee-dashboard/page.tsx
+M	frontend/src/lib/api.ts

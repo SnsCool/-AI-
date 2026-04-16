@@ -1,0 +1,10 @@
+# completedレコードのmp4/文字起こし欠損を再取得する
+
+Notion URL: https://www.notion.so/completed-mp4-344f3b0fba858151812fd7870375225f
+同期日時: 2026-04-16T18:44:01+09:00
+
+---
+
+commit: 94451cd1a17d85087de0b98de9a9c18dddfd1d96
+
+M	backend/api/batch.py

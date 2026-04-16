@@ -1,0 +1,12 @@
+# ログイン30日保持 + グラフ30日間 + メンバー名照合
+
+Notion URL: https://www.notion.so/30-30-344f3b0fba858160affcf6ad22bd5410
+同期日時: 2026-04-16T18:44:25+09:00
+
+---
+
+commit: c177d8c98d9bd700c953571c6711c70bcdb1febc
+
+M	backend/api/assignee_dashboard.py
+M	backend/api/auth.py
+M	frontend/src/app/assignee-dashboard/page.tsx

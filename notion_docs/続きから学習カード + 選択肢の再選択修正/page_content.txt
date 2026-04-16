@@ -1,0 +1,13 @@
+# 続きから学習カード + 選択肢の再選択修正
+
+Notion URL: https://www.notion.so/344f3b0fba8581d9b9abc8d0911ad3e1
+同期日時: 2026-04-16T18:45:29+09:00
+
+---
+
+commit: d0d4f7c891a32aa2c81e6ddc94e0a48e3e50e6be
+
+M	src/app/(learning)/drill/DrillClient.tsx
+M	src/app/(main)/DashboardClient.tsx
+M	src/app/(main)/page.tsx
+M	src/components/drill/QuestionRenderer.tsx

@@ -1,0 +1,14 @@
+# add scheduler, AWS infra, deploy script
+
+Notion URL: https://www.notion.so/add-scheduler-AWS-infra-deploy-script-344f3b0fba8581e6ade9d52b02a7022e
+同期日時: 2026-04-16T18:45:45+09:00
+
+---
+
+commit: 57f3169e05e787f76917fca4697b7dbdd7fc6182
+
+M	frontend/Dockerfile
+M	frontend/next.config.ts
+A	infra/deploy.sh
+A	infra/task-def-backend.json
+A	infra/task-def-frontend.json

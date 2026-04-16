@@ -1,0 +1,10 @@
+# 登録フロー改善 - Discord文言修正 + Googleカレンダーステップ追加
+
+Notion URL: https://www.notion.so/Discord-Google-344f3b0fba85810db9cbed6df355267f
+同期日時: 2026-04-16T18:44:11+09:00
+
+---
+
+commit: a2a08c3bca2953383a8fcb84c04bcd87728945ab
+
+M	frontend/src/app/register/page.tsx

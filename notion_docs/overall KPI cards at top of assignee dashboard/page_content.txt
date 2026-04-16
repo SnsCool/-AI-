@@ -1,0 +1,10 @@
+# overall KPI cards at top of assignee dashboard
+
+Notion URL: https://www.notion.so/overall-KPI-cards-at-top-of-assignee-dashboard-344f3b0fba85815cbf18fef6e0eedcdc
+同期日時: 2026-04-16T18:44:43+09:00
+
+---
+
+commit: 66f94971539deb4c7714395f4ab7baccd2652325
+
+M	frontend/src/app/assignee-dashboard/page.tsx

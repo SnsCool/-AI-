@@ -1,0 +1,10 @@
+# add 失注率 and 保留率 KPI cards
+
+Notion URL: https://www.notion.so/add-and-KPI-cards-344f3b0fba8581a18219e7f7365824f4
+同期日時: 2026-04-16T18:44:41+09:00
+
+---
+
+commit: af44fec33f8e5fa051ab8b2d7ad02f07870be17f
+
+M	frontend/src/app/assignee-dashboard/page.tsx

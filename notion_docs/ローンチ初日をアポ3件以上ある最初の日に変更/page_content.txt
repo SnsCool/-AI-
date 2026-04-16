@@ -1,0 +1,10 @@
+# ローンチ初日をアポ3件以上ある最初の日に変更
+
+Notion URL: https://www.notion.so/3-344f3b0fba85815d9bf0e83d381bca82
+同期日時: 2026-04-16T18:44:25+09:00
+
+---
+
+commit: d46a7a627801797ba4a36705fc398e3c3d888eb8
+
+M	backend/api/assignee_dashboard.py

@@ -1,0 +1,10 @@
+# ローンチ初日をセミナー月内の初アポ日に限定
+
+Notion URL: https://www.notion.so/344f3b0fba8581338f06d1fe5d17da18
+同期日時: 2026-04-16T18:44:25+09:00
+
+---
+
+commit: ba4e0aba9498d8418f6e9512c7fa37df053e4749
+
+M	backend/api/assignee_dashboard.py

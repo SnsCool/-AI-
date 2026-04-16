@@ -1,0 +1,10 @@
+# larger comment textarea (6 rows) and wider popover (max-w-sm)
+
+Notion URL: https://www.notion.so/larger-comment-textarea-6-rows-and-wider-popover-max-w-sm-344f3b0fba8581519f62f51735201ab1
+同期日時: 2026-04-16T18:45:13+09:00
+
+---
+
+commit: 51242a7521b09cc2e15a2cd9aa026d37d531d07d
+
+M	frontend/src/app/recordings/[id]/page.tsx

@@ -1,0 +1,11 @@
+# Ghost-Writer / X-inspired UI redesign
+
+Notion URL: https://www.notion.so/Ghost-Writer-X-inspired-UI-redesign-344f3b0fba8581a0b643e49f7b7fc5c6
+同期日時: 2026-04-16T18:45:34+09:00
+
+---
+
+commit: 73e4e0d85f8723e46ddc36593ee0030bf0214d83
+
+M	frontend/src/app/globals.css
+M	frontend/src/app/layout.tsx

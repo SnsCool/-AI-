@@ -1,0 +1,10 @@
+# prevent layout shift on comment hover - use opacity instead of conditional render
+
+Notion URL: https://www.notion.so/prevent-layout-shift-on-comment-hover-use-opacity-instead-of-conditional-render-344f3b0fba85819db3f1dc98c26f8279
+同期日時: 2026-04-16T18:45:14+09:00
+
+---
+
+commit: 045c864503d75a71222a48ef41426414011a576c
+
+M	frontend/src/components/recording/FigmaComment.tsx

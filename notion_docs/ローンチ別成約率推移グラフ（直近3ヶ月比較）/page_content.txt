@@ -1,0 +1,12 @@
+# ローンチ別成約率推移グラフ（直近3ヶ月比較）
+
+Notion URL: https://www.notion.so/3-344f3b0fba858167bf26cba0de47b83b
+同期日時: 2026-04-16T18:44:26+09:00
+
+---
+
+commit: 7fd0d61cf247ff7cf5022d9b074295693a775199
+
+M	backend/api/assignee_dashboard.py
+M	frontend/src/app/assignee-dashboard/page.tsx
+M	frontend/src/lib/api.ts

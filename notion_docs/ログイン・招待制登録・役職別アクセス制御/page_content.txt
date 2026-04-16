@@ -1,0 +1,20 @@
+# ログイン・招待制登録・役職別アクセス制御
+
+Notion URL: https://www.notion.so/344f3b0fba85819598ecede4370a3eee
+同期日時: 2026-04-16T18:44:32+09:00
+
+---
+
+commit: e32bab3fb5faa8a0e6481bd9ba7f86f42151bd7e
+
+M	backend/api/auth.py
+M	backend/api/recordings.py
+M	frontend/src/app/assignee-dashboard/page.tsx
+M	frontend/src/app/layout.tsx
+M	frontend/src/app/login/page.tsx
+A	frontend/src/app/nav-bar.tsx
+M	frontend/src/app/page.tsx
+A	frontend/src/app/register/page.tsx
+M	frontend/src/lib/api.ts
+A	frontend/src/lib/auth-context.tsx
+M	frontend/src/lib/auth.ts

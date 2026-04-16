@@ -1,0 +1,10 @@
+# DockerfileのベースイメージをECR Publicに変更
+
+Notion URL: https://www.notion.so/Dockerfile-ECR-Public-344f3b0fba8581bfbbede30edb6f8b14
+同期日時: 2026-04-16T18:44:01+09:00
+
+---
+
+commit: c069fe1c3edfd740e57c072b5a3b8a7184d95f02
+
+M	backend/Dockerfile

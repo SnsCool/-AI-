@@ -1,0 +1,10 @@
+# 全体カレンダーにメンバー別内訳+スロット詳細展開を追加
+
+Notion URL: https://www.notion.so/344f3b0fba85815ba8bee213aa2e725a
+同期日時: 2026-04-16T18:44:19+09:00
+
+---
+
+commit: 2a4244447d78e61317ddb50b8e993bb5a0473f9b
+
+M	frontend/src/app/slot-management/page.tsx

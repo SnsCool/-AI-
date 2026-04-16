@@ -1,0 +1,11 @@
+# EC2 direct deploy (no Docker), setup scripts
+
+Notion URL: https://www.notion.so/EC2-direct-deploy-no-Docker-setup-scripts-344f3b0fba858140ab6ef66f6f852fb6
+同期日時: 2026-04-16T18:45:45+09:00
+
+---
+
+commit: 8f53f2c82c19b2a3a3d73866b46d261b2d39463f
+
+M	CLAUDE.md
+A	infra/setup-ec2.sh

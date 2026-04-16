@@ -1,0 +1,10 @@
+# phase timeline bar - no gaps, no inner radius, show %, round legend dots
+
+Notion URL: https://www.notion.so/phase-timeline-bar-no-gaps-no-inner-radius-show-round-legend-dots-344f3b0fba858194b390f9d5bcf4ecc3
+同期日時: 2026-04-16T18:45:11+09:00
+
+---
+
+commit: 9e00ed942b093e2341ccb46bc87c427e2f57c873
+
+M	frontend/src/app/recordings/[id]/page.tsx

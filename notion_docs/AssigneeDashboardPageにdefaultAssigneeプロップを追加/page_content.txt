@@ -1,0 +1,10 @@
+# AssigneeDashboardPageにdefaultAssigneeプロップを追加
+
+Notion URL: https://www.notion.so/AssigneeDashboardPage-defaultAssignee-344f3b0fba8581589189f4ea0140e05f
+同期日時: 2026-04-16T18:44:07+09:00
+
+---
+
+commit: 6320adf7e9038e668955c0d413149888d12a602c
+
+M	frontend/src/app/assignee-dashboard/page.tsx

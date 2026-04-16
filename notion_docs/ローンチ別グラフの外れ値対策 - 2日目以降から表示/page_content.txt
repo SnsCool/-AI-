@@ -1,0 +1,10 @@
+# ローンチ別グラフの外れ値対策 - 2日目以降から表示
+
+Notion URL: https://www.notion.so/2-344f3b0fba8581c39fccc181614736d1
+同期日時: 2026-04-16T18:44:18+09:00
+
+---
+
+commit: ce16071702438d50f650da63e22eefc1e5f3836e
+
+M	frontend/src/app/assignee-dashboard/page.tsx

@@ -1,0 +1,11 @@
+# remove /sales/ from router.push (basePath auto-adds it)
+
+Notion URL: https://www.notion.so/remove-sales-from-router-push-basePath-auto-adds-it-344f3b0fba8581a0ad09fdb3be0841e3
+同期日時: 2026-04-16T18:44:46+09:00
+
+---
+
+commit: 6cb4c3f542a68590b5b351982f9bcb07fc46cb8b
+
+M	frontend/src/app/login/page.tsx
+M	frontend/src/app/settings/page.tsx

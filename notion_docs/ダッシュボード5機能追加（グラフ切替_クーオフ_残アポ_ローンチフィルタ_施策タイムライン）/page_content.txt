@@ -1,0 +1,14 @@
+# ダッシュボード5機能追加（グラフ切替/クーオフ/残アポ/ローンチフィルタ/施策タイムライン）
+
+Notion URL: https://www.notion.so/5-344f3b0fba8581d0a962f46da82e502f
+同期日時: 2026-04-16T18:44:02+09:00
+
+---
+
+commit: c8e765b43540987f059b028a61b312043fb35685
+
+M	backend/api/assignee_dashboard.py
+A	backend/api/initiatives.py
+M	backend/main.py
+M	frontend/src/app/assignee-dashboard/page.tsx
+M	frontend/src/lib/api.ts

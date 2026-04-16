@@ -1,0 +1,11 @@
+# Figma-style comment UI
+
+Notion URL: https://www.notion.so/Figma-style-comment-UI-344f3b0fba858173951fd8d97bc3ac97
+同期日時: 2026-04-16T18:45:14+09:00
+
+---
+
+commit: e3a681d28374c82e75796621bfb96d5a3601926d
+
+M	frontend/src/app/recordings/[id]/page.tsx
+A	frontend/src/components/recording/FigmaComment.tsx

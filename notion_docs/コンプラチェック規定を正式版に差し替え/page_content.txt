@@ -1,0 +1,10 @@
+# コンプラチェック規定を正式版に差し替え
+
+Notion URL: https://www.notion.so/344f3b0fba85811ab6f0eb59cd39f9c4
+同期日時: 2026-04-16T18:44:28+09:00
+
+---
+
+commit: 0d86a65d2e466644d429e10f948aaabd0a1125f0
+
+M	backend/api/analysis.py

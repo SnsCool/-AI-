@@ -1,0 +1,10 @@
+# seminar comparison uses all data (no date filter)
+
+Notion URL: https://www.notion.so/seminar-comparison-uses-all-data-no-date-filter-344f3b0fba8581808631da26063b9a31
+同期日時: 2026-04-16T18:44:38+09:00
+
+---
+
+commit: 18c2122555ff97576a8e07f3545facd8cf40cbbc
+
+M	backend/api/assignee_dashboard.py

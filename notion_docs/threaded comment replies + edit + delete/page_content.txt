@@ -1,0 +1,12 @@
+# threaded comment replies + edit + delete
+
+Notion URL: https://www.notion.so/threaded-comment-replies-edit-delete-344f3b0fba858108897cfb79ee5b08e9
+同期日時: 2026-04-16T18:45:12+09:00
+
+---
+
+commit: ecf03f1ad8a218b4d5df798cf7dc6b597740e000
+
+M	backend/api/comments.py
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/components/recording/FigmaComment.tsx

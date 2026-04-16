@@ -1,0 +1,12 @@
+# detailed closing & payment analysis in Gemini prompt
+
+Notion URL: https://www.notion.so/detailed-closing-payment-analysis-in-Gemini-prompt-344f3b0fba85817da671e1a4a6bb715d
+同期日時: 2026-04-16T18:45:41+09:00
+
+---
+
+commit: 40f56fbb0eaebb4d5e468adbe0000fd2fde5b5ac
+
+M	backend/api/analysis.py
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/lib/api.ts

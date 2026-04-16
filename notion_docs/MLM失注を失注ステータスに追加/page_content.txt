@@ -1,0 +1,10 @@
+# MLM失注を失注ステータスに追加
+
+Notion URL: https://www.notion.so/MLM-344f3b0fba858144aba9c7f887b7a914
+同期日時: 2026-04-16T18:44:02+09:00
+
+---
+
+commit: ce47d88761108028507dbb962a947b08484e4220
+
+M	backend/api/assignee_dashboard.py

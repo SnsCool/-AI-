@@ -1,0 +1,10 @@
+# Google Calendar OAuthコールバックのセッション検証をDB経由に修正
+
+Notion URL: https://www.notion.so/Google-Calendar-OAuth-DB-344f3b0fba85819e8301e72f6f16265e
+同期日時: 2026-04-16T18:44:22+09:00
+
+---
+
+commit: 62de24dc0c530869b0e65d24830066a1db7cb391
+
+M	backend/api/google_calendar_oauth.py

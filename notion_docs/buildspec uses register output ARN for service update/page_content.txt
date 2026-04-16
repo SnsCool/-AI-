@@ -1,0 +1,10 @@
+# buildspec uses register output ARN for service update
+
+Notion URL: https://www.notion.so/buildspec-uses-register-output-ARN-for-service-update-344f3b0fba8581dd940fec939ff3c370
+同期日時: 2026-04-16T18:44:05+09:00
+
+---
+
+commit: cf74ddc2abdf40c73d0180863bc05161e9084f2e
+
+M	buildspec.yml

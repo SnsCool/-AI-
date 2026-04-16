@@ -1,0 +1,11 @@
+# fetch all rows from customer sheet (no 3000/6000 row limit)
+
+Notion URL: https://www.notion.so/fetch-all-rows-from-customer-sheet-no-3000-6000-row-limit-344f3b0fba8581cdb81fcff35a5a4b15
+同期日時: 2026-04-16T18:44:38+09:00
+
+---
+
+commit: cf84f7315fb69a8ba44f8a8ae5264b0bf3a5e9ee
+
+M	backend/api/assignee_dashboard.py
+M	backend/services/sheets_sync.py

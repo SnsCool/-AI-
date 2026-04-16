@@ -1,0 +1,11 @@
+# parse stringified JSON objects in analysis results
+
+Notion URL: https://www.notion.so/parse-stringified-JSON-objects-in-analysis-results-344f3b0fba85812eb918fd205ac0591a
+同期日時: 2026-04-16T18:45:29+09:00
+
+---
+
+commit: f6c1b2d7fcdbe436212790bf9be11e30b4548b4c
+
+M	frontend/src/components/recording/AnalysisPanel.tsx
+M	frontend/src/components/recording/TimestampText.tsx

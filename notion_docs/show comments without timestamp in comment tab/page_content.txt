@@ -1,0 +1,10 @@
+# show comments without timestamp in comment tab
+
+Notion URL: https://www.notion.so/show-comments-without-timestamp-in-comment-tab-344f3b0fba8581cabe5dc63a159e237b
+同期日時: 2026-04-16T18:45:12+09:00
+
+---
+
+commit: 21bd9073d826e31544eefbce1f4f9ab8ca507c24
+
+M	frontend/src/app/recordings/[id]/page.tsx

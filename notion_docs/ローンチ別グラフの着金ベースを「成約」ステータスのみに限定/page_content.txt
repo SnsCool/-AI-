@@ -1,0 +1,10 @@
+# ローンチ別グラフの着金ベースを「成約」ステータスのみに限定
+
+Notion URL: https://www.notion.so/344f3b0fba858190be40ef5dd4304e50
+同期日時: 2026-04-16T18:44:17+09:00
+
+---
+
+commit: b8a5b1c14982bfcf9156f4a31f08fdd83c686146
+
+M	backend/api/assignee_dashboard.py

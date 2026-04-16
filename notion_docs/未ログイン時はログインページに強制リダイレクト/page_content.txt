@@ -1,0 +1,11 @@
+# 未ログイン時はログインページに強制リダイレクト
+
+Notion URL: https://www.notion.so/344f3b0fba85811d9dc7e36a38422035
+同期日時: 2026-04-16T18:44:31+09:00
+
+---
+
+commit: 608d415090ee25153844faf4e9cd5a630c24b342
+
+M	frontend/src/app/page.tsx
+M	frontend/src/lib/auth-context.tsx

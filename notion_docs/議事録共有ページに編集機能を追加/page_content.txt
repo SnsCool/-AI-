@@ -1,0 +1,10 @@
+# 議事録共有ページに編集機能を追加
+
+Notion URL: https://www.notion.so/344f3b0fba85810c9f22c45e41431932
+同期日時: 2026-04-16T18:44:03+09:00
+
+---
+
+commit: 79db25b889d671aefee5bc7743793d3faba7abf7
+
+M	backend/api/minutes.py

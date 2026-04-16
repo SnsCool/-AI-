@@ -1,0 +1,14 @@
+# アイコンを画像アップロード式に変更 + クロップ機能
+
+Notion URL: https://www.notion.so/344f3b0fba85810b8b1acccdcf84ac42
+同期日時: 2026-04-16T18:44:24+09:00
+
+---
+
+commit: e792ec661c75ca72755981a101b149c0f847faef
+
+M	backend/api/auth.py
+M	frontend/src/app/nav-bar.tsx
+M	frontend/src/app/register/page.tsx
+M	frontend/src/app/settings/page.tsx
+M	frontend/src/lib/auth.ts

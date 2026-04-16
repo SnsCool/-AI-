@@ -1,0 +1,12 @@
+# ログイン・登録ページのUI改善
+
+Notion URL: https://www.notion.so/UI-344f3b0fba85815b9606eab58d087411
+同期日時: 2026-04-16T18:44:31+09:00
+
+---
+
+commit: a48a93dd00d285cf9de8b858f266878543894f2c
+
+M	frontend/src/app/login/page.tsx
+M	frontend/src/app/nav-bar.tsx
+M	frontend/src/app/register/page.tsx

@@ -1,0 +1,10 @@
+# 分析セクションのタイトル重複を解消、トグルヘッダーに統一
+
+Notion URL: https://www.notion.so/344f3b0fba8581129b95c3bd4c4ce8d6
+同期日時: 2026-04-16T18:44:13+09:00
+
+---
+
+commit: cf1834601c0699288a38c5957868ace9e23eed46
+
+M	frontend/src/app/recordings/[id]/page.tsx

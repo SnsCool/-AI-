@@ -1,0 +1,10 @@
+# seminar trend on recordings page KPI cards too
+
+Notion URL: https://www.notion.so/seminar-trend-on-recordings-page-KPI-cards-too-344f3b0fba858168ade0d83ac4cfcb65
+同期日時: 2026-04-16T18:44:37+09:00
+
+---
+
+commit: 465c86de6b7f95416c5593c5ef55bcee25842440
+
+M	frontend/src/app/recordings/page.tsx

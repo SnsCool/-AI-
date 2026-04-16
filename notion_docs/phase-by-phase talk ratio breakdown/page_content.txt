@@ -1,0 +1,11 @@
+# phase-by-phase talk ratio breakdown
+
+Notion URL: https://www.notion.so/phase-by-phase-talk-ratio-breakdown-344f3b0fba85814eab28d9ed50ed60cf
+同期日時: 2026-04-16T18:45:34+09:00
+
+---
+
+commit: 7b8a1286ea50b8455fe572961556b72bdd033ad4
+
+M	backend/api/analysis.py
+M	frontend/src/components/recording/AnalysisPanel.tsx

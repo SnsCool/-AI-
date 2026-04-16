@@ -1,0 +1,10 @@
+# テーブルヘッダークリックでソート切り替え
+
+Notion URL: https://www.notion.so/344f3b0fba85819db965d53326e35424
+同期日時: 2026-04-16T18:44:34+09:00
+
+---
+
+commit: 3e23976c9d76aeab2444ffa18344a893688a9f03
+
+M	frontend/src/app/assignee-dashboard/page.tsx
