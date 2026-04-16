@@ -1,0 +1,10 @@
+# [merge] merge: task-001-1776327048/task - 初級編シードデータ
+
+Notion URL: https://www.notion.so/merge-merge-task-001-1776327048-task-344f3b0fba8581cbb0d9d93dddc85ac1
+同期日時: 2026-04-16T21:34:47+09:00
+
+---
+
+commit: 42637c9a03f5df127c36f1c7a4cc3f9e1b773826
+
+(no file changes)

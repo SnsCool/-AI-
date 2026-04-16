@@ -1,0 +1,41 @@
+# 対話分析にトークスクリプト準拠度セクションを追加
+
+Notion URL: https://www.notion.so/344f3b0fba858141b551edb51baa77e3
+同期日時: 2026-04-16T21:34:33+09:00
+
+---
+
+commit: b8dd31a18ad6ab43b348834afb995a6001ac12da
+
+A	.team/.gitignore
+A	.team/config.json
+A	.team/task-state.json
+A	.team/tasks/001-ai-1-3/runs/task-001-1776326486/conductor-prompt.md
+A	.team/tasks/001-ai-1-3/task.md
+A	.team/tasks/002-ai-2-3/runs/task-002-1776326490/conductor-prompt.md
+A	.team/tasks/002-ai-2-3/task.md
+A	.team/tasks/003-ai-3-3/runs/task-003-1776326494/conductor-prompt.md
+A	.team/tasks/003-ai-3-3/task.md
+A	.worktrees/task-001-1776326486
+A	.worktrees/task-002-1776326490
+A	.worktrees/task-003-1776326494
+M	CLAUDE.md
+A	backend/.team/task-state.json
+A	backend/.team/tasks/001-ai-1-3-id-0-272/task.md
+A	backend/.team/tasks/002-ai-2-3-id-273-545/task.md
+A	backend/.team/tasks/003-ai-3-3-id-546-819/task.md
+A	backend/.team/tasks/004-ai-1-3-offset-0/task.md
+A	backend/.team/tasks/005-ai-2-3-offset-273/task.md
+A	backend/.team/tasks/006-ai-3-3-offset-546/task.md
+M	backend/CLAUDE.md
+M	backend/api/analysis.py
+M	backend/api/assignee_dashboard.py
+A	backend/api/talk_script.py
+M	backend/main.py
+A	docs/talk_script_manual.md
+M	frontend/Dockerfile
+M	frontend/package-lock.json
+M	frontend/package.json
+M	frontend/src/app/settings/page.tsx
+M	frontend/src/components/recording/AnalysisPanel.tsx
+M	frontend/src/lib/api.ts

@@ -1,0 +1,11 @@
+# 初級編（第1-10章）シードデータ作成
+
+Notion URL: https://www.notion.so/1-10-344f3b0fba85811aab50ee25427ad9d5
+同期日時: 2026-04-16T21:34:47+09:00
+
+---
+
+commit: 32d5fe5fbd160c568f0e2a1def545070dcd1a96c
+
+A	prisma/seed-data/beginner.ts
+M	prisma/seed.ts
