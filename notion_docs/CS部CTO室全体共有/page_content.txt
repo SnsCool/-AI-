@@ -1,0 +1,11 @@
+# CS部CTO室全体共有
+
+Notion URL: https://www.notion.so/CS-CTO-344f3b0fba858048b6acf86260da4347
+同期日時: 2026-04-17T00:39:29+09:00
+
+---
+
+  課題対応管理シート
+  https://docs.google.com/spreadsheets/d/1cZbKRaCmsBqF8_KIg4Y27DUi1ua4vpqn8BQGTTXGDUo/edit?usp=sharing
+  開発するものが被らないようにこちらのシートで管理を行います✊✨
+CSメンバー全員記載対象となりますので、開発をする際は記載をお願いします！
