@@ -1,8 +1,9 @@
 # 講師マネージャー：組織図
 
 Notion URL: https://www.notion.so/344f3b0fba85806b923ffca353797766
-同期日時: 2026-04-16T21:34:28+09:00
+同期日時: 2026-04-17T06:21:34+09:00
 
 ---
 
-(コンテンツなし)
+講師マネージャー組織図
+https://docs.google.com/spreadsheets/d/1H2RY1w5CU5duzElUR-LgY3Uhxs3_P8fuG6FBj7slV5Y/edit?usp=sharing

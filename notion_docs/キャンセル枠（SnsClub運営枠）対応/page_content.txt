@@ -1,7 +1,7 @@
 # キャンセル枠（SnsClub運営枠）対応
 
 Notion URL: https://www.notion.so/SnsClub-344f3b0fba8580e69c6fea4ed9f50cfa
-同期日時: 2026-04-17T00:39:21+09:00
+同期日時: 2026-04-17T06:21:33+09:00
 
 ---
 
