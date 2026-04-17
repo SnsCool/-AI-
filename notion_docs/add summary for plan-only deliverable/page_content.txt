@@ -1,0 +1,10 @@
+# add summary for plan-only deliverable
+
+Notion URL: https://www.notion.so/add-summary-for-plan-only-deliverable-345f3b0fba8581468d56e3e65e516819
+同期日時: 2026-04-17T21:31:00+09:00
+
+---
+
+commit: 6ceb71bcf109aff565de1e625c85b9fe8945bf32
+
+A	.team/tasks/007-zoom-oauth-400-refresh-token/runs/task-007-1776419989/summary.md

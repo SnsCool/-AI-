@@ -1,0 +1,10 @@
+# move GEMINI_API_KEY from hardcoded env to Secrets Manager
+
+Notion URL: https://www.notion.so/move-GEMINI_API_KEY-from-hardcoded-env-to-Secrets-Manager-345f3b0fba8581a6bb9ce614c8d22c25
+同期日時: 2026-04-17T21:31:06+09:00
+
+---
+
+commit: 506c202fedee878cc1d89c124f9c0d7779809a8a
+
+M	infra/task-def-backend.json

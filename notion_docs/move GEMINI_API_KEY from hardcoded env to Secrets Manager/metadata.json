@@ -1,0 +1,7 @@
+{
+  "id": "345f3b0f-ba85-81a6-bb9c-e614c8d22c25",
+  "title": "move GEMINI_API_KEY from hardcoded env to Secrets Manager",
+  "last_edited_time": "2026-04-17T12:03:00.000Z",
+  "url": "https://www.notion.so/move-GEMINI_API_KEY-from-hardcoded-env-to-Secrets-Manager-345f3b0fba8581a6bb9ce614c8d22c25",
+  "synced_at": "2026-04-17T12:31:06.133306+00:00"
+}
