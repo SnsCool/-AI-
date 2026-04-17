@@ -1,10 +1,14 @@
 # クレーム再発防止策
 
 Notion URL: https://www.notion.so/343f3b0fba858052ae16c9b64763317e
-同期日時: 2026-04-16T09:54:01+09:00
+同期日時: 2026-04-17T13:07:27+09:00
 
 ---
 
+FBについて、動画＋テキストはどうか
+→基本生徒に希望をとっている
+→生徒さんにloomやYoutubeの文字起こしや要約を活用してもらう（どこかに記載）
+💡システム化できたらGood：CTO室MTGできく
 15日までにゆきのさん内容転記(依頼：えるさん)
 https://docs.google.com/spreadsheets/d/1NeGpL9I5Xd3Ig6qgFU19yG7XjZYwjMp1ZZqSKA1MPjQ/edit?gid=0#gid=0
 20日までにななこさんが分析(10日に依頼済み)

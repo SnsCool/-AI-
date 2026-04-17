@@ -1,0 +1,17 @@
+# 経理関係・督促
+
+Notion URL: https://www.notion.so/345f3b0fba858062b3d3f85be9e0aa1a
+同期日時: 2026-04-17T13:07:29+09:00
+
+---
+
+
+滞納者管理シート
+
+https://docs.google.com/spreadsheets/d/1rtrGHUhipKxvJtlnk447zop4MRkL8cXDngVz5xFYK4s/edit?gid=0#gid=0
+
+・このシートのA列の背景が赤になっている人が滞納者です。
+
+今までエルステップ上で支払い確認できた人を省き、
+エルステップ上で分割のやり取りをしていない人に対して、一斉メールを送ろうとしてます。
+

@@ -1,7 +1,7 @@
 # アプリ「ジョーズ君」開発
 
-Notion URL: https://app.notion.com/p/336f3b0fba85814fa14adc1d1c0051db
-同期日時: 2026-04-14T13:06:38+09:00
+Notion URL: https://www.notion.so/336f3b0fba85814fa14adc1d1c0051db
+同期日時: 2026-04-17T13:08:21+09:00
 
 ---
 
