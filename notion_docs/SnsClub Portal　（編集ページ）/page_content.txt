@@ -1,7 +1,7 @@
 # SnsClub Portal　（編集ページ）
 
 Notion URL: https://www.notion.so/SnsClub-Portal-fbe799af880845c5a9bb15b6faa4357a
-同期日時: 2026-04-07T13:06:43+09:00
+同期日時: 2026-04-17T18:42:18+09:00
 
 ---
 
@@ -489,7 +489,6 @@ SnsClubラジオや特典映像などのインプットと、
     合宿制作物 
     生徒案内用
     講師案内用
-
   
 🌺SnsClubオフ会
   2025年6月東京オフ会
@@ -510,6 +509,7 @@ SnsClubラジオや特典映像などのインプットと、
   26年3月北海道オフ会
     https://docs.google.com/spreadsheets/d/1GZCVVZbbks8mhmJHg4jyaMf2vFlLe85ZL05ZM3uf-AY/edit?usp=sharing
   26年4月東京オフ会
+    https://canva.link/cac2d5knv9hveg5
     https://docs.google.com/spreadsheets/d/1mqLv3JviTS7r3A3fS6hudjo2kQbsSlcpQJZizWE_zn4/edit?usp=sharing
   🌺ジャンル別オフ会
   2026年1月開催（マネタイズオフ会/東京）
