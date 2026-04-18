@@ -1,7 +1,7 @@
 # Alpine→Debian slim（lightningcss muslバイナリなし問題を根本解決）
 
-Notion URL: https://www.notion.so/Alpine-Debian-slim-lightningcss-musl-343f3b0fba8581e09da2c3c5aa59df2b
-同期日時: 2026-04-16T06:23:53+09:00
+Notion URL: https://www.notion.so/Alpine-Debian-slim-lightningcss-musl-346f3b0fba85815fba4ef0a75850e0b3
+同期日時: 2026-04-18T15:34:34+09:00
 
 ---
 

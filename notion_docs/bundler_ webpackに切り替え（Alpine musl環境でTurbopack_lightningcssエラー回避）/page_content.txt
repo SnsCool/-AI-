@@ -1,7 +1,7 @@
 # bundler: webpackに切り替え（Alpine musl環境でTurbopack/lightningcssエラー回避）
 
-Notion URL: https://www.notion.so/bundler-webpack-Alpine-musl-Turbopack-lightningcss-343f3b0fba858142b046c1dadc28ac85
-同期日時: 2026-04-16T06:23:53+09:00
+Notion URL: https://www.notion.so/bundler-webpack-Alpine-musl-Turbopack-lightningcss-346f3b0fba8581468bb5c1e9c409bbf7
+同期日時: 2026-04-18T15:34:34+09:00
 
 ---
 

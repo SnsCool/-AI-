@@ -1,7 +1,7 @@
 # 個別申し込みフローの見直し
 
-Notion URL: https://app.notion.com/p/342f3b0fba858175a813d6ea8dcfe9ff
-同期日時: 2026-04-14T18:43:51+09:00
+Notion URL: https://www.notion.so/342f3b0fba858175a813d6ea8dcfe9ff
+同期日時: 2026-04-18T15:34:45+09:00
 
 ---
 

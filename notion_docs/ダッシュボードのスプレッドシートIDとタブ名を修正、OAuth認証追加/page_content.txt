@@ -1,7 +1,7 @@
 # ダッシュボードのスプレッドシートIDとタブ名を修正、OAuth認証追加
 
-Notion URL: https://www.notion.so/ID-OAuth-343f3b0fba858124a2f3ec165b0763da
-同期日時: 2026-04-16T06:23:52+09:00
+Notion URL: https://www.notion.so/ID-OAuth-346f3b0fba8581c997c3ff70c16df7ac
+同期日時: 2026-04-18T15:34:33+09:00
 
 ---
 

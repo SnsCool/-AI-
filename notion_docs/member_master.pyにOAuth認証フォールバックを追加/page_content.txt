@@ -1,7 +1,7 @@
 # member_master.pyにOAuth認証フォールバックを追加
 
-Notion URL: https://www.notion.so/member_master-py-OAuth-343f3b0fba858187891ef7ab386ed094
-同期日時: 2026-04-16T06:23:52+09:00
+Notion URL: https://www.notion.so/member_master-py-OAuth-346f3b0fba85815fad78c880e15ae14c
+同期日時: 2026-04-18T15:34:33+09:00
 
 ---
 

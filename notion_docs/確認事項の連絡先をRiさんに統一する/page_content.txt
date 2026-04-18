@@ -1,7 +1,7 @@
 # 確認事項の連絡先をRiさんに統一する
 
-Notion URL: https://app.notion.com/p/Ri-342f3b0fba8581028aaac583c5d8e4ff
-同期日時: 2026-04-14T18:44:42+09:00
+Notion URL: https://www.notion.so/Ri-342f3b0fba8581028aaac583c5d8e4ff
+同期日時: 2026-04-18T15:34:49+09:00
 
 ---
 
