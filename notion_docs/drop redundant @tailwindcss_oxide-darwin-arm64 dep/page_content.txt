@@ -1,7 +1,7 @@
 # drop redundant @tailwindcss/oxide-darwin-arm64 dep
 
-Notion URL: https://www.notion.so/drop-redundant-tailwindcss-oxide-darwin-arm64-dep-345f3b0fba85813ea499d74cd15a9ce4
-同期日時: 2026-04-17T21:32:09+09:00
+Notion URL: https://www.notion.so/drop-redundant-tailwindcss-oxide-darwin-arm64-dep-346f3b0fba85816abbd7fbcaeadaa176
+同期日時: 2026-04-18T18:23:26+09:00
 
 ---
 
