@@ -1,7 +1,7 @@
 # move GEMINI_API_KEY from hardcoded env to Secrets Manager
 
-Notion URL: https://www.notion.so/move-GEMINI_API_KEY-from-hardcoded-env-to-Secrets-Manager-346f3b0fba8581d1b298ee46f4b49dc2
-同期日時: 2026-04-18T18:23:25+09:00
+Notion URL: https://www.notion.so/move-GEMINI_API_KEY-from-hardcoded-env-to-Secrets-Manager-346f3b0fba85817fbe40c0d1cd547a94
+同期日時: 2026-04-19T00:19:20+09:00
 
 ---
 

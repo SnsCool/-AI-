@@ -1,7 +1,7 @@
 # [merge] Merge task-004: GEMINI_API_KEY -> Secrets Manager
 
-Notion URL: https://www.notion.so/merge-Merge-task-004-GEMINI_API_KEY-Secrets-Manager-346f3b0fba858157b19fffd448066cf1
-同期日時: 2026-04-18T18:23:25+09:00
+Notion URL: https://www.notion.so/merge-Merge-task-004-GEMINI_API_KEY-Secrets-Manager-346f3b0fba85815fabaac8d79d199988
+同期日時: 2026-04-19T00:19:19+09:00
 
 ---
 

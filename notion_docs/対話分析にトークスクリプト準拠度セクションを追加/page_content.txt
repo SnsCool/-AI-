@@ -1,7 +1,7 @@
 # 対話分析にトークスクリプト準拠度セクションを追加
 
-Notion URL: https://www.notion.so/346f3b0fba858104b929f571280fd93c
-同期日時: 2026-04-18T18:23:27+09:00
+Notion URL: https://www.notion.so/346f3b0fba8581ab9a47ebe983a04691
+同期日時: 2026-04-19T00:19:21+09:00
 
 ---
 

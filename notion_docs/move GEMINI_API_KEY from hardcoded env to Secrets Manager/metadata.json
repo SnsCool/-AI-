@@ -1,7 +1,7 @@
 {
-  "id": "346f3b0f-ba85-81d1-b298-ee46f4b49dc2",
+  "id": "346f3b0f-ba85-817f-be40-c0d1cd547a94",
   "title": "move GEMINI_API_KEY from hardcoded env to Secrets Manager",
-  "last_edited_time": "2026-04-18T08:05:00.000Z",
-  "url": "https://www.notion.so/move-GEMINI_API_KEY-from-hardcoded-env-to-Secrets-Manager-346f3b0fba8581d1b298ee46f4b49dc2",
-  "synced_at": "2026-04-18T09:23:25.765410+00:00"
+  "last_edited_time": "2026-04-18T13:44:00.000Z",
+  "url": "https://www.notion.so/move-GEMINI_API_KEY-from-hardcoded-env-to-Secrets-Manager-346f3b0fba85817fbe40c0d1cd547a94",
+  "synced_at": "2026-04-18T15:19:20.983254+00:00"
 }
