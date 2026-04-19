@@ -1,7 +1,7 @@
 # 【26年4月東京オフ会】当日運営資料
 
 Notion URL: https://www.notion.so/26-4-344f3b0fba8580238c0acb07f2b6020c
-同期日時: 2026-04-19T18:22:45+09:00
+同期日時: 2026-04-19T21:21:58+09:00
 
 ---
 
@@ -412,7 +412,7 @@ https://www.instagram.com/reel/DLpPYubyOjf/?utm_source=ig_web_copy_link&igsh=MzR
 　　それでは、生徒の皆様は自由にご移動ください」
 ⏰18時35分　フリータイム終了10分前
 🎙️「残り10分でフリータイム終了となります。
-　　18：35になりましたらお近くの席にご着席ください。」
+　　18：45になりましたらお近くの席にご着席ください。」
 ⏰18時45分　フリータイム終了・閉会挨拶
 🔻スライド表示
 🎙️「お時間になりましたのでフリータイムは終了となります。
@@ -432,7 +432,8 @@ https://www.instagram.com/reel/DLpPYubyOjf/?utm_source=ig_web_copy_link&igsh=MzR
 今後の運営改善および、より良い場づくりのため
 アンケートのご回答にご協力をお願いいたします🙇‍♀️
 
-回答が終わりましたらスタンプを押してください！
+回答が終わりましたらDiscordのメッセージに
+👍スタンプを押してください！
 
 **🔻 オフ会アンケートはこちら**
 <https://liff.line.me/2001359303-6EmGr8rA/landing?follow=%40065bwadm&lp=AXlfT8&liff_id=2001359303-6EmGr8rA>
