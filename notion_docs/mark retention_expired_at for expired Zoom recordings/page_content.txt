@@ -1,0 +1,15 @@
+# mark retention_expired_at for expired Zoom recordings
+
+Notion URL: https://www.notion.so/mark-retention_expired_at-for-expired-Zoom-recordings-347f3b0fba85812b920aeff9adea2e71
+同期日時: 2026-04-19T09:53:46+09:00
+
+---
+
+commit: 8692b46de3bbecdaeaf890d131b07dea126e7463
+
+M	backend/api/batch.py
+M	backend/api/user_sync.py
+M	backend/scripts/refetch_mp4.py
+A	backend/scripts/test_expired_handling.py
+M	backend/services/db_client.py
+A	db/migrations/004_add_retention_expired_at.sql

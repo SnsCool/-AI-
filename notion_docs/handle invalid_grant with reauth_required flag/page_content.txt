@@ -1,0 +1,30 @@
+# handle invalid_grant with reauth_required flag
+
+Notion URL: https://www.notion.so/handle-invalid_grant-with-reauth_required-flag-347f3b0fba8581898b87f5953f96ba7a
+同期日時: 2026-04-19T09:53:46+09:00
+
+---
+
+commit: 834a3cd994685ddc0002e25e14559831b4574806
+
+M	backend/api/admin.py
+M	backend/api/batch.py
+M	backend/api/zoom_oauth.py
+A	backend/pytest.ini
+A	backend/requirements-dev.txt
+M	backend/services/db_client.py
+A	backend/services/zoom_account_health.py
+M	backend/services/zoom_client.py
+A	backend/tests/__init__.py
+A	backend/tests/api/__init__.py
+A	backend/tests/api/test_batch.py
+A	backend/tests/api/test_endpoints.py
+A	backend/tests/api/test_zoom_oauth.py
+A	backend/tests/services/__init__.py
+A	backend/tests/services/test_zoom_account_health.py
+A	backend/tests/services/test_zoom_client.py
+A	backend/tests/test_smoke.py
+A	db/migrations/003_create_zoom_account_health.sql
+M	frontend/src/app/admin/page.tsx
+M	frontend/src/app/settings/page.tsx
+M	frontend/src/lib/api.ts
