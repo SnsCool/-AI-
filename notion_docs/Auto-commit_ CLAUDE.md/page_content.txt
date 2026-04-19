@@ -1,0 +1,10 @@
+# Auto-commit: CLAUDE.md
+
+Notion URL: https://www.notion.so/Auto-commit-CLAUDE-md-347f3b0fba8581fa9a94d03e72ba552a
+同期日時: 2026-04-19T18:23:59+09:00
+
+---
+
+commit: cfb7c6960e68a9dbdd9fcba6688ef4ab4500d7d8
+
+M	CLAUDE.md

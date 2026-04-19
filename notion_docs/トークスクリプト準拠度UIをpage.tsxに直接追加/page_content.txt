@@ -1,0 +1,11 @@
+# トークスクリプト準拠度UIをpage.tsxに直接追加
+
+Notion URL: https://www.notion.so/UI-page-tsx-347f3b0fba8581699993e1ea7bf2191d
+同期日時: 2026-04-19T18:24:01+09:00
+
+---
+
+commit: 67b1d0079f569417d7f642005cda7c9e0b8cba8c
+
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/components/recording/AnalysisPanel.tsx

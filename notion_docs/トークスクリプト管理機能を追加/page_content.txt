@@ -1,0 +1,10 @@
+# トークスクリプト管理機能を追加
+
+Notion URL: https://www.notion.so/347f3b0fba8581578247f73b6bced74f
+同期日時: 2026-04-19T18:24:07+09:00
+
+---
+
+commit: 171fc7b7bbe82ccd00b846b1bbaed4d86b768525
+
+M	frontend/src/app/settings/page.tsx

@@ -1,0 +1,10 @@
+# remove duplicate script_compliance block from recordings page (merge fallout)
+
+Notion URL: https://www.notion.so/remove-duplicate-script_compliance-block-from-recordings-page-merge-fallout-347f3b0fba8581bfbec2e9c8d617fbf7
+同期日時: 2026-04-19T18:22:45+09:00
+
+---
+
+commit: 39bdd259a4852434e528bda940f8c2df98c7bfec
+
+M	frontend/src/app/recordings/[id]/page.tsx

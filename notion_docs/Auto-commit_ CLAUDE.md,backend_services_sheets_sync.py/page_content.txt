@@ -1,0 +1,11 @@
+# Auto-commit: CLAUDE.md,backend/services/sheets_sync.py
+
+Notion URL: https://www.notion.so/Auto-commit-CLAUDE-md-backend-services-sheets_sync-py-347f3b0fba858196b822c0df555e64cf
+同期日時: 2026-04-19T18:22:48+09:00
+
+---
+
+commit: 1c4d8ed80cdcfa7e6ffd152952c6aa2a3312a14c
+
+M	CLAUDE.md
+M	backend/services/sheets_sync.py

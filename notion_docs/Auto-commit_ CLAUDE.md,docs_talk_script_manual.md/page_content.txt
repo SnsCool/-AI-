@@ -1,0 +1,11 @@
+# Auto-commit: CLAUDE.md,docs/talk_script_manual.md
+
+Notion URL: https://www.notion.so/Auto-commit-CLAUDE-md-docs-talk_script_manual-md-347f3b0fba858148b729f92fdf5fc3df
+同期日時: 2026-04-19T18:23:06+09:00
+
+---
+
+commit: 4a09ce36f10e950bda0c7f5a798d61d8d0e4af84
+
+M	CLAUDE.md
+A	docs/talk_script_manual.md

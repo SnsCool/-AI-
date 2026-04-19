@@ -1,0 +1,26 @@
+# Tiptap WYSIWYG editor + customer/admin share pages
+
+Notion URL: https://www.notion.so/Tiptap-WYSIWYG-editor-customer-admin-share-pages-347f3b0fba85811a8141f51ac2082595
+同期日時: 2026-04-19T18:25:15+09:00
+
+---
+
+commit: 0714245dd6029c1c32ba30e13279fd238c0fe48a
+
+M	frontend/package-lock.json
+M	frontend/package.json
+A	frontend/scripts/check-serialize.ts
+D	frontend/src/app/share/[token] 2/layout.tsx
+D	frontend/src/app/share/[token] 2/page.tsx
+A	frontend/src/app/share/[token]/not-found.tsx
+M	frontend/src/app/share/[token]/page.tsx
+A	frontend/src/app/share/admin/[token]/admin-share-client.tsx
+A	frontend/src/app/share/admin/[token]/page.tsx
+A	frontend/src/app/share/customer/[token]/customer-share-client.tsx
+A	frontend/src/app/share/customer/[token]/page.tsx
+A	frontend/src/components/editor/EditorToolbar.tsx
+A	frontend/src/components/editor/FloatingEditButton.tsx
+A	frontend/src/components/editor/MinutesEditor.tsx
+M	frontend/src/lib/api.ts
+A	frontend/src/lib/minutes-api.ts
+A	frontend/src/lib/minutes-serialize.ts

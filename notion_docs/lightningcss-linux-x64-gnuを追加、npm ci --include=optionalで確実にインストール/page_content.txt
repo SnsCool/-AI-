@@ -1,7 +1,7 @@
 # lightningcss-linux-x64-gnuを追加、npm ci --include=optionalで確実にインストール
 
-Notion URL: https://www.notion.so/lightningcss-linux-x64-gnu-npm-ci-include-optional-346f3b0fba858176b0bbc7353c073439
-同期日時: 2026-04-18T15:34:34+09:00
+Notion URL: https://www.notion.so/lightningcss-linux-x64-gnu-npm-ci-include-optional-347f3b0fba858146bd93e8e7b8e6f870
+同期日時: 2026-04-19T18:24:03+09:00
 
 ---
 

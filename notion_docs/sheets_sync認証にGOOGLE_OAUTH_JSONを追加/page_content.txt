@@ -1,7 +1,7 @@
 # sheets_sync認証にGOOGLE_OAUTH_JSONを追加
 
-Notion URL: https://www.notion.so/sheets_sync-GOOGLE_OAUTH_JSON-343f3b0fba85815088e3dda2f3422d76
-同期日時: 2026-04-16T03:32:34+09:00
+Notion URL: https://www.notion.so/sheets_sync-GOOGLE_OAUTH_JSON-347f3b0fba85812eb36ddcc7ca38f608
+同期日時: 2026-04-19T18:24:07+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # フロントエンドDockerfileをNode 22に更新
 
-Notion URL: https://www.notion.so/Dockerfile-Node-22-343f3b0fba8581bfbe25e15d80b1f184
-同期日時: 2026-04-16T06:24:20+09:00
+Notion URL: https://www.notion.so/Dockerfile-Node-22-347f3b0fba8581b9abdbfc1d3ba214d1
+同期日時: 2026-04-19T18:24:06+09:00
 
 ---
 

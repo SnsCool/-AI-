@@ -1,0 +1,15 @@
+# Auto-commit: CLAUDE.md,backend/api/analysis.py,backend/api/talk_script.py,backend/main.py,frontend/s
+
+Notion URL: https://www.notion.so/Auto-commit-CLAUDE-md-backend-api-analysis-py-backend-api-talk_script-py-backend-main-py-frontend-s-347f3b0fba8581ebae1bc14db1735068
+同期日時: 2026-04-19T18:23:06+09:00
+
+---
+
+commit: bd97cce9f8d80b0323b6d7521fb7593babcf2ac4
+
+M	CLAUDE.md
+M	backend/api/analysis.py
+A	backend/api/talk_script.py
+M	backend/main.py
+M	frontend/src/app/settings/page.tsx
+M	frontend/src/lib/api.ts

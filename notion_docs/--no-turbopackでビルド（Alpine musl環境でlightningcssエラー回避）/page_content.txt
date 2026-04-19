@@ -1,7 +1,7 @@
 # --no-turbopackでビルド（Alpine musl環境でlightningcssエラー回避）
 
-Notion URL: https://www.notion.so/no-turbopack-Alpine-musl-lightningcss-346f3b0fba858197888cf429e8891b3c
-同期日時: 2026-04-18T15:34:34+09:00
+Notion URL: https://www.notion.so/no-turbopack-Alpine-musl-lightningcss-347f3b0fba858140a2ece152a111c6e4
+同期日時: 2026-04-19T18:24:04+09:00
 
 ---
 

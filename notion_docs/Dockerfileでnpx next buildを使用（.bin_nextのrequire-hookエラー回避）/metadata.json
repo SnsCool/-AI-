@@ -1,7 +1,7 @@
 {
-  "id": "343f3b0f-ba85-8112-a187-fbb6f6de1351",
+  "id": "347f3b0f-ba85-811f-84df-f2b1844defb4",
   "title": "Dockerfileでnpx next buildを使用（.bin/nextのrequire-hookエラー回避）",
-  "last_edited_time": "2026-04-15T18:45:00.000Z",
-  "url": "https://www.notion.so/Dockerfile-npx-next-build-bin-next-require-hook-343f3b0fba858112a187fbb6f6de1351",
-  "synced_at": "2026-04-15T21:24:20.080782+00:00"
+  "last_edited_time": "2026-04-19T09:00:00.000Z",
+  "url": "https://www.notion.so/Dockerfile-npx-next-build-bin-next-require-hook-347f3b0fba85811f84dff2b1844defb4",
+  "synced_at": "2026-04-19T09:24:05.009255+00:00"
 }

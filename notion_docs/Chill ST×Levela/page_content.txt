@@ -1,7 +1,7 @@
 # Chill ST×Levela
 
 Notion URL: https://www.notion.so/Chill-ST-Levela-343f3b0fba858042ac41e26ce5c3c7fc
-同期日時: 2026-04-19T15:43:31+09:00
+同期日時: 2026-04-19T18:25:24+09:00
 
 ---
 
@@ -15,7 +15,26 @@ Notion URL: https://www.notion.so/Chill-ST-Levela-343f3b0fba858042ac41e26ce5c3c7
 ※チップは1000個/@150 ¥150,000※チップ＋紐付き
 ※赤いチップに白印字のデザイン
 ※紐の納期は2~3週間
-発注
+アンケート結果
+種類
+Smooth Tech Knit Long Tee
+49人（約40％）
+Smooth Tech Knit Pullover Parka
+35人（約30％）
+※70%をSmooth Tech Knitのズボン
+Cloud Pile Hoodie
+24人（約30％）
+※30％をCloud Pileのズボン
+色
+黒：57人（約70％）
+白：23人（約30％）
+サイズ
+XS：3人（4％）
+S：15人（20％）
+M：20人（26％）
+L：25人（33％）
+XL：13人（17％）
+発注数（未定）
 トップス：個
 Smooth Tech Knit Long Tee：40%＝個
 ┗黒：70％＝個
@@ -83,22 +102,3 @@ Cloud Pile：30％＝個
 　┗M：
 　┗L：
 　┗XL：
-アンケート結果
-種類
-Smooth Tech Knit Long Tee
-49いいね（約40％）
-Smooth Tech Knit Pullover Parka
-35いいね（約30％）
-※70%をSmooth Tech Knitのズボン
-Cloud Pile Hoodie
-24いいね（約30％）
-※30％をCloud Pileのズボン
-色
-黒：57いいね（約70％）
-白：23いいね（約30％）
-サイズ
-XS：3（4％）
-S：15（20％）
-M：20（26％）
-L：25（33％）
-XL：13（17％）
