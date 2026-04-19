@@ -1,0 +1,10 @@
+# 議事録共有ページをログイン不要に
+
+Notion URL: https://www.notion.so/347f3b0fba85816aa8bdc2e820bab913
+同期日時: 2026-04-20T00:19:01+09:00
+
+---
+
+commit: 9079e0ad2517f55e2fc253d2d5a52ac5b66eaded
+
+M	frontend/src/lib/auth-context.tsx

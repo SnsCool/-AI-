@@ -1,0 +1,11 @@
+# 逸脱箇所のフレックスレイアウト崩れを修正
+
+Notion URL: https://www.notion.so/347f3b0fba8581ec8641df7b52d0d3b3
+同期日時: 2026-04-20T00:19:01+09:00
+
+---
+
+commit: c5b9cbf024b117dae84c8325d0b928b3debb6628
+
+M	frontend/src/app/recordings/[id]/page.tsx
+M	frontend/src/components/recording/AnalysisPanel.tsx

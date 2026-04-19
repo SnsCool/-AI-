@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-04-17T21:31:49+09:00
+同期日時: 2026-04-20T00:19:34+09:00
 
 ---
 
@@ -61,6 +61,7 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
     済：Discode通知変更
     済：特別講義パターンの追加
     済：グルコン・特別講義のサムネ作成方法修正
+    スケジュールと通知文追加
   4/24まで：④CS部へ展開
     基本的な流れは同じらしい、Zoomのアカウントが違うことや、サムネイル画像が違う点に注意が必要。
     運営アカウントのYoutubeへ上げる+設定はみおなさんが実施？？
