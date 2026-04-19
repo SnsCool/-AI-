@@ -1,0 +1,11 @@
+# 絵文字除去とWordPressテーマ風の見出しスタイル
+
+Notion URL: https://www.notion.so/WordPress-347f3b0fba85810a8232d417b86275f1
+同期日時: 2026-04-20T03:20:51+09:00
+
+---
+
+commit: 11c354d3f526df8794768cd26d4975e88525747a
+
+M	frontend/src/app/globals.css
+M	frontend/src/lib/minutes-serialize.ts

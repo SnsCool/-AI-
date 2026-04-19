@@ -1,0 +1,12 @@
+# 顧客向け議事録にカードテンプレート(案C)を適用
+
+Notion URL: https://www.notion.so/C-347f3b0fba85814c81f5d0d9a11a0869
+同期日時: 2026-04-20T03:20:47+09:00
+
+---
+
+commit: adc1a2a7278ba4b30afaeffaba412e870aa160a4
+
+M	frontend/src/app/globals.css
+M	frontend/src/app/share/customer/[token]/customer-share-client.tsx
+A	frontend/src/components/share/MinutesTemplate.tsx
