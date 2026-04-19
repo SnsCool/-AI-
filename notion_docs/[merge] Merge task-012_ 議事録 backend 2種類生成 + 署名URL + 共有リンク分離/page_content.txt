@@ -1,0 +1,10 @@
+# [merge] Merge task-012: 議事録 backend 2種類生成 + 署名URL + 共有リンク分離
+
+Notion URL: https://www.notion.so/merge-Merge-task-012-backend-2-URL-347f3b0fba8581f2b500c2dbcd55e3dc
+同期日時: 2026-04-19T15:43:50+09:00
+
+---
+
+commit: dc7213022212e05a1d6d919a1281b961bdf335da
+
+(no file changes)

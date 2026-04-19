@@ -1,7 +1,7 @@
 # Chill ST×Levela
 
 Notion URL: https://www.notion.so/Chill-ST-Levela-343f3b0fba858042ac41e26ce5c3c7fc
-同期日時: 2026-04-16T00:34:03+09:00
+同期日時: 2026-04-19T15:43:31+09:00
 
 ---
 
@@ -16,23 +16,73 @@ Notion URL: https://www.notion.so/Chill-ST-Levela-343f3b0fba858042ac41e26ce5c3c7
 ※赤いチップに白印字のデザイン
 ※紐の納期は2~3週間
 発注
-トップス：500個
-Smooth Tech Knit Long Tee：40%＝200個
-┗黒：70％＝140個
-┗白：30％＝60個
-Smooth Tech Knit Pullover Parka：30%＝150個
-┗黒：70％＝105個
-┗白：30％＝45個
-Cloud Pile Hoodie：30%＝150個
-┗黒：70％＝105個
-┗白：30％＝45個
-ボトムス：500個
-Smooth Tech Knit：70％＝350個
-┗黒：70％＝245個
-┗白：30％＝105個
-Cloud Pile：30％＝150個
-┗黒：70％＝105個
-┗白：30％＝45個
+トップス：個
+Smooth Tech Knit Long Tee：40%＝個
+┗黒：70％＝個
+　┗XS：
+　┗S：
+　┗M：
+　┗L：
+　┗XL：
+┗白：30％＝個
+　┗XS：
+　┗S：
+　┗M：
+　┗L：
+　┗XL：
+Smooth Tech Knit Pullover Parka：30%＝個
+┗黒：70％＝個
+　┗XS：
+　┗S：
+　┗M：
+　┗L：
+　┗XL：
+┗白：30％＝個
+　┗XS：
+　┗S：
+　┗M：
+　┗L：
+　┗XL：
+Cloud Pile Hoodie：30%＝個
+┗黒：70％＝個
+　┗XS：
+　┗S：
+　┗M：
+　┗L：
+　┗XL：
+┗白：30％＝個
+　┗XS：
+　┗S：
+　┗M：
+　┗L：
+　┗XL：
+ボトムス：個
+Smooth Tech Knit：70％＝個
+┗黒：70％＝個
+　┗XS：
+　┗S：
+　┗M：
+　┗L：
+　┗XL：
+┗白：30％＝個
+　┗XS：
+　┗S：
+　┗M：
+　┗L：
+　┗XL：
+Cloud Pile：30％＝個
+┗黒：70％＝個
+　┗XS：
+　┗S：
+　┗M：
+　┗L：
+　┗XL：
+┗白：30％＝個
+　┗XS：
+　┗S：
+　┗M：
+　┗L：
+　┗XL：
 アンケート結果
 種類
 Smooth Tech Knit Long Tee
@@ -47,8 +97,8 @@ Cloud Pile Hoodie
 黒：57いいね（約70％）
 白：23いいね（約30％）
 サイズ
-XS：
-S：
-M：
-L：
-XL：
+XS：3（4％）
+S：15（20％）
+M：20（26％）
+L：25（33％）
+XL：13（17％）

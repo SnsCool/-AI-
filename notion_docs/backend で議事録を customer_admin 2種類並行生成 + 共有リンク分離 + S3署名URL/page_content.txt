@@ -1,0 +1,13 @@
+# backend で議事録を customer/admin 2種類並行生成 + 共有リンク分離 + S3署名URL
+
+Notion URL: https://www.notion.so/backend-customer-admin-2-S3-URL-347f3b0fba85815ab7caf97d4adb999e
+同期日時: 2026-04-19T15:43:50+09:00
+
+---
+
+commit: a899277904201bedaa0e54deaf37c66dc8d6c10a
+
+M	backend/api/analysis.py
+M	backend/api/minutes.py
+A	backend/tests/test_minutes_types.py
+A	db/migrations/005_split_minutes_by_type.sql
