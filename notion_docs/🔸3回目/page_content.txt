@@ -1,7 +1,7 @@
 # 🔸3回目
 
-Notion URL: https://www.notion.so/3-306f3b0fba85802792b2d9ac0eea35b6
-同期日時: 2026-04-20T03:20:38+09:00
+Notion URL: https://www.notion.so/3-30bf3b0fba8580b58b1ae0589bc208c3
+同期日時: 2026-04-20T09:52:54+09:00
 
 ---
 
@@ -14,9 +14,8 @@ Notion URL: https://www.notion.so/3-306f3b0fba85802792b2d9ac0eea35b6
   メモ
   【目標設定】
   ①今月の“最重要ゴール”（タスクの約束）
-  絶対に宣言して行動する
-  TODOを守って動く
-  ②次回までの投稿数目標：15投稿
+  ②次回までの投稿数目標：
   【録音データ貼り付け】
+
   次回以降のセッション日程記録（ジャンプします）
 Untitled 
