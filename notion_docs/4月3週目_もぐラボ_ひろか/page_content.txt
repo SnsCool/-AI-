@@ -1,7 +1,7 @@
 # 4月3週目_もぐラボ_ひろか
 
 Notion URL: https://www.notion.so/4-3-_-_-348f3b0fba8580fd9f8eea2cd6d26575
-同期日時: 2026-04-21T00:36:53+09:00
+同期日時: 2026-04-21T03:28:48+09:00
 
 ---
 
@@ -14,42 +14,50 @@ Notion URL: https://www.notion.so/4-3-_-_-348f3b0fba8580fd9f8eea2cd6d26575
 進捗：9名成約　残アポ20
 アフィローンチ進捗
 https://docs.google.com/spreadsheets/d/1mgis2fKpsB92aEhglL38Nv12SNkyHmoKs5KZAJXHx9I/edit?gid=1487441004#gid=1487441004
-KSF・転用AP
-KSFとは
-  KSFは「Key Success Factors（キーサクセスファクター）」の略で、日本語では「重要成功要因」と訳されます。KSFは、組織やビジネスが成功するために不可欠な要素や条件を指します。
-転用AP　（アクションプラン）とは
-  KSFを受けて、再現性を持って取り組めるアクションプランを書き出してください
-書き方の例
-  結果
-  ローンチ反応率1.11%（平均0.6%）
-  要因
-  ストーリー閲覧率が平均40~50%と高水準だった。
-  └ストーリーで毎日フォロワーが興味を持ちやすいMBTIに絡めた投稿を1日3〜4投稿していた。
-  フィード投稿を普段から投稿しており、平均いいね数が2000程度になっており、「フィード投稿で発信する人」という文化形成がなされており、フィードでのローンチと相性が良かった可能性がある
-  AP
-  週３以上でメニーチャットを絡めた交流ストーリーを推奨する
-  普段リールでの発信が多い発信者はリールでローンチさせてみる
 KFF・改善AP
 KFFとは
   KFF（Key Failure Factors）とは、組織やビジネスが失敗する原因となる重要な要素や条件を指します。これらは、成功を妨げるリスクや障害となる要因であり、企業が目標を達成できない理由を明らかにするために分析されます。
 改善APとは
   KFFを受けて、同じ失敗を繰り返さないためにどうするべきか？というアクションプランを書き出してください
+KFF：流入からの予約率が7%程（前回は1%だったので改善はされてる）
+フロントとLPの乖離がやはりある
+  https://delicate-klepon-d85b0d.netlify.app/
+改善AP：
+直個別→動画→アポ　の導線もABテストを行う
+└エスキャン・はなよ・つかさ
 当月目標・達成AP
 達成APとは
   立てた目標を達成するためのアクションプランを納期付きで設定してください。
 目標：残り31名成約
-└残り30アポ
+└現20アポ・残り30アポ獲得したい
 達成AP：
-・スクラブへの告知
-└未予約の方へのLINE告知
-└ダイエットサークルへの告知
-・エスキャン告知（モニター）
-└直個別→動画の導線で告知
-・アフィ流入への告知
-└未予約の方へのLINE告知
-・はなよさん・つかささんローンチ
-└直個別の導線・紹介導線
+・エスキャン告知（21日にしたい）
+└直個別予約→動画→個別の導線で告知（モニター募集）
+・つかささんローンチ（21日にしたい）
+└挨拶動画→LP→個別
+https://www.instagram.com/gaku_totonoi/
+・はなよさんローンチ（21日にしたい）
+└挨拶動画→直個別→動画→個別
+https://www.instagram.com/hana_stretch/
+・スクラブローンチ
+└未予約者への追いLINEシナリオ（22日）緊急性高めの直個別予約
+└ダイエットサークルへの告知（22日）枠増やしました系
+・紹介導線（23日以降）
+└ひろかが見込みに直営業
 PL
 年間計画の定量と定性
 https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?gid=222896699#gid=222896699
 共有・提案・依頼
+メモ
+ストーリー
+https://docs.google.com/spreadsheets/d/1XkebxLkh-N7Xhj5EqqSt4bJASqV2yMCaKUwOrCdUaBY/edit?gid=1110531773#gid=1110531773
+https://docs.google.com/spreadsheets/d/1nz87fdYfS5DUahkiN88zliaVpS-CFzXQo5ToEM34x2Y/edit?gid=1498642557#gid=1498642557
+リール
+https://www.instagram.com/p/DXO3_7fCRYm/
+https://www.instagram.com/p/DXOz652iWmB/
+https://www.instagram.com/p/DXOva_oB-Z9/
+https://www.instagram.com/p/DXT1Y-RASMr/
+フィード
+https://www.instagram.com/p/DXULwjuiV8X/?img_index=1
+https://www.instagram.com/p/DXRYk3qiWIN/?img_index=1
+木曜にサブスクと報酬もっていきたい
