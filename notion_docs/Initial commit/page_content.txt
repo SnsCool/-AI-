@@ -1,11 +1,11 @@
 # Initial commit
 
-Notion URL: https://www.notion.so/Initial-commit-344f3b0fba85818ab397feca2186b5f7
-同期日時: 2026-04-16T21:34:46+09:00
+Notion URL: https://www.notion.so/Initial-commit-348f3b0fba858143995ff4d706f02eed
+同期日時: 2026-04-20T18:45:27+09:00
 
 ---
 
-commit: c0015dd7775968b5044c7855e278fe2e81cd2fd9
+commit: 997803a1f6673ced14c56fc40b902e162c107ad5
 
-A	prisma/seed-data/advanced.ts
-M	prisma/seed.ts
+M	public/database.html
+M	public/index.html
