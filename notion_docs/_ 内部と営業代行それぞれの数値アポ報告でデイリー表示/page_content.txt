@@ -1,8 +1,8 @@
 # 
  内部と営業代行それぞれの数値アポ報告でデイリー表示
 
-Notion URL: https://app.notion.com/p/333f3b0fba85804a86c9d38ae137d84a
-同期日時: 2026-04-14T13:10:13+09:00
+Notion URL: https://www.notion.so/333f3b0fba85804a86c9d38ae137d84a
+同期日時: 2026-04-20T21:36:12+09:00
 
 ---
 
