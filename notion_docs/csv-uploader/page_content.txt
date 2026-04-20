@@ -1,7 +1,7 @@
 # csv-uploader
 
-Notion URL: https://www.notion.so/csv-uploader-33df3b0fba858170a0fce7de2daac980
-同期日時: 2026-04-10T03:28:36+09:00
+Notion URL: https://www.notion.so/csv-uploader-348f3b0fba85818eb47ac431c9ee912a
+同期日時: 2026-04-20T15:58:10+09:00
 
 ---
 
