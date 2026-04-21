@@ -1,7 +1,7 @@
 # メディア部
 
 Notion URL: https://www.notion.so/325f3b0fba858019a6b5e35d77952186
-同期日時: 2026-04-02T21:33:02+09:00
+同期日時: 2026-04-21T13:08:37+09:00
 
 ---
 
@@ -9,6 +9,6 @@ Notion URL: https://www.notion.so/325f3b0fba858019a6b5e35d77952186
 https://notebooklm.cloud.google.com/global/notebook/7773482f-c748-439c-95b9-7beb2b94d811?project=307374576318
 期限超過
 タスク一覧
-3月中の目標：ゆなさんの名前を残すのみで既存業務の全巻取り・報酬体系の確認・見直しと、sizuru wiz側で新規立ち上げと運用開始。
+目標：報酬体系の確認・見直しと、既存業務の全巻取り、sizuru wiz管轄として運用開始。
 期限未記入
 タスク一覧

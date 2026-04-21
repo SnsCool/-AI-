@@ -1,7 +1,7 @@
 # 売却対象アカウントリストを確定し共有する
 
-Notion URL: https://app.notion.com/p/342f3b0fba8581e69e52ff32ff27092d
-同期日時: 2026-04-14T18:44:35+09:00
+Notion URL: https://www.notion.so/342f3b0fba8581e69e52ff32ff27092d
+同期日時: 2026-04-21T13:11:19+09:00
 
 ---
 

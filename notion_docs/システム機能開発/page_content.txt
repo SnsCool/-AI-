@@ -1,7 +1,7 @@
 # システム機能開発
 
-Notion URL: https://app.notion.com/p/335f3b0fba8581c58662c0f2aa5ceb3e
-同期日時: 2026-04-14T13:06:35+09:00
+Notion URL: https://www.notion.so/335f3b0fba8581c58662c0f2aa5ceb3e
+同期日時: 2026-04-21T13:10:21+09:00
 
 ---
 

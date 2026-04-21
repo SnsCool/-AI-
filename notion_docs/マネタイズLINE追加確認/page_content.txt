@@ -1,8 +1,8 @@
 # マネタイズLINE追加確認
 
-Notion URL: https://www.notion.so/LINE-33bf3b0fba8580c1b346dafa2dab835b
-同期日時: 2026-04-17T15:49:26+09:00
+Notion URL: https://www.notion.so/LINE-336f3b0fba8580c6b26fe3fc336e1d4c
+同期日時: 2026-04-21T13:11:15+09:00
 
 ---
 
-(コンテンツなし)
+顧客管理シートのチェックボックス記入

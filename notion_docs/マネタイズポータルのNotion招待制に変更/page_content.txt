@@ -1,7 +1,7 @@
 # マネタイズポータルのNotion招待制に変更
 
-Notion URL: https://app.notion.com/p/Notion-33bf3b0fba85802b9ed1dca1d2eae511
-同期日時: 2026-04-14T13:10:22+09:00
+Notion URL: https://www.notion.so/Notion-33bf3b0fba85802b9ed1dca1d2eae511
+同期日時: 2026-04-21T13:11:16+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # メールアドレスの一括発行→DM送付
 
 Notion URL: https://www.notion.so/DM-33ef3b0fba85801eada1d011fa9dcbfc
-同期日時: 2026-04-14T00:42:26+09:00
+同期日時: 2026-04-21T13:09:40+09:00
 
 ---
 
