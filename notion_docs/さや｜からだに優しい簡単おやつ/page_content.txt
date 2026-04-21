@@ -1,7 +1,7 @@
 # さや｜からだに優しい簡単おやつ
 
 Notion URL: https://www.notion.so/336f3b0fba8580e79eded96773e2f7e0
-同期日時: 2026-04-02T13:02:14+09:00
+同期日時: 2026-04-22T00:36:38+09:00
 
 ---
 
@@ -14,3 +14,7 @@ Notion URL: https://www.notion.so/336f3b0fba8580e79eded96773e2f7e0
 『訴求方法』
 個包装、お菓子に使える、スムージーにしたり
 娘の肌荒れ、ダイエットしている（アカウント始めたきっかけ）
+4月ローンチ
+インサイト
+  https://docs.google.com/spreadsheets/d/1-62sS0URYrpSEowWz_Pg52ibKydanf4pMvHAfwTb5hg/edit?usp=drivesdk
+購入数：0件
