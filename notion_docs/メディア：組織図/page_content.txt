@@ -1,7 +1,7 @@
 # メディア：組織図
 
 Notion URL: https://www.notion.so/344f3b0fba8580e39a5bce643b43dbd2
-同期日時: 2026-04-21T15:51:16+09:00
+同期日時: 2026-04-21T21:34:43+09:00
 
 ---
 
@@ -42,15 +42,17 @@ Notion URL: https://www.notion.so/344f3b0fba8580e39a5bce643b43dbd2
   杉山里紗　（まなみ編集者
   國貞健督　
   山口勇史　（各リストになし　要確認
+  根本義暉　（既に稼働していない
+  苙隼人　　（既に稼働していない
   ※未確定メンバー
 伊藤美帆 
 原川恵美子 
 大森勇樹
 小崎祥太郎
 數原万紀子
-根本義暉
 楠瀬龍海 
 武田雅平
 田中舞
-苙隼人
 鄭佳奈
+
+https://docs.google.com/spreadsheets/d/1BEA9vdEPUvSO5d4ltXg3bTHPjNiFsPIUOKOgh4jpbXU/edit?gid=0#gid=0
