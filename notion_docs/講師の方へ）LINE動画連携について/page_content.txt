@@ -1,12 +1,12 @@
 # 講師の方へ）LINE動画連携について
 
 Notion URL: https://www.notion.so/LINE-342f3b0fba85808eb7b6e56bc381d425
-同期日時: 2026-04-18T13:01:09+09:00
+同期日時: 2026-04-22T03:32:06+09:00
 
 ---
 
 動画格納期限
-ローンチの3日前 23:59でに、下記のGoogleDriveへ講師ごとに動画をアップロードしてください。
+ローンチの3日前 23:59までに、下記のGoogleDriveへ講師ごとに動画をアップロードしてください。
 提出先フォルダ
 https://drive.google.com/drive/folders/1YDMCvWN6glw51zs5QHFqt1c4hwLg9vIC
 フォルダ構成：○月 → ○月前半 → 動画ファイル
