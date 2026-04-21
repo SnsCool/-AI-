@@ -1,7 +1,7 @@
 # X顧問｜顧客管理ツール概要
 
-Notion URL: https://app.notion.com/p/X-342f3b0fba8581d19d91ec2626e62b18
-同期日時: 2026-04-14T13:08:57+09:00
+Notion URL: https://www.notion.so/X-349f3b0fba85817da3fbd011ea55adea
+同期日時: 2026-04-21T15:49:17+09:00
 
 ---
 
@@ -14,3 +14,9 @@ Notion URL: https://app.notion.com/p/X-342f3b0fba8581d19d91ec2626e62b18
 ===
 ・4月15日までで50%程度完成
 ・4月末で100%完成予定
+4月21日
+モックアップ完成
+リンク：
+https://x-system-byrojin.vercel.app/dashboard?account=e5411f22-a15a-4e91-9d4d-8210c783d304
+メールアドレス：kiyotong0612@gmail.com
+パスワード：Xconsultant2026!

@@ -1,7 +1,7 @@
 # 4月_3週目_Mrs.PROTEIN_はる
 
 Notion URL: https://www.notion.so/4-_3-_Mrs-PROTEIN_-349f3b0fba8580c4b73afe76c9221dde
-同期日時: 2026-04-21T13:07:12+09:00
+同期日時: 2026-04-21T15:51:26+09:00
 
 ---
 
@@ -22,6 +22,10 @@ Notion URL: https://www.notion.so/4-_3-_Mrs-PROTEIN_-349f3b0fba8580c4b73afe76c92
 今後の動き共有
 リソースやばめ
 インフルエンサー分析（振り返りM TG）
+ 支払い通知書、振り込み対応
+顧客対応
+LステップからのシステムじゃなければできるならLPみたいなホームに移動して回答させてスプシならいけるのか
+https://docs.google.com/spreadsheets/d/1DKhxlMiSExFpqz0hd-aXzBm_95AllY4770S0v4UYNXk/edit?gid=804800854#gid=804800854
 KSF・転用AP
 KSFとは
   KSFは「Key Success Factors（キーサクセスファクター）」の略で、日本語では「重要成功要因」と訳されます。KSFは、組織やビジネスが成功するために不可欠な要素や条件を指します。

@@ -1,0 +1,13 @@
+# S3キー衝突で動画が別人のものに差し替わるバグ修正
+
+Notion URL: https://www.notion.so/S3-349f3b0fba858106aeb5eb293b5cae98
+同期日時: 2026-04-21T15:50:49+09:00
+
+---
+
+commit: 75ba0d761ea36067a6afa9b1507f6f8df7ea7e3e
+
+M	backend/api/batch.py
+A	backend/scripts/recover_s3_collisions.py
+M	backend/scripts/refetch_mp4.py
+M	backend/services/s3_client.py

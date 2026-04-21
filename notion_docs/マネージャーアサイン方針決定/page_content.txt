@@ -1,0 +1,29 @@
+# マネージャーアサイン方針決定
+
+Notion URL: https://www.notion.so/334f3b0fba8581aaba8fec7e40156cc9
+同期日時: 2026-04-21T15:51:15+09:00
+
+---
+
+【修正版】新特進MGアサイン管理について
+フルネームにするとかコミットスプシと連携とかまだ修正色々あるんですが
+ここまでご確認いただきたいです🙇‍♀️
+①MG向けアンケートフォーム
+https://docs.google.com/forms/d/e/1FAIpQLSfwyFj0ONBoSdtb4SJJlmGr7e_MonOXKn04-Ooy_O1bQ-pRPw/viewform
+②生徒向けアンケートフォーム
+https://docs.google.com/forms/d/e/1FAIpQLSfKybzhirlRdw-C0WV-E72jMB77bc6ruweVzbOXWWSNpys5SQ/viewform
+③【コミット/特進】MGアサイン管理シート
+※①の回答があるごとに上書きされます（対象月も）
+https://docs.google.com/spreadsheets/d/1PVAhfQmjodBFll8WroAM4Oa0ioUoQcIIb_NHGajG7cI/edit?gid=0#gid=0
+④生徒回答一覧
+※決定を済にするとアサイン決定となり、決定日時が自動で入ります
+https://docs.google.com/spreadsheets/d/1jmOLtiQMpQzio5Uz7wa4u1uOWZNkMReUTrla32CZod4/edit?gid=0#gid=0
+・③と④のスプシは連動しています。
+　④で担当MGが決定すると、③の残受け入れ可能人数が変動します。
+・④の対応可能MGは、自動で受け入れ可能時間に1つ以上マッチするMGが入るようになってますので
+　参考にアサインMGを決定するイメージです。
+　▶2つ以上にした方がいいですかね？？？？？？？？
+・【懸念事項】コミットスプシの担当MG名が漢字フルネーム
+・翌月分の回答がなかった場合、アラートとして③の最終更新日が黄色くなるようにしました
+・毎月月末最終日の7時にMGにフォーム自動送信するよう設定しました
+https://discord.com/channels/1172020927047942154/1492012866612760766

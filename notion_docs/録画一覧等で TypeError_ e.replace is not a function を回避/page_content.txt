@@ -1,0 +1,12 @@
+# 録画一覧等で TypeError: e.replace is not a function を回避
+
+Notion URL: https://www.notion.so/TypeError-e-replace-is-not-a-function-349f3b0fba8581c59f08c0b36c3ed78b
+同期日時: 2026-04-21T15:50:48+09:00
+
+---
+
+commit: 585388d7cd068c15eace420e135c400ba434cfc1
+
+M	frontend/src/app/assignee-dashboard/page.tsx
+M	frontend/src/app/recordings/page.tsx
+M	frontend/src/components/share/MinutesTemplate.tsx

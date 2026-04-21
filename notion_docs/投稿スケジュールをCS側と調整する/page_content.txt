@@ -1,8 +1,8 @@
 # 投稿スケジュールをCS側と調整する
 
-Notion URL: https://app.notion.com/p/CS-339f3b0fba858197ae34ef3a226dfa31
-同期日時: 2026-04-14T13:06:33+09:00
+Notion URL: https://www.notion.so/CS-339f3b0fba858197ae34ef3a226dfa31
+同期日時: 2026-04-21T15:51:23+09:00
 
 ---
 
-(コンテンツなし)
+現状、自己分析セッションの予約は取れている

@@ -1,0 +1,10 @@
+# UUIDカラムへのキャストを修正
+
+Notion URL: https://www.notion.so/UUID-349f3b0fba858139bdfadf90ec3f3756
+同期日時: 2026-04-21T15:50:48+09:00
+
+---
+
+commit: 9a42e5e40572d26ab1cbaa43693c2233ecbc46e7
+
+M	backend/scripts/recover_s3_collisions.py

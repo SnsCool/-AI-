@@ -1,0 +1,10 @@
+# TimestampText を string 以外の入力に耐えるように、batch.py の debug print を除去
+
+Notion URL: https://www.notion.so/TimestampText-string-batch-py-debug-print-349f3b0fba8581d7a2bbd55acf32f0db
+同期日時: 2026-04-21T15:50:48+09:00
+
+---
+
+commit: 2c53fe2d183e68e53ebf8b6fe04e60745e22281b
+
+M	frontend/src/components/recording/TimestampText.tsx

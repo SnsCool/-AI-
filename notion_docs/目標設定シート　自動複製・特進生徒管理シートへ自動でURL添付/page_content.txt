@@ -1,8 +1,8 @@
 # 目標設定シート　自動複製・特進生徒管理シートへ自動でURL添付
 
 Notion URL: https://www.notion.so/URL-334f3b0fba85805dbc55e84834321a45
-同期日時: 2026-03-31T13:08:29+09:00
+同期日時: 2026-04-21T15:51:23+09:00
 
 ---
 
-(コンテンツなし)
+対象シート：https://docs.google.com/spreadsheets/d/1jzfbjqwRrW9_JIa6JUVyCe3uRY8MWwZLnrR2n6xCfqo/edit?pli=1&gid=937556585#gid=937556585&range=E:E
