@@ -1,7 +1,7 @@
 # Makuake・ECサイト掲載準備
 
 Notion URL: https://www.notion.so/Makuake-EC-343f3b0fba85811aa2e1e709814c7ea7
-同期日時: 2026-04-15T15:51:01+09:00
+同期日時: 2026-04-23T00:35:12+09:00
 
 ---
 

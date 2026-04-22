@@ -1,7 +1,7 @@
 # 契約書管理のGoogle Workspaceへの移行期限決定
 
 Notion URL: https://www.notion.so/Google-Workspace-334f3b0fba85814d80c5df0de87a1e57
-同期日時: 2026-03-31T15:42:31+09:00
+同期日時: 2026-04-23T00:38:25+09:00
 
 ---
 

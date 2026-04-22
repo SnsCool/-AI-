@@ -1,7 +1,7 @@
 # Vertex AI等を活用したコールバック戦略の検討
 
 Notion URL: https://www.notion.so/Vertex-AI-343f3b0fba85818088f6ff3d24dcc3fd
-同期日時: 2026-04-15T13:08:05+09:00
+同期日時: 2026-04-23T00:35:56+09:00
 
 ---
 

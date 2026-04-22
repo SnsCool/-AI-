@@ -1,7 +1,7 @@
 # CTOS自動システムの実践と精度報告
 
 Notion URL: https://www.notion.so/CTOS-32af3b0fba85817dbabcc74ee486c9b0
-同期日時: 2026-04-02T21:35:35+09:00
+同期日時: 2026-04-23T00:37:30+09:00
 
 ---
 

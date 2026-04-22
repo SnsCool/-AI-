@@ -1,7 +1,7 @@
 # 営業FBのデータ収集（Googleドライブに全て格納）
 
 Notion URL: https://www.notion.so/FB-Google-333f3b0fba8580dbbdc6d7e3a10f7527
-同期日時: 2026-04-14T09:55:14+09:00
+同期日時: 2026-04-23T00:40:38+09:00
 
 ---
 

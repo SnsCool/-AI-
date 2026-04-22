@@ -1,23 +1,11 @@
 # CS部
 
-Notion URL: https://www.notion.so/CS-2f8f3b0fba8580babffbea55e3140e9c
-同期日時: 2026-04-20T15:58:19+09:00
+Notion URL: https://www.notion.so/CS-34af3b0fba85809fa0b3ec72bbfe15cc
+同期日時: 2026-04-23T00:41:30+09:00
 
 ---
 
-メモ
-【イベント】
-ワークフロー
-https://mermaid.ai/app/projects/b73dfe5d-cbb5-43e6-8f08-a1a106ab6bc8/diagrams/e16a02f3-6ce2-4c60-b5f2-944565c2e1b6/version/v0.1/edit
-タスク
-https://docs.google.com/spreadsheets/d/12uJY4J39PffMHEOhh0PD5z4DJ1d8sSA4VFNXuO_9ohE/edit?pli=1&gid=1930141022#gid=1930141022
-資料
-https://docs.google.com/presentation/d/1FoFIHFCQ_85SVQJLrDyOG7Hv0Wv7xIMJ2YzMJHYQj-o/edit?slide=id.p1#slide=id.p1
-経費関連
-https://docs.google.com/spreadsheets/d/1yBjfIsL2GslNYGB7G_RRzL7-inX8O5y2trqCyqifL4Q/edit?gid=960678369#gid=960678369
-運営ワークフロー
-https://whimsical.com/generated-board-3apfD2WYhZnoyDa6EoC6HT?ref=chatgpt
-  CSチーム KPI
+CSチーム KPI
 │
 ├── サクセス
 │   │
@@ -63,7 +51,7 @@ https://whimsical.com/generated-board-3apfD2WYhZnoyDa6EoC6HT?ref=chatgpt
 │       │   ├── 開始1日目→5000到達日数
 │       │   └── 開始1日目→万垢到達日数
 │       │
-│       ├── スクラブ運営
+│       ├── SnsClub運営
 │       │   ├── グルコン
 │       │   │   ├── 参加数/率
 │       │   │   ├── 参加頻度
@@ -77,7 +65,7 @@ https://whimsical.com/generated-board-3apfD2WYhZnoyDa6EoC6HT?ref=chatgpt
 │       │
 │       ├── コーチング
 │       │   ├── コース別
-│       │   │   ├── ベーシック
+│       │   │   ├── ベーシックコース
 │       │   │   │   ├── 生徒数
 │       │   │   │   ├── 万垢率
 │       │   │   │   ├── 離脱率
@@ -89,7 +77,7 @@ https://whimsical.com/generated-board-3apfD2WYhZnoyDa6EoC6HT?ref=chatgpt
 │       │   │   │   ├── プログラム完走日数
 │       │   │   │   ├── 60投稿到達日数
 │       │   │   │   └── 万垢到達日数
-│       │   │   └── 特進
+│       │   │   └── 特進コース
 │       │   │       ├── 生徒数
 │       │   │       ├── 万垢率
 │       │   │       ├── 離脱率
@@ -104,7 +92,7 @@ https://whimsical.com/generated-board-3apfD2WYhZnoyDa6EoC6HT?ref=chatgpt
 │       │   └── セッション
 │       │       ├── 参加数/率
 │       │
-│       ├── サポートマネージャー
+│       ├── サポートMG
 │       │   ├── 配置
 │       │   │   ├── 全講師数
 │       │   │   ├── 配置講師数
@@ -131,22 +119,22 @@ https://whimsical.com/generated-board-3apfD2WYhZnoyDa6EoC6HT?ref=chatgpt
 │           ├── 万垢率
 │
 └── サポート
-│
-└── 継続・満足度の基盤
-├── 問い合わせ件数
-├── 一次返信数/率
-├── 一次返信速度
-├── 解決完了数/率
-├── 未解決数/率
-├── 再問い合わせ数/率
-├── クレーム件数
-├── クレーム率
-├── 重クレーム件数/率
-├── クレーム起因離脱数/率
-├── 解決日数
-├── 再発数/率
-├── 離脱数/率
-├── 離脱回避数/率
-├── 離脱理由別件数
-├── 投稿停止起因数/率
-└── 未接触起因数/率
+    │
+    └── 継続・満足度の基盤
+        ├── 問い合わせ件数
+        ├── 一次返信数/率
+        ├── 一次返信速度
+        ├── 解決完了数/率
+        ├── 未解決数/率
+        ├── 再問い合わせ数/率
+        ├── クレーム件数
+        ├── クレーム率
+        ├── 重クレーム件数/率
+        ├── クレーム起因離脱数/率
+        ├── 解決日数
+        ├── 再発数/率
+        ├── 離脱数/率
+        ├── 離脱回避数/率
+        ├── 離脱理由別件数
+        ├── 投稿停止起因数/率
+        └── 未接触起因数/率

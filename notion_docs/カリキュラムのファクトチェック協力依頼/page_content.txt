@@ -1,7 +1,7 @@
 # カリキュラムのファクトチェック協力依頼
 
-Notion URL: https://app.notion.com/p/334f3b0fba858109b256d8f6b80e86c1
-同期日時: 2026-04-14T13:06:44+09:00
+Notion URL: https://www.notion.so/334f3b0fba858109b256d8f6b80e86c1
+同期日時: 2026-04-23T00:36:35+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 次回月例会議の設定
 
-Notion URL: https://www.notion.so/345f3b0fba858169b480de524723c94f
-同期日時: 2026-04-21T09:52:26+09:00
+Notion URL: https://www.notion.so/345f3b0fba8581f5baa3e090cc353d7b
+同期日時: 2026-04-23T00:38:35+09:00
 
 ---
 

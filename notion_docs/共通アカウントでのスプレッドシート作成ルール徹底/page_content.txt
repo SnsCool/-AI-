@@ -1,7 +1,7 @@
 # 共通アカウントでのスプレッドシート作成ルール徹底
 
-Notion URL: https://www.notion.so/32af3b0fba858113b75fd59015df7337
-同期日時: 2026-03-29T06:12:20+09:00
+Notion URL: https://www.notion.so/32af3b0fba8581c9a71ee4da8c572dac
+同期日時: 2026-04-23T00:37:31+09:00
 
 ---
 

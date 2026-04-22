@@ -1,7 +1,7 @@
 # 成約率ランキング修正
 
-Notion URL: https://app.notion.com/p/333f3b0fba85806bba80f5d2c44b6787
-同期日時: 2026-04-14T13:10:13+09:00
+Notion URL: https://www.notion.so/333f3b0fba85806bba80f5d2c44b6787
+同期日時: 2026-04-23T00:40:42+09:00
 
 ---
 

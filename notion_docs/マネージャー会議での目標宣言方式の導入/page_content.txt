@@ -1,7 +1,7 @@
 # マネージャー会議での目標宣言方式の導入
 
-Notion URL: https://www.notion.so/349f3b0fba858167992cf3675bda0295
-同期日時: 2026-04-21T18:40:54+09:00
+Notion URL: https://www.notion.so/349f3b0fba85810db86be5e1cdfde387
+同期日時: 2026-04-23T00:38:38+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # Noteの初期戦略と類似サービス調査
 
 Notion URL: https://www.notion.so/Note-34af3b0fba8581d8849cdb8235a1bbeb
-同期日時: 2026-04-22T15:51:16+09:00
+同期日時: 2026-04-23T00:35:07+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 特定ページ経由でのみ実績を閲覧できるようサイト修正
 
-Notion URL: https://app.notion.com/p/342f3b0fba85815992f9cb7cd0554915
-同期日時: 2026-04-14T18:40:20+09:00
+Notion URL: https://www.notion.so/342f3b0fba85815992f9cb7cd0554915
+同期日時: 2026-04-23T00:35:43+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # CS作成の新カリキュラムのレビュー
 
-Notion URL: https://app.notion.com/p/CS-335f3b0fba85817cb8dbe33b147edc51
-同期日時: 2026-04-14T13:08:03+09:00
+Notion URL: https://www.notion.so/CS-335f3b0fba85817cb8dbe33b147edc51
+同期日時: 2026-04-23T00:36:36+09:00
 
 ---
 
