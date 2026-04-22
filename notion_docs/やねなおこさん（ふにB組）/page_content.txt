@@ -1,7 +1,7 @@
 # やねなおこさん（ふにB組）
 
 Notion URL: https://www.notion.so/B-30cf3b0fba8580759411faff745a4555
-同期日時: 2026-04-21T21:34:30+09:00
+同期日時: 2026-04-22T09:51:24+09:00
 
 ---
 
@@ -16,7 +16,7 @@ Notion URL: https://www.notion.so/B-30cf3b0fba8580759411faff745a4555
     ふに講師timerex
     https://timerex.net/s/my.002184800_84d4/2fbbb49b
     生徒メアド：may23kurage@gmail.com
-    講師1on1　4/27(1回目)
+    講師1on1　4/25(1回目)
     １回目：第２回（初期設計1on1）〜第４回講義 
 ２回目：第４回講義〜第６回講義：
 ３回目：第６回講義〜第８回講義：
