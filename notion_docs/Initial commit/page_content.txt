@@ -1,7 +1,7 @@
 # Initial commit
 
-Notion URL: https://www.notion.so/Initial-commit-348f3b0fba8581069d7cd7bc52ba845c
-同期日時: 2026-04-21T00:36:14+09:00
+Notion URL: https://www.notion.so/Initial-commit-34af3b0fba8581f989dedff1dc8758b4
+同期日時: 2026-04-22T18:40:37+09:00
 
 ---
 

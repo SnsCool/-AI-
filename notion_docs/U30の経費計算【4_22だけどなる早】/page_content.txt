@@ -1,8 +1,8 @@
 # U30の経費計算【4/22だけどなる早】
 
 Notion URL: https://www.notion.so/U30-4-22-345f3b0fba8580c0a56ee570c0c15995
-同期日時: 2026-04-22T15:50:06+09:00
+同期日時: 2026-04-22T18:40:37+09:00
 
 ---
 
-(コンテンツなし)
+https://docs.google.com/spreadsheets/d/1yBjfIsL2GslNYGB7G_RRzL7-inX8O5y2trqCyqifL4Q/edit?usp=sharing

@@ -1,7 +1,7 @@
 # [merge] Merge task-001: UI defect fixes (index.html, database.html)
 
-Notion URL: https://www.notion.so/merge-Merge-task-001-UI-defect-fixes-index-html-database-html-348f3b0fba8581c197adedcfd39a44e6
-同期日時: 2026-04-21T00:36:15+09:00
+Notion URL: https://www.notion.so/merge-Merge-task-001-UI-defect-fixes-index-html-database-html-34af3b0fba85819383c1e7511e3fe377
+同期日時: 2026-04-22T18:40:37+09:00
 
 ---
 
