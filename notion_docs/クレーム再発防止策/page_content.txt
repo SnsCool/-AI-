@@ -1,7 +1,7 @@
 # クレーム再発防止策
 
 Notion URL: https://www.notion.so/343f3b0fba858052ae16c9b64763317e
-同期日時: 2026-04-17T13:07:27+09:00
+同期日時: 2026-04-22T15:48:04+09:00
 
 ---
 
@@ -12,4 +12,5 @@ FBについて、動画＋テキストはどうか
 15日までにゆきのさん内容転記(依頼：えるさん)
 https://docs.google.com/spreadsheets/d/1NeGpL9I5Xd3Ig6qgFU19yG7XjZYwjMp1ZZqSKA1MPjQ/edit?gid=0#gid=0
 20日までにななこさんが分析(10日に依頼済み)
+https://docs.google.com/spreadsheets/d/13-40CVDrOhaf0ns3tLdR-aw0F1ZxAC32tf2MR1z9Y1M/edit?gid=0#gid=0
 21日〜4月末までに事例記入と仕組み化検討
