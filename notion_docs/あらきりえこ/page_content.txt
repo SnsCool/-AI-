@@ -1,13 +1,13 @@
 # あらきりえこ
 
 Notion URL: https://www.notion.so/349f3b0fba858005bf0af3153ef7da5e
-同期日時: 2026-04-22T09:50:23+09:00
+同期日時: 2026-04-22T13:08:52+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
-    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]https://docs.google.com/spreadsheets/d/1L0Jk6c06N5WTlS4aH4Q9RWjrUSfOkctJsOCl4OJYfHI/edit?usp=sharing
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
