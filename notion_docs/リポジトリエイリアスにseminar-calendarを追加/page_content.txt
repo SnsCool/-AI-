@@ -1,0 +1,11 @@
+# リポジトリエイリアスにseminar-calendarを追加
+
+Notion URL: https://www.notion.so/seminar-calendar-34bf3b0fba8581c58f4bc64f903ce224
+同期日時: 2026-04-23T18:41:02+09:00
+
+---
+
+commit: f8523c0bd18020f910dd7060721f1e19a719eb14
+
+M	CLAUDE.md
+M	data/aliases.json

@@ -1,7 +1,7 @@
 # 4月＿アフィ
 
 Notion URL: https://www.notion.so/4-344f3b0fba85804d8670c033fddcd3c4
-同期日時: 2026-04-23T15:49:29+09:00
+同期日時: 2026-04-23T18:43:38+09:00
 
 ---
 
@@ -20,6 +20,13 @@ https://docs.google.com/spreadsheets/d/1IvDUmc4gj7_SqFa_AwxqsZOAWlL1nbONfqy7qM6m
 保留：1名（らぶちゃん→もぐラボ参加可能性あり、もぐラボ入りつつアフィ）
 面談予定：4名（こりちゃん、まこ、いさりえ、はなよ）
 確認：1名（のの)
+MGでの課題
+そもそものアフィストーリーズローンチ動線をどう最適化していくか
+┗現状のストーリーズローンチの流れ（仮）⬇︎
+https://docs.google.com/spreadsheets/d/1UuffZh73tx1YF7SQj3Om1UA1LeoBL-cVNEFuj4yODBM/edit?usp=sharing
+【もぐラボ】○月_名前タブ
+0期生から〜
+運営からインタビュー　成果出てる
 【てぃーぞーアカウント採用】
 文章
 熱量
@@ -81,3 +88,6 @@ https://docs.google.com/spreadsheets/d/1IvDUmc4gj7_SqFa_AwxqsZOAWlL1nbONfqy7qM6m
 クリエイティブ作成
 随時FB
 リール、フィード期日の確定（ローンチ2日前に初稿提出）
+5万
+2％：3000円
+講師：10人
