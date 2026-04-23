@@ -1,7 +1,7 @@
 # なかがわさおりさん_鶏むねマッスルB組
 
 Notion URL: https://www.notion.so/_-B-2e0f3b0fba858032b718c4ac3e3f76db
-同期日時: 2026-04-08T18:34:04+09:00
+同期日時: 2026-04-23T15:49:46+09:00
 
 ---
 
@@ -15,7 +15,7 @@ Notion URL: https://www.notion.so/_-B-2e0f3b0fba858032b718c4ac3e3f76db
     ▼講師1on1　予約用timerex▼
     https://timerex.net/s/shuhei.yoshino0014_252f_6663/adc157fa
     生徒メアド：sa0ri.i4da@gmail.com
-    １回目：第２回（初期設計1on1）〜第４回講義 
+    １回目：第２回（初期設計1on1）〜第４回講義 4/29
 ２回目：第４回講義〜第６回講義：
 ３回目：第６回講義〜第８回講義：
 ４回目：第８回講義〜第１０回講義： 
@@ -49,7 +49,7 @@ https://www.canva.com/design/DAGOg6YIIqM/eqJhbsePHX57xupfSvMkBg/edit?utm_content
 ロードマップを決めたら、次回のコーチングセッションで振り返り・実行できた・できていないを二人で確認し、確実に学習を進めていきましょう。
 以下、学習ロードマップをコピペ+チェックボックスを使える状態にして、学習カリキュラムの進捗を確認し、
 Starter Program（入会〜ホームルームまでにやること）
-  SnsClubスタータープログラム講師マニュアル 
+  【講師マニュアル】SnsClubスタータープログラム 
 1on1~アカウント開設
 初投稿~フォロワー1000人
 ↑↑↑　上記、タップしてOPEN！　↑↑↑
