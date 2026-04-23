@@ -1,7 +1,7 @@
 # ほんもとしのぶさん_ひろポンプＤ組
 
 Notion URL: https://www.notion.so/_-2c8f3b0fba8580d59a34fe5b23ff0f76
-同期日時: 2026-04-23T21:32:01+09:00
+同期日時: 2026-04-24T00:43:53+09:00
 
 ---
 
@@ -13,7 +13,7 @@ Notion URL: https://www.notion.so/_-2c8f3b0fba8580d59a34fe5b23ff0f76
     ②誓約書はPDFにして生徒さんへ送付
     ▼講師1on1　予約用timerex▼
     https://timerex.net/s/sahara_a8ef_fa07/fd4e6424
-    生徒メアド：
+    生徒メアド：buu.log.note@gmail.com
     １回目：第２回（初期設計1on1）〜第４回講義 
 ２回目：第４回講義〜第６回講義：
 ３回目：第６回講義〜第８回講義：
