@@ -1,7 +1,7 @@
 # クレーム再発防止策
 
 Notion URL: https://www.notion.so/343f3b0fba858052ae16c9b64763317e
-同期日時: 2026-04-22T15:48:04+09:00
+同期日時: 2026-04-24T13:10:51+09:00
 
 ---
 
@@ -14,3 +14,8 @@ https://docs.google.com/spreadsheets/d/1NeGpL9I5Xd3Ig6qgFU19yG7XjZYwjMp1ZZqSKA1M
 20日までにななこさんが分析(10日に依頼済み)
 https://docs.google.com/spreadsheets/d/13-40CVDrOhaf0ns3tLdR-aw0F1ZxAC32tf2MR1z9Y1M/edit?gid=0#gid=0
 21日〜4月末までに事例記入と仕組み化検討
+🚨カスハラ対策も考える
+どう対応するか？
+専門の弁護士を採用する？
+講師変更や返金の場合は、契約書や覚書を書く？
+4~5ヶ月経過生徒が多い？

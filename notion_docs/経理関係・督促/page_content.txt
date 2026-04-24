@@ -1,7 +1,7 @@
 # 経理関係・督促
 
 Notion URL: https://www.notion.so/345f3b0fba858062b3d3f85be9e0aa1a
-同期日時: 2026-04-17T13:07:29+09:00
+同期日時: 2026-04-24T13:12:05+09:00
 
 ---
 
@@ -15,3 +15,5 @@ https://docs.google.com/spreadsheets/d/1rtrGHUhipKxvJtlnk447zop4MRkL8cXDngVz5xFY
 今までエルステップ上で支払い確認できた人を省き、
 エルステップ上で分割のやり取りをしていない人に対して、一斉メールを送ろうとしてます。
 
+
+現在、数多のメッセージを対応しています。
