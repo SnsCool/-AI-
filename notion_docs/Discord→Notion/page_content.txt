@@ -1,7 +1,7 @@
 # Discord→Notion
 
 Notion URL: https://www.notion.so/Discord-Notion-34cf3b0fba8581f389c1c9415eacef3e
-同期日時: 2026-04-24T21:32:33+09:00
+同期日時: 2026-04-25T00:36:42+09:00
 
 ---
 

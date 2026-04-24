@@ -1,12 +1,12 @@
 # りあきと＿ひなたくD組
 
-Notion URL: https://app.notion.com/p/D-335f3b0fba85806eaeceef80d4891fb6
-同期日時: 2026-04-14T15:49:20+09:00
+Notion URL: https://www.notion.so/D-335f3b0fba85806eaeceef80d4891fb6
+同期日時: 2026-04-25T00:36:20+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
-    [ここにアカウントのURLを貼り付]
+    アカウント
     アクションhttps://docs.google.com/spreadsheets/d/1uIBiK7dhFhcXCVLbbXZ_7vFSJUppuSDV7fM6GIb3PBw/edit?usp=sharing
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]

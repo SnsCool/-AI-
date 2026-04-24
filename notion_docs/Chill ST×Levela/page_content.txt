@@ -1,7 +1,7 @@
 # Chill ST×Levela
 
 Notion URL: https://www.notion.so/Chill-ST-Levela-343f3b0fba858042ac41e26ce5c3c7fc
-同期日時: 2026-04-19T18:25:24+09:00
+同期日時: 2026-04-25T00:36:42+09:00
 
 ---
 
@@ -34,71 +34,71 @@ S：15人（20％）
 M：20人（26％）
 L：25人（33％）
 XL：13人（17％）
-発注数（未定）
-トップス：個
-Smooth Tech Knit Long Tee：40%＝個
-┗黒：70％＝個
-　┗XS：
-　┗S：
-　┗M：
-　┗L：
-　┗XL：
-┗白：30％＝個
-　┗XS：
-　┗S：
-　┗M：
-　┗L：
-　┗XL：
-Smooth Tech Knit Pullover Parka：30%＝個
-┗黒：70％＝個
-　┗XS：
-　┗S：
-　┗M：
-　┗L：
-　┗XL：
-┗白：30％＝個
-　┗XS：
-　┗S：
-　┗M：
-　┗L：
-　┗XL：
-Cloud Pile Hoodie：30%＝個
-┗黒：70％＝個
-　┗XS：
-　┗S：
-　┗M：
-　┗L：
-　┗XL：
-┗白：30％＝個
-　┗XS：
-　┗S：
-　┗M：
-　┗L：
-　┗XL：
-ボトムス：個
-Smooth Tech Knit：70％＝個
-┗黒：70％＝個
-　┗XS：
-　┗S：
-　┗M：
-　┗L：
-　┗XL：
-┗白：30％＝個
-　┗XS：
-　┗S：
-　┗M：
-　┗L：
-　┗XL：
-Cloud Pile：30％＝個
-┗黒：70％＝個
-　┗XS：
-　┗S：
-　┗M：
-　┗L：
-　┗XL：
-┗白：30％＝個
-　┗XS：
-　┗S：
-　┗M：
-　┗L：
-　┗XL：
+発注数
+トップス：250個
+Smooth Tech Knit Long Tee：40%＝100個
+┗黒：70％＝70個
+　┗XS：3
+　┗S：14
+　┗M：18
+　┗L：23
+　┗XL：12
+┗白：30％＝30個
+　┗XS：1
+　┗S：6
+　┗M：8
+　┗L：10
+　┗XL：5
+Smooth Tech Knit Pullover Parka：30%＝75個
+┗黒：70％＝53個
+　┗XS：2
+　┗S：11
+　┗M：14
+　┗L：17
+　┗XL：9
+┗白：30％＝22個
+　┗XS：1
+　┗S：4
+　┗M：6
+　┗L：7
+　┗XL：4
+Cloud Pile Hoodie：30%＝75個
+┗黒：70％＝53個
+　┗XS：2
+　┗S：11
+　┗M：14
+　┗L：17
+　┗XL：9
+┗白：30％＝22個
+　┗XS：1
+　┗S：4
+　┗M：6
+　┗L：7
+　┗XL：4
+ボトムス：200個
+Smooth Tech Knit：70％＝140個
+┗黒：70％＝98個
+　┗XS：4
+　┗S：20
+　┗M：25
+　┗L：32
+　┗XL：17
+┗白：30％＝42個
+　┗XS：2
+　┗S：8
+　┗M：11
+　┗L：14
+　┗XL：7
+Cloud Pile：30％＝60個
+┗黒：70％＝42個
+　┗XS：2
+　┗S：8
+　┗M：11
+　┗L：14
+　┗XL：7
+┗白：30％＝18個
+　┗XS：1
+　┗S：4
+　┗M：5
+　┗L：5
+　┗XL：3
