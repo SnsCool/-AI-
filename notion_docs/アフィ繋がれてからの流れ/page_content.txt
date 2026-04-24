@@ -1,7 +1,7 @@
 # アフィ繋がれてからの流れ
 
 Notion URL: https://www.notion.so/34af3b0fba85803fbca7d228dcf33fff
-同期日時: 2026-04-22T18:43:25+09:00
+同期日時: 2026-04-24T18:43:31+09:00
 
 ---
 
@@ -26,4 +26,3 @@ Zoom ミーティングに参加する
 3通目
   こちらミーティング前にご記入よろしくお願いいたします！！
   【事前準備シートタブ】
-  https://docs.google.com/spreadsheets/d/1ckk2iH9ydzgmNakeTA7rVWPLvnHs1UMKPnHHhj9SrQA/edit?usp=sharing
