@@ -1,7 +1,7 @@
 # 🆕26年3月〜入学式マニュアル
 
 Notion URL: https://www.notion.so/26-3-1edf3b0fba85807da6ceda3b24ec8190
-同期日時: 2026-04-19T18:22:40+09:00
+同期日時: 2026-04-25T15:39:43+09:00
 
 ---
 
@@ -63,7 +63,7 @@ https://discord.com/channels/1151442122361282641/1361589528930029708/13619283291
 本日はありがとうございました！
   ●チャットにアンケートリンクを送る
   ●アンケートリンク
-  https://docs.google.com/forms/d/e/1FAIpQLSeBFVcmSdUJbcs8L4KaQDWcfLK53hWccbIk7j68Jh0bE9eMVA/viewform?usp=header
+https://docs.google.com/forms/d/e/1FAIpQLSeBFVcmSdUJbcs8L4KaQDWcfLK53hWccbIk7j68Jh0bE9eMVA/viewform?usp=header
   全員退出or10分経ったら終了
 ⭐️入学式中に行っていただくこと
 ①次回の参加人数の確認をお願いします！
