@@ -1,0 +1,288 @@
+# 業務対応マニュアル
+
+Notion URL: https://www.notion.so/f0bbf386eb1d48d3bbc71b0e1ef875f0
+同期日時: 2026-04-25T21:24:30+09:00
+
+---
+
+CS関連
+  生徒がSnsClub入会に至るまでのフローについて
+  勉強会に参加（駒居担当）
+  勉強会中に案内する個別相談に申し込む（駒居担当）
+  個別相談に参加する（営業が担当）
+  入会の意思が確定したらSnsClub受講契約書を締結する（営業が担当）
+  契約書の締結が完了したら、受講料および入会金の決済を行う（営業が担当）
+  決済が完了したら決済完了メッセージを送付（営業が担当）
+┗【注】問い合わせ対応中に生徒から「入金しました」のメッセージを確認したらCSもメッセージ送付に加担する
+  入会フォームが送付され、氏名や住所、電話番号、メールアドレスなどの個人情報を取得
+  自動配信でSnsClubのサーバーへ入室
+  入室が完了したら、Levela Discordの「 Discord入室通知」スレッドにメッセージが届く
+  SnsClubの決済について
+  入会動線上で必要なシステムや機能についての説明動画
+  Discord入室通知について
+  SnsClubで使用しているLINEの使い分けについて
+  集客用LINEで使用する主な機能について
+  運営LINEで使用する主な機能について
+  入会動線説明動画
+  ※注意：りそな口座振替分割だけ、少し対応方法が異なります
+  銀行振込一括払い
+  一括特別対応（銀行振込＋カード）
+    決済確認について
+    入会案内について
+  りそな分割
+    入会手続き完了〜りそな登録銀行名確認〜クラスチャット追加まで
+    銀行口座名返信あり〜口座登録依頼まで
+    口座登録完了〜スタータープログラム配信まで
+  カード一括払い
+  分割特別対応銀行（振込＋カード分割）
+  カード分割
+  ▼フォームが管理されているアドレス▼
+    info@levela.co.jp
+    huhqWGEC2rqS9yS
+  ▼対応マニュアル▼
+    新しいフォームを作成したら、必ずDiscordに通知が届くように設定しよう！
+  週報：ラジオで採用した案を可視化
+  ▼SnsClub実績者紹介HP▼
+  ▼HP更新用スプシ▼
+  ▼更新の対応マニュアル▼
+コンテンツ関連
+  毎月10日までに、前月モセリさんのアカウントで発信されたInstagramの最新情報をSnsClub生徒に届ける企画
+  ▼モセリさんのアカウントはこちら
+  ①リールを文字起こしして、要約を作る
+  モセリさんのアカウントから動画をダウンロードする
+  ▼Chromeの拡張機能を使ってください！
+  ▼拡張機能が使えなかった時はこれを使う
+  ダウンロードした動画をアップロードして文字起こしをする
+  以下のGoogleアカウントにログインする
+メールアドレス：snscool.ai@gmail.com
+パスワード　　：SnsCool2022
+  Nottaにログインして、「アップロード」からダウンロードした動画を読み込ませる
+  文字起こしされたものをコピーする
+  ChatGPTで要約を作成する
+  チャットGPTのモセリニュースプロジェクトから、画像和訳依頼をクリックして、コピーした英文をペーストする
+  #依頼
+#文章を英語部分を和訳してください
+    #条件
+・スペルミスや文法上違和感がある部分は前後の文脈から推測してください
+・口語表現を避けてください。
+・最後に和訳をわかりやすくまとめたものも出力してください
+・一連の内容を加味して、15文字以内のわかりやすく、かつ内容が見たくなるようなタイトルをつけてください。
+    #文章
+  ②SnsClub Portal（編集ページ）で情報を編集
+  Mosseri News編集ページ 
+  テンプレートを複製して、そのページを編集すること
+  ③SnsClub Portalに編集したページを移動する
+  Mosseri News 
+  移動したいページの点々を触って「別ページに移動」をクリック
+  検索窓に「Mosseri」と入力して、「Mosseri News」をクリックする
+  ヘッダーには毎回以下の画像をアップロードする
+  ④Discordで更新した旨を告知する
+  Discord＞モセリニュース更新のお知らせ
+  @everyone
+【⭕️月⭕️日更新】
+    Mosseri氏が新たな投稿をUPしました👀
+    New Postの和訳と要約を作成しました！
+最新動向をチェックしましょう！
+    ———・———・———・———・———
+👇Mosseri NEWSはこちら
+https://shared-beak-b34.notion.site/Mosseri-News-194f3b0fba85804b849bf159003e8fa7?pvs=4
+———・———・———・———・———
+  メッセージ元
+システム関連
+  ①赤枠内の「・・・」をクリック
+  ②Apps Scriptを選択
+  ③元々入っている赤枠内のコードを削除し、以下のコードを貼り付け
+  ↓スレッドに送信するパターンのコード
+    // Discord のWebhook URLとスレッドID
+  var discordWebhookUrl = "Webhook URL";
+  var threadId = "スレッドID";
+
+
+function getForm(e) {
+  var formResponses = e.response.getItemResponses();
+  var email = e.response.getRespondentEmail(); // メールアドレスの取得
+
+  // メールアドレスが取得できなかった場合、最初の質問の回答を「回答者」として使用
+  if (!email && formResponses.length > 0) {
+    var firstResponse = formResponses[0].getResponse();
+    email = firstResponse ? firstResponse : "ユーザー";
+  }
+
+  var contents = "";
+  var size = formResponses.length;
+
+  for (var i = 0; i < size; i++) {
+    var itemResponse = formResponses[i];
+    try {
+      var question = itemResponse.getItem().getTitle();
+      var answer = itemResponse.getResponse();
+      contents += "【" + question + "】\n" + answer + "\n\n";
+    } catch (ex) {
+      console.log(i + "でエラーが発生しました。");
+      console.log(ex);
+    }
+  }
+
+  var webhookUrlWithThread = `${discordWebhookUrl}?thread_id=${threadId}`;
+
+  var title = "フォームの入力がありました。\n";
+  var message = title + contents;
+
+  // Discord は1メッセージあたり最大2000文字なので、2000文字以上の場合は分割する
+  var maxLength = 2000;
+  var messages = [];
+  
+  for (var i = 0; i < message.length; i += maxLength) {
+    messages.push(message.substring(i, i + maxLength));
+  }
+  
+  // 分割された各チャンクを順次送信
+  messages.forEach(function(chunk) {
+    var payload = {
+      "content": chunk
+    };
+    UrlFetchApp.fetch(webhookUrlWithThread, {
+      method: "POST",
+      contentType: "application/json",
+      payload: JSON.stringify(payload),
+      muteHttpExceptions: true
+    });
+  });
+}
+
+  ↓チャンネルに送信するパターンのコード
+    // Discord のWebhook URLとスレッドID
+  var discordWebhookUrl = "Webhook URL";
+
+
+
+function getForm(e) {
+  var formResponses = e.response.getItemResponses();
+  var email = e.response.getRespondentEmail(); // メールアドレスの取得
+
+  // メールアドレスが取得できなかった場合、最初の質問の回答を「回答者」として使用
+  if (!email && formResponses.length > 0) {
+    var firstResponse = formResponses[0].getResponse();
+    email = firstResponse ? firstResponse : "ユーザー";
+  }
+
+  var contents = "";
+  var size = formResponses.length;
+
+  for (var i = 0; i < size; i++) {
+    var itemResponse = formResponses[i];
+    try {
+      var question = itemResponse.getItem().getTitle();
+      var answer = itemResponse.getResponse();
+      contents += "【" + question + "】\n" + answer + "\n\n";
+    } catch (ex) {
+      console.log(i + "でエラーが発生しました。");
+      console.log(ex);
+    }
+  }
+
+  var webhookUrlWithThread = `${discordWebhookUrl}`;
+
+  var title = "フォームの入力がありました。\n";
+  var message = title + contents;
+
+  // Discord は1メッセージあたり最大2000文字なので、2000文字以上の場合は分割する
+  var maxLength = 2000;
+  var messages = [];
+  
+  for (var i = 0; i < message.length; i += maxLength) {
+    messages.push(message.substring(i, i + maxLength));
+  }
+  
+  // 分割された各チャンクを順次送信
+  messages.forEach(function(chunk) {
+    var payload = {
+      "content": chunk
+    };
+    UrlFetchApp.fetch(webhookUrlWithThread, {
+      method: "POST",
+      contentType: "application/json",
+      payload: JSON.stringify(payload),
+      muteHttpExceptions: true
+    });
+  });
+}
+
+  ④赤枠内にWebhook URLとスレッドIDを貼り付け
+  ※チャンネルに送信するパターンのコードの場合、スレッドIDの記載箇所がありません
+  Webhook URLの取得方法
+  チャンネル名の右の⚙️をクリック
+  ↓
+  連携サービス
+  ↓
+  ウェブフック
+  ↓
+  新しいウェブフック
+  ↓
+  作成したウェブフックをクリック
+  ↓
+  名前を変更、保存
+  ↓
+  ウェブフックURLをコピーをクリック
+  スレッドIDの取得方法
+  対象のスレッドを右クリック
+  ↓
+  スレッドIDをコピー
+  ↓のような形式で、””は削除せずに貼り付け
+  ⑤保存ボタンをクリック
+  ⑥左側メニューの目覚ましマークをクリック
+  ⑦右下のトリガーを追加をクリック
+  ⑧以下の内容に変更をし、保存をクリック
+  ⑨以下の手順で進めれば完了です！
+その他
+  リスキリングを通じたキャリアアップ支援事業とは？
+  リスキリングと労働移動の円滑化を一体的に進める観点から、在職者が自らのキャリアについて民間の専門家に相談できる「キャリア相談対応」、それを踏まえてリスキリング講座を受講できる「リスキリング提供」、それらを踏まえた「転職支援」までを一体的に実施する体制を整備します。
+  経済産業省ページリンク
+  https://careerup.reskilling.go.jp/business/
+  公募について
+  六次公募の実施については未定です。
+  　2024/12/16 五次公募　令和7年1月17日（正午）をもちまして、公募を終了しました。
+      2024/2/28  四次公募
+    2023/9/15 三次公募
+　2023/6/30 二時募集
+  補助対象となる事業：詳細は、「公募要領」
+  【五次公募】
+  以下の①～④の全てを含む事業を実施する事業者を公募します。
+  ①キャリア相談対応
+  支援を受ける個人が、民間の専門家（キャリアコンサルタント等）に自らのキャリアについて相談し、これまでのキャリアの棚卸し、本支援を通じて目指すキャリアゴールの設定、スキルの棚卸し、リスキリング講座の検討等について相談を受けられる体制を構築した上で、個人に対する相談対応を行う取組を指します。
+  支援可能な個人：在職者である方
+在職者：企業等と雇用契約を締結している者（正社員、契約社員、パート・アルバイト、派遣社員）
+  ただし、雇用主の変更を伴う転職（本資料P.10参照）を目指していない方（リスキリング講座の受講のみが目的の方等）は、支援の対象とできません
+  キャリア相談対応の要件
+  ②リスキリング提供
+  支援を受ける個人に対するキャリア相談対応等を踏まえ、リスキリング講座を提供する取組を指します。
+  リスキリング提供の要件
+  ③転職支援
+  支援を受ける個人に対するキャリア相談、リスキリング講座の受講等を踏まえて、転職に向けた伴走支援や職業紹介を行う取組を指します。
+  転職支援の要件
+  SHElikesは、業務委託で資格保有のキャリアカウンセリングを雇っている
+  ④フォローアップ
+  支援を受けた個人の転職後のフォローアップとして、転職後１年間の転職先での継続的な就業や転職に伴う賃金上昇の確認等を行う取組を指します。
+  四次公募より、本事業を通じた個人への支援（キャリア相談対応、リスキリング提供、転職支援）の終期を、令和６年度末から令和８年度度末まで延長しました。
+  これに伴い、補助対象となるリスキリング講座の受講期間の要件も変更となっております。
+  フォローアップの要件
+  補助対象となる事業者
+  なお、令和７年度以降、新たに採択される事業に対しては補助率の変更を予定しておりますので、本事業にご関心のある事業者の皆様におかれましては、より早期にご参画いただけるようご検討ください。（五次公募では、四次公募以前と同様の補助率で変更はございません）
+  提出先
+  本事業は、補助金申請システム「jGrants（Jグランツ）」で応募を受け付けます。詳細は以下のページをご確認ください。
+  リスキリングを通じたキャリアアップ支援事業（jGrants）
+  jGrantsでは、電子的に申請を受け付けるとともに、当該申請システムを通じて行われた申請に対する通知は、原則として当該申請システムで通知等を行います。jGrantsでの補助金の申請には、gBizIDプライムが必要となりますので、応募をご検討予定でgBizIDプライムを取得されていない場合は、お早めにID発行を申請されることをお勧めします。詳細は、gBizIDのホームページ をご確認ください。
+  jGrants操作方法：
+  https://www.jgrants-portal.go.jp/
+  画面上部「申請の流れ」タブ＞「事業者クイックマニュアル」をご確認ください。
+  (前回)説明会情報
+  【開催日時】
+  第1回：令和6年12月19日（木）16:00-17:00
+  第2回：令和6年12月26日（木）16:00-17:00
+  【申込方法等】説明会の開催は終了いたしました。
+  【動画・説明資料】説明会の説明資料・動画は以下よりご覧いただけます。
+  ・説明会資料　※12/19掲載
+  ・動画　※12/26掲載
+  ＜総括＞
+  ◽️公募は終了、次回は未発表、傾向としては2025/2/28辺り？
+  ◽️対象者は現在在職者、転職活動を支援できる企業が対象
