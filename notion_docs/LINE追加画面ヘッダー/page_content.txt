@@ -1,13 +1,15 @@
 # LINE追加画面ヘッダー
 
 Notion URL: https://www.notion.so/LINE-34df3b0fba858175b2abe5b80bb68f10
-同期日時: 2026-04-26T00:19:51+09:00
+同期日時: 2026-04-26T03:21:18+09:00
 
 ---
 
     参考
     ▼他の参考（ドライブ）
     https://drive.google.com/drive/folders/1vGrGdZdfK3NoSPy6brO8AN4liTcHAnK9?usp=sharing
+    ■サイズ
+    1200px*600px
     ■文言（僕がある程度裁量握ってるから変えた方が良さそうだなと判断したものは自由に変えてOK）
     メイン：LINE友だち追加でInstagram初心者勉強会に無料招待！
     サブ：スマホ1台で、どこでも学べる、隙間時間にスマホで学べる、スマホで今すぐ参加できる
