@@ -1,7 +1,7 @@
 # 【超最新版】もぐラボ個別相談マニュアル
 
 Notion URL: https://www.notion.so/345f3b0fba8580c7aff3eb24aa849f93
-同期日時: 2026-04-25T00:36:34+09:00
+同期日時: 2026-04-26T00:20:15+09:00
 
 ---
 
@@ -14,6 +14,7 @@ https://www.canva.com/design/DAHF4RmLmTI/3lPJZKr_2PCT7n8QOa_ANg/edit
 決済解説
 https://tldv.io/app/meetings/69e6309a47038600135ddcc4/
 https://docs.google.com/document/d/1g_loHuU9VrBLs9bSaApIGNAfBr6HHNny2y5WbO3qC7w/edit?usp=sharing
+
 ★自己紹介
   【意識ポイント】
   各個人の自己紹介を徹底するように
