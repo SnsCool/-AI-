@@ -1,7 +1,7 @@
 # 【講師】関連資料
 
 Notion URL: https://www.notion.so/307f3b0fba8580bd9cd7dfa9581e0d4f
-同期日時: 2026-04-25T13:04:18+09:00
+同期日時: 2026-04-25T18:26:00+09:00
 
 ---
 
@@ -2838,7 +2838,6 @@ https://docs.google.com/spreadsheets/d/1BT-cU6ayZCqXVr31xsNobFhZBIRkJtNTA62HNcRC
   たんぱく質について
 https://drive.google.com/drive/folders/1klT-yjdncfQpesKvY24ybmPUVyeXU9Iu
 https://docs.google.com/spreadsheets/d/1PoOmVRL-R_2fT_OoQAqVqt848BPCJ4ed/edit?usp=sharing&ouid=111077476546038855417&rtpof=true&sd=true
-https://docs.google.com/spreadsheets/d/1fXaVgu61XopmsPLwFE72C405E897EBZunbUlHSoohsk/edit?gid=964755533#gid=964755533
 https://docs.google.com/spreadsheets/d/1T6KY_r1ktNUtCD6R4rnO_QEZmUu18YzM9kWAQrKp5eA/edit?gid=617739711#gid=617739711
 https://docs.google.com/spreadsheets/d/1Ir9F300j1gtCD-wkHv5ywWi1Uj9OjN97/edit?usp=sharing&ouid=111077476546038855417&rtpof=true&sd=true
     添削プロンプト

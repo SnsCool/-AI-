@@ -1,7 +1,7 @@
 # にしおさやかさん_kurumi(a組）
 
 Notion URL: https://www.notion.so/_kurumi-a-349f3b0fba8580cdbf15cf1ddc186aab
-同期日時: 2026-04-23T15:48:58+09:00
+同期日時: 2026-04-25T18:25:08+09:00
 
 ---
 
@@ -13,7 +13,7 @@ Notion URL: https://www.notion.so/_kurumi-a-349f3b0fba8580cdbf15cf1ddc186aab
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
     ②誓約書はPDFにして生徒さんへ送付
     ▼講師1on1　予約用timerex▼
-    https://timerex.net/s/eriz.eriz23_9abb/034b793d
+    https://timerex.net/team/b78b829dc8323e7c8600/invite/f2c324cda5d8d6ab000b3708018c573807e107919dfa3d9bae4e94ab944aaadc05a6d23bd5daa0a505c26d30ba06dee8e5cd 
     生徒メアド：
     １回目：第２回（初期設計1on1）〜第４回講義 
 ２回目：第４回講義〜第６回講義：
