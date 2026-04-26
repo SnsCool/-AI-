@@ -1,7 +1,7 @@
 # リッチメニューからのCVを計測する
 
-Notion URL: https://www.notion.so/CV-34cf3b0fba858182bd90e3c4030aee89
-同期日時: 2026-04-24T21:32:29+09:00
+Notion URL: https://www.notion.so/CV-34ef3b0fba8581c9a2ecfd6bca2ca5cc
+同期日時: 2026-04-27T03:22:19+09:00
 
 ---
 

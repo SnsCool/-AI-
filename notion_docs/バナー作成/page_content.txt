@@ -1,9 +1,8 @@
 # バナー作成
 
-Notion URL: https://www.notion.so/34cf3b0fba8580179e6bfa7a0295f586
-同期日時: 2026-04-25T18:24:53+09:00
+Notion URL: https://www.notion.so/34ef3b0fba8581f89ae3e85245ef54c7
+同期日時: 2026-04-27T03:22:20+09:00
 
 ---
 
-LINE追加する時のheader作る
-依頼済
+(コンテンツなし)

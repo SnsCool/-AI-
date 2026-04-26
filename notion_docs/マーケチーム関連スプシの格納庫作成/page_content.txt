@@ -1,7 +1,7 @@
 # マーケチーム関連スプシの格納庫作成
 
-Notion URL: https://www.notion.so/34cf3b0fba85806daf7acb074a8d8fb8
-同期日時: 2026-04-25T03:21:44+09:00
+Notion URL: https://www.notion.so/34ef3b0fba8581f7b483e898a14abf84
+同期日時: 2026-04-27T03:22:22+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # タップ率の計測方法
 
-Notion URL: https://www.notion.so/34cf3b0fba8581668b54ec6e0072c3d4
-同期日時: 2026-04-24T21:32:29+09:00
+Notion URL: https://www.notion.so/34ef3b0fba8581e8a260e346e3bbe78a
+同期日時: 2026-04-27T03:22:17+09:00
 
 ---
 

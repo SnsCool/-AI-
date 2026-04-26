@@ -1,9 +1,8 @@
 # 挨拶メッセージBパターン
 
-Notion URL: https://www.notion.so/B-34cf3b0fba8580cf99e7c39120eb0f15
-同期日時: 2026-04-25T00:36:21+09:00
+Notion URL: https://www.notion.so/B-34ef3b0fba85811285d0fcc5c0a44eb4
+同期日時: 2026-04-27T03:22:17+09:00
 
 ---
 
-これがA
-ABテストのBパターン作る
+(コンテンツなし)
