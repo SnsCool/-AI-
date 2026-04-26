@@ -1,0 +1,10 @@
+# fix v1 terminal resize repaint (#3756)
+
+Notion URL: https://www.notion.so/fix-v1-terminal-resize-repaint-3756-34ef3b0fba8581c28b5de3f630c92014
+同期日時: 2026-04-27T00:21:11+09:00
+
+---
+
+commit: 62737db31fbee25f5163b77ccb6155df99e79f5d
+
+(no file changes)

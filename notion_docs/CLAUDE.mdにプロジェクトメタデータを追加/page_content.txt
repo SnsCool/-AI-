@@ -1,0 +1,10 @@
+# CLAUDE.mdにプロジェクトメタデータを追加
+
+Notion URL: https://www.notion.so/CLAUDE-md-34ef3b0fba8581599225d41cb4d8fa3b
+同期日時: 2026-04-27T00:21:11+09:00
+
+---
+
+commit: b32e4c7ca937b9b6023ba5322521e4ecf0d11da5
+
+M	CLAUDE.md
