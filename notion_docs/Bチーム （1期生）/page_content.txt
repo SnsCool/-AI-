@@ -1,7 +1,7 @@
 #  Bチーム （1期生）
 
 Notion URL: https://www.notion.so/B-1-2fdf3b0fba8580d5bf98ea25613b40d2
-同期日時: 2026-04-17T00:39:21+09:00
+同期日時: 2026-04-28T03:36:44+09:00
 
 ---
 
@@ -12,4 +12,3 @@ Notion URL: https://www.notion.so/B-1-2fdf3b0fba8580d5bf98ea25613b40d2
 🎥 第4回 週次MT
 🎥 第5回 週次MT
 🎥 第6回 週次MT
-🎥 第7回 週次MT（最終）

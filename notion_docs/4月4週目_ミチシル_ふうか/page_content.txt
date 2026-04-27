@@ -1,7 +1,7 @@
 # 4月4週目_ミチシル_ふうか
 
 Notion URL: https://www.notion.so/4-4-_-_-349f3b0fba8580d1bc45ce502759b294
-同期日時: 2026-04-28T00:40:29+09:00
+同期日時: 2026-04-28T03:36:49+09:00
 
 ---
 
@@ -13,10 +13,9 @@ Notion URL: https://www.notion.so/4-4-_-_-349f3b0fba8580d1bc45ce502759b294
 セッションの前日にMGに連絡（https://docs.google.com/spreadsheets/d/1SI0FDJCAzfyExM5DUn1MYG5O6-YlXwu4SyyKS8XcwkI/edit?gid=1998317460#gid=1998317460）
 SnsClubのチェックリストを
 集客導線として
-トーク小夏に作らせる
 流入後
 ふうか個別面談はさむ ・挟まない　2パターン試す
-→まずは個別面談あり（資料ができるまで）：資料完成を
+→まずは個別面談あり（資料ができるまで）：資料完成予定
 先月目標と結果
 SnsClub MGアフィ　→成約1件
 インフルエンサーアフィ　→成約0件
