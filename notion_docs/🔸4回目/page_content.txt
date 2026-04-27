@@ -1,7 +1,7 @@
 # 🔸4回目
 
-Notion URL: https://www.notion.so/4-2b9f3b0fba8580dfab64c3961bfe9e5a
-同期日時: 2026-04-27T09:56:19+09:00
+Notion URL: https://www.notion.so/4-2d1f3b0fba8580aaa0b1d7e62c1761b8
+同期日時: 2026-04-27T14:16:49+09:00
 
 ---
 
@@ -16,5 +16,6 @@ Notion URL: https://www.notion.so/4-2b9f3b0fba8580dfab64c3961bfe9e5a
   ①今月の“最重要ゴール”（タスクの約束）
   ②次回までの投稿数目標：
   【録音データ貼り付け】
+
   次回以降のセッション日程記録（ジャンプします）
 Untitled 

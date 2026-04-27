@@ -1,7 +1,7 @@
 # すぎたにまどか_ゆちゃまるA組
 
-Notion URL: https://www.notion.so/_-A-2b1f3b0fba8580b6b2fdc7c7fcaa2180
-同期日時: 2026-04-23T09:54:05+09:00
+Notion URL: https://www.notion.so/_-A-2aff3b0fba8580668702e5ae6c2722b2
+同期日時: 2026-04-27T13:47:41+09:00
 
 ---
 
@@ -10,14 +10,10 @@ Notion URL: https://www.notion.so/_-A-2b1f3b0fba8580b6b2fdc7c7fcaa2180
     https://docs.google.com/spreadsheets/d/1_lE_GTDT-kMKHv6NAB2oiVNG9OOJymfK9kdCqomx7Wc/edit?usp=drivesdk
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
-    ①初回セッション時、MGと生徒間で誓約書を結ぶ
-    ②誓約書はPDFにして生徒さんへ送付
     ▼講師1on1　予約用timerex▼
-    https://timerex.net/s/hibi.yuchacafe.6_8419/3195437a
     生徒メアド：
-    ✅〜11/9
     １回目：第２回（初期設計1on1）〜第４回講義 
-２回目：第４回講義1/12〜第６回講義：
+２回目：第４回講義〜第６回講義：
 ３回目：第６回講義〜第８回講義：
 ４回目：第８回講義〜第１０回講義： 
 ５回目：第１０回講義〜サポート終了まで：

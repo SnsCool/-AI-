@@ -1,7 +1,7 @@
 # データ一元管理
 
 Notion URL: https://www.notion.so/348f3b0fba858047b4c9ef709429e0d9
-同期日時: 2026-04-25T18:25:01+09:00
+同期日時: 2026-04-27T13:21:48+09:00
 
 ---
 
@@ -39,3 +39,4 @@ CSVやスプシを変更することで、Lstepの友達情報に自動でクラ
   https://docs.google.com/spreadsheets/d/1KDb1r3EKhyxOg2BGZHl5C4TE3-1xYioLAH4VGkcqrR4/edit?gid=0#gid=0
   🟢合宿
   https://docs.google.com/spreadsheets/d/1NooV2LhSWqUUvIb1UiNE_c50gfZp6yyhXj0Y_c8N3qw/edit?gid=766106508#gid=766106508
+  https://docs.google.com/spreadsheets/d/1QM3jw-SXl5s1s6A0HcXj9Mw53dYxGCdFAg2mr0ycTqQ/edit?usp=sharing

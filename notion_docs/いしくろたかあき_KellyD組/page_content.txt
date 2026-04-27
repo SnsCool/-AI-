@@ -1,7 +1,7 @@
 # いしくろたかあき_KellyD組 
 
 Notion URL: https://www.notion.so/_KellyD-2a6f3b0fba85805e9a2df38408fc6cad
-同期日時: 2026-03-19T21:29:01+09:00
+同期日時: 2026-04-27T13:48:20+09:00
 
 ---
 
@@ -52,7 +52,7 @@ https://www.canva.com/design/DAGOg6YIIqM/eqJhbsePHX57xupfSvMkBg/edit?utm_content
 ロードマップを決めたら、次回のコーチングセッションで振り返り・実行できた・できていないを二人で確認し、確実に学習を進めていきましょう。
 以下、学習ロードマップをコピペ+チェックボックスを使える状態にして、学習カリキュラムの進捗を確認し、
 Starter Program（入会〜ホームルームまでにやること）
-  SnsClubスタータープログラム講師マニュアル 
+  【講師マニュアル】SnsClubスタータープログラム 
 1on1~アカウント開設
 初投稿~フォロワー1000人
 ↑↑↑　上記、タップしてOPEN！　↑↑↑
