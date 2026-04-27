@@ -1,7 +1,7 @@
 # つくえりゅうのすけ_yudai A組
 
 Notion URL: https://www.notion.so/_yudai-A-2f6f3b0fba85802cbbcde3172ba92eec
-同期日時: 2026-04-27T13:40:44+09:00
+同期日時: 2026-04-27T21:46:08+09:00
 
 ---
 
@@ -16,7 +16,7 @@ Notion URL: https://www.notion.so/_yudai-A-2f6f3b0fba85802cbbcde3172ba92eec
     https://timerex.net/s/jan29yudai_9d81/355d29c4
     生徒メアド：squash_ramy_ryu@yahoo.co.jp
     １回目：第２回（初期設計1on1）〜第４回講義 4/5
-２回目：第４回講義〜第６回講義：
+２回目：第４回講義〜第６回講義：5/4
 ３回目：第６回講義〜第８回講義：
 ４回目：第８回講義〜第１０回講義： 
 ５回目：第１０回講義〜サポート終了まで：

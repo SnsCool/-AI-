@@ -1,7 +1,7 @@
 # Manychat以外の自動返信ツールの洗い出し
 
 Notion URL: https://www.notion.so/Manychat-348f3b0fba8580ebb072e7abfaf5fe92
-同期日時: 2026-04-23T00:36:32+09:00
+同期日時: 2026-04-27T21:45:33+09:00
 
 ---
 
