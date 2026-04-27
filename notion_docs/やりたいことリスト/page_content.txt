@@ -1,8 +1,9 @@
 # やりたいことリスト
 
-Notion URL: https://www.notion.so/2f5f3b0fba858020a8adf0f9102fa490
-同期日時: 2026-03-15T18:27:33+09:00
+Notion URL: https://www.notion.so/34ff3b0fba8580c18f55d9a2223c8711
+同期日時: 2026-04-27T16:05:49+09:00
 
 ---
 
-(コンテンツなし)
+メイン会場（Air）
+ムービングライトで天井に色つける

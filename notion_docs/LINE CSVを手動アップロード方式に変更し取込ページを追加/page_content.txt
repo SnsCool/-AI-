@@ -1,0 +1,12 @@
+# LINE CSVを手動アップロード方式に変更し取込ページを追加
+
+Notion URL: https://www.notion.so/LINE-CSV-34ff3b0fba8581ee970df1e153111fc0
+同期日時: 2026-04-27T16:06:15+09:00
+
+---
+
+commit: aaed826348579df6851a6b1183c557e4cab2d66f
+
+M	public/index.html
+A	public/upload.html
+M	server.js

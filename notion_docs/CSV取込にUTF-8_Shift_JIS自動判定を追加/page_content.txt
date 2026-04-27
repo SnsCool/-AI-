@@ -1,0 +1,12 @@
+# CSV取込にUTF-8/Shift_JIS自動判定を追加
+
+Notion URL: https://www.notion.so/CSV-UTF-8-Shift_JIS-34ff3b0fba8581aa8529c61b99f9bf88
+同期日時: 2026-04-27T16:06:15+09:00
+
+---
+
+commit: 30da75408ed020254f2b7ea161546e3c11a732c5
+
+M	CLAUDE.md
+A	demo-repo
+M	public/upload.html
