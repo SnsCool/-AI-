@@ -1,8 +1,8 @@
 # オンラインイベントについてのアンケートを取る
 
 Notion URL: https://www.notion.so/34bf3b0fba8580dba71ee8f6d672adc6
-同期日時: 2026-04-23T18:41:50+09:00
+同期日時: 2026-04-29T03:41:23+09:00
 
 ---
 
-(コンテンツなし)
+https://docs.google.com/forms/d/e/1FAIpQLSeLyGoCLi00q4fl8OVAVYc5MRiVyJnlwzdStp62DwV2_iVcoQ/viewform?usp=header
