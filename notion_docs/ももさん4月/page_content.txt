@@ -1,7 +1,7 @@
 # ももさん4月
 
 Notion URL: https://www.notion.so/4-34df3b0fba8580589acee8d7ac2ae1b9
-同期日時: 2026-04-28T18:53:32+09:00
+同期日時: 2026-04-29T00:57:06+09:00
 
 ---
 
@@ -13,6 +13,7 @@ Notion URL: https://www.notion.so/4-34df3b0fba8580589acee8d7ac2ae1b9
 → 深掘りして「再現できる行動」まで落とす
 
 ② フィードバック
+https://www.notion.so/_hamuC-350f3b0fba8580ce8f27fac7f79d6bf9
 ・まず良い点を具体的に伝える
 ・改善点は1〜2点に絞る
 ・人ではなく行動・構造にフォーカス
