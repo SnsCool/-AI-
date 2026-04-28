@@ -1,7 +1,7 @@
 # うやまゆかさん
 
 Notion URL: https://www.notion.so/2fdf3b0fba8580789ad3f54cb2996e5c
-同期日時: 2026-04-27T13:40:01+09:00
+同期日時: 2026-04-28T13:22:16+09:00
 
 ---
 
@@ -16,7 +16,7 @@ Notion URL: https://www.notion.so/2fdf3b0fba8580789ad3f54cb2996e5c
     あおさんTimerex
     https://timerex.net/s/pisu.06250707xxx_2b7f/1d82120e
     生徒メアド：yukainanakama124@gmail.com
-    1回目3/19
+    1回目3/19 ・2回目4/28・ 
     １回目：第２回（初期設計1on1）〜第４回講義 
 ２回目：第４回講義〜第６回講義：
 ３回目：第６回講義〜第８回講義：

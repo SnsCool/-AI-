@@ -1,7 +1,7 @@
 # SnsClub全体における投稿数の集計ルール整備
 
 Notion URL: https://www.notion.so/SnsClub-331f3b0fba85818cac30f5dce97fb28d
-同期日時: 2026-03-31T13:08:58+09:00
+同期日時: 2026-04-28T13:21:54+09:00
 
 ---
 
