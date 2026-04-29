@@ -1,7 +1,7 @@
 # グルコン対応表作成
 
-Notion URL: https://www.notion.so/335f3b0fba8581219c25d652105a788e
-同期日時: 2026-04-01T13:16:57+09:00
+Notion URL: https://app.notion.com/p/351f3b0fba858142823cd299265cb962
+同期日時: 2026-04-29T16:05:29+09:00
 
 ---
 

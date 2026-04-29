@@ -1,7 +1,7 @@
 # Zoom参加フォーム修正
 
-Notion URL: https://www.notion.so/Zoom-335f3b0fba85816ebdbcf41a11f70406
-同期日時: 2026-04-01T13:14:10+09:00
+Notion URL: https://app.notion.com/p/Zoom-351f3b0fba858173ab93cd9b3a3d1397
+同期日時: 2026-04-29T16:04:56+09:00
 
 ---
 

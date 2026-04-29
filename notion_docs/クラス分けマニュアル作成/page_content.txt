@@ -1,7 +1,7 @@
 # クラス分けマニュアル作成
 
-Notion URL: https://www.notion.so/335f3b0fba8581eab3f2cf428996da87
-同期日時: 2026-04-01T13:16:23+09:00
+Notion URL: https://app.notion.com/p/351f3b0fba85810f8e04c197e1b42709
+同期日時: 2026-04-29T16:05:11+09:00
 
 ---
 

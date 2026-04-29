@@ -1,7 +1,7 @@
 # マネタイズ退会フォーム作成
 
-Notion URL: https://www.notion.so/33bf3b0fba8580a7bd99dd8b253282f4
-同期日時: 2026-04-08T21:34:23+09:00
+Notion URL: https://app.notion.com/p/351f3b0fba85816fa188ef503e573f19
+同期日時: 2026-04-29T16:03:40+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # Canva AI でカレンダー作成
 
-Notion URL: https://www.notion.so/Canva-AI-335f3b0fba8581bb874ad411934ffd58
-同期日時: 2026-04-01T13:15:39+09:00
+Notion URL: https://app.notion.com/p/Canva-AI-351f3b0fba85810aaabbccf47928d40b
+同期日時: 2026-04-29T16:04:32+09:00
 
 ---
 

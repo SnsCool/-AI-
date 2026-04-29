@@ -1,7 +1,7 @@
 # KPIツリーの数値決めて現状の数値出す
 
-Notion URL: https://www.notion.so/KPI-348f3b0fba8580cf86dfee44bad92a7a
-同期日時: 2026-04-28T09:59:55+09:00
+Notion URL: https://app.notion.com/p/KPI-348f3b0fba8580cf86dfee44bad92a7a
+同期日時: 2026-04-29T16:01:40+09:00
 
 ---
 

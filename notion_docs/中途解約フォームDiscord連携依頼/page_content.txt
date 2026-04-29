@@ -1,7 +1,7 @@
 # 中途解約フォームDiscord連携依頼
 
-Notion URL: https://www.notion.so/Discord-335f3b0fba8581169e99fdc3d42e8de4
-同期日時: 2026-04-15T13:08:28+09:00
+Notion URL: https://app.notion.com/p/Discord-351f3b0fba8581c6adaadbe27e09a766
+同期日時: 2026-04-29T16:05:33+09:00
 
 ---
 

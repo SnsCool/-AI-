@@ -1,8 +1,11 @@
 # はるなさん1on1
 
-Notion URL: https://www.notion.so/1on1-338f3b0fba8580b3b22df1d156eabe94
-同期日時: 2026-04-21T13:09:47+09:00
+Notion URL: https://app.notion.com/p/1on1-351f3b0fba8581ec9046eb418ab11381
+同期日時: 2026-04-29T16:05:11+09:00
 
 ---
 
-(コンテンツなし)
+クラス分け土日休めるように
+MVP日程調整
+アーカイブ格納
+夜もできればしたくない

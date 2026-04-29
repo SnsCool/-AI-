@@ -1,7 +1,7 @@
 # 営業分析ツールにコンプライアンス評価追加
 
-Notion URL: https://www.notion.so/333f3b0fba8580d9ba1ef6aa32b4f81d
-同期日時: 2026-04-23T00:40:41+09:00
+Notion URL: https://app.notion.com/p/333f3b0fba8580d9ba1ef6aa32b4f81d
+同期日時: 2026-04-29T16:01:28+09:00
 
 ---
 

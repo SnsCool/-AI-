@@ -1,7 +1,7 @@
-# 中途解約・クーリングオフ処理
+# 中途解約・クーリングオフ処理 
 
-Notion URL: https://www.notion.so/335f3b0fba8581cb8b43d6bef1e84169
-同期日時: 2026-04-01T13:16:18+09:00
+Notion URL: https://app.notion.com/p/351f3b0fba858196a9b7f29674b10a04
+同期日時: 2026-04-29T16:04:39+09:00
 
 ---
 

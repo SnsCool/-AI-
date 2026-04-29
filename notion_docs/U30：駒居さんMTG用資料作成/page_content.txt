@@ -1,7 +1,7 @@
 # U30：駒居さんMTG用資料作成
 
-Notion URL: https://www.notion.so/U30-MTG-335f3b0fba8581528b33eac4ec2e05ac
-同期日時: 2026-04-01T13:14:03+09:00
+Notion URL: https://app.notion.com/p/U30-MTG-351f3b0fba858190a714dadb305089e1
+同期日時: 2026-04-29T16:05:03+09:00
 
 ---
 

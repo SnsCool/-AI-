@@ -1,7 +1,7 @@
 # マネタイズLINE入会フォーム回答確認
 
-Notion URL: https://app.notion.com/p/LINE-33bf3b0fba85807d89fed910bdd29ba3
-同期日時: 2026-04-29T13:21:58+09:00
+Notion URL: https://app.notion.com/p/LINE-351f3b0fba8581e19dacedcee44e28cc
+同期日時: 2026-04-29T16:03:41+09:00
 
 ---
 

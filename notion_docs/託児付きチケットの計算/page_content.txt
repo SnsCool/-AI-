@@ -1,7 +1,7 @@
 # 託児付きチケットの計算
 
-Notion URL: https://www.notion.so/335f3b0fba858188b448f5a10d6f2c2a
-同期日時: 2026-04-01T13:18:13+09:00
+Notion URL: https://app.notion.com/p/351f3b0fba85810c8b10ca85d788e81a
+同期日時: 2026-04-29T16:05:41+09:00
 
 ---
 

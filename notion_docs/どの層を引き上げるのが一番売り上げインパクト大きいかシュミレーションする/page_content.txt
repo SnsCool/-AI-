@@ -1,7 +1,7 @@
 # どの層を引き上げるのが一番売り上げインパクト大きいかシュミレーションする
 
-Notion URL: https://www.notion.so/329f3b0fba8580be8204e4bb39b34d9a
-同期日時: 2026-04-23T00:40:10+09:00
+Notion URL: https://app.notion.com/p/329f3b0fba8580be8204e4bb39b34d9a
+同期日時: 2026-04-29T16:01:39+09:00
 
 ---
 

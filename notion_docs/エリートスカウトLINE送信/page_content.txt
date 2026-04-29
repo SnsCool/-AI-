@@ -1,7 +1,7 @@
 # エリートスカウトLINE送信
 
-Notion URL: https://www.notion.so/LINE-345f3b0fba858044a0b2fe4efb449990
-同期日時: 2026-04-22T00:36:10+09:00
+Notion URL: https://app.notion.com/p/LINE-351f3b0fba85819eb6d9dec3e07d4e00
+同期日時: 2026-04-29T16:03:29+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # カレンダー作成自動化検討
 
-Notion URL: https://www.notion.so/335f3b0fba85817ba69afbcd8265279a
-同期日時: 2026-04-01T13:15:19+09:00
+Notion URL: https://app.notion.com/p/351f3b0fba85817c9b31f8fb6201cb11
+同期日時: 2026-04-29T16:04:55+09:00
 
 ---
 

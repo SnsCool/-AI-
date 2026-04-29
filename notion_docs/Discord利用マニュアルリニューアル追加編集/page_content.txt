@@ -1,7 +1,7 @@
 # Discord利用マニュアルリニューアル追加編集
 
-Notion URL: https://www.notion.so/Discord-335f3b0fba8581ee899ee16fb21f92ca
-同期日時: 2026-04-01T13:15:58+09:00
+Notion URL: https://app.notion.com/p/Discord-351f3b0fba8581048597c371caf5e5c0
+同期日時: 2026-04-29T16:04:03+09:00
 
 ---
 

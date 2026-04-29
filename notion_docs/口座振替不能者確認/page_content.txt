@@ -1,7 +1,7 @@
 # 口座振替不能者確認
 
-Notion URL: https://www.notion.so/33df3b0fba8580739659c6ad087b12f0
-同期日時: 2026-04-09T15:50:08+09:00
+Notion URL: https://app.notion.com/p/351f3b0fba85816ca7b6cb99c07f462a
+同期日時: 2026-04-29T16:03:33+09:00
 
 ---
 

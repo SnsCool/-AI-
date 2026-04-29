@@ -1,7 +1,7 @@
 # 講師サポートMGからCSメンションに統一提案
 
-Notion URL: https://www.notion.so/MG-CS-335f3b0fba8581d4ac1cc234e39303e1
-同期日時: 2026-04-01T13:16:19+09:00
+Notion URL: https://app.notion.com/p/MG-CS-351f3b0fba8581afa6ffed9484846fff
+同期日時: 2026-04-29T16:04:15+09:00
 
 ---
 

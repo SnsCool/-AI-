@@ -1,7 +1,7 @@
 # 生徒管理シート未入力講師に連絡
 
-Notion URL: https://www.notion.so/335f3b0fba8581d9929ad6babd6763bc
-同期日時: 2026-04-01T13:16:38+09:00
+Notion URL: https://app.notion.com/p/351f3b0fba8581baa155cb08498a91e4
+同期日時: 2026-04-29T16:04:15+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # KPI設定
 
-Notion URL: https://www.notion.so/KPI-335f3b0fba8581528a3ef1ab5528da98
-同期日時: 2026-04-01T13:18:27+09:00
+Notion URL: https://app.notion.com/p/KPI-2a7f3b0fba8580fd91a0c1ea6a059c0e
+同期日時: 2026-04-29T16:07:17+09:00
 
 ---
 

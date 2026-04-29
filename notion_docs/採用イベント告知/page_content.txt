@@ -1,7 +1,7 @@
 # 採用イベント告知
 
-Notion URL: https://app.notion.com/p/351f3b0fba858005b36ed8bdb24675ee
-同期日時: 2026-04-29T13:21:56+09:00
+Notion URL: https://app.notion.com/p/351f3b0fba8581c6ac9ad3776c1259a8
+同期日時: 2026-04-29T16:03:23+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # メディア事業部（報酬体系と運用フロー）2026/4/20~
 
 Notion URL: https://app.notion.com/p/2026-4-20-343f3b0fba8580aa85eff86c7f48bc6d
-同期日時: 2026-04-29T13:21:48+09:00
+同期日時: 2026-04-29T16:07:27+09:00
 
 ---
 
@@ -46,9 +46,9 @@ Notion URL: https://app.notion.com/p/2026-4-20-343f3b0fba8580aa85eff86c7f48bc6d
 
 各アカウントごとのシートを作成後、編集者に共有→
 クリエイティブも格納してもらうフローがスムーズです。
-アカウント投稿一覧・管理
+●アカウント投稿一覧・管理
 https://docs.google.com/spreadsheets/d/1st9CtHQgDX9al6nOzNMPtmU1GfJL8cJ_4RxN0tfqpb0/edit?usp=sharing
-記入例
+●記入例
 https://docs.google.com/spreadsheets/d/1B0QmfEg3mbiQJFxiqXTwuk7nAv8-ntodNi74tj8Y4os/edit?usp=sharing
 ②既存ルールの見直し
 社用スマホでのみ投稿可能

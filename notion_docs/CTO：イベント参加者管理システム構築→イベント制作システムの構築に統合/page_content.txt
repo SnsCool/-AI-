@@ -1,7 +1,7 @@
 # CTO：イベント参加者管理システム構築→イベント制作システムの構築に統合
 
-Notion URL: https://www.notion.so/CTO-335f3b0fba85819383dcf4d3bbb0eed7
-同期日時: 2026-04-18T03:26:36+09:00
+Notion URL: https://app.notion.com/p/CTO-351f3b0fba858138ae66e4b48ea21189
+同期日時: 2026-04-29T16:04:42+09:00
 
 ---
 

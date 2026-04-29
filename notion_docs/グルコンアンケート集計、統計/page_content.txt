@@ -1,7 +1,7 @@
 # グルコンアンケート集計、統計
 
-Notion URL: https://www.notion.so/335f3b0fba8581839853ebc3be22b7f1
-同期日時: 2026-04-01T13:17:27+09:00
+Notion URL: https://app.notion.com/p/351f3b0fba8581a3ab24e22b3c401cc1
+同期日時: 2026-04-29T16:04:50+09:00
 
 ---
 
