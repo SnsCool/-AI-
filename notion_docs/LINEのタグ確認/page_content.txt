@@ -1,7 +1,7 @@
 # LINEのタグ確認
 
-Notion URL: https://www.notion.so/LINE-336f3b0fba858059afc3f57712167e0c
-同期日時: 2026-04-21T13:11:15+09:00
+Notion URL: https://app.notion.com/p/LINE-336f3b0fba858059afc3f57712167e0c
+同期日時: 2026-04-30T06:29:27+09:00
 
 ---
 
