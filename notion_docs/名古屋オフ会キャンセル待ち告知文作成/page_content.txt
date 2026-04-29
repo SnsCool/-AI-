@@ -1,7 +1,7 @@
 # 名古屋オフ会キャンセル待ち告知文作成
 
-Notion URL: https://www.notion.so/345f3b0fba85801e9efdd47b679bf7e1
-同期日時: 2026-04-27T00:21:22+09:00
+Notion URL: https://app.notion.com/p/345f3b0fba85801e9efdd47b679bf7e1
+同期日時: 2026-04-29T13:21:56+09:00
 
 ---
 

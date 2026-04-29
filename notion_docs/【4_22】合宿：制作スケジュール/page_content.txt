@@ -1,7 +1,7 @@
 # 【4/22】合宿：制作スケジュール
 
-Notion URL: https://www.notion.so/4-22-33bf3b0fba85807db886d3e53e2772a5
-同期日時: 2026-04-22T13:08:27+09:00
+Notion URL: https://app.notion.com/p/4-22-33bf3b0fba85807db886d3e53e2772a5
+同期日時: 2026-04-29T13:18:55+09:00
 
 ---
 
@@ -9,3 +9,4 @@ Notion URL: https://www.notion.so/4-22-33bf3b0fba85807db886d3e53e2772a5
 大枠の制作スケジュール案出し
 メモ
 表彰系の制作物：トロフィーとかある
+https://docs.google.com/spreadsheets/d/1FHj_isQk2Ef0OPkxwO5i9TGis4F4Cp_WLgFW1oEsjZM/edit?usp=sharing

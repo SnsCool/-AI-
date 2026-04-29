@@ -1,7 +1,7 @@
 # ゆりチームHOME (最新）
 
-Notion URL: https://www.notion.so/HOME-ed5f3b0fba858303bc9d012df46f9893
-同期日時: 2026-04-27T14:14:43+09:00
+Notion URL: https://app.notion.com/p/HOME-ed5f3b0fba858303bc9d012df46f9893
+同期日時: 2026-04-29T13:20:13+09:00
 
 ---
 
@@ -9,7 +9,6 @@ Notion URL: https://www.notion.so/HOME-ed5f3b0fba858303bc9d012df46f9893
     ゆりtimerex30分用：https://timerex.net/s/tokutabi.jp0422_678a/7c3f2db9
     ゆりtimerex60分用：https://timerex.net/s/tokutabi.jp0422_678a/013ccecd
     チーム定例スケジュール
-4月24日(金)21:00〜
 5月25日(月) 10:00〜
 6月25日(木) 21:00〜
 7月23日(木) 10:00〜

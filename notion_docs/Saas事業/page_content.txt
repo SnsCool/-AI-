@@ -1,7 +1,7 @@
 # Saas事業
 
-Notion URL: https://www.notion.so/Saas-342f3b0fba858001aef0de20e886184d
-同期日時: 2026-04-25T21:24:46+09:00
+Notion URL: https://app.notion.com/p/Saas-342f3b0fba858001aef0de20e886184d
+同期日時: 2026-04-29T13:20:57+09:00
 
 ---
 

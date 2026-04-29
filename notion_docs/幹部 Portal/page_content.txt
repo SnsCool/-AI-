@@ -1,7 +1,7 @@
 # 幹部 Portal
 
-Notion URL: https://www.notion.so/Portal-101f3b0fba8580748a2dfe2b75fb895d
-同期日時: 2026-04-15T18:43:21+09:00
+Notion URL: https://app.notion.com/p/Portal-101f3b0fba8580748a2dfe2b75fb895d
+同期日時: 2026-04-29T13:18:00+09:00
 
 ---
 

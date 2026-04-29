@@ -1,7 +1,7 @@
 # エリートスカウトリマインド送信
 
-Notion URL: https://www.notion.so/34af3b0fba8580dbba5ff95da2d01c89
-同期日時: 2026-04-22T15:50:06+09:00
+Notion URL: https://app.notion.com/p/34af3b0fba8580dbba5ff95da2d01c89
+同期日時: 2026-04-29T13:21:55+09:00
 
 ---
 
