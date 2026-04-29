@@ -1,7 +1,7 @@
 # 【開発】引き継ぎ資料のマニュアル作成_確認中
 
-Notion URL: https://www.notion.so/_-304f3b0fba858000b416e068327d14f1
-同期日時: 2026-02-27T18:22:13+09:00
+Notion URL: https://app.notion.com/p/_-351f3b0fba8581d187ffe3f45c313b83
+同期日時: 2026-04-29T18:51:06+09:00
 
 ---
 

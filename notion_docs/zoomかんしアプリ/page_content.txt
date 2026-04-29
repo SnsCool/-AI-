@@ -1,7 +1,7 @@
 # zoomかんしアプリ
 
-Notion URL: https://www.notion.so/zoom-30ef3b0fba8580bda9c7fcd081196a08
-同期日時: 2026-02-21T12:49:31+09:00
+Notion URL: https://app.notion.com/p/zoom-351f3b0fba858104862ec05c782cb63c
+同期日時: 2026-04-29T18:50:23+09:00
 
 ---
 

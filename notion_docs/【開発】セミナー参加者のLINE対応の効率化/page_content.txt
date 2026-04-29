@@ -1,7 +1,7 @@
 # 【開発】セミナー参加者のLINE対応の効率化
 
-Notion URL: https://www.notion.so/LINE-30cf3b0fba8580d9b8c3fe2c949c0f4d
-同期日時: 2026-02-19T12:53:54+09:00
+Notion URL: https://app.notion.com/p/LINE-351f3b0fba8581ac8bc8e12e99091ec5
+同期日時: 2026-04-29T18:50:32+09:00
 
 ---
 

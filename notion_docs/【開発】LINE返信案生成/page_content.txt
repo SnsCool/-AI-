@@ -1,7 +1,7 @@
 # 【開発】LINE返信案生成
 
-Notion URL: https://www.notion.so/LINE-30cf3b0fba858045a139fa3c77e6a5cc
-同期日時: 2026-02-19T12:53:52+09:00
+Notion URL: https://app.notion.com/p/LINE-351f3b0fba8581bfade9f721c4153979
+同期日時: 2026-04-29T18:50:34+09:00
 
 ---
 

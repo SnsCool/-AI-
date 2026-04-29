@@ -1,7 +1,7 @@
 # CS向け AI超基礎セミナー 進行台本
 
-Notion URL: https://www.notion.so/CS-AI-319f3b0fba8580f39e90dcb68e26d51b
-同期日時: 2026-03-11T12:52:19+09:00
+Notion URL: https://app.notion.com/p/CS-AI-351f3b0fba858188ad15f822dbd504ac
+同期日時: 2026-04-29T18:50:08+09:00
 
 ---
 

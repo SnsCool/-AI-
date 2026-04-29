@@ -1,7 +1,7 @@
 # 🟥【開発】退勤シートの投稿URLの自動化
 
-Notion URL: https://www.notion.so/URL-306f3b0fba8580638ee4f6b5577ec774
-同期日時: 2026-02-18T12:54:51+09:00
+Notion URL: https://app.notion.com/p/URL-351f3b0fba858142b3f6d331ebaf911c
+同期日時: 2026-04-29T18:50:45+09:00
 
 ---
 

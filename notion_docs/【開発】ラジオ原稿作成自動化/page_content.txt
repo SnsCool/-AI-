@@ -1,7 +1,7 @@
 # 【開発】ラジオ原稿作成自動化
 
-Notion URL: https://www.notion.so/30cf3b0fba85801b8db2ea8652bb88a5
-同期日時: 2026-02-19T12:53:58+09:00
+Notion URL: https://app.notion.com/p/351f3b0fba8581c3be33db0da16a90f8
+同期日時: 2026-04-29T18:50:34+09:00
 
 ---
 

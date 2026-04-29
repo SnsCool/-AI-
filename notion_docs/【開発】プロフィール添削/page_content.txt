@@ -1,7 +1,7 @@
 # 【開発】プロフィール添削
 
-Notion URL: https://www.notion.so/30cf3b0fba858025ae68c62cc0f42c7e
-同期日時: 2026-02-19T12:53:55+09:00
+Notion URL: https://app.notion.com/p/351f3b0fba858153ada5dbdfc8dfc5c2
+同期日時: 2026-04-29T18:50:33+09:00
 
 ---
 

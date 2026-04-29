@@ -1,7 +1,7 @@
 # 【開発】請求書自動作成ツール
 
-Notion URL: https://www.notion.so/30cf3b0fba8580d3b575fa1c3715b673
-同期日時: 2026-02-19T12:53:54+09:00
+Notion URL: https://app.notion.com/p/351f3b0fba85812fbfc3ec0bb9e1afb0
+同期日時: 2026-04-29T18:50:30+09:00
 
 ---
 

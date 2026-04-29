@@ -1,7 +1,7 @@
 # 【開発】生徒管理シート自動作成
 
-Notion URL: https://www.notion.so/30cf3b0fba85801f88d7ecaf5ed5436d
-同期日時: 2026-02-19T12:53:54+09:00
+Notion URL: https://app.notion.com/p/351f3b0fba8581b1b518f29a97a26f66
+同期日時: 2026-04-29T18:50:33+09:00
 
 ---
 

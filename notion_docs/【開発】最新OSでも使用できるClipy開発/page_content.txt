@@ -1,7 +1,7 @@
 # 【開発】最新OSでも使用できるClipy開発
 
-Notion URL: https://www.notion.so/OS-Clipy-30bf3b0fba8580619363f90862f0b3b9
-同期日時: 2026-02-27T18:21:37+09:00
+Notion URL: https://app.notion.com/p/OS-Clipy-351f3b0fba8581dc8af9f39c3556306b
+同期日時: 2026-04-29T18:50:45+09:00
 
 ---
 

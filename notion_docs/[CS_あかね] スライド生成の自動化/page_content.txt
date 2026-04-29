@@ -1,7 +1,7 @@
 # [CS/あかね] スライド生成の自動化
 
-Notion URL: https://www.notion.so/CS-30ef3b0fba858056813bf33b178000af
-同期日時: 2026-02-22T15:25:29+09:00
+Notion URL: https://app.notion.com/p/CS-351f3b0fba8581f9ab0af5692f3f5b8d
+同期日時: 2026-04-29T18:50:29+09:00
 
 ---
 

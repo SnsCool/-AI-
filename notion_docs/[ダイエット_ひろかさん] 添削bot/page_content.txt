@@ -1,7 +1,7 @@
 # [ダイエット/ひろかさん] 添削bot
 
-Notion URL: https://www.notion.so/bot-30ef3b0fba8580efa96dc8e8fb3716a2
-同期日時: 2026-02-22T15:25:29+09:00
+Notion URL: https://app.notion.com/p/bot-351f3b0fba85818f96afd9f09a85edbb
+同期日時: 2026-04-29T18:50:22+09:00
 
 ---
 

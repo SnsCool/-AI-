@@ -1,7 +1,7 @@
 # [CTO/太一] Notionの抽出プロンプト作成と実装
 
-Notion URL: https://www.notion.so/CTO-Notion-30ef3b0fba858046b604cb9065484638
-同期日時: 2026-02-21T12:49:37+09:00
+Notion URL: https://app.notion.com/p/CTO-Notion-351f3b0fba858166a35cfb3ef8a482b7
+同期日時: 2026-04-29T18:50:25+09:00
 
 ---
 

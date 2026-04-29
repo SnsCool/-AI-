@@ -1,7 +1,7 @@
 # 【開発】shizuru wiz運用代行
 
-Notion URL: https://www.notion.so/shizuru-wiz-30cf3b0fba8580acb795cddb5b54eefb
-同期日時: 2026-02-19T12:53:49+09:00
+Notion URL: https://app.notion.com/p/shizuru-wiz-351f3b0fba858177ad84ee7be873d889
+同期日時: 2026-04-29T18:50:32+09:00
 
 ---
 

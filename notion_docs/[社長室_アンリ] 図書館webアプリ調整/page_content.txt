@@ -1,7 +1,7 @@
 # [社長室/アンリ] 図書館webアプリ調整
 
-Notion URL: https://www.notion.so/web-30ef3b0fba858073ab2bfb18a83cae40
-同期日時: 2026-02-21T12:49:34+09:00
+Notion URL: https://app.notion.com/p/web-351f3b0fba8581dc91eff7ef0d56534b
+同期日時: 2026-04-29T18:50:27+09:00
 
 ---
 

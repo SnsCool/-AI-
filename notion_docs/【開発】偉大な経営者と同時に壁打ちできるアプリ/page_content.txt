@@ -1,7 +1,7 @@
 # 【開発】偉大な経営者と同時に壁打ちできるアプリ
 
-Notion URL: https://www.notion.so/30cf3b0fba8580e9a6e6f6f4e96e37d3
-同期日時: 2026-02-19T12:53:52+09:00
+Notion URL: https://app.notion.com/p/351f3b0fba85816a9e95d23ba4a10d96
+同期日時: 2026-04-29T18:50:31+09:00
 
 ---
 

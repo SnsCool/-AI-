@@ -1,7 +1,7 @@
 # ロボットペイメント 
 
-Notion URL: https://www.notion.so/2e9f3b0fba858034830de646cc46948a
-同期日時: 2026-04-17T21:31:15+09:00
+Notion URL: https://app.notion.com/p/2e9f3b0fba858034830de646cc46948a
+同期日時: 2026-04-29T18:52:01+09:00
 
 ---
 
@@ -9,7 +9,7 @@ Notion URL: https://www.notion.so/2e9f3b0fba858034830de646cc46948a
 ベーシック148,000円　一括プラン
 https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=basic001&mailauthckey=e9483952673e47308550cb0dd7597938
 ベーシック148,000円　3分割プラン
-└初回50000円 ／ 2・3回目49,00円
+└初回50000円 ／ 2・3回目49,000円
 https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=basic003&mailauthckey=e9483952673e47308550cb0dd7597938
 ベーシック148,000円　6分割プラン
 └初回25000円 ／ 2・3回目24600円
@@ -26,7 +26,6 @@ https://credit.j-payment.co.jp/link/bankcheck?aid=132910&jb=CAPTURE&am=商品金
 180日以内であれば決済取り消し可能　末締めのため、月をまたぐ場合は返金できるが
 管理ページ
   https://credit.j-payment.co.jp/cp/Main.aspx
-  s.hiroka1206@gmail.com
   172215-0001
   yNagiMAJ3MaAF_G
 契約情報

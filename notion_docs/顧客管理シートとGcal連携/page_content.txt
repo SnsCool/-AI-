@@ -1,0 +1,8 @@
+# 顧客管理シートとGcal連携
+
+Notion URL: https://app.notion.com/p/Gcal-351f3b0fba858184bb29cc5c82dbeef3
+同期日時: 2026-04-29T18:51:49+09:00
+
+---
+
+(コンテンツなし)
