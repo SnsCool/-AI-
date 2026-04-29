@@ -1,7 +1,7 @@
 # さりなメモ
 
-Notion URL: https://www.notion.so/337f3b0fba8580afa615cef7318c5a94
-同期日時: 2026-04-25T13:04:29+09:00
+Notion URL: https://app.notion.com/p/337f3b0fba8580afa615cef7318c5a94
+同期日時: 2026-04-29T21:44:39+09:00
 
 ---
 
@@ -25,7 +25,6 @@ https://docs.google.com/spreadsheets/d/1Ir9F300j1gtCD-wkHv5ywWi1Uj9OjN97/edit?us
 https://docs.google.com/spreadsheets/d/1IxWM7vA0zQDfWJdlUSyfK_cpyGSGcwC5xJ3ig_oI4NQ/edit?usp=sharing
   毎日配信のコンテンツ作成と配信
   画像・文章から確実に近い栄養価計算できるようなシステム
-チャットGPTで
      基本の流れ
     ① 公式LINE → スタータープログラム確認
     ② Discord参加（もぐラボ専用）
@@ -130,6 +129,41 @@ https://shared-beak-b34.notion.site/39-332f3b0fba858005900cda5968506138?source=c
 ↓
     グループ別で分ける
     グループを選択したらチームの一覧の名前が出て名前を押すと管理シートや顧客情報が全て見えるような仕組みにしたい
+    ①講座のPFCの計算ルール
+    
+日常的に難しくなさそうな割合に設定にした結果
+P:20% / F:30% / C:50%にしました！
+    https://docs.google.com/spreadsheets/d/1nj1bJn1T0vgcHtughEX_1wM40FVtZYXw/edit?usp=sharing&ouid=111077476546038855417&rtpof=true&sd=true
+    この内容を加味してこちらのスプシで管理しています！
+    安全チェックの部分は目標減量数値が体重の5％でなければOKにしていたんですが、
+基礎代謝以下にならないように設定はしたいです！
+（まだ改善できていない）
+
+体重1kg減るごとに-240kcal /1日にしています！
+１kg痩せるのに必要なカロリー7200kcalを30日で割っています
+    ②よく出る食品100〜300品目のPFC表
+    
+https://docs.google.com/spreadsheets/d/1CaNdWiRnr-d5L6qC-_hxxGaUUjYbRTCS/edit?usp=sharing&ouid=111077476546038855417&rtpof=true&sd=true
+    https://docs.google.com/spreadsheets/d/1GKPkMjdv9iN-wG6pS6d7lRQhvNxVVTPWB924kgLANf8/edit?usp=sharing
+    どちらかで大丈夫です！
+このスプシを反映して数値が正確に出る方がいいですね！
+    コンビニや市販品などはネットから成分を自動で調べて反映できるようには難しいでしょうか？
+    ③理想の添削例
+    PFC分析が自動的に出てそれを元に指導が理想です！
+
+理想系
+    〇〇さん、こんばんは✨
+    昨日も記録ありがとうございます😊
+    🌅 朝食（7:00）
+    内容：ご飯120g、納豆1パック、卵1個、味噌汁
+    🍱 昼食（12:30）
+    内容：ご飯120g、鶏むね肉100g、ブロッコリー、ミニトマト
+    🌙 夕食（19:30）
+    内容：ご飯100g、鮭1切れ、サラダ、豆腐150g
+    🍫 間食（15:00）
+    内容：チョコ2個
+    🌸 ひとこと
+    全体的に主食・主菜・野菜のバランスが整っていて、とても良い1日でした👏 特に昼と夜はかなり理想的なので、この形をベースに続けていきましょう✨ 明日は朝食のたんぱく質と野菜を少しプラスして、さらに安定した1日にしていきたいですね😊 〇〇さん、この調子で一緒に頑張っていきましょう🌸
 今後やっていきたいこと
 体重計を自社で出して連動できるように
 献立作成してくれるアプリ
