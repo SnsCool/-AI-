@@ -1,0 +1,65 @@
+# ４月30_栗原里奈
+
+Notion URL: https://app.notion.com/p/30_-350f3b0fba8580edb6d1e153765928ef
+同期日時: 2026-04-30T00:46:21+09:00
+
+---
+
+振り返り
+  体重・体脂肪変化
+    https://docs.google.com/spreadsheets/d/18hVlwmGaGjjRtcnOOAL2Z7r8RFnSRL9n/edit?usp=sharing&ouid=111077476546038855417&rtpof=true&sd=true
+  食事提出率
+https://docs.google.com/spreadsheets/d/1T6KY_r1ktNUtCD6R4rnO_QEZmUu18YzM9kWAQrKp5eA/edit?usp=sharing
+  週次振り返りフォーマット
+Aチーム4月16日〜4月29日
+https://docs.google.com/spreadsheets/d/18D9IVHfWbmsLNKLJMc-KHsz-6_rz-dNo_Vcl0Zl787w/edit?usp=sharing
+  ポジティブ変化
+  ネガティブ変化
+  Bチーム4月16日〜4月17日
+  https://docs.google.com/spreadsheets/d/1m4hRkUdQY_pCa0sI489tIJAFThJLoNBJ0J5IpbRycT8/edit?usp=sharing
+  ポジティブ変化
+  ネガティブ変化
+  2期生Aチーム4月16日〜4月29日
+  https://docs.google.com/spreadsheets/d/1txqQDv52ra1-02AeBqo2jbAo8u32fd0zeIjuQ6DlCRc/edit?usp=sharing
+
+  ポジティブ変化
+  ネガティブ変化
+  3期生Aチーム4月16日〜4月28日
+  https://docs.google.com/spreadsheets/d/1IxWM7vA0zQDfWJdlUSyfK_cpyGSGcwC5xJ3ig_oI4NQ/edit?usp=sharing
+  ポジティブ変化
+ネガティブ変化はなし！
+KSF・転用AP
+KSFとは
+  KSFは「Key Success Factors（キーサクセスファクター）」の略で、日本語では「重要成功要因」と訳されます。KSFは、組織やビジネスが成功するために不可欠な要素や条件を指します。
+転用AP　（アクションプラン）とは
+  KSFを受けて、再現性を持って取り組めるアクションプランを書き出してください
+書き方の例
+  結果
+  ローンチ反応率1.11%（平均0.6%）
+  要因
+  ストーリー閲覧率が平均40~50%と高水準だった。
+  └ストーリーで毎日フォロワーが興味を持ちやすいMBTIに絡めた投稿を1日3〜4投稿していた。
+  フィード投稿を普段から投稿しており、平均いいね数が2000程度になっており、「フィード投稿で発信する人」という文化形成がなされており、フィードでのローンチと相性が良かった可能性がある
+  AP
+  週３以上でメニーチャットを絡めた交流ストーリーを推奨する
+  普段リールでの発信が多い発信者はリールでローンチさせてみる
+ KFF（失敗要因）・改善AP
+前回目標の達成状況
+今週目標・達成AP
+達成APとは
+  立てた目標を達成するためのアクションプランを納期付きで設定してください。
+共有・提案・依頼
+✍️講師への共有
+チームでのやり取りが少ない際は講師側から何か発信する
+食べ痩せ動画・レシピ・お勧め商品・マインドなど
+食事提出率に関しては今後AIを導入し自動化する（実施日はまだ未定）
+サポート生がチャットGPTで返事をしているのかと不信感を抱いている
+→CS連絡あり
+今後の添削を文章にするか今のフォーマットでしていくか
+提出率に関しても食事提出の有無の表だけにする？
+https://docs.google.com/spreadsheets/d/1T6KY_r1ktNUtCD6R4rnO_QEZmUu18YzM9kWAQrKp5eA/edit?usp=sharing
+備考・定性状況もなしでいい
+ポジティブ変化ネガティブ変化をピックアップするだけで全員分の評価はなくてもいい
+New page 
+新しいフォーマット確認してもらい省略できるところは省略して資料簡略化する
+週次振り返りフォーマットを簡略化してノーションに書き込まずスプシ管理にしていきたい
