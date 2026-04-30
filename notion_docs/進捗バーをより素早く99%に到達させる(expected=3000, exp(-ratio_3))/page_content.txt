@@ -1,0 +1,10 @@
+# 進捗バーをより素早く99%に到達させる(expected=3000, exp(-ratio*3))
+
+Notion URL: https://app.notion.com/p/99-expected-3000-exp-ratio-3-352f3b0fba858167a685cb2985ee20b3
+同期日時: 2026-05-01T03:38:47+09:00
+
+---
+
+commit: fe7c27c73d2a5ac1d8cd717d262f30ff99593891
+
+M	web/src/App.tsx

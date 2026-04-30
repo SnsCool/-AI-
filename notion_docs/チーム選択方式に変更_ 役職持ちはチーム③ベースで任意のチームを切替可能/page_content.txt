@@ -1,0 +1,16 @@
+# チーム選択方式に変更: 役職持ちはチーム③ベースで任意のチームを切替可能
+
+Notion URL: https://app.notion.com/p/352f3b0fba858154888bc2b7f406855c
+同期日時: 2026-05-01T03:38:46+09:00
+
+---
+
+commit: 3a1837b1734f9835b1d526679b97cca24f338877
+
+M	gas/Code.gs
+M	lambda/src/handlers.ts
+M	lambda/src/index.ts
+M	lambda/src/sheets.ts
+M	web/src/App.tsx
+M	web/src/api.ts
+M	web/src/styles.css

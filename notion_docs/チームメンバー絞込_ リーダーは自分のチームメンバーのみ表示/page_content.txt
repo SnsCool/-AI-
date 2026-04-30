@@ -1,0 +1,12 @@
+# チームメンバー絞込: リーダーは自分のチームメンバーのみ表示
+
+Notion URL: https://app.notion.com/p/352f3b0fba8581c4a3b7ef3ffec482ff
+同期日時: 2026-05-01T03:38:46+09:00
+
+---
+
+commit: 729c614285089e9a046ad660c4db7b1698f97a88
+
+M	gas/Code.gs
+M	web/src/App.tsx
+M	web/src/api.ts

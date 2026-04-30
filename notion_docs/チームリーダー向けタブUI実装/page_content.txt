@@ -1,0 +1,16 @@
+# チームリーダー向けタブUI実装
+
+Notion URL: https://app.notion.com/p/UI-352f3b0fba8581c0afb8db52b6dc253c
+同期日時: 2026-05-01T03:38:46+09:00
+
+---
+
+commit: b356f3c1a89c8058fbc4c862452c4c13c8ab5e24
+
+M	gas/Code.gs
+M	lambda/src/handlers.ts
+M	lambda/src/index.ts
+M	lambda/src/sheets.ts
+M	web/src/App.tsx
+M	web/src/api.ts
+M	web/src/styles.css

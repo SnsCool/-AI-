@@ -1,0 +1,11 @@
+# 要対応フローの改善: 欠落フィールドへ自動遷移 + レビュー画面を編集可能に
+
+Notion URL: https://app.notion.com/p/352f3b0fba8581acab86e5d1d4fe237f
+同期日時: 2026-05-01T03:38:51+09:00
+
+---
+
+commit: 33f7d6b113ca348bb7035c964c1899d5dab0d7c2
+
+M	web/src/FillWizard.tsx
+M	web/src/styles.css

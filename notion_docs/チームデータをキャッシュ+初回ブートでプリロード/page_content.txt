@@ -1,0 +1,10 @@
+# チームデータをキャッシュ+初回ブートでプリロード
+
+Notion URL: https://app.notion.com/p/352f3b0fba85816b9036e2086e877d59
+同期日時: 2026-05-01T03:38:45+09:00
+
+---
+
+commit: fbd46562d945be11f40ed1508d54db698c2d8734
+
+M	web/src/App.tsx

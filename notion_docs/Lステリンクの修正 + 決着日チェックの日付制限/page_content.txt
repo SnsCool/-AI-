@@ -1,0 +1,10 @@
+# Lステリンクの修正 + 決着日チェックの日付制限
+
+Notion URL: https://app.notion.com/p/L-352f3b0fba858156a97cd9fe21bf78cb
+同期日時: 2026-05-01T03:38:50+09:00
+
+---
+
+commit: b64b6dcc45c791d6dccf618619cd0fbe69265877
+
+M	web/src/App.tsx

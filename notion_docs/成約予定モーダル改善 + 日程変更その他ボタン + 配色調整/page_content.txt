@@ -1,0 +1,13 @@
+# 成約予定モーダル改善 + 日程変更その他ボタン + 配色調整
+
+Notion URL: https://app.notion.com/p/352f3b0fba85813e90abf5b108eb5a57
+同期日時: 2026-05-01T03:38:52+09:00
+
+---
+
+commit: c3462e66a0043f8699d6358fa6253e2a2ed5859b
+
+M	web/src/App.tsx
+M	web/src/FillWizard.tsx
+M	web/src/PlanningActionModal.tsx
+M	web/src/styles.css

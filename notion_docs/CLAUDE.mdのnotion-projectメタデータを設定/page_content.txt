@@ -1,0 +1,10 @@
+# CLAUDE.mdのnotion-projectメタデータを設定
+
+Notion URL: https://app.notion.com/p/CLAUDE-md-notion-project-352f3b0fba85817383c4e4da7042e54d
+同期日時: 2026-05-01T03:38:45+09:00
+
+---
+
+commit: d9087dfc2e2625a3a6cafdfd922e81e3e40dd30c
+
+M	CLAUDE.md

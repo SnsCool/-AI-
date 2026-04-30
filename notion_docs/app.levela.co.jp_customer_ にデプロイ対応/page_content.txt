@@ -1,0 +1,13 @@
+# app.levela.co.jp/customer/ にデプロイ対応
+
+Notion URL: https://app.notion.com/p/app-levela-co-jp-customer-352f3b0fba8581c09805fe5a949c2c44
+同期日時: 2026-05-01T03:38:48+09:00
+
+---
+
+commit: b54ef9d073b792f92bb93678dd21980c05e3df3f
+
+A	package-lock.json
+M	package.json
+A	server.js
+M	web/vite.config.ts

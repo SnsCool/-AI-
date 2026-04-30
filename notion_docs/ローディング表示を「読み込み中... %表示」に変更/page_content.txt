@@ -1,0 +1,11 @@
+# ローディング表示を「読み込み中... %表示」に変更
+
+Notion URL: https://app.notion.com/p/352f3b0fba8581159581f97976ec4924
+同期日時: 2026-05-01T03:38:47+09:00
+
+---
+
+commit: 4fc48cfd2cecd63fc9a881c538c18bf2c026fc2f
+
+M	web/src/App.tsx
+M	web/src/styles.css

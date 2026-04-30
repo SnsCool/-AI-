@@ -1,0 +1,11 @@
+# レビュー画面を編集可能フォームに書き換え
+
+Notion URL: https://app.notion.com/p/352f3b0fba8581f7a985e23b8973c950
+同期日時: 2026-05-01T03:38:50+09:00
+
+---
+
+commit: 82fba3a3057a405461be109bb72dfb1e5163c038
+
+M	web/src/FillWizard.tsx
+M	web/tsconfig.tsbuildinfo

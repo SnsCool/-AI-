@@ -1,0 +1,10 @@
+# 本日の面談を最上段に移動(アラート/統計は下に)
+
+Notion URL: https://app.notion.com/p/352f3b0fba858161a2e1c1281add7fad
+同期日時: 2026-05-01T03:38:50+09:00
+
+---
+
+commit: 3445d57acc638705fae57ffa6a0c56a22187a980
+
+M	web/src/App.tsx

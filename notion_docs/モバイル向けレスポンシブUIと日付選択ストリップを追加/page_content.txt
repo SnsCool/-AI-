@@ -1,0 +1,12 @@
+# モバイル向けレスポンシブUIと日付選択ストリップを追加
+
+Notion URL: https://app.notion.com/p/UI-352f3b0fba85819e8647c529f7f79b27
+同期日時: 2026-05-01T03:38:45+09:00
+
+---
+
+commit: 50cb096312a313eb50a431f49ab1d3a18ff11504
+
+A	CLAUDE.md
+M	web/src/App.tsx
+M	web/src/styles.css

@@ -1,0 +1,10 @@
+# 成約予定モーダルのボタン配色: 着金=赤/失注=黒/入金予定日変更=緑
+
+Notion URL: https://app.notion.com/p/352f3b0fba858133a9ceda505716eb8b
+同期日時: 2026-05-01T03:38:52+09:00
+
+---
+
+commit: b6f3d2581a70fe1f7b5dc4e01739cee8d301e9e4
+
+M	web/src/styles.css

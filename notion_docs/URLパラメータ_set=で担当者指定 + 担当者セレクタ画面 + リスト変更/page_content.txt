@@ -1,0 +1,14 @@
+# URLパラメータ?set=で担当者指定 + 担当者セレクタ画面 + リスト変更
+
+Notion URL: https://app.notion.com/p/URL-set-352f3b0fba858121ae2af4e9c49f5419
+同期日時: 2026-05-01T03:38:49+09:00
+
+---
+
+commit: 7e32627b1ea154720c03709f8d4b3c61c2ee4d33
+
+M	gas/Code.gs
+M	web/src/App.tsx
+A	web/src/TantoSelector.tsx
+M	web/src/styles.css
+M	web/tsconfig.tsbuildinfo

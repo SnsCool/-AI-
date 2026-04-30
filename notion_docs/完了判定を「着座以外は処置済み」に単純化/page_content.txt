@@ -1,0 +1,10 @@
+# 完了判定を「着座以外は処置済み」に単純化
+
+Notion URL: https://app.notion.com/p/352f3b0fba8581c295f2f707d74e5e0e
+同期日時: 2026-05-01T03:38:49+09:00
+
+---
+
+commit: 1d21eb659602552ff2a03ff5f5e669687f957561
+
+M	web/src/components.tsx

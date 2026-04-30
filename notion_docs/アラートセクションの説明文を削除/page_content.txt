@@ -1,0 +1,10 @@
+# アラートセクションの説明文を削除
+
+Notion URL: https://app.notion.com/p/352f3b0fba8581e09dadea0121e7f5c4
+同期日時: 2026-05-01T03:38:49+09:00
+
+---
+
+commit: 9aecde3c0524e749e8906d4f80c818a6fd3405a1
+
+M	web/src/App.tsx

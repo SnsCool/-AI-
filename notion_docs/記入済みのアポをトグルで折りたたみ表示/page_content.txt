@@ -1,0 +1,11 @@
+# 記入済みのアポをトグルで折りたたみ表示
+
+Notion URL: https://app.notion.com/p/352f3b0fba85814695bcc4cc4eb75572
+同期日時: 2026-05-01T03:38:49+09:00
+
+---
+
+commit: 352e68f740468751827eb68b9be8e83b87a0c5b5
+
+M	web/src/App.tsx
+M	web/src/styles.css
