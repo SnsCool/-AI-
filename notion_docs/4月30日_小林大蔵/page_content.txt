@@ -1,7 +1,7 @@
 # 4月30日_小林大蔵 
 
 Notion URL: https://app.notion.com/p/4-30-_-351f3b0fba85801c9906e5d90210f2cf
-同期日時: 2026-04-30T00:46:12+09:00
+同期日時: 2026-04-30T18:51:37+09:00
 
 ---
 
@@ -71,3 +71,5 @@ KFF：省エネモードの限界
 活性化するために、食べ痩せマニュアル、サポート生からの質問返答など
 その他共有・提案
 他講師に共有しておきたいこと
+グルコン資料
+https://drive.google.com/file/d/1k-bKbNyPBl0sDQBCTECqrDCp-QA2ikp3/view?usp=drive_link

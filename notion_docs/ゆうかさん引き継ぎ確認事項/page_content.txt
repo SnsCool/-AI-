@@ -1,7 +1,7 @@
 # ゆうかさん引き継ぎ確認事項
 
 Notion URL: https://app.notion.com/p/351f3b0fba8580a09fbff10ecd9f2c2f
-同期日時: 2026-04-29T21:45:01+09:00
+同期日時: 2026-04-30T18:48:51+09:00
 
 ---
 
@@ -15,3 +15,4 @@ Notion URL: https://app.notion.com/p/351f3b0fba8580a09fbff10ecd9f2c2f
 ・失敗者の状況都度確認
 決済（顧客対応）
 LINE購入者タグ？
+10日データの入れ方

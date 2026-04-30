@@ -1,7 +1,7 @@
 # LINEチーム対応マニュアル
 
 Notion URL: https://app.notion.com/p/LINE-2fcf3b0fba85802f8185f5a630fe9b4f
-同期日時: 2026-04-30T16:03:53+09:00
+同期日時: 2026-04-30T18:52:37+09:00
 
 ---
 
@@ -48,6 +48,7 @@ Macの方
   参考動画
   https://docs.google.com/spreadsheets/d/10bfFrs3nFAzIo6rxzYhaoW4bcDnG3f4tTBmJo1P1pPU/edit?gid=434280903#gid=434280903
 https://docs.google.com/spreadsheets/d/1iSQS_T9G-ObPiyP-G9j4fC0bJWaD5CPk4lXvHI7lGB4/edit?gid=1149377408#gid=1149377408
+https://docs.google.com/document/d/19Zb_LIyIDhBovGEOyPTcAEsnYymZxGr49nqaA3GshGM/edit?tab=t.0#heading=h.whfhpnadxaqo
 📖情報置き場・管理
   勉強会アーカイブ蓄積 
   （権限の関係で見られない場合はご連絡ください🙇‍♀️）
@@ -90,6 +91,14 @@ https://docs.google.com/spreadsheets/d/1iSQS_T9G-ObPiyP-G9j4fC0bJWaD5CPk4lXvHI7l
 その際は、気軽に相談してください。
 
 （例）「マニュアルには〇〇とありますが、お客様の△△という状況を考えると、今回は□□という対応の方がベストだと思うのですが、いかがでしょうか？」
+  日程を絞り込む理由
+  1.勉強会を早い日程で参加する方に優先的に返信するため
+  2.返信の際に役割分担を行った場合に被らない
+  ①トーク一覧→未確認のみ表示→右側の友達条件（詳細検索）を押す
+  ②タグ→◯月_開催日程で対応したい日付を選択→検索
+  ③タグの選択日付の未返信の方一覧が出てくる
+  こうすることで勉強会日程申込別のメッセージの絞り込みが可能です！
+  【解説動画】
   
 ①入る前にシフトを確認しよう！
   どの日程の返信対応をするか、シフトに書いているか確認（状況を見ないとわからないため、未記入の場合もある）
@@ -174,14 +183,6 @@ https://docs.google.com/spreadsheets/d/1iSQS_T9G-ObPiyP-G9j4fC0bJWaD5CPk4lXvHI7l
 ただし、キャンセルします→ブロックの場合はキャンセルシステム手続きはお願いします！
 
 
-  日程を絞り込む理由
-  1.勉強会を早い日程で参加する方に優先的に返信するため
-  2.返信の際に役割分担を行った場合に被らない
-  ①トーク一覧→未確認のみ表示→右側の友達条件（詳細検索）を押す
-  ②タグ→◯月_開催日程で対応したい日付を選択→検索
-  ③タグの選択日付の未返信の方一覧が出てくる
-  こうすることで勉強会日程申込別のメッセージの絞り込みが可能です！
-  【解説動画】
   意識すべきポイント
   コントロールすべきは「開封率」と「アクション数」の2つです。
   開封率について
@@ -759,6 +760,16 @@ https://l-cast.jp/s/krpN/Eq7nDapzPna
   数字の検証を行っているため、Lキャスト→通常セミナーの変更は行わないようにお願いします！
 💻Zoom格納
 📝研修動画
+    https://app.tango.us/app/workflow/Export-Seminar-Participants-CSV-in-L-----3f08204916714546ac6fc28bc19298cd
+    https://app.tango.us/app/workflow/Import-CSVs-and-Update-Google-Docs-6aa08d2936704be5ae71bea2cf5c2433
+https://docs.google.com/spreadsheets/d/1Aa-SRMWC_QF7TR2pk0QUn4IXj6D_DOQbErMCGg8Znik/edit?gid=396876064#gid=396876064
+    https://docs.google.com/spreadsheets/d/1fHol-5nsflS1boLY32vpc4E_ydZb8wj_vYo3fHn4DIY/edit?gid=0#gid=0
+    https://docs.google.com/spreadsheets/d/1kJ0FaHaE9IQdImeNWXzzfGf5-Ic_lLisq6j9W3zzaJQ/edit?gid=546126287#gid=546126287
+    https://www.notion.so/LINE-2fcf3b0fba85802f8185f5a630fe9b4f
+    顧客シート更新、個別メッセージシート作成、個別相談LINE
+
+サブファシリの役割、シフト決め
+
     https://app.tango.us/app/workflow/Export-Seminar-Participants-CSV-in-L-----3f08204916714546ac6fc28bc19298cd
     https://app.tango.us/app/workflow/Import-CSVs-and-Update-Google-Docs-6aa08d2936704be5ae71bea2cf5c2433
     https://docs.google.com/spreadsheets/d/1Aa-SRMWC_QF7TR2pk0QUn4IXj6D_DOQbErMCGg8Znik/edit?gid=396876064#gid=396876064

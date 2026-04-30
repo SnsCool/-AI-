@@ -1,8 +1,37 @@
 # ひとみさん、たすくさん研修
 
 Notion URL: https://app.notion.com/p/33df3b0fba858043a3b2eee3ba339613
-同期日時: 2026-04-30T16:06:37+09:00
+同期日時: 2026-04-30T18:48:53+09:00
 
 ---
 
-(コンテンツなし)
+https://app.tango.us/app/workflow/Export-Seminar-Participants-CSV-in-L-----3f08204916714546ac6fc28bc19298cd
+https://app.tango.us/app/workflow/Import-CSVs-and-Update-Google-Docs-6aa08d2936704be5ae71bea2cf5c2433
+https://docs.google.com/spreadsheets/d/1Aa-SRMWC_QF7TR2pk0QUn4IXj6D_DOQbErMCGg8Znik/edit?gid=396876064#gid=396876064
+https://docs.google.com/spreadsheets/d/1fHol-5nsflS1boLY32vpc4E_ydZb8wj_vYo3fHn4DIY/edit?gid=0#gid=0
+https://docs.google.com/spreadsheets/d/1kJ0FaHaE9IQdImeNWXzzfGf5-Ic_lLisq6j9W3zzaJQ/edit?gid=546126287#gid=546126287
+https://www.notion.so/LINE-2fcf3b0fba85802f8185f5a630fe9b4f
+  プロジェクトの進捗共有 / ステータス更新の概要
+  概要
+  5/9開始の勉強会（リアル＋視聴会）に向け、サブファシリ（ひとみさん・佑/タスクさん）の体制とシフト調整、運用ルール、ツール確認、トラブル対処方針を共有。
+  サブファシリは他業務と並行稼働が前提。主チャネルはDiscord（勉強会運営用スレッド）で、メインファシリからの要請に即応する。
+  進捗・決定事項
+  体制・役割
+    メインファシリ：
+    サブファシリ（ひとみ・佑/タスク）：
+  運営タイムボックス
+    視聴会のコア構成：冒頭挨拶→動画約2.5時間→質疑30分。終了は定刻、延びても+10分程度。
+  カバレッジ
+    未充足枠はちささん/りょうさんでバックアップ調整。
+  ツール検証
+    ブラウザ参加は機能制限（画面共有・サウンド共有等）あり。クライアントアプリ＋アカウント利用で解消。
+    動画共有は「サウンドを共有」を有効化し、対象ウィンドウ単体共有（デスクトップ全面共有は個人情報露出の恐れ）。
+  スケジュールとアサイン
+  ひとみさん（S2）
+    稼働可否：火・水は休み。5/9は終日NG。20:00開始の部は参加不可。原則18:00まで対応可。
+  佑/タスクさん（S3）
+    学校：火水木（終了は12:00〜13:00想定、帰宅に1.5〜2h）。
+    可用性目安：
+顧客シート更新、個別メッセージシート作成、個別相談LINE
+
+サブファシリの役割、シフト決め
