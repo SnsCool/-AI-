@@ -1,0 +1,10 @@
+# GLM-5.1でストーリーからペルソナを並列生成するバッチを追加
+
+Notion URL: https://app.notion.com/p/GLM-5-1-352f3b0fba8581e68799ca0fcd4b4ff3
+同期日時: 2026-05-01T06:26:49+09:00
+
+---
+
+commit: 4da9eeb2f9eac3b4ec6a81e89a089f9c635055cd
+
+(no file changes)

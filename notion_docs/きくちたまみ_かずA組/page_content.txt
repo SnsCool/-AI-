@@ -1,7 +1,7 @@
 # きくちたまみ_かずA組
 
-Notion URL: https://www.notion.so/_-A-2c2f3b0fba85804a9799e58d3d854475
-同期日時: 2026-04-27T13:46:12+09:00
+Notion URL: https://app.notion.com/p/_-A-2c2f3b0fba85804a9799e58d3d854475
+同期日時: 2026-05-01T06:27:20+09:00
 
 ---
 
@@ -34,8 +34,11 @@ Notion URL: https://www.notion.so/_-A-2c2f3b0fba85804a9799e58d3d854475
     当日キャンセル
     6回目
     7回目
+    無断キャンセル
     8回目
+    無断キャンセル
     9回目
+    自動格納済み
     10回目
     11回目
     12回目
