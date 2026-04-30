@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://app.notion.com/p/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-04-30T21:44:34+09:00
+同期日時: 2026-05-01T00:42:20+09:00
 
 ---
 
@@ -62,14 +62,14 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
     済：特別講義パターンの追加
     済：グルコン・特別講義のサムネ作成方法修正
     スケジュールと通知文追加
-  ④CS部へ展開
+  テスト中：④CS部へ展開
     基本的な流れは同じらしい、Zoomのアカウントが違うことや、サムネイル画像が違う点に注意が必要。
-    運営アカウントのYoutubeへ上げる+設定はみおなさんが実施？？
+    https://github.com/SnsCool/cs-movie-archive
     Googleカレンダーを見る
     Zoomのアカウントから、対象のデータをダウンロードする
-    2分以上黙る部分はカットしたい。
-    Youtubeのアップロード（各再生リストを設定する。）
-    Zoomデータを削除（一旦ゴミ箱、2週間経ったら、完全消去）
+    5分以上黙る部分はカット
+    Youtubeのアップロード（各再生リストの設定なし）
+    Zoomデータを削除（一旦ゴミ箱）
     Notionへアップ
     Discord通知
     実行タイミングは？

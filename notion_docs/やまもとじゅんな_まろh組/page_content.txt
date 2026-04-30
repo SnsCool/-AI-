@@ -1,13 +1,13 @@
 # やまもとじゅんな_まろh組
 
-Notion URL: https://www.notion.so/_-h-290f3b0fba85800db453c4c9e82db529
-同期日時: 2026-04-27T13:50:07+09:00
+Notion URL: https://app.notion.com/p/_-h-290f3b0fba85800db453c4c9e82db529
+同期日時: 2026-05-01T00:42:56+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
-    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    https://docs.google.com/spreadsheets/d/1IA68vBK1OGAGbo_QvvkgZxwgucvEjqV_4dvObZOuNPA/edit?gid=112917445#gid=112917445
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
