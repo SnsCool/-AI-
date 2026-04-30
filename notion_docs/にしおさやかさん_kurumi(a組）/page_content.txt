@@ -1,13 +1,13 @@
 # にしおさやかさん_kurumi(a組）
 
 Notion URL: https://app.notion.com/p/_kurumi-a-349f3b0fba8580cdbf15cf1ddc186aab
-同期日時: 2026-04-29T13:19:50+09:00
+同期日時: 2026-04-30T13:20:46+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
-    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    https://docs.google.com/spreadsheets/d/1iabf5nQGPEY3TB4Xf9bxH_JFcc7Uad6VXAnDHdbKQ_0/edit?gid=1837929075#gid=1837929075
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
