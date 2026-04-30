@@ -1,15 +1,18 @@
 # 4月30日_月野里菜
 
 Notion URL: https://app.notion.com/p/4-30-_-352f3b0fba858018b37dea2cedec2a13
-同期日時: 2026-04-30T13:20:04+09:00
+同期日時: 2026-04-30T16:04:14+09:00
 
 ---
 
 週次振り返りフォーマット
+https://docs.google.com/spreadsheets/d/1FLGW3QiBs5Y3vOop-B38OZvHx1UNI_13/edit?usp=share_link&ouid=118003420096448165387&rtpof=true&sd=true
 例
 例
   ポジティブ変化
   ネガティブ変化
+ポジティブ変化
+ネガティブ変化
 KSF・転用AP
 KSFとは
   KSFは「Key Success Factors（キーサクセスファクター）」の略で、日本語では「重要成功要因」と訳されます。KSFは、成功のための重要要因

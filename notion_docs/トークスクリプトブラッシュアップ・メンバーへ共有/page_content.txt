@@ -1,8 +1,13 @@
 # トークスクリプトブラッシュアップ・メンバーへ共有
 
-Notion URL: https://www.notion.so/350f3b0fba85802c833eea06c248d459
-同期日時: 2026-04-28T16:05:55+09:00
+Notion URL: https://app.notion.com/p/350f3b0fba85802c833eea06c248d459
+同期日時: 2026-04-30T16:04:23+09:00
 
 ---
 
+自己分析セッション：DB：自己分析セッション（手動格納） 
+生徒共有用の画像（zoomと）：https://canva.link/89howimtmojid00
+自己分析セッション流れ：自己分析セッション 
+伴走セッションの初回セッショントークスクリプト：
 https://docs.google.com/document/d/1w-Lgrc1Ji5jgYvP1R38pgQdskmfbyYQMjzR2jH346SY/edit?pli=1&tab=t.ahylj2jicy6t
+虎の巻　通常セッション（3回目〜11回目）
