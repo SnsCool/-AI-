@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://app.notion.com/p/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-04-29T18:49:49+09:00
+同期日時: 2026-04-30T21:44:34+09:00
 
 ---
 
@@ -73,7 +73,7 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
     Notionへアップ
     Discord通知
     実行タイミングは？
-    過去動画の一括格納
+  ⑤過去動画の一括格納
 お問い合わせページM、N列を選択形式に＋並び順を逆に
 スクラブラジオの音声結合
 コーチング特進コース用Webアプリ開発
