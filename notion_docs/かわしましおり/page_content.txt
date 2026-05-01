@@ -1,7 +1,7 @@
 # かわしましおり
 
 Notion URL: https://app.notion.com/p/353f3b0fba8581219dc5cfa6d11f2ea7
-同期日時: 2026-05-01T18:41:36+09:00
+同期日時: 2026-05-02T06:22:50+09:00
 
 ---
 
@@ -21,4 +21,5 @@ Notion URL: https://app.notion.com/p/353f3b0fba8581219dc5cfa6d11f2ea7
 └ 「That's your frame, we shake the frame of your life.」という発言から、固定観念や既成概念を打破し、新たな視点や可能性を広げることを意図していると考えられます🤔
 ▶ クライアントがコーチに対して感謝の意を示している場面がありました。
 └ 「That was my word, my thought, and he said I wanted to thank you.」という発言から、コーチの言葉や考え方がクライアントに良い影響を与えていることが伺えます✨
+  セッションデータ
   セッションデータ
