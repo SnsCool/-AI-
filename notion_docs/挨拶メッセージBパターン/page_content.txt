@@ -1,7 +1,7 @@
 # 挨拶メッセージBパターン
 
-Notion URL: https://www.notion.so/B-34ef3b0fba85811285d0fcc5c0a44eb4
-同期日時: 2026-04-27T03:22:17+09:00
+Notion URL: https://app.notion.com/p/B-34ef3b0fba85811285d0fcc5c0a44eb4
+同期日時: 2026-05-01T16:04:58+09:00
 
 ---
 
