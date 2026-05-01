@@ -1,7 +1,7 @@
 # アフィ案件MTG
 
-Notion URL: https://www.notion.so/MTG-2c3f3b0fba8580a9aaeccd100260551a
-同期日時: 2026-04-21T21:34:21+09:00
+Notion URL: https://app.notion.com/p/MTG-2c3f3b0fba8580a9aaeccd100260551a
+同期日時: 2026-05-01T21:32:13+09:00
 
 ---
 
@@ -93,6 +93,10 @@ Notion URL: https://www.notion.so/MTG-2c3f3b0fba8580a9aaeccd100260551a
   『訴求方法』
   個包装、お菓子に使える、スムージーにしたり
   娘の肌荒れ、ダイエットしている（アカウント始めたきっかけ）
+  4月ローンチ
+  インサイト
+    https://docs.google.com/spreadsheets/d/1-62sS0URYrpSEowWz_Pg52ibKydanf4pMvHAfwTb5hg/edit?usp=drivesdk
+購入数：0件
 デザインから問題あり
   アカウント（しょうけんさん）マネタイズ講座
 年齢　　25-34  　  5.3
@@ -429,6 +433,11 @@ https://drive.google.com/drive/folders/1OtmjpA9XilxybjZbd2M1Zo-L-ZM91H85
     https://drive.google.com/drive/folders/1ffkKtTg25hAfsfCxt5NauDHPlQd9bCx9
   リンククリック数
   購入件数11件
+  4月ローンチ
+  インサイト
+    https://drive.google.com/drive/folders/1HOA8MAwhQaMD5do6A6gUhzopwwGrBXId
+  リンククリック数：92件
+  購入件数5件
 アフィするかも
   年齢        
   18-24           0.5%
@@ -509,6 +518,18 @@ https://drive.google.com/drive/folders/1OtmjpA9XilxybjZbd2M1Zo-L-ZM91H85
   『訴求方法』
   レシピの試作をしてたら太ってしまって置き換えチャレンジしていく
   プロテイン使ったレシピ（コーヒーパウンドケーキ）
+  4月ローンチ
+  インサイト
+    17日1個目
+    https://drive.google.com/file/d/1wGMlAhSpTTceEc78gmT_G9LesgJGLafp/view?usp=drivesdk
+    17日2個目
+    https://drive.google.com/file/d/1aZ5tyeiTr69XPiL6yBgaIUultd4NKFgj/view?usp=drivesdk
+    18日1個目
+    https://drive.google.com/file/d/1DHpArmMwrgmQzIoAmVsxrcdfkXCN3o1O/view?usp=drivesdk
+    18日2個目
+    https://drive.google.com/file/d/1lHfejSr5YWqJPDzVv3Z05egmHiLFh34k/view?usp=drivesdk
+リンククリック数：
+    購入数：2件
   『案件』
   ダイエットPR：0件
   zenbブレッド：1件
@@ -649,6 +670,11 @@ https://drive.google.com/drive/folders/1OtmjpA9XilxybjZbd2M1Zo-L-ZM91H85
   過去に40キロまで痩せた時はプロテインをずっと飲んで痩せてた
   個包装で便利、違う味が楽しめる
   サンプル（きなこ）
+  4月ローンチ
+    インサイト
+https://docs.google.com/spreadsheets/d/11MZziqmhhUW0qyMRAEbuDkCs4qoJLm8mzaYfzS67Wps/edit?usp=drivesdk
+リンククリック数：
+    購入数：2件
   『案件』
   フィッシェル:3-4件❌
   リセット:5件
@@ -697,6 +723,9 @@ https://drive.google.com/drive/folders/1OtmjpA9XilxybjZbd2M1Zo-L-ZM91H85
   年齢層高めなので
   朝ごはんを置き換えダイエット（子供送ってたらバタバタで時間なくて朝ごはん置き換え）
   プロテインパンで子供も一緒に食べれる
+  4月アフィ
+    インサイト
+https://docs.google.com/spreadsheets/d/19uvFNj8OuYorEKxznyRelPpje0dHarQCAlKkZ22AsX4/edit?usp=drivesdk
   たつみ講師/マネタイズライトコース
   『案件』
   実施なし
@@ -797,6 +826,11 @@ https://drive.google.com/drive/folders/1OtmjpA9XilxybjZbd2M1Zo-L-ZM91H85
   『訴求方法』
   旦那さん出す時はダイエット訴求でプロテイン置き換え
   子どもも安心して食べられる（添加物不使用だから、子どもがなかなか食べて食えなくて栄養が心配）
+  4月ローンチ
+  インサイト
+https://drive.google.com/drive/folders/1QOBJ7iwJs33hIF4w3cU42OHrX2FxELZr
+    リンククリック数：
+    購入数：1件
   スクラブ生：ふみさん
   マネタイズライト
   FW9割以上女性、年齢50代
@@ -869,3 +903,18 @@ https://drive.google.com/drive/folders/1OtmjpA9XilxybjZbd2M1Zo-L-ZM91H85
   『訴求方法』
   ダイエット/美容だったらダイエット寄りの方が多い
   自分自身がタンパク質意識して肌も綺麗になったから
+  きなこ:10
+  カカオ:8
+  コーヒー:2
+  もぐらぼの4期生（5月からスタート）
+  『案件』
+  広告収入でKINSの
+  『ストーリー』
+  5パーセント
+  『訴求方法』
+  まめボー講師/6月卒業/マネタイズライトコース
+  『案件』
+  キャストミーの固定案件のみ：1万
+  楽天ルーム：2万
+  『ストーリー』
+  『訴求方法』
