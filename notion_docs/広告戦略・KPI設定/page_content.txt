@@ -1,7 +1,7 @@
 # 広告戦略・KPI設定
 
-Notion URL: https://www.notion.so/KPI-33bf3b0fba8581968e99d6b831010ba3
-同期日時: 2026-04-23T15:50:51+09:00
+Notion URL: https://app.notion.com/p/KPI-33bf3b0fba8581968e99d6b831010ba3
+同期日時: 2026-05-01T18:42:11+09:00
 
 ---
 

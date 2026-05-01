@@ -1,7 +1,7 @@
 # ふじしろのぞみ_すいA組
 
-Notion URL: https://www.notion.so/_-A-2dcf3b0fba858030a137f6ab30560fe9
-同期日時: 2026-04-29T00:56:55+09:00
+Notion URL: https://app.notion.com/p/_-A-2dcf3b0fba858030a137f6ab30560fe9
+同期日時: 2026-05-01T18:42:46+09:00
 
 ---
 
@@ -9,5 +9,5 @@ Notion URL: https://www.notion.so/_-A-2dcf3b0fba858030a137f6ab30560fe9
   2回目：1/28　22:30〜
 3回目：2/25　22:30〜
 4回目：3/25　22:30〜
-5回目：4/22　22:30〜
+5回目：4/27　22:30〜
 6回目：5/27　22:30〜
