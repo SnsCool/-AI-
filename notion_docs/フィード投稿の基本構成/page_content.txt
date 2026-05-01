@@ -1,7 +1,7 @@
 # フィード投稿の基本構成
 
-Notion URL: https://www.notion.so/343f3b0fba858046a74ecaf9afe9e28f
-同期日時: 2026-04-15T18:40:03+09:00
+Notion URL: https://app.notion.com/p/343f3b0fba858046a74ecaf9afe9e28f
+同期日時: 2026-05-02T00:27:19+09:00
 
 ---
 
