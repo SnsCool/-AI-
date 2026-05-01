@@ -1,7 +1,7 @@
 # CS業務の単価報酬検討
 
-Notion URL: https://www.notion.so/CS-32cf3b0fba8580e5b9dbc5d4d72a5ee2
-同期日時: 2026-04-14T15:50:01+09:00
+Notion URL: https://app.notion.com/p/CS-32cf3b0fba8580e5b9dbc5d4d72a5ee2
+同期日時: 2026-05-01T13:32:18+09:00
 
 ---
 

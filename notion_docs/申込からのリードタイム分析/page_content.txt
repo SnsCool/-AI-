@@ -1,7 +1,7 @@
 # 申込からのリードタイム分析
 
-Notion URL: https://www.notion.so/33df3b0fba85810c8e5cf7345da962df
-同期日時: 2026-04-23T15:50:12+09:00
+Notion URL: https://app.notion.com/p/33df3b0fba85810c8e5cf7345da962df
+同期日時: 2026-05-01T13:31:40+09:00
 
 ---
 

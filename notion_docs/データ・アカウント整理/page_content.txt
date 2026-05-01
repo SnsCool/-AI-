@@ -1,7 +1,7 @@
 # データ・アカウント整理
 
-Notion URL: https://www.notion.so/33bf3b0fba8581e4bac2c2658e2e69ab
-同期日時: 2026-04-23T13:07:50+09:00
+Notion URL: https://app.notion.com/p/33bf3b0fba8581e4bac2c2658e2e69ab
+同期日時: 2026-05-01T13:31:39+09:00
 
 ---
 

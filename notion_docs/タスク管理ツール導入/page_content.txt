@@ -1,7 +1,7 @@
 # タスク管理ツール導入
 
-Notion URL: https://www.notion.so/328f3b0fba8581aca763c434b2c1b568
-同期日時: 2026-04-14T15:49:43+09:00
+Notion URL: https://app.notion.com/p/353f3b0fba85811ca36ceeba00726b1d
+同期日時: 2026-05-01T13:32:38+09:00
 
 ---
 

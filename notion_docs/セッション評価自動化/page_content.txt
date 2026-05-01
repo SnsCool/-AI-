@@ -1,7 +1,7 @@
 # セッション評価自動化
 
-Notion URL: https://www.notion.so/331f3b0fba85819ea567f21fff4917b3
-同期日時: 2026-03-29T06:14:33+09:00
+Notion URL: https://app.notion.com/p/353f3b0fba8581ceaca6f5e516de8a44
+同期日時: 2026-05-01T13:32:10+09:00
 
 ---
 

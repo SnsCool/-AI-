@@ -1,7 +1,7 @@
 # 開発準備
 
-Notion URL: https://www.notion.so/333f3b0fba8581599152d3c73126614d
-同期日時: 2026-03-30T13:07:42+09:00
+Notion URL: https://app.notion.com/p/333f3b0fba8581599152d3c73126614d
+同期日時: 2026-05-01T13:31:47+09:00
 
 ---
 

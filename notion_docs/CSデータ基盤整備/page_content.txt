@@ -1,7 +1,7 @@
 # CSデータ基盤整備
 
-Notion URL: https://www.notion.so/CS-345f3b0fba858112bc2fd7ad927f0d2f
-同期日時: 2026-04-17T15:49:02+09:00
+Notion URL: https://app.notion.com/p/CS-353f3b0fba8581a3a6dae9a215a57e6f
+同期日時: 2026-05-01T13:31:14+09:00
 
 ---
 

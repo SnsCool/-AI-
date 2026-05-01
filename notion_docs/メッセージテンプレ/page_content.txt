@@ -1,7 +1,7 @@
 # メッセージテンプレ
 
-Notion URL: https://www.notion.so/2fdf3b0fba8580fd9cb5fe77be5fbb65
-同期日時: 2026-04-02T21:42:36+09:00
+Notion URL: https://app.notion.com/p/2fdf3b0fba8580fd9cb5fe77be5fbb65
+同期日時: 2026-05-01T13:33:53+09:00
 
 ---
 

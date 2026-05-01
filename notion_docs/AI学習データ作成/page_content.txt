@@ -1,7 +1,7 @@
 # AI学習データ作成
 
-Notion URL: https://www.notion.so/AI-333f3b0fba85816e837aee623e06ca9d
-同期日時: 2026-03-30T13:07:41+09:00
+Notion URL: https://app.notion.com/p/AI-333f3b0fba85816e837aee623e06ca9d
+同期日時: 2026-05-01T13:31:48+09:00
 
 ---
 
