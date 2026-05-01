@@ -1,13 +1,13 @@
 # はまだちえさん_優希C組
 
-Notion URL: https://www.notion.so/_-C-30bf3b0fba8580659886f807acd288fb
-同期日時: 2026-04-27T13:37:34+09:00
+Notion URL: https://app.notion.com/p/_-C-30bf3b0fba8580659886f807acd288fb
+同期日時: 2026-05-01T10:03:26+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
-    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    https://docs.google.com/spreadsheets/d/1YnnG3B27IcHx05qnNjMiDc4dpoq81fHS6CZTdtCjRb0/edit?gid=0#gid=0
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
