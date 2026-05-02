@@ -1,12 +1,13 @@
 # ますだひかり_ここママB組
 
 Notion URL: https://app.notion.com/p/_-B-353f3b0fba85804b9cacee1ccdae8bfd
-同期日時: 2026-05-01T16:10:15+09:00
+同期日時: 2026-05-02T13:10:37+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
+    https://docs.google.com/spreadsheets/d/1u9CL2zRr3VNP-0NFWPrWBruH5lPqRONrVEB14Fl1Uns/edit?usp=sharing
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
     ①初回セッション時、MGと生徒間で誓約書を結ぶ

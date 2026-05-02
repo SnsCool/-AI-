@@ -1,13 +1,13 @@
 # ひがしじののか_まめぼーE組
 
 Notion URL: https://app.notion.com/p/_-E-2cff3b0fba85807cb448d23bc02c88cd
-同期日時: 2026-04-30T21:43:58+09:00
+同期日時: 2026-05-02T13:14:37+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
-    [ここにアカウントのURLを貼り付]
-    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    https://www.instagram.com/hope_gohan_?igsh=eWxod2UzcWxzYzl1&utm_source=qr
+    https://docs.google.com/spreadsheets/d/1aPH_0TtrzWwnvYqLdx4EjmeE84BezIvu3r46sGWmEmY/edit?gid=0#gid=0
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
@@ -15,7 +15,7 @@ Notion URL: https://app.notion.com/p/_-E-2cff3b0fba85807cb448d23bc02c88cd
     ▼講師1on1　予約用timerex▼
     https://timerex.net/s/no1bu1ko4_7e58/996443e5
     生徒メアド：
-    １回目：第２回（初期設計1on1）〜第４回講義 ：4/1 22時〜1回目
+    １回目：第２回（初期設計1on1）〜第４回講義 ：4/1 22時〜1回目　済
 ２回目：第４回講義〜第６回講義：
 ３回目：第６回講義〜第８回講義：
 ４回目：第８回講義〜第１０回講義： 

@@ -1,7 +1,7 @@
 # ロボットペイメント 
 
 Notion URL: https://app.notion.com/p/2e9f3b0fba858034830de646cc46948a
-同期日時: 2026-05-02T00:27:29+09:00
+同期日時: 2026-05-02T13:13:37+09:00
 
 ---
 
@@ -20,7 +20,7 @@ https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=premium001&mailaut
 └毎月66,000円
 https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=premium003&mailauthckey=e9483952673e47308550cb0dd7597938
 その他の場合
-  https://credit.j-payment.co.jp/link/bankcheck?aid=132910&jb=CAPTURE&am=商品金額&tx=0&sf=0&mailauthckey=e9483952673e47308550cb0dd7597938
+https://credit.j-payment.co.jp/link/bankcheck?aid=132910&jb=CAPTURE&am=商品金額&tx=0&sf=0&mailauthckey=e9483952673e47308550cb0dd7597938
 補足
 7日後に自動決済のリトライが2回続く、その後は1ヶ月後に依頼
 180日以内であれば決済取り消し可能　末締めのため、月をまたぐ場合は返金できるが
