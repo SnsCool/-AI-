@@ -1,7 +1,7 @@
 # 1回目 - 2026/04/22
 
-Notion URL: https://app.notion.com/p/1-2026-04-22-353f3b0fba85814da1defec66e48e18f
-同期日時: 2026-05-02T09:57:08+09:00
+Notion URL: https://www.notion.so/1-2026-04-22-353f3b0fba85814da1defec66e48e18f
+同期日時: 2026-05-03T06:19:53+09:00
 
 ---
 
@@ -48,4 +48,5 @@ Notion URL: https://app.notion.com/p/1-2026-04-22-353f3b0fba85814da1defec66e48e1
 ▶課題
 └ 動画の視聴：どの部分を見るべきか迷う
 └ 撮影：画角が難しい
+セッションデータ
 セッションデータ

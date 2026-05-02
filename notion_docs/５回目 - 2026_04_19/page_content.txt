@@ -1,7 +1,7 @@
 # ５回目 - 2026/04/19
 
-Notion URL: https://app.notion.com/p/2026-04-19-353f3b0fba85819788ebcb8852d78dd2
-同期日時: 2026-05-02T09:57:56+09:00
+Notion URL: https://www.notion.so/2026-04-19-353f3b0fba85819788ebcb8852d78dd2
+同期日時: 2026-05-03T06:20:42+09:00
 
 ---
 
@@ -37,4 +37,5 @@ Notion URL: https://app.notion.com/p/2026-04-19-353f3b0fba85819788ebcb8852d78dd2
 
 💡仲間作り
 └ スクラブの統括オフ会や地方オフ会に参加を検討
+セッションデータ
 セッションデータ

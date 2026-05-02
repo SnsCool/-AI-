@@ -1,7 +1,7 @@
 # 1回目 - 2026/04/23
 
-Notion URL: https://app.notion.com/p/1-2026-04-23-353f3b0fba8581ba91d6f093ebaf4dea
-同期日時: 2026-05-02T09:57:03+09:00
+Notion URL: https://www.notion.so/1-2026-04-23-353f3b0fba8581ba91d6f093ebaf4dea
+同期日時: 2026-05-03T06:19:43+09:00
 
 ---
 
@@ -47,4 +47,5 @@ Notion URL: https://app.notion.com/p/1-2026-04-23-353f3b0fba8581ba91d6f093ebaf4d
 └ 5月から二人暮らしになる。
 └ 犬のいびきがうるさい（5月の引っ越しで解消予定）。
 └ 写真撮影が来月ある。
+セッションデータ
 セッションデータ

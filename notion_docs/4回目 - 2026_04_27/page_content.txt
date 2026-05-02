@@ -1,7 +1,7 @@
 # 4回目 - 2026/04/27
 
-Notion URL: https://app.notion.com/p/4-2026-04-27-353f3b0fba8581beb010de2bfbbc1fcc
-同期日時: 2026-05-02T09:58:30+09:00
+Notion URL: https://www.notion.so/4-2026-04-27-353f3b0fba8581beb010de2bfbbc1fcc
+同期日時: 2026-05-03T06:21:24+09:00
 
 ---
 
@@ -35,4 +35,5 @@ Notion URL: https://app.notion.com/p/4-2026-04-27-353f3b0fba8581beb010de2bfbbc1f
 　└ メタ社製、インスタに特化
 　└ 無課金で使用可能
 　└ プロンプト作成に便利
+セッションデータ
 セッションデータ

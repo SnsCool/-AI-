@@ -1,7 +1,7 @@
 # 2回目 - 2026/04/17
 
-Notion URL: https://app.notion.com/p/2-2026-04-17-353f3b0fba8581ceaeedce7b50dc6fa9
-同期日時: 2026-05-02T09:56:59+09:00
+Notion URL: https://www.notion.so/2-2026-04-17-353f3b0fba8581ceaeedce7b50dc6fa9
+同期日時: 2026-05-03T06:19:40+09:00
 
 ---
 
@@ -28,4 +28,5 @@ Notion URL: https://app.notion.com/p/2-2026-04-17-353f3b0fba8581ceaeedce7b50dc6f
 💡 タスク管理・時間管理が課題
 💡 リサーチに時間がかかりすぎる傾向あり
 💡 YouTubeショートの視聴回数がインスタの9倍
+セッションデータ
 セッションデータ
