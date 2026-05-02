@@ -1,7 +1,7 @@
 # よしのまち
 
-Notion URL: https://www.notion.so/342f3b0fba85811bad92d735dc6cfebb
-同期日時: 2026-04-14T21:34:22+09:00
+Notion URL: https://app.notion.com/p/342f3b0fba85811bad92d735dc6cfebb
+同期日時: 2026-05-02T09:57:27+09:00
 
 ---
 
@@ -38,4 +38,5 @@ Notion URL: https://www.notion.so/342f3b0fba85811bad92d735dc6cfebb
 💡 投稿のブレーキ: 面倒くさい気持ち、撮影中の子供の邪魔
 💡 自己投資額: 半年間で60万円 (月10万円、日3万円)
 💡 モチベーション: 子供との時間を増やしたい、小学校4年生のお子さんに新しい自転車を買ってあげたい
+  セッションデータ
   セッションデータ

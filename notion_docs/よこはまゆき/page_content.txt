@@ -1,7 +1,7 @@
 # よこはまゆき
 
-Notion URL: https://www.notion.so/342f3b0fba858151bf8acfe50a573f1d
-同期日時: 2026-04-14T21:34:52+09:00
+Notion URL: https://app.notion.com/p/342f3b0fba858151bf8acfe50a573f1d
+同期日時: 2026-05-02T09:58:08+09:00
 
 ---
 
@@ -54,4 +54,5 @@ Notion URL: https://www.notion.so/342f3b0fba858151bf8acfe50a573f1d
 
 └ 24日にエスキャンが完了する旨の連絡が来ているため、あと10日程度視聴可能。
 └ マネタイズ講座（月額13,000円）は、マネタイズを開始できるようになってから検討する。
+  セッションデータ
   セッションデータ
