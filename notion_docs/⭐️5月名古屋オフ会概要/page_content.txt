@@ -1,7 +1,7 @@
 # ⭐️5月名古屋オフ会概要
 
-Notion URL: https://app.notion.com/p/5-34af3b0fba858112aaf9fc81967e97a4
-同期日時: 2026-04-30T21:43:59+09:00
+Notion URL: https://www.notion.so/5-34af3b0fba858112aaf9fc81967e97a4
+同期日時: 2026-05-02T18:32:03+09:00
 
 ---
 
@@ -37,7 +37,7 @@ TKP名古屋伏見ビジネスセンター
   最寄駅：
   名古屋市営地下鉄 伏見駅 1出口 徒歩2分
   名古屋市営地下鉄 丸の内駅 6出口 徒歩2分
-  https://www.google.co.jp/maps/place/TKP%E5%90%8D%E5%8F%A4%E5%B1%8B%E4%BC%8F%E8%A6%8B%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/@35.1705845,136.8931642,16.25z/data=!4m5!3m4!1s0x600376d67a7ab88b:0xb2ad4ce9ffd89835!8m2!3d35.1715308!4d136.8975656?shorturl=1
+    https://www.google.co.jp/maps/place/TKP%E5%90%8D%E5%8F%A4%E5%B1%8B%E4%BC%8F%E8%A6%8B%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/@35.1705845,136.8931642,16.25z/data=!4m5!3m4!1s0x600376d67a7ab88b:0xb2ad4ce9ffd89835!8m2!3d35.1715308!4d136.8975656?shorturl=1
 ■持ち物
 ・メモのできるもの
 ・筆記用具
