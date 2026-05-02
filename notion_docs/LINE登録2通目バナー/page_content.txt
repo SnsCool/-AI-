@@ -1,7 +1,7 @@
 # LINE登録2通目バナー
 
-Notion URL: https://app.notion.com/p/LINE-2-353f3b0fba85803b8ed9fe1a035ad2a5
-同期日時: 2026-05-02T06:23:15+09:00
+Notion URL: https://www.notion.so/LINE-2-353f3b0fba85803b8ed9fe1a035ad2a5
+同期日時: 2026-05-03T00:25:23+09:00
 
 ---
 
