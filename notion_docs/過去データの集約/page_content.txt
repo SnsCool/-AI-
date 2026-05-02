@@ -1,8 +1,10 @@
 # 過去データの集約
 
 Notion URL: https://www.notion.so/348f3b0fba8581b9bb36fb3e9caf457e
-同期日時: 2026-04-27T21:45:47+09:00
+同期日時: 2026-05-02T15:53:36+09:00
 
 ---
 
-(コンテンツなし)
+過去の結果について簡易的にまとめたシートはあるが、今後このデータの集約をCTO室で実施する
+https://docs.google.com/spreadsheets/d/1W5BXtBhLINYYn1fR1H0hvhf3wCgzytdt6L3ag6bNdp0/edit?gid=1468580510#gid=1468580510
+流入別の後ろの数字も全て取れるツールをたいちさんが現在開発中。

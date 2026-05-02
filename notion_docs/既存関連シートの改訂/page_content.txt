@@ -1,8 +1,11 @@
 # 既存関連シートの改訂
 
 Notion URL: https://www.notion.so/348f3b0fba858175bba5e5d820f46c3a
-同期日時: 2026-04-27T21:45:47+09:00
+同期日時: 2026-05-02T15:53:36+09:00
 
 ---
 
-(コンテンツなし)
+スケジュールシートの改訂
+目標値と過去結果、ローンチスケジュールを1つのシートの中で管理
+↓
+https://docs.google.com/spreadsheets/d/1toCerYf-vt6z9qV2LU6Ckfxcnk0VYyjRDPqdotvyuvQ/edit?gid=33970329#gid=33970329

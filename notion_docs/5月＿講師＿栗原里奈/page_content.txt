@@ -1,7 +1,7 @@
 # 5月＿講師＿栗原里奈 
 
-Notion URL: https://app.notion.com/p/5-34af3b0fba85804a8044df6f0a1cc243
-同期日時: 2026-05-01T18:41:18+09:00
+Notion URL: https://www.notion.so/5-34af3b0fba85804a8044df6f0a1cc243
+同期日時: 2026-05-02T15:52:49+09:00
 
 ---
 
@@ -14,11 +14,10 @@ https://docs.google.com/spreadsheets/d/1T6KY_r1ktNUtCD6R4rnO_QEZmUu18YzM9kWAQrKp
 こちらから算出しました⬆️
 ⚖️体重変化
 チーム別平均（初日からの体重変化）
-平均値は記録なしの人も含めるため数値が少し小さめです
+※平均値は記録なしの人は含みません
 全体平均（個人数値から直接計算）
 ※ただ期間が違うため平均値は参考程度
 🔥体脂肪率変化
-平均値は記録なしの人も含めるため数値が少し小さめです
 全体平均（データあり53名で算出）
 🎯全体結果
 先月目標に対する達成状況
@@ -154,6 +153,7 @@ KFF② 体重が減らない方への対応が難しい
 改善AP
 共感・受容・再スタートをかけて声かけを強化する
 「できなかった」ではなく「次どうするか」を意識する
+ひろかさんの音声配信など行う
 講師側KFF⑤ 管理シートの記入・管理がめんどくさい
 👇管理シート
 https://docs.google.com/spreadsheets/d/1ujfwr6VXQx7RGOwpVvB6kjT4sQ_XImynS6C8UxhuFvE/edit?usp=sharing
