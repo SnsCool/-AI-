@@ -1,11 +1,8 @@
 # サブスク設計
 
 Notion URL: https://www.notion.so/340f3b0fba8581ce9ad5ecadfae95c49
-同期日時: 2026-04-14T00:36:40+09:00
+同期日時: 2026-05-03T18:36:36+09:00
 
 ---
 
-タスクの説明
-タスクの概要と関連する詳細を提供します。
-サブタスク
-サポートファイル
+https://www.notion.so/355f3b0fba858023b6cbfd2697901e64?source=copy_link

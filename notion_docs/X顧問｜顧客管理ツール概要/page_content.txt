@@ -1,7 +1,7 @@
 # X顧問｜顧客管理ツール概要
 
-Notion URL: https://www.notion.so/X-350f3b0fba858120b6fae0dec0e52e6d
-同期日時: 2026-04-28T09:58:17+09:00
+Notion URL: https://www.notion.so/X-355f3b0fba8581e2acbffb4db93040e8
+同期日時: 2026-05-03T18:41:04+09:00
 
 ---
 

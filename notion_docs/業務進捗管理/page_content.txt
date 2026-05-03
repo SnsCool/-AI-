@@ -1,7 +1,7 @@
 # 業務進捗管理
 
-Notion URL: https://www.notion.so/355f3b0fba85814f8a9aeccfb1ac0b66
-同期日時: 2026-05-03T16:02:02+09:00
+Notion URL: https://www.notion.so/355f3b0fba858163b12fc44ddb9dee1c
+同期日時: 2026-05-03T18:41:13+09:00
 
 ---
 
