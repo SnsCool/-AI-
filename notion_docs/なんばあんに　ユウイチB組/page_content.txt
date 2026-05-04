@@ -1,7 +1,7 @@
 # なんばあんに　ユウイチB組
 
 Notion URL: https://www.notion.so/B-355f3b0fba85807e90f8e6f3a36624ca
-同期日時: 2026-05-04T00:21:56+09:00
+同期日時: 2026-05-04T21:49:07+09:00
 
 ---
 
@@ -14,7 +14,7 @@ Notion URL: https://www.notion.so/B-355f3b0fba85807e90f8e6f3a36624ca
     ②誓約書はPDFにして生徒さんへ送付
     ▼講師1on1　予約用timerex▼
     https://timerex.net/s/eriz.eriz23_9abb/034b793d
-    生徒メアド：
+    生徒メアド：anni.namba@gmail.com
     １回目：第２回（初期設計1on1）〜第４回講義 
 ２回目：第４回講義〜第６回講義：
 ３回目：第６回講義〜第８回講義：
