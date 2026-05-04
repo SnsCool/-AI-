@@ -1,7 +1,7 @@
 # LINE対応マニュアル
 
-Notion URL: https://app.notion.com/p/LINE-2f6f3b0fba8580099495d2f1b4391a6c
-同期日時: 2026-04-29T21:46:35+09:00
+Notion URL: https://www.notion.so/LINE-2f6f3b0fba8580099495d2f1b4391a6c
+同期日時: 2026-05-04T13:27:09+09:00
 
 ---
 
@@ -9,10 +9,10 @@ Notion URL: https://app.notion.com/p/LINE-2f6f3b0fba8580099495d2f1b4391a6c
   すでに送ってもらったことがある場合はハイライト部分は送らない！！
 フレーバー変更
   ①LINEでフレーバー変更希望が来たら
-お世話になっております☺️
-Mrs .PROTEINです🌿
-フレーバーの変更承りました！
-引き続きMrs .PROTEINをお楽しみください🌟
+  お世話になっております！
+Mrs .PROTEINです🌟
+フレーバーの変更、⭕️月分より【⭕️×⭕️】にて承りました！
+引き続きMrs .PROTEINをお楽しみください☺️
   ②顧客から返信が来たら
 フレーバー変更を承りました！
 引き続きMrs .PROTEINをお楽しみください🌸

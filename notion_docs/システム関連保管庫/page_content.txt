@@ -1,7 +1,7 @@
 # システム関連保管庫
 
-Notion URL: https://app.notion.com/p/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-05-01T00:42:20+09:00
+Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
+同期日時: 2026-05-04T13:26:41+09:00
 
 ---
 
@@ -74,9 +74,10 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
     Discord通知
     実行タイミングは？
   ⑤過去動画の一括格納
-お問い合わせページM、N列を選択形式に＋並び順を逆に
+お問い合わせページM、N列を選択形式に＋並び順を逆に⇒ひであきさんへ渡す
 スクラブラジオの音声結合
-コーチング特進コース用Webアプリ開発
+コーチング特進コース用Webアプリ開発　⇒ふうかさんへ
+Snsclubの問い合わせ送信機能の☆押下してないと赤文字が出るようにする
 アプリ開発
 SnsClub講義（GRITSTUDY）アプリ追加開発
 引き継ぎ
