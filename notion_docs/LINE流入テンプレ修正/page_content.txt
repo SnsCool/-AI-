@@ -1,7 +1,7 @@
 # LINE流入テンプレ修正
 
-Notion URL: https://app.notion.com/p/LINE-352f3b0fba8580e9b357fb5a32adccfc
-同期日時: 2026-04-30T13:21:15+09:00
+Notion URL: https://www.notion.so/LINE-352f3b0fba8580e9b357fb5a32adccfc
+同期日時: 2026-05-04T18:55:33+09:00
 
 ---
 

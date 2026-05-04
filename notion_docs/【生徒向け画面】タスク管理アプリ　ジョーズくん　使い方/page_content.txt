@@ -1,0 +1,45 @@
+# 【生徒向け画面】タスク管理アプリ　ジョーズくん　使い方
+
+Notion URL: https://www.notion.so/356f3b0fba8580b68d16e1ac28ad89a0
+同期日時: 2026-05-04T18:54:01+09:00
+
+---
+
+  【URL】
+1. Click on Discord ユーザー名
+2. Paste "test3
+" into input
+3. Click on ログイン
+4. Click on マイページ
+5. Click on プロフィール
+6. Click on ビジョン設定
+7. Click on 30日区間 数値目標…
+8. Click on セッション履歴…
+9. Click on マイルストーン達成バッジ…
+10. Click on スタータープログラム完了…
+11. Click on アカウント設計完了…
+12. Click on 講師1on1完了…
+13. Click on ホーム
+14. Click on 追加
+15. Click on SnsClubラジオ視聴
+16. Click on 追加する
+17. Click on 追加
+18. Click on 22時
+19. Click on 自己分析シート
+20. Click on 追加する
+21. Click on 追加
+22. Click on 22時
+23. Click on グルコン参加
+24. Click on 追加する
+25. Click on 展開して操作
+26. Click on 開始
+27. Click on 完了
+28. Click on 繰延
+29. Click on 5/6(水)
+30. Click on 21時
+31. Click on 繰り延べる
+32. Click on 日報提出済み（タップで確認）
+33. Click on コピーする
+34. Click on highlight
+<br/>
+Created with Tango.ai
