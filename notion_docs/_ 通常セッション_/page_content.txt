@@ -1,9 +1,12 @@
 # / 通常セッション_
 
-Notion URL: https://www.notion.so/_-015f3b0fba858374adc58110ef3e91cf
-同期日時: 2026-05-04T00:22:21+09:00
+Notion URL: https://www.notion.so/_-356f3b0fba8580e2ae3bc092daa359af
+同期日時: 2026-05-04T09:58:58+09:00
 
 ---
+
+メモ
+
 
 ｜先週振り返り
 学習進捗確認
