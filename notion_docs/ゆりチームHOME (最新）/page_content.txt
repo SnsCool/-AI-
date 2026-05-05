@@ -1,7 +1,7 @@
 # ゆりチームHOME (最新）
 
-Notion URL: https://app.notion.com/p/HOME-ed5f3b0fba858303bc9d012df46f9893
-同期日時: 2026-04-29T21:45:00+09:00
+Notion URL: https://www.notion.so/HOME-ed5f3b0fba858303bc9d012df46f9893
+同期日時: 2026-05-05T18:48:52+09:00
 
 ---
 
@@ -17,4 +17,4 @@ Notion URL: https://app.notion.com/p/HOME-ed5f3b0fba858303bc9d012df46f9893
 10月22日(木) 21:00〜
 11月25日(水) 10:00〜
 12月23日(水) 21:00〜
-    みんなの自己紹介・ジョインしたら見る資料
+    4  みんなの自己紹介・ジョインしたら見る資料
