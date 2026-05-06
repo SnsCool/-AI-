@@ -1,0 +1,13 @@
+# ⚠️データベース⚠️
+
+Notion URL: https://www.notion.so/358f3b0fba8580e4b1e6d3dacadf5e1d
+同期日時: 2026-05-07T03:43:40+09:00
+
+---
+
+KGI：
+KPI①
+  KDI①
+  KDI②
+  KDI③
+  KDI④

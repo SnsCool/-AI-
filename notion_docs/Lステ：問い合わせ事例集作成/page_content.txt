@@ -1,7 +1,7 @@
 # Lステ：問い合わせ事例集作成
 
-Notion URL: https://app.notion.com/p/L-351f3b0fba8581eebadfcfa0e15bbe04
-同期日時: 2026-04-29T16:03:00+09:00
+Notion URL: https://www.notion.so/L-351f3b0fba8581eebadfcfa0e15bbe04
+同期日時: 2026-05-07T03:45:41+09:00
 
 ---
 
