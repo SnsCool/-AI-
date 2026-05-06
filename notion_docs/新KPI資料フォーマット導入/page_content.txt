@@ -1,0 +1,8 @@
+# 新KPI資料フォーマット導入
+
+Notion URL: https://www.notion.so/KPI-358f3b0fba85816d82c8ca7fb59a7f92
+同期日時: 2026-05-06T21:53:01+09:00
+
+---
+
+(コンテンツなし)

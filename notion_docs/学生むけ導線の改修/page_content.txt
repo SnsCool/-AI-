@@ -1,7 +1,7 @@
 # 学生むけ導線の改修
 
-Notion URL: https://app.notion.com/p/32af3b0fba85818f94d3cca09b14ebc3
-同期日時: 2026-05-01T16:09:40+09:00
+Notion URL: https://www.notion.so/32af3b0fba85818f94d3cca09b14ebc3
+同期日時: 2026-05-06T21:53:19+09:00
 
 ---
 

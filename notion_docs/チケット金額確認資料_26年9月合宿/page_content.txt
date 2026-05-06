@@ -1,13 +1,15 @@
 # チケット金額確認資料_26年9月合宿
 
 Notion URL: https://www.notion.so/_26-9-351f3b0fba8580e48557d6d2588029b5
-同期日時: 2026-05-06T18:59:24+09:00
+同期日時: 2026-05-06T21:52:45+09:00
 
 ---
 
 概要
 経費サマリー
 支出総額：¥30,692,540（税込）
+全体の経費を生徒数で割る計算を再度する
+@小林未侑 再計算をお願いします！
 詳細はスプレッドシート「【SnsClub】イベント管理（制作進行・経費管理） - 26年9月合宿」を参照
 https://docs.google.com/spreadsheets/d/1yBjfIsL2GslNYGB7G_RRzL7-inX8O5y2trqCyqifL4Q/edit?usp=sharing
 生徒1人あたり実費
@@ -24,6 +26,7 @@ https://docs.google.com/spreadsheets/d/1yBjfIsL2GslNYGB7G_RRzL7-inX8O5y2trqCyqif
 ご確認事項
 1. チケットの価格設定
 (a) 有料にするか、無料にするか
+→有料で販売し、もし枠にあまりがあれば、無料抽選にする
 (b) 有料にする場合、いくらに設定するか
 2. 託児費用の扱い
 (a) 託児を有料とする場合の金額

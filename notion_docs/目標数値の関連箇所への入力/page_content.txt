@@ -1,7 +1,7 @@
 # 目標数値の関連箇所への入力
 
-Notion URL: https://app.notion.com/p/331f3b0fba858109972cc7b936eae38b
-同期日時: 2026-05-01T18:42:13+09:00
+Notion URL: https://www.notion.so/331f3b0fba858109972cc7b936eae38b
+同期日時: 2026-05-06T21:53:34+09:00
 
 ---
 

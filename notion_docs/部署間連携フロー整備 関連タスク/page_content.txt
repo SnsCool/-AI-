@@ -1,7 +1,7 @@
 # 部署間連携フロー整備 関連タスク
 
-Notion URL: https://app.notion.com/p/34af3b0fba8581b4a016dbc82168f816
-同期日時: 2026-05-01T18:41:46+09:00
+Notion URL: https://www.notion.so/34af3b0fba8581b4a016dbc82168f816
+同期日時: 2026-05-06T21:53:24+09:00
 
 ---
 
