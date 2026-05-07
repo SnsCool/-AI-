@@ -1,7 +1,7 @@
 # なつみチームHOME 
 
 Notion URL: https://www.notion.so/HOME-2f1f3b0fba85809f9588e7c29555ad18
-同期日時: 2026-05-04T18:54:48+09:00
+同期日時: 2026-05-07T13:22:52+09:00
 
 ---
 
@@ -17,4 +17,5 @@ Notion URL: https://www.notion.so/HOME-2f1f3b0fba85809f9588e7c29555ad18
   ナレッジシェア：さちさん・まなみさん
   AI推進＋運営まわり：もえこさん・はるなさん
   成績入力：みなさん
+なつみ1on1 Timerex :  https://timerex.net/s/-mg-natsumi/a484f211/
     https://shared-beak-b34.notion.site/gemini-2a6f3b0fba8580d4a77cda2b36772c21?pvs=149
