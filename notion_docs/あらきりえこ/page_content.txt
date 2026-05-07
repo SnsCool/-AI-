@@ -1,12 +1,12 @@
 # あらきりえこ
 
 Notion URL: https://www.notion.so/349f3b0fba858005bf0af3153ef7da5e
-同期日時: 2026-04-27T13:29:05+09:00
+同期日時: 2026-05-07T09:59:13+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
-    [ここにアカウントのURLを貼り付]
+    https://www.instagram.com/rieko_artmake_nurse?igsh=MTdkdWdkbmRoZHVsaw%3D%3D&utm_source=qr#
     [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]https://docs.google.com/spreadsheets/d/1L0Jk6c06N5WTlS4aH4Q9RWjrUSfOkctJsOCl4OJYfHI/edit?usp=sharing
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
