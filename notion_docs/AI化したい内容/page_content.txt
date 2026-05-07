@@ -1,12 +1,12 @@
 # AI化したい内容
 
-Notion URL: https://app.notion.com/p/AI-338f3b0fba85804ab133eedeaf7aae4e
-同期日時: 2026-04-29T21:44:43+09:00
+Notion URL: https://www.notion.so/AI-338f3b0fba85804ab133eedeaf7aae4e
+同期日時: 2026-05-07T19:01:17+09:00
 
 ---
 
 提出率を Discord から自動で抽出して数値出せるようにしたい
-2期生から
+5期生から
 受講生の体重と体脂肪率の変化をディスコードから抽出できるようにしたい
 https://docs.google.com/spreadsheets/d/1IxWM7vA0zQDfWJdlUSyfK_cpyGSGcwC5xJ3ig_oI4NQ/edit?usp=sharing
 毎日配信のコンテンツ作成と配信
@@ -92,6 +92,8 @@ https://docs.google.com/spreadsheets/d/1IxWM7vA0zQDfWJdlUSyfK_cpyGSGcwC5xJ3ig_oI
     運動：有無（内容も記載したい）
     排便：有無
     飲酒：有無（量を把握したい）
+    外食：有無
+    睡眠時間：記載
     明日から意識すること
   ↓
   ② Discordスレッドに自動反映（個人ごと）
@@ -108,6 +110,7 @@ https://docs.google.com/spreadsheets/d/1IxWM7vA0zQDfWJdlUSyfK_cpyGSGcwC5xJ3ig_oI
   ・外食（有 / 無）
   ・飲酒（有 / 無＋量）
   ・運動（有 / 無 + 内容）
+  睡眠時間
   ■ 1ヶ月測定（変化チェック）
   ・ウエスト / 腰まわり
   ・体型写真（正面・横）
@@ -178,3 +181,10 @@ https://docs.google.com/spreadsheets/d/1CaNdWiRnr-d5L6qC-_hxxGaUUjYbRTCS/edit?us
     ・間食は200kcal以内を目安にしつつ、無糖ヨーグルト100gやゆで卵1個を組み合わせると血糖値が安定しやすくなります😊
   🌸 ひとこと
   全体的に主食・主菜・野菜のバランスが整っていて、とても良い1日でした👏 特に昼と夜はかなり理想的なので、この形をベースに続けていきましょう✨ 明日は朝食のたんぱく質と野菜を少しプラスして、さらに安定した1日にしていきたいですね😊 〇〇さん、この調子で一緒に頑張っていきましょう🌸
+  提出率の状況（今週末完了）
+  食事提出Googleアンケート状況
+  毎日配信の自動化
+文章考える
+  栄養価計算は現実的にできるのか
+  管理シートはサイトでどんな感じに作成するのか
+  講師全員が見れる・講師MGが確認したいこと
