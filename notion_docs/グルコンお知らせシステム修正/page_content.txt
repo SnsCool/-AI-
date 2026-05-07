@@ -1,7 +1,7 @@
 # グルコンお知らせシステム修正
 
-Notion URL: https://app.notion.com/p/351f3b0fba85815daaacf700b5e15d43
-同期日時: 2026-04-29T16:03:23+09:00
+Notion URL: https://www.notion.so/359f3b0fba85803ca62cf7ee9318964e
+同期日時: 2026-05-07T16:16:36+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # ┗キャンセル待ち募集（キャンセルが出たら）
 
-Notion URL: https://app.notion.com/p/2ddf3b0fba85803489a6c69eb1a9a9c7
-同期日時: 2026-04-29T16:08:05+09:00
+Notion URL: https://www.notion.so/2ddf3b0fba85803489a6c69eb1a9a9c7
+同期日時: 2026-05-07T16:15:46+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # グルコン配信予約設定
 
-Notion URL: https://www.notion.so/354f3b0fba858028829ff9a88ea0b8a8
-同期日時: 2026-05-02T15:53:27+09:00
+Notion URL: https://www.notion.so/359f3b0fba85809282bde8cccf5725e6
+同期日時: 2026-05-07T16:15:53+09:00
 
 ---
 
