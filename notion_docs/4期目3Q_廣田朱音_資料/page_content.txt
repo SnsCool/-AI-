@@ -1,7 +1,7 @@
 # 4期目3Q_廣田朱音_資料
 
 Notion URL: https://www.notion.so/4-3Q_-_-358f3b0fba8580c0b05ae6b358ecf3a9
-同期日時: 2026-05-07T21:50:16+09:00
+同期日時: 2026-05-08T00:50:34+09:00
 
 ---
 
@@ -79,7 +79,7 @@ KSFとは
 （２）クレーム率が高かった講師のクレームを0にした事例をサポートMG全体で横展開
 ２、初期設計段階でのジャンル偏り解消
 【現状の課題】
-【1】全体のジャンル分布
+【1】全体のアカウント設計ジャンル分布
 【2】ジャンルによる万垢達成率の違い
 【参考データ元】
 生徒管理シート：https://docs.google.com/spreadsheets/d/1b3cFR3AhSrGM-ele8UyZC969ghGEi0grg36BzhjJn2o/preview?usp=sharing
