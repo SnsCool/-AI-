@@ -1,13 +1,13 @@
 # たかはしみか　まよA組
 
 Notion URL: https://www.notion.so/A-35af3b0fba8580be937ad3e595d176fe
-同期日時: 2026-05-08T18:41:17+09:00
+同期日時: 2026-05-09T00:39:17+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
-    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    https://docs.google.com/spreadsheets/d/1_H419ljByTyI06areshjUQIjOOPg6XqAJ_iT-2viIyI/edit?gid=1115392524#gid=1115392524
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
     ①初回セッション時、MGと生徒間で誓約書を結ぶ

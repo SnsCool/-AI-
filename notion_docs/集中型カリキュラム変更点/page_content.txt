@@ -1,7 +1,7 @@
 # 集中型カリキュラム変更点
 
-Notion URL: https://www.notion.so/30bf3b0fba8580e89907ef0cd1d644d4
-同期日時: 2026-05-06T13:23:01+09:00
+Notion URL: https://www.notion.so/35af3b0fba85800684b8ed761b330a40
+同期日時: 2026-05-09T00:41:23+09:00
 
 ---
 

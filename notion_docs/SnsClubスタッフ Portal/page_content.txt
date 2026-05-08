@@ -1,7 +1,7 @@
 # SnsClubスタッフ Portal 
 
-Notion URL: https://app.notion.com/p/SnsClub-Portal-c22295977eae4c7fa681d5dc4c7c13b6
-同期日時: 2026-04-30T18:50:56+09:00
+Notion URL: https://www.notion.so/SnsClub-Portal-c22295977eae4c7fa681d5dc4c7c13b6
+同期日時: 2026-05-09T00:40:25+09:00
 
 ---
 
