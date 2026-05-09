@@ -1,7 +1,7 @@
 # 2. 冒頭設計ガイド
 
-Notion URL: https://www.notion.so/2-343f3b0fba858059a2f3d08857b27248
-同期日時: 2026-05-07T18:57:59+09:00
+Notion URL: https://www.notion.so/2-35bf3b0fba85810ab1f6dc25fbc0b2e0
+同期日時: 2026-05-09T21:32:39+09:00
 
 ---
 

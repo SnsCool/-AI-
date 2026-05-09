@@ -1,7 +1,7 @@
 # 4. フォロー率を10倍にするプロフィール設計応用
 
-Notion URL: https://www.notion.so/4-10-343f3b0fba85809e81f0c5d7e03c1dba
-同期日時: 2026-05-07T00:50:27+09:00
+Notion URL: https://www.notion.so/4-10-35bf3b0fba8581bcbaede91ff74c176c
+同期日時: 2026-05-09T21:32:19+09:00
 
 ---
 

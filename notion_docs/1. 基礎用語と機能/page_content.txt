@@ -1,7 +1,7 @@
 # 1. 基礎用語と機能
 
-Notion URL: https://www.notion.so/1-343f3b0fba85800ab6bac0db86bb6ec6
-同期日時: 2026-05-07T00:50:37+09:00
+Notion URL: https://www.notion.so/1-35bf3b0fba85811ea2a9c3565601fc6b
+同期日時: 2026-05-09T21:33:21+09:00
 
 ---
 

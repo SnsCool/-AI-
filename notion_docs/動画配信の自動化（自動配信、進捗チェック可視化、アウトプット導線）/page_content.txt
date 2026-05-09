@@ -1,9 +1,10 @@
 # 動画配信の自動化（自動配信、進捗チェック可視化、アウトプット導線）
 
 Notion URL: https://www.notion.so/33df3b0fba858064b53bf057ef3d4645
-同期日時: 2026-05-09T18:40:05+09:00
+同期日時: 2026-05-09T21:29:18+09:00
 
 ---
 
 https://docs.google.com/spreadsheets/d/1PoOmVRL-R_2fT_OoQAqVqt848BPCJ4ed/edit?gid=820736242#gid=820736242
 これを期生ごとの交流部屋でBOTが配信
+食べ痩せ配信の文章は完了

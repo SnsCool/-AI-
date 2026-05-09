@@ -1,7 +1,7 @@
 # 1. デザインの基礎
 
-Notion URL: https://www.notion.so/1-343f3b0fba8580579b7eebde1a39ff5f
-同期日時: 2026-05-07T00:50:26+09:00
+Notion URL: https://www.notion.so/1-35bf3b0fba8581fd8c80e24bc75f3042
+同期日時: 2026-05-09T21:32:43+09:00
 
 ---
 
