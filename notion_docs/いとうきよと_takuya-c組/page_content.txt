@@ -1,7 +1,7 @@
 # いとうきよと_takuya-c組
 
 Notion URL: https://www.notion.so/_takuya-c-264f3b0fba85806fa427fea364903bd7
-同期日時: 2026-04-27T13:52:42+09:00
+同期日時: 2026-05-09T18:40:35+09:00
 
 ---
 
@@ -37,6 +37,7 @@ Notion URL: https://www.notion.so/_takuya-c-264f3b0fba85806fa427fea364903bd7
     9回目
     10回目
     11回目
+
     12回目
 コミットプラン生徒 全期間タスクまとめ
 【全期間を通して実施】

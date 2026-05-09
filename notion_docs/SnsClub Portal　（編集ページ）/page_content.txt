@@ -1,7 +1,7 @@
 # SnsClub Portal　（編集ページ）
 
 Notion URL: https://www.notion.so/SnsClub-Portal-fbe799af880845c5a9bb15b6faa4357a
-同期日時: 2026-04-24T15:50:58+09:00
+同期日時: 2026-05-09T18:39:53+09:00
 
 ---
 
@@ -512,6 +512,9 @@ SnsClubラジオや特典映像などのインプットと、
     https://canva.link/cac2d5knv9hveg5
     https://docs.google.com/spreadsheets/d/1mqLv3JviTS7r3A3fS6hudjo2kQbsSlcpQJZizWE_zn4/edit?usp=sharing
   26年5月名古屋オフ会
+    https://docs.google.com/spreadsheets/d/18X2kt39N2NUcZopOxiu2aS5Gsu6iLobxlhYA1qHNZnA/edit?usp=sharing参加者リスト
+    https://docs.google.com/spreadsheets/d/1753NAvigRmBFx6x6ETxhzK-Vz-Jfer9ZqPwlVx2gVKk/edit?usp=sharing
+  26年6月東京オフ会
   🌺ジャンル別オフ会
   2026年1月開催（マネタイズオフ会/東京）
     配布用Notion
@@ -523,6 +526,10 @@ SnsClubラジオや特典映像などのインプットと、
   2026年4月：マネタイズ講座オフ会
     https://docs.google.com/spreadsheets/d/1KDb1r3EKhyxOg2BGZHl5C4TE3-1xYioLAH4VGkcqrR4/edit?usp=sharing
     配布Notion
+  2026年5月：エリート限定オフ会
+  🌺採用イベント
+  5月採用イベント
+    https://docs.google.com/spreadsheets/d/1-Ik4tsqMcjscw6Qtr1Y44TFKCEXNVwCSSQFwEjCkvTA/edit?usp=sharing
   🌺エスキャン
   2025年11月プレミアムオフ会
     Untitled 
@@ -654,11 +661,11 @@ SnsClubラジオや特典映像などのインプットと、
     講師から直接フィードバックをもらい、
 同じ目標を持つ仲間とリアルで繋がることができるイベントです！
     当日のプログラム
-    14:00 オフ会スタート
+    オフ会スタート
     🧊アイスブレイクタイム🧊
     🙋アカウント添削・生徒交流タイム🙋
     📝フリータイム📝
-    18:00｜写真撮影・完全撤収
+    写真撮影・完全撤収
     ※当日の進行状況により、スケジュールは一部変更になる場合があります。
     👤こんな方におすすめ
     SNSを本気で伸ばしたい方
