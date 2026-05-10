@@ -1,12 +1,12 @@
 # 【講師向けマニュアル】コーチングセッション　流れ
 
 Notion URL: https://www.notion.so/300f3b0fba85804fae90cdc980d75936
-同期日時: 2026-05-08T03:43:28+09:00
+同期日時: 2026-05-10T13:27:11+09:00
 
 ---
 
 ※流れは「安心 → テーマ設定 → 深掘り → 未来設計 → 行動 → 応援」で設計
-60分コーチングセッション トークスクリプト
+◆60分コーチングセッション トークスクリプト
 ベース；https://docs.google.com/spreadsheets/d/1-5wfnUZH5NsdComqIAOUSthrHku9mnky5yt7OtPteqg/edit?gid=0#gid=0
 0〜5分｜オープニング（安心づくり）
 コーチ
@@ -72,4 +72,4 @@ Notion URL: https://www.notion.so/300f3b0fba85804fae90cdc980d75936
 ⑤ 未来
 ⑥ 行動
 ⑦ 応援
-体験ワーク
+◆体験ワーク
