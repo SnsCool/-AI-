@@ -1,11 +1,10 @@
 # ひろかメモ
 
 Notion URL: https://www.notion.so/305f3b0fba8580bea416d2329fa8e775
-同期日時: 2026-04-12T18:27:30+09:00
+同期日時: 2026-05-11T03:28:25+09:00
 
 ---
 
-https://miro.com/app/board/uXjVJ_EInvU=/
 https://drive.google.com/drive/folders/1klT-yjdncfQpesKvY24ybmPUVyeXU9Iu
 https://docs.google.com/spreadsheets/d/1FZkfI1mofacwTdWHnpWm7N_HK0R9gpzahWFzfqqcHPI/edit?usp=sharing
   サービス名案
@@ -2582,3 +2581,7 @@ CCレモン　モチベーション動画　田中みなみとか
     痩せたいだけじゃない
     コミュニティ要素が本質
     ここ気づけてる人、運営側でも少ない。
+    スプシで1週間管理してボイスメモ
+    1人で100名サポート
+    食事記録
+    カロリー計算
