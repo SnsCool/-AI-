@@ -1,7 +1,7 @@
 # こみやみゆき_cherre_A組
 
 Notion URL: https://www.notion.so/_cherre_A-354f3b0fba8580f0bd98eae96fcfcbb3
-同期日時: 2026-05-03T03:29:00+09:00
+同期日時: 2026-05-10T10:03:16+09:00
 
 ---
 
@@ -24,8 +24,8 @@ Notion URL: https://www.notion.so/_cherre_A-354f3b0fba8580f0bd98eae96fcfcbb3
 マネージャー：[セッション議事録]、講師：[講師1on1]をタップお願いします
 セッション動画・音声記録
 初回セッション
-    1回目
-    2回目
+    伴走セッション２回目
+    伴走セッション３回目
     3回目
     4回目
     5回目
