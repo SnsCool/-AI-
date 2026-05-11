@@ -1,7 +1,7 @@
 # いけぐちあずさ　まろH組
 
 Notion URL: https://www.notion.so/H-25ff3b0fba85807aa14cecfe575472bb
-同期日時: 2026-04-27T13:53:39+09:00
+同期日時: 2026-05-11T22:14:52+09:00
 
 ---
 
@@ -9,7 +9,7 @@ Notion URL: https://www.notion.so/H-25ff3b0fba85807aa14cecfe575472bb
     アカウント⇩
     https://www.instagram.com/ali_natural_sweets?igsh=eWt6ODBpN2x3czM2&utm_source=qr
     アクション管理表⇩
-    https://docs.google.com/spreadsheets/d/1Pj0xRrgtqGo2HHYhQ3n4pDe73Mi9LlPysCnJivOhYBM/edit?gid=0#gid=0
+    https://docs.google.com/spreadsheets/d/1Nk5dhxKAFqCaCzcVkcyp6Wf-c-p0MABvKu9NQdThJy0/edit?usp=sharing
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
     ①初回セッション時、MGと生徒間で誓約書を結ぶ

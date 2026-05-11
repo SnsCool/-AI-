@@ -1,0 +1,67 @@
+# 自己分析セッション担当者リスト
+
+Notion URL: https://www.notion.so/35df3b0fba85800fb1f8f5bd308fd078
+同期日時: 2026-05-11T22:13:16+09:00
+
+---
+
+zoomリンクの発行
+  以下は Zoom Webポータルで「パスワード付き・定期開催リンク」を発行する手順です。画面名は英語UIだと “Meetings / Schedule a Meeting / Recurring meeting / Passcode” のように表示されます。Zoom公式ヘルプでも、Webポータルからは Meetings → Schedule a Meeting → meeting options設定 → Save の流れで作成します。(Zoom)
+  1. Zoom Webポータルにログイン
+  ブラウザでZoomにログインします。
+  左メニューから 「ミーティング」または “Meetings” をクリックします。
+  キャプチャを撮るならここ：
+  左メニューの「Meetings」が見えている画面。
+  2. 「ミーティングをスケジュール」へ進む
+  「ミーティングをスケジュール」または “Schedule a Meeting” をクリックします。Zoom公式の定期ミーティング手順でも、Webポータルでは Meetings → Schedule a Meeting から開始します。(Zoom)
+  キャプチャを撮るならここ：
+  “Schedule a Meeting” ボタンが見えている画面。
+  3. 基本情報を入力
+  入力するものはだいたい以下です。
+  キャプチャ参考： 上の1枚目・2枚目のように、Topic、Date & Time、Time Zone が並ぶ画面です。
+  4. 「定期的なミーティング」にチェック
+  日時設定の近くにある 「定期的なミーティング」または “Recurring meeting” にチェックを入れます。
+  Zoom公式ヘルプでは、Webポータルの Time Zone セクションで Recurring meeting にチェックし、Daily / Weekly / Monthly / No Fixed Time などの繰り返し設定を編集すると説明されています。(Zoom)
+  おすすめ設定はこんな感じです。
+  ただし、Zoom公式ヘルプでは No Fixed Time は今後削除予定のため、可能なら推奨されない とされています。固定の曜日・時間があるなら Weekly などで作るのが無難です。(Zoom)
+  キャプチャ参考： 上の4枚目のように、「定期ミーティング」にチェックが入り、週ごと・曜日・終了日などを選ぶ画面です。
+  5. ミーティングIDは「自動的に生成」がおすすめ
+  Meeting ID / ミーティングID は、基本的に 「自動的に生成」または “Generate Automatically” を選びます。
+  個人ミーティングID、いわゆる PMI を使うと、あなた専用の固定IDに近い扱いになります。初めて定期リンクを作る場合や、外部参加者に配る場合は、セキュリティ面で 自動生成 が無難です。Zoomの認証設定の公式手順でも、ミーティング設定時は Generate Automatically を選ぶ流れが示されています。(Zoom)
+  キャプチャ参考： 上の2枚目・3枚目にある “Meeting ID → Generate Automatically” の部分です。
+  6. 「パスコード」にチェックを入れる
+  Security / セキュリティ のところで、Passcode / パスコード にチェックを入れます。
+  必要なら、右側の入力欄で任意のパスコードに変更できます。
+  Zoom公式ヘルプでは、スケジュール済みミーティングのパスコード編集は Meetings → 対象ミーティング → Edit → Security セクションで Passcode にチェック → Save の流れです。(Zoom)
+  キャプチャ参考： 上の3枚目のように、Security欄で Passcode にチェックが入っている画面です。
+  7. 必要に応じて「待機室」もオン
+  参加者をいきなり入室させたくない場合は、Waiting Room / 待機室 もオンにします。
+  パスコードだけでなく、待機室や認証必須も併用できます。Zoom公式ヘルプでも、Passcode のほか Waiting Room や Require authentication to join を有効化できると説明されています。(Zoom)
+  初めてならおすすめはこれです。
+  8. 「保存」をクリック
+  下までスクロールして 「保存」または “Save” をクリックします。
+  これで定期開催ミーティングが作成されます。
+  キャプチャを撮るならここ：
+  「Save」ボタンを押す直前の画面。あとで確認用に便利です。
+  9. 招待リンクをコピーする
+  保存後、ミーティング詳細画面が表示されます。
+  そこに Invite Link / 招待リンク、Meeting ID / ミーティングID、Passcode / パスコード が表示されます。
+  Zoom公式ヘルプでは、予定されたセッションの情報画面で招待リンク、ミーティングID、パスコードを確認・コピーできると説明されています。(Zoom)
+  参加者に送るときは、以下のように共有すると親切です。
+  毎週のZoomミーティングはこちらです。
+
+参加URL：
+https://zoom.us/j/xxxxxxxxxxx?pwd=xxxxxxxx
+
+ミーティングID：
+xxx xxx xxxx
+
+パスコード：
+xxxxxx
+  10. あとでパスコードを変更したい場合
+  あとから変更する場合は、
+  Meetings → 対象の定期ミーティングをクリック → Edit → Security → Passcodeを編集 → Save
+  で変更できます。Zoom公式ヘルプにもこの流れが記載されています。(Zoom)
+  つまずきやすいポイント
+  参加URLにパスコードが埋め込まれている場合、参加者はURLをクリックするだけで入れることがあります。ただし、別端末でMeeting IDから入る人にはパスコードを聞かれることがあるので、URLだけでなく ミーティングIDとパスコードも一緒に送る のが安心です。
+  「定期開催だけど毎回同じURLにしたい」 場合は、Recurring meeting で作れば同じミーティングとして管理できます。日時が完全に未定なら No Fixed Time もありますが、Zoom公式では今後削除予定とされているため、可能なら週次・月次などで設定するのがよさそうです。(Zoom)

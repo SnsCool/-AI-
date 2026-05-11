@@ -1,11 +1,12 @@
 # 【ローンチ】関連資料
 
 Notion URL: https://www.notion.so/2ccf3b0fba858005b183ca54e4ca7a54
-同期日時: 2026-05-11T03:28:50+09:00
+同期日時: 2026-05-11T22:15:26+09:00
 
 ---
 
 https://docs.google.com/spreadsheets/d/1mgis2fKpsB92aEhglL38Nv12SNkyHmoKs5KZAJXHx9I/edit?gid=1487441004#gid=1487441004
+https://delicate-klepon-d85b0d.netlify.app/
   ローンチスケジュール
   1月16〜18日　ローンチ
   1月17〜31日　個別相談
