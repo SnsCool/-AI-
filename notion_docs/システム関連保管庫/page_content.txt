@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-05-11T10:03:16+09:00
+同期日時: 2026-05-11T13:36:59+09:00
 
 ---
 
@@ -33,7 +33,7 @@ Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
     1日6本作成
     上げるYoutubeアカウントは運営アカウント（info＠）
 未分類
-アーカイブ格納システム確認・修正＋拡張
+アーカイブ格納システム確認・修正＋拡張『注意：昼間の実行のみ』
   共有資料
     本番フォームリンク：
 https://sns-club-portal-production.up.railway.app/
@@ -61,7 +61,7 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
     済：Discode通知変更
     済：特別講義パターンの追加
     済：グルコン・特別講義のサムネ作成方法修正
-    スケジュールと通知文追加
+    済：スケジュールと通知文追加
   テスト中：④CS部へ展開
     基本的な流れは同じらしい、Zoomのアカウントが違うことや、サムネイル画像が違う点に注意が必要。
     https://github.com/SnsCool/cs-movie-archive

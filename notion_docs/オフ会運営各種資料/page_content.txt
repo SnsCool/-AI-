@@ -1,7 +1,7 @@
 # オフ会運営各種資料
 
 Notion URL: https://www.notion.so/1b9f3b0fba8580719c6fcab3a2f0a8f6
-同期日時: 2026-05-05T16:00:27+09:00
+同期日時: 2026-05-11T13:36:17+09:00
 
 ---
 
@@ -2669,8 +2669,7 @@ Gaku　Aka　かな　たつみ　ひろポンプ　慶一（人事参加）
 
 　　名札は、中身はお持ち帰りいただき、外のフォルダーはお近くのテーブルへ置いてください。」
     ⏰18時30分　完全撤収
-  https://docs.google.com/spreadsheets/d/18X2kt39N2NUcZopOxiu2aS5Gsu6iLobxlhYA1qHNZnA/edit?usp=sharing参加者リスト
-  https://docs.google.com/spreadsheets/d/1753NAvigRmBFx6x6ETxhzK-Vz-Jfer9ZqPwlVx2gVKk/edit?usp=sharing
+  https://docs.google.com/spreadsheets/d/1753NAvigRmBFx6x6ETxhzK-Vz-Jfer9ZqPwlVx2gVKk/edit?usp=sharing参加者リスト
 26年6月東京オフ会
     【第１部】
     【第２部】
