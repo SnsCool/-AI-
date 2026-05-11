@@ -1,7 +1,7 @@
 # クラス分けの自動化
 
-Notion URL: https://app.notion.com/p/32cf3b0fba8580538dc1feeb09057a85
-同期日時: 2026-05-01T13:32:01+09:00
+Notion URL: https://www.notion.so/32cf3b0fba8580538dc1feeb09057a85
+同期日時: 2026-05-11T16:28:28+09:00
 
 ---
 

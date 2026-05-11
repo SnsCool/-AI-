@@ -1,7 +1,7 @@
 # 社用携帯導入検討
 
-Notion URL: https://app.notion.com/p/333f3b0fba8581f598c9e2880bd25748
-同期日時: 2026-05-01T13:32:01+09:00
+Notion URL: https://www.notion.so/333f3b0fba8581f598c9e2880bd25748
+同期日時: 2026-05-11T16:28:30+09:00
 
 ---
 
