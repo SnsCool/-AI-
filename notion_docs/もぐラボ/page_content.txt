@@ -1,7 +1,7 @@
 # もぐラボ
 
 Notion URL: https://www.notion.so/236f3b0fba858038be24c05403ad1593
-同期日時: 2026-05-12T03:47:41+09:00
+同期日時: 2026-05-13T06:33:52+09:00
 
 ---
 
@@ -12,6 +12,7 @@ Notion URL: https://www.notion.so/236f3b0fba858038be24c05403ad1593
     https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?usp=sharing
     プロダクト
     マーケ
+    https://docs.google.com/spreadsheets/d/1mgis2fKpsB92aEhglL38Nv12SNkyHmoKs5KZAJXHx9I/edit?usp=sharing
     アフィリエイト
     https://docs.google.com/spreadsheets/d/1IvDUmc4gj7_SqFa_AwxqsZOAWlL1nbONfqy7qM6mnt8/edit?usp=sharing
     営業
