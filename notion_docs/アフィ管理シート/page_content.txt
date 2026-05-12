@@ -1,7 +1,7 @@
 # アフィ管理シート
 
-Notion URL: https://www.notion.so/35df3b0fba858021ac4aec4a567f48df
-同期日時: 2026-05-12T03:47:19+09:00
+Notion URL: https://www.notion.so/35ef3b0fba8580f3aaddf5fa031c7dab
+同期日時: 2026-05-12T13:21:40+09:00
 
 ---
 

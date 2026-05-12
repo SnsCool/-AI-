@@ -1,7 +1,7 @@
 # GitHub/AWSデータ移行進捗確認
 
-Notion URL: https://app.notion.com/p/GitHub-AWS-353f3b0fba8581039487fa4041a38973
-同期日時: 2026-05-01T18:41:50+09:00
+Notion URL: https://www.notion.so/GitHub-AWS-353f3b0fba8581039487fa4041a38973
+同期日時: 2026-05-12T13:26:15+09:00
 
 ---
 

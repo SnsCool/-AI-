@@ -1,9 +1,10 @@
 # 集客ランクに応じたインセンティブ検討
 
 Notion URL: https://www.notion.so/348f3b0fba85816990bfe8868ecc281a
-同期日時: 2026-05-07T03:44:13+09:00
+同期日時: 2026-05-12T13:26:17+09:00
 
 ---
 
-過去ローンチ講師の勉強会申込数の中央値が70件ライン
+集客ランク案
+（ランク名については、S,A…ではなく、プラチナなど名前をつける）
 https://docs.google.com/spreadsheets/d/1fGBWXrFe3lrrJizv_diSNja0geALgd628G0bXtKEtDc/edit?usp=sharing

@@ -1,7 +1,7 @@
 # タスク管理ツール化検討
 
-Notion URL: https://app.notion.com/p/353f3b0fba858163b1e3ede64723d2c3
-同期日時: 2026-05-01T18:42:07+09:00
+Notion URL: https://www.notion.so/353f3b0fba858163b1e3ede64723d2c3
+同期日時: 2026-05-12T13:25:57+09:00
 
 ---
 

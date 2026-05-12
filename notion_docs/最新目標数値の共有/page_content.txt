@@ -1,7 +1,7 @@
 # 最新目標数値の共有
 
-Notion URL: https://app.notion.com/p/353f3b0fba85819f88c6d9f527b8c7de
-同期日時: 2026-05-01T18:42:37+09:00
+Notion URL: https://www.notion.so/353f3b0fba85814b9aa0fee8932a791e
+同期日時: 2026-05-12T13:25:45+09:00
 
 ---
 
