@@ -1,7 +1,7 @@
 # イベント参加者一覧（スプシ）
 
-Notion URL: https://app.notion.com/p/335f3b0fba8580f8bf62e9d0a4874581
-同期日時: 2026-05-02T13:13:55+09:00
+Notion URL: https://www.notion.so/335f3b0fba8580f8bf62e9d0a4874581
+同期日時: 2026-05-12T19:00:12+09:00
 
 ---
 
@@ -11,6 +11,8 @@ https://docs.google.com/spreadsheets/d/1gZItxCCFGuK1IDFsUaKbW8h7V6S9LDYpugcR6N5w
 https://docs.google.com/spreadsheets/d/1z1RPiHCrJdS5rQEJp9ao6j2siLQVZR4Q9zmIeFY64Zs/edit?usp=sharing
 https://docs.google.com/spreadsheets/d/1GZCVVZbbks8mhmJHg4jyaMf2vFlLe85ZL05ZM3uf-AY/edit?gid=1233151935#gid=1233151935
 https://docs.google.com/spreadsheets/d/1mqLv3JviTS7r3A3fS6hudjo2kQbsSlcpQJZizWE_zn4/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1753NAvigRmBFx6x6ETxhzK-Vz-Jfer9ZqPwlVx2gVKk/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1fpBuZ0BPBGGLQjI_sibjP4KCaIpWKjep2vEPvJDq3R4/edit?usp=sharing　6月東京オフ会参加者シート
 🔵ジャンル別オフ会
 https://docs.google.com/spreadsheets/d/1WMS8STY8WdBfSEemG5jUknz63MJdUWGxWcP0ZHsrkRs/edit?gid=0#gid=0
 https://docs.google.com/spreadsheets/d/1FXsJfgyN-dn0t7iOXoIzHoWxQhEr_mGHxlotHdyEnlM/edit?gid=766106508#gid=766106508
