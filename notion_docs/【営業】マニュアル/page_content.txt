@@ -1,7 +1,7 @@
 # 【営業】マニュアル
 
 Notion URL: https://www.notion.so/2ccf3b0fba8580da9192cefc7e69b8e1
-同期日時: 2026-05-11T03:28:41+09:00
+同期日時: 2026-05-13T03:46:00+09:00
 
 ---
 
@@ -1062,6 +1062,8 @@ PW：Leveladiet
     https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=premium003&mailauthckey=e9483952673e47308550cb0dd7597938
     その他の場合
 https://credit.j-payment.co.jp/link/bankcheck?aid=132910&jb=CAPTURE&am=商品金額&tx=0&sf=0&mailauthckey=e9483952673e47308550cb0dd7597938
+    サブスク
+    https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=mogu_mate_01&mailauthckey=e9483952673e47308550cb0dd7597938
     補足
     7日後に自動決済のリトライが2回続く、その後は1ヶ月後に依頼
     180日以内であれば決済取り消し可能　末締めのため、月をまたぐ場合は返金できるが
@@ -1080,3 +1082,13 @@ https://credit.j-payment.co.jp/link/bankcheck?aid=132910&jb=CAPTURE&am=商品金
 営業管理シート
   https://docs.google.com/spreadsheets/d/1bdSmkkQp7DP1OTdt1VJqmT43rQBKnY5LcN3yUXgWgEM/edit?gid=997171970#gid=997171970
   https://docs.google.com/spreadsheets/d/17fHrRXzJ_nmaia6HMPMQpAq3heyBEjM1W3Epy-wSFUk/edit?gid=0#gid=0
+請求書
+  Levela 請求書作成マニュアル 
+↑マニュアルはこちらになります
+  品名
+例）営業_お客様名_ベーシック_一括_カード
+　　営業_お客様名_ベーシック_一括_銀行振込
+　　営業_お客様名_ベーシック_3分割_カード
+　　営業_お客様名_ベーシック_6分割_カード
+  ★10%内税にする→小計と合計を一緒にする
+  ★それぞれの商品名を計算後、インボイス2％計算→経費立替の順に表記する
