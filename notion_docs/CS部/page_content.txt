@@ -1,14 +1,14 @@
 # CS部
 
 Notion URL: https://www.notion.so/CS-1c3f3b0fba858046b33edfc3c5d8050f
-同期日時: 2026-05-11T13:32:14+09:00
+同期日時: 2026-05-13T00:54:08+09:00
 
 ---
 
   Mission（存在意義） ：「そこまでやるか？」をデフォルトに
   Vision（目標） ： SnsClubを長く愛され続けるサービスにする
   Value（行動指針） ：①顧客の声は宝にする　②淡々と数値化　③他責にせず構造と仕組みを見直す
-  KGI（重要目標達成指標） ：万垢達成率15％　（KGIとKPI ）
+  KGI（重要目標達成指標） ：万垢達成率20％　（KGIとKPI ）
     CS部 
     部門MTG
     https://docs.google.com/spreadsheets/d/1puBKH3Vo0nVJ3yZOUfttZXISwYDOwhQzsrMgWeTsDwM/edit?usp=sharing
