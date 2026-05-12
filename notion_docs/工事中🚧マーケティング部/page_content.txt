@@ -1,7 +1,7 @@
 # 工事中🚧マーケティング部
 
 Notion URL: https://www.notion.so/2aef3b0fba85808ea375ce346cb863a8
-同期日時: 2026-05-12T18:59:16+09:00
+同期日時: 2026-05-12T21:55:13+09:00
 
 ---
 
@@ -13,5 +13,6 @@ Notion URL: https://www.notion.so/2aef3b0fba85808ea375ce346cb863a8
     ⚙️Lstep関連
     📗マニュアル倉庫
     Untitled 
+    🧒採用
     📗他部署↔︎マーケ関連
     小野寺メモ
