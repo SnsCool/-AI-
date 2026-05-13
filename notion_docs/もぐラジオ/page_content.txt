@@ -1,11 +1,8 @@
 # もぐラジオ
 
-Notion URL: https://www.notion.so/35df3b0fba858023b6e2f726cd98e74b
-同期日時: 2026-05-13T06:33:55+09:00
+Notion URL: https://www.notion.so/35ef3b0fba8580f0b825e2e8c00eaea0
+同期日時: 2026-05-13T10:03:07+09:00
 
 ---
 
-タスクの説明
-タスクの概要と関連する詳細を提供します。
-サブタスク
-サポートファイル
+マインド配信　 
