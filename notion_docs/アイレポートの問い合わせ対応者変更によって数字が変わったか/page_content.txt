@@ -1,7 +1,7 @@
 # アイレポートの問い合わせ対応者変更によって数字が変わったか
 
-Notion URL: https://app.notion.com/p/351f3b0fba8581e8bf7bc023ef29665a
-同期日時: 2026-04-29T16:03:32+09:00
+Notion URL: https://www.notion.so/349f3b0fba8580d992a1cf8abeb7c034
+同期日時: 2026-05-13T13:29:12+09:00
 
 ---
 

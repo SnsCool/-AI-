@@ -1,0 +1,31 @@
+# SnsClubアプリ化
+
+Notion URL: https://www.notion.so/SnsClub-35df3b0fba8580459464c67227a7cf06
+同期日時: 2026-05-13T13:29:00+09:00
+
+---
+
+リセットしてやり直していいか
+データは保管しておきます
+GitHubの見せない件について（ひろしさんに確認）
+最新のものは共有いただけます。
+更新した履歴も含めて欲しかった。
+最新のものだけ。
+＿
+打ち合わせを日程調整する
+Snsclubアプリについて
+外注先からもらった状態は、以下のリンクから確認できます！
+『生徒用ページ』
+https://web.gritstudy-stg.com/
+生徒ユーザー
+ID:test-student-09@gmail.com
+PW:password
+講師ユーザー
+ID:test-instructor-08@gmail.com
+PW:password
+
+『管理用ページ』
+https://gritstudy-stg.com/auth/login
+管理者ユーザー
+ID:test-admin-02@gmail.com
+PW:password

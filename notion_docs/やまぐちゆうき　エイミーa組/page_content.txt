@@ -1,7 +1,7 @@
 # やまぐちゆうき　エイミーa組
 
 Notion URL: https://www.notion.so/a-336f3b0fba858080bc0dea1e64dd1b41
-同期日時: 2026-04-27T13:31:48+09:00
+同期日時: 2026-05-13T13:26:38+09:00
 
 ---
 
@@ -27,6 +27,7 @@ Notion URL: https://www.notion.so/a-336f3b0fba858080bc0dea1e64dd1b41
 初回セッション
 ※最初のセッションの説明箇所の録画忘れ。後半からの録画のみ格納
     1回目
+    https://file.notion.so/f/f/89e6f4ed-ae9b-4395-871a-0c505f895ff0/6fee67b3-2051-4ea7-b743-e427405b61cc/GMT20260415-050943_Recording_1760x900.mp4?table=block&id=347f3b0f-ba85-8092-a523-f13a2788cadc&spaceId=89e6f4ed-ae9b-4395-871a-0c505f895ff0&expirationTimestamp=1778716800000&signature=c3R68Bh9-iRHS28RncshsBAqD9HWpYoeDaewbfEINoo&downloadName=GMT20260415-050943_Recording_1760x900.mp4
     2回目
     3回目
     4回目
