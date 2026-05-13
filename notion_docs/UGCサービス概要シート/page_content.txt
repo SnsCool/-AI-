@@ -1,7 +1,7 @@
 # UGCサービス概要シート
 
 Notion URL: https://www.notion.so/UGC-35ff3b0fba8580cdbb38cddba9b7c2dc
-同期日時: 2026-05-13T18:59:32+09:00
+同期日時: 2026-05-13T21:56:56+09:00
 
 ---
 
