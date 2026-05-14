@@ -1,14 +1,17 @@
 # 【簡単】個別相談マニュアル
 
 Notion URL: https://www.notion.so/356f3b0fba85802aa4b5eceffd657c9a
-同期日時: 2026-05-14T10:04:19+09:00
+同期日時: 2026-05-14T16:14:07+09:00
 
 ---
 
-トップセールスの商談をもとに、時短トークスクリプトの完全版を作成しています。
+トップセールスの商談をもとに、簡単トークスクリプトの完全版を作成しました。
 以下の内容は必ず伝えてください。
 サービス説明については、基本的にここに記載されている内容のみで十分です。
-それ以外のことは話さないでください！時短！！
+それ以外のことは話さないでください！成約！！
+とにかく！
+下記の内容は、面談時に言えてないとダメくらいなので、確実に押さえてください！
+赤字はとにかく大事です！
   ⚠️編集禁止
   ⚠️スクリプト見ながらのアポ禁止
   ↳台本読んでいる感、ぎこちなさ感がでてしまいます。
@@ -16,6 +19,28 @@ Notion URL: https://www.notion.so/356f3b0fba85802aa4b5eceffd657c9a
 トピックごとに記載のある【意識ポイント】をインプットして、トークを丸暗記してください。
 成約率高い人は全員自分のものにできています！
 難しい場合は、流れだけ分かる簡易的なメモ程度にしてください。
+ももさん成約動画解説＜必ず視聴＞
+  ※フォロワー単価が「１フォロワー5円」などのように現在のコンプラルールでNGとなってる表現については現在のコンプラルールを遵守でお願いいたします
+  ★1回目成約動画解説
+  ▼FB動画
+https://tldv.io/app/meetings/68da7e391a82d40013635abc/
+  ▼FBnotebookLM
+https://notebooklm.google.com/notebook/72378ec3-ab9c-4b80-a300-24a0ec74350a
+  ▼FB概要
+https://lightning-shad-a33.notion.site/FB-27dcdc5d8d2480858196d3535a483781?pvs=73
+  ▼元データ
+  https://drive.google.com/file/d/1SkOee4HG-MA-5P4XctAMJW1wp4ckXjLx/view
+  ★2回目成約動画解説
+  ▼FB動画
+  https://tldv.io/app/meetings/68dbbac076700300130a8939/
+▼FBnotebookLM
+https://notebooklm.google.com/notebook/b65f1e39-a049-4bfe-bec2-08dc874b9f82
+▼FB概要
+https://lightning-shad-a33.notion.site/FB-27ecdc5d8d24808993c7f951f3ce8ca0?pvs=73
+  ▼元データ
+  https://drive.google.com/file/d/1eiknV_Hyr4-IolCE_iboB8rcAeOSeoO_/view
+安藤意識ポイント＜必ず視聴＞
+  https://lightning-shad-a33.notion.site/1d0cdc5d8d24808aa5cfec0165858214
   ★前提のスタンス
 お客さんとの対話を通じて課題（悩み）を共に発見し、解決策を一緒に考える
 徹底したヒアリングと現状把握
