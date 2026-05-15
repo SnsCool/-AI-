@@ -1,7 +1,7 @@
 # 競合分析
 
 Notion URL: https://www.notion.so/255f3b0fba85805b8a2fc0dc5bded66c
-同期日時: 2026-04-04T18:19:43+09:00
+同期日時: 2026-05-16T06:29:58+09:00
 
 ---
 
@@ -237,3 +237,5 @@ https://diet.healthfit.co.jp/last-diet/
 https://mariness.jp/blogs/mariness-program
 https://classpass.co.jp/plans
 https://www.youtube.com/@noga/videos
+https://bellelifestyle.net/page/91
+https://blog.btrax.com/jp/logo-trends/

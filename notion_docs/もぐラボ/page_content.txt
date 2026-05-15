@@ -1,14 +1,12 @@
 # もぐラボ
 
 Notion URL: https://www.notion.so/236f3b0fba858038be24c05403ad1593
-同期日時: 2026-05-14T16:12:56+09:00
+同期日時: 2026-05-16T06:28:00+09:00
 
 ---
 
     運営
-    https://www.canva.com/design/DAHCBAj5Q7o/WBobhPlZTewd1p8MpAFjmg/edit?utm_content=DAHCBAj5Q7o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
     事業
-    https://docs.google.com/spreadsheets/d/1T7P4k-WSXBx-0WuflYWpCMMYofJ_FKJmTldZAgd7I8M/edit?gid=737377661#gid=737377661
     https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?usp=sharing
     プロダクト
     マーケ
@@ -19,5 +17,5 @@ Notion URL: https://www.notion.so/236f3b0fba858038be24c05403ad1593
     https://docs.google.com/spreadsheets/d/1bdSmkkQp7DP1OTdt1VJqmT43rQBKnY5LcN3yUXgWgEM/edit?usp=sharing
     講師
     CS
-    その他
+    人事
     メモ
