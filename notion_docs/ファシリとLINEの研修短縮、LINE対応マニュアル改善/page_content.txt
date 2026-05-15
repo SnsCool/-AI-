@@ -1,7 +1,7 @@
 # ファシリとLINEの研修短縮、LINE対応マニュアル改善
 
 Notion URL: https://www.notion.so/LINE-LINE-35ef3b0fba858187a510fb1ec2dda233
-同期日時: 2026-05-15T06:32:38+09:00
+同期日時: 2026-05-15T10:00:38+09:00
 
 ---
 
