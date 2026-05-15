@@ -1,7 +1,7 @@
 # SnsClub実績バナー
 
 Notion URL: https://www.notion.so/SnsClub-34df3b0fba858125847bda67b8cf05ae
-同期日時: 2026-05-13T00:56:30+09:00
+同期日時: 2026-05-15T18:58:30+09:00
 
 ---
 
@@ -15,3 +15,5 @@ Notion URL: https://www.notion.so/SnsClub-34df3b0fba858125847bda67b8cf05ae
 人・収益化
     ④本文
     意図：カテゴリとビフォアフ入れた方が、文字より実績がわかりやすいと思うので見やすい構成にしたいです
+    参考になりそうなサイト
+    https://talent.asobinext.com/v4/

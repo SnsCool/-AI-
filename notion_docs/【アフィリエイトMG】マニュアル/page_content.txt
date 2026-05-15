@@ -1,7 +1,7 @@
 # 【アフィリエイトMG】マニュアル 
 
 Notion URL: https://www.notion.so/MG-333f3b0fba85804db979d6148455910e
-同期日時: 2026-04-24T18:43:39+09:00
+同期日時: 2026-05-15T18:58:39+09:00
 
 ---
 
@@ -31,3 +31,6 @@ https://drive.google.com/drive/folders/1NE4IBf6Af-N74MxxWRaRa5slu4bEMqyy?usp=dri
 ローンチ3〜4週間前に1on1面談
 ┗課題を行ってもらう。
 ストーリーズ教育開始前に2回目1on1面談
+参考クリエイティブ
+┗SnsClubのローンチのものを
+https://canva.link/0flkyj44po1ldfz
