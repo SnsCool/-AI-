@@ -1,7 +1,7 @@
 # 【講師】関連資料
 
 Notion URL: https://www.notion.so/307f3b0fba8580bd9cd7dfa9581e0d4f
-同期日時: 2026-05-16T06:28:35+09:00
+同期日時: 2026-05-16T21:33:08+09:00
 
 ---
 
@@ -1919,6 +1919,7 @@ https://docs.google.com/spreadsheets/d/1BT-cU6ayZCqXVr31xsNobFhZBIRkJtNTA62HNcRC
 応援メッセージやマインド系がお勧め
   グルコンのアーカイブはこちらから見れます！
 アーカイブ格納部屋 
+    https://drive.google.com/file/d/1k-bKbNyPBl0sDQBCTECqrDCp-QA2ikp3/view?usp=drivesdk
     2期生bチーム:こんたにちづるさん
     全体的に低脂質・野菜が多め
     🥞朝ごはん(7:20)
