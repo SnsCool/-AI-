@@ -1,19 +1,19 @@
 # おおつぼかおりさん（ゆあｂ組）
 
 Notion URL: https://www.notion.so/360f3b0fba858007932ecc3ec33748b8
-同期日時: 2026-05-14T13:26:12+09:00
+同期日時: 2026-05-16T15:56:03+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
-    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    [https://docs.google.com/spreadsheets/d/11XdT3NM0CkKYPY8-xhT3QgwU3CygRKsEHivu_E89aGA/edit?gid=2023504424#gid=2023504424]
     📜 | 誓約書
-    [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
+    [https://docs.google.com/spreadsheets/d/1jIm7vrZi0qGEyXi2T-E_RLIkd0WRtN3lGrKHx4dskfM/edit?gid=0#gid=0]
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
     ②誓約書はPDFにして生徒さんへ送付
     ▼講師1on1　予約用timerex▼
-    https://timerex.net/s/eriz.eriz23_9abb/034b793d
+    ゆあさん 1 on 1用
     生徒メアド：
     １回目：第２回（初期設計1on1）〜第４回講義 
 ２回目：第４回講義〜第６回講義：
