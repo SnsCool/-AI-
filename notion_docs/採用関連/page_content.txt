@@ -1,7 +1,7 @@
 # 採用関連
 
 Notion URL: https://www.notion.so/340f3b0fba8580719bc1dbb77b57eabe
-同期日時: 2026-05-16T06:29:24+09:00
+同期日時: 2026-05-16T09:57:42+09:00
 
 ---
 
@@ -18,7 +18,7 @@ https://docs.google.com/spreadsheets/d/1nwSfKzSkDBgheB2o0eEgAyROGs-0NgCAh-sBtsu7
   6月：60名（さりな10名・まりな5名・つき5名・くりこ5名・はなよ5名 ・まな5名・すみ5名・のの5名）
   7月：80名（さりな10名・まりな5名・つき5名・くりこ5名・はなよ5名 ・のの5名・まな5名・すみ）
   講師採用候補
-  ひろみ・きよと・あき
+  あき、はるか
   講師採用：80名を持つ講師
   ⭕️ さりな：月10名・MAX30名
   ⭕️ まりな：月5名・MAX15名
@@ -30,7 +30,6 @@ https://docs.google.com/spreadsheets/d/1nwSfKzSkDBgheB2o0eEgAyROGs-0NgCAh-sBtsu7
   ⭕️ まなさん：月5名・MAX15名
   ⭕️ ののさん：月5名・MAX15名
   あきさん：月5名・MAX15名
-  ひなたさん：月5名・MAX15名
   ◯さん：初月5名・MAX15名
   ◯さん：初月5名・MAX15名
   ◯さん：初月5名・MAX15名
@@ -92,11 +91,10 @@ https://docs.google.com/spreadsheets/d/1nwSfKzSkDBgheB2o0eEgAyROGs-0NgCAh-sBtsu7
   https://discord.gg/87zjZTPEgY
   └まとめてZOOM説明会 or 説明動画の配布
   └少なければ個別面談で対応
-https://docs.google.com/spreadsheets/d/1iS8KGj6McNj2kLrDA8BxZrY2kKDlllpzuJcUZSMGPWw/edit?usp=sharing
-https://docs.google.com/spreadsheets/d/1iS8KGj6McNj2kLrDA8BxZrY2kKDlllpzuJcUZSMGPWw/edit?resourcekey=&gid=752459308#gid=752459308
 https://docs.google.com/forms/d/e/1FAIpQLSeSFOAvsmKf6W0JCC0SiorIBaLYJSOnYv2RU-Pg1SU3vYDjaQ/viewform
-https://docs.google.com/document/d/11lqdkQkKDIkSAb4t3M4XQecUbq3n9_61Tm9CWQc7Z64/edit?tab=t.0
-https://docs.google.com/document/d/1VF10TCM-PSt0RUa9ZcXT7llshOA2HfBXmFJK2PrUv4U/edit?tab=t.21xi93acq1cg
+https://docs.google.com/spreadsheets/d/1iS8KGj6McNj2kLrDA8BxZrY2kKDlllpzuJcUZSMGPWw/edit?usp=sharing
+業務委託契約書
+https://docs.google.com/document/d/1VF10TCM-PSt0RUa9ZcXT7llshOA2HfBXmFJK2PrUv4U/edit?tab=t.o2jkf0tkt7w7
   アフィリエイター
   └ 成約報酬　2万（税込） （プラン・決済方法問わず一律）
   営業
