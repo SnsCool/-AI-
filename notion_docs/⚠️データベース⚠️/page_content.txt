@@ -1,16 +1,12 @@
 # ⚠️データベース⚠️
 
 Notion URL: https://www.notion.so/358f3b0fba8580e4b1e6d3dacadf5e1d
-同期日時: 2026-05-07T06:32:11+09:00
+同期日時: 2026-05-16T18:38:50+09:00
 
 ---
 
-KGI：
-KPI①
-  KDI①
-  KDI②
-  KDI③
-  KDI④
+KGI：成約数 590件
+KPI① 勉強会申込率 55%
 KPI②
   KDI①
   KDI②

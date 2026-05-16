@@ -1,7 +1,7 @@
 # すがのまりえ_ゆのC組
 
 Notion URL: https://www.notion.so/_-C-32ef3b0fba8580f78c59d965cc44c2ed
-同期日時: 2026-04-27T13:33:26+09:00
+同期日時: 2026-05-16T18:37:59+09:00
 
 ---
 
@@ -27,6 +27,7 @@ Notion URL: https://www.notion.so/_-C-32ef3b0fba8580f78c59d965cc44c2ed
 初回セッション
     1回目
     2回目
+    自動格納済
     3回目
     4回目
     5回目

@@ -1,7 +1,7 @@
 # すぎうらゆい_つきE組
 
 Notion URL: https://www.notion.so/_-E-30af3b0fba85801f969fdcdbf969ceef
-同期日時: 2026-04-27T13:37:46+09:00
+同期日時: 2026-05-16T18:37:44+09:00
 
 ---
 
@@ -29,7 +29,9 @@ Notion URL: https://www.notion.so/_-E-30af3b0fba85801f969fdcdbf969ceef
 
     2回目
     3回目
+    自動格納
     4回目
+    自動格納
     5回目
     6回目
     7回目

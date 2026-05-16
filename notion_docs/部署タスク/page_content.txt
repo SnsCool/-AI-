@@ -1,7 +1,7 @@
 # 部署タスク
 
 Notion URL: https://www.notion.so/308f3b0fba8580e9b82edde5c7574750
-同期日時: 2026-05-07T06:32:04+09:00
+同期日時: 2026-05-16T18:39:34+09:00
 
 ---
 
@@ -758,21 +758,17 @@ Notion URL: https://www.notion.so/308f3b0fba8580e9b82edde5c7574750
     CS KPIツリー
 万垢達成率15%
 ┗
-  KGI：
-  KPI①
-    KDI①
-    KDI②
-    KDI③
-    KDI④
+  KGI：成約数 590件
+  KPI① 勉強会申込率 55%
   KPI②
     KDI①
     KDI②
     KDI③
     KDI④
   KGI：申込数6,572件
-  KPI①：3,000件
-    KDI①：
-    KDI②
+  KPI①：前半申込数3,000件
+    KDI①：大タスク
+    KDI②：
     KDI③
     KDI④
   KPI②：3,572件
