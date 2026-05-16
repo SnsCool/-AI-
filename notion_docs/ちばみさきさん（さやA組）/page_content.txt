@@ -1,15 +1,15 @@
 # ちばみさきさん（さやA組）
 
 Notion URL: https://www.notion.so/A-361f3b0fba8580179480ff6bc07accc2
-同期日時: 2026-05-15T13:28:06+09:00
+同期日時: 2026-05-17T03:50:53+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
-    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    [https://docs.google.com/spreadsheets/d/14PaXW5WXBkch3U5GwHt_AXgKaHH6HMPkQLpOOehvpqI/edit?gid=1382907759#gid=1382907759]
     📜 | 誓約書
-    [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
+    [https://docs.google.com/spreadsheets/d/1-IaxRHRujzgIIlHActJbuaeoFhG7V_mwM8TYQU5908U/edit?gid=0#gid=0]
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
     ②誓約書はPDFにして生徒さんへ送付
     ▼講師1on1　予約用timerex▼
