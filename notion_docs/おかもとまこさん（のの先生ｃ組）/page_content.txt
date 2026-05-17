@@ -1,12 +1,12 @@
 # おかもとまこさん（のの先生ｃ組）
 
 Notion URL: https://www.notion.so/353f3b0fba8580568607eb034dbbe023
-同期日時: 2026-05-08T15:47:17+09:00
+同期日時: 2026-05-18T03:29:43+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
-    [ここにアカウントのURLを貼り付]
+    [https://www.instagram.com/moca_ikuji/]
     [https://docs.google.com/spreadsheets/d/1_skDopNmQYtXvKYcLbjKel0VDz2eqSJuM035sp6IdCw/edit?gid=1382907759#gid=1382907759]
     📜 | 誓約書
     [https://docs.google.com/spreadsheets/d/1yArxR72ULtAhDeq47Hxs2aA3un21WcYO6pfH1wDdjF4/edit?gid=0#gid=0]
@@ -24,7 +24,6 @@ Notion URL: https://www.notion.so/353f3b0fba8580568607eb034dbbe023
 下記ボタンをクリックし、議事録の作成をお願いします。
 マネージャー：[セッション議事録]、講師：[講師1on1]をタップお願いします
 セッション動画・音声記録
-初回セッション
     1回目
     2回目
     3回目
