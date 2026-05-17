@@ -1,7 +1,7 @@
 # モニターc組
 
 Notion URL: https://www.notion.so/c-348f3b0fba85803d8cead32f1fa5f8c7
-同期日時: 2026-04-22T18:43:51+09:00
+同期日時: 2026-05-17T13:30:09+09:00
 
 ---
 
@@ -10,8 +10,8 @@ Notion URL: https://www.notion.so/c-348f3b0fba85803d8cead32f1fa5f8c7
 使用テキスト：https://fuka2222.github.io/maji-ai-book/%E7%AC%AC1%E7%AB%A0.html
 3コマ目：4/21
 使用テキスト：https://fuka2222.github.io/maji-ai-book/%E7%AC%AC1%E7%AB%A0.html
-4コマ目：3/20 20:30〜23:00
-5コマ目：3/25 20:00〜22:30
-6コマ目：3/26 20:00〜22:30
+4コマ目：4/22 21:00〜23:00
+5コマ目：5/11 10:00〜12:30
+6コマ目：5/13 10:00〜12:30
 7コマ目：3/27 20:00〜22:00
 8コマ目：個別セッション
