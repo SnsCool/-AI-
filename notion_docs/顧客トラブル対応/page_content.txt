@@ -1,7 +1,7 @@
 # 顧客トラブル対応
 
-Notion URL: https://www.notion.so/35ff3b0fba85819892f3dffc2aebd199
-同期日時: 2026-05-13T16:20:39+09:00
+Notion URL: https://www.notion.so/35ff3b0fba8581f88531f0db542a880c
+同期日時: 2026-05-17T16:12:34+09:00
 
 ---
 
