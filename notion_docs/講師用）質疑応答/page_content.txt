@@ -1,7 +1,7 @@
 # 講師用）質疑応答
 
 Notion URL: https://www.notion.so/362f3b0fba8580f28e28c7b185519fae
-同期日時: 2026-05-17T16:09:49+09:00
+同期日時: 2026-05-18T00:28:28+09:00
 
 ---
 
@@ -22,3 +22,5 @@ https://www.notion.so/36361b3cc2e780fd87f6feaaa3664a05?showMoveTo=true&saveParen
 何かご不明点等ございましたら、お気軽にお寄せください。
 ■マニュアル
 https://www.notion.so/36361b3cc2e780fd87f6feaaa3664a05?source=copy_link
+■候補者
+https://docs.google.com/document/d/1VMPq20INiRyZl1wnqQ3MMNQ7mo8saCU8AvRGziFvrSA/edit?usp=sharing

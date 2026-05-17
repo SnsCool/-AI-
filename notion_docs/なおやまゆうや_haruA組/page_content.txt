@@ -1,13 +1,13 @@
 # なおやまゆうや_haruA組
 
-Notion URL: https://app.notion.com/p/_haruA-353f3b0fba85802585adf022b34f1371
-同期日時: 2026-05-01T16:09:49+09:00
+Notion URL: https://www.notion.so/_haruA-353f3b0fba85802585adf022b34f1371
+同期日時: 2026-05-18T00:28:58+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
-    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    https://docs.google.com/spreadsheets/d/1nE7ySdzjQYyGPvf8lZaVrxFzRS01N07gYuzg2fThkoU/edit?usp=sharing
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
