@@ -1,7 +1,7 @@
 # SnsClubマネタイズ講座スタッフPortal
 
 Notion URL: https://www.notion.so/SnsClub-Portal-24ff3b0fba8580dfa9d7c6a5e9b222da
-同期日時: 2026-05-13T16:15:03+09:00
+同期日時: 2026-05-19T01:13:31+09:00
 
 ---
 
@@ -699,48 +699,56 @@ LINE導線構築編 - レッスン予約
 大きく環境が変わる機会になります。
 
 お話しできることを楽しみにしております！
+  
+・マネタイズ講座にはコーチングセッションは無い
+・グルコンへの参加・質問発言に制限はないため共同運用者の方も質問可能
+・共同運用者として登録できるのは1名のみのため、
+　Discordに入室できるのは契約者と共同運用者1名のみ
+
 🔴マネタイズ生徒用Portal
 
 マネタイズ講座の概要と目的
 概要：マネタイズを強化し、発信者として自立するための講座。
 立ち上げ目的：顧客満足度とLTVの最大化。マネタイズまでSnsclubで一気通貫で支援できる体制があると、顧客からの安心感と信頼に繋がり、外部向けに伝える実績もより強固なものになる。収入の面でも、「人生を変える」を体現する。
 講師アサイン、報酬について
-マネタイズ講師の必須条件：
-フォロワー数1万人越えかつ、6ヶ月以上継続して月100万以上収益が立っている方。
-マネタイズ講師の報酬：
-グルコン登壇報酬(2時間)：1回10,000円(税込)
-エリートコース1名受け持ちで月3万円(税込)。
-残りは生徒様の出した成果に基づいたインセンティブ。
-インセンティブ内容(毎月変動)
-成長収益額30万以上⇨1名につき3万
-成長収益額50万以上⇨1名につき5万
-成長収益額70万以上⇨1名につき7万
-成長収益額100万以上⇨1名につき一律10%
-※成長収益の定義：サポート開始後の毎月の収益額-サポート開始前3ヶ月分の平均月収
+  マネタイズ講師の必須条件：
+  フォロワー数1万人越えかつ、6ヶ月以上継続して月100万以上収益が立っている方。
+  マネタイズ講師の報酬：
+  グルコン登壇報酬(2時間)：1回10,000円(税込)
+  エリートコース1名受け持ちで月3万円(税込)。
+  残りは生徒様の出した成果に基づいたインセンティブ。
+  インセンティブ内容(毎月変動)
+  成長収益額30万以上⇨1名につき3万
+  成長収益額50万以上⇨1名につき5万
+  成長収益額70万以上⇨1名につき7万
+  成長収益額100万以上⇨1名につき一律10%
+  ※成長収益の定義：サポート開始後の毎月の収益額-サポート開始前3ヶ月分の平均月収
 経費負担について
-講師が地方オフ会の参加sには交通費を全額負担で
+  講師が地方オフ会の参加する際には交通費を全額負担。
+  一旦ご自身で立て替えていただいて、請求書にて経費精算。
 ㊗️採用決定講師一覧㊗️
-ちゃみさん
-https://www.instagram.com/chami_128kgdiet?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
-ゆきへい夫婦さん
-https://www.instagram.com/yukihei_kurashi/
-はなこさん
-https://www.instagram.com/yaseru_hanako?igsh=NHlyanBkaDl6MDF5
-じゅんさん
-https://www.instagram.com/kitagohan_insta/
-かりんさん
-https://www.instagram.com/karin_beauty_diet/
-みくぽんさん
-https://www.instagram.com/mikupon3/
-たっちーさん
-https://www.instagram.com/tachi.teacher?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D
-堤さん
-https://www.instagram.com/money_wota/
-講師一覧表
-https://www.canva.com/design/DAHEEwTak80/ixSwjdgfePIGzIFlSXjz7A/edit
-1on1資料(SnsClub生徒様向け)
+  ちゃみさん
+  https://www.instagram.com/chami_128kgdiet?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
+  ゆきへい夫婦さん
+  https://www.instagram.com/yukihei_kurashi/
+  はなこさん
+  https://www.instagram.com/yaseru_hanako?igsh=NHlyanBkaDl6MDF5
+  じゅんさん
+  https://www.instagram.com/kitagohan_insta/
+  かりんさん
+  https://www.instagram.com/karin_beauty_diet/
+  みくぽんさん
+  https://www.instagram.com/mikupon3/
+  たっちーさん
+  https://www.instagram.com/tachi.teacher?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D
+  堤さん
+  https://www.instagram.com/money_wota/
+  講師一覧表
+  https://www.canva.com/design/DAHEEwTak80/ixSwjdgfePIGzIFlSXjz7A/edit
+1on1資料
+  SnsClub生徒様向け
 https://www.canva.com/design/DAHC-h8U2Eo/O4Mz28I9JhZONXZstXqRuA/edit?utm_content=DAHC-h8U2Eo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-1on1資料(外部向け)
+  外部向け
 https://www.canva.com/design/DAHAyr9uC-A/iq0WF6TcFNYgb0mgn-3feg/edit?utm_content=DAHAyr9uC-A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 契約書
 ライトコースの利用規約
