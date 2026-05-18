@@ -1,7 +1,7 @@
 # アフィ案件MTG
 
-Notion URL: https://app.notion.com/p/MTG-2c3f3b0fba8580a9aaeccd100260551a
-同期日時: 2026-05-01T21:32:13+09:00
+Notion URL: https://www.notion.so/MTG-2c3f3b0fba8580a9aaeccd100260551a
+同期日時: 2026-05-18T13:36:01+09:00
 
 ---
 
@@ -51,7 +51,6 @@ Notion URL: https://app.notion.com/p/MTG-2c3f3b0fba8580a9aaeccd100260551a
   朝バタバタでも便利訴求、たんぱく質大事だよ、アレンジストーリー
   次回ローンチ訴求
   朝ごはんの代わりになる、
-インサイトがまだない
   アカウント　（ゆなさん）
 年齢　　25-34  　 16.3 
   　　　　35-44　　40.6
@@ -97,7 +96,6 @@ Notion URL: https://app.notion.com/p/MTG-2c3f3b0fba8580a9aaeccd100260551a
   インサイト
     https://docs.google.com/spreadsheets/d/1-62sS0URYrpSEowWz_Pg52ibKydanf4pMvHAfwTb5hg/edit?usp=drivesdk
 購入数：0件
-デザインから問題あり
   アカウント（しょうけんさん）マネタイズ講座
 年齢　　25-34  　  5.3
   　　　　35-44　　21.3
@@ -684,6 +682,7 @@ https://docs.google.com/spreadsheets/d/11MZziqmhhUW0qyMRAEbuDkCs4qoJLm8mzaYfzS67
   4%
   『訴求方法』
   おつまみ美味しくて食べすぎちゃった、みんなにおいしいの届けようと試作してたら太った
+  5月ローンチ
   みおな講師/マネタイズライトコース
   『案件』
   楽天アフィ:数件
@@ -843,6 +842,7 @@ https://drive.google.com/drive/folders/1QOBJ7iwJs33hIF4w3cU42OHrX2FxELZr
   
 『訴求方法』
   美容との掛け合わせでタンパク質が不足すると肌が老けやすくなったり
+  5月ローンチ
   年齢層高めで50-60代多い
   『案件』
   リセット：0件
@@ -879,6 +879,7 @@ https://drive.google.com/drive/folders/1QOBJ7iwJs33hIF4w3cU42OHrX2FxELZr
 20袋
   きなこ10
 チョコ、コーヒー５
+  ストーリー閲覧：18-30%
   ジムの中のインストラクターでピラティス
   酵素、ファスティング、
   『案件』
@@ -918,3 +919,12 @@ https://drive.google.com/drive/folders/1QOBJ7iwJs33hIF4w3cU42OHrX2FxELZr
   楽天ルーム：2万
   『ストーリー』
   『訴求方法』
+  「案件」
+  サジー：3件
+  KINSプロテイン：1件
+  美顔器：0件
+  腸活茶：
+  「ストーリー」
+  通常1-2%
+  いい時5-6%
+  子供ネタ/朝ごはん
