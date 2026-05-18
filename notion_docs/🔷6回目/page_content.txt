@@ -1,7 +1,7 @@
 # 🔷6回目
 
-Notion URL: https://www.notion.so/6-364f3b0fba858023af79e2d85003d242
-同期日時: 2026-05-19T01:12:16+09:00
+Notion URL: https://www.notion.so/6-2b9f3b0fba8580f1a44dfe11857a89a7
+同期日時: 2026-05-19T03:45:44+09:00
 
 ---
 
@@ -26,6 +26,5 @@ Notion URL: https://www.notion.so/6-364f3b0fba858023af79e2d85003d242
     どのような状態になっている
     半年間、セッションで話してみて、どんな気持ちか？
   【録音データ貼り付け】
-
   次回以降のセッション日程記録（ジャンプします）
 Untitled 
