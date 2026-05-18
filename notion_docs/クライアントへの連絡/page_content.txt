@@ -1,7 +1,7 @@
 # クライアントへの連絡
 
-Notion URL: https://app.notion.com/p/353f3b0fba85810ab44ac414ea95c7cf
-同期日時: 2026-05-01T13:32:29+09:00
+Notion URL: https://www.notion.so/353f3b0fba858116bf37cd043597f4e3
+同期日時: 2026-05-18T16:39:50+09:00
 
 ---
 
