@@ -1,7 +1,7 @@
 # キャンセル枠（SnsClub運営枠）対応
 
-Notion URL: https://app.notion.com/p/SnsClub-344f3b0fba8580e69c6fea4ed9f50cfa
-同期日時: 2026-04-30T00:46:05+09:00
+Notion URL: https://www.notion.so/SnsClub-344f3b0fba8580e69c6fea4ed9f50cfa
+同期日時: 2026-05-19T19:22:24+09:00
 
 ---
 
@@ -17,7 +17,7 @@ Notion URL: https://app.notion.com/p/SnsClub-344f3b0fba8580e69c6fea4ed9f50cfa
 SnsClub運営枠を開放している期間は、勉強会終了40分後に作成する
 上記動画はキャンセル待ち枠開放初回に作成する場合だが、以降はCSVシートとキャンセル待ち枠シートを比較し追加のお客様がいるか確認し、いた場合は行を追加して入れ込んでいく
 
-※SnsClub運営枠は2つあるので両方確認しましょう（SnsClub運営枠、SnsClub運営枠02）今後拡大予定？
+※SnsClub運営枠は3つあるので両方確認しましょう（SnsClub運営枠、SnsClub運営枠02・03）今後拡大予定？
 
   動画でも解説しましたが、こちらでも同様に解説します💡
   
