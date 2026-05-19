@@ -1,7 +1,7 @@
 # 既存生徒用「ジョーズくん」導入案内文
 
 Notion URL: https://www.notion.so/364f3b0fba858063a980d8da46ddafd5
-同期日時: 2026-05-19T13:39:26+09:00
+同期日時: 2026-05-19T16:32:15+09:00
 
 ---
 
@@ -33,7 +33,7 @@ Notion URL: https://www.notion.so/364f3b0fba858063a980d8da46ddafd5
 - **URL**：https://app.levela.co.jp/advances-course-task/
 - **ログインID**：ご自身の **DiscordのユーザーID（ユーザーネーム）**を入力してください
 
-**⚠️ 5月20日（水）までにログイン完了をお願いします！**
+**⚠️ 5月21日（木）までにログイン完了をお願いします！**
 
 ✅Discord IDの確認方法：
 Discordのプロフィール画面から「ユーザーIDをコピー」で確認できます。
@@ -53,3 +53,4 @@ https://shared-beak-b34.notion.site/356f3b0fba8580b68d16e1ac28ad89a0
 
 ログインできない・自分の情報が表示されないなどの場合は、
 MGにご連絡ください✨
+生徒配布画像（上記メッセージを画像化したもの）
