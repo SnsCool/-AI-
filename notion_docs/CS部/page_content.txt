@@ -1,7 +1,7 @@
 # CS部
 
 Notion URL: https://www.notion.so/CS-1c3f3b0fba858046b33edfc3c5d8050f
-同期日時: 2026-05-17T18:41:27+09:00
+同期日時: 2026-05-19T22:21:43+09:00
 
 ---
 
@@ -14,7 +14,7 @@ Notion URL: https://www.notion.so/CS-1c3f3b0fba858046b33edfc3c5d8050f
     https://docs.google.com/spreadsheets/d/1puBKH3Vo0nVJ3yZOUfttZXISwYDOwhQzsrMgWeTsDwM/edit?usp=sharing
     オン会進行マニュアル 
     グルコンCS立ち会い無しマニュアル 
-    グルコンCS立ち会い無しマニュアル 
+    グルコン立ち会いマニュアル 
     🆕26年3月〜入学式マニュアル 
     ◾️Levelaイベント
     社外イベント
