@@ -1,7 +1,7 @@
 # 集客フロー移行準備
 
-Notion URL: https://www.notion.so/362f3b0fba858137aedfe2f0f6d2f79a
-同期日時: 2026-05-16T18:38:46+09:00
+Notion URL: https://www.notion.so/362f3b0fba858149b93de7d1525b6d0b
+同期日時: 2026-05-19T13:38:08+09:00
 
 ---
 

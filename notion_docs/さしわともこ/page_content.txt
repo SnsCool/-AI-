@@ -1,7 +1,7 @@
 # さしわともこ
 
-Notion URL: https://app.notion.com/p/34af3b0fba858019a6cde76fb41458c3
-同期日時: 2026-04-30T16:04:36+09:00
+Notion URL: https://www.notion.so/34af3b0fba858019a6cde76fb41458c3
+同期日時: 2026-05-19T13:31:14+09:00
 
 ---
 
@@ -11,3 +11,14 @@ Notion URL: https://app.notion.com/p/34af3b0fba858019a6cde76fb41458c3
 （そのまま貼り付けてもらえればOKです）
 特記事項あれば
 自己分析シートを送れず、操作を説明するだけで30分かかってしまった
+ジョーズログイン：
+URL：https://app.levela.co.jp/advances-course-task/
+ID ：
+生徒メアド：
+特進講師1on1メモ：
+講師timerex：
+1回目実施日：
+2回目実施日：
+3回目実施日：
+4回目実施日：
+5回目実施日：

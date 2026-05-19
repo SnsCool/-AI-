@@ -1,7 +1,7 @@
 # 石川 名積子
 
 Notion URL: https://www.notion.so/361f3b0fba8580d8865dfe0d842b76c7
-同期日時: 2026-05-15T16:19:36+09:00
+同期日時: 2026-05-19T13:31:29+09:00
 
 ---
 
@@ -10,3 +10,14 @@ Notion URL: https://www.notion.so/361f3b0fba8580d8865dfe0d842b76c7
     特記事項あれば
     特記事項があれば
 ※前提、自己分析シートは目を通した上で伴走開始お願いします
+ジョーズログイン：
+URL：https://app.levela.co.jp/advances-course-task/
+ID ：
+生徒メアド：
+特進講師1on1メモ：
+講師timerex：
+1回目実施日：
+2回目実施日：
+3回目実施日：
+4回目実施日：
+5回目実施日：

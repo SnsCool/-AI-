@@ -1,7 +1,7 @@
 # さとうなおみ
 
-Notion URL: https://app.notion.com/p/352f3b0fba8580ea935ff20eea3897c8
-同期日時: 2026-04-30T16:04:27+09:00
+Notion URL: https://www.notion.so/352f3b0fba8580ea935ff20eea3897c8
+同期日時: 2026-05-19T13:31:05+09:00
 
 ---
 
@@ -10,3 +10,14 @@ Notion URL: https://app.notion.com/p/352f3b0fba8580ea935ff20eea3897c8
 動画格納↓
 （そのまま貼り付けてもらえればOKです）
 特記事項あれば
+ジョーズログイン：
+URL：https://app.levela.co.jp/advances-course-task/
+ID ：
+生徒メアド：
+特進講師1on1メモ：
+講師timerex：
+1回目実施日：
+2回目実施日：
+3回目実施日：
+4回目実施日：
+5回目実施日：

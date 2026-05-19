@@ -1,7 +1,7 @@
 # おのともゆき
 
 Notion URL: https://www.notion.so/364f3b0fba85808796dcde8498f80116
-同期日時: 2026-05-18T16:37:53+09:00
+同期日時: 2026-05-19T13:32:10+09:00
 
 ---
 
@@ -11,3 +11,14 @@ Notion URL: https://www.notion.so/364f3b0fba85808796dcde8498f80116
     特記事項があれば
 ※前提、自己分析シートは目を通した上で伴走開始お願いします
 https://docs.google.com/spreadsheets/d/1xX_K1gsV4eNGYwTb4RJvufti0mTzXw7Q2m4e9cWdR0k/edit?usp=sharing
+ジョーズログイン：
+URL：https://app.levela.co.jp/advances-course-task/
+ID ：
+生徒メアド：
+特進講師1on1メモ：
+講師timerex：
+1回目実施日：
+2回目実施日：
+3回目実施日：
+4回目実施日：
+5回目実施日：

@@ -1,7 +1,7 @@
 # たかはしみか
 
-Notion URL: https://app.notion.com/p/353f3b0fba8580d9bf29da2aac65b371
-同期日時: 2026-05-01T18:41:02+09:00
+Notion URL: https://www.notion.so/353f3b0fba8580d9bf29da2aac65b371
+同期日時: 2026-05-19T13:31:49+09:00
 
 ---
 
@@ -11,3 +11,14 @@ Notion URL: https://app.notion.com/p/353f3b0fba8580d9bf29da2aac65b371
 うつ病治療中（服薬あり）
   そのほかにも、強迫性障害、パニック障害などもあります。
   お話が好きな方です。そのほかは、自己分析シートの通りです。
+ジョーズログイン：
+URL：https://app.levela.co.jp/advances-course-task/
+ID ：
+生徒メアド：
+特進講師1on1メモ：
+講師timerex：
+1回目実施日：
+2回目実施日：
+3回目実施日：
+4回目実施日：
+5回目実施日：

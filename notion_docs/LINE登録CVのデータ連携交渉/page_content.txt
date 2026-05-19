@@ -1,7 +1,7 @@
 # LINE登録CVのデータ連携交渉
 
 Notion URL: https://www.notion.so/LINE-CV-358f3b0fba85819ba5e8f4b116c09a4f
-同期日時: 2026-05-16T13:18:19+09:00
+同期日時: 2026-05-19T13:38:14+09:00
 
 ---
 
