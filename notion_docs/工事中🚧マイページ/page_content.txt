@@ -1,0 +1,55 @@
+# 工事中🚧マイページ
+
+Notion URL: https://www.notion.so/366f3b0fba85809db5d5d8052416afef
+同期日時: 2026-05-20T19:13:12+09:00
+
+---
+
+※ビジョンは生徒側の画面で入力してもらう。
+入力画面のスクショや仕様の説明をお願いします
+◆全体概要
+Record Vision Notes in ジョーズくん
+Creation Date: May 20, 2026
+Created By: 風花 森本
+View most recent version on Tango.ai
+ジョーズくん｜タスク管理
+1. Click on 生徒検証用2…
+2. A. Click on 30日区間…
+B. Click on 数値目標・実績
+C. Click on 目標 記入日…
+D. Click on 振り返り…
+3. Click on 編集
+4. Click on Close
+5. Click on セッション時に記入
+6. Click on Close
+7. Click on ビジョン…
+<br/>
+Created with Tango.ai
+◆各操作の説明をしてください
+Log Student Verification Sessions in MG
+Creation Date: May 20, 2026
+Created By: 風花 森本
+View most recent version on Tango.ai
+ジョーズくん｜タスク管理
+1. A. Click on MG
+B. Click on セッション管理
+C. Click on マイページ
+D. Click on 生徒検証用…
+2. A. Click on 30日区間
+B. Click on マイページに戻る
+3. Click on 生徒検証用3…
+4. Click on セッション時に記入
+5. A. Type 結果（何本投稿できたか・何が達成できたか）
+B. Type 原因（うまくいった/いかなかった理由）
+C. Type 改善（次の区間で変えること）
+D. Click on 結果（取り組んだこと・達成したこと）
+6. Click on 保存
+7. A. Type in text field
+B. Type in text field
+C. Type in text field
+D. Type in text field
+8. A. Click on マイページに戻る…
+B. Type in text field
+C. Click on MG検証用…
+<br/>
+Created with Tango.ai
