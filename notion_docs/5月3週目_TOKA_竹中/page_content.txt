@@ -1,7 +1,7 @@
 # 5月3週目_TOKA_竹中
 
 Notion URL: https://www.notion.so/5-3-_TOKA_-365f3b0fba85802da2d7deed45323331
-同期日時: 2026-05-20T10:06:49+09:00
+同期日時: 2026-05-20T13:33:44+09:00
 
 ---
 
@@ -57,3 +57,11 @@ LeaguEとの戦略会議（広告クリエイティブ・購入導線）
 ▼メモ
 撮影ブリーフ正本：TOKA 撮影ブリーフ ショットリスト v3
 記事参考：TOKA demo olfactory 記事
+▼議事録
+LeaguE側
+  Makuakeでの掲載優先：Olfactoryの並び
+  取り扱い = 個人向けではなく→法人向け
+  広告配信の費用感 / 成果指標の把握
+事業のスピードアップ
+  Makuake Instagram
+  LINEでのコミュニケーション促進
