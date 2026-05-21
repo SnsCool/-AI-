@@ -1,7 +1,7 @@
 # 月次で成果報告もらうように仕組み化
 
 Notion URL: https://www.notion.so/341f3b0fba8580a589f0ded4f9d7b687
-同期日時: 2026-05-18T00:28:33+09:00
+同期日時: 2026-05-21T19:22:30+09:00
 
 ---
 
@@ -12,6 +12,9 @@ Notion URL: https://www.notion.so/341f3b0fba8580a589f0ded4f9d7b687
 タスクの概要と関連する詳細を提供します。
 【もぐラボ】Discord自動配信
 https://docs.google.com/spreadsheets/d/1W-7H39wvwMR5iSqaW4yJ13qIcmyJIRaSrmh2PXZ4MgA/edit?usp=sharing
+5/21
+テンプレ作ってピン留め
+配信テキスト修正
 サブタスク
 サポートファイル
 タスクの説明
