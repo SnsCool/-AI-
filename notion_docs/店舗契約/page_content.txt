@@ -1,9 +1,11 @@
 # 店舗契約
 
 Notion URL: https://www.notion.so/363f3b0fba85809782a8d92e6c9e1773
-同期日時: 2026-05-17T18:42:47+09:00
+同期日時: 2026-05-21T22:20:34+09:00
 
 ---
 
 クレカ決済リンク
   https://mrsprotein.jp/payment.html?amount=57500
+契約店舗まとめ
+  https://docs.google.com/spreadsheets/d/120aJoeHCs_z5KylFHA8gUaAohGzAPIKohTN8mHN7rdc/edit?pli=1&gid=1784637997#gid=1784637997
