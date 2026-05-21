@@ -1,7 +1,7 @@
 # はだけいこ　スマみe組
 
 Notion URL: https://www.notion.so/e-2fef3b0fba858036bc4cd0499f8c704e
-同期日時: 2026-04-27T13:39:44+09:00
+同期日時: 2026-05-21T13:36:59+09:00
 
 ---
 
@@ -14,7 +14,7 @@ Notion URL: https://www.notion.so/e-2fef3b0fba858036bc4cd0499f8c704e
     ②誓約書はPDFにして生徒さんへ送付
     ▼講師1on1　予約用timerex▼
     https://timerex.net/s/faraday9.65x10.4_d312/db760427
-    生徒メアド：
+    生徒メアド：keikohada2@gmail.com
     １回目：第２回（初期設計1on1）〜第４回講義 
 ２回目：第４回講義〜第６回講義：
 ３回目：第６回講義〜第８回講義：
