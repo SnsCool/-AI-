@@ -1,8 +1,11 @@
 # 3-1_アフィリエイト基礎と仕組み理解
 
-Notion URL: https://www.notion.so/3-1_-307f3b0fba858134b0e9c145f2d5740b
-同期日時: 2026-03-17T12:58:07+09:00
+Notion URL: https://www.notion.so/3-1_-326f3b0fba8581d0bde3da64392e9d92
+同期日時: 2026-05-21T16:33:57+09:00
 
 ---
 
-(コンテンツなし)
+◼︎講義動画
+https://youtu.be/FqNVQWxVcZU
+◼︎資料
+https://drive.google.com/file/d/1mxjsNJHi3kr2iS44nagEZr_9xbNtC0c7/view?usp=sharing

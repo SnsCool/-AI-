@@ -1,8 +1,11 @@
 # 4-1 コンテンツ販売の全体像
 
-Notion URL: https://www.notion.so/4-1-307f3b0fba85811794e9d34c299f0f8b
-同期日時: 2026-03-17T12:58:09+09:00
+Notion URL: https://www.notion.so/4-1-326f3b0fba858136be2bec59fac54f7e
+同期日時: 2026-05-21T16:33:57+09:00
 
 ---
 
-(コンテンツなし)
+◼︎講義動画
+https://youtu.be/mI25U977mWA
+◼︎資料
+https://drive.google.com/file/d/17WdeZsAnMnN8VVTjUaol8qBpBryPatwM/view?usp=sharing

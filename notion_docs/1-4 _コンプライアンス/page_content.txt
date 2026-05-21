@@ -1,8 +1,11 @@
 # 1-4 _コンプライアンス
 
-Notion URL: https://www.notion.so/1-4-_-307f3b0fba85811c8fb8d3bf0cfc4ed3
-同期日時: 2026-03-31T21:30:04+09:00
+Notion URL: https://www.notion.so/1-4-_-326f3b0fba8581d48490f7507e8d4a4a
+同期日時: 2026-05-21T16:34:02+09:00
 
 ---
 
-(コンテンツなし)
+◼︎講義動画
+https://youtu.be/SKqzbWsZEUw
+◼︎資料
+https://drive.google.com/file/d/1cKlIzgMTdoOj_6KJdM61r6tZZ0Iziti0/view?usp=sharing

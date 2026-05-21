@@ -1,8 +1,11 @@
-# 3-2_ASP登録から案件選定までの手順
+# 3-2_ASP登録から案件選定までの手順
 
-Notion URL: https://www.notion.so/3-2_ASP-306f3b0fba8581b09573fa8e538cf06e
-同期日時: 2026-02-13T15:00:39+09:00
+Notion URL: https://www.notion.so/3-2_ASP-307f3b0fba85812cb73fd86bdf8deeed
+同期日時: 2026-05-21T16:33:46+09:00
 
 ---
 
-(コンテンツなし)
+◼︎講義動画
+https://youtu.be/YYRXLTPglvs
+◼︎資料
+https://drive.google.com/file/d/1na85w3N12t4ujAegHoHkwpEUR3Ms6Ik3/view?usp=sharing

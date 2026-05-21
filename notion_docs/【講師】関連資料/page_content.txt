@@ -1,7 +1,7 @@
 # 【講師】関連資料
 
 Notion URL: https://www.notion.so/307f3b0fba8580bd9cd7dfa9581e0d4f
-同期日時: 2026-05-16T21:33:08+09:00
+同期日時: 2026-05-21T16:31:54+09:00
 
 ---
 
@@ -1920,6 +1920,9 @@ https://docs.google.com/spreadsheets/d/1BT-cU6ayZCqXVr31xsNobFhZBIRkJtNTA62HNcRC
   グルコンのアーカイブはこちらから見れます！
 アーカイブ格納部屋 
     https://drive.google.com/file/d/1k-bKbNyPBl0sDQBCTECqrDCp-QA2ikp3/view?usp=drivesdk
+    ラーメン
+    イタリアン
+    焼肉
     2期生bチーム:こんたにちづるさん
     全体的に低脂質・野菜が多め
     🥞朝ごはん(7:20)
@@ -2188,6 +2191,7 @@ https://docs.google.com/spreadsheets/d/1T6KY_r1ktNUtCD6R4rnO_QEZmUu18YzM9kWAQrKp
 https://docs.google.com/spreadsheets/d/1Ir9F300j1gtCD-wkHv5ywWi1Uj9OjN97/edit?usp=sharing&ouid=111077476546038855417&rtpof=true&sd=true
 https://docs.google.com/spreadsheets/d/1sjSPFdaDMxE7Rfmtm5GIutnKScLu0_nGnUNQIkL3vK0/edit?usp=sharing
     添削プロンプト
+    添削プロンプト
     🎯 使い方の手順
     ステップ1: プロンプトをChatGPTに貼り付け
     チャットGPTプロンプト入力方法
@@ -2383,3 +2387,17 @@ https://www.canva.com/design/DAHCBAj5Q7o/WBobhPlZTewd1p8MpAFjmg/edit?utm_content
     これらの質問の結果をもとに、個別プランシートを作成。
     1人1人に合った解決策をシートに記入。それをもとに営業を行なっていく。
     チェックが多い場合の対応をどうしたら良いか
+  2期生A
+  https://docs.google.com/spreadsheets/d/1txqQDv52ra1-02AeBqo2jbAo8u32fd0zeIjuQ6DlCRc/edit?usp=sharing
+  2期生B
+  https://docs.google.com/spreadsheets/d/1J_DKd8D_ab0rrB68p4wtUBOdNoRXG3WsyisgbRCwj_M/edit?usp=drivesdk
+  2期生C
+  https://docs.google.com/spreadsheets/d/15Vx13b7jCZQ8bbS73d6er-R4yt7-EDAc1vfSoLI-kdc/edit?usp=sharing
+  3期生A
+  https://docs.google.com/spreadsheets/d/1IxWM7vA0zQDfWJdlUSyfK_cpyGSGcwC5xJ3ig_oI4NQ/edit?usp=sharing
+  3期生B
+  https://docs.google.com/spreadsheets/d/1tcHIcOrMOCWxKmYhAp2Wi9pIGoqswd664_uNn1GIb1k/edit?usp=drivesdk
+  3期生C
+  https://docs.google.com/spreadsheets/d/12-BQZ1aKIBwFMUZiEIAq1uxcnw-8ks0RPy3PM9VZa6M/edit?usp=sharing
+  3期生D
+  https://docs.google.com/spreadsheets/d/1LvQPYQCbMp9lIHLilQdp-qO1N7qtQfOKnM58Yjd2lbY/edit?usp=sharing

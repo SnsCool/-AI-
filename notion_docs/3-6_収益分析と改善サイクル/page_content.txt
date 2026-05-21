@@ -1,8 +1,11 @@
 # 3-6_収益分析と改善サイクル
 
 Notion URL: https://www.notion.so/3-6_-307f3b0fba858162b248dc9c1d74136d
-同期日時: 2026-03-17T12:58:11+09:00
+同期日時: 2026-05-21T16:33:43+09:00
 
 ---
 
-(コンテンツなし)
+◼︎講義動画
+https://youtu.be/MFMMyNzTTU0
+◼︎資料
+https://drive.google.com/file/d/1N86fkZd0gzT8-UK7Z_WOXd_PxpNPDiji/view?usp=sharing

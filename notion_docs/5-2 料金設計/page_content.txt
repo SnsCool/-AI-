@@ -1,8 +1,11 @@
 # 5-2 料金設計
 
 Notion URL: https://www.notion.so/5-2-307f3b0fba858164881dd4f997ec888f
-同期日時: 2026-03-17T12:58:20+09:00
+同期日時: 2026-05-21T16:33:37+09:00
 
 ---
 
-(コンテンツなし)
+◼︎講義動画
+https://youtu.be/C4bj7LjlAew
+◼︎資料
+https://drive.google.com/file/d/1Wkt5q0yVx6dSEZs8ZLewUD7EIfgS-Ikp/view?usp=sharing
