@@ -1,7 +1,7 @@
 # ななみみほ＿ゆうごはんB組
 
 Notion URL: https://www.notion.so/B-360f3b0fba85801c8135fef6820595a2
-同期日時: 2026-05-15T00:54:52+09:00
+同期日時: 2026-05-22T19:11:20+09:00
 
 ---
 
@@ -14,7 +14,7 @@ Notion URL: https://www.notion.so/B-360f3b0fba85801c8135fef6820595a2
     ②誓約書はPDFにして生徒さんへ送付
     ▼講師1on1　予約用timerex▼
     https://timerex.net/s/bassfish0110_c296/4ba8f7a4
-    生徒メアド：
+    生徒メアド：my73nanami@gmail.com
 
 ⭐️自己分析シート⭐️
 https://docs.google.com/spreadsheets/d/1h9GflnweFkPAfwRKjpGTNwiAFFJFEH_H6fy4ukzbuU8/edit?gid=1279121835#gid=1279121835
@@ -28,8 +28,7 @@ https://docs.google.com/spreadsheets/d/1h9GflnweFkPAfwRKjpGTNwiAFFJFEH_H6fy4ukzb
 下記ボタンをクリックし、議事録の作成をお願いします。
 マネージャー：[セッション議事録]、講師：[講師1on1]をタップお願いします
 セッション動画・音声記録
-初回セッション
-    1回目
+1回目セッション
     2回目
     3回目
     4回目
@@ -40,7 +39,6 @@ https://docs.google.com/spreadsheets/d/1h9GflnweFkPAfwRKjpGTNwiAFFJFEH_H6fy4ukzb
     9回目
     10回目
     11回目
-    12回目
 コミットプラン生徒 全期間タスクまとめ
 【全期間を通して実施】
 ・コミットプランの初回セッション後、必ずこちらに目を通してください。
