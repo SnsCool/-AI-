@@ -1,7 +1,7 @@
 # 講師採用LINEをLevela採用LINEに統一する
 
 Notion URL: https://www.notion.so/LINE-Levela-LINE-358f3b0fba8580f6bfc4e0f586781d9a
-同期日時: 2026-05-12T21:55:38+09:00
+同期日時: 2026-05-22T16:26:38+09:00
 
 ---
 
