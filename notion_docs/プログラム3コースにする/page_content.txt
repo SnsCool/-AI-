@@ -1,10 +1,11 @@
 # プログラム3コースにする
 
 Notion URL: https://www.notion.so/3-35ff3b0fba8580e28f38fe319a2441e7
-同期日時: 2026-05-13T13:26:56+09:00
+同期日時: 2026-05-22T13:33:53+09:00
 
 ---
 
+https://docs.google.com/spreadsheets/d/1RSS0mdqSV_KGoE9WxVX9-QFt3dTKao4-gI14riae2Ss/edit?gid=1088389299#gid=1088389299
 コース決定は自分でさせるのではなく、アンケートなどの回答をさせてこちらで能力値を割り振る
   インフルエンサー発信へのイメージがある人とない人で分ける
   ・CapCutを使ったことがない
