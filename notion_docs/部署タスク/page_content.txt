@@ -1,7 +1,7 @@
 # 部署タスク
 
 Notion URL: https://www.notion.so/308f3b0fba8580e9b82edde5c7574750
-同期日時: 2026-05-18T03:30:05+09:00
+同期日時: 2026-05-23T16:04:57+09:00
 
 ---
 
@@ -132,6 +132,17 @@ Notion URL: https://www.notion.so/308f3b0fba8580e9b82edde5c7574750
 │       ├── クーリングオフ理由別
 │       ├── 入金前クーリングオフ数/率
 │       └── 入金後クーリングオフ数/率
+  会議資料必須事項
+    【1】現状数値
+    ┗先週動いたことによる進捗状況
+    ┗KPI未達の共有
+    ①ロープレ進捗
+    ②トークスクリプトの浸透具合
+    ③推進の責任範囲の数値
+    ④管理部の動き
+    ⑤採用進捗（けいいちさん？？離職しそうなどなど）
+    【2】部署内で起きてる問題の共有（採用、人間関係）
+    【3】その他共有
   期限超過
   タスク一覧
   期限未記入
@@ -327,6 +338,28 @@ Notion URL: https://www.notion.so/308f3b0fba8580e9b82edde5c7574750
   タスク一覧
   ▼NotebookLM
   https://notebooklm.cloud.google.com/global/notebook/7773482f-c748-439c-95b9-7beb2b94d811?project=307374576318
+  
+事業計画再設定　→　本日FIX
+https://docs.google.com/spreadsheets/d/1XfydlotsL4cO-RE7hErp-nSVcsqaFCuSh9SsThanAQE/edit?gid=0#gid=0
+
+あおさん　X（本日MTG、FIX）
+あおさん X運用KPI 
+
+駒居さんYT
+あおさんYT
+→本日19日notionに反映
+
+
+LINE　ステップ配信シナリオ
+Untitled 
+
+Lステップ　経由リンク設定　→　２０日厳守で由布と調整済
+
+資産売却　→　３アカウント打診アリ
+
+◆課題
+由布がメインで動いていたが、今月入って動きの停滞が顕著。
+本日依頼しているタスク、動き次第では一度全タスクを巻き取る可能性あり。
   期限超過
   タスク一覧
   目標：報酬体系の確認・見直しと、既存業務の全巻取り、sizuru wiz管轄として運用開始。

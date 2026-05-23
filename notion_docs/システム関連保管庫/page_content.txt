@@ -1,14 +1,14 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-05-11T13:36:59+09:00
+同期日時: 2026-05-23T16:05:32+09:00
 
 ---
 
   対応中
 カリキュラム作成
-講義動画自動作成【ひたすら作ろう】
-  プロトタイプ1
+講義動画自動作成【マニュアル化＋スタータープログラムに合わせた動画分割】
+  済：プロトタイプ1
     全体で人（チェックや作業）がいるか
     未実装点
     ①カリキュラム最適化：あかねさん？
@@ -17,7 +17,7 @@ Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
     ④スライド作成：システム
     ⑤キャラ作成、音声生成：システム
     ⑥動画合成：システム
-  プロトタイプ2
+  済：プロトタイプ2
     ①台本作る　Claude（CursorでClaude動かす）
     https://drive.google.com/drive/folders/1yxQWHqU8K5aO8hxDyA7IUCwHCx_ygqWP?usp=drive_link
     ②台本→スライド（背景白で） NotebookLM
@@ -29,55 +29,22 @@ Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
     ⑧システムでキャラクターとテロップと音声とスライドを入れる
     ⑨完成とチェック作業、格納
     追加修正
-  ひたすら作ろう
+  済：ひたすら作ろう
     1日6本作成
     上げるYoutubeアカウントは運営アカウント（info＠）
+  動画分割
+    https://docs.google.com/spreadsheets/d/1LdFmuh3NzBELFc68MsPrWu8JlhL96-L1UUPqkfFqKGI/edit?usp=drive_link
+  マニュアル化
 未分類
-アーカイブ格納システム確認・修正＋拡張『注意：昼間の実行のみ』
-  共有資料
-    本番フォームリンク：
-https://sns-club-portal-production.up.railway.app/
-    railway：
-https://railway.com/project/042167f6-b6a4-4dcf-8e45-5a8ad7420518
-    GitHub：https://github.com/SnsCool/cs-movie-correction
-    仕様書：https://github.com/SnsCool/cs-movie-correction/blob/main/docs/specification.md
-    設計書：
-https://github.com/SnsCool/cs-movie-correction/blob/main/docs/design.md
-    要件定義：https://github.com/SnsCool/cs-movie-correction/blob/main/docs/requirements.md
-    引き継ぎ書：
-https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
-    DB（Notion）
-    サムネイル画像用Canva
-  済：①正しく動くかチェック
-    チェックに必要な情報
-    エラー
-  済：②正しく動いていなかったら修正③もっと良くした方がいいことやよくできることがあれば提案
-    修正点
-    確認点
-  済：③バージョン2へ変更
-    済：グルコン・講師対談はGoogleカレンダーから自動同期
-    済：1on1はWebフォームから手動登録
-  済：③バージョン3へアップデート
-    済：Discode通知変更
-    済：特別講義パターンの追加
-    済：グルコン・特別講義のサムネ作成方法修正
-    済：スケジュールと通知文追加
-  テスト中：④CS部へ展開
-    基本的な流れは同じらしい、Zoomのアカウントが違うことや、サムネイル画像が違う点に注意が必要。
-    https://github.com/SnsCool/cs-movie-archive
-    Googleカレンダーを見る
-    Zoomのアカウントから、対象のデータをダウンロードする
-    5分以上黙る部分はカット
-    Youtubeのアップロード（各再生リストの設定なし）
-    Zoomデータを削除（一旦ゴミ箱）
-    Notionへアップ
-    Discord通知
-    実行タイミングは？
-  ⑤過去動画の一括格納
 スクラブラジオの音声結合
-コーチング特進コース用Webアプリ開発　⇒ふうかさんへ
+コーチング特進コース用Webアプリ開発
+  初期機能のバグやエラー対応中
+  新規機能開発については、ふうかさんへ引き継ぎ済み
+  初期開発
+  初期開発エラー対応https://www.notion.so/366f3b0fba8580538640cf4afefe3e69?p=366f3b0fba8580fbb3dcd1674a85742b&pm=s
+  備考欄へ契約日の一括入力
 アプリ開発
-SnsClub講義（GRITSTUDY）アプリ追加開発
+SnsClubWebアプリ開発（旧：SnsClub講義（GRITSTUDY）アプリ追加開発）
 引き継ぎ
   【前提】追加でお金をかける気はない
   資料
@@ -109,6 +76,8 @@ SnsClub講義（GRITSTUDY）アプリ追加開発
   ポータルとしての機能をまずは、Webアプリ化する。
     アプリで作るようになっているものをWebアプリ化
     スクラブポータルをトップページに
+要件定義
+詳細設計
   一部作業残（優先度低）
 管理系
 生徒管理シートのエラー対応【短期対策のみ実施済、画像行の削除を実施や処理を軽くしたい】
@@ -285,3 +254,50 @@ CS マネジメントMTG
   Wordpressに入って、デザイン⇒追加CSS⇒下の方に各カテゴリ番号ごとの画像設定コード有
   画像とコードを合わせて追加して対応
 済：Snsclubの問い合わせ送信機能の☆押下してないとバリデーションチェックが出るようにする
+済：アーカイブ格納システム確認・修正＋拡張『注意：昼間の実行のみ』
+  共有資料
+    本番フォームリンク：
+https://sns-club-portal-production.up.railway.app/
+    railway：
+https://railway.com/project/042167f6-b6a4-4dcf-8e45-5a8ad7420518
+    GitHub：https://github.com/SnsCool/cs-movie-correction
+    仕様書：https://github.com/SnsCool/cs-movie-correction/blob/main/docs/specification.md
+    設計書：
+https://github.com/SnsCool/cs-movie-correction/blob/main/docs/design.md
+    要件定義：https://github.com/SnsCool/cs-movie-correction/blob/main/docs/requirements.md
+    引き継ぎ書：
+https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
+    DB（Notion）
+    サムネイル画像用Canva
+  済：①正しく動くかチェック
+    チェックに必要な情報
+    エラー
+  済：②正しく動いていなかったら修正③もっと良くした方がいいことやよくできることがあれば提案
+    修正点
+    確認点
+  済：③バージョン2へ変更
+    済：グルコン・講師対談はGoogleカレンダーから自動同期
+    済：1on1はWebフォームから手動登録
+  済：③バージョン3へアップデート
+    済：Discode通知変更
+    済：特別講義パターンの追加
+    済：グルコン・特別講義のサムネ作成方法修正
+    済：スケジュールと通知文追加
+  済：④CS部へ展開
+    基本的な流れは同じらしい、Zoomのアカウントが違うことや、サムネイル画像が違う点に注意が必要。
+    ソース：https://github.com/SnsCool/cs-movie-archive
+    管理表：https://docs.google.com/spreadsheets/d/1RLk5Tm7brIIjCNi4JWWbVk6ga59izsxOSqwfTBPFQg8/edit?usp=sharing
+    格納先（ライブ講義アーカイブ動画欄）：https://www.notion.so/SnsClub-Portal-a2e14c7fb93a4b81b25dd8689241e10a
+    Googleカレンダーを見る
+    Zoomのアカウントから、対象のデータをダウンロードする
+    5分以上黙る部分はカット
+    Youtubeのアップロード（各再生リストの設定なし）
+    Zoomデータを削除（一旦ゴミ箱）
+    Notionへアップ
+    Discord通知
+    実行タイミングは？
+  済：⑤過去動画の一括格納
+    4月分をGoogleDrive経由＋Zoom残分をアップロード済
+済：SnsClubラジオのタイトルと内容に「TTP」が含まれるもの抽出+一覧作成
+  XサーバーのDBへアクセスして、サーチ
+  一覧をあかねさんに共有済み
