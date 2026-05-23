@@ -1,7 +1,7 @@
 # 【アフィリエイトMG】マニュアル 
 
 Notion URL: https://www.notion.so/MG-333f3b0fba85804db979d6148455910e
-同期日時: 2026-05-19T16:30:57+09:00
+同期日時: 2026-05-23T21:30:39+09:00
 
 ---
 
@@ -68,3 +68,5 @@ Q&A
 こりちゃんアカウント特徴
 https://canva.link/0flkyj44po1ldfz
 https://canva.link/h7lpol1s90efqyk
+エルグラム
+https://www.loom.com/share/eff424b7204b4aaeb1d4d8cb585a7ed6
