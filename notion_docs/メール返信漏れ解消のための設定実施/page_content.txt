@@ -1,7 +1,7 @@
 # メール返信漏れ解消のための設定実施
 
-Notion URL: https://www.notion.so/36af3b0fba8581b0b2d1f38b7c50aae9
-同期日時: 2026-05-25T00:30:28+09:00
+Notion URL: https://www.notion.so/36af3b0fba8581f69650f157ccac5252
+同期日時: 2026-05-25T03:30:38+09:00
 
 ---
 
