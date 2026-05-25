@@ -1,7 +1,7 @@
 # 5/25　メディアアカウント進捗
 
 Notion URL: https://www.notion.so/5-25-36bf3b0fba858019bd80feb326c5cae5
-同期日時: 2026-05-25T22:22:35+09:00
+同期日時: 2026-05-26T01:00:13+09:00
 
 ---
 
@@ -11,18 +11,25 @@ Notion URL: https://www.notion.so/5-25-36bf3b0fba858019bd80feb326c5cae5
 スケジュール
 KPI（目標・運用計画スプシ)
 【駒居さんYT】
-現状
-ボトルネック
-アクションプラン
-スケジュール
-KPI（目標・運用計画スプシ）
+現状 
+・ボトルネック：営業メンバー採用云々より、そもそも母数が足りてない
+・アクションプラン：密着動画を廃止し、AI企画へ
+現状ショート動画の効果がそこまでないため、ショート廃止→長尺本数を増やす
+→出演者：またけんさん、きよとさん、他女性1名アサイン中（みおこさんor赤嶺or講師あかねさん）
+・スケジュール：6月第1周目から撮影開始、6月中旬には投稿開始予定、プロマネ制作中
+
+・KPI（目標・運用計画スプシ）
+https://docs.google.com/spreadsheets/d/1JjJ83tghYswqLxMxL6mTlpkxTtQTkNoZ1jRcYQGudWE/edit?usp=sharing
+駒居さんYT青木さん撮影 6/9決定(1hのみ)→その日にAIの撮影も別でする予定(演者日程確保済み、5/23内容すり合わせ)投稿日青木さん、AI→6月中旬青木さんキッチンカーのやつ(後追い)→5月中投稿予定ろじんさん密着→6月前半で日程調整中それまでは密着あと3本投稿予定(編集中)あおさんYT5月投稿6本編集済、サムネ待ち5/27撮影分(4本分)：新コンテンツ6月上旬投稿開始日曜までにプロフィール変更
 【あおさんYT】
 現状
-ボトルネック
-アクションプラン
-スケジュール
-KPI（目標・運用計画スプシ）
-https://docs.google.com/spreadsheets/d/1JjJ83tghYswqLxMxL6mTlpkxTtQTkNoZ1jRcYQGudWE/edit?usp=sharing
+・ボトルネック：ゆな×あおの企画が弱い
+・アクションプラン：あおさん一人語り+講師or元SnsClub生対談へと移行
+加えてプロフ変更
+・スケジュール：進行済み、（あお×Levela）プロフ変更5/27〜
+※（あお×ゆな）撮影済みで未投稿のものもあり
+
+KPI（目標・運用計画スプシ）https://docs.google.com/spreadsheets/d/1JjJ83tghYswqLxMxL6mTlpkxTtQTkNoZ1jRcYQGudWE/edit?usp=sharing
 
 【あんりさんIG】
 現状
