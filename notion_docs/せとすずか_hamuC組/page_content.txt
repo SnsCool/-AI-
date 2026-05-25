@@ -1,12 +1,12 @@
 # せとすずか_hamuC組
 
-Notion URL: https://app.notion.com/p/_hamuC-350f3b0fba8580ce8f27fac7f79d6bf9
-同期日時: 2026-04-30T21:44:52+09:00
+Notion URL: https://www.notion.so/_hamuC-350f3b0fba8580ce8f27fac7f79d6bf9
+同期日時: 2026-05-25T13:36:38+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
-    [ここにアカウントのURLを貼り付]
+    [https://www.instagram.com/mugi__gohan__]
     [https://docs.google.com/spreadsheets/d/11facav4NmKGjgH9FVpJB9R9x-eezo2qBGUpuFw-bokY/edit?gid=2023504424#gid=2023504424]
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
@@ -24,8 +24,6 @@ Notion URL: https://app.notion.com/p/_hamuC-350f3b0fba8580ce8f27fac7f79d6bf9
 下記ボタンをクリックし、議事録の作成をお願いします。
 マネージャー：[セッション議事録]、講師：[講師1on1]をタップお願いします
 セッション動画・音声記録
-初回セッション
-    1回目
     2回目
     3回目
     4回目
