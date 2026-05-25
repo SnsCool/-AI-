@@ -1,13 +1,14 @@
 # とがししょうたさん‗たいせいE組
 
 Notion URL: https://www.notion.so/E-29df3b0fba858051abf6c6b04f71c70b
-同期日時: 2026-05-03T10:02:27+09:00
+同期日時: 2026-05-25T16:48:42+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
     [ここにアカウントのURLを貼り付]
-    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]　コピー済み
+    https://docs.google.com/spreadsheets/d/16voShD7jYHOQm1aP0eFtPQ4_IrHEdpZp-hNKJ70PUiE/edit?gid=0#gid=0
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
     https://docs.google.com/spreadsheets/d/1-MS0taEGZpa_MLdTGa-LIgZzs9V_-WjwDJZPDC1OiMw/edit?gid=0#gid=0
