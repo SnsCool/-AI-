@@ -1,8 +1,9 @@
 # 講師ロードマップリニューアル
 
 Notion URL: https://www.notion.so/365f3b0fba8580979a83fa2e77f6a151
-同期日時: 2026-05-22T13:34:01+09:00
+同期日時: 2026-05-26T13:36:39+09:00
 
 ---
 
-(コンテンツなし)
+講師ロードマップの事前準備
+https://docs.google.com/spreadsheets/d/1lEZCieOEpXHg8XQwvsPjA-mSvbREcK0IFCHxlh4HEEs/edit?gid=922103324#gid=922103324&range=A1
