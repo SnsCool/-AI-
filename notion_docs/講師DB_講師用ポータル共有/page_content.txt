@@ -1,0 +1,11 @@
+# 講師DB/講師用ポータル共有
+
+Notion URL: https://www.notion.so/DB-36cf3b0fba858046a143c5461efb176c
+同期日時: 2026-05-26T19:31:52+09:00
+
+---
+
+講師用ポータル
+ 閲覧リンク↓
+https://script.google.com/macros/s/AKfycbzxHTnrCPv8jYJo6FhGmGpFTtpP8HVeWf05fNC_BG_oO_fkITzs5jWHd6oIv5bVE0Ci/exec?page=app
+講師DB
