@@ -1,7 +1,7 @@
 # 同様にTikTokアカウント、Youtubeアカウントも作成する
 
-Notion URL: https://www.notion.so/TikTok-Youtube-821f3b0fba8583cd90da8168aa185c0d
-同期日時: 2026-05-26T13:33:53+09:00
+Notion URL: https://www.notion.so/TikTok-Youtube-ae9f3b0fba8582998a2e81ba3572d4ee
+同期日時: 2026-05-26T16:25:54+09:00
 
 ---
 
