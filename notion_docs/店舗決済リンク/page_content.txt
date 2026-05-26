@@ -1,0 +1,8 @@
+# 店舗決済リンク
+
+Notion URL: https://www.notion.so/36cf3b0fba85804f8c23f0641c839a71
+同期日時: 2026-05-26T10:06:46+09:00
+
+---
+
+https://mrsprotein.jp/payment.html?amount=57500
