@@ -1,7 +1,7 @@
 # CS関連資料
 
 Notion URL: https://www.notion.so/CS-32ef3b0fba8580048a1ef7da5cc21537
-同期日時: 2026-05-27T16:43:32+09:00
+同期日時: 2026-05-27T19:30:09+09:00
 
 ---
 
@@ -80,3 +80,4 @@ PW：Leveladiet
 PW:Leveladiet2
 https://www.canva.com/design/DAG9VgdbZ9U/HvFWc_xTKOisB_3vVGnE6w/edit?utm_content=DAG9VgdbZ9U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 https://docs.google.com/document/d/1yEBJtUqura2YiEv6-d0T8wBc6vCigp3m4hUa7WebdI4/edit?tab=t.0
+https://docs.google.com/document/d/1apMUtOvPVecrPnW_pHkMNvqcE9RwWh2Tk8CyOtcf_lg/edit?tab=t.0
