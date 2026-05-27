@@ -1,7 +1,7 @@
 # たまきめぐみ
 
 Notion URL: https://www.notion.so/366f3b0fba8580c18908fef4c991778b
-同期日時: 2026-05-27T22:26:20+09:00
+同期日時: 2026-05-28T01:22:51+09:00
 
 ---
 
@@ -14,6 +14,7 @@ Notion URL: https://www.notion.so/366f3b0fba8580c18908fef4c991778b
 URL：https://app.levela.co.jp/advances-course-task/
 ID ：
 生徒メアド：
+megyako@gmail.com
 特進講師1on1メモ：
 講師timerex：
 1回目実施日：
