@@ -1,7 +1,7 @@
 # ロボットペイメント 
 
 Notion URL: https://www.notion.so/2e9f3b0fba858034830de646cc46948a
-同期日時: 2026-05-13T03:45:42+09:00
+同期日時: 2026-05-27T13:36:13+09:00
 
 ---
 
@@ -44,6 +44,8 @@ https://credit.j-payment.co.jp/link/creditcard?aid=132910&iid=mogu_mate_01&maila
 →ロボペイから決済情報一覧
 →そのお客様の決済を取り消すだけ
   https://discordapp.com/channels/1454016637748379732/1497602711640866856/1499363593785839656
+  決済リンクの作成方法
+  https://d.kuku.lu/2b2guywg5
 契約情報
   ・プラン（必用であればオプションも）
   スペシャルプラン
