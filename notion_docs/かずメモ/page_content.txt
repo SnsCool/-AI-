@@ -1,7 +1,7 @@
 # かずメモ
 
 Notion URL: https://www.notion.so/34cf3b0fba85801197a0f6282a68214d
-同期日時: 2026-05-26T10:11:32+09:00
+同期日時: 2026-05-27T16:39:47+09:00
 
 ---
 
@@ -541,6 +541,3 @@ LINE週次MTG
   また、成果を最大化するには、ローンチ直前ではなく最低1ヶ月前から準備する体制が必要。
     アフィMG
     アフィランクについて
-    アフィ管理
-    https://www.instagram.com/hana_stretch/
-    https://www.instagram.com/ann.recipe/

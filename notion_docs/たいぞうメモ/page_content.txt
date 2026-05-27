@@ -1,7 +1,7 @@
 # たいぞうメモ
 
 Notion URL: https://www.notion.so/312f3b0fba858076b941e4bf10c5dd7e
-同期日時: 2026-05-19T16:31:47+09:00
+同期日時: 2026-05-27T16:39:39+09:00
 
 ---
 
@@ -49,6 +49,8 @@ Notion URL: https://www.notion.so/312f3b0fba858076b941e4bf10c5dd7e
   こりちゃんアカウント特徴
   https://canva.link/0flkyj44po1ldfz
   https://canva.link/h7lpol1s90efqyk
+  エルグラム
+  https://www.loom.com/share/eff424b7204b4aaeb1d4d8cb585a7ed6
 やること
   教育ストーリーズの作成
   ローンチ見本クリエイティブ

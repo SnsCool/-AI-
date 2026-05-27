@@ -1,7 +1,7 @@
 # 26年5月17日 名古屋オフ会 振り返りレポート
 
 Notion URL: https://www.notion.so/26-5-17-366f3b0fba858034ba5bc66ed9b96657
-同期日時: 2026-05-20T16:26:51+09:00
+同期日時: 2026-05-27T16:45:53+09:00
 
 ---
 
@@ -18,6 +18,8 @@ Notion URL: https://www.notion.so/26-5-17-366f3b0fba858034ba5bc66ed9b96657
 🔻アンケート回答リンク
 https://docs.google.com/spreadsheets/d/1753NAvigRmBFx6x6ETxhzK-Vz-Jfer9ZqPwlVx2gVKk/edit?gid=1955850572#gid=1955850572
 👩‍🎓 生徒アンケート結果　【48件（回答率 92.3%）】
+駒居さん会場出の時間の関係でオフ会中での案内はできず、
+Discordのみで案内を実施。
 全体満足度
 目的達成度
 ✅ 良かった点

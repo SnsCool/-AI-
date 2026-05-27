@@ -1,16 +1,12 @@
 # CS関連資料
 
 Notion URL: https://www.notion.so/CS-32ef3b0fba8580048a1ef7da5cc21537
-同期日時: 2026-05-13T10:03:10+09:00
+同期日時: 2026-05-27T16:43:32+09:00
 
 ---
 
-  マインド配信　 
 体組成計の発注
 https://www.amazon.co.jp/?&tag=hydraamazonav-22&ref=pd_sl_8eaqjij3p0_e&adgrpid=157529193801&hvpone=&hvptwo=&hvadid=675152705458&hvpos=&hvnetw=g&hvrand=10820202008787733825&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1009308&hvtargid=kwd-893523692&hydadcr=27920_14701882
-シート関連
-https://docs.google.com/spreadsheets/d/1bdSmkkQp7DP1OTdt1VJqmT43rQBKnY5LcN3yUXgWgEM/edit?gid=1298894381#gid=1298894381
-https://docs.google.com/spreadsheets/d/17fHrRXzJ_nmaia6HMPMQpAq3heyBEjM1W3Epy-wSFUk/edit?gid=0#gid=0
 契約書
 https://docs.google.com/document/d/1KtPTbd8_4c76I7H7MKAPJO3LAH5XLwv_3-j70lGlcsk/edit?tab=t.0
 https://www.cloudsign.jp/dashboard
