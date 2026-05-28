@@ -1,7 +1,7 @@
 # 講師閲覧用
 
 Notion URL: https://www.notion.so/2f2f3b0fba85803284f2d95dc77b0478
-同期日時: 2026-04-02T21:41:12+09:00
+同期日時: 2026-05-28T10:01:47+09:00
 
 ---
 
@@ -11,3 +11,5 @@ https://youtu.be/dKWbxSW00zs?si=4iT19_nY-rckVa2_
 https://youtu.be/lXIx9ed33Bs
 3月勉強会
 https://youtu.be/wGg8ggzpYso
+5月勉強会
+https://youtu.be/7aUSgHCz3vE
