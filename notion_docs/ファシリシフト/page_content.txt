@@ -1,11 +1,19 @@
 # ファシリシフト
 
 Notion URL: https://www.notion.so/34df3b0fba8580cab561d38e6b48c679
-同期日時: 2026-04-26T09:56:39+09:00
+同期日時: 2026-05-28T16:35:08+09:00
 
 ---
 
 https://docs.google.com/spreadsheets/d/1fHol-5nsflS1boLY32vpc4E_ydZb8wj_vYo3fHn4DIY/edit?gid=0#gid=0
 ↑
 上記GAS設定しています。
-ファシリスレッドに前日夜２３時台にリマインドが来ます。
+ファシリスレッドに前日夜20時までにリマインドが来ます。
+※Discordが混みあっている場合、リマインドが到着しない場合があります。
+その場合は手動で送る必要があります。
+◯シフトルール
+①前月の13日までにメンバーにシフトを配布
+②前月14〜17日の間で第一案確定
+③18日に不足日程を全体募集（18〜24日個別声掛け期間）
+④前月25日に最終確定
+https://docs.google.com/spreadsheets/d/10-9C6GeqyVyWqEo90zMyLV3xT4gO91DfbKJc89XwMyc/edit?gid=1316856984#gid=1316856984

@@ -1,7 +1,7 @@
 # キックオフの流れを確認し自分用に作成
 
 Notion URL: https://www.notion.so/332f3b0fba858038bb35f7702dff2f51
-同期日時: 2026-04-13T13:12:55+09:00
+同期日時: 2026-05-28T16:34:24+09:00
 
 ---
 
@@ -21,5 +21,5 @@ Zoomコンサルの説明
 キックオフ台本（不安な方はこちら使用してください）
 https://docs.google.com/document/d/1Vn440j2oyeVikh_cFAewkBVn-sxTgZhIfY_Rfssr0Vk/edit?usp=sharing
 キックオフ資料
-https://canva.link/hd52ln65h2w9isb
+https://canva.link/q89d7gd2rmnf2jd
 ⬆️こちらをコピーして使用し自己紹介の部分を自分用に書き換えてください！

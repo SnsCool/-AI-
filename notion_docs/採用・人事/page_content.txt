@@ -1,7 +1,7 @@
 # 採用・人事
 
 Notion URL: https://www.notion.so/340f3b0fba8580719bc1dbb77b57eabe
-同期日時: 2026-05-27T16:43:36+09:00
+同期日時: 2026-05-28T16:35:57+09:00
 
 ---
 
@@ -114,6 +114,9 @@ https://docs.google.com/spreadsheets/d/1MlXl7Tq0L0ivZ71OUILLeVVXjt8QxAPYDbS29JIO
 https://docs.google.com/forms/d/e/1FAIpQLSeSFOAvsmKf6W0JCC0SiorIBaLYJSOnYv2RU-Pg1SU3vYDjaQ/viewform
 https://docs.google.com/spreadsheets/d/1iS8KGj6McNj2kLrDA8BxZrY2kKDlllpzuJcUZSMGPWw/edit?usp=sharing
 業務委託契約書
+アフィリエイター専用
+https://docs.google.com/document/d/1ajnATCmfvJ0gzbb8DfK9EY6jeSauUlyfm5xkU5cjkXk/edit?tab=t.0
+その他（セールス・コーチ）
 https://docs.google.com/document/d/1VF10TCM-PSt0RUa9ZcXT7llshOA2HfBXmFJK2PrUv4U/edit?usp=sharing
 報酬設計
   アフィリエイター

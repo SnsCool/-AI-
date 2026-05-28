@@ -1,7 +1,7 @@
 # システム関連保管庫
 
 Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-05-26T16:27:38+09:00
+同期日時: 2026-05-28T16:34:51+09:00
 
 ---
 
@@ -49,6 +49,8 @@ SnsClubWebアプリ開発（旧：SnsClub講義（GRITSTUDY）アプリ追加開
     みおこさん、たいちさんにクレジットカード決済依頼
     ポータルとしての機能をまずは、Webアプリ化する。
   要件定義
+    生徒側DB（Lステップの顧客データ）https://docs.google.com/spreadsheets/d/1YpT3KKJ-2qEp38JBXBRyTZQA3IyMnj8UDt8U2HZpfJM/edit?usp=sharing
+    講師側DB（講師DB）https://docs.google.com/spreadsheets/d/1BHYSHBIJIhK8-Ob6I-0F_iPKPciS4gZ19Hm6F9xojek/edit?usp=sharing
   詳細設計
   一部作業残（優先度低）
 管理系
@@ -276,6 +278,7 @@ https://github.com/SnsCool/cs-movie-correction/blob/main/docs/handover.md
 済：コーチング特進コース用Webアプリ開発
   初期機能のバグやエラー対応中
   新規機能開発については、ふうかさんへ引き継ぎ済み
+  ユーザー追加確認スプシhttps://docs.google.com/spreadsheets/d/1RLk5Tm7brIIjCNi4JWWbVk6ga59izsxOSqwfTBPFQg8/edit?usp=drive_link
   初期開発
   初期開発エラー対応https://www.notion.so/366f3b0fba8580538640cf4afefe3e69?p=366f3b0fba8580fbb3dcd1674a85742b&pm=s
   備考欄へ契約日の一括入力
