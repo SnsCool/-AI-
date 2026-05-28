@@ -1,14 +1,17 @@
 # プレミアムプラス生徒ページ
 
 Notion URL: https://www.notion.so/1fdf3b0fba858062a48ff354b03ddb3b
-同期日時: 2026-04-29T00:56:10+09:00
+同期日時: 2026-05-28T13:33:23+09:00
 
 ---
 
   生徒が入会されたら、以下の「生徒新規入会」ボタンを押下し、新規でページを追加してください。
   生徒の全6回のコーチングセッション実施日は、下記スプレッドシートに記録をお願いします。
   【振り返り】
+  元データ⚠️こちらに入力しないでください
   https://docs.google.com/spreadsheets/d/1Wv_nSpfKLBRaJ59Y1GcQqU37nvJt7K0Izyxb_sN8b6I/edit?gid=0#gid=0
+  5/28〜　セッション終了後は下記シートに入力お願いいたします
+  https://docs.google.com/spreadsheets/d/1_0HfdETceiKSp9Rpz7BTkXK1raE15d1dChsaiBIpS5g/edit?gid=0#gid=0
 各項目 解説 
   1回目セッション内容詳細(トグル開く)
     【相互理解・アイスブレイクなど】
