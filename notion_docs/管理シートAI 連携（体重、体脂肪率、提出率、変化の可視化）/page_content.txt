@@ -1,7 +1,7 @@
 # 管理シートAI 連携（体重、体脂肪率、提出率、変化の可視化）
 
 Notion URL: https://www.notion.so/AI-33df3b0fba8580798423f47c046c62d7
-同期日時: 2026-05-21T22:20:22+09:00
+同期日時: 2026-05-28T19:32:26+09:00
 
 ---
 
@@ -13,5 +13,6 @@ Notion URL: https://www.notion.so/AI-33df3b0fba8580798423f47c046c62d7
 基礎代謝量、1日と1食あたりのPFCを表示させたい
 提出率も表示させる
 経過日数分の記録数も表示
+https://docs.google.com/spreadsheets/d/1e6hadb6tOAo8C--b_yQIuwG6yjIc3A2q0-mEoRXYFkA/edit?usp=sharing 
 サブタスク
 サポートファイル
