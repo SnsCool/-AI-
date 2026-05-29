@@ -1,7 +1,7 @@
 # たけだみえこ
 
 Notion URL: https://www.notion.so/352f3b0fba858066a729df34856135e3
-同期日時: 2026-05-26T13:30:57+09:00
+同期日時: 2026-05-29T19:26:49+09:00
 
 ---
 
@@ -13,6 +13,7 @@ Notion URL: https://www.notion.so/352f3b0fba858066a729df34856135e3
 伴走セッション1回目
 2回目
 3回目
+４回目
 ジョーズログイン：
 URL or：https://app.levela.co.jp/advances-course-task/
 ID ：
