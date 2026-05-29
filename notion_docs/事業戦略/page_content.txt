@@ -1,10 +1,19 @@
 # 事業戦略
 
 Notion URL: https://www.notion.so/32ef3b0fba8580c1bbc0c2080c0ea92c
-同期日時: 2026-05-16T09:57:53+09:00
+同期日時: 2026-05-29T16:34:43+09:00
 
 ---
 
+https://docs.google.com/document/d/1Dlioy6Hw5QbudVaa0hLO7_k5fDkjdF2s8nHFf-YFYig/edit?tab=t.0
+  https://canva.link/1k0pdntq8u9etad
+  https://canva.link/m8xj6u2ahcbu9kg
+  https://canva.link/cogf1687pp8p4y3
+  https://canva.link/988ouyzjlg86lpz
+  https://canva.link/n4nm3v78mhxtt2j
+  https://canva.link/2t159j8um2ydk0a
+  https://canva.link/4oputnkys1ycpqk
+  https://canva.link/igkmbxk655fpbpt
 https://docs.google.com/spreadsheets/d/1T7P4k-WSXBx-0WuflYWpCMMYofJ_FKJmTldZAgd7I8M/edit?gid=737377661#gid=737377661
   「もぐラボ」は、“食べる”を中心に人生を整える女性のためのコミュニティです。
   私たちは「食べること」を単なる制限ではなく、科学的に理解し、楽しみながら自分に合った習慣へと変えていく場を提供します。
@@ -226,7 +235,7 @@ https://docs.google.com/spreadsheets/d/1T7P4k-WSXBx-0WuflYWpCMMYofJ_FKJmTldZAgd7
   もぐったー
   1日1回の食事添削
   オフラインイベント
-  この場合、講師の報酬計算が難しい or 継続の損益分岐などが関連してくる
+  この場合、講師の報酬計算が低くなる or 継続の損益分岐などが関連してくる
   現状一人当たりPL
   価格：148000円（3ヶ月）
   販管費；9万
@@ -240,8 +249,16 @@ https://docs.google.com/spreadsheets/d/1T7P4k-WSXBx-0WuflYWpCMMYofJ_FKJmTldZAgd7
   月額変動：
   　アフィMG2％、営業MG3000円×成約数、講師MG15000円×研修人数、CS時給
   そもそもの懸念
-  楽・短ダイエット（医療ダイエット・飲み物・サプリ・ファスティング）が流行ってる中、食べ痩せが伸びるのか不安
+  楽・短ダイエット（医療ダイエット・飲み物・サプリ・ファスティング）が流行ってる中、食べ痩せの文脈をどう取っていくか
   専門的な知識ある人がいない・少ない
+  └FPをつける的な
+└会社に税理士がついてるように
+お金と一緒
+パーソナルトレーニングと一緒
+自分の食事を人に聞こう
+食事のトレーナー
+  給食はなぜ健康なのか
+  競合のキャッチコピーを並べる
   なりたい自分になろう
   をもぐラボで叶える
   ダイエットは手段で
