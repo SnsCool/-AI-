@@ -1,7 +1,7 @@
 # 採用管理ツール「Talentio」の導入検討
 
 Notion URL: https://www.notion.so/Talentio-36bf3b0fba8581559478fe7aa3e3935f
-同期日時: 2026-05-26T01:01:56+09:00
+同期日時: 2026-05-30T01:22:46+09:00
 
 ---
 

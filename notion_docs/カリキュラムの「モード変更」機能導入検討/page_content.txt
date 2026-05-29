@@ -1,7 +1,7 @@
 # カリキュラムの「モード変更」機能導入検討
 
-Notion URL: https://www.notion.so/36bf3b0fba8581239f51e4cfe4d32b8f
-同期日時: 2026-05-26T01:02:14+09:00
+Notion URL: https://www.notion.so/36bf3b0fba8581d28132cd449630ffb2
+同期日時: 2026-05-30T01:23:11+09:00
 
 ---
 
