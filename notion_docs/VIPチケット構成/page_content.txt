@@ -1,7 +1,7 @@
 # VIPチケット構成
 
 Notion URL: https://www.notion.so/VIP-36ff3b0fba858045aac1de421b9d17dd
-同期日時: 2026-05-29T19:26:45+09:00
+同期日時: 2026-05-29T22:23:24+09:00
 
 ---
 
