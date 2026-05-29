@@ -1,8 +1,9 @@
 # 講師用ポータル作成
 
 Notion URL: https://www.notion.so/35ef3b0fba858027979ce9e837c0692c
-同期日時: 2026-05-13T10:01:41+09:00
+同期日時: 2026-05-29T13:36:09+09:00
 
 ---
 
-(コンテンツなし)
+現状はまだブラッシュアップの段階
+https://script.google.com/macros/s/AKfycbzxHTnrCPv8jYJo6FhGmGpFTtpP8HVeWf05fNC_BG_oO_fkITzs5jWHd6oIv5bVE0Ci/exec?page=app
