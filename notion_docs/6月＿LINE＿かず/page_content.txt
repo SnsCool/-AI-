@@ -1,7 +1,7 @@
 # 6月＿LINE＿かず 
 
 Notion URL: https://www.notion.so/6-LINE-36ff3b0fba8580d1aec7f1f907146c85
-同期日時: 2026-05-30T16:11:43+09:00
+同期日時: 2026-05-30T18:43:49+09:00
 
 ---
 
@@ -34,6 +34,7 @@ KSF①　目標予約率の達成
 要因
 LINE導線・シナリオの修正
 https://miro.com/welcomeonboard/MU91clRMbFprTGxLMlpUQUdsSVdtSW1YclhMUTAydTVGaEhuaEsvUHkvekszUHNidTk3Ym1ObEplT2tIVkdKYnl4eG90cHlhbzVMVFAxN09ieVpOQStuNXZBQWJ1SmtxeG8raVNrbUFRaFFncFl1YUJDYXVkMzd5QlpWRU5McUdzVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=341251181629
+※まだ改善点は多いですが、
 流入直後から1時間以内の配信数を増加
 流入10分後／20分後／45分後と配信数を増やしたことで、検討度の高い顧客の予約忘れを防げた可能性が考えられる
 画像による視覚的訴求の増加
@@ -45,7 +46,7 @@ LINE→予約のシンプルな導線に変更
 変更前
 ┗パーソナルカウンセリング
 変更後┗【0円】体質診断つきダイエット相談会
-転用AP　LINE導線の継続的な修正
+転用AP①　LINE導線の改善
 転用AP　ローンチコンセプトの転用
 KFF・改善AP
 KFFとは

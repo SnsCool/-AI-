@@ -1,7 +1,7 @@
 # LINE追加画面ヘッダー
 
-Notion URL: https://app.notion.com/p/LINE-34df3b0fba858175b2abe5b80bb68f10
-同期日時: 2026-04-30T06:29:27+09:00
+Notion URL: https://www.notion.so/LINE-34df3b0fba858175b2abe5b80bb68f10
+同期日時: 2026-05-30T18:43:06+09:00
 
 ---
 
