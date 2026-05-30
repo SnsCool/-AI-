@@ -1,0 +1,8 @@
+# 営業ポータル用 質問gem作成
+
+Notion URL: https://www.notion.so/gem-370f3b0fba85816c8dcbc13e018b7488
+同期日時: 2026-05-31T00:35:19+09:00
+
+---
+
+(コンテンツなし)

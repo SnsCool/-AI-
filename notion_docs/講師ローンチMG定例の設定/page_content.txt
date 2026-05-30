@@ -1,7 +1,7 @@
 # 講師ローンチMG定例の設定
 
-Notion URL: https://www.notion.so/MG-35ff3b0fba8581d4922be469d373d599
-同期日時: 2026-05-13T21:58:05+09:00
+Notion URL: https://www.notion.so/MG-370f3b0fba858176b5ddffbb8340612b
+同期日時: 2026-05-31T00:34:35+09:00
 
 ---
 
