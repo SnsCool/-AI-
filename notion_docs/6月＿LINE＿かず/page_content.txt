@@ -1,7 +1,7 @@
 # 6月＿LINE＿かず 
 
 Notion URL: https://www.notion.so/6-LINE-36ff3b0fba8580d1aec7f1f907146c85
-同期日時: 2026-05-30T10:04:44+09:00
+同期日時: 2026-05-30T13:27:21+09:00
 
 ---
 
@@ -32,13 +32,18 @@ KSF①　目標予約率の達成
 　4月アフィ予約率：7.7%
 　5月アフィ予約率：31.2%
 要因
-LINE導線の修正
+LINE導線・シナリオの修正
 https://miro.com/welcomeonboard/MU91clRMbFprTGxLMlpUQUdsSVdtSW1YclhMUTAydTVGaEhuaEsvUHkvekszUHNidTk3Ym1ObEplT2tIVkdKYnl4eG90cHlhbzVMVFAxN09ieVpOQStuNXZBQWJ1SmtxeG8raVNrbUFRaFFncFl1YUJDYXVkMzd5QlpWRU5McUdzVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=341251181629
 流入直後から1時間以内の配信数を増加
 流入10分後／20分後／45分後と配信数を増やしたことで、検討度の高い顧客の予約忘れを防げた可能性が考えられる
 画像による視覚的訴求の増加
 フレックスメッセージを基本とする配信に変更したことで、文章を読まずとも直感的に予約できる設計とした
+LINE→予約のシンプルな導線に変更
+以前はLINE→LP→予約だったが、LINE→予約へ
+シンプルな導線となったため、離脱が減った可能性が考えられる
 ローンチコンセプトの修正
+変更前
+┗タイプ別・痩せ方メソッド
 転用AP　LINE導線の継続的な修正
 転用AP　ローンチコンセプトの転用
 KFF・改善AP

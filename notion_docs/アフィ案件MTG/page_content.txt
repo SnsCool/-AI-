@@ -1,7 +1,7 @@
 # アフィ案件MTG
 
 Notion URL: https://www.notion.so/MTG-2c3f3b0fba8580a9aaeccd100260551a
-同期日時: 2026-05-18T13:36:01+09:00
+同期日時: 2026-05-30T13:30:02+09:00
 
 ---
 
@@ -354,6 +354,8 @@ https://www.canva.com/design/DAHBA19gcho/rJuXMZjj1LzqEKsw6saR3w/edit?utm_content
     １日目
     ２日目
     3日目
+  5月ローンチ
+  6月ローンチ
   インサイト
   35-45    50%
   女性8割
