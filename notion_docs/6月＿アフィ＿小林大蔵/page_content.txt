@@ -1,7 +1,7 @@
 # 6月＿アフィ＿小林大蔵
 
 Notion URL: https://www.notion.so/6-359f3b0fba858028b5a9d74d6b520b3d
-同期日時: 2026-05-31T16:30:58+09:00
+同期日時: 2026-05-31T18:56:33+09:00
 
 ---
 
@@ -72,6 +72,9 @@ KFFとは
 達成APとは
   立てた目標を達成するためのアクションプランを納期付きで設定してください。
 共有・提案・依頼
+取れてないデータ
+┗フィードLINEリンククリック数
+┗ストーリーズ、フィード別々の数値（LINE追加、申込、DM開封数）
 5月7日
   現状
   https://docs.google.com/spreadsheets/d/1IvDUmc4gj7_SqFa_AwxqsZOAWlL1nbONfqy7qM6mnt8/edit?usp=sharing

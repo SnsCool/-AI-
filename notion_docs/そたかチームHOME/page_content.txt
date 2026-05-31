@@ -1,7 +1,7 @@
 # そたかチームHOME
 
 Notion URL: https://www.notion.so/HOME-2e8f3b0fba8580149b7af1e379efbb7b
-同期日時: 2026-05-29T22:19:59+09:00
+同期日時: 2026-05-31T18:57:38+09:00
 
 ---
 
@@ -172,6 +172,7 @@ Notion URL: https://www.notion.so/HOME-2e8f3b0fba8580149b7af1e379efbb7b
     ・ご自宅や静かなカフェなど、発言しやすい環境での実施
     ・通信環境が安定している場所での接続
     直接お話しできるのを楽しみにしていますね！
+    新しいメッセージにプログラム1日目を聞く内容を追加したもの
     ５日
 生徒対談動画（おはな）
 https://shared-beak-b34.notion.site/d5681131a306475d91ebb47f8f4cfd8c?p=1ddf3b0fba8580179f76f3cda6cf9c5b&pm=c
