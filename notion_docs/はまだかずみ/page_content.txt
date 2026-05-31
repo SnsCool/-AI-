@@ -1,7 +1,7 @@
 # はまだかずみ
 
 Notion URL: https://www.notion.so/370f3b0fba85807c8f95d3a724d09469
-同期日時: 2026-05-31T10:11:27+09:00
+同期日時: 2026-05-31T16:29:29+09:00
 
 ---
 
@@ -9,6 +9,7 @@ Notion URL: https://www.notion.so/370f3b0fba85807c8f95d3a724d09469
     （そのまま貼り付けてもらえればOKです）
     特記事項あれば
     特記事項があれば
+    今はとにかく不安が大きそうです。
 ※前提、自己分析シートは目を通した上で伴走開始お願いします
 ジョーズログイン：
 URL：https://app.levela.co.jp/advances-course-task/
