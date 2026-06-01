@@ -1,7 +1,7 @@
 # 6月＿アフィ＿小林大蔵
 
 Notion URL: https://www.notion.so/6-359f3b0fba858028b5a9d74d6b520b3d
-同期日時: 2026-06-01T17:03:49+09:00
+同期日時: 2026-06-01T20:08:59+09:00
 
 ---
 
@@ -223,7 +223,7 @@ https://docs.google.com/spreadsheets/d/1aK1XVRsuO9b7T3I5KPWP6S604vfwlfXavwY27W_I
 ┗DM開封数の設定説明動画の作成
 アフィの添削形式変更
 完全個別→グループ制にする
-意図：
+意図：　
 FBしあう環境づくり
 MGのFBを全員が聴ける環境にする
 管理コスト削減、人数多く持てるように
