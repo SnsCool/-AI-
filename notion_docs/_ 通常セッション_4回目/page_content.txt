@@ -1,7 +1,7 @@
 # / 通常セッション_4回目
 
 Notion URL: https://www.notion.so/_4-365f3b0fba858064ba94d1ec5f54cfcb
-同期日時: 2026-06-01T06:25:58+09:00
+同期日時: 2026-06-01T10:14:26+09:00
 
 ---
 
@@ -22,6 +22,8 @@ Notion URL: https://www.notion.so/_4-365f3b0fba858064ba94d1ec5f54cfcb
 ・5月25日
 ・5月28日
 ・5月31日
+
+
 
 
 次回までに意識すること・MGとの約束
