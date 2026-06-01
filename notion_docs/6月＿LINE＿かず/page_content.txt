@@ -1,14 +1,17 @@
 # 6月＿LINE＿かず 
 
 Notion URL: https://www.notion.so/6-LINE-36ff3b0fba8580d1aec7f1f907146c85
-同期日時: 2026-05-31T00:32:50+09:00
+同期日時: 2026-06-01T13:40:20+09:00
 
 ---
 
 先月目標と結果
 予約率
 目標：20％
-結果：31.2%　達成
+結果：31.6%　達成
+事前キャンセル：7件
+非着座　　　　：4件
+配信ごとの予約率
 個人データ
 KSF・転用AP
 KSFとは
@@ -82,17 +85,21 @@ KFF①　着席率の未達
 達成APとは
   立てた目標を達成するためのアクションプランを納期付きで設定してください。
 目標：予約率40％／着席率70％
-達成AP①　予約率向上に向けて
-流入直後からの配信数増加
-5月も配信数を増やしたもののまだ改善可能
+LINE流入獲得に向けて
+  目標LINE流入数：536名
+想定LINE流入数：560名
+予約率及び着席率に向けて
+  達成AP①　予約率向上に向けて
+  流入直後からの配信数増加
+  5月も配信数を増やしたもののまだ改善可能
 具体的には1時間以内に6～8通の送信
 実績者や参加者の声を打ち出す
-Snsclubマーケ陣との壁打ち
-既に頂いているFBを6月導線に反映
-https://docs.google.com/document/d/19q-f-KzVdEX5x1FXs1gPMAiSPoV-MDYlrceJns1GbNg/edit?usp=sharing
-https://www.loom.com/share/5b5c48e6de6a4cb896fddd0e49334c3a
-達成AP②　着席率向上に向けて
-予約後のリマインド変更
-特に予約直後及び予約日前日のリマインド配信の修正
+  Snsclubマーケ陣との壁打ち
+  既に頂いているFBを6月導線に反映
+  https://docs.google.com/document/d/19q-f-KzVdEX5x1FXs1gPMAiSPoV-MDYlrceJns1GbNg/edit?usp=sharing
+  https://www.loom.com/share/5b5c48e6de6a4cb896fddd0e49334c3a
+  達成AP②　着席率向上に向けて
+  予約後のリマインド変更
+  特に予約直後及び予約日前日のリマインド配信の修正
 KFFの改善AP参照
 共有・提案・依頼
