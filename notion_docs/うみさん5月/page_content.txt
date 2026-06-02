@@ -1,16 +1,11 @@
 # うみさん5月
 
 Notion URL: https://www.notion.so/5-368f3b0fba8580188411fa71fc0288d7
-同期日時: 2026-06-02T10:13:44+09:00
+同期日時: 2026-06-02T16:58:59+09:00
 
 ---
 
 ① 目標振り返り
-・良かったこと
-・改善点
-・気づき
-・次の目標
-→ 深掘りして「再現できる行動」まで落とす
 年間目標
 https://docs.google.com/spreadsheets/d/1qrr4Jid2WaZ5Whyvct-DXEQFJz1a28SnsEqDd9uFI-I/edit?gid=655045630#gid=655045630
 目標設定シート
