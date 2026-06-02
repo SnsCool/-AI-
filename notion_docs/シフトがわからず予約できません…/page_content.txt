@@ -1,7 +1,7 @@
 # シフトがわからず予約できません…
 
-Notion URL: https://app.notion.com/p/2fef3b0fba858070a57ace7cd9b2cbc3
-同期日時: 2026-04-30T16:04:45+09:00
+Notion URL: https://www.notion.so/2fef3b0fba858070a57ace7cd9b2cbc3
+同期日時: 2026-06-02T19:42:13+09:00
 
 ---
 
@@ -10,7 +10,7 @@ Notion URL: https://app.notion.com/p/2fef3b0fba858070a57ace7cd9b2cbc3
 下記からご予約いただけますでしょうか？
 https://liff.line.me/2007510547-rQ4Ea3Zo?liff_id=2007510547-rQ4Ea3Zo&is=dkm9DTIjq3
   （今回の相談会の締め切りは◯月◯日までとなっております）
-お話しできるの楽しみにお待ちしております✨
+シフトはいつ頃お分かりになりそうでしょうか？
   ＋
 Bのアンケートを送付
 ＋
