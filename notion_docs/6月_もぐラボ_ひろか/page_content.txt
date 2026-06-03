@@ -1,13 +1,20 @@
 # 6月_もぐラボ_ひろか
 
 Notion URL: https://app.notion.com/p/6-_-_-373f3b0fba85806aa565e5d2fe07fe4f
-同期日時: 2026-06-03T10:19:59+09:00
+同期日時: 2026-06-03T13:39:58+09:00
 
 ---
 
 先月目標と結果
 目標40名→ 結果12名
 5月ローンチ全体数値結果
+https://docs.google.com/spreadsheets/d/1bdSmkkQp7DP1OTdt1VJqmT43rQBKnY5LcN3yUXgWgEM/edit?gid=997171970#gid=997171970
+└ 売上・着金・経費をもっとわかりやすく取れるようシート修正中です🙇
+5月着金）1,843,000円 
+5月経費）販管費・人件費60万ほど＋固定ツール費等
+
+PL
+https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?gid=222896699#gid=222896699
 アフィリエイターごと数値結果
 ローンチ実施アフィリエイター
 各要因分析（KSF・KFF）
