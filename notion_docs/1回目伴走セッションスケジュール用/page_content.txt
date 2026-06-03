@@ -1,7 +1,7 @@
 # 1回目伴走セッションスケジュール用
 
-Notion URL: https://www.notion.so/1-359f3b0fba85803a87fec4eb0dfd351d
-同期日時: 2026-05-31T13:37:59+09:00
+Notion URL: https://app.notion.com/p/1-359f3b0fba85803a87fec4eb0dfd351d
+同期日時: 2026-06-04T01:41:49+09:00
 
 ---
 
