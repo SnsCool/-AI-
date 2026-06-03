@@ -1,7 +1,7 @@
 # 6月_TOKA_竹中
 
-Notion URL: https://www.notion.so/6-_TOKA_-373f3b0fba8580229b9acf50d8cb1766
-同期日時: 2026-06-03T01:37:34+09:00
+Notion URL: https://app.notion.com/p/6-_TOKA_-373f3b0fba8580229b9acf50d8cb1766
+同期日時: 2026-06-03T16:57:49+09:00
 
 ---
 
@@ -109,3 +109,5 @@ TOKA用：Makuake掲載 → 商品配送 → TOKA掲載
 商品ごとの記事構成の作成
 Instagram初期投稿のクリエイティブ構成を作る
 MOM / Faireを中心に新規500件のリストアップを進める
+▼メモ
+InstagramのAI生成可否のプライバシー確認

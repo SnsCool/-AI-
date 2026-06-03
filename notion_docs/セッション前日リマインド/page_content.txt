@@ -1,7 +1,7 @@
 # セッション前日リマインド
 
-Notion URL: https://www.notion.so/2b9f3b0fba858104b561f4baa989fd8f
-同期日時: 2026-05-25T13:36:44+09:00
+Notion URL: https://app.notion.com/p/2b9f3b0fba858104b561f4baa989fd8f
+同期日時: 2026-06-03T16:56:15+09:00
 
 ---
 
