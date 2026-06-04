@@ -1,7 +1,7 @@
 # 各講義の要約作成
 
-Notion URL: https://www.notion.so/35ef3b0fba8581608041e14f1dee381f
-同期日時: 2026-05-13T00:55:29+09:00
+Notion URL: https://app.notion.com/p/341f3b0fba858099806ec77d4cb47b9e
+同期日時: 2026-06-04T16:53:32+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # もぐラボのMVV設定
 
-Notion URL: https://www.notion.so/MVV-372f3b0fba8580a5856dd10fee5f91c6
-同期日時: 2026-06-02T01:58:55+09:00
+Notion URL: https://app.notion.com/p/MVV-372f3b0fba8580a5856dd10fee5f91c6
+同期日時: 2026-06-04T16:53:45+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # クロスサーバーの実装
 
-Notion URL: https://www.notion.so/35ef3b0fba858011bee8d6573542e21c
-同期日時: 2026-05-13T10:01:40+09:00
+Notion URL: https://app.notion.com/p/35ef3b0fba858011bee8d6573542e21c
+同期日時: 2026-06-04T16:53:41+09:00
 
 ---
 
