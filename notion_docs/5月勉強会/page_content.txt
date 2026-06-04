@@ -1,7 +1,7 @@
 # 5月勉強会 
 
-Notion URL: https://www.notion.so/5-359f3b0fba8580668a91e3eb1dc4cf29
-同期日時: 2026-05-07T21:50:47+09:00
+Notion URL: https://app.notion.com/p/5-359f3b0fba8580668a91e3eb1dc4cf29
+同期日時: 2026-06-04T13:38:47+09:00
 
 ---
 
@@ -27,10 +27,10 @@ https://docs.google.com/document/d/1THG_NMDx1qrIaPgIWDsYZRPQQAuRmn27DcZAAnFlM3Y/
 達成者の人数を更新する
 前半勉強会
 P261付近ローンチ講師のスクショへ差し替え
-表紙日程変更勉強会スライド変更3種類
-【勉強会スライド・ファシリ注意事項視聴会・ウェビナー変更】
+表紙日程変更勉強会スライド変更2種類
+【勉強会スライド・ファシリ注意事項視聴会】
 https://www.notion.so/a8834c02b01342be80df62521269275b
-https://www.canva.com/design/DAG6X9CZiQo/7Hyz-T3YOssc9g7fmmwimA/edit
+
 後半勉強会
 P261付近ローンチ講師のスクショへ差し替え（リアルある場合）
 表紙日程変更勉強会スライド変更3種類

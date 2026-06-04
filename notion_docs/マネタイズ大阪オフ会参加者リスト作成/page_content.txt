@@ -1,7 +1,7 @@
 # マネタイズ大阪オフ会参加者リスト作成
 
-Notion URL: https://www.notion.so/36df3b0fba858140bb0debbc521da8af
-同期日時: 2026-05-30T13:31:25+09:00
+Notion URL: https://app.notion.com/p/36df3b0fba858140bb0debbc521da8af
+同期日時: 2026-06-04T13:38:54+09:00
 
 ---
 
@@ -10,3 +10,4 @@ Notion URL: https://www.notion.so/36df3b0fba858140bb0debbc521da8af
 しゅうへいさん
 堤さん
 陸さん
+https://docs.google.com/spreadsheets/d/19veR3lZ4T5d2bTXrsMKcBd3l0UaZiNyORu-RGgOtt1w/edit?gid=184738245#gid=184738245参加者リスト

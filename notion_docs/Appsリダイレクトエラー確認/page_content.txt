@@ -1,7 +1,7 @@
 # Appsリダイレクトエラー確認
 
-Notion URL: https://www.notion.so/Apps-370f3b0fba8580f6a61ff17a492b698f
-同期日時: 2026-05-30T13:31:22+09:00
+Notion URL: https://app.notion.com/p/Apps-370f3b0fba8580f6a61ff17a492b698f
+同期日時: 2026-06-04T13:38:22+09:00
 
 ---
 

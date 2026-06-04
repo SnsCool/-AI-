@@ -1,7 +1,7 @@
 # イベント参加者一覧（スプシ）
 
-Notion URL: https://www.notion.so/335f3b0fba8580f8bf62e9d0a4874581
-同期日時: 2026-05-12T19:00:12+09:00
+Notion URL: https://app.notion.com/p/335f3b0fba8580f8bf62e9d0a4874581
+同期日時: 2026-06-04T13:38:59+09:00
 
 ---
 
@@ -18,6 +18,8 @@ https://docs.google.com/spreadsheets/d/1WMS8STY8WdBfSEemG5jUknz63MJdUWGxWcP0ZHsr
 https://docs.google.com/spreadsheets/d/1FXsJfgyN-dn0t7iOXoIzHoWxQhEr_mGHxlotHdyEnlM/edit?gid=766106508#gid=766106508
 https://docs.google.com/spreadsheets/d/1BV0XF-lWKP9BRFTTZChaUB1Gkb_OlN5qu9APWQm2zbY/edit?gid=0#gid=0
 https://docs.google.com/spreadsheets/d/1KDb1r3EKhyxOg2BGZHl5C4TE3-1xYioLAH4VGkcqrR4/edit?gid=0#gid=0
+https://docs.google.com/spreadsheets/d/1TIT_7Tsiip-E9vTWLWAvy_taRRHPiSnxgngHBhm0Ags/edit?gid=1154408560#gid=1154408560 5月エリートオフ会参加者リスト
+https://docs.google.com/spreadsheets/d/19veR3lZ4T5d2bTXrsMKcBd3l0UaZiNyORu-RGgOtt1w/edit?gid=588823952#gid=588823952 6月大阪マネタイズオフ会参加者リスト
 🟢合宿
 https://docs.google.com/spreadsheets/d/1NooV2LhSWqUUvIb1UiNE_c50gfZp6yyhXj0Y_c8N3qw/edit?gid=766106508#gid=766106508
 🟡採用イベント
