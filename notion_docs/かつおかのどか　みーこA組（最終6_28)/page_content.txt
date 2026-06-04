@@ -1,7 +1,7 @@
 # かつおかのどか　みーこA組（最終6/28)
 
-Notion URL: https://www.notion.so/A-6-28-2b8f3b0fba8580d491ebfa924c1eb65b
-同期日時: 2026-04-27T13:46:35+09:00
+Notion URL: https://app.notion.com/p/A-6-28-2b8f3b0fba8580d491ebfa924c1eb65b
+同期日時: 2026-06-04T19:23:43+09:00
 
 ---
 
@@ -17,6 +17,8 @@ Notion URL: https://www.notion.so/A-6-28-2b8f3b0fba8580d491ebfa924c1eb65b
     生徒メアド：n979k15swim@gmail.com
     １回目：第２回（初期設計1on1）〜第４回講義 ：3/6
 ２回目：第４回講義〜第６回講義：4/3
+    シートチェックしてね
+    
 ３回目：第６回講義〜第８回講義：
 ４回目：第８回講義〜第１０回講義： 
 ５回目：第１０回講義〜サポート終了まで：

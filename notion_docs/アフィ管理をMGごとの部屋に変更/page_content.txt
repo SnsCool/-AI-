@@ -1,7 +1,7 @@
 # アフィ管理をMGごとの部屋に変更
 
-Notion URL: https://www.notion.so/MG-371f3b0fba8580208ddbf1a27296a7e3
-同期日時: 2026-05-31T21:40:23+09:00
+Notion URL: https://app.notion.com/p/MG-371f3b0fba8580208ddbf1a27296a7e3
+同期日時: 2026-06-04T19:24:04+09:00
 
 ---
 

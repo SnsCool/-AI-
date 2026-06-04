@@ -1,7 +1,7 @@
 # ・スクリプトの流れ変更
 
-Notion URL: https://www.notion.so/36cf3b0fba8580ee98f2cc4b612bf277
-同期日時: 2026-05-26T22:16:28+09:00
+Notion URL: https://app.notion.com/p/36cf3b0fba8580ee98f2cc4b612bf277
+同期日時: 2026-06-04T19:23:28+09:00
 
 ---
 
