@@ -1,7 +1,7 @@
 # VIP：わだことねさま
 
-Notion URL: https://www.notion.so/VIP-361f3b0fba85806d9306fdf3dca3ab0c
-同期日時: 2026-05-15T21:49:51+09:00
+Notion URL: https://app.notion.com/p/VIP-361f3b0fba85806d9306fdf3dca3ab0c
+同期日時: 2026-06-05T01:14:55+09:00
 
 ---
 
@@ -9,6 +9,7 @@ Notion URL: https://www.notion.so/VIP-361f3b0fba85806d9306fdf3dca3ab0c
 🎥 第1回 キックオフMT
 https://youtu.be/t6OwnhZFmDI
 🎥 第2回 グルコン
+https://youtu.be/Jj3iFJUW2Gc
 🎥 第3回 グルコン
 🎥 第4回 グルコン
 🎥 第5回 グルコン
