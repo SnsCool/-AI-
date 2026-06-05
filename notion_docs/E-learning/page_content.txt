@@ -1,7 +1,7 @@
 # E-learning
 
-Notion URL: https://www.notion.so/E-learning-370f3b0fba858033b348f694412e9d49
-同期日時: 2026-05-30T21:36:31+09:00
+Notion URL: https://app.notion.com/p/E-learning-370f3b0fba858033b348f694412e9d49
+同期日時: 2026-06-05T13:36:26+09:00
 
 ---
 
@@ -37,3 +37,4 @@ SnsClub営業
 その他
 ①議事録作成｜https://youtu.be/EiFu49JTjRY
 ②ロープレでよくFBする内容｜https://youtu.be/3xnyhlDrZNg
+③先輩動画の学び方｜https://youtu.be/w0I2E6a44OI?si=IgMnCvBJs8LWE93s

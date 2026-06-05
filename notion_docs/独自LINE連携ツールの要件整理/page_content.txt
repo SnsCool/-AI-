@@ -1,7 +1,7 @@
 # 独自LINE連携ツールの要件整理
 
-Notion URL: https://www.notion.so/LINE-370f3b0fba858136994bfc4d080f2eb4
-同期日時: 2026-05-30T21:36:01+09:00
+Notion URL: https://app.notion.com/p/LINE-370f3b0fba858136994bfc4d080f2eb4
+同期日時: 2026-06-05T13:36:30+09:00
 
 ---
 

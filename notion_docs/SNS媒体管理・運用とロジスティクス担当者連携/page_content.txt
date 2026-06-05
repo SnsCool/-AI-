@@ -1,7 +1,7 @@
 # SNS媒体管理・運用とロジスティクス担当者連携
 
-Notion URL: https://www.notion.so/SNS-36bf3b0fba85814caef8fb3a2085ff8a
-同期日時: 2026-05-30T01:22:45+09:00
+Notion URL: https://app.notion.com/p/SNS-36bf3b0fba85814caef8fb3a2085ff8a
+同期日時: 2026-06-05T13:36:06+09:00
 
 ---
 
