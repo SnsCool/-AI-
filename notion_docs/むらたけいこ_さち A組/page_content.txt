@@ -1,7 +1,7 @@
 # むらたけいこ_さち A組
 
-Notion URL: https://www.notion.so/_-A-348f3b0fba8580118bb9fcdee7f2ed3e
-同期日時: 2026-05-30T01:21:59+09:00
+Notion URL: https://app.notion.com/p/_-A-348f3b0fba8580118bb9fcdee7f2ed3e
+同期日時: 2026-06-05T16:47:14+09:00
 
 ---
 
@@ -13,6 +13,7 @@ Notion URL: https://www.notion.so/_-A-348f3b0fba8580118bb9fcdee7f2ed3e
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
     ②誓約書はPDFにして生徒さんへ送付
     ▼講師1on1　予約用timerex▼
+    https://timerex.net/team/acb0adb1da6e49fc3834/invite/6fbcdc37413103d9f3503440c4ff42fc88e5f64434162d210364846a76a4dbb82c9ed5a07fc7dd05772469208b5ea92882da
     生徒メアド：nanashouse1919@gmail.con
     １回目：第２回（初期設計1on1）〜第４回講義 
 ２回目：第４回講義〜第６回講義：

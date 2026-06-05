@@ -1,7 +1,7 @@
 # のださつき
 
 Notion URL: https://app.notion.com/p/36af3b0fba8580a3b78ed7a9d6598802
-同期日時: 2026-06-05T13:40:26+09:00
+同期日時: 2026-06-05T16:48:17+09:00
 
 ---
 
@@ -15,7 +15,7 @@ URL：https://app.levela.co.jp/advances-course-task/
 ID ：
 生徒メアド：
 特進講師1on1メモ：
-講師timerex：
+講師timerex：https://timerex.net/s/papa_souji_time/7c41d1b4
 1回目実施日：
 2回目実施日：
 3回目実施日：
