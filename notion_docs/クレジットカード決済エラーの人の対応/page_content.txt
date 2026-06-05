@@ -1,7 +1,7 @@
 # クレジットカード決済エラーの人の対応
 
-Notion URL: https://www.notion.so/319f3b0fba8580d48a4ded1e764dc609
-同期日時: 2026-05-26T13:36:37+09:00
+Notion URL: https://app.notion.com/p/319f3b0fba8580d48a4ded1e764dc609
+同期日時: 2026-06-05T22:15:49+09:00
 
 ---
 

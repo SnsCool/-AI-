@@ -1,7 +1,7 @@
 # UnivaPayの決済を分ける件（審査中）
 
-Notion URL: https://www.notion.so/UnivaPay-31af3b0fba8580aa8425f960da375133
-同期日時: 2026-05-07T16:15:48+09:00
+Notion URL: https://app.notion.com/p/UnivaPay-31af3b0fba8580aa8425f960da375133
+同期日時: 2026-06-05T22:15:48+09:00
 
 ---
 
