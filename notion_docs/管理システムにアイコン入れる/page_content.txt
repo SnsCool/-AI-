@@ -1,7 +1,7 @@
 # 管理システムにアイコン入れる
 
-Notion URL: https://www.notion.so/372f3b0fba8580448d28e401b3a6712e
-同期日時: 2026-06-02T01:58:52+09:00
+Notion URL: https://app.notion.com/p/372f3b0fba8580448d28e401b3a6712e
+同期日時: 2026-06-05T10:16:21+09:00
 
 ---
 

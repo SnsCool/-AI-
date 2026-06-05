@@ -1,7 +1,7 @@
 # 同日内の繰り延べ（タスクの時間変更）
 
-Notion URL: https://www.notion.so/36df3b0fba8580afbebcf3a5fbd522a4
-同期日時: 2026-05-29T16:35:58+09:00
+Notion URL: https://app.notion.com/p/36df3b0fba8580afbebcf3a5fbd522a4
+同期日時: 2026-06-05T10:14:37+09:00
 
 ---
 

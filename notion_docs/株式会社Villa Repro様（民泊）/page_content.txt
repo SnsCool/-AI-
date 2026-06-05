@@ -1,7 +1,7 @@
 # 株式会社Villa Repro様（民泊）
 
-Notion URL: https://www.notion.so/Villa-Repro-345f3b0fba8580979fb6d5d1268d5ca8
-同期日時: 2026-04-27T13:20:42+09:00
+Notion URL: https://app.notion.com/p/Villa-Repro-345f3b0fba8580979fb6d5d1268d5ca8
+同期日時: 2026-06-05T10:13:48+09:00
 
 ---
 
@@ -30,16 +30,21 @@ Notion URL: https://www.notion.so/Villa-Repro-345f3b0fba8580979fb6d5d1268d5ca8
   歩留まりの計測体制を整える
     各ファネル（着席・個別相談・成約）の計測フローを設計
     レポート定型化
-    onry.business@gmail.com
-  ② オートウェビナー申込率の改善
+    メアド共有（小野寺・長谷川）
+  ② オートウェビナー申込率の改善（現状17.6%）
   1通目動画の台本変更
     https://docs.google.com/document/d/1U2jJXSe3RxJtYRGtR5aNbn5aRX-kZqV2OsAcgzHNTJM/edit?usp=sharing
   LINE登録フックの変更
+    書籍購入者→特典3つ
   シナリオのリライト
-  ③ 個別相談申込率の改善
+  ③ 個別相談申込率の改善（現状25.0%）
   動画の余白・間のカット
+    イベント時に撮影→6/6
+  コメントの有無
   CTAブロックの追加
   使用ツールの変更検討
+    Levela独自ツールの導入検討
+  動画変更予定あり
   4. 施策メモ（領域別）
   ■ セミナー関連
   開催頻度の検討（理想：3ヶ月に1回）

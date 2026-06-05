@@ -1,7 +1,7 @@
 # 食事添削AI・アプリ
 
-Notion URL: https://www.notion.so/AI-340f3b0fba85801c8058dd7e5b1c3907
-同期日時: 2026-05-28T19:32:12+09:00
+Notion URL: https://app.notion.com/p/AI-340f3b0fba85801c8058dd7e5b1c3907
+同期日時: 2026-06-05T10:16:25+09:00
 
 ---
 

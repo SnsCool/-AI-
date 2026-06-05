@@ -1,7 +1,7 @@
 # 経費のメモ（プロテイン・体組成計・その他）
 
-Notion URL: https://www.notion.so/36df3b0fba858065a922f3dc7ddb079c
-同期日時: 2026-05-27T19:30:36+09:00
+Notion URL: https://app.notion.com/p/36df3b0fba858065a922f3dc7ddb079c
+同期日時: 2026-06-05T10:10:22+09:00
 
 ---
 

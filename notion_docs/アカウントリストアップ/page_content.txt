@@ -1,7 +1,7 @@
 # アカウントリストアップ
 
-Notion URL: https://www.notion.so/36cf3b0fba858074a567dfc858b08b27
-同期日時: 2026-05-26T16:28:20+09:00
+Notion URL: https://app.notion.com/p/36cf3b0fba858074a567dfc858b08b27
+同期日時: 2026-06-05T10:15:17+09:00
 
 ---
 

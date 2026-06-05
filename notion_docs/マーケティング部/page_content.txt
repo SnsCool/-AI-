@@ -1,7 +1,7 @@
 # マーケティング部
 
-Notion URL: https://www.notion.so/1cef3b0fba858068bf30e2dc3a70db34
-同期日時: 2026-06-01T20:04:58+09:00
+Notion URL: https://app.notion.com/p/1cef3b0fba858068bf30e2dc3a70db34
+同期日時: 2026-06-05T10:13:37+09:00
 
 ---
 
@@ -4792,7 +4792,6 @@ https://us05web.zoom.us/j/82876809349?pwd=wyPvnkfToAsGPLTQpyz0pQl9UuR0ii.1&openE
   ④解決策をまとめたマニュアルなどあればアウトプットURL
   添付画像赤文字Notion内の動画などを閉じるようにチェックリストに追加。
   https://www.notion.so/2bdf3b0fba858005b453c939179f4f90
-https://gemini.google.com/gem/17iGUh-BHCTI6M3uMU8OerHSwgHrKRxWN?usp=sharing（サクラスライド作成）
   Google広告・SEO（工藤）
   次回7日から流入ある
   全体感について

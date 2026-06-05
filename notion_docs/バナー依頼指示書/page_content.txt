@@ -1,7 +1,7 @@
 # バナー依頼指示書
 
-Notion URL: https://www.notion.so/34df3b0fba8580258754d2c95303c9c9
-同期日時: 2026-05-05T18:48:15+09:00
+Notion URL: https://app.notion.com/p/34df3b0fba8580258754d2c95303c9c9
+同期日時: 2026-06-05T10:14:58+09:00
 
 ---
 

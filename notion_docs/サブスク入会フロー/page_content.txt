@@ -1,7 +1,7 @@
 # サブスク入会フロー
 
-Notion URL: https://www.notion.so/36df3b0fba85804983a4d17b0aeb1d69
-同期日時: 2026-05-28T16:35:59+09:00
+Notion URL: https://app.notion.com/p/36df3b0fba85804983a4d17b0aeb1d69
+同期日時: 2026-06-05T10:10:20+09:00
 
 ---
 
