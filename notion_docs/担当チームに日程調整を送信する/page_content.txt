@@ -1,7 +1,7 @@
 # 担当チームに日程調整を送信する
 
-Notion URL: https://www.notion.so/332f3b0fba8580efaf4ec983c58b4cd0
-同期日時: 2026-04-13T13:13:37+09:00
+Notion URL: https://app.notion.com/p/332f3b0fba8580efaf4ec983c58b4cd0
+同期日時: 2026-06-06T13:28:54+09:00
 
 ---
 
