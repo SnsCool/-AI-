@@ -1,7 +1,7 @@
 # コンセプト再検討
 
-Notion URL: https://www.notion.so/35ef3b0fba858133badaffc15c81fc05
-同期日時: 2026-05-12T13:22:26+09:00
+Notion URL: https://app.notion.com/p/35ef3b0fba858133badaffc15c81fc05
+同期日時: 2026-06-07T03:44:01+09:00
 
 ---
 

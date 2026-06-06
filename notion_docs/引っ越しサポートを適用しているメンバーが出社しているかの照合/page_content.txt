@@ -1,7 +1,7 @@
 # 引っ越しサポートを適用しているメンバーが出社しているかの照合
 
-Notion URL: https://www.notion.so/339f3b0fba858094acd5d1d132837e35
-同期日時: 2026-05-02T15:53:35+09:00
+Notion URL: https://app.notion.com/p/339f3b0fba858094acd5d1d132837e35
+同期日時: 2026-06-07T03:56:51+09:00
 
 ---
 

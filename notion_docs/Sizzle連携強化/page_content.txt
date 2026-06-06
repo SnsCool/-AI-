@@ -1,7 +1,7 @@
 # Sizzle連携強化
 
 Notion URL: https://app.notion.com/p/Sizzle-32ef3b0fba858111b3e5f5faa6f7b07e
-同期日時: 2026-04-29T16:07:34+09:00
+同期日時: 2026-06-07T03:48:12+09:00
 
 ---
 

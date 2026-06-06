@@ -1,7 +1,7 @@
 # ◆毎週金曜日　CS定例準備
 
-Notion URL: https://www.notion.so/CS-350f3b0fba85801b8969e2e5dd8a79db
-同期日時: 2026-05-22T13:32:49+09:00
+Notion URL: https://app.notion.com/p/CS-350f3b0fba85801b8969e2e5dd8a79db
+同期日時: 2026-06-07T03:59:23+09:00
 
 ---
 

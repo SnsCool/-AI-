@@ -1,7 +1,7 @@
 # 講師ロードマップリニューアルの役割分担と内容決定
 
-Notion URL: https://www.notion.so/370f3b0fba858172a346d4838190e63f
-同期日時: 2026-05-31T00:34:23+09:00
+Notion URL: https://app.notion.com/p/370f3b0fba858172a346d4838190e63f
+同期日時: 2026-06-07T03:58:47+09:00
 
 ---
 

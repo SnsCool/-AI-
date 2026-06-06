@@ -1,7 +1,7 @@
 # 手数料ビジネス課題対応
 
-Notion URL: https://www.notion.so/355f3b0fba8581718c8eff9d64cead4c
-同期日時: 2026-05-03T16:01:39+09:00
+Notion URL: https://app.notion.com/p/355f3b0fba8581718c8eff9d64cead4c
+同期日時: 2026-06-07T03:44:13+09:00
 
 ---
 

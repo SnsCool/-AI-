@@ -1,7 +1,7 @@
 # サブスクサービス構築
 
-Notion URL: https://www.notion.so/35ef3b0fba8581e2b553fc31aed73384
-同期日時: 2026-05-12T13:22:46+09:00
+Notion URL: https://app.notion.com/p/35ef3b0fba8581e2b553fc31aed73384
+同期日時: 2026-06-07T03:44:17+09:00
 
 ---
 

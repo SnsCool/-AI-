@@ -1,7 +1,7 @@
 # 各部署での週1時間の定例研修時間設定
 
-Notion URL: https://www.notion.so/1-349f3b0fba8581daba8bd7392e1f7730
-同期日時: 2026-04-23T00:39:04+09:00
+Notion URL: https://app.notion.com/p/1-349f3b0fba858164915af82459958b32
+同期日時: 2026-06-07T03:58:44+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 良質なAI活用事例の公開計画策定
 
-Notion URL: https://www.notion.so/AI-355f3b0fba858142953ff4dfadf35c75
-同期日時: 2026-05-12T13:22:17+09:00
+Notion URL: https://app.notion.com/p/AI-355f3b0fba858142953ff4dfadf35c75
+同期日時: 2026-06-07T03:52:27+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 撮影依頼動画に関する詳細情報の伝達
 
-Notion URL: https://www.notion.so/334f3b0fba85810baa74c123799fc853
-同期日時: 2026-04-23T00:38:23+09:00
+Notion URL: https://app.notion.com/p/334f3b0fba85810baa74c123799fc853
+同期日時: 2026-06-07T03:55:35+09:00
 
 ---
 

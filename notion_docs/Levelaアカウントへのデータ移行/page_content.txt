@@ -1,7 +1,7 @@
 # Levelaアカウントへのデータ移行
 
-Notion URL: https://app.notion.com/p/Levela-32af3b0fba8581b2b1ddc8b13ba37ee4
-同期日時: 2026-05-01T13:31:40+09:00
+Notion URL: https://app.notion.com/p/Levela-32af3b0fba858100ac28f7cefe37a849
+同期日時: 2026-06-07T03:53:21+09:00
 
 ---
 

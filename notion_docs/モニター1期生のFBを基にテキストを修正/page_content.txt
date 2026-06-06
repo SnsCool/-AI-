@@ -1,7 +1,7 @@
 # モニター1期生のFBを基にテキストを修正
 
-Notion URL: https://www.notion.so/1-FB-32af3b0fba8581aa90ace1eb2193b724
-同期日時: 2026-04-23T00:35:35+09:00
+Notion URL: https://app.notion.com/p/1-FB-32af3b0fba8581aa90ace1eb2193b724
+同期日時: 2026-06-07T03:47:49+09:00
 
 ---
 

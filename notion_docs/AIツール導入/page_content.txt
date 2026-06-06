@@ -1,7 +1,7 @@
 # AIツール導入
 
-Notion URL: https://www.notion.so/AI-356f3b0fba85811aae2bc5a4346c2afd
-同期日時: 2026-05-04T21:47:44+09:00
+Notion URL: https://app.notion.com/p/AI-377f3b0fba85819ab095fa19224a4f6e
+同期日時: 2026-06-07T03:40:43+09:00
 
 ---
 

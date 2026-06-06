@@ -1,7 +1,7 @@
 # ブックマーク数を重要指標に設定
 
-Notion URL: https://www.notion.so/350f3b0fba858136bf0bfce7a3a4812a
-同期日時: 2026-04-28T18:53:26+09:00
+Notion URL: https://app.notion.com/p/350f3b0fba858136bf0bfce7a3a4812a
+同期日時: 2026-06-07T03:51:20+09:00
 
 ---
 

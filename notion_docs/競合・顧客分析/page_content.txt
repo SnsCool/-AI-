@@ -1,7 +1,7 @@
 # 競合・顧客分析
 
-Notion URL: https://www.notion.so/35ef3b0fba858127bb24ea9d9bb4087d
-同期日時: 2026-05-12T13:22:38+09:00
+Notion URL: https://app.notion.com/p/35ef3b0fba858127bb24ea9d9bb4087d
+同期日時: 2026-06-07T03:55:17+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # チャットボット導入期限設定
 
-Notion URL: https://app.notion.com/p/353f3b0fba8581ac8405cd645a6d595f
-同期日時: 2026-06-07T00:36:09+09:00
+Notion URL: https://app.notion.com/p/353f3b0fba8581fa9bd5c9633007dd69
+同期日時: 2026-06-07T03:59:34+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # B2B向けAIコンサルティングモデル検討
 
-Notion URL: https://www.notion.so/B2B-AI-355f3b0fba8581c29fe5f6016eb7c7d1
-同期日時: 2026-05-12T13:22:19+09:00
+Notion URL: https://app.notion.com/p/B2B-AI-355f3b0fba8581c29fe5f6016eb7c7d1
+同期日時: 2026-06-07T03:52:29+09:00
 
 ---
 

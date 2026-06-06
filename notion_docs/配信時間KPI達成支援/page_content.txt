@@ -1,7 +1,7 @@
 # 配信時間KPI達成支援
 
-Notion URL: https://www.notion.so/KPI-338f3b0fba8581138dcbde0147ae9317
-同期日時: 2026-04-04T15:36:57+09:00
+Notion URL: https://app.notion.com/p/KPI-338f3b0fba858130995cc9222092a170
+同期日時: 2026-06-07T03:48:22+09:00
 
 ---
 

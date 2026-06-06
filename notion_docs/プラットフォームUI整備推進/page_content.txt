@@ -1,7 +1,7 @@
 # プラットフォームUI整備推進
 
-Notion URL: https://app.notion.com/p/UI-351f3b0fba8581f88ccbdaa5801cb075
-同期日時: 2026-04-29T16:07:47+09:00
+Notion URL: https://app.notion.com/p/UI-351f3b0fba8581a1a5afc50ba671ac81
+同期日時: 2026-06-07T03:52:05+09:00
 
 ---
 

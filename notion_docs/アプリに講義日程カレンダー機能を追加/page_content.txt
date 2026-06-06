@@ -1,7 +1,7 @@
 # アプリに講義日程カレンダー機能を追加
 
-Notion URL: https://www.notion.so/370f3b0fba8581c39ea2cd0b7a91ba25
-同期日時: 2026-05-31T00:34:42+09:00
+Notion URL: https://app.notion.com/p/370f3b0fba8581c39ea2cd0b7a91ba25
+同期日時: 2026-06-07T03:58:14+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # Leveler製品外部公開
 
-Notion URL: https://www.notion.so/Leveler-355f3b0fba85813ea800de9112a9324d
-同期日時: 2026-05-12T13:22:13+09:00
+Notion URL: https://app.notion.com/p/Leveler-355f3b0fba85813ea800de9112a9324d
+同期日時: 2026-06-07T03:52:20+09:00
 
 ---
 

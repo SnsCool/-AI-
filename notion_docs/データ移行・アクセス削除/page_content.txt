@@ -1,7 +1,7 @@
 # データ移行・アクセス削除
 
-Notion URL: https://www.notion.so/330f3b0fba8580e0a12edaac2d6dbb98
-同期日時: 2026-04-23T00:39:33+09:00
+Notion URL: https://app.notion.com/p/330f3b0fba8580e0a12edaac2d6dbb98
+同期日時: 2026-06-07T03:54:04+09:00
 
 ---
 

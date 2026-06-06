@@ -1,7 +1,7 @@
 # 単価設定と営業有無の集中検討
 
-Notion URL: https://www.notion.so/35ef3b0fba85810da541d68cfe0d24ea
-同期日時: 2026-05-12T13:22:57+09:00
+Notion URL: https://app.notion.com/p/35ef3b0fba85810da541d68cfe0d24ea
+同期日時: 2026-06-07T03:54:53+09:00
 
 ---
 

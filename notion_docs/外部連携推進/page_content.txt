@@ -1,7 +1,7 @@
 # 外部連携推進
 
-Notion URL: https://www.notion.so/351f3b0fba858146bc76e91ebb9d3939
-同期日時: 2026-05-12T13:22:10+09:00
+Notion URL: https://app.notion.com/p/351f3b0fba858146bc76e91ebb9d3939
+同期日時: 2026-06-07T03:51:35+09:00
 
 ---
 

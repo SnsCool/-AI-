@@ -1,7 +1,7 @@
 # EPグループKPI設定
 
-Notion URL: https://www.notion.so/EP-KPI-355f3b0fba8581a5af94e8ec629f1e41
-同期日時: 2026-05-03T18:41:08+09:00
+Notion URL: https://app.notion.com/p/EP-KPI-355f3b0fba8581a5af94e8ec629f1e41
+同期日時: 2026-06-07T03:53:32+09:00
 
 ---
 

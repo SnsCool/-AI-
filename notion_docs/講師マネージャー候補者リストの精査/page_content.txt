@@ -1,7 +1,7 @@
 # 講師マネージャー候補者リストの精査
 
-Notion URL: https://www.notion.so/36bf3b0fba8581aea65fc701db93f4a8
-同期日時: 2026-05-30T01:23:03+09:00
+Notion URL: https://app.notion.com/p/36bf3b0fba8581aea65fc701db93f4a8
+同期日時: 2026-06-07T03:56:33+09:00
 
 ---
 

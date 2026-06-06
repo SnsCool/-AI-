@@ -1,7 +1,7 @@
 # CS業務用の覚書テンプレート共有
 
-Notion URL: https://www.notion.so/CS-32df3b0fba8581648455e3cb4d881785
-同期日時: 2026-04-23T00:38:19+09:00
+Notion URL: https://app.notion.com/p/CS-32df3b0fba8581648455e3cb4d881785
+同期日時: 2026-06-07T03:53:53+09:00
 
 ---
 

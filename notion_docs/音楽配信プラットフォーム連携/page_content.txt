@@ -1,7 +1,7 @@
 # 音楽配信プラットフォーム連携
 
-Notion URL: https://www.notion.so/355f3b0fba85812c9fdbf3713eceb9d7
-同期日時: 2026-05-03T18:41:05+09:00
+Notion URL: https://app.notion.com/p/355f3b0fba85812c9fdbf3713eceb9d7
+同期日時: 2026-06-07T03:53:37+09:00
 
 ---
 

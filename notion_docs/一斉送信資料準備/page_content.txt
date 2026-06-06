@@ -1,7 +1,7 @@
 # 一斉送信資料準備
 
-Notion URL: https://www.notion.so/355f3b0fba8581fea83bff5d5ce590b8
-同期日時: 2026-05-03T16:02:01+09:00
+Notion URL: https://app.notion.com/p/355f3b0fba8581fea83bff5d5ce590b8
+同期日時: 2026-06-07T03:52:09+09:00
 
 ---
 

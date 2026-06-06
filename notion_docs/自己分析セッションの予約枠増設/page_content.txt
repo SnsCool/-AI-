@@ -1,7 +1,7 @@
 # 自己分析セッションの予約枠増設
 
-Notion URL: https://www.notion.so/370f3b0fba85810798f3f833f9046a61
-同期日時: 2026-05-31T00:34:18+09:00
+Notion URL: https://app.notion.com/p/370f3b0fba85810798f3f833f9046a61
+同期日時: 2026-06-07T03:58:56+09:00
 
 ---
 

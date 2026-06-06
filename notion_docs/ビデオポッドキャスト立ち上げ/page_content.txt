@@ -1,7 +1,7 @@
 # ビデオポッドキャスト立ち上げ
 
-Notion URL: https://www.notion.so/33bf3b0fba8581c5b58af9126e21a604
-同期日時: 2026-04-07T18:33:10+09:00
+Notion URL: https://app.notion.com/p/33bf3b0fba8581c5b58af9126e21a604
+同期日時: 2026-06-07T03:49:07+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # KPI管理システム開発
 
-Notion URL: https://app.notion.com/p/KPI-353f3b0fba85819fade4c53d1c608b0e
-同期日時: 2026-06-07T00:35:08+09:00
+Notion URL: https://app.notion.com/p/KPI-353f3b0fba85811a9fa2ce0e3654a61c
+同期日時: 2026-06-07T03:59:25+09:00
 
 ---
 

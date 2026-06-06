@@ -1,7 +1,7 @@
 # 既存Discordサーバー継続利用方針策定
 
-Notion URL: https://www.notion.so/Discord-35ef3b0fba85816ea933e366366f750c
-同期日時: 2026-05-12T13:23:00+09:00
+Notion URL: https://app.notion.com/p/Discord-35ef3b0fba85816ea933e366366f750c
+同期日時: 2026-06-07T03:54:49+09:00
 
 ---
 

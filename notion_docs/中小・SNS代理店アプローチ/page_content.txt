@@ -1,7 +1,7 @@
 # 中小・SNS代理店アプローチ
 
-Notion URL: https://www.notion.so/SNS-355f3b0fba8581b7acf8f8ed4c7e50b3
-同期日時: 2026-05-03T16:01:58+09:00
+Notion URL: https://app.notion.com/p/SNS-355f3b0fba8581b7acf8f8ed4c7e50b3
+同期日時: 2026-06-07T03:52:16+09:00
 
 ---
 

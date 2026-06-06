@@ -1,7 +1,7 @@
 # ターゲット顧客解像度向上
 
-Notion URL: https://www.notion.so/35ef3b0fba8581f49b44f5d763c7b728
-同期日時: 2026-05-12T13:22:52+09:00
+Notion URL: https://app.notion.com/p/35ef3b0fba8581f49b44f5d763c7b728
+同期日時: 2026-06-07T03:55:03+09:00
 
 ---
 

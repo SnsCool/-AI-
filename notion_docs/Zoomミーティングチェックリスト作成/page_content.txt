@@ -1,7 +1,7 @@
 # Zoomミーティングチェックリスト作成
 
-Notion URL: https://www.notion.so/Zoom-32af3b0fba858120b38cec57ec546c0d
-同期日時: 2026-04-23T00:38:16+09:00
+Notion URL: https://app.notion.com/p/Zoom-32af3b0fba85812b86f1cd41549c68cc
+同期日時: 2026-06-07T03:53:27+09:00
 
 ---
 

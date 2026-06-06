@@ -1,7 +1,7 @@
 # 次クォーターKPI設定
 
-Notion URL: https://app.notion.com/p/KPI-353f3b0fba8581a799ffd665d7dfa1cb
-同期日時: 2026-06-07T00:35:25+09:00
+Notion URL: https://app.notion.com/p/KPI-353f3b0fba8581c29149fc3021c0706d
+同期日時: 2026-06-07T03:59:29+09:00
 
 ---
 

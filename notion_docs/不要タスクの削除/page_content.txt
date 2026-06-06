@@ -1,7 +1,7 @@
 # 不要タスクの削除
 
-Notion URL: https://www.notion.so/328f3b0fba858137ba59e40dd137f0de
-同期日時: 2026-04-23T00:38:14+09:00
+Notion URL: https://app.notion.com/p/328f3b0fba858137ba59e40dd137f0de
+同期日時: 2026-06-07T03:52:13+09:00
 
 ---
 

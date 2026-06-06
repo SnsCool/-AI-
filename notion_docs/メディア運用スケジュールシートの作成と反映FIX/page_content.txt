@@ -1,7 +1,7 @@
 # メディア運用スケジュールシートの作成と反映FIX
 
-Notion URL: https://www.notion.so/FIX-36bf3b0fba85811c9e36c9aa8aba1da7
-同期日時: 2026-05-30T01:22:31+09:00
+Notion URL: https://app.notion.com/p/FIX-36bf3b0fba85811c9e36c9aa8aba1da7
+同期日時: 2026-06-07T03:55:39+09:00
 
 ---
 

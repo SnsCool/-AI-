@@ -1,7 +1,7 @@
 # X広告アカウント管理
 
-Notion URL: https://www.notion.so/X-35ef3b0fba85811fa097fae8981246b3
-同期日時: 2026-05-12T13:23:12+09:00
+Notion URL: https://app.notion.com/p/X-35ef3b0fba85811fa097fae8981246b3
+同期日時: 2026-06-07T03:54:24+09:00
 
 ---
 

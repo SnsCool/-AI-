@@ -1,7 +1,7 @@
 # 外部デザイナーとの連携
 
-Notion URL: https://www.notion.so/335f3b0fba8581d18f2dda941cd97e32
-同期日時: 2026-04-01T15:46:48+09:00
+Notion URL: https://app.notion.com/p/335f3b0fba85814a9bdac54e7c136762
+同期日時: 2026-06-07T03:55:39+09:00
 
 ---
 

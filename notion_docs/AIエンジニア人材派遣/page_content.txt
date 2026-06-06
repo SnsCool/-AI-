@@ -1,7 +1,7 @@
 # AIエンジニア人材派遣
 
-Notion URL: https://www.notion.so/AI-355f3b0fba8581f4b09bc25c20c43ac1
-同期日時: 2026-05-12T13:22:16+09:00
+Notion URL: https://app.notion.com/p/AI-355f3b0fba8581f4b09bc25c20c43ac1
+同期日時: 2026-06-07T03:52:20+09:00
 
 ---
 

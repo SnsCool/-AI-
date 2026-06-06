@@ -1,7 +1,7 @@
 # サービス基盤構築
 
-Notion URL: https://www.notion.so/35ef3b0fba858156b997e83fcccaafe2
-同期日時: 2026-05-12T13:22:39+09:00
+Notion URL: https://app.notion.com/p/35ef3b0fba858156b997e83fcccaafe2
+同期日時: 2026-06-07T03:55:13+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 予約状況可視化
 
-Notion URL: https://www.notion.so/355f3b0fba85816e8d22c98430ce4d14
-同期日時: 2026-05-03T18:41:19+09:00
+Notion URL: https://app.notion.com/p/355f3b0fba85816e8d22c98430ce4d14
+同期日時: 2026-06-07T03:53:21+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 「技6」コース返金防止の自動通知システム導入
 
-Notion URL: https://www.notion.so/6-36bf3b0fba8581518c09c22e4e6c0a4d
-同期日時: 2026-05-31T00:34:43+09:00
+Notion URL: https://app.notion.com/p/6-36bf3b0fba8581518c09c22e4e6c0a4d
+同期日時: 2026-06-07T03:56:46+09:00
 
 ---
 

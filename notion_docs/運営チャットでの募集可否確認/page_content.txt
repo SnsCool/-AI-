@@ -1,7 +1,7 @@
 # 運営チャットでの募集可否確認
 
-Notion URL: https://www.notion.so/333f3b0fba858136991fea80f1a8944c
-同期日時: 2026-04-23T00:38:23+09:00
+Notion URL: https://app.notion.com/p/333f3b0fba858136991fea80f1a8944c
+同期日時: 2026-06-07T03:54:56+09:00
 
 ---
 

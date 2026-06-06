@@ -1,7 +1,7 @@
 # 営業用面談分析ツールのコーチング部導入
 
-Notion URL: https://www.notion.so/370f3b0fba8581e8ad3bc9e8de0331e8
-同期日時: 2026-05-31T00:34:15+09:00
+Notion URL: https://app.notion.com/p/370f3b0fba8581e8ad3bc9e8de0331e8
+同期日時: 2026-06-07T03:59:01+09:00
 
 ---
 

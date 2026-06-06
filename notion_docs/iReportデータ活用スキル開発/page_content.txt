@@ -1,7 +1,7 @@
 # iReportデータ活用スキル開発
 
-Notion URL: https://www.notion.so/iReport-35ef3b0fba85810b8c32ef4a5d6218dd
-同期日時: 2026-05-12T13:23:08+09:00
+Notion URL: https://app.notion.com/p/iReport-35ef3b0fba85810b8c32ef4a5d6218dd
+同期日時: 2026-06-07T03:54:30+09:00
 
 ---
 

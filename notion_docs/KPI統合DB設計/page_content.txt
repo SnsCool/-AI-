@@ -1,7 +1,7 @@
 # KPI統合DB設計
 
-Notion URL: https://app.notion.com/p/KPI-DB-35ff3b0fba8581f4a9cee9b9463f31ae
-同期日時: 2026-06-07T00:34:39+09:00
+Notion URL: https://app.notion.com/p/KPI-DB-370f3b0fba85812f9176fc93040442fb
+同期日時: 2026-06-07T03:58:26+09:00
 
 ---
 

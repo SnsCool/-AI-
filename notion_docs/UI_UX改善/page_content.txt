@@ -1,7 +1,7 @@
 # UI/UX改善
 
 Notion URL: https://app.notion.com/p/UI-UX-339f3b0fba85815d9f82ef868943dceb
-同期日時: 2026-05-01T13:32:00+09:00
+同期日時: 2026-06-07T03:57:25+09:00
 
 ---
 

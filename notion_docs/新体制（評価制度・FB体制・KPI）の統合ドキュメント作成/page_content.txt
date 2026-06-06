@@ -1,7 +1,7 @@
 # 新体制（評価制度・FB体制・KPI）の統合ドキュメント作成
 
-Notion URL: https://www.notion.so/FB-KPI-36bf3b0fba85815f8162ef524c569d65
-同期日時: 2026-05-30T01:22:48+09:00
+Notion URL: https://app.notion.com/p/FB-KPI-36bf3b0fba85815f8162ef524c569d65
+同期日時: 2026-06-07T03:56:25+09:00
 
 ---
 

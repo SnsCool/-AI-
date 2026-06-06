@@ -1,7 +1,7 @@
 # クラス関連業務の自動化検討
 
-Notion URL: https://app.notion.com/p/353f3b0fba858117972eeaedd287176d
-同期日時: 2026-06-07T00:36:15+09:00
+Notion URL: https://app.notion.com/p/353f3b0fba85811997e8d89bccb2597d
+同期日時: 2026-06-07T03:59:36+09:00
 
 ---
 

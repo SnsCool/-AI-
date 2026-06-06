@@ -1,7 +1,7 @@
 # KPI管理体制構築 関連タスク
 
-Notion URL: https://www.notion.so/KPI-34af3b0fba858169a5d3dac706cf6eaa
-同期日時: 2026-04-23T00:35:13+09:00
+Notion URL: https://app.notion.com/p/KPI-34af3b0fba858169a5d3dac706cf6eaa
+同期日時: 2026-06-07T03:50:06+09:00
 
 ---
 

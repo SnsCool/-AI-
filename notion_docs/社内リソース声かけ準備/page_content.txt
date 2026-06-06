@@ -1,7 +1,7 @@
 # 社内リソース声かけ準備
 
-Notion URL: https://www.notion.so/35ef3b0fba858176b071e68d3a520feb
-同期日時: 2026-05-12T13:23:10+09:00
+Notion URL: https://app.notion.com/p/35ef3b0fba858176b071e68d3a520feb
+同期日時: 2026-06-07T03:54:27+09:00
 
 ---
 

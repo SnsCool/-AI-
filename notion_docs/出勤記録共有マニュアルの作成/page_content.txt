@@ -1,7 +1,7 @@
 # 出勤記録共有マニュアルの作成
 
-Notion URL: https://www.notion.so/370f3b0fba85819096c0e9b385275813
-同期日時: 2026-05-31T00:34:52+09:00
+Notion URL: https://app.notion.com/p/370f3b0fba85819096c0e9b385275813
+同期日時: 2026-06-07T03:57:51+09:00
 
 ---
 

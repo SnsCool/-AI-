@@ -1,0 +1,8 @@
+# ZoomデータAWS連携進捗確認
+
+Notion URL: https://app.notion.com/p/Zoom-AWS-377f3b0fba8581f6a136e3157c8378d1
+同期日時: 2026-06-07T03:40:43+09:00
+
+---
+
+(コンテンツなし)

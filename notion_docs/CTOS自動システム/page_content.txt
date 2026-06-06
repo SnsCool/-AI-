@@ -1,7 +1,7 @@
 # CTOS自動システム
 
 Notion URL: https://app.notion.com/p/CTOS-331f3b0fba85814da383ce0cd3adbd8b
-同期日時: 2026-05-01T13:31:45+09:00
+同期日時: 2026-06-07T03:54:21+09:00
 
 ---
 

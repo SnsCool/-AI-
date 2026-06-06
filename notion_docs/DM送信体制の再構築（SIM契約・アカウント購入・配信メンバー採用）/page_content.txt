@@ -1,7 +1,7 @@
 # DM送信体制の再構築（SIM契約・アカウント購入・配信メンバー採用）
 
-Notion URL: https://www.notion.so/DM-SIM-36bf3b0fba8581089ecdda60307652c9
-同期日時: 2026-05-30T01:22:27+09:00
+Notion URL: https://app.notion.com/p/DM-SIM-36bf3b0fba8581089ecdda60307652c9
+同期日時: 2026-06-07T03:56:02+09:00
 
 ---
 

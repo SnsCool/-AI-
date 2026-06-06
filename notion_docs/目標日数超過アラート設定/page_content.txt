@@ -1,7 +1,7 @@
 # 目標日数超過アラート設定
 
-Notion URL: https://www.notion.so/328f3b0fba85813fb984e63f717c4de1
-同期日時: 2026-04-23T00:37:30+09:00
+Notion URL: https://app.notion.com/p/328f3b0fba85813fb984e63f717c4de1
+同期日時: 2026-06-07T03:52:18+09:00
 
 ---
 

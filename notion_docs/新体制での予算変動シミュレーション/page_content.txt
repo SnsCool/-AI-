@@ -1,7 +1,7 @@
 # 新体制での予算変動シミュレーション
 
-Notion URL: https://www.notion.so/370f3b0fba8581eda504c447fe20d530
-同期日時: 2026-05-31T00:35:29+09:00
+Notion URL: https://app.notion.com/p/370f3b0fba8581eda504c447fe20d530
+同期日時: 2026-06-07T03:57:20+09:00
 
 ---
 

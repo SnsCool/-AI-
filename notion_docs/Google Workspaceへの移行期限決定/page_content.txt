@@ -1,7 +1,7 @@
 # Google Workspaceへの移行期限決定
 
-Notion URL: https://www.notion.so/Google-Workspace-334f3b0fba85819880bdd374817f45f1
-同期日時: 2026-04-23T00:36:16+09:00
+Notion URL: https://app.notion.com/p/Google-Workspace-334f3b0fba85819880bdd374817f45f1
+同期日時: 2026-06-07T03:55:24+09:00
 
 ---
 

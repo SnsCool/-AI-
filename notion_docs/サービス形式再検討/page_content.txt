@@ -1,7 +1,7 @@
 # サービス形式再検討
 
-Notion URL: https://www.notion.so/35ef3b0fba858182ba01fc9f264abc74
-同期日時: 2026-05-12T13:22:25+09:00
+Notion URL: https://app.notion.com/p/35ef3b0fba858182ba01fc9f264abc74
+同期日時: 2026-06-07T03:44:02+09:00
 
 ---
 

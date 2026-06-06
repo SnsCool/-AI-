@@ -1,7 +1,7 @@
 # 食事内容検索レポート提供検討
 
-Notion URL: https://www.notion.so/35ef3b0fba8581338beed691ddbf84e7
-同期日時: 2026-05-12T13:22:57+09:00
+Notion URL: https://app.notion.com/p/35ef3b0fba8581338beed691ddbf84e7
+同期日時: 2026-06-07T03:54:56+09:00
 
 ---
 

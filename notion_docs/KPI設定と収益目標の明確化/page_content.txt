@@ -1,7 +1,7 @@
 # KPI設定と収益目標の明確化
 
-Notion URL: https://www.notion.so/KPI-319f3b0fba858197bd94dfe71d965a83
-同期日時: 2026-03-29T06:11:56+09:00
+Notion URL: https://app.notion.com/p/KPI-319f3b0fba858197bd94dfe71d965a83
+同期日時: 2026-06-07T03:51:43+09:00
 
 ---
 

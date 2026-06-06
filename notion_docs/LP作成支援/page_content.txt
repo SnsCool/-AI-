@@ -1,7 +1,7 @@
 # LP作成支援
 
-Notion URL: https://www.notion.so/LP-35ef3b0fba8581b798bbccbc7ad7d8a8
-同期日時: 2026-05-12T13:23:12+09:00
+Notion URL: https://app.notion.com/p/LP-35ef3b0fba8581b798bbccbc7ad7d8a8
+同期日時: 2026-06-07T03:54:24+09:00
 
 ---
 

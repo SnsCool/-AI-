@@ -1,7 +1,7 @@
 # Googleフォームによるロープレ管理・集計体制の整備
 
-Notion URL: https://www.notion.so/Google-36bf3b0fba85810ab5a8d72bdca74702
-同期日時: 2026-05-30T01:22:28+09:00
+Notion URL: https://app.notion.com/p/Google-36bf3b0fba85810ab5a8d72bdca74702
+同期日時: 2026-06-07T03:56:30+09:00
 
 ---
 

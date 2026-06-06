@@ -1,7 +1,7 @@
 # サービス内容改善
 
-Notion URL: https://app.notion.com/p/35ff3b0fba8581df87d2f88def9adc3a
-同期日時: 2026-06-07T00:33:55+09:00
+Notion URL: https://app.notion.com/p/35ef3b0fba8581a7a016e307185b0ed8
+同期日時: 2026-06-07T03:55:30+09:00
 
 ---
 

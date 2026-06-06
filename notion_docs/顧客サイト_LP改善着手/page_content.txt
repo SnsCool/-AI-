@@ -1,7 +1,7 @@
 # 顧客サイト/LP改善着手
 
-Notion URL: https://www.notion.so/LP-35ef3b0fba8581218e18ec80c872582a
-同期日時: 2026-05-12T13:22:53+09:00
+Notion URL: https://app.notion.com/p/LP-35ef3b0fba8581218e18ec80c872582a
+同期日時: 2026-06-07T03:55:02+09:00
 
 ---
 

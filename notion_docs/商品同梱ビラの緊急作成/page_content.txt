@@ -1,7 +1,7 @@
 # 商品同梱ビラの緊急作成
 
-Notion URL: https://www.notion.so/338f3b0fba858112a9e7f2175183ebb9
-同期日時: 2026-04-23T00:34:59+09:00
+Notion URL: https://app.notion.com/p/338f3b0fba858112a9e7f2175183ebb9
+同期日時: 2026-06-07T03:48:51+09:00
 
 ---
 

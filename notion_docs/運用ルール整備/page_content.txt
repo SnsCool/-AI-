@@ -1,7 +1,7 @@
 # 運用ルール整備
 
-Notion URL: https://app.notion.com/p/331f3b0fba858115ac4ada18d6f0adf2
-同期日時: 2026-05-01T13:31:46+09:00
+Notion URL: https://app.notion.com/p/353f3b0fba8581d496a5f56969d051f8
+同期日時: 2026-06-07T03:59:31+09:00
 
 ---
 

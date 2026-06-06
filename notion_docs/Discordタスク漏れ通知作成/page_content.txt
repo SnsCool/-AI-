@@ -1,7 +1,7 @@
 # Discordタスク漏れ通知作成
 
-Notion URL: https://www.notion.so/Discord-32af3b0fba8581f2b4dbfefe17fb24fe
-同期日時: 2026-04-23T00:37:32+09:00
+Notion URL: https://app.notion.com/p/Discord-32af3b0fba8581f2b4dbfefe17fb24fe
+同期日時: 2026-06-07T03:53:24+09:00
 
 ---
 

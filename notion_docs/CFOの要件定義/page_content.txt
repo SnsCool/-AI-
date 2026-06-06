@@ -1,7 +1,7 @@
 # CFOの要件定義
 
-Notion URL: https://www.notion.so/CFO-339f3b0fba85816ebd50ec693c33de55
-同期日時: 2026-04-23T00:36:06+09:00
+Notion URL: https://app.notion.com/p/CFO-339f3b0fba85816ebd50ec693c33de55
+同期日時: 2026-06-07T03:56:26+09:00
 
 ---
 

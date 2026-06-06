@@ -1,7 +1,7 @@
 # 個別ストーリー作成
 
-Notion URL: https://www.notion.so/35ef3b0fba85812ba202c6f5be10fdb1
-同期日時: 2026-05-12T13:22:51+09:00
+Notion URL: https://app.notion.com/p/35ef3b0fba85812ba202c6f5be10fdb1
+同期日時: 2026-06-07T03:54:07+09:00
 
 ---
 

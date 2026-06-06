@@ -1,7 +1,7 @@
 # 退職確認が取れたメンバーをDiscordからキック   
 
-Notion URL: https://www.notion.so/Discord-330f3b0fba8580a8a827c0d435d35c16
-同期日時: 2026-05-26T13:33:04+09:00
+Notion URL: https://app.notion.com/p/Discord-330f3b0fba8580a8a827c0d435d35c16
+同期日時: 2026-06-07T03:54:07+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # リスケ対応フローの詳細化（アクション分解）
 
-Notion URL: https://www.notion.so/370f3b0fba8581b6b535d770b52bce9e
-同期日時: 2026-05-31T00:35:25+09:00
+Notion URL: https://app.notion.com/p/370f3b0fba8581b6b535d770b52bce9e
+同期日時: 2026-06-07T03:57:35+09:00
 
 ---
 

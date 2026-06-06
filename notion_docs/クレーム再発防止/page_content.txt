@@ -1,7 +1,7 @@
 # クレーム再発防止
 
-Notion URL: https://app.notion.com/p/353f3b0fba8581a184d6e7c4c31c7f60
-同期日時: 2026-06-07T00:35:41+09:00
+Notion URL: https://app.notion.com/p/353f3b0fba85811496f6e786861a9f78
+同期日時: 2026-06-07T03:59:31+09:00
 
 ---
 

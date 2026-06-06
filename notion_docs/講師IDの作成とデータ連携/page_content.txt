@@ -1,7 +1,7 @@
 # 講師IDの作成とデータ連携
 
-Notion URL: https://www.notion.so/ID-348f3b0fba85817b8fddf93d132f51be
-同期日時: 2026-05-02T15:52:34+09:00
+Notion URL: https://app.notion.com/p/ID-348f3b0fba85817b8fddf93d132f51be
+同期日時: 2026-06-07T03:58:21+09:00
 
 ---
 

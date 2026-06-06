@@ -1,7 +1,7 @@
 # 全社的データ・運営基盤整備
 
-Notion URL: https://www.notion.so/345f3b0fba8581cbbe99c0b3bc68f81d
-同期日時: 2026-04-17T15:48:33+09:00
+Notion URL: https://app.notion.com/p/345f3b0fba8581418461f1af0595b4cc
+同期日時: 2026-06-07T03:40:22+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 制約率・着座率に基づくランク基準の資料化
 
-Notion URL: https://www.notion.so/36bf3b0fba858118b80adbaf1bf43169
-同期日時: 2026-05-30T01:22:30+09:00
+Notion URL: https://app.notion.com/p/36bf3b0fba858118b80adbaf1bf43169
+同期日時: 2026-06-07T03:56:23+09:00
 
 ---
 

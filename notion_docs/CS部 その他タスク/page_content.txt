@@ -1,7 +1,7 @@
 # CS部 その他タスク
 
-Notion URL: https://app.notion.com/p/CS-353f3b0fba8581d29919d2e1257567fd
-同期日時: 2026-06-07T00:35:09+09:00
+Notion URL: https://app.notion.com/p/CS-353f3b0fba8581b794c4ea3067bb7e5b
+同期日時: 2026-06-07T03:59:28+09:00
 
 ---
 

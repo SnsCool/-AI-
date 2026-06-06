@@ -1,7 +1,7 @@
 # マーケKPI要因分析資料確認
 
-Notion URL: https://app.notion.com/p/KPI-353f3b0fba858150b062d7de5b8c00c0
-同期日時: 2026-06-07T00:35:54+09:00
+Notion URL: https://app.notion.com/p/KPI-353f3b0fba85819daf43dcea6dd1c6fd
+同期日時: 2026-06-07T03:59:34+09:00
 
 ---
 

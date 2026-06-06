@@ -1,7 +1,7 @@
 # Notionワークスペースからの退職者アカウント削除
 
-Notion URL: https://www.notion.so/Notion-370f3b0fba8581969e31eeb648538386
-同期日時: 2026-05-31T00:34:43+09:00
+Notion URL: https://app.notion.com/p/Notion-370f3b0fba8581969e31eeb648538386
+同期日時: 2026-06-07T03:58:14+09:00
 
 ---
 

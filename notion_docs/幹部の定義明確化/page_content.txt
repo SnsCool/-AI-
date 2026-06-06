@@ -1,7 +1,7 @@
 # 幹部の定義明確化
 
-Notion URL: https://www.notion.so/339f3b0fba85819c9283d06d3aec3605
-同期日時: 2026-04-23T00:38:31+09:00
+Notion URL: https://app.notion.com/p/339f3b0fba85819c9283d06d3aec3605
+同期日時: 2026-06-07T03:56:42+09:00
 
 ---
 

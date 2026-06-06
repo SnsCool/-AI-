@@ -1,7 +1,7 @@
 # AI勉強会実施
 
-Notion URL: https://www.notion.so/AI-322f3b0fba858184bf65d35afa5e46ec
-同期日時: 2026-03-29T06:12:28+09:00
+Notion URL: https://app.notion.com/p/AI-322f3b0fba858184bf65d35afa5e46ec
+同期日時: 2026-06-07T03:51:47+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # アップロードコンテンツの品質基準策定
 
-Notion URL: https://www.notion.so/355f3b0fba8581c3a911fe2479175974
-同期日時: 2026-05-12T13:22:17+09:00
+Notion URL: https://app.notion.com/p/355f3b0fba8581c3a911fe2479175974
+同期日時: 2026-06-07T03:52:26+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 社内リソースでの採用LP制作と数値検証
 
-Notion URL: https://www.notion.so/LP-36bf3b0fba85817f8813c69a5a863a61
-同期日時: 2026-05-30T01:22:52+09:00
+Notion URL: https://app.notion.com/p/LP-36bf3b0fba85817f8813c69a5a863a61
+同期日時: 2026-06-07T03:56:05+09:00
 
 ---
 

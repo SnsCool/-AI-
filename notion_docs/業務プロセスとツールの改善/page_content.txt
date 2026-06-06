@@ -1,7 +1,7 @@
 # 業務プロセスとツールの改善
 
-Notion URL: https://www.notion.so/34ff3b0fba858115a953f4472dba0951
-同期日時: 2026-05-13T18:58:26+09:00
+Notion URL: https://app.notion.com/p/34ff3b0fba858115a953f4472dba0951
+同期日時: 2026-06-07T03:38:28+09:00
 
 ---
 

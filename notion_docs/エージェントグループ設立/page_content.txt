@@ -1,7 +1,7 @@
 # エージェントグループ設立
 
-Notion URL: https://www.notion.so/355f3b0fba8581b9bdaed7580a4950db
-同期日時: 2026-05-03T18:41:25+09:00
+Notion URL: https://app.notion.com/p/355f3b0fba8581b9bdaed7580a4950db
+同期日時: 2026-06-07T03:52:49+09:00
 
 ---
 

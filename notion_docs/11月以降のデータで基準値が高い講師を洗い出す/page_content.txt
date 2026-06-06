@@ -1,7 +1,7 @@
 # 11月以降のデータで基準値が高い講師を洗い出す
 
-Notion URL: https://www.notion.so/11-339f3b0fba85816fa95ad7d1dc4e8018
-同期日時: 2026-04-23T00:38:32+09:00
+Notion URL: https://app.notion.com/p/11-339f3b0fba85816fa95ad7d1dc4e8018
+同期日時: 2026-06-07T03:57:10+09:00
 
 ---
 

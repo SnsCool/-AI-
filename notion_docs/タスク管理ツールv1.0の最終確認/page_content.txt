@@ -1,7 +1,7 @@
 # タスク管理ツールv1.0の最終確認
 
-Notion URL: https://www.notion.so/v1-0-370f3b0fba8581b29069ccedcbd1be38
-同期日時: 2026-05-31T00:34:23+09:00
+Notion URL: https://app.notion.com/p/v1-0-370f3b0fba8581b29069ccedcbd1be38
+同期日時: 2026-06-07T03:58:47+09:00
 
 ---
 
