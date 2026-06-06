@@ -1,7 +1,7 @@
 # 個別スレッドを作成 
 
-Notion URL: https://www.notion.so/332f3b0fba8580fbb241cefd57b22fda
-同期日時: 2026-04-13T13:12:15+09:00
+Notion URL: https://app.notion.com/p/332f3b0fba8580fbb241cefd57b22fda
+同期日時: 2026-06-06T21:38:16+09:00
 
 ---
 
