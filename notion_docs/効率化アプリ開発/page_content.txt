@@ -1,7 +1,7 @@
 # 効率化アプリ開発
 
-Notion URL: https://www.notion.so/363f3b0fba8581de8525fc0642cf590e
-同期日時: 2026-05-17T13:29:50+09:00
+Notion URL: https://app.notion.com/p/363f3b0fba8581de8525fc0642cf590e
+同期日時: 2026-06-07T00:35:22+09:00
 
 ---
 

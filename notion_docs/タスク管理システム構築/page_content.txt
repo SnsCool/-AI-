@@ -1,7 +1,7 @@
 # タスク管理システム構築
 
-Notion URL: https://www.notion.so/35ff3b0fba8580d1853af0aa47d34615
-同期日時: 2026-05-13T18:58:51+09:00
+Notion URL: https://app.notion.com/p/35ff3b0fba8580d1853af0aa47d34615
+同期日時: 2026-06-07T00:35:09+09:00
 
 ---
 

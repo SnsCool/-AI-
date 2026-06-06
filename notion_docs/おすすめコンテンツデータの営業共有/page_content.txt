@@ -1,7 +1,7 @@
 # おすすめコンテンツデータの営業共有
 
-Notion URL: https://www.notion.so/35ff3b0fba85814abd74e80c57caadf3
-同期日時: 2026-05-13T16:18:56+09:00
+Notion URL: https://app.notion.com/p/35ff3b0fba85814abd74e80c57caadf3
+同期日時: 2026-06-07T00:34:23+09:00
 
 ---
 

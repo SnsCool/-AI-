@@ -1,7 +1,7 @@
 # 自動再予約リンク運用の見直し
 
-Notion URL: https://www.notion.so/363f3b0fba8581f3a971e5b3e1bffdf9
-同期日時: 2026-05-17T13:29:53+09:00
+Notion URL: https://app.notion.com/p/363f3b0fba8581f3a971e5b3e1bffdf9
+同期日時: 2026-06-07T00:35:23+09:00
 
 ---
 

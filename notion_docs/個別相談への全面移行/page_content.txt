@@ -1,7 +1,7 @@
 # 個別相談への全面移行
 
-Notion URL: https://www.notion.so/358f3b0fba858115bd7be95b3760f52e
-同期日時: 2026-05-24T13:34:21+09:00
+Notion URL: https://app.notion.com/p/358f3b0fba858115bd7be95b3760f52e
+同期日時: 2026-06-07T00:35:50+09:00
 
 ---
 

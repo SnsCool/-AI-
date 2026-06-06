@@ -1,7 +1,7 @@
 # タスク細分化と期限設定
 
-Notion URL: https://app.notion.com/p/353f3b0fba85814baf07dd31c38f873f
-同期日時: 2026-05-01T13:30:57+09:00
+Notion URL: https://app.notion.com/p/353f3b0fba858164b009f395181646ab
+同期日時: 2026-06-07T00:36:34+09:00
 
 ---
 

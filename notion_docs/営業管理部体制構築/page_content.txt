@@ -1,7 +1,7 @@
 # 営業管理部体制構築
 
-Notion URL: https://www.notion.so/35ff3b0fba85812db737fa2d8107fc4d
-同期日時: 2026-05-14T00:57:03+09:00
+Notion URL: https://app.notion.com/p/35ff3b0fba85812db737fa2d8107fc4d
+同期日時: 2026-06-07T00:34:25+09:00
 
 ---
 

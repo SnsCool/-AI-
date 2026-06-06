@@ -1,7 +1,7 @@
 # リスケ対応フロー詳細化
 
-Notion URL: https://www.notion.so/35ff3b0fba8581b698b8cb08dfbdb1d2
-同期日時: 2026-05-13T16:17:38+09:00
+Notion URL: https://app.notion.com/p/35ff3b0fba8581079bfdddf87d28e49f
+同期日時: 2026-06-07T00:35:00+09:00
 
 ---
 

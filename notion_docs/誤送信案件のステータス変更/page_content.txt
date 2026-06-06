@@ -1,7 +1,7 @@
 # 誤送信案件のステータス変更
 
-Notion URL: https://app.notion.com/p/353f3b0fba8581ff8132f66066648d2a
-同期日時: 2026-05-01T13:30:57+09:00
+Notion URL: https://app.notion.com/p/353f3b0fba85812ca1c3f707a774571f
+同期日時: 2026-06-07T00:36:19+09:00
 
 ---
 

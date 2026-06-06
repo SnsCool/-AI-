@@ -1,7 +1,7 @@
 # 部署間連携
 
-Notion URL: https://www.notion.so/35ff3b0fba85818bab5ef9c08b46f6f7
-同期日時: 2026-05-13T16:19:17+09:00
+Notion URL: https://app.notion.com/p/35ff3b0fba85818bab5ef9c08b46f6f7
+同期日時: 2026-06-07T00:34:25+09:00
 
 ---
 

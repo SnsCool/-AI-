@@ -1,7 +1,7 @@
 # マインドセット教材作成（PDF作成）　→ eLearningに入れる
 
-Notion URL: https://www.notion.so/PDF-eLearning-36ff3b0fba8580c7b282d366f35afc31
-同期日時: 2026-05-29T13:35:59+09:00
+Notion URL: https://app.notion.com/p/PDF-eLearning-36ff3b0fba8580c7b282d366f35afc31
+同期日時: 2026-06-07T00:35:51+09:00
 
 ---
 

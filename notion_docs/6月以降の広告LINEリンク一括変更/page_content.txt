@@ -1,7 +1,7 @@
 # 6月以降の広告LINEリンク一括変更
 
-Notion URL: https://www.notion.so/6-LINE-35ff3b0fba85811b96f3e5973f58d4aa
-同期日時: 2026-05-16T18:38:44+09:00
+Notion URL: https://app.notion.com/p/6-LINE-35ff3b0fba858168a080dc586e701cdf
+同期日時: 2026-06-07T00:35:23+09:00
 
 ---
 

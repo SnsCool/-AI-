@@ -1,7 +1,7 @@
 # 審査手続き開始
 
-Notion URL: https://www.notion.so/35ef3b0fba85813e87c8c46896507a86
-同期日時: 2026-05-12T21:55:30+09:00
+Notion URL: https://app.notion.com/p/35ef3b0fba85813e87c8c46896507a86
+同期日時: 2026-06-07T00:33:52+09:00
 
 ---
 

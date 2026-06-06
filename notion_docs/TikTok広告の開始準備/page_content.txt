@@ -1,7 +1,7 @@
 # TikTok広告の開始準備
 
-Notion URL: https://www.notion.so/TikTok-35ff3b0fba8581d199d0e047ad95d07d
-同期日時: 2026-05-30T16:11:50+09:00
+Notion URL: https://app.notion.com/p/TikTok-35ff3b0fba8581d199d0e047ad95d07d
+同期日時: 2026-06-07T00:35:22+09:00
 
 ---
 

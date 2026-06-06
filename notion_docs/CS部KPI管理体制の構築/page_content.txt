@@ -1,7 +1,7 @@
 # CS部KPI管理体制の構築
 
-Notion URL: https://app.notion.com/p/CS-KPI-353f3b0fba8581e8996cf5703caeb95f
-同期日時: 2026-05-01T13:31:16+09:00
+Notion URL: https://app.notion.com/p/CS-KPI-353f3b0fba85815fb9fce26d012536f5
+同期日時: 2026-06-07T00:35:24+09:00
 
 ---
 

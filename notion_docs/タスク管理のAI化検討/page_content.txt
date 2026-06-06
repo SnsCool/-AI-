@@ -1,7 +1,7 @@
 # タスク管理のAI化検討
 
-Notion URL: https://www.notion.so/AI-35ef3b0fba85816d8316ddbd8a09b45a
-同期日時: 2026-05-12T21:55:30+09:00
+Notion URL: https://app.notion.com/p/AI-35ef3b0fba85816d8316ddbd8a09b45a
+同期日時: 2026-06-07T00:33:45+09:00
 
 ---
 

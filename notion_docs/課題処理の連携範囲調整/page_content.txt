@@ -1,7 +1,7 @@
 # 課題処理の連携範囲調整
 
-Notion URL: https://www.notion.so/358f3b0fba8581c0ad65d1c01c3f21e8
-同期日時: 2026-05-06T21:52:54+09:00
+Notion URL: https://app.notion.com/p/358f3b0fba8581c0ad65d1c01c3f21e8
+同期日時: 2026-06-07T00:36:24+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 独自LINEツール開発
 
-Notion URL: https://www.notion.so/LINE-362f3b0fba8581ee81b0cfe6c725201b
-同期日時: 2026-05-19T13:38:09+09:00
+Notion URL: https://app.notion.com/p/LINE-362f3b0fba8581ee81b0cfe6c725201b
+同期日時: 2026-06-07T00:34:48+09:00
 
 ---
 

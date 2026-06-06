@@ -1,7 +1,7 @@
 # 現場問題の収集
 
-Notion URL: https://www.notion.so/358f3b0fba85816fa1a4c42380acfb17
-同期日時: 2026-05-06T21:52:49+09:00
+Notion URL: https://app.notion.com/p/358f3b0fba85816fa1a4c42380acfb17
+同期日時: 2026-06-07T00:36:34+09:00
 
 ---
 

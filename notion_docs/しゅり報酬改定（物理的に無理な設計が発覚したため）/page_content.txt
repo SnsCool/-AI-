@@ -1,7 +1,7 @@
 # しゅり報酬改定（物理的に無理な設計が発覚したため）
 
-Notion URL: https://www.notion.so/364f3b0fba8580288f57ce2dadde5c8e
-同期日時: 2026-05-19T10:06:02+09:00
+Notion URL: https://app.notion.com/p/364f3b0fba8580288f57ce2dadde5c8e
+同期日時: 2026-06-07T00:35:43+09:00
 
 ---
 

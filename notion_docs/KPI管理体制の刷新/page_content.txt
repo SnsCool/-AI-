@@ -1,7 +1,7 @@
 # KPI管理体制の刷新
 
-Notion URL: https://www.notion.so/KPI-358f3b0fba85814ca5e8d22e9b68c3af
-同期日時: 2026-05-06T21:53:09+09:00
+Notion URL: https://app.notion.com/p/KPI-358f3b0fba85814ca5e8d22e9b68c3af
+同期日時: 2026-06-07T00:35:56+09:00
 
 ---
 

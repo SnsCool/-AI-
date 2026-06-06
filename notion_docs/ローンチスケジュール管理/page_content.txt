@@ -1,7 +1,7 @@
 # ローンチスケジュール管理
 
-Notion URL: https://www.notion.so/354f3b0fba8581efb234d8702a87875a
-同期日時: 2026-05-12T13:25:28+09:00
+Notion URL: https://app.notion.com/p/354f3b0fba8581efb234d8702a87875a
+同期日時: 2026-06-07T00:35:41+09:00
 
 ---
 

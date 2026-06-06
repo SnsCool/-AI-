@@ -1,7 +1,7 @@
 # データ一元化
 
-Notion URL: https://www.notion.so/35ff3b0fba8581699df3e126906180e9
-同期日時: 2026-05-13T16:19:17+09:00
+Notion URL: https://app.notion.com/p/35ff3b0fba8581699df3e126906180e9
+同期日時: 2026-06-07T00:34:27+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # コーチング業務効率化
 
-Notion URL: https://app.notion.com/p/353f3b0fba85810bbb51cff5d35b4ab7
-同期日時: 2026-05-01T13:32:40+09:00
+Notion URL: https://app.notion.com/p/353f3b0fba8581a5869ec17612089b6a
+同期日時: 2026-06-07T00:34:34+09:00
 
 ---
 

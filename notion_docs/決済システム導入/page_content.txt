@@ -1,7 +1,7 @@
 # 決済システム導入
 
-Notion URL: https://www.notion.so/35ef3b0fba8581cf984cd3b46a0b3b31
-同期日時: 2026-05-12T21:55:28+09:00
+Notion URL: https://app.notion.com/p/35ef3b0fba8581cf984cd3b46a0b3b31
+同期日時: 2026-06-07T00:33:58+09:00
 
 ---
 

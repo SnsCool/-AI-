@@ -1,7 +1,7 @@
 # システム・情報基盤整備
 
-Notion URL: https://www.notion.so/35ff3b0fba8581979b65cf3797b0b550
-同期日時: 2026-05-13T16:19:20+09:00
+Notion URL: https://app.notion.com/p/35ff3b0fba8581979b65cf3797b0b550
+同期日時: 2026-06-07T00:34:22+09:00
 
 ---
 

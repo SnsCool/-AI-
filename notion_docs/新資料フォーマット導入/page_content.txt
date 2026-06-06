@@ -1,7 +1,7 @@
 # 新資料フォーマット導入
 
-Notion URL: https://www.notion.so/358f3b0fba858185ad75fbbb1a4311e0
-同期日時: 2026-05-06T21:52:50+09:00
+Notion URL: https://app.notion.com/p/358f3b0fba858185ad75fbbb1a4311e0
+同期日時: 2026-06-07T00:36:31+09:00
 
 ---
 

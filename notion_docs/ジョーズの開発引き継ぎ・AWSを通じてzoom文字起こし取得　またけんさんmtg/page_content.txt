@@ -1,7 +1,7 @@
 # ジョーズの開発引き継ぎ・AWSを通じてzoom文字起こし取得　またけんさんmtg
 
-Notion URL: https://www.notion.so/AWS-zoom-mtg-364f3b0fba85807fbaaad5f6fda4ea34
-同期日時: 2026-05-29T13:35:40+09:00
+Notion URL: https://app.notion.com/p/AWS-zoom-mtg-364f3b0fba85807fbaaad5f6fda4ea34
+同期日時: 2026-06-07T00:35:29+09:00
 
 ---
 

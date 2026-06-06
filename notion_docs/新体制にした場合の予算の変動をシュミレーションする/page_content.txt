@@ -1,7 +1,7 @@
 # 　新体制にした場合の予算の変動をシュミレーションする
 
-Notion URL: https://www.notion.so/368f3b0fba858026b8becf34644b123b
-同期日時: 2026-05-26T10:10:50+09:00
+Notion URL: https://app.notion.com/p/368f3b0fba858026b8becf34644b123b
+同期日時: 2026-06-07T00:35:41+09:00
 
 ---
 
