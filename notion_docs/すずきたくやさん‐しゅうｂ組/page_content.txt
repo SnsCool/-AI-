@@ -1,7 +1,7 @@
 # すずきたくやさん‐しゅうｂ組
 
-Notion URL: https://www.notion.so/363f3b0fba85803a9ee1c2e52a1aa086
-同期日時: 2026-06-01T00:35:48+09:00
+Notion URL: https://app.notion.com/p/363f3b0fba85803a9ee1c2e52a1aa086
+同期日時: 2026-06-06T16:17:07+09:00
 
 ---
 
@@ -13,7 +13,7 @@ Notion URL: https://www.notion.so/363f3b0fba85803a9ee1c2e52a1aa086
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
     ②誓約書はPDFにして生徒さんへ送付
     ▼講師1on1　予約用timerex▼
-    https://timerex.net/s/shurifutingushu_f711/b21ad244
+    https://timerex.net/s/shurifutingushu_f711/b21ad244  👍
     生徒メアド：
 suzutaku7-su@ezweb.ne.jp
     １回目：第２回（初期設計1on1）〜第４回講義 

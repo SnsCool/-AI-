@@ -1,13 +1,13 @@
 # すがのまりえ_ゆのC組
 
-Notion URL: https://www.notion.so/_-C-32ef3b0fba8580f78c59d965cc44c2ed
-同期日時: 2026-05-16T18:37:59+09:00
+Notion URL: https://app.notion.com/p/_-C-32ef3b0fba8580f78c59d965cc44c2ed
+同期日時: 2026-06-06T16:17:01+09:00
 
 ---
 
     📱 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩
-    [ここにアカウントのURLを貼り付]
-    [ここにアクションスケジュール管理表のスプレッドシートURLを貼り付ける]
+    https://www.instagram.com/marie_body_beauty
+    https://docs.google.com/spreadsheets/d/12cY0pEdKbzkbg1OXTiv6vu-Gm48UuanKKQ4GndN5Ytk/edit?usp=sharing
     📜 | 誓約書
     [ここに誓約書URLを貼り付ける　⇩に、エクスポートした誓約書PDFを貼る]
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
@@ -29,6 +29,7 @@ Notion URL: https://www.notion.so/_-C-32ef3b0fba8580f78c59d965cc44c2ed
     2回目
     自動格納済
     3回目
+    自動格納済
     4回目
     5回目
     6回目
