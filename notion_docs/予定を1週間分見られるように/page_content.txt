@@ -1,7 +1,7 @@
 # 予定を1週間分見られるように
 
-Notion URL: https://www.notion.so/1-36cf3b0fba858098b98ff24443d69811
-同期日時: 2026-06-02T10:13:41+09:00
+Notion URL: https://app.notion.com/p/1-36cf3b0fba858098b98ff24443d69811
+同期日時: 2026-06-07T21:42:45+09:00
 
 ---
 

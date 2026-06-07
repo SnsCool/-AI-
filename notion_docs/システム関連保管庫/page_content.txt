@@ -1,7 +1,7 @@
 # システム関連保管庫
 
-Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
-同期日時: 2026-05-28T16:34:51+09:00
+Notion URL: https://app.notion.com/p/2c5f3b0fba85805e9a9df38a09a61705
+同期日時: 2026-06-07T21:43:22+09:00
 
 ---
 
@@ -35,6 +35,7 @@ Notion URL: https://www.notion.so/2c5f3b0fba85805e9a9df38a09a61705
   動画分割
     https://docs.google.com/spreadsheets/d/1LdFmuh3NzBELFc68MsPrWu8JlhL96-L1UUPqkfFqKGI/edit?usp=drive_link
   マニュアル化
+マネタイズ動画のリニューアル
 未分類
 スクラブラジオの音声結合
 アプリ開発
