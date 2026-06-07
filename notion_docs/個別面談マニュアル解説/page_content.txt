@@ -1,10 +1,12 @@
 # 個別面談マニュアル解説
 
 Notion URL: https://app.notion.com/p/377f3b0fba858018a6f9f25324ca4d80
-同期日時: 2026-06-07T06:28:28+09:00
+同期日時: 2026-06-07T10:14:05+09:00
 
 ---
 
+  📋️マニュアル
+  【簡単】個別相談マニュアル 
 ヒアリング編
 https://drive.google.com/file/d/1csX2cyOxUgq16cyrXhz5WHNjMEZvmFlO/view?usp=share_link
 アカウント提案〜クロージング編
