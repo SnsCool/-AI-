@@ -1,7 +1,7 @@
 # マーケティング部
 
 Notion URL: https://app.notion.com/p/2aef3b0fba85808ea375ce346cb863a8
-同期日時: 2026-06-06T10:05:53+09:00
+同期日時: 2026-06-07T16:35:31+09:00
 
 ---
 
@@ -13,7 +13,7 @@ Notion URL: https://app.notion.com/p/2aef3b0fba85808ea375ce346cb863a8
     https://docs.google.com/spreadsheets/d/1UDnUaEevYg_QNQ6fDV-NAVDzQJp777yuDedIPk-ybCQ/edit?gid=0#gid=0
     Untitled 
     講師閲覧用 
-
+Untitled 
     小野寺メモ
     📝タスク管理
     LINEチームガントチャート  
