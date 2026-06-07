@@ -1,7 +1,7 @@
 # 卒業生アンケートAIで一元管理
 
-Notion URL: https://www.notion.so/AI-35df3b0fba85803eb3ccecfc0e28e731
-同期日時: 2026-05-11T19:21:41+09:00
+Notion URL: https://app.notion.com/p/AI-797f3b0fba858208a2f981664c142022
+同期日時: 2026-06-07T19:04:24+09:00
 
 ---
 

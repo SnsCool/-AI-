@@ -1,7 +1,7 @@
 # ルール投稿する
 
-Notion URL: https://www.notion.so/35df3b0fba85800d96eae3b14f70b7b9
-同期日時: 2026-05-11T22:14:46+09:00
+Notion URL: https://app.notion.com/p/5a4f3b0fba8583a58d7c01f863d88513
+同期日時: 2026-06-07T19:04:25+09:00
 
 ---
 
