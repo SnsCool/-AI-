@@ -1,7 +1,7 @@
 # マネタイズコンテンツスライド
 
 Notion URL: https://app.notion.com/p/32df3b0fba8580df971adefe7381d1e8
-同期日時: 2026-06-08T03:36:14+09:00
+同期日時: 2026-06-08T13:37:58+09:00
 
 ---
 
@@ -212,31 +212,16 @@ https://www.loom.com/share/100041ff40cf44b69c3458f34d483f8f
 収益化の全体像　✅
 https://canva.link/snu74wgw329rbme
 収益化で意識するポイント　✅
-🔴https://canva.link/uvkq4r0m5zbb021
-インスタで月7桁・8桁を達成するセールスファネル
 4章 売れるアカウント設計 
-🔴https://canva.link/cp7tzwm2zd91tuf
-初期設計の重要性
 🔴https://canva.link/5xvtz0h12zkl4pa
-ジャンル選び
+マネタイズジャンル選び　✅
 🔴https://canva.link/bdgxy148wdwazav
-ジャンル選びと収益性の関係性
-🔴https://canva.link/7i18wpa0ybhkr9c
-発信ジャンルの競合分析
-https://canva.link/ec94uvfjcn78iet
-爆伸びするアカウント設計
-https://canva.link/pruzpzotf023e50
-競合分析のポイント
-https://canva.link/92mgkboh9vjg2kk
-企画の競合分析のポイント
-https://canva.link/ovo0yekv0fijr38
-企画の作り方
+ジャンル選びと収益性の関係性　✅
+マネタイズジャンル選びの資料と合併する
 https://canva.link/n7u4kf1t73h4ck9
-ハイライトの設置
-https://canva.link/mikoc527yuwjlyx
-他ジャンルから自身のアカウントへの応用方法
+ハイライトの設置　✅
 🔴https://canva.link/v2z91b4g9mwoxun
-ビジネス基礎マスター講座
+ビジネス基礎マスター講座　✅
 🔴https://canva.link/6bdp0spdwoi2a0t
 ビジネス基礎マスター講座2
 🔴https://canva.link/ge0qnirabuq5cn0
@@ -318,6 +303,8 @@ https://canva.link/jh1urk713nwbc2t❌
 7章 自社商品完全攻略
 (セミナー、個別面談、ラインマーケ含め全て入れる)
 ▼商品設計・収益化
+🔴https://canva.link/uvkq4r0m5zbb021　✅
+
 https://canva.link/n7qrmrfjm2003jv
 固定報酬における収益化※アカウント情報外したほうがいいかも
 https://canva.link/arjtr6tj95g4l2q❌
