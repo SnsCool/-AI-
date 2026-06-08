@@ -1,7 +1,7 @@
 # きくちかなこ　ふえA組
 
-Notion URL: https://www.notion.so/A-343f3b0fba858097a83bd47f2ee4a36b
-同期日時: 2026-06-01T19:56:47+09:00
+Notion URL: https://app.notion.com/p/A-343f3b0fba858097a83bd47f2ee4a36b
+同期日時: 2026-06-08T19:44:49+09:00
 
 ---
 
@@ -28,6 +28,7 @@ Notion URL: https://www.notion.so/A-343f3b0fba858097a83bd47f2ee4a36b
     1回目
     2回目
     3回目
+
     4回目
     5回目
     6回目
