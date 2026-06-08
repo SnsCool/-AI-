@@ -1,7 +1,7 @@
 # 講師マネージャーの報酬体系再設計（成果報酬型への移行）
 
-Notion URL: https://app.notion.com/p/36bf3b0fba858105bef2d385dfd7e4ec
-同期日時: 2026-06-07T03:56:55+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581d98308e71032ff15a6
+同期日時: 2026-06-09T04:03:51+09:00
 
 ---
 

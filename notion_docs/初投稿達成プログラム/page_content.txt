@@ -1,7 +1,7 @@
 # 初投稿達成プログラム
 
-Notion URL: https://app.notion.com/p/319f3b0fba85802a89aed447d91961e9
-同期日時: 2026-04-14T13:07:34+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581558ec9ddc28b06424e
+同期日時: 2026-06-09T04:04:20+09:00
 
 ---
 
@@ -238,7 +238,7 @@ https://shared-beak-b34.notion.site/42b3f418d4d64dddaa76443e5aab967a?pvs=4
   ✅ アウトプット内容に必ず反応する
 　Lアウトプットをまずしただけで素晴らしい！と褒めてあげてください🔥
   📍STEP19　初投稿
-  STEP19　初投稿 
+  Untitled 
   生徒さんがやること：
     講師OKが出たら、記念すべき初投稿をする
     クラスと初投稿部屋で報告をする

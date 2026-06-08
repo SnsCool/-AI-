@@ -1,7 +1,7 @@
 # 入会フォーム2分割の営業チーム通知
 
-Notion URL: https://app.notion.com/p/2-379f3b0fba85813991dce9a247b9e15c
-同期日時: 2026-06-09T01:27:40+09:00
+Notion URL: https://app.notion.com/p/2-379f3b0fba85816e8b5deef53c4105a5
+同期日時: 2026-06-09T04:01:53+09:00
 
 ---
 

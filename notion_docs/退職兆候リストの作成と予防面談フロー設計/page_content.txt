@@ -1,7 +1,7 @@
 # 退職兆候リストの作成と予防面談フロー設計
 
-Notion URL: https://app.notion.com/p/370f3b0fba8581898cc0c453d77c1a35
-同期日時: 2026-06-07T03:58:12+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba858114971cec441a71c2d1
+同期日時: 2026-06-09T04:02:38+09:00
 
 ---
 

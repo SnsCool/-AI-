@@ -1,7 +1,7 @@
 # マネージャー/GMの役割・責任の再定義と定性評価項目の確立
 
-Notion URL: https://app.notion.com/p/GM-36bf3b0fba8581c2a6b7e55e4e22e5cb
-同期日時: 2026-06-07T03:56:22+09:00
+Notion URL: https://app.notion.com/p/GM-379f3b0fba85812bbc7befa876ff5f5f
+同期日時: 2026-06-09T04:03:16+09:00
 
 ---
 

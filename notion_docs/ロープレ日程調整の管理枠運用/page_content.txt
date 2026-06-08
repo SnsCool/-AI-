@@ -1,7 +1,7 @@
 # ロープレ日程調整の管理枠運用
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581abb669d4345ad1978b
-同期日時: 2026-06-09T01:28:21+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba85814a913ff82d30bda782
+同期日時: 2026-06-09T04:01:33+09:00
 
 ---
 

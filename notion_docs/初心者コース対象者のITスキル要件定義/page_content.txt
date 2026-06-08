@@ -1,7 +1,7 @@
 # 初心者コース対象者のITスキル要件定義
 
-Notion URL: https://app.notion.com/p/IT-36bf3b0fba85814f928ae1486001b267
-同期日時: 2026-06-07T03:56:48+09:00
+Notion URL: https://app.notion.com/p/IT-379f3b0fba858153b846d246f2286191
+同期日時: 2026-06-09T04:03:36+09:00
 
 ---
 

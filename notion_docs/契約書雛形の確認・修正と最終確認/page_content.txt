@@ -1,7 +1,7 @@
 # 契約書雛形の確認・修正と最終確認
 
-Notion URL: https://app.notion.com/p/379f3b0fba85811cbf34df4bec7a3ab2
-同期日時: 2026-06-09T01:28:05+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581878da8f66cc5c2d513
+同期日時: 2026-06-09T04:01:56+09:00
 
 ---
 

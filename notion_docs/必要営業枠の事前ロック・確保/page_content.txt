@@ -1,7 +1,7 @@
 # 必要営業枠の事前ロック・確保
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581d99ca9c47b489f560b
-同期日時: 2026-06-09T01:27:39+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba858183b269cb95c795d3a6
+同期日時: 2026-06-09T04:01:21+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 全社の採用計画のNotionへの集約
 
-Notion URL: https://app.notion.com/p/Notion-370f3b0fba85810cbeb4c95765780697
-同期日時: 2026-06-07T03:58:11+09:00
+Notion URL: https://app.notion.com/p/Notion-379f3b0fba8581269f75c6bdb0c7b69e
+同期日時: 2026-06-09T04:03:03+09:00
 
 ---
 

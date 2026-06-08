@@ -1,7 +1,7 @@
 # 重要指標のダッシュボード反映と週次報告
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581a59b56f161d09eafc5
-同期日時: 2026-06-09T01:28:08+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581f09e3be6a3c9b74e7b
+同期日時: 2026-06-09T04:01:34+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 四半期ごとの退職データ分析と採用基準への反映
 
-Notion URL: https://app.notion.com/p/370f3b0fba8581efb1b3f521e6d3fca7
-同期日時: 2026-06-07T03:58:03+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581ffa26ed6978a639ace
+同期日時: 2026-06-09T04:02:06+09:00
 
 ---
 

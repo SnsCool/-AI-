@@ -1,7 +1,7 @@
 # 目標達成生徒の成功習慣を収集・蓄積する仕組みの作成
 
-Notion URL: https://app.notion.com/p/36bf3b0fba8581c0addbde070948d132
-同期日時: 2026-06-07T03:56:39+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba85811b99c0ddc336af95df
+同期日時: 2026-06-09T04:03:15+09:00
 
 ---
 

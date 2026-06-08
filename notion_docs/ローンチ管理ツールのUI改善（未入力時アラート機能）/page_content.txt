@@ -1,7 +1,7 @@
 # ローンチ管理ツールのUI改善（未入力時アラート機能）
 
-Notion URL: https://app.notion.com/p/UI-36bf3b0fba858146b419c5bcc7ff86c0
-同期日時: 2026-06-07T03:56:58+09:00
+Notion URL: https://app.notion.com/p/UI-379f3b0fba8581948f8dec05bbb86c0d
+同期日時: 2026-06-09T04:03:38+09:00
 
 ---
 

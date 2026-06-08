@@ -1,7 +1,7 @@
 # 進捗可視化ダッシュボード用データの共有
 
-Notion URL: https://app.notion.com/p/36bf3b0fba8581cbb6d9c2e6e4e235f7
-同期日時: 2026-06-07T03:56:44+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581858b5bda1736978c87
+同期日時: 2026-06-09T04:03:13+09:00
 
 ---
 

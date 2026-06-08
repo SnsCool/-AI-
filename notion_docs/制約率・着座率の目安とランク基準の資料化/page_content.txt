@@ -1,7 +1,7 @@
 # 制約率・着座率の目安とランク基準の資料化
 
-Notion URL: https://app.notion.com/p/36bf3b0fba858128a0dfe0909c924b8f
-同期日時: 2026-06-07T03:56:29+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba85819b8ebae6acf21a41dc
+同期日時: 2026-06-09T04:03:44+09:00
 
 ---
 

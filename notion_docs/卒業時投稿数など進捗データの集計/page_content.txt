@@ -1,7 +1,7 @@
 # 卒業時投稿数など進捗データの集計
 
-Notion URL: https://app.notion.com/p/379f3b0fba858197a449df4e751f5539
-同期日時: 2026-06-09T01:27:43+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581f8beedf76c5584f783
+同期日時: 2026-06-09T04:01:39+09:00
 
 ---
 

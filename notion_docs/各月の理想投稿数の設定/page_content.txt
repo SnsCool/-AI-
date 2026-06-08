@@ -1,7 +1,7 @@
 # 各月の理想投稿数の設定
 
-Notion URL: https://app.notion.com/p/379f3b0fba85812f9c30df782ba9e140
-同期日時: 2026-06-09T01:27:43+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581b9b70ad6c6f96c216c
+同期日時: 2026-06-09T04:01:54+09:00
 
 ---
 

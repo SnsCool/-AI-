@@ -1,7 +1,7 @@
 # 業務ツール・ポータルの改善
 
-Notion URL: https://app.notion.com/p/334f3b0fba8581149c4ceae42cc5ef31
-同期日時: 2026-06-07T03:55:33+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581f581fdd2a30c8885ea
+同期日時: 2026-06-09T04:03:54+09:00
 
 ---
 

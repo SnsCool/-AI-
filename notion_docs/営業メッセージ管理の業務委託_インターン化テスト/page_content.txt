@@ -1,7 +1,7 @@
 # 営業メッセージ管理の業務委託/インターン化テスト
 
-Notion URL: https://app.notion.com/p/379f3b0fba858189aea5ccd0f698d8aa
-同期日時: 2026-06-09T01:28:20+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba858117b709f98851956be7
+同期日時: 2026-06-09T04:01:40+09:00
 
 ---
 

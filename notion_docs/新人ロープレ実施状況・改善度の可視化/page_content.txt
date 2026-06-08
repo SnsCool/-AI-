@@ -1,7 +1,7 @@
 # 新人ロープレ実施状況・改善度の可視化
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581d9bcfee431d72894b8
-同期日時: 2026-06-09T01:28:21+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba85816d9fbbfe4eca05cab3
+同期日時: 2026-06-09T04:01:20+09:00
 
 ---
 

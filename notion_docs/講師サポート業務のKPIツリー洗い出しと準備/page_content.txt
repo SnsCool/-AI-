@@ -1,7 +1,7 @@
 # 講師サポート業務のKPIツリー洗い出しと準備
 
-Notion URL: https://app.notion.com/p/KPI-370f3b0fba8581a19820fb42f39f4722
-同期日時: 2026-06-07T03:58:50+09:00
+Notion URL: https://app.notion.com/p/KPI-379f3b0fba85810da773d8ebd3c6e458
+同期日時: 2026-06-09T04:02:33+09:00
 
 ---
 

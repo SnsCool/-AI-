@@ -1,7 +1,7 @@
 # 自己紹介ページの運用ルール策定
 
-Notion URL: https://app.notion.com/p/370f3b0fba8581c89684ff89ee1220e5
-同期日時: 2026-06-07T03:57:52+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581c48c12fa2003266d6e
+同期日時: 2026-06-09T04:02:24+09:00
 
 ---
 

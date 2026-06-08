@@ -1,7 +1,7 @@
 # GM報酬体系とマネージャー育成インセンティブの設計
 
-Notion URL: https://app.notion.com/p/GM-36bf3b0fba85817dbac8e1fdff73b618
-同期日時: 2026-06-07T03:56:20+09:00
+Notion URL: https://app.notion.com/p/GM-379f3b0fba85819bb76bd3b8d2a98da6
+同期日時: 2026-06-09T04:03:30+09:00
 
 ---
 

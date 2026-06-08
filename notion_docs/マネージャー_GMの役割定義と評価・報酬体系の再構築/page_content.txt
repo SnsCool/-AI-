@@ -1,7 +1,7 @@
 # マネージャー/GMの役割定義と評価・報酬体系の再構築
 
-Notion URL: https://app.notion.com/p/GM-36bf3b0fba858101ac77c1a03a2a9865
-同期日時: 2026-06-07T03:56:25+09:00
+Notion URL: https://app.notion.com/p/GM-379f3b0fba8581cea106f60eaddc9ac0
+同期日時: 2026-06-09T04:03:52+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 問題講師への契約非更新の通知
 
-Notion URL: https://app.notion.com/p/36bf3b0fba858112a640ddad80dd9be2
-同期日時: 2026-06-07T03:56:34+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba858192a933e064402ee4f5
+同期日時: 2026-06-09T04:03:49+09:00
 
 ---
 

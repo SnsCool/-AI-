@@ -1,7 +1,7 @@
 # ろじんさんとの連携方針の決定
 
-Notion URL: https://app.notion.com/p/370f3b0fba85818682e0c1531547c5b3
-同期日時: 2026-06-07T03:58:36+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581c0bb14fdc960854e69
+同期日時: 2026-06-09T04:02:42+09:00
 
 ---
 

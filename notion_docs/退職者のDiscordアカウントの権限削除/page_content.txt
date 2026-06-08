@@ -1,7 +1,7 @@
 # 退職者のDiscordアカウントの権限削除
 
-Notion URL: https://app.notion.com/p/Discord-370f3b0fba858118bbc5ff003beb025f
-同期日時: 2026-06-07T03:58:12+09:00
+Notion URL: https://app.notion.com/p/Discord-379f3b0fba85810babbde0df3ea5d9d1
+同期日時: 2026-06-09T04:03:00+09:00
 
 ---
 

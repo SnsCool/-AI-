@@ -1,7 +1,7 @@
 # 要判別生徒リストの作成・処理（本日中）
 
-Notion URL: https://app.notion.com/p/379f3b0fba858162b4c7cf263b625fa0
-同期日時: 2026-06-09T01:27:45+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba85812e976bd79dd825ee3b
+同期日時: 2026-06-09T04:01:45+09:00
 
 ---
 

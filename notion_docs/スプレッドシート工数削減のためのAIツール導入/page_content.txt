@@ -1,7 +1,7 @@
 # スプレッドシート工数削減のためのAIツール導入
 
-Notion URL: https://app.notion.com/p/AI-370f3b0fba8581e89bcad33ab080a882
-同期日時: 2026-06-07T03:57:28+09:00
+Notion URL: https://app.notion.com/p/AI-379f3b0fba85812dbe85d5a322f2b0b1
+同期日時: 2026-06-09T04:02:04+09:00
 
 ---
 

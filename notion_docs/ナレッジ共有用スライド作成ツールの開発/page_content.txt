@@ -1,7 +1,7 @@
 # ナレッジ共有用スライド作成ツールの開発
 
-Notion URL: https://app.notion.com/p/370f3b0fba8581cb8a93fd2f4a4873fd
-同期日時: 2026-06-07T03:57:24+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba85817295dfc990d02bec0b
+同期日時: 2026-06-09T04:02:20+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 採用時の確約3回ルールの作成とシステム追加
 
-Notion URL: https://app.notion.com/p/3-370f3b0fba8581929995f644e8eae31f
-同期日時: 2026-06-07T03:58:30+09:00
+Notion URL: https://app.notion.com/p/3-379f3b0fba858146914bdc88f6286376
+同期日時: 2026-06-09T04:02:35+09:00
 
 ---
 

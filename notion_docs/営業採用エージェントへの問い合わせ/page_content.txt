@@ -1,7 +1,7 @@
 # 営業採用エージェントへの問い合わせ
 
-Notion URL: https://app.notion.com/p/370f3b0fba858107bb31d23203a40bcd
-同期日時: 2026-06-07T03:57:43+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581c9b5a4d515e5411706
+同期日時: 2026-06-09T04:03:04+09:00
 
 ---
 

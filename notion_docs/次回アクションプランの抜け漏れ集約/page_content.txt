@@ -1,7 +1,7 @@
 # 次回アクションプランの抜け漏れ集約
 
-Notion URL: https://app.notion.com/p/379f3b0fba858191a3bfdb1e4d5e792b
-同期日時: 2026-06-09T01:28:02+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581f6aa7bc7346a599373
+同期日時: 2026-06-09T04:01:39+09:00
 
 ---
 

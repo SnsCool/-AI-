@@ -1,7 +1,7 @@
 # 打刻エラーの週次修正対応
 
-Notion URL: https://app.notion.com/p/34ff3b0fba8581d09c74cbbfd4ab0235
-同期日時: 2026-06-07T03:59:18+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba85813898affdf2237ed5c1
+同期日時: 2026-06-09T04:02:29+09:00
 
 ---
 

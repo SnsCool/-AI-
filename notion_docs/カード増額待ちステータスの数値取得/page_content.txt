@@ -1,7 +1,7 @@
 # カード増額待ちステータスの数値取得
 
-Notion URL: https://app.notion.com/p/370f3b0fba8581aa8616ebf30db49ce6
-同期日時: 2026-06-07T03:57:29+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581548840e21de08ff6fa
+同期日時: 2026-06-09T04:02:29+09:00
 
 ---
 

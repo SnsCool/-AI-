@@ -1,7 +1,7 @@
 # マネージャーの降格・昇格判定ルールの明文化
 
-Notion URL: https://app.notion.com/p/36bf3b0fba8581c1a400d5e1b362fc34
-同期日時: 2026-06-07T03:56:20+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581cd80ecdfdf7279b49d
+同期日時: 2026-06-09T04:03:16+09:00
 
 ---
 

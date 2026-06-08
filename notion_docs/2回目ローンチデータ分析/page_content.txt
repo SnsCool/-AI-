@@ -1,7 +1,7 @@
 # 2回目ローンチデータ分析
 
-Notion URL: https://app.notion.com/p/2-370f3b0fba85810db37fe534598e3c15
-同期日時: 2026-06-07T03:58:27+09:00
+Notion URL: https://app.notion.com/p/2-379f3b0fba8581d38c6dc553d74ed310
+同期日時: 2026-06-09T04:03:03+09:00
 
 ---
 

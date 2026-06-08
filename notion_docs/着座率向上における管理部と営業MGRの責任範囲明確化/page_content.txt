@@ -1,7 +1,7 @@
 # 着座率向上における管理部と営業MGRの責任範囲明確化
 
-Notion URL: https://app.notion.com/p/MGR-36bf3b0fba85818d96a1fda41b5e1e16
-同期日時: 2026-06-07T03:56:26+09:00
+Notion URL: https://app.notion.com/p/MGR-379f3b0fba8581669016fb947d5e7879
+同期日時: 2026-06-09T04:03:28+09:00
 
 ---
 

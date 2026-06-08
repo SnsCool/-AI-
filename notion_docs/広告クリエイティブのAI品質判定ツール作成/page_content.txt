@@ -1,7 +1,7 @@
 # 広告クリエイティブのAI品質判定ツール作成
 
-Notion URL: https://app.notion.com/p/AI-370f3b0fba8581aab527d8924c810832
-同期日時: 2026-06-07T03:57:08+09:00
+Notion URL: https://app.notion.com/p/AI-379f3b0fba8581169712d09438ed0750
+同期日時: 2026-06-09T04:02:29+09:00
 
 ---
 

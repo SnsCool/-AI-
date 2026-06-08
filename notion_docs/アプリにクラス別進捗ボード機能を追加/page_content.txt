@@ -1,7 +1,7 @@
 # アプリにクラス別進捗ボード機能を追加
 
-Notion URL: https://app.notion.com/p/370f3b0fba8581bd817bc8bec2bac018
-同期日時: 2026-06-07T03:58:15+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581dcb77bcec86231c02d
+同期日時: 2026-06-09T04:02:28+09:00
 
 ---
 

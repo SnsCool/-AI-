@@ -1,7 +1,7 @@
 # ポテンシャル候補者リストの管理・再アプローチ運用構築
 
-Notion URL: https://app.notion.com/p/370f3b0fba8581da8464da2ca4170f62
-同期日時: 2026-06-07T03:58:06+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581d58ea3f67c656b1ae5
+同期日時: 2026-06-09T04:02:19+09:00
 
 ---
 

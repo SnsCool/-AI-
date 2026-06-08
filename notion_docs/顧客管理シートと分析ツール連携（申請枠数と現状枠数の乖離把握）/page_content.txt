@@ -1,7 +1,7 @@
 # 顧客管理シートと分析ツール連携（申請枠数と現状枠数の乖離把握）
 
-Notion URL: https://app.notion.com/p/370f3b0fba85818a85aade8122f1ca2a
-同期日時: 2026-06-07T03:57:41+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba85813bb042f8949a98d0ed
+同期日時: 2026-06-09T04:02:38+09:00
 
 ---
 

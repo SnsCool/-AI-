@@ -1,7 +1,7 @@
 # クリエイティブ事前チェック体制と投稿ルールの統一
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581a4a4efe3aaf11a960c
-同期日時: 2026-06-09T01:28:19+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581ffa12ac70a4788bcff
+同期日時: 2026-06-09T04:01:37+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 新部署タスクの抽出・分類
 
-Notion URL: https://app.notion.com/p/379f3b0fba85810985feea3403fca908
-同期日時: 2026-06-09T01:27:36+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba85813ca67bd127eb97c464
+同期日時: 2026-06-09T04:01:58+09:00
 
 ---
 

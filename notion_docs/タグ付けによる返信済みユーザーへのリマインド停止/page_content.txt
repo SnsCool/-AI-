@@ -1,7 +1,7 @@
 # タグ付けによる返信済みユーザーへのリマインド停止
 
-Notion URL: https://app.notion.com/p/370f3b0fba85818586dce7bd27b1dff6
-同期日時: 2026-06-07T03:57:13+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba858158b339cea6f50d1aea
+同期日時: 2026-06-09T04:02:41+09:00
 
 ---
 

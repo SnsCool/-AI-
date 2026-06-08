@@ -1,7 +1,7 @@
 # ベンチ入りメンバーへのフィードバック体制改善
 
-Notion URL: https://app.notion.com/p/36bf3b0fba858180a753c396a1819d73
-同期日時: 2026-06-07T03:55:56+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba858178bef5cb19caa6f536
+同期日時: 2026-06-09T04:03:30+09:00
 
 ---
 

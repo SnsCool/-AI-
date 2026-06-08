@@ -1,7 +1,7 @@
 # AIスキル図URLのチーム配布
 
-Notion URL: https://app.notion.com/p/AI-URL-379f3b0fba8581a1bae7ce18a9157be9
-同期日時: 2026-06-09T01:28:14+09:00
+Notion URL: https://app.notion.com/p/AI-URL-379f3b0fba8581cfb608ce374b13cd3e
+同期日時: 2026-06-09T04:01:36+09:00
 
 ---
 

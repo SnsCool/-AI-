@@ -1,7 +1,7 @@
 # 目標設定シートの改修（アンケート結果反映）
 
-Notion URL: https://app.notion.com/p/370f3b0fba8581fcb0adeca47e5f8b50
-同期日時: 2026-06-07T03:59:03+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba85810ab9d4f8da5d5d8af3
+同期日時: 2026-06-09T04:02:00+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 管理部のシフト制導入
 
-Notion URL: https://app.notion.com/p/370f3b0fba8581e9b0b6de7932a16ab9
-同期日時: 2026-06-07T03:57:36+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba85817f8730d434ae9886c9
+同期日時: 2026-06-09T04:02:05+09:00
 
 ---
 

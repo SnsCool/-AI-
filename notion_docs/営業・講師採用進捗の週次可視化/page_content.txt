@@ -1,7 +1,7 @@
 # 営業・講師採用進捗の週次可視化
 
-Notion URL: https://app.notion.com/p/379f3b0fba85815b970fd5d4a0570f21
-同期日時: 2026-06-09T01:27:38+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581299003e0d09932ceba
+同期日時: 2026-06-09T04:01:47+09:00
 
 ---
 

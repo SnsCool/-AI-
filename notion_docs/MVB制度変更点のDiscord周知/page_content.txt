@@ -1,7 +1,7 @@
 # MVB制度変更点のDiscord周知
 
-Notion URL: https://app.notion.com/p/MVB-Discord-379f3b0fba8581cb8475e47c76bb82d3
-同期日時: 2026-06-09T01:27:33+09:00
+Notion URL: https://app.notion.com/p/MVB-Discord-379f3b0fba85817d80a3f8ae7a62801c
+同期日時: 2026-06-09T04:01:23+09:00
 
 ---
 

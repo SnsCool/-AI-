@@ -1,7 +1,7 @@
 # 講師間の課題リスト化と報告
 
-Notion URL: https://app.notion.com/p/379f3b0fba858100a78ed960d86a3899
-同期日時: 2026-06-09T01:28:09+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581f789e5ce40485ee359
+同期日時: 2026-06-09T04:02:02+09:00
 
 ---
 

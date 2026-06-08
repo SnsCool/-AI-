@@ -1,7 +1,7 @@
 # 進捗追跡用ダッシュボードの構築
 
-Notion URL: https://app.notion.com/p/379f3b0fba85819d82d8c197d1f3c84f
-同期日時: 2026-06-09T01:27:36+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581bab3d7c5700a26169d
+同期日時: 2026-06-09T04:01:35+09:00
 
 ---
 

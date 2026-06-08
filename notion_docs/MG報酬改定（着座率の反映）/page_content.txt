@@ -1,7 +1,7 @@
 # MG報酬改定（着座率の反映）
 
-Notion URL: https://app.notion.com/p/MG-370f3b0fba858132b02aece59c15cdcb
-同期日時: 2026-06-07T03:57:24+09:00
+Notion URL: https://app.notion.com/p/MG-379f3b0fba85819aa470fc734fe3e964
+同期日時: 2026-06-09T04:02:55+09:00
 
 ---
 

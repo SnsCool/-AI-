@@ -1,7 +1,7 @@
 # それいいね制度の導入状況・バグ確認
 
-Notion URL: https://app.notion.com/p/379f3b0fba85813fbaf0dcd3c56490c3
-同期日時: 2026-06-09T01:27:33+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581c3b10fdfed9f5ea404
+同期日時: 2026-06-09T04:01:51+09:00
 
 ---
 

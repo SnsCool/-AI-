@@ -1,7 +1,7 @@
 # AIダッシュボードのリリース（6/10まで）と権限配布
 
-Notion URL: https://app.notion.com/p/AI-6-10-379f3b0fba8581769c7cda7f76edbfc7
-同期日時: 2026-06-09T01:28:22+09:00
+Notion URL: https://app.notion.com/p/AI-6-10-379f3b0fba8581cdb4c2c00b5cf62c1c
+同期日時: 2026-06-09T04:01:44+09:00
 
 ---
 

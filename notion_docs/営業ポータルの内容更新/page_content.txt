@@ -1,7 +1,7 @@
 # 営業ポータルの内容更新
 
-Notion URL: https://app.notion.com/p/370f3b0fba85810b9b3fdd0b45ca1776
-同期日時: 2026-06-07T03:57:42+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba85810b94bbdd964f9693f6
+同期日時: 2026-06-09T04:03:03+09:00
 
 ---
 

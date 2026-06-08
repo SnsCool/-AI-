@@ -1,7 +1,7 @@
 # 集客フローの新LINEアカウントへの移行準備
 
-Notion URL: https://app.notion.com/p/LINE-370f3b0fba85812a9683e803d11311d4
-同期日時: 2026-06-07T03:57:02+09:00
+Notion URL: https://app.notion.com/p/LINE-379f3b0fba8581a8a5bbee5dccd0403a
+同期日時: 2026-06-09T04:02:55+09:00
 
 ---
 

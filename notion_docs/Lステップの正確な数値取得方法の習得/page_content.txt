@@ -1,7 +1,7 @@
 # Lステップの正確な数値取得方法の習得
 
-Notion URL: https://app.notion.com/p/L-379f3b0fba8581eebc87e9d78cea5398
-同期日時: 2026-06-09T01:28:20+09:00
+Notion URL: https://app.notion.com/p/L-379f3b0fba8581db8bb7eaecde474b52
+同期日時: 2026-06-09T04:01:17+09:00
 
 ---
 

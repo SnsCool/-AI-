@@ -1,7 +1,7 @@
 # グルコンzoomリンク発行
 
-Notion URL: https://www.notion.so/zoom-2c4f3b0fba8580778b19fbc65d4b69a1
-同期日時: 2026-02-13T15:22:13+09:00
+Notion URL: https://app.notion.com/p/zoom-2c4f3b0fba8580778b19fbc65d4b69a1
+同期日時: 2026-06-09T04:04:26+09:00
 
 ---
 

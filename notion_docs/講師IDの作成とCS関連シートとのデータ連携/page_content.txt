@@ -1,7 +1,7 @@
 # 講師IDの作成とCS関連シートとのデータ連携
 
-Notion URL: https://app.notion.com/p/ID-CS-370f3b0fba858158a986eb2b2b08c61f
-同期日時: 2026-06-07T03:58:43+09:00
+Notion URL: https://app.notion.com/p/ID-CS-379f3b0fba8581d89539c6e09f6cb09f
+同期日時: 2026-06-09T04:02:48+09:00
 
 ---
 

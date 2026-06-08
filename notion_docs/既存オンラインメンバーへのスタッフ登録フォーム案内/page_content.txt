@@ -1,7 +1,7 @@
 # 既存オンラインメンバーへのスタッフ登録フォーム案内
 
-Notion URL: https://app.notion.com/p/370f3b0fba8581df97b9f676616e9718
-同期日時: 2026-06-07T03:57:48+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba85810fa95ee4446c76723e
+同期日時: 2026-06-09T04:02:15+09:00
 
 ---
 

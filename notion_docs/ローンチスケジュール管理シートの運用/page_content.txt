@@ -1,7 +1,7 @@
 # ローンチスケジュール管理シートの運用
 
-Notion URL: https://app.notion.com/p/370f3b0fba8581ffab0cfc8f1b31cd7f
-同期日時: 2026-06-07T03:58:40+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba858107ac3be90f931fb40d
+同期日時: 2026-06-09T04:02:00+09:00
 
 ---
 

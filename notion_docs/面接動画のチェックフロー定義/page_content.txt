@@ -1,7 +1,7 @@
 # 面接動画のチェックフロー定義
 
-Notion URL: https://app.notion.com/p/370f3b0fba8581518abefc81a8784f3a
-同期日時: 2026-06-07T03:58:29+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba85816da3eee090605d1193
+同期日時: 2026-06-09T04:02:49+09:00
 
 ---
 

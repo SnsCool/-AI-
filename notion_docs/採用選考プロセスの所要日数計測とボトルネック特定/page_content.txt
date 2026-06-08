@@ -1,7 +1,7 @@
 # 採用選考プロセスの所要日数計測とボトルネック特定
 
-Notion URL: https://app.notion.com/p/370f3b0fba8581e9a055e18ec1a67111
-同期日時: 2026-06-07T03:58:04+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba858174b062c6949107406c
+同期日時: 2026-06-09T04:02:05+09:00
 
 ---
 

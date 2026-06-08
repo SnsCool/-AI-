@@ -1,7 +1,7 @@
 # 独自LINE連携ツールの開発（Lステップ代替）
 
-Notion URL: https://app.notion.com/p/LINE-L-370f3b0fba8581508fa3de18c8cc9795
-同期日時: 2026-06-07T03:56:59+09:00
+Notion URL: https://app.notion.com/p/LINE-L-379f3b0fba85815db5eef59ac3674387
+同期日時: 2026-06-09T04:02:49+09:00
 
 ---
 

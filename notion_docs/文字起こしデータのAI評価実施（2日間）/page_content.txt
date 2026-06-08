@@ -1,7 +1,7 @@
 # 文字起こしデータのAI評価実施（2日間）
 
-Notion URL: https://app.notion.com/p/AI-2-379f3b0fba85810ab925f118bf8febfe
-同期日時: 2026-06-09T01:27:43+09:00
+Notion URL: https://app.notion.com/p/AI-2-379f3b0fba85813eb120e29b74c994f4
+同期日時: 2026-06-09T04:01:58+09:00
 
 ---
 

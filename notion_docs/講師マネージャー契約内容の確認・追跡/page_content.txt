@@ -1,7 +1,7 @@
 # 講師マネージャー契約内容の確認・追跡
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581629acad5261d0f5524
-同期日時: 2026-06-09T01:27:33+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581bcacc5da863da9df80
+同期日時: 2026-06-09T04:01:46+09:00
 
 ---
 

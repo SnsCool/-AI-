@@ -1,7 +1,7 @@
 # 6月以降の広告用LINE流入リンク一括変更（5月末まで）
 
-Notion URL: https://app.notion.com/p/6-LINE-5-370f3b0fba8581108e03fff49dcd2571
-同期日時: 2026-06-07T03:57:04+09:00
+Notion URL: https://app.notion.com/p/6-LINE-5-379f3b0fba858154a470f5df449e4eb1
+同期日時: 2026-06-09T04:03:00+09:00
 
 ---
 

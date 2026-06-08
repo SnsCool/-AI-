@@ -1,7 +1,7 @@
 # コーチの自動アサイン導入
 
-Notion URL: https://www.notion.so/334f3b0fba858113a0fbd4ae2d730eca
-同期日時: 2026-04-23T00:37:00+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581f5865bf2eccd48235d
+同期日時: 2026-06-09T04:03:54+09:00
 
 ---
 

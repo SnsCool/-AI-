@@ -1,7 +1,7 @@
 # 集客定例会議の運用改善（営業との数値整合性担保）
 
-Notion URL: https://app.notion.com/p/36bf3b0fba8581c28013d49664a51633
-同期日時: 2026-06-05T13:36:28+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581818c39d3a2ac57ead8
+同期日時: 2026-06-09T04:03:16+09:00
 
 ---
 

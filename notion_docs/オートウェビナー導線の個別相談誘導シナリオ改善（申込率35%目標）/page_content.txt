@@ -1,7 +1,7 @@
 # オートウェビナー導線の個別相談誘導シナリオ改善（申込率35%目標）
 
-Notion URL: https://app.notion.com/p/35-370f3b0fba8581cca483c910ff2f03a7
-同期日時: 2026-06-05T13:36:47+09:00
+Notion URL: https://app.notion.com/p/35-379f3b0fba8581199070e9e28bfa787c
+同期日時: 2026-06-09T04:02:20+09:00
 
 ---
 

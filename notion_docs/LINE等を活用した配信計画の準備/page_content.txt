@@ -1,7 +1,7 @@
 # LINE等を活用した配信計画の準備
 
-Notion URL: https://app.notion.com/p/LINE-36bf3b0fba8581ac9d39eb57df8a23fc
-同期日時: 2026-06-07T03:56:06+09:00
+Notion URL: https://app.notion.com/p/LINE-379f3b0fba8581c0811cf29cd7529ca9
+同期日時: 2026-06-09T04:03:24+09:00
 
 ---
 

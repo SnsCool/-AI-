@@ -1,7 +1,7 @@
 # スタッフ登録フォームのDiscord通知設定
 
-Notion URL: https://app.notion.com/p/Discord-370f3b0fba85814a9c3edd758d5ef508
-同期日時: 2026-06-07T03:57:56+09:00
+Notion URL: https://app.notion.com/p/Discord-379f3b0fba8581fc8966f1dfdb556c9c
+同期日時: 2026-06-09T04:02:51+09:00
 
 ---
 

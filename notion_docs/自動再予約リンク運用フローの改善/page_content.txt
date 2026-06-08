@@ -1,7 +1,7 @@
 # 自動再予約リンク運用フローの改善
 
-Notion URL: https://app.notion.com/p/370f3b0fba8581f79d05efa677137b3b
-同期日時: 2026-06-07T03:57:26+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba85817b9f76ef33a7f9110b
+同期日時: 2026-06-09T04:02:05+09:00
 
 ---
 

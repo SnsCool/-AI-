@@ -1,7 +1,7 @@
 # 管理業務効率化アプリの開発
 
-Notion URL: https://app.notion.com/p/370f3b0fba85816999a4f79edef013ab
-同期日時: 2026-06-07T03:57:27+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba858116a42ed4385dedd365
+同期日時: 2026-06-09T04:02:42+09:00
 
 ---
 

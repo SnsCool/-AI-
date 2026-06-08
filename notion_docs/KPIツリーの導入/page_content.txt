@@ -1,7 +1,7 @@
 # KPIツリーの導入
 
-Notion URL: https://app.notion.com/p/KPI-370f3b0fba85812a9d8cd89e268312a7
-同期日時: 2026-06-07T03:58:22+09:00
+Notion URL: https://app.notion.com/p/KPI-379f3b0fba85813d929cc6aaf347c86a
+同期日時: 2026-06-09T04:02:54+09:00
 
 ---
 

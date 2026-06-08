@@ -1,7 +1,7 @@
 # 営業管理シート自動更新ツールの開発
 
-Notion URL: https://app.notion.com/p/370f3b0fba858188aca6c5e450e180b7
-同期日時: 2026-06-05T13:36:48+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581eda5edeff71b05865c
+同期日時: 2026-06-09T04:02:39+09:00
 
 ---
 

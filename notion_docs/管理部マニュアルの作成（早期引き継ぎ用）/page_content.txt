@@ -1,7 +1,7 @@
 # 管理部マニュアルの作成（早期引き継ぎ用）
 
-Notion URL: https://app.notion.com/p/370f3b0fba8581b58d6bf55f0fb2839a
-同期日時: 2026-06-07T03:57:39+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581f787afcd1b58d89b69
+同期日時: 2026-06-09T04:02:29+09:00
 
 ---
 

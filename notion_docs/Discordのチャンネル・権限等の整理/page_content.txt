@@ -1,7 +1,7 @@
 # Discordのチャンネル・権限等の整理
 
-Notion URL: https://app.notion.com/p/Discord-370f3b0fba8581a18d2afd8c7b564dbc
-同期日時: 2026-06-07T03:57:55+09:00
+Notion URL: https://app.notion.com/p/Discord-379f3b0fba858115b7e9c8a27184b67f
+同期日時: 2026-06-09T04:02:33+09:00
 
 ---
 

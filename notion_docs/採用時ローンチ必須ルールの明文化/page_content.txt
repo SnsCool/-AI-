@@ -1,7 +1,7 @@
 # 採用時ローンチ必須ルールの明文化
 
-Notion URL: https://app.notion.com/p/370f3b0fba8581d19d29fc01d3fa05cf
-同期日時: 2026-06-07T03:58:32+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba858198ab5ec3abbfbe5ba7
+同期日時: 2026-06-09T04:02:22+09:00
 
 ---
 

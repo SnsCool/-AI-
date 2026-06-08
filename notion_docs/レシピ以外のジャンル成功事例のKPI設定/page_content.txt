@@ -1,7 +1,7 @@
 # レシピ以外のジャンル成功事例のKPI設定
 
-Notion URL: https://app.notion.com/p/KPI-370f3b0fba8581f89ccdd759846e39b5
-同期日時: 2026-06-07T03:58:51+09:00
+Notion URL: https://app.notion.com/p/KPI-379f3b0fba8581f38b5cc43df880605d
+同期日時: 2026-06-09T04:02:02+09:00
 
 ---
 

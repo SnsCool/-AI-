@@ -1,7 +1,7 @@
 # グルコンリマインド配信設定
 
-Notion URL: https://www.notion.so/2c4f3b0fba8580d19c04eec7fd49593c
-同期日時: 2026-02-13T15:22:12+09:00
+Notion URL: https://app.notion.com/p/2c4f3b0fba8580d19c04eec7fd49593c
+同期日時: 2026-06-09T04:04:26+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # AIを活用した提案資料の作成
 
-Notion URL: https://app.notion.com/p/AI-370f3b0fba8581d28a79ffbaf73eca01
-同期日時: 2026-06-07T03:58:27+09:00
+Notion URL: https://app.notion.com/p/AI-379f3b0fba8581bab4d2c1e8e4796a7e
+同期日時: 2026-06-09T04:02:19+09:00
 
 ---
 

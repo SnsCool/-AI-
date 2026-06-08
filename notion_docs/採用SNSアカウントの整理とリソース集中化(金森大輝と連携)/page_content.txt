@@ -1,7 +1,7 @@
 # 採用SNSアカウントの整理とリソース集中化(金森大輝と連携)
 
-Notion URL: https://app.notion.com/p/SNS-36bf3b0fba8581f38a79f0a89c88ab86
-同期日時: 2026-06-07T03:56:15+09:00
+Notion URL: https://app.notion.com/p/SNS-379f3b0fba8581b68c3de580425e9601
+同期日時: 2026-06-09T04:03:07+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 契約終了時の判断基準・手順の文書化
 
-Notion URL: https://app.notion.com/p/370f3b0fba85819c9644fdca5ba193c2
-同期日時: 2026-06-07T03:58:03+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba858116a24ee27903a8c269
+同期日時: 2026-06-09T04:02:33+09:00
 
 ---
 

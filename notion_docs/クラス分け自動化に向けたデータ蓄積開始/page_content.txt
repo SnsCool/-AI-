@@ -1,7 +1,7 @@
 # クラス分け自動化に向けたデータ蓄積開始
 
-Notion URL: https://app.notion.com/p/379f3b0fba85810688dada1725a391aa
-同期日時: 2026-06-09T01:28:11+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba85815d8d1cc42095d373e8
+同期日時: 2026-06-09T04:01:58+09:00
 
 ---
 

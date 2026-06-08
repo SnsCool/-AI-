@@ -1,7 +1,7 @@
 # 営業メンバー間のパフォーマンス差分要因分析と可視化
 
-Notion URL: https://app.notion.com/p/36bf3b0fba85812ab8afcf4051123daa
-同期日時: 2026-06-07T03:55:55+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba85817cb384d8845b66ca31
+同期日時: 2026-06-09T04:03:44+09:00
 
 ---
 

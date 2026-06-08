@@ -1,7 +1,7 @@
 # サーベイ結果の確認とマネジメント活用
 
-Notion URL: https://app.notion.com/p/379f3b0fba85813ea14cd07a5f4ef68e
-同期日時: 2026-06-09T01:28:14+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba858106b376d5fd2d704996
+同期日時: 2026-06-09T04:01:50+09:00
 
 ---
 
