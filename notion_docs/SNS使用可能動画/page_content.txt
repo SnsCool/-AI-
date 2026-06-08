@@ -1,7 +1,7 @@
 # SNS使用可能動画
 
-Notion URL: https://www.notion.so/SNS-2c1f3b0fba8580f8b543c3b05f4c3f79
-同期日時: 2026-05-25T16:48:45+09:00
+Notion URL: https://app.notion.com/p/SNS-2c1f3b0fba8580f8b543c3b05f4c3f79
+同期日時: 2026-06-08T17:01:13+09:00
 
 ---
 
@@ -28,3 +28,5 @@ Notion URL: https://www.notion.so/SNS-2c1f3b0fba8580f8b543c3b05f4c3f79
 【4月27日(月)20時公開】
 【5月11日(月)20時公開】
 【5月25日(月)20時公開】
+
+【6月8日(月)20時公開】

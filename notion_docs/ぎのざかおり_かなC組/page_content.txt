@@ -1,7 +1,7 @@
 # ぎのざかおり_かなC組
 
-Notion URL: https://www.notion.so/_-C-2cdf3b0fba85806da646d280e81c3c57
-同期日時: 2026-05-18T22:27:57+09:00
+Notion URL: https://app.notion.com/p/_-C-2cdf3b0fba85806da646d280e81c3c57
+同期日時: 2026-06-08T17:01:04+09:00
 
 ---
 
@@ -9,5 +9,5 @@ Notion URL: https://www.notion.so/_-C-2cdf3b0fba85806da646d280e81c3c57
   2回目：3/4  10:00〜
   3回目：4/14  10:00~
 4回目：5/18  21:30~
-5回目：未定
+5回目：6/19  21:30~
 6回目：未定
