@@ -1,0 +1,68 @@
+# 6月2週目_UGC_工藤 
+
+Notion URL: https://app.notion.com/p/6-2-_UGC_-37af3b0fba85809cacc3f50e1a9c9b4a
+同期日時: 2026-06-10T03:53:14+09:00
+
+---
+
+今月目標
+競合・市場調査を再度行い、事業のロードマップを引き直し、適切なKPIで事業の進捗を評価できる状態を作ること
+新規で配信開始する案件を安定させ成果の再現性を作り、モニター募集への準備を進めること
+先週目標と結果
+【先週目標と結果】
+先週やったこと
+① 新規配信の準備
+もぐラボ
+  CR完成
+    https://drive.google.com/drive/folders/1D8JUFmAq9lcW-ZskmBjlEBjkdbgEZlxw
+    https://drive.google.com/file/d/1b8Ut6RQGd2U1bnH6oFequIIpUn1UBRT0/view
+    https://drive.google.com/file/d/1Erl7N2rnfH2EX6n6zvwxIekpy72snu0m/view
+頭痛セラピスト協会
+  CR完成
+    https://drive.google.com/drive/folders/1dAPMZxqQGGYNCKqL3Od-B8LNI9oBkPcJ
+② 既存案件の推進
+民泊CAMP
+  アカウント乗っ取りの対応
+    先方説明済
+    返金対応に進む
+  メルマガの刷新→配信設定
+読売新聞
+  第3回MTGを実施
+    戦略をプレゼン。合意済
+KSF
+① 読売新聞との戦略合意
+読売新聞側に今回のSNSマーケの戦略をプレゼンし、合意を取れた。
+  https://docs.google.com/presentation/d/16wrI5gPJCauKcPTpW-6HeNexsX5kwQ92ZXnartwAreE/edit?slide=id.p20#slide=id.p20
+KFF
+① アカウント乗っ取り
+要因
+  調査中
+    FBアカウントは触っていないので何かリンクを触った等もなし。2段階認証もかけていた。
+    仮説としては、PWを長く変えていない＆平易な文字列だったため突破されたのでは？
+解決策
+  PW変更→済
+  広告アカウントの精査→済
+  PC検査→未
+  返金対応→未
+  定期的なPW変更とPW文字列の強化
+② KPIがおけていない
+今週の課題というよりは、この事業の今の課題
+なぜKPIが置けないのか
+  自分の中で事業のフェーズやロードマップをイメージし切れていないので、現状の事業フェーズで何を追うべきかがわかっていない
+    売上を追うのはもちろんだが、現段階で売上をKPIにすると摩耗する代理店の動き（とにかく案件数を増やす）になってしまうので、売上にもその後の事業ロードマップにも紐づくKPIを設定する必要がある
+  競合が、どんなフェーズでどの規模で何をしていたのかを調査することで、まずは事業のロードマップを言語化する
+  そのロードマップから逆算した時に今置くべきKPIを設定する必要がある
+今週AP
+① 乗っ取り後の対応を終わらせる（最優先）
+返金対応
+PC検査
+② 競合調査とKPIの設定
+③ 新規案件配信開始
+もぐラボ
+頭痛セラピスト協会
+④ 既存案件推進
+民泊CAMPさん広告運用継続
+読売新聞
+  台本作成
+  LP画像
+  LPコピー
