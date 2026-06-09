@@ -1,7 +1,7 @@
 # 【簡単】個別相談マニュアル
 
 Notion URL: https://app.notion.com/p/356f3b0fba85802aa4b5eceffd657c9a
-同期日時: 2026-06-08T22:43:53+09:00
+同期日時: 2026-06-09T16:29:31+09:00
 
 ---
 
@@ -13,7 +13,7 @@ Notion URL: https://app.notion.com/p/356f3b0fba85802aa4b5eceffd657c9a
 下記の内容は、面談時に言えてないとダメくらいなので、確実に押さえてください！
 赤字はとにかく大事です！
   マニュアル解説動画＜必ず視聴＞
-  https://shared-beak-b34.notion.site/377f3b0fba858018a6f9f25324ca4d80?source=copy_link
+  個別面談マニュアル解説動画 
   ⚠️編集禁止
   ⚠️スクリプト見ながらのアポ禁止
   ↳台本読んでいる感、ぎこちなさ感がでてしまいます。
