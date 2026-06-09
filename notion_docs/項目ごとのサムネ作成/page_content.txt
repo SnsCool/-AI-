@@ -1,7 +1,7 @@
 # 項目ごとのサムネ作成
 
-Notion URL: https://www.notion.so/36af3b0fba8580aba9f7ce8d864631bc
-同期日時: 2026-05-26T16:27:16+09:00
+Notion URL: https://app.notion.com/p/36af3b0fba8580aba9f7ce8d864631bc
+同期日時: 2026-06-09T13:34:59+09:00
 
 ---
 

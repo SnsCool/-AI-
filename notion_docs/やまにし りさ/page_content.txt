@@ -1,7 +1,7 @@
 # やまにし りさ
 
 Notion URL: https://app.notion.com/p/379f3b0fba85804388c0d89ec52f72dd
-同期日時: 2026-06-09T10:04:38+09:00
+同期日時: 2026-06-09T13:34:12+09:00
 
 ---
 
@@ -9,6 +9,8 @@ Notion URL: https://app.notion.com/p/379f3b0fba85804388c0d89ec52f72dd
     （そのまま貼り付けてもらえればOKです）
     特記事項あれば
     特記事項があれば
+    現在プログラムステップ2
+
 ※前提、自己分析シートは目を通した上で伴走開始お願いします
 ジョーズログイン：
 URL：https://app.levela.co.jp/advances-course-task/

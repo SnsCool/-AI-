@@ -1,7 +1,7 @@
 # 6月2週目_エスマネ_金森
 
 Notion URL: https://app.notion.com/p/6-2-_-_-379f3b0fba85805c9964db67dccd976d
-同期日時: 2026-06-09T06:38:36+09:00
+同期日時: 2026-06-09T13:31:14+09:00
 
 ---
 
@@ -14,6 +14,7 @@ Notion URL: https://app.notion.com/p/6-2-_-_-379f3b0fba85805c9964db67dccd976d
 ・SnsClubリストアプローチ案件　　　
 
 ・その他初回面談　3件
+・鈴木様　来週で日程調整
 その他タスク
 売上40億に向けた競合分析（3C・SWAT分析）とポジショニング再設計　→　進行中
 流入数　今の計画の3倍（年内）に向けた定量的戦略とアクションタスクの設定　→　未着手
@@ -34,3 +35,5 @@ PL
 年間計画の定量と定性
 https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?pli=1&gid=1387197303#gid=1387197303
 共有・提案・依頼
+【確認】石川涼様　ご状況
+モノリス　

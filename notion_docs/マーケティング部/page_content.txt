@@ -1,7 +1,7 @@
 # マーケティング部
 
 Notion URL: https://app.notion.com/p/2aef3b0fba85808ea375ce346cb863a8
-同期日時: 2026-06-07T16:35:31+09:00
+同期日時: 2026-06-09T13:30:54+09:00
 
 ---
 
@@ -21,6 +21,7 @@ Untitled
     📗他部署↔︎マーケ関連
     ⚙️Lstep関連
     シナリオ 
+    🎨 クリエイティブ関連
     💬LINE対応
     https://docs.google.com/spreadsheets/d/1Lh4-hrTHAC5PqIxkBcheb4RcLoXeEJtbNA_rdrqx2sU/edit?gid=892748652#gid=892748652
     https://docs.google.com/spreadsheets/d/1Aa-SRMWC_QF7TR2pk0QUn4IXj6D_DOQbErMCGg8Znik/edit?gid=396876064#gid=396876064

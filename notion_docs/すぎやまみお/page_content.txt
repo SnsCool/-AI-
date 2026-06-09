@@ -1,7 +1,7 @@
 # すぎやまみお
 
-Notion URL: https://www.notion.so/36bf3b0fba8580efa74dfeedd831be6c
-同期日時: 2026-06-02T13:36:59+09:00
+Notion URL: https://app.notion.com/p/36bf3b0fba8580efa74dfeedd831be6c
+同期日時: 2026-06-09T13:34:14+09:00
 
 ---
 
@@ -23,3 +23,4 @@ ID ：sugimi0410
 5回目実施日：
 伴奏セッション1回目
 2回目
+３回目
