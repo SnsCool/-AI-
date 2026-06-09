@@ -1,7 +1,7 @@
 # そたかチームHOME
 
 Notion URL: https://app.notion.com/p/HOME-2e8f3b0fba8580149b7af1e379efbb7b
-同期日時: 2026-06-09T13:35:12+09:00
+同期日時: 2026-06-09T22:11:46+09:00
 
 ---
 
@@ -93,5 +93,6 @@ Notion URL: https://app.notion.com/p/HOME-2e8f3b0fba8580149b7af1e379efbb7b
 
 未受講をなくすため、ご協力よろしくお願いいたします
   請求書表示（特進セッション8回目までの対応） | Notion
+https://script.google.com/macros/s/AKfycbwS0mv8IJkOYZ9g96rMoEAM47_GI7u0C9_okKlQcITPBHfcUVM9uPl1Eys7F7p3OIgD/exec　：新FAQ　　　FAQ（よくある質問） 　：旧FAQ
     ↓すみません、練習中です<(_ _)>
     データ分析
