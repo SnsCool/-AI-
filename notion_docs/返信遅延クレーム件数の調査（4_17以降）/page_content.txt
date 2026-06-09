@@ -1,7 +1,7 @@
 # 返信遅延クレーム件数の調査（4/17以降）
 
-Notion URL: https://app.notion.com/p/4-17-379f3b0fba858174a99ee21cdd76c156
-同期日時: 2026-06-09T04:01:22+09:00
+Notion URL: https://app.notion.com/p/4-17-379f3b0fba8581cb89fec00df266dd3f
+同期日時: 2026-06-09T19:24:24+09:00
 
 ---
 

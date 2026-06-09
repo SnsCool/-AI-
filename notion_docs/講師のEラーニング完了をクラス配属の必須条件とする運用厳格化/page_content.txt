@@ -1,7 +1,7 @@
 # 講師のEラーニング完了をクラス配属の必須条件とする運用厳格化
 
-Notion URL: https://app.notion.com/p/E-379f3b0fba85815fa969efac8bef755b
-同期日時: 2026-06-09T04:03:07+09:00
+Notion URL: https://app.notion.com/p/E-36bf3b0fba8581f0bec9fc2b93de089f
+同期日時: 2026-06-09T19:24:17+09:00
 
 ---
 

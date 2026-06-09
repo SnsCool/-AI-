@@ -1,7 +1,7 @@
 # AI講師割り当て自動化のルール定義策定
 
-Notion URL: https://app.notion.com/p/AI-379f3b0fba858125ada5c54a577bb4ce
-同期日時: 2026-06-09T04:03:10+09:00
+Notion URL: https://app.notion.com/p/AI-36bf3b0fba8581dbb64ff76ea26c28cf
+同期日時: 2026-06-09T19:24:18+09:00
 
 ---
 

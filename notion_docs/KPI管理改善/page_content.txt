@@ -1,7 +1,7 @@
 # KPI管理改善
 
-Notion URL: https://www.notion.so/KPI-35ff3b0fba8581cc9096ca327655f060
-同期日時: 2026-05-16T18:38:33+09:00
+Notion URL: https://app.notion.com/p/KPI-37af3b0fba8581ea8ca6dcbf170beeae
+同期日時: 2026-06-09T19:26:35+09:00
 
 ---
 

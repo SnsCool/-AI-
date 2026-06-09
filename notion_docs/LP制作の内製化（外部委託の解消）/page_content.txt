@@ -1,7 +1,7 @@
 # LP制作の内製化（外部委託の解消）
 
-Notion URL: https://app.notion.com/p/LP-379f3b0fba8581bd9d72e25491484252
-同期日時: 2026-06-09T04:03:10+09:00
+Notion URL: https://app.notion.com/p/LP-36bf3b0fba8581dcb70bf8bb9455eacf
+同期日時: 2026-06-09T19:24:35+09:00
 
 ---
 

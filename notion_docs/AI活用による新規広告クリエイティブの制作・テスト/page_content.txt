@@ -1,7 +1,7 @@
 # AI活用による新規広告クリエイティブの制作・テスト
 
-Notion URL: https://app.notion.com/p/AI-379f3b0fba858111839ada5d86284e64
-同期日時: 2026-06-09T04:03:22+09:00
+Notion URL: https://app.notion.com/p/AI-36bf3b0fba85819ebadee076c9cc34f8
+同期日時: 2026-06-09T19:24:35+09:00
 
 ---
 

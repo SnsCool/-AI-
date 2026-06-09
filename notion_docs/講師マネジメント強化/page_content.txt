@@ -1,7 +1,7 @@
 # 講師マネジメント強化
 
-Notion URL: https://app.notion.com/p/349f3b0fba8581feb663cac0bacdb376
-同期日時: 2026-06-07T03:38:25+09:00
+Notion URL: https://app.notion.com/p/37af3b0fba858198a908efaebfe6408b
+同期日時: 2026-06-09T19:25:04+09:00
 
 ---
 

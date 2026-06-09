@@ -1,7 +1,7 @@
 # Discordアプリ移行に伴う運用面の周知徹底
 
-Notion URL: https://app.notion.com/p/Discord-379f3b0fba858109b70deb87dbf80d42
-同期日時: 2026-06-09T04:03:12+09:00
+Notion URL: https://app.notion.com/p/Discord-36bf3b0fba8581d29ca9fd9e51fc8c5c
+同期日時: 2026-06-09T19:24:04+09:00
 
 ---
 

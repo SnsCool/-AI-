@@ -1,7 +1,7 @@
 # すぎもとたつひこ ひなA組
 
-Notion URL: https://www.notion.so/A-367f3b0fba8580d3a54ec92e873383d2
-同期日時: 2026-05-22T16:26:47+09:00
+Notion URL: https://app.notion.com/p/A-367f3b0fba8580d3a54ec92e873383d2
+同期日時: 2026-06-09T19:21:48+09:00
 
 ---
 
@@ -29,6 +29,7 @@ Notion URL: https://www.notion.so/A-367f3b0fba8580d3a54ec92e873383d2
     1回目
     2回目
     3回目
+    キャンセル
     4回目
     5回目
     6回目

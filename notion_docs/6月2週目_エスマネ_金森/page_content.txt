@@ -1,7 +1,7 @@
 # 6月2週目_エスマネ_金森
 
 Notion URL: https://app.notion.com/p/6-2-_-_-379f3b0fba85805c9964db67dccd976d
-同期日時: 2026-06-09T13:31:14+09:00
+同期日時: 2026-06-09T19:23:59+09:00
 
 ---
 
@@ -14,13 +14,14 @@ Notion URL: https://app.notion.com/p/6-2-_-_-379f3b0fba85805c9964db67dccd976d
 ・SnsClubリストアプローチ案件　　　
 
 ・その他初回面談　3件
-・鈴木様　来週で日程調整
+・鈴木様　来週で日程調整（本日）
 その他タスク
 売上40億に向けた競合分析（3C・SWAT分析）とポジショニング再設計　→　進行中
 流入数　今の計画の3倍（年内）に向けた定量的戦略とアクションタスクの設定　→　未着手
 新規事業（UGC・インフルエンサーマーケ）連携におけるシナジー創出　→　未着手
 →パッケージ作成、連携フローの確立「クライアントの全広告予算を握る」
 LINE運用　提案資料作成　https://canva.link/rqdo9pfq7vi6h0m
+https://www.canva.com/design/DAHLzpQCwmA/M1htNjMq6YnWKPVBWSf6Dw/edit
 テレアポ　発注先の確定　→　進行中
 今週目標・達成AP
 達成APとは
@@ -36,4 +37,9 @@ PL
 https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?pli=1&gid=1387197303#gid=1387197303
 共有・提案・依頼
 【確認】石川涼様　ご状況
-モノリス　
+【共有】モノリス様　令和の虎IG運用
+　　　　FCチャンネル　IG運用
+　　　　始めます
+【確認】お繋ぎいただいた各LINEの状況
+恋リア　サムライ　
+小貫様　半導体工場派遣　年収500万　人材派遣で採用　

@@ -1,7 +1,7 @@
 # MG業務FAQの作成・リリース
 
-Notion URL: https://app.notion.com/p/MG-FAQ-379f3b0fba85810cb3f7f8d25bfe060b
-同期日時: 2026-06-09T04:02:54+09:00
+Notion URL: https://app.notion.com/p/MG-FAQ-370f3b0fba8581289702fdb7c8434aec
+同期日時: 2026-06-09T19:24:04+09:00
 
 ---
 

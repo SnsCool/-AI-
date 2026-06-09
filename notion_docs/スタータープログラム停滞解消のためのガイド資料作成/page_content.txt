@@ -1,7 +1,7 @@
 # スタータープログラム停滞解消のためのガイド資料作成
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581559fdecc6277d4a95b
-同期日時: 2026-06-09T04:03:29+09:00
+Notion URL: https://app.notion.com/p/36bf3b0fba8581849b28d13fd32c55e4
+同期日時: 2026-06-09T19:24:03+09:00
 
 ---
 

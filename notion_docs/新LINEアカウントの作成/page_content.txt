@@ -1,7 +1,7 @@
 # 新LINEアカウントの作成
 
-Notion URL: https://app.notion.com/p/LINE-379f3b0fba8581c1bee9eab6213e13ca
-同期日時: 2026-06-09T04:02:54+09:00
+Notion URL: https://app.notion.com/p/LINE-370f3b0fba858143ac15e98553de78f7
+同期日時: 2026-06-09T19:24:39+09:00
 
 ---
 

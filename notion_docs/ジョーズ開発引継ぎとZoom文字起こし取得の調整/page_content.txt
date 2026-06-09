@@ -1,7 +1,7 @@
 # ジョーズ開発引継ぎとZoom文字起こし取得の調整
 
-Notion URL: https://app.notion.com/p/Zoom-379f3b0fba85810abe08d1641c48321d
-同期日時: 2026-06-09T04:02:39+09:00
+Notion URL: https://app.notion.com/p/Zoom-370f3b0fba85818397faf49bbacbc840
+同期日時: 2026-06-09T19:24:06+09:00
 
 ---
 

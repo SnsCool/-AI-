@@ -1,7 +1,7 @@
 # 契約上の禁止表現リストの作成（占い等）
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581f69b0ae44d878841e6
-同期日時: 2026-06-09T04:03:47+09:00
+Notion URL: https://app.notion.com/p/36bf3b0fba85811d886bd53da3be2505
+同期日時: 2026-06-09T19:24:01+09:00
 
 ---
 

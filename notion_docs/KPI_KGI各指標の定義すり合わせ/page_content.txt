@@ -1,7 +1,7 @@
 # KPI/KGI各指標の定義すり合わせ
 
-Notion URL: https://app.notion.com/p/KPI-KGI-379f3b0fba8581a3b2b9cea3c8732244
-同期日時: 2026-06-09T04:01:40+09:00
+Notion URL: https://app.notion.com/p/KPI-KGI-379f3b0fba85817aae43cd6ed305a0cb
+同期日時: 2026-06-09T19:24:24+09:00
 
 ---
 

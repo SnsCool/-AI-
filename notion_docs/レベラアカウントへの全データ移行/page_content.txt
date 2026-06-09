@@ -1,7 +1,7 @@
 # レベラアカウントへの全データ移行
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581968f15ea3f35c62522
-同期日時: 2026-06-09T04:02:26+09:00
+Notion URL: https://app.notion.com/p/370f3b0fba8581c28a6dec2fcef0e11b
+同期日時: 2026-06-09T19:24:45+09:00
 
 ---
 

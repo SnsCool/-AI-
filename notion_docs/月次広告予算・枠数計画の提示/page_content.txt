@@ -1,7 +1,7 @@
 # 月次広告予算・枠数計画の提示
 
-Notion URL: https://app.notion.com/p/379f3b0fba858165bb7ac2e092d0d630
-同期日時: 2026-06-09T04:01:18+09:00
+Notion URL: https://app.notion.com/p/379f3b0fba8581e6ad8adb7cfde67bb5
+同期日時: 2026-06-09T19:24:50+09:00
 
 ---
 
