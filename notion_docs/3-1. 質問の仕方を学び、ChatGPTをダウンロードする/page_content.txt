@@ -1,7 +1,7 @@
 # 3-1. 質問の仕方を学び、ChatGPTをダウンロードする
 
-Notion URL: https://www.notion.so/3-1-ChatGPT-36bf3b0fba8580ebabeafd8104dbf316
-同期日時: 2026-05-26T10:10:16+09:00
+Notion URL: https://app.notion.com/p/3-1-ChatGPT-37bf3b0fba8581debb47d69fe82265ba
+同期日時: 2026-06-10T19:34:11+09:00
 
 ---
 

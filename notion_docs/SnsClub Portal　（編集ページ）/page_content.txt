@@ -1,7 +1,7 @@
 # SnsClub Portal　（編集ページ）
 
-Notion URL: https://www.notion.so/SnsClub-Portal-fbe799af880845c5a9bb15b6faa4357a
-同期日時: 2026-05-27T01:23:48+09:00
+Notion URL: https://app.notion.com/p/SnsClub-Portal-fbe799af880845c5a9bb15b6faa4357a
+同期日時: 2026-06-10T19:36:09+09:00
 
 ---
 

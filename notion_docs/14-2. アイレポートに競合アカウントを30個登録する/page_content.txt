@@ -1,7 +1,7 @@
 # 14-2. アイレポートに競合アカウントを30個登録する
 
-Notion URL: https://www.notion.so/14-2-30-36cf3b0fba85803da4e4c2c84111e0b9
-同期日時: 2026-05-26T13:35:14+09:00
+Notion URL: https://app.notion.com/p/14-2-30-37bf3b0fba8581118cf4d0017262fc4c
+同期日時: 2026-06-10T19:33:05+09:00
 
 ---
 

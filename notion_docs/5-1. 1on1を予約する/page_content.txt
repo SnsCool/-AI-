@@ -1,7 +1,7 @@
 # 5-1. 1on1を予約する
 
-Notion URL: https://www.notion.so/5-1-1on1-36cf3b0fba8580af8aa8c2a88421ef7e
-同期日時: 2026-05-26T10:10:11+09:00
+Notion URL: https://app.notion.com/p/5-1-1on1-37bf3b0fba8581a696c7e22a4452c6a7
+同期日時: 2026-06-10T19:33:58+09:00
 
 ---
 

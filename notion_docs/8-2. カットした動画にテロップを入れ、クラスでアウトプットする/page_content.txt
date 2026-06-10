@@ -1,7 +1,7 @@
 # 8-2. カットした動画にテロップを入れ、クラスでアウトプットする
 
-Notion URL: https://www.notion.so/8-2-36cf3b0fba85809d8431f3b513131ab0
-同期日時: 2026-05-26T10:03:47+09:00
+Notion URL: https://app.notion.com/p/8-2-37bf3b0fba85816f98aef00bd9b35d25
+同期日時: 2026-06-10T19:33:35+09:00
 
 ---
 

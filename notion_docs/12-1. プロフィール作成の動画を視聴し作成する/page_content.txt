@@ -1,7 +1,7 @@
 # 12-1. プロフィール作成の動画を視聴し作成する
 
-Notion URL: https://www.notion.so/12-1-36cf3b0fba8580fa9e46eddf050213be
-同期日時: 2026-05-26T13:36:41+09:00
+Notion URL: https://app.notion.com/p/12-1-37bf3b0fba85819495dae89ccf62edaf
+同期日時: 2026-06-10T19:33:20+09:00
 
 ---
 

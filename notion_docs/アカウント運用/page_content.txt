@@ -1,7 +1,7 @@
 # アカウント運用
 
-Notion URL: https://www.notion.so/326f3b0fba8580ffb2a5f51aa4e4e821
-同期日時: 2026-03-29T06:11:56+09:00
+Notion URL: https://app.notion.com/p/37bf3b0fba85818faf2ef15a024e2b2d
+同期日時: 2026-06-10T19:32:28+09:00
 
 ---
 

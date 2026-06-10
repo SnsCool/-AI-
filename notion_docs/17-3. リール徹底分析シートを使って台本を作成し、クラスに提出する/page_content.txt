@@ -1,7 +1,7 @@
 # 17-3. リール徹底分析シートを使って台本を作成し、クラスに提出する
 
-Notion URL: https://www.notion.so/17-3-36cf3b0fba858098a507fb953233c678
-同期日時: 2026-05-26T13:34:51+09:00
+Notion URL: https://app.notion.com/p/17-3-37bf3b0fba85817cb915f38eff696cc3
+同期日時: 2026-06-10T19:32:50+09:00
 
 ---
 

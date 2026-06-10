@@ -1,7 +1,7 @@
 # 10-3. 競合アカウントを最低30個リストアップして、クラスに提出する
 
-Notion URL: https://www.notion.so/10-3-30-36cf3b0fba8580ef9498d75bb87c7840
-同期日時: 2026-05-26T13:36:47+09:00
+Notion URL: https://app.notion.com/p/10-3-30-37bf3b0fba858107ae81fc42d9fd7f12
+同期日時: 2026-06-10T19:33:27+09:00
 
 ---
 
