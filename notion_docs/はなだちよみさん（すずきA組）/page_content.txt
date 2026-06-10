@@ -1,7 +1,7 @@
 # はなだちよみさん（すずきA組）
 
-Notion URL: https://www.notion.so/A-34af3b0fba8580bda1cac248675ac36f
-同期日時: 2026-06-01T06:26:02+09:00
+Notion URL: https://app.notion.com/p/A-34af3b0fba8580bda1cac248675ac36f
+同期日時: 2026-06-10T13:39:36+09:00
 
 ---
 
@@ -14,7 +14,7 @@ Notion URL: https://www.notion.so/A-34af3b0fba8580bda1cac248675ac36f
     ②誓約書はPDFにして生徒さんへ送付
     ▼講師1on1　予約用timerex▼
     https://timerex.net/s/bokutoplants_2c51/bf3bb8f6
-    生徒メアド：
+    生徒メアド：nobuchiyo114@yahoo.co.jp
     １回目：第２回（初期設計1on1）〜第４回講義 
 ２回目：第４回講義〜第６回講義：
 ３回目：第６回講義〜第８回講義：

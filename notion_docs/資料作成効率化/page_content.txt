@@ -1,7 +1,7 @@
 # 資料作成効率化
 
-Notion URL: https://app.notion.com/p/377f3b0fba8581eca982cde6a3f94d40
-同期日時: 2026-06-07T03:38:59+09:00
+Notion URL: https://app.notion.com/p/37bf3b0fba858150b694f0efc4d2751b
+同期日時: 2026-06-10T13:35:58+09:00
 
 ---
 
