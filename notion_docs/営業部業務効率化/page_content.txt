@@ -1,7 +1,7 @@
 # 営業部業務効率化
 
-Notion URL: https://www.notion.so/348f3b0fba8581c68f9bdf0b1cdad6c3
-同期日時: 2026-04-21T03:28:59+09:00
+Notion URL: https://app.notion.com/p/37bf3b0fba8581d6b456ffe1c70915c5
+同期日時: 2026-06-11T04:03:17+09:00
 
 ---
 

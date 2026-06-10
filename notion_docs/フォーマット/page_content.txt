@@ -1,7 +1,7 @@
 # フォーマット
 
-Notion URL: https://www.notion.so/348f3b0fba85810182dbfb58e11fd20c
-同期日時: 2026-04-20T13:13:34+09:00
+Notion URL: https://app.notion.com/p/6d9f3b0fba8582b4b23481cc39182619
+同期日時: 2026-06-11T04:03:37+09:00
 
 ---
 
