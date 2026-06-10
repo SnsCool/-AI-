@@ -1,7 +1,7 @@
 # キャンセル枠スライドフローをれいなさんから引き継ぐ
 
-Notion URL: https://www.notion.so/35df3b0fba8580b49727c20aa6aff541
-同期日時: 2026-05-26T10:10:53+09:00
+Notion URL: https://app.notion.com/p/35df3b0fba8580b49727c20aa6aff541
+同期日時: 2026-06-10T10:14:21+09:00
 
 ---
 
