@@ -1,7 +1,7 @@
 # 新規事業_Monthly会議
 
 Notion URL: https://app.notion.com/p/_Monthly-24df3b0fba8580e19c41e4fab8a626a7
-同期日時: 2026-06-10T13:36:55+09:00
+同期日時: 2026-06-10T16:46:36+09:00
 
 ---
 
@@ -45,6 +45,36 @@ Monthly会議の目的
   そうた
     Makuake売上入金サイクルの確認
     LeaguE確認
-    支払い
+    支払い対象企業まとめ→銀行口座記載→振込
   ▼memo
   きらぼし銀行で海外送金
+  法人設立
+reo.shimizu@levela-x.com
+PW：Reoreo&410
+  売り上げ
+  顧客管理シート
+  https://docs.google.com/spreadsheets/d/13n23vTceT8JLM_wp_hQlfNRfAAsnlhT83GqVwTHodNo/edit?usp=sharing
+  ロボペイのアイパス
+  ⇨メアド設定
+  https://credit.j-payment.co.jp/cp/SignIn.aspx
+ID：166569-0001
+PW：xcommon11x11
+  経費管理
+  https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?pli=1&gid=2140419544#gid=2140419544
+
+固定
+・ろじんさん固定：150万円
+・ツール費用
+変動費
+・セールス報酬：VIP着金額の7%
+・X顧問：2万円/1成約
+・ろじんさんVIP報酬(10%)
+・アフィリエイター報酬
+  れおの人件費
+・セールス報酬：VIP着金額の7%
+・X顧問：2万円/１
+  【調整中】ヒカルさん林さん撮影
+  これから確認すること
+  X顧問は請求書必須？領収書？
+  CS採用を朱音さんに相談
+  ロボペイの権限、美月さん

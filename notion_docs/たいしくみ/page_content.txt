@@ -1,7 +1,7 @@
 # たいしくみ
 
 Notion URL: https://app.notion.com/p/375f3b0fba8580e7ac86e9bcdd6bc7ca
-同期日時: 2026-06-10T13:39:01+09:00
+同期日時: 2026-06-10T16:44:33+09:00
 
 ---
 
@@ -16,6 +16,7 @@ Notion URL: https://app.notion.com/p/375f3b0fba8580e7ac86e9bcdd6bc7ca
 URL：https://app.levela.co.jp/advances-course-task/
 ID ：
 生徒メアド：
+103pa37@gmail.com
 特進講師1on1メモ：
 講師timerex：
 1回目実施日：
@@ -66,3 +67,7 @@ ID ：
 ーどこをリサーチするのか？
 ー競合ってどこ？
   1on1 6/10本日
+  日報　７：００
+  次回　6/18　11:30~
+  ＜気づき＞
+  親しみやすい
