@@ -1,7 +1,7 @@
 # プレミアムプラス生徒ページ
 
-Notion URL: https://www.notion.so/1fdf3b0fba858062a48ff354b03ddb3b
-同期日時: 2026-05-28T13:33:23+09:00
+Notion URL: https://app.notion.com/p/1fdf3b0fba858062a48ff354b03ddb3b
+同期日時: 2026-06-10T22:26:04+09:00
 
 ---
 
