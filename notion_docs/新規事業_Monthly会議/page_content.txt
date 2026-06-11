@@ -1,7 +1,7 @@
 # 新規事業_Monthly会議
 
 Notion URL: https://app.notion.com/p/_Monthly-24df3b0fba8580e19c41e4fab8a626a7
-同期日時: 2026-06-10T16:46:36+09:00
+同期日時: 2026-06-11T13:37:33+09:00
 
 ---
 
@@ -78,3 +78,36 @@ PW：xcommon11x11
   X顧問は請求書必須？領収書？
   CS採用を朱音さんに相談
   ロボペイの権限、美月さん
+  ローンチ7月後半
+  決済プラットフォーム
+  ユニバペイ
+  経費
+  サーバー費用
+  API
+  きよとさんの人件費
+  着金サイクル
+  契約⇨
+  クリエイティブ納品：納品月
+  例）5月クリエイティブ納品、翌月末着金
+  運用：
+  運用した月、翌月末着金
+＋クリエイティブ
+  経費
+  クリエイターへの支払い：請求書で請求してもらっている
+  ツール代：66000円
+  UGC：専用のカードが必要になったら言ってもらう
+  https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?pli=1&gid=2099600776#gid=2099600776
+  営業管理シート
+  https://docs.google.com/spreadsheets/d/1gkAexMXrNx20Cet4wxlNYjYQJm4d4_dA-1wxG7VwShw/edit?gid=487674944#gid=487674944
+  LP
+  https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?gid=2099600776#gid=2099600776
+  ロボットペイアイパス：
+  https://credit.j-payment.co.jp/cp/SignIn.aspx
+  172215-0001
+yNagiMAJ3MaAF_G
+  支払いバリエーション
+  振り込み：一括のみ
+  カード：1回、3回、6回
+  人件費
+  https://app.notion.com/p/2d1f3b0fba85808d9496f0dc5c048f0a
+  もぐラボカード
