@@ -1,7 +1,7 @@
 # 新規事業_Monthly会議
 
 Notion URL: https://app.notion.com/p/_Monthly-24df3b0fba8580e19c41e4fab8a626a7
-同期日時: 2026-06-11T13:37:33+09:00
+同期日時: 2026-06-11T16:58:40+09:00
 
 ---
 
@@ -97,6 +97,7 @@ PW：xcommon11x11
   ツール代：66000円
   UGC：専用のカードが必要になったら言ってもらう
   https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?pli=1&gid=2099600776#gid=2099600776
+  PLの人件費の部分は、ざっくりベースになる
   営業管理シート
   https://docs.google.com/spreadsheets/d/1gkAexMXrNx20Cet4wxlNYjYQJm4d4_dA-1wxG7VwShw/edit?gid=487674944#gid=487674944
   LP
@@ -108,6 +109,8 @@ yNagiMAJ3MaAF_G
   支払いバリエーション
   振り込み：一括のみ
   カード：1回、3回、6回
-  人件費
+  人件費一覧
   https://app.notion.com/p/2d1f3b0fba85808d9496f0dc5c048f0a
   もぐラボカード
+  経費の支払いは全て専用カードに集約済み
+  https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?pli=1&gid=506894591#gid=506894591

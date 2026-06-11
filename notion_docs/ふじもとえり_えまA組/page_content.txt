@@ -1,7 +1,7 @@
 # ふじもとえり_えまA組
 
-Notion URL: https://www.notion.so/_-A-373f3b0fba8580d28ca9cfb55e4d8b4f
-同期日時: 2026-06-02T19:40:47+09:00
+Notion URL: https://app.notion.com/p/_-A-373f3b0fba8580d28ca9cfb55e4d8b4f
+同期日時: 2026-06-11T16:57:13+09:00
 
 ---
 
@@ -24,8 +24,7 @@ Notion URL: https://www.notion.so/_-A-373f3b0fba8580d28ca9cfb55e4d8b4f
 下記ボタンをクリックし、議事録の作成をお願いします。
 マネージャー：[セッション議事録]、講師：[講師1on1]をタップお願いします
 セッション動画・音声記録
-初回セッション
-    1回目
+初回セッション（1回目）
     2回目
     3回目
     4回目
