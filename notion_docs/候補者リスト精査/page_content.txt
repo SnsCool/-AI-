@@ -1,7 +1,7 @@
 # 候補者リスト精査
 
-Notion URL: https://app.notion.com/p/37bf3b0fba858137bdfed5372053c189
-同期日時: 2026-06-11T06:44:17+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581b0ac8ac8dd906868bf
+同期日時: 2026-06-11T22:34:31+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 講師MG候補のリストアップ（講師を断られた人など）
 
-Notion URL: https://app.notion.com/p/MG-37bf3b0fba8581208508f56893a648c1
-同期日時: 2026-06-11T06:44:19+09:00
+Notion URL: https://app.notion.com/p/MG-37cf3b0fba8581d78357c53832a77d31
+同期日時: 2026-06-11T22:34:32+09:00
 
 ---
 

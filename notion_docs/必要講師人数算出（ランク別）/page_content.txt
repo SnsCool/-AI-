@@ -1,7 +1,7 @@
 # 必要講師人数算出（ランク別）
 
-Notion URL: https://app.notion.com/p/37bf3b0fba85813d81eacd53f26175c7
-同期日時: 2026-06-11T06:44:20+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581ae8232c09acace501d
+同期日時: 2026-06-11T22:34:33+09:00
 
 ---
 

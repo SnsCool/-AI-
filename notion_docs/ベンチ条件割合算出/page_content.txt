@@ -1,7 +1,7 @@
 # ベンチ条件割合算出
 
-Notion URL: https://app.notion.com/p/37bf3b0fba8581cea607fdf720001ea2
-同期日時: 2026-06-11T06:44:29+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba858117bb6cd3eee98175bf
+同期日時: 2026-06-11T22:34:44+09:00
 
 ---
 
