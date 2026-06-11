@@ -1,7 +1,7 @@
 # KPIトラッキングツールの共有
 
-Notion URL: https://app.notion.com/p/KPI-370f3b0fba858121af58dc4953de2ef6
-同期日時: 2026-06-09T19:24:01+09:00
+Notion URL: https://app.notion.com/p/KPI-37cf3b0fba8581f88214f35d3d3dbabf
+同期日時: 2026-06-12T01:29:27+09:00
 
 ---
 

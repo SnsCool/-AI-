@@ -1,7 +1,7 @@
 # アプリ/ポータルへの卒業予定日記入機能の実装
 
-Notion URL: https://app.notion.com/p/36bf3b0fba8581e6976dc02e4d74b6aa
-同期日時: 2026-06-09T19:24:15+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba85818cb7cbe7b9ca3949c4
+同期日時: 2026-06-12T01:28:10+09:00
 
 ---
 

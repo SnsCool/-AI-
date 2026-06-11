@@ -1,7 +1,7 @@
 # LINE配信設定に向けた関連担当者との調整
 
-Notion URL: https://app.notion.com/p/LINE-379f3b0fba858167b9c2cb9690fd2b27
-同期日時: 2026-06-09T04:03:17+09:00
+Notion URL: https://app.notion.com/p/LINE-37cf3b0fba858103a16cdc9a08552e6f
+同期日時: 2026-06-12T01:29:13+09:00
 
 ---
 

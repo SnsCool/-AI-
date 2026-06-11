@@ -1,7 +1,7 @@
 # クラス配属の優先順位ルール策定
 
-Notion URL: https://app.notion.com/p/36bf3b0fba8581b39517d94b1cb00d0f
-同期日時: 2026-06-09T19:24:15+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581fb90d6dc91b57bd1cc
+同期日時: 2026-06-12T01:28:14+09:00
 
 ---
 

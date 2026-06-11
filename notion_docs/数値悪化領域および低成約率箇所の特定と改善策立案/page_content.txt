@@ -1,7 +1,7 @@
 # 数値悪化領域および低成約率箇所の特定と改善策立案
 
-Notion URL: https://app.notion.com/p/379f3b0fba858173bb3ecb63fa53b17b
-同期日時: 2026-06-09T04:03:11+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba85817b898fc772ba124a60
+同期日時: 2026-06-12T01:29:07+09:00
 
 ---
 

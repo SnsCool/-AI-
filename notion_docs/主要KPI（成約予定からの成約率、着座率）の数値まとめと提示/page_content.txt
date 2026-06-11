@@ -1,7 +1,7 @@
 # 主要KPI（成約予定からの成約率、着座率）の数値まとめと提示
 
-Notion URL: https://app.notion.com/p/KPI-379f3b0fba8581419e5aff7f33d33bd9
-同期日時: 2026-06-09T04:03:22+09:00
+Notion URL: https://app.notion.com/p/KPI-37cf3b0fba85810f8443ca9d54917311
+同期日時: 2026-06-12T01:29:31+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 新評価基準に合わせた評価プロンプト作成
 
-Notion URL: https://app.notion.com/p/370f3b0fba8581d5af9dd33cdd83eb41
-同期日時: 2026-06-09T19:24:08+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581b38b1bdc681db2d72c
+同期日時: 2026-06-12T01:30:03+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 競合リサーチ進捗遅延の要因確認
 
-Notion URL: https://app.notion.com/p/379f3b0fba858111ad65c5bec3216381
-同期日時: 2026-06-09T04:01:19+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581b5a06cdff52b63363e
+同期日時: 2026-06-12T01:29:54+09:00
 
 ---
 

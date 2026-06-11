@@ -1,7 +1,7 @@
 # 有川さん広告運用の課題ヒアリングと解決策検討
 
-Notion URL: https://app.notion.com/p/379f3b0fba858115999cf9166fcd3e8c
-同期日時: 2026-06-09T19:24:48+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba85819d90e5f0b96e88b95e
+同期日時: 2026-06-12T01:28:49+09:00
 
 ---
 

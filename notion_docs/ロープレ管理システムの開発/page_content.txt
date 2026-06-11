@@ -1,7 +1,7 @@
 # ロープレ管理システムの開発
 
-Notion URL: https://app.notion.com/p/379f3b0fba85816ea17cc50d5ef12b54
-同期日時: 2026-06-09T04:02:15+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba85813c8592f55afffe8e5c
+同期日時: 2026-06-12T01:29:09+09:00
 
 ---
 

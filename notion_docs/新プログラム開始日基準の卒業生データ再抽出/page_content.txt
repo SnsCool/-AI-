@@ -1,7 +1,7 @@
 # 新プログラム開始日基準の卒業生データ再抽出
 
-Notion URL: https://app.notion.com/p/379f3b0fba858121a05ec840bbb7e6be
-同期日時: 2026-06-09T04:01:53+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581e78d12eed290245394
+同期日時: 2026-06-12T01:29:49+09:00
 
 ---
 

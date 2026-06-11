@@ -1,7 +1,7 @@
 # 生徒別目標日数の管理表作成
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581469006d66585535b21
-同期日時: 2026-06-09T04:01:25+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581dbb1fbc7f0c8f4ce59
+同期日時: 2026-06-12T01:29:29+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # フィードバック体制のフロー定義（中間役設置）
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581a780a1c4c688aec84e
-同期日時: 2026-06-09T04:02:59+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba858190b4e0fcd32f3a559a
+同期日時: 2026-06-12T01:28:44+09:00
 
 ---
 

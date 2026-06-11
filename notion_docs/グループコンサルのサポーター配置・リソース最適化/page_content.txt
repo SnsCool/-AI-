@@ -1,7 +1,7 @@
 # グループコンサルのサポーター配置・リソース最適化
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581d4a764d039c942a4a1
-同期日時: 2026-06-09T04:01:47+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba85815c8cd0da41aebf0cba
+同期日時: 2026-06-12T01:28:20+09:00
 
 ---
 

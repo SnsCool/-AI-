@@ -1,7 +1,7 @@
 # 問い合わせ対応の内部/外部分担の統一
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581f4a77df1009ba099c2
-同期日時: 2026-06-09T19:24:23+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581fb9b64dacb8848fe2f
+同期日時: 2026-06-12T01:29:06+09:00
 
 ---
 

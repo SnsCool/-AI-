@@ -1,7 +1,7 @@
 # 講師ランク別の許容CPA定義
 
-Notion URL: https://app.notion.com/p/CPA-379f3b0fba858156a882d7ec1c5b303f
-同期日時: 2026-06-09T04:03:42+09:00
+Notion URL: https://app.notion.com/p/CPA-37cf3b0fba85814582dcdf211c5c3ab8
+同期日時: 2026-06-12T01:29:21+09:00
 
 ---
 

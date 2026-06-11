@@ -1,7 +1,7 @@
 # 営業枠の日次管理と予約状況の可視化
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581f48f48d78a0f7cbcca
-同期日時: 2026-06-09T04:01:44+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581cd9b20f4518d60ff81
+同期日時: 2026-06-12T01:28:10+09:00
 
 ---
 

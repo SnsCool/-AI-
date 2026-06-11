@@ -1,7 +1,7 @@
 # SNS運用とロジスティクスの連携フロー策定
 
-Notion URL: https://app.notion.com/p/SNS-379f3b0fba8581b19f3fe05a2646e747
-同期日時: 2026-06-09T04:03:38+09:00
+Notion URL: https://app.notion.com/p/SNS-37cf3b0fba8581568d6cde0a930740e1
+同期日時: 2026-06-12T01:28:41+09:00
 
 ---
 

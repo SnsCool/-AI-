@@ -1,7 +1,7 @@
 # 初期設計シートの簡略化（重複タスク削除）
 
-Notion URL: https://app.notion.com/p/36bf3b0fba8581509ddedcd8d3f01c5f
-同期日時: 2026-06-09T19:24:17+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba85812e9d4ecae860db09c6
+同期日時: 2026-06-12T01:29:49+09:00
 
 ---
 

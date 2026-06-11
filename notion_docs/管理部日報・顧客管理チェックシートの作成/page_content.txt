@@ -1,7 +1,7 @@
 # 管理部日報・顧客管理チェックシートの作成
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581e4a222db6799222517
-同期日時: 2026-06-09T04:02:35+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba85815bbf12de21a3d40413
+同期日時: 2026-06-12T01:28:15+09:00
 
 ---
 

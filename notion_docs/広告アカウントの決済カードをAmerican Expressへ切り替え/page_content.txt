@@ -1,7 +1,7 @@
 # 広告アカウントの決済カードをAmerican Expressへ切り替え
 
-Notion URL: https://app.notion.com/p/American-Express-379f3b0fba8581e995f2f04ef00e3fee
-同期日時: 2026-06-09T04:03:29+09:00
+Notion URL: https://app.notion.com/p/American-Express-37cf3b0fba85815b95bfe9b4749e2ff6
+同期日時: 2026-06-12T01:28:13+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 一次〜最終面接の歩留まりデータ集計・改善点抽出
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581748cc9d25f514522dd
-同期日時: 2026-06-09T04:01:51+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba85818fafc6c36fe2d4980f
+同期日時: 2026-06-12T01:29:08+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 進捗管理フォーマットの記入・持ち寄り
 
-Notion URL: https://app.notion.com/p/379f3b0fba858114957dcd4d9ff46f95
-同期日時: 2026-06-09T19:24:26+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba858129aa8bfc384d6fc151
+同期日時: 2026-06-12T01:29:39+09:00
 
 ---
 

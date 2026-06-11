@@ -1,7 +1,7 @@
 # 講師マネジメントからの目標数値共有フロー構築（2ヶ月前ルール）
 
-Notion URL: https://app.notion.com/p/2-36bf3b0fba8581239b8bebb3deef34f3
-同期日時: 2026-06-09T19:24:15+09:00
+Notion URL: https://app.notion.com/p/2-37cf3b0fba8581cc8f4bfd3f4e36b830
+同期日時: 2026-06-12T01:29:47+09:00
 
 ---
 

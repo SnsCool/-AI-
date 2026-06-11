@@ -1,7 +1,7 @@
 # 広告報告フォーマットの作成
 
-Notion URL: https://app.notion.com/p/370f3b0fba85816399dae0be5b426d0b
-同期日時: 2026-06-09T19:24:41+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba858196b53ee700049f9cbc
+同期日時: 2026-06-12T01:29:32+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 改善状況の指標整理と次回ミーティングでの報告
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581268e2bebfa98f58fe6
-同期日時: 2026-06-09T04:01:53+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581418afef0b1a8600792
+同期日時: 2026-06-12T01:29:47+09:00
 
 ---
 

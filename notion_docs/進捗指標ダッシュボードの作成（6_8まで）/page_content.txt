@@ -1,7 +1,7 @@
 # 進捗指標ダッシュボードの作成（6/8まで）
 
-Notion URL: https://app.notion.com/p/6-8-379f3b0fba85812abb26ecf270396756
-同期日時: 2026-06-09T04:01:17+09:00
+Notion URL: https://app.notion.com/p/6-8-37cf3b0fba858174a321ff0895ab249b
+同期日時: 2026-06-12T01:29:45+09:00
 
 ---
 

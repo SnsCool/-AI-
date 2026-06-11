@@ -1,7 +1,7 @@
 # API/Webhook自動化の実装方針決定
 
-Notion URL: https://app.notion.com/p/API-Webhook-379f3b0fba8581299c92e00916a2727f
-同期日時: 2026-06-09T04:01:33+09:00
+Notion URL: https://app.notion.com/p/API-Webhook-37cf3b0fba8581c0bb48c2f0eb0fec87
+同期日時: 2026-06-12T01:29:46+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # ロープレマッチングアプリ作成
 
-Notion URL: https://app.notion.com/p/379f3b0fba858100b9bdc6fddfc95d8c
-同期日時: 2026-06-09T04:02:26+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba85810b8243e8afc3bde7e2
+同期日時: 2026-06-12T01:30:01+09:00
 
 ---
 

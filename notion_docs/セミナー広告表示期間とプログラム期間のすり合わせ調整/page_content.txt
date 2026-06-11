@@ -1,7 +1,7 @@
 # セミナー広告表示期間とプログラム期間のすり合わせ調整
 
-Notion URL: https://app.notion.com/p/379f3b0fba85815eb858ce1fe547ece4
-同期日時: 2026-06-09T04:03:35+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba85818cbb89ce479325799c
+同期日時: 2026-06-12T01:29:17+09:00
 
 ---
 

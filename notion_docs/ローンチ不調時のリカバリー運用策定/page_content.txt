@@ -1,7 +1,7 @@
 # ローンチ不調時のリカバリー運用策定
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581ed8f2fd120700abb33
-同期日時: 2026-06-09T04:01:57+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581f4ace2f7eb6560ee59
+同期日時: 2026-06-12T01:28:13+09:00
 
 ---
 

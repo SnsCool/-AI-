@@ -1,7 +1,7 @@
 # 返金要求への対応フローのマニュアル化
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581e28251c93d53b1d1d2
-同期日時: 2026-06-09T19:24:22+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba858155b07eda7f86cf4da1
+同期日時: 2026-06-12T01:28:22+09:00
 
 ---
 

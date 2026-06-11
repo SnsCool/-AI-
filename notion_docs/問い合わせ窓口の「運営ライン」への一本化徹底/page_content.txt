@@ -1,7 +1,7 @@
 # 問い合わせ窓口の「運営ライン」への一本化徹底
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581258fedfb31095b0ba2
-同期日時: 2026-06-09T04:03:37+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581beaccfdf6dd467b004
+同期日時: 2026-06-12T01:29:47+09:00
 
 ---
 

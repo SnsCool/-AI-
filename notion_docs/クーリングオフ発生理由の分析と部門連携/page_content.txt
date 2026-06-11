@@ -1,7 +1,7 @@
 # クーリングオフ発生理由の分析と部門連携
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581cfa1bcee2bf26147f1
-同期日時: 2026-06-09T19:24:20+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba858184b0e8df93fb7db68c
+同期日時: 2026-06-12T01:29:34+09:00
 
 ---
 

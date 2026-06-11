@@ -1,7 +1,7 @@
 # 2ヶ月先までの申込目標・ランク別採用人数算出
 
-Notion URL: https://app.notion.com/p/2-379f3b0fba8581d39a2bcf62981a61eb
-同期日時: 2026-06-09T04:02:00+09:00
+Notion URL: https://app.notion.com/p/2-37cf3b0fba8581afac3fd8be85a553bf
+同期日時: 2026-06-12T01:28:22+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 散在する過去データの集約
 
-Notion URL: https://app.notion.com/p/379f3b0fba85817cb043e47149607ce7
-同期日時: 2026-06-09T04:02:45+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba858109a3bec386c415ba8c
+同期日時: 2026-06-12T01:29:03+09:00
 
 ---
 

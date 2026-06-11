@@ -1,7 +1,7 @@
 # UGC動画クリエイティブの依頼・検証
 
-Notion URL: https://app.notion.com/p/UGC-370f3b0fba85818dab57da54409e4490
-同期日時: 2026-06-09T19:24:42+09:00
+Notion URL: https://app.notion.com/p/UGC-37cf3b0fba85819783a5f158d5df79ff
+同期日時: 2026-06-12T01:28:29+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # ボット権限確認と導入作業
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581db9267f12828f90d9f
-同期日時: 2026-06-09T04:02:02+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581acb208c7dfebd3baf1
+同期日時: 2026-06-12T01:28:20+09:00
 
 ---
 

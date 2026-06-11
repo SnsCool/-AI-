@@ -1,7 +1,7 @@
 # KPI算出のためのシステム上のステータス追加・整備
 
-Notion URL: https://app.notion.com/p/KPI-379f3b0fba85815aa784faf9e5c3f889
-同期日時: 2026-06-09T04:03:39+09:00
+Notion URL: https://app.notion.com/p/KPI-37cf3b0fba85818e8db7c05d3c34eec5
+同期日時: 2026-06-12T01:29:20+09:00
 
 ---
 

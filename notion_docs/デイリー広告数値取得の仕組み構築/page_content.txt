@@ -1,7 +1,7 @@
 # デイリー広告数値取得の仕組み構築
 
-Notion URL: https://app.notion.com/p/379f3b0fba858160be6fedab1e3f402f
-同期日時: 2026-06-09T04:02:01+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581409ed1d0df956dfcb9
+同期日時: 2026-06-12T01:29:16+09:00
 
 ---
 

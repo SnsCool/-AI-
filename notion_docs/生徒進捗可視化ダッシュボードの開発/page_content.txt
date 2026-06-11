@@ -1,7 +1,7 @@
 # 生徒進捗可視化ダッシュボードの開発
 
-Notion URL: https://app.notion.com/p/36bf3b0fba858178aa9fe04621d55dc8
-同期日時: 2026-06-09T19:24:03+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581ec8b2ff5dad67f0a77
+同期日時: 2026-06-12T01:28:37+09:00
 
 ---
 

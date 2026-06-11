@@ -1,7 +1,7 @@
 # 保留率アラート機能の開発
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581f780dec031f5b934b7
-同期日時: 2026-06-09T04:02:45+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581ac9cb5f0cb0cded07d
+同期日時: 2026-06-12T01:28:08+09:00
 
 ---
 

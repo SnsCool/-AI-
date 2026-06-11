@@ -1,7 +1,7 @@
 # LINE追加のみユーザーへのアプローチ（一斉配信）
 
-Notion URL: https://app.notion.com/p/LINE-37cf3b0fba858124b95adadede5ccf3e
-同期日時: 2026-06-11T22:34:41+09:00
+Notion URL: https://app.notion.com/p/LINE-37cf3b0fba858193b849ee159352d690
+同期日時: 2026-06-12T01:27:52+09:00
 
 ---
 

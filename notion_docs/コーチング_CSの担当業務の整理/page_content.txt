@@ -1,7 +1,7 @@
 # コーチング/CSの担当業務の整理
 
-Notion URL: https://app.notion.com/p/CS-379f3b0fba85819893c3de67e2041d41
-同期日時: 2026-06-09T19:24:24+09:00
+Notion URL: https://app.notion.com/p/CS-37cf3b0fba85811c8b22d1664ec343e1
+同期日時: 2026-06-12T01:28:58+09:00
 
 ---
 

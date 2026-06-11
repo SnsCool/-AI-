@@ -1,7 +1,7 @@
 # 月次目標設定の議論結果連携
 
-Notion URL: https://app.notion.com/p/370f3b0fba858115982fc37c0b8017cb
-同期日時: 2026-06-09T19:24:06+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581cfbb70d4f5447447b8
+同期日時: 2026-06-12T01:28:50+09:00
 
 ---
 

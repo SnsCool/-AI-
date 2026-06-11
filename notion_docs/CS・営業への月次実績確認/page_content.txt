@@ -1,7 +1,7 @@
 # CS・営業への月次実績確認
 
-Notion URL: https://app.notion.com/p/CS-370f3b0fba8581e08328d835b651d29c
-同期日時: 2026-06-09T19:24:07+09:00
+Notion URL: https://app.notion.com/p/CS-37cf3b0fba8581e49a45dbb2fe55788d
+同期日時: 2026-06-12T01:29:34+09:00
 
 ---
 

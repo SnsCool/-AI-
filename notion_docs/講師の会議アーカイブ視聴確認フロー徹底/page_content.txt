@@ -1,7 +1,7 @@
 # 講師の会議アーカイブ視聴確認フロー徹底
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581ff8e9bc0828ffde607
-同期日時: 2026-06-09T04:01:50+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba85815c98e2ed16717f0240
+同期日時: 2026-06-12T01:28:06+09:00
 
 ---
 

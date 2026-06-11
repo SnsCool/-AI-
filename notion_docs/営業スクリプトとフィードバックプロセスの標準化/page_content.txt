@@ -1,7 +1,7 @@
 # 営業スクリプトとフィードバックプロセスの標準化
 
-Notion URL: https://app.notion.com/p/379f3b0fba85817aafbcec7015d1e54c
-同期日時: 2026-06-09T04:03:18+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba85812398e3d76fb9b51a05
+同期日時: 2026-06-12T01:29:05+09:00
 
 ---
 

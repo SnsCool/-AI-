@@ -1,7 +1,7 @@
 # ツール変更に伴う未対応分の振り分け作業
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581ba8decf6e84fd2c0f7
-同期日時: 2026-06-09T19:24:26+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581dcb7a3f7d04dea6557
+同期日時: 2026-06-12T01:29:56+09:00
 
 ---
 

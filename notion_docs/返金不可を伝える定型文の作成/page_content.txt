@@ -1,7 +1,7 @@
 # 返金不可を伝える定型文の作成
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581bcb03dfeb4c9f8c272
-同期日時: 2026-06-09T19:24:23+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581d5a31ff997d8b9d182
+同期日時: 2026-06-12T01:29:53+09:00
 
 ---
 

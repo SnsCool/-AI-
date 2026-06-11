@@ -1,7 +1,7 @@
 # 当日予約停止施策の検証結果共有（今週土）
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581b08e68dd19bc33f393
-同期日時: 2026-06-09T19:24:49+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581d1b825db6e59aa7d2b
+同期日時: 2026-06-12T01:28:46+09:00
 
 ---
 

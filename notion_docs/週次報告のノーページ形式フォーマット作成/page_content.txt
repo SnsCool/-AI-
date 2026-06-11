@@ -1,7 +1,7 @@
 # 週次報告のノーページ形式フォーマット作成
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581649e8fca9b8034309c
-同期日時: 2026-06-09T04:01:20+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba85818185bef0e6a792cf5c
+同期日時: 2026-06-12T01:29:16+09:00
 
 ---
 

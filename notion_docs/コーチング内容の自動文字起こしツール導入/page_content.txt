@@ -1,7 +1,7 @@
 # コーチング内容の自動文字起こしツール導入
 
-Notion URL: https://app.notion.com/p/370f3b0fba85815a9e0acf622eba77dd
-同期日時: 2026-06-09T19:24:20+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba85813481e9e5b61780809c
+同期日時: 2026-06-12T01:28:38+09:00
 
 ---
 

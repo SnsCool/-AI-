@@ -1,7 +1,7 @@
 # 6月ローンチの枠数配分の割り当て
 
-Notion URL: https://app.notion.com/p/6-379f3b0fba85810ab531ecd8ad4fee1f
-同期日時: 2026-06-09T04:02:33+09:00
+Notion URL: https://app.notion.com/p/6-37cf3b0fba85811c97b3de1f48d5d065
+同期日時: 2026-06-12T01:29:57+09:00
 
 ---
 

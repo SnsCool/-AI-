@@ -1,7 +1,7 @@
 # AIデザインによるLPファーストビューのLPOテスト
 
-Notion URL: https://app.notion.com/p/AI-LP-LPO-370f3b0fba8581c1b27bdb36bb85070a
-同期日時: 2026-06-09T19:24:42+09:00
+Notion URL: https://app.notion.com/p/AI-LP-LPO-37cf3b0fba8581aa8d14ce77efc945b5
+同期日時: 2026-06-12T01:28:07+09:00
 
 ---
 

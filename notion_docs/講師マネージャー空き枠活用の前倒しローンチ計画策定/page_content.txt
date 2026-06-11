@@ -1,7 +1,7 @@
 # 講師マネージャー空き枠活用の前倒しローンチ計画策定
 
-Notion URL: https://app.notion.com/p/379f3b0fba858149be29fa4b22b0ecbc
-同期日時: 2026-06-09T04:03:42+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba858100967ecff01f2d819e
+同期日時: 2026-06-12T01:29:28+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 現状の不足人数（枠数）を算出
 
-Notion URL: https://app.notion.com/p/37cf3b0fba858153a1d0f42ead034295
-同期日時: 2026-06-11T22:34:42+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581b9af20d9ee49e979b4
+同期日時: 2026-06-12T01:27:53+09:00
 
 ---
 

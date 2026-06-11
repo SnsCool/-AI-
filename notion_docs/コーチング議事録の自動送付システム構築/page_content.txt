@@ -1,7 +1,7 @@
 # コーチング議事録の自動送付システム構築
 
-Notion URL: https://app.notion.com/p/370f3b0fba858197a075dd72ef1ee568
-同期日時: 2026-06-09T19:24:18+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581a288c7eea437d3d705
+同期日時: 2026-06-12T01:28:47+09:00
 
 ---
 

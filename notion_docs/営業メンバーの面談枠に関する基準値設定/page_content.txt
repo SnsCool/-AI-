@@ -1,7 +1,7 @@
 # 営業メンバーの面談枠に関する基準値設定
 
-Notion URL: https://app.notion.com/p/379f3b0fba858150847ed73290d790fb
-同期日時: 2026-06-09T04:03:33+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581c8af63d0fa557831a3
+同期日時: 2026-06-12T01:29:25+09:00
 
 ---
 

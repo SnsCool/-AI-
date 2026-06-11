@@ -1,7 +1,7 @@
 # Lステップ経由のリンク設定
 
-Notion URL: https://app.notion.com/p/L-379f3b0fba8581a48113fef447873272
-同期日時: 2026-06-09T04:02:58+09:00
+Notion URL: https://app.notion.com/p/L-37cf3b0fba85818189a3e85abef0bac0
+同期日時: 2026-06-12T01:28:44+09:00
 
 ---
 

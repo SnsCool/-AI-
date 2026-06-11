@@ -1,7 +1,7 @@
 # クラス管理スプレッドシートの改善（流入予定数・講師担当可能数の可視化）
 
-Notion URL: https://app.notion.com/p/36bf3b0fba85818b8fdafc2aa0eab748
-同期日時: 2026-06-09T19:24:16+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba858116bc2cd951c31f873b
+同期日時: 2026-06-12T01:29:55+09:00
 
 ---
 

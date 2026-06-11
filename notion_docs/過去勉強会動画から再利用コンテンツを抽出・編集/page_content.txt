@@ -1,7 +1,7 @@
 # 過去勉強会動画から再利用コンテンツを抽出・編集
 
-Notion URL: https://app.notion.com/p/379f3b0fba85811d9b4cc83ae01ca57a
-同期日時: 2026-06-09T04:03:30+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581e9b2b2d7f997efd2ac
+同期日時: 2026-06-12T01:29:49+09:00
 
 ---
 

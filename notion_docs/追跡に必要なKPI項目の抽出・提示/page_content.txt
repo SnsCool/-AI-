@@ -1,7 +1,7 @@
 # 追跡に必要なKPI項目の抽出・提示
 
-Notion URL: https://app.notion.com/p/KPI-379f3b0fba85818593b6cc529420e05a
-同期日時: 2026-06-09T19:24:24+09:00
+Notion URL: https://app.notion.com/p/KPI-37cf3b0fba85813a8d8bf24cd1a2db33
+同期日時: 2026-06-12T01:28:15+09:00
 
 ---
 

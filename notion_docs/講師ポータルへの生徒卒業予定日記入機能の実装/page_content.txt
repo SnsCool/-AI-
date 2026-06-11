@@ -1,7 +1,7 @@
 # 講師ポータルへの生徒卒業予定日記入機能の実装
 
-Notion URL: https://app.notion.com/p/379f3b0fba858190890cd6f812527631
-同期日時: 2026-06-09T04:03:08+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581cf87cce3747e8c9ea5
+同期日時: 2026-06-12T01:28:58+09:00
 
 ---
 

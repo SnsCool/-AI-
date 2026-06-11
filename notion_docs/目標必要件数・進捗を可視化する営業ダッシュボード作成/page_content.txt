@@ -1,7 +1,7 @@
 # 目標必要件数・進捗を可視化する営業ダッシュボード作成
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581b1bc0ce29a8318ae65
-同期日時: 2026-06-09T04:01:43+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba858103b21ae7eee714be30
+同期日時: 2026-06-12T01:28:40+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 初心者・スピードコースのカリキュラム細分化と修正
 
-Notion URL: https://app.notion.com/p/36bf3b0fba858109982ce7d9959ff7ba
-同期日時: 2026-06-09T19:24:14+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581b187cce982ab7abd56
+同期日時: 2026-06-12T01:28:33+09:00
 
 ---
 

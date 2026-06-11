@@ -1,7 +1,7 @@
 # スタータープログラム基準の進捗データ抽出
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581baa82bd3c5a37d50a6
-同期日時: 2026-06-09T04:01:38+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba8581058f2af3cbc61b001d
+同期日時: 2026-06-12T01:28:34+09:00
 
 ---
 

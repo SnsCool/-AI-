@@ -1,7 +1,7 @@
 # 4ヶ月に1回のローンチサイクル確立とランク別A/Bテスト基準調整
 
-Notion URL: https://app.notion.com/p/4-1-A-B-379f3b0fba85813d9aaee007664a413d
-同期日時: 2026-06-09T04:03:33+09:00
+Notion URL: https://app.notion.com/p/4-1-A-B-37cf3b0fba858168bfc8e304c72d511d
+同期日時: 2026-06-12T01:29:34+09:00
 
 ---
 

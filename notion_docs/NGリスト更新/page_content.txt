@@ -1,7 +1,7 @@
 # NGリスト更新
 
 Notion URL: https://app.notion.com/p/NG-37cf3b0fba8581bc8f2ee1a06ad649ef
-同期日時: 2026-06-11T22:34:30+09:00
+同期日時: 2026-06-12T01:27:56+09:00
 
 ---
 

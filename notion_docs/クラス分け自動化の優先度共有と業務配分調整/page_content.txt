@@ -1,7 +1,7 @@
 # クラス分け自動化の優先度共有と業務配分調整
 
-Notion URL: https://app.notion.com/p/379f3b0fba8581c898b2f684c288d797
-同期日時: 2026-06-09T04:01:47+09:00
+Notion URL: https://app.notion.com/p/37cf3b0fba85813bbdd2eaed3c1e3095
+同期日時: 2026-06-12T01:28:25+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 議事録作成AIツールの作成（文字起こしテキスト用）
 
-Notion URL: https://app.notion.com/p/AI-370f3b0fba858126ba60f4965fca656f
-同期日時: 2026-06-09T19:24:06+09:00
+Notion URL: https://app.notion.com/p/AI-37cf3b0fba858122bc5af6d84c6b77be
+同期日時: 2026-06-12T01:29:52+09:00
 
 ---
 

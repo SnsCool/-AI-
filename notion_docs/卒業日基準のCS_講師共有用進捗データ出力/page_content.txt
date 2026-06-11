@@ -1,7 +1,7 @@
 # 卒業日基準のCS/講師共有用進捗データ出力
 
-Notion URL: https://app.notion.com/p/CS-379f3b0fba858192a024c067c974bbe7
-同期日時: 2026-06-09T04:01:17+09:00
+Notion URL: https://app.notion.com/p/CS-37cf3b0fba8581ccb04bf898e015cc6b
+同期日時: 2026-06-12T01:28:54+09:00
 
 ---
 

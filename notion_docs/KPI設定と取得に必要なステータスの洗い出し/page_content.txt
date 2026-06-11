@@ -1,7 +1,7 @@
 # KPI設定と取得に必要なステータスの洗い出し
 
-Notion URL: https://app.notion.com/p/KPI-379f3b0fba858171a2dff71a2f457025
-同期日時: 2026-06-09T04:02:51+09:00
+Notion URL: https://app.notion.com/p/KPI-37cf3b0fba8581638aece976bba52d2f
+同期日時: 2026-06-12T01:29:07+09:00
 
 ---
 

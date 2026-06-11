@@ -1,7 +1,7 @@
 # 初回HRムービー未提出者リストの共有
 
-Notion URL: https://app.notion.com/p/HR-379f3b0fba85810c8e8dfc7e3f13cab6
-同期日時: 2026-06-09T04:01:57+09:00
+Notion URL: https://app.notion.com/p/HR-37cf3b0fba8581649a49c9d44dff0b47
+同期日時: 2026-06-12T01:29:58+09:00
 
 ---
 

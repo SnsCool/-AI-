@@ -1,7 +1,7 @@
 # 6月S/Aランク講師の増加数と達成率影響の算出
 
-Notion URL: https://app.notion.com/p/6-S-A-379f3b0fba8581d683c2ce2f8eb15603
-同期日時: 2026-06-09T04:01:54+09:00
+Notion URL: https://app.notion.com/p/6-S-A-37cf3b0fba858163b0bdc969a7cffdb4
+同期日時: 2026-06-12T01:28:20+09:00
 
 ---
 
