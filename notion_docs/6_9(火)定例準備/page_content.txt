@@ -1,7 +1,7 @@
 # 6/9(火)定例準備
 
 Notion URL: https://app.notion.com/p/6-9-37af3b0fba858052a774f84bc7536e3d
-同期日時: 2026-06-09T19:20:57+09:00
+同期日時: 2026-06-11T19:39:13+09:00
 
 ---
 
@@ -16,3 +16,5 @@ https://docs.google.com/forms/d/1FoN2yoqic5xxW986DpIl4j-EoF2xJgk8PGJBvoFIrIw/edi
 ブリッジスレッド
 https://discord.com/channels/1172020927047942154/1513748829223129140
 →みんなをメンションする
+FAQページ
+https://script.google.com/macros/s/AKfycbwS0mv8IJkOYZ9g96rMoEAM47_GI7u0C9_okKlQcITPBHfcUVM9uPl1Eys7F7p3OIgD/exec
