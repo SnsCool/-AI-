@@ -1,7 +1,7 @@
 # Discordでの迷惑行為メンバーへの強制退会措置の実行
 
-Notion URL: https://app.notion.com/p/Discord-37cf3b0fba8581aeaa69c28a4616f74b
-同期日時: 2026-06-12T01:29:21+09:00
+Notion URL: https://app.notion.com/p/Discord-36bf3b0fba8581d9bcb4cc6ae3e628a8
+同期日時: 2026-06-12T13:37:44+09:00
 
 ---
 
