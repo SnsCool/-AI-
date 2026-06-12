@@ -1,7 +1,7 @@
 # チーム体制変更に伴うリーダー報酬再設定
 
-Notion URL: https://app.notion.com/p/37cf3b0fba8581c19bc8fa89acba3c7a
-同期日時: 2026-06-12T01:29:32+09:00
+Notion URL: https://app.notion.com/p/35ff3b0fba858024b1a9f145bd0379aa
+同期日時: 2026-06-12T16:51:36+09:00
 
 ---
 

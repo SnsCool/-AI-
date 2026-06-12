@@ -1,7 +1,7 @@
 # データ整合性確保
 
-Notion URL: https://app.notion.com/p/339f3b0fba85814fb445fc53fabbb7a1
-同期日時: 2026-06-07T03:57:06+09:00
+Notion URL: https://app.notion.com/p/37df3b0fba858109b494f22ed3ac0014
+同期日時: 2026-06-12T16:51:05+09:00
 
 ---
 

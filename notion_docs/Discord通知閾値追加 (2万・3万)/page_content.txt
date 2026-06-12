@@ -1,0 +1,8 @@
+# Discord通知閾値追加 (2万・3万)
+
+Notion URL: https://app.notion.com/p/Discord-2-3-37df3b0fba8581b39d8fd9ac7c615e6b
+同期日時: 2026-06-12T16:50:59+09:00
+
+---
+
+(コンテンツなし)
