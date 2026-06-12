@@ -1,0 +1,20 @@
+# ダッシュボードについて
+
+Notion URL: https://app.notion.com/p/37df3b0fba8580b78fa9edc83b6c878b
+同期日時: 2026-06-12T19:37:56+09:00
+
+---
+
+初回フォーム：https://docs.google.com/forms/d/e/1FAIpQLSfMSKL9Vom9Kj5noTB4oWhqs8ayjmFhVF1uHkotXq9Y9UGm-g/viewform?usp=header
+月1測定フォームhttps://docs.google.com/forms/d/e/1FAIpQLSfxa5YFboggPmCJ0UpOEgXelSfFvjKB1fPKvaDJZR9bKyJoXw/viewform?usp=header
+今後、メンバーが確定してから
+できる限り添削開始までにご連携いただけると対応しやすいので、ご協力いただけると幸いです🙏
+また、思い出したらご連絡させていただくのですが、どこかにメモしていただけると助かります！
+①チーム分けが完了次第、完了した旨をともえに連携
+　∟食事記録フォームの連携を調整します。
+　　Discordへの連携するのに時間がかかりますので、ご協力をお願いします
+②チームのチャンネル開設時に必ず「食事記録bot」を追加
+　∟このbotがチャンネルに追加されていないとDiscordへの連携がされません
+③月一フォーム、初回入力フォームに生徒さんを追加する際は必ずお名前ひらがな、苗字と名前の間に半角スペースでお願いします
+　∟統一しないとシステムが反応しませんので、ご認識とご協力を願いします。
+　　難しい場合は私がやります
