@@ -1,12 +1,46 @@
 # ダッシュボードについて
 
 Notion URL: https://app.notion.com/p/37df3b0fba8580b78fa9edc83b6c878b
-同期日時: 2026-06-12T19:37:56+09:00
+同期日時: 2026-06-12T22:24:31+09:00
 
 ---
 
-初回フォーム：https://docs.google.com/forms/d/e/1FAIpQLSfMSKL9Vom9Kj5noTB4oWhqs8ayjmFhVF1uHkotXq9Y9UGm-g/viewform?usp=header
-月1測定フォームhttps://docs.google.com/forms/d/e/1FAIpQLSfxa5YFboggPmCJ0UpOEgXelSfFvjKB1fPKvaDJZR9bKyJoXw/viewform?usp=header
+＜入れ込む内容＞
+初回フォーム：https://docs.google.com/forms/d/e/1FAIpQLSfMSKL9Vom9Kj5noTB4oWhqs8ayjmFhVF1uHkotXq9Y9UGm-g/viewform?usp=header（済）
+月1測定フォームhttps://docs.google.com/forms/d/e/1FAIpQLSfxa5YFboggPmCJ0UpOEgXelSfFvjKB1fPKvaDJZR9bKyJoXw/viewform?usp=header(未）
+食事記録（済）
+
+⬆️この内容をダッシュボードに入れ込んでいただきたいです！
+
+月に1回の測定は
+①ウエスト数値
+②体型写真（正面）
+③体型写真（横）
+この内容を記録してもらいます
+
+ウエスト測定値に関しては
+👇この部分に組み込んで表示していただきたいです
+体重や体脂肪と同様開始から−◯cmで記載いただきたいです
+体型写真に関しては
+初回の写真の下に1ヶ月ごと入れ込んでいただきたいです
+
+イメージ画像👇
+
+チーム内公開設定について
+⬆️
+現状個人のこの部分に関しては
+４期生は全チーム公開OK
+５期生に関しては全チーム公開NGとのことでした
+チームごとで公開・非公開などの設定はできますか？
+
+今後の懸念点
+今現状はスクラブ流入などもあり公開OKの方が多いのが現状です
+ただアフィ流入の方は発信などしている方ではないので個人の状態を見せたくない人が多数でした
+今後の対策としては
+①営業で事前にダッシュボードについても説明しメリットを説明してもらい全チーム公開にする
+②公開今後なしにする
+この2つかなと私は思いました
+メモ
 今後、メンバーが確定してから
 できる限り添削開始までにご連携いただけると対応しやすいので、ご協力いただけると幸いです🙏
 また、思い出したらご連絡させていただくのですが、どこかにメモしていただけると助かります！

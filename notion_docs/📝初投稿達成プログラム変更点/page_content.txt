@@ -1,7 +1,7 @@
 # 📝初投稿達成プログラム変更点
 
-Notion URL: https://www.notion.so/35af3b0fba858067a5cad0919ddbf02b
-同期日時: 2026-05-09T00:40:25+09:00
+Notion URL: https://app.notion.com/p/35af3b0fba8580d18800c43b2f871817
+同期日時: 2026-06-12T22:25:03+09:00
 
 ---
 
