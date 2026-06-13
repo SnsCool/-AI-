@@ -1,0 +1,26 @@
+# 失注自己分析 byひかり
+
+Notion URL: https://app.notion.com/p/by-2fbf3b0fba85802da934fd3f5210898e
+同期日時: 2026-06-13T13:36:51+09:00
+
+---
+
+概要
+商談を自動でFBしてくれるGPTsを作成しました❤️‍🔥
+✅ 成約ver と 失注ver を用意しています！
+文字起こしデータをそのまま入れるだけでOKです。
+出力内容
+点数（スコア）
+その評価になった理由
+どこが強みで、どこが改善ポイントなのか
+そしてそれが商談結果にどう影響しているのか
+ここまで一気に出ます。
+活用方法
+これを使うだけで、商談の質は即改善できます。
+全員の成長スピードが一気に上がるので、ぜひどんどん活用してください🔥🔥
+みんなで強い組織にしていきましょう！
+GPTsリンク
+成約ver
+https://chatgpt.com/g/g-69295c08b52c8191a7dc507c5b1bde7e-snsclub-shang-tan-sheng-yin-anaraisa
+失注ver
+https://chatgpt.com/g/g-692a90323ad48191a10acd4cf868c7af-snsclub-shang-tan-shi-zhu-anaraisa
