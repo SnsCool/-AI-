@@ -1,11 +1,11 @@
 # 0〜２期生の成果達成者の各月の平均体重減少を出す
 
 Notion URL: https://app.notion.com/p/0-37cf3b0fba858065a9a8f8a087d9a42e
-同期日時: 2026-06-13T16:30:31+09:00
+同期日時: 2026-06-13T19:09:14+09:00
 
 ---
 
 タスクの説明
-タスクの概要と関連する詳細を提供します。
+https://docs.google.com/spreadsheets/d/1owKuj2Yo4wLpNs-2ITCX_HB6ueVOXJ_p/edit?usp=sharing&ouid=111077476546038855417&rtpof=true&sd=true
 サブタスク
 サポートファイル

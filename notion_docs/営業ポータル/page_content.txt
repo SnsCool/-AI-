@@ -1,7 +1,7 @@
 # 営業ポータル
 
 Notion URL: https://app.notion.com/p/260f3b0fba85801a955bc21692aff7f0
-同期日時: 2026-06-13T13:36:18+09:00
+同期日時: 2026-06-13T19:06:06+09:00
 
 ---
 
@@ -9,14 +9,9 @@ Notion URL: https://app.notion.com/p/260f3b0fba85801a955bc21692aff7f0
     営業メンバーの紹介をしています
     Levelaメンバー紹介 
     営業チームの紹介をしています
-    営業MG陣によるコンテンツ共有です
     https://chatgpt.com/g/g-690b6e973ab881919cd11242f7722f30-zhu-fu-ceng-rohureyong-kiyarakutasheng-cheng-ai-gu-ke-yi-yong
     請求書関連の項目です
     営業時に使うリンク一覧です
-    Untitled 
-    Untitled 
-    Untitled 
-    何かわからないときはまずここみてください
     Untitled 
     Untitled 
     Untitled 
