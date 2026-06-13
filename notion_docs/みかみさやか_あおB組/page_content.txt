@@ -1,7 +1,7 @@
 # みかみさやか_あおB組
 
-Notion URL: https://www.notion.so/_-B-300f3b0fba85804ea9dffb24a1186f07
-同期日時: 2026-06-03T01:38:16+09:00
+Notion URL: https://app.notion.com/p/_-B-300f3b0fba85804ea9dffb24a1186f07
+同期日時: 2026-06-13T16:30:54+09:00
 
 ---
 
@@ -36,8 +36,6 @@ Notion URL: https://www.notion.so/_-B-300f3b0fba85804ea9dffb24a1186f07
     7回目
     8回目
     自動格納
-
-
     
 9回目
     10回目
