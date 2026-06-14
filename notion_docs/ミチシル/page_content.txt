@@ -1,7 +1,7 @@
 # ミチシル
 
-Notion URL: https://www.notion.so/2caf3b0fba8580d28207fa6397ef22e3
-同期日時: 2026-06-01T20:00:24+09:00
+Notion URL: https://app.notion.com/p/2caf3b0fba8580d28207fa6397ef22e3
+同期日時: 2026-06-14T16:47:36+09:00
 
 ---
 
@@ -161,6 +161,7 @@ Notion URL: https://www.notion.so/2caf3b0fba8580d28207fa6397ef22e3
     └【新規事業開発】Monitoring Seat _事業構想
     └【新規事業開発】Monitoring Seat _コスト管理
     サービス
+    Untitled 
     CS
     マーケ
     営業
