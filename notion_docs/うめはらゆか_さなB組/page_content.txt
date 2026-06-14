@@ -1,7 +1,7 @@
 # うめはらゆか_さなB組
 
-Notion URL: https://www.notion.so/_-B-2d5f3b0fba8580ff8d4bdf8df7e3318a
-同期日時: 2026-05-24T13:33:33+09:00
+Notion URL: https://app.notion.com/p/_-B-2d5f3b0fba8580ff8d4bdf8df7e3318a
+同期日時: 2026-06-14T13:37:01+09:00
 
 ---
 
@@ -10,4 +10,4 @@ Notion URL: https://www.notion.so/_-B-2d5f3b0fba8580ff8d4bdf8df7e3318a
 3回目：2/22 11:00~
 4回目：3/22 11:00~
 5回目：5/24 9:00~
-6回目：/ 9:00~
+6回目：6/14 11:00~

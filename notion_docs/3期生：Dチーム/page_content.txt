@@ -1,7 +1,7 @@
 # 3期生：Dチーム
 
-Notion URL: https://www.notion.so/3-D-345f3b0fba85802e9ea5cafeeecb87a8
-同期日時: 2026-05-28T01:21:51+09:00
+Notion URL: https://app.notion.com/p/3-D-345f3b0fba85802e9ea5cafeeecb87a8
+同期日時: 2026-06-14T13:36:49+09:00
 
 ---
 
@@ -16,5 +16,6 @@ https://youtu.be/klvAwWIHX9U
 🎥 第4回 グルコン
 https://youtu.be/JnEiC8vrSGw
 🎥 第5回 グルコン
+https://studio.youtube.com/video/qsdPEs1slrw/edit
 🎥 第6回 グルコン
 🎥 第7回 週次MT（最終）
