@@ -1,7 +1,7 @@
 # もぐラジオ
 
 Notion URL: https://app.notion.com/p/376f3b0fba8580f7a2acef7099763676
-同期日時: 2026-06-12T13:36:32+09:00
+同期日時: 2026-06-14T19:14:30+09:00
 
 ---
 
@@ -104,7 +104,8 @@ Notion URL: https://app.notion.com/p/376f3b0fba8580f7a2acef7099763676
   「『ため息をつくと幸せが逃げる』は嘘！？最新科学が明かすため息の効果」（自律神経の雑学）
   「SNSの『いいね』の数と、ポテトチップスを食べる手が止まらないことの共通点」（依存の仕組み）
 もぐラジオ台本
-https://chatgpt.com/g/g-p-6a2b713898348191934bffb60bcc6ceb-mokurasiotai-ben-sheng-cheng/project
+https://chatgpt.com/g/g-p-6a2b713898348191934bffb60bcc6ceb-mokurasiotai-ben-sheng-cheng/project（プロンプト）
+https://docs.google.com/document/d/1eg11Dc7qYxXLGjI9Mo4OmGx21y2MFAo3q3j8Kh8H-Rg/edit?usp=sharing
 6/8：食事を選ぶことは、生き方を選ぶこと：自分の体を『最高傑作』に変える思考法
   1: 導入（問題提起とテーマ発表）
   皆さん、おはようございます！！
