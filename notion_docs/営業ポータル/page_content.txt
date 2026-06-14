@@ -1,7 +1,7 @@
 # 営業ポータル
 
 Notion URL: https://app.notion.com/p/260f3b0fba85801a955bc21692aff7f0
-同期日時: 2026-06-14T00:39:24+09:00
+同期日時: 2026-06-15T00:39:09+09:00
 
 ---
 
@@ -11,6 +11,5 @@ Notion URL: https://app.notion.com/p/260f3b0fba85801a955bc21692aff7f0
     営業チームの紹介をしています
     https://chatgpt.com/g/g-690b6e973ab881919cd11242f7722f30-zhu-fu-ceng-rohureyong-kiyarakutasheng-cheng-ai-gu-ke-yi-yong
     請求書関連の項目です
-    営業時に使うリンク一覧です
     Untitled 
     Untitled 

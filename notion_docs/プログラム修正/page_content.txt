@@ -1,7 +1,7 @@
 # プログラム修正
 
-Notion URL: https://www.notion.so/35ff3b0fba8580e28f38fe319a2441e7
-同期日時: 2026-05-24T13:33:08+09:00
+Notion URL: https://app.notion.com/p/35ff3b0fba8580e28f38fe319a2441e7
+同期日時: 2026-06-15T00:39:40+09:00
 
 ---
 
@@ -15,6 +15,7 @@ Notion URL: https://www.notion.so/35ff3b0fba8580e28f38fe319a2441e7
     ・生徒さんの時間ロードマップを作成する
 →1日のスケジュール感を生徒さんに出してもらう
 →それに合わせてカスタムスケジュールを作成
+  https://docs.google.com/spreadsheets/d/1BZT2AfA7YaK967OVr7ollZGiwAZ8Q2zGCqy0Ykvkaeo/edit?usp=sharing
 3コースに向けてた時の記録
   https://docs.google.com/spreadsheets/d/1dPtzzep0hoKcbG5sJszHceiwhxpkmvrjscEFmpxegts/edit?gid=1088389299#gid=1088389299
   コース決定は自分でさせるのではなく、アンケートなどの回答をさせてこちらで能力値を割り振る
