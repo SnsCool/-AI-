@@ -1,7 +1,7 @@
 # ながのともみ
 
 Notion URL: https://app.notion.com/p/372f3b0fba8581d2bacef7e29fd15d9f
-同期日時: 2026-06-16T04:27:24+09:00
+同期日時: 2026-06-16T06:57:23+09:00
 
 ---
 
@@ -32,4 +32,5 @@ Notion URL: https://app.notion.com/p/372f3b0fba8581d2bacef7e29fd15d9f
 ▶ご家族について
 └ 夫はTomomiさんのVlogに非協力的だが、日常の家事は協力してくれる
 └ 娘は説明上手で、Tomomiさんは聞き上手なタイプ
+  セッションデータ
   セッションデータ

@@ -1,7 +1,7 @@
 # うえだめい
 
 Notion URL: https://app.notion.com/p/372f3b0fba858182992cefc3fbecba31
-同期日時: 2026-06-16T04:29:29+09:00
+同期日時: 2026-06-16T06:57:01+09:00
 
 ---
 
@@ -42,4 +42,5 @@ Notion URL: https://app.notion.com/p/372f3b0fba858182992cefc3fbecba31
 └ ①コメント誘導を再開し、LINEへの誘導URLを自動送信
 └ ②ストーリーでLINEへの誘導を告知
 └ ③コメント誘導とストーリー告知を組み合わせる
+  セッションデータ
   セッションデータ
