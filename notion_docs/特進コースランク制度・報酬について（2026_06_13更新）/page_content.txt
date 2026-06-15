@@ -1,0 +1,14 @@
+# 特進コースランク制度・報酬について（2026/06/13更新）
+
+Notion URL: https://app.notion.com/p/2026-06-13-380f3b0fba8580b3a169f1762ec2c6b9
+同期日時: 2026-06-16T01:45:49+09:00
+
+---
+
+各ランクの報酬一覧
+1ヶ月の実績を月末締めで集計し、ランク変動のあるメンバーに関しては、翌月の請求書請求タイミングまでにランクを発表。
+ランクについては、こちらからログインして確認いただけます。
+▼確認URL
+ランク集計システム
+https://script.google.com/macros/s/AKfycbwoB_e_o4bljphga4d2nepiAvdkgddg8JrmKjacSFNfjNzrvDIQnsVWRI1sRJveWD4x/exec
+※DiscordアカウントID（例：naaak0715）がログインIDになります
