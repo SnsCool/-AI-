@@ -1,7 +1,7 @@
 # さかきばらまゆみ
 
 Notion URL: https://app.notion.com/p/37cf3b0fba858094a02cf9ae9a4aba4a
-同期日時: 2026-06-12T16:52:20+09:00
+同期日時: 2026-06-15T23:19:01+09:00
 
 ---
 
@@ -9,8 +9,9 @@ Notion URL: https://app.notion.com/p/37cf3b0fba858094a02cf9ae9a4aba4a
     （そのまま貼り付けてもらえればOKです）
     特記事項あれば
     特記事項があれば
+    今週月曜日にプログラム開始されています！
 ※前提、自己分析シートは目を通した上で伴走開始お願いします
-ジョーズログイン：
+ジョーズログイン：完了しているとのことでした！
 URL：https://app.levela.co.jp/advances-course-task/
 ID ：
 生徒メアド：
