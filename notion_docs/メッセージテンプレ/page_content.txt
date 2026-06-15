@@ -1,7 +1,7 @@
 # メッセージテンプレ
 
 Notion URL: https://app.notion.com/p/2fdf3b0fba8580fd9cb5fe77be5fbb65
-同期日時: 2026-05-01T13:33:53+09:00
+同期日時: 2026-06-15T17:17:56+09:00
 
 ---
 
@@ -94,3 +94,7 @@ https://docs.google.com/spreadsheets/d/1bp6aI5JCuqIVlEHu2yatEMeUBM0HmKKVtL4S7NU2
 各々スケジュールへの追加をお願いいたします👍
   
 アーカイブはグルコンアーカイブに日付とチーム名を記載して添付する
+
+これはどんどん溜まっていってるのか。
+溜まってない場合、声掛けをする
+もしくは、週１とかで必ずやる仕組みを作る

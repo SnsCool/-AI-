@@ -1,7 +1,7 @@
 # アカウント提案
 
 Notion URL: https://app.notion.com/p/26ff3b0fba8580b6933cdc96b224155b
-同期日時: 2026-06-13T19:06:16+09:00
+同期日時: 2026-06-15T17:18:21+09:00
 
 ---
 
@@ -15,3 +15,4 @@ https://docs.google.com/spreadsheets/d/1CwCHk2g19gAPyuKvQxHVIoTradPWcZimKztisMaI
 https://app.notion.com/p/350f082e36c28057b6f9f2cec19694ae
 👑SnsClub実績者
 https://snsclub.jp/achievements/
+⭐️万垢図鑑

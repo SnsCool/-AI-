@@ -1,7 +1,7 @@
 # 請求書作成について
 
-Notion URL: https://www.notion.so/26ff3b0fba858052ac3cf689df546557
-同期日時: 2026-04-22T03:32:05+09:00
+Notion URL: https://app.notion.com/p/26ff3b0fba858052ac3cf689df546557
+同期日時: 2026-06-15T17:20:09+09:00
 
 ---
 

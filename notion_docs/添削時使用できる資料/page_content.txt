@@ -1,7 +1,7 @@
 # 添削時使用できる資料
 
-Notion URL: https://www.notion.so/32bf3b0fba858025a43dcc123e6f0cda
-同期日時: 2026-05-23T13:22:40+09:00
+Notion URL: https://app.notion.com/p/32bf3b0fba858025a43dcc123e6f0cda
+同期日時: 2026-06-15T17:18:11+09:00
 
 ---
 
@@ -9,3 +9,9 @@ Notion URL: https://www.notion.so/32bf3b0fba858025a43dcc123e6f0cda
   ラーメン
   イタリアン
   焼肉
+  うどん（丸亀製麺)
+トグルに変更
+見出しもっとわかりやすい内容にしたい
+作成方法の記載（自由に作成OKは危険・ルール決める）
+使いづらい
+これだと、どんな時に使うか、どんなメリットベネフィットがあるのかがわからない

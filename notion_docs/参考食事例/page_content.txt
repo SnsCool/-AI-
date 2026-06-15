@@ -1,7 +1,7 @@
 # 参考食事例
 
-Notion URL: https://www.notion.so/336f3b0fba8580868240fe1f05ab50ce
-同期日時: 2026-05-27T10:08:00+09:00
+Notion URL: https://app.notion.com/p/336f3b0fba8580868240fe1f05ab50ce
+同期日時: 2026-06-15T17:17:58+09:00
 
 ---
 
@@ -166,3 +166,4 @@ Notion URL: https://www.notion.so/336f3b0fba8580868240fe1f05ab50ce
   《💡ポイント》
   蒸し料理で油を使わず調理できていて、脂質を抑えられている
   海藻・きのこ・根菜など食物繊維が豊富
+コーチが見て受講生に伝えられるように貯めていきたい

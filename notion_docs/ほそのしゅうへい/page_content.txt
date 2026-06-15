@@ -1,23 +1,8 @@
 # ほそのしゅうへい
 
-Notion URL: https://app.notion.com/p/379f3b0fba8580148e6fefab0b29d126
-同期日時: 2026-06-08T17:01:40+09:00
+Notion URL: https://app.notion.com/p/380f3b0fba8580e9ba61de84e7a9bcd8
+同期日時: 2026-06-15T17:21:40+09:00
 
 ---
 
-    自己分析セッション動画格納
-    （そのまま貼り付けてもらえればOKです）
-    特記事項あれば
-    特記事項があれば
-※前提、自己分析シートは目を通した上で伴走開始お願いします
-ジョーズログイン：
-URL：https://app.levela.co.jp/advances-course-task/
-ID ：
-生徒メアド：
-特進講師1on1メモ：
-講師timerex：
-1回目実施日：
-2回目実施日：
-3回目実施日：
-4回目実施日：
-5回目実施日：
+(コンテンツなし)
