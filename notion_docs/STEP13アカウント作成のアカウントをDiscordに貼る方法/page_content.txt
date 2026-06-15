@@ -1,7 +1,7 @@
 # STEP13アカウント作成のアカウントをDiscordに貼る方法
 
 Notion URL: https://app.notion.com/p/STEP13-Discord-36af3b0fba858086a760f7c2bee53f79
-同期日時: 2026-06-15T00:39:41+09:00
+同期日時: 2026-06-15T13:39:54+09:00
 
 ---
 

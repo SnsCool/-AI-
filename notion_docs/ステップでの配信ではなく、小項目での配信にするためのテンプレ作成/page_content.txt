@@ -1,7 +1,7 @@
 # ステップでの配信ではなく、小項目での配信にするためのテンプレ作成
 
-Notion URL: https://www.notion.so/36af3b0fba8580bb9f65f9b2820c6390
-同期日時: 2026-05-25T13:37:34+09:00
+Notion URL: https://app.notion.com/p/36af3b0fba8580bb9f65f9b2820c6390
+同期日時: 2026-06-15T13:39:29+09:00
 
 ---
 

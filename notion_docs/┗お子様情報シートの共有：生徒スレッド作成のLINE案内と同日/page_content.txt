@@ -1,7 +1,7 @@
 # ┗お子様情報シートの共有：生徒スレッド作成のLINE案内と同日
 
-Notion URL: https://www.notion.so/LINE-346f3b0fba8580189cf1e9f888727547
-同期日時: 2026-05-30T18:43:41+09:00
+Notion URL: https://app.notion.com/p/LINE-346f3b0fba8580189cf1e9f888727547
+同期日時: 2026-06-15T13:38:55+09:00
 
 ---
 
