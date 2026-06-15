@@ -1,7 +1,7 @@
 # Instagram勉強会用バナー 編集データ
 
-Notion URL: https://app.notion.com/p/Instagram-ca9f3b0fba8582c6947981add4854138
-同期日時: 2026-06-15T17:20:45+09:00
+Notion URL: https://app.notion.com/p/Instagram-61cf3b0fba858288ad0c819832d9ca63
+同期日時: 2026-06-15T20:14:46+09:00
 
 ---
 

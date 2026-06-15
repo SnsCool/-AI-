@@ -1,7 +1,7 @@
 # 採用LINE登録LP（FV image2版）
 
-Notion URL: https://app.notion.com/p/LINE-LP-FV-image2-9def3b0fba858249a5f081eb1efce56c
-同期日時: 2026-06-15T17:20:54+09:00
+Notion URL: https://app.notion.com/p/LINE-LP-FV-image2-03ff3b0fba8582209f3901ea12a2b579
+同期日時: 2026-06-15T20:14:32+09:00
 
 ---
 

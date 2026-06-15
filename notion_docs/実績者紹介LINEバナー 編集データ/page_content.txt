@@ -1,7 +1,7 @@
 # 実績者紹介LINEバナー 編集データ
 
-Notion URL: https://app.notion.com/p/LINE-d66f3b0fba8582ddabc381991131818b
-同期日時: 2026-06-15T17:20:53+09:00
+Notion URL: https://app.notion.com/p/LINE-a61f3b0fba8583b6bb62815614edfcd0
+同期日時: 2026-06-15T20:14:35+09:00
 
 ---
 

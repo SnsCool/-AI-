@@ -1,7 +1,7 @@
 # プロテイン LINEデザイン 編集データ
 
-Notion URL: https://app.notion.com/p/LINE-d25f3b0fba85820aac5c81b546415af3
-同期日時: 2026-06-15T17:20:55+09:00
+Notion URL: https://app.notion.com/p/LINE-df0f3b0fba8582ceb2b7013d02623e55
+同期日時: 2026-06-15T20:14:29+09:00
 
 ---
 

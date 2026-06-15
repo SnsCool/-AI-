@@ -1,7 +1,7 @@
 # Instagram勉強会用バナー（日程無 A/B）
 
-Notion URL: https://app.notion.com/p/Instagram-A-B-027f3b0fba8582da82e901acfd9bee41
-同期日時: 2026-06-15T17:20:42+09:00
+Notion URL: https://app.notion.com/p/Instagram-A-B-adcf3b0fba8583ccbc5d8125f951a053
+同期日時: 2026-06-15T20:14:43+09:00
 
 ---
 

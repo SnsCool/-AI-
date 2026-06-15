@@ -1,10 +1,11 @@
 # マネタイズコンテンツスライド
 
 Notion URL: https://app.notion.com/p/32df3b0fba8580df971adefe7381d1e8
-同期日時: 2026-06-08T19:45:04+09:00
+同期日時: 2026-06-15T20:14:08+09:00
 
 ---
 
+い
 1章 講座の進め方(新規スライド作成必要)
   第0章 講座の進め方（ライトコース）
   概要
@@ -229,7 +230,7 @@ https://canva.link/n7u4kf1t73h4ck9
 🔴https://canva.link/7z644m2dm3pluja
 ポジションメイクマスター講座　✅
 https://canva.link/87uxvuj7bkvv8sc
-インスタ運用 プロフ設計編
+インスタ運用 プロフ設計編　✅
 https://canva.link/fx4oq0evfatqpau
 インスタ運用 ハイライト設計講座
 https://canva.link/60ncw30ffvf2xxy

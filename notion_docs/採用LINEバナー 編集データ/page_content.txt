@@ -1,7 +1,7 @@
 # 採用LINEバナー 編集データ
 
-Notion URL: https://app.notion.com/p/LINE-f17f3b0fba858225908381233b12849a
-同期日時: 2026-06-15T17:20:55+09:00
+Notion URL: https://app.notion.com/p/LINE-da0f3b0fba858342942081aced65b34a
+同期日時: 2026-06-15T20:14:29+09:00
 
 ---
 
