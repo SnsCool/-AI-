@@ -1,7 +1,7 @@
 # SnsClub一斉配信バナー（4月/6月）
 
-Notion URL: https://app.notion.com/p/SnsClub-4-6-381f3b0fba858042a2f6c6adaf4b997d
-同期日時: 2026-06-16T19:48:09+09:00
+Notion URL: https://app.notion.com/p/SnsClub-4-6-6d1f3b0fba85828484d3015710d76309
+同期日時: 2026-06-16T23:04:09+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 個別相談のLINEに登録できません。
 
-Notion URL: https://www.notion.so/LINE-2fef3b0fba8580698649fa179736548a
-同期日時: 2026-05-24T13:33:21+09:00
+Notion URL: https://app.notion.com/p/LINE-2fef3b0fba8580698649fa179736548a
+同期日時: 2026-06-16T23:03:37+09:00
 
 ---
 

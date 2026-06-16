@@ -1,7 +1,7 @@
 # SnsClub運営用LINEデザイン
 
-Notion URL: https://app.notion.com/p/SnsClub-LINE-380f3b0fba8580c3a6fcc35180add2a7
-同期日時: 2026-06-16T01:45:02+09:00
+Notion URL: https://app.notion.com/p/SnsClub-LINE-3fcf3b0fba85828390c48164f62443a1
+同期日時: 2026-06-16T23:03:50+09:00
 
 ---
 
