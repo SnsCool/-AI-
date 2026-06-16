@@ -1,7 +1,7 @@
 # 採用設計
 
-Notion URL: https://app.notion.com/p/377f3b0fba8581a7919ff4267a45e0fe
-同期日時: 2026-06-07T03:41:23+09:00
+Notion URL: https://app.notion.com/p/381f3b0fba858109b8cbf1487b213520
+同期日時: 2026-06-16T19:47:32+09:00
 
 ---
 

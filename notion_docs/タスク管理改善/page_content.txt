@@ -1,7 +1,7 @@
 # タスク管理改善
 
-Notion URL: https://app.notion.com/p/35ff3b0fba8581928275c370d7fab03b
-同期日時: 2026-06-07T00:33:56+09:00
+Notion URL: https://app.notion.com/p/381f3b0fba85813facf4e88373b04881
+同期日時: 2026-06-16T19:47:26+09:00
 
 ---
 
