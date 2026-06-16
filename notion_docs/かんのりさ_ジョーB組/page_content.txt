@@ -1,7 +1,7 @@
 # かんのりさ_ジョーB組
 
-Notion URL: https://www.notion.so/_-B-2caf3b0fba8580f2965bd2be85883dec
-同期日時: 2026-06-01T13:41:16+09:00
+Notion URL: https://app.notion.com/p/_-B-2caf3b0fba8580f2965bd2be85883dec
+同期日時: 2026-06-16T17:12:26+09:00
 
 ---
 
@@ -10,4 +10,4 @@ Notion URL: https://www.notion.so/_-B-2caf3b0fba8580f2965bd2be85883dec
 3回目：2/18　10:30～
 4回目：3/25　10:30～
 5回目：4/20　10:30～
-6回目：
+6回目：6/1　

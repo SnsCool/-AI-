@@ -1,7 +1,7 @@
 # そたかチームHOME
 
 Notion URL: https://app.notion.com/p/HOME-2e8f3b0fba8580149b7af1e379efbb7b
-同期日時: 2026-06-15T23:20:27+09:00
+同期日時: 2026-06-16T17:10:18+09:00
 
 ---
 
@@ -10,6 +10,9 @@ https://script.google.com/macros/s/AKfycbwS0mv8IJkOYZ9g96rMoEAM47_GI7u0C9_okKlQc
   ▶️AIドリルの登録はこちら▶️　https://app.levela.co.jp/ai-drill/signup　みんなやろう！
 今月のお知らせ
   今月のチームMTG FB動画：　
+  みほです。
+  https://app.notion.com/p/4-2026-06-08-37bf3b0fba85800bacbed93e33f4f1d7
+  問いを立てられる部分はたくさんあると思いますので、皆さんならどんな問いを立てて質問してみるかをお聞きしたいです。よろしくお願いいたします！！
   6月度　セッション練習　ペア
 せりな×もも　ななえ×りな　つたこ×みほ　うみ×ゆーき　ゆり×りか
     元データは下にあります。
