@@ -1,7 +1,7 @@
 # グルコン日程配信
 
-Notion URL: https://app.notion.com/p/376f3b0fba85804fa978e8a644f649c7
-同期日時: 2026-06-15T23:22:33+09:00
+Notion URL: https://app.notion.com/p/381f3b0fba8580fea39bf8c793a323f1
+同期日時: 2026-06-16T10:23:05+09:00
 
 ---
 

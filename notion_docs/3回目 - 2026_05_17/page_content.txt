@@ -1,7 +1,7 @@
 # 3回目 - 2026/05/17
 
-Notion URL: https://www.notion.so/3-2026-05-17-372f3b0fba8581c2aea9d6f6c9cffd83
-同期日時: 2026-06-01T17:09:39+09:00
+Notion URL: https://app.notion.com/p/3-2026-05-17-372f3b0fba8581c2aea9d6f6c9cffd83
+同期日時: 2026-06-16T10:25:13+09:00
 
 ---
 
@@ -36,4 +36,5 @@ Notion URL: https://www.notion.so/3-2026-05-17-372f3b0fba8581c2aea9d6f6c9cffd83
 💡 **その他**
 └ グルコンに積極的に参加し、他の生徒さんの視点を取り入れる🤝
 └ スプレッドシート状の台本を活用し、TTP元との比較分析を行う📝
+セッションデータ
 セッションデータ
