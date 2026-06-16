@@ -1,23 +1,33 @@
 # 【講師】関連資料
 
 Notion URL: https://app.notion.com/p/307f3b0fba8580bd9cd7dfa9581e0d4f
-同期日時: 2026-06-14T03:38:45+09:00
+同期日時: 2026-06-16T13:41:52+09:00
 
 ---
 
 講師関連
+  これ早急に貯めていきたい
+  自分の意思決定からチームの意思決定に変える
    提出率・体重や体脂肪変化を称える
     「みなさん100％の提出率、素晴らしいです！✨ 
 体重も平均で◯kgで体脂肪も平均◯％ですごい実践力が高いチームで本当に素晴らしいです!
+    なぜこの言葉がけを行うのか
+    褒められると脳が「またやろう」と感じるため、次週の提出・実践につながりやすくなる
+    グループ全体の成果として共有することで、「自分もチームの一員だ」という帰属意識を強化できるため
+    個人ではなくグループ全体に伝えることで、「自分も貢献できた」という達成感を全員が感じられるため
+    これを行うことによって得られる効果
+    継続意欲の向上 — 認められた行動（提出・実践）をまた繰り返したいという動機が生まれる
+    冒頭に入れることでポジティブな空気が生まれ、その後のフィードバックが受け取りやすくなる
     ポイント
-    結果ではなく「行動・提出率」を褒める
+    行動・提出率を褒める
     グループ全体に向けることで、全員が当事者意識を持ちやすい
-    「つながっている」と未来への期待感を添えるのがコツ
     使えるシーン
     グループコンサル冒頭・締め
     提出率が高かった週のフォロー
     モチベが下がりやすい時期の底上げ
     　参考動画（２分５３秒頃）
+  これも早急に増やしていきたい
+  マニュアルはよかったことがあったらその場で更新する・もしくはメモなどに残す習慣つける
   テンプレをコピーして自分の担当チームのアーカイブを格納していきましょう！
 YouTubeかグーグルドライブにアップして添付してください
 （ファイルなうだと期間過ぎたら見れなくなるため）
@@ -128,6 +138,7 @@ https://us05web.zoom.us/j/8989797996?pwd=QUhUVElUcGRHUlF5WG5mK3R4NjN6Zz09&omn=85
     🎥 第4回 グルコン
     https://youtu.be/JnEiC8vrSGw
     🎥 第5回 グルコン
+    https://studio.youtube.com/video/qsdPEs1slrw/edit
     🎥 第6回 グルコン
     🎥 第7回 週次MT（最終）
     ▼ 講義アーカイブ格納庫
@@ -145,6 +156,15 @@ https://us05web.zoom.us/j/8989797996?pwd=QUhUVElUcGRHUlF5WG5mK3R4NjN6Zz09&omn=85
     https://youtu.be/t6OwnhZFmDI
     🎥 第2回 グルコン
     https://youtu.be/Jj3iFJUW2Gc
+    🎥 第3回 グルコン
+    🎥 第4回 グルコン
+    🎥 第5回 グルコン
+    🎥 第6回 グルコン
+    🎥 第7回 グルコン（最終）
+    ▼ 講義アーカイブ格納庫
+    🎥 第1回 キックオフMT
+    https://youtu.be/64JR3aug8cQ
+    🎥 第2回 グルコン
     🎥 第3回 グルコン
     🎥 第4回 グルコン
     🎥 第5回 グルコン
@@ -240,6 +260,9 @@ https://docs.google.com/spreadsheets/d/1bp6aI5JCuqIVlEHu2yatEMeUBM0HmKKVtL4S7NU2
     
 アーカイブはグルコンアーカイブに日付とチーム名を記載して添付する
 
+  これはどんどん溜まっていってるのか。
+  溜まってない場合、声掛けをする
+  もしくは、週１とかで必ずやる仕組みを作る
      今日の流れ
   . 個別相談タイム（1人3〜5分）
   今日まで（グルコンまで）にできたこと1〜2個
@@ -267,6 +290,11 @@ https://docs.google.com/spreadsheets/d/1BT-cU6ayZCqXVr31xsNobFhZBIRkJtNTA62HNcRC
     イタリアン
     焼肉
     うどん（丸亀製麺)
+  トグルに変更
+  見出しもっとわかりやすい内容にしたい
+  作成方法の記載（自由に作成OKは危険・ルール決める）
+  使いづらい
+  これだと、どんな時に使うか、どんなメリットベネフィットがあるのかがわからない
     2期生bチーム:こんたにちづるさん
     全体的に低脂質・野菜が多め
     🥞朝ごはん(7:20)
@@ -426,6 +454,7 @@ https://docs.google.com/spreadsheets/d/1BT-cU6ayZCqXVr31xsNobFhZBIRkJtNTA62HNcRC
     《💡ポイント》
     蒸し料理で油を使わず調理できていて、脂質を抑えられている
     海藻・きのこ・根菜など食物繊維が豊富
+  コーチが見て受講生に伝えられるように貯めていきたい
 https://drive.google.com/drive/folders/1klT-yjdncfQpesKvY24ybmPUVyeXU9Iu
 https://drive.google.com/drive/folders/1Yrddf-dmPrOPSzw70HTIj8ulRQuyEwm8?usp=drive_link
 https://drive.google.com/drive/folders/1WS3i9rPB3yYTmu4uUx9o3YSGy1cBwmHE?usp=drive_link
@@ -434,6 +463,7 @@ https://docs.google.com/spreadsheets/d/1PoOmVRL-R_2fT_OoQAqVqt848BPCJ4ed/edit?us
 https://docs.google.com/spreadsheets/d/1T6KY_r1ktNUtCD6R4rnO_QEZmUu18YzM9kWAQrKp5eA/edit?gid=617739711#gid=617739711
 https://docs.google.com/spreadsheets/d/1Ir9F300j1gtCD-wkHv5ywWi1Uj9OjN97/edit?usp=sharing&ouid=111077476546038855417&rtpof=true&sd=true
 https://docs.google.com/spreadsheets/d/1sjSPFdaDMxE7Rfmtm5GIutnKScLu0_nGnUNQIkL3vK0/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1glGgQGW60xva5Q_x2X9Ubv-RbdLhNdcHyN24b1b68X8/edit?usp=sharing
     添削プロンプト
     添削プロンプト
     🎯 使い方の手順
@@ -632,6 +662,7 @@ https://www.canva.com/design/DAHCBAj5Q7o/WBobhPlZTewd1p8MpAFjmg/edit?utm_content
   https://docs.google.com/spreadsheets/d/12-BQZ1aKIBwFMUZiEIAq1uxcnw-8ks0RPy3PM9VZa6M/edit?usp=sharing
   3期生D
   https://docs.google.com/spreadsheets/d/1LvQPYQCbMp9lIHLilQdp-qO1N7qtQfOKnM58Yjd2lbY/edit?usp=sharing
+  3期生 チーム別メンバー初回数値
   添削内容候補
   ①音声回答
   メリット：慣れたら3分くらいでできる
@@ -2317,3 +2348,4 @@ https://www.canva.com/design/DAHCBAj5Q7o/WBobhPlZTewd1p8MpAFjmg/edit?utm_content
     🩵 糖質は「敵」ではなく「使い方」次第！
     選び方・食べ方を変えるだけで、
     同じ量でも「太る糖質」→「燃える糖質」に変わります🔥
+    ・野菜ラーメン（インスタント活用）おすすめは塩か醤油

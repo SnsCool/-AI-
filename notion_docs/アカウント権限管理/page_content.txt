@@ -1,7 +1,7 @@
 # アカウント権限管理
 
-Notion URL: https://www.notion.so/35ef3b0fba8581dfacfaf2c3c982bb10
-同期日時: 2026-05-19T13:37:55+09:00
+Notion URL: https://app.notion.com/p/35ef3b0fba8581dfacfaf2c3c982bb10
+同期日時: 2026-06-16T13:46:08+09:00
 
 ---
 

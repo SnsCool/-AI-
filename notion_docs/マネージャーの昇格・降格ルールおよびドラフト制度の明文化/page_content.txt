@@ -1,7 +1,7 @@
 # マネージャーの昇格・降格ルールおよびドラフト制度の明文化
 
-Notion URL: https://app.notion.com/p/37cf3b0fba8581f7a3ccf612784f49a8
-同期日時: 2026-06-12T01:28:43+09:00
+Notion URL: https://app.notion.com/p/36bf3b0fba85815c9277c5ef1727abc1
+同期日時: 2026-06-16T13:46:19+09:00
 
 ---
 

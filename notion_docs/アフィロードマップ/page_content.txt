@@ -1,11 +1,9 @@
 # アフィロードマップ
 
-Notion URL: https://app.notion.com/p/35df3b0fba85808cb5aed7208717b49c
-同期日時: 2026-06-12T01:33:28+09:00
+Notion URL: https://app.notion.com/p/342f3b0fba8580caa606c09a2f59153a
+同期日時: 2026-06-16T13:44:15+09:00
 
 ---
 
-タスクの説明
-タスクの概要と関連する詳細を提供します。
-サブタスク
-サポートファイル
+Untitled 
+Untitled 

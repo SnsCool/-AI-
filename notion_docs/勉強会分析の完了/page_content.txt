@@ -1,7 +1,7 @@
 # 勉強会分析の完了
 
-Notion URL: https://app.notion.com/p/37cf3b0fba85815eb858c959aec150db
-同期日時: 2026-06-12T01:28:36+09:00
+Notion URL: https://app.notion.com/p/349f3b0fba8581bc85bbe921ffca47fc
+同期日時: 2026-06-16T13:45:53+09:00
 
 ---
 
