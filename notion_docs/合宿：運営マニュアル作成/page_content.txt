@@ -1,10 +1,8 @@
 # 合宿：運営マニュアル作成
 
-Notion URL: https://www.notion.so/30bf3b0fba858099a969c2e0e37f2f63
-同期日時: 2026-02-25T21:23:17+09:00
+Notion URL: https://app.notion.com/p/382f3b0fba8580898e6ed29d146afa7e
+同期日時: 2026-06-17T17:06:48+09:00
 
 ---
 
-制作物
-運営一覧（配置場所）
-受付フロー
+(コンテンツなし)

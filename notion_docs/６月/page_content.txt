@@ -1,7 +1,7 @@
 # ６月
 
 Notion URL: https://app.notion.com/p/37df3b0fba8580e39559ee9fc715a428
-同期日時: 2026-06-15T20:16:33+09:00
+同期日時: 2026-06-17T17:09:49+09:00
 
 ---
 
@@ -15,3 +15,4 @@ Notion URL: https://app.notion.com/p/37df3b0fba8580e39559ee9fc715a428
 ➮前回話を聞くだけになってしまったので今回は
 何が問題点なのか、何が時間が取れないと感じているのかを洗い出して、本人が悪い時の状態に合わせたり、いい状態の時にやらないとと焦りすぎていることが原因だったと判明した。
 🔸5回目
+https://docs.google.com/document/d/19BvpCd6zOQHc9Oa3kmkezfwINu3rPlpMBgqQmvJgAw4/edit?usp=sharing
