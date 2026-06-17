@@ -1,7 +1,7 @@
 # ⭐️AICCメール確認
 
 Notion URL: https://app.notion.com/p/AICC-382f3b0fba8580a3837bda7f58c0deb7
-同期日時: 2026-06-17T17:10:00+09:00
+同期日時: 2026-06-17T19:44:19+09:00
 
 ---
 
@@ -9,4 +9,13 @@ Notion URL: https://app.notion.com/p/AICC-382f3b0fba8580a3837bda7f58c0deb7
 →TAOとLevelaで打ち合わせののち決定（6月中に決定可能か）
 　4階のみ利用・3日間利用？
 会場の契約者
-→Levelaで間違いないか確認
+→確認
+
+主催
+↓
+制作会社
+↓
+会場
+相関図的にはTAO契約になるところだけどそうなると費用もTAO払いになるので
+Levela契約になる想定。
+→確認まち

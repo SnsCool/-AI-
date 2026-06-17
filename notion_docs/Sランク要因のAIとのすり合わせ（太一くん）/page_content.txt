@@ -1,8 +1,9 @@
 # Sランク要因のAIとのすり合わせ（太一くん）
 
 Notion URL: https://app.notion.com/p/S-AI-380f3b0fba85802b811bca8af14d05e6
-同期日時: 2026-06-15T20:15:37+09:00
+同期日時: 2026-06-17T19:39:31+09:00
 
 ---
 
-(コンテンツなし)
+https://docs.google.com/spreadsheets/d/16kG1MW5LbDfqJrnILkRHI8NHMDRAlBa3wVdHxZ6TAjc/edit?gid=0#gid=0
+https://docs.google.com/spreadsheets/d/1IcgP0PihUp1LqkDLXBdMfXqmSSwIjU2MIhLEJXaa0RI/edit?gid=0#gid=0

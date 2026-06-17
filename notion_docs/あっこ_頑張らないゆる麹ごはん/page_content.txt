@@ -1,7 +1,7 @@
 # あっこ|頑張らないゆる麹ごはん
 
-Notion URL: https://www.notion.so/320f3b0fba858032bb5ac6e54240fadf
-同期日時: 2026-03-11T12:50:31+09:00
+Notion URL: https://app.notion.com/p/320f3b0fba858032bb5ac6e54240fadf
+同期日時: 2026-06-17T19:43:34+09:00
 
 ---
 
@@ -15,3 +15,4 @@ Notion URL: https://www.notion.so/320f3b0fba858032bb5ac6e54240fadf
 貧血に特化しているので鉄分意識するけどそれだけでは吸収されないからタンパク質も一緒にとる
 →タンパク質が人間の体の中で一番大事な栄養素だから
 タンパク質の1日に必要な量がプロテインだったら１杯で取れる
+Mrs.PROTEINがいいのか？
