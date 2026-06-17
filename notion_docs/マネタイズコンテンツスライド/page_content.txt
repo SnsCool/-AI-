@@ -1,7 +1,7 @@
 # マネタイズコンテンツスライド
 
 Notion URL: https://app.notion.com/p/32df3b0fba8580df971adefe7381d1e8
-同期日時: 2026-06-17T22:26:59+09:00
+同期日時: 2026-06-18T01:25:42+09:00
 
 ---
 
@@ -257,11 +257,7 @@ https://canva.link/dv44pmm7r8hf0jy
 https://canva.link/jhltwlxcy27yce0
 引き込まれる文章の構成　✅
 https://canva.link/a0aim7c88b2loq3
-上級者向けストーリー運用思考法①
-https://canva.link/frx34d3njf27o84
-訴求チェックリスト※チェックリストが危険
-https://canva.link/xnkadvxugs7ed62
-爆発的に伸ばすショート動画 完全攻略
+上級者向けストーリー運用思考法①　✅
 🔴https://canva.link/f96fh7y63m8swwp
 悪用厳禁 究極のファン化テクニック
 6章 アフィリエイト完全攻略
