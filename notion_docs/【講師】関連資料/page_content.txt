@@ -1,7 +1,7 @@
 # 【講師】関連資料
 
 Notion URL: https://app.notion.com/p/307f3b0fba8580bd9cd7dfa9581e0d4f
-同期日時: 2026-06-16T13:41:52+09:00
+同期日時: 2026-06-18T16:58:29+09:00
 
 ---
 
@@ -648,6 +648,7 @@ https://www.canva.com/design/DAHCBAj5Q7o/WBobhPlZTewd1p8MpAFjmg/edit?utm_content
     これらの質問の結果をもとに、個別プランシートを作成。
     1人1人に合った解決策をシートに記入。それをもとに営業を行なっていく。
     チェックが多い場合の対応をどうしたら良いか
+CS関連
   2期生A
   https://docs.google.com/spreadsheets/d/1txqQDv52ra1-02AeBqo2jbAo8u32fd0zeIjuQ6DlCRc/edit?usp=sharing
   2期生B
@@ -662,7 +663,10 @@ https://www.canva.com/design/DAHCBAj5Q7o/WBobhPlZTewd1p8MpAFjmg/edit?utm_content
   https://docs.google.com/spreadsheets/d/12-BQZ1aKIBwFMUZiEIAq1uxcnw-8ks0RPy3PM9VZa6M/edit?usp=sharing
   3期生D
   https://docs.google.com/spreadsheets/d/1LvQPYQCbMp9lIHLilQdp-qO1N7qtQfOKnM58Yjd2lbY/edit?usp=sharing
+  食事記録フォーム（3期生以降）
+  https://docs.google.com/spreadsheets/d/1mN0IjylvE7fCaxM8L9HsTM9pjG5397BHceGlepFaKns/edit?usp=sharing
   3期生 チーム別メンバー初回数値
+https://docs.google.com/spreadsheets/d/1mN0IjylvE7fCaxM8L9HsTM9pjG5397BHceGlepFaKns/edit?usp=sharing
   添削内容候補
   ①音声回答
   メリット：慣れたら3分くらいでできる

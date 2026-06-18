@@ -1,7 +1,7 @@
 # たけだみえこ
 
 Notion URL: https://app.notion.com/p/352f3b0fba858066a729df34856135e3
-同期日時: 2026-06-12T06:45:48+09:00
+同期日時: 2026-06-18T16:59:44+09:00
 
 ---
 
@@ -16,9 +16,10 @@ Notion URL: https://app.notion.com/p/352f3b0fba858066a729df34856135e3
 ４回目
 5回目
 6回目
+7回目
 ジョーズログイン：
 URL or：https://app.levela.co.jp/advances-course-task/
-ID ：
+ID ：mieco15
 生徒メアド：
 特進講師1on1メモ：
 講師timerex：
