@@ -1,7 +1,7 @@
 # 26年9月合宿_SnsClub合宿2026
 
 Notion URL: https://app.notion.com/p/26-9-_SnsClub-2026-351f3b0fba8580179fe9fe361e90e9fb
-同期日時: 2026-06-17T17:09:39+09:00
+同期日時: 2026-06-18T13:37:06+09:00
 
 ---
 
@@ -1071,6 +1071,7 @@ https://discord.com/channels/1172020927047942154/1492100199533772840/15162705849
     作成日: 2026年6月11日ステータス: イベントチーム共有用
 案内
   生徒案内用
+    SnsClub合宿 2026｜よくある質問 
   講師案内用
 制作物
     コンセプト
@@ -1214,26 +1215,12 @@ SNSにUPしたくなるような写真が撮影できます。
 ・インスタ発信を通じて叶えたい夢
 などを書いて貼る
     スマホ型フレームの中に入って撮影可能。
-    ・Best Student Award
-    https://www.1st-trophy.com/SHOP/XC-0161C.html
-    高さ：17.0cm　幅：9.2cm　¥13,200(税込)
-    高さ：19.0cm　幅：10.3cm　¥15,400(税込)
-    高さ：21.0cm　幅：11.4cm　¥17,600(税込)
-    ・Best Komai’s Award
-    https://www.1st-trophy.com/SHOP/M-VOT-126-kissui-B.html
-    高さ：21.5cm　¥18,800(税込)
-    高さ：16.5cm　¥15,400(税込)
-    https://www.1st-trophy.com/SHOP/NB-514A.html
-    高さ：20.0cm　¥11,935 (税込)
-    高さ：23.0cm　¥14,245(税込)
-    高さ：26.0cm　¥16,555(税込)
     ・Grand MVP
-    https://www.1st-trophy.com/SHOP/XC-0108G_B.html
-    高さ：15.0cm　幅：5.7cm　¥18,700（税込）
-    高さ：18.0cm　幅：6.8cm　¥22,000（税込）
-    高さ：21.0cm　幅：7.8cm　¥25,300（税込）
-    高さ：24.0cm　幅：9.0cm　¥28,600（税込）
-    高さ：27.0cm　幅：10.0cm　¥39,600（税込）
+    ・Best Student Award
+    ・Best Komai’s Award
+    各賞1位
+    各賞2位・3位（サイズ違い）
+    MVP
 会場リサーチ
 制作進行
     検討事項

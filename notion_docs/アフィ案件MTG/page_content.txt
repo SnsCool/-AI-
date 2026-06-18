@@ -1,7 +1,7 @@
 # アフィ案件MTG
 
 Notion URL: https://app.notion.com/p/MTG-2c3f3b0fba8580a9aaeccd100260551a
-同期日時: 2026-06-18T10:17:14+09:00
+同期日時: 2026-06-18T13:40:21+09:00
 
 ---
 
@@ -512,25 +512,6 @@ https://docs.google.com/spreadsheets/d/11MZziqmhhUW0qyMRAEbuDkCs4qoJLm8mzaYfzS67
   子供もおやつにクッキーで食べる
   『1on1ミーティング』
   朝ごはん置き換えダイエット
-  コトカナ講師、マネタイズライトコース
-  35-44　27.3％
-  44-55 　47％
-  55-65    17.1％
-  『案件』
-  ティーフレックス:15000固定、6000円成果（3/23-26）
-  美顔器:6000円（3/13-17）
-  Mrs.PROTEIN:4/18-20
-  コーヒーマネタイズで購入
-  『ストーリー』
-  質問箱:20件回答くる/50件くらい（地元のおすすめの食べ物教えて）
-  15-20%
-  『訴求方法』
-  年齢層高めなので
-  朝ごはんを置き換えダイエット（子供送ってたらバタバタで時間なくて朝ごはん置き換え）
-  プロテインパンで子供も一緒に食べれる
-  4月アフィ
-    インサイト
-https://docs.google.com/spreadsheets/d/19uvFNj8OuYorEKxznyRelPpje0dHarQCAlKkZ22AsX4/edit?usp=drivesdk
   たつみ講師/マネタイズライトコース
   『案件』
   実施なし
@@ -848,33 +829,35 @@ https://www.canva.com/design/DAHBA19gcho/rJuXMZjj1LzqEKsw6saR3w/edit?utm_content
     3日目
   5月ローンチ
   6月ローンチ
+  たく講師（私が個別相談）
   インサイト
   35-45    50%
   女性8割
   ストーリー閲覧：20%
-  1日目
-  2日目
-  3日目
-  インサイト
-  リンククリック704件
-  購入7件
-  2月ローンチ
-  インサイト
-  https://drive.google.com/drive/folders/1TQ06NE4OFFdd7-D5wG3xBAyNjRCYbokw?usp=drive_link
-  リンククリック数：271件
-  購入数：17件
-  購入率：6%
-  美容の部分入れ込む/昔の写真使ってどっちの方が若いっていうので
-  子どもの食べ物にも危険は潜んでるんだよで（添加物）
-  3月
+  1月ローンチ（7件）
     1日目
     2日目
     3日目
-  インサイト
+    インサイト
+    リンククリック704件
+    購入7件
+  2月ローンチ（17件）
+    https://drive.google.com/drive/folders/1TQ06NE4OFFdd7-D5wG3xBAyNjRCYbokw?usp=drive_link
+    リンククリック数：271件
+    購入数：17件
+    購入率：6%
+  3月ローンチ（16件）
+    1日目
+    2日目
+    3日目
+    インサイト
 https://drive.google.com/drive/folders/1oWaosKh1FlKXT5x6D8zaz-26P-IkyEwC?usp=sharing
 総クリック数307件
 購入件数：16件
-  購入率：約5.2%
+    購入率：約5.2%
+    3月訴求美容の部分入れ込む/昔の写真使ってどっちの方が若いっていうので
+    子どもの食べ物にも危険は潜んでるんだよで（添加物）
+  以降、自社商品準備のため実施なし
   アカウント　（ゆうとさん）
 年齢        18-24           30.3%
                 25-34  　   30.2%
@@ -885,6 +868,7 @@ https://drive.google.com/drive/folders/1oWaosKh1FlKXT5x6D8zaz-26P-IkyEwC?usp=sha
 ストーリー閲覧28.0％
   ストーリー
   通常：旦那さんとの幸せな感じ、旦那さんに絡めたネタの方が伸びやすいためフックとしては旦那さんとのことを使いながらタンパク質の重要性やプロテインのローンチに繋げていく
+  https://www.instagram.com/ao_recipe_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
   1月ローンチ
   2月ローンチ（4件）
     https://drive.google.com/drive/folders/1EvjvwWgCZBCTI1zt3NjW4iu-2oUK5X0d
@@ -959,3 +943,22 @@ https://drive.google.com/drive/folders/1n8_SUoyde5wtOLUOiQwvMGDSGAsECpL9
     購入率：6%
   3月ローンチ（10件）
   5月ローンチ（1件）
+    5月ローンチは3月と比べて話の持っていき方に失敗している
+    ローンチ期間にピルの話から入り閲覧をよくしたと思うが、そのせいで話が分散してしまっている
+  コトカナ講師、マネタイズライトコース
+  35-44　27.3％
+  44-55 　47％
+  55-65    17.1％
+  『案件』
+  ティーフレックス:15000固定、6000円成果（3/23-26）
+  美顔器:6000円（3/13-17）
+  Mrs.PROTEIN:4/18-20
+  コーヒーマネタイズで購入
+  『ストーリー』
+  質問箱:20件回答くる/50件くらい（地元のおすすめの食べ物教えて）
+  15-20%
+  『訴求方法』
+  年齢層高めなので
+  朝ごはんを置き換えダイエット（子供送ってたらバタバタで時間なくて朝ごはん置き換え）
+  プロテインパンで子供も一緒に食べれる
+  4月ローンチ
