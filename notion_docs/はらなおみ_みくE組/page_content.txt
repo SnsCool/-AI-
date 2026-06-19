@@ -1,7 +1,7 @@
 # はらなおみ_みくE組
 
-Notion URL: https://www.notion.so/_-E-2e3f3b0fba858069babfe8a9cbcee749
-同期日時: 2026-05-22T10:06:51+09:00
+Notion URL: https://app.notion.com/p/_-E-2e3f3b0fba858069babfe8a9cbcee749
+同期日時: 2026-06-20T01:06:13+09:00
 
 ---
 
@@ -33,9 +33,11 @@ https://timerex.net/s/kurumiii093_ddfb/3ff8de7b/
     5回目
     6回目
     7回目
+    当日キャンセル
     8回目
     9回目
     10回目
+    無断キャンセル
     11回目
     12回目
 コミットプラン生徒 全期間タスクまとめ
