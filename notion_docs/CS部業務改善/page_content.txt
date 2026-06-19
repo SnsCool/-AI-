@@ -1,7 +1,7 @@
 # CS部業務改善
 
-Notion URL: https://app.notion.com/p/CS-353f3b0fba8581b6a940c125186592c4
-同期日時: 2026-06-07T00:34:57+09:00
+Notion URL: https://app.notion.com/p/CS-384f3b0fba85813196fce6b16e8cd9d0
+同期日時: 2026-06-19T17:11:44+09:00
 
 ---
 

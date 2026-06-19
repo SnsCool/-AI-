@@ -1,11 +1,12 @@
 # ダッシュボード使い方
 
 Notion URL: https://app.notion.com/p/37af3b0fba8580e9b8a3d7598c839e2d
-同期日時: 2026-06-12T01:33:20+09:00
+同期日時: 2026-06-19T17:08:11+09:00
 
 ---
 
 タスクの説明
-タスクの概要と関連する詳細を提供します。
+▼ もぐラボ ダッシュボードガイド（受講生用） https://mogu-app-kohl.vercel.app/manual.html
+▼ もぐラボ ダッシュボードガイド（運営・コーチ用）https://mogu-app-kohl.vercel.app/login-s
 サブタスク
 サポートファイル
