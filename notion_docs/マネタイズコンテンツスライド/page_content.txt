@@ -1,7 +1,7 @@
 # マネタイズコンテンツスライド
 
 Notion URL: https://app.notion.com/p/32df3b0fba8580df971adefe7381d1e8
-同期日時: 2026-06-19T19:37:04+09:00
+同期日時: 2026-06-19T22:23:29+09:00
 
 ---
 
@@ -267,27 +267,21 @@ https://canva.link/9mmf8yocg996r1e
 https://canva.link/lhge7x6p4olb7uj
 ローンチシステムの構築　✅
 https://canva.link/pr9wnoyhnoyqk7q
-セールスの全体像※まめさんの事例あるため危ない
+セールスの全体像　✅
 https://canva.link/wuy1utaefgybsnu
-月7桁達成までのロードマップ
+月7桁達成までのロードマップ　✅
 🔴https://canva.link/26v05knr7m5rwc3
-ストーリーローンチ攻略編
-https://canva.link/s4j6mlc4izxz7so❌
-ストーリーローンチ台本編※台本テンプレない
+ストーリーローンチ攻略編　✅
 https://canva.link/qh89ar7a5nvbwk4🔺
-ストーリーローンチ デザイン編
-https://canva.link/6dudou9gny9yav0🔺
-当日告知投稿 台本編
-https://canva.link/qetm28eihu7mh17🔺
-当日告知投稿デザイン編
+ストーリーローンチ デザイン編　✅
 https://canva.link/a8grpdigi8yfx0l🔺
-ストーリーローンチ スケジュール編※インスタライブの推奨がある
+ストーリーローンチ スケジュール編　✅
 https://canva.link/v0q1oafd5x4z992🔺
 ストーリーローンチ実践編※インスタライブの推奨がある
 https://canva.link/altm3wr6b1pyvxv
 ローンチシステムの構築 完全ガイド
+台本やクリエイティブのテンプレートなどあれば、引っ張ってきて欲しいです。
 8章 自社商品完全攻略
-(セミナー、個別面談、ラインマーケ含め全て入れる)
 ▼商品設計・収益化
 https://canva.link/cuzdjg74lxk7o9l⭕️
 商品設計完全マスター講座
@@ -394,9 +388,6 @@ LINE導線構築編 - レッスン予約
 モニターファネルマスター講座 フィード投稿設計編
 🔴https://canva.link/vi346hgkkviknpw
 モニターファネル実践編
-応用編
-https://canva.link/urryiv6lk26rp3j
-外注化のタイミング
 9章 楽天マネタイズ完全攻略(新規スライド作成必要)
 https://canva.link/5rsvuva1ipevvxo
 楽天ROOMにおける収益化※実勢紹介外したほうがいいかも
@@ -536,3 +527,6 @@ https://canva.link/5rsvuva1ipevvxo
   新規スライド大幅追加必要
   10章 TikTok Shop完全攻略 ※新規スライド作成必要
   該当する既存スライドなし → 新規作成
+11章　応用編
+https://canva.link/urryiv6lk26rp3j
+外注化のタイミング
