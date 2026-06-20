@@ -1,7 +1,7 @@
 # もぐラジオ
 
 Notion URL: https://app.notion.com/p/376f3b0fba8580f7a2acef7099763676
-同期日時: 2026-06-18T16:59:21+09:00
+同期日時: 2026-06-20T19:08:59+09:00
 
 ---
 
@@ -195,6 +195,8 @@ Notion URL: https://app.notion.com/p/376f3b0fba8580f7a2acef7099763676
 もぐラジオ台本
   もぐラボマインド
   https://chatgpt.com/g/g-p-6a2b713898348191934bffb60bcc6ceb-mokurasiotai-ben-sheng-cheng/project（プロンプト）
+  https://chatgpt.com/g/g-p-6a338afd80dc81919ba751b207a57954-mokurasio-kanhe/project（カンペ）
+  https://chatgpt.com/g/g-p-6a338835936c8191ac32b2c9eb86cc11-mokurasiotai-ben-dui-tan/project（対談）
 https://docs.google.com/document/d/1eg11Dc7qYxXLGjI9Mo4OmGx21y2MFAo3q3j8Kh8H-Rg/edit?usp=sharing
 6/8：食事を選ぶことは、生き方を選ぶこと：自分の体を『最高傑作』に変える思考法
   1: 導入（問題提起とテーマ発表）

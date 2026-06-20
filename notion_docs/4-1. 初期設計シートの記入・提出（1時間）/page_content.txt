@@ -1,7 +1,7 @@
 # 4-1. 初期設計シートの記入・提出（1時間）
 
-Notion URL: https://app.notion.com/p/4-1-1-37bf3b0fba8581099299f6f46e89cbc5
-同期日時: 2026-06-12T22:24:08+09:00
+Notion URL: https://app.notion.com/p/4-1-1-0d8f3b0fba8582fea92201b48040aa1b
+同期日時: 2026-06-20T19:10:56+09:00
 
 ---
 

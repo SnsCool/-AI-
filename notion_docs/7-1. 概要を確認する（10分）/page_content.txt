@@ -1,7 +1,7 @@
 # 7-1. 概要を確認する（10分）
 
-Notion URL: https://app.notion.com/p/7-1-10-37bf3b0fba8581b78f6bcad2f4137743
-同期日時: 2026-06-12T22:24:02+09:00
+Notion URL: https://app.notion.com/p/7-1-10-0fbf3b0fba858331933601639a498f32
+同期日時: 2026-06-20T19:10:59+09:00
 
 ---
 

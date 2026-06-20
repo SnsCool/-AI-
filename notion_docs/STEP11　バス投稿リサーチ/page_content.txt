@@ -1,7 +1,7 @@
 # STEP11　バス投稿リサーチ
 
-Notion URL: https://app.notion.com/p/STEP11-37bf3b0fba8581b8bdbbdcf3122527bd
-同期日時: 2026-06-10T19:33:24+09:00
+Notion URL: https://app.notion.com/p/STEP11-a87f3b0fba85820e918b8139d4a2d74b
+同期日時: 2026-06-20T19:11:39+09:00
 
 ---
 
@@ -21,7 +21,7 @@ Notion URL: https://app.notion.com/p/STEP11-37bf3b0fba8581b8bdbbdcf3122527bd
   @○○○○（担当講師名）
 
 お疲れ様です！  
-STEP11の課題「バズ投稿リサーチシート」を提出いたします！  
+STEP11-1の課題「バズ投稿リサーチシート」を提出いたします！  
 ご確認よろしくお願いいたします！
 
 【バズ投稿リサーチシートのリンクを貼る】

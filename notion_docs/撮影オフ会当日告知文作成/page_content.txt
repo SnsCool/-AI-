@@ -1,7 +1,7 @@
 # 撮影オフ会当日告知文作成
 
 Notion URL: https://app.notion.com/p/382f3b0fba85800e8f16ef55cf44daca
-同期日時: 2026-06-20T16:34:01+09:00
+同期日時: 2026-06-20T19:12:45+09:00
 
 ---
 
@@ -14,7 +14,7 @@ Notion URL: https://app.notion.com/p/382f3b0fba85800e8f16ef55cf44daca
 （抽選発表：6月24日（水）19:00〜順次）
 ◆ 応募方法
 下記リンクをタップすると、SnsClub運営LINEが開きます。
-🔗 https://liff.line.me/2001359303-6EmGr8rA/landing?follow=%40065bwadm&lp=gdeu7t&liff_id=2001359303-6EmGr8rA
+🔗 <https://liff.line.me/2001359303-6EmGr8rA/landing?follow=%40065bwadm&lp=OfDbH6&liff_id=2001359303-6EmGr8rA>
 トーク画面が開いた瞬間に【TIGET申込案内】が自動送信されますので、案内に沿ってご購入ください。
 ※SnsClub運営LINEから送信されたチケット購入サイトの閲覧は、LINEにて送られるメッセージ内に記載されたパスワードをご入力ください。
 ⚠️ご注意ください！

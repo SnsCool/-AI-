@@ -1,7 +1,7 @@
 # エスキャン登録
 
-Notion URL: https://app.notion.com/p/37bf3b0fba8581adba6cc71fc90f2a87
-同期日時: 2026-06-10T19:36:11+09:00
+Notion URL: https://app.notion.com/p/7c3f3b0fba858310b1b68153568400c0
+同期日時: 2026-06-20T19:11:09+09:00
 
 ---
 

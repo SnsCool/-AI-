@@ -1,7 +1,7 @@
 # 13-1. Instagramアカウントを作成し、プロアカウントに変更する（30分）
 
-Notion URL: https://app.notion.com/p/13-1-Instagram-30-37bf3b0fba85812cb166c7f34a3fe334
-同期日時: 2026-06-20T13:37:08+09:00
+Notion URL: https://app.notion.com/p/13-1-Instagram-30-126f3b0fba8583c6b57181a0bd8ddc84
+同期日時: 2026-06-20T19:10:12+09:00
 
 ---
 

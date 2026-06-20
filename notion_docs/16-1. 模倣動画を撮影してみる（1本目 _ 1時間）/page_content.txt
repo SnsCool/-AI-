@@ -1,7 +1,7 @@
 # 16-1. 模倣動画を撮影してみる（1本目 / 1時間）
 
-Notion URL: https://app.notion.com/p/16-1-1-1-37bf3b0fba8581899a8bfda0150dce2b
-同期日時: 2026-06-12T22:23:40+09:00
+Notion URL: https://app.notion.com/p/16-1-1-1-daff3b0fba85839d91840134ef235794
+同期日時: 2026-06-20T19:10:12+09:00
 
 ---
 

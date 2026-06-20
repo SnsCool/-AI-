@@ -1,7 +1,7 @@
 # PCでDiscordを使用している場合
 
-Notion URL: https://app.notion.com/p/PC-Discord-385f3b0fba8580b380d1fef8d54e8228
-同期日時: 2026-06-20T16:31:21+09:00
+Notion URL: https://app.notion.com/p/PC-Discord-af9f3b0fba8582b8a50c8131d7321e9d
+同期日時: 2026-06-20T19:09:54+09:00
 
 ---
 
