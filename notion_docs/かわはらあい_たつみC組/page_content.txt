@@ -1,7 +1,7 @@
 # かわはらあい_たつみC組
 
-Notion URL: https://www.notion.so/_-C-2f8f3b0fba8580c09d59f3aa5bbd7fe5
-同期日時: 2026-04-26T18:26:05+09:00
+Notion URL: https://app.notion.com/p/_-C-2f8f3b0fba8580c09d59f3aa5bbd7fe5
+同期日時: 2026-06-20T13:37:21+09:00
 
 ---
 
@@ -9,5 +9,5 @@ Notion URL: https://www.notion.so/_-C-2f8f3b0fba8580c09d59f3aa5bbd7fe5
   2回目：2/22　17:00〜
 3回目：3/22　17:00〜
 4回目：4/26　17:00〜
-5回目：5/31　17:00〜
-6回目：6/28　17:00〜
+5回目：6/20　10:30〜
+6回目：7/3　22:00〜

@@ -1,7 +1,7 @@
 # ゆりさん6月
 
 Notion URL: https://app.notion.com/p/6-382f3b0fba85809d8b59c9796bb95d28
-同期日時: 2026-06-17T13:36:50+09:00
+同期日時: 2026-06-20T13:34:20+09:00
 
 ---
 
@@ -11,6 +11,8 @@ Notion URL: https://app.notion.com/p/6-382f3b0fba85809d8b59c9796bb95d28
 ・気づき
 ・次の目標
 → 深掘りして「再現できる行動」まで落とす
+https://docs.google.com/spreadsheets/d/12lEvoKnQmqpT-tI3Ii8DUZg0SF0huQU7sbHeQWtUlLM/edit?gid=655045630#gid=655045630
+https://docs.google.com/spreadsheets/d/12H4qGvOwollEIiVOS-31mwAzJQdC03k-rSGjyTgSHA0/edit?gid=1382907759#gid=1382907759
 
 ② フィードバック
 ・まず良い点を具体的に伝える
