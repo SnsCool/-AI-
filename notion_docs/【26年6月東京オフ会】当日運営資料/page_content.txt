@@ -1,7 +1,7 @@
 # 【26年6月東京オフ会】当日運営資料
 
 Notion URL: https://app.notion.com/p/26-6-357f3b0fba8580898318d913662a1dfc
-同期日時: 2026-06-13T19:05:57+09:00
+同期日時: 2026-06-20T21:48:15+09:00
 
 ---
 
@@ -18,19 +18,26 @@ Notion URL: https://app.notion.com/p/26-6-357f3b0fba8580898318d913662a1dfc
   受付QRコード
   キッチンタイマー
 投影スライド：
-  https://canva.link/4un87mkuy3t9hx4
+  https://www.canva.com/design/DAHNFs1UwOY/rjV3fpO5wR8I_wCapNG9IQ/edit
 生徒座席表：⚠️作成中
-  https://docs.google.com/spreadsheets/d/1KDb1r3EKhyxOg2BGZHl5C4TE3-1xYioLAH4VGkcqrR4/edit?gid=339235057#gid=339235057
 講師座席表 ：⚠️作成中
   【第１部】
   【第２部】
 託児情報
   会社名：ベビーシッター東京
-ご担当者様： 
-ご連絡先：
+ご担当者様： 6名
+立石様
+太田様
+村井様
+工藤様
+八嶋様
+中田様
+  ※リーダー：立石様
+立石様ご連絡先：090-2236-0528
   託児利用参加者
 【第１部】
   【第２部】
+  無し
 ⏰9時00分（開場1時間40分前）
 参加者スレッド送信　担当者：やえこ
   @everyone

@@ -1,7 +1,7 @@
 # DiscordプロフィールにそれぞれのアカウントのURLを記載する
 
-Notion URL: https://app.notion.com/p/Discord-URL-3b7f3b0fba85825fb81381d793d660f9
-同期日時: 2026-06-19T17:11:32+09:00
+Notion URL: https://app.notion.com/p/Discord-URL-622f3b0fba85827f88ef0134d6ce95e2
+同期日時: 2026-06-20T21:49:19+09:00
 
 ---
 

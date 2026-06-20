@@ -1,62 +1,149 @@
 # ひなたさん
 
-Notion URL: https://www.notion.so/35cf3b0fba8580888045e63d41023c13
-同期日時: 2026-05-10T13:26:11+09:00
+Notion URL: https://app.notion.com/p/385f3b0fba8580bf82e5d73779ae752d
+同期日時: 2026-06-20T21:48:46+09:00
 
 ---
 
-✅
-【名前とクラス名】
-にしむらさとみ　おはなC組
-【アカウントURL】
-https://www.instagram.com/mami.recipe_/
-【質問ジャンル】
-リール
-【具体的な質問内容】
-つけ麺が伸びて万垢達成はしたのですが、他の投稿が全然伸びず、リールを見ていただき改善点などあればアドバイスいただきたいです。
+----------------------------------------
+【名前とクラス名】やましたちひろ＿こおねA組
+【アカウントURL】https://www.instagram.com/chii_totonou/
+【質問ジャンル】 （例：初期設計、プロフィール、リール、ストーリーズ、マネタイズなど）
+リールの台本について
+【具体的な質問内容】 （例：フォロー率が10％以下のため、投稿の改善点についてご意見いただきたいです）
+①全体的に冒頭もよわく、台本の全体の流れに関しても悩んでいるので添削していただきたいです。
+②リサーチや台本おこしがうまくなる方法
 【添削対象の投稿URL】
-https://www.instagram.com/reel/DYEhvBxpfkz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
-✅
+こちらのシートの①43の風呂掃除と、②44のウタマロ
+https://docs.google.com/spreadsheets/d/1-1iy3flpRFJD9m0Dgl5bk4LgAWC6hfCc9eoBcVB4Ay4/edit?usp=sharing
+①43の風呂掃除については、
+冒頭で泡だらけのところをくるくる→風呂掃除しているダイジェスト→帰宅→風呂掃除の流れで考えているが、流れ変じゃない？
+②44ウタマロについては、ウタマロ泡スプレーと、固定石鹸をどんな流れの構成でちがいを紹介するか。
+以前、中性洗剤で、ホームリセット・ウタマロの使い分けを紹介したが、のびなかった。その際の自分のリール
+伸びなかった要因はアフレコなしでBGMが小さすぎたことや、冒頭で水のしたたるシーンより流れはじめる前もうつっていたことなどを考えている。
+https://www.instagram.com/reel/DZHp6ophu0b/?hl=ja
+そのときに参考にしたアカウント
+https://www.instagram.com/p/DQwTqVxEsBt/?hl=ja
+③リサーチと台本おこしがうまくなる方法
+検索窓や、流れてきたリールをひたすらみて何がバズってるんだろう？と考える
+台本おこしは画面録画して、とめながら手打ちしてた→今日クラスの子にAIの活用をおしえてもらったのでこれからそれを試していこうと考え中。
+【参考にしたアカウント/投稿URL】（任意）
+①に関してはスプシに記載
+-----------------------------------------
 【名前とクラス名】
-ひらのあみ_きよE組
+いたみさや　はるG組（卒業生）
 【アカウントURL】
-https://www.instagram.com/nora_kanpai?igsh=MXRoa255cmtjanBucw%3D%3D&utm_source=qr
+https://www.instagram.com/ran_healthy_recipe?igsh=dmpuZWd3c2Vhczc1&utm_source=qr
 【質問ジャンル】
-プロフィール、リール
+リール投稿について
 【具体的な質問内容】
-リールの平均再生時間に差があり、
-投稿によって維持率差があります。
-維持率を改善するために、客観的に添削していただきたいです。
-(以前のプロフィール)
-酒好きと健康派いっしょに乾杯レシピ
-\飲む人も、飲まない人もほろよい気分/
-酒好き×健康派が楽しめる『おつまみレシピ』
-夕飯にも“ちょうどいい”ひと皿
-スナック晩酌、そろそろ卒業したい人へ
+◯冒頭のテロップについて
+いつも「実はこれ」で冒頭を始めているのですが、「10分で完成」でやってみたら意外と伸びました。
+数字で表した方が良いのは知っているのですが、数字
+でなくても伸びている人はいるなと思っています。
+これは簡単訴求になってしまっているから良くないのかなとも思っているのですが、どうしたら良いでしょうか
+◯テロップの内容について
+なかなかフォロワーさんが増えないのが悩みなのですが、テロップについて、冒頭部分で個性（どんな私か）が出るようなものにするにはどうしたら良いか添削していただきたいです。
 【添削対象の投稿URL】
-https://www.instagram.com/reel/DX86d4EuDTB/?igsh=MnpyaWc4enYwdDF4
-✅
-【名前とクラス名】のぶかまいこ　あこb組
-【アカウントURL】なし
-【質問ジャンル】 リール
-【具体的な質問内容】 ひなたさんのアカウントの音声についてお訊きしたいです。
-殆どがアフレコの中、たまにAI音声やBGMのみの投稿をされていますけれど、どのような意図があるのか知りたいです。　自分はまだプロフィールを作成中です。イラストの描き方の配信で、その説明は全てアフレコの予定なのですが、たまには音声を変える方が良いのでしょうか？
-✅
+https://www.instagram.com/reel/DZj1sDmxd26/?igsh=Mzlya2pkNzBobGc5
+-----------------------------------------
+【名前とクラス名】にしかわまい まさきC組
+【アカウントURL】
+https://www.instagram.com/gaishi_neko_life?igsh=MTUxaWN1bGlkeXgwYQ%3D%3D&utm_source=qr
+【質問ジャンル】 台本、アカウント設計
+【具体的な質問内容】
+①台本について
+似たようなテーマ型でも伸びた投稿と伸びなかった投稿があり、客観的にどのような点が伸びない理由かご意見をいただきたい。
+②アカウント設計について
+アカウントプロフィールと投稿内容をフォロワーが見た際、アカウントに対してどのようなイメージをいだかせているか、フォロワーを増やすための改善点のご意見をいただきたい。
+【添削対象の投稿URL】
+伸びた投稿:
+https://www.instagram.com/reel/DWgSdTSkkQx/?igsh=MTZ6enkzN3A1czcxdw==
+伸びなかった投稿:
+https://www.instagram.com/reel/DYRwn9hzgsE/?igsh=eXM4bm50dHdmYjI3
+https://www.instagram.com/reel/DZM7b3vOqPZ/?igsh=MTd4bnczajNuZTJwNw==
+【参考にしたアカウント/投稿URL】なし
+-----------------------------------------
 【名前とクラス名】
-たぐちさき_おはなD組
+ないとうたかし_みほA組
+【発信ジャンル】
+レシピ（ワインに合う簡単おつまみ）
+【アカウントURL】
+https://www.instagram.com/naito_otsumami
+【質問ジャンル】
+①台本作成
+②リール添削
+【具体的な質問内容】
+①台本作成
+冒頭、中盤、終盤の台本作り方を勉強したいので
+作成の際に各段階で意識していることを教えてください。
+冒頭は離脱率を減らしたいので、フックの強いワードが重要になると思いますが、フックワードの選定方法について教えて欲しいです。現在はいくつかの動画を見て基本ロールモデルの方からのほぼパクリが多く、そこにアカウントコンセプトの「簡単」のワードを組み込むことが多いです。
+中盤を料理工程の説明がメインなものがコレまで多かったのですが、アカウントコンセプトに合わせ「どんなワインが合うか」を台本に組み込んでいきたいと思っています。
+ただリサーチ不足かもしれませんが、そのような説明をするアカウントで、フォロワー数の多いアカウントをあまりみたことがございません。その場合、調理工程の説明をしっかりしていくリールでアカウントを伸ばしてから、自分がやりたい発信の台本に徐々に移行していくほうがよいでしょうか？
+終盤はアカウントの世界観に合うように、現状ワインを注ぐor飲む映像などと、料理を食べる映像を組み合わせて台本を作っています。
+②リールの改善点
+ご覧になってみて、お感じになられた改善点や良い点などを教えていただけますでしょうか？聴覚刺激音を録る際、具体的にどのような方法でされているかも教えていただきたいです。（スマホでしょうか？）
+【添削対象の投稿URL】
+トマトのブルスケッタ
+https://www.instagram.com/reel/DZhV7UhBgHj/?igsh=YzEycm1nZWQ1ZXMx
+【参考にしたアカウント/投稿URL】
+https://www.instagram.com/reel/C7qjKYYvHKT/?igsh=MWZpYnBvZTRuNHUxZA==
+-----------------------------------------
+【名前とクラス名】
+ひえだゆか たおママB組
 【発信ジャンル】
 レシピ
 【アカウントURL】
-https://www.instagram.com/moku_recipe?igsh=OHlpamxnYXIwMmV5&utm_source=qr
+https://www.instagram.com/onigiristock_munimama?igsh=MTk4djZyOXJjNTB0dg%3D%3D&utm_source=qr
+【質問ジャンル】
+台本
+【具体的な質問内容】
+・台本について
+音ハメなので現在切り替えに合わせて作成しているのですが、短い言葉でいかに伝えるかに苦戦しています。寄り添い系と、材料の台本とどちらが分かりやすいかご意見頂きたいです。
+【参考にしているアカウント】
+【きみづかまこ_こおねＡ組】
+【https://www.instagram.com/ramu_no_kurashi?igsh=bWZyZTJ1aWFueTBw&utm_source=qr】
+【質問ジャンル】
+暮らし、収納、掃除
+【具体的な質問内容】
+リサーチ方法に苦戦して台本構成に時間がかかり投稿ペースが落ちてます。
+【https://docs.google.com/spreadsheets/d/13BB6zeQwTp4Z-q7c8cbm8PjDHMCyl40NNI1aY4u68bs/edit?usp=drivesdk】
+7投稿目　どこでもフック
+【名前とクラス名】
+きょーへい_みうらa組
+【アカウントURL】
+https://www.instagram.com/kyohei.imaiki/reels/?hl=ja
 【質問ジャンル】
 リール
 【具体的な質問内容】
-ワーママに向けた簡単冷凍ストックレシピでメイン（クッキングシート縛り）＋汁物（味噌だね）で投稿しています。
-リールの再生回数が伸びていないので、直近のリールで改善点やアドバイスを頂きたいです。また、色味や画角などもご確認頂きたいです。
+直近再生数は良くてもフォロー転換率が低く、
+投稿の改善点についてご意見いただきたいです。
 【添削対象の投稿URL】
-①https://www.instagram.com/reel/DYErF7jyt9n/?igsh=NDZ5YmRxamVxNDUx
-②https://www.instagram.com/reel/DX3880oSn9w/?igsh=cXQzYXhtaWFoNzJh
-③https://www.instagram.com/reel/DXtklG1El_z/?igsh=NXhqaGxlcThxd2o3
+https://www.instagram.com/reel/DZuURq0SvSf/?hl=jahttps://www.instagram.com/reel/DZxBFG4SYiz/?hl=ja
 【参考にしたアカウント/投稿URL】
-①https://www.instagram.com/emu_gohan_stock?igsh=enBlejhwNHU2MGpx
-②https://www.instagram.com/koto_gohan__?igsh=cmh5aXRmY2tpaTIy
+特になし
+-----------------------------------------
+【名前とクラス名】たかせあやか　リョウA組
+【アカウントURL】
+https://www.instagram.com/yuru__recipe?igsh=aGR3MTlxN2k0bDQ2&utm_source=qr
+【質問ジャンル】 リール
+【具体的な質問内容】 リールが伸びておらず、冒頭が弱いのか、平均再生が6秒ほどになってしまっております。投稿の改善点についてご意見いただきたいです🙇‍♀️
+【添削対象の投稿URL】
+https://www.instagram.com/reel/DZzZDgnIJzk/?igsh=b2JjMnh3MGZxanN4
+-----------------------------------------
+【名前とクラス名】
+あくたわかな　ととちゃんB組
+【アカウントURL】https://www.instagram.com/wakona_recipe?igsh=MTdrNGFiNDB3ZHNlaQ==
+【質問ジャンル】
+リール・プロフィール
+【具体的な質問内容】
+・リーチしたアカウントの数に対してのプロフィールへのアクセス数が少ないのと、プロフィールをアクセスした人の中でもフォロー数に繋がらないのはどんな要因があると思われるのかご意見お聞きしたいです。
+・だいたい2.3秒で離脱が50%をきるので冒頭について悩んでいます。ご意見お聞きしたいです。
+よろしくお願いします🙂‍↕️
+【おざきかよこ/きのなかC組】
+【https://www.instagram.com/cookiie.oreo_】
+【質問ジャンル】プロフィール
+【具体的な質問】再生回数が回ってきましたがフォローワーが増えません。プロフィールの見直しをした方がいいですか？リールも添削して欲しいです。
+【https://www.instagram.com/reel/DZi0_CoSxDl/?igsh=ZHh0bWJhdnQ1dnJ2】
+【参考リール】https://www.instagram.com/__11.temmusu?igsh=MTdyeWF2emo0cnlmMw==
+10
