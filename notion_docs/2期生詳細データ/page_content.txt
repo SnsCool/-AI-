@@ -1,7 +1,7 @@
 # 2期生詳細データ 
 
 Notion URL: https://app.notion.com/p/2-382f3b0fba85805ab2cdf831e2c9f7e5
-同期日時: 2026-06-19T17:08:41+09:00
+同期日時: 2026-06-20T16:31:04+09:00
 
 ---
 
@@ -65,6 +65,7 @@ https://docs.google.com/spreadsheets/d/1txqQDv52ra1-02AeBqo2jbAo8u32fd0zeIjuQ6Dl
   嬉しい声
  Cチーム
   管理シート貼り付け👇
+    https://docs.google.com/spreadsheets/d/15Vx13b7jCZQ8bbS73d6er-R4yt7-EDAc1vfSoLI-kdc/edit?usp=sharing
     https://docs.google.com/spreadsheets/d/1T6KY_r1ktNUtCD6R4rnO_QEZmUu18YzM9kWAQrKp5eA/edit?usp=sharing
   【体脂肪変化の傾向】
   平均体脂肪変化：−0.1%（データあり3名平均）
