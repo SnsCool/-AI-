@@ -1,7 +1,7 @@
 # ワークシート『競合アカウントリストアップ』
 
-Notion URL: https://app.notion.com/p/b13f3b0fba85824a93d101cf6b3b4ce4
-同期日時: 2026-06-21T10:19:08+09:00
+Notion URL: https://app.notion.com/p/145f3b0fba85834d9403016a92a92ee8
+同期日時: 2026-06-21T16:51:43+09:00
 
 ---
 
