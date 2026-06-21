@@ -1,7 +1,7 @@
 # 倉庫変更の際の在庫
 
-Notion URL: https://www.notion.so/30af3b0fba8580628f93fec064615ce2
-同期日時: 2026-05-30T13:27:55+09:00
+Notion URL: https://app.notion.com/p/30af3b0fba8580628f93fec064615ce2
+同期日時: 2026-06-22T00:42:09+09:00
 
 ---
 
