@@ -1,7 +1,7 @@
 # やまなかもときさん（kei G組）
 
 Notion URL: https://app.notion.com/p/kei-G-36bf3b0fba8580e8b35bd7d748fd87f5
-同期日時: 2026-06-16T10:24:44+09:00
+同期日時: 2026-06-21T10:18:59+09:00
 
 ---
 
@@ -26,7 +26,7 @@ Notion URL: https://app.notion.com/p/kei-G-36bf3b0fba8580e8b35bd7d748fd87f5
     1回目
     2回目　当日無断キャンセル
     3回目
-    4回目
+    4回目　当日無断キャンセル
     5回目
     6回目
     7回目
