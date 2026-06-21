@@ -1,7 +1,7 @@
 # たいぞうメモ
 
 Notion URL: https://app.notion.com/p/312f3b0fba858076b941e4bf10c5dd7e
-同期日時: 2026-06-21T19:22:16+09:00
+同期日時: 2026-06-21T21:53:54+09:00
 
 ---
 
@@ -1526,10 +1526,21 @@ C(炭水化物) : ◯◯g 🟢/🟡/🟠
   https://docs.google.com/spreadsheets/d/1QR_qvribVO03uMAdtxRsWuj4Kx5YPaSukSAX5ruiLzU/edit?usp=sharing
   https://docs.google.com/document/d/1IF6q8u0iX-NeHbQbpGrxnyvcFY1pjAc4SipRqZLAnJo/edit?usp=sharing
 モニター流れ
+  24日スタート
   ルール
   個別の部屋作成
   全体で目標宣言
   運動したらそれもその場で報告しちゃおう
-  ①カロリーPFCの確定
-  ②初回フォームの入力
-  ③
+  外食の予定事前に確認
+  ▼カロリーPFCの確定
+  ▼初回フォームの入力
+  ■ 提出期限：〇月〇日（〇）23:59まで
+  ■ フォームURL：https://forms.gle/gH7qEZwLomM3drPVA
+  ■ 測定マニュアル：https://docs.google.com/document/d/1-zoOXvzaYnG7I84FHt2PGyuQPvfg_-OI6MUMQxgIYBc/edit?usp=sharing
+  ▼食事提出フォーム
+  https://docs.google.com/forms/d/e/1FAIpQLSc0tjQ8uGXkNQTec44zzKF_QsLC0HiLbCtdm4d1qvvVClPqEA/viewform?fbzx=-6571803866346139336
+
+
+依頼
+・モニター用のダッシュボード作成
+・食事フォーム連携

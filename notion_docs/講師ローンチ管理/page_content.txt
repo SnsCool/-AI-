@@ -1,7 +1,7 @@
 # 講師ローンチ管理
 
-Notion URL: https://www.notion.so/324f3b0fba858097b5b2d5483a654672
-同期日時: 2026-06-01T20:01:47+09:00
+Notion URL: https://app.notion.com/p/324f3b0fba858097b5b2d5483a654672
+同期日時: 2026-06-21T21:53:55+09:00
 
 ---
 
