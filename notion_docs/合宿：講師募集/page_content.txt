@@ -1,7 +1,7 @@
 # 合宿：講師募集
 
 Notion URL: https://app.notion.com/p/37bf3b0fba85806badafc39dd72ed6cd
-同期日時: 2026-06-17T17:06:35+09:00
+同期日時: 2026-06-23T04:16:24+09:00
 
 ---
 
@@ -11,3 +11,5 @@ Notion URL: https://app.notion.com/p/37bf3b0fba85806badafc39dd72ed6cd
 写真、映像の許可
 託児利用有無
 ┗ 有料or無料
+第一優先はオファー制
+今後、募集をかける可能性もある
