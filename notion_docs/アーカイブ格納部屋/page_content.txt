@@ -1,7 +1,7 @@
 # アーカイブ格納部屋
 
 Notion URL: https://app.notion.com/p/2f8f3b0fba8580c78d97c5b69a9d8933
-同期日時: 2026-06-21T03:40:50+09:00
+同期日時: 2026-06-22T10:23:33+09:00
 
 ---
 
@@ -139,7 +139,9 @@ https://us05web.zoom.us/j/8989797996?pwd=QUhUVElUcGRHUlF5WG5mK3R4NjN6Zz09&omn=85
   ▼ 講義アーカイブ格納庫
   🎥 第1回 キックオフMT
   🎥 第2回 グルコン
+  https://www.youtube.com/watch?v=cjREEGM2CUg
   🎥 第3回 グルコン
+  https://www.youtube.com/watch?v=Ue-hNPJZUVM
   🎥 第4回 グルコン
   🎥 第5回 グルコン
   🎥 第6回 グルコン
@@ -167,6 +169,15 @@ https://us05web.zoom.us/j/8989797996?pwd=QUhUVElUcGRHUlF5WG5mK3R4NjN6Zz09&omn=85
   ▼ 講義アーカイブ格納庫
   🎥 第1回 キックオフMT
   https://youtu.be/gAVRVdtxvrI
+  🎥 第2回 グルコン
+  🎥 第3回 グルコン
+  🎥 第4回 グルコン
+  🎥 第5回 グルコン
+  🎥 第6回 グルコン
+  🎥 第7回 グルコン（最終）
+  ▼ 講義アーカイブ格納庫
+  🎥 第1回 キックオフMT
+  https://www.youtube.com/watch?v=k9HUeHfU9Ls
   🎥 第2回 グルコン
   🎥 第3回 グルコン
   🎥 第4回 グルコン

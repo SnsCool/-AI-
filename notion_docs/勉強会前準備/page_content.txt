@@ -1,7 +1,7 @@
 # 勉強会前準備
 
-Notion URL: https://www.notion.so/300f3b0fba85809ab17fd9604e132dde
-同期日時: 2026-05-21T19:22:18+09:00
+Notion URL: https://app.notion.com/p/300f3b0fba85809ab17fd9604e132dde
+同期日時: 2026-06-22T10:19:40+09:00
 
 ---
 
@@ -52,6 +52,7 @@ https://www.canva.com/design/DAG6X9CZiQo/7Hyz-T3YOssc9g7fmmwimA/edit
     P261付近ローンチ講師のスクショへ差し替え
     表紙日程変更勉強会スライド変更3種類
 【勉強会スライド・ファシリ注意事項視聴会・ウェビナー変更】
+表日程に変更
 https://www.notion.so/a8834c02b01342be80df62521269275b
 https://www.canva.com/design/DAG6X9CZiQo/7Hyz-T3YOssc9g7fmmwimA/edit
     後半勉強会
@@ -60,6 +61,7 @@ https://www.canva.com/design/DAG6X9CZiQo/7Hyz-T3YOssc9g7fmmwimA/edit
 【勉強会スライド・ファシリ注意事項視聴会・ウェビナー変更】
 https://www.notion.so/a8834c02b01342be80df62521269275b
 https://www.canva.com/design/DAG6X9CZiQo/7Hyz-T3YOssc9g7fmmwimA/edit
+    「勉強会運営」スレッドに講師を招待（りょうさんへ依頼）
     全て完了したらりょうさんへ確認依頼→OKが出たら、
     ガントチャート
     https://www.notion.so/LINE-281f3b0fba858011800edc68cda14d30
@@ -83,10 +85,10 @@ https://www.canva.com/design/DAG6X9CZiQo/7Hyz-T3YOssc9g7fmmwimA/edit
     達成者の人数を更新する
     前半勉強会
     P261付近ローンチ講師のスクショへ差し替え
-    表紙日程変更勉強会スライド変更3種類
-【勉強会スライド・ファシリ注意事項視聴会・ウェビナー変更】
+    表紙日程変更勉強会スライド変更2種類
+【勉強会スライド・ファシリ注意事項視聴会】
 https://www.notion.so/a8834c02b01342be80df62521269275b
-https://www.canva.com/design/DAG6X9CZiQo/7Hyz-T3YOssc9g7fmmwimA/edit
+
     後半勉強会
     P261付近ローンチ講師のスクショへ差し替え（リアルある場合）
     表紙日程変更勉強会スライド変更3種類
@@ -206,7 +208,7 @@ https://www.canva.com/design/DAGTWhNIIRo/tA1DEePDT8W1fYz1HW2vfQ/edit
   シフト作成時点で人が埋まらない枠がある場合
     → しゅうへいさん、ボムさんに声掛ける→オフライン中心に声をかける
   対応可能な講師が見つかったら
-  【原本】◯◯さん講師質疑応答ヒアリングシート  
+  Untitled 
   　①新規の講師の方へはヒアリングシートを複製して添付
   　②新規講師へ複製したシートを送付
   　③回答されたヒアリングシートをもとに

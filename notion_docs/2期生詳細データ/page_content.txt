@@ -1,7 +1,7 @@
 # 2期生詳細データ 
 
 Notion URL: https://app.notion.com/p/2-382f3b0fba85805ab2cdf831e2c9f7e5
-同期日時: 2026-06-20T16:31:04+09:00
+同期日時: 2026-06-22T10:23:23+09:00
 
 ---
 
@@ -43,25 +43,28 @@ https://docs.google.com/spreadsheets/d/1txqQDv52ra1-02AeBqo2jbAo8u32fd0zeIjuQ6Dl
   嬉しい声
  Bチーム
   管理シート貼り付け👇
+    https://docs.google.com/spreadsheets/d/1J_DKd8D_ab0rrB68p4wtUBOdNoRXG3WsyisgbRCwj_M/edit?usp=drivesdk
     https://docs.google.com/spreadsheets/d/1T6KY_r1ktNUtCD6R4rnO_QEZmUu18YzM9kWAQrKp5eA/edit?usp=sharing
-  参加者数：7名
+  参加者数：5名
   体重範囲（開始時）
-  約◯kg台〜◯kg台
+  約61kg台〜96kg台
   【BMI】
-  平均BMI：
-  普通体重（BMI18.5〜24.9）：◯名
-  肥満1度（BMI25以上）：◯名
+  平均BMI：28.3
+  普通体重（BMI18.5〜24.9）：2名
+  肥満1度（BMI25以上）：3名
   【体重変化の傾向】
-  平均体重変化：−◯kg
-  最大減量：−◯kg
+  平均体重変化：−3.5kg(データあり4名平均)
+  最大減量：−4.4kg(あべなおみ)
   【体脂肪変化の傾向】
-  平均体脂肪変化：−◯%
-  最大減少：−◯%
+  平均体脂肪変化：−1.6%(データあり4名平均)
+  最大減少：−2.6%(あべなおみ)
   ※体脂肪は1ヶ月に1％減ればいいライン
 平均変化は少なめ
-  達成 人数：◯名 / ◯名
-  達成率 ◯% 
+  達成 人数：4名 / 5名
+  達成率 80% 
   📸 体型写真（提出ある方のみ）
+  あ
+  あ
   嬉しい声
  Cチーム
   管理シート貼り付け👇
