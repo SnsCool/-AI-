@@ -1,7 +1,7 @@
 # LevelaのMVV
 
-Notion URL: https://www.notion.so/Levela-MVV-2a7f3b0fba85802f92fddf7a6aed1f10
-同期日時: 2026-06-01T20:04:58+09:00
+Notion URL: https://app.notion.com/p/Levela-MVV-2a7f3b0fba85802f92fddf7a6aed1f10
+同期日時: 2026-06-23T01:40:39+09:00
 
 ---
 
@@ -41,7 +41,7 @@ Levelaが最終的に実現したい世界を示す。
 Value
 🔹Levelaメンバーの“在り方”を示す5つの軸
 Valueは、「どう行動すればMission/Visionを実現できるのか」という行動規範。
-Levelaの文化を支える「人としてのスタンス」を表しています。
+私たち一人ひとりの「人としてのスタンス」を表しています。
 ① Be better ― よりよくあれ
 常に現状に満足せず、改善・成長し続ける。
 ▶ 学びを止めず、昨日よりも良い自分・良い環境をつくる。
