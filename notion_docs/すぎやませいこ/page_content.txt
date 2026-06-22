@@ -1,7 +1,7 @@
 # すぎやませいこ
 
-Notion URL: https://www.notion.so/2cbf3b0fba858071ba0fd60acd864795
-同期日時: 2026-05-12T18:59:18+09:00
+Notion URL: https://app.notion.com/p/2cbf3b0fba858071ba0fd60acd864795
+同期日時: 2026-06-22T17:21:09+09:00
 
 ---
 
@@ -10,4 +10,4 @@ Notion URL: https://www.notion.so/2cbf3b0fba858071ba0fd60acd864795
 3回目：4/16 18
 4回目：5/12 18
 5回目：6/18 18
-6回目：7/16 18
+6回目：7/23 18

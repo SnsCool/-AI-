@@ -1,7 +1,7 @@
 # マネタイズコンテンツスライド
 
 Notion URL: https://app.notion.com/p/32df3b0fba8580df971adefe7381d1e8
-同期日時: 2026-06-19T22:23:29+09:00
+同期日時: 2026-06-22T17:22:53+09:00
 
 ---
 
@@ -276,10 +276,8 @@ https://canva.link/qh89ar7a5nvbwk4🔺
 ストーリーローンチ デザイン編　✅
 https://canva.link/a8grpdigi8yfx0l🔺
 ストーリーローンチ スケジュール編　✅
-https://canva.link/v0q1oafd5x4z992🔺
-ストーリーローンチ実践編※インスタライブの推奨がある
 https://canva.link/altm3wr6b1pyvxv
-ローンチシステムの構築 完全ガイド
+ローンチシステムの構築 完全ガイド　✅
 台本やクリエイティブのテンプレートなどあれば、引っ張ってきて欲しいです。
 8章 自社商品完全攻略
 ▼商品設計・収益化
