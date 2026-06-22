@@ -1,13 +1,15 @@
 # 4期生Bチーム 
 
 Notion URL: https://app.notion.com/p/4-B-385f3b0fba8580b5b9c3e71940ee60a3
-同期日時: 2026-06-21T03:40:50+09:00
+同期日時: 2026-06-22T23:07:16+09:00
 
 ---
 
 ▼ 講義アーカイブ格納庫
 🎥 第1回 キックオフMT
+https://youtu.be/jJGkM0Ahqgw?si=zyAoRNfpo-DtNtZU
 🎥 第2回 グルコン
+https://youtu.be/O_a2HCvwaN0?si=zTLfC27WeaXHsF5t
 🎥 第3回 グルコン
 🎥 第4回 グルコン
 🎥 第5回 グルコン
