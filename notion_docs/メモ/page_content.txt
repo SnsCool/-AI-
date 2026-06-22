@@ -1,26 +1,37 @@
 # メモ
 
-Notion URL: https://www.notion.so/336f3b0fba8580f9b6b3d88b0de60340
-同期日時: 2026-04-02T18:31:23+09:00
+Notion URL: https://app.notion.com/p/387f3b0fba85808c9eaacd75defcccd3
+同期日時: 2026-06-22T20:05:00+09:00
 
 ---
 
-定例業務
-や・レベシェア報酬依頼（LINE）
-や・回答の転記
+◼︎6/17より進行中
+・Claudeで回答フォーム日程の自動削除
+◼︎ABテスト
+・2回目ローンチ
+　挨拶メッセAB
+　リッチメニュー
+→申し込み後は設定できてない
+→
+・リマインド
+①20時開催X広告流入リマインド
+A
+https://manager.linestep.net/line/episode/show/1232401
+B
+https://manager.linestep.net/line/episode/show/1700724
 
-と・請求書送付
-と・振込確認
-
-や・グルコン日程調整
-や・カレンダー配信
-や・グルコンのお知らせ配信設定
-
-と・受講費決済確認
-と・PL更新
-と・未払い受講者にリマインド
-
-都度・アーカイブアップロード
-（グルコン自動化済み、1on1は手動）
-・入会、退会処理
-
+②13時開催広告導線リマインド
+A
+https://manager.linestep.net/line/episode/show/1440579
+B
+https://manager.linestep.net/line/episode/show/1701663
+・
+◼︎準備中
+・3回目ローンチより回答フォーム変更（またけんさん依頼中）
+◼︎採用LINE
+・Zoomリンク着座タグとる
+・2日前リマインドでスライド資料使用
+◼︎中村さん依頼したいもの
+・明日6月2回目ローンチのLINE動画を新しいテンプレに全て差し替え
+・営業スタッフ追加
+・7月ローンチ準備
