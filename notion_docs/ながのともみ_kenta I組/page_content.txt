@@ -1,7 +1,7 @@
 # ながのともみ_kenta I組
 
-Notion URL: https://www.notion.so/_kenta-I-30df3b0fba8580a7a097fcbbb6f6f14c
-同期日時: 2026-05-19T13:33:07+09:00
+Notion URL: https://app.notion.com/p/_kenta-I-30df3b0fba8580a7a097fcbbb6f6f14c
+同期日時: 2026-06-23T13:30:20+09:00
 
 ---
 
@@ -10,4 +10,4 @@ Notion URL: https://www.notion.so/_kenta-I-30df3b0fba8580a7a097fcbbb6f6f14c
 3回目：4月21日8:00‐9:00
 4回目：5月19日8:00‐9:00
 5回目：6月23日8:00‐9:00
-6回目：7月23日8:00‐9:00
+6回目：7月23日8:00‐9:00　※8月6日に変更
