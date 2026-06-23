@@ -1,7 +1,7 @@
 # 目標設定見直し
 
-Notion URL: https://app.notion.com/p/382f3b0fba858135bfa0cdf183491814
-同期日時: 2026-06-17T17:12:14+09:00
+Notion URL: https://app.notion.com/p/388f3b0fba8581799a6cd994e37d1874
+同期日時: 2026-06-23T19:23:14+09:00
 
 ---
 

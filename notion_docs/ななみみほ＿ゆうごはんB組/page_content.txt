@@ -1,7 +1,7 @@
 # ななみみほ＿ゆうごはんB組
 
 Notion URL: https://app.notion.com/p/B-360f3b0fba85801c8135fef6820595a2
-同期日時: 2026-06-19T19:39:28+09:00
+同期日時: 2026-06-23T19:25:39+09:00
 
 ---
 
@@ -28,8 +28,7 @@ https://docs.google.com/spreadsheets/d/1h9GflnweFkPAfwRKjpGTNwiAFFJFEH_H6fy4ukzb
 下記ボタンをクリックし、議事録の作成をお願いします。
 マネージャー：[セッション議事録]、講師：[講師1on1]をタップお願いします
 セッション動画・音声記録
-1回目セッション
-    2回目
+2回目セッション
     3回目
     4回目
     5回目
@@ -39,6 +38,7 @@ https://docs.google.com/spreadsheets/d/1h9GflnweFkPAfwRKjpGTNwiAFFJFEH_H6fy4ukzb
     9回目
     10回目
     11回目
+    12回目
 コミットプラン生徒 全期間タスクまとめ
 【全期間を通して実施】
 ・コミットプランの初回セッション後、必ずこちらに目を通してください。

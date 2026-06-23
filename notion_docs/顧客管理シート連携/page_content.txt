@@ -1,0 +1,8 @@
+# 顧客管理シート連携
+
+Notion URL: https://app.notion.com/p/388f3b0fba85811c89fcd34ce9bd7a0c
+同期日時: 2026-06-23T19:22:09+09:00
+
+---
+
+(コンテンツなし)

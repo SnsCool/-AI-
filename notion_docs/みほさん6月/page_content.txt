@@ -1,7 +1,7 @@
 # みほさん6月
 
 Notion URL: https://app.notion.com/p/6-382f3b0fba85808d91efeb943bce10d4
-同期日時: 2026-06-23T16:26:55+09:00
+同期日時: 2026-06-23T19:25:31+09:00
 
 ---
 
@@ -11,6 +11,8 @@ Notion URL: https://app.notion.com/p/6-382f3b0fba85808d91efeb943bce10d4
 ・気づき
 ・次の目標
 → 深掘りして「再現できる行動」まで落とす
+https://docs.google.com/spreadsheets/d/1aDSUMmWgBwC-9s8dO1za4tHkHarqO6jFtv_QrOUZi14/edit?gid=655045630#gid=655045630
+https://docs.google.com/spreadsheets/d/1taMbpSK5ConoCw8tW__PEQrR8ieljf15vqlDnsigH-o/edit?gid=1382907759#gid=1382907759
 
 ② フィードバック
 ・まず良い点を具体的に伝える
@@ -21,11 +23,14 @@ Notion URL: https://app.notion.com/p/6-382f3b0fba85808d91efeb943bce10d4
 2回目、うみさんから引き継いだ時にFBいただいた方です。
 メンタルダウン、やる気がなくなっている。
 お金が稼げるのかもわからないのに投稿するたびお金がかかる。
-視点の
+どう視点変更していく質問ができたか、アドバイスいただきたいです。
+初期投資は必要なこと　他の伝え方があるとすると？
+お金が減っていく一方　得ているものは？考えてもらえばよかったか？
+やる気がない一方で卒業時なりたい姿はあったので、そのために、今頑張ろうでもうちょっと押せたのか？
 
 ③ 数値レビュー
 ・投稿数、成果指標など
 ・どの行動が結果に影響したかを一緒に整理
 
 ④ 質疑・相談
-・本人の悩みやチャレンジを引き出す
+・ランクの確認方法なんてあるんでしょうか？
