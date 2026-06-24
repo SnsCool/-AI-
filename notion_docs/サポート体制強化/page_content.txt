@@ -1,7 +1,7 @@
 # サポート体制強化
 
-Notion URL: https://app.notion.com/p/377f3b0fba858113aa5ccdbc51120198
-同期日時: 2026-06-07T03:41:20+09:00
+Notion URL: https://app.notion.com/p/389f3b0fba8581e881b6e00733f1732e
+同期日時: 2026-06-24T16:26:32+09:00
 
 ---
 

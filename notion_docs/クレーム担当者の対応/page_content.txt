@@ -1,10 +1,11 @@
 # クレーム担当者の対応
 
 Notion URL: https://app.notion.com/p/389f3b0fba8580508c07e51940f86720
-同期日時: 2026-06-24T13:31:48+09:00
+同期日時: 2026-06-24T16:27:50+09:00
 
 ---
 
+基本対応
 ① クレームの連絡が来たら事実確認を行う
 https://app.levela.co.jp/claim
 ID: levela.cs@team

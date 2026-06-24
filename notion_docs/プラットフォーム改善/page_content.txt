@@ -1,7 +1,7 @@
 # プラットフォーム改善
 
-Notion URL: https://app.notion.com/p/355f3b0fba8581a4acccc79393807251
-同期日時: 2026-06-07T03:44:14+09:00
+Notion URL: https://app.notion.com/p/389f3b0fba85815dabb9d6c816319a37
+同期日時: 2026-06-24T16:26:06+09:00
 
 ---
 
