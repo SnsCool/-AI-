@@ -1,7 +1,7 @@
 # 2期生詳細データ 
 
 Notion URL: https://app.notion.com/p/2-382f3b0fba85805ab2cdf831e2c9f7e5
-同期日時: 2026-06-22T10:23:23+09:00
+同期日時: 2026-06-24T10:02:03+09:00
 
 ---
 
@@ -63,8 +63,9 @@ https://docs.google.com/spreadsheets/d/1txqQDv52ra1-02AeBqo2jbAo8u32fd0zeIjuQ6Dl
   達成 人数：4名 / 5名
   達成率 80% 
   📸 体型写真（提出ある方のみ）
-  あ
-  あ
+  【あべなおみ】
+  【しみずまみ】
+  【みょうえんぞのしずか】
   嬉しい声
  Cチーム
   管理シート貼り付け👇
