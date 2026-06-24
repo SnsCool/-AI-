@@ -1,7 +1,7 @@
 # あおきまふゆ_Reon B組
 
-Notion URL: https://app.notion.com/p/_Reon-B-336f3b0fba858054b034e2b7f0cf64db
-同期日時: 2026-06-18T22:24:08+09:00
+Notion URL: https://app.notion.com/p/_Reon-B-389f3b0fba8580b69c93c3fc9a0a000b
+同期日時: 2026-06-25T00:52:33+09:00
 
 ---
 
@@ -13,7 +13,8 @@ Notion URL: https://app.notion.com/p/_Reon-B-336f3b0fba858054b034e2b7f0cf64db
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
     ②誓約書はPDFにして生徒さんへ送付
     ▼講師1on1　予約用timerex▼
-    生徒メアド：mafuuyuy@gmail.com
+    https://timerex.net/s/eriz.eriz23_9abb/034b793d
+    生徒メアド：
     １回目：第２回（初期設計1on1）〜第４回講義 
 ２回目：第４回講義〜第６回講義：
 ３回目：第６回講義〜第８回講義：
