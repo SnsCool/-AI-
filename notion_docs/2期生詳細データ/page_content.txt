@@ -1,15 +1,13 @@
 # 2期生詳細データ 
 
 Notion URL: https://app.notion.com/p/2-382f3b0fba85805ab2cdf831e2c9f7e5
-同期日時: 2026-06-24T10:02:03+09:00
+同期日時: 2026-06-24T13:35:48+09:00
 
 ---
 
 成果
-  達成者数：/人
-  達成率：%
-
-（ここは２期生全体数値なので記載なしでいいです！）
+  達成者数：10/20人
+  達成率：50%
 Aチーム
   管理シート貼り付け👇
 https://docs.google.com/spreadsheets/d/1txqQDv52ra1-02AeBqo2jbAo8u32fd0zeIjuQ6DlCRc/edit?usp=sharing
@@ -26,7 +24,7 @@ https://docs.google.com/spreadsheets/d/1txqQDv52ra1-02AeBqo2jbAo8u32fd0zeIjuQ6Dl
   最大減量：−5.5kg（あべまゆみ様）
   【体脂肪変化の傾向】
   平均体脂肪変化：−2.3%（体脂肪データのある5名平均）
-  最大減少：−6.3%（しみずまき様）
+  最大減少：−3.1%（しみずまき様は誤測定の可能性があるため除外）
 ※体脂肪は1ヶ月に1％減ればいいライン
   達成人数：6名 / 10名
   達成率：60%
@@ -59,7 +57,6 @@ https://docs.google.com/spreadsheets/d/1txqQDv52ra1-02AeBqo2jbAo8u32fd0zeIjuQ6Dl
   平均体脂肪変化：−1.6%(データあり4名平均)
   最大減少：−2.6%(あべなおみ)
   ※体脂肪は1ヶ月に1％減ればいいライン
-平均変化は少なめ
   達成 人数：4名 / 5名
   達成率 80% 
   📸 体型写真（提出ある方のみ）

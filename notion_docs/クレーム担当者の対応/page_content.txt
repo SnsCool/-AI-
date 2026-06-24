@@ -1,0 +1,27 @@
+# クレーム担当者の対応
+
+Notion URL: https://app.notion.com/p/389f3b0fba8580508c07e51940f86720
+同期日時: 2026-06-24T13:31:48+09:00
+
+---
+
+① クレームの連絡が来たら事実確認を行う
+https://app.levela.co.jp/claim
+ID: levela.cs@team
+パスワード: 20260328levela
+② 事実確認の結果をもとに、顧客満足度向上部に報告
+@担当MG @here
+  【⭕️年⭕️月⭕️日】
+  ・お名前：
+・クラス：
+・問い合わせ先：
+・問い合わせ内容（全文コピー）：
+  【事実確認】
+  【対応】
+  いつまでにご対応いただけるかの期間も含めて、今後のご対応についてご教示いただきたいです。
+
+また、下記の改善フォームのご提出もお願いいたします。
+https://docs.google.com/forms/d/e/1FAIpQLSfFM5aJMFsaOb7G8cE74xM5Y2zt5dnuKirdF76VkkSowpFahA/viewform
+  @SnsClub CSチーム
+③ 担当MGから返信が来たら、生徒様へも返信を行う
+🚨クレーム起因による全額 or 返金額増額希望のフロー
