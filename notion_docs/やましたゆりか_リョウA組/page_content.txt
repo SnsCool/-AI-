@@ -1,7 +1,7 @@
 # やましたゆりか_リョウA組
 
 Notion URL: https://app.notion.com/p/_-A-366f3b0fba858023bcb4c3f07b032617
-同期日時: 2026-06-23T19:25:31+09:00
+同期日時: 2026-06-24T19:15:05+09:00
 
 ---
 
@@ -13,7 +13,7 @@ Notion URL: https://app.notion.com/p/_-A-366f3b0fba858023bcb4c3f07b032617
     ①初回セッション時、MGと生徒間で誓約書を結ぶ
     ②誓約書はPDFにして生徒さんへ送付
     ▼講師1on1　予約用timerex▼
-    https://www.notion.so/13d2ecf7408c8043a9deda9e4a205ae8
+    https://timerex.net/s/liangmidonghai_4e92/c617b97d
 生徒メアド：
     １回目：第２回（初期設計1on1）〜第４回講義 
 ２回目：第４回講義〜第６回講義：
