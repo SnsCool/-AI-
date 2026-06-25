@@ -1,7 +1,7 @@
 # / 通常セッション_
 
-Notion URL: https://app.notion.com/p/_-a0df3b0fba858217a0f681481a3e7286
-同期日時: 2026-06-25T00:52:29+09:00
+Notion URL: https://app.notion.com/p/_-34df3b0fba8583aab6308179b952eb3e
+同期日時: 2026-06-25T13:37:27+09:00
 
 ---
 
