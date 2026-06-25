@@ -1,11 +1,12 @@
 # 外食定義決め
 
 Notion URL: https://app.notion.com/p/389f3b0fba858068937ddc96773cbc30
-同期日時: 2026-06-25T03:45:20+09:00
+同期日時: 2026-06-25T16:27:09+09:00
 
 ---
 
 タスクの説明
-タスクの概要と関連する詳細を提供します。
+https://docs.google.com/document/d/1gvKduJoQL9ITOUjYWZZwOOOl2-a39uCjagXUS_nXtpo/edit?usp=sharing
+食事提出の部分訂正するか相談
 サブタスク
 サポートファイル
