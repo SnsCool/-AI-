@@ -1,7 +1,7 @@
 # うみさん
 
 Notion URL: https://app.notion.com/p/382f3b0fba85809ba7acd8a21d8d15c0
-同期日時: 2026-06-25T16:28:40+09:00
+同期日時: 2026-06-25T19:13:11+09:00
 
 ---
 
@@ -43,4 +43,3 @@ https://docs.google.com/spreadsheets/d/1uR9wFayMmw_fD0QkKkh9DsMPDKWXD91jjilP0Pfh
 
 ④ 質疑・相談
 新特進すぎやまみおさんの対応について
-・本人の悩みやチャレンジを引き出す
