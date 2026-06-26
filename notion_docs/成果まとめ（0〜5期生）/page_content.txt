@@ -1,0 +1,26 @@
+#   成果まとめ（0〜5期生）
+
+Notion URL: https://app.notion.com/p/0-5-38bf3b0fba8580f3b209c6b0eb9eb86c
+同期日時: 2026-06-26T21:57:26+09:00
+
+---
+
+0. サマリー指標（成果達成率・提出率）
+成果達成率：目標70%　進捗率：60.1%：未達成
+→ 目標70%に対して進捗58.6%%のため、現状では未達成です。
+なお5期生はまだ開始1ヶ月未満（12〜16日）のため、達成率の数値は低めに出ています。
+提出率：目標80%　進捗率：87.5%：達成見込み
+※0期生は提出率の管理が途中導入だったため、提出率自体を算出できませんでした。
+1. チーム別 基本成績（体重・体脂肪）
+ほしさちえ（2期生Aチーム）：体重・体脂肪・ウエストすべて開始時点の記録もなく反映不可
+なかまたまみ（2期生Bチーム）：同様に初回の記録なしのため反映不可
+なかのひとみ（2期生Cチーム）：最終体重52.0kgだけは分かっていますが、開始体重が記録されていないため、体重変化（kg）を計算できません
+そのため、平均・合計の計算に数値として加えることはできません。
+2. トータル体重減少量
+3. 体重減少の経過
+4. 0.1kg以上の減少者数（最終数値）
+5.顧客満足度（卒業アンケート集計）
+使用した資料
+https://docs.google.com/spreadsheets/d/1Wcx3tH6ZSm-nZeygUblknG0NxkspokJe_xaI0loFcvg/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1glGgQGW60xva5Q_x2X9Ubv-RbdLhNdcHyN24b1b68X8/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1T6KY_r1ktNUtCD6R4rnO_QEZmUu18YzM9kWAQrKp5eA/edit?usp=sharing

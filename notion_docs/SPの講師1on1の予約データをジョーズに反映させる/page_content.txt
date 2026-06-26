@@ -1,0 +1,9 @@
+# SPの講師1on1の予約データをジョーズに反映させる
+
+Notion URL: https://app.notion.com/p/SP-1on1-38bf3b0fba8580ac9476ef515ccf2c03
+同期日時: 2026-06-26T21:56:17+09:00
+
+---
+
+メモ：SP変更要望（2026年6月12日）
+https://shared-beak-b34.notion.site/SP-2026-6-12-38bf3b0fba85801ba65beecdd9a16a55?source=copy_link
