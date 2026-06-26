@@ -1,7 +1,7 @@
 # マネタイズコンテンツスライド
 
 Notion URL: https://app.notion.com/p/32df3b0fba8580df971adefe7381d1e8
-同期日時: 2026-06-26T13:38:22+09:00
+同期日時: 2026-06-26T16:33:08+09:00
 
 ---
 
@@ -310,11 +310,11 @@ https://canva.link/r4ik5exq02bj3qv
 🔴https://canva.link/ngpv23idgu3e1lz
 提案資料の設計　✅
 🔴https://canva.link/agz3gdq4iqlfmst
-決済＆会員サイトシステム MOSH の準備
+決済システムの準備　✅
 🔴https://canva.link/fyc5onsp7hgol5j
-SNSで稼ぐための特典設計講座※情報が古いかも、なくても良さそう
+SNSで稼ぐための特典設計講座　✅
 🔴https://canva.link/61qhm4lthq854pa
-特典設計 内容編
+特典設計 内容編　✅
 🔴https://canva.link/e8x48ya08j6zkva
 特典設計 実践編
 🔴https://canva.link/mhjvkfn9s67e8rg
