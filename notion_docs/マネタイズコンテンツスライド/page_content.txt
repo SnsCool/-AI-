@@ -1,7 +1,7 @@
 # マネタイズコンテンツスライド
 
 Notion URL: https://app.notion.com/p/32df3b0fba8580df971adefe7381d1e8
-同期日時: 2026-06-26T10:10:59+09:00
+同期日時: 2026-06-26T13:38:22+09:00
 
 ---
 
@@ -308,7 +308,7 @@ https://canva.link/r4ik5exq02bj3qv
 🔴https://canva.link/jxcw89q3msfx15f
 企画コンセプト設計　✅
 🔴https://canva.link/ngpv23idgu3e1lz
-提案資料の設計
+提案資料の設計　✅
 🔴https://canva.link/agz3gdq4iqlfmst
 決済＆会員サイトシステム MOSH の準備
 🔴https://canva.link/fyc5onsp7hgol5j
