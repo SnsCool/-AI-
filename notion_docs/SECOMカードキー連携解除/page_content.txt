@@ -1,0 +1,17 @@
+# SECOMカードキー連携解除
+
+Notion URL: https://app.notion.com/p/SECOM-33ef3b0fba858057ad77deb115b2a7db
+同期日時: 2026-06-27T00:57:01+09:00
+
+---
+
+１、セコムの勤怠管理にログインして、左下にある従業員をタップ
+URL：https://secomtime.secomtrust.net/admin
+ID：lva1admin
+PW：f7sb6wyaJU9@LPq
+２、従業員設定をタップ
+３、表示をタップ
+４、削除（ゴミ箱マーク）をタップ
+５、削除をタップ
+６、退職者の列を変更・AE列にあるカードキー発行を「回収済み」にステータス変更する
+７、回収したカードキーは下から2番目のロッカーへ戻す（PW：0118）
