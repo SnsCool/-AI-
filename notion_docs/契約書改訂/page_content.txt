@@ -1,11 +1,8 @@
 # 契約書改訂
 
-Notion URL: https://www.notion.so/35df3b0fba858015ad11ce81148882fc
-同期日時: 2026-05-16T06:27:52+09:00
+Notion URL: https://app.notion.com/p/38bf3b0fba8581d4820ffd3f4acbdcd8
+同期日時: 2026-06-26T19:12:15+09:00
 
 ---
 
-タスクの説明
-タスクの概要と関連する詳細を提供します。
-サブタスク
-サポートファイル
+(コンテンツなし)

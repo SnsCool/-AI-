@@ -1,7 +1,7 @@
 # 山﨑_2026.6月
 
 Notion URL: https://app.notion.com/p/_2026-6-19df3b0fba858247ac8e8145f2e1dbcd
-同期日時: 2026-06-26T16:32:03+09:00
+同期日時: 2026-06-26T19:13:55+09:00
 
 ---
 
@@ -50,11 +50,11 @@ AP
 ・スライド：https://www.canva.com/design/DAHNhoUg_BA/opOxkYx3fWag4IdaoexACg/edit
 ・構成案：https://docs.google.com/document/d/1ysJ9675U73mPYUvgQz4vFXgOvFA9bC7d1PCwEqPq_1Q/edit?tab=t.0#heading=h.wq4s5bneb9sd
 ■レベラ経営者アプローチ
-スクラブリスト
+SnsClubリスト
 ・流入：43件（有効件数：38件）
 ・面談希望：14件（面談入ってない方へ後追い実施中、面談希望率：36.8%）
 ・面談申込：8件（面談済）
-→1件、初回面談希望（調整中）
+→1件、初回面談希望（6/29）
 【成約した場合】
 流入数ベース：2.3%
 面談済ベース：12.5%

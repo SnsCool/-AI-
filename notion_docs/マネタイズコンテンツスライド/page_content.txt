@@ -1,7 +1,7 @@
 # マネタイズコンテンツスライド
 
 Notion URL: https://app.notion.com/p/32df3b0fba8580df971adefe7381d1e8
-同期日時: 2026-06-26T16:33:08+09:00
+同期日時: 2026-06-26T19:11:33+09:00
 
 ---
 
@@ -316,17 +316,14 @@ SNSで稼ぐための特典設計講座　✅
 🔴https://canva.link/61qhm4lthq854pa
 特典設計 内容編　✅
 🔴https://canva.link/e8x48ya08j6zkva
-特典設計 実践編
+特典設計 実践編　✅
 🔴https://canva.link/mhjvkfn9s67e8rg
-特典設計 サムネ編
-🔴https://canva.link/ainkt1t053jlctk
-企画概要動画のススメ
-https://canva.link/106rsxts8yo7al6❌
-企画概要動画 - 台本編※台本のテンプレがないため
+特典設計 サムネ編　✅
 🔴https://canva.link/w3j5i3rg5xu3t3l
-企画概要動画 撮影編
-🔴https://canva.link/ocabvpyf1trofko
-企画概要動画 編集編
+ローンチ動画 撮影編　✅
+
+台本編もテンプレや台本の要点など押さえてスライド作成お願いしたいです
+ローンチ動画の台本、スライドテンプレートや参考動画例は用意したい
 ▼個別セールス
 🔴https://canva.link/v8xe0c2finner33
 個別セールス マスター講座
