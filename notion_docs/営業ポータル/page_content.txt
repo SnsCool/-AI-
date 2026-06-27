@@ -1,7 +1,7 @@
 # 営業ポータル
 
 Notion URL: https://app.notion.com/p/260f3b0fba85801a955bc21692aff7f0
-同期日時: 2026-06-26T16:36:31+09:00
+同期日時: 2026-06-27T13:28:40+09:00
 
 ---
 
@@ -9,5 +9,7 @@ Notion URL: https://app.notion.com/p/260f3b0fba85801a955bc21692aff7f0
     随時更新します
     6月ローンチ講師
     営業チームの紹介をしています
+    ※判断に迷う場合は、必ず管理部へ確認してください。
     https://chatgpt.com/g/g-690b6e973ab881919cd11242f7722f30-zhu-fu-ceng-rohureyong-kiyarakutasheng-cheng-ai-gu-ke-yi-yong
+    ※入会金値上がりにより、一部工事中です👷
     請求書関連の項目です
