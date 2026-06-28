@@ -1,7 +1,7 @@
 # たいぞうメモ
 
 Notion URL: https://app.notion.com/p/312f3b0fba858076b941e4bf10c5dd7e
-同期日時: 2026-06-26T16:35:45+09:00
+同期日時: 2026-06-28T16:35:39+09:00
 
 ---
 
@@ -1644,6 +1644,7 @@ C(炭水化物) : ◯◯g 🟢/🟡/🟠
     目標が高い場合運動どのくらい必要なのかを可視化する機能。
     ┗高すぎるとこんなに運動しないといけなんだよっていうのが可視化される
     ※営業でも使えそう
+最新
   １期生・２期生　満足度8
   https://docs.google.com/spreadsheets/d/1glGgQGW60xva5Q_x2X9Ubv-RbdLhNdcHyN24b1b68X8/edit?usp=sharing
   もぐラボ 継続プラン（9,800円/月）

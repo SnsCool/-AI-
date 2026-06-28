@@ -1,7 +1,7 @@
 # ┗スレッドに講師用Notion案内：開催1週間前まで
 
-Notion URL: https://www.notion.so/Notion-1-344f3b0fba8580758610c340e0d86980
-同期日時: 2026-05-16T18:40:29+09:00
+Notion URL: https://app.notion.com/p/Notion-1-344f3b0fba8580758610c340e0d86980
+同期日時: 2026-06-28T16:34:01+09:00
 
 ---
 

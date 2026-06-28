@@ -1,7 +1,7 @@
 # マネタイズコンテンツスライド
 
 Notion URL: https://app.notion.com/p/32df3b0fba8580df971adefe7381d1e8
-同期日時: 2026-06-27T13:27:51+09:00
+同期日時: 2026-06-28T16:34:48+09:00
 
 ---
 
@@ -349,10 +349,6 @@ LPテンプレートもしくは完成版LPを用意する
 🔴https://canva.link/di4emp87io3r7ez
 フロント集客LPデザイン戦略　✅
 デザインテンプレート用意する
-🔴https://canva.link/sdlpm44p9vf5drr
-フロント集客LP ダウンロード編
-🔴https://canva.link/u8too8xnv73p2z0
-フロント集客LP 埋め込み編
 🔴https://canva.link/q2y9lej31whc77j
 LINE導線設計 講義編
 🔴https://canva.link/plii82qlb7fnugj

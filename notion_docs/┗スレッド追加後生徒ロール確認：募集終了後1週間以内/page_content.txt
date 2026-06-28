@@ -1,7 +1,7 @@
 # ┗スレッド追加後生徒ロール確認：募集終了後1週間以内
 
-Notion URL: https://www.notion.so/1-34ff3b0fba858071b42be89ad16384ec
-同期日時: 2026-05-30T18:43:44+09:00
+Notion URL: https://app.notion.com/p/1-34ff3b0fba858071b42be89ad16384ec
+同期日時: 2026-06-28T16:34:10+09:00
 
 ---
 
