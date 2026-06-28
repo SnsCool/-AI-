@@ -1,7 +1,7 @@
 # あおのマーケティングちゃんねる月次報告
 
 Notion URL: https://app.notion.com/p/354f3b0fba85802bb003eb111e58ea67
-同期日時: 2026-06-29T00:35:42+09:00
+同期日時: 2026-06-29T03:35:12+09:00
 
 ---
 
@@ -386,3 +386,4 @@ KSF①に先述した内容と同様
 ・YouTube Short、およびあおさんのInstagramアカウントでの切り抜きリール発信
 ・現在のサムネイルCTRは平均4.5%程度（良好）のため、視聴維持率の改善に注力
 →冒頭1〜2分のフック強化（ダイジェストの改善）、動画尺自体の短尺化の検証も実施
+  ■数値管理シートhttps://docs.google.com/spreadsheets/d/1hH_S10sArZWXL7ebkiiLVCXI6mZhAreUsIIxR8kPhFU/edit?usp=sharing

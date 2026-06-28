@@ -1,7 +1,7 @@
 # マネタイズコンテンツスライド
 
 Notion URL: https://app.notion.com/p/32df3b0fba8580df971adefe7381d1e8
-同期日時: 2026-06-28T16:34:48+09:00
+同期日時: 2026-06-29T03:35:31+09:00
 
 ---
 
@@ -116,11 +116,9 @@ Ex19960906
   コース別サポート内容
   ★重要: ライトコースとエリートコースの最大の違い
   担当講師がついて1on1添削・相談が可能
-  2. アップグレードの仕組み
-  アップグレード費用
-  ★重要: 差額制
-  新たに全額支払うのではなく、支払済み金額との差額で計算
-  限定価格で購入した場合も、その金額からの差額
+  2. エリート昇格の仕組み
+  ★審査制
+  エリート昇格
   アップグレードの流れ
   ①松村の個別チャットに連絡
   ↓
@@ -338,6 +336,8 @@ https://canva.link/ijeg6ii149bnneq
 https://canva.link/584mewfow57l8fd🔺
 個別セールス 最終確認編　✅
 ▼LINEマーケ
+🔴https://canva.link/plii82qlb7fnugj
+LINE導線構築における用語理解　✅
 🔴https://canva.link/160ge4ulbvwweqj
 公式LINE初期設計マスター講座　✅
 🔴https://canva.link/j7g9zeqlt4dz9dv
@@ -349,39 +349,11 @@ LPテンプレートもしくは完成版LPを用意する
 🔴https://canva.link/di4emp87io3r7ez
 フロント集客LPデザイン戦略　✅
 デザインテンプレート用意する
-🔴https://canva.link/q2y9lej31whc77j
-LINE導線設計 講義編
-🔴https://canva.link/plii82qlb7fnugj
-LINE導線構築における用語理解
-🔴https://canva.link/sk7cjvs7p2g563r
-LINE導線 全体像理解編
-🔴https://canva.link/5uj7ub7gw3tj5y6
-LINE導線構築編（素材準備）
-🔴https://canva.link/ov9ev1lypzm61ah
-LINE導線構築編 - ライティング準備※青字の変更ができないかも。こうちつが別なのでわかりにくい
-🔴https://canva.link/hzwwtpv6ruulib2
-LINE導線構築編：テンプレート作成※図解がないのでわかりにくそう
-🔴https://canva.link/qifhkdixfckmjdc
-LINE導線構築 - ステップ作成とタグ設定※図解がわかりにくい。何のツールかがわかりにくい
-🔴https://canva.link/323nzuup7dpkswi
-LINE導線構築編：QRコードアクション※Linyなので、このままだと使えない
-🔴https://canva.link/jv6qlub5rcir47p
-LINE導線構築編：配信予約
-🔴https://canva.link/2w55gznvjc19ffe
-LINE導線構築編 - レッスン予約
-▼モニターファネル
-🔴https://canva.link/svb7d8ey0zlxpbf
-モニターファネル理解編
-🔴https://canva.link/yz2sxz1hc6pe1ka
-モニターファネル ストーリーローンチ設計
-🔴https://canva.link/4eoilex2wv9vo2l
-モニターファネルマスター講座 フィード投稿設計編
-🔴https://canva.link/vi346hgkkviknpw
-モニターファネル実践編
+けいさんの9章ローンチシステムの構築を参照する。
 9章 楽天マネタイズ完全攻略(新規スライド作成必要)
-https://canva.link/5rsvuva1ipevvxo
-楽天ROOMにおける収益化※実勢紹介外したほうがいいかも
+いけちゃんさんのグルコンからスライド作成
 10章 TikTok Shop完全攻略(新規スライド作成必要)
+TTSのグルコンからスライド作成
   1章 講座の進め方 ※新規スライド作成必要
   該当する既存スライドなし → 新規作成
   2章 マネタイズ成功に欠かせない思考法
