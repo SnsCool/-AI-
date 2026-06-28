@@ -1,7 +1,7 @@
 # MG側）PW追加もしくはログイン画面変える
 
 Notion URL: https://app.notion.com/p/MG-PW-38bf3b0fba858005a5efdc379fc8b46e
-同期日時: 2026-06-26T21:55:35+09:00
+同期日時: 2026-06-28T19:06:34+09:00
 
 ---
 
