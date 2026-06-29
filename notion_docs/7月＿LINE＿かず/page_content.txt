@@ -1,7 +1,7 @@
 # 7月＿LINE＿かず 
 
 Notion URL: https://app.notion.com/p/7-LINE-378f3b0fba8580f68d5ff4631c891ccb
-同期日時: 2026-06-30T03:49:58+09:00
+同期日時: 2026-06-30T06:39:34+09:00
 
 ---
 
@@ -10,7 +10,8 @@ Notion URL: https://app.notion.com/p/7-LINE-378f3b0fba8580f68d5ff4631c891ccb
 目標LINE流入数：736名
 結果　　　　　：174名　未達
 目標個別予約率：40％
-結果　　　　　：３
+結果　　　　　：34.5%　未達
+前月　　　　　：31.6%
 配信ごとの予約率（予約数／全体予約数）
 個人データ
 KSF・転用AP
