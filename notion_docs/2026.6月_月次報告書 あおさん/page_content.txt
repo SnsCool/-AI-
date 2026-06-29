@@ -1,7 +1,7 @@
 # 2026.6月_月次報告書 あおさん 
 
 Notion URL: https://app.notion.com/p/2026-6-_-38df3b0fba858083a03fc8e369768683
-同期日時: 2026-06-29T10:12:08+09:00
+同期日時: 2026-06-29T13:40:09+09:00
 
 ---
 
@@ -54,3 +54,4 @@ KPI②：総再生回数56,000回
 ・現在のサムネイルCTRは平均4.5%程度（良好）のため、視聴維持率の改善に注力
 →冒頭1〜2分のフック強化（ダイジェストの改善）、動画尺自体の短尺化の検証も実施
 ■数値管理シートhttps://docs.google.com/spreadsheets/d/1hH_S10sArZWXL7ebkiiLVCXI6mZhAreUsIIxR8kPhFU/edit?usp=sharing
+共有・提案・依頼
