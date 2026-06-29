@@ -1,7 +1,7 @@
 # SnsClubマネタイズ講座スタッフPortal
 
 Notion URL: https://app.notion.com/p/SnsClub-Portal-24ff3b0fba8580dfa9d7c6a5e9b222da
-同期日時: 2026-06-23T16:31:27+09:00
+同期日時: 2026-06-29T19:46:58+09:00
 
 ---
 
@@ -116,11 +116,9 @@ Ex19960906
     コース別サポート内容
     ★重要: ライトコースとエリートコースの最大の違い
     担当講師がついて1on1添削・相談が可能
-    2. アップグレードの仕組み
-    アップグレード費用
-    ★重要: 差額制
-    新たに全額支払うのではなく、支払済み金額との差額で計算
-    限定価格で購入した場合も、その金額からの差額
+    2. エリート昇格の仕組み
+    ★審査制
+    エリート昇格
     アップグレードの流れ
     ①松村の個別チャットに連絡
   ↓
@@ -216,6 +214,7 @@ Ex19960906
   https://www.loom.com/share/0f5fb209d17740f7859bd61d5e449792
   やる気のメカニズムとメンタル維持法(下記ラジオをコンテンツとして導入)✅
   https://www.loom.com/share/100041ff40cf44b69c3458f34d483f8f
+  ⚠️ ⬆️6月26日納期
   3章 マネタイズ全体像
   🔴https://canva.link/ey4xhr6056wfnfj
 収益化の全体像　✅
@@ -239,6 +238,7 @@ Ex19960906
 インスタ運用 プロフ設計編　✅
   https://canva.link/fx4oq0evfatqpau
 インスタ運用 ハイライト設計講座　✅
+  ⚠️ ⬆️6月28日納期
   5章 ストーリーズ運用とファン化の極意
   🔴https://canva.link/20h3hr7lsrh8nm8
 正しいストーリーテリングの作り方　✅
@@ -263,7 +263,12 @@ Ex19960906
   6章 アフィリエイト完全攻略
   https://canva.link/9mmf8yocg996r1e
 アフィリエイトで成果を出すための6つのポイント　✅
-  7章 プロダクトローンチの極意
+  ⚠️ ⬆️6月29日納期
+  7章 固定案件完全攻略
+  https://canva.link/n7qrmrfjm2003jv
+固定報酬における収益化 ✅　じゅんさんのグルコンアーカイブなどで補強が必要
+  ⚠️ 過去のグルコン参照して、スライドにしていただきたいです
+  8章 プロダクトローンチの極意
   https://canva.link/lhge7x6p4olb7uj
 ローンチシステムの構築　✅
   https://canva.link/pr9wnoyhnoyqk7q
@@ -279,7 +284,8 @@ Ex19960906
   https://canva.link/altm3wr6b1pyvxv
 ローンチシステムの構築 完全ガイド　✅
   台本やクリエイティブのテンプレートなどあれば、引っ張ってきて欲しいです。
-  8章 自社商品完全攻略
+  ⚠️ ⬆️6月30日納期
+  9章 自社商品完全攻略
   ▼商品設計・収益化
   https://canva.link/cuzdjg74lxk7o9l⭕️
 商品設計完全マスター講座　✅
@@ -289,107 +295,65 @@ Ex19960906
   🔴https://canva.link/r2lc8inbihfsayl
 競合分析マスター講座　✅
   🔴https://canva.link/3hz8k1u520pcydk
-商品コンセプト設計マスター講座※コンパスの記載(事例)あり
+商品コンセプト設計マスター講座　✅
   🔴https://canva.link/ckmmwtjjs6861ua
-商品設計マスター講座
-  https://canva.link/n7qrmrfjm2003jv
-固定報酬における収益化※アカウント情報外したほうがいいかも
-  https://canva.link/arjtr6tj95g4l2q❌
-初月で月7桁を達成した自社商品における収益化※まめさんの実績があるため
-  https://canva.link/iitwowpzkxq33ir❌
-初月で760万円売り上げた販売方法※自身の事例がまめさん
+商品設計マスター講座　✅
   https://canva.link/r4ik5exq02bj3qv
-売れる商品設計の構築
-  https://canva.link/jn2v8f8wbtnb64k
-集客と教育
+売れる商品設計の構築　✅
   ▼セミナー・個別相談
   🔴https://canva.link/bpm3ts4az7h5l0v
-個別相談ローンチの全体像解説
+個別相談ローンチの全体像解説　✅
   🔴https://canva.link/jxcw89q3msfx15f
-企画コンセプト設計
+企画コンセプト設計　✅
   🔴https://canva.link/ngpv23idgu3e1lz
-提案資料の設計
+提案資料の設計　✅
   🔴https://canva.link/agz3gdq4iqlfmst
-決済＆会員サイトシステム MOSH の準備
+決済システムの準備　✅
   🔴https://canva.link/fyc5onsp7hgol5j
-SNSで稼ぐための特典設計講座※情報が古いかも、なくても良さそう
+SNSで稼ぐための特典設計講座　✅
   🔴https://canva.link/61qhm4lthq854pa
-特典設計 内容編
+特典設計 内容編　✅
   🔴https://canva.link/e8x48ya08j6zkva
-特典設計 実践編
+特典設計 実践編　✅
   🔴https://canva.link/mhjvkfn9s67e8rg
-特典設計 サムネ編
-  🔴https://canva.link/ainkt1t053jlctk
-企画概要動画のススメ
-  https://canva.link/106rsxts8yo7al6❌
-企画概要動画 - 台本編※台本のテンプレがないため
+特典設計 サムネ編　✅
   🔴https://canva.link/w3j5i3rg5xu3t3l
-企画概要動画 撮影編
-  🔴https://canva.link/ocabvpyf1trofko
-企画概要動画 編集編
+ローンチ動画 撮影編　✅
+
+台本編もテンプレや台本の要点など押さえてスライド作成お願いしたいです
+  ローンチ動画の台本、スライドテンプレートや参考動画例は用意したい
   ▼個別セールス
   🔴https://canva.link/v8xe0c2finner33
-個別セールス マスター講座
-  🔴https://canva.link/hr8t0zld0u2nrlf
-個別セールス 全体像理解編※実録視聴があるため使えない
+個別セールス マスター講座✅
   🔴https://canva.link/gaxtfb7oealonk2
-個別セールス トークスクリプト作成術
+個別セールス トークスクリプト作成術　✅
+  テンプレ用意
   🔴https://canva.link/ds59b98ebz316gz
-個別セールス 契約書編
-  🔴https://canva.link/08yw1pvvco73syf
-金策編
+個別セールス 契約書編　✅
+  テンプレ用意
   https://canva.link/ijeg6ii149bnneq
-個別セールス ロープレ研修
+個別セールス ロープレ研修　✅
   https://canva.link/584mewfow57l8fd🔺
-個別セールス 最終確認編
-  https://canva.link/y5tcs0ddwcokj4u
-セールス録画添削で制約率UP！
+個別セールス 最終確認編　✅
   ▼LINEマーケ
-  🔴https://canva.link/160ge4ulbvwweqj
-公式LINE初期設計マスター講座
-  🔴https://canva.link/j7g9zeqlt4dz9dv
-フロント集客LP構築講座
-  🔴https://canva.link/uyqunrd5r1ck66k
-フロント集客LP 台本編
-  🔴https://canva.link/di4emp87io3r7ez
-フロント集客LPデザイン戦略
-  🔴https://canva.link/sdlpm44p9vf5drr
-フロント集客LP ダウンロード編
-  🔴https://canva.link/u8too8xnv73p2z0
-フロント集客LP 埋め込み編
-  🔴https://canva.link/q2y9lej31whc77j
-LINE導線設計 講義編
   🔴https://canva.link/plii82qlb7fnugj
-LINE導線構築における用語理解
-  🔴https://canva.link/sk7cjvs7p2g563r
-LINE導線 全体像理解編
-  🔴https://canva.link/5uj7ub7gw3tj5y6
-LINE導線構築編（素材準備）
-  🔴https://canva.link/ov9ev1lypzm61ah
-LINE導線構築編 - ライティング準備※青字の変更ができないかも。こうちつが別なのでわかりにくい
-  🔴https://canva.link/hzwwtpv6ruulib2
-LINE導線構築編：テンプレート作成※図解がないのでわかりにくそう
-  🔴https://canva.link/qifhkdixfckmjdc
-LINE導線構築 - ステップ作成とタグ設定※図解がわかりにくい。何のツールかがわかりにくい
-  🔴https://canva.link/323nzuup7dpkswi
-LINE導線構築編：QRコードアクション※Linyなので、このままだと使えない
-  🔴https://canva.link/jv6qlub5rcir47p
-LINE導線構築編：配信予約
-  🔴https://canva.link/2w55gznvjc19ffe
-LINE導線構築編 - レッスン予約
-  ▼モニターファネル
-  🔴https://canva.link/svb7d8ey0zlxpbf
-モニターファネル理解編
-  🔴https://canva.link/yz2sxz1hc6pe1ka
-モニターファネル ストーリーローンチ設計
-  🔴https://canva.link/4eoilex2wv9vo2l
-モニターファネルマスター講座 フィード投稿設計編
-  🔴https://canva.link/vi346hgkkviknpw
-モニターファネル実践編
+LINE導線構築における用語理解　✅
+  🔴https://canva.link/160ge4ulbvwweqj
+公式LINE初期設計マスター講座　✅
+  🔴https://canva.link/j7g9zeqlt4dz9dv
+フロント集客LP構築講座　✅
+LPテンプレートもしくは完成版LPを用意する
+  🔴https://canva.link/uyqunrd5r1ck66k
+フロント集客LP 台本編 ✅
+台本テンプレート用意する
+  🔴https://canva.link/di4emp87io3r7ez
+フロント集客LPデザイン戦略　✅
+  デザインテンプレート用意する
+  けいさんの9章ローンチシステムの構築を参照する。
   9章 楽天マネタイズ完全攻略(新規スライド作成必要)
-  https://canva.link/5rsvuva1ipevvxo
-楽天ROOMにおける収益化※実勢紹介外したほうがいいかも
+  いけちゃんさんのグルコンからスライド作成
   10章 TikTok Shop完全攻略(新規スライド作成必要)
+  TTSのグルコンからスライド作成
     1章 講座の進め方 ※新規スライド作成必要
     該当する既存スライドなし → 新規作成
     2章 マネタイズ成功に欠かせない思考法
@@ -751,6 +715,8 @@ https://docs.google.com/spreadsheets/d/17QEP01pwY2ZISG3cht4Rkmatsn7oDgK4M6ZdgAvN
 ウェビナー動画
 個別面談資料
 https://www.canva.com/design/DAHC-h8U2Eo/O4Mz28I9JhZONXZstXqRuA/edit
+外部参加者向け個別面談資料
+https://canva.link/5thofy5pn4n10bo
 💰マネタイズ講座 中期経営計画💰
 🎯 1. 事業ビジョン
 ■ 中期目標

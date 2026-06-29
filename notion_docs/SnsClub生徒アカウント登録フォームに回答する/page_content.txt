@@ -1,7 +1,7 @@
 # SnsClub生徒アカウント登録フォームに回答する
 
-Notion URL: https://app.notion.com/p/SnsClub-886f3b0fba8582de9355818681faddf7
-同期日時: 2026-06-29T17:01:13+09:00
+Notion URL: https://app.notion.com/p/SnsClub-d79f3b0fba85820ab15f01c039fd1b06
+同期日時: 2026-06-29T19:42:50+09:00
 
 ---
 
