@@ -1,7 +1,7 @@
 # しのみやゆきの
 
 Notion URL: https://app.notion.com/p/38ef3b0fba8580919585f3a78687bbcb
-同期日時: 2026-06-29T13:38:37+09:00
+同期日時: 2026-06-29T17:05:08+09:00
 
 ---
 
@@ -9,6 +9,7 @@ Notion URL: https://app.notion.com/p/38ef3b0fba8580919585f3a78687bbcb
     （そのまま貼り付けてもらえればOKです）
     特記事項あれば
     特記事項があれば
+    ２
 ※前提、自己分析シートは目を通した上で伴走開始お願いします
 ジョーズログイン：
 URL：https://app.levela.co.jp/advances-course-task/

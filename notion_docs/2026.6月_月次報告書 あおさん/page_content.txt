@@ -1,18 +1,19 @@
 # 2026.6月_月次報告書 あおさん 
 
 Notion URL: https://app.notion.com/p/2026-6-_-38df3b0fba858083a03fc8e369768683
-同期日時: 2026-06-29T13:40:09+09:00
+同期日時: 2026-06-29T17:03:31+09:00
 
 ---
 
 ■アカウント
 https://www.youtube.com/@ao.no.kurashi/videos
+■数値管理シートhttps://docs.google.com/spreadsheets/d/1hH_S10sArZWXL7ebkiiLVCXI6mZhAreUsIIxR8kPhFU/edit?usp=sharing
 ①先月目標と結果
 KSF
 KSF①：LINE流入数・勉強会申込・着座の目標大幅達成
 ※個別の動画リンクからの流入数を確認したところ、それぞれの流入数に特筆すべき大きな差はなく、概要欄からの流入が最多であった
 →
-・複数動画を回遊した結果、リストインしているユーザーが多い
+・複数動画を回遊した結果、リストインしているユーザーが多いと想定
 ・6月初旬にチャンネル名およびプロフィール文の内容を変更したことで、コンテンツの内容とチャンネルのコンセプトの乖離が解消された結果、高意図視聴者の獲得に繋がった
 
 KSF②：チャンネル登録転換率が0.41％→0.84%へ上昇
@@ -53,5 +54,4 @@ KPI②：総再生回数56,000回
 ・YouTube Short、およびあおさんのInstagramアカウントでの切り抜きリール発信
 ・現在のサムネイルCTRは平均4.5%程度（良好）のため、視聴維持率の改善に注力
 →冒頭1〜2分のフック強化（ダイジェストの改善）、動画尺自体の短尺化の検証も実施
-■数値管理シートhttps://docs.google.com/spreadsheets/d/1hH_S10sArZWXL7ebkiiLVCXI6mZhAreUsIIxR8kPhFU/edit?usp=sharing
 共有・提案・依頼
