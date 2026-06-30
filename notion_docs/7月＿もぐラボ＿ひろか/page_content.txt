@@ -1,7 +1,7 @@
 # 7月＿もぐラボ＿ひろか
 
 Notion URL: https://app.notion.com/p/7-38ef3b0fba8580cd971ec62e8857ee6f
-同期日時: 2026-06-30T06:38:20+09:00
+同期日時: 2026-06-30T16:30:26+09:00
 
 ---
 
@@ -12,7 +12,6 @@ Notion URL: https://app.notion.com/p/7-38ef3b0fba8580cd971ec62e8857ee6f
 └ 導線：各フロント →【0円】体質診断つきダイエット相談会 → LINE → 個別相談
 結果：
 全体数値
-└ アポ◯件消化済み、残アポ◯件
 アフィリエイター別数値
 KSF・転用AP／KFF・改善AP
 KSFとは
@@ -38,6 +37,17 @@ LINE流入数
 要因：
 KSF
 追加施策でリールでのnoteローンチを実施
+  https://www.instagram.com/p/DaIAE6APQyQ/
+  https://note.com/preview/n3071aaabf753?prev_access_key=576f01f7c74cfbd7f07f5393d3fc8543
+  リールで100万再生しているものの型を転用
+  動画内容をストレッチ→ルーティンに変更
+  ゆなさんのnoteを転用したAIプロンプトを活用
+  https://note.com/yuna_tand/n/n7718e5851ae8?sub_rt=share_pb&mcp_token=eyJwaWQiOjEwNTIwNjgsInNpZCI6MTExMDAyMjc5MiwiYXgiOiIyODI3MzU1NmQ3YzlhYjY0YWMwYWViOTVmYjdiM2I4YSIsInRzIjoxNzgyMjkzNjY5LCJleHAiOjE3ODQ3MTI4Njl9.8Dn-v7F3gMHscC7iPuFa3he504ZhraVDeJzw8eKYWBA&fbclid=PARlRTSASohBJleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadGb-nmUos7Y1GCO_uxt7de1g7ipoqhgdomW_kb6s_XfT__rGsCZms_xAQTqg_aem_D5wl8cN96W-VkOFCKKxAPw
+  プロンプト⬇︎
+  https://chatgpt.com/g/g-6a3cc3d6527081919d074143a7203b38-noteji-shi-zuo-cheng
+  ①リールで反応の良いビフォアフから記事スタート
+  ┗憧れ感がでて、どうやったんだろう？と先が気になる設計にできてる
+  ②画像使用によりタイプが可視化され、どれなんだろうと興味を持たせられた
 KFF
 想定数値の算出方法ミス
 └ ほとんどのアカウントが通常時でも閲覧率5%未満であった。
@@ -59,11 +69,25 @@ AP：
 配信ごとの予約率（予約数／全体予約数）
 要因：
 KSF
-LINE名・アイコンの変更・流入後1時間での締め切り設定など
+LINE名・アイコンの変更
+流入後1時間での締め切り設定など
 KFF
-LINE名・アイコンの変更・流入後1時間での締め切り設定など
+LINE登録前の訴求と予約オファーにズレがあった可能性
+予約率が低い流入元では、LINE登録前にユーザーが期待していた内容と、
+LINE登録後に提示された予約オファーにズレがあった可能性がある。
+考えられる要因
+以下のようにフロントの部分でダイエット相談会と
+LINEで訴求している相談会にズレが生じていた
+（以下の訴求だとポイントを教えてくれるのような認識を与える）
 AP：
 LINE名・アイコンの変更・流入後1時間での締め切り設定など
+着席率・着席数
+予約日1日前のリマインド配信の変更
+変更前
+変更後
+予約時に入力された悩みに対しての回答を直接作成し、手動で送信
+変更前は1日前のリマインドに返信はなかったが、
+変更後の返信率向上（正確な数値は不明）
 成約率・成約数
 結果：
 営業マン別実績
