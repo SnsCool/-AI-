@@ -1,19 +1,17 @@
 # 7月＿もぐラボ＿ひろか
 
 Notion URL: https://app.notion.com/p/7-38ef3b0fba8580cd971ec62e8857ee6f
-同期日時: 2026-07-01T00:57:44+09:00
+同期日時: 2026-07-01T03:50:14+09:00
 
 ---
 
 先月目標と結果　
 目標：40名成約（6月ローンチ）
 └ AP：アフィリエイターローンチ・UGC広告・X広告
-└ ローンチコンセプト：【0円】体質診断つきダイエット相談会
 └ 導線：各フロント →【0円】体質診断つきダイエット相談会 → LINE → 個別相談
 結果：
 全体数値
-※非着座8名内訳
-リスケ対応中3件／事前キャンセル3件／飛び2件
+※非着座8名内訳：リスケ対応中3件／事前キャンセル3件／飛び2件
 アフィリエイター別数値
 アフィリエイター 一覧
 アフィリエイター別数値
@@ -39,6 +37,13 @@ KFFとは
 LINE流入数
 結果：
 要因：
+KSF
+追加施策でリールでのnoteローンチを実施
+リール：https://www.instagram.com/p/DaIAE6APQyQ/
+note：https://note.com/tomatoredhiro/n/n3071aaabf753
+└  https://note.com/yuna_tand/n/n7718e5851ae8?sub_rt=share_pb&mcp_token=eyJwaWQiOjEwNTIwNjgsInNpZCI6MTExMDAyMjc5MiwiYXgiOiIyODI3MzU1NmQ3YzlhYjY0YWMwYWViOTVmYjdiM2I4YSIsInRzIjoxNzgyMjkzNjY5LCJleHAiOjE3ODQ3MTI4Njl9.8Dn-v7F3gMHscC7iPuFa3he504ZhraVDeJzw8eKYWBA&fbclid=PARlRTSASohBJleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadGb-nmUos7Y1GCO_uxt7de1g7ipoqhgdomW_kb6s_XfT__rGsCZms_xAQTqg_aem_D5wl8cN96W-VkOFCKKxAPw　
+└ 上記を転用したプロンプトを作成しアフィリエイターに展開
+└ https://chatgpt.com/g/g-6a3cc3d6527081919d074143a7203b38-noteji-shi-zuo-cheng
 KFF
 想定流入数の算出方法ミス
 └ フォロワー数から想定を算出していたが、ほとんどのアカウントがストーリー閲覧率5%未満であった。
@@ -50,14 +55,10 @@ KFF
 ローンチ期間中の他案件の実施
 └ ローンチ期間の2週間で他アフィ実施者：3名（※3名中2名がフォロワー8万人台）
  お茶やプロテインなどの訴求が入ったことで、訴求への一貫性が欠ける。
-KSF
-追加施策でリールでのnoteローンチを実施
-リール：https://www.instagram.com/p/DaIAE6APQyQ/
-note：https://note.com/tomatoredhiro/n/n3071aaabf753
-└  https://note.com/yuna_tand/n/n7718e5851ae8?sub_rt=share_pb&mcp_token=eyJwaWQiOjEwNTIwNjgsInNpZCI6MTExMDAyMjc5MiwiYXgiOiIyODI3MzU1NmQ3YzlhYjY0YWMwYWViOTVmYjdiM2I4YSIsInRzIjoxNzgyMjkzNjY5LCJleHAiOjE3ODQ3MTI4Njl9.8Dn-v7F3gMHscC7iPuFa3he504ZhraVDeJzw8eKYWBA&fbclid=PARlRTSASohBJleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadGb-nmUos7Y1GCO_uxt7de1g7ipoqhgdomW_kb6s_XfT__rGsCZms_xAQTqg_aem_D5wl8cN96W-VkOFCKKxAPw　
-└ 上記を転用したプロンプトを作成しアフィリエイターに展開
-└ https://chatgpt.com/g/g-6a3cc3d6527081919d074143a7203b38-noteji-shi-zuo-cheng
 AP：
+他インフルエンサーでもリール → noteローンチを検証
+　└ リール → note → LINEの導線により、ストーリーズやフィード以外での流入数増加・noteによる教育で予約率向上を図る。（6月流入者の着席率・成約率で方向性を検討する可能性あり）
+
 想定流入数の見直し
 　└ フォロワー数×0.25% → 閲覧数×〇％へ変更（データ収集中）
 
@@ -68,12 +69,8 @@ AP：
 ローンチ期間中の他案件の確認
 　└ ヒアリングシートで初回面談時に確認必須にルール化
 
-他インフルエンサーでもリール → noteローンチを検証
-　└ リール → note → LINEの導線により、ストーリーズやフィード以外での流入数増加・noteによる教育で予約率向上を図る。（6月流入者の着席率・成約率で方向性を検討する可能性あり）
-
-予約率・予約数
-結果：
-目標：40% → 結果：36.2%／目標：140名 → 結果：65名
+予約率
+結果：目標40% → 結果36.2%
 └ 3月：1.5%
 　 4月：7.7%
 　 5月：31.2%
@@ -96,29 +93,20 @@ LINE登録前の訴求と予約オファーにズレがあった可能性
   体質ではなく、「食の知識」の訴求になってしまっていたり、
 変化が出るポイントといった訴求になっていることにより、
 LINE登録後には何か情報が貰えるんでは？と思わせている可能性もある
-  そのような方にLINE流入後の配信で相談会は重かった可能性
-AP：
-LINE名・アイコンの変更
-予約直後のメッセージ変更
-流入後1時間での締め切り設定
-訴求と予約オファーの一貫性
-着席率・着席数
-結果：
-目標：70% → 結果：80.5%
+着席率
+結果：目標70% → 結果80.5%
 要因：
 KSF
 前日のリマインド配信の変更
     └ 予約時に入力された悩みに対しての回答を直接作成し、手動で送信。
 　└ 以前はリマインドに返信はなかったが、変更後の返信率向上。
 変更前　　　　　　　　　　　　　　　　　　　　変更後
-AP：
-前日のリマインド配信の変更
-成約率・成約数
+成約率
 結果：
 営業マン別実績
 成約案件一覧
-失注の理由一覧
 保留の理由一覧
+失注の理由一覧
 要因：
 KSF
 はなよの成約　4/14件
@@ -130,13 +118,13 @@ KFF
 話しすぎ・満足させてしまうパターン（2件）
 └ 知識量があるため説明してしまう／お客様が話す前に答えを出してしまう
 AP：
-ひろか・じゅんやがアポ枠を増やす
+ひろか・じゅんやのアポ枠を増やす
   7月前半のアポ担当
 新人りゅうきさんアサイン
 └ テスト合格後、7日〜3件アサイン予定
 営業マニュアル作成
-└
-はなよ・はるかのFB
+└ 
+はなよ・はるかの成約率向上
 └ はなよ：じゅんやが週3でFB
 └ はるか：ひろかがグリップ
 
@@ -144,23 +132,25 @@ AP：
 達成APとは
   立てた目標を達成するためのアクションプランを納期付きで設定してください。
 目標：40名成約（7月ローンチ）
-達成AP：アフィリエイターローンチ・UGC広告・X広告
+└ 達成AP：アフィリエイターローンチ・UGC広告・X広告
 └ ローンチコンセプト：【0円】食べながら痩せる食事改善カウンセリング
 全体数値
 アフィリエイターローンチ
 追加採用
-ASP：はるさん・そうたさんに紹介依頼
-└はるさん4件打診済み（2件確認待ち・2件返信なし）／そうたさん1件お繋ぎいただき連絡中
+ひなママ：はるさん打診中！
+プロテインアフィで成果出てない人：はるさんに依頼済み
+ASP：はるさん・そうたさんに依頼済み
+└はるさん4件打診（2件確認待ち・2件返信なし）／そうたさん1件本日お打ち合わせ
 アウトバウンドDM：リスト作成済み・資料作成して送るのみ
 UGC広告
 CR：https://drive.google.com/drive/u/0/folders/1A2surUnvYTt4JM0DDMEvM1xPtB9elgYK
 LP：https://mogulab-lp.vercel.app/
 現状数値
-広告配信実績　　　　　　　　　　　　　　　　　成約CPA試算
+広告配信実績　　　　　　　　　　　　　　　　　  成約CPA試算
     予算30万円の消化でLINE登録数250件見込み
-    └アフィでの1成約当たりコストは2.5万
+    アフィでの1成約当たりコストは2.5万
     ※クリエイターの制作費用（5万円）
-X広告
+X広告（BANで審査中）
 CR
     参考CR
 LP
@@ -183,7 +173,7 @@ CS関連
 実際の声（0〜2期生まとめ：49名分の回答より）
 食事サポートについて
 チームについて
-食べ痩せ動画・ポータルについて（※0期生は該当の設問なし、1・2期生のみ）
+食べ痩せ動画・ポータルについて
 サービス全体について
 サービス改善
 管理システム導入
@@ -195,10 +185,10 @@ https://mogu-app-kohl.vercel.app/
 その他共有
 YouTube密着：7月10日（金）撮影
 └ これを営業時の信頼性担保に使う（HPや会社概要など）
-きよとさんに依頼させてもらったものの進捗
-└ ローンチのskills／採用説明資料のskills
+きよとさんに依頼させてもらったもの
+└ ローンチのskills／採用説明資料のskills （どちらも進行中）
+その他行うこと
 もぐラボ生への紹介依頼
 たじさんモニター紹介
 サブスク
-報酬
 ロゴ
