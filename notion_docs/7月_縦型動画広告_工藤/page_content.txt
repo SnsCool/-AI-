@@ -1,0 +1,71 @@
+# 7月_縦型動画広告_工藤
+
+Notion URL: https://app.notion.com/p/7-_-_-38ff3b0fba858007b4cef66a172dd8c4
+同期日時: 2026-06-30T19:17:09+09:00
+
+---
+
+中長期の事業展望と6月の位置づけ
+事業展望
+https://docs.google.com/spreadsheets/d/1nUIKNgNCj2UUoFlBM54ivG92OIPJSErytsTvkF4kO14/edit?pli=1&gid=1475417172#gid=1475417172
+6月の位置づけ
+7月のからのモニター獲得に向けて以下を整理すること
+  足元の運用で後回しになっていた中長期の事業展望を明確にし、適切なKPIで事業を定量的にモニタリングできる状態を作ること
+  実際にクライアントの運用をし始めてわかった課題と強みを明確にして、プロダクトの価値を言語化すること
+6月の目標と結果
+※プロダクト面はtCPAなどの定量で終えているものの、事業全体を定量で終えていないので、7月より「顧客像に当てはまるクライアントとの契約数」に紐づいたKPIを設定して対目を追っていきます！
+先月の具体進捗
+①事業整理→プロダクト価値の言語化→KPI設定
+  事業整理
+    改めて競合情報やこの事業の強み、獲得すべきクライアント像を整理した。
+  プロダクト価値の言語化
+    実際に配信を開始したりクライアントと話す中で「UGC」は1手段であり、「Levelaの提供できる本質的な価値」は別にあると気づき、それを言語化した。
+    https://docs.google.com/document/d/1JORJXI912oKzLF6ck6_tb5rJcrVH40q7at77TfnVeKc/edit?tab=t.0#heading=h.7accczld4rcr（まとめたドキュメント）
+  KPI設定
+    7月からは「設定した顧客像に当てはまるクライアントとの契約数」を追っていきます。
+②CR作成＆広告運用
+  民泊CAMPさん
+  配信CRは以下
+    https://drive.google.com/drive/u/0/folders/1fkbTTQSbqSII7Ai1rseU5Yjn7PAbCM6p
+  現状先方から連絡が途絶え気味で、残りの予算消化ができていません。
+    直近でお子さんが生まれたらしく、そこまでしつこくリマインドできていない状況です、、。
+  その他
+    YouTube広告テスト配信実施
+    メルマガの改善＆配信設定
+  もぐラボ
+  配信CRは以下
+    https://drive.google.com/drive/u/0/folders/1A2surUnvYTt4JM0DDMEvM1xPtB9elgYK
+  現状数字からの概算だとコンサバで見ても、1成約20,000円くらいで取れそう（アフィは2.5万）
+  LP内の「LINE登録する」ボタンをクリックした人のうち41%しか実際に登録していない
+    おそらく友達登録画面の信頼性の薄さが寄与しているのでもぐラボチームに修正依頼済
+  頭痛セラピスト協会さん
+  配信CRは以下
+    https://drive.google.com/drive/u/0/folders/1dAPMZxqQGGYNCKqL3Od-B8LNI9oBkPcJ
+  目標CPAに対して133%程度で進行中。課題は明確で以下の2つ（メインは1つ目）
+    ①LPでのCVRがかなり低い
+    ②配信面の絞りすぎとCR要因でのCPM高騰
+③読売新聞
+  SNSマーケ戦略と予算アロケーションの合意を取った
+    https://docs.google.com/presentation/d/16wrI5gPJCauKcPTpW-6HeNexsX5kwQ92ZXnartwAreE/edit?slide=id.p1#slide=id.p1
+  LP完成
+    https://o-mousikomi.beta-web.info/lp15/
+  台本作成済→CR作成中（まだ修正中です）
+    https://d.kuku.lu/edkg8tzt4
+    https://drive.google.com/file/d/1al-7PlM39MvAr-coOJewRtt5PZOyF7GN/view
+    https://www.canva.com/design/DAHN66G1u-o/cSz4XWAtHLzuJn9p4tNFMw/edit
+  7月中旬の配信に向けてオンスケジュールでの進行中
+KSF
+①プロダクトの本質的な価値を言語化できた
+今までは「UGC」というHowが事業の強みとしておかれていたが、「圧倒的に見られること」という本質的な価値とその価値をなぜLevelaは提供できるのか、を言語化できた
+実際の配信データでも裏付ける数字が出ており、自分の作っているプロダクトにかなり自信が持てている
+これをサービス名やロゴ、資料、サービスサイトに落としていく
+②成果の再現性が出てきた
+民泊CAMPの1事例から、もぐラボ、頭痛セラピストと広告成果が出ている。
+Hook、Hold、（CTR）という新しい概念指標でも良い数字が出ており、プロダクトの再現性が見込めている
+この再現性をもって、さらなる獲得に持っていく
+③講師MGを巻き込んで台本やCRを作成できた
+もぐラボと読売新聞のCRについて、講師MGからのFBを踏まえて作成ができている
+後はCR作成の「どこのフェーズで何を講師MGに見てもらうか」を言語化することと、講師MGが台本を作るときの観点やCRに対してFBするときの観点を抽象化して、効率的にCR作成フローを構築していくこと。
+KFF
+①「事業責任者」ではなく「広告運用者」の動きをしてしまった
+問題
