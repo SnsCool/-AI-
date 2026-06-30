@@ -1,0 +1,201 @@
+# 7月＿マーケ＿かず 
+
+Notion URL: https://app.notion.com/p/7-378f3b0fba8580f68d5ff4631c891ccb
+同期日時: 2026-06-30T10:07:34+09:00
+
+---
+
+先月目標と結果
+目標数値（LINE流入／予約率）
+目標LINE流入数：736名
+結果　　　　　：174名　未達
+目標個別予約率：40％
+結果　　　　　：34.5%　未達
+前月　　　　　：31.6%
+配信ごとの予約率（予約数／全体予約数）
+個人データ
+KSF・転用AP
+KSFとは
+  KSFは「Key Success Factors（キーサクセスファクター）」の略で、日本語では「重要成功要因」と訳されます。KSFは、組織やビジネスが成功するために不可欠な要素や条件を指します。
+転用AP　（アクションプラン）とは
+  KSFを受けて、再現性を持って取り組めるアクションプランを書き出してください
+書き方の例
+  結果
+  ローンチ反応率1.11%（平均0.6%）
+  要因
+  ストーリー閲覧率が平均40~50%と高水準だった。
+  └ストーリーで毎日フォロワーが興味を持ちやすいMBTIに絡めた投稿を1日3〜4投稿していた。
+  フィード投稿を普段から投稿しており、平均いいね数が2000程度になっており、「フィード投稿で発信する人」という文化形成がなされており、フィードでのローンチと相性が良かった可能性がある
+  AP
+  週３以上でメニーチャットを絡めた交流ストーリーを推奨する
+  普段リールでの発信が多い発信者はリールでローンチさせてみる
+LINE流入数
+KSF①　目標予約率の達成
+結果　
+目標数値：20％
+┗3月アフィ予約率：1.5%
+　4月アフィ予約率：7.7%
+　5月アフィ予約率：31.2%
+要因
+LINE導線・シナリオの修正
+https://miro.com/welcomeonboard/MU91clRMbFprTGxLMlpUQUdsSVdtSW1YclhMUTAydTVGaEhuaEsvUHkvekszUHNidTk3Ym1ObEplT2tIVkdKYnl4eG90cHlhbzVMVFAxN09ieVpOQStuNXZBQWJ1SmtxeG8raVNrbUFRaFFncFl1YUJDYXVkMzd5QlpWRU5McUdzVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=341251181629
+流入直後から1時間以内の配信数を増加
+流入10分後／20分後／45分後と配信数を増やしたことで、検討度の高い顧客の予約忘れを防げた可能性が考えられる
+画像による視覚的訴求の増加
+フレックスメッセージを基本とする配信に変更したことで、文章を読まずとも直感的に予約できる設計とした
+LINE→予約のシンプルな導線に変更
+以前はLINE→LP→予約だったが、LINE→予約へ
+シンプルな導線となったため、離脱が減った可能性が考えられる
+ローンチコンセプトの修正
+変更前
+┗理想の体型を叶える
+　パーソナルカウンセリング
+変更後
+┗【0円】体質診断つきダイエット相談会
+何を行うかが分かりやすい名称への変更
+AP①　LINE導線のブラッシュアップ
+流入直後の配信を増加を検討
+現在流入直後から4通
+┗次回は6～8通を送信予定
+　流入直後から1時間で90%以上の予約を目指す
+　「参加者の声」や「実績」を1時間以内に送信
+AP②　ローンチコンセプトの転用
+【0円】体質診断つきダイエット相談会の継続
+上記をコンセプトとして固めてローンチを実施していく
+KFF・改善AP
+KFFとは
+  KFF（Key Failure Factors）とは、組織やビジネスが失敗する原因となる重要な要素や条件を指します。これらは、成功を妨げるリスクや障害となる要因であり、企業が目標を達成できない理由を明らかにするために分析されます。
+改善APとは
+  KFFを受けて、同じ失敗を繰り返さないためにどうするべきか？というアクションプランを書き出してください
+KFF①　着席率の未達
+結果
+目標着席率：70%
+5月着席率  ：66%
+要因
+参加する理由の欠如
+┗リマインド配信が予約日のリマインドのみとなり、信頼性や参加する理由を与えられず、当日までに熱量が落ちた可能性が考えられる
+キャンセルの自由度が高かった
+┗顧客側で自由にキャンセルの操作が行えていた
+また中盤から承認制としたが、こちらの施策もキャンセルを防ぐ直接的な理由とならなかった
+改善AP①　リマインド配信の変更
+着席する理由付けを行う
+予約直後は以下のような画像を送付
+※今後修正予定
+リマインド1日前
+┗予約時に記入している悩みに対しての回答
+改善AP②　顧客側でのキャンセル不可へ
+キャンセルを承認制から「許可しない」へ
+キャンセルする場合
+①顧客からキャンセルの連絡をもらう
+②担当営業マンがキャンセル理由をヒアリング
+③キャンセルを防ぐorリスケ対応
+④難しい場合はキャンセル対応
+上記のような対応によりキャンセル率低下を図る
+当月目標・達成AP
+達成APとは
+  立てた目標を達成するためのアクションプランを納期付きで設定してください。
+目標：予約率40％／着席率70％
+社内調整はひろかが行う
+LINE流入獲得に向けて
+  目標LINE流入数：536名
+想定LINE流入数：560名
+  AP①：自己開示ストーリーズの作成
+  自己開示ストーリーズによる属人性の強化を図り、普段の交流を促す
+上記により行動しやすい状況を作り、ローンチ時のLINE流入数増加へ
+  自己開示ストーリーズ実施状況一覧
+  スケジュール
+  ローンチ日　　　　　　　：X日
+ストーリーローンチ開始日：X－14日
+自己開示ストーリーズ準備：X－21日
+  AP②：ストーリーズの構成の改善
+  施策
+  日常・フックで興味を持たせる
+　↓
+気づいたら価値観・教育コンテンツに入っている
+　↓
+「この人の言うことは信頼できる」状態でローンチ入り
+  →普段のストーリーズとの乖離を少なくするクリエイティブ制作を行う
+  チェック項目
+  ┗告知を入れる際は必ず2枚目以降
+  AP③：ローンチの仕組み化
+  ロードマップ作成：たいぞう
+┗https://docs.google.com/spreadsheets/d/1aK1XVRsuO9b7T3I5KPWP6S604vfwlfXavwY27W_Ir_w/edit?usp=sharing
+  ストーリーズ自動化AIの作成：かず
+┗ストーリーズ台本作成GPTs
+　ストーリーズクリエイティブ作成GPTs
+予約率及び着席率に向けて
+  達成AP①　予約率向上に向けて
+  流入直後からの配信数増加
+  5月も配信数を増やしたもののまだ改善可能
+具体的には1時間以内に6～8通の送信
+実績者や参加者の声を打ち出す
+  Snsclubマーケ陣との壁打ち
+  既に頂いているFBを6月導線に反映
+  https://docs.google.com/document/d/19q-f-KzVdEX5x1FXs1gPMAiSPoV-MDYlrceJns1GbNg/edit?usp=sharing
+  https://www.loom.com/share/5b5c48e6de6a4cb896fddd0e49334c3a
+  達成AP②　着席率向上に向けて
+  予約後のリマインド変更
+  特に予約直後及び予約日前日のリマインド配信の修正
+KFFの改善AP参照
+共有・提案・依頼
+アフィリエイターのオフ会をしたい
+┗無関係なレシピ垢も共同で参加するオフ会
+　現在のアフィ主催で
+　もぐラボ運営のチャンネルを作成してチャットベースでの交流を促進
+エバー導線・紹介導線・広告導線早急に作成
+毎日朝4時にCSV出力
+たいぞう担当
+    担当アフィリエイター
+    期間：6/4~6/21(ストーリーズ/フィード投稿)
+    https://www.instagram.com/mico_diet_bodymake/
+    https://www.instagram.com/tutti_shisei/
+    https://www.instagram.com/nina_diet_recipe/
+    期間：6/9~6/22(ストーリーズ/フィード投稿)
+    https://www.instagram.com/ichibo_diet/
+(お茶のアフィを前に挟んでる)
+    期間：6/18~6/29(ストーリーズ/フィード投稿)
+    https://www.instagram.com/rii_healthy.gohan/
+  流入結果
+  アカウント別 予約率一覧
+  各アフィリエイタークリエイティブ
+    みこ
+    ストーリーズ
+    https://docs.google.com/spreadsheets/d/10QooWUVfC51aX4VYTaZhm7Vq3Oz5tgUeGA1BqEPv1W4/edit?usp=sharing
+    フィード①
+    https://canva.link/rp2xcxlv4lf1b8c
+    フィード②
+    https://canva.link/7h38doal43wc8nu
+    にな
+    ストーリーズ
+    https://docs.google.com/spreadsheets/d/1hg_TQMYLrvTsGOQMkVLKCwJRk6U2upJAmpP21aJqrX4/edit?usp=sharing
+    フィード①
+    https://canva.link/tkcvboro0a9h7k1
+    フィード②
+    つっち
+    ストーリーズ
+    https://docs.google.com/spreadsheets/d/15L2s7Lt4apJm-XIZabi0lLlVYil4Hpu1q2ijjI2CtJE/edit?usp=sharing
+    フィード①
+    https://canva.link/momam5hrf47ssqs
+    フィード②
+    https://canva.link/ewus5vbug28zs6n
+    イチボ
+    ストーリーズ
+    https://docs.google.com/spreadsheets/d/1zRzUHqJJ3TPudLPVsSLI86uC2WZEsGngzDy_YHppPZA/edit?usp=drivesdk
+    フィード①
+    https://canva.link/jjp652txtlqpa2o
+    フィード②
+    https://canva.link/rb1ipe92dlashfh
+    りぃ
+    ストーリーズ
+    https://docs.google.com/spreadsheets/d/1EzWppkhEAAaIELifO17rvru_7mi18TcUi7MRbyE2A_k/edit?usp=drivesdk
+    フィード
+  クリエイティブデータ
+  みこさん リール実績（29日16時時点のデータ）
+  クリエイティブ数値
+    アフィ数値管理
+  KSF・転用AP
+  みこさん流入数：達成
+  つっちさん流入数：達成
+  閲覧数増加ストーリーズ
+  KFF・改善AP
+  当月目標・達成AP
