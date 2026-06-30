@@ -1,14 +1,14 @@
 # 2026.6月_月次報告書 あおさん 
 
 Notion URL: https://app.notion.com/p/2026-6-_-38df3b0fba858083a03fc8e369768683
-同期日時: 2026-06-29T19:42:10+09:00
+同期日時: 2026-06-30T21:53:56+09:00
 
 ---
 
 ■アカウント
 https://www.youtube.com/@ao.no.kurashi/videos
 ■数値管理シートhttps://docs.google.com/spreadsheets/d/1hH_S10sArZWXL7ebkiiLVCXI6mZhAreUsIIxR8kPhFU/edit?usp=sharing
-①先月目標と結果
+①先月目標と結果（6/29時点）
 KSF
 KSF①：LINE流入数・勉強会申込・着座の目標大幅達成
 ※個別の動画リンクからの流入数を確認したところ、それぞれの流入数に特筆すべき大きな差はなく、概要欄からの流入が最多であった

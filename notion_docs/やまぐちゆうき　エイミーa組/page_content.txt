@@ -1,7 +1,7 @@
 # やまぐちゆうき　エイミーa組
 
-Notion URL: https://www.notion.so/a-336f3b0fba858080bc0dea1e64dd1b41
-同期日時: 2026-05-13T21:58:37+09:00
+Notion URL: https://app.notion.com/p/a-336f3b0fba858080bc0dea1e64dd1b41
+同期日時: 2026-06-30T21:59:20+09:00
 
 ---
 
@@ -31,6 +31,7 @@ Notion URL: https://www.notion.so/a-336f3b0fba858080bc0dea1e64dd1b41
     2回目
     3回目
     4回目
+    無断欠席による消化
     5回目
     6回目
     7回目
