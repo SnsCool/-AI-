@@ -1,19 +1,24 @@
 # 7月＿マーケ＿かず 
 
 Notion URL: https://app.notion.com/p/7-378f3b0fba8580f68d5ff4631c891ccb
-同期日時: 2026-06-30T10:07:34+09:00
+同期日時: 2026-06-30T13:31:36+09:00
 
 ---
 
 先月目標と結果
-目標数値（LINE流入／予約率）
-目標LINE流入数：736名
-結果　　　　　：174名　未達
-目標個別予約率：40％
-結果　　　　　：34.5%　未達
-前月　　　　　：31.6%
+全体数値（集客数／予約率／着席率）
+目標集客数：350名
+結果　　　：174名　未達
+目標申込率：40％
+結果　　　：34.5%　未達
+前月　　　：31.6%
+目標着席率：70％
+結果　　　：80.5%　達成
+※着席率以降は月内表記
+6月30日アポ：3件（着席予定として計算）
+飛び2名／事前キャンセル3名／リスケ2名
+
 配信ごとの予約率（予約数／全体予約数）
-個人データ
 KSF・転用AP
 KSFとは
   KSFは「Key Success Factors（キーサクセスファクター）」の略で、日本語では「重要成功要因」と訳されます。KSFは、組織やビジネスが成功するために不可欠な要素や条件を指します。
@@ -29,20 +34,129 @@ KSFとは
   AP
   週３以上でメニーチャットを絡めた交流ストーリーを推奨する
   普段リールでの発信が多い発信者はリールでローンチさせてみる
-LINE流入数
-KSF①　目標予約率の達成
+集客数
+KSF①　新規流入導線としてのリール活用
+Instagram（リール）→note→LINEの導線を構築
+リール
+https://www.instagram.com/reel/DaIAE6APQyQ/?igsh=MWN1YzcyYWNxbGxkMw==
+
+note
+https://note.com/tomatoredhiro/n/n3071aaabf753?sub_rt=share_sb&fbclid=PARlRTSASt6jJleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAad3LcFIv5gtzQMIsZZ9nz4Mdn9o38qXHmDLII3dY_4Fre0gqmORKu7TAdLyQw_aem_i2RTYqD1rf82YWu9YrYtbQ
+結果　
+ストーリーズのみでは目標流入数に届かなかった中で、リール導線を追加したことにより、ストーリーズ以外からの流入を獲得できた。
+特に、みこさんはストーリーズ流入9名に対し、リール流入30名が発生しており、リールが流入数の上積みに寄与した可能性が高い。
+要因
+ストーリーズで接触できない層へのリーチ
+ストーリーズは既存フォロワーへの接触が中心となる一方で、リールはフォロワー外へのリーチも期待できる。
+今回、リール経由で一定数のLINE流入が確認されたことから、ストーリーズだけでは取り切れない層への接触手段として有効である可能性がある。
+懸念
+予約後以降の数値が取得できていない
+┗教育がかかっていないため、着席・成約率へ影響する可能性あり
+AP①　リール導線の標準化と検証
+複数のインフルエンサーで検証を実施
+Instagram→note→LINEの導線により
+ストリーズやフィード以外での流入数増加を図る
+また、noteによる教育で予約率向上も図る
+ただし、6月流入者の着席率や成約率で方向性を検討する可能性あり
+KFF・改善AP
+KFFとは
+  KFF（Key Failure Factors）とは、組織やビジネスが失敗する原因となる重要な要素や条件を指します。これらは、成功を妨げるリスクや障害となる要因であり、企業が目標を達成できない理由を明らかにするために分析されます。
+改善APとは
+  KFFを受けて、同じ失敗を繰り返さないためにどうするべきか？というアクションプランを書き出してください
+KFF①　想定流入数の算出と実態の乖離
+結果
+目標流入数：350名
+┗今月LINE流入数： 174名
+┗達成率　　　　：49.7%
+┗前月LINE流入数：278名
+今回の目標流入数は、基本的にフォロワー数 × 0.25%をもとに想定していた。
+この数値は過去データをもとに予測しやすい指標として設定していたが、今回の結果を見ると、フォロワー数ベースの想定流入数と実績に大きな乖離が発生した。
+特に、はなよさんは目標100名に対して実績22名となっており、目標設定と実態の差が大きい。
+フォロワー数だけでは実際の告知接触数や行動率を正確に反映できない可能性が高い。
+KFF②　オファーとフォロワー属性の適合性
+結果
+はなよさん
+目標：150名／結果：22名
+https://docs.google.com/spreadsheets/d/1omaOPrbm1x5dpkvPmOhn7EWL-pIBgudPPnIv_S_DdKM/edit?gid=1919570034#gid=1919570034
+
+ぱるる
+目標：30名／結果：0名
+https://docs.google.com/spreadsheets/d/1mWKdFv0I9uA-zhoapIgjLLa-T3iKggorzdCeGa2dajU/edit?gid=40739958#gid=40739958
+大幅な未達及び流入数0に関しては
+訴求内容がフォロワーん属性に合っていなかった可能性が考えられる
+
+ぱるるさんは特にbefore/afterも弱かったため、
+ゆるく痩せる秘訣→体質を知ることといった方向性で訴求を実施
+アカウントは旦那の胃袋を掴む楽うまレシピ
+https://www.instagram.com/recipe_paruru/
+上記を考慮すると、「誰かに愛される」などの
+周りからの見られ方に対しての訴求をした方が、行動を促せた可能性がある
+KFF③　ローンチ台本の一貫性の欠如
+ローンチ前半
+┗痩せたいを作り出す訴求
+
+ローンチ中盤
+┗体質の必要性についての訴求
+　上記に加え食べ痩せの話題が混在
+ローンチ期間を通して一貫性のある訴求が行えなかったため、
+フォロワーの興味が集中せず、LINE流入数の低下に繋がった
+KFF④　他案件との平行
+ローンチ期間の2週間で他アフィ実施者：3名
+（※3名中2名がフォロワー8万人台）
+
+ローンチ中にお茶やプロテインなどの訴求が入ったことで、
+興味が分散した可能性。
+改善AP①　想定流入値の変更
+フォロワー数ベースからストーリーズ閲覧数ベースへ変更
+次回以降は、フォロワー数 × 0.25% ではなく、平均ストーリーズ閲覧数をもとに想定流入数を算出する。
+変更前
+フォロワー数 × 0.25%
+変更後
+平均ストーリーズ閲覧数 × 想定LINE流入率
+改善AP②　ストーリーズ台本の変更
+食べ痩せに一貫した台本を作成
+https://docs.google.com/spreadsheets/d/1aK1XVRsuO9b7T3I5KPWP6S604vfwlfXavwY27W_Ir_w/edit?usp=sharing
+以下の台本を参考にして作成
+https://docs.google.com/spreadsheets/d/1wJyJAnb4GO2CAhBfpobJzSk12iG2zBEYITlMm17FQvk/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1N3sdZyG33LFwxYMvifgokDffe9BKF7M-QRVJU4koM2g/edit?usp=sharing
+改善AP③　ストーリーズ台本の変更
+食べ痩せに一貫した台本を作成
+https://docs.google.com/spreadsheets/d/1aK1XVRsuO9b7T3I5KPWP6S604vfwlfXavwY27W_Ir_w/edit?usp=sharing
+以下の台本を参考にして作成
+https://docs.google.com/spreadsheets/d/1wJyJAnb4GO2CAhBfpobJzSk12iG2zBEYITlMm17FQvk/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1N3sdZyG33LFwxYMvifgokDffe9BKF7M-QRVJU4koM2g/edit?usp=sharing
+改善AP④　他案件実施状況の事前確認
+ローンチ期間中の競合案件を事前に把握する
+次回以降は、ローンチ実施前に各インフルエンサーへ他案件の実施予定を確認する。
+確認項目
+ローンチ期間中に他案件があるか
+他案件のジャンル
+告知予定日
+告知回数
+自社ローンチとの重なり
+他案件を優先する可能性
+運用ルール案
+他案件と重なる場合は、以下のいずれかで対応する。
+自社ローンチの配信日を調整する
+告知回数を増やす
+リールやフィードなど別導線を追加する
+期待流入数を保守的に設定する
+場合によっては起用を見送る
+LINE（予約率／着席率）
+予約率：36.2%　未達
+
+https://miro.com/welcomeonboard/MU91clRMbFprTGxLMlpUQUdsSVdtSW1YclhMUTAydTVGaEhuaEsvUHkvekszUHNidTk3Ym1ObEplT2tIVkdKYnl4eG90cHlhbzVMVFAxN09ieVpOQStuNXZBQWJ1SmtxeG8raVNrbUFRaFFncFl1YUJDYXVkMzd5QlpWRU5McUdzVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=341251181629
+KSF①　目標予約率40%の未達
 結果　
 目標数値：20％
 ┗3月アフィ予約率：1.5%
 　4月アフィ予約率：7.7%
 　5月アフィ予約率：31.2%
+　6月アフィ予約率：36.2%
 要因
-LINE導線・シナリオの修正
-https://miro.com/welcomeonboard/MU91clRMbFprTGxLMlpUQUdsSVdtSW1YclhMUTAydTVGaEhuaEsvUHkvekszUHNidTk3Ym1ObEplT2tIVkdKYnl4eG90cHlhbzVMVFAxN09ieVpOQStuNXZBQWJ1SmtxeG8raVNrbUFRaFFncFl1YUJDYXVkMzd5QlpWRU5McUdzVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=341251181629
-流入直後から1時間以内の配信数を増加
-流入10分後／20分後／45分後と配信数を増やしたことで、検討度の高い顧客の予約忘れを防げた可能性が考えられる
-画像による視覚的訴求の増加
-フレックスメッセージを基本とする配信に変更したことで、文章を読まずとも直感的に予約できる設計とした
+一部流入元・インフルエンサーの予約率低迷
+他案件との平行
+ローンチ期間の短縮
 LINE→予約のシンプルな導線に変更
 以前はLINE→LP→予約だったが、LINE→予約へ
 シンプルな導線となったため、離脱が減った可能性が考えられる
@@ -196,6 +310,47 @@ KFFの改善AP参照
   KSF・転用AP
   みこさん流入数：達成
   つっちさん流入数：達成
+  KSF①：リール→note→LINE動線で集客拡大
+  結果：みこさん　目標50流入→結果80流入
+  リール
+  https://www.instagram.com/p/DaIAE6APQyQ/
+  台本
+    実はわたし
+45歳で10kg痩せて
+別人になりました
+    ダイエットと垢抜けを叶えた
+5つのルーティン
+※最後に大切こと伝えます
+    ①朝起きて水1杯必ず飲む
+②ストレッチ
+③食事はたんぱく質中心
+④（和菓子）
+⑤寝る前のストレッチ
+    でも実は、
+頑張っても痩せなかった時期があります。
+    原因は、
+「努力不足」じゃなく
+体質に合わないダイエットのせいでした。
+    自分の体質を知れたことで、40代で10kg痩せて別人になれました。
+    私が10kg痩せるきっかけになった
+「体質に合った痩せ方」
+知りたい方はいいね押して「体質」と送ってね
+    DMで送ります！
+  再生5万、コメント数1000件超え
+  note記事
+  https://note.com/preview/n3071aaabf753?prev_access_key=576f01f7c74cfbd7f07f5393d3fc8543
+  ⬇︎
+  LINE流入（フィード・ストーリーズと同じ）
+  リールで100万再生しているものの型を転用
+  動画内容をストレッチ→ルーティンに変更
+  ゆなさんのnoteを転用したAIプロンプトを活用
+  https://note.com/yuna_tand/n/n7718e5851ae8?sub_rt=share_pb&mcp_token=eyJwaWQiOjEwNTIwNjgsInNpZCI6MTExMDAyMjc5MiwiYXgiOiIyODI3MzU1NmQ3YzlhYjY0YWMwYWViOTVmYjdiM2I4YSIsInRzIjoxNzgyMjkzNjY5LCJleHAiOjE3ODQ3MTI4Njl9.8Dn-v7F3gMHscC7iPuFa3he504ZhraVDeJzw8eKYWBA&fbclid=PARlRTSASohBJleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadGb-nmUos7Y1GCO_uxt7de1g7ipoqhgdomW_kb6s_XfT__rGsCZms_xAQTqg_aem_D5wl8cN96W-VkOFCKKxAPw
+  プロンプト⬇︎
+  https://chatgpt.com/g/g-6a3cc3d6527081919d074143a7203b38-noteji-shi-zuo-cheng
+  KSF
+  ①リールで反応の良いビフォアフから記事スタート
+  ┗憧れ感がでて、どうやったんだろう？と先が気になる設計にできてる
+  ②画像使用によりタイプが可視化され、どれなんだろうと興味を持たせられた
   閲覧数増加ストーリーズ
   KFF・改善AP
   当月目標・達成AP
