@@ -1,7 +1,7 @@
 # 勉強会 5月・6月 着席比較
 
 Notion URL: https://app.notion.com/p/5-6-38ff3b0fba8580e5b97feaf48818b0ea
-同期日時: 2026-07-01T03:51:08+09:00
+同期日時: 2026-07-01T06:39:56+09:00
 
 ---
 
@@ -14,3 +14,8 @@ Notion URL: https://app.notion.com/p/5-6-38ff3b0fba8580e5b97feaf48818b0ea
 1. 1日平均着席を上げる（改善中）
 2. X広告の着席率を改善する（改善中）
 3. 毎月３週目の高い着座原因調査
+流入経路 × 職業 フルファネル（2026年6月・学生除外）
+Meta_ad
+x_ad-aw
+meta_ad_Suea_aw
+meta_ad_in-house_aw
