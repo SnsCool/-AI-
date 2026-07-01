@@ -1,7 +1,7 @@
 # ロボットペイメント 
 
-Notion URL: https://www.notion.so/2e9f3b0fba858034830de646cc46948a
-同期日時: 2026-05-28T22:28:36+09:00
+Notion URL: https://app.notion.com/p/2e9f3b0fba858034830de646cc46948a
+同期日時: 2026-07-01T19:30:58+09:00
 
 ---
 
