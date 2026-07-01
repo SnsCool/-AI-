@@ -1,7 +1,7 @@
 # 採用アカウント
 
-Notion URL: https://app.notion.com/p/36cf3b0fba858008bd15e6db306b1fe2
-同期日時: 2026-07-01T03:49:53+09:00
+Notion URL: https://app.notion.com/p/f3df3b0fba85834bac7601270f006bf6
+同期日時: 2026-07-02T00:58:50+09:00
 
 ---
 

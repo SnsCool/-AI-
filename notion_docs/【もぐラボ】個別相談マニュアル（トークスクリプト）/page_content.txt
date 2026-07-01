@@ -1,10 +1,14 @@
 # 【もぐラボ】個別相談マニュアル（トークスクリプト）
 
 Notion URL: https://app.notion.com/p/390f3b0fba8580b4aed8deb278624fbd
-同期日時: 2026-07-01T19:25:14+09:00
+同期日時: 2026-07-02T00:58:19+09:00
 
 ---
 
+参考動画：https://tldv.io/app/meetings/6a1828728e345800138ca96d/
+参考動画：https://drive.google.com/file/d/15X5oFQV9PJ3vLGqGyprH4m901OvTlC-F/view?usp=drive_link
+参考動画：https://us06web.zoom.us/rec/share/ViQtOLFAYZlKt1EJ5WV1HAisMd_kqUL03u3jZwF-4jUPNQ-NbVDKbn2Hh-qTyjOy.2Q90hBJLPAXkn4jZ
+パスコード: 4.k+YcWQ
   🌟 前提のスタンス
 徹底したヒアリング
   相手の「現状」と「理想」のギャップを明確にし、そこに「もぐラボ」がどうハマるかを提示する。
