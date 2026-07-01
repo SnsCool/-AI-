@@ -1,7 +1,7 @@
 # サービスローンチ準備
 
-Notion URL: https://app.notion.com/p/32df3b0fba858137b074c5159173e6f0
-同期日時: 2026-06-07T03:48:03+09:00
+Notion URL: https://app.notion.com/p/390f3b0fba85815c8b69f07d45a341e4
+同期日時: 2026-07-01T16:45:42+09:00
 
 ---
 

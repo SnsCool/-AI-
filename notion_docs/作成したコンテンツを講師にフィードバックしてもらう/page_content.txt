@@ -1,7 +1,7 @@
 # 作成したコンテンツを講師にフィードバックしてもらう
 
-Notion URL: https://app.notion.com/p/2c4f3b0fba8583b0ae3c01da81b0ede8
-同期日時: 2026-07-01T13:48:59+09:00
+Notion URL: https://app.notion.com/p/474f3b0fba8583b09b1b8115219d105e
+同期日時: 2026-07-01T16:49:59+09:00
 
 ---
 

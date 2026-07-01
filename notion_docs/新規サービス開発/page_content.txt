@@ -1,7 +1,7 @@
 # 新規サービス開発
 
-Notion URL: https://app.notion.com/p/35ef3b0fba85810d93fcf982b26c0169
-同期日時: 2026-06-07T03:53:56+09:00
+Notion URL: https://app.notion.com/p/390f3b0fba858136801ccfb4562b4444
+同期日時: 2026-07-01T16:45:13+09:00
 
 ---
 
