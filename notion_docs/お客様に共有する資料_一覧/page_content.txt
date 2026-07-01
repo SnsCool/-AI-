@@ -1,7 +1,7 @@
 # お客様に共有する資料_一覧
 
 Notion URL: https://app.notion.com/p/_-37ef3b0fba85809ca250ccb13afcdd53
-同期日時: 2026-06-30T19:21:28+09:00
+同期日時: 2026-07-01T10:17:30+09:00
 
 ---
 
@@ -10,7 +10,7 @@ https://snsfamily-rhy4rtdb.manus.space/
 サービス資料
 https://drive.google.com/file/d/1_WOmHPGBa97CK0iHGGIw2MWivWDPxWC8/view?usp=sharing
 
-s2026.7.1の商談〜
+s2026.7.4の商談〜
 https://drive.google.com/file/d/1rz7bMiiVNlk
 実績者紹介
 https://snsclub.jp/achievements/
