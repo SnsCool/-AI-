@@ -1,7 +1,7 @@
 # 【優先度低】イベント資料自動化プロンプト作成
 
-Notion URL: https://www.notion.so/36df3b0fba858188bebdde50266fd276
-同期日時: 2026-06-02T01:56:55+09:00
+Notion URL: https://app.notion.com/p/2fff3b0fba8582f1949581d73f29e4dd
+同期日時: 2026-07-01T13:45:13+09:00
 
 ---
 

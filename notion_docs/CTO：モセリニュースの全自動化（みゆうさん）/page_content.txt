@@ -1,7 +1,7 @@
 # CTO：モセリニュースの全自動化（みゆうさん）
 
-Notion URL: https://app.notion.com/p/CTO-351f3b0fba8581d095e2f20e1bf79f1c
-同期日時: 2026-04-29T16:04:57+09:00
+Notion URL: https://app.notion.com/p/CTO-44df3b0fba8582c7921481ca2936e7b9
+同期日時: 2026-07-01T13:44:54+09:00
 
 ---
 

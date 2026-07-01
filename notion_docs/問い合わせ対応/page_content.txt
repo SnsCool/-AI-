@@ -1,7 +1,7 @@
 # 問い合わせ対応
 
-Notion URL: https://app.notion.com/p/351f3b0fba85817fad97fc36281d9f58
-同期日時: 2026-04-29T16:05:29+09:00
+Notion URL: https://app.notion.com/p/d81f3b0fba8582b8a6d701ceb5426be1
+同期日時: 2026-07-01T13:44:57+09:00
 
 ---
 

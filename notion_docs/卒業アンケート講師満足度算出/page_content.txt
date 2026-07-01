@@ -1,7 +1,7 @@
 # 卒業アンケート講師満足度算出
 
-Notion URL: https://www.notion.so/354f3b0fba85803397a1ce1717770174
-同期日時: 2026-05-02T21:28:23+09:00
+Notion URL: https://app.notion.com/p/393f3b0fba8582998b2a0143fb017505
+同期日時: 2026-07-01T13:44:35+09:00
 
 ---
 

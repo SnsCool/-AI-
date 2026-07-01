@@ -1,7 +1,7 @@
 # クラス分けローンチ準備
 
-Notion URL: https://app.notion.com/p/351f3b0fba858125a854ce4a9a8ed0db
-同期日時: 2026-04-29T16:03:21+09:00
+Notion URL: https://app.notion.com/p/981f3b0fba858319bc8581cda94a5efe
+同期日時: 2026-07-01T13:45:31+09:00
 
 ---
 

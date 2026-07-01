@@ -1,7 +1,7 @@
 # CTO：イベント制作システム構築
 
-Notion URL: https://app.notion.com/p/CTO-351f3b0fba8581999978fd5dfde8d2ad
-同期日時: 2026-04-29T16:05:29+09:00
+Notion URL: https://app.notion.com/p/CTO-b3af3b0fba85823ea6e181c89f487027
+同期日時: 2026-07-01T13:43:29+09:00
 
 ---
 

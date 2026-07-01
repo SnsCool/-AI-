@@ -1,7 +1,7 @@
 # 新クラス作成
 
-Notion URL: https://app.notion.com/p/351f3b0fba85816fbd49c860102ede23
-同期日時: 2026-04-29T16:05:32+09:00
+Notion URL: https://app.notion.com/p/263f3b0fba8582d9bb64810edbbd4285
+同期日時: 2026-07-01T13:46:17+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # AP設定
 
-Notion URL: https://app.notion.com/p/AP-351f3b0fba858170b47fd0b49b9ce4fe
-同期日時: 2026-04-29T16:06:00+09:00
+Notion URL: https://app.notion.com/p/AP-398f3b0fba8582e2bbf3817371e15844
+同期日時: 2026-07-01T13:45:28+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # マネタイズ講座KPI設定
 
-Notion URL: https://app.notion.com/p/KPI-351f3b0fba858110bffef7bd932e4452
-同期日時: 2026-04-29T16:06:02+09:00
+Notion URL: https://app.notion.com/p/KPI-e1cf3b0fba8582fe83d58136abd20b12
+同期日時: 2026-07-01T13:45:52+09:00
 
 ---
 

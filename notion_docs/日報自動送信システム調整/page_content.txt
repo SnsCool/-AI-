@@ -1,7 +1,7 @@
 # 日報自動送信システム調整
 
-Notion URL: https://app.notion.com/p/351f3b0fba8581a99e0bfdf02da91bea
-同期日時: 2026-04-29T16:05:31+09:00
+Notion URL: https://app.notion.com/p/58bf3b0fba858395976c01bd3094b289
+同期日時: 2026-07-01T13:44:54+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # クレーム事実確認
 
-Notion URL: https://app.notion.com/p/351f3b0fba858183b513cd0dd7b89694
-同期日時: 2026-04-29T16:04:45+09:00
+Notion URL: https://app.notion.com/p/cd9f3b0fba8582b88ac00148bacea6b0
+同期日時: 2026-07-01T13:45:06+09:00
 
 ---
 

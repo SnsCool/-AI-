@@ -1,7 +1,7 @@
 # 昼クラスから夜クラスへの移動
 
-Notion URL: https://app.notion.com/p/351f3b0fba8581959331cd72369dcd02
-同期日時: 2026-04-29T16:05:10+09:00
+Notion URL: https://app.notion.com/p/d51f3b0fba85822591a681e8d60edbb3
+同期日時: 2026-07-01T13:45:42+09:00
 
 ---
 

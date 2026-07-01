@@ -1,7 +1,7 @@
 # 講師満足度集計
 
-Notion URL: https://app.notion.com/p/377f3b0fba858051b718cd512de49506
-同期日時: 2026-06-07T00:36:13+09:00
+Notion URL: https://app.notion.com/p/aadf3b0fba85837f977d01f0c79152ad
+同期日時: 2026-07-01T13:43:53+09:00
 
 ---
 

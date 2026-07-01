@@ -1,7 +1,7 @@
 # クレーム対応チャットβ版提出
 
-Notion URL: https://app.notion.com/p/351f3b0fba85814b802effc359e5a0c5
-同期日時: 2026-04-29T16:05:21+09:00
+Notion URL: https://app.notion.com/p/9a1f3b0fba85832593b8819035d1c746
+同期日時: 2026-07-01T13:45:36+09:00
 
 ---
 

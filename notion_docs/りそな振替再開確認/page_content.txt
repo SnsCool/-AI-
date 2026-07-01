@@ -1,7 +1,7 @@
 # りそな振替再開確認
 
-Notion URL: https://app.notion.com/p/351f3b0fba85816c99a6f1fd79302289
-同期日時: 2026-04-29T16:03:29+09:00
+Notion URL: https://app.notion.com/p/3c0f3b0fba858312a49e01d4d57b571a
+同期日時: 2026-07-01T13:45:07+09:00
 
 ---
 

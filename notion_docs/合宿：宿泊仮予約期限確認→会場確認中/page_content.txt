@@ -1,7 +1,7 @@
 # 合宿：宿泊仮予約期限確認→会場確認中
 
-Notion URL: https://app.notion.com/p/382f3b0fba8580ebbb32e64000c0144c
-同期日時: 2026-06-24T16:27:38+09:00
+Notion URL: https://app.notion.com/p/840f3b0fba858219b18601bcaa835f50
+同期日時: 2026-07-01T13:43:35+09:00
 
 ---
 

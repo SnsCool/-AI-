@@ -1,7 +1,7 @@
 # MVP講師登録周知
 
-Notion URL: https://app.notion.com/p/MVP-351f3b0fba8581128c92dc93c7a8cf1d
-同期日時: 2026-04-29T16:04:12+09:00
+Notion URL: https://app.notion.com/p/MVP-c32f3b0fba858249bb3b814d3eb807d7
+同期日時: 2026-07-01T13:45:39+09:00
 
 ---
 

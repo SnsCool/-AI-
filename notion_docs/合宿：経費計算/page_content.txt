@@ -1,7 +1,7 @@
 # 合宿：経費計算
 
-Notion URL: https://app.notion.com/p/375f3b0fba85808ba812e6bf17e823d3
-同期日時: 2026-06-10T19:32:36+09:00
+Notion URL: https://app.notion.com/p/19ef3b0fba858263972e01ca56f19539
+同期日時: 2026-07-01T13:43:59+09:00
 
 ---
 

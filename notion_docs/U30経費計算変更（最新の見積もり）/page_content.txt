@@ -1,7 +1,7 @@
 # U30経費計算変更（最新の見積もり）
 
-Notion URL: https://app.notion.com/p/U30-382f3b0fba85807cafc8c50fb2c4e1ea
-同期日時: 2026-06-24T13:31:50+09:00
+Notion URL: https://app.notion.com/p/U30-397f3b0fba8583b29d2501b5217bfca5
+同期日時: 2026-07-01T13:41:59+09:00
 
 ---
 

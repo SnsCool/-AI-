@@ -1,7 +1,7 @@
 # 講義日程後ろ倒し管理表作成か
 
-Notion URL: https://app.notion.com/p/351f3b0fba85811bb1a8e5f12e961329
-同期日時: 2026-04-29T16:04:17+09:00
+Notion URL: https://app.notion.com/p/91cf3b0fba8583d6af4701b58acc8c95
+同期日時: 2026-07-01T13:45:53+09:00
 
 ---
 

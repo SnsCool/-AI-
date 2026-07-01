@@ -1,7 +1,7 @@
 # 初期設計シート壁打ちツール作成
 
-Notion URL: https://app.notion.com/p/351f3b0fba8581508d58d9158fa32387
-同期日時: 2026-04-29T16:03:32+09:00
+Notion URL: https://app.notion.com/p/7c6f3b0fba8583369c4b01ed617af901
+同期日時: 2026-07-01T13:44:49+09:00
 
 ---
 

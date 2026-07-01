@@ -1,7 +1,7 @@
 # 【CTO室】生徒管理システムについてまとめ
 
-Notion URL: https://app.notion.com/p/CTO-351f3b0fba8581cfbd49dd4b57c0a78d
-同期日時: 2026-04-29T16:04:40+09:00
+Notion URL: https://app.notion.com/p/CTO-6c3f3b0fba858249b53d019cadf5d390
+同期日時: 2026-07-01T13:45:05+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # ❓卒業日に卒業アンケートを送る
 
-Notion URL: https://app.notion.com/p/351f3b0fba8581c588edd02804215476
-同期日時: 2026-04-29T16:04:30+09:00
+Notion URL: https://app.notion.com/p/839f3b0fba858360b9d301d2fa2c9fbf
+同期日時: 2026-07-01T13:46:02+09:00
 
 ---
 
