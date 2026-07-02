@@ -1,7 +1,7 @@
 # Instagramアカウントを作成し、プロアカウントに変更する
 
-Notion URL: https://app.notion.com/p/Instagram-16cf3b0fba858269bee981ec2f397be6
-同期日時: 2026-07-02T00:59:15+09:00
+Notion URL: https://app.notion.com/p/Instagram-338f3b0fba85831dbbd881376925b687
+同期日時: 2026-07-02T10:10:07+09:00
 
 ---
 
