@@ -1,7 +1,7 @@
 # あおたみさき
 
 Notion URL: https://app.notion.com/p/353f3b0fba85819fae1ace5f5bea106b
-同期日時: 2026-07-03T01:55:39+09:00
+同期日時: 2026-07-03T04:40:42+09:00
 
 ---
 
@@ -98,4 +98,5 @@ Notion URL: https://app.notion.com/p/353f3b0fba85819fae1ace5f5bea106b
 
 └ **次回セッション日時：**
 　└ 8月9日（水）22時から開始予定。
+  セッションデータ
   セッションデータ
