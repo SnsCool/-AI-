@@ -1,7 +1,7 @@
 # リソース確認
 
-Notion URL: https://www.notion.so/34ef3b0fba8580a39f8ad2e7734bf272
-同期日時: 2026-04-26T21:25:22+09:00
+Notion URL: https://app.notion.com/p/305f3b0fba858295a415812e31e98bf1
+同期日時: 2026-07-02T15:49:59+09:00
 
 ---
 

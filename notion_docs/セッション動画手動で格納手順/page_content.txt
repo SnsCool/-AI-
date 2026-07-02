@@ -1,7 +1,7 @@
 # セッション動画手動で格納手順
 
-Notion URL: https://www.notion.so/345f3b0fba85803c8fb3c75a7b0b08f1
-同期日時: 2026-04-17T21:31:06+09:00
+Notion URL: https://app.notion.com/p/43ff3b0fba858340827401270070dcea
+同期日時: 2026-07-02T15:54:06+09:00
 
 ---
 

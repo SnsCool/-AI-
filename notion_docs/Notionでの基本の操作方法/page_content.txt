@@ -1,7 +1,7 @@
 # Notionでの基本の操作方法
 
-Notion URL: https://www.notion.so/Notion-34cf3b0fba8580aabdecfcf796b23ea2
-同期日時: 2026-04-25T00:35:41+09:00
+Notion URL: https://app.notion.com/p/Notion-d52f3b0fba85838e97c501423b4214f4
+同期日時: 2026-07-02T15:50:32+09:00
 
 ---
 

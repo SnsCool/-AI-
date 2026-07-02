@@ -1,0 +1,26 @@
+# 定例MTG
+
+Notion URL: https://app.notion.com/p/MTG-454f3b0fba858228aae9816695c388a3
+同期日時: 2026-07-02T15:54:00+09:00
+
+---
+
+📣【プレミアムプラスご担当の方へ】
+・セッション実施状況の入力に漏れがないかご確認ください
+https://docs.google.com/spreadsheets/d/1Wv_nSpfKLBRaJ59Y1GcQqU37nvJt7K0Izyxb_sN8b6I/edit?gid=1194823990#gid=1194823990
+【コミットコースご担当の方へ】
+・生徒情報の記入に不足はないかご確認をお願いします。
+・セッション実施状況管理
+・Notionの生徒ページの貼り付け
+└
+https://docs.google.com/spreadsheets/d/1jzfbjqwRrW9_JIa6JUVyCe3uRY8MWwZLnrR2n6xCfqo/edit?pli=1&gid=1340546075#gid=1340546075&range=J:J
+・[目標値集計シート_]E列のアクションシートの貼り付け
+　　・[セッション実施状況管理] のuser ID
+　　・[セッション実施状況管理] の在学状況ステータス
+🫡更新のお願い
+①-1投稿数：
+https://docs.google.com/spreadsheets/d/1jzfbjqwRrW9_JIa6JUVyCe3uRY8MWwZLnrR2n6xCfqo/edit?pli=1&gid=1872736964#gid=1872736964&range=P:V
+①-2アカウント開始時投稿数：
+https://docs.google.com/spreadsheets/d/1jzfbjqwRrW9_JIa6JUVyCe3uRY8MWwZLnrR2n6xCfqo/edit?pli=1&gid=1872736964#gid=1872736964&range=L:L
+②アクション数：
+https://docs.google.com/spreadsheets/d/1jzfbjqwRrW9_JIa6JUVyCe3uRY8MWwZLnrR2n6xCfqo/edit?pli=1&gid=937556585#gid=937556585&range=S:Y

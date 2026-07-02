@@ -1,7 +1,7 @@
 # チームMTG
 
-Notion URL: https://app.notion.com/p/MTG-375f3b0fba85805f9014ddbe11f2b8b7
-同期日時: 2026-06-04T10:20:06+09:00
+Notion URL: https://app.notion.com/p/MTG-540f3b0fba8583edb78d8110c92d9a0c
+同期日時: 2026-07-02T15:54:04+09:00
 
 ---
 

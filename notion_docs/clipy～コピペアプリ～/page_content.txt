@@ -1,7 +1,7 @@
 # clipy～コピペアプリ～
 
-Notion URL: https://www.notion.so/clipy-317f3b0fba8580bf93c5ccb0c21c84d2
-同期日時: 2026-03-07T21:14:40+09:00
+Notion URL: https://app.notion.com/p/clipy-b60f3b0fba8582b7be4001888e1810bf
+同期日時: 2026-07-02T15:48:46+09:00
 
 ---
 

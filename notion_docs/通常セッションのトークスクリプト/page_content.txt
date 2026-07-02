@@ -1,7 +1,7 @@
 # 通常セッションのトークスクリプト
 
-Notion URL: https://www.notion.so/34ef3b0fba8580a79d3ce9596470de4d
-同期日時: 2026-04-26T21:25:17+09:00
+Notion URL: https://app.notion.com/p/f86f3b0fba8582adaf7101cb1ff8ec17
+同期日時: 2026-07-02T15:50:32+09:00
 
 ---
 

@@ -1,7 +1,7 @@
 # 初回セッションがキャンセルになったら
 
-Notion URL: https://www.notion.so/32df3b0fba8580e68057c17957e83271
-同期日時: 2026-04-03T21:24:16+09:00
+Notion URL: https://app.notion.com/p/116f3b0fba85826e94f9813f36ef7b83
+同期日時: 2026-07-02T15:53:21+09:00
 
 ---
 

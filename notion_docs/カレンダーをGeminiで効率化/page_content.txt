@@ -1,7 +1,7 @@
 # カレンダーをGeminiで効率化
 
-Notion URL: https://www.notion.so/Gemini-32ff3b0fba8580eb9ec8ca6557b4f1f7
-同期日時: 2026-03-27T15:50:57+09:00
+Notion URL: https://app.notion.com/p/Gemini-6eaf3b0fba8582dc866d814bd4a8c32a
+同期日時: 2026-07-02T15:54:06+09:00
 
 ---
 

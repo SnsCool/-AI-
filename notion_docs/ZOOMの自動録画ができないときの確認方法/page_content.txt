@@ -1,7 +1,7 @@
 # ZOOMの自動録画ができないときの確認方法
 
-Notion URL: https://app.notion.com/p/ZOOM-341f3b0fba8580c396a0cf67ba5f4c31
-同期日時: 2026-04-14T21:36:58+09:00
+Notion URL: https://app.notion.com/p/ZOOM-9b3f3b0fba8582aaacba0119f495aa94
+同期日時: 2026-07-02T15:54:18+09:00
 
 ---
 
