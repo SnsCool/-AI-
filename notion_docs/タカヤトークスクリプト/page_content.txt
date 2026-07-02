@@ -1,7 +1,7 @@
 # タカヤトークスクリプト
 
-Notion URL: https://www.notion.so/337f3b0fba8580b897f1dac8e2df281a
-同期日時: 2026-04-03T18:28:35+09:00
+Notion URL: https://app.notion.com/p/561f3b0fba8582c8b59981f1c0227e7a
+同期日時: 2026-07-02T20:42:43+09:00
 
 ---
 

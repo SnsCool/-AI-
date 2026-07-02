@@ -1,7 +1,7 @@
 # 1on1予約スタート
 
-Notion URL: https://app.notion.com/p/1on1-695f3b0fba85830db6bb01ba9a2d7d43
-同期日時: 2026-07-02T15:53:47+09:00
+Notion URL: https://app.notion.com/p/1on1-181f3b0fba8582219b3801ea7bfef670
+同期日時: 2026-07-02T20:40:56+09:00
 
 ---
 

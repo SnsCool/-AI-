@@ -1,7 +1,7 @@
 # 請求書締切：2月15日日曜日23時59分まで
 
-Notion URL: https://app.notion.com/p/2-15-23-59-f88f3b0fba8582078aa001ef126fafb3
-同期日時: 2026-07-02T15:53:48+09:00
+Notion URL: https://app.notion.com/p/2-15-23-59-b29f3b0fba8583049e66016bd49132cf
+同期日時: 2026-07-02T20:40:39+09:00
 
 ---
 

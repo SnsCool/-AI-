@@ -1,8 +1,11 @@
 # せりなチームHOME
 
-Notion URL: https://app.notion.com/p/HOME-390f3b0fba8580dfab33e13f4354a146
-同期日時: 2026-07-02T03:50:27+09:00
+Notion URL: https://app.notion.com/p/HOME-391f3b0fba8580649a11eacd5fa76cc9
+同期日時: 2026-07-02T20:41:59+09:00
 
 ---
 
-(コンテンツなし)
+チームのビジョン： 
+今月のお知らせ
+https://script.google.com/macros/s/AKfycbwS0mv8IJkOYZ9g96rMoEAM47_GI7u0C9_okKlQcITPBHfcUVM9uPl1Eys7F7p3OIgD/exec　：新FAQ　　　FAQ（よくある質問） 　：旧FAQ
+データ分析

@@ -1,7 +1,7 @@
 # きみえトークスクリプト 
 
-Notion URL: https://www.notion.so/336f3b0fba8580caacb0cc29cfa53073
-同期日時: 2026-04-03T09:47:32+09:00
+Notion URL: https://app.notion.com/p/ef6f3b0fba858284bc1f819ae9fab5ce
+同期日時: 2026-07-02T20:42:45+09:00
 
 ---
 

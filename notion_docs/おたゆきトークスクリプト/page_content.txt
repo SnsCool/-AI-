@@ -1,7 +1,7 @@
 # おたゆきトークスクリプト
 
-Notion URL: https://www.notion.so/337f3b0fba8580a59530c9048e19bb4e
-同期日時: 2026-04-03T18:27:21+09:00
+Notion URL: https://app.notion.com/p/202f3b0fba8583fdaee081106c65a486
+同期日時: 2026-07-02T20:42:43+09:00
 
 ---
 

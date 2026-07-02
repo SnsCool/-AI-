@@ -1,7 +1,7 @@
 # チームMTG用FB動画提出
 
-Notion URL: https://app.notion.com/p/MTG-FB-ba6f3b0fba85825da52d81217ea7bac8
-同期日時: 2026-07-02T15:53:39+09:00
+Notion URL: https://app.notion.com/p/MTG-FB-c51f3b0fba8583b0927201652410f220
+同期日時: 2026-07-02T20:40:55+09:00
 
 ---
 
