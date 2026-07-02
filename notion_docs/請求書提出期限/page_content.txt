@@ -1,7 +1,7 @@
 # 請求書提出期限
 
-Notion URL: https://app.notion.com/p/820f3b0fba8583febce481186dda7de5
-同期日時: 2026-07-02T20:40:54+09:00
+Notion URL: https://app.notion.com/p/55ef3b0fba8582bfad2c810dd9398093
+同期日時: 2026-07-03T07:12:13+09:00
 
 ---
 
